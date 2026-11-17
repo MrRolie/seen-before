@@ -1,0 +1,336 @@
+{
+ "shown": [
+  "PowerToys#10685",
+  "PowerToys#11606",
+  "PowerToys#12712",
+  "PowerToys#14117",
+  "PowerToys#15376",
+  "PowerToys#21850",
+  "PowerToys#2215",
+  "PowerToys#25034",
+  "PowerToys#2543",
+  "PowerToys#26330",
+  "PowerToys#2779",
+  "PowerToys#27991",
+  "PowerToys#31173",
+  "PowerToys#32164",
+  "PowerToys#3227",
+  "PowerToys#3294",
+  "PowerToys#3546",
+  "PowerToys#3628",
+  "PowerToys#37519",
+  "PowerToys#38065",
+  "PowerToys#38837",
+  "PowerToys#40966",
+  "PowerToys#44306",
+  "PowerToys#4630",
+  "PowerToys#4714",
+  "PowerToys#4728",
+  "PowerToys#4729",
+  "PowerToys#4879",
+  "PowerToys#5141",
+  "PowerToys#5670",
+  "PowerToys#5722",
+  "PowerToys#7007",
+  "PowerToys#7956",
+  "PowerToys#8198",
+  "PowerToys#9209",
+  "PowerToys#9360",
+  "PowerToys#9946"
+ ],
+ "retrieval_seconds": 3.5461267779464833,
+ "tool_calls": [
+  {
+   "t": 1794876529.0770211,
+   "tool": "search",
+   "args": {
+    "query": "Keyboard Manager disabled shortcut alt+tab still works when pressing another key with it",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.5329711659869645,
+   "returned": [
+    "PowerToys#7007",
+    "PowerToys#25034",
+    "PowerToys#38837",
+    "PowerToys#27991",
+    "PowerToys#40966",
+    "PowerToys#44306",
+    "PowerToys#8198",
+    "PowerToys#32164",
+    "PowerToys#10685",
+    "PowerToys#3227",
+    "PowerToys#3546",
+    "PowerToys#4728",
+    "PowerToys#4714",
+    "PowerToys#31173",
+    "PowerToys#15376",
+    "PowerToys#14117",
+    "PowerToys#3294",
+    "PowerToys#38065",
+    "PowerToys#37519",
+    "PowerToys#3628"
+   ]
+  },
+  {
+   "t": 1794876529.1031137,
+   "tool": "search",
+   "args": {
+    "query": "remap shortcut to Disable, holding Alt+Tab then pressing extra key activates it",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012514208996435627,
+   "returned": [
+    "PowerToys#5670",
+    "PowerToys#2543",
+    "PowerToys#4729",
+    "PowerToys#5141",
+    "PowerToys#11606",
+    "PowerToys#15376",
+    "PowerToys#5722",
+    "PowerToys#9360",
+    "PowerToys#10685",
+    "PowerToys#3227",
+    "PowerToys#26330",
+    "PowerToys#4879",
+    "PowerToys#9946",
+    "PowerToys#2215",
+    "PowerToys#4630",
+    "PowerToys#2779",
+    "PowerToys#4714",
+    "PowerToys#7956",
+    "PowerToys#12712",
+    "PowerToys#9209"
+   ]
+  },
+  {
+   "t": 1794876530.9420872,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#25034"
+   },
+   "seconds": 0.00014042598195374012,
+   "returned": [
+    "PowerToys#25034"
+   ]
+  },
+  {
+   "t": 1794876530.9543102,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44306"
+   },
+   "seconds": 0.00012963698827661574,
+   "returned": [
+    "PowerToys#44306"
+   ]
+  },
+  {
+   "t": 1794876531.045532,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40966"
+   },
+   "seconds": 0.00016013599815778434,
+   "returned": [
+    "PowerToys#40966"
+   ]
+  },
+  {
+   "t": 1794876532.3977997,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21850"
+   },
+   "seconds": 0.0002112039946950972,
+   "returned": [
+    "PowerToys#21850"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9889,
+  "stop_reason": "end_turn",
+  "session_id": "6914d36c-f932-4e1e-bfbd-af558a9a1f46",
+  "total_cost_usd": 0.042520800000000004,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 8252,
+   "cache_read_input_tokens": 15368,
+   "output_tokens": 796,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8252,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 347,
+     "cache_read_input_tokens": 8159,
+     "cache_creation_input_tokens": 1126,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1126
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 796,
+    "cacheReadInputTokens": 15368,
+    "cacheCreationInputTokens": 8252,
+    "webSearchRequests": 0,
+    "costUSD": 0.042520800000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8252,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#44306\", \"PowerToys#25034\", \"PowerToys#21850\"], \"answer\": \"This has been reported before. It is a known limitation of Keyboard Manager, and the archive shows no fix. A disabled shortcut only blocks that exact key combination. If you hold Alt+Tab and press another key such as W, the combination no longer matches the remap, so Windows handles Alt+Tab normally. In PowerToys#44306 a commenter said this is by design. PowerToys#25034 was closed as a duplicate of PowerToys#21850, which is the open request for a 'fallthrough' option that would also block these extra-key combinations. The only workaround in those tickets is to add a separate Disabled remap for each specific combination, for example Alt+W+Tab. That covers combinations of up to 3 keys, because shortcuts are limited to 2 modifiers plus 1 action key. It can't cover every combination. You can follow or upvote PowerToys#21850 to ask for a proper fix.\"}",
+  "ttft_ms": 2653,
+  "type": "result",
+  "duration_ms": 13509,
+  "uuid": "bf6650a0-8bf6-4a6e-b77d-8e8cce1b2f95",
+  "ttft_stream_ms": 1313,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 1313,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 796,
+    "cacheReadInputTokens": 15368,
+    "cacheCreationInputTokens": 8252,
+    "webSearchRequests": 0,
+    "costUSD": 0.042520800000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8252,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.863509878021432,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-n1osryr5/work"
+  }
+ },
+ "wall_seconds": 14.86537446299917,
+ "qid": "PowerToys#49989",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#44306",
+   "PowerToys#25034",
+   "PowerToys#21850"
+  ],
+  "answer": "This has been reported before. It is a known limitation of Keyboard Manager, and the archive shows no fix. A disabled shortcut only blocks that exact key combination. If you hold Alt+Tab and press another key such as W, the combination no longer matches the remap, so Windows handles Alt+Tab normally. In PowerToys#44306 a commenter said this is by design. PowerToys#25034 was closed as a duplicate of PowerToys#21850, which is the open request for a 'fallthrough' option that would also block these extra-key combinations. The only workaround in those tickets is to add a separate Disabled remap for each specific combination, for example Alt+W+Tab. That covers combinations of up to 3 keys, because shortcuts are limited to 2 modifiers plus 1 action key. It can't cover every combination. You can follow or upvote PowerToys#21850 to ask for a proper fix."
+ },
+ "hit_turn_cap": false
+}

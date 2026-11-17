@@ -1,0 +1,366 @@
+{
+ "shown": [
+  "PowerToys#10056",
+  "PowerToys#10126",
+  "PowerToys#11984",
+  "PowerToys#1559",
+  "PowerToys#158",
+  "PowerToys#1878",
+  "PowerToys#202",
+  "PowerToys#21544",
+  "PowerToys#23867",
+  "PowerToys#2403",
+  "PowerToys#2730",
+  "PowerToys#2761",
+  "PowerToys#2843",
+  "PowerToys#2887",
+  "PowerToys#2894",
+  "PowerToys#29085",
+  "PowerToys#3170",
+  "PowerToys#34525",
+  "PowerToys#35616",
+  "PowerToys#3878",
+  "PowerToys#40652",
+  "PowerToys#411",
+  "PowerToys#4152",
+  "PowerToys#41652",
+  "PowerToys#44180",
+  "PowerToys#4473",
+  "PowerToys#4509",
+  "PowerToys#497",
+  "PowerToys#602",
+  "PowerToys#6904",
+  "PowerToys#7981",
+  "PowerToys#8221",
+  "PowerToys#850",
+  "PowerToys#9707"
+ ],
+ "retrieval_seconds": 4.102996013010852,
+ "tool_calls": [
+  {
+   "t": 1794877192.5311906,
+   "tool": "search",
+   "args": {
+    "query": "choose which utilities to install in installer; uninstall individual modules to reduce size",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.086350730998674,
+   "returned": [
+    "PowerToys#1559",
+    "PowerToys#9707",
+    "PowerToys#40652",
+    "PowerToys#44180",
+    "PowerToys#2403",
+    "PowerToys#6904",
+    "PowerToys#23867",
+    "PowerToys#10126",
+    "PowerToys#2730",
+    "PowerToys#2887",
+    "PowerToys#411",
+    "PowerToys#202",
+    "PowerToys#21544",
+    "PowerToys#34525",
+    "PowerToys#35616",
+    "PowerToys#29085",
+    "PowerToys#10056",
+    "PowerToys#41652",
+    "PowerToys#158",
+    "PowerToys#2761"
+   ]
+  },
+  {
+   "t": 1794877192.5652251,
+   "tool": "search",
+   "args": {
+    "query": "PowerToys too large, optional components selection during setup",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.01566417800495401,
+   "returned": [
+    "PowerToys#11984",
+    "PowerToys#1559",
+    "PowerToys#2403",
+    "PowerToys#497",
+    "PowerToys#4473",
+    "PowerToys#411",
+    "PowerToys#4509",
+    "PowerToys#4152",
+    "PowerToys#9707",
+    "PowerToys#21544",
+    "PowerToys#850",
+    "PowerToys#2894",
+    "PowerToys#2843",
+    "PowerToys#3878",
+    "PowerToys#6904",
+    "PowerToys#7981",
+    "PowerToys#3170",
+    "PowerToys#602",
+    "PowerToys#1878",
+    "PowerToys#8221"
+   ]
+  },
+  {
+   "t": 1794877194.7768784,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34525"
+   },
+   "seconds": 0.00011851699673570693,
+   "returned": [
+    "PowerToys#34525"
+   ]
+  },
+  {
+   "t": 1794877194.7872832,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35616"
+   },
+   "seconds": 0.00017135500092990696,
+   "returned": [
+    "PowerToys#35616"
+   ]
+  },
+  {
+   "t": 1794877194.926858,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#23867"
+   },
+   "seconds": 0.00012595602311193943,
+   "returned": [
+    "PowerToys#23867"
+   ]
+  },
+  {
+   "t": 1794877196.4600646,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#3170"
+   },
+   "seconds": 0.00014398701023310423,
+   "returned": [
+    "PowerToys#3170"
+   ]
+  },
+  {
+   "t": 1794877197.8769617,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#29085"
+   },
+   "seconds": 0.0001522559905424714,
+   "returned": [
+    "PowerToys#29085"
+   ]
+  },
+  {
+   "t": 1794877199.4037251,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#9707"
+   },
+   "seconds": 0.00014269599341787398,
+   "returned": [
+    "PowerToys#9707"
+   ]
+  },
+  {
+   "t": 1794877201.0810726,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#6904"
+   },
+   "seconds": 0.00012633699225261807,
+   "returned": [
+    "PowerToys#6904"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 14758,
+  "stop_reason": "end_turn",
+  "session_id": "fb5374b9-b05f-4200-a4ad-23d96d3755ae",
+  "total_cost_usd": 0.05321950000000001,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 9859,
+   "cache_read_input_tokens": 40655,
+   "output_tokens": 969,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9859,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 324,
+     "cache_read_input_tokens": 9796,
+     "cache_creation_input_tokens": 1096,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1096
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 969,
+    "cacheReadInputTokens": 40655,
+    "cacheCreationInputTokens": 9859,
+    "webSearchRequests": 0,
+    "costUSD": 0.05321950000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9859,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#3170\", \"PowerToys#34525\", \"PowerToys#35616\"], \"answer\": \"This feature request has been filed before. Selecting utilities in the installer, and uninstalling single modules afterwards, are both tracked in PowerToys#3170. Newer tickets that ask for the same thing (#35616, #9707) were closed as duplicates of it. #34525 makes the same size-driven request. The team has said it has no plans to ship a modular installer or per-module uninstall, because of the install and upgrade complications and the dependencies between modules. It is an open-source project, so you can build a custom version with modules removed. The practical workaround is to disable the utilities you don't use in PowerToys Settings. Admins can disable individual utilities with the PowerToys Group Policy files. Disabling a utility does not free its disk space. Add your use case, such as the size of ZoomIt, to #3170 instead of keeping this ticket open.\"}",
+  "ttft_ms": 2737,
+  "type": "result",
+  "duration_ms": 18985,
+  "uuid": "b3d06bb6-4a5e-4a98-bea3-56c89709f27c",
+  "ttft_stream_ms": 1455,
+  "time_to_request_ms": 43,
+  "first_content_frame_ms": 1456,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 969,
+    "cacheReadInputTokens": 40655,
+    "cacheCreationInputTokens": 9859,
+    "webSearchRequests": 0,
+    "costUSD": 0.05321950000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9859,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 20.473922349017812,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ry7b5tqw/work"
+  }
+ },
+ "wall_seconds": 20.476685212983284,
+ "qid": "PowerToys#51560",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#3170",
+   "PowerToys#34525",
+   "PowerToys#35616"
+  ],
+  "answer": "This feature request has been filed before. Selecting utilities in the installer, and uninstalling single modules afterwards, are both tracked in PowerToys#3170. Newer tickets that ask for the same thing (#35616, #9707) were closed as duplicates of it. #34525 makes the same size-driven request. The team has said it has no plans to ship a modular installer or per-module uninstall, because of the install and upgrade complications and the dependencies between modules. It is an open-source project, so you can build a custom version with modules removed. The practical workaround is to disable the utilities you don't use in PowerToys Settings. Admins can disable individual utilities with the PowerToys Group Policy files. Disabling a utility does not free its disk space. Add your use case, such as the size of ZoomIt, to #3170 instead of keeping this ticket open."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,315 @@
+{
+ "shown": [
+  "PowerToys#1052",
+  "PowerToys#19940",
+  "PowerToys#25595",
+  "PowerToys#43345",
+  "PowerToys#47278",
+  "PowerToys#47290",
+  "PowerToys#47308",
+  "PowerToys#47556",
+  "PowerToys#47599",
+  "PowerToys#47654",
+  "PowerToys#47923",
+  "PowerToys#47951",
+  "PowerToys#48132",
+  "PowerToys#48721",
+  "PowerToys#48774"
+ ],
+ "retrieval_seconds": 0.8666651250096038,
+ "tool_calls": [
+  {
+   "t": 1794881369.47859,
+   "tool": "search",
+   "args": {
+    "pattern": "Power Display",
+    "regex": false,
+    "also": [
+     "sleep"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.21556713699828833,
+   "returned": [
+    "PowerToys#47556",
+    "PowerToys#47290",
+    "PowerToys#48774",
+    "PowerToys#48132",
+    "PowerToys#47923",
+    "PowerToys#47951",
+    "PowerToys#47654",
+    "PowerToys#47599",
+    "PowerToys#47278",
+    "PowerToys#48721",
+    "PowerToys#47308"
+   ]
+  },
+  {
+   "t": 1794881369.6083653,
+   "tool": "search",
+   "args": {
+    "pattern": "PowerDisplay profile wake",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10560995398554951,
+   "returned": []
+  },
+  {
+   "t": 1794881370.4618201,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48774"
+   },
+   "seconds": 0.00011479700333438814,
+   "returned": [
+    "PowerToys#48774"
+   ]
+  },
+  {
+   "t": 1794881370.577138,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47951"
+   },
+   "seconds": 0.00013362697791308165,
+   "returned": [
+    "PowerToys#47951"
+   ]
+  },
+  {
+   "t": 1794881372.0828981,
+   "tool": "search",
+   "args": {
+    "pattern": "profile",
+    "regex": false,
+    "also": [
+     "Power Display",
+     "wake"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.28987556701758876,
+   "returned": [
+    "PowerToys#48774"
+   ]
+  },
+  {
+   "t": 1794881372.217182,
+   "tool": "search",
+   "args": {
+    "pattern": "switches to another profile",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.10463240800891072,
+   "returned": []
+  },
+  {
+   "t": 1794881373.4909213,
+   "tool": "search",
+   "args": {
+    "pattern": "brightness",
+    "regex": false,
+    "also": [
+     "profile",
+     "sleep"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.150731635018019,
+   "returned": [
+    "PowerToys#25595",
+    "PowerToys#1052",
+    "PowerToys#47290",
+    "PowerToys#47556",
+    "PowerToys#19940",
+    "PowerToys#43345"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7284,
+  "stop_reason": "end_turn",
+  "session_id": "93e90d11-3f43-41eb-b487-48b984350e44",
+  "total_cost_usd": 0.033380099999999996,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 5785,
+   "cache_read_input_tokens": 17901,
+   "output_tokens": 843,
+   "output_tokens_details": {
+    "thinking_tokens": 11
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5785,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 236,
+     "cache_read_input_tokens": 5598,
+     "cache_creation_input_tokens": 1364,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1364
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 843,
+    "cacheReadInputTokens": 17901,
+    "cacheCreationInputTokens": 5785,
+    "webSearchRequests": 0,
+    "costUSD": 0.033380099999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 11,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5785,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this exact problem. Power Display switching to a different profile after the laptop wakes from sleep isn't reported in the archive. Two related tickets are about different problems. PowerToys#48774 is about a Light Switch-linked profile not being applied on wake, and PowerToys#47951 is about Power Display not working after wake. Please file this as a new bug. Include the PowerToys bug report ZIP, your dock and monitor setup, and whether the 'switch profiles when theme changes' option or a Light Switch schedule is enabled. That option could be what changes the profile on wake, so try turning it off to see if the profile then stays put.\"}",
+  "ttft_ms": 1406,
+  "type": "result",
+  "duration_ms": 8095,
+  "uuid": "d3b0df99-eed0-477e-bba2-ad2c5c4f73d3",
+  "ttft_stream_ms": 552,
+  "time_to_request_ms": 33,
+  "first_content_frame_ms": 552,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 843,
+    "cacheReadInputTokens": 17901,
+    "cacheCreationInputTokens": 5785,
+    "webSearchRequests": 0,
+    "costUSD": 0.033380099999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 11,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5785,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 9.542048028000863,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-9ga_o940/work"
+  }
+ },
+ "wall_seconds": 9.544402887986507,
+ "qid": "PowerToys#50083",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this exact problem. Power Display switching to a different profile after the laptop wakes from sleep isn't reported in the archive. Two related tickets are about different problems. PowerToys#48774 is about a Light Switch-linked profile not being applied on wake, and PowerToys#47951 is about Power Display not working after wake. Please file this as a new bug. Include the PowerToys bug report ZIP, your dock and monitor setup, and whether the 'switch profiles when theme changes' option or a Light Switch schedule is enabled. That option could be what changes the profile on wake, so try turning it off to see if the profile then stays put."
+ },
+ "hit_turn_cap": false
+}

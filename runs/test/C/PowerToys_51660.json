@@ -1,0 +1,351 @@
+{
+ "shown": [
+  "PowerToys#10384",
+  "PowerToys#11459",
+  "PowerToys#115",
+  "PowerToys#11882",
+  "PowerToys#13014",
+  "PowerToys#176",
+  "PowerToys#19079",
+  "PowerToys#21241",
+  "PowerToys#28",
+  "PowerToys#2828",
+  "PowerToys#28718",
+  "PowerToys#2911",
+  "PowerToys#30",
+  "PowerToys#310",
+  "PowerToys#34950",
+  "PowerToys#3684",
+  "PowerToys#3885",
+  "PowerToys#46333",
+  "PowerToys#4783",
+  "PowerToys#48316",
+  "PowerToys#48402",
+  "PowerToys#48566",
+  "PowerToys#497",
+  "PowerToys#5063",
+  "PowerToys#5541",
+  "PowerToys#5780",
+  "PowerToys#9258",
+  "PowerToys#9733",
+  "terminal#1178",
+  "terminal#13573"
+ ],
+ "retrieval_seconds": 3.991187240986619,
+ "tool_calls": [
+  {
+   "t": 1794884746.6225057,
+   "tool": "search",
+   "args": {
+    "query": "hide windows from screen sharing",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.978118472994538,
+   "returned": [
+    "PowerToys#11882",
+    "PowerToys#9258",
+    "PowerToys#176",
+    "PowerToys#10384",
+    "PowerToys#13014",
+    "PowerToys#9733",
+    "PowerToys#11459",
+    "PowerToys#2828",
+    "PowerToys#497",
+    "PowerToys#30",
+    "PowerToys#34950",
+    "PowerToys#28",
+    "PowerToys#310",
+    "PowerToys#2911",
+    "PowerToys#48566",
+    "PowerToys#5780",
+    "PowerToys#115",
+    "PowerToys#3684",
+    "PowerToys#4783",
+    "PowerToys#5063"
+   ]
+  },
+  {
+   "t": 1794884746.6488416,
+   "tool": "search",
+   "args": {
+    "query": "stealth feature hide sensitive window from screen capture during screenshare",
+    "repo": null
+   },
+   "seconds": 0.01217998200445436,
+   "returned": [
+    "PowerToys#21241",
+    "PowerToys#34950",
+    "PowerToys#5063",
+    "PowerToys#11882",
+    "PowerToys#46333",
+    "PowerToys#48316",
+    "PowerToys#9258",
+    "PowerToys#48566",
+    "PowerToys#176",
+    "terminal#13573",
+    "PowerToys#11459",
+    "PowerToys#10384",
+    "PowerToys#19079",
+    "PowerToys#5541",
+    "PowerToys#3684",
+    "PowerToys#2828",
+    "PowerToys#3885",
+    "PowerToys#28718",
+    "PowerToys#48402",
+    "terminal#1178"
+   ]
+  },
+  {
+   "t": 1794884748.2514906,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48566"
+   },
+   "seconds": 0.00013916700845584273,
+   "returned": [
+    "PowerToys#48566"
+   ]
+  },
+  {
+   "t": 1794884748.763201,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#11882"
+   },
+   "seconds": 0.00016047499957494438,
+   "returned": [
+    "PowerToys#11882"
+   ]
+  },
+  {
+   "t": 1794884748.7703066,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#19079"
+   },
+   "seconds": 0.0001199569960590452,
+   "returned": [
+    "PowerToys#19079"
+   ]
+  },
+  {
+   "t": 1794884748.7792299,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34950"
+   },
+   "seconds": 0.00013286698958836496,
+   "returned": [
+    "PowerToys#34950"
+   ]
+  },
+  {
+   "t": 1794884750.2838807,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46333"
+   },
+   "seconds": 0.00012997598969377577,
+   "returned": [
+    "PowerToys#46333"
+   ]
+  },
+  {
+   "t": 1794884751.7578483,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48316"
+   },
+   "seconds": 0.00020634400425478816,
+   "returned": [
+    "PowerToys#48316"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11656,
+  "stop_reason": "end_turn",
+  "session_id": "8ea071b5-ba67-472e-a384-5ce0cf0767bc",
+  "total_cost_usd": 0.048370399999999994,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 9298,
+   "cache_read_input_tokens": 23084,
+   "output_tokens": 885,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9298,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 355,
+     "cache_read_input_tokens": 9911,
+     "cache_creation_input_tokens": 420,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 420
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 885,
+    "cacheReadInputTokens": 23084,
+    "cacheCreationInputTokens": 9298,
+    "webSearchRequests": 0,
+    "costUSD": 0.048370399999999994,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9298,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46333\", \"PowerToys#48566\", \"PowerToys#34950\"], \"answer\": \"Other users have already requested this feature. It would let you hide chosen windows from screen sharing, recording and screenshots. The usual approach is the WDA_EXCLUDEFROMCAPTURE display affinity. PowerToys has no such utility today. The main tracking issue is PowerToys#46333 (\\\"Privacy Overlay\\\"). It proposes an Always-on-Top-style hotkey that excludes the selected window from capture. A contributor has posted a proof of concept there. PowerToys#48566 was closed as a duplicate of #46333. PowerToys#34950 (\\\"Window Masking\\\") asks for the same thing, though it was closed as a duplicate of an unrelated issue. Subscribe to or upvote #46333 to follow progress. Until it ships, share only the specific window or app you intend to show, not the whole screen. Third-party tools such as Invisiwind and winhider can also hide windows from capture.\"}",
+  "ttft_ms": 2071,
+  "type": "result",
+  "duration_ms": 15734,
+  "uuid": "92dbb953-db45-46ae-b97e-9d26cadcfa9a",
+  "ttft_stream_ms": 1100,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 1100,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 885,
+    "cacheReadInputTokens": 23084,
+    "cacheCreationInputTokens": 9298,
+    "webSearchRequests": 0,
+    "costUSD": 0.048370399999999994,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9298,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 17.08356561101391,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-tihy45s_/work"
+  }
+ },
+ "wall_seconds": 17.086022275005234,
+ "qid": "PowerToys#51660",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46333",
+   "PowerToys#48566",
+   "PowerToys#34950"
+  ],
+  "answer": "Other users have already requested this feature. It would let you hide chosen windows from screen sharing, recording and screenshots. The usual approach is the WDA_EXCLUDEFROMCAPTURE display affinity. PowerToys has no such utility today. The main tracking issue is PowerToys#46333 (\"Privacy Overlay\"). It proposes an Always-on-Top-style hotkey that excludes the selected window from capture. A contributor has posted a proof of concept there. PowerToys#48566 was closed as a duplicate of #46333. PowerToys#34950 (\"Window Masking\") asks for the same thing, though it was closed as a duplicate of an unrelated issue. Subscribe to or upvote #46333 to follow progress. Until it ships, share only the specific window or app you intend to show, not the whole screen. Third-party tools such as Invisiwind and winhider can also hide windows from capture."
+ },
+ "hit_turn_cap": false
+}

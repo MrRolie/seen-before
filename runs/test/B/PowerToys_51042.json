@@ -1,0 +1,280 @@
+{
+ "shown": [
+  "PowerToys#48445",
+  "PowerToys#48595"
+ ],
+ "retrieval_seconds": 0.43712060194229707,
+ "tool_calls": [
+  {
+   "t": 1794883805.7453716,
+   "tool": "search",
+   "args": {
+    "pattern": "TestListFilesEnvVar",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07533079199492931,
+   "returned": []
+  },
+  {
+   "t": 1794883806.0241692,
+   "tool": "search",
+   "args": {
+    "pattern": "RunPageTests",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05753587299841456,
+   "returned": []
+  },
+  {
+   "t": 1794883806.9756038,
+   "tool": "search",
+   "args": {
+    "pattern": "RunListPage",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.05583746999036521,
+   "returned": [
+    "PowerToys#48595"
+   ]
+  },
+  {
+   "t": 1794883807.2436175,
+   "tool": "search",
+   "args": {
+    "pattern": "ParseCommandline",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07238180300919339,
+   "returned": []
+  },
+  {
+   "t": 1794883807.4253914,
+   "tool": "search",
+   "args": {
+    "pattern": "CmdPal flaky test",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.05012347697629593,
+   "returned": []
+  },
+  {
+   "t": 1794883808.598779,
+   "tool": "search",
+   "args": {
+    "pattern": "Assert.AreEqual failed",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04686562699498609,
+   "returned": []
+  },
+  {
+   "t": 1794883810.5666502,
+   "tool": "search",
+   "args": {
+    "pattern": "RunHistory",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07904555997811258,
+   "returned": [
+    "PowerToys#48595",
+    "PowerToys#48445"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7645,
+  "stop_reason": "end_turn",
+  "session_id": "d43f87a3-9d88-4df8-ac23-a45c86ebe442",
+  "total_cost_usd": 0.020829800000000002,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 2569,
+   "cache_read_input_tokens": 14298,
+   "output_tokens": 910,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 2569,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 267,
+     "cache_read_input_tokens": 3242,
+     "cache_creation_input_tokens": 504,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 504
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 910,
+    "cacheReadInputTokens": 14298,
+    "cacheCreationInputTokens": 2569,
+    "webSearchRequests": 0,
+    "costUSD": 0.020829800000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2569,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket that reports this problem. I searched on TestListFilesEnvVar, RunPageTests, RunListPage, ParseCommandline and the assertion text. The only Run-extension tickets were PowerToys#48595 and #48445, and both are runtime crashes in the Run commands extension, not a flaky unit test. This looks like a new test-stability issue. The test's IRunHistoryService mock calls the real RunHistory.ParseCommandline, which can take longer than RunListPage's 200 ms parsing deadline on a slow CI machine. When it does, the page returns no items. The fix is to make the mock return a deterministic result instead of calling the real parser, or to make the deadline injectable so the test can use a longer one.\"}",
+  "ttft_ms": 851,
+  "type": "result",
+  "duration_ms": 7918,
+  "uuid": "dc46fbb8-e334-407c-bb0b-edb2a5276804",
+  "ttft_stream_ms": 572,
+  "time_to_request_ms": 38,
+  "first_content_frame_ms": 572,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 910,
+    "cacheReadInputTokens": 14298,
+    "cacheCreationInputTokens": 2569,
+    "webSearchRequests": 0,
+    "costUSD": 0.020829800000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2569,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 9.375669558998197,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-5gxybcoo/work"
+  }
+ },
+ "wall_seconds": 9.377276144019561,
+ "qid": "PowerToys#51042",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket that reports this problem. I searched on TestListFilesEnvVar, RunPageTests, RunListPage, ParseCommandline and the assertion text. The only Run-extension tickets were PowerToys#48595 and #48445, and both are runtime crashes in the Run commands extension, not a flaky unit test. This looks like a new test-stability issue. The test's IRunHistoryService mock calls the real RunHistory.ParseCommandline, which can take longer than RunListPage's 200 ms parsing deadline on a slow CI machine. When it does, the page returns no items. The fix is to make the mock return a deterministic result instead of calling the real parser, or to make the deadline injectable so the test can use a longer one."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#46625",
+  "PowerToys#47942",
+  "PowerToys#40886",
+  "PowerToys#48725",
+  "PowerToys#47145"
+ ],
+ "retrieval_seconds": 0.3481845560017973,
+ "retrieval_scores": [
+  0.02523465148484382,
+  0.023063200815494393,
+  0.021762270845653457,
+  0.01639344262295082,
+  0.01639344262295082
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2170,
+  "stop_reason": "end_turn",
+  "session_id": "7400dc20-4d1b-4764-8dc6-9e10e5839f07",
+  "total_cost_usd": 0.02748,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6234,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 254,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6234,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 254,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6234,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6234
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 254,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6234,
+    "webSearchRequests": 0,
+    "costUSD": 0.02748,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6234,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"No past ticket reports this exact problem. The new ticket says LocalKeyboardListener handles HC_NOREMOVE peek notifications as key events, so shortcuts can fire twice, and proposes processing only HC_ACTION. PowerToys#48725 is the closest, since it also describes a shortcut running twice (the context-item RequestedShortcut navigates twice). That ticket traces the cause to TryCommandKeybindingMessage being handled by both CommandBar and ContextMenu, not to the keyboard hook, so it is a different problem. This ticket should be triaged as new. The reporter could add reproduction steps, a specific shortcut that fires twice, and the expected and actual behavior.\"}",
+  "ttft_ms": 2335,
+  "type": "result",
+  "duration_ms": 2352,
+  "uuid": "fbc1ddf6-f67b-451b-aff4-1f2b7c752c7e",
+  "ttft_stream_ms": 674,
+  "time_to_request_ms": 181,
+  "first_content_frame_ms": 674,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 254,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6234,
+    "webSearchRequests": 0,
+    "costUSD": 0.02748,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6234,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.119676075002644,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-r2sywkbg/work"
+  }
+ },
+ "wall_seconds": 3.469478039012756,
+ "qid": "PowerToys#50426",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "No past ticket reports this exact problem. The new ticket says LocalKeyboardListener handles HC_NOREMOVE peek notifications as key events, so shortcuts can fire twice, and proposes processing only HC_ACTION. PowerToys#48725 is the closest, since it also describes a shortcut running twice (the context-item RequestedShortcut navigates twice). That ticket traces the cause to TryCommandKeybindingMessage being handled by both CommandBar and ContextMenu, not to the keyboard hook, so it is a different problem. This ticket should be triaged as new. The reporter could add reproduction steps, a specific shortcut that fires twice, and the expected and actual behavior."
+ },
+ "hit_turn_cap": false
+}

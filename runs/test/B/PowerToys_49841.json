@@ -1,0 +1,425 @@
+{
+ "shown": [
+  "PowerToys#11046",
+  "PowerToys#11139",
+  "PowerToys#11410",
+  "PowerToys#11734",
+  "PowerToys#11825",
+  "PowerToys#11960",
+  "PowerToys#12656",
+  "PowerToys#12847",
+  "PowerToys#13605",
+  "PowerToys#14535",
+  "PowerToys#1527",
+  "PowerToys#16173",
+  "PowerToys#16417",
+  "PowerToys#17788",
+  "PowerToys#17890",
+  "PowerToys#18015",
+  "PowerToys#18896",
+  "PowerToys#19781",
+  "PowerToys#20319",
+  "PowerToys#21405",
+  "PowerToys#21459",
+  "PowerToys#23231",
+  "PowerToys#23641",
+  "PowerToys#24036",
+  "PowerToys#24485",
+  "PowerToys#24846",
+  "PowerToys#25572",
+  "PowerToys#25595",
+  "PowerToys#26150",
+  "PowerToys#26391",
+  "PowerToys#26393",
+  "PowerToys#26509",
+  "PowerToys#27789",
+  "PowerToys#279",
+  "PowerToys#29087",
+  "PowerToys#30809",
+  "PowerToys#30976",
+  "PowerToys#31566",
+  "PowerToys#31708",
+  "PowerToys#32560",
+  "PowerToys#33774",
+  "PowerToys#3397",
+  "PowerToys#34444",
+  "PowerToys#3650",
+  "PowerToys#3826",
+  "PowerToys#38297",
+  "PowerToys#38650",
+  "PowerToys#38688",
+  "PowerToys#38985",
+  "PowerToys#39434",
+  "PowerToys#43392",
+  "PowerToys#43825",
+  "PowerToys#43874",
+  "PowerToys#58",
+  "PowerToys#6756",
+  "PowerToys#6976",
+  "PowerToys#7461",
+  "PowerToys#7677",
+  "PowerToys#8566",
+  "PowerToys#8693",
+  "PowerToys#9514",
+  "PowerToys#9767"
+ ],
+ "retrieval_seconds": 0.3308021310076583,
+ "tool_calls": [
+  {
+   "t": 1794879949.4223726,
+   "tool": "search",
+   "args": {
+    "pattern": "IME",
+    "regex": false,
+    "also": [
+     "mapping"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11230515199713409,
+   "returned": [
+    "PowerToys#18015",
+    "PowerToys#18896",
+    "PowerToys#25595",
+    "PowerToys#11410",
+    "PowerToys#11825",
+    "PowerToys#3650",
+    "PowerToys#3397",
+    "PowerToys#31708",
+    "PowerToys#24846",
+    "PowerToys#8693",
+    "PowerToys#26509",
+    "PowerToys#17788",
+    "PowerToys#58",
+    "PowerToys#23231",
+    "PowerToys#16173",
+    "PowerToys#279",
+    "PowerToys#33774",
+    "PowerToys#6756",
+    "PowerToys#1527",
+    "PowerToys#12656"
+   ]
+  },
+  {
+   "t": 1794879949.8638792,
+   "tool": "search",
+   "args": {
+    "pattern": "keyboard layout",
+    "regex": false,
+    "also": [
+     "remap",
+     "language"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.15925529701053165,
+   "returned": [
+    "PowerToys#6976",
+    "PowerToys#14535",
+    "PowerToys#43874",
+    "PowerToys#32560",
+    "PowerToys#21405",
+    "PowerToys#3826",
+    "PowerToys#38688",
+    "PowerToys#38297",
+    "PowerToys#26150",
+    "PowerToys#11960",
+    "PowerToys#11046",
+    "PowerToys#8566",
+    "PowerToys#31566",
+    "PowerToys#19781",
+    "PowerToys#16417",
+    "PowerToys#12847",
+    "PowerToys#11734",
+    "PowerToys#9514",
+    "PowerToys#7677",
+    "PowerToys#7461"
+   ]
+  },
+  {
+   "t": 1794879950.0291245,
+   "tool": "search",
+   "args": {
+    "pattern": "input method",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05834405598579906,
+   "returned": [
+    "PowerToys#30976",
+    "PowerToys#39434",
+    "PowerToys#30809",
+    "PowerToys#27789",
+    "PowerToys#34444",
+    "PowerToys#13605",
+    "PowerToys#43825",
+    "PowerToys#21459",
+    "PowerToys#20319",
+    "PowerToys#17890",
+    "PowerToys#43392",
+    "PowerToys#38985",
+    "PowerToys#38650",
+    "PowerToys#29087",
+    "PowerToys#26393",
+    "PowerToys#26391",
+    "PowerToys#25572",
+    "PowerToys#24485",
+    "PowerToys#24036",
+    "PowerToys#11139"
+   ]
+  },
+  {
+   "t": 1794879951.107644,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33774"
+   },
+   "seconds": 0.00017608501366339624,
+   "returned": [
+    "PowerToys#33774"
+   ]
+  },
+  {
+   "t": 1794879951.325805,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32560"
+   },
+   "seconds": 0.00013483702787198126,
+   "returned": [
+    "PowerToys#32560"
+   ]
+  },
+  {
+   "t": 1794879951.5131044,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#19781"
+   },
+   "seconds": 0.00013815698912367225,
+   "returned": [
+    "PowerToys#19781"
+   ]
+  },
+  {
+   "t": 1794879953.4340863,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#9767"
+   },
+   "seconds": 0.00011844700202345848,
+   "returned": [
+    "PowerToys#9767"
+   ]
+  },
+  {
+   "t": 1794879953.616086,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#23641"
+   },
+   "seconds": 0.00016368500655516982,
+   "returned": [
+    "PowerToys#23641"
+   ]
+  },
+  {
+   "t": 1794879954.4388666,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#3397"
+   },
+   "seconds": 0.0001664149749558419,
+   "returned": [
+    "PowerToys#3397"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10410,
+  "stop_reason": "end_turn",
+  "session_id": "6572dd02-14eb-4e58-916b-13f5c992008e",
+  "total_cost_usd": 0.11156699999999999,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 23567,
+   "cache_read_input_tokens": 59290,
+   "output_tokens": 1135,
+   "output_tokens_details": {
+    "thinking_tokens": 77
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 23567,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 367,
+     "cache_read_input_tokens": 21532,
+     "cache_creation_input_tokens": 3212,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3212
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1135,
+    "cacheReadInputTokens": 59290,
+    "cacheCreationInputTokens": 23567,
+    "webSearchRequests": 0,
+    "costUSD": 0.11156699999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 77,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 23567,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#9767\", \"PowerToys#19781\", \"PowerToys#23641\"], \"answer\": \"This request has been made before: Keyboard Manager remappings that apply only to a specific input language or keyboard layout. Today KBM remaps are global. They stay active whichever input language or IME you switch to. The archive has no fix or workaround that turns mappings on or off per layout. [user] noted on #19781 that KBM couldn't detect the language or layout. In #9767 [user] said recognizing the selected layout should be possible, but nothing was delivered. #19781 was later closed as a duplicate of #9767, and #23641 was closed as a duplicate of #33774 (KBM profiles mapped to IMEs). #32560, which asks for the same thing, was closed as a duplicate of #19781. Add a thumbs-up to #9767, the main open request, and describe your US-layout-only scenario there. Until it ships, you can turn the Keyboard Manager module off while you type in other languages, or use a custom keyboard layout instead of a remap.\"}",
+  "ttft_ms": 1821,
+  "type": "result",
+  "duration_ms": 10526,
+  "uuid": "8d3c28fa-3044-4705-9ba6-8b2c76366c11",
+  "ttft_stream_ms": 1171,
+  "time_to_request_ms": 35,
+  "first_content_frame_ms": 1171,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1135,
+    "cacheReadInputTokens": 59290,
+    "cacheCreationInputTokens": 23567,
+    "webSearchRequests": 0,
+    "costUSD": 0.11156699999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 77,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 23567,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.804243722988758,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-008b2psr/work"
+  }
+ },
+ "wall_seconds": 11.80615880098776,
+ "qid": "PowerToys#49841",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#9767",
+   "PowerToys#19781",
+   "PowerToys#23641"
+  ],
+  "answer": "This request has been made before: Keyboard Manager remappings that apply only to a specific input language or keyboard layout. Today KBM remaps are global. They stay active whichever input language or IME you switch to. The archive has no fix or workaround that turns mappings on or off per layout. [user] noted on #19781 that KBM couldn't detect the language or layout. In #9767 [user] said recognizing the selected layout should be possible, but nothing was delivered. #19781 was later closed as a duplicate of #9767, and #23641 was closed as a duplicate of #33774 (KBM profiles mapped to IMEs). #32560, which asks for the same thing, was closed as a duplicate of #19781. Add a thumbs-up to #9767, the main open request, and describe your US-layout-only scenario there. Until it ships, you can turn the Keyboard Manager module off while you type in other languages, or use a custom keyboard layout instead of a remap."
+ },
+ "hit_turn_cap": false
+}

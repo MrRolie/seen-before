@@ -1,0 +1,193 @@
+{
+ "shown": [
+  "PowerToys#21650",
+  "PowerToys#16011",
+  "PowerToys#25192",
+  "PowerToys#28052",
+  "PowerToys#22911"
+ ],
+ "retrieval_seconds": 0.6095926999987569,
+ "retrieval_scores": [
+  0.0304147465437788,
+  0.029857397504456328,
+  0.027757078986587184,
+  0.027479766610201392,
+  0.027071520029266508
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2927,
+  "stop_reason": "end_turn",
+  "session_id": "07d35f10-a246-4f0f-ade1-d36d48c8d746",
+  "total_cost_usd": 0.01956,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4179,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 284,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4179,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 284,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4179,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4179
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 284,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4179,
+    "webSearchRequests": 0,
+    "costUSD": 0.01956,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4179,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#25192\"], \"answer\": \"This has been requested before: PowerToys#25192 asks for a 'Copy as plain text' option instead of 'Paste as plain text', for cases where the target app (e.g. terminals) handles pasting differently. That ticket has no implemented feature or fix. The maintainers commented that people usually want plain text either as needed or always, and other users said they would like a Ctrl+Shift+C style shortcut. For now, the workarounds mentioned in the related tickets are to paste into a neutral text box (Notepad, or the Run dialog with Win+R, Ctrl+V, Ctrl+A, Ctrl+C) and copy again, or use the target app's own 'paste as plain text' function. You can add your use case, with the LibreOffice Writer detail, to #25192.\"}",
+  "ttft_ms": 3085,
+  "type": "result",
+  "duration_ms": 3101,
+  "uuid": "0d466075-7f8a-4533-85be-f699a6b605ee",
+  "ttft_stream_ms": 1160,
+  "time_to_request_ms": 174,
+  "first_content_frame_ms": 1161,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 284,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4179,
+    "webSearchRequests": 0,
+    "costUSD": 0.01956,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4179,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.9818359130003955,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ztc4vc4x/work"
+  }
+ },
+ "wall_seconds": 4.5932115459872875,
+ "qid": "PowerToys#49305",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#25192"
+  ],
+  "answer": "This has been requested before: PowerToys#25192 asks for a 'Copy as plain text' option instead of 'Paste as plain text', for cases where the target app (e.g. terminals) handles pasting differently. That ticket has no implemented feature or fix. The maintainers commented that people usually want plain text either as needed or always, and other users said they would like a Ctrl+Shift+C style shortcut. For now, the workarounds mentioned in the related tickets are to paste into a neutral text box (Notepad, or the Run dialog with Win+R, Ctrl+V, Ctrl+A, Ctrl+C) and copy again, or use the target app's own 'paste as plain text' function. You can add your use case, with the LibreOffice Writer detail, to #25192."
+ },
+ "hit_turn_cap": false
+}

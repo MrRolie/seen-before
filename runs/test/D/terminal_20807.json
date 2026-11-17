@@ -1,0 +1,382 @@
+{
+ "shown": [
+  "terminal#10226",
+  "terminal#11444",
+  "terminal#11701",
+  "terminal#12395",
+  "terminal#13446",
+  "terminal#1375",
+  "terminal#13842",
+  "terminal#14589",
+  "terminal#14968",
+  "terminal#15057",
+  "terminal#15113",
+  "terminal#18293",
+  "terminal#18582",
+  "terminal#1860",
+  "terminal#18880",
+  "terminal#18937",
+  "terminal#20342",
+  "terminal#277",
+  "terminal#281",
+  "terminal#3454",
+  "terminal#3878",
+  "terminal#4920",
+  "terminal#5027",
+  "terminal#6044",
+  "terminal#6565",
+  "terminal#6610",
+  "terminal#6815",
+  "terminal#7884",
+  "terminal#8894",
+  "terminal#9216",
+  "terminal#9217",
+  "terminal#9218",
+  "terminal#9346",
+  "terminal#9955"
+ ],
+ "retrieval_seconds": 3.8148626620532013,
+ "tool_calls": [
+  {
+   "t": 1794884238.3246417,
+   "tool": "search",
+   "args": {
+    "pattern": "scrollbar",
+    "regex": false,
+    "also": [
+     "width"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.0718317810096778,
+   "returned": [
+    "terminal#1860",
+    "terminal#9218",
+    "terminal#3878",
+    "terminal#18937",
+    "terminal#10226",
+    "terminal#1375",
+    "terminal#18582",
+    "terminal#15057",
+    "terminal#14968",
+    "terminal#8894",
+    "terminal#18880",
+    "terminal#15113",
+    "terminal#13446",
+    "terminal#11444",
+    "terminal#9955",
+    "terminal#18293",
+    "terminal#13842",
+    "terminal#12395",
+    "terminal#281",
+    "terminal#20342"
+   ]
+  },
+  {
+   "t": 1794884242.079666,
+   "tool": "similar",
+   "args": {
+    "query": "make scrollbar wider and always visible accessibility",
+    "repo": "terminal"
+   },
+   "seconds": 3.7415376419958193,
+   "returned": [
+    "terminal#6565",
+    "terminal#9216",
+    "terminal#6815",
+    "terminal#9217",
+    "terminal#18937",
+    "terminal#8894",
+    "terminal#6044",
+    "terminal#9218",
+    "terminal#3454",
+    "terminal#12395",
+    "terminal#7884",
+    "terminal#14589",
+    "terminal#5027",
+    "terminal#4920",
+    "terminal#15113",
+    "terminal#6610",
+    "terminal#14968",
+    "terminal#11701",
+    "terminal#277",
+    "terminal#9346"
+   ]
+  },
+  {
+   "t": 1794884242.091147,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18937"
+   },
+   "seconds": 0.00023470300948247313,
+   "returned": [
+    "terminal#18937"
+   ]
+  },
+  {
+   "t": 1794884244.0759914,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#6565"
+   },
+   "seconds": 0.0002082450082525611,
+   "returned": [
+    "terminal#6565"
+   ]
+  },
+  {
+   "t": 1794884244.0875552,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#12395"
+   },
+   "seconds": 0.00021918400307185948,
+   "returned": [
+    "terminal#12395"
+   ]
+  },
+  {
+   "t": 1794884244.218579,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#6815"
+   },
+   "seconds": 0.00015155499568209052,
+   "returned": [
+    "terminal#6815"
+   ]
+  },
+  {
+   "t": 1794884245.652571,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#9218"
+   },
+   "seconds": 0.00018923502648249269,
+   "returned": [
+    "terminal#9218"
+   ]
+  },
+  {
+   "t": 1794884245.7889853,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#3454"
+   },
+   "seconds": 0.00021676401956938207,
+   "returned": [
+    "terminal#3454"
+   ]
+  },
+  {
+   "t": 1794884247.2354739,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#14589"
+   },
+   "seconds": 0.00012881698785349727,
+   "returned": [
+    "terminal#14589"
+   ]
+  },
+  {
+   "t": 1794884248.613836,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#15113"
+   },
+   "seconds": 0.00014473599730990827,
+   "returned": [
+    "terminal#15113"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 14801,
+  "stop_reason": "end_turn",
+  "session_id": "d28ca469-141a-4351-bcb9-5d30309b51ab",
+  "total_cost_usd": 0.09397090000000001,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 18709,
+   "cache_read_input_tokens": 81369,
+   "output_tokens": 1097,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 18709,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 407,
+     "cache_read_input_tokens": 20063,
+     "cache_creation_input_tokens": 59,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 59
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1097,
+    "cacheReadInputTokens": 81369,
+    "cacheCreationInputTokens": 18709,
+    "webSearchRequests": 0,
+    "costUSD": 0.09397090000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18709,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#9218\", \"terminal#3454\", \"terminal#18937\"], \"answer\": \"Both parts of this request have been reported before. The width request is tracked in terminal#9218 (verticalScrollBarWidth). Related width requests, terminal#12395, terminal#15113 and terminal#18937, were closed as duplicates or declined. The team said it doesn't want to add per-app scrollbar sizing and would rather see this handled system-wide, so a Terminal-only width setting is unlikely. Until the platform changes, you can do two things. (1) The always-visible request was tracked in terminal#3454 and shipped as the \\\"Always\\\" scrollbar visibility option in Terminal 1.17. Set it under Settings > [Profile or Defaults] > Appearance > Scrollbar visibility: Always. Terminal also follows the Windows setting that turns off \\\"Automatically hide scroll bars\\\", under Settings > Accessibility > Visual effects. (2) For width, add your accessibility need to terminal#9218. You could also raise it with the WinUI team (microsoft-ui-xaml#6684) or through Windows Feedback, because the scrollbar comes from WinUI.\"}",
+  "ttft_ms": 2756,
+  "type": "result",
+  "duration_ms": 18747,
+  "uuid": "0c0281a7-2b2f-4f79-8876-585fd8b36481",
+  "ttft_stream_ms": 1541,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 1542,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1097,
+    "cacheReadInputTokens": 81369,
+    "cacheCreationInputTokens": 18709,
+    "webSearchRequests": 0,
+    "costUSD": 0.09397090000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18709,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 20.11992666099104,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-fb3pd38j/work"
+  }
+ },
+ "wall_seconds": 20.122482981998473,
+ "qid": "terminal#20807",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#9218",
+   "terminal#3454",
+   "terminal#18937"
+  ],
+  "answer": "Both parts of this request have been reported before. The width request is tracked in terminal#9218 (verticalScrollBarWidth). Related width requests, terminal#12395, terminal#15113 and terminal#18937, were closed as duplicates or declined. The team said it doesn't want to add per-app scrollbar sizing and would rather see this handled system-wide, so a Terminal-only width setting is unlikely. Until the platform changes, you can do two things. (1) The always-visible request was tracked in terminal#3454 and shipped as the \"Always\" scrollbar visibility option in Terminal 1.17. Set it under Settings > [Profile or Defaults] > Appearance > Scrollbar visibility: Always. Terminal also follows the Windows setting that turns off \"Automatically hide scroll bars\", under Settings > Accessibility > Visual effects. (2) For width, add your accessibility need to terminal#9218. You could also raise it with the WinUI team (microsoft-ui-xaml#6684) or through Windows Feedback, because the scrollbar comes from WinUI."
+ },
+ "hit_turn_cap": false
+}

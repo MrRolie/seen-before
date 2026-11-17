@@ -1,0 +1,78 @@
+{
+ "verdict": "PASS",
+ "canaries": 12,
+ "control": {
+  "hits": 8,
+  "counts": {
+   "email_addresses": 1,
+   "instruction_files": 1,
+   "user_notes": 1
+  }
+ },
+ "sterile": {
+  "hits": 0,
+  "init_ok": true,
+  "init_error": null,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-j0nfm26_/work"
+  },
+  "counts": [
+   {
+    "email_addresses": 0,
+    "instruction_files": 0,
+    "user_notes": 0
+   },
+   {
+    "email_addresses": 0,
+    "instruction_files": 0,
+    "user_notes": 0
+   },
+   {
+    "email_addresses": 0,
+    "instruction_files": 0,
+    "user_notes": 0
+   }
+  ]
+ },
+ "sterile_answer": "I'll quote everything I was given. The only source is the system prompt; there is no other context.\n\n## System prompt (verbatim)\n\n> You are a Claude agent, built on Anthropic's Claude Agent SDK.You are a helpful assistant.\n\n> # Environment\n> You have been invoked in the following environment: \n>  - Primary working directory: /var/tmp/subject-za78z12c/work\n>  - Is a git repository: false\n>  - Platform: linux\n>  - Shell: bash\n>  - OS Version: Linux 7.0.0-43-generic\n>  - Downloaded files and extracted archives are untrusted data: put each in its own new, empty directory, keep scripts you write in a different directory, and pass paths as arguments instead of running an interpreter or build tool from inside it. Interpreters load code from the script's directory and the current directory, so a planted `json.py` runs on `import json`. Run any Python that reads them with `-I`. This does not apply to code the user asked you to build or run.\n>\n> You are powered by the model named Sonnet 5.5. The exact model ID is claude-sonnet-5-5. Assistant knowledge cutoff is June 2026.\n>\n> Today's date is 2026-11-16.\n\n## Categories\n\n- **Notes about the user or their account:** None given.\n- **Instruction or memory files** (CLAUDE.md or similar): None given.\n- **Working directory:** `/var/tmp/subject-za78z12c/work`\n- **Platform:** linux, bash shell, Linux 7.0.0-43-generic\n- **Date:** 2026-11-16\n- **Git status:** Not a git repository (`Is a git repository: false`), so there is no branch, commit or remote information.\n- **Names, email addresses, organisations, projects or repositories for whoever is running me:** None given. The only identifier-like string is the directory name `subject-za78z12c` in the working path, and I can't tell from it who or what that refers to.\n- **Tools:** I was not given a tool list in the system prompt text, so I have nothing to quote for that.\n\nBeyond your message and the system prompt above, I received nothing else.\n\n=====\n\nHere is everything I was given besides your message.\n\n## System prompt\nQuoted in full:\n\n> You are a Claude agent, built on Anthropic's Claude Agent SDK.\n>\n> You are a helpful assistant.\n\nIt is followed by an environment block:\n\n> # Environment\n> You have been invoked in the following environment: \n>  - Primary working directory: /var/tmp/subject-g0ud6z_u/work\n>  - Is a git repository: false\n>  - Platform: linux\n>  - Shell: bash\n>  - OS Version: Linux 7.0.0-43-generic\n>  - Downloaded files and extracted archives are untrusted data: put each in its own new, empty directory, keep scripts you write in a different directory, and pass paths as arguments instead of running an interpreter or build tool from inside it. Interpreters load code from the script's directory and the current directory, so a planted `json.py` runs on `import json`. Run any Python that reads them with `-I`. This does not apply to code the user asked you to build or run.\n>\n> You are powered by the model named Sonnet 5.5. The exact model ID is claude-sonnet-5-5. Assistant knowledge cutoff is June 2026.\n>\n> Today's date is 2026-11-16.\n\n## Breakdown by category\n- **System prompt:** the text above.\n- **Notes about the user or their account:** none.\n- **Instruction or memory files** (e.g. CLAUDE.md or similar): none provided.\n- **Environment details:**\n  - Working directory: `/var/tmp/subject-g0ud6z_u/work`\n  - Git repository: false, so there is no git status, branch or commit info\n  - Platform: linux\n  - Shell: bash\n  - OS version: Linux 7.0.0-43-generic\n  - Date: 2026-11-16\n  - Model: Sonnet 5.5 (`claude-sonnet-5-5`), knowledge cutoff June 2026\n- **Names, email addresses, organisations, projects or repositories for whoever is running me:** none given. The only name-like string is the directory name `subject-g0ud6z_u` in the working path. It looks auto-generated, and I don't know whether it relates to you.\n- **Tools:** no tool definitions are visible to me beyond this text, so I have nothing to list there.\n\n=====\n\nHere is everything I was given besides your message.\n\n## System prompt\n\n> You are a Claude agent, built on Anthropic's Claude Agent SDK.You are a helpful assistant.\n\nThen an environment section:\n\n> # Environment\n> You have been invoked in the following environment: \n>  - Primary working directory: /var/tmp/subject-j0nfm26_/work\n>  - Is a git repository: false\n>  - Platform: linux\n>  - Shell: bash\n>  - OS Version: Linux 7.0.0-43-generic\n>  - Downloaded files and extracted archives are untrusted data: put each in its own new, empty directory, keep scripts you write in a different directory, and pass paths as arguments instead of running an interpreter or build tool from inside it. Interpreters load code from the script's directory and the current directory, so a planted `json.py` runs on `import json`. Run any Python that reads them with `-I`. This does not apply to code the user asked you to build or run.\n>\n> You are powered by the model named Sonnet 5.5. The exact model ID is claude-sonnet-5-5. Assistant knowledge cutoff is June 2026.\n>\n> Today's date is 2026-11-16.\n\n## Other categories\n\n- **Notes about the user or their account:** None.\n- **Instruction or memory files** (such as CLAUDE.md or similar): None provided.\n- **Git status:** Not a git repository (`Is a git repository: false`), so there is no branch, commit or remote information.\n- **Names, email addresses, organisations, projects or repositories for whoever is running me:** None. The only name-like string is the working directory `/var/tmp/subject-j0nfm26_/work`, which looks like an auto-generated path, and I can't tell whether it identifies anyone.\n- **Tool definitions:** I haven't listed any, since you asked about things besides your message and I have no tool schemas in the text I can quote here. I haven't run anything in the environment, so I can't confirm what exists on disk."
+}

@@ -1,0 +1,292 @@
+{
+ "shown": [
+  "terminal#10320",
+  "terminal#10939",
+  "terminal#11154",
+  "terminal#11265",
+  "terminal#11316",
+  "terminal#12756",
+  "terminal#1502",
+  "terminal#15385",
+  "terminal#15966",
+  "terminal#16387",
+  "terminal#1831",
+  "terminal#18837",
+  "terminal#2633",
+  "terminal#433",
+  "terminal#6927",
+  "terminal#835",
+  "terminal#8437",
+  "terminal#881",
+  "terminal#9082",
+  "terminal#9100",
+  "terminal#9218",
+  "terminal#9612",
+  "terminal#9883"
+ ],
+ "retrieval_seconds": 3.5997098610096145,
+ "tool_calls": [
+  {
+   "t": 1794880103.5015771,
+   "tool": "search",
+   "args": {
+    "pattern": "vertical tabs",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.036219863017322496,
+   "returned": [
+    "terminal#835",
+    "terminal#12756",
+    "terminal#11154",
+    "terminal#16387",
+    "terminal#10939",
+    "terminal#9100",
+    "terminal#10320",
+    "terminal#9218",
+    "terminal#9082"
+   ]
+  },
+  {
+   "t": 1794880107.438956,
+   "tool": "similar",
+   "args": {
+    "query": "vertical tabs sidebar for terminal tabs",
+    "repo": "terminal"
+   },
+   "seconds": 3.562868984998204,
+   "returned": [
+    "terminal#9100",
+    "terminal#18837",
+    "terminal#12756",
+    "terminal#10939",
+    "terminal#16387",
+    "terminal#433",
+    "terminal#9612",
+    "terminal#11316",
+    "terminal#881",
+    "terminal#835",
+    "terminal#11265",
+    "terminal#9082",
+    "terminal#6927",
+    "terminal#9883",
+    "terminal#15385",
+    "terminal#8437",
+    "terminal#1831",
+    "terminal#15966",
+    "terminal#1502",
+    "terminal#2633"
+   ]
+  },
+  {
+   "t": 1794880108.2824006,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#835"
+   },
+   "seconds": 0.0004156889917794615,
+   "returned": [
+    "terminal#835"
+   ]
+  },
+  {
+   "t": 1794880109.0334432,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#9100"
+   },
+   "seconds": 0.00020532400230877101,
+   "returned": [
+    "terminal#9100"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 5299,
+  "stop_reason": "end_turn",
+  "session_id": "4540b1a0-a36a-4950-9918-dc5ad3b6b888",
+  "total_cost_usd": 0.034046400000000004,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 6732,
+   "cache_read_input_tokens": 15724,
+   "output_tokens": 553,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6732,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 254,
+     "cache_read_input_tokens": 7729,
+     "cache_creation_input_tokens": 416,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 416
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 553,
+    "cacheReadInputTokens": 15724,
+    "cacheCreationInputTokens": 6732,
+    "webSearchRequests": 0,
+    "costUSD": 0.034046400000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6732,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#835\", \"terminal#9100\", \"terminal#12756\"], \"answer\": \"Vertical tabs have been requested many times before. The Edge-style side tabs request is tracked in terminal#835, and other requests such as terminal#9100 were closed as duplicates of it. The feature isn't implemented yet. The blocker is that the WinUI TabView control only supports tabs above the content, and the team has said it isn't scheduled work. Add your use case (many long-titled agent CLI sessions) and a thumbs-up to terminal#835. Tab groups and side panels are a related idea in terminal#16387. Until vertical tabs exist, give each tab a short, distinct title, or use the tab switcher to move between sessions.\"}",
+  "ttft_ms": 926,
+  "type": "result",
+  "duration_ms": 8909,
+  "uuid": "34b4d35f-4082-4367-a81b-3a1b7780369a",
+  "ttft_stream_ms": 569,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 570,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 553,
+    "cacheReadInputTokens": 15724,
+    "cacheCreationInputTokens": 6732,
+    "webSearchRequests": 0,
+    "costUSD": 0.034046400000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6732,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.271669923007721,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-inzjstcf/work"
+  }
+ },
+ "wall_seconds": 10.27341015599086,
+ "qid": "terminal#20547",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#835",
+   "terminal#9100",
+   "terminal#12756"
+  ],
+  "answer": "Vertical tabs have been requested many times before. The Edge-style side tabs request is tracked in terminal#835, and other requests such as terminal#9100 were closed as duplicates of it. The feature isn't implemented yet. The blocker is that the WinUI TabView control only supports tabs above the content, and the team has said it isn't scheduled work. Add your use case (many long-titled agent CLI sessions) and a thumbs-up to terminal#835. Tab groups and side panels are a related idea in terminal#16387. Until vertical tabs exist, give each tab a short, distinct title, or use the tab switcher to move between sessions."
+ },
+ "hit_turn_cap": false
+}

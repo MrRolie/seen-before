@@ -1,0 +1,292 @@
+{
+ "shown": [
+  "WSL#12566",
+  "WSL#12596",
+  "WSL#12602",
+  "WSL#14536",
+  "WSL#1477",
+  "WSL#1532",
+  "WSL#1549",
+  "WSL#1596",
+  "WSL#1816",
+  "WSL#185",
+  "WSL#1870",
+  "WSL#3412",
+  "WSL#3795",
+  "WSL#40488",
+  "WSL#40616",
+  "WSL#40683",
+  "WSL#40762",
+  "WSL#40808",
+  "WSL#40938",
+  "WSL#786"
+ ],
+ "retrieval_seconds": 0.0683583059872035,
+ "tool_calls": [
+  {
+   "t": 1794881427.9494913,
+   "tool": "search",
+   "args": {
+    "pattern": "CreateVm/HCS/ERROR_FILE_NOT_FOUND",
+    "regex": false,
+    "also": null,
+    "repo": "WSL"
+   },
+   "seconds": 0.02963736400124617,
+   "returned": [
+    "WSL#40488",
+    "WSL#40762",
+    "WSL#40808",
+    "WSL#12596",
+    "WSL#12566",
+    "WSL#40616",
+    "WSL#40938",
+    "WSL#40683",
+    "WSL#14536",
+    "WSL#12602"
+   ]
+  },
+  {
+   "t": 1794881428.2239754,
+   "tool": "search",
+   "args": {
+    "pattern": "2.7.12",
+    "regex": false,
+    "also": null,
+    "repo": "WSL"
+   },
+   "seconds": 0.03785266398335807,
+   "returned": [
+    "WSL#1549",
+    "WSL#1477",
+    "WSL#3795",
+    "WSL#3412",
+    "WSL#1870",
+    "WSL#1816",
+    "WSL#1596",
+    "WSL#1532",
+    "WSL#786",
+    "WSL#185"
+   ]
+  },
+  {
+   "t": 1794881429.2777648,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#40808"
+   },
+   "seconds": 0.00019246499869041145,
+   "returned": [
+    "WSL#40808"
+   ]
+  },
+  {
+   "t": 1794881429.493924,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#40488"
+   },
+   "seconds": 0.0004894779995083809,
+   "returned": [
+    "WSL#40488"
+   ]
+  },
+  {
+   "t": 1794881429.6660652,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#40762"
+   },
+   "seconds": 0.0001863350044004619,
+   "returned": [
+    "WSL#40762"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7239,
+  "stop_reason": "end_turn",
+  "session_id": "349418fd-b716-4688-bc81-9eecc55d4d1d",
+  "total_cost_usd": 0.0721634,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 15465,
+   "cache_read_input_tokens": 10014,
+   "output_tokens": 929,
+   "output_tokens_details": {
+    "thinking_tokens": 80
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 15465,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 563,
+     "cache_read_input_tokens": 6304,
+     "cache_creation_input_tokens": 10338,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 10338
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 929,
+    "cacheReadInputTokens": 10014,
+    "cacheCreationInputTokens": 15465,
+    "webSearchRequests": 0,
+    "costUSD": 0.0721634,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 80,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15465,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"WSL#40488\", \"WSL#40762\", \"WSL#40808\"], \"answer\": \"This error has been reported before, with the same cause. The WSL MSI upgrade fails to put the system VHDs in place, so VM creation can't find them. Those tickets show `C:\\\\Program Files\\\\WSL\\\\system.vhd` or `tools\\\\modules.vhd` missing, with error 0xC0000034. Your distributions and their VHDX files are not affected.\\n\\nThe fix in those tickets is to download the WSL MSI for the version you have installed (2.7.12.0, from the microsoft/WSL GitHub releases page). Right-click it and choose Repair, or run `msiexec /fa wsl.2.7.12.0.x64.msi`. Close Docker Desktop and VS Code first, and reboot afterwards. The Repair button in Windows Settings did not work for one reporter. Rolling back to an earlier release, as you did with 2.7.11.0, also worked for other reporters and is a valid fallback.\\n\\nWSL#40488 says the underlying bug was fixed in 2.9.3 and backported to 2.7.14. That fix only applies when you upgrade from an already-fixed version, so you may need the repair step once more. I didn't find an archived ticket that matches your exact report of 2.7.12.0 on Windows 10 22H2, so this is the closest match, not a confirmed duplicate.\"}",
+  "ttft_ms": 1176,
+  "type": "result",
+  "duration_ms": 7327,
+  "uuid": "0ee225a3-82e4-4d4e-b1bc-6c988d02bb7a",
+  "ttft_stream_ms": 717,
+  "time_to_request_ms": 37,
+  "first_content_frame_ms": 717,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 929,
+    "cacheReadInputTokens": 10014,
+    "cacheCreationInputTokens": 15465,
+    "webSearchRequests": 0,
+    "costUSD": 0.0721634,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 80,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15465,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 8.773777190013789,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-a_fnihsy/work"
+  }
+ },
+ "wall_seconds": 8.775510665989714,
+ "qid": "WSL#41422",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "WSL#40488",
+   "WSL#40762",
+   "WSL#40808"
+  ],
+  "answer": "This error has been reported before, with the same cause. The WSL MSI upgrade fails to put the system VHDs in place, so VM creation can't find them. Those tickets show `C:\\Program Files\\WSL\\system.vhd` or `tools\\modules.vhd` missing, with error 0xC0000034. Your distributions and their VHDX files are not affected.\n\nThe fix in those tickets is to download the WSL MSI for the version you have installed (2.7.12.0, from the microsoft/WSL GitHub releases page). Right-click it and choose Repair, or run `msiexec /fa wsl.2.7.12.0.x64.msi`. Close Docker Desktop and VS Code first, and reboot afterwards. The Repair button in Windows Settings did not work for one reporter. Rolling back to an earlier release, as you did with 2.7.11.0, also worked for other reporters and is a valid fallback.\n\nWSL#40488 says the underlying bug was fixed in 2.9.3 and backported to 2.7.14. That fix only applies when you upgrade from an already-fixed version, so you may need the repair step once more. I didn't find an archived ticket that matches your exact report of 2.7.12.0 on Windows 10 22H2, so this is the closest match, not a confirmed duplicate."
+ },
+ "hit_turn_cap": false
+}

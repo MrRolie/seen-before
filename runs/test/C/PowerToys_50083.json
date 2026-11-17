@@ -1,0 +1,334 @@
+{
+ "shown": [
+  "PowerToys#10167",
+  "PowerToys#1052",
+  "PowerToys#12839",
+  "PowerToys#13664",
+  "PowerToys#14520",
+  "PowerToys#1769",
+  "PowerToys#22171",
+  "PowerToys#2733",
+  "PowerToys#3217",
+  "PowerToys#42864",
+  "PowerToys#46956",
+  "PowerToys#47335",
+  "PowerToys#47423",
+  "PowerToys#47447",
+  "PowerToys#47654",
+  "PowerToys#47776",
+  "PowerToys#47951",
+  "PowerToys#48286",
+  "PowerToys#48428",
+  "PowerToys#4846",
+  "PowerToys#48774",
+  "PowerToys#49032",
+  "PowerToys#4980",
+  "PowerToys#678",
+  "PowerToys#6950",
+  "PowerToys#718",
+  "PowerToys#835",
+  "PowerToys#9782"
+ ],
+ "retrieval_seconds": 4.037435979000293,
+ "tool_calls": [
+  {
+   "t": 1794881334.5664408,
+   "tool": "search",
+   "args": {
+    "query": "Power Display profile changes after sleep / wake from sleep",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.022007429011865,
+   "returned": [
+    "PowerToys#3217",
+    "PowerToys#835",
+    "PowerToys#6950",
+    "PowerToys#12839",
+    "PowerToys#4846",
+    "PowerToys#47951",
+    "PowerToys#10167",
+    "PowerToys#48774",
+    "PowerToys#678",
+    "PowerToys#48428",
+    "PowerToys#22171",
+    "PowerToys#1769",
+    "PowerToys#9782",
+    "PowerToys#42864",
+    "PowerToys#47776",
+    "PowerToys#1052",
+    "PowerToys#49032",
+    "PowerToys#13664",
+    "PowerToys#47335",
+    "PowerToys#14520"
+   ]
+  },
+  {
+   "t": 1794881336.196802,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48774"
+   },
+   "seconds": 0.00030819300445728004,
+   "returned": [
+    "PowerToys#48774"
+   ]
+  },
+  {
+   "t": 1794881336.5033648,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47951"
+   },
+   "seconds": 0.000209244986763224,
+   "returned": [
+    "PowerToys#47951"
+   ]
+  },
+  {
+   "t": 1794881336.6262093,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48428"
+   },
+   "seconds": 0.0001233970106113702,
+   "returned": [
+    "PowerToys#48428"
+   ]
+  },
+  {
+   "t": 1794881338.3333244,
+   "tool": "search",
+   "args": {
+    "query": "Power Display switches to different profile after wake, brightness changes, profile not kept",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.01442983400193043,
+   "returned": [
+    "PowerToys#835",
+    "PowerToys#3217",
+    "PowerToys#4980",
+    "PowerToys#6950",
+    "PowerToys#49032",
+    "PowerToys#48428",
+    "PowerToys#1052",
+    "PowerToys#42864",
+    "PowerToys#47335",
+    "PowerToys#48774",
+    "PowerToys#22171",
+    "PowerToys#47423",
+    "PowerToys#2733",
+    "PowerToys#12839",
+    "PowerToys#47447",
+    "PowerToys#48286",
+    "PowerToys#718",
+    "PowerToys#47654",
+    "PowerToys#47776",
+    "PowerToys#46956"
+   ]
+  },
+  {
+   "t": 1794881339.723985,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47776"
+   },
+   "seconds": 0.00011988700134679675,
+   "returned": [
+    "PowerToys#47776"
+   ]
+  },
+  {
+   "t": 1794881339.9071016,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47654"
+   },
+   "seconds": 0.0002379939833190292,
+   "returned": [
+    "PowerToys#47654"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10357,
+  "stop_reason": "end_turn",
+  "session_id": "da6418a7-4556-41c6-b850-047e773b47ee",
+  "total_cost_usd": 0.051444000000000004,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 10373,
+   "cache_read_input_tokens": 21520,
+   "output_tokens": 778,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10373,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 274,
+     "cache_read_input_tokens": 8369,
+     "cache_creation_input_tokens": 3037,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3037
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 778,
+    "cacheReadInputTokens": 21520,
+    "cacheCreationInputTokens": 10373,
+    "webSearchRequests": 0,
+    "costUSD": 0.051444000000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10373,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this exact problem, where Power Display switches to a different profile after the PC wakes from sleep. The closest tickets describe different problems. PowerToys#48774 is about a profile linked to Light Switch not triggering on wake. PowerToys#47776 is about monitor-specific settings being forgotten after a monitor power cycle. PowerToys#48428 is about a monitor not turning back on after standby. Please keep this ticket open as a new bug. Attach a PowerToys bug report ZIP, which you can generate from Settings > General > Report a bug. Also include whether Light Switch profile linking or any power-state options are enabled, and whether the issue happens without the docking station. As a workaround, you can re-select the dimmed profile after wake.\"}",
+  "ttft_ms": 1762,
+  "type": "result",
+  "duration_ms": 14502,
+  "uuid": "82670d96-ba00-4e0c-a132-c89467624b8a",
+  "ttft_stream_ms": 1249,
+  "time_to_request_ms": 52,
+  "first_content_frame_ms": 1250,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 778,
+    "cacheReadInputTokens": 21520,
+    "cacheCreationInputTokens": 10373,
+    "webSearchRequests": 0,
+    "costUSD": 0.051444000000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10373,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.95427991100587,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-efboxw1x/work"
+  }
+ },
+ "wall_seconds": 15.956631831009872,
+ "qid": "PowerToys#50083",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this exact problem, where Power Display switches to a different profile after the PC wakes from sleep. The closest tickets describe different problems. PowerToys#48774 is about a profile linked to Light Switch not triggering on wake. PowerToys#47776 is about monitor-specific settings being forgotten after a monitor power cycle. PowerToys#48428 is about a monitor not turning back on after standby. Please keep this ticket open as a new bug. Attach a PowerToys bug report ZIP, which you can generate from Settings > General > Report a bug. Also include whether Light Switch profile linking or any power-state options are enabled, and whether the issue happens without the docking station. As a workaround, you can re-select the dimmed profile after wake."
+ },
+ "hit_turn_cap": false
+}

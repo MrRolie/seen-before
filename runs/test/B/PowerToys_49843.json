@@ -1,0 +1,392 @@
+{
+ "shown": [
+  "PowerToys#10202",
+  "PowerToys#10998",
+  "PowerToys#12063",
+  "PowerToys#17308",
+  "PowerToys#19242",
+  "PowerToys#19417",
+  "PowerToys#19636",
+  "PowerToys#20370",
+  "PowerToys#21399",
+  "PowerToys#21763",
+  "PowerToys#21785",
+  "PowerToys#23763",
+  "PowerToys#24577",
+  "PowerToys#27762",
+  "PowerToys#28871",
+  "PowerToys#30000",
+  "PowerToys#31601",
+  "PowerToys#34065",
+  "PowerToys#35357",
+  "PowerToys#38389",
+  "PowerToys#38393",
+  "PowerToys#38412",
+  "PowerToys#38417",
+  "PowerToys#38453",
+  "PowerToys#38487",
+  "PowerToys#38593",
+  "PowerToys#4146",
+  "PowerToys#41629",
+  "PowerToys#45320",
+  "PowerToys#45503",
+  "PowerToys#45509",
+  "PowerToys#45855",
+  "PowerToys#47417",
+  "PowerToys#48381",
+  "PowerToys#7670"
+ ],
+ "retrieval_seconds": 0.7015368480060715,
+ "tool_calls": [
+  {
+   "t": 1794880006.4392657,
+   "tool": "search",
+   "args": {
+    "pattern": "English",
+    "regex": false,
+    "also": [
+     "Command Palette",
+     "Chinese"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.17032143799588084,
+   "returned": [
+    "PowerToys#7670",
+    "PowerToys#47417",
+    "PowerToys#45855",
+    "PowerToys#38393",
+    "PowerToys#38487",
+    "PowerToys#38453",
+    "PowerToys#41629",
+    "PowerToys#38412"
+   ]
+  },
+  {
+   "t": 1794880006.5097387,
+   "tool": "search",
+   "args": {
+    "pattern": "search in English localized app names command palette",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.059159138007089496,
+   "returned": []
+  },
+  {
+   "t": 1794880007.4605167,
+   "tool": "search",
+   "args": {
+    "pattern": "English name",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05581827901187353,
+   "returned": [
+    "PowerToys#12063",
+    "PowerToys#24577",
+    "PowerToys#19417",
+    "PowerToys#4146",
+    "PowerToys#30000",
+    "PowerToys#19242",
+    "PowerToys#35357",
+    "PowerToys#34065",
+    "PowerToys#31601",
+    "PowerToys#28871",
+    "PowerToys#27762",
+    "PowerToys#23763",
+    "PowerToys#21785",
+    "PowerToys#21763",
+    "PowerToys#21399",
+    "PowerToys#20370",
+    "PowerToys#19636",
+    "PowerToys#17308",
+    "PowerToys#10998",
+    "PowerToys#10202"
+   ]
+  },
+  {
+   "t": 1794880007.583446,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#41629"
+   },
+   "seconds": 0.00017463500262238085,
+   "returned": [
+    "PowerToys#41629"
+   ]
+  },
+  {
+   "t": 1794880008.8949573,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38417"
+   },
+   "seconds": 0.0003090319805778563,
+   "returned": [
+    "PowerToys#38417"
+   ]
+  },
+  {
+   "t": 1794880009.4747167,
+   "tool": "search",
+   "args": {
+    "pattern": "localized",
+    "regex": false,
+    "also": [
+     "Command Palette",
+     "English"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.15139825199730694,
+   "returned": [
+    "PowerToys#7670",
+    "PowerToys#45509",
+    "PowerToys#45503",
+    "PowerToys#45320",
+    "PowerToys#38593",
+    "PowerToys#38487",
+    "PowerToys#38389"
+   ]
+  },
+  {
+   "t": 1794880010.2902303,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38593"
+   },
+   "seconds": 0.00020574399968609214,
+   "returned": [
+    "PowerToys#38593"
+   ]
+  },
+  {
+   "t": 1794880011.847405,
+   "tool": "search",
+   "args": {
+    "pattern": "CmdPal",
+    "regex": false,
+    "also": [
+     "English name",
+     "search"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11693918501259759,
+   "returned": []
+  },
+  {
+   "t": 1794880014.2107468,
+   "tool": "search",
+   "args": {
+    "pattern": "Command Palette",
+    "regex": false,
+    "also": [
+     "English",
+     "app name"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.14707235898822546,
+   "returned": [
+    "PowerToys#48381"
+   ]
+  },
+  {
+   "t": 1794880014.2796674,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#19417"
+   },
+   "seconds": 0.00013878601021133363,
+   "returned": [
+    "PowerToys#19417"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11822,
+  "stop_reason": "end_turn",
+  "session_id": "48f1f655-6f37-43f7-a16b-2119a1edb275",
+  "total_cost_usd": 0.059669,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 10447,
+   "cache_read_input_tokens": 44630,
+   "output_tokens": 1339,
+   "output_tokens_details": {
+    "thinking_tokens": 164
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10447,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 282,
+     "cache_read_input_tokens": 10567,
+     "cache_creation_input_tokens": 1057,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1057
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1339,
+    "cacheReadInputTokens": 44630,
+    "cacheCreationInputTokens": 10447,
+    "webSearchRequests": 0,
+    "costUSD": 0.059669,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 164,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10447,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that asks for the same thing in Command Palette. That would be searching apps like Files or File Explorer by their English names while the system language is Chinese. Some tickets are close but cover different problems. PowerToys#19417 asked for English app-name search in PowerToys Run and was closed as a duplicate of #4144, because it couldn't be done then. PowerToys#38593 asks for English system command names in Command Palette. PowerToys#38417 added Pinyin search in Command Palette, which works only when the OS language is Chinese. PowerToys#48381 asks for Command Palette to switch the keyboard layout when it opens, which might ease your switching problem. Your request will probably need to be tracked as a new feature request. Meanwhile, you could comment on those tickets to show the demand.\"}",
+  "ttft_ms": 1497,
+  "type": "result",
+  "duration_ms": 12375,
+  "uuid": "1a9c026a-5d74-436c-ba33-cb15aa90ade9",
+  "ttft_stream_ms": 671,
+  "time_to_request_ms": 33,
+  "first_content_frame_ms": 671,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1339,
+    "cacheReadInputTokens": 44630,
+    "cacheCreationInputTokens": 10447,
+    "webSearchRequests": 0,
+    "costUSD": 0.059669,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 164,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10447,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.867035347007914,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-knbdcu4r/work"
+  }
+ },
+ "wall_seconds": 13.868869738013018,
+ "qid": "PowerToys#49843",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that asks for the same thing in Command Palette. That would be searching apps like Files or File Explorer by their English names while the system language is Chinese. Some tickets are close but cover different problems. PowerToys#19417 asked for English app-name search in PowerToys Run and was closed as a duplicate of #4144, because it couldn't be done then. PowerToys#38593 asks for English system command names in Command Palette. PowerToys#38417 added Pinyin search in Command Palette, which works only when the OS language is Chinese. PowerToys#48381 asks for Command Palette to switch the keyboard layout when it opens, which might ease your switching problem. Your request will probably need to be tracked as a new feature request. Meanwhile, you could comment on those tickets to show the demand."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,282 @@
+{
+ "shown": [
+  "terminal#14557",
+  "terminal#1571",
+  "terminal#16302",
+  "terminal#17262",
+  "terminal#17846",
+  "terminal#18103",
+  "terminal#18197",
+  "terminal#18266",
+  "terminal#18553",
+  "terminal#19471",
+  "terminal#19498",
+  "terminal#19731",
+  "terminal#19874",
+  "terminal#19929",
+  "terminal#19962",
+  "terminal#19964",
+  "terminal#20124",
+  "terminal#20296",
+  "terminal#20342",
+  "terminal#445",
+  "terminal#8914"
+ ],
+ "retrieval_seconds": 0.10296431501046754,
+ "tool_calls": [
+  {
+   "t": 1794879039.5783346,
+   "tool": "search",
+   "args": {
+    "pattern": "reorder profiles",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.042346918024122715,
+   "returned": [
+    "terminal#8914"
+   ]
+  },
+  {
+   "t": 1794879040.371479,
+   "tool": "search",
+   "args": {
+    "pattern": "new tab dropdown order",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.017236799001693726,
+   "returned": []
+  },
+  {
+   "t": 1794879042.032859,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#8914"
+   },
+   "seconds": 0.00021268398268148303,
+   "returned": [
+    "terminal#8914"
+   ]
+  },
+  {
+   "t": 1794879042.6951485,
+   "tool": "search",
+   "args": {
+    "pattern": "newTabMenu",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.04316791400196962,
+   "returned": [
+    "terminal#1571",
+    "terminal#18103",
+    "terminal#20124",
+    "terminal#19929",
+    "terminal#14557",
+    "terminal#18553",
+    "terminal#17262",
+    "terminal#19731",
+    "terminal#18266",
+    "terminal#18197",
+    "terminal#17846",
+    "terminal#16302",
+    "terminal#445",
+    "terminal#20342",
+    "terminal#20296",
+    "terminal#19964",
+    "terminal#19962",
+    "terminal#19874",
+    "terminal#19498",
+    "terminal#19471"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8717,
+  "stop_reason": "end_turn",
+  "session_id": "7555463b-7256-472f-8ecb-a9c898947ba8",
+  "total_cost_usd": 0.0398745,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 7702,
+   "cache_read_input_tokens": 5345,
+   "output_tokens": 852,
+   "output_tokens_details": {
+    "thinking_tokens": 87
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7702,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 350,
+     "cache_read_input_tokens": 2395,
+     "cache_creation_input_tokens": 6484,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6484
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 852,
+    "cacheReadInputTokens": 5345,
+    "cacheCreationInputTokens": 7702,
+    "webSearchRequests": 0,
+    "costUSD": 0.0398745,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 87,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7702,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#8914\"], \"answer\": \"This has been requested before. terminal#8914 (\\\"Profile reordering for Settings UI\\\") asks for the Settings UI to let you reorder profiles, which is the second option in your ticket. It is still an open feature request, so there is no UI for it yet. In the meantime, reorder the entries in `settings.json` by changing the order of the `profiles.list` array. You can also customize the new-tab dropdown with the `newTabMenu` setting (terminal#1571). The maintainers also suggest rebinding `newTab` actions with an `index` if you want specific shortcuts. I found no past ticket that asks specifically for extension entries to appear in that Settings view. Add your use case and a +1 to terminal#8914.\"}",
+  "ttft_ms": 1869,
+  "type": "result",
+  "duration_ms": 8816,
+  "uuid": "28c19236-b361-4c6b-8685-30c22dfbce55",
+  "ttft_stream_ms": 1478,
+  "time_to_request_ms": 45,
+  "first_content_frame_ms": 1478,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 852,
+    "cacheReadInputTokens": 5345,
+    "cacheCreationInputTokens": 7702,
+    "webSearchRequests": 0,
+    "costUSD": 0.0398745,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 87,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7702,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.346673200983787,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-etf9ut0a/work"
+  }
+ },
+ "wall_seconds": 10.34942481701728,
+ "qid": "terminal#20482",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#8914"
+  ],
+  "answer": "This has been requested before. terminal#8914 (\"Profile reordering for Settings UI\") asks for the Settings UI to let you reorder profiles, which is the second option in your ticket. It is still an open feature request, so there is no UI for it yet. In the meantime, reorder the entries in `settings.json` by changing the order of the `profiles.list` array. You can also customize the new-tab dropdown with the `newTabMenu` setting (terminal#1571). The maintainers also suggest rebinding `newTab` actions with an `index` if you want specific shortcuts. I found no past ticket that asks specifically for extension entries to appear in that Settings view. Add your use case and a +1 to terminal#8914."
+ },
+ "hit_turn_cap": false
+}

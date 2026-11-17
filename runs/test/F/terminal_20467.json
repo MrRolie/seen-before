@@ -1,0 +1,193 @@
+{
+ "shown": [
+  "terminal#20210",
+  "terminal#17384",
+  "terminal#16715",
+  "terminal#9479",
+  "terminal#3007"
+ ],
+ "retrieval_seconds": 0.4399413639912382,
+ "retrieval_scores": [
+  0.030536130536130537,
+  0.02565284178187404,
+  0.025561706284597852,
+  0.023343766301512782,
+  0.01639344262295082
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2831,
+  "stop_reason": "end_turn",
+  "session_id": "47c4c722-cc63-4983-8daa-d7ec34e0c2b1",
+  "total_cost_usd": 0.050124,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 11665,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 346,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11665,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 346,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 11665,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 11665
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 346,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 11665,
+    "webSearchRequests": 0,
+    "costUSD": 0.050124,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11665,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#20210\"], \"answer\": \"This has been reported before as terminal#20210 (OSC 52 copies freeze Windows Terminal, a regression that doesn't occur in 1.23.260121001). In that ticket a maintainer said the planned fix is to stop holding the terminal lock while operating on the clipboard and to coalesce repeated OSC 52 events, which matches your root-cause analysis. No released fix is mentioned in the ticket. Add your minidump findings (the EmptyClipboard call under the write lock, and the user-initiated copy path that releases the lock first) to that ticket instead of opening a new one. Until it's fixed, the only workarounds the ticket mentions are downgrading to 1.23.260121001, which doesn't freeze, or avoiding apps that copy via OSC 52 in quick succession. Setting compatibility.allowOSC52 to false should also avoid the freeze, though the ticket doesn't mention it and it disables OSC 52 copy entirely.\"}",
+  "ttft_ms": 3006,
+  "type": "result",
+  "duration_ms": 3029,
+  "uuid": "bc84dcad-8cd7-43de-b36d-3287ca0e1384",
+  "ttft_stream_ms": 649,
+  "time_to_request_ms": 196,
+  "first_content_frame_ms": 650,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 346,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 11665,
+    "webSearchRequests": 0,
+    "costUSD": 0.050124,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11665,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.8154417669866234,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-vu2tl2oa/work"
+  }
+ },
+ "wall_seconds": 4.2574569979915395,
+ "qid": "terminal#20467",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#20210"
+  ],
+  "answer": "This has been reported before as terminal#20210 (OSC 52 copies freeze Windows Terminal, a regression that doesn't occur in 1.23.260121001). In that ticket a maintainer said the planned fix is to stop holding the terminal lock while operating on the clipboard and to coalesce repeated OSC 52 events, which matches your root-cause analysis. No released fix is mentioned in the ticket. Add your minidump findings (the EmptyClipboard call under the write lock, and the user-initiated copy path that releases the lock first) to that ticket instead of opening a new one. Until it's fixed, the only workarounds the ticket mentions are downgrading to 1.23.260121001, which doesn't freeze, or avoiding apps that copy via OSC 52 in quick succession. Setting compatibility.allowOSC52 to false should also avoid the freeze, though the ticket doesn't mention it and it disables OSC 52 copy entirely."
+ },
+ "hit_turn_cap": false
+}

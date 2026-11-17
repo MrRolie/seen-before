@@ -1,0 +1,455 @@
+{
+ "shown": [
+  "PowerToys#10141",
+  "PowerToys#16194",
+  "PowerToys#1745",
+  "PowerToys#1825",
+  "PowerToys#20260",
+  "PowerToys#23076",
+  "PowerToys#2391",
+  "PowerToys#27914",
+  "PowerToys#30070",
+  "PowerToys#37024",
+  "PowerToys#37025",
+  "PowerToys#38327",
+  "PowerToys#38346",
+  "PowerToys#38393",
+  "PowerToys#38415",
+  "PowerToys#38454",
+  "PowerToys#38484",
+  "PowerToys#38533",
+  "PowerToys#38571",
+  "PowerToys#38664",
+  "PowerToys#38706",
+  "PowerToys#38713",
+  "PowerToys#38769",
+  "PowerToys#38826",
+  "PowerToys#38846",
+  "PowerToys#38893",
+  "PowerToys#38965",
+  "PowerToys#39043",
+  "PowerToys#39099",
+  "PowerToys#39131",
+  "PowerToys#39217",
+  "PowerToys#39301",
+  "PowerToys#39442",
+  "PowerToys#39476",
+  "PowerToys#39477",
+  "PowerToys#39495",
+  "PowerToys#39508",
+  "PowerToys#39533",
+  "PowerToys#39735",
+  "PowerToys#39745",
+  "PowerToys#40685",
+  "PowerToys#40846",
+  "PowerToys#40928",
+  "PowerToys#40975",
+  "PowerToys#41362",
+  "PowerToys#41397",
+  "PowerToys#41482",
+  "PowerToys#41726",
+  "PowerToys#41795",
+  "PowerToys#42306",
+  "PowerToys#42322",
+  "PowerToys#42343",
+  "PowerToys#42458",
+  "PowerToys#43935",
+  "PowerToys#44353",
+  "PowerToys#44901",
+  "PowerToys#45166",
+  "PowerToys#45201",
+  "PowerToys#45459",
+  "PowerToys#45814",
+  "PowerToys#46158",
+  "PowerToys#46228",
+  "PowerToys#46437",
+  "PowerToys#46627",
+  "PowerToys#47249",
+  "PowerToys#47969",
+  "PowerToys#47970",
+  "PowerToys#47997",
+  "PowerToys#48432",
+  "PowerToys#48525",
+  "PowerToys#48800",
+  "PowerToys#5922",
+  "PowerToys#6857",
+  "PowerToys#8450",
+  "PowerToys#8665",
+  "PowerToys#9204",
+  "PowerToys#9737"
+ ],
+ "retrieval_seconds": 4.203536373999668,
+ "tool_calls": [
+  {
+   "t": 1794878007.5378485,
+   "tool": "similar",
+   "args": {
+    "query": "Command Palette fails to start after install, error on opening, reinstall doesn't help",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.9530813510064036,
+   "returned": [
+    "PowerToys#39043",
+    "PowerToys#38484",
+    "PowerToys#38826",
+    "PowerToys#39217",
+    "PowerToys#39099",
+    "PowerToys#38454",
+    "PowerToys#38965",
+    "PowerToys#38769",
+    "PowerToys#38664",
+    "PowerToys#38893",
+    "PowerToys#39131",
+    "PowerToys#47997",
+    "PowerToys#40685",
+    "PowerToys#43935",
+    "PowerToys#39533",
+    "PowerToys#38415",
+    "PowerToys#47249",
+    "PowerToys#38571",
+    "PowerToys#42306",
+    "PowerToys#44353"
+   ]
+  },
+  {
+   "t": 1794878007.5719576,
+   "tool": "similar",
+   "args": {
+    "query": "命令面板 打开报错 无法使用",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.013021123013459146,
+   "returned": [
+    "PowerToys#1825",
+    "PowerToys#37025",
+    "PowerToys#37024",
+    "PowerToys#48525",
+    "PowerToys#6857",
+    "PowerToys#10141",
+    "PowerToys#8665",
+    "PowerToys#16194",
+    "PowerToys#39442",
+    "PowerToys#1745",
+    "PowerToys#20260",
+    "PowerToys#27914",
+    "PowerToys#9737",
+    "PowerToys#40975",
+    "PowerToys#41795",
+    "PowerToys#23076",
+    "PowerToys#38327",
+    "PowerToys#8450",
+    "PowerToys#30070",
+    "PowerToys#38713"
+   ]
+  },
+  {
+   "t": 1794878009.1742861,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43935"
+   },
+   "seconds": 0.00013414601562544703,
+   "returned": [
+    "PowerToys#43935"
+   ]
+  },
+  {
+   "t": 1794878009.3327434,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47249"
+   },
+   "seconds": 0.0001880359777715057,
+   "returned": [
+    "PowerToys#47249"
+   ]
+  },
+  {
+   "t": 1794878011.708592,
+   "tool": "similar",
+   "args": {
+    "query": "Command Palette crashes on launch NullReferenceException CommandProviderWrapper LoadTopLevelCommands",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.015665434999391437,
+   "returned": [
+    "PowerToys#45814",
+    "PowerToys#41726",
+    "PowerToys#40928",
+    "PowerToys#46437",
+    "PowerToys#46228",
+    "PowerToys#40846",
+    "PowerToys#47970",
+    "PowerToys#39043",
+    "PowerToys#46158",
+    "PowerToys#44353",
+    "PowerToys#39301",
+    "PowerToys#41362",
+    "PowerToys#41482",
+    "PowerToys#9204",
+    "PowerToys#48800",
+    "PowerToys#42322",
+    "PowerToys#47969",
+    "PowerToys#2391",
+    "PowerToys#5922",
+    "PowerToys#38346"
+   ]
+  },
+  {
+   "t": 1794878013.78866,
+   "tool": "search",
+   "args": {
+    "pattern": "ThemeService",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04586432399810292,
+   "returned": [
+    "PowerToys#47249",
+    "PowerToys#46627"
+   ]
+  },
+  {
+   "t": 1794878015.6898236,
+   "tool": "search",
+   "args": {
+    "pattern": "Command Palette",
+    "regex": false,
+    "also": [
+     "reinstall",
+     "error"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.17525836700224318,
+   "returned": [
+    "PowerToys#38393",
+    "PowerToys#45201",
+    "PowerToys#39476",
+    "PowerToys#38826",
+    "PowerToys#39735",
+    "PowerToys#39477",
+    "PowerToys#38846",
+    "PowerToys#45166",
+    "PowerToys#42343",
+    "PowerToys#39495",
+    "PowerToys#44901",
+    "PowerToys#38769",
+    "PowerToys#38706",
+    "PowerToys#48432",
+    "PowerToys#45459",
+    "PowerToys#42458",
+    "PowerToys#41397",
+    "PowerToys#39745",
+    "PowerToys#39508",
+    "PowerToys#38533"
+   ]
+  },
+  {
+   "t": 1794878018.8776193,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39477"
+   },
+   "seconds": 0.00018440501298755407,
+   "returned": [
+    "PowerToys#39477"
+   ]
+  },
+  {
+   "t": 1794878018.8881764,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#41397"
+   },
+   "seconds": 0.00013918697368353605,
+   "returned": [
+    "PowerToys#41397"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 18904,
+  "stop_reason": "end_turn",
+  "session_id": "11b1577f-86b3-42c2-956f-aaadaf338633",
+  "total_cost_usd": 0.0907211,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 17220,
+   "cache_read_input_tokens": 55631,
+   "output_tokens": 1625,
+   "output_tokens_details": {
+    "thinking_tokens": 359
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 17220,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 573,
+     "cache_read_input_tokens": 14768,
+     "cache_creation_input_tokens": 3865,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3865
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1625,
+    "cacheReadInputTokens": 55631,
+    "cacheCreationInputTokens": 17220,
+    "webSearchRequests": 0,
+    "costUSD": 0.0907211,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 359,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 17220,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find an archived ticket that clearly matches this one. Your error is only in a screenshot and the bug-report zip, and I can't open either of them. The closest tickets are PowerToys#47249 (Command Palette crashes on launch, a NullReferenceException in CommandProviderWrapper.LoadTopLevelCommands) and PowerToys#41397 (Command Palette won't install or launch, even after reinstalling, including from the Store). I can't confirm yours is the same problem as either. Please paste the error text from the screenshot as text. Then look in %LOCALAPPDATA%\\\\Microsoft\\\\PowerToys\\\\CmdPal\\\\Logs and the PowerToys install logs in your bug report. Check for lines about the Command Palette MSIX package failing to register, such as 0x8007177E or 0x800701C0. In Settings > Apps > Installed apps, check that Command Palette is installed and that its version matches your PowerToys version. If it isn't, uninstall Command Palette and PowerToys, then reinstall PowerToys. If the error is a NullReferenceException on startup, as in #47249, include that stack trace in the new ticket so the team can compare.\"}",
+  "ttft_ms": 2431,
+  "type": "result",
+  "duration_ms": 23218,
+  "uuid": "846bafac-031c-4b0e-abe6-58cda3135d66",
+  "ttft_stream_ms": 1444,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 1445,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1625,
+    "cacheReadInputTokens": 55631,
+    "cacheCreationInputTokens": 17220,
+    "webSearchRequests": 0,
+    "costUSD": 0.0907211,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 359,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 17220,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 24.47504382400075,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-777fw4dz/work"
+  }
+ },
+ "wall_seconds": 24.477447982004378,
+ "qid": "PowerToys#49328",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find an archived ticket that clearly matches this one. Your error is only in a screenshot and the bug-report zip, and I can't open either of them. The closest tickets are PowerToys#47249 (Command Palette crashes on launch, a NullReferenceException in CommandProviderWrapper.LoadTopLevelCommands) and PowerToys#41397 (Command Palette won't install or launch, even after reinstalling, including from the Store). I can't confirm yours is the same problem as either. Please paste the error text from the screenshot as text. Then look in %LOCALAPPDATA%\\Microsoft\\PowerToys\\CmdPal\\Logs and the PowerToys install logs in your bug report. Check for lines about the Command Palette MSIX package failing to register, such as 0x8007177E or 0x800701C0. In Settings > Apps > Installed apps, check that Command Palette is installed and that its version matches your PowerToys version. If it isn't, uninstall Command Palette and PowerToys, then reinstall PowerToys. If the error is a NullReferenceException on startup, as in #47249, include that stack trace in the new ticket so the team can compare."
+ },
+ "hit_turn_cap": false
+}

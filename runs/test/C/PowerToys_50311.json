@@ -1,0 +1,339 @@
+{
+ "shown": [
+  "PowerToys#10141",
+  "PowerToys#11514",
+  "PowerToys#11720",
+  "PowerToys#12478",
+  "PowerToys#12489",
+  "PowerToys#13398",
+  "PowerToys#14375",
+  "PowerToys#1745",
+  "PowerToys#20376",
+  "PowerToys#21047",
+  "PowerToys#23375",
+  "PowerToys#23960",
+  "PowerToys#24299",
+  "PowerToys#24486",
+  "PowerToys#25735",
+  "PowerToys#2608",
+  "PowerToys#26225",
+  "PowerToys#27156",
+  "PowerToys#27893",
+  "PowerToys#28650",
+  "PowerToys#29320",
+  "PowerToys#29391",
+  "PowerToys#32531",
+  "PowerToys#33242",
+  "PowerToys#34152",
+  "PowerToys#34960",
+  "PowerToys#36151",
+  "PowerToys#37527",
+  "PowerToys#37927",
+  "PowerToys#39360",
+  "PowerToys#40672",
+  "PowerToys#4392",
+  "PowerToys#45911",
+  "PowerToys#623",
+  "PowerToys#650",
+  "PowerToys#6857",
+  "PowerToys#7614",
+  "PowerToys#8047",
+  "PowerToys#8560",
+  "PowerToys#9095"
+ ],
+ "retrieval_seconds": 3.6236435800383333,
+ "tool_calls": [
+  {
+   "t": 1794881940.11421,
+   "tool": "search",
+   "args": {
+    "query": "Text Extractor shortcut does not work",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.6107871330168564,
+   "returned": [
+    "PowerToys#27893",
+    "PowerToys#34152",
+    "PowerToys#23375",
+    "PowerToys#40672",
+    "PowerToys#36151",
+    "PowerToys#23960",
+    "PowerToys#24299",
+    "PowerToys#37927",
+    "PowerToys#29320",
+    "PowerToys#28650",
+    "PowerToys#39360",
+    "PowerToys#37527",
+    "PowerToys#25735",
+    "PowerToys#26225",
+    "PowerToys#24486",
+    "PowerToys#34960",
+    "PowerToys#33242",
+    "PowerToys#20376",
+    "PowerToys#27156",
+    "PowerToys#45911"
+   ]
+  },
+  {
+   "t": 1794881940.1378708,
+   "tool": "search",
+   "args": {
+    "query": "无法通过快捷键使用文本提取器",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012368889001663774,
+   "returned": [
+    "PowerToys#8560",
+    "PowerToys#14375",
+    "PowerToys#32531",
+    "PowerToys#12489",
+    "PowerToys#10141",
+    "PowerToys#12478",
+    "PowerToys#6857",
+    "PowerToys#4392",
+    "PowerToys#8047",
+    "PowerToys#7614",
+    "PowerToys#11514",
+    "PowerToys#21047",
+    "PowerToys#623",
+    "PowerToys#13398",
+    "PowerToys#1745",
+    "PowerToys#2608",
+    "PowerToys#11720",
+    "PowerToys#9095",
+    "PowerToys#29391",
+    "PowerToys#650"
+   ]
+  },
+  {
+   "t": 1794881941.023139,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#27893"
+   },
+   "seconds": 0.00011971700587309897,
+   "returned": [
+    "PowerToys#27893"
+   ]
+  },
+  {
+   "t": 1794881941.259515,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#24486"
+   },
+   "seconds": 0.000127117004012689,
+   "returned": [
+    "PowerToys#24486"
+   ]
+  },
+  {
+   "t": 1794881941.4393225,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45911"
+   },
+   "seconds": 0.00011424699914641678,
+   "returned": [
+    "PowerToys#45911"
+   ]
+  },
+  {
+   "t": 1794881942.3935645,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33242"
+   },
+   "seconds": 0.00012647701078094542,
+   "returned": [
+    "PowerToys#33242"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8769,
+  "stop_reason": "end_turn",
+  "session_id": "0a935228-d12b-4fb5-842c-1b32017069ab",
+  "total_cost_usd": 0.0532644,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 10340,
+   "cache_read_input_tokens": 14784,
+   "output_tokens": 1041,
+   "output_tokens_details": {
+    "thinking_tokens": 180
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10340,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 599,
+     "cache_read_input_tokens": 7934,
+     "cache_creation_input_tokens": 3439,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3439
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1041,
+    "cacheReadInputTokens": 14784,
+    "cacheCreationInputTokens": 10340,
+    "webSearchRequests": 0,
+    "costUSD": 0.0532644,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 180,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10340,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#45911\", \"PowerToys#27893\", \"PowerToys#33242\"], \"answer\": \"The ticket has no details, so this is a best match on the symptom: the Text Extractor shortcut does nothing. Past tickets point to three things to check. (1) Another program may be taking the hotkey. In #27893 a third-party app (BijoyBanno) blocked all PowerToys shortcuts. Closing or disabling other keyboard or input utilities fixed it, and you can also set a different Text Extractor shortcut. (2) The OCR language pack may be missing. In #33242 the maintainers asked for the output of `Get-WindowsCapability -Online | Where-Object { $_.Name -Like 'Language.OCR*' }` in PowerShell. Your system language is Chinese (Hong Kong), so check that zh-HK or zh-CN OCR is installed under Settings > Time & language > Language & region. That ticket had no confirmed fix. (3) #45911 reported the same symptom, where the capture overlay never appears after the hotkey. It was closed as a duplicate of #33242, which is still unresolved. If none of this helps, update PowerToys, restart it, and file a new ticket with the shortcut you use, the steps to reproduce, and a Report Bug zip.\"}",
+  "ttft_ms": 1034,
+  "type": "result",
+  "duration_ms": 12097,
+  "uuid": "f1d5049d-df27-4ea3-a26a-50ce9fbbab02",
+  "ttft_stream_ms": 650,
+  "time_to_request_ms": 37,
+  "first_content_frame_ms": 651,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1041,
+    "cacheReadInputTokens": 14784,
+    "cacheCreationInputTokens": 10340,
+    "webSearchRequests": 0,
+    "costUSD": 0.0532644,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 180,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10340,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.395471263997024,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-jvp6_yio/work"
+  }
+ },
+ "wall_seconds": 13.397094712010585,
+ "qid": "PowerToys#50311",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#45911",
+   "PowerToys#27893",
+   "PowerToys#33242"
+  ],
+  "answer": "The ticket has no details, so this is a best match on the symptom: the Text Extractor shortcut does nothing. Past tickets point to three things to check. (1) Another program may be taking the hotkey. In #27893 a third-party app (BijoyBanno) blocked all PowerToys shortcuts. Closing or disabling other keyboard or input utilities fixed it, and you can also set a different Text Extractor shortcut. (2) The OCR language pack may be missing. In #33242 the maintainers asked for the output of `Get-WindowsCapability -Online | Where-Object { $_.Name -Like 'Language.OCR*' }` in PowerShell. Your system language is Chinese (Hong Kong), so check that zh-HK or zh-CN OCR is installed under Settings > Time & language > Language & region. That ticket had no confirmed fix. (3) #45911 reported the same symptom, where the capture overlay never appears after the hotkey. It was closed as a duplicate of #33242, which is still unresolved. If none of this helps, update PowerToys, restart it, and file a new ticket with the shortcut you use, the steps to reproduce, and a Report Bug zip."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,401 @@
+{
+ "shown": [
+  "PowerToys#11554",
+  "PowerToys#11701",
+  "PowerToys#11838",
+  "PowerToys#11963",
+  "PowerToys#12147",
+  "PowerToys#1260",
+  "PowerToys#1349",
+  "PowerToys#1488",
+  "PowerToys#1517",
+  "PowerToys#1609",
+  "PowerToys#1650",
+  "PowerToys#1742",
+  "PowerToys#179",
+  "PowerToys#21403",
+  "PowerToys#2483",
+  "PowerToys#2547",
+  "PowerToys#2552",
+  "PowerToys#27485",
+  "PowerToys#291",
+  "PowerToys#3134",
+  "PowerToys#378",
+  "PowerToys#38192",
+  "PowerToys#39182",
+  "PowerToys#44474",
+  "PowerToys#4615",
+  "PowerToys#4737",
+  "PowerToys#4762",
+  "PowerToys#47827",
+  "PowerToys#48773",
+  "PowerToys#48789",
+  "PowerToys#543",
+  "PowerToys#6196",
+  "PowerToys#6364",
+  "PowerToys#6593",
+  "PowerToys#6816",
+  "PowerToys#7371",
+  "PowerToys#764",
+  "PowerToys#773",
+  "PowerToys#7963",
+  "PowerToys#9087",
+  "PowerToys#9105",
+  "PowerToys#9415",
+  "PowerToys#9771",
+  "PowerToys#9959"
+ ],
+ "retrieval_seconds": 7.533175988966832,
+ "tool_calls": [
+  {
+   "t": 1794876244.5080402,
+   "tool": "search",
+   "args": {
+    "pattern": "taskbar",
+    "regex": false,
+    "also": [
+     "Shortcut Guide"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.25273580598877743,
+   "returned": [
+    "PowerToys#1488",
+    "PowerToys#291",
+    "PowerToys#12147",
+    "PowerToys#11838",
+    "PowerToys#9959",
+    "PowerToys#6816",
+    "PowerToys#179",
+    "PowerToys#21403",
+    "PowerToys#1517",
+    "PowerToys#38192",
+    "PowerToys#9105",
+    "PowerToys#3134",
+    "PowerToys#44474",
+    "PowerToys#11963",
+    "PowerToys#9415",
+    "PowerToys#764",
+    "PowerToys#378",
+    "PowerToys#48789",
+    "PowerToys#48773",
+    "PowerToys#47827"
+   ]
+  },
+  {
+   "t": 1794876251.1913319,
+   "tool": "similar",
+   "args": {
+    "query": "Shortcut Guide taskbar section cut off on the left, misaligned",
+    "repo": "PowerToys"
+   },
+   "seconds": 6.644323843007442,
+   "returned": [
+    "PowerToys#9105",
+    "PowerToys#1742",
+    "PowerToys#4762",
+    "PowerToys#2552",
+    "PowerToys#11701",
+    "PowerToys#9087",
+    "PowerToys#7371",
+    "PowerToys#1517",
+    "PowerToys#1349",
+    "PowerToys#6196",
+    "PowerToys#6364",
+    "PowerToys#2547",
+    "PowerToys#543",
+    "PowerToys#1650",
+    "PowerToys#11554",
+    "PowerToys#4737",
+    "PowerToys#7963",
+    "PowerToys#773",
+    "PowerToys#4615",
+    "PowerToys#2483"
+   ]
+  },
+  {
+   "t": 1794876253.3954024,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48773"
+   },
+   "seconds": 0.00013324699830263853,
+   "returned": [
+    "PowerToys#48773"
+   ]
+  },
+  {
+   "t": 1794876253.6860268,
+   "tool": "search",
+   "args": {
+    "pattern": "taskbar indicator",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10654112699558027,
+   "returned": [
+    "PowerToys#48789",
+    "PowerToys#48773",
+    "PowerToys#39182",
+    "PowerToys#27485"
+   ]
+  },
+  {
+   "t": 1794876256.607636,
+   "tool": "search",
+   "args": {
+    "pattern": "shortcut guide",
+    "regex": false,
+    "also": [
+     "cut off",
+     "0.100"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.3046000550093595,
+   "returned": []
+  },
+  {
+   "t": 1794876256.6516151,
+   "tool": "similar",
+   "args": {
+    "query": "new Shortcut Guide 0.100 Windows section taskbar numbers cut off left alignment wrong",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.02596265298780054,
+   "returned": [
+    "PowerToys#9105",
+    "PowerToys#1517",
+    "PowerToys#1742",
+    "PowerToys#543",
+    "PowerToys#4762",
+    "PowerToys#2552",
+    "PowerToys#773",
+    "PowerToys#764",
+    "PowerToys#1260",
+    "PowerToys#6196",
+    "PowerToys#1349",
+    "PowerToys#9087",
+    "PowerToys#12147",
+    "PowerToys#11701",
+    "PowerToys#4615",
+    "PowerToys#1609",
+    "PowerToys#6593",
+    "PowerToys#9771",
+    "PowerToys#11554",
+    "PowerToys#291"
+   ]
+  },
+  {
+   "t": 1794876258.0205517,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#9105"
+   },
+   "seconds": 0.00016970597789622843,
+   "returned": [
+    "PowerToys#9105"
+   ]
+  },
+  {
+   "t": 1794876259.9743233,
+   "tool": "search",
+   "args": {
+    "pattern": "Shortcut Guide",
+    "regex": false,
+    "also": [
+     "0.100.2"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.19870955200167373,
+   "returned": [
+    "PowerToys#48773"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13565,
+  "stop_reason": "end_turn",
+  "session_id": "e93ca5c5-654f-4798-953e-4c9856250252",
+  "total_cost_usd": 0.0675202,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 12839,
+   "cache_read_input_tokens": 50402,
+   "output_tokens": 1110,
+   "output_tokens_details": {
+    "thinking_tokens": 23
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12839,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 270,
+     "cache_read_input_tokens": 13977,
+     "cache_creation_input_tokens": 275,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 275
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1110,
+    "cacheReadInputTokens": 50402,
+    "cacheCreationInputTokens": 12839,
+    "webSearchRequests": 0,
+    "costUSD": 0.0675202,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 23,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12839,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket that reports this problem: the Windows section's taskbar row in the new Shortcut Guide (0.100.x) cut off on the left and misaligned. The closest tickets are about different problems. PowerToys#48773 covers crashes and mispositioning of the new Shortcut Guide on Windows 10 when you select the Windows section, and PowerToys#9105 covers a jerky resize in the old guide when the taskbar is on the left. Please treat this as a new bug. Add your Windows version, display scaling (DPI), monitor setup, taskbar position and alignment (left or centered), and whether the taskbar auto-hides. Also attach a PowerToys bug report ZIP. That information should help the team reproduce the layout problem.\"}",
+  "ttft_ms": 2463,
+  "type": "result",
+  "duration_ms": 21265,
+  "uuid": "546f3129-5c12-4fc2-badd-785337754082",
+  "ttft_stream_ms": 1394,
+  "time_to_request_ms": 93,
+  "first_content_frame_ms": 1394,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1110,
+    "cacheReadInputTokens": 50402,
+    "cacheCreationInputTokens": 12839,
+    "webSearchRequests": 0,
+    "costUSD": 0.0675202,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 23,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12839,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 23.43911244199262,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-hz7vm_2f/work"
+  }
+ },
+ "wall_seconds": 23.448010900989175,
+ "qid": "PowerToys#49581",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket that reports this problem: the Windows section's taskbar row in the new Shortcut Guide (0.100.x) cut off on the left and misaligned. The closest tickets are about different problems. PowerToys#48773 covers crashes and mispositioning of the new Shortcut Guide on Windows 10 when you select the Windows section, and PowerToys#9105 covers a jerky resize in the old guide when the taskbar is on the left. Please treat this as a new bug. Add your Windows version, display scaling (DPI), monitor setup, taskbar position and alignment (left or centered), and whether the taskbar auto-hides. Also attach a PowerToys bug report ZIP. That information should help the team reproduce the layout problem."
+ },
+ "hit_turn_cap": false
+}

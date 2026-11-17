@@ -1,0 +1,345 @@
+{
+ "shown": [
+  "PowerToys#11233",
+  "PowerToys#12154",
+  "PowerToys#12337",
+  "PowerToys#12579",
+  "PowerToys#12753",
+  "PowerToys#13135",
+  "PowerToys#13501",
+  "PowerToys#13755",
+  "PowerToys#14208",
+  "PowerToys#14370",
+  "PowerToys#15219",
+  "PowerToys#24846",
+  "PowerToys#25377",
+  "PowerToys#25581",
+  "PowerToys#27619",
+  "PowerToys#28283",
+  "PowerToys#29407",
+  "PowerToys#30227",
+  "PowerToys#30310",
+  "PowerToys#30552",
+  "PowerToys#32305",
+  "PowerToys#33965",
+  "PowerToys#34615",
+  "PowerToys#35102",
+  "PowerToys#36781",
+  "PowerToys#38014",
+  "PowerToys#38908",
+  "PowerToys#39642",
+  "PowerToys#40668",
+  "PowerToys#42720",
+  "PowerToys#43013",
+  "PowerToys#43268",
+  "PowerToys#45602",
+  "PowerToys#45910",
+  "PowerToys#46150"
+ ],
+ "retrieval_seconds": 3.6055949589645024,
+ "tool_calls": [
+  {
+   "t": 1794881555.1004658,
+   "tool": "search",
+   "args": {
+    "query": "Awake schedule keep awake on working days and hours, allow sleep evenings and weekends",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.5924816869955976,
+   "returned": [
+    "PowerToys#13501",
+    "PowerToys#42720",
+    "PowerToys#29407",
+    "PowerToys#13135",
+    "PowerToys#14208",
+    "PowerToys#45910",
+    "PowerToys#30227",
+    "PowerToys#32305",
+    "PowerToys#46150",
+    "PowerToys#35102",
+    "PowerToys#33965",
+    "PowerToys#24846",
+    "PowerToys#36781",
+    "PowerToys#27619",
+    "PowerToys#25377",
+    "PowerToys#25581",
+    "PowerToys#28283",
+    "PowerToys#12753",
+    "PowerToys#12337",
+    "PowerToys#38908"
+   ]
+  },
+  {
+   "t": 1794881555.1251976,
+   "tool": "search",
+   "args": {
+    "query": "Awake time-based schedule for modes",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012315592990489677,
+   "returned": [
+    "PowerToys#12579",
+    "PowerToys#11233",
+    "PowerToys#38014",
+    "PowerToys#43268",
+    "PowerToys#38908",
+    "PowerToys#13755",
+    "PowerToys#34615",
+    "PowerToys#30310",
+    "PowerToys#13501",
+    "PowerToys#45602",
+    "PowerToys#43013",
+    "PowerToys#33965",
+    "PowerToys#12154",
+    "PowerToys#30552",
+    "PowerToys#39642",
+    "PowerToys#45910",
+    "PowerToys#14208",
+    "PowerToys#14370",
+    "PowerToys#40668",
+    "PowerToys#15219"
+   ]
+  },
+  {
+   "t": 1794881556.4141762,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#29407"
+   },
+   "seconds": 0.0001665150048211217,
+   "returned": [
+    "PowerToys#29407"
+   ]
+  },
+  {
+   "t": 1794881556.712279,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#13135"
+   },
+   "seconds": 0.00013114698231220245,
+   "returned": [
+    "PowerToys#13135"
+   ]
+  },
+  {
+   "t": 1794881556.817145,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38908"
+   },
+   "seconds": 0.00011958699906244874,
+   "returned": [
+    "PowerToys#38908"
+   ]
+  },
+  {
+   "t": 1794881558.0119412,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#12579"
+   },
+   "seconds": 0.00013835699064657092,
+   "returned": [
+    "PowerToys#12579"
+   ]
+  },
+  {
+   "t": 1794881558.113971,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#13501"
+   },
+   "seconds": 0.00024207300157286227,
+   "returned": [
+    "PowerToys#13501"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7918,
+  "stop_reason": "end_turn",
+  "session_id": "9b1a1070-8984-484b-ad93-ef1438819bd9",
+  "total_cost_usd": 0.030223900000000005,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 5411,
+   "cache_read_input_tokens": 12139,
+   "output_tokens": 735,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5411,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 230,
+     "cache_read_input_tokens": 5597,
+     "cache_creation_input_tokens": 847,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 847
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 735,
+    "cacheReadInputTokens": 12139,
+    "cacheCreationInputTokens": 5411,
+    "webSearchRequests": 0,
+    "costUSD": 0.030223900000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5411,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#13501\", \"PowerToys#38908\", \"PowerToys#29407\"], \"answer\": \"This feature request has been filed before. Awake can't yet keep your PC awake on a schedule, such as working days only. The tickets I read don't say it has been implemented. The earlier requests are PowerToys#13501, #38908 and #29407. Several others were closed as duplicates of them. Add a 👍 or any extra detail to PowerToys#13501 and follow it for updates. For now, turn Awake on manually at the start of your workday, or use the timed mode with a duration such as 8 hours. Outside those periods your laptop will sleep normally.\"}",
+  "ttft_ms": 1323,
+  "type": "result",
+  "duration_ms": 11265,
+  "uuid": "ac37f89a-19f8-467c-bf1e-d92d1597225d",
+  "ttft_stream_ms": 647,
+  "time_to_request_ms": 28,
+  "first_content_frame_ms": 647,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 735,
+    "cacheReadInputTokens": 12139,
+    "cacheCreationInputTokens": 5411,
+    "webSearchRequests": 0,
+    "costUSD": 0.030223900000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5411,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.607192625990137,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-tyfs58c8/work"
+  }
+ },
+ "wall_seconds": 12.60904842801392,
+ "qid": "PowerToys#50129",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#13501",
+   "PowerToys#38908",
+   "PowerToys#29407"
+  ],
+  "answer": "This feature request has been filed before. Awake can't yet keep your PC awake on a schedule, such as working days only. The tickets I read don't say it has been implemented. The earlier requests are PowerToys#13501, #38908 and #29407. Several others were closed as duplicates of them. Add a 👍 or any extra detail to PowerToys#13501 and follow it for updates. For now, turn Awake on manually at the start of your workday, or use the timed mode with a duration such as 8 hours. Outside those periods your laptop will sleep normally."
+ },
+ "hit_turn_cap": false
+}

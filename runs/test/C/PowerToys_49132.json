@@ -1,0 +1,405 @@
+{
+ "shown": [
+  "PowerToys#10202",
+  "PowerToys#11019",
+  "PowerToys#11429",
+  "PowerToys#11514",
+  "PowerToys#11671",
+  "PowerToys#13097",
+  "PowerToys#13319",
+  "PowerToys#1810",
+  "PowerToys#19521",
+  "PowerToys#23666",
+  "PowerToys#2608",
+  "PowerToys#3498",
+  "PowerToys#3773",
+  "PowerToys#38333",
+  "PowerToys#38346",
+  "PowerToys#38442",
+  "PowerToys#38487",
+  "PowerToys#38593",
+  "PowerToys#38665",
+  "PowerToys#39343",
+  "PowerToys#40397",
+  "PowerToys#41346",
+  "PowerToys#41629",
+  "PowerToys#41731",
+  "PowerToys#41735",
+  "PowerToys#41736",
+  "PowerToys#42346",
+  "PowerToys#4286",
+  "PowerToys#45325",
+  "PowerToys#45466",
+  "PowerToys#46304",
+  "PowerToys#4637",
+  "PowerToys#48534",
+  "PowerToys#48598",
+  "PowerToys#5494",
+  "PowerToys#5779",
+  "PowerToys#5958",
+  "PowerToys#623",
+  "PowerToys#6809",
+  "PowerToys#7604",
+  "PowerToys#9095",
+  "PowerToys#9654"
+ ],
+ "retrieval_seconds": 4.184501996991457,
+ "tool_calls": [
+  {
+   "t": 1794877599.0898435,
+   "tool": "search",
+   "args": {
+    "query": "Command Palette search System Commands by English name when system language is non-English",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.150332407996757,
+   "returned": [
+    "PowerToys#11019",
+    "PowerToys#10202",
+    "PowerToys#45466",
+    "PowerToys#46304",
+    "PowerToys#3498",
+    "PowerToys#38665",
+    "PowerToys#38593",
+    "PowerToys#11514",
+    "PowerToys#2608",
+    "PowerToys#38487",
+    "PowerToys#41735",
+    "PowerToys#4637",
+    "PowerToys#38442",
+    "PowerToys#5958",
+    "PowerToys#1810",
+    "PowerToys#623",
+    "PowerToys#3773",
+    "PowerToys#39343",
+    "PowerToys#7604",
+    "PowerToys#41629"
+   ]
+  },
+  {
+   "t": 1794877599.124663,
+   "tool": "search",
+   "args": {
+    "query": "CmdPal localized commands match English keywords alias",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.018134960992028937,
+   "returned": [
+    "PowerToys#41731",
+    "PowerToys#10202",
+    "PowerToys#2608",
+    "PowerToys#41736",
+    "PowerToys#11019",
+    "PowerToys#41346",
+    "PowerToys#23666",
+    "PowerToys#19521",
+    "PowerToys#40397",
+    "PowerToys#38593",
+    "PowerToys#4286",
+    "PowerToys#45325",
+    "PowerToys#38346",
+    "PowerToys#5494",
+    "PowerToys#38665",
+    "PowerToys#9654",
+    "PowerToys#5779",
+    "PowerToys#38442",
+    "PowerToys#3498",
+    "PowerToys#6809"
+   ]
+  },
+  {
+   "t": 1794877600.9342735,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38593"
+   },
+   "seconds": 0.00014084699796512723,
+   "returned": [
+    "PowerToys#38593"
+   ]
+  },
+  {
+   "t": 1794877600.9430366,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38665"
+   },
+   "seconds": 0.00017574499361217022,
+   "returned": [
+    "PowerToys#38665"
+   ]
+  },
+  {
+   "t": 1794877601.0622725,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46304"
+   },
+   "seconds": 0.00011713599087670445,
+   "returned": [
+    "PowerToys#46304"
+   ]
+  },
+  {
+   "t": 1794877602.8063684,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42346"
+   },
+   "seconds": 0.00015807599993422627,
+   "returned": [
+    "PowerToys#42346"
+   ]
+  },
+  {
+   "t": 1794877604.2476432,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#11019"
+   },
+   "seconds": 0.00011796699254773557,
+   "returned": [
+    "PowerToys#11019"
+   ]
+  },
+  {
+   "t": 1794877606.0371141,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38593"
+   },
+   "seconds": 0.00014346701209433377,
+   "returned": [
+    "PowerToys#38593"
+   ]
+  },
+  {
+   "t": 1794877607.7602673,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38593"
+   },
+   "seconds": 0.00019901501946151257,
+   "returned": [
+    "PowerToys#38593"
+   ]
+  },
+  {
+   "t": 1794877609.6030896,
+   "tool": "search",
+   "args": {
+    "query": "CmdPal system commands English names localized Japanese restart",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014982374996179715,
+   "returned": [
+    "PowerToys#11019",
+    "PowerToys#13319",
+    "PowerToys#38593",
+    "PowerToys#10202",
+    "PowerToys#2608",
+    "PowerToys#38665",
+    "PowerToys#3498",
+    "PowerToys#4286",
+    "PowerToys#9654",
+    "PowerToys#19521",
+    "PowerToys#38346",
+    "PowerToys#23666",
+    "PowerToys#11429",
+    "PowerToys#48534",
+    "PowerToys#13097",
+    "PowerToys#11671",
+    "PowerToys#5958",
+    "PowerToys#9095",
+    "PowerToys#38333",
+    "PowerToys#48598"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 16072,
+  "stop_reason": "end_turn",
+  "session_id": "0eb2a1aa-9527-4175-9d5c-72ac06fc0284",
+  "total_cost_usd": 0.05212,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 9322,
+   "cache_read_input_tokens": 45800,
+   "output_tokens": 1022,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9322,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 299,
+     "cache_read_input_tokens": 8993,
+     "cache_creation_input_tokens": 1362,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1362
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1022,
+    "cacheReadInputTokens": 45800,
+    "cacheCreationInputTokens": 9322,
+    "webSearchRequests": 0,
+    "costUSD": 0.05212,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9322,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#38593\", \"PowerToys#38665\", \"PowerToys#46304\"], \"answer\": \"Yes, this request has been filed before. PowerToys#38593 asks for English system command names in Command Palette, like PowerToys Run had. PowerToys#38665 was closed as a duplicate of it. PowerToys#46304 asks for CmdPal to search in both English and the display language. A maintainer said in that ticket that CmdPal already does something similar for Pinyin, but it's unclear how far to extend it. The archive shows no shipped fix or setting yet, so for now you still have to type the localized name, such as 再起動. Follow and upvote #38593 and add your Japanese 'restart' → '再起動' scenario there. A related ticket, #42346, asked for the same thing for Windows Settings and was also closed as a duplicate of #38593.\"}",
+  "ttft_ms": 2491,
+  "type": "result",
+  "duration_ms": 20370,
+  "uuid": "3e6a99f1-bb00-46ef-9bd2-58e51040b0af",
+  "ttft_stream_ms": 1494,
+  "time_to_request_ms": 48,
+  "first_content_frame_ms": 1494,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1022,
+    "cacheReadInputTokens": 45800,
+    "cacheCreationInputTokens": 9322,
+    "webSearchRequests": 0,
+    "costUSD": 0.05212,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9322,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 21.903666760015767,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-_c6k3ayx/work"
+  }
+ },
+ "wall_seconds": 21.90543156399508,
+ "qid": "PowerToys#49132",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#38593",
+   "PowerToys#38665",
+   "PowerToys#46304"
+  ],
+  "answer": "Yes, this request has been filed before. PowerToys#38593 asks for English system command names in Command Palette, like PowerToys Run had. PowerToys#38665 was closed as a duplicate of it. PowerToys#46304 asks for CmdPal to search in both English and the display language. A maintainer said in that ticket that CmdPal already does something similar for Pinyin, but it's unclear how far to extend it. The archive shows no shipped fix or setting yet, so for now you still have to type the localized name, such as 再起動. Follow and upvote #38593 and add your Japanese 'restart' → '再起動' scenario there. A related ticket, #42346, asked for the same thing for Windows Settings and was also closed as a duplicate of #38593."
+ },
+ "hit_turn_cap": false
+}

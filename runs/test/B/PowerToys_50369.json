@@ -1,0 +1,291 @@
+{
+ "shown": [
+  "PowerToys#1934",
+  "PowerToys#20058",
+  "PowerToys#2686",
+  "PowerToys#27594",
+  "PowerToys#30472",
+  "PowerToys#32552",
+  "PowerToys#32846",
+  "PowerToys#3287",
+  "PowerToys#33148",
+  "PowerToys#35796",
+  "PowerToys#35975",
+  "PowerToys#36807",
+  "PowerToys#37696",
+  "PowerToys#37937",
+  "PowerToys#39728",
+  "PowerToys#3990",
+  "PowerToys#43758",
+  "PowerToys#45474",
+  "PowerToys#47840",
+  "PowerToys#48206"
+ ],
+ "retrieval_seconds": 0.11148478597169742,
+ "tool_calls": [
+  {
+   "t": 1794882069.2901473,
+   "tool": "search",
+   "args": {
+    "pattern": "heic",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0526350989821367,
+   "returned": [
+    "PowerToys#3990",
+    "PowerToys#2686",
+    "PowerToys#1934",
+    "PowerToys#32552",
+    "PowerToys#33148",
+    "PowerToys#48206",
+    "PowerToys#37937",
+    "PowerToys#20058",
+    "PowerToys#3287",
+    "PowerToys#45474",
+    "PowerToys#43758",
+    "PowerToys#35796",
+    "PowerToys#32846",
+    "PowerToys#30472",
+    "PowerToys#27594",
+    "PowerToys#47840",
+    "PowerToys#39728",
+    "PowerToys#37696",
+    "PowerToys#36807",
+    "PowerToys#35975"
+   ]
+  },
+  {
+   "t": 1794882069.432878,
+   "tool": "search",
+   "args": {
+    "pattern": "Image Resizer convert format",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05846101799397729,
+   "returned": []
+  },
+  {
+   "t": 1794882070.844493,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#2686"
+   },
+   "seconds": 0.00014868599828332663,
+   "returned": [
+    "PowerToys#2686"
+   ]
+  },
+  {
+   "t": 1794882071.9968312,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33148"
+   },
+   "seconds": 0.0001384759962093085,
+   "returned": [
+    "PowerToys#33148"
+   ]
+  },
+  {
+   "t": 1794882073.090328,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35975"
+   },
+   "seconds": 0.0001015070010907948,
+   "returned": [
+    "PowerToys#35975"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9872,
+  "stop_reason": "end_turn",
+  "session_id": "b2bc9264-1b76-4caa-a647-2db6dac04b63",
+  "total_cost_usd": 0.0507104,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 9578,
+   "cache_read_input_tokens": 38144,
+   "output_tokens": 856,
+   "output_tokens_details": {
+    "thinking_tokens": 73
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9578,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 343,
+     "cache_read_input_tokens": 10517,
+     "cache_creation_input_tokens": 238,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 238
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 856,
+    "cacheReadInputTokens": 38144,
+    "cacheCreationInputTokens": 9578,
+    "webSearchRequests": 0,
+    "costUSD": 0.0507104,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 73,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9578,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#2686\", \"PowerToys#35975\", \"PowerToys#33148\"], \"answer\": \"This feature request has been filed before. PowerToys#2686 is the main tracking issue for adding an output-format option to Image Resizer. Commenters there ask for HEIC→JPG and PNG→JPG, among other formats. PowerToys#35975 and #33148 asked for the same HEIC→JPG-while-resizing option, and #35975 was closed as a duplicate of #2686. Image Resizer currently keeps the original file format, and the archive shows no released fix. Add a 👍 reaction to #2686 and your scenario there instead of filing a new issue. In the meantime, convert the HEIC files to JPG with another tool, then resize them. Related requests for a general converter are #36807 and #35796. A new HEIC→JPG/PNG conversion request is #48206, which asks for it through Advanced Paste.\"}",
+  "ttft_ms": 1379,
+  "type": "result",
+  "duration_ms": 10006,
+  "uuid": "3b5190fa-8d76-47b8-94f5-bd0869109367",
+  "ttft_stream_ms": 891,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 891,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 856,
+    "cacheReadInputTokens": 38144,
+    "cacheCreationInputTokens": 9578,
+    "webSearchRequests": 0,
+    "costUSD": 0.0507104,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 73,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9578,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.435262499988312,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-2e1s64uq/work"
+  }
+ },
+ "wall_seconds": 11.43732159701176,
+ "qid": "PowerToys#50369",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#2686",
+   "PowerToys#35975",
+   "PowerToys#33148"
+  ],
+  "answer": "This feature request has been filed before. PowerToys#2686 is the main tracking issue for adding an output-format option to Image Resizer. Commenters there ask for HEIC→JPG and PNG→JPG, among other formats. PowerToys#35975 and #33148 asked for the same HEIC→JPG-while-resizing option, and #35975 was closed as a duplicate of #2686. Image Resizer currently keeps the original file format, and the archive shows no released fix. Add a 👍 reaction to #2686 and your scenario there instead of filing a new issue. In the meantime, convert the HEIC files to JPG with another tool, then resize them. Related requests for a general converter are #36807 and #35796. A new HEIC→JPG/PNG conversion request is #48206, which asks for it through Advanced Paste."
+ },
+ "hit_turn_cap": false
+}

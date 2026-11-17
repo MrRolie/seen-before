@@ -1,0 +1,340 @@
+{
+ "shown": [
+  "PowerToys#137",
+  "PowerToys#13800",
+  "PowerToys#16883",
+  "PowerToys#2171",
+  "PowerToys#21997",
+  "PowerToys#2258",
+  "PowerToys#2390",
+  "PowerToys#24182",
+  "PowerToys#2426",
+  "PowerToys#24457",
+  "PowerToys#2552",
+  "PowerToys#2615",
+  "PowerToys#30540",
+  "PowerToys#37508",
+  "PowerToys#38295",
+  "PowerToys#38303",
+  "PowerToys#38340",
+  "PowerToys#38702",
+  "PowerToys#38730",
+  "PowerToys#39166",
+  "PowerToys#39485",
+  "PowerToys#40311",
+  "PowerToys#40860",
+  "PowerToys#41279",
+  "PowerToys#41682",
+  "PowerToys#41745",
+  "PowerToys#41980",
+  "PowerToys#42037",
+  "PowerToys#42259",
+  "PowerToys#42260",
+  "PowerToys#43770",
+  "PowerToys#43968",
+  "PowerToys#44684",
+  "PowerToys#44819",
+  "PowerToys#44970",
+  "PowerToys#45347",
+  "PowerToys#45929",
+  "PowerToys#46619",
+  "PowerToys#6103",
+  "PowerToys#7770",
+  "PowerToys#844"
+ ],
+ "retrieval_seconds": 3.362276928994106,
+ "tool_calls": [
+  {
+   "t": 1794881639.6279027,
+   "tool": "similar",
+   "args": {
+    "query": "Command Palette applications extension shows shortcut icon overlay arrow instead of app icon",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.282353818998672,
+   "returned": [
+    "PowerToys#38295",
+    "PowerToys#42037",
+    "PowerToys#44819",
+    "PowerToys#39485",
+    "PowerToys#46619",
+    "PowerToys#41980",
+    "PowerToys#38730",
+    "PowerToys#45347",
+    "PowerToys#42259",
+    "PowerToys#42260",
+    "PowerToys#137",
+    "PowerToys#39166",
+    "PowerToys#2552",
+    "PowerToys#2390",
+    "PowerToys#44970",
+    "PowerToys#40311",
+    "PowerToys#45929",
+    "PowerToys#6103",
+    "PowerToys#41279",
+    "PowerToys#41682"
+   ]
+  },
+  {
+   "t": 1794881641.0128846,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46619"
+   },
+   "seconds": 0.00014534598449245095,
+   "returned": [
+    "PowerToys#46619"
+   ]
+  },
+  {
+   "t": 1794881642.4043255,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43968"
+   },
+   "seconds": 0.00014194598770700395,
+   "returned": [
+    "PowerToys#43968"
+   ]
+  },
+  {
+   "t": 1794881645.9189143,
+   "tool": "search",
+   "args": {
+    "pattern": "shortcut arrow",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0635643920104485,
+   "returned": [
+    "PowerToys#44684",
+    "PowerToys#13800",
+    "PowerToys#37508",
+    "PowerToys#2615",
+    "PowerToys#24457",
+    "PowerToys#30540",
+    "PowerToys#24182",
+    "PowerToys#16883",
+    "PowerToys#844"
+   ]
+  },
+  {
+   "t": 1794881648.0435712,
+   "tool": "similar",
+   "args": {
+    "query": "Command Palette apps show .lnk shortcut overlay arrow on icon, want real app icon like start menu",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.016071426012786105,
+   "returned": [
+    "PowerToys#38295",
+    "PowerToys#46619",
+    "PowerToys#40311",
+    "PowerToys#2390",
+    "PowerToys#6103",
+    "PowerToys#45929",
+    "PowerToys#40860",
+    "PowerToys#43770",
+    "PowerToys#2552",
+    "PowerToys#2171",
+    "PowerToys#2426",
+    "PowerToys#41745",
+    "PowerToys#21997",
+    "PowerToys#137",
+    "PowerToys#38303",
+    "PowerToys#39485",
+    "PowerToys#2258",
+    "PowerToys#7770",
+    "PowerToys#38702",
+    "PowerToys#38340"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13682,
+  "stop_reason": "end_turn",
+  "session_id": "017cd894-956b-4036-8e2c-2f9c6d47ef71",
+  "total_cost_usd": 0.0381664,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 6507,
+   "cache_read_input_tokens": 28204,
+   "output_tokens": 929,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6507,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 244,
+     "cache_read_input_tokens": 6571,
+     "cache_creation_input_tokens": 1349,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1349
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 929,
+    "cacheReadInputTokens": 28204,
+    "cacheCreationInputTokens": 6507,
+    "webSearchRequests": 0,
+    "costUSD": 0.0381664,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6507,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "```json\n{\"seen_before\": true, \"matches\": [\"PowerToys#43968\", \"PowerToys#46619\"], \"answer\": \"This has been requested before. Command Palette's app list shows the .lnk shortcut icon, including the small overlay arrow, instead of the clean app icon the Start menu shows. PowerToys#43968 asks to remove the shortcut icon on app icons. PowerToys#46619 asks for an option to hide the overlay arrow, and it was closed as a duplicate of #43968. Neither ticket contains a fix or workaround, so there is nothing to change on your side for now. Please add your 👍 and your screenshots to #43968, which is the main request. Your ticket would be handled as a duplicate of it.\"}\n```",
+  "ttft_ms": 2441,
+  "type": "result",
+  "duration_ms": 17132,
+  "uuid": "00c9ace2-4e43-4aa9-babb-83880cc21379",
+  "ttft_stream_ms": 1194,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 1194,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 929,
+    "cacheReadInputTokens": 28204,
+    "cacheCreationInputTokens": 6507,
+    "webSearchRequests": 0,
+    "costUSD": 0.0381664,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6507,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.500876436010003,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-k_7l69_r/work"
+  }
+ },
+ "wall_seconds": 18.502778296999168,
+ "qid": "PowerToys#50197",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#43968",
+   "PowerToys#46619"
+  ],
+  "answer": "This has been requested before. Command Palette's app list shows the .lnk shortcut icon, including the small overlay arrow, instead of the clean app icon the Start menu shows. PowerToys#43968 asks to remove the shortcut icon on app icons. PowerToys#46619 asks for an option to hide the overlay arrow, and it was closed as a duplicate of #43968. Neither ticket contains a fix or workaround, so there is nothing to change on your side for now. Please add your 👍 and your screenshots to #43968, which is the main request. Your ticket would be handled as a duplicate of it."
+ },
+ "hit_turn_cap": false
+}

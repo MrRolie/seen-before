@@ -1,0 +1,364 @@
+{
+ "shown": [
+  "PowerToys#1053",
+  "PowerToys#11655",
+  "PowerToys#12686",
+  "PowerToys#14047",
+  "PowerToys#1444",
+  "PowerToys#14852",
+  "PowerToys#14936",
+  "PowerToys#16812",
+  "PowerToys#21101",
+  "PowerToys#25520",
+  "PowerToys#28970",
+  "PowerToys#29594",
+  "PowerToys#31226",
+  "PowerToys#34287",
+  "PowerToys#35490",
+  "PowerToys#37539",
+  "PowerToys#37596",
+  "PowerToys#40091",
+  "PowerToys#41342",
+  "PowerToys#44892",
+  "PowerToys#48127",
+  "PowerToys#5944",
+  "PowerToys#8748",
+  "PowerToys#8855",
+  "PowerToys#888",
+  "PowerToys#907"
+ ],
+ "retrieval_seconds": 0.3770142479916103,
+ "tool_calls": [
+  {
+   "t": 1794875699.468232,
+   "tool": "search",
+   "args": {
+    "pattern": "PowerRename",
+    "regex": false,
+    "also": [
+     "save",
+     "preset"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.18620830701547675,
+   "returned": [
+    "PowerToys#888",
+    "PowerToys#37539",
+    "PowerToys#48127",
+    "PowerToys#29594",
+    "PowerToys#21101",
+    "PowerToys#1053",
+    "PowerToys#907",
+    "PowerToys#40091",
+    "PowerToys#37596",
+    "PowerToys#14936"
+   ]
+  },
+  {
+   "t": 1794875699.7134693,
+   "tool": "search",
+   "args": {
+    "pattern": "PowerRename",
+    "regex": false,
+    "also": [
+     "recall"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1111622900061775,
+   "returned": [
+    "PowerToys#28970",
+    "PowerToys#14852",
+    "PowerToys#44892",
+    "PowerToys#16812",
+    "PowerToys#14047",
+    "PowerToys#8855",
+    "PowerToys#8748",
+    "PowerToys#907",
+    "PowerToys#41342",
+    "PowerToys#35490",
+    "PowerToys#31226",
+    "PowerToys#5944",
+    "PowerToys#1444"
+   ]
+  },
+  {
+   "t": 1794875700.1339495,
+   "tool": "search",
+   "args": {
+    "pattern": "rename",
+    "regex": false,
+    "also": [
+     "saved patterns"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07871805399190634,
+   "returned": []
+  },
+  {
+   "t": 1794875701.4211774,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#14047"
+   },
+   "seconds": 0.00010650698095560074,
+   "returned": [
+    "PowerToys#14047"
+   ]
+  },
+  {
+   "t": 1794875701.6728172,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#11655"
+   },
+   "seconds": 0.0001405460061505437,
+   "returned": [
+    "PowerToys#11655"
+   ]
+  },
+  {
+   "t": 1794875701.8456364,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40091"
+   },
+   "seconds": 0.00013033600407652557,
+   "returned": [
+    "PowerToys#40091"
+   ]
+  },
+  {
+   "t": 1794875703.0183685,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34287"
+   },
+   "seconds": 0.00015262601664289832,
+   "returned": [
+    "PowerToys#34287"
+   ]
+  },
+  {
+   "t": 1794875703.2309115,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#12686"
+   },
+   "seconds": 0.0001533969771116972,
+   "returned": [
+    "PowerToys#12686"
+   ]
+  },
+  {
+   "t": 1794875704.0134041,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#29594"
+   },
+   "seconds": 0.00012668699491769075,
+   "returned": [
+    "PowerToys#29594"
+   ]
+  },
+  {
+   "t": 1794875704.857364,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#25520"
+   },
+   "seconds": 0.00011549799819476902,
+   "returned": [
+    "PowerToys#25520"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11408,
+  "stop_reason": "end_turn",
+  "session_id": "4aa1cdd0-ff39-47a1-b1c9-1d7083c2b757",
+  "total_cost_usd": 0.0590965,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 10615,
+   "cache_read_input_tokens": 36125,
+   "output_tokens": 1300,
+   "output_tokens_details": {
+    "thinking_tokens": 210
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10615,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 479,
+     "cache_read_input_tokens": 10290,
+     "cache_creation_input_tokens": 1169,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1169
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1300,
+    "cacheReadInputTokens": 36125,
+    "cacheCreationInputTokens": 10615,
+    "webSearchRequests": 0,
+    "costUSD": 0.0590965,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 210,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10615,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've found the earlier requests for this feature and I'm sending my answer now.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#11655\", \"PowerToys#12686\", \"PowerToys#25520\"], \"answer\": \"This feature has been requested before. Several tickets ask to save the full set of PowerRename search and replace patterns and options, then reload it later. Examples are presets, profiles, bookmarks and saved queries. The other requests were closed as duplicates, and #11655 (Rename Presets/Profiles) is now the main ticket. #12686 (Favorites/Bookmarks) and #25520 (save queries/macros) describe your save, recall and delete workflow in more detail. The archive shows no delivered implementation. Follow #11655 and add your use case there. Until then, PowerRename keeps only a history of recent search and replace entries in its drop-downs. That history gets overwritten as you use it, and it doesn't save your option settings. As a workaround, keep your complex regex patterns in a text file or script and paste them in when you need them.\"}",
+  "ttft_ms": 1229,
+  "type": "result",
+  "duration_ms": 11556,
+  "uuid": "c8296d23-8dd8-451f-9866-f4cb6b0f3d99",
+  "ttft_stream_ms": 546,
+  "time_to_request_ms": 35,
+  "first_content_frame_ms": 547,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1300,
+    "cacheReadInputTokens": 36125,
+    "cacheCreationInputTokens": 10615,
+    "webSearchRequests": 0,
+    "costUSD": 0.0590965,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 210,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10615,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.81665927899303,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-kap0ou5x/work"
+  }
+ },
+ "wall_seconds": 15.111592829984147,
+ "qid": "PowerToys#49060",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#11655",
+   "PowerToys#12686",
+   "PowerToys#25520"
+  ],
+  "answer": "This feature has been requested before. Several tickets ask to save the full set of PowerRename search and replace patterns and options, then reload it later. Examples are presets, profiles, bookmarks and saved queries. The other requests were closed as duplicates, and #11655 (Rename Presets/Profiles) is now the main ticket. #12686 (Favorites/Bookmarks) and #25520 (save queries/macros) describe your save, recall and delete workflow in more detail. The archive shows no delivered implementation. Follow #11655 and add your use case there. Until then, PowerRename keeps only a history of recent search and replace entries in its drop-downs. That history gets overwritten as you use it, and it doesn't save your option settings. As a workaround, keep your complex regex patterns in a text file or script and paste them in when you need them."
+ },
+ "hit_turn_cap": false
+}

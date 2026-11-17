@@ -1,0 +1,426 @@
+{
+ "shown": [
+  "PowerToys#10256",
+  "PowerToys#112",
+  "PowerToys#1208",
+  "PowerToys#12321",
+  "PowerToys#127",
+  "PowerToys#1285",
+  "PowerToys#139",
+  "PowerToys#14351",
+  "PowerToys#1951",
+  "PowerToys#2049",
+  "PowerToys#2171",
+  "PowerToys#22577",
+  "PowerToys#2258",
+  "PowerToys#22583",
+  "PowerToys#22587",
+  "PowerToys#2270",
+  "PowerToys#23",
+  "PowerToys#233",
+  "PowerToys#2371",
+  "PowerToys#2426",
+  "PowerToys#29591",
+  "PowerToys#29752",
+  "PowerToys#30665",
+  "PowerToys#3124",
+  "PowerToys#3126",
+  "PowerToys#31946",
+  "PowerToys#31949",
+  "PowerToys#33",
+  "PowerToys#33432",
+  "PowerToys#3610",
+  "PowerToys#37681",
+  "PowerToys#38340",
+  "PowerToys#3986",
+  "PowerToys#40288",
+  "PowerToys#4203",
+  "PowerToys#4311",
+  "PowerToys#5107",
+  "PowerToys#5249",
+  "PowerToys#6872",
+  "PowerToys#7442",
+  "PowerToys#8261",
+  "PowerToys#8323",
+  "PowerToys#8722",
+  "terminal#10428",
+  "terminal#10429",
+  "terminal#1335",
+  "terminal#6486",
+  "terminal#6674",
+  "terminal#7708",
+  "terminal#8002"
+ ],
+ "retrieval_seconds": 3.9636367480270565,
+ "tool_calls": [
+  {
+   "t": 1794885282.3950565,
+   "tool": "search",
+   "args": {
+    "pattern": "dialog jump",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06432322799810208,
+   "returned": []
+  },
+  {
+   "t": 1794885286.2774284,
+   "tool": "similar",
+   "args": {
+    "query": "quick switch folder in Open/Save file dialog like Listary, jump to open Explorer folder",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.8699208030011505,
+   "returned": [
+    "PowerToys#10256",
+    "PowerToys#3610",
+    "PowerToys#14351",
+    "PowerToys#31946",
+    "PowerToys#37681",
+    "PowerToys#23",
+    "PowerToys#30665",
+    "PowerToys#33432",
+    "PowerToys#12321",
+    "PowerToys#31949",
+    "PowerToys#8722",
+    "PowerToys#3126",
+    "PowerToys#8261",
+    "PowerToys#139",
+    "PowerToys#1951",
+    "PowerToys#233",
+    "PowerToys#6872",
+    "PowerToys#4311",
+    "PowerToys#29752",
+    "PowerToys#2371"
+   ]
+  },
+  {
+   "t": 1794885288.3176875,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#30665"
+   },
+   "seconds": 0.00010840699542313814,
+   "returned": [
+    "PowerToys#30665"
+   ]
+  },
+  {
+   "t": 1794885288.324599,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#3610"
+   },
+   "seconds": 0.00010625700815580785,
+   "returned": [
+    "PowerToys#3610"
+   ]
+  },
+  {
+   "t": 1794885288.443201,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37681"
+   },
+   "seconds": 0.0001848250103648752,
+   "returned": [
+    "PowerToys#37681"
+   ]
+  },
+  {
+   "t": 1794885290.0317678,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#14351"
+   },
+   "seconds": 0.00016203601262532175,
+   "returned": [
+    "PowerToys#14351"
+   ]
+  },
+  {
+   "t": 1794885290.1571186,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#23"
+   },
+   "seconds": 0.00015770600293762982,
+   "returned": [
+    "PowerToys#23"
+   ]
+  },
+  {
+   "t": 1794885291.7019975,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#12321"
+   },
+   "seconds": 0.00017955599469132721,
+   "returned": [
+    "PowerToys#12321"
+   ]
+  },
+  {
+   "t": 1794885293.2301073,
+   "tool": "similar",
+   "args": {
+    "query": "Dialog Jump Flow Launcher file dialog folder switch ctrl+G",
+    "repo": null
+   },
+   "seconds": 0.014898835011990741,
+   "returned": [
+    "PowerToys#23",
+    "PowerToys#5249",
+    "PowerToys#2258",
+    "terminal#6486",
+    "PowerToys#10256",
+    "terminal#10429",
+    "terminal#8002",
+    "PowerToys#3610",
+    "PowerToys#3124",
+    "PowerToys#2171",
+    "PowerToys#38340",
+    "PowerToys#2426",
+    "PowerToys#2371",
+    "PowerToys#2049",
+    "terminal#7708",
+    "terminal#10428",
+    "terminal#1335",
+    "PowerToys#4203",
+    "terminal#6674",
+    "PowerToys#2270"
+   ]
+  },
+  {
+   "t": 1794885294.836825,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#29752"
+   },
+   "seconds": 0.00014883599942550063,
+   "returned": [
+    "PowerToys#29752"
+   ]
+  },
+  {
+   "t": 1794885296.344343,
+   "tool": "similar",
+   "args": {
+    "query": "Dialog Jump feature for Open/Save dialogs",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.013446258992189541,
+   "returned": [
+    "PowerToys#23",
+    "PowerToys#3610",
+    "PowerToys#40288",
+    "PowerToys#38340",
+    "PowerToys#8323",
+    "PowerToys#30665",
+    "PowerToys#112",
+    "PowerToys#1285",
+    "PowerToys#22577",
+    "PowerToys#1208",
+    "PowerToys#127",
+    "PowerToys#3986",
+    "PowerToys#22583",
+    "PowerToys#22587",
+    "PowerToys#10256",
+    "PowerToys#7442",
+    "PowerToys#5107",
+    "PowerToys#33432",
+    "PowerToys#29591",
+    "PowerToys#33"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 16627,
+  "stop_reason": "end_turn",
+  "session_id": "ea772a51-8d1a-4c32-b0aa-fab3c20134cb",
+  "total_cost_usd": 0.061665700000000004,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 11069,
+   "cache_read_input_tokens": 53077,
+   "output_tokens": 1205,
+   "output_tokens_details": {
+    "thinking_tokens": 88
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11069,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 410,
+     "cache_read_input_tokens": 11241,
+     "cache_creation_input_tokens": 1241,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1241
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1205,
+    "cacheReadInputTokens": 53077,
+    "cacheCreationInputTokens": 11069,
+    "webSearchRequests": 0,
+    "costUSD": 0.061665700000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 88,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11069,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#14351\", \"PowerToys#3610\", \"PowerToys#23\"], \"answer\": \"This feature has been requested before. It is usually called Quick Switch, after Listary's version. It lets you jump an Open/Save dialog to the folder of an open Explorer window. PowerToys#14351 is the main tracking issue, and the maintainers closed similar requests as duplicates of it. PowerToys#3610 and PowerToys#23 describe the same idea. The archive shows no sign that it has been built, so you can't get it in PowerToys yet. Add your +1 or your Dialog Jump use case (the Ctrl+G hotkey, the folder search box, Lertaro and Flow Launcher as open-source references) to #14351. Until then, you can use Listary, Lertaro, Flow Launcher's Dialog Jump or Fluent Search. Fluent Search was mentioned in #23 as supporting this.\"}",
+  "ttft_ms": 2227,
+  "type": "result",
+  "duration_ms": 20708,
+  "uuid": "d121fd9f-d63b-4ced-934d-19094f6b3db9",
+  "ttft_stream_ms": 1271,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 1271,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1205,
+    "cacheReadInputTokens": 53077,
+    "cacheCreationInputTokens": 11069,
+    "webSearchRequests": 0,
+    "costUSD": 0.061665700000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 88,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11069,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 22.080706674983958,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-sl75k15i/work"
+  }
+ },
+ "wall_seconds": 22.082538442016812,
+ "qid": "PowerToys#51903",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#14351",
+   "PowerToys#3610",
+   "PowerToys#23"
+  ],
+  "answer": "This feature has been requested before. It is usually called Quick Switch, after Listary's version. It lets you jump an Open/Save dialog to the folder of an open Explorer window. PowerToys#14351 is the main tracking issue, and the maintainers closed similar requests as duplicates of it. PowerToys#3610 and PowerToys#23 describe the same idea. The archive shows no sign that it has been built, so you can't get it in PowerToys yet. Add your +1 or your Dialog Jump use case (the Ctrl+G hotkey, the folder search box, Lertaro and Flow Launcher as open-source references) to #14351. Until then, you can use Listary, Lertaro, Flow Launcher's Dialog Jump or Fluent Search. Fluent Search was mentioned in #23 as supporting this."
+ },
+ "hit_turn_cap": false
+}

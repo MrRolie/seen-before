@@ -1,0 +1,291 @@
+{
+ "shown": [
+  "PowerToys#10026",
+  "PowerToys#10346",
+  "PowerToys#10929",
+  "PowerToys#12495",
+  "PowerToys#1411",
+  "PowerToys#164",
+  "PowerToys#16754",
+  "PowerToys#20233",
+  "PowerToys#21277",
+  "PowerToys#4062",
+  "PowerToys#4317",
+  "PowerToys#4401",
+  "PowerToys#4818",
+  "PowerToys#4969",
+  "PowerToys#8700",
+  "PowerToys#8933",
+  "PowerToys#8960",
+  "PowerToys#9007",
+  "PowerToys#9304",
+  "PowerToys#9864",
+  "PowerToys#9910"
+ ],
+ "retrieval_seconds": 4.587533242010977,
+ "tool_calls": [
+  {
+   "t": 1794881210.4592614,
+   "tool": "similar",
+   "args": {
+    "query": "FancyZones switch layout while dragging with a key press (Alt) to another predefined layout",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.519643278996227,
+   "returned": [
+    "PowerToys#9910",
+    "PowerToys#9864",
+    "PowerToys#4818",
+    "PowerToys#4062",
+    "PowerToys#10026",
+    "PowerToys#9007",
+    "PowerToys#20233",
+    "PowerToys#9304",
+    "PowerToys#8933",
+    "PowerToys#4969",
+    "PowerToys#4401",
+    "PowerToys#164",
+    "PowerToys#4317",
+    "PowerToys#8960",
+    "PowerToys#10346",
+    "PowerToys#8700",
+    "PowerToys#21277",
+    "PowerToys#16754",
+    "PowerToys#10929",
+    "PowerToys#12495"
+   ]
+  },
+  {
+   "t": 1794881210.5420902,
+   "tool": "search",
+   "args": {
+    "pattern": "switch layout while dragging",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06727906901505776,
+   "returned": []
+  },
+  {
+   "t": 1794881211.687417,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#9910"
+   },
+   "seconds": 0.0002177440037485212,
+   "returned": [
+    "PowerToys#9910"
+   ]
+  },
+  {
+   "t": 1794881211.800085,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4401"
+   },
+   "seconds": 0.00023937399964779615,
+   "returned": [
+    "PowerToys#4401"
+   ]
+  },
+  {
+   "t": 1794881212.7328777,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1411"
+   },
+   "seconds": 0.00015377599629573524,
+   "returned": [
+    "PowerToys#1411"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7097,
+  "stop_reason": "end_turn",
+  "session_id": "ece0bde0-921b-460c-a39e-067683f91eef",
+  "total_cost_usd": 0.033682699999999996,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 6394,
+   "cache_read_input_tokens": 11507,
+   "output_tokens": 694,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6394,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 304,
+     "cache_read_input_tokens": 4446,
+     "cache_creation_input_tokens": 3361,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3361
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 694,
+    "cacheReadInputTokens": 11507,
+    "cacheCreationInputTokens": 6394,
+    "webSearchRequests": 0,
+    "costUSD": 0.033682699999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6394,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "```json\n{\"seen_before\": true, \"matches\": [\"PowerToys#9910\", \"PowerToys#4401\", \"PowerToys#1411\"], \"answer\": \"This feature request has been made before. Users have asked for a modifier key held while dragging, such as Alt or Ctrl, to switch to a second or other predefined layout. The maintainers closed those requests as duplicates of the umbrella ticket PowerToys#1411, which is the one to follow and add a thumbs-up to. Nothing like it is built in yet. What exists is a layout quick-swap shortcut, released in 0.35, which is Win+Ctrl+Alt+number. You can use it to switch layouts before you drag, but you can't switch while dragging with Shift held. The shortcut can't be customised. Until a hold-key or scroll-wheel layout switch is added, assign layouts to numbers in the FancyZones editor and use that shortcut.\"}\n```",
+  "ttft_ms": 1669,
+  "type": "result",
+  "duration_ms": 11775,
+  "uuid": "87e0807f-2225-4934-8734-a469dba444f0",
+  "ttft_stream_ms": 806,
+  "time_to_request_ms": 44,
+  "first_content_frame_ms": 806,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 694,
+    "cacheReadInputTokens": 11507,
+    "cacheCreationInputTokens": 6394,
+    "webSearchRequests": 0,
+    "costUSD": 0.033682699999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6394,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.286477084999206,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-olyck4vf/work"
+  }
+ },
+ "wall_seconds": 13.289611785992747,
+ "qid": "PowerToys#50063",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#9910",
+   "PowerToys#4401",
+   "PowerToys#1411"
+  ],
+  "answer": "This feature request has been made before. Users have asked for a modifier key held while dragging, such as Alt or Ctrl, to switch to a second or other predefined layout. The maintainers closed those requests as duplicates of the umbrella ticket PowerToys#1411, which is the one to follow and add a thumbs-up to. Nothing like it is built in yet. What exists is a layout quick-swap shortcut, released in 0.35, which is Win+Ctrl+Alt+number. You can use it to switch layouts before you drag, but you can't switch while dragging with Shift held. The shortcut can't be customised. Until a hold-key or scroll-wheel layout switch is added, assign layouts to numbers in the FancyZones editor and use that shortcut."
+ },
+ "hit_turn_cap": false
+}

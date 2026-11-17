@@ -1,0 +1,382 @@
+{
+ "shown": [
+  "PowerToys#10271",
+  "PowerToys#10356",
+  "PowerToys#10389",
+  "PowerToys#12874",
+  "PowerToys#16173",
+  "PowerToys#16286",
+  "PowerToys#1881",
+  "PowerToys#18918",
+  "PowerToys#19307",
+  "PowerToys#22601",
+  "PowerToys#23193",
+  "PowerToys#23231",
+  "PowerToys#246",
+  "PowerToys#2544",
+  "PowerToys#2662",
+  "PowerToys#26840",
+  "PowerToys#28027",
+  "PowerToys#29340",
+  "PowerToys#31708",
+  "PowerToys#32128",
+  "PowerToys#33186",
+  "PowerToys#33932",
+  "PowerToys#34383",
+  "PowerToys#34798",
+  "PowerToys#3571",
+  "PowerToys#35808",
+  "PowerToys#38196",
+  "PowerToys#38467",
+  "PowerToys#38608",
+  "PowerToys#43302",
+  "PowerToys#4453",
+  "PowerToys#46821",
+  "PowerToys#4713",
+  "PowerToys#48186",
+  "PowerToys#48498",
+  "PowerToys#4879",
+  "PowerToys#5496",
+  "PowerToys#5571",
+  "PowerToys#5670",
+  "PowerToys#5722",
+  "PowerToys#5997",
+  "PowerToys#6842",
+  "PowerToys#7229",
+  "PowerToys#7444",
+  "PowerToys#8016",
+  "PowerToys#8952",
+  "PowerToys#9153"
+ ],
+ "retrieval_seconds": 3.64346397301415,
+ "tool_calls": [
+  {
+   "t": 1794876134.4426813,
+   "tool": "similar",
+   "args": {
+    "query": "Keyboard manager add comment/description/name to each shortcut remapping",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.491525660007028,
+   "returned": [
+    "PowerToys#38196",
+    "PowerToys#12874",
+    "PowerToys#2662",
+    "PowerToys#2544",
+    "PowerToys#4713",
+    "PowerToys#8016",
+    "PowerToys#5496",
+    "PowerToys#3571",
+    "PowerToys#7444",
+    "PowerToys#18918",
+    "PowerToys#10271",
+    "PowerToys#16286",
+    "PowerToys#6842",
+    "PowerToys#38608",
+    "PowerToys#7229",
+    "PowerToys#5670",
+    "PowerToys#5722",
+    "PowerToys#10389",
+    "PowerToys#5997",
+    "PowerToys#8952"
+   ]
+  },
+  {
+   "t": 1794876134.5934966,
+   "tool": "search",
+   "args": {
+    "pattern": "keyboard manager",
+    "regex": false,
+    "also": [
+     "comment"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.13765577800222673,
+   "returned": [
+    "PowerToys#29340",
+    "PowerToys#31708",
+    "PowerToys#19307",
+    "PowerToys#23193",
+    "PowerToys#34798",
+    "PowerToys#16173",
+    "PowerToys#26840",
+    "PowerToys#5571",
+    "PowerToys#4879",
+    "PowerToys#48186",
+    "PowerToys#1881",
+    "PowerToys#48498",
+    "PowerToys#35808",
+    "PowerToys#46821",
+    "PowerToys#43302",
+    "PowerToys#33186",
+    "PowerToys#32128",
+    "PowerToys#23231",
+    "PowerToys#33932",
+    "PowerToys#28027"
+   ]
+  },
+  {
+   "t": 1794876138.252402,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38196"
+   },
+   "seconds": 0.00013799700536765158,
+   "returned": [
+    "PowerToys#38196"
+   ]
+  },
+  {
+   "t": 1794876138.625669,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#16286"
+   },
+   "seconds": 0.00012954702833667397,
+   "returned": [
+    "PowerToys#16286"
+   ]
+  },
+  {
+   "t": 1794876138.6375468,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#18918"
+   },
+   "seconds": 0.00012837699614465237,
+   "returned": [
+    "PowerToys#18918"
+   ]
+  },
+  {
+   "t": 1794876138.7547038,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38608"
+   },
+   "seconds": 0.0001205469889100641,
+   "returned": [
+    "PowerToys#38608"
+   ]
+  },
+  {
+   "t": 1794876140.3914483,
+   "tool": "similar",
+   "args": {
+    "query": "Add comments to keyboard manager shortcuts",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.013766066986136138,
+   "returned": [
+    "PowerToys#38196",
+    "PowerToys#38608",
+    "PowerToys#16286",
+    "PowerToys#10271",
+    "PowerToys#7444",
+    "PowerToys#5997",
+    "PowerToys#246",
+    "PowerToys#2662",
+    "PowerToys#38467",
+    "PowerToys#12874",
+    "PowerToys#34383",
+    "PowerToys#10356",
+    "PowerToys#7229",
+    "PowerToys#2544",
+    "PowerToys#3571",
+    "PowerToys#4713",
+    "PowerToys#9153",
+    "PowerToys#22601",
+    "PowerToys#5496",
+    "PowerToys#4453"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11504,
+  "stop_reason": "end_turn",
+  "session_id": "a37eb41b-7660-45c0-a0ae-f4747f086aec",
+  "total_cost_usd": 0.0506409,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 10065,
+   "cache_read_input_tokens": 22149,
+   "output_tokens": 815,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10065,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 265,
+     "cache_read_input_tokens": 10227,
+     "cache_creation_input_tokens": 1251,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1251
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 815,
+    "cacheReadInputTokens": 22149,
+    "cacheCreationInputTokens": 10065,
+    "webSearchRequests": 0,
+    "costUSD": 0.0506409,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10065,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#16286\", \"PowerToys#38196\", \"PowerToys#18918\"], \"answer\": \"Other customers have already asked for this feature. It is tracked in PowerToys#16286, \\\"Allow adding comments to remapped keys / shortcuts\\\". The later requests, PowerToys#38196 and PowerToys#18918, were closed as duplicates of it. PowerToys#38608 is a similar request and may also be a duplicate. The archive shows no sign that the feature has been built. The only response on #16286 was a maintainer calling it a \\\"neat idea\\\". There is no comment field in Keyboard Manager yet. Add a thumbs-up or your use case to #16286 to show demand. Until it ships, keep your own notes on what each remap does.\"}",
+  "ttft_ms": 2401,
+  "type": "result",
+  "duration_ms": 15209,
+  "uuid": "66705f3c-a929-4871-a819-c3e02417e0d5",
+  "ttft_stream_ms": 1229,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 1229,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 815,
+    "cacheReadInputTokens": 22149,
+    "cacheCreationInputTokens": 10065,
+    "webSearchRequests": 0,
+    "costUSD": 0.0506409,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10065,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.471095966990106,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-uew1l3xl/work"
+  }
+ },
+ "wall_seconds": 16.593198243994266,
+ "qid": "PowerToys#49296",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#16286",
+   "PowerToys#38196",
+   "PowerToys#18918"
+  ],
+  "answer": "Other customers have already asked for this feature. It is tracked in PowerToys#16286, \"Allow adding comments to remapped keys / shortcuts\". The later requests, PowerToys#38196 and PowerToys#18918, were closed as duplicates of it. PowerToys#38608 is a similar request and may also be a duplicate. The archive shows no sign that the feature has been built. The only response on #16286 was a maintainer calling it a \"neat idea\". There is no comment field in Keyboard Manager yet. Add a thumbs-up or your use case to #16286 to show demand. Until it ships, keep your own notes on what each remap does."
+ },
+ "hit_turn_cap": false
+}

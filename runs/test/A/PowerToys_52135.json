@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#48217",
+  "PowerToys#31737",
+  "PowerToys#28080",
+  "PowerToys#44956",
+  "PowerToys#35543"
+ ],
+ "retrieval_seconds": 0.050026759010506794,
+ "retrieval_scores": [
+  0.7627719640731812,
+  0.7396062612533569,
+  0.7385523915290833,
+  0.7268598079681396,
+  0.7256919145584106
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3363,
+  "stop_reason": "end_turn",
+  "session_id": "bb32fadd-ed1d-4603-a6e0-0a71afe31de4",
+  "total_cost_usd": 0.025408,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5601,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 300,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5601,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 300,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5601,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5601
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 300,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5601,
+    "webSearchRequests": 0,
+    "costUSD": 0.025408,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5601,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#28080\", \"PowerToys#35543\", \"PowerToys#31737\"], \"answer\": \"This feature request has been made before: showing folder sizes in File Explorer, ideally computed in the background and cached, as a File Explorer add-on. Those tickets were closed as duplicates of the main tracking issues (#356 for folder sizes in Explorer, and #11871 per the closure of #28080), so no fix has shipped yet. Please add your +1 and any extra detail, such as the capacity bar and the parent-versus-drive baseline, to the tracking issue #356 and subscribe there for updates. In the meantime, you can use the Files app, which already shows folder sizes, or a disk analyzer like WizTree or TreeSize. Note that the capacity bar itself is a new detail not covered in the past tickets; the folder size part is what has been reported before.\"}",
+  "ttft_ms": 3516,
+  "type": "result",
+  "duration_ms": 3547,
+  "uuid": "222f7f2a-70cb-4cb5-8723-29446b6317d8",
+  "ttft_stream_ms": 1208,
+  "time_to_request_ms": 174,
+  "first_content_frame_ms": 1208,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 300,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5601,
+    "webSearchRequests": 0,
+    "costUSD": 0.025408,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5601,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.662532631016802,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-2rfa_sai/work"
+  }
+ },
+ "wall_seconds": 4.715247401007218,
+ "qid": "PowerToys#52135",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#28080",
+   "PowerToys#35543",
+   "PowerToys#31737"
+  ],
+  "answer": "This feature request has been made before: showing folder sizes in File Explorer, ideally computed in the background and cached, as a File Explorer add-on. Those tickets were closed as duplicates of the main tracking issues (#356 for folder sizes in Explorer, and #11871 per the closure of #28080), so no fix has shipped yet. Please add your +1 and any extra detail, such as the capacity bar and the parent-versus-drive baseline, to the tracking issue #356 and subscribe there for updates. In the meantime, you can use the Files app, which already shows folder sizes, or a disk analyzer like WizTree or TreeSize. Note that the capacity bar itself is a new detail not covered in the past tickets; the folder size part is what has been reported before."
+ },
+ "hit_turn_cap": false
+}

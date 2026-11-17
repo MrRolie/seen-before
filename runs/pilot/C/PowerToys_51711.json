@@ -1,0 +1,342 @@
+{
+ "shown": [
+  "PowerToys#10301",
+  "PowerToys#11780",
+  "PowerToys#12124",
+  "PowerToys#14151",
+  "PowerToys#14326",
+  "PowerToys#1465",
+  "PowerToys#18465",
+  "PowerToys#22572",
+  "PowerToys#23259",
+  "PowerToys#2558",
+  "PowerToys#26296",
+  "PowerToys#26935",
+  "PowerToys#27837",
+  "PowerToys#29364",
+  "PowerToys#29482",
+  "PowerToys#33575",
+  "PowerToys#34667",
+  "PowerToys#35430",
+  "PowerToys#3722",
+  "PowerToys#37938",
+  "PowerToys#40465",
+  "PowerToys#40678",
+  "PowerToys#44821",
+  "PowerToys#47958",
+  "PowerToys#4908",
+  "PowerToys#5150",
+  "PowerToys#5647",
+  "PowerToys#6328",
+  "PowerToys#6360",
+  "PowerToys#6563",
+  "PowerToys#77",
+  "PowerToys#9523"
+ ],
+ "retrieval_seconds": 4.155604223022237,
+ "tool_calls": [
+  {
+   "t": 1794877329.4687355,
+   "tool": "search",
+   "args": {
+    "query": "Mouse Without Borders support for Android and iPad, share phone screen",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.141374427010305,
+   "returned": [
+    "PowerToys#5647",
+    "PowerToys#3722",
+    "PowerToys#77",
+    "PowerToys#34667",
+    "PowerToys#29364",
+    "PowerToys#12124",
+    "PowerToys#10301",
+    "PowerToys#26296",
+    "PowerToys#44821",
+    "PowerToys#37938",
+    "PowerToys#5150",
+    "PowerToys#23259",
+    "PowerToys#33575",
+    "PowerToys#26935",
+    "PowerToys#27837",
+    "PowerToys#22572",
+    "PowerToys#40465",
+    "PowerToys#11780",
+    "PowerToys#40678",
+    "PowerToys#14326"
+   ]
+  },
+  {
+   "t": 1794877329.4968176,
+   "tool": "search",
+   "args": {
+    "query": "control phone from PC mouse and keyboard, mirror Android screen",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.013555953017203137,
+   "returned": [
+    "PowerToys#4908",
+    "PowerToys#47958",
+    "PowerToys#34667",
+    "PowerToys#5647",
+    "PowerToys#22572",
+    "PowerToys#35430",
+    "PowerToys#6328",
+    "PowerToys#18465",
+    "PowerToys#33575",
+    "PowerToys#6563",
+    "PowerToys#2558",
+    "PowerToys#9523",
+    "PowerToys#40678",
+    "PowerToys#5150",
+    "PowerToys#1465",
+    "PowerToys#23259",
+    "PowerToys#14151",
+    "PowerToys#29482",
+    "PowerToys#6360",
+    "PowerToys#3722"
+   ]
+  },
+  {
+   "t": 1794877331.2506237,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#26296"
+   },
+   "seconds": 0.00016063498333096504,
+   "returned": [
+    "PowerToys#26296"
+   ]
+  },
+  {
+   "t": 1794877331.640696,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44821"
+   },
+   "seconds": 0.00010557801579125226,
+   "returned": [
+    "PowerToys#44821"
+   ]
+  },
+  {
+   "t": 1794877331.6490183,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37938"
+   },
+   "seconds": 0.00014673598343506455,
+   "returned": [
+    "PowerToys#37938"
+   ]
+  },
+  {
+   "t": 1794877331.7121458,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#18465"
+   },
+   "seconds": 0.00013302700244821608,
+   "returned": [
+    "PowerToys#18465"
+   ]
+  },
+  {
+   "t": 1794877333.5589957,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33575"
+   },
+   "seconds": 0.00012786700972355902,
+   "returned": [
+    "PowerToys#33575"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10779,
+  "stop_reason": "end_turn",
+  "session_id": "673ea2a8-055e-4c3d-ae2c-d00a75a2119d",
+  "total_cost_usd": 0.0482986,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 9604,
+   "cache_read_input_tokens": 15166,
+   "output_tokens": 835,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9604,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 332,
+     "cache_read_input_tokens": 8529,
+     "cache_creation_input_tokens": 2108,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2108
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 835,
+    "cacheReadInputTokens": 15166,
+    "cacheCreationInputTokens": 9604,
+    "webSearchRequests": 0,
+    "costUSD": 0.0482986,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9604,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#26296\", \"PowerToys#44821\", \"PowerToys#37938\"], \"answer\": \"This feature request has been filed before. Mouse Without Borders for Android and other devices is tracked in PowerToys#26296, and later requests were closed as duplicates of it. PowerToys#44821 and #37938 ask for the same thing. Nothing has shipped yet, so add a thumbs-up and any extra detail to #26296. The archive shows no plans for iPad support, and the iPad request appears only as a comment in #26296. In the meantime, scrcpy can show and control an Android phone from your PC, using USB or the network. It mirrors the screen, so it doesn't let your cursor move between devices the way Mouse Without Borders does. For phone screen sharing, a past ticket (#18465) was told that PowerToys itself won't do this. That ticket suggested sending feedback about Phone Link (My Phone) through Windows Feedback Hub.\"}",
+  "ttft_ms": 2839,
+  "type": "result",
+  "duration_ms": 15033,
+  "uuid": "455e20bc-6eae-4716-bf92-2202f52b8fbd",
+  "ttft_stream_ms": 1696,
+  "time_to_request_ms": 47,
+  "first_content_frame_ms": 1696,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 835,
+    "cacheReadInputTokens": 15166,
+    "cacheCreationInputTokens": 9604,
+    "webSearchRequests": 0,
+    "costUSD": 0.0482986,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9604,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.465556951996405,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-r54v6ave/work"
+  }
+ },
+ "wall_seconds": 16.467336503003025,
+ "qid": "PowerToys#51711",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#26296",
+   "PowerToys#44821",
+   "PowerToys#37938"
+  ],
+  "answer": "This feature request has been filed before. Mouse Without Borders for Android and other devices is tracked in PowerToys#26296, and later requests were closed as duplicates of it. PowerToys#44821 and #37938 ask for the same thing. Nothing has shipped yet, so add a thumbs-up and any extra detail to #26296. The archive shows no plans for iPad support, and the iPad request appears only as a comment in #26296. In the meantime, scrcpy can show and control an Android phone from your PC, using USB or the network. It mirrors the screen, so it doesn't let your cursor move between devices the way Mouse Without Borders does. For phone screen sharing, a past ticket (#18465) was told that PowerToys itself won't do this. That ticket suggested sending feedback about Phone Link (My Phone) through Windows Feedback Hub."
+ },
+ "hit_turn_cap": false
+}

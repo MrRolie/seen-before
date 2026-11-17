@@ -1,0 +1,314 @@
+{
+ "shown": [
+  "PowerToys#12948",
+  "PowerToys#14273",
+  "PowerToys#14895",
+  "PowerToys#15122",
+  "PowerToys#15447",
+  "PowerToys#16293",
+  "PowerToys#16585",
+  "PowerToys#18015",
+  "PowerToys#20472",
+  "PowerToys#21161",
+  "PowerToys#22113",
+  "PowerToys#23312",
+  "PowerToys#28228",
+  "PowerToys#28272",
+  "PowerToys#33718",
+  "PowerToys#34649",
+  "PowerToys#35508",
+  "PowerToys#36052",
+  "PowerToys#36066",
+  "PowerToys#36602",
+  "PowerToys#38303",
+  "PowerToys#3896",
+  "PowerToys#40022",
+  "PowerToys#4043",
+  "PowerToys#41655",
+  "PowerToys#41864",
+  "PowerToys#4246",
+  "PowerToys#47",
+  "PowerToys#4851",
+  "PowerToys#6143",
+  "PowerToys#6250",
+  "PowerToys#765"
+ ],
+ "retrieval_seconds": 3.6907497729407623,
+ "tool_calls": [
+  {
+   "t": 1794883866.7426322,
+   "tool": "search",
+   "args": {
+    "pattern": "system tray",
+    "regex": false,
+    "also": [
+     "minimize"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.12360693098162301,
+   "returned": [
+    "PowerToys#4246",
+    "PowerToys#18015",
+    "PowerToys#33718",
+    "PowerToys#34649",
+    "PowerToys#47",
+    "PowerToys#41655",
+    "PowerToys#36066",
+    "PowerToys#16585",
+    "PowerToys#16293",
+    "PowerToys#6250",
+    "PowerToys#765",
+    "PowerToys#41864",
+    "PowerToys#40022",
+    "PowerToys#36602",
+    "PowerToys#35508",
+    "PowerToys#28228",
+    "PowerToys#21161",
+    "PowerToys#15447",
+    "PowerToys#12948",
+    "PowerToys#4043"
+   ]
+  },
+  {
+   "t": 1794883870.5233839,
+   "tool": "similar",
+   "args": {
+    "query": "minimize window to system tray by right-clicking minimize button, RBTray",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.5668668389844242,
+   "returned": [
+    "PowerToys#47",
+    "PowerToys#4043",
+    "PowerToys#23312",
+    "PowerToys#6143",
+    "PowerToys#15122",
+    "PowerToys#15447",
+    "PowerToys#36066",
+    "PowerToys#14895",
+    "PowerToys#22113",
+    "PowerToys#33718",
+    "PowerToys#20472",
+    "PowerToys#4851",
+    "PowerToys#3896",
+    "PowerToys#41864",
+    "PowerToys#14273",
+    "PowerToys#36052",
+    "PowerToys#28272",
+    "PowerToys#34649",
+    "PowerToys#38303",
+    "PowerToys#28228"
+   ]
+  },
+  {
+   "t": 1794883871.977777,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47"
+   },
+   "seconds": 0.00015690599684603512,
+   "returned": [
+    "PowerToys#47"
+   ]
+  },
+  {
+   "t": 1794883872.1613784,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#36602"
+   },
+   "seconds": 0.00011909697786904871,
+   "returned": [
+    "PowerToys#36602"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 5534,
+  "stop_reason": "end_turn",
+  "session_id": "908c97a2-2286-46f6-8467-a06056aa344c",
+  "total_cost_usd": 0.0493399,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 10441,
+   "cache_read_input_tokens": 11639,
+   "output_tokens": 640,
+   "output_tokens_details": {
+    "thinking_tokens": 46
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10441,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 269,
+     "cache_read_input_tokens": 7827,
+     "cache_creation_input_tokens": 4027,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4027
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 640,
+    "cacheReadInputTokens": 11639,
+    "cacheCreationInputTokens": 10441,
+    "webSearchRequests": 0,
+    "costUSD": 0.0493399,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 46,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10441,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#47\", \"PowerToys#36602\", \"PowerToys#4043\"], \"answer\": \"This feature has been requested before. PowerToys#47 is the main ticket, titled \\\"Minimize to tray by right clicking the minimize button\\\", and duplicates such as #36602 were closed in favour of it. The feature is not implemented yet. Add your use case and a thumbs-up to #47 rather than opening a new ticket. In the meantime, use a third-party tool. The tickets mention RBTray (the maintained fork at github.com/[user]/rbtray), the AutoHotkey script Min2Tray, Traymond, and 4t Tray Minimizer. Note that RBTray doesn't work with every app. One commenter reported that it fails with Opera.\"}",
+  "ttft_ms": 1020,
+  "type": "result",
+  "duration_ms": 9145,
+  "uuid": "191c2d06-b140-4c16-86b6-bbd625fdc6d5",
+  "ttft_stream_ms": 558,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 559,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 640,
+    "cacheReadInputTokens": 11639,
+    "cacheCreationInputTokens": 10441,
+    "webSearchRequests": 0,
+    "costUSD": 0.0493399,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 46,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10441,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.70165591800469,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-zovg3s3h/work"
+  }
+ },
+ "wall_seconds": 10.703958774014609,
+ "qid": "PowerToys#51144",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#47",
+   "PowerToys#36602",
+   "PowerToys#4043"
+  ],
+  "answer": "This feature has been requested before. PowerToys#47 is the main ticket, titled \"Minimize to tray by right clicking the minimize button\", and duplicates such as #36602 were closed in favour of it. The feature is not implemented yet. Add your use case and a thumbs-up to #47 rather than opening a new ticket. In the meantime, use a third-party tool. The tickets mention RBTray (the maintained fork at github.com/[user]/rbtray), the AutoHotkey script Min2Tray, Traymond, and 4t Tray Minimizer. Note that RBTray doesn't work with every app. One commenter reported that it fails with Opera."
+ },
+ "hit_turn_cap": false
+}

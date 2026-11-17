@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#48638",
+  "PowerToys#48448",
+  "PowerToys#780",
+  "PowerToys#48494",
+  "PowerToys#48773"
+ ],
+ "retrieval_seconds": 0.01860220599337481,
+ "retrieval_scores": [
+  0.7605056166648865,
+  0.7559574246406555,
+  0.7257555723190308,
+  0.7048518657684326,
+  0.7021588683128357
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 4012,
+  "stop_reason": "end_turn",
+  "session_id": "a4d0e2e7-abba-4e10-a9b3-4fe338321b0f",
+  "total_cost_usd": 0.03338,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 7509,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 334,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7509,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 334,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 7509,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7509
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 334,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7509,
+    "webSearchRequests": 0,
+    "costUSD": 0.03338,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7509,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"No past ticket reports this exact problem. Your log shows the Shortcut Guide failing to copy bundled manifests because 'C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\KeyboardShortcuts\\\\+WindowsNT.Notepad.en-US.yml' is locked by another process (IOException), and the crash happens when you open the PowerToys tab. The earlier Shortcut Guide crash reports (#48448, #48773, #48638) involve different causes: a null reference when switching sections or the Windows tab, or an access violation. Those were fixed or investigated in 0.100.1, and you are already on 0.100.2, so their advice may not apply. In the meantime, close any app that might hold that manifest file (such as Notepad or a sync/antivirus tool), or restart PowerToys or the PC, and try again. Please file or keep this as a separate issue and include the log excerpt you posted.\"}",
+  "ttft_ms": 4195,
+  "type": "result",
+  "duration_ms": 4216,
+  "uuid": "b84a4e35-fea9-48c0-ae1b-2aac2074f7d5",
+  "ttft_stream_ms": 1610,
+  "time_to_request_ms": 203,
+  "first_content_frame_ms": 1610,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 334,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7509,
+    "webSearchRequests": 0,
+    "costUSD": 0.03338,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7509,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.922667167993495,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-4gbi8b_b/work"
+  }
+ },
+ "wall_seconds": 4.942958186002215,
+ "qid": "PowerToys#50802",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "No past ticket reports this exact problem. Your log shows the Shortcut Guide failing to copy bundled manifests because 'C:\\Users\\user\\AppData\\Local\\Microsoft\\WinGet\\KeyboardShortcuts\\+WindowsNT.Notepad.en-US.yml' is locked by another process (IOException), and the crash happens when you open the PowerToys tab. The earlier Shortcut Guide crash reports (#48448, #48773, #48638) involve different causes: a null reference when switching sections or the Windows tab, or an access violation. Those were fixed or investigated in 0.100.1, and you are already on 0.100.2, so their advice may not apply. In the meantime, close any app that might hold that manifest file (such as Notepad or a sync/antivirus tool), or restart PowerToys or the PC, and try again. Please file or keep this as a separate issue and include the log excerpt you posted."
+ },
+ "hit_turn_cap": false
+}

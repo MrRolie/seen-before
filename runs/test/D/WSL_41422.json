@@ -1,0 +1,333 @@
+{
+ "shown": [
+  "WSL#10107",
+  "WSL#10173",
+  "WSL#11485",
+  "WSL#12286",
+  "WSL#12566",
+  "WSL#12596",
+  "WSL#12602",
+  "WSL#14536",
+  "WSL#1477",
+  "WSL#1532",
+  "WSL#1549",
+  "WSL#1596",
+  "WSL#1816",
+  "WSL#185",
+  "WSL#1870",
+  "WSL#2941",
+  "WSL#3074",
+  "WSL#3412",
+  "WSL#3452",
+  "WSL#3795",
+  "WSL#4004",
+  "WSL#40488",
+  "WSL#40616",
+  "WSL#40683",
+  "WSL#40762",
+  "WSL#40808",
+  "WSL#4093",
+  "WSL#40938",
+  "WSL#4889",
+  "WSL#5252",
+  "WSL#5280",
+  "WSL#5331",
+  "WSL#5815",
+  "WSL#6615",
+  "WSL#6674",
+  "WSL#6682",
+  "WSL#6720",
+  "WSL#786",
+  "WSL#8127",
+  "WSL#8688"
+ ],
+ "retrieval_seconds": 3.812370647036005,
+ "tool_calls": [
+  {
+   "t": 1794881387.6638484,
+   "tool": "search",
+   "args": {
+    "pattern": "CreateVm/HCS/ERROR_FILE_NOT_FOUND",
+    "regex": false,
+    "also": null,
+    "repo": "WSL"
+   },
+   "seconds": 0.021225950011285022,
+   "returned": [
+    "WSL#40488",
+    "WSL#40762",
+    "WSL#40808",
+    "WSL#12596",
+    "WSL#12566",
+    "WSL#40616",
+    "WSL#40938",
+    "WSL#40683",
+    "WSL#14536",
+    "WSL#12602"
+   ]
+  },
+  {
+   "t": 1794881391.929561,
+   "tool": "similar",
+   "args": {
+    "query": "WSL 2.7.12.0 fails to start distributions ERROR_FILE_NOT_FOUND Windows 10, downgrade fixes",
+    "repo": "WSL"
+   },
+   "seconds": 3.7626983120280784,
+   "returned": [
+    "WSL#5280",
+    "WSL#8127",
+    "WSL#12286",
+    "WSL#8688",
+    "WSL#3452",
+    "WSL#4889",
+    "WSL#5331",
+    "WSL#6674",
+    "WSL#10173",
+    "WSL#6720",
+    "WSL#4004",
+    "WSL#11485",
+    "WSL#5815",
+    "WSL#4093",
+    "WSL#5252",
+    "WSL#3074",
+    "WSL#6615",
+    "WSL#6682",
+    "WSL#2941",
+    "WSL#10107"
+   ]
+  },
+  {
+   "t": 1794881392.825477,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#40808"
+   },
+   "seconds": 0.0001617759990040213,
+   "returned": [
+    "WSL#40808"
+   ]
+  },
+  {
+   "t": 1794881393.0032973,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#40488"
+   },
+   "seconds": 0.00039678000030107796,
+   "returned": [
+    "WSL#40488"
+   ]
+  },
+  {
+   "t": 1794881393.3594103,
+   "tool": "search",
+   "args": {
+    "pattern": "2.7.12",
+    "regex": false,
+    "also": null,
+    "repo": "WSL"
+   },
+   "seconds": 0.027887828997336328,
+   "returned": [
+    "WSL#1549",
+    "WSL#1477",
+    "WSL#3795",
+    "WSL#3412",
+    "WSL#1870",
+    "WSL#1816",
+    "WSL#1596",
+    "WSL#1532",
+    "WSL#786",
+    "WSL#185"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8519,
+  "stop_reason": "end_turn",
+  "session_id": "ef58b49c-0562-4dea-856f-736843fb8942",
+  "total_cost_usd": 0.0633707,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 12860,
+   "cache_read_input_tokens": 10687,
+   "output_tokens": 1085,
+   "output_tokens_details": {
+    "thinking_tokens": 109
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12860,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 654,
+     "cache_read_input_tokens": 6505,
+     "cache_creation_input_tokens": 7768,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7768
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 1085,
+    "cacheReadInputTokens": 10687,
+    "cacheCreationInputTokens": 12860,
+    "webSearchRequests": 0,
+    "costUSD": 0.0633707,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 109,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12860,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"WSL#40488\", \"WSL#40616\", \"WSL#40808\"], \"answer\": \"This looks like a known problem. After a WSL 2.7.x install or upgrade, every WSL2 distro fails with Wsl/Service/CreateInstance/CreateVm/HCS/ERROR_FILE_NOT_FOUND. In WSL#40488 the cause was that C:\\\\Program Files\\\\WSL\\\\system.vhd and tools\\\\modules.vhd were missing, so the VM could not attach its disks. No archived ticket mentions 2.7.12.0 specifically, so I can't confirm yours has the same cause. First, check whether those two files exist on your machine. Your downgrade to 2.7.11.0 already fixed it, so staying on that version is a safe workaround. The archived tickets give these fixes. (1) Repair the installer. Download the MSI for your WSL version from the GitHub releases page, then right-click it and choose Repair, or run `msiexec /fa wsl.<version>.x64.msi`. (2) Roll back to an earlier release by installing its MSI (2.6.3 worked for several people in WSL#40488). (3) If the MSI fails silently, disable the Windows Subsystem for Linux feature, reboot, re-enable it, reboot, then reinstall the MSI. According to WSL#40488, the underlying bug was fixed in 2.9.3 and backported to 2.7.14, but the fix only applies when updating from an already-fixed version. If it still fails after a repair, attach logs from collect-wsl-logs.ps1 to a new ticket.\"}",
+  "ttft_ms": 1550,
+  "type": "result",
+  "duration_ms": 12386,
+  "uuid": "997fe859-b429-4513-bd6a-afac1303aaa6",
+  "ttft_stream_ms": 1100,
+  "time_to_request_ms": 63,
+  "first_content_frame_ms": 1101,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 1085,
+    "cacheReadInputTokens": 10687,
+    "cacheCreationInputTokens": 12860,
+    "webSearchRequests": 0,
+    "costUSD": 0.0633707,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 109,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12860,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.026676021981984,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-vk80xvx2/work"
+  }
+ },
+ "wall_seconds": 14.028492944984464,
+ "qid": "WSL#41422",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "WSL#40488",
+   "WSL#40616",
+   "WSL#40808"
+  ],
+  "answer": "This looks like a known problem. After a WSL 2.7.x install or upgrade, every WSL2 distro fails with Wsl/Service/CreateInstance/CreateVm/HCS/ERROR_FILE_NOT_FOUND. In WSL#40488 the cause was that C:\\Program Files\\WSL\\system.vhd and tools\\modules.vhd were missing, so the VM could not attach its disks. No archived ticket mentions 2.7.12.0 specifically, so I can't confirm yours has the same cause. First, check whether those two files exist on your machine. Your downgrade to 2.7.11.0 already fixed it, so staying on that version is a safe workaround. The archived tickets give these fixes. (1) Repair the installer. Download the MSI for your WSL version from the GitHub releases page, then right-click it and choose Repair, or run `msiexec /fa wsl.<version>.x64.msi`. (2) Roll back to an earlier release by installing its MSI (2.6.3 worked for several people in WSL#40488). (3) If the MSI fails silently, disable the Windows Subsystem for Linux feature, reboot, re-enable it, reboot, then reinstall the MSI. According to WSL#40488, the underlying bug was fixed in 2.9.3 and backported to 2.7.14, but the fix only applies when updating from an already-fixed version. If it still fails after a repair, attach logs from collect-wsl-logs.ps1 to a new ticket."
+ },
+ "hit_turn_cap": false
+}

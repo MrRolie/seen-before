@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#48127",
+  "PowerToys#44910",
+  "PowerToys#35160",
+  "PowerToys#34287",
+  "PowerToys#14047"
+ ],
+ "retrieval_seconds": 0.017306876980001107,
+ "retrieval_scores": [
+  0.7792596817016602,
+  0.7766356468200684,
+  0.7750677466392517,
+  0.7721620798110962,
+  0.7671222686767578
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3108,
+  "stop_reason": "end_turn",
+  "session_id": "b206d056-add5-451e-8ce8-1fcd393b0f79",
+  "total_cost_usd": 0.015414,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3305,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 219,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3305,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 219,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3305,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3305
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 219,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3305,
+    "webSearchRequests": 0,
+    "costUSD": 0.015414,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3305,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#34287\", \"PowerToys#48127\", \"PowerToys#44910\"], \"answer\": \"This feature request has been made before: saving named presets or profiles of PowerRename settings (search/replace patterns plus options) for reuse. It isn't available yet. PowerRename only keeps a history of recently used search and replace values. The tickets were closed as duplicates, and the original tracking issues they point to are #34287 and #11655, so follow those and add your use case and the example profiles there. Until the feature exists, keep your common configurations in an external notes file and re-enter them, or pick them from the recent-values drop-down.\"}",
+  "ttft_ms": 3280,
+  "type": "result",
+  "duration_ms": 3293,
+  "uuid": "c54e752b-6788-43f8-9220-1486bbd4c82b",
+  "ttft_stream_ms": 1271,
+  "time_to_request_ms": 184,
+  "first_content_frame_ms": 1271,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 219,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3305,
+    "webSearchRequests": 0,
+    "costUSD": 0.015414,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3305,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.214046320994385,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-v3xq0i7l/work"
+  }
+ },
+ "wall_seconds": 4.232911548984703,
+ "qid": "PowerToys#49097",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#34287",
+   "PowerToys#48127",
+   "PowerToys#44910"
+  ],
+  "answer": "This feature request has been made before: saving named presets or profiles of PowerRename settings (search/replace patterns plus options) for reuse. It isn't available yet. PowerRename only keeps a history of recently used search and replace values. The tickets were closed as duplicates, and the original tracking issues they point to are #34287 and #11655, so follow those and add your use case and the example profiles there. Until the feature exists, keep your common configurations in an external notes file and re-enter them, or pick them from the recent-values drop-down."
+ },
+ "hit_turn_cap": false
+}

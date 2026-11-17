@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#23042",
+  "PowerToys#1392",
+  "PowerToys#34916",
+  "PowerToys#47755",
+  "PowerToys#704"
+ ],
+ "retrieval_seconds": 0.5846018469892442,
+ "retrieval_scores": [
+  0.03200204813108039,
+  0.03028233151183971,
+  0.03007688828584351,
+  0.02946912242686891,
+  0.029418126757516764
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3421,
+  "stop_reason": "end_turn",
+  "session_id": "ea8ef71c-9d33-45fc-a06e-f03706d11db4",
+  "total_cost_usd": 0.03132,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 7029,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 320,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7029,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 320,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 7029,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7029
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 320,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7029,
+    "webSearchRequests": 0,
+    "costUSD": 0.03132,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7029,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#1392\", \"PowerToys#23042\", \"PowerToys#34916\"], \"answer\": \"This feature request (a Stardock Fences-like tool for grouping desktop icons into boxes) has been reported before. The maintainers consolidated all of these requests into PowerToys#1392, 'Desktop Icon Zones with headers for organization (aka fences)', and closed the others as duplicates of it. Please add your thumbs-up and any extra ideas, such as fences auto-aligning and resizing when the screen resolution changes, to #1392 rather than opening a new ticket. The past tickets don't mention a release date or any current workaround from PowerToys itself. Commenters there mention third-party alternatives such as Portals ([user]/Portals-Desktop-Organization) and Tiels (DcZipPL/Tiels), and the maintainers' advice was to support Stardock if you like Fences.\"}",
+  "ttft_ms": 3641,
+  "type": "result",
+  "duration_ms": 3656,
+  "uuid": "e9aa8ff7-63ce-4820-9f95-46a9be2d4d79",
+  "ttft_stream_ms": 1320,
+  "time_to_request_ms": 236,
+  "first_content_frame_ms": 1321,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 320,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7029,
+    "webSearchRequests": 0,
+    "costUSD": 0.03132,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7029,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.79447187599726,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-g_3gyty9/work"
+  }
+ },
+ "wall_seconds": 5.381440672004828,
+ "qid": "PowerToys#51793",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#1392",
+   "PowerToys#23042",
+   "PowerToys#34916"
+  ],
+  "answer": "This feature request (a Stardock Fences-like tool for grouping desktop icons into boxes) has been reported before. The maintainers consolidated all of these requests into PowerToys#1392, 'Desktop Icon Zones with headers for organization (aka fences)', and closed the others as duplicates of it. Please add your thumbs-up and any extra ideas, such as fences auto-aligning and resizing when the screen resolution changes, to #1392 rather than opening a new ticket. The past tickets don't mention a release date or any current workaround from PowerToys itself. Commenters there mention third-party alternatives such as Portals ([user]/Portals-Desktop-Organization) and Tiels (DcZipPL/Tiels), and the maintainers' advice was to support Stardock if you like Fences."
+ },
+ "hit_turn_cap": false
+}

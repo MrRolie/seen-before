@@ -1,0 +1,346 @@
+{
+ "shown": [
+  "PowerToys#10201",
+  "PowerToys#10998",
+  "PowerToys#12897",
+  "PowerToys#15331",
+  "PowerToys#16792",
+  "PowerToys#17377",
+  "PowerToys#18014",
+  "PowerToys#19793",
+  "PowerToys#199",
+  "PowerToys#22705",
+  "PowerToys#24843",
+  "PowerToys#25197",
+  "PowerToys#26011",
+  "PowerToys#27473",
+  "PowerToys#27547",
+  "PowerToys#27997",
+  "PowerToys#29408",
+  "PowerToys#29747",
+  "PowerToys#29814",
+  "PowerToys#30771",
+  "PowerToys#30839",
+  "PowerToys#30955",
+  "PowerToys#31245",
+  "PowerToys#31512",
+  "PowerToys#31821",
+  "PowerToys#33660",
+  "PowerToys#34253",
+  "PowerToys#35211",
+  "PowerToys#36660",
+  "PowerToys#37264",
+  "PowerToys#38124",
+  "PowerToys#46083",
+  "PowerToys#46095",
+  "PowerToys#48259",
+  "PowerToys#48830",
+  "PowerToys#49017",
+  "PowerToys#7325",
+  "PowerToys#7670",
+  "PowerToys#7859",
+  "PowerToys#9508"
+ ],
+ "retrieval_seconds": 0.2716057249926962,
+ "tool_calls": [
+  {
+   "t": 1794885198.546479,
+   "tool": "search",
+   "args": {
+    "pattern": "translate",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0764269319770392,
+   "returned": [
+    "PowerToys#48259",
+    "PowerToys#25197",
+    "PowerToys#7670",
+    "PowerToys#27547",
+    "PowerToys#7325",
+    "PowerToys#7859",
+    "PowerToys#10201",
+    "PowerToys#48830",
+    "PowerToys#17377",
+    "PowerToys#10998",
+    "PowerToys#46083",
+    "PowerToys#26011",
+    "PowerToys#24843",
+    "PowerToys#16792",
+    "PowerToys#15331",
+    "PowerToys#199",
+    "PowerToys#22705",
+    "PowerToys#19793",
+    "PowerToys#12897",
+    "PowerToys#9508"
+   ]
+  },
+  {
+   "t": 1794885198.6134553,
+   "tool": "search",
+   "args": {
+    "pattern": "screen translator OCR",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.054354649008018896,
+   "returned": []
+  },
+  {
+   "t": 1794885200.627607,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48830"
+   },
+   "seconds": 0.00028758400003425777,
+   "returned": [
+    "PowerToys#48830"
+   ]
+  },
+  {
+   "t": 1794885200.7029345,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#24843"
+   },
+   "seconds": 0.00013469700934365392,
+   "returned": [
+    "PowerToys#24843"
+   ]
+  },
+  {
+   "t": 1794885202.192727,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#18014"
+   },
+   "seconds": 0.00015414701192639768,
+   "returned": [
+    "PowerToys#18014"
+   ]
+  },
+  {
+   "t": 1794885203.990033,
+   "tool": "search",
+   "args": {
+    "pattern": "/dup",
+    "regex": false,
+    "also": [
+     "18014"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1402477159863338,
+   "returned": [
+    "PowerToys#29408",
+    "PowerToys#27997",
+    "PowerToys#27473",
+    "PowerToys#49017",
+    "PowerToys#48830",
+    "PowerToys#46095",
+    "PowerToys#38124",
+    "PowerToys#37264",
+    "PowerToys#36660",
+    "PowerToys#35211",
+    "PowerToys#34253",
+    "PowerToys#33660",
+    "PowerToys#31821",
+    "PowerToys#31512",
+    "PowerToys#31245",
+    "PowerToys#30955",
+    "PowerToys#30839",
+    "PowerToys#30771",
+    "PowerToys#29814",
+    "PowerToys#29747"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10884,
+  "stop_reason": "end_turn",
+  "session_id": "646f93bf-908a-4bcd-80f4-7430b8c56a72",
+  "total_cost_usd": 0.051321399999999996,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 10159,
+   "cache_read_input_tokens": 28354,
+   "output_tokens": 783,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10159,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 297,
+     "cache_read_input_tokens": 9403,
+     "cache_creation_input_tokens": 1933,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1933
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 783,
+    "cacheReadInputTokens": 28354,
+    "cacheCreationInputTokens": 10159,
+    "webSearchRequests": 0,
+    "costUSD": 0.051321399999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10159,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "```json\n{\"seen_before\": true, \"matches\": [\"PowerToys#18014\", \"PowerToys#48830\", \"PowerToys#24843\"], \"answer\": \"PowerToys doesn't have a screen translator yet. This request has been made many times. The maintainers track it in PowerToys#18014 (\\\"Instant translator\\\"), and they close new requests for on-screen, OCR or selected-text translation as duplicates of it. PowerToys#48830 and PowerToys#24843 ask for the same thing: select a screen region with a hotkey, run OCR, and show the translation in an overlay. Please subscribe to #18014 and add a thumbs-up and your use cases there instead of opening a new ticket. As a workaround, use the existing Text Extractor (OCR) to copy text, then paste it into a translator such as DeepL or Google Translate. You can also use a separate tool such as ShareX.\"}\n```",
+  "ttft_ms": 2185,
+  "type": "result",
+  "duration_ms": 11257,
+  "uuid": "97042f50-cd49-44be-a6c8-f8a80abfc0b7",
+  "ttft_stream_ms": 1297,
+  "time_to_request_ms": 47,
+  "first_content_frame_ms": 1297,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 783,
+    "cacheReadInputTokens": 28354,
+    "cacheCreationInputTokens": 10159,
+    "webSearchRequests": 0,
+    "costUSD": 0.051321399999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10159,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.757499950996134,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-f4cl51rq/work"
+  }
+ },
+ "wall_seconds": 12.75931483900058,
+ "qid": "PowerToys#51886",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#18014",
+   "PowerToys#48830",
+   "PowerToys#24843"
+  ],
+  "answer": "PowerToys doesn't have a screen translator yet. This request has been made many times. The maintainers track it in PowerToys#18014 (\"Instant translator\"), and they close new requests for on-screen, OCR or selected-text translation as duplicates of it. PowerToys#48830 and PowerToys#24843 ask for the same thing: select a screen region with a hotkey, run OCR, and show the translation in an overlay. Please subscribe to #18014 and add a thumbs-up and your use cases there instead of opening a new ticket. As a workaround, use the existing Text Extractor (OCR) to copy text, then paste it into a translator such as DeepL or Google Translate. You can also use a separate tool such as ShareX."
+ },
+ "hit_turn_cap": false
+}

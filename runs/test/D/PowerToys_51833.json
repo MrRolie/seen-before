@@ -1,0 +1,312 @@
+{
+ "shown": [
+  "PowerToys#11868",
+  "PowerToys#19041",
+  "PowerToys#20287",
+  "PowerToys#22572",
+  "PowerToys#23212",
+  "PowerToys#24147",
+  "PowerToys#26014",
+  "PowerToys#27699",
+  "PowerToys#30647",
+  "PowerToys#30801",
+  "PowerToys#30856",
+  "PowerToys#31766",
+  "PowerToys#32144",
+  "PowerToys#3364",
+  "PowerToys#33673",
+  "PowerToys#34298",
+  "PowerToys#35017",
+  "PowerToys#35389",
+  "PowerToys#3690",
+  "PowerToys#39725",
+  "PowerToys#41572",
+  "PowerToys#42046",
+  "PowerToys#4352",
+  "PowerToys#4484",
+  "PowerToys#45714",
+  "PowerToys#45864",
+  "PowerToys#47553",
+  "PowerToys#5141",
+  "PowerToys#74",
+  "PowerToys#8757",
+  "PowerToys#9443",
+  "PowerToys#9748"
+ ],
+ "retrieval_seconds": 3.7864145319908857,
+ "tool_calls": [
+  {
+   "t": 1794885140.6863012,
+   "tool": "search",
+   "args": {
+    "pattern": "mouse gesture",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07602236801176332,
+   "returned": [
+    "PowerToys#19041",
+    "PowerToys#20287",
+    "PowerToys#32144",
+    "PowerToys#26014",
+    "PowerToys#33673",
+    "PowerToys#23212",
+    "PowerToys#47553",
+    "PowerToys#35389",
+    "PowerToys#34298",
+    "PowerToys#30856",
+    "PowerToys#30647",
+    "PowerToys#27699",
+    "PowerToys#45864",
+    "PowerToys#45714",
+    "PowerToys#42046",
+    "PowerToys#41572",
+    "PowerToys#39725",
+    "PowerToys#35017",
+    "PowerToys#31766",
+    "PowerToys#30801"
+   ]
+  },
+  {
+   "t": 1794885144.5412552,
+   "tool": "similar",
+   "args": {
+    "query": "mouse gestures globally, right click hold and move to trigger hotkey",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.7100980219838675,
+   "returned": [
+    "PowerToys#27699",
+    "PowerToys#9443",
+    "PowerToys#22572",
+    "PowerToys#35017",
+    "PowerToys#4484",
+    "PowerToys#34298",
+    "PowerToys#30856",
+    "PowerToys#33673",
+    "PowerToys#45714",
+    "PowerToys#11868",
+    "PowerToys#8757",
+    "PowerToys#5141",
+    "PowerToys#24147",
+    "PowerToys#74",
+    "PowerToys#3364",
+    "PowerToys#20287",
+    "PowerToys#9748",
+    "PowerToys#3690",
+    "PowerToys#30801",
+    "PowerToys#4352"
+   ]
+  },
+  {
+   "t": 1794885145.4967728,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#27699"
+   },
+   "seconds": 0.00015764599083922803,
+   "returned": [
+    "PowerToys#27699"
+   ]
+  },
+  {
+   "t": 1794885146.486873,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#19041"
+   },
+   "seconds": 0.000136496004415676,
+   "returned": [
+    "PowerToys#19041"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 5983,
+  "stop_reason": "end_turn",
+  "session_id": "27eb6544-59b5-4d17-b168-1f7fbf3b0d6b",
+  "total_cost_usd": 0.0407191,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 8348,
+   "cache_read_input_tokens": 16511,
+   "output_tokens": 566,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8348,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 261,
+     "cache_read_input_tokens": 6915,
+     "cache_creation_input_tokens": 2846,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2846
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 566,
+    "cacheReadInputTokens": 16511,
+    "cacheCreationInputTokens": 8348,
+    "webSearchRequests": 0,
+    "costUSD": 0.0407191,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8348,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#19041\", \"PowerToys#27699\", \"PowerToys#20287\"], \"answer\": \"Global mouse gestures, such as holding the right button and moving to trigger a hotkey, have been requested before. The main tracking issue is PowerToys#19041. PowerToys#27699 was closed as a duplicate of it, and PowerToys#20287 is another request for the same thing. PowerToys doesn't have this feature yet. The team said it was a lower priority, and there has been no progress as of the latest comments. Please add a 👍 to PowerToys#19041 and any specific use cases there. In the meantime, third-party tools that do this are StrokesPlus.net, the AutoHotkey script MouseGestureL, and Kando.\"}",
+  "ttft_ms": 1532,
+  "type": "result",
+  "duration_ms": 9744,
+  "uuid": "47eb9c30-879d-4740-9bd7-b163cb9b5835",
+  "ttft_stream_ms": 998,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 998,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 566,
+    "cacheReadInputTokens": 16511,
+    "cacheCreationInputTokens": 8348,
+    "webSearchRequests": 0,
+    "costUSD": 0.0407191,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8348,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.289868794992799,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-vr998jb5/work"
+  }
+ },
+ "wall_seconds": 11.292216240981361,
+ "qid": "PowerToys#51833",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#19041",
+   "PowerToys#27699",
+   "PowerToys#20287"
+  ],
+  "answer": "Global mouse gestures, such as holding the right button and moving to trigger a hotkey, have been requested before. The main tracking issue is PowerToys#19041. PowerToys#27699 was closed as a duplicate of it, and PowerToys#20287 is another request for the same thing. PowerToys doesn't have this feature yet. The team said it was a lower priority, and there has been no progress as of the latest comments. Please add a 👍 to PowerToys#19041 and any specific use cases there. In the meantime, third-party tools that do this are StrokesPlus.net, the AutoHotkey script MouseGestureL, and Kando."
+ },
+ "hit_turn_cap": false
+}

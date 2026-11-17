@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#41769",
+  "PowerToys#48077",
+  "PowerToys#35808",
+  "PowerToys#31979",
+  "PowerToys#47062"
+ ],
+ "retrieval_seconds": 0.4204850190144498,
+ "retrieval_scores": [
+  0.031544957774465976,
+  0.031544957774465976,
+  0.030309988518943745,
+  0.029709507042253523,
+  0.02946236559139785
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 4700,
+  "stop_reason": "end_turn",
+  "session_id": "87d1f513-e0ee-4d62-bfeb-583a1667d1d8",
+  "total_cost_usd": 0.040854,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 9110,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 441,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9110,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 441,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 9110,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 9110
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 441,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 9110,
+    "webSearchRequests": 0,
+    "costUSD": 0.040854,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9110,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#35808\", \"PowerToys#41769\", \"PowerToys#31979\"], \"answer\": \"This has been reported before: Keyboard Manager's 'Remap a key' list doesn't show the Copilot key, because the key is really a shortcut. It sends Win (Left) + Shift (Left) + F23, and the exact combination can vary by laptop. The workaround from those tickets is to use 'Remap a shortcut' instead. Click the pencil/record button, press the Copilot key so it captures the combination, and then choose the output. Remapping to a letter or other keys works, and a plain Ctrl output (Left) has worked for some users, e.g. Win+Shift+F23 -> Ctrl (Left). Remapping to Ctrl (Right) is unreliable. Many users report that Shift or Win keep being sent, so you get Ctrl+Shift instead of Ctrl. It also helps to delete any conflicting 'Remap a key' entries, such as a remap of Win (Left), because key remaps are applied before shortcut remaps. Some of this is down to the keyboard hardware or firmware sending three keys, so results differ between laptops. The request to support the Copilot key natively has been closed as a duplicate of PowerToys#35808, so follow that ticket for progress.\"}",
+  "ttft_ms": 4874,
+  "type": "result",
+  "duration_ms": 4889,
+  "uuid": "4afec44a-fbf7-47c1-854e-295faf8673a1",
+  "ttft_stream_ms": 1466,
+  "time_to_request_ms": 188,
+  "first_content_frame_ms": 1466,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 441,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 9110,
+    "webSearchRequests": 0,
+    "costUSD": 0.040854,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9110,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 5.814023918996099,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ssyn2gqi/work"
+  }
+ },
+ "wall_seconds": 6.236766254995018,
+ "qid": "PowerToys#49683",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#35808",
+   "PowerToys#41769",
+   "PowerToys#31979"
+  ],
+  "answer": "This has been reported before: Keyboard Manager's 'Remap a key' list doesn't show the Copilot key, because the key is really a shortcut. It sends Win (Left) + Shift (Left) + F23, and the exact combination can vary by laptop. The workaround from those tickets is to use 'Remap a shortcut' instead. Click the pencil/record button, press the Copilot key so it captures the combination, and then choose the output. Remapping to a letter or other keys works, and a plain Ctrl output (Left) has worked for some users, e.g. Win+Shift+F23 -> Ctrl (Left). Remapping to Ctrl (Right) is unreliable. Many users report that Shift or Win keep being sent, so you get Ctrl+Shift instead of Ctrl. It also helps to delete any conflicting 'Remap a key' entries, such as a remap of Win (Left), because key remaps are applied before shortcut remaps. Some of this is down to the keyboard hardware or firmware sending three keys, so results differ between laptops. The request to support the Copilot key natively has been closed as a duplicate of PowerToys#35808, so follow that ticket for progress."
+ },
+ "hit_turn_cap": false
+}

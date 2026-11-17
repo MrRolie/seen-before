@@ -1,0 +1,323 @@
+{
+ "shown": [
+  "PowerToys#10381",
+  "PowerToys#10642",
+  "PowerToys#10645",
+  "PowerToys#11080",
+  "PowerToys#11651",
+  "PowerToys#11655",
+  "PowerToys#1206",
+  "PowerToys#12686",
+  "PowerToys#13781",
+  "PowerToys#13792",
+  "PowerToys#14047",
+  "PowerToys#1585",
+  "PowerToys#16191",
+  "PowerToys#2612",
+  "PowerToys#26784",
+  "PowerToys#29594",
+  "PowerToys#29681",
+  "PowerToys#32152",
+  "PowerToys#32282",
+  "PowerToys#32283",
+  "PowerToys#34287",
+  "PowerToys#35160",
+  "PowerToys#37596",
+  "PowerToys#3812",
+  "PowerToys#40091",
+  "PowerToys#40663",
+  "PowerToys#44910",
+  "PowerToys#48127",
+  "PowerToys#572",
+  "PowerToys#684",
+  "PowerToys#686",
+  "PowerToys#7248",
+  "PowerToys#7960",
+  "PowerToys#8059",
+  "PowerToys#9571"
+ ],
+ "retrieval_seconds": 3.943925486993976,
+ "tool_calls": [
+  {
+   "t": 1794875726.851395,
+   "tool": "search",
+   "args": {
+    "query": "PowerRename save multiple rename configurations presets profiles",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.9282934200018644,
+   "returned": [
+    "PowerToys#44910",
+    "PowerToys#1206",
+    "PowerToys#11655",
+    "PowerToys#10645",
+    "PowerToys#29681",
+    "PowerToys#2612",
+    "PowerToys#37596",
+    "PowerToys#3812",
+    "PowerToys#32282",
+    "PowerToys#48127",
+    "PowerToys#14047",
+    "PowerToys#8059",
+    "PowerToys#572",
+    "PowerToys#29594",
+    "PowerToys#684",
+    "PowerToys#26784",
+    "PowerToys#35160",
+    "PowerToys#13781",
+    "PowerToys#7960",
+    "PowerToys#16191"
+   ]
+  },
+  {
+   "t": 1794875726.8812563,
+   "tool": "search",
+   "args": {
+    "query": "PowerRename remember saved search and replace patterns, favorites list",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.015071111993165687,
+   "returned": [
+    "PowerToys#686",
+    "PowerToys#13781",
+    "PowerToys#12686",
+    "PowerToys#40091",
+    "PowerToys#11080",
+    "PowerToys#1206",
+    "PowerToys#13792",
+    "PowerToys#32152",
+    "PowerToys#40663",
+    "PowerToys#14047",
+    "PowerToys#10381",
+    "PowerToys#32283",
+    "PowerToys#10645",
+    "PowerToys#34287",
+    "PowerToys#7248",
+    "PowerToys#11651",
+    "PowerToys#48127",
+    "PowerToys#10642",
+    "PowerToys#9571",
+    "PowerToys#1585"
+   ]
+  },
+  {
+   "t": 1794875727.9465306,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#11655"
+   },
+   "seconds": 0.00018569498206488788,
+   "returned": [
+    "PowerToys#11655"
+   ]
+  },
+  {
+   "t": 1794875728.1570368,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#29681"
+   },
+   "seconds": 0.0002078340039588511,
+   "returned": [
+    "PowerToys#29681"
+   ]
+  },
+  {
+   "t": 1794875728.3223126,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48127"
+   },
+   "seconds": 0.00016742601292207837,
+   "returned": [
+    "PowerToys#48127"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 5270,
+  "stop_reason": "end_turn",
+  "session_id": "b59508a1-ad0e-4ede-b14e-47eb739b1524",
+  "total_cost_usd": 0.0303173,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 5843,
+   "cache_read_input_tokens": 6333,
+   "output_tokens": 630,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5843,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 248,
+     "cache_read_input_tokens": 4422,
+     "cache_creation_input_tokens": 1421,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1421
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 630,
+    "cacheReadInputTokens": 6333,
+    "cacheCreationInputTokens": 5843,
+    "webSearchRequests": 0,
+    "costUSD": 0.0303173,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5843,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#11655\", \"PowerToys#29681\", \"PowerToys#48127\"], \"answer\": \"This feature request has been filed before. PowerToys#11655 (Rename Presets/Profiles) is the original tracking issue. The maintainers closed PowerToys#29681 and PowerToys#48127 as duplicates of it. PowerRename can't save named configuration profiles yet. It only keeps a history of previously used search and replace expressions. Subscribe to PowerToys#11655 for updates and add your use cases there, such as your date-prefix and underscore-to-space examples. Until profiles exist, keep your common patterns in an external note and paste them in, or reuse them from the history dropdown.\"}",
+  "ttft_ms": 1207,
+  "type": "result",
+  "duration_ms": 8935,
+  "uuid": "303a2890-9b6c-4bd3-9ce4-1e975ee7a2bd",
+  "ttft_stream_ms": 543,
+  "time_to_request_ms": 35,
+  "first_content_frame_ms": 543,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 630,
+    "cacheReadInputTokens": 6333,
+    "cacheCreationInputTokens": 5843,
+    "webSearchRequests": 0,
+    "costUSD": 0.0303173,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5843,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.544357058999594,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-nkzve5ux/work"
+  }
+ },
+ "wall_seconds": 10.546107144997222,
+ "qid": "PowerToys#49097",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#11655",
+   "PowerToys#29681",
+   "PowerToys#48127"
+  ],
+  "answer": "This feature request has been filed before. PowerToys#11655 (Rename Presets/Profiles) is the original tracking issue. The maintainers closed PowerToys#29681 and PowerToys#48127 as duplicates of it. PowerRename can't save named configuration profiles yet. It only keeps a history of previously used search and replace expressions. Subscribe to PowerToys#11655 for updates and add your use cases there, such as your date-prefix and underscore-to-space examples. Until profiles exist, keep your common patterns in an external note and paste them in, or reuse them from the history dropdown."
+ },
+ "hit_turn_cap": false
+}

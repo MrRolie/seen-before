@@ -1,0 +1,366 @@
+{
+ "shown": [
+  "PowerToys#11734",
+  "PowerToys#11890",
+  "PowerToys#14535",
+  "PowerToys#14546",
+  "PowerToys#16021",
+  "PowerToys#17894",
+  "PowerToys#1970",
+  "PowerToys#21042",
+  "PowerToys#24738",
+  "PowerToys#24931",
+  "PowerToys#25044",
+  "PowerToys#25990",
+  "PowerToys#26506",
+  "PowerToys#27115",
+  "PowerToys#29651",
+  "PowerToys#31708",
+  "PowerToys#34798",
+  "PowerToys#35987",
+  "PowerToys#36274",
+  "PowerToys#3641",
+  "PowerToys#36481",
+  "PowerToys#37085",
+  "PowerToys#37143",
+  "PowerToys#37197",
+  "PowerToys#38065",
+  "PowerToys#38393",
+  "PowerToys#39674",
+  "PowerToys#41452",
+  "PowerToys#41986",
+  "PowerToys#46560",
+  "PowerToys#46693",
+  "PowerToys#47271",
+  "PowerToys#48691",
+  "PowerToys#5859",
+  "PowerToys#6756",
+  "PowerToys#6976",
+  "PowerToys#77",
+  "PowerToys#8814",
+  "PowerToys#9300"
+ ],
+ "retrieval_seconds": 0.2793548420595471,
+ "tool_calls": [
+  {
+   "t": 1794878438.9614606,
+   "tool": "search",
+   "args": {
+    "pattern": "AltGr",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04107102702255361,
+   "returned": [
+    "PowerToys#14535",
+    "PowerToys#29651",
+    "PowerToys#37085",
+    "PowerToys#26506",
+    "PowerToys#11734",
+    "PowerToys#46560",
+    "PowerToys#37143",
+    "PowerToys#27115",
+    "PowerToys#3641",
+    "PowerToys#46693",
+    "PowerToys#47271",
+    "PowerToys#41986",
+    "PowerToys#37197",
+    "PowerToys#34798",
+    "PowerToys#39674",
+    "PowerToys#6976",
+    "PowerToys#41452",
+    "PowerToys#21042",
+    "PowerToys#16021",
+    "PowerToys#14546"
+   ]
+  },
+  {
+   "t": 1794878443.6895726,
+   "tool": "search",
+   "args": {
+    "pattern": "è",
+    "regex": false,
+    "also": [
+     "Alt (Right)"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06584724300773814,
+   "returned": []
+  },
+  {
+   "t": 1794878443.9525387,
+   "tool": "search",
+   "args": {
+    "pattern": "mac",
+    "regex": false,
+    "also": [
+     "bracket"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.17159298399928957,
+   "returned": [
+    "PowerToys#77",
+    "PowerToys#38393",
+    "PowerToys#17894",
+    "PowerToys#31708",
+    "PowerToys#6756",
+    "PowerToys#36274",
+    "PowerToys#48691",
+    "PowerToys#38065",
+    "PowerToys#25990",
+    "PowerToys#25044",
+    "PowerToys#24931",
+    "PowerToys#24738",
+    "PowerToys#11890",
+    "PowerToys#9300",
+    "PowerToys#8814",
+    "PowerToys#5859",
+    "PowerToys#1970"
+   ]
+  },
+  {
+   "t": 1794878445.8737237,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38065"
+   },
+   "seconds": 0.0001563059922773391,
+   "returned": [
+    "PowerToys#38065"
+   ]
+  },
+  {
+   "t": 1794878445.880761,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39674"
+   },
+   "seconds": 0.0001555760100018233,
+   "returned": [
+    "PowerToys#39674"
+   ]
+  },
+  {
+   "t": 1794878446.0213342,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46560"
+   },
+   "seconds": 0.0001722250017337501,
+   "returned": [
+    "PowerToys#46560"
+   ]
+  },
+  {
+   "t": 1794878448.2259967,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#36481"
+   },
+   "seconds": 0.00019891501870006323,
+   "returned": [
+    "PowerToys#36481"
+   ]
+  },
+  {
+   "t": 1794878448.3730686,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35987"
+   },
+   "seconds": 0.00016056600725278258,
+   "returned": [
+    "PowerToys#35987"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 16496,
+  "stop_reason": "end_turn",
+  "session_id": "f278f2ac-30b8-40e3-bc19-e2cc4aa340e2",
+  "total_cost_usd": 0.073894,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 13552,
+   "cache_read_input_tokens": 40620,
+   "output_tokens": 1560,
+   "output_tokens_details": {
+    "thinking_tokens": 183
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13552,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 560,
+     "cache_read_input_tokens": 13404,
+     "cache_creation_input_tokens": 1325,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1325
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1560,
+    "cacheReadInputTokens": 40620,
+    "cacheCreationInputTokens": 13552,
+    "webSearchRequests": 0,
+    "costUSD": 0.073894,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 183,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13552,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46560\", \"PowerToys#39674\", \"PowerToys#38065\"], \"answer\": \"This looks like a known Keyboard Manager problem with AltGr on non-US layouts. On these layouts Windows treats AltGr as Ctrl (Left) + Alt (Right). A shortcut recorded or defined as plain Alt (Right) + è therefore doesn't match what the keyboard sends, and you only get the normal è. PowerToys#46560 reports the same thing on an Italian layout, where AltGr + ì can't be mapped to ~. Related tickets are PowerToys#39674 (AltGr shortcuts behave irregularly) and PowerToys#38065 (AltGr breaks Keyboard Manager). Those two were closed as duplicates of #36481 and #35987, and I read both. Neither one has a confirmed fix. Things to try: (1) Define the shortcut as Ctrl (Left) + Alt (Right) + è, which is what AltGr actually sends. (2) In the old editor, pick the keys from the dropdowns instead of recording them. (3) The PowerToys team said manual key selection is coming to the new editor, so update to the latest PowerToys. I can't find a confirmed fix for this exact case, so please add your layout and the shortcut you used to #46560.\"}",
+  "ttft_ms": 2272,
+  "type": "result",
+  "duration_ms": 16777,
+  "uuid": "486d76a7-322c-47b5-aced-6cc6c700112f",
+  "ttft_stream_ms": 1336,
+  "time_to_request_ms": 28,
+  "first_content_frame_ms": 1336,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1560,
+    "cacheReadInputTokens": 40620,
+    "cacheCreationInputTokens": 13552,
+    "webSearchRequests": 0,
+    "costUSD": 0.073894,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 183,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13552,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.04495022800984,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-28sutwdr/work"
+  }
+ },
+ "wall_seconds": 18.046683263994055,
+ "qid": "PowerToys#49452",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46560",
+   "PowerToys#39674",
+   "PowerToys#38065"
+  ],
+  "answer": "This looks like a known Keyboard Manager problem with AltGr on non-US layouts. On these layouts Windows treats AltGr as Ctrl (Left) + Alt (Right). A shortcut recorded or defined as plain Alt (Right) + è therefore doesn't match what the keyboard sends, and you only get the normal è. PowerToys#46560 reports the same thing on an Italian layout, where AltGr + ì can't be mapped to ~. Related tickets are PowerToys#39674 (AltGr shortcuts behave irregularly) and PowerToys#38065 (AltGr breaks Keyboard Manager). Those two were closed as duplicates of #36481 and #35987, and I read both. Neither one has a confirmed fix. Things to try: (1) Define the shortcut as Ctrl (Left) + Alt (Right) + è, which is what AltGr actually sends. (2) In the old editor, pick the keys from the dropdowns instead of recording them. (3) The PowerToys team said manual key selection is coming to the new editor, so update to the latest PowerToys. I can't find a confirmed fix for this exact case, so please add your layout and the shortcut you used to #46560."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,378 @@
+{
+ "shown": [
+  "PowerToys#20200",
+  "terminal#10233",
+  "terminal#10699",
+  "terminal#11276",
+  "terminal#11591",
+  "terminal#12267",
+  "terminal#12384",
+  "terminal#12564",
+  "terminal#13182",
+  "terminal#13388",
+  "terminal#13499",
+  "terminal#13514",
+  "terminal#13630",
+  "terminal#13914",
+  "terminal#14407",
+  "terminal#146",
+  "terminal#14820",
+  "terminal#15001",
+  "terminal#15297",
+  "terminal#15446",
+  "terminal#15678",
+  "terminal#15689",
+  "terminal#15745",
+  "terminal#16052",
+  "terminal#16242",
+  "terminal#16401",
+  "terminal#16462",
+  "terminal#16487",
+  "terminal#16557",
+  "terminal#18017",
+  "terminal#18455",
+  "terminal#217",
+  "terminal#2189",
+  "terminal#3759",
+  "terminal#5000",
+  "terminal#6409",
+  "terminal#7374",
+  "terminal#7589",
+  "terminal#8045",
+  "terminal#9875",
+  "terminal#9992",
+  "terminal#9996"
+ ],
+ "retrieval_seconds": 0.3201248050027061,
+ "tool_calls": [
+  {
+   "t": 1794882870.6604657,
+   "tool": "search",
+   "args": {
+    "pattern": "Launch at login",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.029480097990017384,
+   "returned": []
+  },
+  {
+   "t": 1794882871.182869,
+   "tool": "search",
+   "args": {
+    "pattern": "launch on login disabled reason startup page",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.01998233702033758,
+   "returned": []
+  },
+  {
+   "t": 1794882872.5698698,
+   "tool": "search",
+   "args": {
+    "pattern": "#20200",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06016215399722569,
+   "returned": [
+    "PowerToys#20200"
+   ]
+  },
+  {
+   "t": 1794882875.1184132,
+   "tool": "search",
+   "args": {
+    "pattern": "startup",
+    "regex": false,
+    "also": [
+     "disabled"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.05814205697970465,
+   "returned": [
+    "terminal#18455",
+    "terminal#8045",
+    "terminal#2189",
+    "terminal#11276",
+    "terminal#12564",
+    "terminal#9992",
+    "terminal#7374",
+    "terminal#6409",
+    "terminal#15001",
+    "terminal#14820",
+    "terminal#14407",
+    "terminal#3759",
+    "terminal#16052",
+    "terminal#13630",
+    "terminal#10699",
+    "terminal#146",
+    "terminal#15689",
+    "terminal#13388",
+    "terminal#13182",
+    "terminal#5000"
+   ]
+  },
+  {
+   "t": 1794882875.1922288,
+   "tool": "search",
+   "args": {
+    "pattern": "launch on startup",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.028778856998542324,
+   "returned": [
+    "terminal#16557",
+    "terminal#13514",
+    "terminal#18017",
+    "terminal#16487",
+    "terminal#12384",
+    "terminal#2189"
+   ]
+  },
+  {
+   "t": 1794882876.8854952,
+   "tool": "search",
+   "args": {
+    "pattern": "startup",
+    "regex": false,
+    "also": [
+     "policy",
+     "reason"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.07814126301673241,
+   "returned": [
+    "terminal#9996",
+    "terminal#8045",
+    "terminal#12267",
+    "terminal#146",
+    "terminal#13388",
+    "terminal#10233",
+    "terminal#5000",
+    "terminal#217",
+    "terminal#15745",
+    "terminal#15678",
+    "terminal#15446",
+    "terminal#7589",
+    "terminal#16462",
+    "terminal#16401",
+    "terminal#16242",
+    "terminal#15297",
+    "terminal#13914",
+    "terminal#13499",
+    "terminal#11591",
+    "terminal#9875"
+   ]
+  },
+  {
+   "t": 1794882878.0170155,
+   "tool": "search",
+   "args": {
+    "pattern": "Launch on machine startup",
+    "regex": false,
+    "also": [
+     "Windows Settings"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.04543803900014609,
+   "returned": [
+    "terminal#14820",
+    "terminal#18455",
+    "terminal#12384",
+    "terminal#10699"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11906,
+  "stop_reason": "end_turn",
+  "session_id": "e87aaffb-eb88-4e45-873c-4906e8b8bd19",
+  "total_cost_usd": 0.0608816,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 11496,
+   "cache_read_input_tokens": 27636,
+   "output_tokens": 1211,
+   "output_tokens_details": {
+    "thinking_tokens": 222
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11496,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 428,
+     "cache_read_input_tokens": 12010,
+     "cache_creation_input_tokens": 663,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 663
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1211,
+    "cacheReadInputTokens": 27636,
+    "cacheCreationInputTokens": 11496,
+    "webSearchRequests": 0,
+    "costUSD": 0.0608816,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 222,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11496,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Still checking the archive. I've found no past ticket for this exact problem, so I'm giving my conclusion now.\n\n{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket reporting this problem. The archive has no report of the Startup page's \\\"Launch at login\\\" setting being disabled by an OS setting without showing a reason. Older tickets about startup (#12564, #14820, #18455, #10699) cover other problems, such as the setting being ignored or not persisting. This looks like a new regression from the PR you mentioned (#20200). The localized reason text already exists, so the fix is to show it again when the setting is disabled. Please keep this ticket open as a new bug. In the meantime, you can check or change the startup state in Windows Settings > Apps > Startup.\"}",
+  "ttft_ms": 950,
+  "type": "result",
+  "duration_ms": 12232,
+  "uuid": "74da6aa1-5d76-4c2c-a3a1-47c5f3c108a9",
+  "ttft_stream_ms": 620,
+  "time_to_request_ms": 57,
+  "first_content_frame_ms": 620,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1211,
+    "cacheReadInputTokens": 27636,
+    "cacheCreationInputTokens": 11496,
+    "webSearchRequests": 0,
+    "costUSD": 0.0608816,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 222,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11496,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.972243435011478,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-w68al51f/work"
+  }
+ },
+ "wall_seconds": 13.974525825004093,
+ "qid": "terminal#20685",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket reporting this problem. The archive has no report of the Startup page's \"Launch at login\" setting being disabled by an OS setting without showing a reason. Older tickets about startup (#12564, #14820, #18455, #10699) cover other problems, such as the setting being ignored or not persisting. This looks like a new regression from the PR you mentioned (#20200). The localized reason text already exists, so the fix is to show it again when the setting is disabled. Please keep this ticket open as a new bug. In the meantime, you can check or change the startup state in Windows Settings > Apps > Startup."
+ },
+ "hit_turn_cap": false
+}

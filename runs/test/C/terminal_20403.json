@@ -1,0 +1,476 @@
+{
+ "shown": [
+  "WSL#3217",
+  "WSL#7116",
+  "WSL#8177",
+  "WSL#938",
+  "terminal#10146",
+  "terminal#10331",
+  "terminal#10680",
+  "terminal#10762",
+  "terminal#11616",
+  "terminal#11855",
+  "terminal#12366",
+  "terminal#12487",
+  "terminal#12857",
+  "terminal#12861",
+  "terminal#12862",
+  "terminal#12925",
+  "terminal#13036",
+  "terminal#13217",
+  "terminal#13879",
+  "terminal#13892",
+  "terminal#14306",
+  "terminal#14432",
+  "terminal#14604",
+  "terminal#1595",
+  "terminal#16495",
+  "terminal#16568",
+  "terminal#1706",
+  "terminal#17309",
+  "terminal#17807",
+  "terminal#18383",
+  "terminal#18935",
+  "terminal#246",
+  "terminal#2634",
+  "terminal#268",
+  "terminal#292",
+  "terminal#3146",
+  "terminal#3656",
+  "terminal#381",
+  "terminal#3822",
+  "terminal#3874",
+  "terminal#3999",
+  "terminal#4001",
+  "terminal#4134",
+  "terminal#4470",
+  "terminal#454",
+  "terminal#4602",
+  "terminal#4643",
+  "terminal#469",
+  "terminal#4718",
+  "terminal#4801",
+  "terminal#4878",
+  "terminal#5042",
+  "terminal#5465",
+  "terminal#5500",
+  "terminal#5982",
+  "terminal#605",
+  "terminal#6118",
+  "terminal#6188",
+  "terminal#626",
+  "terminal#634",
+  "terminal#6536",
+  "terminal#6677",
+  "terminal#7000",
+  "terminal#7284",
+  "terminal#7550",
+  "terminal#7684",
+  "terminal#7749",
+  "terminal#7932",
+  "terminal#8198",
+  "terminal#8389",
+  "terminal#8647",
+  "terminal#8688",
+  "terminal#8788",
+  "terminal#8855",
+  "terminal#9020",
+  "terminal#9197",
+  "terminal#9368",
+  "terminal#9460",
+  "terminal#9463",
+  "terminal#9559",
+  "terminal#9612",
+  "terminal#9640",
+  "terminal#9883",
+  "terminal#997"
+ ],
+ "retrieval_seconds": 3.5655378379742615,
+ "tool_calls": [
+  {
+   "t": 1794877705.9685755,
+   "tool": "search",
+   "args": {
+    "query": "opt-in automation API to list sessions, read terminal buffer, send input to pane",
+    "repo": "terminal"
+   },
+   "seconds": 3.5111670649785083,
+   "returned": [
+    "terminal#10331",
+    "terminal#9197",
+    "terminal#13036",
+    "terminal#6188",
+    "terminal#13892",
+    "terminal#10146",
+    "terminal#8855",
+    "terminal#6536",
+    "terminal#13217",
+    "terminal#12366",
+    "terminal#1595",
+    "terminal#469",
+    "terminal#4470",
+    "terminal#9559",
+    "terminal#8198",
+    "terminal#6118",
+    "terminal#997",
+    "terminal#9460",
+    "terminal#7000",
+    "terminal#9463"
+   ]
+  },
+  {
+   "t": 1794877705.9955142,
+   "tool": "search",
+   "args": {
+    "query": "wt send-input command to send text to pane",
+    "repo": "terminal"
+   },
+   "seconds": 0.012943631008965895,
+   "returned": [
+    "terminal#10146",
+    "terminal#12487",
+    "terminal#12925",
+    "terminal#12861",
+    "terminal#4134",
+    "terminal#4878",
+    "terminal#12862",
+    "terminal#12857",
+    "terminal#4602",
+    "terminal#9368",
+    "terminal#5982",
+    "terminal#8198",
+    "terminal#7932",
+    "terminal#2634",
+    "terminal#14432",
+    "terminal#14306",
+    "terminal#3999",
+    "terminal#7284",
+    "terminal#16495",
+    "terminal#11616"
+   ]
+  },
+  {
+   "t": 1794877706.0172055,
+   "tool": "search",
+   "args": {
+    "query": "MCP server for Windows Terminal, remote control protocol like kitty",
+    "repo": null
+   },
+   "seconds": 0.012921010988065973,
+   "returned": [
+    "terminal#9020",
+    "terminal#9640",
+    "terminal#8389",
+    "terminal#17309",
+    "terminal#3874",
+    "terminal#626",
+    "terminal#18383",
+    "WSL#938",
+    "WSL#3217",
+    "terminal#10762",
+    "terminal#3656",
+    "terminal#7684",
+    "terminal#4643",
+    "terminal#4801",
+    "WSL#8177",
+    "terminal#3146",
+    "terminal#5500",
+    "terminal#11855",
+    "terminal#268",
+    "WSL#7116"
+   ]
+  },
+  {
+   "t": 1794877707.1207304,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#11616"
+   },
+   "seconds": 0.0001380259927827865,
+   "returned": [
+    "terminal#11616"
+   ]
+  },
+  {
+   "t": 1794877707.3688219,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#9368"
+   },
+   "seconds": 0.000153345987200737,
+   "returned": [
+    "terminal#9368"
+   ]
+  },
+  {
+   "t": 1794877707.8082337,
+   "tool": "search",
+   "args": {
+    "query": "read terminal buffer contents from outside, scripting API to get pane text",
+    "repo": "terminal"
+   },
+   "seconds": 0.014605467004003003,
+   "returned": [
+    "terminal#292",
+    "terminal#8688",
+    "terminal#997",
+    "terminal#8788",
+    "terminal#10680",
+    "terminal#8647",
+    "terminal#17807",
+    "terminal#7550",
+    "terminal#10146",
+    "terminal#4718",
+    "terminal#7284",
+    "terminal#454",
+    "terminal#7749",
+    "terminal#4001",
+    "terminal#381",
+    "terminal#634",
+    "terminal#7000",
+    "terminal#9883",
+    "terminal#8855",
+    "terminal#246"
+   ]
+  },
+  {
+   "t": 1794877709.7409956,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#12925"
+   },
+   "seconds": 0.00012682599481195211,
+   "returned": [
+    "terminal#12925"
+   ]
+  },
+  {
+   "t": 1794877709.9869528,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#12487"
+   },
+   "seconds": 0.00018396499217487872,
+   "returned": [
+    "terminal#12487"
+   ]
+  },
+  {
+   "t": 1794877710.50566,
+   "tool": "search",
+   "args": {
+    "query": "external scripting control of Windows Terminal, enumerate tabs and panes, query state from command line",
+    "repo": "terminal"
+   },
+   "seconds": 0.013298501027747989,
+   "returned": [
+    "terminal#8855",
+    "terminal#1595",
+    "terminal#5982",
+    "terminal#6677",
+    "terminal#9883",
+    "terminal#13879",
+    "terminal#5042",
+    "terminal#5465",
+    "terminal#9612",
+    "terminal#16568",
+    "terminal#6188",
+    "terminal#10146",
+    "terminal#1706",
+    "terminal#9559",
+    "terminal#605",
+    "terminal#18935",
+    "terminal#3874",
+    "terminal#14604",
+    "terminal#13892",
+    "terminal#3822"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10947,
+  "stop_reason": "end_turn",
+  "session_id": "ff40cd60-883a-4f33-96a3-bec40a37ce2f",
+  "total_cost_usd": 0.0821276,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 16619,
+   "cache_read_input_tokens": 24256,
+   "output_tokens": 1321,
+   "output_tokens_details": {
+    "thinking_tokens": 225
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 16619,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 518,
+     "cache_read_input_tokens": 13611,
+     "cache_creation_input_tokens": 4041,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4041
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1321,
+    "cacheReadInputTokens": 24256,
+    "cacheCreationInputTokens": 16619,
+    "webSearchRequests": 0,
+    "costUSD": 0.0821276,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 225,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 16619,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#9368\", \"terminal#12925\", \"terminal#12487\"], \"answer\": \"The send-input half of this has been requested before. It is tracked in terminal#9368, and terminal#12925 and terminal#12487 were closed as duplicates of it. In April 2026 [user] moved #9368 to rejected, including the draft PR #20106, because of the security risk of other processes injecting input. He noted that mixed elevation did ship, so that concern still applies. Earlier, [user] said he might accept an opt-in model. He also pointed out that a setting in settings.json alone doesn't protect against malicious.exe editing the file. Your proposal addresses that point with a UI-only toggle, consent prompts, an ACL'd transport and a hard elevation boundary. I found no archived ticket for the read side (listing sessions and reading buffers) or for an authenticated, consent-gated automation surface. So that part looks new. Nothing in the archive says it will be built. The most relevant open context is #9368 itself. I'd suggest linking to it and explaining how your design answers the maintainers' stated objections. Until something ships, the only options are structural `wt` subcommands and the UIA accessibility tree.\"}",
+  "ttft_ms": 1676,
+  "type": "result",
+  "duration_ms": 14234,
+  "uuid": "f9c8baa2-9e9d-4dec-8fb5-1efea98cc7dc",
+  "ttft_stream_ms": 855,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 855,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1321,
+    "cacheReadInputTokens": 24256,
+    "cacheCreationInputTokens": 16619,
+    "webSearchRequests": 0,
+    "costUSD": 0.0821276,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 225,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 16619,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.566924229991855,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-jy2v1npi/work"
+  }
+ },
+ "wall_seconds": 15.56919444000232,
+ "qid": "terminal#20403",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#9368",
+   "terminal#12925",
+   "terminal#12487"
+  ],
+  "answer": "The send-input half of this has been requested before. It is tracked in terminal#9368, and terminal#12925 and terminal#12487 were closed as duplicates of it. In April 2026 [user] moved #9368 to rejected, including the draft PR #20106, because of the security risk of other processes injecting input. He noted that mixed elevation did ship, so that concern still applies. Earlier, [user] said he might accept an opt-in model. He also pointed out that a setting in settings.json alone doesn't protect against malicious.exe editing the file. Your proposal addresses that point with a UI-only toggle, consent prompts, an ACL'd transport and a hard elevation boundary. I found no archived ticket for the read side (listing sessions and reading buffers) or for an authenticated, consent-gated automation surface. So that part looks new. Nothing in the archive says it will be built. The most relevant open context is #9368 itself. I'd suggest linking to it and explaining how your design answers the maintainers' stated objections. Until something ships, the only options are structural `wt` subcommands and the UIA accessibility tree."
+ },
+ "hit_turn_cap": false
+}

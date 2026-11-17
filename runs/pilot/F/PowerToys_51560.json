@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#47476",
+  "PowerToys#21985",
+  "PowerToys#2403",
+  "PowerToys#29085",
+  "PowerToys#24369"
+ ],
+ "retrieval_seconds": 0.5591272379970178,
+ "retrieval_scores": [
+  0.02919863597612958,
+  0.028958333333333336,
+  0.02565284178187404,
+  0.01639344262295082,
+  0.01639344262295082
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2995,
+  "stop_reason": "end_turn",
+  "session_id": "69aeeaf9-b6a9-4784-a2aa-f0b3da3b6dca",
+  "total_cost_usd": 0.035366,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 8018,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 329,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8018,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 329,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 8018,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 8018
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 329,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 8018,
+    "webSearchRequests": 0,
+    "costUSD": 0.035366,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8018,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#47476\", \"PowerToys#2403\", \"PowerToys#29085\"], \"answer\": \"This request has been made many times before: choosing which utilities to install in the installer, and installing or uninstalling individual modules from within PowerToys. It is tracked in the long-running thread #3170 (\\\"Please allow individual tools to be installed\\\") and #2403, and the newer duplicates were closed in favor of those. The team has said it has no plans to implement it. Making the installer modular would mean rewriting it, with install and upgrade implications and dependencies between modules, and it is not on the roadmap. As workarounds, turn off the utilities you don't need in PowerToys Settings (they are not running by default, and only the runner and launcher stay resident), or use the group policy settings to enable or disable specific utilities. Neither reduces the install size. To follow or support the request, add a thumbs-up or comment on #3170 or #2403 rather than opening a new ticket.\"}",
+  "ttft_ms": 3195,
+  "type": "result",
+  "duration_ms": 3221,
+  "uuid": "d2828848-0492-42c6-9c14-603fef3ef79b",
+  "ttft_stream_ms": 730,
+  "time_to_request_ms": 224,
+  "first_content_frame_ms": 730,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 329,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 8018,
+    "webSearchRequests": 0,
+    "costUSD": 0.035366,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8018,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.141581547999522,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-d_vhonv5/work"
+  }
+ },
+ "wall_seconds": 4.703027662995737,
+ "qid": "PowerToys#51560",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#47476",
+   "PowerToys#2403",
+   "PowerToys#29085"
+  ],
+  "answer": "This request has been made many times before: choosing which utilities to install in the installer, and installing or uninstalling individual modules from within PowerToys. It is tracked in the long-running thread #3170 (\"Please allow individual tools to be installed\") and #2403, and the newer duplicates were closed in favor of those. The team has said it has no plans to implement it. Making the installer modular would mean rewriting it, with install and upgrade implications and dependencies between modules, and it is not on the roadmap. As workarounds, turn off the utilities you don't need in PowerToys Settings (they are not running by default, and only the runner and launcher stay resident), or use the group policy settings to enable or disable specific utilities. Neither reduces the install size. To follow or support the request, add a thumbs-up or comment on #3170 or #2403 rather than opening a new ticket."
+ },
+ "hit_turn_cap": false
+}

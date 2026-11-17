@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "terminal#1468",
+  "terminal#19813",
+  "terminal#1650",
+  "WSL#13129",
+  "terminal#3119"
+ ],
+ "retrieval_seconds": 0.018368067976552993,
+ "retrieval_scores": [
+  0.7038772702217102,
+  0.7003181576728821,
+  0.6829504370689392,
+  0.6819217801094055,
+  0.6694579720497131
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2186,
+  "stop_reason": "end_turn",
+  "session_id": "96934eab-0765-4bd1-b975-bc90368faa48",
+  "total_cost_usd": 0.02724,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6244,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 226,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6244,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 226,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6244,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6244
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 226,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6244,
+    "webSearchRequests": 0,
+    "costUSD": 0.02724,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6244,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"No past ticket reports this problem. The closest ones are different issues: terminal#3119 is the original request for indexed DLL/EXE icons, and terminal#19813 covers URL icons being blocked by the same validation. Neither describes indexed icons like \\\"shell32.dll,210\\\" being rejected by the newer media-resource validation, or paths with commas being split on the wrong comma. Your ticket already includes a root-cause analysis and a planned fix, so continue with that pull request. Until it ships, a possible workaround is to point the icon at a standalone .ico or .png file instead of an indexed DLL/EXE resource.\"}",
+  "ttft_ms": 2368,
+  "type": "result",
+  "duration_ms": 2386,
+  "uuid": "27700c05-a96f-4827-8ccf-cabaf94f4d21",
+  "ttft_stream_ms": 658,
+  "time_to_request_ms": 199,
+  "first_content_frame_ms": 658,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 226,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6244,
+    "webSearchRequests": 0,
+    "costUSD": 0.02724,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6244,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.245241172990063,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-m7mme1cv/work"
+  }
+ },
+ "wall_seconds": 3.2655218039872125,
+ "qid": "terminal#20567",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "No past ticket reports this problem. The closest ones are different issues: terminal#3119 is the original request for indexed DLL/EXE icons, and terminal#19813 covers URL icons being blocked by the same validation. Neither describes indexed icons like \"shell32.dll,210\" being rejected by the newer media-resource validation, or paths with commas being split on the wrong comma. Your ticket already includes a root-cause analysis and a planned fix, so continue with that pull request. Until it ships, a possible workaround is to point the icon at a standalone .ico or .png file instead of an indexed DLL/EXE resource."
+ },
+ "hit_turn_cap": false
+}

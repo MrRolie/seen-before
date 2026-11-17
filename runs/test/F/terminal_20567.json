@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "terminal#1504",
+  "terminal#3119",
+  "terminal#6064",
+  "terminal#19813",
+  "terminal#3237"
+ ],
+ "retrieval_seconds": 0.5286274320096709,
+ "retrieval_scores": [
+  0.03131881575727918,
+  0.027884615384615386,
+  0.027242401779095628,
+  0.026333113890717574,
+  0.02557544757033248
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2357,
+  "stop_reason": "end_turn",
+  "session_id": "91c49a6a-d48f-43e8-bac7-0b08a270ebbb",
+  "total_cost_usd": 0.032996,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 7593,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 262,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7593,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 262,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 7593,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7593
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 262,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7593,
+    "webSearchRequests": 0,
+    "costUSD": 0.032996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7593,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"No past ticket reports this regression. The archive covers the feature request for indexed icons like shell32.dll,210 (terminal#1504, with duplicates #3119, #6064, #3237, which were closed in favor of #1504 and shipped in #14107), and a separate ticket about web URL icons being blocked (terminal#19813). None describe the media-resource validation from #19143 rejecting the ',index' suffix or the first-comma splitting of paths that contain commas. Treat this as a new bug. Your root-cause analysis and planned fix (validate the binary path while keeping the signed index, and split on the last comma in both the validator and IconPathConverter) look reasonable, so go ahead and submit the PR with the regression tests you described.\"}",
+  "ttft_ms": 2524,
+  "type": "result",
+  "duration_ms": 2555,
+  "uuid": "661c8324-409d-4681-b061-3d392b90a548",
+  "ttft_stream_ms": 643,
+  "time_to_request_ms": 190,
+  "first_content_frame_ms": 643,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 262,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7593,
+    "webSearchRequests": 0,
+    "costUSD": 0.032996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7593,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.432408563006902,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-n4elbb9w/work"
+  }
+ },
+ "wall_seconds": 3.9634896439965814,
+ "qid": "terminal#20567",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "No past ticket reports this regression. The archive covers the feature request for indexed icons like shell32.dll,210 (terminal#1504, with duplicates #3119, #6064, #3237, which were closed in favor of #1504 and shipped in #14107), and a separate ticket about web URL icons being blocked (terminal#19813). None describe the media-resource validation from #19143 rejecting the ',index' suffix or the first-comma splitting of paths that contain commas. Treat this as a new bug. Your root-cause analysis and planned fix (validate the binary path while keeping the signed index, and split on the last comma in both the validator and IconPathConverter) look reasonable, so go ahead and submit the PR with the regression tests you described."
+ },
+ "hit_turn_cap": false
+}

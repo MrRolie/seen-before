@@ -1,0 +1,346 @@
+{
+ "shown": [
+  "PowerToys#11233",
+  "PowerToys#12154",
+  "PowerToys#12337",
+  "PowerToys#12579",
+  "PowerToys#12753",
+  "PowerToys#13135",
+  "PowerToys#13501",
+  "PowerToys#13755",
+  "PowerToys#14208",
+  "PowerToys#14945",
+  "PowerToys#15411",
+  "PowerToys#18584",
+  "PowerToys#22634",
+  "PowerToys#24846",
+  "PowerToys#25377",
+  "PowerToys#25581",
+  "PowerToys#27531",
+  "PowerToys#27619",
+  "PowerToys#27790",
+  "PowerToys#28283",
+  "PowerToys#28815",
+  "PowerToys#29407",
+  "PowerToys#30227",
+  "PowerToys#30310",
+  "PowerToys#30552",
+  "PowerToys#30847",
+  "PowerToys#32305",
+  "PowerToys#35102",
+  "PowerToys#35205",
+  "PowerToys#36781",
+  "PowerToys#38014",
+  "PowerToys#38908",
+  "PowerToys#42720",
+  "PowerToys#45602",
+  "PowerToys#45910",
+  "PowerToys#46150"
+ ],
+ "retrieval_seconds": 4.27531908696983,
+ "tool_calls": [
+  {
+   "t": 1794877558.2706017,
+   "tool": "search",
+   "args": {
+    "query": "Awake: schedule start and end time, days of the week",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.257597828982398,
+   "returned": [
+    "PowerToys#30552",
+    "PowerToys#14208",
+    "PowerToys#30310",
+    "PowerToys#12579",
+    "PowerToys#15411",
+    "PowerToys#13501",
+    "PowerToys#45910",
+    "PowerToys#11233",
+    "PowerToys#12753",
+    "PowerToys#27619",
+    "PowerToys#38908",
+    "PowerToys#18584",
+    "PowerToys#12337",
+    "PowerToys#46150",
+    "PowerToys#13755",
+    "PowerToys#30227",
+    "PowerToys#42720",
+    "PowerToys#32305",
+    "PowerToys#45602",
+    "PowerToys#35205"
+   ]
+  },
+  {
+   "t": 1794877558.3020248,
+   "tool": "search",
+   "args": {
+    "query": "Awake keep awake during working hours time interval",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.016916571999900043,
+   "returned": [
+    "PowerToys#38014",
+    "PowerToys#28815",
+    "PowerToys#36781",
+    "PowerToys#35102",
+    "PowerToys#29407",
+    "PowerToys#27531",
+    "PowerToys#13135",
+    "PowerToys#28283",
+    "PowerToys#22634",
+    "PowerToys#24846",
+    "PowerToys#25377",
+    "PowerToys#30847",
+    "PowerToys#11233",
+    "PowerToys#27790",
+    "PowerToys#12154",
+    "PowerToys#25581",
+    "PowerToys#42720",
+    "PowerToys#14945",
+    "PowerToys#32305",
+    "PowerToys#12337"
+   ]
+  },
+  {
+   "t": 1794877559.276036,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#12579"
+   },
+   "seconds": 0.0001324359909631312,
+   "returned": [
+    "PowerToys#12579"
+   ]
+  },
+  {
+   "t": 1794877559.5261893,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#30310"
+   },
+   "seconds": 0.00018426502356305718,
+   "returned": [
+    "PowerToys#30310"
+   ]
+  },
+  {
+   "t": 1794877559.703122,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#14208"
+   },
+   "seconds": 0.00016576499911025167,
+   "returned": [
+    "PowerToys#14208"
+   ]
+  },
+  {
+   "t": 1794877560.711579,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#11233"
+   },
+   "seconds": 0.00016493498696945608,
+   "returned": [
+    "PowerToys#11233"
+   ]
+  },
+  {
+   "t": 1794877560.8867629,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#27790"
+   },
+   "seconds": 0.0001572849869262427,
+   "returned": [
+    "PowerToys#27790"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7407,
+  "stop_reason": "end_turn",
+  "session_id": "b43f69e8-7361-43cd-80a8-bfe3274c3e2b",
+  "total_cost_usd": 0.0439621,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 8526,
+   "cache_read_input_tokens": 11721,
+   "output_tokens": 867,
+   "output_tokens_details": {
+    "thinking_tokens": 31
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8526,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 342,
+     "cache_read_input_tokens": 5124,
+     "cache_creation_input_tokens": 4435,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4435
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 867,
+    "cacheReadInputTokens": 11721,
+    "cacheCreationInputTokens": 8526,
+    "webSearchRequests": 0,
+    "costUSD": 0.0439621,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 31,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8526,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#27790\", \"PowerToys#11233\", \"PowerToys#30310\"], \"answer\": \"This has been requested before. Awake can't yet turn itself on and off on a schedule, such as 09:00–18:00 on chosen weekdays. The maintainers are tracking scheduling requests in PowerToys#24846 (referenced from #27790), so add your use case or a thumbs-up there. Awake can already stop at a set date and time (\\\"until expiration\\\"), but you still have to start it yourself. Until scheduling exists, you can use Windows Task Scheduler. Create a task that launches PowerToys.Awake.exe at the start of your workday, for example on workdays or when the PC resumes from sleep. Pass it --expire-at=18:00:00 or --time-limit. Users in #27790 and #11233 describe this workaround. One user's script also stops any running Awake instance first. Results with it have been mixed: one user reported the options were ignored and Awake ran indefinitely.\"}",
+  "ttft_ms": 1047,
+  "type": "result",
+  "duration_ms": 11420,
+  "uuid": "dad9a6c2-6ba5-481d-8013-38ca2b00ce0a",
+  "ttft_stream_ms": 593,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 593,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 867,
+    "cacheReadInputTokens": 11721,
+    "cacheCreationInputTokens": 8526,
+    "webSearchRequests": 0,
+    "costUSD": 0.0439621,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 31,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8526,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.091820961999474,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-b90c6uwn/work"
+  }
+ },
+ "wall_seconds": 13.094232168979943,
+ "qid": "PowerToys#49115",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#27790",
+   "PowerToys#11233",
+   "PowerToys#30310"
+  ],
+  "answer": "This has been requested before. Awake can't yet turn itself on and off on a schedule, such as 09:00–18:00 on chosen weekdays. The maintainers are tracking scheduling requests in PowerToys#24846 (referenced from #27790), so add your use case or a thumbs-up there. Awake can already stop at a set date and time (\"until expiration\"), but you still have to start it yourself. Until scheduling exists, you can use Windows Task Scheduler. Create a task that launches PowerToys.Awake.exe at the start of your workday, for example on workdays or when the PC resumes from sleep. Pass it --expire-at=18:00:00 or --time-limit. Users in #27790 and #11233 describe this workaround. One user's script also stops any running Awake instance first. Results with it have been mixed: one user reported the options were ignored and Awake ran indefinitely."
+ },
+ "hit_turn_cap": false
+}

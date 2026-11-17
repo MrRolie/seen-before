@@ -1,0 +1,404 @@
+{
+ "shown": [
+  "PowerToys#10068",
+  "PowerToys#10165",
+  "PowerToys#12381",
+  "PowerToys#28103",
+  "PowerToys#38353",
+  "WSL#12800",
+  "WSL#2020",
+  "WSL#3239",
+  "WSL#5773",
+  "WSL#8977",
+  "terminal#1022",
+  "terminal#11309",
+  "terminal#11354",
+  "terminal#11578",
+  "terminal#1165",
+  "terminal#1188",
+  "terminal#1206",
+  "terminal#12413",
+  "terminal#1246",
+  "terminal#12571",
+  "terminal#1312",
+  "terminal#1339",
+  "terminal#13978",
+  "terminal#14461",
+  "terminal#15271",
+  "terminal#15303",
+  "terminal#17076",
+  "terminal#17776",
+  "terminal#17847",
+  "terminal#1855",
+  "terminal#18598",
+  "terminal#19336",
+  "terminal#2000",
+  "terminal#2537",
+  "terminal#2947",
+  "terminal#3381",
+  "terminal#3406",
+  "terminal#3713",
+  "terminal#4088",
+  "terminal#4230",
+  "terminal#4482",
+  "terminal#4613",
+  "terminal#4906",
+  "terminal#5979",
+  "terminal#5983",
+  "terminal#6444",
+  "terminal#6446",
+  "terminal#6996",
+  "terminal#7396",
+  "terminal#7422",
+  "terminal#760",
+  "terminal#7839",
+  "terminal#8957",
+  "terminal#9074",
+  "terminal#9273",
+  "terminal#950",
+  "terminal#9676",
+  "terminal#9955"
+ ],
+ "retrieval_seconds": 3.9121034160489216,
+ "tool_calls": [
+  {
+   "t": 1794880930.090681,
+   "tool": "search",
+   "args": {
+    "query": "Terminal crashes when clicking mouse to select text, Windows.UI.Xaml.dll exception 0xc000027b",
+    "repo": "terminal"
+   },
+   "seconds": 3.8550861950207036,
+   "returned": [
+    "terminal#3381",
+    "terminal#6446",
+    "terminal#2947",
+    "terminal#4906",
+    "terminal#2537",
+    "terminal#6444",
+    "terminal#3713",
+    "terminal#13978",
+    "terminal#17076",
+    "terminal#17847",
+    "terminal#19336",
+    "terminal#11578",
+    "terminal#1312",
+    "terminal#2000",
+    "terminal#760",
+    "terminal#5983",
+    "terminal#1188",
+    "terminal#14461",
+    "terminal#4613",
+    "terminal#1022"
+   ]
+  },
+  {
+   "t": 1794880930.127269,
+   "tool": "search",
+   "args": {
+    "query": "crash on mouse left button down at left edge of maximized window, selection",
+    "repo": "terminal"
+   },
+   "seconds": 0.018472639989340678,
+   "returned": [
+    "terminal#6446",
+    "terminal#1246",
+    "terminal#9955",
+    "terminal#4482",
+    "terminal#5979",
+    "terminal#1206",
+    "terminal#1312",
+    "terminal#9676",
+    "terminal#15303",
+    "terminal#15271",
+    "terminal#6444",
+    "terminal#7422",
+    "terminal#12413",
+    "terminal#4230",
+    "terminal#1165",
+    "terminal#11309",
+    "terminal#7396",
+    "terminal#9273",
+    "terminal#3406",
+    "terminal#8957"
+   ]
+  },
+  {
+   "t": 1794880931.4472902,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#1312"
+   },
+   "seconds": 0.00014054699568077922,
+   "returned": [
+    "terminal#1312"
+   ]
+  },
+  {
+   "t": 1794880931.5958679,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#11578"
+   },
+   "seconds": 0.0001320570008829236,
+   "returned": [
+    "terminal#11578"
+   ]
+  },
+  {
+   "t": 1794880932.9231958,
+   "tool": "search",
+   "args": {
+    "query": "crash 0xc000027b Windows.UI.Xaml.dll mouse down selection maximized WSL",
+    "repo": null
+   },
+   "seconds": 0.024085523007670417,
+   "returned": [
+    "terminal#6444",
+    "terminal#6446",
+    "PowerToys#28103",
+    "WSL#5773",
+    "terminal#12413",
+    "PowerToys#10165",
+    "terminal#1339",
+    "WSL#12800",
+    "WSL#3239",
+    "terminal#18598",
+    "terminal#6996",
+    "terminal#9955",
+    "PowerToys#12381",
+    "terminal#7839",
+    "terminal#1206",
+    "terminal#17847",
+    "PowerToys#10068",
+    "WSL#2020",
+    "PowerToys#38353",
+    "WSL#8977"
+   ]
+  },
+  {
+   "t": 1794880933.9473245,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#9955"
+   },
+   "seconds": 0.00010685701272450387,
+   "returned": [
+    "terminal#9955"
+   ]
+  },
+  {
+   "t": 1794880935.2503862,
+   "tool": "search",
+   "args": {
+    "query": "crash when starting a selection with mouse click at window edge, Terminal 1.24 Preview",
+    "repo": null
+   },
+   "seconds": 0.014079597021918744,
+   "returned": [
+    "terminal#17076",
+    "terminal#6446",
+    "terminal#4482",
+    "terminal#7396",
+    "terminal#2000",
+    "terminal#1312",
+    "terminal#9074",
+    "terminal#17776",
+    "terminal#5979",
+    "terminal#950",
+    "terminal#4230",
+    "terminal#1855",
+    "terminal#3713",
+    "terminal#9955",
+    "terminal#11354",
+    "terminal#4088",
+    "terminal#12571",
+    "terminal#4613",
+    "PowerToys#10068",
+    "terminal#4906"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10608,
+  "stop_reason": "end_turn",
+  "session_id": "2375c4e0-a307-4136-ab0f-1afbd64ad60a",
+  "total_cost_usd": 0.05978019999999999,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 11812,
+   "cache_read_input_tokens": 33382,
+   "output_tokens": 917,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11812,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 357,
+     "cache_read_input_tokens": 11615,
+     "cache_creation_input_tokens": 1230,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1230
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 917,
+    "cacheReadInputTokens": 33382,
+    "cacheCreationInputTokens": 11812,
+    "webSearchRequests": 0,
+    "costUSD": 0.05978019999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11812,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this exact crash. That is a Windows Terminal Preview 1.24 crash in Windows.UI.Xaml.dll (exception 0xc000027b) when you press the left mouse button at the far left edge of a maximized window. The closest tickets are different problems. terminal#1312 is a crash when a selection drag reaches the title bar. terminal#11578 is a Windows.UI.Xaml.dll crash with exception 0xc0000005 and no clear trigger. Neither has a documented fix. As a workaround, avoid starting a click-and-drag at the very edge of the maximized window. Start the selection a little further inside the window instead. Please file this as a new issue and include the crash details you already have: the faulting module, exception code, fault offset and Report Id. Also send the crash through Feedback Hub and post the link, so the team can look up the crash data. Because you are on Windows 10 build 19044, check that Windows is fully updated. Windows.UI.Xaml.dll is a system component.\"}",
+  "ttft_ms": 1561,
+  "type": "result",
+  "duration_ms": 14385,
+  "uuid": "5d9549b2-cc25-42b9-b763-ba9cbfb486bc",
+  "ttft_stream_ms": 879,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 879,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 917,
+    "cacheReadInputTokens": 33382,
+    "cacheCreationInputTokens": 11812,
+    "webSearchRequests": 0,
+    "costUSD": 0.05978019999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11812,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.800159124017227,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-yyn1w05b/work"
+  }
+ },
+ "wall_seconds": 15.801799763023155,
+ "qid": "terminal#20566",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this exact crash. That is a Windows Terminal Preview 1.24 crash in Windows.UI.Xaml.dll (exception 0xc000027b) when you press the left mouse button at the far left edge of a maximized window. The closest tickets are different problems. terminal#1312 is a crash when a selection drag reaches the title bar. terminal#11578 is a Windows.UI.Xaml.dll crash with exception 0xc0000005 and no clear trigger. Neither has a documented fix. As a workaround, avoid starting a click-and-drag at the very edge of the maximized window. Start the selection a little further inside the window instead. Please file this as a new issue and include the crash details you already have: the faulting module, exception code, fault offset and Report Id. Also send the crash through Feedback Hub and post the link, so the team can look up the crash data. Because you are on Windows 10 build 19044, check that Windows is fully updated. Windows.UI.Xaml.dll is a system component."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,193 @@
+{
+ "shown": [
+  "PowerToys#15083",
+  "PowerToys#28598",
+  "PowerToys#33235",
+  "PowerToys#2644",
+  "PowerToys#37939"
+ ],
+ "retrieval_seconds": 0.5107020830037072,
+ "retrieval_scores": [
+  0.031544957774465976,
+  0.03009207275993712,
+  0.016129032258064516,
+  0.016129032258064516,
+  0.015873015873015872
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3150,
+  "stop_reason": "end_turn",
+  "session_id": "c9a5f66a-59c4-4676-bdb8-c787445fbceb",
+  "total_cost_usd": 0.0301,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6839,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 274,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6839,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 274,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6839,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6839
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 274,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6839,
+    "webSearchRequests": 0,
+    "costUSD": 0.0301,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6839,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#37939\"], \"answer\": \"A Stage Manager-style grouped window organizer has been requested before. PowerToys#37939 asks for a macOS Stage Manager-like group window manager (a sidebar of window groups that rearrange on click), possibly built on Workspaces. The archived ticket shows no maintainer decision or implementation, so there is no existing feature to use today. Add your use case and mockup to that ticket and give it a thumbs up. Related group-window requests (#15083, #28598, #33235) were closed as duplicates or redirected to Windows' built-in Snap Layouts, so expect maintainers to ask whether this belongs in Windows itself. The archive has no answers to your questions on virtual desktops, Workspaces, or multi-monitor scope.\"}",
+  "ttft_ms": 3318,
+  "type": "result",
+  "duration_ms": 3339,
+  "uuid": "f7b231f7-eeb1-4a18-87a8-4acf1abf93a0",
+  "ttft_stream_ms": 1225,
+  "time_to_request_ms": 186,
+  "first_content_frame_ms": 1225,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 274,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6839,
+    "webSearchRequests": 0,
+    "costUSD": 0.0301,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6839,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.1284891279938165,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-qeg3wzum/work"
+  }
+ },
+ "wall_seconds": 4.641024813987315,
+ "qid": "PowerToys#52087",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#37939"
+  ],
+  "answer": "A Stage Manager-style grouped window organizer has been requested before. PowerToys#37939 asks for a macOS Stage Manager-like group window manager (a sidebar of window groups that rearrange on click), possibly built on Workspaces. The archived ticket shows no maintainer decision or implementation, so there is no existing feature to use today. Add your use case and mockup to that ticket and give it a thumbs up. Related group-window requests (#15083, #28598, #33235) were closed as duplicates or redirected to Windows' built-in Snap Layouts, so expect maintainers to ask whether this belongs in Windows itself. The archive has no answers to your questions on virtual desktops, Workspaces, or multi-monitor scope."
+ },
+ "hit_turn_cap": false
+}

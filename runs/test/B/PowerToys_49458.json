@@ -1,0 +1,339 @@
+{
+ "shown": [
+  "PowerToys#11296",
+  "PowerToys#11838",
+  "PowerToys#11874",
+  "PowerToys#12587",
+  "PowerToys#1305",
+  "PowerToys#13258",
+  "PowerToys#14238",
+  "PowerToys#15365",
+  "PowerToys#154",
+  "PowerToys#15405",
+  "PowerToys#179",
+  "PowerToys#19667",
+  "PowerToys#23193",
+  "PowerToys#23229",
+  "PowerToys#25172",
+  "PowerToys#25920",
+  "PowerToys#28027",
+  "PowerToys#28769",
+  "PowerToys#32392",
+  "PowerToys#3404",
+  "PowerToys#35203",
+  "PowerToys#35955",
+  "PowerToys#45923",
+  "PowerToys#48638",
+  "PowerToys#5571",
+  "PowerToys#7726",
+  "PowerToys#890",
+  "PowerToys#9107",
+  "PowerToys#9727"
+ ],
+ "retrieval_seconds": 0.24987519602291286,
+ "tool_calls": [
+  {
+   "t": 1794878530.3481243,
+   "tool": "search",
+   "args": {
+    "pattern": "desktop peek",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04693927901098505,
+   "returned": [
+    "PowerToys#9107"
+   ]
+  },
+  {
+   "t": 1794878532.2710552,
+   "tool": "search",
+   "args": {
+    "pattern": "Shortcut Guide",
+    "regex": false,
+    "also": [
+     "missing"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1153302289894782,
+   "returned": [
+    "PowerToys#23193",
+    "PowerToys#15405",
+    "PowerToys#890",
+    "PowerToys#179",
+    "PowerToys#28027",
+    "PowerToys#7726",
+    "PowerToys#32392",
+    "PowerToys#28769",
+    "PowerToys#48638",
+    "PowerToys#25920",
+    "PowerToys#25172",
+    "PowerToys#11296",
+    "PowerToys#3404",
+    "PowerToys#19667",
+    "PowerToys#9727",
+    "PowerToys#45923",
+    "PowerToys#35955",
+    "PowerToys#14238",
+    "PowerToys#11874",
+    "PowerToys#11838"
+   ]
+  },
+  {
+   "t": 1794878532.3314834,
+   "tool": "search",
+   "args": {
+    "pattern": "Win+,",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.048302223993232474,
+   "returned": [
+    "PowerToys#23229",
+    "PowerToys#15365",
+    "PowerToys#13258",
+    "PowerToys#12587",
+    "PowerToys#5571"
+   ]
+  },
+  {
+   "t": 1794878534.2743316,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#179"
+   },
+   "seconds": 0.00014021602692082524,
+   "returned": [
+    "PowerToys#179"
+   ]
+  },
+  {
+   "t": 1794878534.4100716,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35955"
+   },
+   "seconds": 0.0001756659767124802,
+   "returned": [
+    "PowerToys#35955"
+   ]
+  },
+  {
+   "t": 1794878535.8541095,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#25920"
+   },
+   "seconds": 0.00015357602387666702,
+   "returned": [
+    "PowerToys#25920"
+   ]
+  },
+  {
+   "t": 1794878537.7171607,
+   "tool": "search",
+   "args": {
+    "pattern": "Peek at desktop",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.038834006001707166,
+   "returned": [
+    "PowerToys#35203",
+    "PowerToys#9107",
+    "PowerToys#1305",
+    "PowerToys#179",
+    "PowerToys#154"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13283,
+  "stop_reason": "end_turn",
+  "session_id": "d662020b-06fd-4f00-9236-bc1ddc1fdf1f",
+  "total_cost_usd": 0.0631946,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 12123,
+   "cache_read_input_tokens": 37286,
+   "output_tokens": 1095,
+   "output_tokens_details": {
+    "thinking_tokens": 199
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12123,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 376,
+     "cache_read_input_tokens": 12517,
+     "cache_creation_input_tokens": 783,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 783
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1095,
+    "cacheReadInputTokens": 37286,
+    "cacheCreationInputTokens": 12123,
+    "webSearchRequests": 0,
+    "costUSD": 0.0631946,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 199,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12123,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#179\", \"PowerToys#35955\"], \"answer\": \"This has been reported before. Shortcut Guide leaves out many Windows-key shortcuts, and Win+, (Peek at desktop) is already on the missing-shortcuts tracker in PowerToys#179. A similar report, PowerToys#35955 (Win+P missing), was closed as a duplicate of #179. A separate ticket isn't needed. Follow #179 for updates, and add a comment there if you want to stress Win+,. Until it's added, Win+, still works. Hold Win and press comma to peek at the desktop. The full list of Windows shortcuts is on Microsoft's keyboard shortcuts support page.\"}",
+  "ttft_ms": 2093,
+  "type": "result",
+  "duration_ms": 13492,
+  "uuid": "31433ea7-a6a0-4d4c-ac48-e597456a4d87",
+  "ttft_stream_ms": 1179,
+  "time_to_request_ms": 37,
+  "first_content_frame_ms": 1179,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1095,
+    "cacheReadInputTokens": 37286,
+    "cacheCreationInputTokens": 12123,
+    "webSearchRequests": 0,
+    "costUSD": 0.0631946,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 199,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12123,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.850666762999026,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-smc2g5st/work"
+  }
+ },
+ "wall_seconds": 14.852708790975157,
+ "qid": "PowerToys#49458",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#179",
+   "PowerToys#35955"
+  ],
+  "answer": "This has been reported before. Shortcut Guide leaves out many Windows-key shortcuts, and Win+, (Peek at desktop) is already on the missing-shortcuts tracker in PowerToys#179. A similar report, PowerToys#35955 (Win+P missing), was closed as a duplicate of #179. A separate ticket isn't needed. Follow #179 for updates, and add a comment there if you want to stress Win+,. Until it's added, Win+, still works. Hold Win and press comma to peek at the desktop. The full list of Windows shortcuts is on Microsoft's keyboard shortcuts support page."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#38268",
+  "WSL#10777",
+  "WSL#7784",
+  "WSL#10130",
+  "WSL#40428"
+ ],
+ "retrieval_seconds": 0.0167109280009754,
+ "retrieval_scores": [
+  0.7319862842559814,
+  0.6928776502609253,
+  0.6915591359138489,
+  0.6910796165466309,
+  0.6883357763290405
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2445,
+  "stop_reason": "end_turn",
+  "session_id": "81c58c67-9634-48a2-a009-551ac009deae",
+  "total_cost_usd": 0.017592,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3857,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 216,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3857,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 216,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3857,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3857
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 216,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3857,
+    "webSearchRequests": 0,
+    "costUSD": 0.017592,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3857,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"No past ticket reports this request. The archive has nothing about adding a docker/podman-compatible `--secret` option (for example `--secret id=npmrc,src=<file>`) to `wslc build`. The tickets that came up are about other things: TPM support, authentication for Windows-to-WSL connections, kernel filesystem encryption, building WSL distros from containerfiles, and storing secrets in a PowerToys extension. None of them cover this. Please keep this ticket open as a feature request for wslc build secret support, including file sources. Until it is implemented, the archive offers no documented workaround.\"}",
+  "ttft_ms": 2614,
+  "type": "result",
+  "duration_ms": 2634,
+  "uuid": "14f7941e-62dd-4111-969c-28d53ed31931",
+  "ttft_stream_ms": 1074,
+  "time_to_request_ms": 185,
+  "first_content_frame_ms": 1074,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 216,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3857,
+    "webSearchRequests": 0,
+    "costUSD": 0.017592,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3857,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.431454136996763,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ajlm0gx9/work"
+  }
+ },
+ "wall_seconds": 3.450099069974385,
+ "qid": "WSL#41735",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "No past ticket reports this request. The archive has nothing about adding a docker/podman-compatible `--secret` option (for example `--secret id=npmrc,src=<file>`) to `wslc build`. The tickets that came up are about other things: TPM support, authentication for Windows-to-WSL connections, kernel filesystem encryption, building WSL distros from containerfiles, and storing secrets in a PowerToys extension. None of them cover this. Please keep this ticket open as a feature request for wslc build secret support, including file sources. Until it is implemented, the archive offers no documented workaround."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#48490",
+  "PowerToys#2643",
+  "PowerToys#23632",
+  "PowerToys#46019",
+  "PowerToys#34805"
+ ],
+ "retrieval_seconds": 0.46923972299555317,
+ "retrieval_scores": [
+  0.02368937482478273,
+  0.02105496453900709,
+  0.01639344262295082,
+  0.01639344262295082,
+  0.016129032258064516
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2051,
+  "stop_reason": "end_turn",
+  "session_id": "8479821b-3313-4eaa-8b28-f5ed4677b06b",
+  "total_cost_usd": 0.017776,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3808,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 254,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3808,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 254,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3808,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3808
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 254,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3808,
+    "webSearchRequests": 0,
+    "costUSD": 0.017776,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3808,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"No past ticket reports this exact problem: the Shortcut Guide's PowerToys shortcut index needing two restarts because PowerToysShortcutsPopulator.Populate() runs after the index.yml generation. The closest tickets are about different problems. PowerToys#48490 is about the Settings Home page shortcut list not refreshing after conflict resolution. PowerToys#23632 and PowerToys#34805 are feature requests for showing customized shortcuts. Your root-cause analysis (call ordering of Populate() and index.yml generation) looks like a new bug. Please keep this ticket open for the team to fix. Until then, restarting PowerToys a second time makes the updated shortcut appear.\"}",
+  "ttft_ms": 2200,
+  "type": "result",
+  "duration_ms": 2217,
+  "uuid": "d7d6c3e4-268e-4c7c-8831-0c2cb06f8e2e",
+  "ttft_stream_ms": 657,
+  "time_to_request_ms": 165,
+  "first_content_frame_ms": 657,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 254,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3808,
+    "webSearchRequests": 0,
+    "costUSD": 0.017776,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3808,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 2.9852484310104046,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-1325k8l1/work"
+  }
+ },
+ "wall_seconds": 3.4561831500031985,
+ "qid": "PowerToys#50570",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "No past ticket reports this exact problem: the Shortcut Guide's PowerToys shortcut index needing two restarts because PowerToysShortcutsPopulator.Populate() runs after the index.yml generation. The closest tickets are about different problems. PowerToys#48490 is about the Settings Home page shortcut list not refreshing after conflict resolution. PowerToys#23632 and PowerToys#34805 are feature requests for showing customized shortcuts. Your root-cause analysis (call ordering of Populate() and index.yml generation) looks like a new bug. Please keep this ticket open for the team to fix. Until then, restarting PowerToys a second time makes the updated shortcut appear."
+ },
+ "hit_turn_cap": false
+}

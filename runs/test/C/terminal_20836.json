@@ -1,0 +1,348 @@
+{
+ "shown": [
+  "PowerToys#1722",
+  "PowerToys#2028",
+  "PowerToys#2337",
+  "PowerToys#25403",
+  "PowerToys#2699",
+  "PowerToys#38282",
+  "PowerToys#38353",
+  "PowerToys#6359",
+  "PowerToys#8660",
+  "PowerToys#933",
+  "WSL#1654",
+  "WSL#216",
+  "WSL#8962",
+  "terminal#1037",
+  "terminal#10568",
+  "terminal#1206",
+  "terminal#12571",
+  "terminal#12924",
+  "terminal#13037",
+  "terminal#13599",
+  "terminal#15209",
+  "terminal#15454",
+  "terminal#17363",
+  "terminal#175",
+  "terminal#1765",
+  "terminal#17793",
+  "terminal#18598",
+  "terminal#2157",
+  "terminal#2159",
+  "terminal#2277",
+  "terminal#2898",
+  "terminal#3023",
+  "terminal#3170",
+  "terminal#3941",
+  "terminal#4099",
+  "terminal#4361",
+  "terminal#473",
+  "terminal#5843",
+  "terminal#7234",
+  "terminal#7440",
+  "terminal#7664",
+  "terminal#9315",
+  "terminal#9461",
+  "terminal#9821"
+ ],
+ "retrieval_seconds": 3.874013657012256,
+ "tool_calls": [
+  {
+   "t": 1794884391.2697973,
+   "tool": "search",
+   "args": {
+    "query": "PowerShell crash totalWidth must be a non-negative value PadRight ShowUpdateNotification",
+    "repo": "terminal"
+   },
+   "seconds": 3.814823617984075,
+   "returned": [
+    "terminal#13037",
+    "terminal#7664",
+    "terminal#9315",
+    "terminal#2898",
+    "terminal#3023",
+    "terminal#7234",
+    "terminal#2157",
+    "terminal#18598",
+    "terminal#4361",
+    "terminal#9461",
+    "terminal#4099",
+    "terminal#1037",
+    "terminal#175",
+    "terminal#10568",
+    "terminal#15454",
+    "terminal#13599",
+    "terminal#3170",
+    "terminal#3941",
+    "terminal#5843",
+    "terminal#1206"
+   ]
+  },
+  {
+   "t": 1794884391.3361363,
+   "tool": "search",
+   "args": {
+    "query": "Process terminated totalWidth negative UpdatesNotification new window",
+    "repo": null
+   },
+   "seconds": 0.04270113501115702,
+   "returned": [
+    "terminal#13599",
+    "terminal#10568",
+    "terminal#15209",
+    "PowerToys#38282",
+    "terminal#473",
+    "terminal#1765",
+    "terminal#12924",
+    "terminal#2898",
+    "PowerToys#2028",
+    "WSL#216",
+    "terminal#2157",
+    "WSL#1654",
+    "PowerToys#1722",
+    "terminal#7440",
+    "PowerToys#38353",
+    "terminal#15454",
+    "WSL#8962",
+    "terminal#13037",
+    "PowerToys#6359",
+    "PowerToys#2337"
+   ]
+  },
+  {
+   "t": 1794884392.7654822,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#9315"
+   },
+   "seconds": 0.00014663601177744567,
+   "returned": [
+    "terminal#9315"
+   ]
+  },
+  {
+   "t": 1794884394.192316,
+   "tool": "search",
+   "args": {
+    "query": "pwsh update notification crash PadRight negative width on startup, narrow window",
+    "repo": null
+   },
+   "seconds": 0.015986017999239266,
+   "returned": [
+    "terminal#13037",
+    "terminal#12924",
+    "PowerToys#933",
+    "terminal#15454",
+    "terminal#5843",
+    "terminal#15209",
+    "terminal#2277",
+    "terminal#12571",
+    "terminal#9821",
+    "terminal#1206",
+    "terminal#17793",
+    "terminal#175",
+    "terminal#2898",
+    "terminal#17363",
+    "terminal#7234",
+    "PowerToys#8660",
+    "PowerToys#25403",
+    "terminal#2159",
+    "terminal#2157",
+    "PowerToys#2699"
+   ]
+  },
+  {
+   "t": 1794884395.7197704,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#13037"
+   },
+   "seconds": 0.0003562500060070306,
+   "returned": [
+    "terminal#13037"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10131,
+  "stop_reason": "end_turn",
+  "session_id": "c628389c-8148-4bbc-92cf-c7c154eb1f36",
+  "total_cost_usd": 0.049109599999999996,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 10058,
+   "cache_read_input_tokens": 21176,
+   "output_tokens": 674,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10058,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 292,
+     "cache_read_input_tokens": 7201,
+     "cache_creation_input_tokens": 3890,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3890
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 674,
+    "cacheReadInputTokens": 21176,
+    "cacheCreationInputTokens": 10058,
+    "webSearchRequests": 0,
+    "costUSD": 0.049109599999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10058,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Not a match.\n\n{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this problem. The crash comes from PowerShell, not from Windows Terminal. The stack trace shows pwsh 7.6.6 failing in UpdatesNotification.ShowUpdateNotification. It calls String.PadRight with a negative width (-17), which probably happens because the console window or width is very narrow when pwsh starts. You can work around it by setting the environment variable POWERSHELL_UPDATECHECK=Off, which turns off the update notification. You can also start pwsh with a wider initial window or column count. Another option is to update PowerShell, or to check whether the issue is already open in the PowerShell repository (PowerShell/PowerShell). If you report it there, include the stack trace and your window size settings. The related Terminal settings are initialCols and launchMode.\"}",
+  "ttft_ms": 2158,
+  "type": "result",
+  "duration_ms": 14118,
+  "uuid": "856f3af8-4713-42eb-8e3c-9a04e94675af",
+  "ttft_stream_ms": 1229,
+  "time_to_request_ms": 38,
+  "first_content_frame_ms": 1230,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 674,
+    "cacheReadInputTokens": 21176,
+    "cacheCreationInputTokens": 10058,
+    "webSearchRequests": 0,
+    "costUSD": 0.049109599999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10058,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.582909453980392,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-elkketrq/work"
+  }
+ },
+ "wall_seconds": 15.584847320977133,
+ "qid": "terminal#20836",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this problem. The crash comes from PowerShell, not from Windows Terminal. The stack trace shows pwsh 7.6.6 failing in UpdatesNotification.ShowUpdateNotification. It calls String.PadRight with a negative width (-17), which probably happens because the console window or width is very narrow when pwsh starts. You can work around it by setting the environment variable POWERSHELL_UPDATECHECK=Off, which turns off the update notification. You can also start pwsh with a wider initial window or column count. Another option is to update PowerShell, or to check whether the issue is already open in the PowerShell repository (PowerShell/PowerShell). If you report it there, include the stack trace and your window size settings. The related Terminal settings are initialCols and launchMode."
+ },
+ "hit_turn_cap": false
+}

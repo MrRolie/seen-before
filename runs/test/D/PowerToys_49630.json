@@ -1,0 +1,295 @@
+{
+ "shown": [
+  "PowerToys#11414",
+  "PowerToys#119",
+  "PowerToys#14071",
+  "PowerToys#18097",
+  "PowerToys#183",
+  "PowerToys#2379",
+  "PowerToys#2542",
+  "PowerToys#25942",
+  "PowerToys#2638",
+  "PowerToys#28",
+  "PowerToys#31763",
+  "PowerToys#3262",
+  "PowerToys#3684",
+  "PowerToys#37163",
+  "PowerToys#3744",
+  "PowerToys#44134",
+  "PowerToys#4566",
+  "PowerToys#47550",
+  "PowerToys#4783",
+  "PowerToys#49010",
+  "PowerToys#497",
+  "PowerToys#6207",
+  "PowerToys#6399",
+  "PowerToys#6793",
+  "PowerToys#8977",
+  "PowerToys#9113",
+  "PowerToys#9258",
+  "PowerToys#9426"
+ ],
+ "retrieval_seconds": 3.589768704987364,
+ "tool_calls": [
+  {
+   "t": 1794879283.1465073,
+   "tool": "similar",
+   "args": {
+    "query": "auto disable PowerToys modules when running fullscreen games or heavy load to save resources",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.5367657539900392,
+   "returned": [
+    "PowerToys#4566",
+    "PowerToys#497",
+    "PowerToys#6793",
+    "PowerToys#28",
+    "PowerToys#9426",
+    "PowerToys#3262",
+    "PowerToys#9258",
+    "PowerToys#6207",
+    "PowerToys#9113",
+    "PowerToys#2542",
+    "PowerToys#119",
+    "PowerToys#11414",
+    "PowerToys#8977",
+    "PowerToys#4783",
+    "PowerToys#2379",
+    "PowerToys#6399",
+    "PowerToys#14071",
+    "PowerToys#3744",
+    "PowerToys#3684",
+    "PowerToys#183"
+   ]
+  },
+  {
+   "t": 1794879283.2114825,
+   "tool": "search",
+   "args": {
+    "pattern": "resource consumption",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.052784667001105845,
+   "returned": [
+    "PowerToys#44134",
+    "PowerToys#49010",
+    "PowerToys#47550",
+    "PowerToys#37163",
+    "PowerToys#31763",
+    "PowerToys#25942",
+    "PowerToys#18097",
+    "PowerToys#2638"
+   ]
+  },
+  {
+   "t": 1794879284.9273221,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4566"
+   },
+   "seconds": 0.0001055570028256625,
+   "returned": [
+    "PowerToys#4566"
+   ]
+  },
+  {
+   "t": 1794879285.1009092,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#6399"
+   },
+   "seconds": 0.00011272699339315295,
+   "returned": [
+    "PowerToys#6399"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8474,
+  "stop_reason": "end_turn",
+  "session_id": "c1596d1c-c021-43f2-8729-6c3afe4e5221",
+  "total_cost_usd": 0.025018400000000003,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 4364,
+   "cache_read_input_tokens": 7804,
+   "output_tokens": 677,
+   "output_tokens_details": {
+    "thinking_tokens": 86
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4364,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 371,
+     "cache_read_input_tokens": 4417,
+     "cache_creation_input_tokens": 1360,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1360
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 677,
+    "cacheReadInputTokens": 7804,
+    "cacheCreationInputTokens": 4364,
+    "webSearchRequests": 0,
+    "costUSD": 0.025018400000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 86,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4364,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#6399\", \"PowerToys#4566\"], \"answer\": \"A similar request has been filed before. PowerToys#6399 asked for PowerToys to pause itself automatically while a game is running. PowerToys#4566 asked for PowerToys Run to be disabled in full-screen or borderless apps. Neither ticket led to a general feature that detects heavy loads and turns modules off. What exists today is narrower. PowerToys Run has an 'Ignore shortcuts in full screen mode' setting, and there's a toggle to disable it. For everything else, turn off the modules you don't need in PowerToys Settings, or exit PowerToys while you game. If you want automatic per-app or per-load disabling across all modules, that is the part those tickets didn't cover. Add your use case to #6399 as a +1.\"}",
+  "ttft_ms": 2405,
+  "type": "result",
+  "duration_ms": 12121,
+  "uuid": "880bc67a-8bde-4257-8928-2e353c049e0a",
+  "ttft_stream_ms": 1492,
+  "time_to_request_ms": 35,
+  "first_content_frame_ms": 1493,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 677,
+    "cacheReadInputTokens": 7804,
+    "cacheCreationInputTokens": 4364,
+    "webSearchRequests": 0,
+    "costUSD": 0.025018400000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 86,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4364,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.487332274002256,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-qc28hsqa/work"
+  }
+ },
+ "wall_seconds": 13.488866269995924,
+ "qid": "PowerToys#49630",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#6399",
+   "PowerToys#4566"
+  ],
+  "answer": "A similar request has been filed before. PowerToys#6399 asked for PowerToys to pause itself automatically while a game is running. PowerToys#4566 asked for PowerToys Run to be disabled in full-screen or borderless apps. Neither ticket led to a general feature that detects heavy loads and turns modules off. What exists today is narrower. PowerToys Run has an 'Ignore shortcuts in full screen mode' setting, and there's a toggle to disable it. For everything else, turn off the modules you don't need in PowerToys Settings, or exit PowerToys while you game. If you want automatic per-app or per-load disabling across all modules, that is the part those tickets didn't cover. Add your use case to #6399 as a +1."
+ },
+ "hit_turn_cap": false
+}

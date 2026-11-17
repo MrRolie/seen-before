@@ -1,0 +1,507 @@
+{
+ "shown": [
+  "PowerToys#11292",
+  "PowerToys#13480",
+  "PowerToys#13860",
+  "PowerToys#1475",
+  "PowerToys#15241",
+  "PowerToys#1527",
+  "PowerToys#15543",
+  "PowerToys#16173",
+  "PowerToys#16286",
+  "PowerToys#18012",
+  "PowerToys#18015",
+  "PowerToys#18843",
+  "PowerToys#24283",
+  "PowerToys#24880",
+  "PowerToys#25317",
+  "PowerToys#28769",
+  "PowerToys#30279",
+  "PowerToys#32039",
+  "PowerToys#32055",
+  "PowerToys#32062",
+  "PowerToys#32206",
+  "PowerToys#32251",
+  "PowerToys#32406",
+  "PowerToys#32560",
+  "PowerToys#32602",
+  "PowerToys#32626",
+  "PowerToys#32859",
+  "PowerToys#33080",
+  "PowerToys#33185",
+  "PowerToys#33218",
+  "PowerToys#33492",
+  "PowerToys#3350",
+  "PowerToys#33566",
+  "PowerToys#33618",
+  "PowerToys#3364",
+  "PowerToys#3397",
+  "PowerToys#3400",
+  "PowerToys#3529",
+  "PowerToys#36339",
+  "PowerToys#3650",
+  "PowerToys#37300",
+  "PowerToys#38604",
+  "PowerToys#38901",
+  "PowerToys#39198",
+  "PowerToys#39695",
+  "PowerToys#39799",
+  "PowerToys#40771",
+  "PowerToys#41608",
+  "PowerToys#41918",
+  "PowerToys#41931",
+  "PowerToys#43534",
+  "PowerToys#4399",
+  "PowerToys#45735",
+  "PowerToys#46561",
+  "PowerToys#47062",
+  "PowerToys#47290",
+  "PowerToys#47459",
+  "PowerToys#47604",
+  "PowerToys#48094",
+  "PowerToys#48127",
+  "PowerToys#48895",
+  "PowerToys#492",
+  "PowerToys#4964",
+  "PowerToys#5055",
+  "PowerToys#5074",
+  "PowerToys#5571",
+  "PowerToys#5679",
+  "PowerToys#58",
+  "PowerToys#6",
+  "PowerToys#6246",
+  "PowerToys#65",
+  "PowerToys#6756",
+  "PowerToys#6976",
+  "PowerToys#7733",
+  "PowerToys#8016",
+  "PowerToys#8083",
+  "PowerToys#8577",
+  "PowerToys#8693",
+  "PowerToys#8876"
+ ],
+ "retrieval_seconds": 0.9190701549814548,
+ "tool_calls": [
+  {
+   "t": 1794876111.7159212,
+   "tool": "search",
+   "args": {
+    "pattern": "comment",
+    "regex": false,
+    "also": [
+     "keyboard manager"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1919043849920854,
+   "returned": [
+    "PowerToys#28769",
+    "PowerToys#6246",
+    "PowerToys#6756",
+    "PowerToys#3650",
+    "PowerToys#6976",
+    "PowerToys#3364",
+    "PowerToys#492",
+    "PowerToys#8876",
+    "PowerToys#65",
+    "PowerToys#4399",
+    "PowerToys#3350",
+    "PowerToys#24283",
+    "PowerToys#8693",
+    "PowerToys#5074",
+    "PowerToys#5571",
+    "PowerToys#3400",
+    "PowerToys#8083",
+    "PowerToys#16173",
+    "PowerToys#6",
+    "PowerToys#5055"
+   ]
+  },
+  {
+   "t": 1794876112.1170928,
+   "tool": "search",
+   "args": {
+    "pattern": "keyboard manager",
+    "regex": false,
+    "also": [
+     "description",
+     "note"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.2181440400017891,
+   "returned": [
+    "PowerToys#5055",
+    "PowerToys#33566",
+    "PowerToys#32406",
+    "PowerToys#32039",
+    "PowerToys#3397",
+    "PowerToys#33618",
+    "PowerToys#33218",
+    "PowerToys#32859",
+    "PowerToys#33492",
+    "PowerToys#33185",
+    "PowerToys#32560",
+    "PowerToys#32251",
+    "PowerToys#15241",
+    "PowerToys#6",
+    "PowerToys#48094",
+    "PowerToys#33080",
+    "PowerToys#32602",
+    "PowerToys#32206",
+    "PowerToys#32062",
+    "PowerToys#32055"
+   ]
+  },
+  {
+   "t": 1794876113.7030978,
+   "tool": "search",
+   "args": {
+    "pattern": "(add|allow).{0,30}(comment|description|label|name|note).{0,40}(shortcut|remap|mapping)",
+    "regex": true,
+    "also": [
+     "KBM|Keyboard Manager"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.108423806988867,
+   "returned": [
+    "PowerToys#5679"
+   ]
+  },
+  {
+   "t": 1794876115.1531374,
+   "tool": "search",
+   "args": {
+    "pattern": "comments",
+    "regex": false,
+    "also": [
+     "remap",
+     "shortcut"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.14188706301501952,
+   "returned": [
+    "PowerToys#18015",
+    "PowerToys#6756",
+    "PowerToys#5571",
+    "PowerToys#47290",
+    "PowerToys#40771",
+    "PowerToys#24880",
+    "PowerToys#13860",
+    "PowerToys#13480",
+    "PowerToys#8577",
+    "PowerToys#8016",
+    "PowerToys#4964",
+    "PowerToys#3529",
+    "PowerToys#1475",
+    "PowerToys#58",
+    "PowerToys#6",
+    "PowerToys#43534",
+    "PowerToys#38901",
+    "PowerToys#38604",
+    "PowerToys#37300",
+    "PowerToys#36339"
+   ]
+  },
+  {
+   "t": 1794876115.343873,
+   "tool": "search",
+   "args": {
+    "pattern": "KBM",
+    "regex": false,
+    "also": [
+     "annotate"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.09837747699930333,
+   "returned": [
+    "PowerToys#3364",
+    "PowerToys#11292"
+   ]
+  },
+  {
+   "t": 1794876116.7288125,
+   "tool": "search",
+   "args": {
+    "pattern": "remember what",
+    "regex": false,
+    "also": [
+     "Keyboard Manager"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11448425601702183,
+   "returned": [
+    "PowerToys#46561",
+    "PowerToys#39198",
+    "PowerToys#24880"
+   ]
+  },
+  {
+   "t": 1794876117.3085916,
+   "tool": "search",
+   "args": {
+    "pattern": "(custom name|description field|add a description|add description|add a note|add notes|add a comment|add comment)",
+    "regex": true,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.045263561012689024,
+   "returned": [
+    "PowerToys#32626",
+    "PowerToys#7733",
+    "PowerToys#46561",
+    "PowerToys#30279",
+    "PowerToys#25317",
+    "PowerToys#18843",
+    "PowerToys#18012",
+    "PowerToys#15543",
+    "PowerToys#1527",
+    "PowerToys#48895",
+    "PowerToys#48127",
+    "PowerToys#47604",
+    "PowerToys#47459",
+    "PowerToys#47062",
+    "PowerToys#45735",
+    "PowerToys#41931",
+    "PowerToys#41918",
+    "PowerToys#41608",
+    "PowerToys#39799",
+    "PowerToys#39695"
+   ]
+  },
+  {
+   "t": 1794876118.506478,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39198"
+   },
+   "seconds": 0.00015246597467921674,
+   "returned": [
+    "PowerToys#39198"
+   ]
+  },
+  {
+   "t": 1794876121.205835,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46561"
+   },
+   "seconds": 0.00013609699090011418,
+   "returned": [
+    "PowerToys#46561"
+   ]
+  },
+  {
+   "t": 1794876121.3873808,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32626"
+   },
+   "seconds": 0.00011766699026338756,
+   "returned": [
+    "PowerToys#32626"
+   ]
+  },
+  {
+   "t": 1794876124.692022,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#16286"
+   },
+   "seconds": 0.00017933599883690476,
+   "returned": [
+    "PowerToys#16286"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 16610,
+  "stop_reason": "end_turn",
+  "session_id": "d116f812-594e-43cb-9b34-26e989b05fab",
+  "total_cost_usd": 0.0967117,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 18093,
+   "cache_read_input_tokens": 89577,
+   "output_tokens": 1535,
+   "output_tokens_details": {
+    "thinking_tokens": 152
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 18093,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 247,
+     "cache_read_input_tokens": 19001,
+     "cache_creation_input_tokens": 269,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 269
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1535,
+    "cacheReadInputTokens": 89577,
+    "cacheCreationInputTokens": 18093,
+    "webSearchRequests": 0,
+    "costUSD": 0.0967117,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 152,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18093,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#16286\", \"PowerToys#39198\", \"PowerToys#32626\"], \"answer\": \"This feature request has been filed before. PowerToys#16286 asks for comments on remapped keys and shortcuts. PowerToys#39198 asks for user-defined labels or titles, and PowerToys#32626 asks for a note field on each mapping. Two similar requests, #32626 and #46561, were closed as duplicates of #39198, and the archive shows no implementation yet. Keyboard Manager has no comment or label field today. Upvote or add your Edge example to #16286 or #39198 rather than opening a new ticket. Until the feature exists, keep a separate list of what each remap is for.\"}",
+  "ttft_ms": 1411,
+  "type": "result",
+  "duration_ms": 17152,
+  "uuid": "71f3c9fa-c0b8-422e-8f9b-0e132692a290",
+  "ttft_stream_ms": 753,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 753,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1535,
+    "cacheReadInputTokens": 89577,
+    "cacheCreationInputTokens": 18093,
+    "webSearchRequests": 0,
+    "costUSD": 0.0967117,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 152,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18093,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.509709358011605,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-h90h93uw/work"
+  }
+ },
+ "wall_seconds": 18.5117501670029,
+ "qid": "PowerToys#49296",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#16286",
+   "PowerToys#39198",
+   "PowerToys#32626"
+  ],
+  "answer": "This feature request has been filed before. PowerToys#16286 asks for comments on remapped keys and shortcuts. PowerToys#39198 asks for user-defined labels or titles, and PowerToys#32626 asks for a note field on each mapping. Two similar requests, #32626 and #46561, were closed as duplicates of #39198, and the archive shows no implementation yet. Keyboard Manager has no comment or label field today. Upvote or add your Edge example to #16286 or #39198 rather than opening a new ticket. Until the feature exists, keep a separate list of what each remap is for."
+ },
+ "hit_turn_cap": false
+}

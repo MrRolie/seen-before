@@ -1,0 +1,267 @@
+{
+ "shown": [
+  "PowerToys#11246",
+  "PowerToys#117",
+  "PowerToys#17872",
+  "PowerToys#18424",
+  "PowerToys#18535",
+  "PowerToys#2015",
+  "PowerToys#20247",
+  "PowerToys#28285",
+  "PowerToys#32233",
+  "PowerToys#32616",
+  "PowerToys#33",
+  "PowerToys#34",
+  "PowerToys#39019",
+  "PowerToys#4657",
+  "PowerToys#4718",
+  "PowerToys#6088",
+  "PowerToys#7752",
+  "PowerToys#8435",
+  "PowerToys#9376",
+  "PowerToys#975"
+ ],
+ "retrieval_seconds": 4.28793489097734,
+ "tool_calls": [
+  {
+   "t": 1794885426.2855103,
+   "tool": "similar",
+   "args": {
+    "query": "customize Explorer right click context menu entries, remove items, reorder, move from \"show more options\"",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.287629478989402,
+   "returned": [
+    "PowerToys#33",
+    "PowerToys#11246",
+    "PowerToys#8435",
+    "PowerToys#117",
+    "PowerToys#34",
+    "PowerToys#9376",
+    "PowerToys#20247",
+    "PowerToys#17872",
+    "PowerToys#975",
+    "PowerToys#39019",
+    "PowerToys#4657",
+    "PowerToys#18535",
+    "PowerToys#4718",
+    "PowerToys#2015",
+    "PowerToys#32616",
+    "PowerToys#32233",
+    "PowerToys#28285",
+    "PowerToys#6088",
+    "PowerToys#7752",
+    "PowerToys#18424"
+   ]
+  },
+  {
+   "t": 1794885427.929611,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#117"
+   },
+   "seconds": 0.00011737699969671667,
+   "returned": [
+    "PowerToys#117"
+   ]
+  },
+  {
+   "t": 1794885428.0954692,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33"
+   },
+   "seconds": 0.00018803498824127018,
+   "returned": [
+    "PowerToys#33"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9130,
+  "stop_reason": "end_turn",
+  "session_id": "241ee7f5-f95e-4af2-87da-010f32171a4b",
+  "total_cost_usd": 0.029748200000000002,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 5459,
+   "cache_read_input_tokens": 13562,
+   "output_tokens": 654,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5459,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 281,
+     "cache_read_input_tokens": 6799,
+     "cache_creation_input_tokens": 73,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 73
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 654,
+    "cacheReadInputTokens": 13562,
+    "cacheCreationInputTokens": 5459,
+    "webSearchRequests": 0,
+    "costUSD": 0.029748200000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5459,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#33\", \"PowerToys#117\", \"PowerToys#11246\"], \"answer\": \"This feature request has been filed before. PowerToys#33 is the main tracking issue for a right-click context menu editor, and PowerToys#117 was closed as a duplicate of it. PowerToys doesn't have this feature yet. The discussion in #33 suggests the work is stalled unless a community member builds it. You can add a +1 or your use case to #33. In the meantime, third-party tools can help. ContextMenuManager edits the old-style menu. NileSoft Shell can remove entries, for example with `remove(find=...)`. ShellExView and ShellMenuView from NirSoft can disable shell extensions that apps left behind. None of these is part of PowerToys, and I haven't tested any of them.\"}",
+  "ttft_ms": 2515,
+  "type": "result",
+  "duration_ms": 13513,
+  "uuid": "7252c677-df6a-4486-8dbe-90d969394fcb",
+  "ttft_stream_ms": 1332,
+  "time_to_request_ms": 49,
+  "first_content_frame_ms": 1332,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 654,
+    "cacheReadInputTokens": 13562,
+    "cacheCreationInputTokens": 5459,
+    "webSearchRequests": 0,
+    "costUSD": 0.029748200000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5459,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.27240716299275,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-2ugyjycm/work"
+  }
+ },
+ "wall_seconds": 15.274363133998122,
+ "qid": "PowerToys#51961",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#33",
+   "PowerToys#117",
+   "PowerToys#11246"
+  ],
+  "answer": "This feature request has been filed before. PowerToys#33 is the main tracking issue for a right-click context menu editor, and PowerToys#117 was closed as a duplicate of it. PowerToys doesn't have this feature yet. The discussion in #33 suggests the work is stalled unless a community member builds it. You can add a +1 or your use case to #33. In the meantime, third-party tools can help. ContextMenuManager edits the old-style menu. NileSoft Shell can remove entries, for example with `remove(find=...)`. ShellExView and ShellMenuView from NirSoft can disable shell extensions that apps left behind. None of these is part of PowerToys, and I haven't tested any of them."
+ },
+ "hit_turn_cap": false
+}

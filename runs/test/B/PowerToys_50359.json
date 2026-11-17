@@ -1,0 +1,354 @@
+{
+ "shown": [
+  "PowerToys#26191",
+  "PowerToys#26246",
+  "PowerToys#26995",
+  "PowerToys#27126",
+  "PowerToys#27345",
+  "PowerToys#27443",
+  "PowerToys#28258",
+  "PowerToys#29420",
+  "PowerToys#29840",
+  "PowerToys#30427",
+  "PowerToys#31625",
+  "PowerToys#32214",
+  "PowerToys#32751",
+  "PowerToys#32895",
+  "PowerToys#35904",
+  "PowerToys#39171",
+  "PowerToys#39633",
+  "PowerToys#40678",
+  "PowerToys#41655",
+  "PowerToys#41732",
+  "PowerToys#41740",
+  "PowerToys#41957",
+  "PowerToys#44131",
+  "PowerToys#44798",
+  "PowerToys#48825",
+  "WSL#6401",
+  "WSL#7012",
+  "WSL#8671",
+  "WSL#9516",
+  "terminal#9235"
+ ],
+ "retrieval_seconds": 0.39634121299604885,
+ "tool_calls": [
+  {
+   "t": 1794881995.702011,
+   "tool": "search",
+   "args": {
+    "pattern": "new key",
+    "regex": false,
+    "also": [
+     "Mouse Without Borders"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.09603217302355915,
+   "returned": [
+    "PowerToys#26995",
+    "PowerToys#26191",
+    "PowerToys#35904",
+    "PowerToys#32895",
+    "PowerToys#28258",
+    "PowerToys#39171",
+    "PowerToys#32751",
+    "PowerToys#41957",
+    "PowerToys#41732",
+    "PowerToys#32214",
+    "PowerToys#31625",
+    "PowerToys#29840",
+    "PowerToys#29420",
+    "PowerToys#27443",
+    "PowerToys#27345",
+    "PowerToys#26246",
+    "PowerToys#48825",
+    "PowerToys#44131",
+    "PowerToys#40678",
+    "PowerToys#39633"
+   ]
+  },
+  {
+   "t": 1794881995.9000437,
+   "tool": "search",
+   "args": {
+    "pattern": "settings window",
+    "regex": false,
+    "also": [
+     "Mouse Without Borders"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.12566090299515054,
+   "returned": [
+    "PowerToys#30427",
+    "PowerToys#41740",
+    "PowerToys#44798",
+    "PowerToys#27126",
+    "PowerToys#41655"
+   ]
+  },
+  {
+   "t": 1794881998.1368039,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#26995"
+   },
+   "seconds": 0.00012677698396146297,
+   "returned": [
+    "PowerToys#26995"
+   ]
+  },
+  {
+   "t": 1794881998.144335,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35904"
+   },
+   "seconds": 0.00011584701132960618,
+   "returned": [
+    "PowerToys#35904"
+   ]
+  },
+  {
+   "t": 1794881998.221628,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39171"
+   },
+   "seconds": 0.00013852599659003317,
+   "returned": [
+    "PowerToys#39171"
+   ]
+  },
+  {
+   "t": 1794882000.7185686,
+   "tool": "search",
+   "args": {
+    "pattern": "50335",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.059443463978823274,
+   "returned": [
+    "WSL#9516",
+    "terminal#9235",
+    "WSL#8671",
+    "WSL#7012",
+    "WSL#6401"
+   ]
+  },
+  {
+   "t": 1794882002.515166,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32895"
+   },
+   "seconds": 0.00012075601262040436,
+   "returned": [
+    "PowerToys#32895"
+   ]
+  },
+  {
+   "t": 1794882004.4080586,
+   "tool": "search",
+   "args": {
+    "pattern": "New key",
+    "regex": false,
+    "also": [
+     "no devices"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11470276699401438,
+   "returned": []
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 17671,
+  "stop_reason": "end_turn",
+  "session_id": "9628bac0-3f4a-4876-9bdb-4f7106ebacfb",
+  "total_cost_usd": 0.0635315,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 11296,
+   "cache_read_input_tokens": 46195,
+   "output_tokens": 1370,
+   "output_tokens_details": {
+    "thinking_tokens": 122
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11296,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 407,
+     "cache_read_input_tokens": 12338,
+     "cache_creation_input_tokens": 135,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 135
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1370,
+    "cacheReadInputTokens": 46195,
+    "cacheCreationInputTokens": 11296,
+    "webSearchRequests": 0,
+    "costUSD": 0.0635315,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 122,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11296,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Nothing new turned up in that last search. I'm now finishing with the \"New key does nothing\" tickets I already read.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#26995\", \"PowerToys#32895\", \"PowerToys#28258\"], \"answer\": \"Other users have reported this before: clicking \\\"New key\\\" in Mouse Without Borders does nothing, and no key appears. The main ticket is PowerToys#26995, and PowerToys#32895 was closed as a duplicate of it. I haven't found a ticket that matches your settings-window problem. I also couldn't read the issue #50335 you linked. The workaround in #26995 is to open the General tab in PowerToys Settings. Turn the Mouse Without Borders toggle off, then on again. Do this from the General page, because the toggle on the Mouse Without Borders page itself does nothing. Then go back and try \\\"New key\\\". Another commenter on #26995 fixed it by uninstalling the original Microsoft Garage 'Mouse Without Borders', if it's still installed, and making sure it isn't running. If it still fails, update to the latest PowerToys on both PCs. Then attach your bug report ZIP to the ticket. I didn't open the ZIP.\"}",
+  "ttft_ms": 2558,
+  "type": "result",
+  "duration_ms": 18057,
+  "uuid": "aeae9d0b-bd13-408a-a5a6-fc5a47e3f014",
+  "ttft_stream_ms": 1499,
+  "time_to_request_ms": 38,
+  "first_content_frame_ms": 1499,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1370,
+    "cacheReadInputTokens": 46195,
+    "cacheCreationInputTokens": 11296,
+    "webSearchRequests": 0,
+    "costUSD": 0.0635315,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 122,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11296,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 19.406376143015223,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-rznvrjow/work"
+  }
+ },
+ "wall_seconds": 19.40867765402072,
+ "qid": "PowerToys#50359",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#26995",
+   "PowerToys#32895",
+   "PowerToys#28258"
+  ],
+  "answer": "Other users have reported this before: clicking \"New key\" in Mouse Without Borders does nothing, and no key appears. The main ticket is PowerToys#26995, and PowerToys#32895 was closed as a duplicate of it. I haven't found a ticket that matches your settings-window problem. I also couldn't read the issue #50335 you linked. The workaround in #26995 is to open the General tab in PowerToys Settings. Turn the Mouse Without Borders toggle off, then on again. Do this from the General page, because the toggle on the Mouse Without Borders page itself does nothing. Then go back and try \"New key\". Another commenter on #26995 fixed it by uninstalling the original Microsoft Garage 'Mouse Without Borders', if it's still installed, and making sure it isn't running. If it still fails, update to the latest PowerToys on both PCs. Then attach your bug report ZIP to the ticket. I didn't open the ZIP."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,365 @@
+{
+ "shown": [
+  "PowerToys#13544",
+  "PowerToys#1554",
+  "PowerToys#1555",
+  "PowerToys#17294",
+  "PowerToys#1880",
+  "PowerToys#2197",
+  "PowerToys#2198",
+  "PowerToys#2199",
+  "PowerToys#246",
+  "PowerToys#2543",
+  "PowerToys#2548",
+  "PowerToys#27066",
+  "PowerToys#27372",
+  "PowerToys#28602",
+  "PowerToys#3527",
+  "PowerToys#35303",
+  "PowerToys#35514",
+  "PowerToys#3722",
+  "PowerToys#37387",
+  "PowerToys#40631",
+  "PowerToys#41480",
+  "PowerToys#41736",
+  "PowerToys#41748",
+  "PowerToys#42287",
+  "PowerToys#4467",
+  "PowerToys#45558",
+  "PowerToys#45761",
+  "PowerToys#4618",
+  "PowerToys#47561",
+  "PowerToys#47831",
+  "PowerToys#5406",
+  "PowerToys#5647",
+  "PowerToys#5653",
+  "PowerToys#5966",
+  "PowerToys#6930",
+  "PowerToys#6976",
+  "PowerToys#77",
+  "PowerToys#9337",
+  "PowerToys#9360",
+  "WSL#1630",
+  "WSL#269",
+  "WSL#275",
+  "WSL#99",
+  "terminal#1556",
+  "terminal#2473",
+  "terminal#3737",
+  "terminal#487",
+  "terminal#637",
+  "terminal#6438",
+  "terminal#718"
+ ],
+ "retrieval_seconds": 4.029908490017988,
+ "tool_calls": [
+  {
+   "t": 1794878813.1276863,
+   "tool": "search",
+   "args": {
+    "query": "Mouse Without Borders remaps punctuation keys on remote computer: quote, grave accent, backslash swapped",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.9974813960143365,
+   "returned": [
+    "PowerToys#27372",
+    "PowerToys#2199",
+    "PowerToys#5406",
+    "PowerToys#2543",
+    "PowerToys#2197",
+    "PowerToys#41736",
+    "PowerToys#4467",
+    "PowerToys#45761",
+    "PowerToys#35514",
+    "PowerToys#5653",
+    "PowerToys#1554",
+    "PowerToys#6976",
+    "PowerToys#13544",
+    "PowerToys#2548",
+    "PowerToys#2198",
+    "PowerToys#1880",
+    "PowerToys#9360",
+    "PowerToys#1555",
+    "PowerToys#246",
+    "PowerToys#27066"
+   ]
+  },
+  {
+   "t": 1794878813.1505694,
+   "tool": "search",
+   "args": {
+    "query": "Mouse Without Borders wrong characters typed on remote machine keyboard layout mismatch",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.011579005018575117,
+   "returned": [
+    "PowerToys#27372",
+    "PowerToys#2199",
+    "PowerToys#41480",
+    "PowerToys#40631",
+    "PowerToys#27066",
+    "PowerToys#35303",
+    "PowerToys#9337",
+    "PowerToys#1880",
+    "PowerToys#45558",
+    "PowerToys#2197",
+    "PowerToys#77",
+    "PowerToys#4618",
+    "PowerToys#37387",
+    "PowerToys#47831",
+    "PowerToys#5647",
+    "PowerToys#35514",
+    "PowerToys#3722",
+    "PowerToys#28602",
+    "PowerToys#47561",
+    "PowerToys#41748"
+   ]
+  },
+  {
+   "t": 1794878813.9742665,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#41480"
+   },
+   "seconds": 0.00019223499111831188,
+   "returned": [
+    "PowerToys#41480"
+   ]
+  },
+  {
+   "t": 1794878814.1995301,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45761"
+   },
+   "seconds": 0.00024282399681396782,
+   "returned": [
+    "PowerToys#45761"
+   ]
+  },
+  {
+   "t": 1794878814.405549,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45558"
+   },
+   "seconds": 0.0002768629929050803,
+   "returned": [
+    "PowerToys#45558"
+   ]
+  },
+  {
+   "t": 1794878815.5862653,
+   "tool": "search",
+   "args": {
+    "query": "keys rotated: apostrophe types backtick, tilde key types backslash, Mouse Without Borders US keyboard",
+    "repo": null
+   },
+   "seconds": 0.020136167004238814,
+   "returned": [
+    "PowerToys#2199",
+    "PowerToys#2197",
+    "terminal#3737",
+    "terminal#2473",
+    "terminal#718",
+    "PowerToys#5406",
+    "WSL#99",
+    "PowerToys#3527",
+    "WSL#269",
+    "PowerToys#13544",
+    "WSL#1630",
+    "terminal#1556",
+    "PowerToys#17294",
+    "terminal#487",
+    "PowerToys#6930",
+    "terminal#637",
+    "PowerToys#42287",
+    "terminal#6438",
+    "WSL#275",
+    "PowerToys#5966"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6855,
+  "stop_reason": "end_turn",
+  "session_id": "89598e57-1fd3-4242-86d7-23604d84a635",
+  "total_cost_usd": 0.038788600000000006,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 7344,
+   "cache_read_input_tokens": 16066,
+   "output_tokens": 779,
+   "output_tokens_details": {
+    "thinking_tokens": 11
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7344,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 280,
+     "cache_read_input_tokens": 7073,
+     "cache_creation_input_tokens": 1304,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1304
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 779,
+    "cacheReadInputTokens": 16066,
+    "cacheCreationInputTokens": 7344,
+    "webSearchRequests": 0,
+    "costUSD": 0.038788600000000006,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 11,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7344,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find an earlier ticket that reports this exact problem. That is the cyclic rotation of the quote, grave and backslash keys on a remote machine that has the same US layout. The closest tickets are different problems. PowerToys#41480 covers wrong characters when the two machines use different keyboard layouts, for example US and Turkish Q. PowerToys#35514 covers '|' and '@' being deactivated. Please keep this ticket open as a new bug and attach the bug report ZIP. It would help to check whether the remote machine's Simplified Chinese keyboard or IME is still affecting the input. Remove it, or make sure the same US layout is active in every session, and retest. Please also report whether the keys come out wrong when the remote machine is the one being controlled in the opposite direction.\"}",
+  "ttft_ms": 1177,
+  "type": "result",
+  "duration_ms": 10548,
+  "uuid": "eee77677-cbc3-4cc1-8a40-ff71051dd8a9",
+  "ttft_stream_ms": 546,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 546,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 779,
+    "cacheReadInputTokens": 16066,
+    "cacheCreationInputTokens": 7344,
+    "webSearchRequests": 0,
+    "costUSD": 0.038788600000000006,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 11,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7344,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.043413702020189,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-v08qe9jf/work"
+  }
+ },
+ "wall_seconds": 12.045692853978835,
+ "qid": "PowerToys#49516",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find an earlier ticket that reports this exact problem. That is the cyclic rotation of the quote, grave and backslash keys on a remote machine that has the same US layout. The closest tickets are different problems. PowerToys#41480 covers wrong characters when the two machines use different keyboard layouts, for example US and Turkish Q. PowerToys#35514 covers '|' and '@' being deactivated. Please keep this ticket open as a new bug and attach the bug report ZIP. It would help to check whether the remote machine's Simplified Chinese keyboard or IME is still affecting the input. Remove it, or make sure the same US layout is active in every session, and retest. Please also report whether the keys come out wrong when the remote machine is the one being controlled in the opposite direction."
+ },
+ "hit_turn_cap": false
+}

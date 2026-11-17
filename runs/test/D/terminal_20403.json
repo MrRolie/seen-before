@@ -1,0 +1,407 @@
+{
+ "shown": [
+  "terminal#10146",
+  "terminal#10331",
+  "terminal#10416",
+  "terminal#10483",
+  "terminal#11327",
+  "terminal#12007",
+  "terminal#12366",
+  "terminal#12487",
+  "terminal#12925",
+  "terminal#12927",
+  "terminal#13036",
+  "terminal#13217",
+  "terminal#13892",
+  "terminal#14000",
+  "terminal#14432",
+  "terminal#14524",
+  "terminal#14670",
+  "terminal#14764",
+  "terminal#14806",
+  "terminal#15554",
+  "terminal#15851",
+  "terminal#15874",
+  "terminal#16568",
+  "terminal#16600",
+  "terminal#16722",
+  "terminal#16868",
+  "terminal#187",
+  "terminal#2005",
+  "terminal#2035",
+  "terminal#2456",
+  "terminal#246",
+  "terminal#2634",
+  "terminal#292",
+  "terminal#381",
+  "terminal#406",
+  "terminal#454",
+  "terminal#4632",
+  "terminal#469",
+  "terminal#5001",
+  "terminal#5465",
+  "terminal#5784",
+  "terminal#605",
+  "terminal#6118",
+  "terminal#6188",
+  "terminal#6536",
+  "terminal#680",
+  "terminal#7000",
+  "terminal#7284",
+  "terminal#7639",
+  "terminal#7721",
+  "terminal#7749",
+  "terminal#8198",
+  "terminal#8688",
+  "terminal#8788",
+  "terminal#8855",
+  "terminal#9168",
+  "terminal#9197",
+  "terminal#9368"
+ ],
+ "retrieval_seconds": 3.7881158550153486,
+ "tool_calls": [
+  {
+   "t": 1794877682.7218041,
+   "tool": "search",
+   "args": {
+    "pattern": "send-input",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.02076421500532888,
+   "returned": [
+    "terminal#9368",
+    "terminal#12487",
+    "terminal#16722",
+    "terminal#12925",
+    "terminal#2634",
+    "terminal#15874",
+    "terminal#15851",
+    "terminal#14764",
+    "terminal#14432",
+    "terminal#12927",
+    "terminal#12007",
+    "terminal#11327",
+    "terminal#10416",
+    "terminal#7721",
+    "terminal#7639",
+    "terminal#5784",
+    "terminal#5001",
+    "terminal#4632",
+    "terminal#2005",
+    "terminal#406"
+   ]
+  },
+  {
+   "t": 1794877686.4201467,
+   "tool": "similar",
+   "args": {
+    "query": "automation API to list sessions, read buffer, send input to terminal pane for agents / MCP",
+    "repo": "terminal"
+   },
+   "seconds": 3.647283233003691,
+   "returned": [
+    "terminal#10331",
+    "terminal#9197",
+    "terminal#13036",
+    "terminal#13892",
+    "terminal#12366",
+    "terminal#6188",
+    "terminal#8855",
+    "terminal#6536",
+    "terminal#605",
+    "terminal#6118",
+    "terminal#10146",
+    "terminal#14806",
+    "terminal#5465",
+    "terminal#16600",
+    "terminal#469",
+    "terminal#7000",
+    "terminal#15554",
+    "terminal#8198",
+    "terminal#13217",
+    "terminal#10483"
+   ]
+  },
+  {
+   "t": 1794877687.7048366,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#9368"
+   },
+   "seconds": 0.00013496598694473505,
+   "returned": [
+    "terminal#9368"
+   ]
+  },
+  {
+   "t": 1794877688.1908329,
+   "tool": "search",
+   "args": {
+    "pattern": "read buffer",
+    "regex": false,
+    "also": [
+     "pane"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.0658550210064277,
+   "returned": []
+  },
+  {
+   "t": 1794877691.071099,
+   "tool": "search",
+   "args": {
+    "pattern": "remote control",
+    "regex": false,
+    "also": [
+     "buffer"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.040613304008729756,
+   "returned": []
+  },
+  {
+   "t": 1794877691.474009,
+   "tool": "similar",
+   "args": {
+    "query": "programmatically read terminal buffer contents of a pane from external process, scripting API, MCP server",
+    "repo": "terminal"
+   },
+   "seconds": 0.01317891399958171,
+   "returned": [
+    "terminal#10146",
+    "terminal#8688",
+    "terminal#454",
+    "terminal#8855",
+    "terminal#381",
+    "terminal#7284",
+    "terminal#2035",
+    "terminal#7749",
+    "terminal#246",
+    "terminal#14670",
+    "terminal#187",
+    "terminal#14524",
+    "terminal#292",
+    "terminal#16568",
+    "terminal#680",
+    "terminal#2456",
+    "terminal#8788",
+    "terminal#16868",
+    "terminal#9168",
+    "terminal#14000"
+   ]
+  },
+  {
+   "t": 1794877694.7417846,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#16568"
+   },
+   "seconds": 0.00015431598876602948,
+   "returned": [
+    "terminal#16568"
+   ]
+  },
+  {
+   "t": 1794877694.9145093,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#14524"
+   },
+   "seconds": 0.0001318860158789903,
+   "returned": [
+    "terminal#14524"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 14591,
+  "stop_reason": "end_turn",
+  "session_id": "7219621f-8426-4412-b9c8-d027e0cfbb64",
+  "total_cost_usd": 0.0658437,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 12605,
+   "cache_read_input_tokens": 35337,
+   "output_tokens": 1187,
+   "output_tokens_details": {
+    "thinking_tokens": 61
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12605,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 457,
+     "cache_read_input_tokens": 12262,
+     "cache_creation_input_tokens": 1756,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1756
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1187,
+    "cacheReadInputTokens": 35337,
+    "cacheCreationInputTokens": 12605,
+    "webSearchRequests": 0,
+    "costUSD": 0.0658437,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 61,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12605,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#9368\", \"terminal#16568\"], \"answer\": \"The send-input half of this has been reported before, and it was rejected. terminal#9368 asked for a `wt send-input` subcommand. The maintainers were wary of letting other processes inject input into terminal instances. They suggested an opt-in setting, but pointed out that settings.json alone can't be the gate because malicious.exe could edit it. In April 2026 [user] moved #9368 to the rejected state, and the community PR #20106 went with it. His reason was the security risk that mixed elevation opens up. terminal#16568 is an older, broader request for an iTerm2-style programmatic API. It is about controlling the terminal's structure, not reading buffers. I found no earlier ticket for the read side (session enumeration plus buffer read) or for the consent-gated, authenticated model you describe. That part may be new. Please link #9368 and #16568 in your issue and make the case for the differences: off by default, a UI-only toggle stored outside settings.json, per-process consent, no access to elevated windows, and read access separate from input. Today the only supported options are the structural `wt` subcommands (`new-tab`, `split-pane`, `focus-tab` and so on), the `sendInput` action bound in settings, and UIA. None of these can read a buffer or send input to a pane that is already running.\"}",
+  "ttft_ms": 1598,
+  "type": "result",
+  "duration_ms": 18422,
+  "uuid": "1e66c1af-9b58-42cd-8fde-b0b6523aa457",
+  "ttft_stream_ms": 943,
+  "time_to_request_ms": 41,
+  "first_content_frame_ms": 943,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1187,
+    "cacheReadInputTokens": 35337,
+    "cacheCreationInputTokens": 12605,
+    "webSearchRequests": 0,
+    "costUSD": 0.0658437,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 61,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12605,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 19.65187883801991,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-dna8lpef/work"
+  }
+ },
+ "wall_seconds": 19.65425557497656,
+ "qid": "terminal#20403",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#9368",
+   "terminal#16568"
+  ],
+  "answer": "The send-input half of this has been reported before, and it was rejected. terminal#9368 asked for a `wt send-input` subcommand. The maintainers were wary of letting other processes inject input into terminal instances. They suggested an opt-in setting, but pointed out that settings.json alone can't be the gate because malicious.exe could edit it. In April 2026 [user] moved #9368 to the rejected state, and the community PR #20106 went with it. His reason was the security risk that mixed elevation opens up. terminal#16568 is an older, broader request for an iTerm2-style programmatic API. It is about controlling the terminal's structure, not reading buffers. I found no earlier ticket for the read side (session enumeration plus buffer read) or for the consent-gated, authenticated model you describe. That part may be new. Please link #9368 and #16568 in your issue and make the case for the differences: off by default, a UI-only toggle stored outside settings.json, per-process consent, no access to elevated windows, and read access separate from input. Today the only supported options are the structural `wt` subcommands (`new-tab`, `split-pane`, `focus-tab` and so on), the `sendInput` action bound in settings, and UIA. None of these can read a buffer or send input to a pane that is already running."
+ },
+ "hit_turn_cap": false
+}

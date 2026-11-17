@@ -1,0 +1,348 @@
+{
+ "shown": [
+  "PowerToys#23231",
+  "PowerToys#25347",
+  "PowerToys#25739",
+  "PowerToys#29120",
+  "PowerToys#34721",
+  "PowerToys#48460",
+  "terminal#10495",
+  "terminal#11104",
+  "terminal#11822",
+  "terminal#12964",
+  "terminal#13110",
+  "terminal#1320",
+  "terminal#1503",
+  "terminal#18405",
+  "terminal#190",
+  "terminal#2531",
+  "terminal#2600",
+  "terminal#3553",
+  "terminal#3754",
+  "terminal#6555",
+  "terminal#6579",
+  "terminal#674",
+  "terminal#7153",
+  "terminal#8000",
+  "terminal#8970",
+  "terminal#900",
+  "terminal#9708",
+  "terminal#9879"
+ ],
+ "retrieval_seconds": 0.19881178400828503,
+ "tool_calls": [
+  {
+   "t": 1794883654.0625327,
+   "tool": "search",
+   "args": {
+    "pattern": "keycap",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.02242066600592807,
+   "returned": [
+    "terminal#9708"
+   ]
+  },
+  {
+   "t": 1794883654.1068065,
+   "tool": "search",
+   "args": {
+    "pattern": "1️⃣",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.03023649801616557,
+   "returned": [
+    "terminal#18405",
+    "terminal#1503",
+    "terminal#1320"
+   ]
+  },
+  {
+   "t": 1794883654.1392872,
+   "tool": "search",
+   "args": {
+    "pattern": "emoji variation selector",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.023390868998831138,
+   "returned": []
+  },
+  {
+   "t": 1794883655.7473967,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#9708"
+   },
+   "seconds": 0.00016656500520184636,
+   "returned": [
+    "terminal#9708"
+   ]
+  },
+  {
+   "t": 1794883655.8500803,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18405"
+   },
+   "seconds": 0.00016190600581467152,
+   "returned": [
+    "terminal#18405"
+   ]
+  },
+  {
+   "t": 1794883657.4722302,
+   "tool": "search",
+   "args": {
+    "pattern": "keycap",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07475210799020715,
+   "returned": [
+    "terminal#9708",
+    "PowerToys#48460",
+    "PowerToys#34721",
+    "PowerToys#29120",
+    "PowerToys#25739",
+    "PowerToys#25347",
+    "PowerToys#23231"
+   ]
+  },
+  {
+   "t": 1794883659.1408548,
+   "tool": "search",
+   "args": {
+    "pattern": "emoji",
+    "regex": false,
+    "also": [
+     "1472"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.047440438997000456,
+   "returned": [
+    "terminal#190",
+    "terminal#900",
+    "terminal#13110",
+    "terminal#7153",
+    "terminal#8970",
+    "terminal#3553",
+    "terminal#11822",
+    "terminal#674",
+    "terminal#10495",
+    "terminal#9708",
+    "terminal#6579",
+    "terminal#8000",
+    "terminal#6555",
+    "terminal#3754",
+    "terminal#2600",
+    "terminal#12964",
+    "terminal#11104",
+    "terminal#9879",
+    "terminal#2531"
+   ]
+  },
+  {
+   "t": 1794883660.7565885,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#8970"
+   },
+   "seconds": 0.00024273298913612962,
+   "returned": [
+    "terminal#8970"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13705,
+  "stop_reason": "end_turn",
+  "session_id": "2974d42a-b16f-4fac-b658-30caf25ff6dc",
+  "total_cost_usd": 0.07101930000000001,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 14400,
+   "cache_read_input_tokens": 36053,
+   "output_tokens": 979,
+   "output_tokens_details": {
+    "thinking_tokens": 42
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 14400,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 404,
+     "cache_read_input_tokens": 12465,
+     "cache_creation_input_tokens": 3112,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3112
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 979,
+    "cacheReadInputTokens": 36053,
+    "cacheCreationInputTokens": 14400,
+    "webSearchRequests": 0,
+    "costUSD": 0.07101930000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 42,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14400,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've found one close match, terminal#9708, which is about keycap emoji rendering wrongly. I'm writing up the answer now.\n\n{\"seen_before\": true, \"matches\": [\"terminal#9708\"], \"answer\": \"This has been reported before. Keycap emoji such as 1️⃣ are made of several codepoints (digit, U+FE0F, U+20E3). Windows Terminal doesn't handle that sequence well, so the digit and the box are drawn misaligned. In terminal#9708 a maintainer ([user]) said keycap emojis are a special case that Windows doesn't support well. Fixing it needs custom detection logic in the font-fallback step (MapCharacters) of the text renderer. That ticket was still open as of September 2025, and I found no fix in the archive. There is no known setting that fixes it. Single-codepoint emoji such as 🔟 render correctly. You can follow or add your screenshots to terminal#9708. Related older tickets on multi-codepoint emoji and variation selectors are terminal#8970 and terminal#1472, but they were closed as duplicates.\"}",
+  "ttft_ms": 2574,
+  "type": "result",
+  "duration_ms": 14021,
+  "uuid": "c93f72af-d671-4526-837f-78cecff2a628",
+  "ttft_stream_ms": 1268,
+  "time_to_request_ms": 51,
+  "first_content_frame_ms": 1268,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 979,
+    "cacheReadInputTokens": 36053,
+    "cacheCreationInputTokens": 14400,
+    "webSearchRequests": 0,
+    "costUSD": 0.07101930000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 42,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14400,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.364780820003944,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-_egrrn0_/work"
+  }
+ },
+ "wall_seconds": 15.366983218991663,
+ "qid": "terminal#20754",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#9708"
+  ],
+  "answer": "This has been reported before. Keycap emoji such as 1️⃣ are made of several codepoints (digit, U+FE0F, U+20E3). Windows Terminal doesn't handle that sequence well, so the digit and the box are drawn misaligned. In terminal#9708 a maintainer ([user]) said keycap emojis are a special case that Windows doesn't support well. Fixing it needs custom detection logic in the font-fallback step (MapCharacters) of the text renderer. That ticket was still open as of September 2025, and I found no fix in the archive. There is no known setting that fixes it. Single-codepoint emoji such as 🔟 render correctly. You can follow or add your screenshots to terminal#9708. Related older tickets on multi-codepoint emoji and variation selectors are terminal#8970 and terminal#1472, but they were closed as duplicates."
+ },
+ "hit_turn_cap": false
+}

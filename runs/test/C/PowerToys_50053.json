@@ -1,0 +1,365 @@
+{
+ "shown": [
+  "PowerToys#1326",
+  "PowerToys#13268",
+  "PowerToys#15312",
+  "PowerToys#19124",
+  "PowerToys#2015",
+  "PowerToys#2258",
+  "PowerToys#2300",
+  "PowerToys#23583",
+  "PowerToys#2550",
+  "PowerToys#28365",
+  "PowerToys#3035",
+  "PowerToys#3152",
+  "PowerToys#3153",
+  "PowerToys#31574",
+  "PowerToys#35210",
+  "PowerToys#35312",
+  "PowerToys#35323",
+  "PowerToys#35328",
+  "PowerToys#35482",
+  "PowerToys#35484",
+  "PowerToys#35784",
+  "PowerToys#35864",
+  "PowerToys#36118",
+  "PowerToys#36650",
+  "PowerToys#3716",
+  "PowerToys#37178",
+  "PowerToys#37545",
+  "PowerToys#38053",
+  "PowerToys#38299",
+  "PowerToys#39965",
+  "PowerToys#40683",
+  "PowerToys#47575",
+  "PowerToys#47609",
+  "PowerToys#48125",
+  "PowerToys#48512",
+  "PowerToys#4868",
+  "PowerToys#4888",
+  "PowerToys#543",
+  "PowerToys#6601",
+  "PowerToys#810",
+  "PowerToys#827",
+  "PowerToys#8542",
+  "PowerToys#9169",
+  "PowerToys#9182",
+  "PowerToys#9204",
+  "PowerToys#9907"
+ ],
+ "retrieval_seconds": 4.087998639035504,
+ "tool_calls": [
+  {
+   "t": 1794881004.6670775,
+   "tool": "search",
+   "args": {
+    "query": "New+ does not appear in classic Windows 10 context menu on empty background",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.049042699014535,
+   "returned": [
+    "PowerToys#48512",
+    "PowerToys#40683",
+    "PowerToys#35323",
+    "PowerToys#19124",
+    "PowerToys#35484",
+    "PowerToys#47609",
+    "PowerToys#39965",
+    "PowerToys#37178",
+    "PowerToys#2015",
+    "PowerToys#35784",
+    "PowerToys#36650",
+    "PowerToys#37545",
+    "PowerToys#48125",
+    "PowerToys#35864",
+    "PowerToys#35482",
+    "PowerToys#543",
+    "PowerToys#35312",
+    "PowerToys#35328",
+    "PowerToys#3035",
+    "PowerToys#3152"
+   ]
+  },
+  {
+   "t": 1794881004.7044628,
+   "tool": "search",
+   "args": {
+    "query": "NewPlus missing when classic context menu enabled registry key 86ca1aa0-34aa-4e8b-a509-50c905bae2a2",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.016136823018314317,
+   "returned": [
+    "PowerToys#48512",
+    "PowerToys#2015",
+    "PowerToys#19124",
+    "PowerToys#810",
+    "PowerToys#40683",
+    "PowerToys#28365",
+    "PowerToys#38053",
+    "PowerToys#9169",
+    "PowerToys#9182",
+    "PowerToys#9204",
+    "PowerToys#827",
+    "PowerToys#4868",
+    "PowerToys#3716",
+    "PowerToys#6601",
+    "PowerToys#8542",
+    "PowerToys#3153",
+    "PowerToys#1326",
+    "PowerToys#9907",
+    "PowerToys#2300",
+    "PowerToys#4888"
+   ]
+  },
+  {
+   "t": 1794881005.6111944,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48512"
+   },
+   "seconds": 0.00010282700532115996,
+   "returned": [
+    "PowerToys#48512"
+   ]
+  },
+  {
+   "t": 1794881005.737979,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47609"
+   },
+   "seconds": 0.00012057702406309545,
+   "returned": [
+    "PowerToys#47609"
+   ]
+  },
+  {
+   "t": 1794881006.8137228,
+   "tool": "search",
+   "args": {
+    "query": "New+ classic context menu not working Windows 11 duplicate, fix",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.022467706992756575,
+   "returned": [
+    "PowerToys#48512",
+    "PowerToys#19124",
+    "PowerToys#2015",
+    "PowerToys#47609",
+    "PowerToys#35484",
+    "PowerToys#28365",
+    "PowerToys#40683",
+    "PowerToys#2258",
+    "PowerToys#36118",
+    "PowerToys#37545",
+    "PowerToys#13268",
+    "PowerToys#23583",
+    "PowerToys#47575",
+    "PowerToys#38299",
+    "PowerToys#15312",
+    "PowerToys#3152",
+    "PowerToys#3716",
+    "PowerToys#35210",
+    "PowerToys#2550",
+    "PowerToys#31574"
+   ]
+  },
+  {
+   "t": 1794881007.6610892,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#36118"
+   },
+   "seconds": 0.00012800598051398993,
+   "returned": [
+    "PowerToys#36118"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7788,
+  "stop_reason": "end_turn",
+  "session_id": "7287ae65-8048-465a-a3f4-4ab275cfaf82",
+  "total_cost_usd": 0.0420803,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 7740,
+   "cache_read_input_tokens": 22703,
+   "output_tokens": 883,
+   "output_tokens_details": {
+    "thinking_tokens": 50
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7740,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 381,
+     "cache_read_input_tokens": 8286,
+     "cache_creation_input_tokens": 487,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 487
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 883,
+    "cacheReadInputTokens": 22703,
+    "cacheCreationInputTokens": 7740,
+    "webSearchRequests": 0,
+    "costUSD": 0.0420803,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 50,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7740,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48512\", \"PowerToys#47609\", \"PowerToys#36118\"], \"answer\": \"This has been reported before. New+ doesn't show up when Windows 11 is using the classic context menu, which is enabled by the HKCU\\\\Software\\\\Classes\\\\CLSID\\\\{86ca1aa0-...} registry key. The archived tickets contain no fix. The most detailed report, PowerToys#48512, shows the New+ classic-menu handler (the .win10.dll) loads in Explorer but draws no entry. It also says that removing and re-registering the NewPlusContextMenu Appx package, then restarting Explorer, does NOT help. The only workaround reported is to delete that registry key so the Windows 11 context menu is used again, then restart explorer.exe. New+ appears again after that. If you want to keep the classic menu, add your details and report zip to PowerToys#48512 or PowerToys#47609 and follow them for a fix.\"}",
+  "ttft_ms": 1132,
+  "type": "result",
+  "duration_ms": 11370,
+  "uuid": "57834826-521c-4e59-959f-071bded19f63",
+  "ttft_stream_ms": 712,
+  "time_to_request_ms": 26,
+  "first_content_frame_ms": 716,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 883,
+    "cacheReadInputTokens": 22703,
+    "cacheCreationInputTokens": 7740,
+    "webSearchRequests": 0,
+    "costUSD": 0.0420803,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 50,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7740,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.820909830013989,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-pejdxge9/work"
+  }
+ },
+ "wall_seconds": 12.824041024025064,
+ "qid": "PowerToys#50053",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48512",
+   "PowerToys#47609",
+   "PowerToys#36118"
+  ],
+  "answer": "This has been reported before. New+ doesn't show up when Windows 11 is using the classic context menu, which is enabled by the HKCU\\Software\\Classes\\CLSID\\{86ca1aa0-...} registry key. The archived tickets contain no fix. The most detailed report, PowerToys#48512, shows the New+ classic-menu handler (the .win10.dll) loads in Explorer but draws no entry. It also says that removing and re-registering the NewPlusContextMenu Appx package, then restarting Explorer, does NOT help. The only workaround reported is to delete that registry key so the Windows 11 context menu is used again, then restart explorer.exe. New+ appears again after that. If you want to keep the classic menu, add your details and report zip to PowerToys#48512 or PowerToys#47609 and follow them for a fix."
+ },
+ "hit_turn_cap": false
+}

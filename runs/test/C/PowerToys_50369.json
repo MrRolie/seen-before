@@ -1,0 +1,316 @@
+{
+ "shown": [
+  "PowerToys#1053",
+  "PowerToys#12496",
+  "PowerToys#14235",
+  "PowerToys#1571",
+  "PowerToys#1882",
+  "PowerToys#1929",
+  "PowerToys#1934",
+  "PowerToys#20058",
+  "PowerToys#22830",
+  "PowerToys#2405",
+  "PowerToys#24505",
+  "PowerToys#24702",
+  "PowerToys#26693",
+  "PowerToys#2686",
+  "PowerToys#29165",
+  "PowerToys#30472",
+  "PowerToys#32552",
+  "PowerToys#3752",
+  "PowerToys#37751",
+  "PowerToys#3815",
+  "PowerToys#3817",
+  "PowerToys#3879",
+  "PowerToys#4968",
+  "PowerToys#6794",
+  "PowerToys#7493",
+  "PowerToys#7985",
+  "PowerToys#8399",
+  "PowerToys#9584"
+ ],
+ "retrieval_seconds": 4.267484592011897,
+ "tool_calls": [
+  {
+   "t": 1794882059.2766802,
+   "tool": "search",
+   "args": {
+    "query": "Image Resizer convert image format HEIC to JPG",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.247947619995102,
+   "returned": [
+    "PowerToys#1934",
+    "PowerToys#3817",
+    "PowerToys#14235",
+    "PowerToys#24702",
+    "PowerToys#24505",
+    "PowerToys#22830",
+    "PowerToys#32552",
+    "PowerToys#12496",
+    "PowerToys#4968",
+    "PowerToys#20058",
+    "PowerToys#26693",
+    "PowerToys#30472",
+    "PowerToys#1929",
+    "PowerToys#7493",
+    "PowerToys#37751",
+    "PowerToys#9584",
+    "PowerToys#2686",
+    "PowerToys#29165",
+    "PowerToys#8399",
+    "PowerToys#2405"
+   ]
+  },
+  {
+   "t": 1794882059.315427,
+   "tool": "search",
+   "args": {
+    "query": "Image resizer support heic files",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.019229719997383654,
+   "returned": [
+    "PowerToys#1934",
+    "PowerToys#3817",
+    "PowerToys#14235",
+    "PowerToys#32552",
+    "PowerToys#12496",
+    "PowerToys#22830",
+    "PowerToys#1929",
+    "PowerToys#20058",
+    "PowerToys#24702",
+    "PowerToys#7985",
+    "PowerToys#1053",
+    "PowerToys#2405",
+    "PowerToys#24505",
+    "PowerToys#3815",
+    "PowerToys#3752",
+    "PowerToys#1882",
+    "PowerToys#1571",
+    "PowerToys#7493",
+    "PowerToys#3879",
+    "PowerToys#6794"
+   ]
+  },
+  {
+   "t": 1794882061.351888,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#24702"
+   },
+   "seconds": 9.843800216913223e-05,
+   "returned": [
+    "PowerToys#24702"
+   ]
+  },
+  {
+   "t": 1794882061.358295,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#24505"
+   },
+   "seconds": 0.00010971701703965664,
+   "returned": [
+    "PowerToys#24505"
+   ]
+  },
+  {
+   "t": 1794882061.366402,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1934"
+   },
+   "seconds": 9.909700020216405e-05,
+   "returned": [
+    "PowerToys#1934"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9168,
+  "stop_reason": "end_turn",
+  "session_id": "9b215e5d-1646-4dc5-b079-44623258dcdb",
+  "total_cost_usd": 0.028411099999999998,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 4927,
+   "cache_read_input_tokens": 6611,
+   "output_tokens": 803,
+   "output_tokens_details": {
+    "thinking_tokens": 55
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4927,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 437,
+     "cache_read_input_tokens": 4029,
+     "cache_creation_input_tokens": 1931,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1931
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 803,
+    "cacheReadInputTokens": 6611,
+    "cacheCreationInputTokens": 4927,
+    "webSearchRequests": 0,
+    "costUSD": 0.028411099999999998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 55,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4927,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#24702\", \"PowerToys#1934\", \"PowerToys#24505\"], \"answer\": \"This feature request has been made before. PowerToys#24702 and #24505 ask for HEIC to JPG conversion in Image Resizer. Both were closed as duplicates of #1934, which is the ticket tracking HEIC support in Image Resizer. Image Resizer can't convert formats yet, so you'll need another tool to convert the .heic files to .jpg for now. Add a thumbs-up or your scenario to #1934 to show demand. In the meantime, you can try Image Resizer on HEIC files if the Microsoft HEIF Image Extensions codec is installed from the Store. Image Resizer relies on Windows codecs for HEIC, and that support has been unreliable. Users in #1934 reported that the right-click menu doesn't appear for HEIC files and that resizing failed with an 'Object reference not set' error. The workaround suggested there was to select a dummy JPEG together with the HEIC file so the menu appears. That workaround didn't work reliably for some users and corrupted files for others.\"}",
+  "ttft_ms": 2163,
+  "type": "result",
+  "duration_ms": 13512,
+  "uuid": "b6a4b91e-7740-4e2d-bd20-8f87f00fd759",
+  "ttft_stream_ms": 1201,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 1202,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 803,
+    "cacheReadInputTokens": 6611,
+    "cacheCreationInputTokens": 4927,
+    "webSearchRequests": 0,
+    "costUSD": 0.028411099999999998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 55,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4927,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.034657098993193,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-90_ajohk/work"
+  }
+ },
+ "wall_seconds": 15.036956750001991,
+ "qid": "PowerToys#50369",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#24702",
+   "PowerToys#1934",
+   "PowerToys#24505"
+  ],
+  "answer": "This feature request has been made before. PowerToys#24702 and #24505 ask for HEIC to JPG conversion in Image Resizer. Both were closed as duplicates of #1934, which is the ticket tracking HEIC support in Image Resizer. Image Resizer can't convert formats yet, so you'll need another tool to convert the .heic files to .jpg for now. Add a thumbs-up or your scenario to #1934 to show demand. In the meantime, you can try Image Resizer on HEIC files if the Microsoft HEIF Image Extensions codec is installed from the Store. Image Resizer relies on Windows codecs for HEIC, and that support has been unreliable. Users in #1934 reported that the right-click menu doesn't appear for HEIC files and that resizing failed with an 'Object reference not set' error. The workaround suggested there was to select a dummy JPEG together with the HEIC file so the menu appears. That workaround didn't work reliably for some users and corrupted files for others."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,360 @@
+{
+ "shown": [
+  "PowerToys#131",
+  "PowerToys#14028",
+  "PowerToys#17235",
+  "PowerToys#24283",
+  "PowerToys#26296",
+  "PowerToys#26306",
+  "PowerToys#269",
+  "PowerToys#26945",
+  "PowerToys#28769",
+  "PowerToys#29434",
+  "PowerToys#30124",
+  "PowerToys#31539",
+  "PowerToys#33779",
+  "PowerToys#39030",
+  "PowerToys#39430",
+  "PowerToys#39633",
+  "PowerToys#40579",
+  "PowerToys#41072",
+  "PowerToys#4649",
+  "PowerToys#48450",
+  "PowerToys#48551",
+  "PowerToys#77"
+ ],
+ "retrieval_seconds": 0.7934056240774225,
+ "tool_calls": [
+  {
+   "t": 1794880582.1144254,
+   "tool": "search",
+   "args": {
+    "pattern": "mouse cannot be clicked",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.044729016022756696,
+   "returned": []
+  },
+  {
+   "t": 1794880584.266346,
+   "tool": "search",
+   "args": {
+    "pattern": "Mouse Without Borders",
+    "regex": false,
+    "also": [
+     "game",
+     "click"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1631223570147995,
+   "returned": [
+    "PowerToys#77",
+    "PowerToys#26296",
+    "PowerToys#41072",
+    "PowerToys#26306",
+    "PowerToys#30124",
+    "PowerToys#29434",
+    "PowerToys#24283",
+    "PowerToys#4649",
+    "PowerToys#269"
+   ]
+  },
+  {
+   "t": 1794880584.4118037,
+   "tool": "search",
+   "args": {
+    "pattern": "mouse",
+    "regex": false,
+    "also": [
+     "keyboard works",
+     "minutes"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.13743620199966244,
+   "returned": [
+    "PowerToys#48450"
+   ]
+  },
+  {
+   "t": 1794880586.5556824,
+   "tool": "search",
+   "args": {
+    "pattern": "click",
+    "regex": false,
+    "also": [
+     "Mouse Without Borders",
+     "hours"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.13951888601877727,
+   "returned": [
+    "PowerToys#269",
+    "PowerToys#28769",
+    "PowerToys#31539",
+    "PowerToys#48551",
+    "PowerToys#39633",
+    "PowerToys#39430",
+    "PowerToys#33779",
+    "PowerToys#29434",
+    "PowerToys#26945"
+   ]
+  },
+  {
+   "t": 1794880586.614422,
+   "tool": "search",
+   "args": {
+    "pattern": "mouse stops working",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05173141902196221,
+   "returned": [
+    "PowerToys#17235"
+   ]
+  },
+  {
+   "t": 1794880589.3067021,
+   "tool": "search",
+   "args": {
+    "pattern": "game",
+    "regex": false,
+    "also": [
+     "Mouse Without Borders",
+     "cannot click"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.16635216001304798,
+   "returned": []
+  },
+  {
+   "t": 1794880589.4039862,
+   "tool": "search",
+   "args": {
+    "pattern": "can't click",
+    "regex": false,
+    "also": [
+     "keyboard"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.09025231099803932,
+   "returned": [
+    "PowerToys#131",
+    "PowerToys#40579",
+    "PowerToys#39030",
+    "PowerToys#14028"
+   ]
+  },
+  {
+   "t": 1794880590.9155328,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39030"
+   },
+   "seconds": 0.0001423459907528013,
+   "returned": [
+    "PowerToys#39030"
+   ]
+  },
+  {
+   "t": 1794880594.3378267,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40579"
+   },
+   "seconds": 0.00012092699762433767,
+   "returned": [
+    "PowerToys#40579"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 18424,
+  "stop_reason": "end_turn",
+  "session_id": "62000240-f73d-4884-b594-e60b86015c4c",
+  "total_cost_usd": 0.0492928,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 7761,
+   "cache_read_input_tokens": 30508,
+   "output_tokens": 1517,
+   "output_tokens_details": {
+    "thinking_tokens": 185
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7761,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 365,
+     "cache_read_input_tokens": 8119,
+     "cache_creation_input_tokens": 819,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 819
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1517,
+    "cacheReadInputTokens": 30508,
+    "cacheCreationInputTokens": 7761,
+    "webSearchRequests": 0,
+    "costUSD": 0.0492928,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 185,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7761,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "```json\n{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this problem: mouse clicks failing for about 5 minutes while the keyboard still works, in games, after about 4 hours of running. The nearest tickets are PowerToys#39030 and PowerToys#40579. In both, the cursor moves but clicks stop working in Mouse Without Borders. Those were triggered by an admin (UAC) prompt and by Task Manager, so they are different problems, and neither gave a fix. Two things you can try. (1) Toggle Mouse Without Borders off and on, or click 'Refresh connections', when it happens. That was the workaround in #39030. (2) Turn Mouse Without Borders off completely and check whether the freeze still happens in the game. You said your own C program has the same problem, so the cause may be how the game handles injected or hooked mouse input, not PowerToys itself. Please also attach a Report Bug ZIP from the PowerToys tray icon, and say whether the game runs as administrator or in full screen. The maintainers will need that information to look into it.\"}\n```",
+  "ttft_ms": 2543,
+  "type": "result",
+  "duration_ms": 19145,
+  "uuid": "303e84f1-5c1f-4f67-a122-cbdfcc21ad40",
+  "ttft_stream_ms": 1496,
+  "time_to_request_ms": 27,
+  "first_content_frame_ms": 1496,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1517,
+    "cacheReadInputTokens": 30508,
+    "cacheCreationInputTokens": 7761,
+    "webSearchRequests": 0,
+    "costUSD": 0.0492928,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 185,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7761,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 20.28703070699703,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-s26hb0k1/work"
+  }
+ },
+ "wall_seconds": 20.28875053100637,
+ "qid": "PowerToys#49976",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this problem: mouse clicks failing for about 5 minutes while the keyboard still works, in games, after about 4 hours of running. The nearest tickets are PowerToys#39030 and PowerToys#40579. In both, the cursor moves but clicks stop working in Mouse Without Borders. Those were triggered by an admin (UAC) prompt and by Task Manager, so they are different problems, and neither gave a fix. Two things you can try. (1) Toggle Mouse Without Borders off and on, or click 'Refresh connections', when it happens. That was the workaround in #39030. (2) Turn Mouse Without Borders off completely and check whether the freeze still happens in the game. You said your own C program has the same problem, so the cause may be how the game handles injected or hooked mouse input, not PowerToys itself. Please also attach a Report Bug ZIP from the PowerToys tray icon, and say whether the game runs as administrator or in full screen. The maintainers will need that information to look into it."
+ },
+ "hit_turn_cap": false
+}

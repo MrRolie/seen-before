@@ -1,0 +1,134 @@
+{
+ "shown": [
+  "PowerToys#48127",
+  "PowerToys#34287",
+  "PowerToys#13792",
+  "PowerToys#37539",
+  "PowerToys#7248"
+ ],
+ "retrieval_seconds": 0.4853909859957639,
+ "retrieval_scores": [
+  0.03278688524590164,
+  0.030090497737556562,
+  0.02928692699490662,
+  0.029236022193768675,
+  0.028782894736842105
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2415,
+  "stop_reason": "end_turn",
+  "session_id": "cd956fe2-be1f-4afd-b001-ce195a2a739e",
+  "total_cost_usd": 0.022208000000000002,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4876,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 270,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4876,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 270,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4876,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4876
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 270,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4876,
+    "webSearchRequests": 0,
+    "costUSD": 0.022208000000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4876,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#34287\", \"PowerToys#37539\", \"PowerToys#48127\"], \"answer\": \"This feature request has been raised before: saving PowerRename search/replace patterns (and options) with a name so they can be recalled later. The past tickets (#34287, #37539, #48127, plus #13792 and #7248) were all closed as duplicates of the central tracking issues #11655 (and #25520, #12686 referenced in other tickets). Please follow and upvote #11655 for updates. No implemented feature exists yet: PowerRename only keeps a history of recently used search/replace strings (enable it in the settings; clear the search box and press the down arrow to see the list). Until saved presets are available, keep your frequently used expressions in an external note or file and paste them in when needed.\"}",
+  "ttft_ms": 2515,
+  "type": "result",
+  "duration_ms": 2529,
+  "uuid": "eedacf9e-7848-4cc4-9f1d-5e408367fe24",
+  "ttft_stream_ms": 552,
+  "time_to_request_ms": 112,
+  "first_content_frame_ms": 552,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "claude_wall_seconds": 3.2335994919994846
+ },
+ "wall_seconds": 3.719318569987081,
+ "qid": "PowerToys#49060",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#34287",
+   "PowerToys#37539",
+   "PowerToys#48127"
+  ],
+  "answer": "This feature request has been raised before: saving PowerRename search/replace patterns (and options) with a name so they can be recalled later. The past tickets (#34287, #37539, #48127, plus #13792 and #7248) were all closed as duplicates of the central tracking issues #11655 (and #25520, #12686 referenced in other tickets). Please follow and upvote #11655 for updates. No implemented feature exists yet: PowerRename only keeps a history of recently used search/replace strings (enable it in the settings; clear the search box and press the down arrow to see the list). Until saved presets are available, keep your frequently used expressions in an external note or file and paste them in when needed."
+ },
+ "hit_turn_cap": false
+}

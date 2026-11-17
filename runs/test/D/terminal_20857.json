@@ -1,0 +1,448 @@
+{
+ "shown": [
+  "WSL#9261",
+  "terminal#10134",
+  "terminal#10149",
+  "terminal#10167",
+  "terminal#10228",
+  "terminal#10230",
+  "terminal#10305",
+  "terminal#10346",
+  "terminal#10952",
+  "terminal#11135",
+  "terminal#11522",
+  "terminal#11529",
+  "terminal#11577",
+  "terminal#1168",
+  "terminal#11759",
+  "terminal#12204",
+  "terminal#12249",
+  "terminal#12308",
+  "terminal#12767",
+  "terminal#12995",
+  "terminal#13197",
+  "terminal#13388",
+  "terminal#1348",
+  "terminal#13622",
+  "terminal#1447",
+  "terminal#14818",
+  "terminal#15471",
+  "terminal#1555",
+  "terminal#16085",
+  "terminal#1617",
+  "terminal#17486",
+  "terminal#18044",
+  "terminal#18721",
+  "terminal#18815",
+  "terminal#18923",
+  "terminal#19202",
+  "terminal#19226",
+  "terminal#20028",
+  "terminal#2231",
+  "terminal#2300",
+  "terminal#2417",
+  "terminal#2445",
+  "terminal#2721",
+  "terminal#2893",
+  "terminal#2982",
+  "terminal#4060",
+  "terminal#4160",
+  "terminal#431",
+  "terminal#4768",
+  "terminal#5490",
+  "terminal#550",
+  "terminal#5621",
+  "terminal#5640",
+  "terminal#5730",
+  "terminal#6010",
+  "terminal#607",
+  "terminal#632",
+  "terminal#653",
+  "terminal#6584",
+  "terminal#6748",
+  "terminal#7084",
+  "terminal#7188",
+  "terminal#7204",
+  "terminal#7236",
+  "terminal#7769",
+  "terminal#8224",
+  "terminal#840",
+  "terminal#9252",
+  "terminal#9375",
+  "terminal#9458"
+ ],
+ "retrieval_seconds": 4.207445264066337,
+ "tool_calls": [
+  {
+   "t": 1794884625.65558,
+   "tool": "search",
+   "args": {
+    "pattern": "app execution alias",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.0317081350076478,
+   "returned": [
+    "terminal#7188",
+    "terminal#10149",
+    "terminal#7204",
+    "terminal#12204",
+    "terminal#12767",
+    "terminal#6748",
+    "terminal#18721",
+    "terminal#16085",
+    "terminal#14818",
+    "terminal#13622",
+    "terminal#12249",
+    "terminal#11759",
+    "terminal#10346",
+    "terminal#10230",
+    "terminal#10167",
+    "terminal#4768",
+    "terminal#18923",
+    "terminal#18815",
+    "terminal#18044",
+    "terminal#17486"
+   ]
+  },
+  {
+   "t": 1794884630.1010501,
+   "tool": "similar",
+   "args": {
+    "query": "default terminal handoff does not match profile for MSIX Store PowerShell Preview; profile uses alias path, real WindowsApps path differs",
+    "repo": "terminal"
+   },
+   "seconds": 3.9269225950120017,
+   "returned": [
+    "terminal#2982",
+    "terminal#20028",
+    "terminal#431",
+    "terminal#11577",
+    "terminal#5490",
+    "terminal#19202",
+    "terminal#6584",
+    "terminal#5621",
+    "terminal#2300",
+    "terminal#5640",
+    "terminal#4160",
+    "terminal#9252",
+    "terminal#12308",
+    "terminal#1555",
+    "terminal#10228",
+    "terminal#7769",
+    "terminal#2721",
+    "terminal#5730",
+    "terminal#19226",
+    "terminal#9458"
+   ]
+  },
+  {
+   "t": 1794884631.0653822,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#15471"
+   },
+   "seconds": 0.0001432069984730333,
+   "returned": [
+    "terminal#15471"
+   ]
+  },
+  {
+   "t": 1794884631.469545,
+   "tool": "search",
+   "args": {
+    "pattern": "handoff",
+    "regex": false,
+    "also": [
+     "profile",
+     "WindowsApps"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.07185448301606812,
+   "returned": [
+    "terminal#11529",
+    "terminal#13197",
+    "terminal#11522"
+   ]
+  },
+  {
+   "t": 1794884632.3962827,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#20028"
+   },
+   "seconds": 0.00011451600585132837,
+   "returned": [
+    "terminal#20028"
+   ]
+  },
+  {
+   "t": 1794884633.0818808,
+   "tool": "similar",
+   "args": {
+    "query": "defterm profile matching commandline fails for packaged app; font settings ignored for default terminal launched exe in WindowsApps",
+    "repo": "terminal"
+   },
+   "seconds": 0.02908209600718692,
+   "returned": [
+    "terminal#10952",
+    "terminal#10134",
+    "terminal#840",
+    "terminal#4060",
+    "terminal#12995",
+    "terminal#2417",
+    "terminal#550",
+    "terminal#9458",
+    "terminal#1447",
+    "terminal#1348",
+    "terminal#431",
+    "terminal#19202",
+    "terminal#1168",
+    "terminal#2893",
+    "terminal#2445",
+    "terminal#5621",
+    "terminal#8224",
+    "terminal#2231",
+    "terminal#1617",
+    "terminal#7236"
+   ]
+  },
+  {
+   "t": 1794884634.2764766,
+   "tool": "search",
+   "args": {
+    "pattern": "APPEXECLINK",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07163331902120262,
+   "returned": [
+    "terminal#17486",
+    "WSL#9261",
+    "terminal#607"
+   ]
+  },
+  {
+   "t": 1794884634.6739876,
+   "tool": "search",
+   "args": {
+    "pattern": "msix",
+    "regex": false,
+    "also": [
+     "default terminal",
+     "profile"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.07586471599643119,
+   "returned": [
+    "terminal#6010",
+    "terminal#632",
+    "terminal#13388",
+    "terminal#11135",
+    "terminal#7084",
+    "terminal#11529",
+    "terminal#10305",
+    "terminal#9375",
+    "terminal#653"
+   ]
+  },
+  {
+   "t": 1794884635.514395,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#10952"
+   },
+   "seconds": 0.00012219700147397816,
+   "returned": [
+    "terminal#10952"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9694,
+  "stop_reason": "end_turn",
+  "session_id": "20aa5f73-1d20-4252-9d0c-d525cb602f94",
+  "total_cost_usd": 0.07912190000000001,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 15489,
+   "cache_read_input_tokens": 55219,
+   "output_tokens": 1162,
+   "output_tokens_details": {
+    "thinking_tokens": 31
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 15489,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 350,
+     "cache_read_input_tokens": 16104,
+     "cache_creation_input_tokens": 798,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 798
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1162,
+    "cacheReadInputTokens": 55219,
+    "cacheCreationInputTokens": 15489,
+    "webSearchRequests": 0,
+    "costUSD": 0.07912190000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 31,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15489,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this exact problem. Nothing in the archive covers the default-terminal handoff failing to match the generated \\\"PowerShell Preview (msix)\\\" profile because that profile stores the app execution alias path while the handed-off process runs from the versioned WindowsApps path.\\n\\nTwo tickets are related but are different problems:\\n- terminal#10952 is the original feature request for matching profiles on handoff. It was fixed by #11390 in Preview 1.12.\\n- terminal#15471 is a Visual Studio debug console profile that uses a relative command line, so it never matches the absolute path that gets launched. The team's answer there was that the profile owner should specify a full path.\\n\\nThis should be filed as a new issue, and your proposal can go in it as is. It suggests resolving the AppExecLink target, or comparing package family names, when matching profiles. Until it's fixed, keep your hidden profile with the real package path. You will need to update that path after each PowerShell Preview update.\"}",
+  "ttft_ms": 964,
+  "type": "result",
+  "duration_ms": 13874,
+  "uuid": "b08364e2-1bca-459a-b4c5-88ba773e0775",
+  "ttft_stream_ms": 611,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 611,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1162,
+    "cacheReadInputTokens": 55219,
+    "cacheCreationInputTokens": 15489,
+    "webSearchRequests": 0,
+    "costUSD": 0.07912190000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 31,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15489,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.487024953996297,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-_l3h4et_/work"
+  }
+ },
+ "wall_seconds": 15.489328273019055,
+ "qid": "terminal#20857",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this exact problem. Nothing in the archive covers the default-terminal handoff failing to match the generated \"PowerShell Preview (msix)\" profile because that profile stores the app execution alias path while the handed-off process runs from the versioned WindowsApps path.\n\nTwo tickets are related but are different problems:\n- terminal#10952 is the original feature request for matching profiles on handoff. It was fixed by #11390 in Preview 1.12.\n- terminal#15471 is a Visual Studio debug console profile that uses a relative command line, so it never matches the absolute path that gets launched. The team's answer there was that the profile owner should specify a full path.\n\nThis should be filed as a new issue, and your proposal can go in it as is. It suggests resolving the AppExecLink target, or comparing package family names, when matching profiles. Until it's fixed, keep your hidden profile with the real package path. You will need to update that path after each PowerShell Preview update."
+ },
+ "hit_turn_cap": false
+}

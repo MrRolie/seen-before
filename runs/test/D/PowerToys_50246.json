@@ -1,0 +1,360 @@
+{
+ "shown": [
+  "PowerToys#10094",
+  "PowerToys#3183",
+  "PowerToys#36451",
+  "PowerToys#36513",
+  "PowerToys#36604",
+  "PowerToys#36656",
+  "PowerToys#36736",
+  "PowerToys#36799",
+  "PowerToys#36818",
+  "PowerToys#36881",
+  "PowerToys#37094",
+  "PowerToys#37129",
+  "PowerToys#37191",
+  "PowerToys#37260",
+  "PowerToys#37428",
+  "PowerToys#37439",
+  "PowerToys#37538",
+  "PowerToys#37916",
+  "PowerToys#38002",
+  "PowerToys#39032",
+  "PowerToys#39098",
+  "PowerToys#39242",
+  "PowerToys#39493",
+  "PowerToys#39995",
+  "PowerToys#41490",
+  "PowerToys#41632",
+  "PowerToys#41967",
+  "PowerToys#43761",
+  "PowerToys#44876",
+  "PowerToys#45447",
+  "PowerToys#45730",
+  "PowerToys#47501",
+  "PowerToys#48193",
+  "PowerToys#48242",
+  "PowerToys#5658",
+  "PowerToys#5922",
+  "PowerToys#6936",
+  "PowerToys#6954",
+  "PowerToys#9143",
+  "PowerToys#9903"
+ ],
+ "retrieval_seconds": 3.8806242179707624,
+ "tool_calls": [
+  {
+   "t": 1794881819.0333412,
+   "tool": "search",
+   "args": {
+    "pattern": "Cyclic reference found while evaluating the Style property",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06795408998732455,
+   "returned": [
+    "PowerToys#36451",
+    "PowerToys#48242",
+    "PowerToys#39098",
+    "PowerToys#37129",
+    "PowerToys#37094",
+    "PowerToys#48193",
+    "PowerToys#45447",
+    "PowerToys#41967",
+    "PowerToys#41632",
+    "PowerToys#39995",
+    "PowerToys#39242",
+    "PowerToys#39032",
+    "PowerToys#38002",
+    "PowerToys#37538",
+    "PowerToys#37439",
+    "PowerToys#37428",
+    "PowerToys#36881",
+    "PowerToys#36818",
+    "PowerToys#36799",
+    "PowerToys#36736"
+   ]
+  },
+  {
+   "t": 1794881823.2231615,
+   "tool": "similar",
+   "args": {
+    "query": "PowerToys Run crash InvalidOperationException cyclic reference Style property ListView OnSystemThemeChanged",
+    "repo": null
+   },
+   "seconds": 3.745807411003625,
+   "returned": [
+    "PowerToys#36656",
+    "PowerToys#37260",
+    "PowerToys#36604",
+    "PowerToys#3183",
+    "PowerToys#39493",
+    "PowerToys#39242",
+    "PowerToys#36513",
+    "PowerToys#10094",
+    "PowerToys#36451",
+    "PowerToys#6954",
+    "PowerToys#6936",
+    "PowerToys#36881",
+    "PowerToys#5658",
+    "PowerToys#41490",
+    "PowerToys#9903",
+    "PowerToys#5922",
+    "PowerToys#37191",
+    "PowerToys#9143",
+    "PowerToys#41632",
+    "PowerToys#36736"
+   ]
+  },
+  {
+   "t": 1794881825.4273238,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#36451"
+   },
+   "seconds": 0.00018879500566981733,
+   "returned": [
+    "PowerToys#36451"
+   ]
+  },
+  {
+   "t": 1794881826.7462707,
+   "tool": "search",
+   "args": {
+    "pattern": "element 'System.Windows.Controls.ListView",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.0662411639932543,
+   "returned": [
+    "PowerToys#47501",
+    "PowerToys#45730",
+    "PowerToys#44876",
+    "PowerToys#43761",
+    "PowerToys#37916"
+   ]
+  },
+  {
+   "t": 1794881826.860635,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48193"
+   },
+   "seconds": 0.0001540060038678348,
+   "returned": [
+    "PowerToys#48193"
+   ]
+  },
+  {
+   "t": 1794881827.88699,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47501"
+   },
+   "seconds": 0.00017413499881513417,
+   "returned": [
+    "PowerToys#47501"
+   ]
+  },
+  {
+   "t": 1794881827.9855475,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45730"
+   },
+   "seconds": 0.00010461697820574045,
+   "returned": [
+    "PowerToys#45730"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9608,
+  "stop_reason": "end_turn",
+  "session_id": "ee9f8381-2bee-4d80-9aa0-6daa614cd2e2",
+  "total_cost_usd": 0.10117169999999999,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 21753,
+   "cache_read_input_tokens": 46197,
+   "output_tokens": 952,
+   "output_tokens_details": {
+    "thinking_tokens": 74
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 21753,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 313,
+     "cache_read_input_tokens": 17777,
+     "cache_creation_input_tokens": 5389,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5389
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 952,
+    "cacheReadInputTokens": 46197,
+    "cacheCreationInputTokens": 21753,
+    "webSearchRequests": 0,
+    "costUSD": 0.10117169999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 74,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 21753,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#36451\", \"PowerToys#47501\", \"PowerToys#45730\"], \"answer\": \"This is a known PowerToys Run crash. A WPF theme update (WM_THEMECHANGED) triggers it. Windows sends that message when the system theme or accent colour changes, when light/dark switches automatically, or when the PC resumes from sleep. WPF then hits a cyclic Style reference on the results ListView. The maintainers have closed duplicates against the original issue, PowerToys#36451, and the archive shows no fix or workaround. Please follow that issue for updates. Meanwhile, the error dialog is harmless. Close it and restart PowerToys if Run stops responding. It may also help to avoid automatic theme switching. If you can say whether the crash happened during a theme or accent change or after waking from sleep, add that to #36451 along with a PowerToys bug report ZIP.\"}",
+  "ttft_ms": 1236,
+  "type": "result",
+  "duration_ms": 13414,
+  "uuid": "ed3a2f67-5256-4020-9c24-6bb84b4dd621",
+  "ttft_stream_ms": 925,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 925,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 952,
+    "cacheReadInputTokens": 46197,
+    "cacheCreationInputTokens": 21753,
+    "webSearchRequests": 0,
+    "costUSD": 0.10117169999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 74,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 21753,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.810667835990898,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-0wcie3_7/work"
+  }
+ },
+ "wall_seconds": 14.813031855010195,
+ "qid": "PowerToys#50246",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#36451",
+   "PowerToys#47501",
+   "PowerToys#45730"
+  ],
+  "answer": "This is a known PowerToys Run crash. A WPF theme update (WM_THEMECHANGED) triggers it. Windows sends that message when the system theme or accent colour changes, when light/dark switches automatically, or when the PC resumes from sleep. WPF then hits a cyclic Style reference on the results ListView. The maintainers have closed duplicates against the original issue, PowerToys#36451, and the archive shows no fix or workaround. Please follow that issue for updates. Meanwhile, the error dialog is harmless. Close it and restart PowerToys if Run stops responding. It may also help to avoid automatic theme switching. If you can say whether the crash happened during a theme or accent change or after waking from sleep, add that to #36451 along with a PowerToys bug report ZIP."
+ },
+ "hit_turn_cap": false
+}

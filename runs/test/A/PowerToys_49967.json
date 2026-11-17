@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#30090",
+  "PowerToys#17288",
+  "PowerToys#27615",
+  "PowerToys#23897",
+  "PowerToys#16247"
+ ],
+ "retrieval_seconds": 0.018463816988514736,
+ "retrieval_scores": [
+  0.7609637975692749,
+  0.7382749319076538,
+  0.7331615090370178,
+  0.7101113796234131,
+  0.7098615765571594
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3663,
+  "stop_reason": "end_turn",
+  "session_id": "cb63efd7-2cff-4b6a-8637-6e3f801b42c9",
+  "total_cost_usd": 0.030223999999999997,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6780,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 310,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6780,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 310,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6780,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6780
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 310,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6780,
+    "webSearchRequests": 0,
+    "costUSD": 0.030223999999999997,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6780,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#30090\", \"PowerToys#27615\", \"PowerToys#17288\"], \"answer\": \"This has been reported before. With only 'Use a non-primary mouse button to toggle zone activation' enabled, FancyZones activates immediately when you drag a window, and the non-primary button then toggles it off. The maintainers' answer in the older ticket (#17288) was that this is expected behavior. To get zones that stay hidden until you press a button, also enable 'Hold Shift key to activate zones while dragging'. With both options on, zones appear only after you press Shift or the non-primary mouse button. The reporters in #30090 found that changing these settings resolved it, though others there still saw the zones activate when they shouldn't. In #30090 the toggle also seemed to be remembered between drags, so the next drag started with zones active. If you need more than this, #30090 is still open for the unresolved cases.\"}",
+  "ttft_ms": 3852,
+  "type": "result",
+  "duration_ms": 3869,
+  "uuid": "78fb2932-8e61-410a-a615-d9d1c6c82f7b",
+  "ttft_stream_ms": 1246,
+  "time_to_request_ms": 204,
+  "first_content_frame_ms": 1246,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 310,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6780,
+    "webSearchRequests": 0,
+    "costUSD": 0.030223999999999997,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6780,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.688393589982297,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-qmxy16yq/work"
+  }
+ },
+ "wall_seconds": 4.708405646000756,
+ "qid": "PowerToys#49967",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#30090",
+   "PowerToys#27615",
+   "PowerToys#17288"
+  ],
+  "answer": "This has been reported before. With only 'Use a non-primary mouse button to toggle zone activation' enabled, FancyZones activates immediately when you drag a window, and the non-primary button then toggles it off. The maintainers' answer in the older ticket (#17288) was that this is expected behavior. To get zones that stay hidden until you press a button, also enable 'Hold Shift key to activate zones while dragging'. With both options on, zones appear only after you press Shift or the non-primary mouse button. The reporters in #30090 found that changing these settings resolved it, though others there still saw the zones activate when they shouldn't. In #30090 the toggle also seemed to be remembered between drags, so the next drag started with zones active. If you need more than this, #30090 is still open for the unresolved cases."
+ },
+ "hit_turn_cap": false
+}

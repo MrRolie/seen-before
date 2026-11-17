@@ -1,0 +1,2 @@
+{"arms": ["A", "F", "B", "C", "D"], "split": "test", "kinds": "seen,new", "questions": 154, "model": "claude-sonnet-5-5", "max_turns": 20, "claude_version": "2.1.326 (Claude Code)", "commit": "a9a997ec8992f2651082f7ae728428b5cdec3761", "dirty": false, "started": "2026-11-16T20:04:28-0500"}
+{"finished": "2026-11-16T22:24:26-0500"}

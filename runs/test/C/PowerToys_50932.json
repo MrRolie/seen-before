@@ -1,0 +1,253 @@
+{
+ "shown": [
+  "PowerToys#11514",
+  "PowerToys#13031",
+  "PowerToys#1540",
+  "PowerToys#1880",
+  "PowerToys#22518",
+  "PowerToys#29776",
+  "PowerToys#30969",
+  "PowerToys#32169",
+  "PowerToys#3498",
+  "PowerToys#37192",
+  "PowerToys#40927",
+  "PowerToys#42677",
+  "PowerToys#46032",
+  "PowerToys#623",
+  "PowerToys#7013",
+  "PowerToys#7670",
+  "PowerToys#7859",
+  "PowerToys#7936",
+  "PowerToys#8229",
+  "PowerToys#9416"
+ ],
+ "retrieval_seconds": 3.789097977016354,
+ "tool_calls": [
+  {
+   "t": 1794883614.8918893,
+   "tool": "search",
+   "args": {
+    "query": "Quick Access tray panel shows OS language instead of PowerToys selected language",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.788885203015525,
+   "returned": [
+    "PowerToys#46032",
+    "PowerToys#7670",
+    "PowerToys#42677",
+    "PowerToys#32169",
+    "PowerToys#13031",
+    "PowerToys#7013",
+    "PowerToys#40927",
+    "PowerToys#1880",
+    "PowerToys#7936",
+    "PowerToys#9416",
+    "PowerToys#11514",
+    "PowerToys#7859",
+    "PowerToys#3498",
+    "PowerToys#623",
+    "PowerToys#1540",
+    "PowerToys#22518",
+    "PowerToys#8229",
+    "PowerToys#37192",
+    "PowerToys#29776",
+    "PowerToys#30969"
+   ]
+  },
+  {
+   "t": 1794883616.3965702,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46032"
+   },
+   "seconds": 0.0002127740008290857,
+   "returned": [
+    "PowerToys#46032"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6541,
+  "stop_reason": "end_turn",
+  "session_id": "cd8629fd-bd68-4882-bebf-0e5f6b4ad4c0",
+  "total_cost_usd": 0.0157027,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 2648,
+   "cache_read_input_tokens": 5987,
+   "output_tokens": 450,
+   "output_tokens_details": {
+    "thinking_tokens": 44
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 2648,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 287,
+     "cache_read_input_tokens": 3074,
+     "cache_creation_input_tokens": 607,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 607
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 450,
+    "cacheReadInputTokens": 5987,
+    "cacheCreationInputTokens": 2648,
+    "webSearchRequests": 0,
+    "costUSD": 0.0157027,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 44,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2648,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 3,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46032\"], \"answer\": \"This looks like a known bug. PowerToys#46032 reports the same thing: the Quick Access panel opened from the tray icon uses the Windows display language, not the language chosen in PowerToys settings. That ticket was filed on 0.97.2 with a Brazilian Portuguese OS, and yours is on 0.100.2 with Italian, so the bug is still present. The ticket has no fix or workaround. For now, expect the panel to follow the OS language. To get it in English, you would have to change the Windows display language. Please add your details (version 0.100.2, Italian OS, English set in PowerToys) to that ticket and follow it for a fix.\"}",
+  "ttft_ms": 2169,
+  "type": "result",
+  "duration_ms": 10391,
+  "uuid": "245546dc-a69e-4aac-9348-23162dde64ee",
+  "ttft_stream_ms": 1515,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 1515,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 450,
+    "cacheReadInputTokens": 5987,
+    "cacheCreationInputTokens": 2648,
+    "webSearchRequests": 0,
+    "costUSD": 0.0157027,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 44,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2648,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.828808515012497,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-giy1l716/work"
+  }
+ },
+ "wall_seconds": 11.83069222199265,
+ "qid": "PowerToys#50932",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46032"
+  ],
+  "answer": "This looks like a known bug. PowerToys#46032 reports the same thing: the Quick Access panel opened from the tray icon uses the Windows display language, not the language chosen in PowerToys settings. That ticket was filed on 0.97.2 with a Brazilian Portuguese OS, and yours is on 0.100.2 with Italian, so the bug is still present. The ticket has no fix or workaround. For now, expect the panel to follow the OS language. To get it in English, you would have to change the Windows display language. Please add your details (version 0.100.2, Italian OS, English set in PowerToys) to that ticket and follow it for a fix."
+ },
+ "hit_turn_cap": false
+}

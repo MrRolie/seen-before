@@ -1,0 +1,363 @@
+{
+ "shown": [
+  "terminal#10034",
+  "terminal#10302",
+  "terminal#11076",
+  "terminal#11340",
+  "terminal#12155",
+  "terminal#12551",
+  "terminal#12598",
+  "terminal#13037",
+  "terminal#13356",
+  "terminal#13357",
+  "terminal#13522",
+  "terminal#1364",
+  "terminal#13880",
+  "terminal#13899",
+  "terminal#14025",
+  "terminal#14028",
+  "terminal#14164",
+  "terminal#14254",
+  "terminal#1486",
+  "terminal#15364",
+  "terminal#16217",
+  "terminal#16579",
+  "terminal#17246",
+  "terminal#17270",
+  "terminal#17525",
+  "terminal#18049",
+  "terminal#18458",
+  "terminal#19383",
+  "terminal#1976",
+  "terminal#20269",
+  "terminal#2238",
+  "terminal#2986",
+  "terminal#437",
+  "terminal#5691",
+  "terminal#6499",
+  "terminal#6746",
+  "terminal#804",
+  "terminal#8936",
+  "terminal#9910"
+ ],
+ "retrieval_seconds": 0.1387840060342569,
+ "tool_calls": [
+  {
+   "t": 1794876070.3490465,
+   "tool": "search",
+   "args": {
+    "pattern": "drag",
+    "regex": false,
+    "also": [
+     "0xc0000005"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.037306668993551284,
+   "returned": [
+    "terminal#2238",
+    "terminal#17246",
+    "terminal#8936",
+    "terminal#1364",
+    "terminal#19383",
+    "terminal#15364",
+    "terminal#14164",
+    "terminal#14025",
+    "terminal#6746",
+    "terminal#1486",
+    "terminal#437"
+   ]
+  },
+  {
+   "t": 1794876070.3623965,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#17246"
+   },
+   "seconds": 0.0001341960160061717,
+   "returned": [
+    "terminal#17246"
+   ]
+  },
+  {
+   "t": 1794876070.3908992,
+   "tool": "search",
+   "args": {
+    "pattern": "Microsoft.Terminal.Control.dll",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.021941371989669278,
+   "returned": [
+    "terminal#12155",
+    "terminal#16217",
+    "terminal#13899",
+    "terminal#13356",
+    "terminal#18049",
+    "terminal#13357",
+    "terminal#10302",
+    "terminal#10034",
+    "terminal#18458",
+    "terminal#9910",
+    "terminal#13880",
+    "terminal#11340",
+    "terminal#11076",
+    "terminal#17525",
+    "terminal#14254",
+    "terminal#13522",
+    "terminal#17246",
+    "terminal#16579",
+    "terminal#13037",
+    "terminal#12598"
+   ]
+  },
+  {
+   "t": 1794876071.954463,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19383"
+   },
+   "seconds": 0.00018691501463763416,
+   "returned": [
+    "terminal#19383"
+   ]
+  },
+  {
+   "t": 1794876073.7171736,
+   "tool": "search",
+   "args": {
+    "pattern": "PaintCursor",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.02710953401401639,
+   "returned": [
+    "terminal#20269",
+    "terminal#19383",
+    "terminal#804",
+    "terminal#2986",
+    "terminal#17270",
+    "terminal#14028",
+    "terminal#12551",
+    "terminal#6499",
+    "terminal#5691",
+    "terminal#1976"
+   ]
+  },
+  {
+   "t": 1794876075.2949529,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#20269"
+   },
+   "seconds": 0.00025257302331738174,
+   "returned": [
+    "terminal#20269"
+   ]
+  },
+  {
+   "t": 1794876077.7381732,
+   "tool": "search",
+   "args": {
+    "pattern": "AtlasEngine::PaintCursor",
+    "regex": false,
+    "also": [
+     "fix"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.05185274698305875,
+   "returned": [
+    "terminal#20269"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 14808,
+  "stop_reason": "end_turn",
+  "session_id": "ce456b1d-e927-4b81-b89a-f2b89a3a4346",
+  "total_cost_usd": 0.117516,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 24366,
+   "cache_read_input_tokens": 83680,
+   "output_tokens": 1166,
+   "output_tokens_details": {
+    "thinking_tokens": 81
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 24366,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 495,
+     "cache_read_input_tokens": 25098,
+     "cache_creation_input_tokens": 445,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 445
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1166,
+    "cacheReadInputTokens": 83680,
+    "cacheCreationInputTokens": 24366,
+    "webSearchRequests": 0,
+    "costUSD": 0.117516,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 81,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 24366,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#20269\", \"terminal#19383\", \"terminal#17246\"], \"answer\": \"This has been reported before, and I found no fix or workaround in the archive. Your fault offset 0x2c924 on 1.24.2605.12001 is the same one reported in terminal#20269. That ticket is a crash on 1.24.11321.0 in AtlasEngine::PaintCursor on the render thread, with an access violation reading a null pointer at about 0xC0. The user there also ran Claude Code tabs. terminal#19383 is the same PaintCursor failure bucket, hit while drag-merging two windows on 1.22, and a later comment says it also reproduced on a newer build. terminal#17246 is the older drag-merge crash. Its first fix, #17251, covered only part of the problem, and the ticket is not a match for your exact signature. Your crash is most likely the PaintCursor bug in the Atlas renderer, with the drag-merge acting as the trigger, rather than a regression of #17246. Add your details to terminal#20269 and terminal#19383: the build, the offset, the drag-merge trigger, and the heavy-scrollback and RADAR_PRE_LEAK context. Share the dump through a private channel, such as a Feedback Hub upload, and not as a public attachment, because it contains scrollback. Until it's fixed, avoid dragging tabs between windows while heavy output is streaming. Instead, open a new tab in the target window.\"}",
+  "ttft_ms": 2484,
+  "type": "result",
+  "duration_ms": 15029,
+  "uuid": "907a0678-bef9-4f8a-bfcf-5475ff373181",
+  "ttft_stream_ms": 1305,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 1305,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1166,
+    "cacheReadInputTokens": 83680,
+    "cacheCreationInputTokens": 24366,
+    "webSearchRequests": 0,
+    "costUSD": 0.117516,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 81,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 24366,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.32142451099935,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-_2q5kkr3/work"
+  }
+ },
+ "wall_seconds": 16.323114339000313,
+ "qid": "terminal#20406",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#20269",
+   "terminal#19383",
+   "terminal#17246"
+  ],
+  "answer": "This has been reported before, and I found no fix or workaround in the archive. Your fault offset 0x2c924 on 1.24.2605.12001 is the same one reported in terminal#20269. That ticket is a crash on 1.24.11321.0 in AtlasEngine::PaintCursor on the render thread, with an access violation reading a null pointer at about 0xC0. The user there also ran Claude Code tabs. terminal#19383 is the same PaintCursor failure bucket, hit while drag-merging two windows on 1.22, and a later comment says it also reproduced on a newer build. terminal#17246 is the older drag-merge crash. Its first fix, #17251, covered only part of the problem, and the ticket is not a match for your exact signature. Your crash is most likely the PaintCursor bug in the Atlas renderer, with the drag-merge acting as the trigger, rather than a regression of #17246. Add your details to terminal#20269 and terminal#19383: the build, the offset, the drag-merge trigger, and the heavy-scrollback and RADAR_PRE_LEAK context. Share the dump through a private channel, such as a Feedback Hub upload, and not as a public attachment, because it contains scrollback. Until it's fixed, avoid dragging tabs between windows while heavy output is streaming. Instead, open a new tab in the target window."
+ },
+ "hit_turn_cap": false
+}

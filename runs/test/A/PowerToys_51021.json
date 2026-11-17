@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#530",
+  "PowerToys#20927",
+  "PowerToys#47720",
+  "PowerToys#22416",
+  "PowerToys#46208"
+ ],
+ "retrieval_seconds": 0.01571633599814959,
+ "retrieval_scores": [
+  0.7954815626144409,
+  0.7491823434829712,
+  0.738922655582428,
+  0.72791987657547,
+  0.7234774827957153
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3082,
+  "stop_reason": "end_turn",
+  "session_id": "440939a3-c83b-4846-a42d-380258547d18",
+  "total_cost_usd": 0.017214,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3565,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 295,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3565,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 295,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3565,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3565
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 295,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3565,
+    "webSearchRequests": 0,
+    "costUSD": 0.017214,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3565,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#20927\", \"PowerToys#530\", \"PowerToys#22416\"], \"answer\": \"This request has been filed several times before: sharing a region of a large or ultrawide monitor in Teams. PowerToys does not offer it today. The earlier tickets were closed as duplicates of the general tracking issues (#279 and #2774, and more recently #43464), so follow the request there and add your vote. Past tickets also say that a Teams-only feature will not be built in PowerToys, and that the better fix is for Teams itself to support sharing a custom screen area (they link to a Teams feedback item for this). In the meantime, the tickets suggest the free third-party tool RegionToShare, which lets you share a region of the screen and swap apps in and out of it. Another workaround is to share a single app window, or to lower the display resolution to 1080p before presenting.\"}",
+  "ttft_ms": 3233,
+  "type": "result",
+  "duration_ms": 3252,
+  "uuid": "df2abebb-5965-4a86-b4e8-290da9e2d893",
+  "ttft_stream_ms": 924,
+  "time_to_request_ms": 168,
+  "first_content_frame_ms": 925,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 295,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3565,
+    "webSearchRequests": 0,
+    "costUSD": 0.017214,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3565,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.107753084012074,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-koiet0u_/work"
+  }
+ },
+ "wall_seconds": 4.125085725012468,
+ "qid": "PowerToys#51021",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#20927",
+   "PowerToys#530",
+   "PowerToys#22416"
+  ],
+  "answer": "This request has been filed several times before: sharing a region of a large or ultrawide monitor in Teams. PowerToys does not offer it today. The earlier tickets were closed as duplicates of the general tracking issues (#279 and #2774, and more recently #43464), so follow the request there and add your vote. Past tickets also say that a Teams-only feature will not be built in PowerToys, and that the better fix is for Teams itself to support sharing a custom screen area (they link to a Teams feedback item for this). In the meantime, the tickets suggest the free third-party tool RegionToShare, which lets you share a region of the screen and swap apps in and out of it. Another workaround is to share a single app window, or to lower the display resolution to 1080p before presenting."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,194 @@
+{
+ "shown": [
+  "terminal#14247",
+  "terminal#19270",
+  "terminal#17836",
+  "terminal#14412",
+  "terminal#5582"
+ ],
+ "retrieval_seconds": 0.4496262799948454,
+ "retrieval_scores": [
+  0.031754032258064516,
+  0.030798389007344232,
+  0.03057889822595705,
+  0.028577260665441927,
+  0.025937081659973226
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 6292,
+  "stop_reason": "end_turn",
+  "session_id": "52e4056a-015c-42d6-8f04-d945cb351e4a",
+  "total_cost_usd": 0.060599999999999994,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 13569,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 632,
+   "output_tokens_details": {
+    "thinking_tokens": 298
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13569,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 632,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 13569,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 13569
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 632,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 13569,
+    "webSearchRequests": 0,
+    "costUSD": 0.060599999999999994,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 298,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13569,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#17836\", \"terminal#19270\"], \"answer\": \"This looks like a known crash. Both tickets show the same fault as yours (WindowsTerminal.exe crashing in Windows.UI.Xaml.dll with exception 0xc000027b) when text is selected or copied with the mouse. Neither ticket has a confirmed fix. In #19270 the crash stopped after updating to Terminal 1.23, but it came back later. The maintainers asked reporters to capture the crash with the Feedback Hub: open Feedback Hub, click 'Start recording', reproduce the crash (maximize, run wsl -d Debian, then click and drag at the left edge), submit it, and paste the link in your ticket so they can find the crash dump. In the meantime, update Terminal to the latest version. If you can, avoid starting a selection at the extreme left edge of the maximized window. This workaround is only a guess from your repro steps and is not confirmed in the past tickets.\"}",
+  "ttft_ms": 3918,
+  "type": "result",
+  "duration_ms": 6471,
+  "uuid": "b8bd8861-e49b-4776-88d6-cddc2afd5929",
+  "ttft_stream_ms": 1341,
+  "time_to_request_ms": 177,
+  "first_content_frame_ms": 1341,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 632,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 13569,
+    "webSearchRequests": 0,
+    "costUSD": 0.060599999999999994,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 298,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13569,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 7.286128067993559,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-5imgejie/work"
+  }
+ },
+ "wall_seconds": 7.738355243986007,
+ "qid": "terminal#20566",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#17836",
+   "terminal#19270"
+  ],
+  "answer": "This looks like a known crash. Both tickets show the same fault as yours (WindowsTerminal.exe crashing in Windows.UI.Xaml.dll with exception 0xc000027b) when text is selected or copied with the mouse. Neither ticket has a confirmed fix. In #19270 the crash stopped after updating to Terminal 1.23, but it came back later. The maintainers asked reporters to capture the crash with the Feedback Hub: open Feedback Hub, click 'Start recording', reproduce the crash (maximize, run wsl -d Debian, then click and drag at the left edge), submit it, and paste the link in your ticket so they can find the crash dump. In the meantime, update Terminal to the latest version. If you can, avoid starting a selection at the extreme left edge of the maximized window. This workaround is only a guess from your repro steps and is not confirmed in the past tickets."
+ },
+ "hit_turn_cap": false
+}

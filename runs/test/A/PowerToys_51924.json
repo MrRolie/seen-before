@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#20683",
+  "PowerToys#22201",
+  "PowerToys#34814",
+  "PowerToys#22012",
+  "PowerToys#29394"
+ ],
+ "retrieval_seconds": 0.03821823900216259,
+ "retrieval_scores": [
+  0.7587274312973022,
+  0.7497156858444214,
+  0.7305989861488342,
+  0.7265297770500183,
+  0.722507119178772
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2569,
+  "stop_reason": "end_turn",
+  "session_id": "108377df-6437-4f06-9395-d91bbf747651",
+  "total_cost_usd": 0.01781,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3779,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 269,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3779,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 269,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3779,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3779
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 269,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3779,
+    "webSearchRequests": 0,
+    "costUSD": 0.01781,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3779,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#29394\", \"PowerToys#22201\", \"PowerToys#20683\"], \"answer\": \"A general file converter has been requested several times before, and these requests were closed as duplicates of existing tracking issues (#9743, #3442 for audio/video, #2686 for images), so please add your +1 and any extra context to those threads rather than a new ticket. Be aware that simply renaming the extension (e.g. zip to exe, or exe to msi) does not convert the file or change what it is; the contents stay the same. Real conversion between formats such as DOC to PDF requires a program that understands the formats, and the maintainers noted this is broad, with data loss and licensing concerns. In the meantime, use an app that can save or export to the desired format (for example Word can save as PDF).\"}",
+  "ttft_ms": 2745,
+  "type": "result",
+  "duration_ms": 2768,
+  "uuid": "1e79b5d8-8584-4054-85f5-220a2c0492c8",
+  "ttft_stream_ms": 679,
+  "time_to_request_ms": 198,
+  "first_content_frame_ms": 679,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 269,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3779,
+    "webSearchRequests": 0,
+    "costUSD": 0.01781,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3779,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.708024972991552,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-zci0ddkt/work"
+  }
+ },
+ "wall_seconds": 3.7478660230117384,
+ "qid": "PowerToys#51924",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#29394",
+   "PowerToys#22201",
+   "PowerToys#20683"
+  ],
+  "answer": "A general file converter has been requested several times before, and these requests were closed as duplicates of existing tracking issues (#9743, #3442 for audio/video, #2686 for images), so please add your +1 and any extra context to those threads rather than a new ticket. Be aware that simply renaming the extension (e.g. zip to exe, or exe to msi) does not convert the file or change what it is; the contents stay the same. Real conversion between formats such as DOC to PDF requires a program that understands the formats, and the maintainers noted this is broad, with data loss and licensing concerns. In the meantime, use an app that can save or export to the desired format (for example Word can save as PDF)."
+ },
+ "hit_turn_cap": false
+}

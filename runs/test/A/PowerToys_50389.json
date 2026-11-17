@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#26394",
+  "PowerToys#19586",
+  "PowerToys#36323",
+  "PowerToys#15654",
+  "PowerToys#15417"
+ ],
+ "retrieval_seconds": 0.014754525996977463,
+ "retrieval_scores": [
+  0.8158876895904541,
+  0.8096814751625061,
+  0.7712066173553467,
+  0.7585993409156799,
+  0.7500327825546265
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2844,
+  "stop_reason": "end_turn",
+  "session_id": "4857736d-b0d5-4346-a488-85a9828e27af",
+  "total_cost_usd": 0.013097999999999999,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 2786,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 195,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 2786,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 195,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 2786,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2786
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 195,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 2786,
+    "webSearchRequests": 0,
+    "costUSD": 0.013097999999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2786,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#19586\", \"PowerToys#15654\", \"PowerToys#26394\"], \"answer\": \"This hot corners request has been filed several times before, and each of those tickets was closed as a duplicate of the main tracking issue PowerToys#1305. That issue wasn't among the tickets I was shown, so I can't say what its current status is. Please add your use case (a corner action for Task View or switching virtual desktops) to #1305 and upvote it there. No hot corners utility exists in PowerToys yet, and these tickets offer no workaround.\"}",
+  "ttft_ms": 2994,
+  "type": "result",
+  "duration_ms": 3011,
+  "uuid": "8034ef0d-5adf-4bf0-8c11-12cfeb3467cb",
+  "ttft_stream_ms": 1277,
+  "time_to_request_ms": 166,
+  "first_content_frame_ms": 1277,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 195,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 2786,
+    "webSearchRequests": 0,
+    "costUSD": 0.013097999999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2786,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.7160873219836503,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-o614keut/work"
+  }
+ },
+ "wall_seconds": 3.7324058569793124,
+ "qid": "PowerToys#50389",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#19586",
+   "PowerToys#15654",
+   "PowerToys#26394"
+  ],
+  "answer": "This hot corners request has been filed several times before, and each of those tickets was closed as a duplicate of the main tracking issue PowerToys#1305. That issue wasn't among the tickets I was shown, so I can't say what its current status is. Please add your use case (a corner action for Task View or switching virtual desktops) to #1305 and upvote it there. No hot corners utility exists in PowerToys yet, and these tickets offer no workaround."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,339 @@
+{
+ "shown": [
+  "PowerToys#11724",
+  "PowerToys#11802",
+  "PowerToys#11882",
+  "PowerToys#1240",
+  "PowerToys#1354",
+  "PowerToys#168",
+  "PowerToys#24519",
+  "PowerToys#4",
+  "PowerToys#41",
+  "PowerToys#4171",
+  "PowerToys#45584",
+  "PowerToys#45592",
+  "PowerToys#45861",
+  "PowerToys#46097",
+  "PowerToys#46114",
+  "PowerToys#46239",
+  "PowerToys#46242",
+  "PowerToys#46250",
+  "PowerToys#46353",
+  "PowerToys#46478",
+  "PowerToys#46512",
+  "PowerToys#46546",
+  "PowerToys#46589",
+  "PowerToys#46609",
+  "PowerToys#46610",
+  "PowerToys#46632",
+  "PowerToys#46676",
+  "PowerToys#46698",
+  "PowerToys#46800",
+  "PowerToys#46937",
+  "PowerToys#47092",
+  "PowerToys#47096",
+  "PowerToys#47108",
+  "PowerToys#48451",
+  "PowerToys#48455",
+  "PowerToys#48802",
+  "PowerToys#71",
+  "PowerToys#7955",
+  "PowerToys#825",
+  "PowerToys#9523"
+ ],
+ "retrieval_seconds": 3.588146984024206,
+ "tool_calls": [
+  {
+   "t": 1794880197.5269382,
+   "tool": "search",
+   "args": {
+    "query": "Command palette dock auto-hide, appear when mouse touches screen edge, doesn't reserve desktop space",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.575491725001484,
+   "returned": [
+    "PowerToys#46478",
+    "PowerToys#46800",
+    "PowerToys#47092",
+    "PowerToys#46632",
+    "PowerToys#48455",
+    "PowerToys#46698",
+    "PowerToys#47096",
+    "PowerToys#46242",
+    "PowerToys#46250",
+    "PowerToys#45592",
+    "PowerToys#168",
+    "PowerToys#46353",
+    "PowerToys#48451",
+    "PowerToys#46589",
+    "PowerToys#46097",
+    "PowerToys#46239",
+    "PowerToys#46512",
+    "PowerToys#11724",
+    "PowerToys#11882",
+    "PowerToys#45861"
+   ]
+  },
+  {
+   "t": 1794880197.5508878,
+   "tool": "search",
+   "args": {
+    "query": "dock device info widgets graphs improve design",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012125423992983997,
+   "returned": [
+    "PowerToys#1240",
+    "PowerToys#46610",
+    "PowerToys#4171",
+    "PowerToys#41",
+    "PowerToys#46114",
+    "PowerToys#47108",
+    "PowerToys#4",
+    "PowerToys#46609",
+    "PowerToys#48802",
+    "PowerToys#11802",
+    "PowerToys#46937",
+    "PowerToys#45584",
+    "PowerToys#1354",
+    "PowerToys#825",
+    "PowerToys#46546",
+    "PowerToys#7955",
+    "PowerToys#71",
+    "PowerToys#46676",
+    "PowerToys#24519",
+    "PowerToys#9523"
+   ]
+  },
+  {
+   "t": 1794880199.7432299,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46632"
+   },
+   "seconds": 0.00013688602484762669,
+   "returned": [
+    "PowerToys#46632"
+   ]
+  },
+  {
+   "t": 1794880199.8358026,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46478"
+   },
+   "seconds": 0.00014974601799622178,
+   "returned": [
+    "PowerToys#46478"
+   ]
+  },
+  {
+   "t": 1794880201.468972,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46239"
+   },
+   "seconds": 0.00014002600801177323,
+   "returned": [
+    "PowerToys#46239"
+   ]
+  },
+  {
+   "t": 1794880203.0364525,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46589"
+   },
+   "seconds": 0.00010317697888240218,
+   "returned": [
+    "PowerToys#46589"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11909,
+  "stop_reason": "end_turn",
+  "session_id": "f978229a-6b6f-47f3-8797-e1a909439027",
+  "total_cost_usd": 0.0339905,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 5877,
+   "cache_read_input_tokens": 18525,
+   "output_tokens": 861,
+   "output_tokens_details": {
+    "thinking_tokens": 57
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5877,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 362,
+     "cache_read_input_tokens": 6306,
+     "cache_creation_input_tokens": 604,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 604
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 861,
+    "cacheReadInputTokens": 18525,
+    "cacheCreationInputTokens": 5877,
+    "webSearchRequests": 0,
+    "costUSD": 0.0339905,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 57,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5877,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46239\", \"PowerToys#46589\", \"PowerToys#46478\"], \"answer\": \"The auto-hide part of this request has been filed before. PowerToys#46239 (\\\"Dock: Add autohide support\\\") is the main tracking ticket. The dock would hide itself and slide back in when the mouse hovers at the screen edge, like the taskbar's hidden mode. It would not shrink the usable desktop area. Several later tickets, including #46589 and #46478, were closed as duplicates of #46239. There is no auto-hide option in the dock yet, so for now you can't stop it from taking up screen space. Add your +1 or your extra details to #46239. Those details include the configurable 0.5–2 s hover delay, any screen edge, and a non-interactive overlay for the device info. The comments on #46239 are about hover-to-reveal and stay-on-top, not about a hover delay or an overlay. Your complaint about the look of the device info graphs is a separate design request. I found no matching ticket for it, so you may want to file it on its own.\"}",
+  "ttft_ms": 2565,
+  "type": "result",
+  "duration_ms": 15569,
+  "uuid": "cf765141-fe74-40d1-9709-dc1350b97824",
+  "ttft_stream_ms": 1252,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 1253,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 861,
+    "cacheReadInputTokens": 18525,
+    "cacheCreationInputTokens": 5877,
+    "webSearchRequests": 0,
+    "costUSD": 0.0339905,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 57,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5877,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.929603844007943,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-p70y37kz/work"
+  }
+ },
+ "wall_seconds": 16.93190731201321,
+ "qid": "PowerToys#49896",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46239",
+   "PowerToys#46589",
+   "PowerToys#46478"
+  ],
+  "answer": "The auto-hide part of this request has been filed before. PowerToys#46239 (\"Dock: Add autohide support\") is the main tracking ticket. The dock would hide itself and slide back in when the mouse hovers at the screen edge, like the taskbar's hidden mode. It would not shrink the usable desktop area. Several later tickets, including #46589 and #46478, were closed as duplicates of #46239. There is no auto-hide option in the dock yet, so for now you can't stop it from taking up screen space. Add your +1 or your extra details to #46239. Those details include the configurable 0.5–2 s hover delay, any screen edge, and a non-interactive overlay for the device info. The comments on #46239 are about hover-to-reveal and stay-on-top, not about a hover delay or an overlay. Your complaint about the look of the device info graphs is a separate design request. I found no matching ticket for it, so you may want to file it on its own."
+ },
+ "hit_turn_cap": false
+}

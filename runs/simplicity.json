@@ -1,0 +1,128 @@
+{
+ "arms": {
+  "B": {
+   "lines": 66,
+   "dependencies": [
+    "ripgrep (binary)",
+    "mcp"
+   ],
+   "artifacts": {},
+   "build_steps": [
+    "none: the ticket store is the index"
+   ],
+   "gpu": false,
+   "on_new_ticket": "write its file (median 0.02 ms)",
+   "n_dependencies": 2,
+   "artifacts_mb": 0,
+   "n_build_steps": 0
+  },
+  "A": {
+   "lines": 218,
+   "dependencies": [
+    "torch (ROCm or CUDA build)",
+    "sentence-transformers",
+    "transformers",
+    "datasets",
+    "accelerate",
+    "numpy"
+   ],
+   "artifacts": {
+    "trained model": 418.4,
+    "embeddings": 195.5
+   },
+   "build_steps": [
+    "mine negatives and train the embedding (17 min, GPU)",
+    "embed every ticket (6 min, GPU)",
+    "start the retrieval service (loads the model)"
+   ],
+   "gpu": true,
+   "on_new_ticket": "embed it with the trained model and add it to the matrix (median 11.66 ms, model loaded); the model itself learns it only at the next retrain (17 min)",
+   "n_dependencies": 6,
+   "artifacts_mb": 613.9,
+   "n_build_steps": 3
+  },
+  "F": {
+   "lines": 273,
+   "dependencies": [
+    "torch (ROCm or CUDA build)",
+    "sentence-transformers",
+    "transformers",
+    "datasets",
+    "accelerate",
+    "numpy",
+    "sqlite3 with FTS5 (stdlib)"
+   ],
+   "artifacts": {
+    "trained model": 418.4,
+    "embeddings": 195.5,
+    "keyword index": 377.4
+   },
+   "build_steps": [
+    "mine negatives and train the embedding (17 min, GPU)",
+    "embed every ticket (6 min, GPU)",
+    "start the retrieval service (loads the model)",
+    "build the keyword index (8 s)"
+   ],
+   "gpu": true,
+   "on_new_ticket": "embed it with the trained model and add it to the matrix (median 11.66 ms, model loaded); the model itself learns it only at the next retrain (17 min); insert it in the keyword index (median 7.02 ms)",
+   "n_dependencies": 7,
+   "artifacts_mb": 991.3,
+   "n_build_steps": 4
+  },
+  "C": {
+   "lines": 247,
+   "dependencies": [
+    "torch (ROCm or CUDA build)",
+    "sentence-transformers",
+    "transformers",
+    "datasets",
+    "accelerate",
+    "numpy",
+    "mcp"
+   ],
+   "artifacts": {
+    "trained model": 418.4,
+    "embeddings": 195.5
+   },
+   "build_steps": [
+    "mine negatives and train the embedding (17 min, GPU)",
+    "embed every ticket (6 min, GPU)",
+    "start the retrieval service (loads the model)"
+   ],
+   "gpu": true,
+   "on_new_ticket": "embed it with the trained model and add it to the matrix (median 11.66 ms, model loaded); the model itself learns it only at the next retrain (17 min)",
+   "n_dependencies": 7,
+   "artifacts_mb": 613.9,
+   "n_build_steps": 3
+  },
+  "D": {
+   "lines": 288,
+   "dependencies": [
+    "torch (ROCm or CUDA build)",
+    "sentence-transformers",
+    "transformers",
+    "datasets",
+    "accelerate",
+    "numpy",
+    "mcp",
+    "ripgrep (binary)"
+   ],
+   "artifacts": {
+    "trained model": 418.4,
+    "embeddings": 195.5
+   },
+   "build_steps": [
+    "mine negatives and train the embedding (17 min, GPU)",
+    "embed every ticket (6 min, GPU)",
+    "start the retrieval service (loads the model)"
+   ],
+   "gpu": true,
+   "on_new_ticket": "embed it with the trained model and add it to the matrix (median 11.66 ms, model loaded); the model itself learns it only at the next retrain (17 min); write its file",
+   "n_dependencies": 8,
+   "artifacts_mb": 613.9,
+   "n_build_steps": 3
+  }
+ },
+ "simpler_B_vs_A": "HOLDS",
+ "note": "the shared ticket store, fetch, prompt and runner are not counted for any arm"
+}

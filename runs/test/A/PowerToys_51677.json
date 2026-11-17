@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#42868",
+  "PowerToys#28596",
+  "PowerToys#18066",
+  "PowerToys#33581",
+  "PowerToys#44783"
+ ],
+ "retrieval_seconds": 0.01573866599937901,
+ "retrieval_scores": [
+  0.8134116530418396,
+  0.7721891403198242,
+  0.7169886231422424,
+  0.7014451622962952,
+  0.694380521774292
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2735,
+  "stop_reason": "end_turn",
+  "session_id": "340bf985-ec01-4796-be5c-943e8ab5cef5",
+  "total_cost_usd": 0.020672,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4307,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 344,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4307,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 344,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4307,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4307
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 344,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4307,
+    "webSearchRequests": 0,
+    "costUSD": 0.020672,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4307,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#33581\", \"PowerToys#42868\", \"PowerToys#28596\"], \"answer\": \"This request has been filed several times before. Two of the tickets (#33581 and #42868) were closed as duplicates of the main tracking issue #21313, 'A utility that disables the keyboard, mouse and touchscreen momentarily while physically cleaning the devices', so add your thumbs-up there rather than opening a new ticket. The tickets also record that the PowerToys team said in earlier discussions (#28596, #18066) that they had no plans to build a keyboard-lock utility and suggested simply locking the PC (Win+L) or turning it off. Another workaround from #44783 for a laptop's built-in keyboard is to disable it in Device Manager (Win+X > Device Manager > Keyboards > select the keyboard > Disable). Third-party tools such as KeyFreeze or Keyboard Clean Tool, which are mentioned in the tickets, can also lock input temporarily.\"}",
+  "ttft_ms": 2904,
+  "type": "result",
+  "duration_ms": 2923,
+  "uuid": "da06eb98-4156-49a5-8131-f639ea91659c",
+  "ttft_stream_ms": 624,
+  "time_to_request_ms": 186,
+  "first_content_frame_ms": 625,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 344,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4307,
+    "webSearchRequests": 0,
+    "costUSD": 0.020672,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4307,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.6937087650003377,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-sntx4ny_/work"
+  }
+ },
+ "wall_seconds": 3.7114801770076156,
+ "qid": "PowerToys#51677",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#33581",
+   "PowerToys#42868",
+   "PowerToys#28596"
+  ],
+  "answer": "This request has been filed several times before. Two of the tickets (#33581 and #42868) were closed as duplicates of the main tracking issue #21313, 'A utility that disables the keyboard, mouse and touchscreen momentarily while physically cleaning the devices', so add your thumbs-up there rather than opening a new ticket. The tickets also record that the PowerToys team said in earlier discussions (#28596, #18066) that they had no plans to build a keyboard-lock utility and suggested simply locking the PC (Win+L) or turning it off. Another workaround from #44783 for a laptop's built-in keyboard is to disable it in Device Manager (Win+X > Device Manager > Keyboards > select the keyboard > Disable). Third-party tools such as KeyFreeze or Keyboard Clean Tool, which are mentioned in the tickets, can also lock input temporarily."
+ },
+ "hit_turn_cap": false
+}

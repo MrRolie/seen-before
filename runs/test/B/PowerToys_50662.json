@@ -1,0 +1,400 @@
+{
+ "shown": [
+  "PowerToys#11996",
+  "PowerToys#12326",
+  "PowerToys#12537",
+  "PowerToys#12578",
+  "PowerToys#16109",
+  "PowerToys#16751",
+  "PowerToys#17163",
+  "PowerToys#17670",
+  "PowerToys#17969",
+  "PowerToys#18243",
+  "PowerToys#21473",
+  "PowerToys#24113",
+  "PowerToys#27590",
+  "PowerToys#28769",
+  "PowerToys#32005",
+  "PowerToys#32467",
+  "PowerToys#33777",
+  "PowerToys#34148",
+  "PowerToys#35222",
+  "PowerToys#35250",
+  "PowerToys#35560",
+  "PowerToys#35572",
+  "PowerToys#35596",
+  "PowerToys#40120",
+  "PowerToys#41722",
+  "PowerToys#42117",
+  "PowerToys#4246",
+  "PowerToys#44286",
+  "PowerToys#45147",
+  "PowerToys#45224",
+  "PowerToys#46337",
+  "PowerToys#4649",
+  "PowerToys#48614",
+  "PowerToys#48965",
+  "PowerToys#557"
+ ],
+ "retrieval_seconds": 0.7858871039934456,
+ "tool_calls": [
+  {
+   "t": 1794883017.863899,
+   "tool": "search",
+   "args": {
+    "pattern": "Awake",
+    "regex": false,
+    "also": [
+     "process"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.19830481600365601,
+   "returned": [
+    "PowerToys#34148",
+    "PowerToys#18243",
+    "PowerToys#27590",
+    "PowerToys#44286",
+    "PowerToys#35250",
+    "PowerToys#11996",
+    "PowerToys#4246",
+    "PowerToys#40120",
+    "PowerToys#12326",
+    "PowerToys#35596",
+    "PowerToys#32005",
+    "PowerToys#33777",
+    "PowerToys#17163",
+    "PowerToys#48965",
+    "PowerToys#35222",
+    "PowerToys#41722",
+    "PowerToys#16751",
+    "PowerToys#12578",
+    "PowerToys#35572",
+    "PowerToys#12537"
+   ]
+  },
+  {
+   "t": 1794883017.9590688,
+   "tool": "search",
+   "args": {
+    "pattern": "keep awake when app running",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.08064824200118892,
+   "returned": []
+  },
+  {
+   "t": 1794883020.2766848,
+   "tool": "search",
+   "args": {
+    "pattern": "Awake",
+    "regex": false,
+    "also": [
+     "list of apps"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11548599301022477,
+   "returned": [
+    "PowerToys#45224",
+    "PowerToys#48614",
+    "PowerToys#557"
+   ]
+  },
+  {
+   "t": 1794883020.5333872,
+   "tool": "search",
+   "args": {
+    "pattern": "Awake",
+    "regex": true,
+    "also": [
+     "\\.exe",
+     "while running"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.24537257800693624,
+   "returned": [
+    "PowerToys#17969",
+    "PowerToys#16109"
+   ]
+  },
+  {
+   "t": 1794883021.9150262,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45224"
+   },
+   "seconds": 0.00024981299065984786,
+   "returned": [
+    "PowerToys#45224"
+   ]
+  },
+  {
+   "t": 1794883024.0186455,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45147"
+   },
+   "seconds": 0.0003821279969997704,
+   "returned": [
+    "PowerToys#45147"
+   ]
+  },
+  {
+   "t": 1794883024.2307208,
+   "tool": "search",
+   "args": {
+    "pattern": "Awake",
+    "regex": false,
+    "also": [
+     "specific app"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.14459149100002833,
+   "returned": [
+    "PowerToys#42117",
+    "PowerToys#17670",
+    "PowerToys#46337",
+    "PowerToys#35560",
+    "PowerToys#28769",
+    "PowerToys#21473",
+    "PowerToys#4649",
+    "PowerToys#24113"
+   ]
+  },
+  {
+   "t": 1794883025.8051045,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42117"
+   },
+   "seconds": 0.00015240500215440989,
+   "returned": [
+    "PowerToys#42117"
+   ]
+  },
+  {
+   "t": 1794883026.128872,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46337"
+   },
+   "seconds": 0.00012659598723985255,
+   "returned": [
+    "PowerToys#46337"
+   ]
+  },
+  {
+   "t": 1794883026.2302516,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35560"
+   },
+   "seconds": 0.00015767497825436294,
+   "returned": [
+    "PowerToys#35560"
+   ]
+  },
+  {
+   "t": 1794883027.6185296,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32467"
+   },
+   "seconds": 0.00041536701610311866,
+   "returned": [
+    "PowerToys#32467"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 15462,
+  "stop_reason": "end_turn",
+  "session_id": "c2663eb8-9748-48cb-904a-43a3f0672c98",
+  "total_cost_usd": 0.07413030000000001,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 14325,
+   "cache_read_input_tokens": 46823,
+   "output_tokens": 1212,
+   "output_tokens_details": {
+    "thinking_tokens": 29
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 14325,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 286,
+     "cache_read_input_tokens": 12640,
+     "cache_creation_input_tokens": 2862,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2862
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1212,
+    "cacheReadInputTokens": 46823,
+    "cacheCreationInputTokens": 14325,
+    "webSearchRequests": 0,
+    "costUSD": 0.07413030000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 29,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14325,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#32467\", \"PowerToys#42117\", \"PowerToys#46337\"], \"answer\": \"This feature has been requested before. PowerToys#32467 is the main tracking issue. It asks for an app list in Awake so that Awake changes its behavior, or keeps the PC and screen awake, while chosen apps such as blender.exe or winword.exe are running. Similar requests were closed as duplicates of it (#42117, #46337, #35560). The feature isn't built yet. The maintainer has said he wants to keep Awake simple, and he has only sketched a possible design that would poll running processes. Upvote and follow #32467 for updates and add your use case there. Until then, you can use Awake's command-line option `--pid` to keep the PC awake while a specific process runs. You can also turn Awake on and off by hand.\"}",
+  "ttft_ms": 2627,
+  "type": "result",
+  "duration_ms": 16319,
+  "uuid": "f3cf2906-f420-4444-878d-17d2e6215353",
+  "ttft_stream_ms": 1598,
+  "time_to_request_ms": 38,
+  "first_content_frame_ms": 1599,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1212,
+    "cacheReadInputTokens": 46823,
+    "cacheCreationInputTokens": 14325,
+    "webSearchRequests": 0,
+    "costUSD": 0.07413030000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 29,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14325,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 17.89996266399976,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-_zvrmgkr/work"
+  }
+ },
+ "wall_seconds": 17.90318712600856,
+ "qid": "PowerToys#50662",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#32467",
+   "PowerToys#42117",
+   "PowerToys#46337"
+  ],
+  "answer": "This feature has been requested before. PowerToys#32467 is the main tracking issue. It asks for an app list in Awake so that Awake changes its behavior, or keeps the PC and screen awake, while chosen apps such as blender.exe or winword.exe are running. Similar requests were closed as duplicates of it (#42117, #46337, #35560). The feature isn't built yet. The maintainer has said he wants to keep Awake simple, and he has only sketched a possible design that would poll running processes. Upvote and follow #32467 for updates and add your use case there. Until then, you can use Awake's command-line option `--pid` to keep the PC awake while a specific process runs. You can also turn Awake on and off by hand."
+ },
+ "hit_turn_cap": false
+}

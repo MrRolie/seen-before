@@ -1,0 +1,461 @@
+{
+ "shown": [
+  "PowerToys#10077",
+  "PowerToys#10095",
+  "PowerToys#10331",
+  "PowerToys#1052",
+  "PowerToys#11078",
+  "PowerToys#11894",
+  "PowerToys#11963",
+  "PowerToys#12147",
+  "PowerToys#12179",
+  "PowerToys#12477",
+  "PowerToys#1305",
+  "PowerToys#13385",
+  "PowerToys#13495",
+  "PowerToys#13516",
+  "PowerToys#14071",
+  "PowerToys#14338",
+  "PowerToys#14992",
+  "PowerToys#15405",
+  "PowerToys#16127",
+  "PowerToys#179",
+  "PowerToys#19307",
+  "PowerToys#20526",
+  "PowerToys#2191",
+  "PowerToys#23193",
+  "PowerToys#23868",
+  "PowerToys#2428",
+  "PowerToys#26101",
+  "PowerToys#28314",
+  "PowerToys#28769",
+  "PowerToys#29340",
+  "PowerToys#299",
+  "PowerToys#3090",
+  "PowerToys#32959",
+  "PowerToys#34860",
+  "PowerToys#35958",
+  "PowerToys#3672",
+  "PowerToys#3686",
+  "PowerToys#3692",
+  "PowerToys#39745",
+  "PowerToys#40660",
+  "PowerToys#41587",
+  "PowerToys#4360",
+  "PowerToys#45492",
+  "PowerToys#4661",
+  "PowerToys#48170",
+  "PowerToys#48441",
+  "PowerToys#48448",
+  "PowerToys#48556",
+  "PowerToys#4862",
+  "PowerToys#48638",
+  "PowerToys#48773",
+  "PowerToys#5282",
+  "PowerToys#5458",
+  "PowerToys#589",
+  "PowerToys#5944",
+  "PowerToys#6192",
+  "PowerToys#688",
+  "PowerToys#7349",
+  "PowerToys#7560",
+  "PowerToys#7726",
+  "PowerToys#7814",
+  "PowerToys#890"
+ ],
+ "retrieval_seconds": 0.6882797779981047,
+ "tool_calls": [
+  {
+   "t": 1794876644.7364857,
+   "tool": "search",
+   "args": {
+    "pattern": "shortcut guide",
+    "regex": false,
+    "also": [
+     "opaque"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.08460422800271772,
+   "returned": []
+  },
+  {
+   "t": 1794876644.7958064,
+   "tool": "search",
+   "args": {
+    "pattern": "shortcut guide full screen background",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04560824699001387,
+   "returned": []
+  },
+  {
+   "t": 1794876646.8989446,
+   "tool": "search",
+   "args": {
+    "pattern": "shortcut guide",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.09406005300115794,
+   "returned": [
+    "PowerToys#12477",
+    "PowerToys#29340",
+    "PowerToys#19307",
+    "PowerToys#10095",
+    "PowerToys#23193",
+    "PowerToys#14992",
+    "PowerToys#11963",
+    "PowerToys#5944",
+    "PowerToys#5458",
+    "PowerToys#15405",
+    "PowerToys#11894",
+    "PowerToys#4661",
+    "PowerToys#890",
+    "PowerToys#13516",
+    "PowerToys#688",
+    "PowerToys#179",
+    "PowerToys#41587",
+    "PowerToys#7560",
+    "PowerToys#48773",
+    "PowerToys#32959"
+   ]
+  },
+  {
+   "t": 1794876646.9836712,
+   "tool": "search",
+   "args": {
+    "pattern": "shortcutguide",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07344631501473486,
+   "returned": [
+    "PowerToys#48638",
+    "PowerToys#45492",
+    "PowerToys#48773",
+    "PowerToys#48441",
+    "PowerToys#11078",
+    "PowerToys#48170",
+    "PowerToys#26101",
+    "PowerToys#14071",
+    "PowerToys#10095",
+    "PowerToys#5282",
+    "PowerToys#3090",
+    "PowerToys#40660",
+    "PowerToys#39745",
+    "PowerToys#23868",
+    "PowerToys#20526",
+    "PowerToys#12147",
+    "PowerToys#10331",
+    "PowerToys#7814",
+    "PowerToys#7349",
+    "PowerToys#6192"
+   ]
+  },
+  {
+   "t": 1794876649.2360291,
+   "tool": "search",
+   "args": {
+    "pattern": "shortcut guide",
+    "regex": false,
+    "also": [
+     "transparent"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10372547298902646,
+   "returned": [
+    "PowerToys#10095",
+    "PowerToys#890",
+    "PowerToys#7726",
+    "PowerToys#16127",
+    "PowerToys#3692",
+    "PowerToys#13495",
+    "PowerToys#4360",
+    "PowerToys#12179",
+    "PowerToys#2428",
+    "PowerToys#3686",
+    "PowerToys#3672",
+    "PowerToys#2191",
+    "PowerToys#35958",
+    "PowerToys#34860",
+    "PowerToys#13385",
+    "PowerToys#4862",
+    "PowerToys#1052"
+   ]
+  },
+  {
+   "t": 1794876649.3010108,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48441"
+   },
+   "seconds": 0.0001279969874303788,
+   "returned": [
+    "PowerToys#48441"
+   ]
+  },
+  {
+   "t": 1794876651.7687068,
+   "tool": "search",
+   "args": {
+    "pattern": "shortcut guide",
+    "regex": false,
+    "also": [
+     "0.100",
+     "overlay"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1255616300040856,
+   "returned": [
+    "PowerToys#14992",
+    "PowerToys#890",
+    "PowerToys#48773",
+    "PowerToys#28769",
+    "PowerToys#299",
+    "PowerToys#48638",
+    "PowerToys#48556",
+    "PowerToys#48448",
+    "PowerToys#48441",
+    "PowerToys#28314"
+   ]
+  },
+  {
+   "t": 1794876651.8745039,
+   "tool": "search",
+   "args": {
+    "pattern": "shortcut guide",
+    "regex": false,
+    "also": [
+     "whole screen"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07710833399323747,
+   "returned": [
+    "PowerToys#890",
+    "PowerToys#589",
+    "PowerToys#10077"
+   ]
+  },
+  {
+   "t": 1794876653.3174188,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48556"
+   },
+   "seconds": 0.0001453059958294034,
+   "returned": [
+    "PowerToys#48556"
+   ]
+  },
+  {
+   "t": 1794876655.0036132,
+   "tool": "search",
+   "args": {
+    "pattern": "shortcut guide",
+    "regex": false,
+    "also": [
+     "fullscreen"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.083892195019871,
+   "returned": [
+    "PowerToys#179",
+    "PowerToys#28769",
+    "PowerToys#14071",
+    "PowerToys#14338",
+    "PowerToys#1305"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 15199,
+  "stop_reason": "end_turn",
+  "session_id": "a1f6a89e-a020-4601-8dce-ff4e8b48318d",
+  "total_cost_usd": 0.10355070000000001,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 21052,
+   "cache_read_input_tokens": 75647,
+   "output_tokens": 1175,
+   "output_tokens_details": {
+    "thinking_tokens": 30
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 21052,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 202,
+     "cache_read_input_tokens": 21112,
+     "cache_creation_input_tokens": 1117,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1117
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1175,
+    "cacheReadInputTokens": 75647,
+    "cacheCreationInputTokens": 21052,
+    "webSearchRequests": 0,
+    "costUSD": 0.10355070000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 30,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 21052,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this exact problem. Shortcut Guide was redesigned in v0.100. The new version opens as a full-screen themed window, and you press the shortcut once instead of holding it. The closest tickets are #48441 and #48556, but they report crashes and a window that flashes and closes. They don't report the opaque full-screen background. Please treat your report as a request for a transparent or overlay-style Shortcut Guide. Keep the bug report ZIP attached so the team can review it. Also check that you're on the latest PowerToys release.\"}",
+  "ttft_ms": 2241,
+  "type": "result",
+  "duration_ms": 15656,
+  "uuid": "89d22b64-3e42-4b8a-ba52-a2374141e1ac",
+  "ttft_stream_ms": 1211,
+  "time_to_request_ms": 35,
+  "first_content_frame_ms": 1211,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1175,
+    "cacheReadInputTokens": 75647,
+    "cacheCreationInputTokens": 21052,
+    "webSearchRequests": 0,
+    "costUSD": 0.10355070000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 30,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 21052,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.96586339798523,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-uebft1w_/work"
+  }
+ },
+ "wall_seconds": 16.968092972994782,
+ "qid": "PowerToys#50076",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this exact problem. Shortcut Guide was redesigned in v0.100. The new version opens as a full-screen themed window, and you press the shortcut once instead of holding it. The closest tickets are #48441 and #48556, but they report crashes and a window that flashes and closes. They don't report the opaque full-screen background. Please treat your report as a request for a transparent or overlay-style Shortcut Guide. Keep the bug report ZIP attached so the team can review it. Also check that you're on the latest PowerToys release."
+ },
+ "hit_turn_cap": false
+}

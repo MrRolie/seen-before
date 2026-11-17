@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#44827",
+  "PowerToys#291",
+  "PowerToys#45955",
+  "PowerToys#38192",
+  "PowerToys#44810"
+ ],
+ "retrieval_seconds": 0.6280504230235238,
+ "retrieval_scores": [
+  0.02749719416386083,
+  0.01639344262295082,
+  0.01639344262295082,
+  0.016129032258064516,
+  0.016129032258064516
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2551,
+  "stop_reason": "end_turn",
+  "session_id": "1bbb41a7-b275-4ba0-8b29-bde5fad40e36",
+  "total_cost_usd": 0.039520000000000007,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 9109,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 308,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9109,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 308,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 9109,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 9109
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 308,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 9109,
+    "webSearchRequests": 0,
+    "costUSD": 0.039520000000000007,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9109,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"No past ticket reports this exact problem. The closest, PowerToys#291, was about the old Shortcut Guide showing no numbers when the taskbar auto-hides. It was closed on the grounds that Shortcut Guide V2 (0.100) changed that behavior, and PowerToys#38192 was closed as a duplicate of #291. Neither describes the V2 taskbar indicators being drawn over and covering the taskbar items when the taskbar is revealed with auto-hide on, so this looks like a new bug in the V2 implementation. Please keep the ticket open as a new report with your reproduction steps and screenshot (version 0.102, auto-hide on, mouse over the taskbar when invoking the guide). Adding your display scaling and taskbar position would also help. As a workaround, turn off taskbar auto-hide or set the Hold Windows key option to Off.\"}",
+  "ttft_ms": 2754,
+  "type": "result",
+  "duration_ms": 2772,
+  "uuid": "7431b2e1-5c1c-41bd-87e6-99036bf6cf38",
+  "ttft_stream_ms": 681,
+  "time_to_request_ms": 222,
+  "first_content_frame_ms": 681,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 308,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 9109,
+    "webSearchRequests": 0,
+    "costUSD": 0.039520000000000007,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9109,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.6932207779900637,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-4qnkpwqd/work"
+  }
+ },
+ "wall_seconds": 4.323389602999669,
+ "qid": "PowerToys#50666",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "No past ticket reports this exact problem. The closest, PowerToys#291, was about the old Shortcut Guide showing no numbers when the taskbar auto-hides. It was closed on the grounds that Shortcut Guide V2 (0.100) changed that behavior, and PowerToys#38192 was closed as a duplicate of #291. Neither describes the V2 taskbar indicators being drawn over and covering the taskbar items when the taskbar is revealed with auto-hide on, so this looks like a new bug in the V2 implementation. Please keep the ticket open as a new report with your reproduction steps and screenshot (version 0.102, auto-hide on, mouse over the taskbar when invoking the guide). Adding your display scaling and taskbar position would also help. As a workaround, turn off taskbar auto-hide or set the Hold Windows key option to Off."
+ },
+ "hit_turn_cap": false
+}

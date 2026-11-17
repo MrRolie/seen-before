@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#42410",
+  "PowerToys#45009",
+  "PowerToys#42832",
+  "PowerToys#47568",
+  "PowerToys#44007"
+ ],
+ "retrieval_seconds": 0.5067557140137069,
+ "retrieval_scores": [
+  0.029571646010002173,
+  0.028474711270410194,
+  0.02844163539403516,
+  0.028205128205128206,
+  0.02736726874657909
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3212,
+  "stop_reason": "end_turn",
+  "session_id": "0641ae1b-f2ee-4c67-9c18-9158039042fa",
+  "total_cost_usd": 0.035404,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 7970,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 352,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7970,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 352,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 7970,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7970
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 352,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7970,
+    "webSearchRequests": 0,
+    "costUSD": 0.035404,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7970,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#42832\", \"PowerToys#45009\", \"PowerToys#44007\"], \"answer\": \"This is a known issue. The screens going black is the Windows desktop composition (DWM) briefly restarting, and PowerToys then throws the COMException 0x80263001 ({Desktop composition is disabled}) from the WPF window chrome code and shows its 'Something went wrong' crash dialog. Past tickets with the identical stack trace were closed as duplicates of PowerToys#31226, which is the ticket tracking this problem, so follow that one for updates. The maintainers' advice in those tickets was to update PowerToys to the latest version (one reply specifically said 0.96 or later). You are on 0.86.0, so update through the Microsoft Store or from the GitHub releases page. The crash dialog is a side effect of the display/compositor reset and you do not need to take any other action. If the black screens keep happening after updating, also check that your graphics drivers are current, and comment on PowerToys#31226 with the new log.\"}",
+  "ttft_ms": 3392,
+  "type": "result",
+  "duration_ms": 3415,
+  "uuid": "63773d9e-ecea-4a56-b33a-ff4527359274",
+  "ttft_stream_ms": 671,
+  "time_to_request_ms": 202,
+  "first_content_frame_ms": 672,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 352,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7970,
+    "webSearchRequests": 0,
+    "costUSD": 0.035404,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7970,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.227513585006818,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-e4jrwq0d/work"
+  }
+ },
+ "wall_seconds": 4.7362982089980505,
+ "qid": "PowerToys#49618",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#42832",
+   "PowerToys#45009",
+   "PowerToys#44007"
+  ],
+  "answer": "This is a known issue. The screens going black is the Windows desktop composition (DWM) briefly restarting, and PowerToys then throws the COMException 0x80263001 ({Desktop composition is disabled}) from the WPF window chrome code and shows its 'Something went wrong' crash dialog. Past tickets with the identical stack trace were closed as duplicates of PowerToys#31226, which is the ticket tracking this problem, so follow that one for updates. The maintainers' advice in those tickets was to update PowerToys to the latest version (one reply specifically said 0.96 or later). You are on 0.86.0, so update through the Microsoft Store or from the GitHub releases page. The crash dialog is a side effect of the display/compositor reset and you do not need to take any other action. If the black screens keep happening after updating, also check that your graphics drivers are current, and comment on PowerToys#31226 with the new log."
+ },
+ "hit_turn_cap": false
+}

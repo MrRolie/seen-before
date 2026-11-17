@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#44670",
+  "PowerToys#46873",
+  "PowerToys#48097",
+  "PowerToys#42256",
+  "PowerToys#47501"
+ ],
+ "retrieval_seconds": 0.020353158004581928,
+ "retrieval_scores": [
+  0.805554211139679,
+  0.7948929667472839,
+  0.7715457081794739,
+  0.7712826132774353,
+  0.7663729786872864
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2367,
+  "stop_reason": "end_turn",
+  "session_id": "c63ec4d2-1e2f-4eb1-9419-2fa7f92177ce",
+  "total_cost_usd": 0.069652,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 16642,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 308,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 16642,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 308,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 16642,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 16642
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 308,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 16642,
+    "webSearchRequests": 0,
+    "costUSD": 0.069652,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 16642,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#44670\", \"PowerToys#46873\", \"PowerToys#42256\"], \"answer\": \"This is a known crash that has already been reported and is tracked under PowerToys#37859. The NullReferenceException in BindingExpression.SetupDefaultValueConverter happens inside WPF while handling a Windows system theme change (ThemeManager.OnSystemThemeChanged), and the earlier tickets (e.g. PowerToys#44670, #46873, #42256) were all closed as duplicates of #37859. One earlier report happened right after waking the PC from standby. The archived tickets give no workaround or fix, so please follow #37859 for updates. If you can, tell us whether the crash coincided with a theme or accent colour change, an automatic light/dark switch, or resuming from sleep, and attach a PowerToys bug report ZIP, as that helps narrow it down.\"}",
+  "ttft_ms": 2552,
+  "type": "result",
+  "duration_ms": 2569,
+  "uuid": "cbdcb60a-44de-4f0b-87cb-e3ab2f454e72",
+  "ttft_stream_ms": 696,
+  "time_to_request_ms": 200,
+  "first_content_frame_ms": 696,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 308,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 16642,
+    "webSearchRequests": 0,
+    "costUSD": 0.069652,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 16642,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.428189211001154,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-7eil78pq/work"
+  }
+ },
+ "wall_seconds": 3.4503648419922683,
+ "qid": "PowerToys#49449",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#44670",
+   "PowerToys#46873",
+   "PowerToys#42256"
+  ],
+  "answer": "This is a known crash that has already been reported and is tracked under PowerToys#37859. The NullReferenceException in BindingExpression.SetupDefaultValueConverter happens inside WPF while handling a Windows system theme change (ThemeManager.OnSystemThemeChanged), and the earlier tickets (e.g. PowerToys#44670, #46873, #42256) were all closed as duplicates of #37859. One earlier report happened right after waking the PC from standby. The archived tickets give no workaround or fix, so please follow #37859 for updates. If you can, tell us whether the crash coincided with a theme or accent colour change, an automatic light/dark switch, or resuming from sleep, and attach a PowerToys bug report ZIP, as that helps narrow it down."
+ },
+ "hit_turn_cap": false
+}

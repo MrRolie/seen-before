@@ -1,0 +1,193 @@
+{
+ "shown": [
+  "PowerToys#24173",
+  "PowerToys#29978",
+  "PowerToys#48711",
+  "PowerToys#29984",
+  "PowerToys#48706"
+ ],
+ "retrieval_seconds": 0.5674323940183967,
+ "retrieval_scores": [
+  0.02857142857142857,
+  0.01639344262295082,
+  0.01639344262295082,
+  0.016129032258064516,
+  0.016129032258064516
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 7957,
+  "stop_reason": "end_turn",
+  "session_id": "c0b52a27-ea66-49cc-a22f-619626247781",
+  "total_cost_usd": 0.027866000000000002,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4843,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 849,
+   "output_tokens_details": {
+    "thinking_tokens": 545
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4843,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 849,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4843,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4843
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 849,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4843,
+    "webSearchRequests": 0,
+    "costUSD": 0.027866000000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 545,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4843,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#29978\"], \"answer\": \"This looks like the known limitation in PowerToys#29978. On non-US keyboard layouts, Keyboard Manager can't reliably map to `[` or `]`, because those characters sit behind AltGr combinations. In that ticket the square-bracket keys couldn't be picked in the shortcut editor, and editing the key codes (219 and 221) in the config file had no effect. The ticket has no fix or confirmed workaround, and it was still open as of the last comment, in Dec 2024. Please add your layout, your exact mapping and your PowerToys version (0.100.2) to that ticket, and upvote it. Also note that Alt (Right) on many layouts is AltGr, which Windows treats as Ctrl+Alt. That may be why you only get `è`. PowerToys#29984 reports a related but different AltGr problem.\"}",
+  "ttft_ms": 5683,
+  "type": "result",
+  "duration_ms": 8135,
+  "uuid": "c452e813-4162-4e4e-be19-cfdcc2e56e5e",
+  "ttft_stream_ms": 1119,
+  "time_to_request_ms": 176,
+  "first_content_frame_ms": 1120,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 849,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4843,
+    "webSearchRequests": 0,
+    "costUSD": 0.027866000000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 545,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4843,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 8.978690677991835,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-w3yze21l/work"
+  }
+ },
+ "wall_seconds": 9.548329695011489,
+ "qid": "PowerToys#49452",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#29978"
+  ],
+  "answer": "This looks like the known limitation in PowerToys#29978. On non-US keyboard layouts, Keyboard Manager can't reliably map to `[` or `]`, because those characters sit behind AltGr combinations. In that ticket the square-bracket keys couldn't be picked in the shortcut editor, and editing the key codes (219 and 221) in the config file had no effect. The ticket has no fix or confirmed workaround, and it was still open as of the last comment, in Dec 2024. Please add your layout, your exact mapping and your PowerToys version (0.100.2) to that ticket, and upvote it. Also note that Alt (Right) on many layouts is AltGr, which Windows treats as Ctrl+Alt. That may be why you only get `è`. PowerToys#29984 reports a related but different AltGr problem."
+ },
+ "hit_turn_cap": false
+}

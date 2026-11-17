@@ -1,0 +1,279 @@
+{
+ "shown": [
+  "PowerToys#19511",
+  "PowerToys#30061",
+  "PowerToys#48909",
+  "WSL#11555",
+  "WSL#325",
+  "WSL#6968"
+ ],
+ "retrieval_seconds": 0.7310835260432214,
+ "tool_calls": [
+  {
+   "t": 1794884199.9494038,
+   "tool": "search",
+   "args": {
+    "pattern": "Image Resizer CLI",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07368546901852824,
+   "returned": []
+  },
+  {
+   "t": 1794884200.2154374,
+   "tool": "search",
+   "args": {
+    "pattern": "_fileNameFormat",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.09340232401154935,
+   "returned": []
+  },
+  {
+   "t": 1794884201.4047623,
+   "tool": "search",
+   "args": {
+    "pattern": "ImageResizerCLI",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.10902704900945537,
+   "returned": [
+    "PowerToys#48909"
+   ]
+  },
+  {
+   "t": 1794884201.6782105,
+   "tool": "search",
+   "args": {
+    "pattern": "FileNameFormat",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.09168969999882393,
+   "returned": []
+  },
+  {
+   "t": 1794884203.0848918,
+   "tool": "search",
+   "args": {
+    "pattern": "image resizer",
+    "regex": false,
+    "also": [
+     "filename",
+     "settings.json"
+    ],
+    "repo": null
+   },
+   "seconds": 0.26283957200939767,
+   "returned": [
+    "PowerToys#19511"
+   ]
+  },
+  {
+   "t": 1794884204.0085151,
+   "tool": "search",
+   "args": {
+    "pattern": "--filename",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.1004394119954668,
+   "returned": [
+    "PowerToys#30061",
+    "WSL#11555",
+    "WSL#6968",
+    "WSL#325"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7806,
+  "stop_reason": "end_turn",
+  "session_id": "6cfa1447-440d-49af-9f0d-37609c00c89b",
+  "total_cost_usd": 0.022681100000000003,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 2988,
+   "cache_read_input_tokens": 16951,
+   "output_tokens": 901,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 2988,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 286,
+     "cache_read_input_tokens": 4084,
+     "cache_creation_input_tokens": 81,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 81
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 901,
+    "cacheReadInputTokens": 16951,
+    "cacheCreationInputTokens": 2988,
+    "webSearchRequests": 0,
+    "costUSD": 0.022681100000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2988,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket that reports this problem. The searches returned only unrelated tickets, such as PowerToys#48909 (the CLI exe could not be found) and PowerToys#19511 (a height value in Image Resizer settings). Treat this as a new bug. Your analysis looks right: `Settings.Reload()` saves the defaults when settings.json is missing, and that save caches `_fileNameFormat` through the `FileNameFormat` getter. The `FileName` setter never clears the cache. The fix you suggested should work: clear `_fileNameFormat` in the `FileName` setter and mark `FileNameFormat` as `[JsonIgnore]`. Until that is fixed, running the CLI once so that settings.json exists, or opening Image Resizer settings, avoids the problem.\"}",
+  "ttft_ms": 983,
+  "type": "result",
+  "duration_ms": 8313,
+  "uuid": "ba574acc-5fde-486e-ae90-7adb52f12b22",
+  "ttft_stream_ms": 594,
+  "time_to_request_ms": 56,
+  "first_content_frame_ms": 595,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 901,
+    "cacheReadInputTokens": 16951,
+    "cacheCreationInputTokens": 2988,
+    "webSearchRequests": 0,
+    "costUSD": 0.022681100000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2988,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 9.9187236650032,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-296tqn05/work"
+  }
+ },
+ "wall_seconds": 9.920440129004419,
+ "qid": "PowerToys#51319",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket that reports this problem. The searches returned only unrelated tickets, such as PowerToys#48909 (the CLI exe could not be found) and PowerToys#19511 (a height value in Image Resizer settings). Treat this as a new bug. Your analysis looks right: `Settings.Reload()` saves the defaults when settings.json is missing, and that save caches `_fileNameFormat` through the `FileNameFormat` getter. The `FileName` setter never clears the cache. The fix you suggested should work: clear `_fileNameFormat` in the `FileName` setter and mark `FileNameFormat` as `[JsonIgnore]`. Until that is fixed, running the CLI once so that settings.json exists, or opening Image Resizer settings, avoids the problem."
+ },
+ "hit_turn_cap": false
+}

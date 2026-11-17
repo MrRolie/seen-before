@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#29394",
+  "PowerToys#22201",
+  "PowerToys#20131",
+  "PowerToys#36807",
+  "PowerToys#25363"
+ ],
+ "retrieval_seconds": 0.5265972269990016,
+ "retrieval_scores": [
+  0.03177805800756621,
+  0.0315136476426799,
+  0.029386529386529386,
+  0.027651515151515153,
+  0.027364110201042444
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3710,
+  "stop_reason": "end_turn",
+  "session_id": "745d079a-8bc6-445a-9923-b8586ff838d1",
+  "total_cost_usd": 0.024801999999999998,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5382,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 327,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5382,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 327,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5382,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5382
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 327,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5382,
+    "webSearchRequests": 0,
+    "costUSD": 0.024801999999999998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5382,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#25363\", \"PowerToys#29394\", \"PowerToys#22201\"], \"answer\": \"This general file converter / change-file-type request has been filed several times before. Past tickets say the feature is not planned as a single 'convert anything to anything' tool: changing a file's extension does not actually convert its contents (e.g. renaming a zip to exe or msi does not make it one, and DOC to PDF needs real conversion logic), and a universal converter crosses too many formats with data-loss, compression and licensing issues. Maintainers pointed to the tracking issues for specific cases (image conversion #2686, audio/video conversion #3442, and the general file converter duplicate #9743) where you can add a thumbs-up or context. In the meantime, use the app that handles the format, for example Word's 'Save as PDF' or the Photos app's save-as options, or a dedicated converter tool. Simply renaming the extension only changes the name, not the file's format.\"}",
+  "ttft_ms": 3873,
+  "type": "result",
+  "duration_ms": 3893,
+  "uuid": "13c309d9-1562-4fca-9d9a-8bd45e7d02fd",
+  "ttft_stream_ms": 1337,
+  "time_to_request_ms": 181,
+  "first_content_frame_ms": 1338,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 327,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5382,
+    "webSearchRequests": 0,
+    "costUSD": 0.024801999999999998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5382,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.847804986988194,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-u6o3sb9o/work"
+  }
+ },
+ "wall_seconds": 5.376302888005739,
+ "qid": "PowerToys#51924",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#25363",
+   "PowerToys#29394",
+   "PowerToys#22201"
+  ],
+  "answer": "This general file converter / change-file-type request has been filed several times before. Past tickets say the feature is not planned as a single 'convert anything to anything' tool: changing a file's extension does not actually convert its contents (e.g. renaming a zip to exe or msi does not make it one, and DOC to PDF needs real conversion logic), and a universal converter crosses too many formats with data-loss, compression and licensing issues. Maintainers pointed to the tracking issues for specific cases (image conversion #2686, audio/video conversion #3442, and the general file converter duplicate #9743) where you can add a thumbs-up or context. In the meantime, use the app that handles the format, for example Word's 'Save as PDF' or the Photos app's save-as options, or a dedicated converter tool. Simply renaming the extension only changes the name, not the file's format."
+ },
+ "hit_turn_cap": false
+}

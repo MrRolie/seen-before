@@ -1,0 +1,396 @@
+{
+ "shown": [
+  "PowerToys#10785",
+  "PowerToys#1084",
+  "PowerToys#11290",
+  "PowerToys#11482",
+  "PowerToys#11508",
+  "PowerToys#12260",
+  "PowerToys#12471",
+  "PowerToys#13",
+  "PowerToys#15439",
+  "PowerToys#15453",
+  "PowerToys#1601",
+  "PowerToys#17104",
+  "PowerToys#17831",
+  "PowerToys#1950",
+  "PowerToys#19537",
+  "PowerToys#21288",
+  "PowerToys#22162",
+  "PowerToys#23418",
+  "PowerToys#2428",
+  "PowerToys#25519",
+  "PowerToys#26049",
+  "PowerToys#27487",
+  "PowerToys#28072",
+  "PowerToys#31606",
+  "PowerToys#32373",
+  "PowerToys#32635",
+  "PowerToys#34542",
+  "PowerToys#35031",
+  "PowerToys#37932",
+  "PowerToys#40419",
+  "PowerToys#40669",
+  "PowerToys#42929",
+  "PowerToys#43278",
+  "PowerToys#44197",
+  "PowerToys#4485",
+  "PowerToys#5034",
+  "PowerToys#5519",
+  "PowerToys#5871",
+  "PowerToys#641",
+  "PowerToys#8052",
+  "PowerToys#8166",
+  "PowerToys#9476",
+  "PowerToys#97",
+  "PowerToys#9868"
+ ],
+ "retrieval_seconds": 3.958893223054474,
+ "tool_calls": [
+  {
+   "t": 1794885035.3666012,
+   "tool": "search",
+   "args": {
+    "query": "window opacity adjustment without Always On Top",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.9283716549980454,
+   "returned": [
+    "PowerToys#40419",
+    "PowerToys#9868",
+    "PowerToys#31606",
+    "PowerToys#34542",
+    "PowerToys#25519",
+    "PowerToys#19537",
+    "PowerToys#32373",
+    "PowerToys#43278",
+    "PowerToys#15439",
+    "PowerToys#26049",
+    "PowerToys#42929",
+    "PowerToys#15453",
+    "PowerToys#21288",
+    "PowerToys#5519",
+    "PowerToys#13",
+    "PowerToys#35031",
+    "PowerToys#28072",
+    "PowerToys#12260",
+    "PowerToys#8052",
+    "PowerToys#97"
+   ]
+  },
+  {
+   "t": 1794885035.3962765,
+   "tool": "search",
+   "args": {
+    "query": "make window transparent independent of pin always on top",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.015020185004686937,
+   "returned": [
+    "PowerToys#8052",
+    "PowerToys#9868",
+    "PowerToys#15453",
+    "PowerToys#1601",
+    "PowerToys#5519",
+    "PowerToys#12471",
+    "PowerToys#21288",
+    "PowerToys#641",
+    "PowerToys#13",
+    "PowerToys#11508",
+    "PowerToys#5034",
+    "PowerToys#10785",
+    "PowerToys#8166",
+    "PowerToys#40669",
+    "PowerToys#12260",
+    "PowerToys#11482",
+    "PowerToys#11290",
+    "PowerToys#4485",
+    "PowerToys#9476",
+    "PowerToys#15439"
+   ]
+  },
+  {
+   "t": 1794885037.0216126,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32373"
+   },
+   "seconds": 0.00013706699246540666,
+   "returned": [
+    "PowerToys#32373"
+   ]
+  },
+  {
+   "t": 1794885037.1955113,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40419"
+   },
+   "seconds": 0.00021039601415395737,
+   "returned": [
+    "PowerToys#40419"
+   ]
+  },
+  {
+   "t": 1794885038.9707599,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1084"
+   },
+   "seconds": 0.00014904598356224597,
+   "returned": [
+    "PowerToys#1084"
+   ]
+  },
+  {
+   "t": 1794885040.465158,
+   "tool": "search",
+   "args": {
+    "query": "transparency for any window, not just always on top windows",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014493826020043343,
+   "returned": [
+    "PowerToys#5871",
+    "PowerToys#27487",
+    "PowerToys#1084",
+    "PowerToys#97",
+    "PowerToys#1950",
+    "PowerToys#23418",
+    "PowerToys#22162",
+    "PowerToys#42929",
+    "PowerToys#25519",
+    "PowerToys#28072",
+    "PowerToys#15439",
+    "PowerToys#2428",
+    "PowerToys#17104",
+    "PowerToys#37932",
+    "PowerToys#15453",
+    "PowerToys#32635",
+    "PowerToys#9868",
+    "PowerToys#17831",
+    "PowerToys#11482",
+    "PowerToys#44197"
+   ]
+  },
+  {
+   "t": 1794885042.2660174,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32635"
+   },
+   "seconds": 0.0001229470071848482,
+   "returned": [
+    "PowerToys#32635"
+   ]
+  },
+  {
+   "t": 1794885042.4153776,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#27487"
+   },
+   "seconds": 0.0001588660234119743,
+   "returned": [
+    "PowerToys#27487"
+   ]
+  },
+  {
+   "t": 1794885043.8556247,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#22162"
+   },
+   "seconds": 0.00022923501092009246,
+   "returned": [
+    "PowerToys#22162"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13612,
+  "stop_reason": "end_turn",
+  "session_id": "876464d9-3302-4486-b665-cf096c104ad8",
+  "total_cost_usd": 0.056875800000000004,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 10740,
+   "cache_read_input_tokens": 42578,
+   "output_tokens": 963,
+   "output_tokens_details": {
+    "thinking_tokens": 45
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10740,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 259,
+     "cache_read_input_tokens": 11200,
+     "cache_creation_input_tokens": 573,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 573
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 963,
+    "cacheReadInputTokens": 42578,
+    "cacheCreationInputTokens": 10740,
+    "webSearchRequests": 0,
+    "costUSD": 0.056875800000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 45,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10740,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#1084\", \"PowerToys#32635\", \"PowerToys#22162\"], \"answer\": \"This feature request has been filed before. It asks for a way to make any window transparent, with adjustable opacity, that doesn't depend on Always On Top. The team closes these requests as duplicates of PowerToys#1084 (\\\"Make windows Acrylic / Transparent\\\"), so that is where it is tracked. PowerToys has no such feature today. Always On Top has no opacity control either. Add a thumbs-up and your use case (a transparent window that doesn't stay on top) to #1084. The tickets don't offer a built-in workaround. Other commenters mention the third-party tools MenuTools and Glass2k for per-window transparency.\"}",
+  "ttft_ms": 2157,
+  "type": "result",
+  "duration_ms": 17692,
+  "uuid": "000296f6-5765-4c54-be98-7acab886179d",
+  "ttft_stream_ms": 1160,
+  "time_to_request_ms": 42,
+  "first_content_frame_ms": 1160,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 963,
+    "cacheReadInputTokens": 42578,
+    "cacheCreationInputTokens": 10740,
+    "webSearchRequests": 0,
+    "costUSD": 0.056875800000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 45,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10740,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 19.03378865198465,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-rfnfy94_/work"
+  }
+ },
+ "wall_seconds": 19.035555492009735,
+ "qid": "PowerToys#51802",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#1084",
+   "PowerToys#32635",
+   "PowerToys#22162"
+  ],
+  "answer": "This feature request has been filed before. It asks for a way to make any window transparent, with adjustable opacity, that doesn't depend on Always On Top. The team closes these requests as duplicates of PowerToys#1084 (\"Make windows Acrylic / Transparent\"), so that is where it is tracked. PowerToys has no such feature today. Always On Top has no opacity control either. Add a thumbs-up and your use case (a transparent window that doesn't stay on top) to #1084. The tickets don't offer a built-in workaround. Other commenters mention the third-party tools MenuTools and Glass2k for per-window transparency."
+ },
+ "hit_turn_cap": false
+}

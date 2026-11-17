@@ -1,0 +1,411 @@
+{
+ "shown": [
+  "PowerToys#10398",
+  "PowerToys#11718",
+  "PowerToys#1242",
+  "PowerToys#1349",
+  "PowerToys#13740",
+  "PowerToys#169",
+  "PowerToys#1690",
+  "PowerToys#18349",
+  "PowerToys#22588",
+  "PowerToys#24519",
+  "PowerToys#261",
+  "PowerToys#3149",
+  "PowerToys#3217",
+  "PowerToys#3921",
+  "PowerToys#399",
+  "PowerToys#40621",
+  "PowerToys#4397",
+  "PowerToys#45591",
+  "PowerToys#45592",
+  "PowerToys#45955",
+  "PowerToys#45998",
+  "PowerToys#46097",
+  "PowerToys#46225",
+  "PowerToys#46236",
+  "PowerToys#46268",
+  "PowerToys#46308",
+  "PowerToys#46353",
+  "PowerToys#46432",
+  "PowerToys#46505",
+  "PowerToys#46627",
+  "PowerToys#46676",
+  "PowerToys#46740",
+  "PowerToys#46882",
+  "PowerToys#46937",
+  "PowerToys#46939",
+  "PowerToys#47092",
+  "PowerToys#47155",
+  "PowerToys#47330",
+  "PowerToys#47496",
+  "PowerToys#47765",
+  "PowerToys#48179",
+  "PowerToys#48456",
+  "PowerToys#48466",
+  "PowerToys#48516",
+  "PowerToys#48680",
+  "PowerToys#48833",
+  "PowerToys#48933",
+  "PowerToys#49053",
+  "PowerToys#6980",
+  "PowerToys#8561",
+  "PowerToys#9991"
+ ],
+ "retrieval_seconds": 3.7130828490189742,
+ "tool_calls": [
+  {
+   "t": 1794877756.6571908,
+   "tool": "search",
+   "args": {
+    "query": "Command Palette Dock not visible after monitor disconnected and reconnected",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.662877260998357,
+   "returned": [
+    "PowerToys#46097",
+    "PowerToys#46268",
+    "PowerToys#48833",
+    "PowerToys#49053",
+    "PowerToys#45591",
+    "PowerToys#48516",
+    "PowerToys#46353",
+    "PowerToys#45592",
+    "PowerToys#47496",
+    "PowerToys#169",
+    "PowerToys#46308",
+    "PowerToys#47155",
+    "PowerToys#46225",
+    "PowerToys#45955",
+    "PowerToys#40621",
+    "PowerToys#46236",
+    "PowerToys#45998",
+    "PowerToys#46627",
+    "PowerToys#47330",
+    "PowerToys#47092"
+   ]
+  },
+  {
+   "t": 1794877756.684173,
+   "tool": "search",
+   "args": {
+    "query": "dock disappears on secondary monitor after reconnect, settings only list primary monitor",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.013323002000106499,
+   "returned": [
+    "PowerToys#18349",
+    "PowerToys#48833",
+    "PowerToys#48516",
+    "PowerToys#169",
+    "PowerToys#47765",
+    "PowerToys#3217",
+    "PowerToys#46236",
+    "PowerToys#1349",
+    "PowerToys#6980",
+    "PowerToys#22588",
+    "PowerToys#46939",
+    "PowerToys#1690",
+    "PowerToys#49053",
+    "PowerToys#46097",
+    "PowerToys#13740",
+    "PowerToys#4397",
+    "PowerToys#46740",
+    "PowerToys#261",
+    "PowerToys#46432",
+    "PowerToys#46505"
+   ]
+  },
+  {
+   "t": 1794877758.270185,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48516"
+   },
+   "seconds": 0.0001501560036558658,
+   "returned": [
+    "PowerToys#48516"
+   ]
+  },
+  {
+   "t": 1794877758.4297595,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#49053"
+   },
+   "seconds": 0.00011018701479770243,
+   "returned": [
+    "PowerToys#49053"
+   ]
+  },
+  {
+   "t": 1794877759.7793934,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48466"
+   },
+   "seconds": 0.00012392699136398733,
+   "returned": [
+    "PowerToys#48466"
+   ]
+  },
+  {
+   "t": 1794877761.5692832,
+   "tool": "search",
+   "args": {
+    "query": "dock empty or missing after external monitor reconnect, settings list only laptop display",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.013750160025665537,
+   "returned": [
+    "PowerToys#48833",
+    "PowerToys#48516",
+    "PowerToys#46236",
+    "PowerToys#48179",
+    "PowerToys#47765",
+    "PowerToys#3217",
+    "PowerToys#3921",
+    "PowerToys#18349",
+    "PowerToys#169",
+    "PowerToys#46097",
+    "PowerToys#3149",
+    "PowerToys#46882",
+    "PowerToys#1690",
+    "PowerToys#49053",
+    "PowerToys#24519",
+    "PowerToys#48680",
+    "PowerToys#22588",
+    "PowerToys#11718",
+    "PowerToys#8561",
+    "PowerToys#399"
+   ]
+  },
+  {
+   "t": 1794877762.9651659,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46097"
+   },
+   "seconds": 0.00010711699724197388,
+   "returned": [
+    "PowerToys#46097"
+   ]
+  },
+  {
+   "t": 1794877765.297718,
+   "tool": "search",
+   "args": {
+    "query": "dock per-monitor settings lost when monitor unplugged, empty dock at wrong size on reconnected monitor",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.022641038987785578,
+   "returned": [
+    "PowerToys#48833",
+    "PowerToys#48516",
+    "PowerToys#1349",
+    "PowerToys#18349",
+    "PowerToys#46097",
+    "PowerToys#3217",
+    "PowerToys#46236",
+    "PowerToys#46937",
+    "PowerToys#47765",
+    "PowerToys#169",
+    "PowerToys#49053",
+    "PowerToys#261",
+    "PowerToys#1242",
+    "PowerToys#1690",
+    "PowerToys#46676",
+    "PowerToys#48456",
+    "PowerToys#6980",
+    "PowerToys#48933",
+    "PowerToys#9991",
+    "PowerToys#10398"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 14667,
+  "stop_reason": "end_turn",
+  "session_id": "7a96bf4b-5e1c-4dfc-9488-bb52f736acaa",
+  "total_cost_usd": 0.054294499999999996,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 9800,
+   "cache_read_input_tokens": 40465,
+   "output_tokens": 1102,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9800,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 411,
+     "cache_read_input_tokens": 9390,
+     "cache_creation_input_tokens": 1443,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1443
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1102,
+    "cacheReadInputTokens": 40465,
+    "cacheCreationInputTokens": 9800,
+    "webSearchRequests": 0,
+    "costUSD": 0.054294499999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9800,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "```json\n{\"seen_before\": true, \"matches\": [\"PowerToys#48516\", \"PowerToys#49053\"], \"answer\": \"This has been reported before. In PowerToys#48516 (0.100.0), the Command Palette Dock binds to specific monitors. When the monitor setup changes, for example when a laptop is docked or undocked, the settings page often lists only the built-in display. The dock then either doesn't show or shows up empty and at the wrong size. That matches what you describe. PowerToys#49053 (0.100.2) reports similar behaviour: the dock lost its per-monitor settings and only saw one monitor after a display change (an RDP session in that case). I found no fix or confirmed workaround in either ticket. In #49053, restarting PowerToys eventually fixed the wrong display numbering and resolution, though not the lost settings. So try fully exiting and restarting PowerToys after reconnecting the monitor. Then check whether the monitor is listed again in the Dock settings and re-enable the dock on it. You may have to reconfigure its bands. If it still doesn't work, add your details (0.100.2, an ultrawide 3440 monitor and a 2560 laptop display) to #48516 and attach a bug report ZIP.\"}\n```",
+  "ttft_ms": 2278,
+  "type": "result",
+  "duration_ms": 18473,
+  "uuid": "8bcaa684-6c82-4227-9307-e82fca670215",
+  "ttft_stream_ms": 1268,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 1268,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1102,
+    "cacheReadInputTokens": 40465,
+    "cacheCreationInputTokens": 9800,
+    "webSearchRequests": 0,
+    "costUSD": 0.054294499999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9800,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 19.744923564983765,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-nt2u1kgn/work"
+  }
+ },
+ "wall_seconds": 19.746482743008528,
+ "qid": "PowerToys#49251",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48516",
+   "PowerToys#49053"
+  ],
+  "answer": "This has been reported before. In PowerToys#48516 (0.100.0), the Command Palette Dock binds to specific monitors. When the monitor setup changes, for example when a laptop is docked or undocked, the settings page often lists only the built-in display. The dock then either doesn't show or shows up empty and at the wrong size. That matches what you describe. PowerToys#49053 (0.100.2) reports similar behaviour: the dock lost its per-monitor settings and only saw one monitor after a display change (an RDP session in that case). I found no fix or confirmed workaround in either ticket. In #49053, restarting PowerToys eventually fixed the wrong display numbering and resolution, though not the lost settings. So try fully exiting and restarting PowerToys after reconnecting the monitor. Then check whether the monitor is listed again in the Dock settings and re-enable the dock on it. You may have to reconfigure its bands. If it still doesn't work, add your details (0.100.2, an ultrawide 3440 monitor and a 2560 laptop display) to #48516 and attach a bug report ZIP."
+ },
+ "hit_turn_cap": false
+}

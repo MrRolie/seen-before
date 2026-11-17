@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "terminal#9082",
+  "terminal#8412",
+  "terminal#835",
+  "terminal#9099",
+  "terminal#16387"
+ ],
+ "retrieval_seconds": 0.3622073069855105,
+ "retrieval_scores": [
+  0.031009615384615385,
+  0.027623285131627734,
+  0.027252906976744186,
+  0.025917252146760345,
+  0.018779756656674307
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2078,
+  "stop_reason": "end_turn",
+  "session_id": "cb8b4848-1844-4a4d-b1f3-ebe508270283",
+  "total_cost_usd": 0.03347,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 7769,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 239,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7769,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 239,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 7769,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7769
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 239,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7769,
+    "webSearchRequests": 0,
+    "costUSD": 0.03347,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7769,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#835\", \"terminal#9082\", \"terminal#8412\"], \"answer\": \"This has been requested before. Vertical/side tabs like Edge's are tracked in terminal#835, which the other requests (terminal#9082 and terminal#8412) were closed as duplicates of. There is no setting for it today. The blocker is that the WinUI TabView control only supports tabs above the content. The maintainers have said it is not on their schedule, but they would accept a contribution, ideally as a WinUI change (tracked upstream at microsoft-ui-xaml#2194) or a forked TabView. Add your thumbs-up or use case to terminal#835 rather than opening a new issue.\"}",
+  "ttft_ms": 2277,
+  "type": "result",
+  "duration_ms": 2294,
+  "uuid": "3993cbad-73c0-4a2c-8f31-b1971026e251",
+  "ttft_stream_ms": 682,
+  "time_to_request_ms": 214,
+  "first_content_frame_ms": 683,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 239,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7769,
+    "webSearchRequests": 0,
+    "costUSD": 0.03347,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7769,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.317794893984683,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-zm90p9mo/work"
+  }
+ },
+ "wall_seconds": 3.682961032987805,
+ "qid": "terminal#20708",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#835",
+   "terminal#9082",
+   "terminal#8412"
+  ],
+  "answer": "This has been requested before. Vertical/side tabs like Edge's are tracked in terminal#835, which the other requests (terminal#9082 and terminal#8412) were closed as duplicates of. There is no setting for it today. The blocker is that the WinUI TabView control only supports tabs above the content. The maintainers have said it is not on their schedule, but they would accept a contribution, ideally as a WinUI change (tracked upstream at microsoft-ui-xaml#2194) or a forked TabView. Add your thumbs-up or use case to terminal#835 rather than opening a new issue."
+ },
+ "hit_turn_cap": false
+}

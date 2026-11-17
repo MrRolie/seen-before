@@ -1,0 +1,265 @@
+{
+ "shown": [
+  "terminal#10926",
+  "terminal#11860",
+  "terminal#1210",
+  "terminal#1297",
+  "terminal#1652",
+  "terminal#19610",
+  "terminal#2472",
+  "terminal#3838",
+  "terminal#3986",
+  "terminal#4365",
+  "terminal#4426",
+  "terminal#467",
+  "terminal#482",
+  "terminal#584",
+  "terminal#671",
+  "terminal#7281",
+  "terminal#7282",
+  "terminal#775",
+  "terminal#9128",
+  "terminal#922"
+ ],
+ "retrieval_seconds": 4.207959555002162,
+ "tool_calls": [
+  {
+   "t": 1794879091.8194928,
+   "tool": "search",
+   "args": {
+    "pattern": "UITestExtensionPackages",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07795743900351226,
+   "returned": []
+  },
+  {
+   "t": 1794879096.233137,
+   "tool": "similar",
+   "args": {
+    "query": "Host.Tests.UIA VSTT UITestExtensionPackages path does not exist",
+    "repo": "terminal"
+   },
+   "seconds": 4.046925418020692,
+   "returned": [
+    "terminal#671",
+    "terminal#7282",
+    "terminal#4426",
+    "terminal#1210",
+    "terminal#7281",
+    "terminal#3838",
+    "terminal#467",
+    "terminal#19610",
+    "terminal#775",
+    "terminal#3986",
+    "terminal#1297",
+    "terminal#4365",
+    "terminal#482",
+    "terminal#2472",
+    "terminal#10926",
+    "terminal#1652",
+    "terminal#584",
+    "terminal#11860",
+    "terminal#9128",
+    "terminal#922"
+   ]
+  },
+  {
+   "t": 1794879097.0487916,
+   "tool": "search",
+   "args": {
+    "pattern": "VSTT",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.08307669797795825,
+   "returned": []
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 4626,
+  "stop_reason": "end_turn",
+  "session_id": "21133afa-f158-4102-94e6-ccba26f69d8d",
+  "total_cost_usd": 0.014243299999999999,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 2187,
+   "cache_read_input_tokens": 7033,
+   "output_tokens": 478,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 2187,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 256,
+     "cache_read_input_tokens": 3515,
+     "cache_creation_input_tokens": 85,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 85
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 478,
+    "cacheReadInputTokens": 7033,
+    "cacheCreationInputTokens": 2187,
+    "webSearchRequests": 0,
+    "costUSD": 0.014243299999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2187,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 4,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket that reports this path (C:\\\\Program Files\\\\Common Files\\\\microsoft shared\\\\VSTT\\\\17.0\\\\UITestExtensionPackages) or a missing VSTT folder. I can't confirm the cause from the archive. The path looks like a default Visual Studio test-extension location that the UIA test project references. It is probably only created when the Visual Studio UI test components are installed, so it is likely harmless if you aren't running those tests. To get the folder, you could install the Visual Studio component that provides the UI test extensions. If you just want to build the Terminal, you can ignore the path. Please include your Terminal version and the full error text, because the screenshot alone doesn't show the failure.\"}",
+  "ttft_ms": 876,
+  "type": "result",
+  "duration_ms": 8802,
+  "uuid": "eab0da61-a622-4cee-b42c-8f9aee107242",
+  "ttft_stream_ms": 590,
+  "time_to_request_ms": 39,
+  "first_content_frame_ms": 591,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 478,
+    "cacheReadInputTokens": 7033,
+    "cacheCreationInputTokens": 2187,
+    "webSearchRequests": 0,
+    "costUSD": 0.014243299999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2187,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.338134191988502,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-48ka56th/work"
+  }
+ },
+ "wall_seconds": 10.34011956199538,
+ "qid": "terminal#20483",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket that reports this path (C:\\Program Files\\Common Files\\microsoft shared\\VSTT\\17.0\\UITestExtensionPackages) or a missing VSTT folder. I can't confirm the cause from the archive. The path looks like a default Visual Studio test-extension location that the UIA test project references. It is probably only created when the Visual Studio UI test components are installed, so it is likely harmless if you aren't running those tests. To get the folder, you could install the Visual Studio component that provides the UI test extensions. If you just want to build the Terminal, you can ignore the path. Please include your Terminal version and the full error text, because the screenshot alone doesn't show the failure."
+ },
+ "hit_turn_cap": false
+}

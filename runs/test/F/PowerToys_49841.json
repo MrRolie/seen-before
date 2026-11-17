@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#40206",
+  "PowerToys#33774",
+  "PowerToys#10497",
+  "PowerToys#40647",
+  "PowerToys#25572"
+ ],
+ "retrieval_seconds": 0.39205517299706116,
+ "retrieval_scores": [
+  0.03047794966520434,
+  0.030017921146953404,
+  0.02928692699490662,
+  0.028404512489927477,
+  0.025708635464733027
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3968,
+  "stop_reason": "end_turn",
+  "session_id": "5e611eea-ba7d-4ebd-8ec5-650adba93452",
+  "total_cost_usd": 0.022556,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4883,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 302,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4883,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 302,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4883,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4883
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 302,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4883,
+    "webSearchRequests": 0,
+    "costUSD": 0.022556,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4883,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#40206\", \"PowerToys#33774\", \"PowerToys#10497\"], \"answer\": \"This feature request has been filed before: making Keyboard Manager remappings depend on the active input method or language. #40206 asks for the same thing (activating a remap set only when a given input language is selected). #33774 was triaged by the team as 'KBM profiles mapped to IMEs'. The maintainer said it would be possible to auto-switch if the IME shift can be detected, and cross-referenced the profile-switching request #1881. #10497 asks for remapping by input mode and was left without a resolution. The feature is not implemented yet. Add a 👍 reaction to #40206 or #33774 to show interest. In the meantime, KBM mappings apply regardless of the input method, so you would have to enable or disable them manually, or use a third-party tool such as AutoHotkey.\"}",
+  "ttft_ms": 4164,
+  "type": "result",
+  "duration_ms": 4189,
+  "uuid": "9a4fe09c-7cb5-4e36-bc61-1950820d3a4c",
+  "ttft_stream_ms": 1444,
+  "time_to_request_ms": 218,
+  "first_content_frame_ms": 1444,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 302,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4883,
+    "webSearchRequests": 0,
+    "costUSD": 0.022556,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4883,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 5.130939614988165,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-q0s7_f3v/work"
+  }
+ },
+ "wall_seconds": 5.5248356480151415,
+ "qid": "PowerToys#49841",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#40206",
+   "PowerToys#33774",
+   "PowerToys#10497"
+  ],
+  "answer": "This feature request has been filed before: making Keyboard Manager remappings depend on the active input method or language. #40206 asks for the same thing (activating a remap set only when a given input language is selected). #33774 was triaged by the team as 'KBM profiles mapped to IMEs'. The maintainer said it would be possible to auto-switch if the IME shift can be detected, and cross-referenced the profile-switching request #1881. #10497 asks for remapping by input mode and was left without a resolution. The feature is not implemented yet. Add a 👍 reaction to #40206 or #33774 to show interest. In the meantime, KBM mappings apply regardless of the input method, so you would have to enable or disable them manually, or use a third-party tool such as AutoHotkey."
+ },
+ "hit_turn_cap": false
+}

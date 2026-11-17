@@ -1,0 +1,372 @@
+{
+ "shown": [
+  "PowerToys#13857",
+  "PowerToys#15202",
+  "PowerToys#15281",
+  "PowerToys#15453",
+  "PowerToys#15545",
+  "PowerToys#168",
+  "PowerToys#169",
+  "PowerToys#18413",
+  "PowerToys#18673",
+  "PowerToys#193",
+  "PowerToys#20276",
+  "PowerToys#20942",
+  "PowerToys#21302",
+  "PowerToys#23443",
+  "PowerToys#24412",
+  "PowerToys#30",
+  "PowerToys#30038",
+  "PowerToys#32",
+  "PowerToys#32090",
+  "PowerToys#3715",
+  "PowerToys#38287",
+  "PowerToys#40608",
+  "PowerToys#40669",
+  "PowerToys#44702",
+  "PowerToys#45201",
+  "PowerToys#47058",
+  "PowerToys#6696"
+ ],
+ "retrieval_seconds": 3.3817521959426813,
+ "tool_calls": [
+  {
+   "t": 1794880391.7400417,
+   "tool": "similar",
+   "args": {
+    "query": "Always on Top border blocks clicks on other virtual desktops after switching desktop",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.190139296988491,
+   "returned": [
+    "PowerToys#168",
+    "PowerToys#15453",
+    "PowerToys#20276",
+    "PowerToys#40669",
+    "PowerToys#44702",
+    "PowerToys#20942",
+    "PowerToys#18673",
+    "PowerToys#169",
+    "PowerToys#15545",
+    "PowerToys#24412",
+    "PowerToys#38287",
+    "PowerToys#15202",
+    "PowerToys#3715",
+    "PowerToys#15281",
+    "PowerToys#30038",
+    "PowerToys#6696",
+    "PowerToys#32",
+    "PowerToys#47058",
+    "PowerToys#193",
+    "PowerToys#30"
+   ]
+  },
+  {
+   "t": 1794880393.1293972,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44702"
+   },
+   "seconds": 0.00018107498181052506,
+   "returned": [
+    "PowerToys#44702"
+   ]
+  },
+  {
+   "t": 1794880393.4439654,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#24412"
+   },
+   "seconds": 0.00016461600898765028,
+   "returned": [
+    "PowerToys#24412"
+   ]
+  },
+  {
+   "t": 1794880393.560081,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#18673"
+   },
+   "seconds": 0.00014869598089717329,
+   "returned": [
+    "PowerToys#18673"
+   ]
+  },
+  {
+   "t": 1794880395.5228684,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21302"
+   },
+   "seconds": 0.00019661500118672848,
+   "returned": [
+    "PowerToys#21302"
+   ]
+  },
+  {
+   "t": 1794880395.6216986,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40608"
+   },
+   "seconds": 0.00014539601397700608,
+   "returned": [
+    "PowerToys#40608"
+   ]
+  },
+  {
+   "t": 1794880397.060018,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#23443"
+   },
+   "seconds": 0.00011456597712822258,
+   "returned": [
+    "PowerToys#23443"
+   ]
+  },
+  {
+   "t": 1794880400.9866924,
+   "tool": "search",
+   "args": {
+    "pattern": "click",
+    "regex": false,
+    "also": [
+     "always on top",
+     "virtual desktop",
+     "border"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.19020236798678525,
+   "returned": [
+    "PowerToys#45201",
+    "PowerToys#47058",
+    "PowerToys#32090",
+    "PowerToys#13857"
+   ]
+  },
+  {
+   "t": 1794880402.3779821,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32090"
+   },
+   "seconds": 0.0001668450131546706,
+   "returned": [
+    "PowerToys#32090"
+   ]
+  },
+  {
+   "t": 1794880404.7855165,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#18413"
+   },
+   "seconds": 0.0001605649886187166,
+   "returned": [
+    "PowerToys#18413"
+   ]
+  },
+  {
+   "t": 1794880406.3324034,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#20276"
+   },
+   "seconds": 0.00013215700164437294,
+   "returned": [
+    "PowerToys#20276"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 21790,
+  "stop_reason": "end_turn",
+  "session_id": "b27092ae-d751-4305-bfbe-503095b4f840",
+  "total_cost_usd": 0.0659086,
+  "usage": {
+   "input_tokens": 20,
+   "cache_creation_input_tokens": 10546,
+   "cache_read_input_tokens": 73146,
+   "output_tokens": 1637,
+   "output_tokens_details": {
+    "thinking_tokens": 111
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10546,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 562,
+     "cache_read_input_tokens": 11658,
+     "cache_creation_input_tokens": 301,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 301
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 20,
+    "outputTokens": 1637,
+    "cacheReadInputTokens": 73146,
+    "cacheCreationInputTokens": 10546,
+    "webSearchRequests": 0,
+    "costUSD": 0.0659086,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 111,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10546,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#44702\", \"PowerToys#24412\", \"PowerToys#40608\"], \"answer\": \"This looks like a known Always on Top bug. The border of a pinned window stays visible on other virtual desktops after you switch away from it. Earlier tickets (#44702, #24412, #40608) report the same thing. None of them mention the leftover area blocking mouse clicks, which is the extra detail in your report. #44702 was closed as a duplicate of the general stale-border tickets (#21302 and #18413), and #24412 is the main open ticket for the virtual-desktop case. No fix is recorded in the archive. These workarounds come from the tickets, and they are not confirmed fixes for the click-blocking:\\n- Change focus by clicking another window or the desktop, or press a keyboard shortcut. #24412 and #40608 say this clears the stale border, and #24412 says switching desktops again sometimes does too.\\n- Restart PowerToys, or turn Always on Top off and on. #21302 says a restart removes ghost borders.\\n- Turn off \\\"Show a border around the pinned window\\\" in the Always on Top settings. This is my own suggestion and isn't in the tickets. The border is the visible sign of the problem, so it may stop the overlay appearing.\\n\\nPlease add your details to #24412. In particular, say that the leftover area blocks clicks on the other desktops and that it happens on 0.100.2. The bug-report ZIP (right-click the tray icon and choose Report Bug) would also help.\"}",
+  "ttft_ms": 2175,
+  "type": "result",
+  "duration_ms": 25270,
+  "uuid": "17301a35-c96f-4918-995a-da0b1f379aeb",
+  "ttft_stream_ms": 1194,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 1194,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 20,
+    "outputTokens": 1637,
+    "cacheReadInputTokens": 73146,
+    "cacheCreationInputTokens": 10546,
+    "webSearchRequests": 0,
+    "costUSD": 0.0659086,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 111,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10546,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 26.502044009015663,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-uc368ed2/work"
+  }
+ },
+ "wall_seconds": 26.503727784001967,
+ "qid": "PowerToys#49960",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#44702",
+   "PowerToys#24412",
+   "PowerToys#40608"
+  ],
+  "answer": "This looks like a known Always on Top bug. The border of a pinned window stays visible on other virtual desktops after you switch away from it. Earlier tickets (#44702, #24412, #40608) report the same thing. None of them mention the leftover area blocking mouse clicks, which is the extra detail in your report. #44702 was closed as a duplicate of the general stale-border tickets (#21302 and #18413), and #24412 is the main open ticket for the virtual-desktop case. No fix is recorded in the archive. These workarounds come from the tickets, and they are not confirmed fixes for the click-blocking:\n- Change focus by clicking another window or the desktop, or press a keyboard shortcut. #24412 and #40608 say this clears the stale border, and #24412 says switching desktops again sometimes does too.\n- Restart PowerToys, or turn Always on Top off and on. #21302 says a restart removes ghost borders.\n- Turn off \"Show a border around the pinned window\" in the Always on Top settings. This is my own suggestion and isn't in the tickets. The border is the visible sign of the problem, so it may stop the overlay appearing.\n\nPlease add your details to #24412. In particular, say that the leftover area blocks clicks on the other desktops and that it happens on 0.100.2. The bug-report ZIP (right-click the tray icon and choose Report Bug) would also help."
+ },
+ "hit_turn_cap": false
+}

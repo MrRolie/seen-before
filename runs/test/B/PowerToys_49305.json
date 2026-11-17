@@ -1,0 +1,352 @@
+{
+ "shown": [
+  "PowerToys#16011",
+  "PowerToys#16257",
+  "PowerToys#1684",
+  "PowerToys#17865",
+  "PowerToys#21001",
+  "PowerToys#21650",
+  "PowerToys#24461",
+  "PowerToys#24639",
+  "PowerToys#24648",
+  "PowerToys#24952",
+  "PowerToys#25192",
+  "PowerToys#25678",
+  "PowerToys#27029",
+  "PowerToys#27385",
+  "PowerToys#27449",
+  "PowerToys#28052",
+  "PowerToys#28982",
+  "PowerToys#29227",
+  "PowerToys#30556",
+  "PowerToys#31745",
+  "PowerToys#31858",
+  "PowerToys#33016",
+  "PowerToys#33054",
+  "PowerToys#33062",
+  "PowerToys#33109",
+  "PowerToys#33161",
+  "PowerToys#33212",
+  "PowerToys#37981",
+  "PowerToys#40202",
+  "PowerToys#40681",
+  "PowerToys#41067",
+  "PowerToys#45574",
+  "PowerToys#46007",
+  "PowerToys#47325",
+  "PowerToys#671",
+  "PowerToys#8305",
+  "PowerToys#9356",
+  "terminal#1469"
+ ],
+ "retrieval_seconds": 0.208424414973706,
+ "tool_calls": [
+  {
+   "t": 1794877936.4596262,
+   "tool": "search",
+   "args": {
+    "pattern": "plain text",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.042840629001148045,
+   "returned": [
+    "PowerToys#1684",
+    "PowerToys#29227",
+    "PowerToys#25678",
+    "PowerToys#33054",
+    "PowerToys#33212",
+    "PowerToys#31745",
+    "PowerToys#28052",
+    "PowerToys#27029",
+    "PowerToys#24648",
+    "PowerToys#45574",
+    "PowerToys#41067",
+    "PowerToys#33062",
+    "PowerToys#33016",
+    "PowerToys#31858",
+    "PowerToys#30556",
+    "PowerToys#28982",
+    "PowerToys#27449",
+    "PowerToys#24639",
+    "PowerToys#46007",
+    "PowerToys#40681"
+   ]
+  },
+  {
+   "t": 1794877936.7550943,
+   "tool": "search",
+   "args": {
+    "pattern": "copy as plain text",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.050477759999921545,
+   "returned": [
+    "PowerToys#25192",
+    "PowerToys#1684",
+    "terminal#1469",
+    "PowerToys#47325",
+    "PowerToys#30556",
+    "PowerToys#21001"
+   ]
+  },
+  {
+   "t": 1794877937.613849,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#25192"
+   },
+   "seconds": 9.630800923332572e-05,
+   "returned": [
+    "PowerToys#25192"
+   ]
+  },
+  {
+   "t": 1794877937.7404995,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21001"
+   },
+   "seconds": 0.00011920699034817517,
+   "returned": [
+    "PowerToys#21001"
+   ]
+  },
+  {
+   "t": 1794877938.5499718,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1684"
+   },
+   "seconds": 0.00017430598381906748,
+   "returned": [
+    "PowerToys#1684"
+   ]
+  },
+  {
+   "t": 1794877939.7134511,
+   "tool": "search",
+   "args": {
+    "pattern": "copy",
+    "regex": false,
+    "also": [
+     "plain text",
+     "formatting"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11471620498923585,
+   "returned": [
+    "PowerToys#16257",
+    "PowerToys#47325",
+    "PowerToys#40681",
+    "PowerToys#21001",
+    "PowerToys#1684",
+    "PowerToys#40202",
+    "PowerToys#9356",
+    "PowerToys#8305",
+    "PowerToys#671",
+    "PowerToys#37981",
+    "PowerToys#33109",
+    "PowerToys#33161",
+    "PowerToys#33054",
+    "PowerToys#33016",
+    "PowerToys#27385",
+    "PowerToys#24952",
+    "PowerToys#24461",
+    "PowerToys#21650",
+    "PowerToys#17865",
+    "PowerToys#16011"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7781,
+  "stop_reason": "end_turn",
+  "session_id": "9370283e-f8b5-42f0-8189-947b2ed728ed",
+  "total_cost_usd": 0.0668871,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 13816,
+   "cache_read_input_tokens": 28431,
+   "output_tokens": 876,
+   "output_tokens_details": {
+    "thinking_tokens": 114
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13816,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 446,
+     "cache_read_input_tokens": 11206,
+     "cache_creation_input_tokens": 3787,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3787
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 876,
+    "cacheReadInputTokens": 28431,
+    "cacheCreationInputTokens": 13816,
+    "webSearchRequests": 0,
+    "costUSD": 0.0668871,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 114,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13816,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#25192\", \"PowerToys#21001\", \"PowerToys#1684\"], \"answer\": \"This feature request has been filed before. PowerToys#25192 asks for a \\\"Copy as plain text\\\" option, and PowerToys#21001 asks to copy text without formatting. PowerToys#21001 was closed as a duplicate of PowerToys#1684, the original Paste as Plain Text request, which also has a suggestion for a Ctrl+Shift+C copy-as-plain-text shortcut. The archive shows no implemented copy-as-plain-text feature, so there is no built-in fix yet. You can add your use case, the LibreOffice Writer behaviour you saw, to those tickets as a thumbs-up or comment. Until then, the workaround the tickets describe is to paste into a plain editor such as Notepad or the Run prompt and copy the text again. You can also use the paste-as-plain-text function inside the destination app, as you already do.\"}",
+  "ttft_ms": 996,
+  "type": "result",
+  "duration_ms": 8012,
+  "uuid": "2a63bd56-feb1-4dd6-9243-7f868b632503",
+  "ttft_stream_ms": 645,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 646,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 876,
+    "cacheReadInputTokens": 28431,
+    "cacheCreationInputTokens": 13816,
+    "webSearchRequests": 0,
+    "costUSD": 0.0668871,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 114,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13816,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 9.381724010017933,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-7d5vlmas/work"
+  }
+ },
+ "wall_seconds": 9.383568682009354,
+ "qid": "PowerToys#49305",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#25192",
+   "PowerToys#21001",
+   "PowerToys#1684"
+  ],
+  "answer": "This feature request has been filed before. PowerToys#25192 asks for a \"Copy as plain text\" option, and PowerToys#21001 asks to copy text without formatting. PowerToys#21001 was closed as a duplicate of PowerToys#1684, the original Paste as Plain Text request, which also has a suggestion for a Ctrl+Shift+C copy-as-plain-text shortcut. The archive shows no implemented copy-as-plain-text feature, so there is no built-in fix yet. You can add your use case, the LibreOffice Writer behaviour you saw, to those tickets as a thumbs-up or comment. Until then, the workaround the tickets describe is to paste into a plain editor such as Notepad or the Run prompt and copy the text again. You can also use the paste-as-plain-text function inside the destination app, as you already do."
+ },
+ "hit_turn_cap": false
+}

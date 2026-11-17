@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#34708",
+  "PowerToys#28624",
+  "PowerToys#21003",
+  "PowerToys#18134",
+  "PowerToys#16031"
+ ],
+ "retrieval_seconds": 0.012926269002491608,
+ "retrieval_scores": [
+  0.7673404216766357,
+  0.7589687705039978,
+  0.7533038854598999,
+  0.739879310131073,
+  0.7352598905563354
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3883,
+  "stop_reason": "end_turn",
+  "session_id": "5c61d1f2-8bc7-4656-943e-745832d537bd",
+  "total_cost_usd": 0.021330000000000002,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4314,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 407,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4314,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 407,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4314,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4314
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 407,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4314,
+    "webSearchRequests": 0,
+    "costUSD": 0.021330000000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4314,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#16031\", \"PowerToys#21003\", \"PowerToys#28624\"], \"answer\": \"This feature request (a shortcut to turn off the display without sleeping or locking, with mouse, key or touch waking it) has been reported before. The past tickets were closed as duplicates of PowerToys#1052, so please follow and add your use case there. PowerToys has no such feature today, and in #18134 the team said it had no plans to add it because hardware integration is tricky. Workarounds from those tickets: send the monitor-off message with a shortcut that runs `powershell (Add-Type '[DllImport(\\\\\\\"user32.dll\\\\\\\")]public static extern int PostMessage(int hWnd, int hMsg, int wParam, int lParam);' -Name a -Pas)::PostMessage(-1,0x0112,0xF170,2)`, which you can bind to a hotkey. Alternatively, use AutoHotkey, `nircmd.exe monitor off`, or the Twinkle Tray app, which supports a hotkey for turning monitors off. Note that in #16031 one user reported being asked to sign in again when waking the display, depending on the sign-in setting in Windows.\"}",
+  "ttft_ms": 4070,
+  "type": "result",
+  "duration_ms": 4093,
+  "uuid": "b017f907-40d1-44ef-a123-dc2c01a75245",
+  "ttft_stream_ms": 1300,
+  "time_to_request_ms": 205,
+  "first_content_frame_ms": 1300,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 407,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4314,
+    "webSearchRequests": 0,
+    "costUSD": 0.021330000000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4314,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.968199209019076,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-1sm1aogq/work"
+  }
+ },
+ "wall_seconds": 4.982751129020471,
+ "qid": "PowerToys#50238",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#16031",
+   "PowerToys#21003",
+   "PowerToys#28624"
+  ],
+  "answer": "This feature request (a shortcut to turn off the display without sleeping or locking, with mouse, key or touch waking it) has been reported before. The past tickets were closed as duplicates of PowerToys#1052, so please follow and add your use case there. PowerToys has no such feature today, and in #18134 the team said it had no plans to add it because hardware integration is tricky. Workarounds from those tickets: send the monitor-off message with a shortcut that runs `powershell (Add-Type '[DllImport(\\\"user32.dll\\\")]public static extern int PostMessage(int hWnd, int hMsg, int wParam, int lParam);' -Name a -Pas)::PostMessage(-1,0x0112,0xF170,2)`, which you can bind to a hotkey. Alternatively, use AutoHotkey, `nircmd.exe monitor off`, or the Twinkle Tray app, which supports a hotkey for turning monitors off. Note that in #16031 one user reported being asked to sign in again when waking the display, depending on the sign-in setting in Windows."
+ },
+ "hit_turn_cap": false
+}

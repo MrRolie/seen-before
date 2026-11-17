@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#36079",
+  "PowerToys#16717",
+  "PowerToys#14030",
+  "PowerToys#23278",
+  "PowerToys#27359"
+ ],
+ "retrieval_seconds": 0.6508326179755386,
+ "retrieval_scores": [
+  0.02964426877470356,
+  0.02921395544346364,
+  0.028283227848101264,
+  0.02797339593114241,
+  0.025728708679368183
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2477,
+  "stop_reason": "end_turn",
+  "session_id": "a75cac5e-c749-4621-89af-bbee860bd01b",
+  "total_cost_usd": 0.01626,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3384,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 272,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3384,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 272,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3384,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3384
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 272,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3384,
+    "webSearchRequests": 0,
+    "costUSD": 0.01626,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3384,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#16717\", \"PowerToys#27359\", \"PowerToys#36079\"], \"answer\": \"This feature request has been filed before: a customizable keyboard shortcut to toggle Keyboard Manager (or other PowerToys modules) on and off. It is not available yet. The past tickets were closed as duplicates of the central threads (#4879 for a Keyboard Manager toggle shortcut, and #36675 for toggling modules with keybinds), so add your +1 or your laptop/external keyboard scenario there rather than opening a new ticket. In the meantime, the only options the tickets mention are toggling Keyboard Manager in PowerToys Settings, or using the Quick Launch (system tray) menu, which enables or disables all remaps at once without opening the full window.\"}",
+  "ttft_ms": 2703,
+  "type": "result",
+  "duration_ms": 2724,
+  "uuid": "af56d4ed-6b33-4007-9b8f-44446b2242b4",
+  "ttft_stream_ms": 811,
+  "time_to_request_ms": 241,
+  "first_content_frame_ms": 811,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 272,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3384,
+    "webSearchRequests": 0,
+    "costUSD": 0.01626,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3384,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.817522318015108,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-4b6xos1u/work"
+  }
+ },
+ "wall_seconds": 4.470548299985239,
+ "qid": "PowerToys#50073",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#16717",
+   "PowerToys#27359",
+   "PowerToys#36079"
+  ],
+  "answer": "This feature request has been filed before: a customizable keyboard shortcut to toggle Keyboard Manager (or other PowerToys modules) on and off. It is not available yet. The past tickets were closed as duplicates of the central threads (#4879 for a Keyboard Manager toggle shortcut, and #36675 for toggling modules with keybinds), so add your +1 or your laptop/external keyboard scenario there rather than opening a new ticket. In the meantime, the only options the tickets mention are toggling Keyboard Manager in PowerToys Settings, or using the Quick Launch (system tray) menu, which enables or disables all remaps at once without opening the full window."
+ },
+ "hit_turn_cap": false
+}

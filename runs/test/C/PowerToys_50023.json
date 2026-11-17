@@ -1,0 +1,329 @@
+{
+ "shown": [
+  "PowerToys#10099",
+  "PowerToys#12279",
+  "PowerToys#1331",
+  "PowerToys#2044",
+  "PowerToys#2733",
+  "PowerToys#3291",
+  "PowerToys#3485",
+  "PowerToys#3674",
+  "PowerToys#3956",
+  "PowerToys#41641",
+  "PowerToys#42463",
+  "PowerToys#42517",
+  "PowerToys#42530",
+  "PowerToys#42561",
+  "PowerToys#42780",
+  "PowerToys#43201",
+  "PowerToys#43790",
+  "PowerToys#43816",
+  "PowerToys#44198",
+  "PowerToys#44259",
+  "PowerToys#44443",
+  "PowerToys#48082",
+  "PowerToys#48692",
+  "PowerToys#5008",
+  "PowerToys#5152",
+  "PowerToys#5580",
+  "PowerToys#6037",
+  "PowerToys#7655",
+  "PowerToys#8592",
+  "PowerToys#886"
+ ],
+ "retrieval_seconds": 3.749161738989642,
+ "tool_calls": [
+  {
+   "t": 1794880829.3469703,
+   "tool": "search",
+   "args": {
+    "query": "Light Switch theme change Task Manager does not change color properly",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.736694699997315,
+   "returned": [
+    "PowerToys#42463",
+    "PowerToys#48082",
+    "PowerToys#2733",
+    "PowerToys#3485",
+    "PowerToys#43816",
+    "PowerToys#43201",
+    "PowerToys#2044",
+    "PowerToys#44443",
+    "PowerToys#44259",
+    "PowerToys#48692",
+    "PowerToys#44198",
+    "PowerToys#3674",
+    "PowerToys#43790",
+    "PowerToys#3956",
+    "PowerToys#42517",
+    "PowerToys#42530",
+    "PowerToys#7655",
+    "PowerToys#42561",
+    "PowerToys#6037",
+    "PowerToys#8592"
+   ]
+  },
+  {
+   "t": 1794880829.3698742,
+   "tool": "search",
+   "args": {
+    "query": "Light Switch some apps not switching to dark mode Task Manager",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.011855554999783635,
+   "returned": [
+    "PowerToys#2733",
+    "PowerToys#5008",
+    "PowerToys#2044",
+    "PowerToys#3485",
+    "PowerToys#43201",
+    "PowerToys#41641",
+    "PowerToys#1331",
+    "PowerToys#42463",
+    "PowerToys#48082",
+    "PowerToys#6037",
+    "PowerToys#5152",
+    "PowerToys#5580",
+    "PowerToys#3291",
+    "PowerToys#886",
+    "PowerToys#42517",
+    "PowerToys#12279",
+    "PowerToys#3674",
+    "PowerToys#10099",
+    "PowerToys#42780",
+    "PowerToys#44198"
+   ]
+  },
+  {
+   "t": 1794880831.1770754,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42463"
+   },
+   "seconds": 0.0001728959905449301,
+   "returned": [
+    "PowerToys#42463"
+   ]
+  },
+  {
+   "t": 1794880831.189085,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48082"
+   },
+   "seconds": 0.00017614499665796757,
+   "returned": [
+    "PowerToys#48082"
+   ]
+  },
+  {
+   "t": 1794880831.2562788,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43790"
+   },
+   "seconds": 0.00014158699195832014,
+   "returned": [
+    "PowerToys#43790"
+   ]
+  },
+  {
+   "t": 1794880833.1413844,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44259"
+   },
+   "seconds": 0.0001208560133818537,
+   "returned": [
+    "PowerToys#44259"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9033,
+  "stop_reason": "end_turn",
+  "session_id": "07675e57-a09f-4fdf-ace4-6e178d79f0ea",
+  "total_cost_usd": 0.032229499999999994,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 6102,
+   "cache_read_input_tokens": 13155,
+   "output_tokens": 649,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6102,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 220,
+     "cache_read_input_tokens": 5981,
+     "cache_creation_input_tokens": 1154,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1154
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 649,
+    "cacheReadInputTokens": 13155,
+    "cacheCreationInputTokens": 6102,
+    "webSearchRequests": 0,
+    "costUSD": 0.032229499999999994,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6102,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#42463\", \"PowerToys#48082\", \"PowerToys#43790\"], \"answer\": \"This problem has been reported before. If Task Manager is already open when Light Switch changes the theme, Task Manager ends up half light and half dark. The tickets don't describe a fix. #42463 is the main ticket tracking this, and the other reports were closed as duplicates of it, so follow that one for updates. As a workaround, close and reopen Task Manager after the theme changes. It should then show the correct theme. If other parts of the UI such as the taskbar also look wrong, restarting Explorer has fixed that for some users.\"}",
+  "ttft_ms": 2467,
+  "type": "result",
+  "duration_ms": 12851,
+  "uuid": "d9efdcd8-bf72-4583-8248-0e4dde4c1ea7",
+  "ttft_stream_ms": 1361,
+  "time_to_request_ms": 39,
+  "first_content_frame_ms": 1361,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 649,
+    "cacheReadInputTokens": 13155,
+    "cacheCreationInputTokens": 6102,
+    "webSearchRequests": 0,
+    "costUSD": 0.032229499999999994,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6102,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.474307844007853,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-l9k_6mlc/work"
+  }
+ },
+ "wall_seconds": 14.476947363000363,
+ "qid": "PowerToys#50023",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#42463",
+   "PowerToys#48082",
+   "PowerToys#43790"
+  ],
+  "answer": "This problem has been reported before. If Task Manager is already open when Light Switch changes the theme, Task Manager ends up half light and half dark. The tickets don't describe a fix. #42463 is the main ticket tracking this, and the other reports were closed as duplicates of it, so follow that one for updates. As a workaround, close and reopen Task Manager after the theme changes. It should then show the correct theme. If other parts of the UI such as the taskbar also look wrong, restarting Explorer has fixed that for some users."
+ },
+ "hit_turn_cap": false
+}

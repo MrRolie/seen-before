@@ -1,0 +1,331 @@
+{
+ "shown": [
+  "PowerToys#11003",
+  "PowerToys#13608",
+  "PowerToys#13954",
+  "PowerToys#15459",
+  "PowerToys#15601",
+  "PowerToys#16014",
+  "PowerToys#18995",
+  "PowerToys#21270",
+  "PowerToys#21529",
+  "PowerToys#22521",
+  "PowerToys#22619",
+  "PowerToys#23971",
+  "PowerToys#2451",
+  "PowerToys#27095",
+  "PowerToys#27198",
+  "PowerToys#29828",
+  "PowerToys#30292",
+  "PowerToys#30679",
+  "PowerToys#31352",
+  "PowerToys#33300",
+  "PowerToys#34830",
+  "PowerToys#34897",
+  "PowerToys#36109",
+  "PowerToys#37694",
+  "PowerToys#38298",
+  "PowerToys#46580",
+  "PowerToys#46652",
+  "PowerToys#47607",
+  "PowerToys#5074",
+  "PowerToys#6440",
+  "PowerToys#6610",
+  "PowerToys#9571"
+ ],
+ "retrieval_seconds": 4.248119366995525,
+ "tool_calls": [
+  {
+   "t": 1794885644.6775248,
+   "tool": "search",
+   "args": {
+    "query": "Text expander utility: type trigger keyword replaced with snippet text",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.234941317001358,
+   "returned": [
+    "PowerToys#11003",
+    "PowerToys#18995",
+    "PowerToys#29828",
+    "PowerToys#5074",
+    "PowerToys#31352",
+    "PowerToys#34897",
+    "PowerToys#37694",
+    "PowerToys#15601",
+    "PowerToys#46580",
+    "PowerToys#27095",
+    "PowerToys#47607",
+    "PowerToys#22619",
+    "PowerToys#23971",
+    "PowerToys#38298",
+    "PowerToys#30292",
+    "PowerToys#13608",
+    "PowerToys#22521",
+    "PowerToys#21529",
+    "PowerToys#36109",
+    "PowerToys#16014"
+   ]
+  },
+  {
+   "t": 1794885644.7093875,
+   "tool": "search",
+   "args": {
+    "query": "text snippets abbreviation expansion feature request",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012564044998725876,
+   "returned": [
+    "PowerToys#47607",
+    "PowerToys#36109",
+    "PowerToys#27095",
+    "PowerToys#30679",
+    "PowerToys#46580",
+    "PowerToys#5074",
+    "PowerToys#34830",
+    "PowerToys#15459",
+    "PowerToys#6610",
+    "PowerToys#46652",
+    "PowerToys#33300",
+    "PowerToys#6440",
+    "PowerToys#13954",
+    "PowerToys#37694",
+    "PowerToys#21270",
+    "PowerToys#2451",
+    "PowerToys#30292",
+    "PowerToys#9571",
+    "PowerToys#11003",
+    "PowerToys#27198"
+   ]
+  },
+  {
+   "t": 1794885646.5249736,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47607"
+   },
+   "seconds": 0.00021218499750830233,
+   "returned": [
+    "PowerToys#47607"
+   ]
+  },
+  {
+   "t": 1794885646.532383,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#11003"
+   },
+   "seconds": 0.00010619699605740607,
+   "returned": [
+    "PowerToys#11003"
+   ]
+  },
+  {
+   "t": 1794885646.7041397,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#18995"
+   },
+   "seconds": 0.00012257701018825173,
+   "returned": [
+    "PowerToys#18995"
+   ]
+  },
+  {
+   "t": 1794885648.143916,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#5074"
+   },
+   "seconds": 0.0001730459916871041,
+   "returned": [
+    "PowerToys#5074"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8560,
+  "stop_reason": "end_turn",
+  "session_id": "29b41706-238b-40e2-974a-660d6021ea00",
+  "total_cost_usd": 0.0422438,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 8431,
+   "cache_read_input_tokens": 14138,
+   "output_tokens": 709,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8431,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 270,
+     "cache_read_input_tokens": 6310,
+     "cache_creation_input_tokens": 3154,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3154
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 709,
+    "cacheReadInputTokens": 14138,
+    "cacheCreationInputTokens": 8431,
+    "webSearchRequests": 0,
+    "costUSD": 0.0422438,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8431,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#5074\", \"PowerToys#47607\", \"PowerToys#18995\"], \"answer\": \"A text expander for PowerToys has been requested many times. The original request is PowerToys#5074, and the newer requests (#47607, #18995, #11003 and others) were closed as duplicates of it. The archive shows no text expander module has been released. Please add your use cases and a thumbs-up to #5074, which is where the request is tracked, instead of opening a new ticket. The maintainers have noted that building one is hard. It would need to watch typing across every app, delete the typed trigger and insert the replacement. Until then, people suggest third-party tools such as AutoHotkey hotstrings (for example ::ftw::Free the whales), Beeftext, Espanso or aText.\"}",
+  "ttft_ms": 2278,
+  "type": "result",
+  "duration_ms": 12894,
+  "uuid": "3b701263-2b83-43c6-9028-46f3e40f6cd4",
+  "ttft_stream_ms": 1309,
+  "time_to_request_ms": 45,
+  "first_content_frame_ms": 1309,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 709,
+    "cacheReadInputTokens": 14138,
+    "cacheCreationInputTokens": 8431,
+    "webSearchRequests": 0,
+    "costUSD": 0.0422438,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8431,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.486340477975318,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-lfrs1pac/work"
+  }
+ },
+ "wall_seconds": 14.488493415003177,
+ "qid": "PowerToys#52083",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#5074",
+   "PowerToys#47607",
+   "PowerToys#18995"
+  ],
+  "answer": "A text expander for PowerToys has been requested many times. The original request is PowerToys#5074, and the newer requests (#47607, #18995, #11003 and others) were closed as duplicates of it. The archive shows no text expander module has been released. Please add your use cases and a thumbs-up to #5074, which is where the request is tracked, instead of opening a new ticket. The maintainers have noted that building one is hard. It would need to watch typing across every app, delete the typed trigger and insert the replacement. Until then, people suggest third-party tools such as AutoHotkey hotstrings (for example ::ftw::Free the whales), Beeftext, Espanso or aText."
+ },
+ "hit_turn_cap": false
+}

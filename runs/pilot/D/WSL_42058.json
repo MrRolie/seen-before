@@ -1,0 +1,463 @@
+{
+ "shown": [
+  "WSL#10029",
+  "WSL#10052",
+  "WSL#10173",
+  "WSL#10494",
+  "WSL#10663",
+  "WSL#11126",
+  "WSL#11317",
+  "WSL#11545",
+  "WSL#11629",
+  "WSL#11675",
+  "WSL#11693",
+  "WSL#11787",
+  "WSL#11791",
+  "WSL#12102",
+  "WSL#12351",
+  "WSL#12626",
+  "WSL#12704",
+  "WSL#12923",
+  "WSL#13012",
+  "WSL#13301",
+  "WSL#13322",
+  "WSL#13416",
+  "WSL#14448",
+  "WSL#14471",
+  "WSL#14474",
+  "WSL#14494",
+  "WSL#14498",
+  "WSL#14509",
+  "WSL#14510",
+  "WSL#14513",
+  "WSL#2441",
+  "WSL#2794",
+  "WSL#3312",
+  "WSL#3362",
+  "WSL#3375",
+  "WSL#3599",
+  "WSL#3610",
+  "WSL#3842",
+  "WSL#3932",
+  "WSL#3987",
+  "WSL#4039",
+  "WSL#40605",
+  "WSL#4084",
+  "WSL#40951",
+  "WSL#40959",
+  "WSL#40961",
+  "WSL#4150",
+  "WSL#4166",
+  "WSL#4199",
+  "WSL#4377",
+  "WSL#4457",
+  "WSL#4497",
+  "WSL#4530",
+  "WSL#4621",
+  "WSL#4699",
+  "WSL#4735",
+  "WSL#4786",
+  "WSL#4835",
+  "WSL#4901",
+  "WSL#5231",
+  "WSL#5240",
+  "WSL#5256",
+  "WSL#5302",
+  "WSL#5336",
+  "WSL#5799",
+  "WSL#5836",
+  "WSL#6031",
+  "WSL#6033",
+  "WSL#6267",
+  "WSL#6404",
+  "WSL#6662",
+  "WSL#6982",
+  "WSL#7013",
+  "WSL#8012",
+  "WSL#8489",
+  "WSL#8594",
+  "WSL#8688",
+  "WSL#8725",
+  "WSL#8733",
+  "WSL#9187",
+  "WSL#9508",
+  "WSL#9859",
+  "terminal#10134"
+ ],
+ "retrieval_seconds": 4.4931878150382545,
+ "tool_calls": [
+  {
+   "t": 1794877266.661118,
+   "tool": "search",
+   "args": {
+    "pattern": "image import",
+    "regex": false,
+    "also": null,
+    "repo": "WSL"
+   },
+   "seconds": 0.031535868998616934,
+   "returned": []
+  },
+  {
+   "t": 1794877271.275772,
+   "tool": "similar",
+   "args": {
+    "query": "wslc image import without tag fails E_INVALIDARG, should default to latest",
+    "repo": "WSL"
+   },
+   "seconds": 4.263773881015368,
+   "returned": [
+    "WSL#3987",
+    "WSL#3599",
+    "WSL#40605",
+    "WSL#4497",
+    "WSL#2441",
+    "WSL#11317",
+    "WSL#14474",
+    "WSL#14471",
+    "WSL#3362",
+    "WSL#13012",
+    "WSL#4039",
+    "WSL#12102",
+    "WSL#3312",
+    "WSL#10052",
+    "WSL#3932",
+    "WSL#6267",
+    "WSL#7013",
+    "WSL#14498",
+    "WSL#4786",
+    "WSL#6031"
+   ]
+  },
+  {
+   "t": 1794877273.3775656,
+   "tool": "search",
+   "args": {
+    "pattern": "wslc",
+    "regex": false,
+    "also": [
+     "import"
+    ],
+    "repo": "WSL"
+   },
+   "seconds": 0.04194950600503944,
+   "returned": [
+    "WSL#4699",
+    "WSL#4150",
+    "WSL#6982",
+    "WSL#4166",
+    "WSL#8725",
+    "WSL#11675",
+    "WSL#5231",
+    "WSL#4901",
+    "WSL#6404",
+    "WSL#5240",
+    "WSL#12351",
+    "WSL#11693",
+    "WSL#6662",
+    "WSL#5836",
+    "WSL#4084",
+    "WSL#10494",
+    "WSL#11791",
+    "WSL#5336",
+    "WSL#40951",
+    "WSL#13301"
+   ]
+  },
+  {
+   "t": 1794877274.5460854,
+   "tool": "similar",
+   "args": {
+    "query": "wslc image load/import/save/tag command errors",
+    "repo": "WSL"
+   },
+   "seconds": 0.013577689998783171,
+   "returned": [
+    "WSL#3987",
+    "WSL#5799",
+    "WSL#8594",
+    "WSL#3599",
+    "WSL#3932",
+    "WSL#4457",
+    "WSL#8012",
+    "WSL#10173",
+    "WSL#4039",
+    "WSL#4786",
+    "WSL#3312",
+    "WSL#13012",
+    "WSL#12923",
+    "WSL#12102",
+    "WSL#3610",
+    "WSL#4377",
+    "WSL#4621",
+    "WSL#3842",
+    "WSL#8688",
+    "WSL#3375"
+   ]
+  },
+  {
+   "t": 1794877275.462144,
+   "tool": "search",
+   "args": {
+    "pattern": "wslc image",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.08723008201923221,
+   "returned": [
+    "WSL#14513",
+    "WSL#40959"
+   ]
+  },
+  {
+   "t": 1794877277.1636007,
+   "tool": "search",
+   "args": {
+    "pattern": ":latest",
+    "regex": false,
+    "also": [
+     "wslc"
+    ],
+    "repo": "WSL"
+   },
+   "seconds": 0.03616683400468901,
+   "returned": [
+    "WSL#10029",
+    "WSL#40959",
+    "WSL#40951",
+    "WSL#14510",
+    "WSL#14509",
+    "WSL#14494",
+    "WSL#14474",
+    "WSL#14448",
+    "WSL#13322",
+    "WSL#8733",
+    "WSL#4199",
+    "WSL#40961",
+    "WSL#13416",
+    "WSL#12626",
+    "WSL#11629",
+    "WSL#10663",
+    "WSL#9508",
+    "WSL#6033",
+    "WSL#5302",
+    "WSL#5256"
+   ]
+  },
+  {
+   "t": 1794877277.4271233,
+   "tool": "similar",
+   "args": {
+    "query": "wslc import tar image without tag E_INVALIDARG parameter is incorrect",
+    "repo": null
+   },
+   "seconds": 0.018953952996525913,
+   "returned": [
+    "WSL#9859",
+    "WSL#4530",
+    "WSL#12704",
+    "WSL#11126",
+    "WSL#3932",
+    "terminal#10134",
+    "WSL#11787",
+    "WSL#6267",
+    "WSL#9187",
+    "WSL#40605",
+    "WSL#8489",
+    "WSL#4835",
+    "WSL#6031",
+    "WSL#2794",
+    "WSL#3599",
+    "WSL#11317",
+    "WSL#4735",
+    "WSL#8594",
+    "WSL#11545",
+    "WSL#4457"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9786,
+  "stop_reason": "end_turn",
+  "session_id": "f1e07e7f-a4b3-4bd5-917e-62662707b919",
+  "total_cost_usd": 0.0688819,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 13703,
+   "cache_read_input_tokens": 40819,
+   "output_tokens": 996,
+   "output_tokens_details": {
+    "thinking_tokens": 30
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13703,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 217,
+     "cache_read_input_tokens": 10406,
+     "cache_creation_input_tokens": 4710,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4710
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 996,
+    "cacheReadInputTokens": 40819,
+    "cacheCreationInputTokens": 13703,
+    "webSearchRequests": 0,
+    "costUSD": 0.0688819,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 30,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13703,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket in the archive that reports this problem. The archive has no past ticket about `wslc image import` failing with E_INVALIDARG when the target has no tag. The tickets that came up were either about classic `wsl --import` or about other WSLC commands. Until a fix ships, give the target image a tag yourself: `wslc image import alp.tar test:latest` works, as you already found. Please keep this ticket open as a new bug. Docker's `docker image import alp.tar test` defaults to `:latest`, so `wslc` should do the same. Include the diagnostic logs you attached.\"}",
+  "ttft_ms": 1170,
+  "type": "result",
+  "duration_ms": 14293,
+  "uuid": "14d14651-2cba-4a02-9afe-4a8c44c1fba1",
+  "ttft_stream_ms": 833,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 833,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 996,
+    "cacheReadInputTokens": 40819,
+    "cacheCreationInputTokens": 13703,
+    "webSearchRequests": 0,
+    "costUSD": 0.0688819,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 30,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13703,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.734867746999953,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-_18t3a5p/work"
+  }
+ },
+ "wall_seconds": 15.736686757998541,
+ "qid": "WSL#42058",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket in the archive that reports this problem. The archive has no past ticket about `wslc image import` failing with E_INVALIDARG when the target has no tag. The tickets that came up were either about classic `wsl --import` or about other WSLC commands. Until a fix ships, give the target image a tag yourself: `wslc image import alp.tar test:latest` works, as you already found. Please keep this ticket open as a new bug. Docker's `docker image import alp.tar test` defaults to `:latest`, so `wslc` should do the same. Include the diagnostic logs you attached."
+ },
+ "hit_turn_cap": false
+}

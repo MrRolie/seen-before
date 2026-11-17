@@ -1,0 +1,277 @@
+{
+ "shown": [
+  "terminal#10119",
+  "terminal#11638",
+  "terminal#11840",
+  "terminal#12578",
+  "terminal#12661",
+  "terminal#12859",
+  "terminal#14220",
+  "terminal#16236",
+  "terminal#16605",
+  "terminal#2614",
+  "terminal#2776",
+  "terminal#6389",
+  "terminal#6674",
+  "terminal#6945",
+  "terminal#8276",
+  "terminal#8936",
+  "terminal#8990",
+  "terminal#9086",
+  "terminal#9356",
+  "terminal#9401"
+ ],
+ "retrieval_seconds": 4.218704835016979,
+ "tool_calls": [
+  {
+   "t": 1794879011.4460886,
+   "tool": "similar",
+   "args": {
+    "query": "\"Open in Terminal\" context menu entry missing from File Explorer after reinstall",
+    "repo": "terminal"
+   },
+   "seconds": 4.218185281002661,
+   "returned": [
+    "terminal#9356",
+    "terminal#12661",
+    "terminal#9401",
+    "terminal#16236",
+    "terminal#6674",
+    "terminal#9086",
+    "terminal#12859",
+    "terminal#8990",
+    "terminal#12578",
+    "terminal#11840",
+    "terminal#6945",
+    "terminal#2614",
+    "terminal#11638",
+    "terminal#16605",
+    "terminal#14220",
+    "terminal#8936",
+    "terminal#10119",
+    "terminal#2776",
+    "terminal#6389",
+    "terminal#8276"
+   ]
+  },
+  {
+   "t": 1794879013.6397772,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#16236"
+   },
+   "seconds": 0.00017516501247882843,
+   "returned": [
+    "terminal#16236"
+   ]
+  },
+  {
+   "t": 1794879013.886296,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#16605"
+   },
+   "seconds": 0.000171994004631415,
+   "returned": [
+    "terminal#16605"
+   ]
+  },
+  {
+   "t": 1794879014.0629811,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#9401"
+   },
+   "seconds": 0.0001723949972074479,
+   "returned": [
+    "terminal#9401"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9598,
+  "stop_reason": "end_turn",
+  "session_id": "323f70e6-7ab9-4336-a5a5-53efb1131603",
+  "total_cost_usd": 0.0473023,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 9306,
+   "cache_read_input_tokens": 7263,
+   "output_tokens": 934,
+   "output_tokens_details": {
+    "thinking_tokens": 62
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9306,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 556,
+     "cache_read_input_tokens": 3731,
+     "cache_creation_input_tokens": 6988,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6988
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 934,
+    "cacheReadInputTokens": 7263,
+    "cacheCreationInputTokens": 9306,
+    "webSearchRequests": 0,
+    "costUSD": 0.0473023,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 62,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9306,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#16236\", \"terminal#16605\"], \"answer\": \"This looks like a known problem on Windows 10 (build 19045). File Explorer sometimes loses or never picks up the registration for Terminal's packaged context-menu entry. The Terminal team suspects this is an OS-side bug, so reinstalling Terminal doesn't fix it. Past tickets suggest the following:\\n\\n1. Restart Explorer without a full reboot. Run `taskkill /f /im explorer.exe && explorer.exe`. Explorer caches context-menu entries.\\n2. Right-click an actual folder or file, not the empty background, the desktop or a drive root. On Windows 10 the entry often shows only for folders.\\n3. If it's still missing, add the entry manually in the registry. Create `HKEY_CLASSES_ROOT\\\\Directory\\\\background\\\\shell\\\\terminal\\\\command` with the default value `%LOCALAPPDATA%\\\\Microsoft\\\\WindowsApps\\\\wt.exe -d \\\"%V\\\\.\\\"`. This was the workaround suggested by [user] in terminal#16236.\\n4. If none of that works, send feedback through Feedback Hub under 'Desktop Environment > Right-click context menu' and share the link. The team asked for this so the Windows context-menu team can investigate.\\n\\nThe Windows 10 packaged-menu problem is tracked in #14185, and I didn't read that ticket.\"}",
+  "ttft_ms": 1764,
+  "type": "result",
+  "duration_ms": 13870,
+  "uuid": "07306020-a818-4faf-8dd8-c63430808e2f",
+  "ttft_stream_ms": 908,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 908,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 934,
+    "cacheReadInputTokens": 7263,
+    "cacheCreationInputTokens": 9306,
+    "webSearchRequests": 0,
+    "costUSD": 0.0473023,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 62,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9306,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.587314532982418,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-rwpxe6j4/work"
+  }
+ },
+ "wall_seconds": 15.58896073300275,
+ "qid": "terminal#20478",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#16236",
+   "terminal#16605"
+  ],
+  "answer": "This looks like a known problem on Windows 10 (build 19045). File Explorer sometimes loses or never picks up the registration for Terminal's packaged context-menu entry. The Terminal team suspects this is an OS-side bug, so reinstalling Terminal doesn't fix it. Past tickets suggest the following:\n\n1. Restart Explorer without a full reboot. Run `taskkill /f /im explorer.exe && explorer.exe`. Explorer caches context-menu entries.\n2. Right-click an actual folder or file, not the empty background, the desktop or a drive root. On Windows 10 the entry often shows only for folders.\n3. If it's still missing, add the entry manually in the registry. Create `HKEY_CLASSES_ROOT\\Directory\\background\\shell\\terminal\\command` with the default value `%LOCALAPPDATA%\\Microsoft\\WindowsApps\\wt.exe -d \"%V\\.\"`. This was the workaround suggested by [user] in terminal#16236.\n4. If none of that works, send feedback through Feedback Hub under 'Desktop Environment > Right-click context menu' and share the link. The team asked for this so the Windows context-menu team can investigate.\n\nThe Windows 10 packaged-menu problem is tracked in #14185, and I didn't read that ticket."
+ },
+ "hit_turn_cap": false
+}

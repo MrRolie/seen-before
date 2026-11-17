@@ -1,0 +1,333 @@
+{
+ "shown": [
+  "PowerToys#10127",
+  "PowerToys#10800",
+  "PowerToys#11606",
+  "PowerToys#135",
+  "PowerToys#15427",
+  "PowerToys#17228",
+  "PowerToys#20445",
+  "PowerToys#21313",
+  "PowerToys#21467",
+  "PowerToys#21481",
+  "PowerToys#22050",
+  "PowerToys#2215",
+  "PowerToys#25290",
+  "PowerToys#2548",
+  "PowerToys#28596",
+  "PowerToys#29382",
+  "PowerToys#31856",
+  "PowerToys#32460",
+  "PowerToys#33200",
+  "PowerToys#33581",
+  "PowerToys#34383",
+  "PowerToys#38467",
+  "PowerToys#4244",
+  "PowerToys#42868",
+  "PowerToys#44783",
+  "PowerToys#45685",
+  "PowerToys#4648",
+  "PowerToys#48186",
+  "PowerToys#9209"
+ ],
+ "retrieval_seconds": 3.909895508986665,
+ "tool_calls": [
+  {
+   "t": 1794884890.447546,
+   "tool": "similar",
+   "args": {
+    "query": "lock keyboard temporarily for cleaning",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.861471652984619,
+   "returned": [
+    "PowerToys#42868",
+    "PowerToys#33581",
+    "PowerToys#4648",
+    "PowerToys#38467",
+    "PowerToys#21313",
+    "PowerToys#29382",
+    "PowerToys#28596",
+    "PowerToys#25290",
+    "PowerToys#10800",
+    "PowerToys#135",
+    "PowerToys#2548",
+    "PowerToys#10127",
+    "PowerToys#22050",
+    "PowerToys#44783",
+    "PowerToys#34383",
+    "PowerToys#11606",
+    "PowerToys#21467",
+    "PowerToys#4244",
+    "PowerToys#9209",
+    "PowerToys#2215"
+   ]
+  },
+  {
+   "t": 1794884890.5102704,
+   "tool": "search",
+   "args": {
+    "pattern": "keyboard lock",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04614419900462963,
+   "returned": [
+    "PowerToys#31856",
+    "PowerToys#28596",
+    "PowerToys#21481",
+    "PowerToys#20445",
+    "PowerToys#48186",
+    "PowerToys#45685",
+    "PowerToys#33200",
+    "PowerToys#32460",
+    "PowerToys#25290",
+    "PowerToys#22050",
+    "PowerToys#17228"
+   ]
+  },
+  {
+   "t": 1794884892.1533887,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33581"
+   },
+   "seconds": 0.00013414601562544703,
+   "returned": [
+    "PowerToys#33581"
+   ]
+  },
+  {
+   "t": 1794884892.3013978,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44783"
+   },
+   "seconds": 0.00011627699132077396,
+   "returned": [
+    "PowerToys#44783"
+   ]
+  },
+  {
+   "t": 1794884893.7989302,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#31856"
+   },
+   "seconds": 0.0003395609965082258,
+   "returned": [
+    "PowerToys#31856"
+   ]
+  },
+  {
+   "t": 1794884893.9455783,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21313"
+   },
+   "seconds": 0.00012190599227324128,
+   "returned": [
+    "PowerToys#21313"
+   ]
+  },
+  {
+   "t": 1794884895.918683,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#15427"
+   },
+   "seconds": 0.0015677670016884804,
+   "returned": [
+    "PowerToys#15427"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12618,
+  "stop_reason": "end_turn",
+  "session_id": "46b51be3-0f35-428f-bb73-3aae8fca2ead",
+  "total_cost_usd": 0.045704400000000006,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 7847,
+   "cache_read_input_tokens": 23564,
+   "output_tokens": 1194,
+   "output_tokens_details": {
+    "thinking_tokens": 71
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7847,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 498,
+     "cache_read_input_tokens": 8367,
+     "cache_creation_input_tokens": 893,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 893
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1194,
+    "cacheReadInputTokens": 23564,
+    "cacheCreationInputTokens": 7847,
+    "webSearchRequests": 0,
+    "costUSD": 0.045704400000000006,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 71,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7847,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#21313\", \"PowerToys#33581\", \"PowerToys#31856\"], \"answer\": \"This feature has been requested before, so your ticket is a duplicate. The closest match is PowerToys#21313, which asks for a utility that temporarily disables the keyboard, mouse and touchscreen so you can clean them. PowerToys#33581 was closed as a duplicate of #21313. PowerToys#31856 asks for a keyboard and touchscreen lock toggle, and PowerToys#44783 was closed as a duplicate of #31856. #31856 was itself closed as a duplicate of #15427, which is about a shortcut to toggle input devices on and off. In #21313 a maintainer said in 2024 that there were no plans to build this into PowerToys. I found no keyboard lock feature that has shipped. Add a thumbs-up to #21313 instead of opening a new request. Until something ships, one workaround from the tickets is to disable the laptop keyboard in Device Manager (Win+X, then Device Manager, then Keyboards, then Disable). Re-enable it when you finish. Some tickets also mention third-party keyboard-cleaning or locker tools, such as the KeyboardCleanTool at folivora.ai.\"}",
+  "ttft_ms": 2641,
+  "type": "result",
+  "duration_ms": 16641,
+  "uuid": "cd2cb9bc-284b-4f34-804d-0eb77c998ee6",
+  "ttft_stream_ms": 1342,
+  "time_to_request_ms": 39,
+  "first_content_frame_ms": 1342,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1194,
+    "cacheReadInputTokens": 23564,
+    "cacheCreationInputTokens": 7847,
+    "webSearchRequests": 0,
+    "costUSD": 0.045704400000000006,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 71,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7847,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.047992920008255,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-op4tmq69/work"
+  }
+ },
+ "wall_seconds": 18.050044483999955,
+ "qid": "PowerToys#51677",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#21313",
+   "PowerToys#33581",
+   "PowerToys#31856"
+  ],
+  "answer": "This feature has been requested before, so your ticket is a duplicate. The closest match is PowerToys#21313, which asks for a utility that temporarily disables the keyboard, mouse and touchscreen so you can clean them. PowerToys#33581 was closed as a duplicate of #21313. PowerToys#31856 asks for a keyboard and touchscreen lock toggle, and PowerToys#44783 was closed as a duplicate of #31856. #31856 was itself closed as a duplicate of #15427, which is about a shortcut to toggle input devices on and off. In #21313 a maintainer said in 2024 that there were no plans to build this into PowerToys. I found no keyboard lock feature that has shipped. Add a thumbs-up to #21313 instead of opening a new request. Until something ships, one workaround from the tickets is to disable the laptop keyboard in Device Manager (Win+X, then Device Manager, then Keyboards, then Disable). Re-enable it when you finish. Some tickets also mention third-party keyboard-cleaning or locker tools, such as the KeyboardCleanTool at folivora.ai."
+ },
+ "hit_turn_cap": false
+}

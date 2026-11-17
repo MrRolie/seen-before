@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#4210",
+  "PowerToys#27653",
+  "PowerToys#34066",
+  "PowerToys#9260",
+  "PowerToys#32702"
+ ],
+ "retrieval_seconds": 0.018345868011238053,
+ "retrieval_scores": [
+  0.790973424911499,
+  0.7800501585006714,
+  0.7755486369132996,
+  0.7629686594009399,
+  0.7483527660369873
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2681,
+  "stop_reason": "end_turn",
+  "session_id": "67de484c-9795-4ae2-9242-11d922f7ec9a",
+  "total_cost_usd": 0.016198,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3466,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 233,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3466,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 233,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3466,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3466
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 233,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3466,
+    "webSearchRequests": 0,
+    "costUSD": 0.016198,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3466,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#9260\", \"PowerToys#27653\", \"PowerToys#32702\"], \"answer\": \"This feature request has been filed several times before. Each of those tickets was closed as a duplicate of the main tracking issue, PowerToys#1392 (desktop icon grouping/organizing). That issue is not among the tickets shown to me, so I can't say what its current status is. Please add your use case and a thumbs-up to #1392 instead of opening a new ticket, so it counts toward prioritization. Past tickets have also suggested a third-party tool such as Stardock Fences as a workaround for now. Nothing in the archive says PowerToys has built this feature.\"}",
+  "ttft_ms": 2845,
+  "type": "result",
+  "duration_ms": 2859,
+  "uuid": "ffd95620-4a04-4eec-9c80-dd0552eac54a",
+  "ttft_stream_ms": 1166,
+  "time_to_request_ms": 177,
+  "first_content_frame_ms": 1166,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 233,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3466,
+    "webSearchRequests": 0,
+    "costUSD": 0.016198,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3466,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.671434504998615,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-9nla2wez/work"
+  }
+ },
+ "wall_seconds": 3.6914920110139064,
+ "qid": "PowerToys#51975",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#9260",
+   "PowerToys#27653",
+   "PowerToys#32702"
+  ],
+  "answer": "This feature request has been filed several times before. Each of those tickets was closed as a duplicate of the main tracking issue, PowerToys#1392 (desktop icon grouping/organizing). That issue is not among the tickets shown to me, so I can't say what its current status is. Please add your use case and a thumbs-up to #1392 instead of opening a new ticket, so it counts toward prioritization. Past tickets have also suggested a third-party tool such as Stardock Fences as a workaround for now. Nothing in the archive says PowerToys has built this feature."
+ },
+ "hit_turn_cap": false
+}

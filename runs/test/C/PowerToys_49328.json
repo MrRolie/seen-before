@@ -1,0 +1,378 @@
+{
+ "shown": [
+  "PowerToys#10141",
+  "PowerToys#16194",
+  "PowerToys#1745",
+  "PowerToys#1825",
+  "PowerToys#20260",
+  "PowerToys#23076",
+  "PowerToys#27914",
+  "PowerToys#30070",
+  "PowerToys#37024",
+  "PowerToys#37025",
+  "PowerToys#38327",
+  "PowerToys#38412",
+  "PowerToys#38415",
+  "PowerToys#38454",
+  "PowerToys#38484",
+  "PowerToys#38571",
+  "PowerToys#38664",
+  "PowerToys#38713",
+  "PowerToys#38769",
+  "PowerToys#38826",
+  "PowerToys#38893",
+  "PowerToys#38965",
+  "PowerToys#39043",
+  "PowerToys#39099",
+  "PowerToys#39102",
+  "PowerToys#39131",
+  "PowerToys#39212",
+  "PowerToys#39217",
+  "PowerToys#39442",
+  "PowerToys#39533",
+  "PowerToys#39695",
+  "PowerToys#40685",
+  "PowerToys#40864",
+  "PowerToys#40928",
+  "PowerToys#40975",
+  "PowerToys#41795",
+  "PowerToys#42306",
+  "PowerToys#43762",
+  "PowerToys#43935",
+  "PowerToys#44353",
+  "PowerToys#44970",
+  "PowerToys#45121",
+  "PowerToys#46228",
+  "PowerToys#47249",
+  "PowerToys#47453",
+  "PowerToys#47997",
+  "PowerToys#48433",
+  "PowerToys#48525",
+  "PowerToys#6857",
+  "PowerToys#8450",
+  "PowerToys#8665",
+  "PowerToys#9737"
+ ],
+ "retrieval_seconds": 3.454398130037589,
+ "tool_calls": [
+  {
+   "t": 1794877964.5014787,
+   "tool": "search",
+   "args": {
+    "query": "Command Palette fails to start after install, error on opening, reinstall doesn't help",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.422436578985071,
+   "returned": [
+    "PowerToys#39043",
+    "PowerToys#38484",
+    "PowerToys#38826",
+    "PowerToys#39217",
+    "PowerToys#39099",
+    "PowerToys#38454",
+    "PowerToys#38965",
+    "PowerToys#38769",
+    "PowerToys#38664",
+    "PowerToys#38893",
+    "PowerToys#39131",
+    "PowerToys#47997",
+    "PowerToys#40685",
+    "PowerToys#43935",
+    "PowerToys#39533",
+    "PowerToys#38415",
+    "PowerToys#47249",
+    "PowerToys#38571",
+    "PowerToys#42306",
+    "PowerToys#44353"
+   ]
+  },
+  {
+   "t": 1794877964.5317228,
+   "tool": "search",
+   "args": {
+    "query": "命令面板 打开报错 无法使用",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.01745943701826036,
+   "returned": [
+    "PowerToys#1825",
+    "PowerToys#37025",
+    "PowerToys#37024",
+    "PowerToys#48525",
+    "PowerToys#6857",
+    "PowerToys#10141",
+    "PowerToys#8665",
+    "PowerToys#16194",
+    "PowerToys#39442",
+    "PowerToys#1745",
+    "PowerToys#20260",
+    "PowerToys#27914",
+    "PowerToys#9737",
+    "PowerToys#40975",
+    "PowerToys#41795",
+    "PowerToys#23076",
+    "PowerToys#38327",
+    "PowerToys#8450",
+    "PowerToys#30070",
+    "PowerToys#38713"
+   ]
+  },
+  {
+   "t": 1794877965.622463,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43935"
+   },
+   "seconds": 0.00011762697249650955,
+   "returned": [
+    "PowerToys#43935"
+   ]
+  },
+  {
+   "t": 1794877965.9103687,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47249"
+   },
+   "seconds": 0.00015579600585624576,
+   "returned": [
+    "PowerToys#47249"
+   ]
+  },
+  {
+   "t": 1794877966.4928937,
+   "tool": "search",
+   "args": {
+    "query": "Command Palette not installed correctly, error when launching, reinstall from Microsoft Store same problem v0.99 v0.100",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0139435880118981,
+   "returned": [
+    "PowerToys#39043",
+    "PowerToys#39695",
+    "PowerToys#43762",
+    "PowerToys#38769",
+    "PowerToys#39212",
+    "PowerToys#39102",
+    "PowerToys#40685",
+    "PowerToys#45121",
+    "PowerToys#38484",
+    "PowerToys#48433",
+    "PowerToys#47997",
+    "PowerToys#44353",
+    "PowerToys#39217",
+    "PowerToys#44970",
+    "PowerToys#40864",
+    "PowerToys#39099",
+    "PowerToys#46228",
+    "PowerToys#38412",
+    "PowerToys#40928",
+    "PowerToys#47453"
+   ]
+  },
+  {
+   "t": 1794877967.6441035,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47453"
+   },
+   "seconds": 0.0001450760173611343,
+   "returned": [
+    "PowerToys#47453"
+   ]
+  },
+  {
+   "t": 1794877967.8200855,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39695"
+   },
+   "seconds": 0.00014002702664583921,
+   "returned": [
+    "PowerToys#39695"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9166,
+  "stop_reason": "end_turn",
+  "session_id": "a001a309-027e-40f0-969b-8dff023e7d6c",
+  "total_cost_usd": 0.0693372,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 13996,
+   "cache_read_input_tokens": 18272,
+   "output_tokens": 1151,
+   "output_tokens_details": {
+    "thinking_tokens": 136
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13996,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 533,
+     "cache_read_input_tokens": 10806,
+     "cache_creation_input_tokens": 4223,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4223
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1151,
+    "cacheReadInputTokens": 18272,
+    "cacheCreationInputTokens": 13996,
+    "webSearchRequests": 0,
+    "costUSD": 0.0693372,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 136,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13996,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find an archived ticket that clearly reports this exact problem. The error is only visible in your screenshot and bug report ZIP, so I couldn't match it to a specific past ticket. The archive does have several similar Command Palette startup failures, and each has a different cause. Check which one applies to you. 1) A crash on launch with v0.99.0 was fixed in v0.99.1 (PowerToys#47453). You are on v0.100.2, so this is probably not your case. 2) Command Palette is installed as a separate MSIX package, and a Windows policy that blocks sideloading can stop it installing (PowerToys#39695). If your PC is managed, or the error mentions sideloading, a policy or deployment failure, check Group Policy for 'Allow all trusted apps to install', 'Allow Sideloading of Apps' and the App Installer policies. Then install the MSIX in %LOCALAPPDATA%\\\\PowerToys\\\\WinUI3Apps\\\\CmdPal manually. 3) Another report of a launch-time crash on v0.99.0 is PowerToys#47249. To get help, please copy the exact error text from the dialog. Also check the logs in %LOCALAPPDATA%\\\\Microsoft\\\\PowerToys\\\\CmdPal\\\\Logs, and include your Windows version and whether the PC is managed by an organization.\"}",
+  "ttft_ms": 1390,
+  "type": "result",
+  "duration_ms": 12698,
+  "uuid": "8c9fca41-ec09-4975-95a3-97fde69b3f08",
+  "ttft_stream_ms": 552,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 552,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1151,
+    "cacheReadInputTokens": 18272,
+    "cacheCreationInputTokens": 13996,
+    "webSearchRequests": 0,
+    "costUSD": 0.0693372,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 136,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13996,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.103998951992253,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-q6sbknos/work"
+  }
+ },
+ "wall_seconds": 14.106161535979481,
+ "qid": "PowerToys#49328",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find an archived ticket that clearly reports this exact problem. The error is only visible in your screenshot and bug report ZIP, so I couldn't match it to a specific past ticket. The archive does have several similar Command Palette startup failures, and each has a different cause. Check which one applies to you. 1) A crash on launch with v0.99.0 was fixed in v0.99.1 (PowerToys#47453). You are on v0.100.2, so this is probably not your case. 2) Command Palette is installed as a separate MSIX package, and a Windows policy that blocks sideloading can stop it installing (PowerToys#39695). If your PC is managed, or the error mentions sideloading, a policy or deployment failure, check Group Policy for 'Allow all trusted apps to install', 'Allow Sideloading of Apps' and the App Installer policies. Then install the MSIX in %LOCALAPPDATA%\\PowerToys\\WinUI3Apps\\CmdPal manually. 3) Another report of a launch-time crash on v0.99.0 is PowerToys#47249. To get help, please copy the exact error text from the dialog. Also check the logs in %LOCALAPPDATA%\\Microsoft\\PowerToys\\CmdPal\\Logs, and include your Windows version and whether the PC is managed by an organization."
+ },
+ "hit_turn_cap": false
+}

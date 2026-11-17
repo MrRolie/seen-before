@@ -1,0 +1,331 @@
+{
+ "shown": [
+  "PowerToys#42461",
+  "PowerToys#42463",
+  "PowerToys#42561",
+  "PowerToys#42627",
+  "PowerToys#42878",
+  "PowerToys#42921",
+  "PowerToys#42934",
+  "PowerToys#43009",
+  "PowerToys#43069",
+  "PowerToys#43790",
+  "PowerToys#43929",
+  "PowerToys#44259",
+  "PowerToys#44285",
+  "PowerToys#45434",
+  "PowerToys#46374",
+  "PowerToys#46461",
+  "PowerToys#48082"
+ ],
+ "retrieval_seconds": 0.3986778259568382,
+ "tool_calls": [
+  {
+   "t": 1794880814.8590798,
+   "tool": "search",
+   "args": {
+    "pattern": "Task Manager",
+    "regex": false,
+    "also": [
+     "Light Switch"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.12951114197494462,
+   "returned": [
+    "PowerToys#44285",
+    "PowerToys#43790",
+    "PowerToys#48082",
+    "PowerToys#42463",
+    "PowerToys#42627",
+    "PowerToys#44259",
+    "PowerToys#43009"
+   ]
+  },
+  {
+   "t": 1794880815.297624,
+   "tool": "search",
+   "args": {
+    "pattern": "Light Switch",
+    "regex": false,
+    "also": [
+     "theme",
+     "not change"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.19466239798930474,
+   "returned": [
+    "PowerToys#42921",
+    "PowerToys#42878",
+    "PowerToys#46461",
+    "PowerToys#42461",
+    "PowerToys#42934",
+    "PowerToys#45434",
+    "PowerToys#43790",
+    "PowerToys#42561",
+    "PowerToys#43929",
+    "PowerToys#43069",
+    "PowerToys#42627"
+   ]
+  },
+  {
+   "t": 1794880816.3085384,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42463"
+   },
+   "seconds": 0.00015628599794581532,
+   "returned": [
+    "PowerToys#42463"
+   ]
+  },
+  {
+   "t": 1794880816.541936,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44285"
+   },
+   "seconds": 0.00012712698662653565,
+   "returned": [
+    "PowerToys#44285"
+   ]
+  },
+  {
+   "t": 1794880816.7295065,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48082"
+   },
+   "seconds": 0.0001263759913854301,
+   "returned": [
+    "PowerToys#48082"
+   ]
+  },
+  {
+   "t": 1794880817.411923,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44259"
+   },
+   "seconds": 0.000319701008265838,
+   "returned": [
+    "PowerToys#44259"
+   ]
+  },
+  {
+   "t": 1794880818.2718034,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43790"
+   },
+   "seconds": 9.691700688563287e-05,
+   "returned": [
+    "PowerToys#43790"
+   ]
+  },
+  {
+   "t": 1794880819.2414014,
+   "tool": "search",
+   "args": {
+    "pattern": "#42463",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0736778790014796,
+   "returned": [
+    "PowerToys#46374",
+    "PowerToys#44259",
+    "PowerToys#43790",
+    "PowerToys#42463"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7576,
+  "stop_reason": "end_turn",
+  "session_id": "99be33b2-1462-4936-858f-0d483cf23c45",
+  "total_cost_usd": 0.0461455,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 8597,
+   "cache_read_input_tokens": 33035,
+   "output_tokens": 843,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8597,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 229,
+     "cache_read_input_tokens": 9163,
+     "cache_creation_input_tokens": 611,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 611
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 843,
+    "cacheReadInputTokens": 33035,
+    "cacheCreationInputTokens": 8597,
+    "webSearchRequests": 0,
+    "costUSD": 0.0461455,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8597,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#42463\", \"PowerToys#43790\", \"PowerToys#44285\"], \"answer\": \"This has been reported before. When Light Switch changes the theme while Task Manager is already open, Task Manager ends up with a mix of light and dark elements. Maintainers closed the other reports as duplicates of PowerToys#42463, so follow that ticket for a fix. The archived tickets don't give a confirmed fix. One commenter on the related ticket PowerToys#44259 said restarting the taskbar cleared a similar mixed-theme glitch. For Task Manager, closing and reopening it after a theme change should also give you the correct colours.\"}",
+  "ttft_ms": 1081,
+  "type": "result",
+  "duration_ms": 7928,
+  "uuid": "6fbd5005-9f23-44a4-a706-4644b506a9b5",
+  "ttft_stream_ms": 514,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 515,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 843,
+    "cacheReadInputTokens": 33035,
+    "cacheCreationInputTokens": 8597,
+    "webSearchRequests": 0,
+    "costUSD": 0.0461455,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8597,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 9.324103153980104,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-4n6wqg5t/work"
+  }
+ },
+ "wall_seconds": 9.326175177993719,
+ "qid": "PowerToys#50023",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#42463",
+   "PowerToys#43790",
+   "PowerToys#44285"
+  ],
+  "answer": "This has been reported before. When Light Switch changes the theme while Task Manager is already open, Task Manager ends up with a mix of light and dark elements. Maintainers closed the other reports as duplicates of PowerToys#42463, so follow that ticket for a fix. The archived tickets don't give a confirmed fix. One commenter on the related ticket PowerToys#44259 said restarting the taskbar cleared a similar mixed-theme glitch. For Task Manager, closing and reopening it after a theme change should also give you the correct colours."
+ },
+ "hit_turn_cap": false
+}

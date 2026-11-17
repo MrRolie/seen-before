@@ -1,0 +1,328 @@
+{
+ "shown": [
+  "PowerToys#31226",
+  "PowerToys#42736",
+  "PowerToys#42903",
+  "PowerToys#43670",
+  "PowerToys#43776",
+  "PowerToys#43861",
+  "PowerToys#43871",
+  "PowerToys#43993",
+  "PowerToys#44062",
+  "PowerToys#44228",
+  "PowerToys#44367",
+  "PowerToys#44467",
+  "PowerToys#44629",
+  "PowerToys#45056",
+  "PowerToys#45531",
+  "PowerToys#45821",
+  "PowerToys#46196",
+  "PowerToys#46755",
+  "PowerToys#46867",
+  "PowerToys#47188",
+  "PowerToys#47221",
+  "PowerToys#48004"
+ ],
+ "retrieval_seconds": 0.37110078998375684,
+ "tool_calls": [
+  {
+   "t": 1794875805.9075348,
+   "tool": "search",
+   "args": {
+    "pattern": "UI thread's exception",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06859680300112814,
+   "returned": [
+    "PowerToys#31226",
+    "PowerToys#44629",
+    "PowerToys#44467",
+    "PowerToys#43861",
+    "PowerToys#43776",
+    "PowerToys#42736",
+    "PowerToys#48004",
+    "PowerToys#47221",
+    "PowerToys#47188",
+    "PowerToys#46867",
+    "PowerToys#46755",
+    "PowerToys#46196",
+    "PowerToys#45821",
+    "PowerToys#45531",
+    "PowerToys#45056",
+    "PowerToys#44367",
+    "PowerToys#44228",
+    "PowerToys#44062",
+    "PowerToys#43993",
+    "PowerToys#43871"
+   ]
+  },
+  {
+   "t": 1794875805.9848964,
+   "tool": "search",
+   "args": {
+    "pattern": "device connected disconnected exception window",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06067537100170739,
+   "returned": []
+  },
+  {
+   "t": 1794875807.9496655,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43776"
+   },
+   "seconds": 0.0002529339981265366,
+   "returned": [
+    "PowerToys#43776"
+   ]
+  },
+  {
+   "t": 1794875811.0596414,
+   "tool": "search",
+   "args": {
+    "pattern": "device",
+    "regex": false,
+    "also": [
+     "UI thread's exception"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10791151798912324,
+   "returned": [
+    "PowerToys#31226"
+   ]
+  },
+  {
+   "t": 1794875812.3738365,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#31226"
+   },
+   "seconds": 0.00043844900210388005,
+   "returned": [
+    "PowerToys#31226"
+   ]
+  },
+  {
+   "t": 1794875814.325372,
+   "tool": "search",
+   "args": {
+    "pattern": "0.95.1",
+    "regex": false,
+    "also": [
+     "UI thread's exception",
+     "Microsoft Store"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.13310343798366375,
+   "returned": [
+    "PowerToys#42903",
+    "PowerToys#43670",
+    "PowerToys#31226"
+   ]
+  },
+  {
+   "t": 1794875816.486245,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43670"
+   },
+   "seconds": 0.00012227700790390372,
+   "returned": [
+    "PowerToys#43670"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 17560,
+  "stop_reason": "end_turn",
+  "session_id": "065c9e41-baca-4d1b-b9bd-bfb44269970a",
+  "total_cost_usd": 0.09357760000000001,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 18449,
+   "cache_read_input_tokens": 59136,
+   "output_tokens": 1384,
+   "output_tokens_details": {
+    "thinking_tokens": 117
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 18449,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 487,
+     "cache_read_input_tokens": 15152,
+     "cache_creation_input_tokens": 4474,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4474
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1384,
+    "cacheReadInputTokens": 59136,
+    "cacheCreationInputTokens": 18449,
+    "webSearchRequests": 0,
+    "costUSD": 0.09357760000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 117,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18449,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#31226\", \"PowerToys#43670\", \"PowerToys#43776\"], \"answer\": \"I couldn't see the exception text in your attached log, so this match is likely but not confirmed. Past tickets with this same '[FATAL] From UI thread's exception' title and the PowerToys Run 'Something went wrong' window show the same pattern. PowerToys Run (PowerLauncher) throws COMException 0x80263001, 'Desktop composition is disabled', in DwmExtendFrameIntoClientArea. It happens when Windows raises a system theme or display change event. Plugging or unplugging a device, especially a monitor, dock or GPU-related device, can trigger that event. The maintainers say the root cause varies by machine and is often outside PowerToys, for example graphics driver problems or memory exhaustion. The fix they recommend in PowerToys#31226 is to update to PowerToys 0.96 or newer, where PowerToys Run handles this more gracefully. You're on 0.95.1, so update through the Store or the PowerToys settings. Also update your graphics drivers. If the window still appears after updating, open your log and check whether it shows the same 0x80263001 / DwmExtendFrameIntoClientArea exception. If it shows a different exception, please post it, because that would be a separate problem.\"}",
+  "ttft_ms": 2247,
+  "type": "result",
+  "duration_ms": 18030,
+  "uuid": "58ad4144-c5c4-48b0-a5f8-26974e186b83",
+  "ttft_stream_ms": 1273,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 1273,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1384,
+    "cacheReadInputTokens": 59136,
+    "cacheCreationInputTokens": 18449,
+    "webSearchRequests": 0,
+    "costUSD": 0.09357760000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 117,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18449,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 19.352101744996617,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-pxttdt8l/work"
+  }
+ },
+ "wall_seconds": 19.3545615930052,
+ "qid": "PowerToys#49130",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#31226",
+   "PowerToys#43670",
+   "PowerToys#43776"
+  ],
+  "answer": "I couldn't see the exception text in your attached log, so this match is likely but not confirmed. Past tickets with this same '[FATAL] From UI thread's exception' title and the PowerToys Run 'Something went wrong' window show the same pattern. PowerToys Run (PowerLauncher) throws COMException 0x80263001, 'Desktop composition is disabled', in DwmExtendFrameIntoClientArea. It happens when Windows raises a system theme or display change event. Plugging or unplugging a device, especially a monitor, dock or GPU-related device, can trigger that event. The maintainers say the root cause varies by machine and is often outside PowerToys, for example graphics driver problems or memory exhaustion. The fix they recommend in PowerToys#31226 is to update to PowerToys 0.96 or newer, where PowerToys Run handles this more gracefully. You're on 0.95.1, so update through the Store or the PowerToys settings. Also update your graphics drivers. If the window still appears after updating, open your log and check whether it shows the same 0x80263001 / DwmExtendFrameIntoClientArea exception. If it shows a different exception, please post it, because that would be a separate problem."
+ },
+ "hit_turn_cap": false
+}

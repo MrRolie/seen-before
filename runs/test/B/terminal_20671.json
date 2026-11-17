@@ -1,0 +1,400 @@
+{
+ "shown": [
+  "terminal#10632",
+  "terminal#11353",
+  "terminal#11633",
+  "terminal#11730",
+  "terminal#11875",
+  "terminal#12317",
+  "terminal#12335",
+  "terminal#12359",
+  "terminal#12388",
+  "terminal#12480",
+  "terminal#12633",
+  "terminal#13389",
+  "terminal#13695",
+  "terminal#13807",
+  "terminal#13967",
+  "terminal#13985",
+  "terminal#14051",
+  "terminal#1460",
+  "terminal#14693",
+  "terminal#14957",
+  "terminal#15144",
+  "terminal#15726",
+  "terminal#16022",
+  "terminal#16064",
+  "terminal#16302",
+  "terminal#17000",
+  "terminal#17019",
+  "terminal#1704",
+  "terminal#17202",
+  "terminal#17433",
+  "terminal#17613",
+  "terminal#18318",
+  "terminal#18661",
+  "terminal#1867",
+  "terminal#18909",
+  "terminal#1928",
+  "terminal#20249",
+  "terminal#2893",
+  "terminal#3325",
+  "terminal#4500",
+  "terminal#4609",
+  "terminal#5504",
+  "terminal#6439",
+  "terminal#649",
+  "terminal#6755",
+  "terminal#7036",
+  "terminal#7047",
+  "terminal#7074",
+  "terminal#7113",
+  "terminal#7516",
+  "terminal#7749",
+  "terminal#7760",
+  "terminal#7857",
+  "terminal#8767",
+  "terminal#8987",
+  "terminal#9244",
+  "terminal#9340",
+  "terminal#9566"
+ ],
+ "retrieval_seconds": 0.36953796798479743,
+ "tool_calls": [
+  {
+   "t": 1794882658.631909,
+   "tool": "search",
+   "args": {
+    "pattern": "Settings tab does not open",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.040812040999298915,
+   "returned": []
+  },
+  {
+   "t": 1794882658.95927,
+   "tool": "search",
+   "args": {
+    "pattern": "expander",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.029171756992582232,
+   "returned": [
+    "terminal#12388",
+    "terminal#12359",
+    "terminal#20249",
+    "terminal#14693",
+    "terminal#12317",
+    "terminal#18318",
+    "terminal#13807",
+    "terminal#13389",
+    "terminal#12633",
+    "terminal#12335",
+    "terminal#11353",
+    "terminal#1867"
+   ]
+  },
+  {
+   "t": 1794882659.2210753,
+   "tool": "search",
+   "args": {
+    "pattern": "20200",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.037907238001935184,
+   "returned": [
+    "terminal#17000",
+    "terminal#7036",
+    "terminal#4500",
+    "terminal#6755",
+    "terminal#6439",
+    "terminal#5504",
+    "terminal#4609",
+    "terminal#3325",
+    "terminal#18909",
+    "terminal#16022",
+    "terminal#12480",
+    "terminal#11730",
+    "terminal#9244",
+    "terminal#7857",
+    "terminal#7760",
+    "terminal#7749",
+    "terminal#7516",
+    "terminal#7113",
+    "terminal#7074",
+    "terminal#7047"
+   ]
+  },
+  {
+   "t": 1794882660.5743234,
+   "tool": "search",
+   "args": {
+    "pattern": "58c0db948e",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06740153598366305,
+   "returned": []
+  },
+  {
+   "t": 1794882661.7477326,
+   "tool": "search",
+   "args": {
+    "pattern": "settings tab",
+    "regex": false,
+    "also": [
+     "open"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.061328114999923855,
+   "returned": [
+    "terminal#8767",
+    "terminal#649",
+    "terminal#18661",
+    "terminal#9340",
+    "terminal#17433",
+    "terminal#16302",
+    "terminal#15144",
+    "terminal#14051",
+    "terminal#11633",
+    "terminal#10632",
+    "terminal#17613",
+    "terminal#17202",
+    "terminal#17019",
+    "terminal#16064",
+    "terminal#15726",
+    "terminal#14957",
+    "terminal#13985",
+    "terminal#13967",
+    "terminal#13695",
+    "terminal#11875"
+   ]
+  },
+  {
+   "t": 1794882661.945617,
+   "tool": "search",
+   "args": {
+    "pattern": "Settings won't open",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.03183345700381324,
+   "returned": [
+    "terminal#1460"
+   ]
+  },
+  {
+   "t": 1794882663.2838414,
+   "tool": "search",
+   "args": {
+    "pattern": "settings",
+    "regex": false,
+    "also": [
+     "nothing happens",
+     "ctrl+,"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.10108382400358096,
+   "returned": [
+    "terminal#8767",
+    "terminal#2893",
+    "terminal#1704",
+    "terminal#8987",
+    "terminal#1928",
+    "terminal#9566"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8927,
+  "stop_reason": "end_turn",
+  "session_id": "f5ed298c-e459-4f30-8be5-739c721dae2c",
+  "total_cost_usd": 0.0590776,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 11443,
+   "cache_read_input_tokens": 29156,
+   "output_tokens": 1037,
+   "output_tokens_details": {
+    "thinking_tokens": 28
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11443,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 324,
+     "cache_read_input_tokens": 11399,
+     "cache_creation_input_tokens": 1221,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1221
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1037,
+    "cacheReadInputTokens": 29156,
+    "cacheCreationInputTokens": 11443,
+    "webSearchRequests": 0,
+    "costUSD": 0.0590776,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 28,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11443,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this problem. The closest are terminal#1928, terminal#1704 and terminal#1460. They are old reports of Settings doing nothing or opening the JSON file in another program because of file associations. That is a different cause from yours, a regression in the new settings UI. Your report points to commit 58c0db9 (#20200, expander groups in the settings UI) as the cause. Please file it as a new bug and include the commit hash and the Windows build number. Also check whether the Settings tab opens from the dropdown menu and from the command palette. Attach any error from the debugger output, or from Event Viewer if the app crashes silently. Until it's fixed, build from a commit before #20200, or edit settings.json directly. Alt+click on Settings opens defaults.json, and the plain JSON file can be opened through the openSettings action.\"}",
+  "ttft_ms": 1010,
+  "type": "result",
+  "duration_ms": 9233,
+  "uuid": "d2108181-614a-484d-b416-c3b344757b07",
+  "ttft_stream_ms": 663,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 664,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1037,
+    "cacheReadInputTokens": 29156,
+    "cacheCreationInputTokens": 11443,
+    "webSearchRequests": 0,
+    "costUSD": 0.0590776,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 28,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11443,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.626040567993186,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-b05a2uwn/work"
+  }
+ },
+ "wall_seconds": 10.62836111598881,
+ "qid": "terminal#20671",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this problem. The closest are terminal#1928, terminal#1704 and terminal#1460. They are old reports of Settings doing nothing or opening the JSON file in another program because of file associations. That is a different cause from yours, a regression in the new settings UI. Your report points to commit 58c0db9 (#20200, expander groups in the settings UI) as the cause. Please file it as a new bug and include the commit hash and the Windows build number. Also check whether the Settings tab opens from the dropdown menu and from the command palette. Attach any error from the debugger output, or from Event Viewer if the app crashes silently. Until it's fixed, build from a commit before #20200, or edit settings.json directly. Alt+click on Settings opens defaults.json, and the plain JSON file can be opened through the openSettings action."
+ },
+ "hit_turn_cap": false
+}

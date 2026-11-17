@@ -1,0 +1,373 @@
+{
+ "shown": [
+  "PowerToys#10060",
+  "PowerToys#11580",
+  "PowerToys#117",
+  "PowerToys#127",
+  "PowerToys#1411",
+  "PowerToys#16861",
+  "PowerToys#1984",
+  "PowerToys#2015",
+  "PowerToys#2169",
+  "PowerToys#2383",
+  "PowerToys#24283",
+  "PowerToys#2544",
+  "PowerToys#29996",
+  "PowerToys#30665",
+  "PowerToys#33",
+  "PowerToys#3374",
+  "PowerToys#34",
+  "PowerToys#34030",
+  "PowerToys#35977",
+  "PowerToys#38331",
+  "PowerToys#38423",
+  "PowerToys#39619",
+  "PowerToys#4018",
+  "PowerToys#4106",
+  "PowerToys#41213",
+  "PowerToys#43000",
+  "PowerToys#45277",
+  "PowerToys#4657",
+  "PowerToys#5052",
+  "PowerToys#5363",
+  "PowerToys#5655",
+  "PowerToys#642",
+  "PowerToys#6751",
+  "PowerToys#7715",
+  "PowerToys#8323",
+  "PowerToys#8435",
+  "PowerToys#8617",
+  "PowerToys#9015",
+  "PowerToys#9024",
+  "PowerToys#9633",
+  "PowerToys#975"
+ ],
+ "retrieval_seconds": 3.652427430060925,
+ "tool_calls": [
+  {
+   "t": 1794877781.7562501,
+   "tool": "search",
+   "args": {
+    "query": "Quick Access menu customize which tools appear, add or remove tools, reorder",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.638912132009864,
+   "returned": [
+    "PowerToys#34030",
+    "PowerToys#41213",
+    "PowerToys#33",
+    "PowerToys#45277",
+    "PowerToys#8435",
+    "PowerToys#117",
+    "PowerToys#29996",
+    "PowerToys#30665",
+    "PowerToys#10060",
+    "PowerToys#642",
+    "PowerToys#975",
+    "PowerToys#34",
+    "PowerToys#1984",
+    "PowerToys#35977",
+    "PowerToys#2015",
+    "PowerToys#7715",
+    "PowerToys#16861",
+    "PowerToys#5363",
+    "PowerToys#1411",
+    "PowerToys#9015"
+   ]
+  },
+  {
+   "t": 1794877781.7834735,
+   "tool": "search",
+   "args": {
+    "query": "Quick Access flyout search box, scroll, pin favorite modules",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012538912997115403,
+   "returned": [
+    "PowerToys#38331",
+    "PowerToys#30665",
+    "PowerToys#8617",
+    "PowerToys#4106",
+    "PowerToys#9024",
+    "PowerToys#38423",
+    "PowerToys#4657",
+    "PowerToys#2169",
+    "PowerToys#127",
+    "PowerToys#5655",
+    "PowerToys#8323",
+    "PowerToys#39619",
+    "PowerToys#11580",
+    "PowerToys#2383",
+    "PowerToys#3374",
+    "PowerToys#2544",
+    "PowerToys#6751",
+    "PowerToys#5052",
+    "PowerToys#4018",
+    "PowerToys#9633"
+   ]
+  },
+  {
+   "t": 1794877783.298704,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34030"
+   },
+   "seconds": 0.00013612600741907954,
+   "returned": [
+    "PowerToys#34030"
+   ]
+  },
+  {
+   "t": 1794877783.695447,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#41213"
+   },
+   "seconds": 0.00016602600226178765,
+   "returned": [
+    "PowerToys#41213"
+   ]
+  },
+  {
+   "t": 1794877783.7035968,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45277"
+   },
+   "seconds": 0.00014046701835468411,
+   "returned": [
+    "PowerToys#45277"
+   ]
+  },
+  {
+   "t": 1794877783.7886512,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35977"
+   },
+   "seconds": 0.00013592600589618087,
+   "returned": [
+    "PowerToys#35977"
+   ]
+  },
+  {
+   "t": 1794877785.630288,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39619"
+   },
+   "seconds": 0.00012088700896129012,
+   "returned": [
+    "PowerToys#39619"
+   ]
+  },
+  {
+   "t": 1794877787.281516,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#24283"
+   },
+   "seconds": 0.00015440600691363215,
+   "returned": [
+    "PowerToys#24283"
+   ]
+  },
+  {
+   "t": 1794877788.707585,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43000"
+   },
+   "seconds": 0.00012254700413905084,
+   "returned": [
+    "PowerToys#43000"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13640,
+  "stop_reason": "end_turn",
+  "session_id": "90265512-b080-42b8-a956-27650c0b0028",
+  "total_cost_usd": 0.0518911,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 9631,
+   "cache_read_input_tokens": 31331,
+   "output_tokens": 1021,
+   "output_tokens_details": {
+    "thinking_tokens": 97
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9631,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 405,
+     "cache_read_input_tokens": 10317,
+     "cache_creation_input_tokens": 347,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 347
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1021,
+    "cacheReadInputTokens": 31331,
+    "cacheCreationInputTokens": 9631,
+    "webSearchRequests": 0,
+    "costUSD": 0.0518911,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 97,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9631,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#24283\", \"PowerToys#43000\", \"PowerToys#41213\"], \"answer\": \"This has been requested before, and it isn't available yet. The main tracking issue is PowerToys#24283, \\\"Allow customization of the quick access icons\\\". Other reports (#43000, #41213, #34030, #35977, #45277) were closed as duplicates of it. They ask for the same things you do: choosing which tools appear, pinning them, and reordering them. There is no workaround, because the Quick Access list can't be customized. Disabling a module is the only way to remove an item, and you can't add tools that aren't shown. Add your +1 and your Good/Better/Great proposal to #24283. Your search-box idea is partly covered already. A search box was added to PowerToys in version 0.94 (see #39619), though that ticket doesn't say whether it covers the Quick Access flyout itself.\"}",
+  "ttft_ms": 2691,
+  "type": "result",
+  "duration_ms": 17374,
+  "uuid": "385e7ec7-3995-4e23-9d91-78b87a4dc6a4",
+  "ttft_stream_ms": 1455,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 1455,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1021,
+    "cacheReadInputTokens": 31331,
+    "cacheCreationInputTokens": 9631,
+    "webSearchRequests": 0,
+    "costUSD": 0.0518911,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 97,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9631,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.631099322024966,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-4ri74c3g/work"
+  }
+ },
+ "wall_seconds": 18.632914654997876,
+ "qid": "PowerToys#49257",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#24283",
+   "PowerToys#43000",
+   "PowerToys#41213"
+  ],
+  "answer": "This has been requested before, and it isn't available yet. The main tracking issue is PowerToys#24283, \"Allow customization of the quick access icons\". Other reports (#43000, #41213, #34030, #35977, #45277) were closed as duplicates of it. They ask for the same things you do: choosing which tools appear, pinning them, and reordering them. There is no workaround, because the Quick Access list can't be customized. Disabling a module is the only way to remove an item, and you can't add tools that aren't shown. Add your +1 and your Good/Better/Great proposal to #24283. Your search-box idea is partly covered already. A search box was added to PowerToys in version 0.94 (see #39619), though that ticket doesn't say whether it covers the Quick Access flyout itself."
+ },
+ "hit_turn_cap": false
+}

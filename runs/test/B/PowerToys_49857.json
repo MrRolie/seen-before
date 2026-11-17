@@ -1,0 +1,290 @@
+{
+ "shown": [
+  "PowerToys#1153",
+  "PowerToys#20713",
+  "PowerToys#22404",
+  "PowerToys#24731",
+  "PowerToys#25406",
+  "PowerToys#25646",
+  "PowerToys#26937",
+  "PowerToys#27004",
+  "PowerToys#29510",
+  "PowerToys#32111",
+  "PowerToys#33337",
+  "PowerToys#35209",
+  "PowerToys#37037",
+  "PowerToys#37988",
+  "PowerToys#39249",
+  "PowerToys#41223",
+  "PowerToys#42442",
+  "PowerToys#42493",
+  "PowerToys#43049",
+  "PowerToys#8793"
+ ],
+ "retrieval_seconds": 0.04887625901028514,
+ "tool_calls": [
+  {
+   "t": 1794880047.3009303,
+   "tool": "search",
+   "args": {
+    "pattern": "horizontal scroll",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04826377599965781,
+   "returned": [
+    "PowerToys#39249",
+    "PowerToys#26937",
+    "PowerToys#37988",
+    "PowerToys#37037",
+    "PowerToys#33337",
+    "PowerToys#22404",
+    "PowerToys#35209",
+    "PowerToys#20713",
+    "PowerToys#32111",
+    "PowerToys#29510",
+    "PowerToys#27004",
+    "PowerToys#25646",
+    "PowerToys#25406",
+    "PowerToys#24731",
+    "PowerToys#8793",
+    "PowerToys#1153",
+    "PowerToys#43049",
+    "PowerToys#42493",
+    "PowerToys#42442",
+    "PowerToys#41223"
+   ]
+  },
+  {
+   "t": 1794880049.1970232,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1153"
+   },
+   "seconds": 0.0001389459939673543,
+   "returned": [
+    "PowerToys#1153"
+   ]
+  },
+  {
+   "t": 1794880049.296009,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33337"
+   },
+   "seconds": 0.00023687398061156273,
+   "returned": [
+    "PowerToys#33337"
+   ]
+  },
+  {
+   "t": 1794880050.8437638,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#25646"
+   },
+   "seconds": 0.00010991701856255531,
+   "returned": [
+    "PowerToys#25646"
+   ]
+  },
+  {
+   "t": 1794880052.3319495,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39249"
+   },
+   "seconds": 0.000126746017485857,
+   "returned": [
+    "PowerToys#39249"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11380,
+  "stop_reason": "end_turn",
+  "session_id": "437fe3ec-0b58-47cf-8b4a-b106275c763b",
+  "total_cost_usd": 0.04071960000000001,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 7507,
+   "cache_read_input_tokens": 23716,
+   "output_tokens": 830,
+   "output_tokens_details": {
+    "thinking_tokens": 59
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7507,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 383,
+     "cache_read_input_tokens": 7578,
+     "cache_creation_input_tokens": 1106,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1106
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 830,
+    "cacheReadInputTokens": 23716,
+    "cacheCreationInputTokens": 7507,
+    "webSearchRequests": 0,
+    "costUSD": 0.04071960000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 59,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7507,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#25646\", \"PowerToys#39249\", \"PowerToys#33337\"], \"answer\": \"This feature request has been filed before. Several tickets ask for a modifier key (Shift, Alt, Ctrl) plus the vertical mouse wheel to scroll horizontally in any app, for example Excel and Word. The main one is PowerToys#25646. Other tickets, such as #1153 and #27004, were closed as duplicates, and #1153 points to #25646 as the one tracking it. This feature isn't available in PowerToys yet. To help get it prioritized, add a thumbs-up and your use cases to #25646 instead of opening a new ticket. In the meantime, many apps already scroll horizontally with Shift + wheel. For apps that don't, such as Excel and Word, a third-party tool or an AutoHotkey script can emulate it. Those tickets mention AutoHotkey scripts as a common workaround.\"}",
+  "ttft_ms": 2452,
+  "type": "result",
+  "duration_ms": 11532,
+  "uuid": "2312d98f-5708-4e06-bb9b-4d69e549bced",
+  "ttft_stream_ms": 1376,
+  "time_to_request_ms": 47,
+  "first_content_frame_ms": 1376,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 830,
+    "cacheReadInputTokens": 23716,
+    "cacheCreationInputTokens": 7507,
+    "webSearchRequests": 0,
+    "costUSD": 0.04071960000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 59,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7507,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.008517563983332,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-lkm9cqzr/work"
+  }
+ },
+ "wall_seconds": 13.011158423003508,
+ "qid": "PowerToys#49857",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#25646",
+   "PowerToys#39249",
+   "PowerToys#33337"
+  ],
+  "answer": "This feature request has been filed before. Several tickets ask for a modifier key (Shift, Alt, Ctrl) plus the vertical mouse wheel to scroll horizontally in any app, for example Excel and Word. The main one is PowerToys#25646. Other tickets, such as #1153 and #27004, were closed as duplicates, and #1153 points to #25646 as the one tracking it. This feature isn't available in PowerToys yet. To help get it prioritized, add a thumbs-up and your use cases to #25646 instead of opening a new ticket. In the meantime, many apps already scroll horizontally with Shift + wheel. For apps that don't, such as Excel and Word, a third-party tool or an AutoHotkey script can emulate it. Those tickets mention AutoHotkey scripts as a common workaround."
+ },
+ "hit_turn_cap": false
+}

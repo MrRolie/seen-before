@@ -1,0 +1,389 @@
+{
+ "shown": [
+  "terminal#1000",
+  "terminal#10083",
+  "terminal#1035",
+  "terminal#10464",
+  "terminal#1060",
+  "terminal#11354",
+  "terminal#12334",
+  "terminal#12369",
+  "terminal#12383",
+  "terminal#13105",
+  "terminal#13290",
+  "terminal#13388",
+  "terminal#13726",
+  "terminal#14082",
+  "terminal#14436",
+  "terminal#14865",
+  "terminal#15320",
+  "terminal#1553",
+  "terminal#15583",
+  "terminal#15610",
+  "terminal#15689",
+  "terminal#16747",
+  "terminal#1753",
+  "terminal#19010",
+  "terminal#19250",
+  "terminal#19562",
+  "terminal#2338",
+  "terminal#2634",
+  "terminal#3097",
+  "terminal#3118",
+  "terminal#3726",
+  "terminal#4029",
+  "terminal#4226",
+  "terminal#448",
+  "terminal#489",
+  "terminal#5260",
+  "terminal#603",
+  "terminal#649",
+  "terminal#653",
+  "terminal#6699",
+  "terminal#7436",
+  "terminal#8405",
+  "terminal#8639",
+  "terminal#8746",
+  "terminal#8900",
+  "terminal#8901",
+  "terminal#961",
+  "terminal#9610",
+  "terminal#9982"
+ ],
+ "retrieval_seconds": 0.13508164696395397,
+ "tool_calls": [
+  {
+   "t": 1794880453.0595026,
+   "tool": "search",
+   "args": {
+    "pattern": "flash",
+    "regex": false,
+    "also": [
+     "split"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.052959683001972735,
+   "returned": [
+    "terminal#13388",
+    "terminal#1060",
+    "terminal#19250",
+    "terminal#13290",
+    "terminal#4029",
+    "terminal#3118",
+    "terminal#16747",
+    "terminal#15610",
+    "terminal#15320",
+    "terminal#14082",
+    "terminal#13726",
+    "terminal#12383",
+    "terminal#10464",
+    "terminal#9982",
+    "terminal#9610",
+    "terminal#6699",
+    "terminal#5260",
+    "terminal#3726",
+    "terminal#2634",
+    "terminal#1553"
+   ]
+  },
+  {
+   "t": 1794880453.1512034,
+   "tool": "search",
+   "args": {
+    "pattern": "Independent Flip",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.022244974999921396,
+   "returned": [
+    "terminal#19010",
+    "terminal#14865"
+   ]
+  },
+  {
+   "t": 1794880453.5523632,
+   "tool": "search",
+   "args": {
+    "pattern": "MPO",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.03384285498759709,
+   "returned": [
+    "terminal#3097",
+    "terminal#2338",
+    "terminal#11354",
+    "terminal#15689",
+    "terminal#15583",
+    "terminal#12369",
+    "terminal#489",
+    "terminal#4226",
+    "terminal#603",
+    "terminal#8639",
+    "terminal#19562",
+    "terminal#14436",
+    "terminal#13388",
+    "terminal#10083",
+    "terminal#1035",
+    "terminal#961",
+    "terminal#653",
+    "terminal#649",
+    "terminal#448",
+    "terminal#1753"
+   ]
+  },
+  {
+   "t": 1794880454.8240123,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19250"
+   },
+   "seconds": 0.00015781598631292582,
+   "returned": [
+    "terminal#19250"
+   ]
+  },
+  {
+   "t": 1794880456.003485,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#12334"
+   },
+   "seconds": 0.0001126169809140265,
+   "returned": [
+    "terminal#12334"
+   ]
+  },
+  {
+   "t": 1794880456.0584054,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#6699"
+   },
+   "seconds": 0.00010458700126037002,
+   "returned": [
+    "terminal#6699"
+   ]
+  },
+  {
+   "t": 1794880457.1171536,
+   "tool": "search",
+   "args": {
+    "pattern": "pane animation",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.02551472801133059,
+   "returned": [
+    "terminal#12334",
+    "terminal#8746",
+    "terminal#13105",
+    "terminal#8901",
+    "terminal#8900",
+    "terminal#8405",
+    "terminal#7436",
+    "terminal#1000"
+   ]
+  },
+  {
+   "t": 1794880458.1214714,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#13105"
+   },
+   "seconds": 0.0001443859946448356,
+   "returned": [
+    "terminal#13105"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11981,
+  "stop_reason": "end_turn",
+  "session_id": "3420b01e-88e3-4fda-87ba-afac2fccc996",
+  "total_cost_usd": 0.08853540000000001,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 17716,
+   "cache_read_input_tokens": 57774,
+   "output_tokens": 1187,
+   "output_tokens_details": {
+    "thinking_tokens": 259
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 17716,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 613,
+     "cache_read_input_tokens": 15274,
+     "cache_creation_input_tokens": 3619,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3619
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1187,
+    "cacheReadInputTokens": 57774,
+    "cacheCreationInputTokens": 17716,
+    "webSearchRequests": 0,
+    "costUSD": 0.08853540000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 259,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 17716,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#19250\", \"terminal#12334\"], \"answer\": \"This has been reported before. terminal#19250 describes the same thing: content behind the terminal flashes when a pane is split with Shift+Alt+D, until the new pane renders. It was closed as a duplicate of terminal#12334. That ticket says the background during the open-pane animation is transparent. The flash is therefore most likely the pane-open animation, not a DWM/MPO regression or something specific to your hardware. The Terminal team said it isn't fixable in the current UI framework, and it is not being prioritized. There is no fix. Based on those tickets, the likely workaround is to turn on the \\\"Disable pane animations\\\" setting (Settings > Appearance), or turn off animations in Windows. I haven't confirmed in the archive that this removes the flash, so please test it. If the flash stops, that confirms the cause. Please add your findings to terminal#12334 instead of filing a new ticket. The Independent Flip discussion (terminal#19010) is a separate problem.\"}",
+  "ttft_ms": 1403,
+  "type": "result",
+  "duration_ms": 12111,
+  "uuid": "cf5ba17b-62ca-4232-8ffc-f53a236aa501",
+  "ttft_stream_ms": 738,
+  "time_to_request_ms": 37,
+  "first_content_frame_ms": 738,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1187,
+    "cacheReadInputTokens": 57774,
+    "cacheCreationInputTokens": 17716,
+    "webSearchRequests": 0,
+    "costUSD": 0.08853540000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 259,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 17716,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.488119014975382,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-3mcy73gg/work"
+  }
+ },
+ "wall_seconds": 13.490086241974495,
+ "qid": "terminal#20554",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#19250",
+   "terminal#12334"
+  ],
+  "answer": "This has been reported before. terminal#19250 describes the same thing: content behind the terminal flashes when a pane is split with Shift+Alt+D, until the new pane renders. It was closed as a duplicate of terminal#12334. That ticket says the background during the open-pane animation is transparent. The flash is therefore most likely the pane-open animation, not a DWM/MPO regression or something specific to your hardware. The Terminal team said it isn't fixable in the current UI framework, and it is not being prioritized. There is no fix. Based on those tickets, the likely workaround is to turn on the \"Disable pane animations\" setting (Settings > Appearance), or turn off animations in Windows. I haven't confirmed in the archive that this removes the flash, so please test it. If the flash stops, that confirms the cause. Please add your findings to terminal#12334 instead of filing a new ticket. The Independent Flip discussion (terminal#19010) is a separate problem."
+ },
+ "hit_turn_cap": false
+}

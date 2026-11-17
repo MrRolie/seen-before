@@ -1,0 +1,305 @@
+{
+ "shown": [
+  "PowerToys#16751",
+  "PowerToys#19079",
+  "PowerToys#19825",
+  "PowerToys#25076",
+  "PowerToys#25179",
+  "PowerToys#27347",
+  "PowerToys#2774",
+  "PowerToys#28642",
+  "PowerToys#32100",
+  "PowerToys#34950",
+  "PowerToys#39696",
+  "PowerToys#41322",
+  "PowerToys#42816",
+  "PowerToys#43020",
+  "PowerToys#46333",
+  "PowerToys#46334",
+  "PowerToys#47167",
+  "PowerToys#48316",
+  "PowerToys#48566",
+  "PowerToys#6826"
+ ],
+ "retrieval_seconds": 0.22554998801206239,
+ "tool_calls": [
+  {
+   "t": 1794884731.7365365,
+   "tool": "search",
+   "args": {
+    "pattern": "hide window screen shar",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.08559283500653692,
+   "returned": []
+  },
+  {
+   "t": 1794884732.4462929,
+   "tool": "search",
+   "args": {
+    "pattern": "SetWindowDisplayAffinity",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07162788201821968,
+   "returned": [
+    "PowerToys#46333"
+   ]
+  },
+  {
+   "t": 1794884733.606524,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46333"
+   },
+   "seconds": 0.00031197199132293463,
+   "returned": [
+    "PowerToys#46333"
+   ]
+  },
+  {
+   "t": 1794884733.891324,
+   "tool": "search",
+   "args": {
+    "pattern": "screen shar",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06777223499375395,
+   "returned": [
+    "PowerToys#48566",
+    "PowerToys#34950",
+    "PowerToys#46333",
+    "PowerToys#42816",
+    "PowerToys#28642",
+    "PowerToys#32100",
+    "PowerToys#27347",
+    "PowerToys#19825",
+    "PowerToys#19079",
+    "PowerToys#16751",
+    "PowerToys#6826",
+    "PowerToys#2774",
+    "PowerToys#48316",
+    "PowerToys#47167",
+    "PowerToys#46334",
+    "PowerToys#43020",
+    "PowerToys#41322",
+    "PowerToys#39696",
+    "PowerToys#25179",
+    "PowerToys#25076"
+   ]
+  },
+  {
+   "t": 1794884735.8031962,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48566"
+   },
+   "seconds": 0.00012534699635580182,
+   "returned": [
+    "PowerToys#48566"
+   ]
+  },
+  {
+   "t": 1794884735.9834914,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34950"
+   },
+   "seconds": 0.00011971700587309897,
+   "returned": [
+    "PowerToys#34950"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8615,
+  "stop_reason": "end_turn",
+  "session_id": "158d58d4-a7f4-46f8-97f3-6372720e77ff",
+  "total_cost_usd": 0.054703,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 10631,
+   "cache_read_input_tokens": 15030,
+   "output_tokens": 1066,
+   "output_tokens_details": {
+    "thinking_tokens": 81
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10631,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 372,
+     "cache_read_input_tokens": 9838,
+     "cache_creation_input_tokens": 1970,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1970
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1066,
+    "cacheReadInputTokens": 15030,
+    "cacheCreationInputTokens": 10631,
+    "webSearchRequests": 0,
+    "costUSD": 0.054703,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 81,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10631,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46333\", \"PowerToys#48566\", \"PowerToys#34950\"], \"answer\": \"This feature request has been filed before. The main tracking issue is PowerToys#46333 (Privacy Overlay), which proposes excluding selected windows from screen sharing, recording and screenshots. PowerToys#48566 was closed as a duplicate of it. PowerToys#34950 (Window Masking) asks for the same thing, but its own duplicate pointer went to an unrelated issue. This is not available in PowerToys yet. Subscribe to #46333 and add a 👍 or your use case there. One contributor has built a proof of concept based on the Windows API SetWindowDisplayAffinity with WDA_EXCLUDEFROMCAPTURE. They found that calling it directly from another process is blocked, so the PoC uses an injected hook DLL. In the meantime, the open-source tools Invisiwind and winhider, which are mentioned in #34950, do a similar thing. They don't detect newly opened windows. You can also share a single window instead of the whole screen.\"}",
+  "ttft_ms": 1046,
+  "type": "result",
+  "duration_ms": 8738,
+  "uuid": "c3861845-e03c-4a9a-8339-a98217edde09",
+  "ttft_stream_ms": 620,
+  "time_to_request_ms": 33,
+  "first_content_frame_ms": 620,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1066,
+    "cacheReadInputTokens": 15030,
+    "cacheCreationInputTokens": 10631,
+    "webSearchRequests": 0,
+    "costUSD": 0.054703,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 81,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10631,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.078489078005077,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-6x8svsv6/work"
+  }
+ },
+ "wall_seconds": 10.08018967101816,
+ "qid": "PowerToys#51660",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46333",
+   "PowerToys#48566",
+   "PowerToys#34950"
+  ],
+  "answer": "This feature request has been filed before. The main tracking issue is PowerToys#46333 (Privacy Overlay), which proposes excluding selected windows from screen sharing, recording and screenshots. PowerToys#48566 was closed as a duplicate of it. PowerToys#34950 (Window Masking) asks for the same thing, but its own duplicate pointer went to an unrelated issue. This is not available in PowerToys yet. Subscribe to #46333 and add a 👍 or your use case there. One contributor has built a proof of concept based on the Windows API SetWindowDisplayAffinity with WDA_EXCLUDEFROMCAPTURE. They found that calling it directly from another process is blocked, so the PoC uses an injected hook DLL. In the meantime, the open-source tools Invisiwind and winhider, which are mentioned in #34950, do a similar thing. They don't detect newly opened windows. You can also share a single window instead of the whole screen."
+ },
+ "hit_turn_cap": false
+}

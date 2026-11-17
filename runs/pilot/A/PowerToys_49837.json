@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#15125",
+  "PowerToys#9496",
+  "PowerToys#13035",
+  "PowerToys#47065",
+  "PowerToys#41540"
+ ],
+ "retrieval_seconds": 0.01489411000511609,
+ "retrieval_scores": [
+  0.8355246186256409,
+  0.8059952259063721,
+  0.7818164229393005,
+  0.7718802690505981,
+  0.7350488901138306
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2841,
+  "stop_reason": "end_turn",
+  "session_id": "416fb92c-7669-47e6-b95f-1e0f50d18be3",
+  "total_cost_usd": 0.026976,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5983,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 304,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5983,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 304,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5983,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5983
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 304,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5983,
+    "webSearchRequests": 0,
+    "costUSD": 0.026976,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5983,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#13035\", \"PowerToys#9496\", \"PowerToys#15125\"], \"answer\": \"This feature request (dim inactive windows, HazeOver-style) has been filed before. The main ticket is PowerToys#13035, and #9496 and #15125 were closed as duplicates of it. There is no released PowerToys dimming utility to enable. In #13035 maintainers suggested building a proof of concept as a separate app first, and a community project, PowerDimmer (github.com/[user]/PowerDimmer), was shared there as a working alternative. Please add your use case, such as adjustable dimming intensity and multi-monitor support, and a 👍 reaction to #13035 instead of opening a new ticket. Be aware that the comments in #9496 and #15125 that point to FocusDim are promotional posts by a third party, not endorsements by the PowerToys team.\"}",
+  "ttft_ms": 3004,
+  "type": "result",
+  "duration_ms": 3026,
+  "uuid": "04fd8f16-5325-4c3c-9dc7-c6087c0a7632",
+  "ttft_stream_ms": 900,
+  "time_to_request_ms": 183,
+  "first_content_frame_ms": 901,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 304,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5983,
+    "webSearchRequests": 0,
+    "costUSD": 0.026976,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5983,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.039239834994078,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-kayt2kid/work"
+  }
+ },
+ "wall_seconds": 4.061221138981637,
+ "qid": "PowerToys#49837",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#13035",
+   "PowerToys#9496",
+   "PowerToys#15125"
+  ],
+  "answer": "This feature request (dim inactive windows, HazeOver-style) has been filed before. The main ticket is PowerToys#13035, and #9496 and #15125 were closed as duplicates of it. There is no released PowerToys dimming utility to enable. In #13035 maintainers suggested building a proof of concept as a separate app first, and a community project, PowerDimmer (github.com/[user]/PowerDimmer), was shared there as a working alternative. Please add your use case, such as adjustable dimming intensity and multi-monitor support, and a 👍 reaction to #13035 instead of opening a new ticket. Be aware that the comments in #9496 and #15125 that point to FocusDim are promotional posts by a third party, not endorsements by the PowerToys team."
+ },
+ "hit_turn_cap": false
+}

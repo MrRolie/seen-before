@@ -1,0 +1,320 @@
+{
+ "shown": [
+  "PowerToys#11003",
+  "PowerToys#13608",
+  "PowerToys#15601",
+  "PowerToys#16014",
+  "PowerToys#18995",
+  "PowerToys#21529",
+  "PowerToys#22521",
+  "PowerToys#22619",
+  "PowerToys#23971",
+  "PowerToys#27095",
+  "PowerToys#27493",
+  "PowerToys#29828",
+  "PowerToys#30292",
+  "PowerToys#31352",
+  "PowerToys#31499",
+  "PowerToys#32541",
+  "PowerToys#33300",
+  "PowerToys#34897",
+  "PowerToys#36109",
+  "PowerToys#37426",
+  "PowerToys#37694",
+  "PowerToys#38298",
+  "PowerToys#40121",
+  "PowerToys#44923",
+  "PowerToys#46580",
+  "PowerToys#47422",
+  "PowerToys#47607",
+  "PowerToys#48130",
+  "PowerToys#5074"
+ ],
+ "retrieval_seconds": 4.064803386951098,
+ "tool_calls": [
+  {
+   "t": 1794885663.910807,
+   "tool": "similar",
+   "args": {
+    "query": "Text expander utility: type trigger keyword replaced with snippet text",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.9972301319940016,
+   "returned": [
+    "PowerToys#11003",
+    "PowerToys#18995",
+    "PowerToys#29828",
+    "PowerToys#5074",
+    "PowerToys#31352",
+    "PowerToys#34897",
+    "PowerToys#37694",
+    "PowerToys#15601",
+    "PowerToys#46580",
+    "PowerToys#27095",
+    "PowerToys#47607",
+    "PowerToys#22619",
+    "PowerToys#23971",
+    "PowerToys#38298",
+    "PowerToys#30292",
+    "PowerToys#13608",
+    "PowerToys#22521",
+    "PowerToys#21529",
+    "PowerToys#36109",
+    "PowerToys#16014"
+   ]
+  },
+  {
+   "t": 1794885663.9935453,
+   "tool": "search",
+   "args": {
+    "pattern": "text expander",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06714006597758271,
+   "returned": [
+    "PowerToys#33300",
+    "PowerToys#37426",
+    "PowerToys#31499",
+    "PowerToys#30292",
+    "PowerToys#21529",
+    "PowerToys#5074",
+    "PowerToys#47422",
+    "PowerToys#32541",
+    "PowerToys#31352",
+    "PowerToys#29828",
+    "PowerToys#27493",
+    "PowerToys#23971",
+    "PowerToys#22521",
+    "PowerToys#18995",
+    "PowerToys#15601",
+    "PowerToys#11003",
+    "PowerToys#48130",
+    "PowerToys#44923",
+    "PowerToys#40121",
+    "PowerToys#37694"
+   ]
+  },
+  {
+   "t": 1794885665.6746652,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33300"
+   },
+   "seconds": 0.00015134699060581625,
+   "returned": [
+    "PowerToys#33300"
+   ]
+  },
+  {
+   "t": 1794885665.7996914,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47607"
+   },
+   "seconds": 0.00013372598914429545,
+   "returned": [
+    "PowerToys#47607"
+   ]
+  },
+  {
+   "t": 1794885667.4446762,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#5074"
+   },
+   "seconds": 0.0001481159997638315,
+   "returned": [
+    "PowerToys#5074"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9225,
+  "stop_reason": "end_turn",
+  "session_id": "a9b2c118-2422-4b2d-966e-95dc8cc52e43",
+  "total_cost_usd": 0.0497541,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 10311,
+   "cache_read_input_tokens": 19141,
+   "output_tokens": 658,
+   "output_tokens_details": {
+    "thinking_tokens": 33
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10311,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 265,
+     "cache_read_input_tokens": 8570,
+     "cache_creation_input_tokens": 3154,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3154
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 658,
+    "cacheReadInputTokens": 19141,
+    "cacheCreationInputTokens": 10311,
+    "webSearchRequests": 0,
+    "costUSD": 0.0497541,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 33,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10311,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#5074\", \"PowerToys#47607\", \"PowerToys#33300\"], \"answer\": \"This feature request has been filed many times before. The maintainers treat PowerToys#5074 (Text Replacement / expander) as the main tracking issue. They have closed newer requests such as #33300 and #47607 as duplicates of it. PowerToys has no text expander yet. Add a thumbs-up to #5074 and put any extra requirements there, such as app-specific snippets, variables, import/export and settings backup. Until a native utility exists, you can use third-party tools that people in those tickets recommend. These are AutoHotkey hotstrings (for example `::ftw::Free the whales`), Espanso, Beeftext, aText and FastKeys.\"}",
+  "ttft_ms": 2277,
+  "type": "result",
+  "duration_ms": 13358,
+  "uuid": "bdcd764e-9f92-42a3-b856-53150ff9d3cc",
+  "ttft_stream_ms": 1372,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 1372,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 658,
+    "cacheReadInputTokens": 19141,
+    "cacheCreationInputTokens": 10311,
+    "webSearchRequests": 0,
+    "costUSD": 0.0497541,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 33,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10311,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.85281343900715,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-e09x28fe/work"
+  }
+ },
+ "wall_seconds": 14.854806938994443,
+ "qid": "PowerToys#52083",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#5074",
+   "PowerToys#47607",
+   "PowerToys#33300"
+  ],
+  "answer": "This feature request has been filed many times before. The maintainers treat PowerToys#5074 (Text Replacement / expander) as the main tracking issue. They have closed newer requests such as #33300 and #47607 as duplicates of it. PowerToys has no text expander yet. Add a thumbs-up to #5074 and put any extra requirements there, such as app-specific snippets, variables, import/export and settings backup. Until a native utility exists, you can use third-party tools that people in those tickets recommend. These are AutoHotkey hotstrings (for example `::ftw::Free the whales`), Espanso, Beeftext, aText and FastKeys."
+ },
+ "hit_turn_cap": false
+}

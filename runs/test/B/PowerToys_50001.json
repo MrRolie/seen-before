@@ -1,0 +1,444 @@
+{
+ "shown": [
+  "PowerToys#10552",
+  "PowerToys#11148",
+  "PowerToys#15427",
+  "PowerToys#17868",
+  "PowerToys#18015",
+  "PowerToys#1809",
+  "PowerToys#20003",
+  "PowerToys#20445",
+  "PowerToys#20848",
+  "PowerToys#21313",
+  "PowerToys#21795",
+  "PowerToys#22147",
+  "PowerToys#243",
+  "PowerToys#24833",
+  "PowerToys#26506",
+  "PowerToys#279",
+  "PowerToys#28596",
+  "PowerToys#28769",
+  "PowerToys#29382",
+  "PowerToys#29587",
+  "PowerToys#31856",
+  "PowerToys#32713",
+  "PowerToys#33218",
+  "PowerToys#3350",
+  "PowerToys#33566",
+  "PowerToys#33581",
+  "PowerToys#35356",
+  "PowerToys#35512",
+  "PowerToys#35736",
+  "PowerToys#35874",
+  "PowerToys#3650",
+  "PowerToys#37380",
+  "PowerToys#40322",
+  "PowerToys#41696",
+  "PowerToys#42890",
+  "PowerToys#44783",
+  "PowerToys#47185",
+  "PowerToys#4756",
+  "PowerToys#586",
+  "PowerToys#6246",
+  "PowerToys#9300",
+  "PowerToys#9653"
+ ],
+ "retrieval_seconds": 0.38605659097083844,
+ "tool_calls": [
+  {
+   "t": 1794880673.9025736,
+   "tool": "search",
+   "args": {
+    "pattern": "keyboard clean",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05700290098320693,
+   "returned": [
+    "PowerToys#33581",
+    "PowerToys#28596"
+   ]
+  },
+  {
+   "t": 1794880674.370752,
+   "tool": "search",
+   "args": {
+    "pattern": "disable keyboard",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.043685656011803076,
+   "returned": [
+    "PowerToys#33218",
+    "PowerToys#22147",
+    "PowerToys#20003",
+    "PowerToys#35512",
+    "PowerToys#33566",
+    "PowerToys#32713",
+    "PowerToys#29587",
+    "PowerToys#29382",
+    "PowerToys#26506",
+    "PowerToys#24833",
+    "PowerToys#20848",
+    "PowerToys#10552",
+    "PowerToys#9300",
+    "PowerToys#4756",
+    "PowerToys#47185",
+    "PowerToys#44783",
+    "PowerToys#42890",
+    "PowerToys#40322",
+    "PowerToys#37380",
+    "PowerToys#35356"
+   ]
+  },
+  {
+   "t": 1794880674.462366,
+   "tool": "search",
+   "args": {
+    "pattern": "cleaning mode",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07342982199043036,
+   "returned": [
+    "PowerToys#35736",
+    "PowerToys#21795"
+   ]
+  },
+  {
+   "t": 1794880675.3542404,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33581"
+   },
+   "seconds": 0.00011514700599946082,
+   "returned": [
+    "PowerToys#33581"
+   ]
+  },
+  {
+   "t": 1794880675.6658244,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#28596"
+   },
+   "seconds": 0.00017285600188188255,
+   "returned": [
+    "PowerToys#28596"
+   ]
+  },
+  {
+   "t": 1794880675.858936,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#29382"
+   },
+   "seconds": 0.00011255699791945517,
+   "returned": [
+    "PowerToys#29382"
+   ]
+  },
+  {
+   "t": 1794880676.1127625,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21795"
+   },
+   "seconds": 0.0001967049902305007,
+   "returned": [
+    "PowerToys#21795"
+   ]
+  },
+  {
+   "t": 1794880676.2950144,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44783"
+   },
+   "seconds": 0.0001310560037381947,
+   "returned": [
+    "PowerToys#44783"
+   ]
+  },
+  {
+   "t": 1794880677.446358,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21313"
+   },
+   "seconds": 0.0001320269948337227,
+   "returned": [
+    "PowerToys#21313"
+   ]
+  },
+  {
+   "t": 1794880677.6292512,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#31856"
+   },
+   "seconds": 0.00016120600048452616,
+   "returned": [
+    "PowerToys#31856"
+   ]
+  },
+  {
+   "t": 1794880678.3555722,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#15427"
+   },
+   "seconds": 0.0001799750025384128,
+   "returned": [
+    "PowerToys#15427"
+   ]
+  },
+  {
+   "t": 1794880679.5818782,
+   "tool": "search",
+   "args": {
+    "pattern": "clean",
+    "regex": false,
+    "also": [
+     "keyboard",
+     "lock"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.21034334297291934,
+   "returned": [
+    "PowerToys#21313",
+    "PowerToys#33581",
+    "PowerToys#41696",
+    "PowerToys#18015",
+    "PowerToys#279",
+    "PowerToys#586",
+    "PowerToys#29382",
+    "PowerToys#28769",
+    "PowerToys#17868",
+    "PowerToys#243",
+    "PowerToys#35874",
+    "PowerToys#31856",
+    "PowerToys#28596",
+    "PowerToys#21795",
+    "PowerToys#11148",
+    "PowerToys#9653",
+    "PowerToys#6246",
+    "PowerToys#3650",
+    "PowerToys#3350",
+    "PowerToys#1809"
+   ]
+  },
+  {
+   "t": 1794880680.4004276,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35874"
+   },
+   "seconds": 0.0002805230033118278,
+   "returned": [
+    "PowerToys#35874"
+   ]
+  },
+  {
+   "t": 1794880681.2697842,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#20445"
+   },
+   "seconds": 0.00011281701154075563,
+   "returned": [
+    "PowerToys#20445"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11404,
+  "stop_reason": "end_turn",
+  "session_id": "7b6ead4e-448c-4962-9acf-1cb222861ddd",
+  "total_cost_usd": 0.08686559999999999,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 16331,
+   "cache_read_input_tokens": 74296,
+   "output_tokens": 1408,
+   "output_tokens_details": {
+    "thinking_tokens": 106
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 16331,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 424,
+     "cache_read_input_tokens": 16553,
+     "cache_creation_input_tokens": 955,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 955
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1408,
+    "cacheReadInputTokens": 74296,
+    "cacheCreationInputTokens": 16331,
+    "webSearchRequests": 0,
+    "costUSD": 0.08686559999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 106,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 16331,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#21313\", \"PowerToys#33581\", \"PowerToys#29382\"], \"answer\": \"This feature has been requested several times before, so PowerToys has no keyboard cleaning mode. The main tracking ticket is PowerToys#21313, a request for a utility that disables the keyboard, mouse and touchscreen while you clean them. Your ticket is a duplicate of it, as are #33581, #29382 and #20445. The PowerToys team said they have no plans to build this (#21313, #28596). Their suggestion was to lock the PC with Win+L or shut it down. Other workarounds from the tickets: unplug a USB keyboard, or turn off Bluetooth or take the batteries out of a wireless one. On a laptop you can open Device Manager (Win+X), go to Keyboards, and disable the internal keyboard (#44783). Then re-enable it afterwards. A third-party keyboard-lock tool is another option. If you want the feature, add a thumbs-up to #21313 instead of opening a new ticket.\"}",
+  "ttft_ms": 886,
+  "type": "result",
+  "duration_ms": 11814,
+  "uuid": "1249a0ba-81ad-435c-a940-5ea8fa476f28",
+  "ttft_stream_ms": 539,
+  "time_to_request_ms": 25,
+  "first_content_frame_ms": 539,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1408,
+    "cacheReadInputTokens": 74296,
+    "cacheCreationInputTokens": 16331,
+    "webSearchRequests": 0,
+    "costUSD": 0.08686559999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 106,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 16331,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.125891125993803,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-8b5rwmoq/work"
+  }
+ },
+ "wall_seconds": 13.127884252025979,
+ "qid": "PowerToys#50001",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#21313",
+   "PowerToys#33581",
+   "PowerToys#29382"
+  ],
+  "answer": "This feature has been requested several times before, so PowerToys has no keyboard cleaning mode. The main tracking ticket is PowerToys#21313, a request for a utility that disables the keyboard, mouse and touchscreen while you clean them. Your ticket is a duplicate of it, as are #33581, #29382 and #20445. The PowerToys team said they have no plans to build this (#21313, #28596). Their suggestion was to lock the PC with Win+L or shut it down. Other workarounds from the tickets: unplug a USB keyboard, or turn off Bluetooth or take the batteries out of a wireless one. On a laptop you can open Device Manager (Win+X), go to Keyboards, and disable the internal keyboard (#44783). Then re-enable it afterwards. A third-party keyboard-lock tool is another option. If you want the feature, add a thumbs-up to #21313 instead of opening a new ticket."
+ },
+ "hit_turn_cap": false
+}

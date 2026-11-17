@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#46257",
+  "PowerToys#3421",
+  "PowerToys#6224",
+  "PowerToys#4296",
+  "PowerToys#33080"
+ ],
+ "retrieval_seconds": 0.019968864013208076,
+ "retrieval_scores": [
+  0.6865159273147583,
+  0.6827573776245117,
+  0.6817361116409302,
+  0.6811160445213318,
+  0.6770820617675781
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3204,
+  "stop_reason": "end_turn",
+  "session_id": "cc352249-229b-4a0c-9a5c-eb9b5c9b7928",
+  "total_cost_usd": 0.021546,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4588,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 319,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4588,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 319,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4588,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4588
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 319,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4588,
+    "webSearchRequests": 0,
+    "costUSD": 0.021546,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4588,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#4296\", \"PowerToys#3421\", \"PowerToys#46257\"], \"answer\": \"The per-keyboard remapping part of your request has been reported before (#4296, #3421, #46257, #6224, #33080). Keyboard Manager applies remappings to all connected keyboards. The past tickets say Windows does not expose a public API to tell which physical keyboard a keystroke came from; that would need driver-level access. #46257 was closed as a duplicate of #44666 (per-keyboard shortcuts), so follow that issue and add a thumbs-up to it. There is no per-keyboard workaround in these tickets. The Globe/Fn key detection part is not covered by any past ticket I was shown, so I can't say whether it has been reported or what to do about it. Please file it separately (or keep it as its own request) with details on how the key is exposed to Windows, for example a HID report or scan code if you can capture one.\"}",
+  "ttft_ms": 3500,
+  "type": "result",
+  "duration_ms": 3518,
+  "uuid": "0d166515-250b-474e-b212-0b1669c411ac",
+  "ttft_stream_ms": 974,
+  "time_to_request_ms": 313,
+  "first_content_frame_ms": 975,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 319,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4588,
+    "webSearchRequests": 0,
+    "costUSD": 0.021546,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4588,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.4790677489945665,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-qerre8q5/work"
+  }
+ },
+ "wall_seconds": 4.501722849003272,
+ "qid": "PowerToys#49676",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#4296",
+   "PowerToys#3421",
+   "PowerToys#46257"
+  ],
+  "answer": "The per-keyboard remapping part of your request has been reported before (#4296, #3421, #46257, #6224, #33080). Keyboard Manager applies remappings to all connected keyboards. The past tickets say Windows does not expose a public API to tell which physical keyboard a keystroke came from; that would need driver-level access. #46257 was closed as a duplicate of #44666 (per-keyboard shortcuts), so follow that issue and add a thumbs-up to it. There is no per-keyboard workaround in these tickets. The Globe/Fn key detection part is not covered by any past ticket I was shown, so I can't say whether it has been reported or what to do about it. Please file it separately (or keep it as its own request) with details on how the key is exposed to Windows, for example a HID report or scan code if you can capture one."
+ },
+ "hit_turn_cap": false
+}

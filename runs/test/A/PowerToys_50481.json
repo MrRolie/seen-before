@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#48694",
+  "PowerToys#47750",
+  "PowerToys#48288",
+  "PowerToys#47565",
+  "PowerToys#41338"
+ ],
+ "retrieval_seconds": 0.0163104539969936,
+ "retrieval_scores": [
+  0.7979010939598083,
+  0.693263053894043,
+  0.6712650060653687,
+  0.6646844148635864,
+  0.6548194885253906
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3300,
+  "stop_reason": "end_turn",
+  "session_id": "ed280da0-6e70-47d3-8065-340e63d45b28",
+  "total_cost_usd": 0.013389999999999999,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 2764,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 233,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 2764,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 233,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 2764,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2764
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 233,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 2764,
+    "webSearchRequests": 0,
+    "costUSD": 0.013389999999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2764,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"No past ticket reports this same problem. The new ticket contains only a bug report ZIP, with no description of the symptom, steps to reproduce or expected and actual behavior. The past tickets that look similar (for example #48694, #47750, #48288, #41338) are also bare bug-report submissions about different or unspecified issues, so none of them is a real match. Please describe what went wrong (a crash, a module not working, Settings not opening, etc.), what you were doing when it happened, and whether it is reproducible. Also try updating to the latest PowerToys release and check whether the problem still occurs. With that information we can look for a matching report or investigate the attached log.\"}",
+  "ttft_ms": 3447,
+  "type": "result",
+  "duration_ms": 3478,
+  "uuid": "8b5601ef-5158-4891-8c3b-095e213ddd88",
+  "ttft_stream_ms": 1258,
+  "time_to_request_ms": 177,
+  "first_content_frame_ms": 1258,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 233,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 2764,
+    "webSearchRequests": 0,
+    "costUSD": 0.013389999999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2764,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.4711568180064205,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-hk21b5xy/work"
+  }
+ },
+ "wall_seconds": 4.489012940990506,
+ "qid": "PowerToys#50481",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "No past ticket reports this same problem. The new ticket contains only a bug report ZIP, with no description of the symptom, steps to reproduce or expected and actual behavior. The past tickets that look similar (for example #48694, #47750, #48288, #41338) are also bare bug-report submissions about different or unspecified issues, so none of them is a real match. Please describe what went wrong (a crash, a module not working, Settings not opening, etc.), what you were doing when it happened, and whether it is reproducible. Also try updating to the latest PowerToys release and check whether the problem still occurs. With that information we can look for a matching report or investigate the attached log."
+ },
+ "hit_turn_cap": false
+}

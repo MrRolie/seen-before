@@ -1,0 +1,92 @@
+name: seen-before
+description: When an issue is opened, an agent searches the repository's past issues with ripgrep and comments if it was reported before.
+inputs:
+  anthropic-api-key:
+    description: Anthropic API key for the agent (headless Claude Code).
+    required: true
+  github-token:
+    description: Token to read issues and post the comment.
+    default: ${{ github.token }}
+  repos:
+    description: Space-separated owner/repo list whose past issues are searched.
+    default: ${{ github.repository }}
+  products:
+    description: What the repositories are, in a few words, for the agent's prompt. Defaults to the repo names.
+    default: ""
+  dry-run:
+    description: "true: write the comment to the job summary instead of posting it."
+    default: "false"
+  claude-code-version:
+    description: Claude Code CLI version.
+    default: "2.1.326"
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@v4
+      with:
+        node-version: "22"
+    - uses: astral-sh/setup-uv@v5
+    - name: Install ripgrep and Claude Code
+      shell: bash
+      env:
+        CC_VERSION: ${{ inputs.claude-code-version }}
+      run: |
+        sudo apt-get update -qq >/dev/null && sudo apt-get install -y -qq ripgrep >/dev/null
+        npm install -g --silent "@anthropic-ai/claude-code@${CC_VERSION}"
+    - name: Name the cache
+      id: key
+      shell: bash
+      env:
+        REPOS: ${{ inputs.repos }}
+      # One cache line per set of repos, one entry per day: later runs that day restore it and fetch only what
+      # changed since, so the cache holds a few entries, not one per issue.
+      run: echo "prefix=seen-before-${RUNNER_OS}-$(printf %s "$REPOS" | sha256sum | cut -c1-12)-" >> "$GITHUB_OUTPUT"
+    - uses: actions/cache/restore@v4
+      with:
+        path: ${{ runner.temp }}/seen-before-store
+        key: ${{ steps.key.outputs.prefix }}${{ github.run_id }}
+        restore-keys: ${{ steps.key.outputs.prefix }}
+    - name: Update the mirror of past issues
+      shell: bash
+      env:
+        SEEN_BEFORE_STORE: ${{ runner.temp }}/seen-before-store
+        GITHUB_TOKEN: ${{ inputs.github-token }}
+        REPOS: ${{ inputs.repos }}
+        PRODUCTS: ${{ inputs.products }}
+        SB: ${{ github.action_path }}/seen_before.py
+      run: |
+        # The configuration always comes from the inputs, never from the cache.
+        uv run --quiet --script "$SB" init $REPOS ${PRODUCTS:+--products "$PRODUCTS"}
+        uv run --quiet --script "$SB" update
+        echo "day=$(date -u +%Y%m%d)" >> "$GITHUB_OUTPUT"
+      id: mirror
+    - uses: actions/cache/save@v4
+      # A partial mirror is safe to keep: every issue fetched is already written, and the next run resumes.
+      if: always() && steps.mirror.outcome != 'skipped'
+      continue-on-error: true   # an entry for today already exists
+      with:
+        path: ${{ runner.temp }}/seen-before-store
+        key: ${{ steps.key.outputs.prefix }}${{ steps.mirror.outputs.day || github.run_id }}
+    - name: Ask the agent
+      if: github.event_name == 'issues'
+      shell: bash
+      env:
+        SEEN_BEFORE_STORE: ${{ runner.temp }}/seen-before-store
+        ANTHROPIC_API_KEY: ${{ inputs.anthropic-api-key }}
+        SB: ${{ github.action_path }}/seen_before.py
+      # No GitHub token here: the agent's process cannot write anywhere. The comment is built from checked ids.
+      run: uv run --quiet --script "$SB" check --event "$GITHUB_EVENT_PATH" --comment-out "$RUNNER_TEMP/seen-before.md"
+    - name: Post the comment
+      if: github.event_name == 'issues'
+      shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.github-token }}
+        DRY_RUN: ${{ inputs.dry-run }}
+      run: |
+        f="$RUNNER_TEMP/seen-before.md"
+        [ -s "$f" ] || { echo "not seen before: no comment"; exit 0; }
+        if [ "$DRY_RUN" = "true" ]; then
+          { echo "### seen-before (dry run, not posted)"; cat "$f"; } >> "$GITHUB_STEP_SUMMARY"
+        else
+          gh issue comment "$(jq -r .issue.number "$GITHUB_EVENT_PATH")" --repo "$GITHUB_REPOSITORY" --body-file "$f"
+        fi

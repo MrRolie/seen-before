@@ -1,0 +1,368 @@
+{
+ "shown": [
+  "terminal#10224",
+  "terminal#10407",
+  "terminal#11596",
+  "terminal#12681",
+  "terminal#13226",
+  "terminal#1337",
+  "terminal#13991",
+  "terminal#14475",
+  "terminal#14559",
+  "terminal#14858",
+  "terminal#15834",
+  "terminal#16237",
+  "terminal#16984",
+  "terminal#19560",
+  "terminal#19993",
+  "terminal#2758",
+  "terminal#4066",
+  "terminal#5281",
+  "terminal#6042",
+  "terminal#6425",
+  "terminal#6491",
+  "terminal#6658",
+  "terminal#6878",
+  "terminal#764",
+  "terminal#9840"
+ ],
+ "retrieval_seconds": 3.6702165229944512,
+ "tool_calls": [
+  {
+   "t": 1794877830.6060936,
+   "tool": "search",
+   "args": {
+    "query": "color scheme automatically match system light/dark theme",
+    "repo": "terminal"
+   },
+   "seconds": 3.654711007984588,
+   "returned": [
+    "terminal#6425",
+    "terminal#6491",
+    "terminal#11596",
+    "terminal#10407",
+    "terminal#9840",
+    "terminal#16984",
+    "terminal#6658",
+    "terminal#15834",
+    "terminal#14559",
+    "terminal#16237",
+    "terminal#19560",
+    "terminal#4066",
+    "terminal#10224",
+    "terminal#14858",
+    "terminal#2758",
+    "terminal#19993",
+    "terminal#13226",
+    "terminal#12681",
+    "terminal#14475",
+    "terminal#5281"
+   ]
+  },
+  {
+   "t": 1794877830.6403775,
+   "tool": "search",
+   "args": {
+    "query": "feature request switch profile color scheme based on Windows theme light dark",
+    "repo": "terminal"
+   },
+   "seconds": 0.01443674397887662,
+   "returned": [
+    "terminal#9840",
+    "terminal#4066",
+    "terminal#11596",
+    "terminal#19993",
+    "terminal#6425",
+    "terminal#6491",
+    "terminal#16984",
+    "terminal#15834",
+    "terminal#13226",
+    "terminal#16237",
+    "terminal#10224",
+    "terminal#6042",
+    "terminal#12681",
+    "terminal#6878",
+    "terminal#13991",
+    "terminal#6658",
+    "terminal#764",
+    "terminal#10407",
+    "terminal#1337",
+    "terminal#14475"
+   ]
+  },
+  {
+   "t": 1794877832.492679,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#6425"
+   },
+   "seconds": 0.00012123698252253234,
+   "returned": [
+    "terminal#6425"
+   ]
+  },
+  {
+   "t": 1794877832.501864,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19993"
+   },
+   "seconds": 9.141702321358025e-05,
+   "returned": [
+    "terminal#19993"
+   ]
+  },
+  {
+   "t": 1794877832.5930603,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#16984"
+   },
+   "seconds": 0.00012300699017941952,
+   "returned": [
+    "terminal#16984"
+   ]
+  },
+  {
+   "t": 1794877834.261443,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#9840"
+   },
+   "seconds": 0.00011679701856337488,
+   "returned": [
+    "terminal#9840"
+   ]
+  },
+  {
+   "t": 1794877834.378628,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#12681"
+   },
+   "seconds": 0.00011849601287394762,
+   "returned": [
+    "terminal#12681"
+   ]
+  },
+  {
+   "t": 1794877835.7915196,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#4066"
+   },
+   "seconds": 0.00019936502212658525,
+   "returned": [
+    "terminal#4066"
+   ]
+  },
+  {
+   "t": 1794877837.23763,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#15834"
+   },
+   "seconds": 0.00014427598216570914,
+   "returned": [
+    "terminal#15834"
+   ]
+  },
+  {
+   "t": 1794877838.744769,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#14475"
+   },
+   "seconds": 0.0001541759993415326,
+   "returned": [
+    "terminal#14475"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13850,
+  "stop_reason": "end_turn",
+  "session_id": "e2de1688-a92e-4029-b089-8548f02228d5",
+  "total_cost_usd": 0.060426799999999996,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 11580,
+   "cache_read_input_tokens": 43788,
+   "output_tokens": 970,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11580,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 310,
+     "cache_read_input_tokens": 12198,
+     "cache_creation_input_tokens": 415,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 415
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 970,
+    "cacheReadInputTokens": 43788,
+    "cacheCreationInputTokens": 11580,
+    "webSearchRequests": 0,
+    "costUSD": 0.060426799999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11580,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#15834\", \"terminal#9840\", \"terminal#19993\"], \"answer\": \"Windows Terminal can already do this, but only by editing settings.json. The Settings UI doesn't support it yet (tracked in terminal#14475). Set the profile's colorScheme to an object with separate light and dark schemes, for example: \\\"colorScheme\\\": { \\\"light\\\": \\\"One Half Light\\\", \\\"dark\\\": \\\"One Half Dark\\\" }. The pane colors then follow the Terminal theme. For that, set the app theme (Settings > Appearance > Theme) to 'Use Windows theme'. Docs: learn.microsoft.com/en-us/windows/terminal/customize-settings/profile-appearance#color-scheme. The older request for a dedicated 'Match System' scheme entry in the UI is covered by terminal#4066. That ticket is the main tracking thread for this request.\"}",
+  "ttft_ms": 2588,
+  "type": "result",
+  "duration_ms": 17629,
+  "uuid": "fcc1cc26-c152-43e8-bbcd-804cb3234da7",
+  "ttft_stream_ms": 1645,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 1645,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 970,
+    "cacheReadInputTokens": 43788,
+    "cacheCreationInputTokens": 11580,
+    "webSearchRequests": 0,
+    "costUSD": 0.060426799999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11580,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.938513080007397,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-jv6cv43g/work"
+  }
+ },
+ "wall_seconds": 18.94076837200555,
+ "qid": "terminal#20414",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#15834",
+   "terminal#9840",
+   "terminal#19993"
+  ],
+  "answer": "Windows Terminal can already do this, but only by editing settings.json. The Settings UI doesn't support it yet (tracked in terminal#14475). Set the profile's colorScheme to an object with separate light and dark schemes, for example: \"colorScheme\": { \"light\": \"One Half Light\", \"dark\": \"One Half Dark\" }. The pane colors then follow the Terminal theme. For that, set the app theme (Settings > Appearance > Theme) to 'Use Windows theme'. Docs: learn.microsoft.com/en-us/windows/terminal/customize-settings/profile-appearance#color-scheme. The older request for a dedicated 'Match System' scheme entry in the UI is covered by terminal#4066. That ticket is the main tracking thread for this request."
+ },
+ "hit_turn_cap": false
+}

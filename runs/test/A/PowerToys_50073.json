@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#16717",
+  "PowerToys#39944",
+  "PowerToys#37498",
+  "PowerToys#14030",
+  "PowerToys#29711"
+ ],
+ "retrieval_seconds": 0.02340898898546584,
+ "retrieval_scores": [
+  0.786351203918457,
+  0.7407063841819763,
+  0.7390751838684082,
+  0.7166738510131836,
+  0.707297146320343
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2085,
+  "stop_reason": "end_turn",
+  "session_id": "ed4a9b4c-25e9-4e0f-8c63-ea7ab0c2c425",
+  "total_cost_usd": 0.018355999999999997,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4043,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 218,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4043,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 218,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4043,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4043
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 218,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4043,
+    "webSearchRequests": 0,
+    "costUSD": 0.018355999999999997,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4043,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#16717\", \"PowerToys#39944\", \"PowerToys#37498\"], \"answer\": \"This request has been made before: a keyboard shortcut to toggle Keyboard Manager on and off (including the laptop vs. external keyboard scenario, as in #16717). Those tickets were closed as duplicates of the main tracking issue PowerToys#4879, so there is no such shortcut yet and no workaround in the tickets. Add a thumbs-up and your use case to #4879 to help prioritise it. Until it ships, you need to toggle Keyboard Manager manually in the PowerToys settings.\"}",
+  "ttft_ms": 2279,
+  "type": "result",
+  "duration_ms": 2295,
+  "uuid": "78d61cc3-4122-4e77-8e6d-571378d45915",
+  "ttft_stream_ms": 663,
+  "time_to_request_ms": 208,
+  "first_content_frame_ms": 663,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 218,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4043,
+    "webSearchRequests": 0,
+    "costUSD": 0.018355999999999997,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4043,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.093622107000556,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-b3oafgwp/work"
+  }
+ },
+ "wall_seconds": 3.1198809649795294,
+ "qid": "PowerToys#50073",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#16717",
+   "PowerToys#39944",
+   "PowerToys#37498"
+  ],
+  "answer": "This request has been made before: a keyboard shortcut to toggle Keyboard Manager on and off (including the laptop vs. external keyboard scenario, as in #16717). Those tickets were closed as duplicates of the main tracking issue PowerToys#4879, so there is no such shortcut yet and no workaround in the tickets. Add a thumbs-up and your use case to #4879 to help prioritise it. Until it ships, you need to toggle Keyboard Manager manually in the PowerToys settings."
+ },
+ "hit_turn_cap": false
+}

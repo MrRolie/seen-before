@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "terminal#7805",
+  "terminal#2933",
+  "PowerToys#42029",
+  "terminal#7268",
+  "PowerToys#48184"
+ ],
+ "retrieval_seconds": 0.39268138000625186,
+ "retrieval_scores": [
+  0.03125763125763126,
+  0.02207792207792208,
+  0.021933962264150945,
+  0.01639344262295082,
+  0.01639344262295082
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2151,
+  "stop_reason": "end_turn",
+  "session_id": "ce4432c8-8c44-4401-81f3-97f4488b41d4",
+  "total_cost_usd": 0.035566,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 8353,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 215,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8353,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 215,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 8353,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 8353
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 215,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 8353,
+    "webSearchRequests": 0,
+    "costUSD": 0.035566,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8353,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find an earlier ticket asking for named Hosts File Editor profiles (groups of host entries that can be toggled on or off together). The archived tickets I found are about different things: Windows Terminal profile handling and settings roaming, a network preset switcher for IP/DNS, and PowerToys profile triggers for module toggling. None covers this request. Your ticket will be tracked as a new feature request for the Hosts File Editor utility. It would help to add details such as whether profiles should be mutually exclusive or combinable, and whether the profile switch should apply immediately to the hosts file.\"}",
+  "ttft_ms": 2332,
+  "type": "result",
+  "duration_ms": 2347,
+  "uuid": "e856b510-7294-4bf4-90db-ff83aa9ff1aa",
+  "ttft_stream_ms": 714,
+  "time_to_request_ms": 197,
+  "first_content_frame_ms": 714,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 215,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 8353,
+    "webSearchRequests": 0,
+    "costUSD": 0.035566,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8353,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.1217978530039545,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-8bq72m9c/work"
+  }
+ },
+ "wall_seconds": 3.517119352996815,
+ "qid": "PowerToys#50005",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find an earlier ticket asking for named Hosts File Editor profiles (groups of host entries that can be toggled on or off together). The archived tickets I found are about different things: Windows Terminal profile handling and settings roaming, a network preset switcher for IP/DNS, and PowerToys profile triggers for module toggling. None covers this request. Your ticket will be tracked as a new feature request for the Hosts File Editor utility. It would help to add details such as whether profiles should be mutually exclusive or combinable, and whether the profile switch should apply immediately to the hosts file."
+ },
+ "hit_turn_cap": false
+}

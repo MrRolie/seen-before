@@ -1,0 +1,194 @@
+{
+ "shown": [
+  "PowerToys#15315",
+  "PowerToys#25493",
+  "PowerToys#7524",
+  "PowerToys#47824",
+  "PowerToys#18209"
+ ],
+ "retrieval_seconds": 0.3151482789835427,
+ "retrieval_scores": [
+  0.01639344262295082,
+  0.01639344262295082,
+  0.016129032258064516,
+  0.016129032258064516,
+  0.015873015873015872
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 5280,
+  "stop_reason": "end_turn",
+  "session_id": "6e7eed32-883c-4965-84b2-dca4bb93eab2",
+  "total_cost_usd": 0.020645999999999998,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3508,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 661,
+   "output_tokens_details": {
+    "thinking_tokens": 268
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3508,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 661,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3508,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3508
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 661,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3508,
+    "webSearchRequests": 0,
+    "costUSD": 0.020645999999999998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 268,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3508,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#18209\", \"PowerToys#15315\"], \"answer\": \"Past tickets describe the same symptom: the PowerToys Settings window does not open, with no error shown. In #18209 (v0.58) users got Settings working again by rolling back to the previous version (0.57.2) until a fix shipped. Reinstalling the same version did not help there. The maintainers marked it a duplicate of #18015 and said the cause may be incompatibility with some GPU or PC-statistics/monitoring software, or the computer running everything elevated. Try these: 1) install the previous PowerToys release from GitHub; 2) close or disable any GPU/hardware monitoring overlay tools and avoid running PowerToys or other apps elevated, then retry; 3) restart the machine. In #15315, which reported the same symptom, no cause or fix was found, and reinstalling did not help. If it still fails, right-click the tray icon, choose Report Bug, and attach the ZIP to the ticket, since your report has no details yet. Your version (0.100.2) is much newer than those tickets, so the cause may differ, and the archive does not confirm a fix for it.\"}",
+  "ttft_ms": 2919,
+  "type": "result",
+  "duration_ms": 5943,
+  "uuid": "0fa692d8-f37e-4d53-b106-2daa0e05dec6",
+  "ttft_stream_ms": 1097,
+  "time_to_request_ms": 661,
+  "first_content_frame_ms": 1097,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 661,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3508,
+    "webSearchRequests": 0,
+    "costUSD": 0.020645999999999998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 268,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3508,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 6.682056019024458,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-75fg2ind/work"
+  }
+ },
+ "wall_seconds": 6.999098806001712,
+ "qid": "PowerToys#49815",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#18209",
+   "PowerToys#15315"
+  ],
+  "answer": "Past tickets describe the same symptom: the PowerToys Settings window does not open, with no error shown. In #18209 (v0.58) users got Settings working again by rolling back to the previous version (0.57.2) until a fix shipped. Reinstalling the same version did not help there. The maintainers marked it a duplicate of #18015 and said the cause may be incompatibility with some GPU or PC-statistics/monitoring software, or the computer running everything elevated. Try these: 1) install the previous PowerToys release from GitHub; 2) close or disable any GPU/hardware monitoring overlay tools and avoid running PowerToys or other apps elevated, then retry; 3) restart the machine. In #15315, which reported the same symptom, no cause or fix was found, and reinstalling did not help. If it still fails, right-click the tray icon, choose Report Bug, and attach the ZIP to the ticket, since your report has no details yet. Your version (0.100.2) is much newer than those tickets, so the cause may differ, and the archive does not confirm a fix for it."
+ },
+ "hit_turn_cap": false
+}

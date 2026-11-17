@@ -1,0 +1,350 @@
+{
+ "shown": [
+  "PowerToys#1880",
+  "PowerToys#2148",
+  "PowerToys#2197",
+  "PowerToys#2199",
+  "PowerToys#2543",
+  "PowerToys#2556",
+  "PowerToys#27372",
+  "PowerToys#2815",
+  "PowerToys#2884",
+  "PowerToys#3219",
+  "PowerToys#3392",
+  "PowerToys#35514",
+  "PowerToys#3647",
+  "PowerToys#41480",
+  "PowerToys#45558",
+  "PowerToys#45761",
+  "PowerToys#4618",
+  "PowerToys#5406",
+  "PowerToys#5653",
+  "PowerToys#5966",
+  "PowerToys#6504",
+  "PowerToys#8234",
+  "PowerToys#9169",
+  "PowerToys#9337",
+  "WSL#269",
+  "WSL#3938",
+  "WSL#418",
+  "WSL#502",
+  "terminal#1212",
+  "terminal#19355",
+  "terminal#19847",
+  "terminal#344",
+  "terminal#5342",
+  "terminal#637",
+  "terminal#6445"
+ ],
+ "retrieval_seconds": 3.9509415890206583,
+ "tool_calls": [
+  {
+   "t": 1794878822.3786504,
+   "tool": "search",
+   "args": {
+    "pattern": "Mouse Without Borders",
+    "regex": false,
+    "also": [
+     "grave"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.12290638100239448,
+   "returned": []
+  },
+  {
+   "t": 1794878826.0352123,
+   "tool": "similar",
+   "args": {
+    "query": "Mouse Without Borders remote keyboard wrong characters, keys remapped quote backslash grave",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.636904687999049,
+   "returned": [
+    "PowerToys#2199",
+    "PowerToys#27372",
+    "PowerToys#9337",
+    "PowerToys#2543",
+    "PowerToys#2197",
+    "PowerToys#35514",
+    "PowerToys#2815",
+    "PowerToys#1880",
+    "PowerToys#45761",
+    "PowerToys#45558",
+    "PowerToys#3219",
+    "PowerToys#5406",
+    "PowerToys#4618",
+    "PowerToys#8234",
+    "PowerToys#5966",
+    "PowerToys#2556",
+    "PowerToys#3392",
+    "PowerToys#5653",
+    "PowerToys#3647",
+    "PowerToys#2884"
+   ]
+  },
+  {
+   "t": 1794878827.491448,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45761"
+   },
+   "seconds": 0.0001379260211251676,
+   "returned": [
+    "PowerToys#45761"
+   ]
+  },
+  {
+   "t": 1794878827.65446,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35514"
+   },
+   "seconds": 0.00014565599849447608,
+   "returned": [
+    "PowerToys#35514"
+   ]
+  },
+  {
+   "t": 1794878829.875284,
+   "tool": "search",
+   "args": {
+    "pattern": "Mouse Without Borders",
+    "regex": false,
+    "also": [
+     "backslash"
+    ],
+    "repo": null
+   },
+   "seconds": 0.16733133399975486,
+   "returned": [
+    "PowerToys#41480"
+   ]
+  },
+  {
+   "t": 1794878829.9063218,
+   "tool": "similar",
+   "args": {
+    "query": "MWB keys swapped on remote machine, OEM keys tilde apostrophe wrong character typed",
+    "repo": null
+   },
+   "seconds": 0.0233879380102735,
+   "returned": [
+    "terminal#344",
+    "PowerToys#2199",
+    "terminal#1212",
+    "terminal#19355",
+    "WSL#418",
+    "PowerToys#2197",
+    "WSL#269",
+    "PowerToys#1880",
+    "PowerToys#9169",
+    "PowerToys#3392",
+    "PowerToys#9337",
+    "WSL#502",
+    "PowerToys#2556",
+    "WSL#3938",
+    "terminal#637",
+    "terminal#6445",
+    "terminal#5342",
+    "PowerToys#2148",
+    "terminal#19847",
+    "PowerToys#6504"
+   ]
+  },
+  {
+   "t": 1794878831.26849,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#41480"
+   },
+   "seconds": 0.00012766598956659436,
+   "returned": [
+    "PowerToys#41480"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11169,
+  "stop_reason": "end_turn",
+  "session_id": "e5cd47d9-9b1c-4467-be1f-e45eb674df3b",
+  "total_cost_usd": 0.0366816,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 6415,
+   "cache_read_input_tokens": 21416,
+   "output_tokens": 886,
+   "output_tokens_details": {
+    "thinking_tokens": 25
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6415,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 305,
+     "cache_read_input_tokens": 7255,
+     "cache_creation_input_tokens": 573,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 573
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 886,
+    "cacheReadInputTokens": 21416,
+    "cacheCreationInputTokens": 6415,
+    "webSearchRequests": 0,
+    "costUSD": 0.0366816,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 25,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6415,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this three-key rotation (quote → grave → backslash → quote) with both machines set to US. The closest is PowerToys#41480. It covers wrong characters in Mouse Without Borders when the two machines use different keyboard layouts, such as US and Turkish Q. Your machines both use US, so it isn't the same problem. Please keep this ticket open as a new bug report and keep the bug report ZIP attached. Useful checks: look at the keyboard layout list on both computers, because the Simplified Chinese language pack may still add a hidden layout or IME. Check whether the problem also happens with a different keyboard, or with the two computers swapped. Make sure both computers run the same PowerToys version, v0.100.2, and restart Mouse Without Borders on both.\"}",
+  "ttft_ms": 2312,
+  "type": "result",
+  "duration_ms": 15050,
+  "uuid": "424e6941-a223-4d31-be1d-3714b8773237",
+  "ttft_stream_ms": 1198,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 1199,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 886,
+    "cacheReadInputTokens": 21416,
+    "cacheCreationInputTokens": 6415,
+    "webSearchRequests": 0,
+    "costUSD": 0.0366816,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 25,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6415,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.419563279981958,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-xrakgnlq/work"
+  }
+ },
+ "wall_seconds": 16.42212379697594,
+ "qid": "PowerToys#49516",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this three-key rotation (quote → grave → backslash → quote) with both machines set to US. The closest is PowerToys#41480. It covers wrong characters in Mouse Without Borders when the two machines use different keyboard layouts, such as US and Turkish Q. Your machines both use US, so it isn't the same problem. Please keep this ticket open as a new bug report and keep the bug report ZIP attached. Useful checks: look at the keyboard layout list on both computers, because the Simplified Chinese language pack may still add a hidden layout or IME. Check whether the problem also happens with a different keyboard, or with the two computers swapped. Make sure both computers run the same PowerToys version, v0.100.2, and restart Mouse Without Borders on both."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#48680",
+  "PowerToys#46216",
+  "PowerToys#48597",
+  "PowerToys#46286",
+  "PowerToys#47527"
+ ],
+ "retrieval_seconds": 0.6054918850131799,
+ "retrieval_scores": [
+  0.032018442622950824,
+  0.03200204813108039,
+  0.030621785881252923,
+  0.03007688828584351,
+  0.02976190476190476
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3616,
+  "stop_reason": "end_turn",
+  "session_id": "bfeb7a06-d277-4ad3-8255-c5e01bdbf78b",
+  "total_cost_usd": 0.029788000000000002,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6381,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 426,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6381,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 426,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6381,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6381
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 426,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6381,
+    "webSearchRequests": 0,
+    "costUSD": 0.029788000000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6381,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46216\", \"PowerToys#48680\", \"PowerToys#46286\"], \"answer\": \"This has been reported before: the CmdPal Dock performance widgets (CPU/GPU/RAM/network) showing ??? or no data. PowerToys#46216 is the main thread, and #46286 was closed as a duplicate of it. The tickets point to a few things to try. 1) A commenter in #46216 fixed it by clicking each widget in the dock, but others reported that this did not help. 2) A commenter in #48597, a related ticket about the same widgets showing 0 or throwing an index-out-of-range error, found that the cause was a corrupted Windows performance counter database. Task Manager and other monitors also failed to show data. Open an elevated Command Prompt, run `lodctr /R`, then reboot. After that, GPU and network data returned to normal. If Task Manager shows its data correctly, this is less likely to be your cause. 3) In #47527, a similar 0% CPU problem went away after a Windows update, so install pending Windows updates. #46216 and #48680 have no confirmed fix, and the problem was still reported on 0.100.2. If none of this works, add your bug report ZIP and details to #46216 or #48680.\"}",
+  "ttft_ms": 3770,
+  "type": "result",
+  "duration_ms": 3789,
+  "uuid": "e0ba4ae7-4e29-45ee-9d5a-fa9818dc6808",
+  "ttft_stream_ms": 758,
+  "time_to_request_ms": 170,
+  "first_content_frame_ms": 758,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 426,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6381,
+    "webSearchRequests": 0,
+    "costUSD": 0.029788000000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6381,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.4836282809847035,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-kfmycgfn/work"
+  }
+ },
+ "wall_seconds": 5.091367224988062,
+ "qid": "PowerToys#49771",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46216",
+   "PowerToys#48680",
+   "PowerToys#46286"
+  ],
+  "answer": "This has been reported before: the CmdPal Dock performance widgets (CPU/GPU/RAM/network) showing ??? or no data. PowerToys#46216 is the main thread, and #46286 was closed as a duplicate of it. The tickets point to a few things to try. 1) A commenter in #46216 fixed it by clicking each widget in the dock, but others reported that this did not help. 2) A commenter in #48597, a related ticket about the same widgets showing 0 or throwing an index-out-of-range error, found that the cause was a corrupted Windows performance counter database. Task Manager and other monitors also failed to show data. Open an elevated Command Prompt, run `lodctr /R`, then reboot. After that, GPU and network data returned to normal. If Task Manager shows its data correctly, this is less likely to be your cause. 3) In #47527, a similar 0% CPU problem went away after a Windows update, so install pending Windows updates. #46216 and #48680 have no confirmed fix, and the problem was still reported on 0.100.2. If none of this works, add your bug report ZIP and details to #46216 or #48680."
+ },
+ "hit_turn_cap": false
+}

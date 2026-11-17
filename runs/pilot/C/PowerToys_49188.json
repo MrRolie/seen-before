@@ -1,0 +1,328 @@
+{
+ "shown": [
+  "PowerToys#10196",
+  "PowerToys#10926",
+  "PowerToys#11221",
+  "PowerToys#11265",
+  "PowerToys#11538",
+  "PowerToys#11733",
+  "PowerToys#12517",
+  "PowerToys#12874",
+  "PowerToys#15179",
+  "PowerToys#17416",
+  "PowerToys#2543",
+  "PowerToys#31976",
+  "PowerToys#32183",
+  "PowerToys#3421",
+  "PowerToys#34721",
+  "PowerToys#3479",
+  "PowerToys#4228",
+  "PowerToys#46260",
+  "PowerToys#4713",
+  "PowerToys#48973",
+  "PowerToys#5374",
+  "PowerToys#5670",
+  "PowerToys#6224",
+  "PowerToys#6756",
+  "PowerToys#6842",
+  "PowerToys#7225",
+  "PowerToys#7724",
+  "PowerToys#8937",
+  "PowerToys#9372"
+ ],
+ "retrieval_seconds": 3.651467560994206,
+ "tool_calls": [
+  {
+   "t": 1794875981.065708,
+   "tool": "search",
+   "args": {
+    "query": "Keyboard Manager remap a single key only in specific app",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.63687212599325,
+   "returned": [
+    "PowerToys#48973",
+    "PowerToys#5374",
+    "PowerToys#6756",
+    "PowerToys#3421",
+    "PowerToys#4228",
+    "PowerToys#32183",
+    "PowerToys#8937",
+    "PowerToys#11221",
+    "PowerToys#15179",
+    "PowerToys#34721",
+    "PowerToys#6224",
+    "PowerToys#7724",
+    "PowerToys#9372",
+    "PowerToys#11265",
+    "PowerToys#46260",
+    "PowerToys#11733",
+    "PowerToys#17416",
+    "PowerToys#12517",
+    "PowerToys#5670",
+    "PowerToys#3479"
+   ]
+  },
+  {
+   "t": 1794875981.0915072,
+   "tool": "search",
+   "args": {
+    "query": "app-specific key remapping, not just shortcuts",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.013775526022072881,
+   "returned": [
+    "PowerToys#6756",
+    "PowerToys#11733",
+    "PowerToys#7724",
+    "PowerToys#12517",
+    "PowerToys#10926",
+    "PowerToys#5374",
+    "PowerToys#11221",
+    "PowerToys#4228",
+    "PowerToys#12874",
+    "PowerToys#31976",
+    "PowerToys#4713",
+    "PowerToys#7225",
+    "PowerToys#5670",
+    "PowerToys#17416",
+    "PowerToys#6842",
+    "PowerToys#10196",
+    "PowerToys#2543",
+    "PowerToys#11538",
+    "PowerToys#11265",
+    "PowerToys#34721"
+   ]
+  },
+  {
+   "t": 1794875982.66464,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48973"
+   },
+   "seconds": 0.00014816600014455616,
+   "returned": [
+    "PowerToys#48973"
+   ]
+  },
+  {
+   "t": 1794875982.8128488,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#6756"
+   },
+   "seconds": 0.00034747098106890917,
+   "returned": [
+    "PowerToys#6756"
+   ]
+  },
+  {
+   "t": 1794875984.3161922,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#5374"
+   },
+   "seconds": 0.00016301599680446088,
+   "returned": [
+    "PowerToys#5374"
+   ]
+  },
+  {
+   "t": 1794875985.9923265,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#11221"
+   },
+   "seconds": 0.00016125600086525083,
+   "returned": [
+    "PowerToys#11221"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10406,
+  "stop_reason": "end_turn",
+  "session_id": "644db8b6-bd95-4130-90e3-94736414626f",
+  "total_cost_usd": 0.0400761,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 7695,
+   "cache_read_input_tokens": 23161,
+   "output_tokens": 696,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7695,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 252,
+     "cache_read_input_tokens": 8330,
+     "cache_creation_input_tokens": 398,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 398
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 696,
+    "cacheReadInputTokens": 23161,
+    "cacheCreationInputTokens": 7695,
+    "webSearchRequests": 0,
+    "costUSD": 0.0400761,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7695,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#6756\", \"PowerToys#5374\", \"PowerToys#11221\"], \"answer\": \"This feature request has been filed before. Keyboard Manager's \\\"Remap a key\\\" can't be limited to one app. Only \\\"Remap a shortcut\\\" has a target-app option. The team is tracking the request in PowerToys#6756, and PowerToys#5374 and PowerToys#11221 were pointed to that ticket. Add your use case there (Enter sending a message instead of inserting a new line in ChatGPT) and give it a 👍. I found no fix in the archive, so for now you can only remap the key globally. A shortcut remap with a target app also won't work, because a shortcut must start with a modifier key.\"}",
+  "ttft_ms": 2250,
+  "type": "result",
+  "duration_ms": 14127,
+  "uuid": "ea611e3b-e5cb-42b2-97cf-b37a8f679831",
+  "ttft_stream_ms": 1175,
+  "time_to_request_ms": 33,
+  "first_content_frame_ms": 1175,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 696,
+    "cacheReadInputTokens": 23161,
+    "cacheCreationInputTokens": 7695,
+    "webSearchRequests": 0,
+    "costUSD": 0.0400761,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7695,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.440536890004296,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-2lvk9y8h/work"
+  }
+ },
+ "wall_seconds": 15.442625597992446,
+ "qid": "PowerToys#49188",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#6756",
+   "PowerToys#5374",
+   "PowerToys#11221"
+  ],
+  "answer": "This feature request has been filed before. Keyboard Manager's \"Remap a key\" can't be limited to one app. Only \"Remap a shortcut\" has a target-app option. The team is tracking the request in PowerToys#6756, and PowerToys#5374 and PowerToys#11221 were pointed to that ticket. Add your use case there (Enter sending a message instead of inserting a new line in ChatGPT) and give it a 👍. I found no fix in the archive, so for now you can only remap the key globally. A shortcut remap with a target app also won't work, because a shortcut must start with a modifier key."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#47607",
+  "PowerToys#31911",
+  "PowerToys#31352",
+  "PowerToys#5074",
+  "PowerToys#36940"
+ ],
+ "retrieval_seconds": 0.5777707099914551,
+ "retrieval_scores": [
+  0.03278688524590164,
+  0.029910714285714284,
+  0.02928692699490662,
+  0.027205882352941177,
+  0.026916221033868093
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3404,
+  "stop_reason": "end_turn",
+  "session_id": "61f43f36-c08b-4482-8a66-b722e6c991f2",
+  "total_cost_usd": 0.03333,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 7624,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 283,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7624,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 283,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 7624,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7624
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 283,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7624,
+    "webSearchRequests": 0,
+    "costUSD": 0.03333,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7624,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#5074\", \"PowerToys#47607\", \"PowerToys#31911\"], \"answer\": \"This text expander request has been filed many times before, and the other tickets were closed as duplicates of PowerToys#5074 (Text Replacement / expander). That is the ticket tracking the feature, so add your thumbs-up and any extra requirements there, such as import/export, app-specific snippets and variables. PowerToys has no text expander yet. In the meantime, Keyboard Manager can remap a shortcut to insert a fixed piece of text, as suggested in #31911 and #31352. That approach limits you to key-combination shortcuts and does not support typed abbreviations like ::email::. For typed triggers today, the tickets mention third-party tools such as AutoHotkey, Beeftext and Espanso.\"}",
+  "ttft_ms": 3575,
+  "type": "result",
+  "duration_ms": 3589,
+  "uuid": "8b077f24-25ac-4853-85ef-bdf256e4109d",
+  "ttft_stream_ms": 1375,
+  "time_to_request_ms": 185,
+  "first_content_frame_ms": 1375,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 283,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7624,
+    "webSearchRequests": 0,
+    "costUSD": 0.03333,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7624,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.53353333499399,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-q08_s682/work"
+  }
+ },
+ "wall_seconds": 5.113951348001137,
+ "qid": "PowerToys#52083",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#5074",
+   "PowerToys#47607",
+   "PowerToys#31911"
+  ],
+  "answer": "This text expander request has been filed many times before, and the other tickets were closed as duplicates of PowerToys#5074 (Text Replacement / expander). That is the ticket tracking the feature, so add your thumbs-up and any extra requirements there, such as import/export, app-specific snippets and variables. PowerToys has no text expander yet. In the meantime, Keyboard Manager can remap a shortcut to insert a fixed piece of text, as suggested in #31911 and #31352. That approach limits you to key-combination shortcuts and does not support typed abbreviations like ::email::. For typed triggers today, the tickets mention third-party tools such as AutoHotkey, Beeftext and Espanso."
+ },
+ "hit_turn_cap": false
+}

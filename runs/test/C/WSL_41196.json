@@ -1,0 +1,422 @@
+{
+ "shown": [
+  "WSL#10329",
+  "WSL#10338",
+  "WSL#11150",
+  "WSL#12035",
+  "WSL#12096",
+  "WSL#12297",
+  "WSL#12473",
+  "WSL#12480",
+  "WSL#126",
+  "WSL#13343",
+  "WSL#13584",
+  "WSL#1383",
+  "WSL#14154",
+  "WSL#170",
+  "WSL#1816",
+  "WSL#2205",
+  "WSL#271",
+  "WSL#3261",
+  "WSL#3861",
+  "WSL#388",
+  "WSL#3880",
+  "WSL#4136",
+  "WSL#4199",
+  "WSL#4203",
+  "WSL#4349",
+  "WSL#4356",
+  "WSL#4406",
+  "WSL#4436",
+  "WSL#4527",
+  "WSL#4582",
+  "WSL#4602",
+  "WSL#4619",
+  "WSL#4636",
+  "WSL#4731",
+  "WSL#4769",
+  "WSL#4773",
+  "WSL#4808",
+  "WSL#4851",
+  "WSL#4935",
+  "WSL#5010",
+  "WSL#5051",
+  "WSL#5211",
+  "WSL#5267",
+  "WSL#5451",
+  "WSL#5942",
+  "WSL#5978",
+  "WSL#6003",
+  "WSL#6083",
+  "WSL#6168",
+  "WSL#6237",
+  "WSL#6439",
+  "WSL#6725",
+  "WSL#6756",
+  "WSL#7641",
+  "WSL#8270",
+  "WSL#8707",
+  "WSL#9450",
+  "WSL#9515",
+  "WSL#9516",
+  "WSL#9746",
+  "WSL#9750",
+  "WSL#987",
+  "WSL#990"
+ ],
+ "retrieval_seconds": 4.119654179026838,
+ "tool_calls": [
+  {
+   "t": 1794878940.5764773,
+   "tool": "search",
+   "args": {
+    "query": "localhost port forwarding 127.0.0.1 IPv4 fails after wsl --shutdown, IPv6 ::1 works",
+    "repo": "WSL"
+   },
+   "seconds": 4.054784570995253,
+   "returned": [
+    "WSL#6003",
+    "WSL#6725",
+    "WSL#388",
+    "WSL#3880",
+    "WSL#13343",
+    "WSL#9746",
+    "WSL#12297",
+    "WSL#8270",
+    "WSL#4356",
+    "WSL#14154",
+    "WSL#4582",
+    "WSL#5051",
+    "WSL#4769",
+    "WSL#9750",
+    "WSL#4436",
+    "WSL#13584",
+    "WSL#7641",
+    "WSL#4527",
+    "WSL#4773",
+    "WSL#5942"
+   ]
+  },
+  {
+   "t": 1794878940.60569,
+   "tool": "search",
+   "args": {
+    "query": "Windows cannot connect to WSL2 service on 127.0.0.1 but localhost works, NAT mode localhost forwarding",
+    "repo": "WSL"
+   },
+   "seconds": 0.014565148012479767,
+   "returned": [
+    "WSL#4935",
+    "WSL#4773",
+    "WSL#10338",
+    "WSL#4527",
+    "WSL#4619",
+    "WSL#4582",
+    "WSL#6725",
+    "WSL#5451",
+    "WSL#4636",
+    "WSL#5211",
+    "WSL#4808",
+    "WSL#6083",
+    "WSL#6168",
+    "WSL#5010",
+    "WSL#13343",
+    "WSL#4199",
+    "WSL#4136",
+    "WSL#4349",
+    "WSL#6439",
+    "WSL#6756"
+   ]
+  },
+  {
+   "t": 1794878943.1661134,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#14154"
+   },
+   "seconds": 0.00013830600073561072,
+   "returned": [
+    "WSL#14154"
+   ]
+  },
+  {
+   "t": 1794878943.2631934,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#6725"
+   },
+   "seconds": 0.00015768501907587051,
+   "returned": [
+    "WSL#6725"
+   ]
+  },
+  {
+   "t": 1794878944.7329879,
+   "tool": "search",
+   "args": {
+    "query": "Localhost relay does not support dual-mode sockets listening on [::] IPv4 127.0.0.1 from Windows",
+    "repo": "WSL"
+   },
+   "seconds": 0.03401213500183076,
+   "returned": [
+    "WSL#4851",
+    "WSL#4582",
+    "WSL#388",
+    "WSL#1816",
+    "WSL#987",
+    "WSL#271",
+    "WSL#2205",
+    "WSL#8270",
+    "WSL#990",
+    "WSL#170",
+    "WSL#12035",
+    "WSL#4527",
+    "WSL#126",
+    "WSL#3261",
+    "WSL#4349",
+    "WSL#5978",
+    "WSL#12480",
+    "WSL#11150",
+    "WSL#1383",
+    "WSL#4769"
+   ]
+  },
+  {
+   "t": 1794878945.1380994,
+   "tool": "search",
+   "args": {
+    "query": "k3s kubernetes API server 6443 not reachable from Windows 127.0.0.1 WSL2",
+    "repo": "WSL"
+   },
+   "seconds": 0.015580646984744817,
+   "returned": [
+    "WSL#9746",
+    "WSL#4203",
+    "WSL#4406",
+    "WSL#4935",
+    "WSL#12473",
+    "WSL#6756",
+    "WSL#6168",
+    "WSL#10329",
+    "WSL#3861",
+    "WSL#12096",
+    "WSL#9516",
+    "WSL#6237",
+    "WSL#4582",
+    "WSL#10338",
+    "WSL#5267",
+    "WSL#8707",
+    "WSL#4731",
+    "WSL#9515",
+    "WSL#4602",
+    "WSL#9450"
+   ]
+  },
+  {
+   "t": 1794878947.2052557,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#4851"
+   },
+   "seconds": 0.0002626609930302948,
+   "returned": [
+    "WSL#4851"
+   ]
+  },
+  {
+   "t": 1794878947.2406225,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#9746"
+   },
+   "seconds": 0.00015302601968869567,
+   "returned": [
+    "WSL#9746"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12971,
+  "stop_reason": "end_turn",
+  "session_id": "879c3bc4-9ae0-486a-911f-5d216a0cb1d7",
+  "total_cost_usd": 0.09858019999999999,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 20335,
+   "cache_read_input_tokens": 34502,
+   "output_tokens": 1377,
+   "output_tokens_details": {
+    "thinking_tokens": 155
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 20335,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 613,
+     "cache_read_input_tokens": 13937,
+     "cache_creation_input_tokens": 7431,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7431
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1377,
+    "cacheReadInputTokens": 34502,
+    "cacheCreationInputTokens": 20335,
+    "webSearchRequests": 0,
+    "costUSD": 0.09858019999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 155,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 20335,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"WSL#4851\"], \"answer\": \"This looks like WSL#4851, 'Localhost relay does not support dual-mode sockets'. `ss` shows k3s listening on `*:6443`, which is a dual-stack IPv6 socket. In NAT mode the Windows-to-WSL localhost relay forwards that port on `::1`, so `localhost` works. It does not forward it on IPv4 `127.0.0.1`. The ticket describes the same split: `::1` connects and `127.0.0.1` is refused. The archived ticket does not show a fix. It gives these workarounds:\\n\\n1. Make the service listen on a plain IPv4 address, such as `0.0.0.0` or `127.0.0.1`, so the relay forwards it on IPv4. For k3s, try setting `bind-address: 0.0.0.0` in `/etc/rancher/k3s/config.yaml`. That k3s option is my suggestion and is not in the archived ticket.\\n2. Point clients on Windows at `localhost` or `[::1]` instead of `127.0.0.1`. Headlamp does this if its kubeconfig server URL is `https://localhost:6443`.\\n3. In a hosts file entry, use `::1` in place of `127.0.0.1`.\\n\\nThe archive also has WSL#14154, a dual-stack IPv4 refusal inside WSL itself. It is not the same problem as yours, because yours is Windows to WSL.\"}",
+  "ttft_ms": 1289,
+  "type": "result",
+  "duration_ms": 16641,
+  "uuid": "5c3aa530-179b-4c01-b1b1-0ed102702d8d",
+  "ttft_stream_ms": 590,
+  "time_to_request_ms": 45,
+  "first_content_frame_ms": 590,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1377,
+    "cacheReadInputTokens": 34502,
+    "cacheCreationInputTokens": 20335,
+    "webSearchRequests": 0,
+    "costUSD": 0.09858019999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 155,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 20335,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.00282183699892,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-m816h9yr/work"
+  }
+ },
+ "wall_seconds": 18.004630880983314,
+ "qid": "WSL#41196",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "WSL#4851"
+  ],
+  "answer": "This looks like WSL#4851, 'Localhost relay does not support dual-mode sockets'. `ss` shows k3s listening on `*:6443`, which is a dual-stack IPv6 socket. In NAT mode the Windows-to-WSL localhost relay forwards that port on `::1`, so `localhost` works. It does not forward it on IPv4 `127.0.0.1`. The ticket describes the same split: `::1` connects and `127.0.0.1` is refused. The archived ticket does not show a fix. It gives these workarounds:\n\n1. Make the service listen on a plain IPv4 address, such as `0.0.0.0` or `127.0.0.1`, so the relay forwards it on IPv4. For k3s, try setting `bind-address: 0.0.0.0` in `/etc/rancher/k3s/config.yaml`. That k3s option is my suggestion and is not in the archived ticket.\n2. Point clients on Windows at `localhost` or `[::1]` instead of `127.0.0.1`. Headlamp does this if its kubeconfig server URL is `https://localhost:6443`.\n3. In a hosts file entry, use `::1` in place of `127.0.0.1`.\n\nThe archive also has WSL#14154, a dual-stack IPv4 refusal inside WSL itself. It is not the same problem as yours, because yours is Windows to WSL."
+ },
+ "hit_turn_cap": false
+}

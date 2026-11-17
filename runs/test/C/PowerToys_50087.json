@@ -1,0 +1,391 @@
+{
+ "shown": [
+  "PowerToys#10056",
+  "PowerToys#10279",
+  "PowerToys#10324",
+  "PowerToys#1180",
+  "PowerToys#12378",
+  "PowerToys#12486",
+  "PowerToys#1454",
+  "PowerToys#158",
+  "PowerToys#1599",
+  "PowerToys#1612",
+  "PowerToys#1635",
+  "PowerToys#1982",
+  "PowerToys#2012",
+  "PowerToys#2061",
+  "PowerToys#208",
+  "PowerToys#2275",
+  "PowerToys#2397",
+  "PowerToys#2445",
+  "PowerToys#2685",
+  "PowerToys#2758",
+  "PowerToys#2887",
+  "PowerToys#29650",
+  "PowerToys#3041",
+  "PowerToys#3069",
+  "PowerToys#33228",
+  "PowerToys#3520",
+  "PowerToys#3726",
+  "PowerToys#393",
+  "PowerToys#42197",
+  "PowerToys#4414",
+  "PowerToys#4473",
+  "PowerToys#4595",
+  "PowerToys#46816",
+  "PowerToys#5115",
+  "PowerToys#5144",
+  "PowerToys#5157",
+  "PowerToys#5253",
+  "PowerToys#5372",
+  "PowerToys#5940",
+  "PowerToys#6092",
+  "PowerToys#6216",
+  "PowerToys#6995",
+  "PowerToys#791",
+  "PowerToys#8144",
+  "PowerToys#8273",
+  "PowerToys#8447",
+  "PowerToys#850",
+  "PowerToys#8828",
+  "PowerToys#8870",
+  "PowerToys#9092",
+  "PowerToys#9169",
+  "PowerToys#9204",
+  "PowerToys#9572",
+  "PowerToys#9642",
+  "PowerToys#9678",
+  "WSL#10052",
+  "WSL#10173",
+  "WSL#12809",
+  "WSL#14504",
+  "WSL#3207",
+  "WSL#4004",
+  "WSL#4120",
+  "WSL#5280",
+  "WSL#5958",
+  "terminal#11858",
+  "terminal#1745",
+  "terminal#270"
+ ],
+ "retrieval_seconds": 3.7968625880312175,
+ "tool_calls": [
+  {
+   "t": 1794881475.709194,
+   "tool": "search",
+   "args": {
+    "query": "per-user related bundle detected twice, uninstall fails 0x80070003, stale entry in Installed Apps cannot uninstall",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.744845299021108,
+   "returned": [
+    "PowerToys#2887",
+    "PowerToys#2275",
+    "PowerToys#2012",
+    "PowerToys#208",
+    "PowerToys#5115",
+    "PowerToys#3520",
+    "PowerToys#1454",
+    "PowerToys#8870",
+    "PowerToys#10279",
+    "PowerToys#2397",
+    "PowerToys#9169",
+    "PowerToys#158",
+    "PowerToys#10056",
+    "PowerToys#29650",
+    "PowerToys#42197",
+    "PowerToys#2061",
+    "PowerToys#1635",
+    "PowerToys#3041",
+    "PowerToys#1180",
+    "PowerToys#8828"
+   ]
+  },
+  {
+   "t": 1794881475.742469,
+   "tool": "search",
+   "args": {
+    "query": "wixtoolset issues 7675 Burn related bundles duplicate 32-bit 64-bit registry views",
+    "repo": null
+   },
+   "seconds": 0.012643536989344284,
+   "returned": [
+    "PowerToys#2758",
+    "terminal#1745",
+    "terminal#11858",
+    "PowerToys#791",
+    "WSL#10173",
+    "WSL#4004",
+    "terminal#270",
+    "PowerToys#3041",
+    "WSL#5280",
+    "WSL#5958",
+    "WSL#4120",
+    "PowerToys#9204",
+    "WSL#12809",
+    "PowerToys#393",
+    "PowerToys#1612",
+    "WSL#10052",
+    "PowerToys#5157",
+    "WSL#14504",
+    "PowerToys#3726",
+    "WSL#3207"
+   ]
+  },
+  {
+   "t": 1794881475.7608445,
+   "tool": "search",
+   "args": {
+    "query": "old PowerToys version remains in installed apps after upgrade, uninstall string points to missing PowerToysUserSetup exe",
+    "repo": null
+   },
+   "seconds": 0.011444967007264495,
+   "returned": [
+    "PowerToys#8870",
+    "PowerToys#10324",
+    "PowerToys#158",
+    "PowerToys#1982",
+    "PowerToys#46816",
+    "PowerToys#850",
+    "PowerToys#33228",
+    "PowerToys#6995",
+    "PowerToys#8447",
+    "PowerToys#2887",
+    "PowerToys#1635",
+    "PowerToys#393",
+    "PowerToys#2012",
+    "PowerToys#2685",
+    "PowerToys#12378",
+    "PowerToys#5372",
+    "PowerToys#9572",
+    "PowerToys#4473",
+    "PowerToys#9092",
+    "PowerToys#3520"
+   ]
+  },
+  {
+   "t": 1794881477.6135817,
+   "tool": "search",
+   "args": {
+    "query": "Burn bootstrapper duplicate related bundle planned twice CreateProcessW failed cache removed WiX 5",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.027828618010971695,
+   "returned": [
+    "PowerToys#8273",
+    "PowerToys#3041",
+    "PowerToys#4414",
+    "PowerToys#9678",
+    "PowerToys#2758",
+    "PowerToys#12486",
+    "PowerToys#393",
+    "PowerToys#5253",
+    "PowerToys#5940",
+    "PowerToys#5144",
+    "PowerToys#4595",
+    "PowerToys#2445",
+    "PowerToys#6216",
+    "PowerToys#8144",
+    "PowerToys#1599",
+    "PowerToys#2061",
+    "PowerToys#3069",
+    "PowerToys#6092",
+    "PowerToys#9642",
+    "PowerToys#1612"
+   ]
+  },
+  {
+   "t": 1794881477.7648392,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#8870"
+   },
+   "seconds": 0.00010016700252890587,
+   "returned": [
+    "PowerToys#8870"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7615,
+  "stop_reason": "end_turn",
+  "session_id": "b1a9e5e6-9d86-42c1-bfc2-86b4477763bd",
+  "total_cost_usd": 0.055952600000000005,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 11529,
+   "cache_read_input_tokens": 11346,
+   "output_tokens": 869,
+   "output_tokens_details": {
+    "thinking_tokens": 67
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11529,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 334,
+     "cache_read_input_tokens": 7123,
+     "cache_creation_input_tokens": 5439,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5439
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 869,
+    "cacheReadInputTokens": 11346,
+    "cacheCreationInputTokens": 11529,
+    "webSearchRequests": 0,
+    "costUSD": 0.055952600000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 67,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11529,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this problem. The closest are old MSI-era tickets, such as PowerToys#8870. In those, the cached installer was missing, usually because a cleanup tool had deleted it. This ticket is a different case. Here the WiX 5.0.2 Burn engine detects each per-user related bundle twice, because HKCU has no separate 32-bit and 64-bit views. It then plans a second uninstall after the first one has already removed the cache (upstream wixtoolset/issues#7675). Please treat it as a new installer bug and keep the Burn logs attached. The fix needs a Burn change that deduplicates related bundles by ID, or a WiX version that includes one. Until then, the stale entry can't be removed from Installed Apps. You could try running the installer for that exact older version, if you can get it, to recreate the cached EXE and then uninstall it. I haven't seen this workaround in the archive, so I can't confirm it works.\"}",
+  "ttft_ms": 1286,
+  "type": "result",
+  "duration_ms": 10606,
+  "uuid": "79027e93-a3e5-4a1c-bd6b-f48a3273d59e",
+  "ttft_stream_ms": 609,
+  "time_to_request_ms": 47,
+  "first_content_frame_ms": 609,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 869,
+    "cacheReadInputTokens": 11346,
+    "cacheCreationInputTokens": 11529,
+    "webSearchRequests": 0,
+    "costUSD": 0.055952600000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 67,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11529,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.0465674920124,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ubq1l3rp/work"
+  }
+ },
+ "wall_seconds": 12.048216560011497,
+ "qid": "PowerToys#50087",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this problem. The closest are old MSI-era tickets, such as PowerToys#8870. In those, the cached installer was missing, usually because a cleanup tool had deleted it. This ticket is a different case. Here the WiX 5.0.2 Burn engine detects each per-user related bundle twice, because HKCU has no separate 32-bit and 64-bit views. It then plans a second uninstall after the first one has already removed the cache (upstream wixtoolset/issues#7675). Please treat it as a new installer bug and keep the Burn logs attached. The fix needs a Burn change that deduplicates related bundles by ID, or a WiX version that includes one. Until then, the stale entry can't be removed from Installed Apps. You could try running the installer for that exact older version, if you can get it, to recreate the cached EXE and then uninstall it. I haven't seen this workaround in the archive, so I can't confirm it works."
+ },
+ "hit_turn_cap": false
+}

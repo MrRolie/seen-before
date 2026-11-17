@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#46189",
+  "PowerToys#16769",
+  "PowerToys#44917",
+  "PowerToys#26",
+  "PowerToys#14204"
+ ],
+ "retrieval_seconds": 0.5825775169942062,
+ "retrieval_scores": [
+  0.03252247488101534,
+  0.03200204813108039,
+  0.030536130536130537,
+  0.029910714285714284,
+  0.029631255487269532
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2885,
+  "stop_reason": "end_turn",
+  "session_id": "1c96a115-22c1-4772-8729-7927687bfcc4",
+  "total_cost_usd": 0.027694,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6230,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 277,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6230,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 277,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6230,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6230
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 277,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6230,
+    "webSearchRequests": 0,
+    "costUSD": 0.027694,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6230,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#26\", \"PowerToys#46189\", \"PowerToys#44917\"], \"answer\": \"This request has been reported many times before. All of the duplicate tickets were closed in favor of the main thread, PowerToys#26 (\\\"SyncToy and Robocopy\\\"), which tracks the request to bring back or modernize SyncToy. Please add your support there (for example with a thumbs-up reaction and any specific needs, such as scheduling or longer path support) rather than in a new ticket. The past tickets don't announce a revival: SyncToy 2.1 was discontinued and its official download was removed in early 2021, and no fix or timeline is given. In the meantime, the tickets mention Robocopy (built into Windows), rsync, or third-party tools such as SyncBack as alternatives.\"}",
+  "ttft_ms": 3063,
+  "type": "result",
+  "duration_ms": 3076,
+  "uuid": "c4c88f47-1612-444f-b197-5152fd53c937",
+  "ttft_stream_ms": 1001,
+  "time_to_request_ms": 192,
+  "first_content_frame_ms": 1001,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 277,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6230,
+    "webSearchRequests": 0,
+    "costUSD": 0.027694,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6230,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.967863252997631,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ch6g63rl/work"
+  }
+ },
+ "wall_seconds": 4.552043267991394,
+ "qid": "PowerToys#49369",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#26",
+   "PowerToys#46189",
+   "PowerToys#44917"
+  ],
+  "answer": "This request has been reported many times before. All of the duplicate tickets were closed in favor of the main thread, PowerToys#26 (\"SyncToy and Robocopy\"), which tracks the request to bring back or modernize SyncToy. Please add your support there (for example with a thumbs-up reaction and any specific needs, such as scheduling or longer path support) rather than in a new ticket. The past tickets don't announce a revival: SyncToy 2.1 was discontinued and its official download was removed in early 2021, and no fix or timeline is given. In the meantime, the tickets mention Robocopy (built into Windows), rsync, or third-party tools such as SyncBack as alternatives."
+ },
+ "hit_turn_cap": false
+}

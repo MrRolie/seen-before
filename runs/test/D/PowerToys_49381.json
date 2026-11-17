@@ -1,0 +1,302 @@
+{
+ "shown": [
+  "PowerToys#10179",
+  "PowerToys#102",
+  "PowerToys#11063",
+  "PowerToys#11312",
+  "PowerToys#12389",
+  "PowerToys#1331",
+  "PowerToys#168",
+  "PowerToys#19",
+  "PowerToys#1988",
+  "PowerToys#21",
+  "PowerToys#23938",
+  "PowerToys#25340",
+  "PowerToys#36199",
+  "PowerToys#36221",
+  "PowerToys#3879",
+  "PowerToys#46722",
+  "PowerToys#47025",
+  "PowerToys#480",
+  "PowerToys#48862",
+  "PowerToys#5264",
+  "PowerToys#5269",
+  "PowerToys#552",
+  "PowerToys#6246",
+  "PowerToys#7358",
+  "PowerToys#7655",
+  "PowerToys#7876",
+  "PowerToys#8282",
+  "PowerToys#9260",
+  "PowerToys#9339",
+  "PowerToys#977"
+ ],
+ "retrieval_seconds": 4.402863021969097,
+ "tool_calls": [
+  {
+   "t": 1794878261.1488085,
+   "tool": "similar",
+   "args": {
+    "query": "hotkey to change desktop wallpaper / next slideshow wallpaper shortcut",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.207120412000222,
+   "returned": [
+    "PowerToys#48862",
+    "PowerToys#21",
+    "PowerToys#12389",
+    "PowerToys#5264",
+    "PowerToys#19",
+    "PowerToys#10179",
+    "PowerToys#7655",
+    "PowerToys#5269",
+    "PowerToys#36221",
+    "PowerToys#9260",
+    "PowerToys#8282",
+    "PowerToys#1988",
+    "PowerToys#168",
+    "PowerToys#47025",
+    "PowerToys#7358",
+    "PowerToys#3879",
+    "PowerToys#9339",
+    "PowerToys#552",
+    "PowerToys#11063",
+    "PowerToys#102"
+   ]
+  },
+  {
+   "t": 1794878261.358845,
+   "tool": "search",
+   "args": {
+    "pattern": "wallpaper",
+    "regex": false,
+    "also": [
+     "hotkey"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.19543328799773008,
+   "returned": [
+    "PowerToys#1331",
+    "PowerToys#48862",
+    "PowerToys#46722",
+    "PowerToys#36199",
+    "PowerToys#25340",
+    "PowerToys#23938",
+    "PowerToys#11312",
+    "PowerToys#7876",
+    "PowerToys#6246",
+    "PowerToys#977",
+    "PowerToys#480"
+   ]
+  },
+  {
+   "t": 1794878262.1302674,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48862"
+   },
+   "seconds": 0.00015049599460326135,
+   "returned": [
+    "PowerToys#48862"
+   ]
+  },
+  {
+   "t": 1794878262.9318101,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#36221"
+   },
+   "seconds": 0.00015882597654126585,
+   "returned": [
+    "PowerToys#36221"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 5125,
+  "stop_reason": "end_turn",
+  "session_id": "f309e939-62b1-4643-9ec9-fe8c85810a7b",
+  "total_cost_usd": 0.0297643,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 5620,
+   "cache_read_input_tokens": 14883,
+   "output_tokens": 578,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5620,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 241,
+     "cache_read_input_tokens": 6161,
+     "cache_creation_input_tokens": 872,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 872
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 578,
+    "cacheReadInputTokens": 14883,
+    "cacheCreationInputTokens": 5620,
+    "webSearchRequests": 0,
+    "costUSD": 0.0297643,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5620,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48862\", \"PowerToys#36221\"], \"answer\": \"This feature has been requested before. PowerToys has no hotkey for advancing the wallpaper slideshow yet. PowerToys#48862 asks for a configurable hotkey that moves the slideshow to the next image, using the Windows IDesktopWallpaper::AdvanceSlideshow API. PowerToys#36221 is a broader 'Desktop Background Manager' request that includes a shortcut to cycle images. For now, the only built-in way is right-clicking the desktop and choosing 'Next desktop background'. Add a thumbs-up or your use case to those tickets to help them get prioritised.\"}",
+  "ttft_ms": 1176,
+  "type": "result",
+  "duration_ms": 9224,
+  "uuid": "6a946698-752c-41ca-a1e6-4a381685d997",
+  "ttft_stream_ms": 594,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 594,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 578,
+    "cacheReadInputTokens": 14883,
+    "cacheCreationInputTokens": 5620,
+    "webSearchRequests": 0,
+    "costUSD": 0.0297643,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5620,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.919695584016154,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-cdst63qw/work"
+  }
+ },
+ "wall_seconds": 10.921808459999738,
+ "qid": "PowerToys#49381",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48862",
+   "PowerToys#36221"
+  ],
+  "answer": "This feature has been requested before. PowerToys has no hotkey for advancing the wallpaper slideshow yet. PowerToys#48862 asks for a configurable hotkey that moves the slideshow to the next image, using the Windows IDesktopWallpaper::AdvanceSlideshow API. PowerToys#36221 is a broader 'Desktop Background Manager' request that includes a shortcut to cycle images. For now, the only built-in way is right-clicking the desktop and choosing 'Next desktop background'. Add a thumbs-up or your use case to those tickets to help them get prioritised."
+ },
+ "hit_turn_cap": false
+}

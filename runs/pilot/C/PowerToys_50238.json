@@ -1,0 +1,328 @@
+{
+ "shown": [
+  "PowerToys#1003",
+  "PowerToys#1052",
+  "PowerToys#12178",
+  "PowerToys#12357",
+  "PowerToys#12658",
+  "PowerToys#12784",
+  "PowerToys#12967",
+  "PowerToys#14523",
+  "PowerToys#16031",
+  "PowerToys#18134",
+  "PowerToys#21003",
+  "PowerToys#21290",
+  "PowerToys#21573",
+  "PowerToys#22171",
+  "PowerToys#23748",
+  "PowerToys#24189",
+  "PowerToys#24273",
+  "PowerToys#28624",
+  "PowerToys#30342",
+  "PowerToys#310",
+  "PowerToys#31826",
+  "PowerToys#3217",
+  "PowerToys#34708",
+  "PowerToys#39287",
+  "PowerToys#47813",
+  "PowerToys#4783",
+  "PowerToys#64",
+  "PowerToys#835",
+  "PowerToys#9258"
+ ],
+ "retrieval_seconds": 3.9748660690092947,
+ "tool_calls": [
+  {
+   "t": 1794876740.6877673,
+   "tool": "search",
+   "args": {
+    "query": "shortcut to turn off monitor display without sleeping",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.958702709991485,
+   "returned": [
+    "PowerToys#4783",
+    "PowerToys#9258",
+    "PowerToys#16031",
+    "PowerToys#310",
+    "PowerToys#21003",
+    "PowerToys#24273",
+    "PowerToys#18134",
+    "PowerToys#34708",
+    "PowerToys#28624",
+    "PowerToys#30342",
+    "PowerToys#23748",
+    "PowerToys#12967",
+    "PowerToys#39287",
+    "PowerToys#21290",
+    "PowerToys#47813",
+    "PowerToys#64",
+    "PowerToys#21573",
+    "PowerToys#31826",
+    "PowerToys#24189",
+    "PowerToys#835"
+   ]
+  },
+  {
+   "t": 1794876740.715591,
+   "tool": "search",
+   "args": {
+    "query": "screen off hotkey, turn off display, wake on mouse move",
+    "repo": null
+   },
+   "seconds": 0.015563793014734983,
+   "returned": [
+    "PowerToys#4783",
+    "PowerToys#9258",
+    "PowerToys#12178",
+    "PowerToys#24273",
+    "PowerToys#21573",
+    "PowerToys#28624",
+    "PowerToys#12658",
+    "PowerToys#22171",
+    "PowerToys#31826",
+    "PowerToys#310",
+    "PowerToys#1003",
+    "PowerToys#34708",
+    "PowerToys#3217",
+    "PowerToys#835",
+    "PowerToys#16031",
+    "PowerToys#14523",
+    "PowerToys#12357",
+    "PowerToys#12784",
+    "PowerToys#21003",
+    "PowerToys#39287"
+   ]
+  },
+  {
+   "t": 1794876742.0458686,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4783"
+   },
+   "seconds": 0.00016556601622141898,
+   "returned": [
+    "PowerToys#4783"
+   ]
+  },
+  {
+   "t": 1794876742.2904048,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#16031"
+   },
+   "seconds": 0.00011428800644353032,
+   "returned": [
+    "PowerToys#16031"
+   ]
+  },
+  {
+   "t": 1794876742.4662523,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39287"
+   },
+   "seconds": 0.00015669598360545933,
+   "returned": [
+    "PowerToys#39287"
+   ]
+  },
+  {
+   "t": 1794876743.9590333,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1052"
+   },
+   "seconds": 0.00016301599680446088,
+   "returned": [
+    "PowerToys#1052"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9767,
+  "stop_reason": "end_turn",
+  "session_id": "760749e1-9dd5-44c2-a364-b7f2e91ba615",
+  "total_cost_usd": 0.0588944,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 11689,
+   "cache_read_input_tokens": 15724,
+   "output_tokens": 1055,
+   "output_tokens_details": {
+    "thinking_tokens": 118
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11689,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 583,
+     "cache_read_input_tokens": 9137,
+     "cache_creation_input_tokens": 3585,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3585
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1055,
+    "cacheReadInputTokens": 15724,
+    "cacheCreationInputTokens": 11689,
+    "webSearchRequests": 0,
+    "costUSD": 0.0588944,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 118,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11689,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#4783\", \"PowerToys#16031\", \"PowerToys#39287\"], \"answer\": \"This feature request has been filed before: a hotkey to turn the monitor off immediately without sleeping or locking the PC. PowerToys has no such shortcut yet. Past tickets point to the umbrella ticket PowerToys#1052 (Quick Display adjustment, which lists \\\"sleep monitors\\\"), where it is tracked. You can add your scenario there or upvote the existing requests. Until then, use a workaround. (1) Make a shortcut or AutoHotkey script that sends the monitor-off message: `powershell (Add-Type '[DllImport(\\\"user32.dll\\\")]public static extern int PostMessage(int hWnd, int hMsg, int wParam, int lParam);' -Name a -Pas)::PostMessage(-1,0x0112,0xF170,2)`. Then assign a keyboard shortcut to it. (2) Run `nircmd.exe monitor off` through AutoHotkey. (3) Use Twinkle Tray, which can turn monitors off with a hotkey. In all of these, moving the mouse or pressing a key wakes the display, and the PC stays running, so your render continues. Note that Win+Pause is already a Windows system shortcut, so you may want a different key combination. One caveat from the tickets: after waking, some setups ask you to sign in again, depending on your sign-in settings. PowerToys Awake does not turn the screen off on demand. It only keeps the PC or screen awake.\"}",
+  "ttft_ms": 1561,
+  "type": "result",
+  "duration_ms": 13630,
+  "uuid": "6b8a9da8-93ee-4041-b614-a9373e3fb35a",
+  "ttft_stream_ms": 932,
+  "time_to_request_ms": 43,
+  "first_content_frame_ms": 932,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1055,
+    "cacheReadInputTokens": 15724,
+    "cacheCreationInputTokens": 11689,
+    "webSearchRequests": 0,
+    "costUSD": 0.0588944,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 118,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11689,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.21901138901012,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ct9p3sjr/work"
+  }
+ },
+ "wall_seconds": 15.221115927997744,
+ "qid": "PowerToys#50238",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#4783",
+   "PowerToys#16031",
+   "PowerToys#39287"
+  ],
+  "answer": "This feature request has been filed before: a hotkey to turn the monitor off immediately without sleeping or locking the PC. PowerToys has no such shortcut yet. Past tickets point to the umbrella ticket PowerToys#1052 (Quick Display adjustment, which lists \"sleep monitors\"), where it is tracked. You can add your scenario there or upvote the existing requests. Until then, use a workaround. (1) Make a shortcut or AutoHotkey script that sends the monitor-off message: `powershell (Add-Type '[DllImport(\"user32.dll\")]public static extern int PostMessage(int hWnd, int hMsg, int wParam, int lParam);' -Name a -Pas)::PostMessage(-1,0x0112,0xF170,2)`. Then assign a keyboard shortcut to it. (2) Run `nircmd.exe monitor off` through AutoHotkey. (3) Use Twinkle Tray, which can turn monitors off with a hotkey. In all of these, moving the mouse or pressing a key wakes the display, and the PC stays running, so your render continues. Note that Win+Pause is already a Windows system shortcut, so you may want a different key combination. One caveat from the tickets: after waking, some setups ask you to sign in again, depending on your sign-in settings. PowerToys Awake does not turn the screen off on demand. It only keeps the PC or screen awake."
+ },
+ "hit_turn_cap": false
+}

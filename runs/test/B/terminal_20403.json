@@ -1,0 +1,383 @@
+{
+ "shown": [
+  "terminal#10416",
+  "terminal#1084",
+  "terminal#11327",
+  "terminal#12007",
+  "terminal#12487",
+  "terminal#12925",
+  "terminal#12927",
+  "terminal#13386",
+  "terminal#13594",
+  "terminal#13726",
+  "terminal#13917",
+  "terminal#14432",
+  "terminal#1465",
+  "terminal#14764",
+  "terminal#15496",
+  "terminal#15851",
+  "terminal#15874",
+  "terminal#16217",
+  "terminal#16722",
+  "terminal#177",
+  "terminal#17887",
+  "terminal#19376",
+  "terminal#2005",
+  "terminal#20308",
+  "terminal#20309",
+  "terminal#2058",
+  "terminal#2165",
+  "terminal#2634",
+  "terminal#2738",
+  "terminal#2756",
+  "terminal#2834",
+  "terminal#3744",
+  "terminal#388",
+  "terminal#406",
+  "terminal#4472",
+  "terminal#4570",
+  "terminal#4632",
+  "terminal#5001",
+  "terminal#57",
+  "terminal#5784",
+  "terminal#5926",
+  "terminal#7589",
+  "terminal#7639",
+  "terminal#7721",
+  "terminal#9368",
+  "terminal#9493",
+  "terminal#9515"
+ ],
+ "retrieval_seconds": 0.17060523497639224,
+ "tool_calls": [
+  {
+   "t": 1794877658.3473253,
+   "tool": "search",
+   "args": {
+    "pattern": "send-input",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.0237202960124705,
+   "returned": [
+    "terminal#9368",
+    "terminal#12487",
+    "terminal#16722",
+    "terminal#12925",
+    "terminal#2634",
+    "terminal#15874",
+    "terminal#15851",
+    "terminal#14764",
+    "terminal#14432",
+    "terminal#12927",
+    "terminal#12007",
+    "terminal#11327",
+    "terminal#10416",
+    "terminal#7721",
+    "terminal#7639",
+    "terminal#5784",
+    "terminal#5001",
+    "terminal#4632",
+    "terminal#2005",
+    "terminal#406"
+   ]
+  },
+  {
+   "t": 1794877658.9792616,
+   "tool": "search",
+   "args": {
+    "pattern": "read buffer",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.022189295996213332,
+   "returned": [
+    "terminal#57",
+    "terminal#13594",
+    "terminal#388"
+   ]
+  },
+  {
+   "t": 1794877659.0058942,
+   "tool": "search",
+   "args": {
+    "pattern": "MCP",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.020167620008578524,
+   "returned": [
+    "terminal#13726",
+    "terminal#1084",
+    "terminal#2834",
+    "terminal#2165",
+    "terminal#20309",
+    "terminal#20308",
+    "terminal#17887",
+    "terminal#13386",
+    "terminal#3744",
+    "terminal#2738",
+    "terminal#1465",
+    "terminal#177",
+    "terminal#19376",
+    "terminal#16217",
+    "terminal#13917",
+    "terminal#9515",
+    "terminal#9493",
+    "terminal#7589",
+    "terminal#2756",
+    "terminal#2058"
+   ]
+  },
+  {
+   "t": 1794877661.4431562,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#9368"
+   },
+   "seconds": 0.0001795159769244492,
+   "returned": [
+    "terminal#9368"
+   ]
+  },
+  {
+   "t": 1794877661.8934195,
+   "tool": "search",
+   "args": {
+    "pattern": "remote control",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.03771170799154788,
+   "returned": [
+    "terminal#9368",
+    "terminal#4472",
+    "terminal#15496",
+    "terminal#5926",
+    "terminal#4570"
+   ]
+  },
+  {
+   "t": 1794877664.0733554,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#20309"
+   },
+   "seconds": 0.00010902699432335794,
+   "returned": [
+    "terminal#20309"
+   ]
+  },
+  {
+   "t": 1794877666.2681053,
+   "tool": "search",
+   "args": {
+    "pattern": "named pipe",
+    "regex": false,
+    "also": [
+     "opt-in"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.066300978010986,
+   "returned": []
+  },
+  {
+   "t": 1794877668.1218169,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#4472"
+   },
+   "seconds": 0.00022679398534819484,
+   "returned": [
+    "terminal#4472"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 18120,
+  "stop_reason": "end_turn",
+  "session_id": "6af8479b-e99e-4a2f-b266-086123157197",
+  "total_cost_usd": 0.0986985,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 19496,
+   "cache_read_input_tokens": 67705,
+   "output_tokens": 1392,
+   "output_tokens_details": {
+    "thinking_tokens": 320
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 19496,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 579,
+     "cache_read_input_tokens": 17833,
+     "cache_creation_input_tokens": 2840,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2840
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1392,
+    "cacheReadInputTokens": 67705,
+    "cacheCreationInputTokens": 19496,
+    "webSearchRequests": 0,
+    "costUSD": 0.0986985,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 320,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 19496,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket asking for this exact feature: an opt-in, consent-gated automation surface that covers session listing, buffer reads and input. Two older tickets are related. terminal#9368 asked for a `wt send-input` subcommand. In April 2026 it was moved to rejected because of the security risk of letting other processes inject input, especially now that mixed elevation exists. In that thread [user] also said that a setting stored only in settings.json wouldn't stop malicious.exe from editing it. terminal#4472 is the older general backlog item for remote control of a running terminal instance, and it mentions a possible `list-sessions` command. Neither covers reading buffers or an authenticated opt-in model. Keep this as a separate feature request. In it, explain how the design answers the objections in #9368: consent stored outside settings.json, a hard exclusion of elevated windows, and read access separate from input. Until something like this exists, `wt` can only create and focus tabs and panes. The only workaround for injecting input is the `sendInput` action bound to a key in your own settings.\"}",
+  "ttft_ms": 1673,
+  "type": "result",
+  "duration_ms": 18364,
+  "uuid": "e2267edd-efc4-4ba5-8d57-2dd889947441",
+  "ttft_stream_ms": 1260,
+  "time_to_request_ms": 54,
+  "first_content_frame_ms": 1260,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1392,
+    "cacheReadInputTokens": 67705,
+    "cacheCreationInputTokens": 19496,
+    "webSearchRequests": 0,
+    "costUSD": 0.0986985,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 320,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 19496,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 19.749488106986973,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-tec3usii/work"
+  }
+ },
+ "wall_seconds": 19.751438025996322,
+ "qid": "terminal#20403",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket asking for this exact feature: an opt-in, consent-gated automation surface that covers session listing, buffer reads and input. Two older tickets are related. terminal#9368 asked for a `wt send-input` subcommand. In April 2026 it was moved to rejected because of the security risk of letting other processes inject input, especially now that mixed elevation exists. In that thread [user] also said that a setting stored only in settings.json wouldn't stop malicious.exe from editing it. terminal#4472 is the older general backlog item for remote control of a running terminal instance, and it mentions a possible `list-sessions` command. Neither covers reading buffers or an authenticated opt-in model. Keep this as a separate feature request. In it, explain how the design answers the objections in #9368: consent stored outside settings.json, a hard exclusion of elevated windows, and read access separate from input. Until something like this exists, `wt` can only create and focus tabs and panes. The only workaround for injecting input is the `sendInput` action bound to a key in your own settings."
+ },
+ "hit_turn_cap": false
+}

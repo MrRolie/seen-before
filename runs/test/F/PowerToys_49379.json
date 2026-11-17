@@ -1,0 +1,194 @@
+{
+ "shown": [
+  "PowerToys#48913",
+  "PowerToys#46153",
+  "PowerToys#47648",
+  "PowerToys#46873",
+  "PowerToys#47244"
+ ],
+ "retrieval_seconds": 0.7082014410116244,
+ "retrieval_scores": [
+  0.02938045560996381,
+  0.025252525252525252,
+  0.02408450704225352,
+  0.0221001221001221,
+  0.020410288451525566
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2378,
+  "stop_reason": "end_turn",
+  "session_id": "3b974e04-af94-4411-bd84-c0b3795be0d2",
+  "total_cost_usd": 0.051528000000000004,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 12186,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 278,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12186,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 278,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 12186,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 12186
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 278,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 12186,
+    "webSearchRequests": 0,
+    "costUSD": 0.051528000000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12186,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48913\", \"PowerToys#46153\"], \"answer\": \"This is a known crash: the stack trace (NullReferenceException in Microsoft.Plugin.Program.Programs.UWPApplication.Launch, from PowerToys Run launching a packaged/UWP app) matches earlier reports. In those tickets it happened when launching apps such as Claude Desktop or Codex, and one commenter noted it occurs when the app fails to launch because of an unexpected file holder. Both were closed as duplicates of the original tracking issue #39090, so subscribe to that issue for updates. Meanwhile, avoid launching that particular app through PowerToys Run (start it from the Start menu or its own shortcut instead), and if you can, tell us which app you were launching when the crash occurred.\"}",
+  "ttft_ms": 2563,
+  "type": "result",
+  "duration_ms": 2592,
+  "uuid": "1e1954a6-935e-4e85-9e00-4772d938e53b",
+  "ttft_stream_ms": 979,
+  "time_to_request_ms": 208,
+  "first_content_frame_ms": 979,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 278,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 12186,
+    "webSearchRequests": 0,
+    "costUSD": 0.051528000000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12186,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.603846424986841,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ulcedws2/work"
+  }
+ },
+ "wall_seconds": 4.313859310001135,
+ "qid": "PowerToys#49379",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48913",
+   "PowerToys#46153"
+  ],
+  "answer": "This is a known crash: the stack trace (NullReferenceException in Microsoft.Plugin.Program.Programs.UWPApplication.Launch, from PowerToys Run launching a packaged/UWP app) matches earlier reports. In those tickets it happened when launching apps such as Claude Desktop or Codex, and one commenter noted it occurs when the app fails to launch because of an unexpected file holder. Both were closed as duplicates of the original tracking issue #39090, so subscribe to that issue for updates. Meanwhile, avoid launching that particular app through PowerToys Run (start it from the Start menu or its own shortcut instead), and if you can, tell us which app you were launching when the crash occurred."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,194 @@
+{
+ "shown": [
+  "PowerToys#46992",
+  "PowerToys#48990",
+  "PowerToys#48727",
+  "PowerToys#46569",
+  "PowerToys#48907"
+ ],
+ "retrieval_seconds": 0.6944202930026222,
+ "retrieval_scores": [
+  0.03252247488101534,
+  0.027623285131627734,
+  0.023237179487179488,
+  0.01639344262295082,
+  0.015873015873015872
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2695,
+  "stop_reason": "end_turn",
+  "session_id": "f5b3fe6a-93dc-42ae-8082-5ac54094417e",
+  "total_cost_usd": 0.025442,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5522,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 335,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5522,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 335,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5522,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5522
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 335,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5522,
+    "webSearchRequests": 0,
+    "costUSD": 0.025442,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5522,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46992\", \"PowerToys#46569\"], \"answer\": \"This has been reported before. The cause is the Always On Top module, which modifies the window system menu and overwrites the custom items that apps like PuTTY add. Disabling the Always On Top module in PowerToys Settings and then opening a new PuTTY window restores the full PuTTY system menu. Windows that were already open keep their menu. Turning off 'Show Always on Top in the title bar context menu' or adding putty.exe to the Always On Top excluded apps list did not fix it for other users, so disabling the module is the only workaround reported so far. Ctrl+Right Click inside the PuTTY window still shows the full PuTTY menu. Running PuTTY as administrator while PowerToys runs unelevated was also reported to avoid the problem in one ticket, but another user running PowerToys as admin still saw it. The past tickets do not record a fix, so follow PowerToys#46569 for updates.\"}",
+  "ttft_ms": 2901,
+  "type": "result",
+  "duration_ms": 2917,
+  "uuid": "d6293c43-1ed8-4b98-a443-3f5f3ff2e882",
+  "ttft_stream_ms": 695,
+  "time_to_request_ms": 222,
+  "first_content_frame_ms": 695,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 335,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5522,
+    "webSearchRequests": 0,
+    "costUSD": 0.025442,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5522,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.7291011219786014,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-vbheyc_f/work"
+  }
+ },
+ "wall_seconds": 4.425085122988094,
+ "qid": "PowerToys#49083",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46992",
+   "PowerToys#46569"
+  ],
+  "answer": "This has been reported before. The cause is the Always On Top module, which modifies the window system menu and overwrites the custom items that apps like PuTTY add. Disabling the Always On Top module in PowerToys Settings and then opening a new PuTTY window restores the full PuTTY system menu. Windows that were already open keep their menu. Turning off 'Show Always on Top in the title bar context menu' or adding putty.exe to the Always On Top excluded apps list did not fix it for other users, so disabling the module is the only workaround reported so far. Ctrl+Right Click inside the PuTTY window still shows the full PuTTY menu. Running PuTTY as administrator while PowerToys runs unelevated was also reported to avoid the problem in one ticket, but another user running PowerToys as admin still saw it. The past tickets do not record a fix, so follow PowerToys#46569 for updates."
+ },
+ "hit_turn_cap": false
+}

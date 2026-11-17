@@ -1,0 +1,392 @@
+{
+ "shown": [
+  "PowerToys#10233",
+  "PowerToys#11860",
+  "PowerToys#11913",
+  "PowerToys#11984",
+  "PowerToys#12",
+  "PowerToys#12305",
+  "PowerToys#12389",
+  "PowerToys#12471",
+  "PowerToys#1334",
+  "PowerToys#1404",
+  "PowerToys#149",
+  "PowerToys#15675",
+  "PowerToys#22361",
+  "PowerToys#25595",
+  "PowerToys#2843",
+  "PowerToys#29133",
+  "PowerToys#31506",
+  "PowerToys#31818",
+  "PowerToys#34234",
+  "PowerToys#35288",
+  "PowerToys#3640",
+  "PowerToys#4",
+  "PowerToys#4501",
+  "PowerToys#5780",
+  "PowerToys#7526",
+  "PowerToys#7853",
+  "PowerToys#8195"
+ ],
+ "retrieval_seconds": 4.060789617040427,
+ "tool_calls": [
+  {
+   "t": 1794883269.1159093,
+   "tool": "search",
+   "args": {
+    "pattern": "cascade windows",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.058683775016106665,
+   "returned": [
+    "PowerToys#31506",
+    "PowerToys#35288",
+    "PowerToys#31818",
+    "PowerToys#29133",
+    "PowerToys#22361",
+    "PowerToys#1404",
+    "PowerToys#15675",
+    "PowerToys#8195",
+    "PowerToys#1334"
+   ]
+  },
+  {
+   "t": 1794883273.442663,
+   "tool": "similar",
+   "args": {
+    "query": "Cascade windows feature removed from Windows 11, add to PowerToys",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.813822739000898,
+   "returned": [
+    "PowerToys#31506",
+    "PowerToys#7526",
+    "PowerToys#12471",
+    "PowerToys#29133",
+    "PowerToys#22361",
+    "PowerToys#4",
+    "PowerToys#34234",
+    "PowerToys#35288",
+    "PowerToys#149",
+    "PowerToys#2843",
+    "PowerToys#10233",
+    "PowerToys#12",
+    "PowerToys#5780",
+    "PowerToys#11984",
+    "PowerToys#12389",
+    "PowerToys#3640",
+    "PowerToys#11860",
+    "PowerToys#7853",
+    "PowerToys#11913",
+    "PowerToys#4501"
+   ]
+  },
+  {
+   "t": 1794883275.3974814,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#31506"
+   },
+   "seconds": 0.00011263700434938073,
+   "returned": [
+    "PowerToys#31506"
+   ]
+  },
+  {
+   "t": 1794883275.4052067,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35288"
+   },
+   "seconds": 0.00010214702342636883,
+   "returned": [
+    "PowerToys#35288"
+   ]
+  },
+  {
+   "t": 1794883275.5401766,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#22361"
+   },
+   "seconds": 0.00011236598948016763,
+   "returned": [
+    "PowerToys#22361"
+   ]
+  },
+  {
+   "t": 1794883276.9302778,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#29133"
+   },
+   "seconds": 0.00020107501768507063,
+   "returned": [
+    "PowerToys#29133"
+   ]
+  },
+  {
+   "t": 1794883278.5147815,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#12305"
+   },
+   "seconds": 0.00011943699792027473,
+   "returned": [
+    "PowerToys#12305"
+   ]
+  },
+  {
+   "t": 1794883280.0797193,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#15675"
+   },
+   "seconds": 0.00013187600416131318,
+   "returned": [
+    "PowerToys#15675"
+   ]
+  },
+  {
+   "t": 1794883282.1177135,
+   "tool": "search",
+   "args": {
+    "pattern": "cascade",
+    "regex": false,
+    "also": [
+     "Windows 11",
+     "removed"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.18706958700204268,
+   "returned": [
+    "PowerToys#12305",
+    "PowerToys#29133",
+    "PowerToys#25595"
+   ]
+  },
+  {
+   "t": 1794883283.5511377,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#12305"
+   },
+   "seconds": 0.00016780599253252149,
+   "returned": [
+    "PowerToys#12305"
+   ]
+  },
+  {
+   "t": 1794883285.0845785,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#7526"
+   },
+   "seconds": 0.00013635598588734865,
+   "returned": [
+    "PowerToys#7526"
+   ]
+  },
+  {
+   "t": 1794883286.5458183,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#22361"
+   },
+   "seconds": 0.0001298160059377551,
+   "returned": [
+    "PowerToys#22361"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 18538,
+  "stop_reason": "end_turn",
+  "session_id": "e31a819b-844b-4c74-be68-adbde614b789",
+  "total_cost_usd": 0.0617982,
+  "usage": {
+   "input_tokens": 20,
+   "cache_creation_input_tokens": 10728,
+   "cache_read_input_tokens": 72262,
+   "output_tokens": 1162,
+   "output_tokens_details": {
+    "thinking_tokens": 15
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10728,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 292,
+     "cache_read_input_tokens": 11348,
+     "cache_creation_input_tokens": 793,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 793
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 20,
+    "outputTokens": 1162,
+    "cacheReadInputTokens": 72262,
+    "cacheCreationInputTokens": 10728,
+    "webSearchRequests": 0,
+    "costUSD": 0.0617982,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 15,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10728,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#22361\", \"PowerToys#31506\", \"PowerToys#29133\"], \"answer\": \"This request has been filed before. PowerToys#22361 is the main open request to bring back Cascade Windows. #31506 and #29133 were closed as duplicates of #22361 and #12305, so the request is already tracked. PowerToys has no Cascade Windows feature yet, and the past tickets show no commitment or timeline for one. Add your use case to #22361. That means cascading only the windows of one app and keeping title bars visible. Also give it a thumbs-up. In the meantime, the workaround other users describe is a custom FancyZones layout of overlapping, offset zones. Snapping a window into one of those zones gives a cascade-like arrangement. #12305 is a related request about cascading an app's windows into a FancyZones zone.\"}",
+  "ttft_ms": 1619,
+  "type": "result",
+  "duration_ms": 22653,
+  "uuid": "1081a329-e618-4e6e-a7f5-b97fa5f26069",
+  "ttft_stream_ms": 1200,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 1200,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 20,
+    "outputTokens": 1162,
+    "cacheReadInputTokens": 72262,
+    "cacheCreationInputTokens": 10728,
+    "webSearchRequests": 0,
+    "costUSD": 0.0617982,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 15,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10728,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 23.982449240982533,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-g8fj37pi/work"
+  }
+ },
+ "wall_seconds": 23.984717504994478,
+ "qid": "PowerToys#50756",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#22361",
+   "PowerToys#31506",
+   "PowerToys#29133"
+  ],
+  "answer": "This request has been filed before. PowerToys#22361 is the main open request to bring back Cascade Windows. #31506 and #29133 were closed as duplicates of #22361 and #12305, so the request is already tracked. PowerToys has no Cascade Windows feature yet, and the past tickets show no commitment or timeline for one. Add your use case to #22361. That means cascading only the windows of one app and keeping title bars visible. Also give it a thumbs-up. In the meantime, the workaround other users describe is a custom FancyZones layout of overlapping, offset zones. Snapping a window into one of those zones gives a cascade-like arrangement. #12305 is a related request about cascading an app's windows into a FancyZones zone."
+ },
+ "hit_turn_cap": false
+}

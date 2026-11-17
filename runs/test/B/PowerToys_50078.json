@@ -1,0 +1,333 @@
+{
+ "shown": [
+  "PowerToys#10478",
+  "PowerToys#12349",
+  "PowerToys#12916",
+  "PowerToys#13918",
+  "PowerToys#14330",
+  "PowerToys#14428",
+  "PowerToys#14598",
+  "PowerToys#14685",
+  "PowerToys#14850",
+  "PowerToys#14963",
+  "PowerToys#21604",
+  "PowerToys#22147",
+  "PowerToys#22716",
+  "PowerToys#24283",
+  "PowerToys#27050",
+  "PowerToys#30119",
+  "PowerToys#30305",
+  "PowerToys#30420",
+  "PowerToys#33218",
+  "PowerToys#35445",
+  "PowerToys#35772",
+  "PowerToys#35808",
+  "PowerToys#36033",
+  "PowerToys#36375",
+  "PowerToys#36421",
+  "PowerToys#37498",
+  "PowerToys#39121",
+  "PowerToys#39716",
+  "PowerToys#40206",
+  "PowerToys#41536",
+  "PowerToys#42384",
+  "PowerToys#43825",
+  "PowerToys#44783",
+  "PowerToys#46498",
+  "PowerToys#47954",
+  "PowerToys#48271",
+  "PowerToys#48310",
+  "PowerToys#48312",
+  "PowerToys#48771",
+  "PowerToys#5679",
+  "PowerToys#5706",
+  "PowerToys#6160",
+  "PowerToys#6756",
+  "PowerToys#7603",
+  "PowerToys#8206",
+  "PowerToys#8242",
+  "PowerToys#9688"
+ ],
+ "retrieval_seconds": 0.2654386209906079,
+ "tool_calls": [
+  {
+   "t": 1794881274.1534464,
+   "tool": "search",
+   "args": {
+    "pattern": "keyboard manager",
+    "regex": false,
+    "also": [
+     "external keyboard"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11247621799702756,
+   "returned": [
+    "PowerToys#35808",
+    "PowerToys#8206",
+    "PowerToys#6756",
+    "PowerToys#35445",
+    "PowerToys#33218",
+    "PowerToys#22147",
+    "PowerToys#35772",
+    "PowerToys#5679",
+    "PowerToys#30305",
+    "PowerToys#14963",
+    "PowerToys#14598",
+    "PowerToys#48271",
+    "PowerToys#39121",
+    "PowerToys#30119",
+    "PowerToys#24283",
+    "PowerToys#22716",
+    "PowerToys#14428",
+    "PowerToys#12349",
+    "PowerToys#9688",
+    "PowerToys#41536"
+   ]
+  },
+  {
+   "t": 1794881274.6861973,
+   "tool": "search",
+   "args": {
+    "pattern": "internal keyboard",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07610834599472582,
+   "returned": [
+    "PowerToys#48312",
+    "PowerToys#21604",
+    "PowerToys#48310",
+    "PowerToys#44783",
+    "PowerToys#36033",
+    "PowerToys#33218",
+    "PowerToys#22716",
+    "PowerToys#22147",
+    "PowerToys#12916",
+    "PowerToys#10478",
+    "PowerToys#8242",
+    "PowerToys#6160"
+   ]
+  },
+  {
+   "t": 1794881274.7808177,
+   "tool": "search",
+   "args": {
+    "pattern": "specific keyboard",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0768540569988545,
+   "returned": [
+    "PowerToys#13918",
+    "PowerToys#7603",
+    "PowerToys#47954",
+    "PowerToys#36375",
+    "PowerToys#30420",
+    "PowerToys#27050",
+    "PowerToys#14850",
+    "PowerToys#14685",
+    "PowerToys#14330",
+    "PowerToys#9688",
+    "PowerToys#5706",
+    "PowerToys#48771",
+    "PowerToys#48312",
+    "PowerToys#46498",
+    "PowerToys#43825",
+    "PowerToys#42384",
+    "PowerToys#40206",
+    "PowerToys#39716",
+    "PowerToys#37498",
+    "PowerToys#36421"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7567,
+  "stop_reason": "end_turn",
+  "session_id": "9973672c-bfc0-4d57-866b-6db4f77d8a55",
+  "total_cost_usd": 0.0482036,
+  "usage": {
+   "input_tokens": 4,
+   "cache_creation_input_tokens": 10152,
+   "cache_read_input_tokens": 2876,
+   "output_tokens": 730,
+   "output_tokens_details": {
+    "thinking_tokens": 114
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10152,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 453,
+     "cache_read_input_tokens": 1699,
+     "cache_creation_input_tokens": 9630,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 9630
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 4,
+    "outputTokens": 730,
+    "cacheReadInputTokens": 2876,
+    "cacheCreationInputTokens": 10152,
+    "webSearchRequests": 0,
+    "costUSD": 0.0482036,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 114,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10152,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 4,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48312\", \"PowerToys#8242\", \"PowerToys#30420\"], \"answer\": \"This has been requested before. Keyboard Manager remaps apply to every connected keyboard, so remapping or disabling a key for a faulty laptop keyboard also affects the external one. PowerToys can't currently limit remaps to one keyboard. #48312 is almost the same case: a faulty internal key that can't be disabled without disabling it on the external keyboard. #8242 and #30420 ask for per-device remapping, and #13918, #14685 and #9688 request related per-keyboard features. These are open feature requests, so add a thumbs-up or your use case to them rather than filing a new ticket. For now, the workaround in the related tickets is to turn Keyboard Manager off in PowerToys Settings when you use the keyboard that shouldn't be remapped. A faulty internal keyboard may need a driver or hardware fix, or disabling that device in Windows Device Manager.\"}",
+  "ttft_ms": 2265,
+  "type": "result",
+  "duration_ms": 7796,
+  "uuid": "a59881e3-e1da-49aa-91a9-903053b3fcd2",
+  "ttft_stream_ms": 1404,
+  "time_to_request_ms": 44,
+  "first_content_frame_ms": 1404,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 4,
+    "outputTokens": 730,
+    "cacheReadInputTokens": 2876,
+    "cacheCreationInputTokens": 10152,
+    "webSearchRequests": 0,
+    "costUSD": 0.0482036,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 114,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10152,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 9.318261468026321,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-81l9nd_y/work"
+  }
+ },
+ "wall_seconds": 9.320592629985185,
+ "qid": "PowerToys#50078",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48312",
+   "PowerToys#8242",
+   "PowerToys#30420"
+  ],
+  "answer": "This has been requested before. Keyboard Manager remaps apply to every connected keyboard, so remapping or disabling a key for a faulty laptop keyboard also affects the external one. PowerToys can't currently limit remaps to one keyboard. #48312 is almost the same case: a faulty internal key that can't be disabled without disabling it on the external keyboard. #8242 and #30420 ask for per-device remapping, and #13918, #14685 and #9688 request related per-keyboard features. These are open feature requests, so add a thumbs-up or your use case to them rather than filing a new ticket. For now, the workaround in the related tickets is to turn Keyboard Manager off in PowerToys Settings when you use the keyboard that shouldn't be remapped. A faulty internal keyboard may need a driver or hardware fix, or disabling that device in Windows Device Manager."
+ },
+ "hit_turn_cap": false
+}

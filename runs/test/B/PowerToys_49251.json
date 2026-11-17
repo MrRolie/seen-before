@@ -1,0 +1,381 @@
+{
+ "shown": [
+  "PowerToys#10792",
+  "PowerToys#13740",
+  "PowerToys#16370",
+  "PowerToys#1690",
+  "PowerToys#18349",
+  "PowerToys#19510",
+  "PowerToys#2178",
+  "PowerToys#25142",
+  "PowerToys#261",
+  "PowerToys#26997",
+  "PowerToys#27567",
+  "PowerToys#27828",
+  "PowerToys#33267",
+  "PowerToys#36762",
+  "PowerToys#36897",
+  "PowerToys#4",
+  "PowerToys#45201",
+  "PowerToys#45584",
+  "PowerToys#46360",
+  "PowerToys#46477",
+  "PowerToys#46555",
+  "PowerToys#46587",
+  "PowerToys#46668",
+  "PowerToys#46740",
+  "PowerToys#46750",
+  "PowerToys#46753",
+  "PowerToys#46819",
+  "PowerToys#47966",
+  "PowerToys#480",
+  "PowerToys#48466",
+  "PowerToys#48516",
+  "PowerToys#48586",
+  "PowerToys#48645",
+  "PowerToys#48834",
+  "PowerToys#48914",
+  "PowerToys#49016",
+  "PowerToys#5935",
+  "PowerToys#704",
+  "PowerToys#71",
+  "PowerToys#8339"
+ ],
+ "retrieval_seconds": 0.6177685479342472,
+ "tool_calls": [
+  {
+   "t": 1794877722.3136714,
+   "tool": "search",
+   "args": {
+    "pattern": "dock",
+    "regex": false,
+    "also": [
+     "monitor"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11409646100946702,
+   "returned": [
+    "PowerToys#45201",
+    "PowerToys#46360",
+    "PowerToys#4",
+    "PowerToys#48586",
+    "PowerToys#48516",
+    "PowerToys#48834",
+    "PowerToys#46750",
+    "PowerToys#45584",
+    "PowerToys#480",
+    "PowerToys#49016",
+    "PowerToys#48645",
+    "PowerToys#8339",
+    "PowerToys#71",
+    "PowerToys#46477",
+    "PowerToys#261",
+    "PowerToys#48914",
+    "PowerToys#47966",
+    "PowerToys#46819",
+    "PowerToys#46668",
+    "PowerToys#46555"
+   ]
+  },
+  {
+   "t": 1794877722.382069,
+   "tool": "search",
+   "args": {
+    "pattern": "Command Palette dock disconnect monitor",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05730286898324266,
+   "returned": []
+  },
+  {
+   "t": 1794877723.3193712,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48516"
+   },
+   "seconds": 0.0001022069773171097,
+   "returned": [
+    "PowerToys#48516"
+   ]
+  },
+  {
+   "t": 1794877724.0760288,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48466"
+   },
+   "seconds": 0.000130517000798136,
+   "returned": [
+    "PowerToys#48466"
+   ]
+  },
+  {
+   "t": 1794877725.2273338,
+   "tool": "search",
+   "args": {
+    "pattern": "dock",
+    "regex": false,
+    "also": [
+     "reconnect"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11966415500501171,
+   "returned": [
+    "PowerToys#4",
+    "PowerToys#49016",
+    "PowerToys#261",
+    "PowerToys#13740",
+    "PowerToys#46587",
+    "PowerToys#33267",
+    "PowerToys#10792",
+    "PowerToys#36897",
+    "PowerToys#27828",
+    "PowerToys#18349",
+    "PowerToys#16370",
+    "PowerToys#1690",
+    "PowerToys#36762",
+    "PowerToys#25142",
+    "PowerToys#5935",
+    "PowerToys#2178",
+    "PowerToys#704",
+    "PowerToys#27567",
+    "PowerToys#26997",
+    "PowerToys#19510"
+   ]
+  },
+  {
+   "t": 1794877726.3663352,
+   "tool": "search",
+   "args": {
+    "pattern": "dock",
+    "regex": false,
+    "also": [
+     "only the laptop",
+     "empty"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10220102299354039,
+   "returned": []
+  },
+  {
+   "t": 1794877727.4088283,
+   "tool": "search",
+   "args": {
+    "pattern": "CmdPal dock per-monitor",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.061343752982793376,
+   "returned": []
+  },
+  {
+   "t": 1794877727.9726663,
+   "tool": "search",
+   "args": {
+    "pattern": "dock",
+    "regex": false,
+    "also": [
+     "external monitor",
+     "Command Palette"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.16292756298207678,
+   "returned": [
+    "PowerToys#48516",
+    "PowerToys#46753",
+    "PowerToys#46740"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9446,
+  "stop_reason": "end_turn",
+  "session_id": "24f6dd46-817a-4ec7-9978-8679de3ecd1c",
+  "total_cost_usd": 0.06603500000000001,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 12539,
+   "cache_read_input_tokens": 50510,
+   "output_tokens": 1080,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12539,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 326,
+     "cache_read_input_tokens": 12819,
+     "cache_creation_input_tokens": 897,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 897
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1080,
+    "cacheReadInputTokens": 50510,
+    "cacheCreationInputTokens": 12539,
+    "webSearchRequests": 0,
+    "costUSD": 0.06603500000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12539,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48516\"], \"answer\": \"This looks like a known bug in the per-monitor Command Palette Dock settings, reported in PowerToys#48516. The dock binds to specific monitor devices. When a monitor is disconnected and reconnected, the settings page often lists only the laptop display. The dock may then not appear at all, or appear empty or wrongly sized on the reconnected monitor. The archived ticket shows no fix or workaround yet. Add your details to that issue: PowerToys 0.100.2, a 3440-wide monitor, and the empty dock showing at the laptop's 2560 width. Until it is fixed, try restarting PowerToys or Command Palette after reconnecting the monitor. Then turn the dock off and on for that monitor in the Command Palette settings. This is not confirmed in the archive. In the other ticket, an old report said the dock behaved correctly in 0.99 (before per-monitor settings).\"}",
+  "ttft_ms": 1379,
+  "type": "result",
+  "duration_ms": 10083,
+  "uuid": "f84967b5-3f0b-43a2-8496-62234d98ab08",
+  "ttft_stream_ms": 515,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 516,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1080,
+    "cacheReadInputTokens": 50510,
+    "cacheCreationInputTokens": 12539,
+    "webSearchRequests": 0,
+    "costUSD": 0.06603500000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12539,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.386746573989512,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-s5fq5yv0/work"
+  }
+ },
+ "wall_seconds": 11.388757312000962,
+ "qid": "PowerToys#49251",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48516"
+  ],
+  "answer": "This looks like a known bug in the per-monitor Command Palette Dock settings, reported in PowerToys#48516. The dock binds to specific monitor devices. When a monitor is disconnected and reconnected, the settings page often lists only the laptop display. The dock may then not appear at all, or appear empty or wrongly sized on the reconnected monitor. The archived ticket shows no fix or workaround yet. Add your details to that issue: PowerToys 0.100.2, a 3440-wide monitor, and the empty dock showing at the laptop's 2560 width. Until it is fixed, try restarting PowerToys or Command Palette after reconnecting the monitor. Then turn the dock off and on for that monitor in the Command Palette settings. This is not confirmed in the archive. In the other ticket, an old report said the dock behaved correctly in 0.99 (before per-monitor settings)."
+ },
+ "hit_turn_cap": false
+}

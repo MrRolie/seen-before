@@ -1,0 +1,426 @@
+{
+ "shown": [
+  "PowerToys#10333",
+  "PowerToys#11071",
+  "PowerToys#15038",
+  "PowerToys#17610",
+  "PowerToys#22417",
+  "PowerToys#2265",
+  "PowerToys#35289",
+  "PowerToys#36699",
+  "PowerToys#36956",
+  "PowerToys#3697",
+  "PowerToys#3761",
+  "PowerToys#37828",
+  "PowerToys#38372",
+  "PowerToys#38385",
+  "PowerToys#38393",
+  "PowerToys#38578",
+  "PowerToys#38708",
+  "PowerToys#38719",
+  "PowerToys#39319",
+  "PowerToys#3972",
+  "PowerToys#40097",
+  "PowerToys#40100",
+  "PowerToys#40305",
+  "PowerToys#40502",
+  "PowerToys#4104",
+  "PowerToys#41696",
+  "PowerToys#41715",
+  "PowerToys#42757",
+  "PowerToys#4443",
+  "PowerToys#45201",
+  "PowerToys#45530",
+  "PowerToys#45624",
+  "PowerToys#46327",
+  "PowerToys#47216",
+  "PowerToys#47726",
+  "PowerToys#48109",
+  "PowerToys#4977",
+  "PowerToys#5902",
+  "PowerToys#5948",
+  "PowerToys#7150",
+  "PowerToys#8338",
+  "PowerToys#9112",
+  "PowerToys#9309",
+  "WSL#2434",
+  "WSL#2747",
+  "WSL#3044"
+ ],
+ "retrieval_seconds": 3.8964182530762628,
+ "tool_calls": [
+  {
+   "t": 1794879392.9267945,
+   "tool": "similar",
+   "args": {
+    "query": "Command Palette calculator floating point inaccuracy subtraction result 0.68099999999993",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.6578143990191165,
+   "returned": [
+    "PowerToys#40305",
+    "PowerToys#38578",
+    "PowerToys#40097",
+    "PowerToys#38372",
+    "PowerToys#45530",
+    "PowerToys#2265",
+    "PowerToys#45624",
+    "PowerToys#39319",
+    "PowerToys#40502",
+    "PowerToys#5948",
+    "PowerToys#38385",
+    "PowerToys#48109",
+    "PowerToys#3697",
+    "PowerToys#41715",
+    "PowerToys#3972",
+    "PowerToys#4443",
+    "PowerToys#38708",
+    "PowerToys#36699",
+    "PowerToys#47726",
+    "PowerToys#4104"
+   ]
+  },
+  {
+   "t": 1794879394.4599943,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45624"
+   },
+   "seconds": 0.00014686601934954524,
+   "returned": [
+    "PowerToys#45624"
+   ]
+  },
+  {
+   "t": 1794879394.9038277,
+   "tool": "search",
+   "args": {
+    "pattern": "CmdPal calculator floating point subtraction rounding",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.045680093026021495,
+   "returned": []
+  },
+  {
+   "t": 1794879396.996567,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40097"
+   },
+   "seconds": 0.00015456599066965282,
+   "returned": [
+    "PowerToys#40097"
+   ]
+  },
+  {
+   "t": 1794879399.0000703,
+   "tool": "search",
+   "args": {
+    "pattern": "0000000000",
+    "regex": false,
+    "also": [
+     "calculator"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07731251700897701,
+   "returned": [
+    "PowerToys#40100",
+    "PowerToys#37828",
+    "PowerToys#38393",
+    "PowerToys#35289",
+    "PowerToys#15038",
+    "PowerToys#3697",
+    "PowerToys#40502",
+    "PowerToys#40305",
+    "PowerToys#17610",
+    "PowerToys#11071",
+    "PowerToys#8338",
+    "PowerToys#5902",
+    "PowerToys#4977",
+    "PowerToys#4443",
+    "PowerToys#3761"
+   ]
+  },
+  {
+   "t": 1794879399.021866,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4104"
+   },
+   "seconds": 0.00011411699233576655,
+   "returned": [
+    "PowerToys#4104"
+   ]
+  },
+  {
+   "t": 1794879400.617696,
+   "tool": "similar",
+   "args": {
+    "query": "CmdPal calculator subtraction gives slightly wrong result like 1.52800000000002 instead of 1.528",
+    "repo": null
+   },
+   "seconds": 0.017575482022948563,
+   "returned": [
+    "PowerToys#40097",
+    "PowerToys#38578",
+    "PowerToys#40305",
+    "PowerToys#38372",
+    "PowerToys#7150",
+    "PowerToys#2265",
+    "PowerToys#3697",
+    "WSL#2434",
+    "PowerToys#4443",
+    "PowerToys#9112",
+    "PowerToys#38708",
+    "PowerToys#38719",
+    "PowerToys#22417",
+    "WSL#2747",
+    "WSL#3044",
+    "PowerToys#3972",
+    "PowerToys#36956",
+    "PowerToys#40502",
+    "PowerToys#9309",
+    "PowerToys#10333"
+   ]
+  },
+  {
+   "t": 1794879402.2079332,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#36956"
+   },
+   "seconds": 0.00014541600830852985,
+   "returned": [
+    "PowerToys#36956"
+   ]
+  },
+  {
+   "t": 1794879402.3308885,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4443"
+   },
+   "seconds": 0.00015315599739551544,
+   "returned": [
+    "PowerToys#4443"
+   ]
+  },
+  {
+   "t": 1794879405.6053998,
+   "tool": "search",
+   "args": {
+    "pattern": "CmdPal",
+    "regex": false,
+    "also": [
+     "floating"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.09714870600146241,
+   "returned": [
+    "PowerToys#41696",
+    "PowerToys#45201",
+    "PowerToys#47216",
+    "PowerToys#46327",
+    "PowerToys#42757"
+   ]
+  },
+  {
+   "t": 1794879407.2929657,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#3697"
+   },
+   "seconds": 0.00017293498967774212,
+   "returned": [
+    "PowerToys#3697"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 20848,
+  "stop_reason": "end_turn",
+  "session_id": "eb197613-82e0-42e3-b341-2889fc3ec5c2",
+  "total_cost_usd": 0.0852766,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 15206,
+   "cache_read_input_tokens": 75966,
+   "output_tokens": 1682,
+   "output_tokens_details": {
+    "thinking_tokens": 266
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 15206,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 428,
+     "cache_read_input_tokens": 14981,
+     "cache_creation_input_tokens": 1638,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1638
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1682,
+    "cacheReadInputTokens": 75966,
+    "cacheCreationInputTokens": 15206,
+    "webSearchRequests": 0,
+    "costUSD": 0.0852766,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 266,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15206,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this in Command Palette. The closest tickets are about the PowerToys Run calculator, which is a different module. PowerToys#36956 shows float-style errors in subtractions such as 1189390.24-1183760.67. PowerToys#4443 and PowerToys#3697 are the older floating-point reports for Run. Your symptom looks similar, so the cause may be floating-point or rounding in the calculation engine, but the archive doesn't confirm that for Command Palette. Please file this as a new Command Palette calculator bug. Include your examples (615.419-614.738 gives 0.68099999999993, and 616.686-615.158 gives 1.52800000000002), your PowerToys version 0.100.2, and the bug report ZIP. Also say that it has happened over several versions. As a workaround for now, round the result yourself, or use Windows Calculator when you need exact decimal answers.\"}",
+  "ttft_ms": 2307,
+  "type": "result",
+  "duration_ms": 24770,
+  "uuid": "a3c35391-682b-42af-ba4e-b5f84d1ed4f9",
+  "ttft_stream_ms": 1290,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 1291,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1682,
+    "cacheReadInputTokens": 75966,
+    "cacheCreationInputTokens": 15206,
+    "webSearchRequests": 0,
+    "costUSD": 0.0852766,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 266,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15206,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 26.023275235987967,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-db750h38/work"
+  }
+ },
+ "wall_seconds": 26.02560356000322,
+ "qid": "PowerToys#49642",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this in Command Palette. The closest tickets are about the PowerToys Run calculator, which is a different module. PowerToys#36956 shows float-style errors in subtractions such as 1189390.24-1183760.67. PowerToys#4443 and PowerToys#3697 are the older floating-point reports for Run. Your symptom looks similar, so the cause may be floating-point or rounding in the calculation engine, but the archive doesn't confirm that for Command Palette. Please file this as a new Command Palette calculator bug. Include your examples (615.419-614.738 gives 0.68099999999993, and 616.686-615.158 gives 1.52800000000002), your PowerToys version 0.100.2, and the bug report ZIP. Also say that it has happened over several versions. As a workaround for now, round the result yourself, or use Windows Calculator when you need exact decimal answers."
+ },
+ "hit_turn_cap": false
+}

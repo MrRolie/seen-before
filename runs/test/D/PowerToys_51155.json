@@ -1,0 +1,437 @@
+{
+ "shown": [
+  "PowerToys#10089",
+  "PowerToys#10264",
+  "PowerToys#10305",
+  "PowerToys#10405",
+  "PowerToys#1099",
+  "PowerToys#1163",
+  "PowerToys#11888",
+  "PowerToys#13591",
+  "PowerToys#14213",
+  "PowerToys#14263",
+  "PowerToys#15312",
+  "PowerToys#16192",
+  "PowerToys#16271",
+  "PowerToys#1727",
+  "PowerToys#17788",
+  "PowerToys#183",
+  "PowerToys#19261",
+  "PowerToys#2127",
+  "PowerToys#2340",
+  "PowerToys#23731",
+  "PowerToys#2407",
+  "PowerToys#25438",
+  "PowerToys#25984",
+  "PowerToys#261",
+  "PowerToys#26774",
+  "PowerToys#27850",
+  "PowerToys#2885",
+  "PowerToys#30588",
+  "PowerToys#3152",
+  "PowerToys#32865",
+  "PowerToys#34277",
+  "PowerToys#34581",
+  "PowerToys#3630",
+  "PowerToys#37440",
+  "PowerToys#41046",
+  "PowerToys#41303",
+  "PowerToys#43771",
+  "PowerToys#43944",
+  "PowerToys#4523",
+  "PowerToys#4620",
+  "PowerToys#4753",
+  "PowerToys#48184",
+  "PowerToys#48428",
+  "PowerToys#48907",
+  "PowerToys#6023",
+  "PowerToys#6207",
+  "PowerToys#7190",
+  "PowerToys#7373",
+  "PowerToys#7803",
+  "PowerToys#8542",
+  "PowerToys#9426"
+ ],
+ "retrieval_seconds": 3.8961278829956427,
+ "tool_calls": [
+  {
+   "t": 1794883906.2666278,
+   "tool": "similar",
+   "args": {
+    "query": "modules I disabled turn themselves back on automatically, settings not saved",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.7405361800047103,
+   "returned": [
+    "PowerToys#7373",
+    "PowerToys#4523",
+    "PowerToys#2127",
+    "PowerToys#1163",
+    "PowerToys#183",
+    "PowerToys#11888",
+    "PowerToys#7190",
+    "PowerToys#4753",
+    "PowerToys#10089",
+    "PowerToys#6207",
+    "PowerToys#3152",
+    "PowerToys#9426",
+    "PowerToys#6023",
+    "PowerToys#2885",
+    "PowerToys#2340",
+    "PowerToys#7803",
+    "PowerToys#1099",
+    "PowerToys#10305",
+    "PowerToys#41046",
+    "PowerToys#14213"
+   ]
+  },
+  {
+   "t": 1794883906.3619728,
+   "tool": "search",
+   "args": {
+    "pattern": "re-enable themselves",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0720215939800255,
+   "returned": [
+    "PowerToys#261"
+   ]
+  },
+  {
+   "t": 1794883907.9982772,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4523"
+   },
+   "seconds": 0.00011490698670968413,
+   "returned": [
+    "PowerToys#4523"
+   ]
+  },
+  {
+   "t": 1794883908.229464,
+   "tool": "search",
+   "args": {
+    "pattern": "turn back on",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06833615500363521,
+   "returned": [
+    "PowerToys#14263",
+    "PowerToys#48428",
+    "PowerToys#48184",
+    "PowerToys#43944",
+    "PowerToys#34277",
+    "PowerToys#32865",
+    "PowerToys#27850",
+    "PowerToys#26774",
+    "PowerToys#25984",
+    "PowerToys#23731",
+    "PowerToys#19261",
+    "PowerToys#17788",
+    "PowerToys#16192",
+    "PowerToys#15312",
+    "PowerToys#13591"
+   ]
+  },
+  {
+   "t": 1794883909.998131,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#41046"
+   },
+   "seconds": 0.00015990599058568478,
+   "returned": [
+    "PowerToys#41046"
+   ]
+  },
+  {
+   "t": 1794883910.130302,
+   "tool": "similar",
+   "args": {
+    "query": "disabled modules get re-enabled after update or randomly, Microsoft Store version, enabled state not persisted",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014196471020113677,
+   "returned": [
+    "PowerToys#37440",
+    "PowerToys#34581",
+    "PowerToys#10264",
+    "PowerToys#48907",
+    "PowerToys#4523",
+    "PowerToys#9426",
+    "PowerToys#8542",
+    "PowerToys#2885",
+    "PowerToys#4620",
+    "PowerToys#30588",
+    "PowerToys#10305",
+    "PowerToys#43771",
+    "PowerToys#41303",
+    "PowerToys#10405",
+    "PowerToys#3630",
+    "PowerToys#25438",
+    "PowerToys#16271",
+    "PowerToys#1163",
+    "PowerToys#2407",
+    "PowerToys#1727"
+   ]
+  },
+  {
+   "t": 1794883911.733962,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48907"
+   },
+   "seconds": 0.00014229700900614262,
+   "returned": [
+    "PowerToys#48907"
+   ]
+  },
+  {
+   "t": 1794883911.897923,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43771"
+   },
+   "seconds": 0.00012930601951666176,
+   "returned": [
+    "PowerToys#43771"
+   ]
+  },
+  {
+   "t": 1794883914.0664213,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34581"
+   },
+   "seconds": 0.00014508599997498095,
+   "returned": [
+    "PowerToys#34581"
+   ]
+  },
+  {
+   "t": 1794883914.1380231,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#30588"
+   },
+   "seconds": 0.00011774699669331312,
+   "returned": [
+    "PowerToys#30588"
+   ]
+  },
+  {
+   "t": 1794883915.75136,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37440"
+   },
+   "seconds": 0.00010769700747914612,
+   "returned": [
+    "PowerToys#37440"
+   ]
+  },
+  {
+   "t": 1794883917.4436278,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#16271"
+   },
+   "seconds": 0.00012053697719238698,
+   "returned": [
+    "PowerToys#16271"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 18216,
+  "stop_reason": "end_turn",
+  "session_id": "641f7611-93db-4fad-aeed-8c3173b361a2",
+  "total_cost_usd": 0.06883470000000001,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 12185,
+   "cache_read_input_tokens": 55727,
+   "output_tokens": 1449,
+   "output_tokens_details": {
+    "thinking_tokens": 184
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12185,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 497,
+     "cache_read_input_tokens": 12922,
+     "cache_creation_input_tokens": 676,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 676
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1449,
+    "cacheReadInputTokens": 55727,
+    "cacheCreationInputTokens": 12185,
+    "webSearchRequests": 0,
+    "costUSD": 0.06883470000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 184,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12185,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48907\", \"PowerToys#34581\", \"PowerToys#43771\"], \"answer\": \"This looks like a known problem. The on/off state of modules gets reset when PowerToys updates or restarts. Your Store install may update itself silently, which would explain why it seems to happen at random every few days. PowerToys#48907 reports the same thing on 0.100.x: every update reset the modules to their default state. PowerToys#34581 reports the same reset after updates and at startup, and shows it in the runner log. PowerToys#43771 describes a disabled module turning back on after an upgrade. That one was closed as fixed in 0.96, but you are on 0.101, so you may be seeing a regression. None of these tickets gives a permanent fix, so the cause is not confirmed. As a workaround, turn off the modules you don't want after each update. Before that, back up your settings using Settings > General > Backup, so you can restore them. Please add your bug report ZIP and the dates when the modules turned back on to PowerToys#48907. Check whether those dates line up with a Store update or a PowerToys restart. The runner log will show an 'apply_general_settings' entry at that moment.\"}",
+  "ttft_ms": 2131,
+  "type": "result",
+  "duration_ms": 22214,
+  "uuid": "0c7e6728-1a56-40eb-81a5-d008f03ecf75",
+  "ttft_stream_ms": 1115,
+  "time_to_request_ms": 37,
+  "first_content_frame_ms": 1115,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1449,
+    "cacheReadInputTokens": 55727,
+    "cacheCreationInputTokens": 12185,
+    "webSearchRequests": 0,
+    "costUSD": 0.06883470000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 184,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12185,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 23.590051940002013,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-swmqotxq/work"
+  }
+ },
+ "wall_seconds": 23.591956977994414,
+ "qid": "PowerToys#51155",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48907",
+   "PowerToys#34581",
+   "PowerToys#43771"
+  ],
+  "answer": "This looks like a known problem. The on/off state of modules gets reset when PowerToys updates or restarts. Your Store install may update itself silently, which would explain why it seems to happen at random every few days. PowerToys#48907 reports the same thing on 0.100.x: every update reset the modules to their default state. PowerToys#34581 reports the same reset after updates and at startup, and shows it in the runner log. PowerToys#43771 describes a disabled module turning back on after an upgrade. That one was closed as fixed in 0.96, but you are on 0.101, so you may be seeing a regression. None of these tickets gives a permanent fix, so the cause is not confirmed. As a workaround, turn off the modules you don't want after each update. Before that, back up your settings using Settings > General > Backup, so you can restore them. Please add your bug report ZIP and the dates when the modules turned back on to PowerToys#48907. Check whether those dates line up with a Store update or a PowerToys restart. The runner log will show an 'apply_general_settings' entry at that moment."
+ },
+ "hit_turn_cap": false
+}

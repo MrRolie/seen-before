@@ -1,0 +1,11 @@
+{
+  "name": "seen-before",
+  "owner": {"name": "seen-before"},
+  "plugins": [
+    {
+      "name": "seen-before",
+      "source": "./connector",
+      "description": "Has this issue been reported before? An agent searches past issues with ripgrep."
+    }
+  ]
+}

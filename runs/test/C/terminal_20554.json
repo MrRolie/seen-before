@@ -1,0 +1,404 @@
+{
+ "shown": [
+  "terminal#1000",
+  "terminal#1001",
+  "terminal#10376",
+  "terminal#10836",
+  "terminal#1099",
+  "terminal#11019",
+  "terminal#11021",
+  "terminal#11359",
+  "terminal#11920",
+  "terminal#12334",
+  "terminal#13002",
+  "terminal#13065",
+  "terminal#13105",
+  "terminal#13143",
+  "terminal#13508",
+  "terminal#14888",
+  "terminal#16723",
+  "terminal#17011",
+  "terminal#17135",
+  "terminal#17307",
+  "terminal#17363",
+  "terminal#1753",
+  "terminal#1758",
+  "terminal#18219",
+  "terminal#18825",
+  "terminal#1886",
+  "terminal#19010",
+  "terminal#19250",
+  "terminal#2314",
+  "terminal#3045",
+  "terminal#3406",
+  "terminal#3740",
+  "terminal#3995",
+  "terminal#4771",
+  "terminal#4878",
+  "terminal#532",
+  "terminal#593",
+  "terminal#603",
+  "terminal#612",
+  "terminal#6188",
+  "terminal#6298",
+  "terminal#6340",
+  "terminal#6533",
+  "terminal#7030",
+  "terminal#7365",
+  "terminal#7436",
+  "terminal#7942",
+  "terminal#8437",
+  "terminal#8675",
+  "terminal#8900",
+  "terminal#9579",
+  "terminal#999"
+ ],
+ "retrieval_seconds": 3.1123661989695393,
+ "tool_calls": [
+  {
+   "t": 1794880436.7538645,
+   "tool": "search",
+   "args": {
+    "query": "flash of other windows content behind terminal when splitting panes",
+    "repo": "terminal"
+   },
+   "seconds": 3.0852998140035197,
+   "returned": [
+    "terminal#11021",
+    "terminal#4771",
+    "terminal#8437",
+    "terminal#6188",
+    "terminal#19250",
+    "terminal#6340",
+    "terminal#11359",
+    "terminal#7030",
+    "terminal#532",
+    "terminal#8675",
+    "terminal#6298",
+    "terminal#6533",
+    "terminal#612",
+    "terminal#9579",
+    "terminal#17307",
+    "terminal#1000",
+    "terminal#11920",
+    "terminal#11019",
+    "terminal#17011",
+    "terminal#4878"
+   ]
+  },
+  {
+   "t": 1794880436.7766623,
+   "tool": "search",
+   "args": {
+    "query": "Independent Flip falls back to Composed Flip after 24H2, flicker transparent flash on pane split",
+    "repo": "terminal"
+   },
+   "seconds": 0.012200483004562557,
+   "returned": [
+    "terminal#11359",
+    "terminal#13002",
+    "terminal#7365",
+    "terminal#19010",
+    "terminal#7942",
+    "terminal#8900",
+    "terminal#3740",
+    "terminal#13508",
+    "terminal#16723",
+    "terminal#593",
+    "terminal#13065",
+    "terminal#17135",
+    "terminal#1001",
+    "terminal#2314",
+    "terminal#1886",
+    "terminal#3045",
+    "terminal#18219",
+    "terminal#3406",
+    "terminal#18825",
+    "terminal#17363"
+   ]
+  },
+  {
+   "t": 1794880438.2177427,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19250"
+   },
+   "seconds": 0.0001425259979441762,
+   "returned": [
+    "terminal#19250"
+   ]
+  },
+  {
+   "t": 1794880438.5143363,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#4771"
+   },
+   "seconds": 0.00013013699208386242,
+   "returned": [
+    "terminal#4771"
+   ]
+  },
+  {
+   "t": 1794880438.6152723,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19010"
+   },
+   "seconds": 0.00011627699132077396,
+   "returned": [
+    "terminal#19010"
+   ]
+  },
+  {
+   "t": 1794880440.3383627,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#12334"
+   },
+   "seconds": 9.213699377141893e-05,
+   "returned": [
+    "terminal#12334"
+   ]
+  },
+  {
+   "t": 1794880441.75287,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#7365"
+   },
+   "seconds": 0.00010504698730073869,
+   "returned": [
+    "terminal#7365"
+   ]
+  },
+  {
+   "t": 1794880443.6082568,
+   "tool": "search",
+   "args": {
+    "query": "disable pane animations to avoid transparent background flash when splitting",
+    "repo": "terminal"
+   },
+   "seconds": 0.01416089100530371,
+   "returned": [
+    "terminal#8900",
+    "terminal#7365",
+    "terminal#11359",
+    "terminal#1001",
+    "terminal#12334",
+    "terminal#3995",
+    "terminal#13002",
+    "terminal#10836",
+    "terminal#7436",
+    "terminal#10376",
+    "terminal#13143",
+    "terminal#7942",
+    "terminal#1753",
+    "terminal#1099",
+    "terminal#603",
+    "terminal#13105",
+    "terminal#1758",
+    "terminal#14888",
+    "terminal#1886",
+    "terminal#999"
+   ]
+  },
+  {
+   "t": 1794880445.4951274,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#1001"
+   },
+   "seconds": 0.00011888699373230338,
+   "returned": [
+    "terminal#1001"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 15964,
+  "stop_reason": "end_turn",
+  "session_id": "19645124-977e-447a-a265-359ffdcb6ee0",
+  "total_cost_usd": 0.0529864,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 9302,
+   "cache_read_input_tokens": 43604,
+   "output_tokens": 1139,
+   "output_tokens_details": {
+    "thinking_tokens": 55
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9302,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 440,
+     "cache_read_input_tokens": 9987,
+     "cache_creation_input_tokens": 348,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 348
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1139,
+    "cacheReadInputTokens": 43604,
+    "cacheCreationInputTokens": 9302,
+    "webSearchRequests": 0,
+    "costUSD": 0.0529864,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 55,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9302,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#19250\", \"terminal#12334\", \"terminal#7365\"], \"answer\": \"This has been reported before. It looks like the pane-split animation, not a DWM/MPO regression. When you split a pane, the new pane's backdrop is briefly transparent while the animation runs, so whatever is behind the window shows through for a frame or two. That matches your symptoms. terminal#19250 describes the same thing: Shift+Alt+D on build 26100, with content behind the window flashing until the new pane renders. It was closed as a duplicate of terminal#12334, 'The open pane animation background is transparent'. terminal#7365 describes the underlying cause: the parent grid is resized immediately, and the backdrop is visible while the new pane slides in. The maintainers said terminal#12334 is not likely to be fixed soon, because a real fix would need a different UI framework. I found no workaround in the archive tickets. Your guess about the 24H2 Independent Flip regression (terminal#19010) is a separate issue. In that ticket, Terminal falls back to Composed Flip and the reporter saw only extra input latency, not a flash. Please add your details to terminal#12334 instead of opening a new issue. You could also try turning off pane animations, but none of these tickets confirms that this removes the flash.\"}",
+  "ttft_ms": 2521,
+  "type": "result",
+  "duration_ms": 19156,
+  "uuid": "981d1f91-cbe2-4e6a-b75d-19843dbd7be2",
+  "ttft_stream_ms": 1328,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 1328,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1139,
+    "cacheReadInputTokens": 43604,
+    "cacheCreationInputTokens": 9302,
+    "webSearchRequests": 0,
+    "costUSD": 0.0529864,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 55,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9302,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 20.43162158699124,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-fhs2asi9/work"
+  }
+ },
+ "wall_seconds": 20.43307390800328,
+ "qid": "terminal#20554",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#19250",
+   "terminal#12334",
+   "terminal#7365"
+  ],
+  "answer": "This has been reported before. It looks like the pane-split animation, not a DWM/MPO regression. When you split a pane, the new pane's backdrop is briefly transparent while the animation runs, so whatever is behind the window shows through for a frame or two. That matches your symptoms. terminal#19250 describes the same thing: Shift+Alt+D on build 26100, with content behind the window flashing until the new pane renders. It was closed as a duplicate of terminal#12334, 'The open pane animation background is transparent'. terminal#7365 describes the underlying cause: the parent grid is resized immediately, and the backdrop is visible while the new pane slides in. The maintainers said terminal#12334 is not likely to be fixed soon, because a real fix would need a different UI framework. I found no workaround in the archive tickets. Your guess about the 24H2 Independent Flip regression (terminal#19010) is a separate issue. In that ticket, Terminal falls back to Composed Flip and the reporter saw only extra input latency, not a flash. Please add your details to terminal#12334 instead of opening a new issue. You could also try turning off pane animations, but none of these tickets confirms that this removes the flash."
+ },
+ "hit_turn_cap": false
+}

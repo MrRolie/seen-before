@@ -1,0 +1,326 @@
+{
+ "shown": [
+  "PowerToys#10271",
+  "PowerToys#160",
+  "PowerToys#16139",
+  "PowerToys#1881",
+  "PowerToys#20204",
+  "PowerToys#21286",
+  "PowerToys#21623",
+  "PowerToys#21663",
+  "PowerToys#21686",
+  "PowerToys#21816",
+  "PowerToys#21932",
+  "PowerToys#21999",
+  "PowerToys#22548",
+  "PowerToys#26490",
+  "PowerToys#2730",
+  "PowerToys#27849",
+  "PowerToys#28365",
+  "PowerToys#30490",
+  "PowerToys#30934",
+  "PowerToys#31405",
+  "PowerToys#33616",
+  "PowerToys#36773",
+  "PowerToys#37679",
+  "PowerToys#38312",
+  "PowerToys#39859",
+  "PowerToys#40673",
+  "PowerToys#61",
+  "PowerToys#9655"
+ ],
+ "retrieval_seconds": 3.6691901520243846,
+ "tool_calls": [
+  {
+   "t": 1794880734.458528,
+   "tool": "search",
+   "args": {
+    "query": "Hosts file editor profiles to toggle groups of host entries",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.654728237015661,
+   "returned": [
+    "PowerToys#21686",
+    "PowerToys#20204",
+    "PowerToys#30490",
+    "PowerToys#37679",
+    "PowerToys#21286",
+    "PowerToys#21999",
+    "PowerToys#36773",
+    "PowerToys#40673",
+    "PowerToys#33616",
+    "PowerToys#21816",
+    "PowerToys#39859",
+    "PowerToys#22548",
+    "PowerToys#26490",
+    "PowerToys#21663",
+    "PowerToys#10271",
+    "PowerToys#16139",
+    "PowerToys#1881",
+    "PowerToys#61",
+    "PowerToys#21623",
+    "PowerToys#160"
+   ]
+  },
+  {
+   "t": 1794880734.483819,
+   "tool": "search",
+   "args": {
+    "query": "Hosts File Editor environment schemes enable/disable set of entries",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.013930818997323513,
+   "returned": [
+    "PowerToys#30934",
+    "PowerToys#30490",
+    "PowerToys#37679",
+    "PowerToys#21816",
+    "PowerToys#40673",
+    "PowerToys#9655",
+    "PowerToys#21286",
+    "PowerToys#20204",
+    "PowerToys#28365",
+    "PowerToys#61",
+    "PowerToys#39859",
+    "PowerToys#21623",
+    "PowerToys#26490",
+    "PowerToys#21932",
+    "PowerToys#21686",
+    "PowerToys#31405",
+    "PowerToys#27849",
+    "PowerToys#38312",
+    "PowerToys#16139",
+    "PowerToys#2730"
+   ]
+  },
+  {
+   "t": 1794880736.3257015,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21686"
+   },
+   "seconds": 0.0001469060080125928,
+   "returned": [
+    "PowerToys#21686"
+   ]
+  },
+  {
+   "t": 1794880736.6294987,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21999"
+   },
+   "seconds": 0.00012890700600109994,
+   "returned": [
+    "PowerToys#21999"
+   ]
+  },
+  {
+   "t": 1794880736.7486236,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#20204"
+   },
+   "seconds": 0.00013268599286675453,
+   "returned": [
+    "PowerToys#20204"
+   ]
+  },
+  {
+   "t": 1794880738.176171,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#30934"
+   },
+   "seconds": 0.0001225970045197755,
+   "returned": [
+    "PowerToys#30934"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9507,
+  "stop_reason": "end_turn",
+  "session_id": "9a69439b-833d-471f-afe2-9b73914c855a",
+  "total_cost_usd": 0.0340395,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 6300,
+   "cache_read_input_tokens": 14335,
+   "output_tokens": 739,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6300,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 308,
+     "cache_read_input_tokens": 7098,
+     "cache_creation_input_tokens": 235,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 235
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 739,
+    "cacheReadInputTokens": 14335,
+    "cacheCreationInputTokens": 6300,
+    "webSearchRequests": 0,
+    "costUSD": 0.0340395,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6300,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#21686\", \"PowerToys#21999\"], \"answer\": \"This feature has been requested before. PowerToys#21686 is the main request, \\\"[Hosts File Editor] Add ability to group entries\\\". It asks for named groups of host entries that you can switch on or off together, such as Local and Live. PowerToys#21999 asked for the same thing and was closed as a duplicate of #21686. PowerToys#20204 also mentions swapping between multiple hosts files, but only as a side suggestion. Nothing in the archive says this is implemented yet, so there is no built-in way to do it today. Upvote and follow #21686, and add your scenarios there (production testing, a QA sandbox, and office versus VPN). Until then, you can toggle each entry's Active switch in Hosts File Editor by hand. You can also restore a saved hosts file from the Hosts File Editor backups.\"}",
+  "ttft_ms": 2702,
+  "type": "result",
+  "duration_ms": 13276,
+  "uuid": "981993e4-0fb7-49c4-ab5f-c9e0b90e80ea",
+  "ttft_stream_ms": 1689,
+  "time_to_request_ms": 59,
+  "first_content_frame_ms": 1689,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 739,
+    "cacheReadInputTokens": 14335,
+    "cacheCreationInputTokens": 6300,
+    "webSearchRequests": 0,
+    "costUSD": 0.0340395,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6300,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.684546026983298,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-b0f25_sx/work"
+  }
+ },
+ "wall_seconds": 14.686070066003595,
+ "qid": "PowerToys#50005",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#21686",
+   "PowerToys#21999"
+  ],
+  "answer": "This feature has been requested before. PowerToys#21686 is the main request, \"[Hosts File Editor] Add ability to group entries\". It asks for named groups of host entries that you can switch on or off together, such as Local and Live. PowerToys#21999 asked for the same thing and was closed as a duplicate of #21686. PowerToys#20204 also mentions swapping between multiple hosts files, but only as a side suggestion. Nothing in the archive says this is implemented yet, so there is no built-in way to do it today. Upvote and follow #21686, and add your scenarios there (production testing, a QA sandbox, and office versus VPN). Until then, you can toggle each entry's Active switch in Hosts File Editor by hand. You can also restore a saved hosts file from the Hosts File Editor backups."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,481 @@
+{
+ "shown": [
+  "PowerToys#1052",
+  "PowerToys#10903",
+  "PowerToys#12471",
+  "PowerToys#1544",
+  "PowerToys#15453",
+  "PowerToys#18536",
+  "PowerToys#186",
+  "PowerToys#19323",
+  "PowerToys#22692",
+  "PowerToys#23357",
+  "PowerToys#24786",
+  "PowerToys#25299",
+  "PowerToys#26692",
+  "PowerToys#2894",
+  "PowerToys#28961",
+  "PowerToys#29101",
+  "PowerToys#29464",
+  "PowerToys#32",
+  "PowerToys#32005",
+  "PowerToys#33388",
+  "PowerToys#34194",
+  "PowerToys#34549",
+  "PowerToys#35781",
+  "PowerToys#3583",
+  "PowerToys#360",
+  "PowerToys#38353",
+  "PowerToys#38530",
+  "PowerToys#3954",
+  "PowerToys#4",
+  "PowerToys#4006",
+  "PowerToys#40311",
+  "PowerToys#41467",
+  "PowerToys#42022",
+  "PowerToys#42210",
+  "PowerToys#42946",
+  "PowerToys#43344",
+  "PowerToys#45201",
+  "PowerToys#45584",
+  "PowerToys#45823",
+  "PowerToys#46092",
+  "PowerToys#46097",
+  "PowerToys#46236",
+  "PowerToys#46275",
+  "PowerToys#46327",
+  "PowerToys#46544",
+  "PowerToys#46546",
+  "PowerToys#46607",
+  "PowerToys#46676",
+  "PowerToys#46750",
+  "PowerToys#46791",
+  "PowerToys#46820",
+  "PowerToys#46849",
+  "PowerToys#46882",
+  "PowerToys#46937",
+  "PowerToys#46976",
+  "PowerToys#47108",
+  "PowerToys#47218",
+  "PowerToys#47437",
+  "PowerToys#47443",
+  "PowerToys#47686",
+  "PowerToys#48014",
+  "PowerToys#48246",
+  "PowerToys#48287",
+  "PowerToys#48486",
+  "PowerToys#48597",
+  "PowerToys#48598",
+  "PowerToys#48802",
+  "PowerToys#48833",
+  "PowerToys#48934",
+  "PowerToys#49010",
+  "PowerToys#49012",
+  "PowerToys#497",
+  "PowerToys#5780",
+  "PowerToys#7",
+  "PowerToys#71",
+  "PowerToys#7175",
+  "PowerToys#73",
+  "PowerToys#7368",
+  "PowerToys#7456",
+  "PowerToys#7526",
+  "PowerToys#825",
+  "PowerToys#8471",
+  "PowerToys#855",
+  "PowerToys#8755",
+  "PowerToys#8756",
+  "PowerToys#8842"
+ ],
+ "retrieval_seconds": 3.805977601034101,
+ "tool_calls": [
+  {
+   "t": 1794881795.7659893,
+   "tool": "similar",
+   "args": {
+    "query": "Dock: combine CPU, memory, network, GPU indicators into a single system monitor icon with flyout panel",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.6029283289972227,
+   "returned": [
+    "PowerToys#8756",
+    "PowerToys#3583",
+    "PowerToys#7368",
+    "PowerToys#855",
+    "PowerToys#825",
+    "PowerToys#48802",
+    "PowerToys#46607",
+    "PowerToys#360",
+    "PowerToys#48014",
+    "PowerToys#8471",
+    "PowerToys#40311",
+    "PowerToys#32",
+    "PowerToys#46676",
+    "PowerToys#1544",
+    "PowerToys#7175",
+    "PowerToys#48287",
+    "PowerToys#47108",
+    "PowerToys#48934",
+    "PowerToys#47443",
+    "PowerToys#49010"
+   ]
+  },
+  {
+   "t": 1794881795.7902386,
+   "tool": "similar",
+   "args": {
+    "query": "Dock overlaps application window, windows slide underneath the dock; battery charging indicator",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012443387997336686,
+   "returned": [
+    "PowerToys#4",
+    "PowerToys#46750",
+    "PowerToys#48833",
+    "PowerToys#46275",
+    "PowerToys#46236",
+    "PowerToys#4006",
+    "PowerToys#46937",
+    "PowerToys#5780",
+    "PowerToys#7526",
+    "PowerToys#48486",
+    "PowerToys#71",
+    "PowerToys#46544",
+    "PowerToys#10903",
+    "PowerToys#38353",
+    "PowerToys#46097",
+    "PowerToys#46092",
+    "PowerToys#15453",
+    "PowerToys#12471",
+    "PowerToys#497",
+    "PowerToys#73"
+   ]
+  },
+  {
+   "t": 1794881797.613132,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#49010"
+   },
+   "seconds": 0.00010991701856255531,
+   "returned": [
+    "PowerToys#49010"
+   ]
+  },
+  {
+   "t": 1794881797.6192439,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47108"
+   },
+   "seconds": 0.00010122801177203655,
+   "returned": [
+    "PowerToys#47108"
+   ]
+  },
+  {
+   "t": 1794881797.7357023,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46275"
+   },
+   "seconds": 0.00013265700545161963,
+   "returned": [
+    "PowerToys#46275"
+   ]
+  },
+  {
+   "t": 1794881800.1126432,
+   "tool": "similar",
+   "args": {
+    "query": "Dock performance monitor single icon click to open flyout with CPU memory network GPU",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.01454290299443528,
+   "returned": [
+    "PowerToys#48833",
+    "PowerToys#48802",
+    "PowerToys#46882",
+    "PowerToys#855",
+    "PowerToys#7368",
+    "PowerToys#48014",
+    "PowerToys#46976",
+    "PowerToys#48934",
+    "PowerToys#46607",
+    "PowerToys#46791",
+    "PowerToys#8756",
+    "PowerToys#3583",
+    "PowerToys#49010",
+    "PowerToys#186",
+    "PowerToys#45823",
+    "PowerToys#47443",
+    "PowerToys#2894",
+    "PowerToys#48597",
+    "PowerToys#46676",
+    "PowerToys#7456"
+   ]
+  },
+  {
+   "t": 1794881802.010865,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46849"
+   },
+   "seconds": 0.00016234497888945043,
+   "returned": [
+    "PowerToys#46849"
+   ]
+  },
+  {
+   "t": 1794881803.7875426,
+   "tool": "search",
+   "args": {
+    "pattern": "charging",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.057665197004098445,
+   "returned": [
+    "PowerToys#7",
+    "PowerToys#22692",
+    "PowerToys#46820",
+    "PowerToys#28961",
+    "PowerToys#26692",
+    "PowerToys#19323",
+    "PowerToys#41467",
+    "PowerToys#34194",
+    "PowerToys#32005",
+    "PowerToys#43344",
+    "PowerToys#42946",
+    "PowerToys#42210",
+    "PowerToys#42022",
+    "PowerToys#35781",
+    "PowerToys#34549",
+    "PowerToys#33388",
+    "PowerToys#29464",
+    "PowerToys#29101",
+    "PowerToys#25299",
+    "PowerToys#23357"
+   ]
+  },
+  {
+   "t": 1794881807.2712781,
+   "tool": "search",
+   "args": {
+    "pattern": "Dock",
+    "regex": false,
+    "also": [
+     "battery"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11789163702633232,
+   "returned": [
+    "PowerToys#45201",
+    "PowerToys#45584",
+    "PowerToys#46546",
+    "PowerToys#46327",
+    "PowerToys#47686",
+    "PowerToys#48802",
+    "PowerToys#47218",
+    "PowerToys#49012",
+    "PowerToys#48486",
+    "PowerToys#48246",
+    "PowerToys#28961",
+    "PowerToys#8842",
+    "PowerToys#8755",
+    "PowerToys#3954",
+    "PowerToys#48598",
+    "PowerToys#47437",
+    "PowerToys#38530",
+    "PowerToys#24786",
+    "PowerToys#18536",
+    "PowerToys#1052"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 19160,
+  "stop_reason": "end_turn",
+  "session_id": "c9521e3c-910d-4988-9e08-bb688e3e9173",
+  "total_cost_usd": 0.080711,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 15050,
+   "cache_read_input_tokens": 60590,
+   "output_tokens": 1442,
+   "output_tokens_details": {
+    "thinking_tokens": 186
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 15050,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 432,
+     "cache_read_input_tokens": 13048,
+     "cache_creation_input_tokens": 3415,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3415
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1442,
+    "cacheReadInputTokens": 60590,
+    "cacheCreationInputTokens": 15050,
+    "webSearchRequests": 0,
+    "costUSD": 0.080711,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 186,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15050,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Status: I've searched the archive for the combined monitor icon, the charging indicator and the dock overlap, and I'm about to give my answer.\n\n```json\n{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket that asks for this same redesign. Several tickets cover parts of it. #48934 and #47108 cover the network send/receive layout in the dock. #49010 asks for click-through detail on the performance widgets. #47218, #47437 and #47686 cover the dock battery indicator. For the overlap, #46275 reports the dock slightly overlapping windows, and #46849 reports snapped windows covering the dock. If you hit the overlap bug, add your Command Palette version, dock position and transparency setting to #46275. I'd suggest filing the monitor icon, the charging state and the overlap as separate tickets so each can be tracked on its own.\"}\n```",
+  "ttft_ms": 2630,
+  "type": "result",
+  "duration_ms": 23055,
+  "uuid": "401c0ea8-d770-4a7c-b758-65693f2901ee",
+  "ttft_stream_ms": 1330,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 1330,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1442,
+    "cacheReadInputTokens": 60590,
+    "cacheCreationInputTokens": 15050,
+    "webSearchRequests": 0,
+    "costUSD": 0.080711,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 186,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15050,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 24.329381324001588,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-nlmake29/work"
+  }
+ },
+ "wall_seconds": 24.33130445398274,
+ "qid": "PowerToys#50224",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket that asks for this same redesign. Several tickets cover parts of it. #48934 and #47108 cover the network send/receive layout in the dock. #49010 asks for click-through detail on the performance widgets. #47218, #47437 and #47686 cover the dock battery indicator. For the overlap, #46275 reports the dock slightly overlapping windows, and #46849 reports snapped windows covering the dock. If you hit the overlap bug, add your Command Palette version, dock position and transparency setting to #46275. I'd suggest filing the monitor icon, the charging state and the overlap as separate tickets so each can be tracked on its own."
+ },
+ "hit_turn_cap": false
+}

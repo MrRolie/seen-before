@@ -1,0 +1,333 @@
+{
+ "shown": [
+  "PowerToys#10384",
+  "PowerToys#11459",
+  "PowerToys#11882",
+  "PowerToys#13014",
+  "PowerToys#14100",
+  "PowerToys#14915",
+  "PowerToys#176",
+  "PowerToys#2452",
+  "PowerToys#279",
+  "PowerToys#28",
+  "PowerToys#2828",
+  "PowerToys#2911",
+  "PowerToys#30",
+  "PowerToys#310",
+  "PowerToys#34950",
+  "PowerToys#3684",
+  "PowerToys#38341",
+  "PowerToys#46333",
+  "PowerToys#46334",
+  "PowerToys#4783",
+  "PowerToys#48316",
+  "PowerToys#48566",
+  "PowerToys#497",
+  "PowerToys#5063",
+  "PowerToys#5780",
+  "PowerToys#6765",
+  "PowerToys#9258",
+  "PowerToys#9733"
+ ],
+ "retrieval_seconds": 4.0756507710320875,
+ "tool_calls": [
+  {
+   "t": 1794884771.6784425,
+   "tool": "similar",
+   "args": {
+    "query": "hide windows from screen sharing feature request",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.9096907989878673,
+   "returned": [
+    "PowerToys#11882",
+    "PowerToys#9258",
+    "PowerToys#176",
+    "PowerToys#10384",
+    "PowerToys#9733",
+    "PowerToys#3684",
+    "PowerToys#13014",
+    "PowerToys#11459",
+    "PowerToys#2828",
+    "PowerToys#38341",
+    "PowerToys#30",
+    "PowerToys#497",
+    "PowerToys#2911",
+    "PowerToys#2452",
+    "PowerToys#4783",
+    "PowerToys#5780",
+    "PowerToys#28",
+    "PowerToys#310",
+    "PowerToys#5063",
+    "PowerToys#6765"
+   ]
+  },
+  {
+   "t": 1794884772.9073515,
+   "tool": "search",
+   "args": {
+    "pattern": "screen shar",
+    "regex": false,
+    "also": [
+     "hide"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10284801200032234,
+   "returned": [
+    "PowerToys#48566",
+    "PowerToys#34950",
+    "PowerToys#48316",
+    "PowerToys#46334",
+    "PowerToys#14100",
+    "PowerToys#279",
+    "PowerToys#14915"
+   ]
+  },
+  {
+   "t": 1794884773.1069953,
+   "tool": "search",
+   "args": {
+    "pattern": "SetWindowDisplayAffinity",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06229282301501371,
+   "returned": [
+    "PowerToys#46333"
+   ]
+  },
+  {
+   "t": 1794884773.2297964,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#11882"
+   },
+   "seconds": 0.0003623100055847317,
+   "returned": [
+    "PowerToys#11882"
+   ]
+  },
+  {
+   "t": 1794884774.1871483,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34950"
+   },
+   "seconds": 0.0001677650143392384,
+   "returned": [
+    "PowerToys#34950"
+   ]
+  },
+  {
+   "t": 1794884774.2518911,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48566"
+   },
+   "seconds": 0.00014806599938310683,
+   "returned": [
+    "PowerToys#48566"
+   ]
+  },
+  {
+   "t": 1794884774.954179,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46333"
+   },
+   "seconds": 0.0001409960095770657,
+   "returned": [
+    "PowerToys#46333"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7979,
+  "stop_reason": "end_turn",
+  "session_id": "78b14447-619b-4215-afee-62b348eb603f",
+  "total_cost_usd": 0.0470808,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 8866,
+   "cache_read_input_tokens": 18768,
+   "output_tokens": 972,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8866,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 370,
+     "cache_read_input_tokens": 6955,
+     "cache_creation_input_tokens": 3324,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3324
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 972,
+    "cacheReadInputTokens": 18768,
+    "cacheCreationInputTokens": 8866,
+    "webSearchRequests": 0,
+    "costUSD": 0.0470808,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8866,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46333\", \"PowerToys#34950\", \"PowerToys#48566\"], \"answer\": \"This feature request has been made before. The main tracking issue is PowerToys#46333 (Privacy Overlay). It proposes a hotkey, similar to Always on Top, that excludes a chosen window from screen sharing, recording and screenshots. PowerToys#48566 was closed as a duplicate of it. PowerToys#34950 asks for the same thing (window masking via WDA_EXCLUDEFROMCAPTURE) and was closed as a duplicate of #13035. A commenter on that ticket disputed that duplicate link. The feature is not available yet. Subscribe to and upvote #46333 and add your use case there. A contributor has built a proof of concept, and it showed that calling SetWindowDisplayAffinity directly from another process is blocked even when elevated. Their version works by injecting a hook DLL into the target app. For now, the open-source tools winhider and Invisiwind (linked in #34950) do something similar. They don't detect newly opened windows.\"}",
+  "ttft_ms": 1007,
+  "type": "result",
+  "duration_ms": 11560,
+  "uuid": "93cd6024-9c84-4ea7-a6b3-28e94938c753",
+  "ttft_stream_ms": 590,
+  "time_to_request_ms": 35,
+  "first_content_frame_ms": 591,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 972,
+    "cacheReadInputTokens": 18768,
+    "cacheCreationInputTokens": 8866,
+    "webSearchRequests": 0,
+    "costUSD": 0.0470808,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8866,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.007141484995373,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-8ggi9wbe/work"
+  }
+ },
+ "wall_seconds": 13.009091151994653,
+ "qid": "PowerToys#51660",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46333",
+   "PowerToys#34950",
+   "PowerToys#48566"
+  ],
+  "answer": "This feature request has been made before. The main tracking issue is PowerToys#46333 (Privacy Overlay). It proposes a hotkey, similar to Always on Top, that excludes a chosen window from screen sharing, recording and screenshots. PowerToys#48566 was closed as a duplicate of it. PowerToys#34950 asks for the same thing (window masking via WDA_EXCLUDEFROMCAPTURE) and was closed as a duplicate of #13035. A commenter on that ticket disputed that duplicate link. The feature is not available yet. Subscribe to and upvote #46333 and add your use case there. A contributor has built a proof of concept, and it showed that calling SetWindowDisplayAffinity directly from another process is blocked even when elevated. Their version works by injecting a hook DLL into the target app. For now, the open-source tools winhider and Invisiwind (linked in #34950) do something similar. They don't detect newly opened windows."
+ },
+ "hit_turn_cap": false
+}

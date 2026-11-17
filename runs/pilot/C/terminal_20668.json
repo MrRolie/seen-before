@@ -1,0 +1,412 @@
+{
+ "shown": [
+  "PowerToys#10154",
+  "PowerToys#10165",
+  "PowerToys#1899",
+  "PowerToys#2918",
+  "PowerToys#31286",
+  "PowerToys#36411",
+  "PowerToys#36412",
+  "PowerToys#38292",
+  "WSL#1654",
+  "terminal#1037",
+  "terminal#10520",
+  "terminal#11288",
+  "terminal#11354",
+  "terminal#11684",
+  "terminal#1188",
+  "terminal#12413",
+  "terminal#12598",
+  "terminal#1300",
+  "terminal#13037",
+  "terminal#1339",
+  "terminal#13543",
+  "terminal#13559",
+  "terminal#13599",
+  "terminal#1380",
+  "terminal#13868",
+  "terminal#15209",
+  "terminal#15271",
+  "terminal#15303",
+  "terminal#15414",
+  "terminal#15459",
+  "terminal#17076",
+  "terminal#17847",
+  "terminal#18040",
+  "terminal#1856",
+  "terminal#18598",
+  "terminal#1989",
+  "terminal#2159",
+  "terminal#2268",
+  "terminal#2537",
+  "terminal#2947",
+  "terminal#3273",
+  "terminal#3303",
+  "terminal#3355",
+  "terminal#3376",
+  "terminal#3381",
+  "terminal#3406",
+  "terminal#3525",
+  "terminal#3611",
+  "terminal#3648",
+  "terminal#3651",
+  "terminal#3668",
+  "terminal#3710",
+  "terminal#3742",
+  "terminal#3750",
+  "terminal#3853",
+  "terminal#3871",
+  "terminal#3912",
+  "terminal#412",
+  "terminal#4159",
+  "terminal#4810",
+  "terminal#4907",
+  "terminal#5340",
+  "terminal#6444",
+  "terminal#6446",
+  "terminal#6466",
+  "terminal#7664",
+  "terminal#9648",
+  "terminal#9955"
+ ],
+ "retrieval_seconds": 3.6686947649577633,
+ "tool_calls": [
+  {
+   "t": 1794876848.2754688,
+   "tool": "search",
+   "args": {
+    "query": "XAML fail-fast 0xc000027b crash ListViewBase::OnKeyDown GettingFocus while fullscreen game running",
+    "repo": "terminal"
+   },
+   "seconds": 3.6241943830100354,
+   "returned": [
+    "terminal#6444",
+    "terminal#12413",
+    "terminal#1339",
+    "terminal#6446",
+    "terminal#15271",
+    "terminal#13599",
+    "terminal#15303",
+    "terminal#9648",
+    "terminal#10520",
+    "terminal#1037",
+    "terminal#13559",
+    "terminal#4159",
+    "terminal#18598",
+    "terminal#17847",
+    "terminal#13543",
+    "terminal#9955",
+    "terminal#7664",
+    "terminal#3376",
+    "terminal#1380",
+    "terminal#6466"
+   ]
+  },
+  {
+   "t": 1794876848.3187196,
+   "tool": "search",
+   "args": {
+    "query": "Terminal crashes when fullscreen game is running, STATUS_STOWED_EXCEPTION Windows.UI.Xaml.dll focus change",
+    "repo": "terminal"
+   },
+   "seconds": 0.016774422983871773,
+   "returned": [
+    "terminal#17847",
+    "terminal#2947",
+    "terminal#11354",
+    "terminal#1380",
+    "terminal#3381",
+    "terminal#4907",
+    "terminal#15209",
+    "terminal#2537",
+    "terminal#4810",
+    "terminal#2159",
+    "terminal#17076",
+    "terminal#6446",
+    "terminal#11684",
+    "terminal#3376",
+    "terminal#1989",
+    "terminal#12598",
+    "terminal#5340",
+    "terminal#1188",
+    "terminal#412",
+    "terminal#13037"
+   ]
+  },
+  {
+   "t": 1794876848.3330185,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#20512"
+   },
+   "seconds": 8.618799620307982e-05,
+   "returned": []
+  },
+  {
+   "t": 1794876848.342554,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18040"
+   },
+   "seconds": 0.00013307598419487476,
+   "returned": [
+    "terminal#18040"
+   ]
+  },
+  {
+   "t": 1794876849.8145874,
+   "tool": "search",
+   "args": {
+    "query": "fail-fast RoFailFastWithErrorContextInternal2 ErrorHelper::ReportUnhandledError SendMessageW re-entrancy XAML island keydown",
+    "repo": null
+   },
+   "seconds": 0.01413491097628139,
+   "returned": [
+    "terminal#13599",
+    "terminal#6444",
+    "terminal#1339",
+    "terminal#11288",
+    "PowerToys#2918",
+    "terminal#1037",
+    "terminal#12413",
+    "PowerToys#10165",
+    "terminal#15459",
+    "PowerToys#1899",
+    "terminal#4159",
+    "PowerToys#10154",
+    "PowerToys#38292",
+    "terminal#13543",
+    "terminal#9648",
+    "terminal#10520",
+    "PowerToys#31286",
+    "PowerToys#36412",
+    "PowerToys#36411",
+    "WSL#1654"
+   ]
+  },
+  {
+   "t": 1794876850.2420175,
+   "tool": "search",
+   "args": {
+    "query": "Terminal window disappears instantly when playing fullscreen game on another monitor",
+    "repo": "terminal"
+   },
+   "seconds": 0.013263327011372894,
+   "returned": [
+    "terminal#3912",
+    "terminal#3750",
+    "terminal#2268",
+    "terminal#3406",
+    "terminal#3742",
+    "terminal#3871",
+    "terminal#3273",
+    "terminal#3853",
+    "terminal#13868",
+    "terminal#3710",
+    "terminal#1300",
+    "terminal#15414",
+    "terminal#3525",
+    "terminal#3668",
+    "terminal#3611",
+    "terminal#1856",
+    "terminal#3303",
+    "terminal#3651",
+    "terminal#3648",
+    "terminal#3355"
+   ]
+  },
+  {
+   "t": 1794876851.0096204,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#15414"
+   },
+   "seconds": 0.00010845699580386281,
+   "returned": [
+    "terminal#15414"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7817,
+  "stop_reason": "end_turn",
+  "session_id": "d7de0456-ca8e-4fef-9689-3a7bc5950dac",
+  "total_cost_usd": 0.07067230000000001,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 14530,
+   "cache_read_input_tokens": 29563,
+   "output_tokens": 958,
+   "output_tokens_details": {
+    "thinking_tokens": 20
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 14530,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 316,
+     "cache_read_input_tokens": 13509,
+     "cache_creation_input_tokens": 2054,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2054
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 958,
+    "cacheReadInputTokens": 29563,
+    "cacheCreationInputTokens": 14530,
+    "webSearchRequests": 0,
+    "costUSD": 0.07067230000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 20,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14530,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket in the archive that reports this crash. The crash is a XAML fail-fast (0xc000027b) raised from ListViewBase::OnKeyDown during a focus change, and it only happens while a fullscreen game is running. The two tickets you cited don't match it. terminal#20512 isn't in the archive. terminal#18040 is a hang while gaming. It was attributed to the GPU driver or DWM, and the discussion there suggested workarounds such as setting background opacity below 100 or changing the rendering settings. It is a different failure from yours. Please file this as a new issue with the symbolised stack you posted. Keep the five dumps from %LOCALAPPDATA%\\\\CrashDumps and offer the full dumps, because the inner exception can't be read from the minidumps. Also include the date correlation with the game sessions and the mixed-DPI, multi-display setup.\"}",
+  "ttft_ms": 1150,
+  "type": "result",
+  "duration_ms": 10582,
+  "uuid": "f76dd9b2-0d78-40a6-97a2-163555272f37",
+  "ttft_stream_ms": 588,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 589,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 958,
+    "cacheReadInputTokens": 29563,
+    "cacheCreationInputTokens": 14530,
+    "webSearchRequests": 0,
+    "costUSD": 0.07067230000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 20,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14530,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.929768044996308,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-743cq81n/work"
+  }
+ },
+ "wall_seconds": 11.931836303003365,
+ "qid": "terminal#20668",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket in the archive that reports this crash. The crash is a XAML fail-fast (0xc000027b) raised from ListViewBase::OnKeyDown during a focus change, and it only happens while a fullscreen game is running. The two tickets you cited don't match it. terminal#20512 isn't in the archive. terminal#18040 is a hang while gaming. It was attributed to the GPU driver or DWM, and the discussion there suggested workarounds such as setting background opacity below 100 or changing the rendering settings. It is a different failure from yours. Please file this as a new issue with the symbolised stack you posted. Keep the five dumps from %LOCALAPPDATA%\\CrashDumps and offer the full dumps, because the inner exception can't be read from the minidumps. Also include the date correlation with the game sessions and the mixed-DPI, multi-display setup."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,368 @@
+{
+ "shown": [
+  "PowerToys#10918",
+  "PowerToys#13740",
+  "PowerToys#14675",
+  "PowerToys#169",
+  "PowerToys#1690",
+  "PowerToys#18349",
+  "PowerToys#19843",
+  "PowerToys#24519",
+  "PowerToys#28371",
+  "PowerToys#3149",
+  "PowerToys#3217",
+  "PowerToys#36762",
+  "PowerToys#3921",
+  "PowerToys#45591",
+  "PowerToys#45998",
+  "PowerToys#46097",
+  "PowerToys#46216",
+  "PowerToys#46236",
+  "PowerToys#46268",
+  "PowerToys#46291",
+  "PowerToys#46308",
+  "PowerToys#46558",
+  "PowerToys#46627",
+  "PowerToys#46740",
+  "PowerToys#46882",
+  "PowerToys#47031",
+  "PowerToys#47155",
+  "PowerToys#47327",
+  "PowerToys#47765",
+  "PowerToys#48045",
+  "PowerToys#48060",
+  "PowerToys#48179",
+  "PowerToys#48456",
+  "PowerToys#48466",
+  "PowerToys#48516",
+  "PowerToys#48680",
+  "PowerToys#48833",
+  "PowerToys#48933",
+  "PowerToys#49053",
+  "PowerToys#9258"
+ ],
+ "retrieval_seconds": 4.144198792986572,
+ "tool_calls": [
+  {
+   "t": 1794883323.7630413,
+   "tool": "search",
+   "args": {
+    "query": "Command Palette Dock does not reappear after monitor reconnect; monitor configuration not refreshed",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.088358883018373,
+   "returned": [
+    "PowerToys#49053",
+    "PowerToys#48833",
+    "PowerToys#46268",
+    "PowerToys#46308",
+    "PowerToys#46097",
+    "PowerToys#47155",
+    "PowerToys#48516",
+    "PowerToys#48933",
+    "PowerToys#48060",
+    "PowerToys#45591",
+    "PowerToys#47765",
+    "PowerToys#47031",
+    "PowerToys#169",
+    "PowerToys#48456",
+    "PowerToys#48045",
+    "PowerToys#46627",
+    "PowerToys#46216",
+    "PowerToys#48680",
+    "PowerToys#46558",
+    "PowerToys#46291"
+   ]
+  },
+  {
+   "t": 1794883323.8166926,
+   "tool": "search",
+   "args": {
+    "query": "Dock disappears after unplugging laptop from docking station external monitors",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.042306970979552716,
+   "returned": [
+    "PowerToys#48179",
+    "PowerToys#18349",
+    "PowerToys#19843",
+    "PowerToys#48516",
+    "PowerToys#48833",
+    "PowerToys#46236",
+    "PowerToys#13740",
+    "PowerToys#47765",
+    "PowerToys#169",
+    "PowerToys#3217",
+    "PowerToys#14675",
+    "PowerToys#10918",
+    "PowerToys#36762",
+    "PowerToys#46740",
+    "PowerToys#46097",
+    "PowerToys#9258",
+    "PowerToys#3921",
+    "PowerToys#28371",
+    "PowerToys#1690",
+    "PowerToys#24519"
+   ]
+  },
+  {
+   "t": 1794883324.7342067,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48516"
+   },
+   "seconds": 0.0001256760151591152,
+   "returned": [
+    "PowerToys#48516"
+   ]
+  },
+  {
+   "t": 1794883324.9130816,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#49053"
+   },
+   "seconds": 0.00014698499580845237,
+   "returned": [
+    "PowerToys#49053"
+   ]
+  },
+  {
+   "t": 1794883326.1450977,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48466"
+   },
+   "seconds": 0.00013436598237603903,
+   "returned": [
+    "PowerToys#48466"
+   ]
+  },
+  {
+   "t": 1794883327.3187726,
+   "tool": "search",
+   "args": {
+    "query": "Dock settings only shows internal monitor after docking/undocking, restart Command Palette fixes",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012994635995710269,
+   "returned": [
+    "PowerToys#48833",
+    "PowerToys#48680",
+    "PowerToys#46097",
+    "PowerToys#48933",
+    "PowerToys#47765",
+    "PowerToys#46308",
+    "PowerToys#49053",
+    "PowerToys#48516",
+    "PowerToys#46236",
+    "PowerToys#46216",
+    "PowerToys#47327",
+    "PowerToys#3921",
+    "PowerToys#46882",
+    "PowerToys#46740",
+    "PowerToys#46268",
+    "PowerToys#48456",
+    "PowerToys#47031",
+    "PowerToys#45998",
+    "PowerToys#3217",
+    "PowerToys#3149"
+   ]
+  },
+  {
+   "t": 1794883328.1338582,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46097"
+   },
+   "seconds": 0.00013127599959261715,
+   "returned": [
+    "PowerToys#46097"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10978,
+  "stop_reason": "end_turn",
+  "session_id": "7b11c25e-ef9c-4402-b783-102641d099df",
+  "total_cost_usd": 0.0484632,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 8517,
+   "cache_read_input_tokens": 31812,
+   "output_tokens": 1119,
+   "output_tokens_details": {
+    "thinking_tokens": 230
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8517,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 510,
+     "cache_read_input_tokens": 9107,
+     "cache_creation_input_tokens": 443,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 443
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1119,
+    "cacheReadInputTokens": 31812,
+    "cacheCreationInputTokens": 8517,
+    "webSearchRequests": 0,
+    "costUSD": 0.0484632,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 230,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8517,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've read the closest past tickets and I'm about to give the verdict.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#48516\"], \"answer\": \"This looks like a known problem. PowerToys#48516 (0.100.0) reports the same behaviour. After the laptop is docked or undocked, the Command Palette Dock settings page lists only the internal monitor and no external ones, and the Dock doesn't come back. The archive has no fix or official workaround for it, and the ticket shows no maintainer reply. Your own finding is the best workaround: turn Command Palette off and on again in PowerToys settings, or restart PowerToys, after re-docking. That makes it re-detect the monitors. Toggling just the Dock isn't enough. PowerToys#49053 (0.100.2) is related but not the same: the Dock loses its monitor settings after an RDP session, and restarting PowerToys fixed it there. Add your details (0.100.2, two external monitors, internal display disabled) to #48516.\"}",
+  "ttft_ms": 1316,
+  "type": "result",
+  "duration_ms": 14871,
+  "uuid": "95af63ae-64a9-4877-b3cd-0323ce681e34",
+  "ttft_stream_ms": 644,
+  "time_to_request_ms": 44,
+  "first_content_frame_ms": 644,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1119,
+    "cacheReadInputTokens": 31812,
+    "cacheCreationInputTokens": 8517,
+    "webSearchRequests": 0,
+    "costUSD": 0.0484632,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 230,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8517,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.214231371995993,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-kc68v96a/work"
+  }
+ },
+ "wall_seconds": 16.216792577994056,
+ "qid": "PowerToys#50765",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48516"
+  ],
+  "answer": "This looks like a known problem. PowerToys#48516 (0.100.0) reports the same behaviour. After the laptop is docked or undocked, the Command Palette Dock settings page lists only the internal monitor and no external ones, and the Dock doesn't come back. The archive has no fix or official workaround for it, and the ticket shows no maintainer reply. Your own finding is the best workaround: turn Command Palette off and on again in PowerToys settings, or restart PowerToys, after re-docking. That makes it re-detect the monitors. Toggling just the Dock isn't enough. PowerToys#49053 (0.100.2) is related but not the same: the Dock loses its monitor settings after an RDP session, and restarting PowerToys fixed it there. Add your details (0.100.2, two external monitors, internal display disabled) to #48516."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,325 @@
+{
+ "shown": [
+  "PowerToys#12569",
+  "PowerToys#16454",
+  "PowerToys#16485",
+  "PowerToys#18979",
+  "PowerToys#19041",
+  "PowerToys#20287",
+  "PowerToys#20485",
+  "PowerToys#23212",
+  "PowerToys#26014",
+  "PowerToys#27018",
+  "PowerToys#27699",
+  "PowerToys#30647",
+  "PowerToys#30801",
+  "PowerToys#30856",
+  "PowerToys#31660",
+  "PowerToys#31766",
+  "PowerToys#32144",
+  "PowerToys#33673",
+  "PowerToys#34298",
+  "PowerToys#35017",
+  "PowerToys#35389",
+  "PowerToys#36954",
+  "PowerToys#3703",
+  "PowerToys#38237",
+  "PowerToys#39725",
+  "PowerToys#40188",
+  "PowerToys#41572",
+  "PowerToys#42046",
+  "PowerToys#45714",
+  "PowerToys#45864",
+  "PowerToys#47553",
+  "PowerToys#47603",
+  "PowerToys#4999"
+ ],
+ "retrieval_seconds": 0.18040043802466244,
+ "tool_calls": [
+  {
+   "t": 1794883078.0181942,
+   "tool": "search",
+   "args": {
+    "pattern": "mouse gesture",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0663375059957616,
+   "returned": [
+    "PowerToys#19041",
+    "PowerToys#20287",
+    "PowerToys#32144",
+    "PowerToys#26014",
+    "PowerToys#33673",
+    "PowerToys#23212",
+    "PowerToys#47553",
+    "PowerToys#35389",
+    "PowerToys#34298",
+    "PowerToys#30856",
+    "PowerToys#30647",
+    "PowerToys#27699",
+    "PowerToys#45864",
+    "PowerToys#45714",
+    "PowerToys#42046",
+    "PowerToys#41572",
+    "PowerToys#39725",
+    "PowerToys#35017",
+    "PowerToys#31766",
+    "PowerToys#30801"
+   ]
+  },
+  {
+   "t": 1794883078.4177523,
+   "tool": "search",
+   "args": {
+    "pattern": "gestures",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11362531399936415,
+   "returned": [
+    "PowerToys#19041",
+    "PowerToys#18979",
+    "PowerToys#16454",
+    "PowerToys#3703",
+    "PowerToys#27018",
+    "PowerToys#33673",
+    "PowerToys#4999",
+    "PowerToys#47603",
+    "PowerToys#36954",
+    "PowerToys#31660",
+    "PowerToys#26014",
+    "PowerToys#20485",
+    "PowerToys#20287",
+    "PowerToys#16485",
+    "PowerToys#12569",
+    "PowerToys#40188",
+    "PowerToys#38237",
+    "PowerToys#32144",
+    "PowerToys#31766",
+    "PowerToys#27699"
+   ]
+  },
+  {
+   "t": 1794883079.5374134,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#27699"
+   },
+   "seconds": 0.00013501601642929018,
+   "returned": [
+    "PowerToys#27699"
+   ]
+  },
+  {
+   "t": 1794883079.7504056,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#30856"
+   },
+   "seconds": 0.00015156599693000317,
+   "returned": [
+    "PowerToys#30856"
+   ]
+  },
+  {
+   "t": 1794883080.585685,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#19041"
+   },
+   "seconds": 0.00015103601617738605,
+   "returned": [
+    "PowerToys#19041"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 5994,
+  "stop_reason": "end_turn",
+  "session_id": "e01f4d39-2a2d-4872-86a4-38b64f966860",
+  "total_cost_usd": 0.0591786,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 12553,
+   "cache_read_input_tokens": 24006,
+   "output_tokens": 655,
+   "output_tokens_details": {
+    "thinking_tokens": 42
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12553,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 268,
+     "cache_read_input_tokens": 10884,
+     "cache_creation_input_tokens": 2846,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2846
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 655,
+    "cacheReadInputTokens": 24006,
+    "cacheCreationInputTokens": 12553,
+    "webSearchRequests": 0,
+    "costUSD": 0.0591786,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 42,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12553,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "```json\n{\"seen_before\": true, \"matches\": [\"PowerToys#19041\", \"PowerToys#30856\", \"PowerToys#27699\"], \"answer\": \"This feature has been requested before. PowerToys#19041 is the main tracking issue for customizable mouse gestures. The others, including #30856, which cites MouseInc, and #27699, were closed as duplicates of it. The request is still open, but nothing has been built. A maintainer said other work, such as macro enablement, would be prioritized above it, and a 2026 comment says there has been no progress. Add a thumbs-up or your use case to #19041 rather than opening a new ticket. Until PowerToys supports it, use a third-party tool such as StrokePlus.net, MouseInc, AutoHotkey's MouseGestureL or Kando.\"}\n```",
+  "ttft_ms": 981,
+  "type": "result",
+  "duration_ms": 6198,
+  "uuid": "37ea7816-c005-479f-b2c0-16aef2857d4e",
+  "ttft_stream_ms": 631,
+  "time_to_request_ms": 48,
+  "first_content_frame_ms": 632,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 655,
+    "cacheReadInputTokens": 24006,
+    "cacheCreationInputTokens": 12553,
+    "webSearchRequests": 0,
+    "costUSD": 0.0591786,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 42,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12553,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 7.804657354980009,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-2auy7tds/work"
+  }
+ },
+ "wall_seconds": 7.807652385003166,
+ "qid": "PowerToys#50676",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#19041",
+   "PowerToys#30856",
+   "PowerToys#27699"
+  ],
+  "answer": "This feature has been requested before. PowerToys#19041 is the main tracking issue for customizable mouse gestures. The others, including #30856, which cites MouseInc, and #27699, were closed as duplicates of it. The request is still open, but nothing has been built. A maintainer said other work, such as macro enablement, would be prioritized above it, and a 2026 comment says there has been no progress. Add a thumbs-up or your use case to #19041 rather than opening a new ticket. Until PowerToys supports it, use a third-party tool such as StrokePlus.net, MouseInc, AutoHotkey's MouseGestureL or Kando."
+ },
+ "hit_turn_cap": false
+}

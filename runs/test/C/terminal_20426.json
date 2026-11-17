@@ -1,0 +1,359 @@
+{
+ "shown": [
+  "terminal#11356",
+  "terminal#11361",
+  "terminal#11385",
+  "terminal#11730",
+  "terminal#12199",
+  "terminal#12452",
+  "terminal#12607",
+  "terminal#13037",
+  "terminal#1325",
+  "terminal#1329",
+  "terminal#15209",
+  "terminal#15238",
+  "terminal#15459",
+  "terminal#17028",
+  "terminal#17076",
+  "terminal#17241",
+  "terminal#18803",
+  "terminal#1928",
+  "terminal#20189",
+  "terminal#20341",
+  "terminal#2329",
+  "terminal#2753",
+  "terminal#2769",
+  "terminal#2856",
+  "terminal#3897",
+  "terminal#3987",
+  "terminal#408",
+  "terminal#4647",
+  "terminal#5664",
+  "terminal#6444",
+  "terminal#7136",
+  "terminal#7234",
+  "terminal#7491",
+  "terminal#7839",
+  "terminal#7994",
+  "terminal#8761",
+  "terminal#8957",
+  "terminal#9273",
+  "terminal#9675",
+  "terminal#9962"
+ ],
+ "retrieval_seconds": 4.132798256032402,
+ "tool_calls": [
+  {
+   "t": 1794878058.7557845,
+   "tool": "search",
+   "args": {
+    "query": "Terminal freezes when pressing Backspace in Browse file dialog address bar from profile settings",
+    "repo": "terminal"
+   },
+   "seconds": 4.101254329987569,
+   "returned": [
+    "terminal#9962",
+    "terminal#9273",
+    "terminal#3897",
+    "terminal#12199",
+    "terminal#17028",
+    "terminal#8957",
+    "terminal#7234",
+    "terminal#17076",
+    "terminal#7491",
+    "terminal#1329",
+    "terminal#7136",
+    "terminal#11385",
+    "terminal#2856",
+    "terminal#20189",
+    "terminal#13037",
+    "terminal#2329",
+    "terminal#15238",
+    "terminal#17241",
+    "terminal#15209",
+    "terminal#7994"
+   ]
+  },
+  {
+   "t": 1794878058.7838132,
+   "tool": "search",
+   "args": {
+    "query": "settings Browse button command line file picker hang unresponsive",
+    "repo": "terminal"
+   },
+   "seconds": 0.01692423300119117,
+   "returned": [
+    "terminal#8957",
+    "terminal#2753",
+    "terminal#8761",
+    "terminal#12199",
+    "terminal#11385",
+    "terminal#17028",
+    "terminal#9273",
+    "terminal#5664",
+    "terminal#9675",
+    "terminal#7994",
+    "terminal#11356",
+    "terminal#7839",
+    "terminal#1329",
+    "terminal#20341",
+    "terminal#3987",
+    "terminal#12452",
+    "terminal#15459",
+    "terminal#1928",
+    "terminal#1325",
+    "terminal#20189"
+   ]
+  },
+  {
+   "t": 1794878059.7288694,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#17028"
+   },
+   "seconds": 0.00013326702173799276,
+   "returned": [
+    "terminal#17028"
+   ]
+  },
+  {
+   "t": 1794878059.9278378,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#12199"
+   },
+   "seconds": 0.00011677699512802064,
+   "returned": [
+    "terminal#12199"
+   ]
+  },
+  {
+   "t": 1794878060.1036704,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#20189"
+   },
+   "seconds": 0.00040036000427789986,
+   "returned": [
+    "terminal#20189"
+   ]
+  },
+  {
+   "t": 1794878061.175782,
+   "tool": "search",
+   "args": {
+    "query": "file picker address bar typing freezes Terminal Windows 10 browse",
+    "repo": "terminal"
+   },
+   "seconds": 0.013969289022497833,
+   "returned": [
+    "terminal#17028",
+    "terminal#20189",
+    "terminal#12199",
+    "terminal#11356",
+    "terminal#8957",
+    "terminal#7994",
+    "terminal#9273",
+    "terminal#11385",
+    "terminal#20341",
+    "terminal#11361",
+    "terminal#7839",
+    "terminal#2329",
+    "terminal#408",
+    "terminal#18803",
+    "terminal#3897",
+    "terminal#6444",
+    "terminal#12607",
+    "terminal#4647",
+    "terminal#2769",
+    "terminal#11730"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7760,
+  "stop_reason": "end_turn",
+  "session_id": "6e462ce6-2979-4810-89f1-e965eeb877a8",
+  "total_cost_usd": 0.040211,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 7340,
+   "cache_read_input_tokens": 22410,
+   "output_tokens": 859,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7340,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 363,
+     "cache_read_input_tokens": 8300,
+     "cache_creation_input_tokens": 73,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 73
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 859,
+    "cacheReadInputTokens": 22410,
+    "cacheCreationInputTokens": 7340,
+    "webSearchRequests": 0,
+    "costUSD": 0.040211,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7340,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#17028\", \"terminal#12199\", \"terminal#20189\"], \"answer\": \"This has been reported before. In terminal#17028 the Browse file picker opened from the profile settings (there it was the icon field) freezes the whole Terminal when you edit the address bar. It was reproduced on Windows 10, and you are on build 19045, which is Windows 10. terminal#12199 and terminal#20189 describe the Browse button hanging Terminal in general. They are treated as duplicates, and 12199 looks like a Windows 10 problem outside Terminal's control. No fix is recorded in these tickets. The suspected cause is that the settings UI's file-picker code is not really asynchronous. Until it is fixed, avoid the Browse dialog. Type or paste the full path (for example, the path to Git's bash.exe) straight into the Command line field in Settings, or edit settings.json directly. If Terminal is already frozen, end it from Task Manager. Upgrading to Windows 11 may also help, since the maintainers could not reproduce the problem there.\"}",
+  "ttft_ms": 1119,
+  "type": "result",
+  "duration_ms": 11647,
+  "uuid": "e6684c61-35f3-4e43-b401-baf56e44164e",
+  "ttft_stream_ms": 547,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 547,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 859,
+    "cacheReadInputTokens": 22410,
+    "cacheCreationInputTokens": 7340,
+    "webSearchRequests": 0,
+    "costUSD": 0.040211,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7340,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.143449827010045,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-eupthac2/work"
+  }
+ },
+ "wall_seconds": 13.146180246025324,
+ "qid": "terminal#20426",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#17028",
+   "terminal#12199",
+   "terminal#20189"
+  ],
+  "answer": "This has been reported before. In terminal#17028 the Browse file picker opened from the profile settings (there it was the icon field) freezes the whole Terminal when you edit the address bar. It was reproduced on Windows 10, and you are on build 19045, which is Windows 10. terminal#12199 and terminal#20189 describe the Browse button hanging Terminal in general. They are treated as duplicates, and 12199 looks like a Windows 10 problem outside Terminal's control. No fix is recorded in these tickets. The suspected cause is that the settings UI's file-picker code is not really asynchronous. Until it is fixed, avoid the Browse dialog. Type or paste the full path (for example, the path to Git's bash.exe) straight into the Command line field in Settings, or edit settings.json directly. If Terminal is already frozen, end it from Task Manager. Upgrading to Windows 11 may also help, since the maintainers could not reproduce the problem there."
+ },
+ "hit_turn_cap": false
+}

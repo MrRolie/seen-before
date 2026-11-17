@@ -1,0 +1,337 @@
+{
+ "shown": [
+  "PowerToys#10636",
+  "PowerToys#13308",
+  "PowerToys#1488",
+  "PowerToys#16633",
+  "PowerToys#21088",
+  "PowerToys#21654",
+  "PowerToys#22416",
+  "PowerToys#23157",
+  "PowerToys#23952",
+  "PowerToys#25174",
+  "PowerToys#25179",
+  "PowerToys#26977",
+  "PowerToys#27457",
+  "PowerToys#2774",
+  "PowerToys#279",
+  "PowerToys#31147",
+  "PowerToys#32100",
+  "PowerToys#35589",
+  "PowerToys#38364",
+  "PowerToys#41111",
+  "PowerToys#41322",
+  "PowerToys#43464",
+  "PowerToys#46273",
+  "PowerToys#47571",
+  "PowerToys#47720",
+  "PowerToys#5021",
+  "PowerToys#6080",
+  "PowerToys#972",
+  "PowerToys#9936"
+ ],
+ "retrieval_seconds": 0.17633499001385644,
+ "tool_calls": [
+  {
+   "t": 1794883748.9649067,
+   "tool": "search",
+   "args": {
+    "pattern": "share region of screen",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05239568999968469,
+   "returned": []
+  },
+  {
+   "t": 1794883749.7040222,
+   "tool": "search",
+   "args": {
+    "pattern": "virtual monitor",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06691847799811512,
+   "returned": [
+    "PowerToys#279",
+    "PowerToys#2774",
+    "PowerToys#16633",
+    "PowerToys#41322",
+    "PowerToys#47571",
+    "PowerToys#38364",
+    "PowerToys#21654",
+    "PowerToys#1488",
+    "PowerToys#41111",
+    "PowerToys#13308",
+    "PowerToys#10636",
+    "PowerToys#9936",
+    "PowerToys#6080",
+    "PowerToys#5021",
+    "PowerToys#972",
+    "PowerToys#31147",
+    "PowerToys#27457",
+    "PowerToys#26977",
+    "PowerToys#25174",
+    "PowerToys#23952"
+   ]
+  },
+  {
+   "t": 1794883751.1439576,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#2774"
+   },
+   "seconds": 0.00016343602328561246,
+   "returned": [
+    "PowerToys#2774"
+   ]
+  },
+  {
+   "t": 1794883751.2566884,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#13308"
+   },
+   "seconds": 0.00010787698556669056,
+   "returned": [
+    "PowerToys#13308"
+   ]
+  },
+  {
+   "t": 1794883751.46374,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#31147"
+   },
+   "seconds": 0.0001527259883005172,
+   "returned": [
+    "PowerToys#31147"
+   ]
+  },
+  {
+   "t": 1794883752.7160254,
+   "tool": "search",
+   "args": {
+    "pattern": "RegionToShare",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0564672370092012,
+   "returned": [
+    "PowerToys#279",
+    "PowerToys#43464",
+    "PowerToys#35589",
+    "PowerToys#25179",
+    "PowerToys#23157",
+    "PowerToys#21088",
+    "PowerToys#2774",
+    "PowerToys#47720",
+    "PowerToys#46273",
+    "PowerToys#32100",
+    "PowerToys#31147",
+    "PowerToys#22416",
+    "PowerToys#13308"
+   ]
+  },
+  {
+   "t": 1794883754.5101802,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43464"
+   },
+   "seconds": 0.000129546009702608,
+   "returned": [
+    "PowerToys#43464"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10054,
+  "stop_reason": "end_turn",
+  "session_id": "22f3ecca-0274-45a3-8573-b4a6cb65c0a8",
+  "total_cost_usd": 0.0681727,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 13549,
+   "cache_read_input_tokens": 35667,
+   "output_tokens": 1039,
+   "output_tokens_details": {
+    "thinking_tokens": 66
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13549,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 366,
+     "cache_read_input_tokens": 14367,
+     "cache_creation_input_tokens": 359,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 359
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1039,
+    "cacheReadInputTokens": 35667,
+    "cacheCreationInputTokens": 13549,
+    "webSearchRequests": 0,
+    "costUSD": 0.0681727,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 66,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13549,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#2774\", \"PowerToys#22416\", \"PowerToys#43464\"], \"answer\": \"This feature has been requested before, so it isn't new. The request is to share a region or zone of a large monitor in Teams. PowerToys doesn't have it yet. The FancyZones \\\"virtual monitor\\\" idea (PowerToys#279) is the issue the team uses to track it, and that issue is still open. In the meantime, the past tickets suggest free third-party tools. The most mentioned is RegionToShare (github.com/[user]/RegionToShare, also in the Microsoft Store). It publishes a region of your screen as a window that Teams can share. You can place that window in a FancyZones zone so it snaps to the right size, then swap apps in and out underneath it. PortionOfScreen and Ultra Wide Screen Share 2.0 are alternatives. You can also upvote the Teams feedback request for sharing a custom area of the screen. Please add a +1 to PowerToys#2774 or PowerToys#43464 rather than opening a new request.\"}",
+  "ttft_ms": 1328,
+  "type": "result",
+  "duration_ms": 10254,
+  "uuid": "d2f8a460-17dc-40b4-b77e-0500d4abe007",
+  "ttft_stream_ms": 998,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 998,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1039,
+    "cacheReadInputTokens": 35667,
+    "cacheCreationInputTokens": 13549,
+    "webSearchRequests": 0,
+    "costUSD": 0.0681727,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 66,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13549,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.564985960023478,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-m3gs44bn/work"
+  }
+ },
+ "wall_seconds": 11.567216067021945,
+ "qid": "PowerToys#51021",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#2774",
+   "PowerToys#22416",
+   "PowerToys#43464"
+  ],
+  "answer": "This feature has been requested before, so it isn't new. The request is to share a region or zone of a large monitor in Teams. PowerToys doesn't have it yet. The FancyZones \"virtual monitor\" idea (PowerToys#279) is the issue the team uses to track it, and that issue is still open. In the meantime, the past tickets suggest free third-party tools. The most mentioned is RegionToShare (github.com/[user]/RegionToShare, also in the Microsoft Store). It publishes a region of your screen as a window that Teams can share. You can place that window in a FancyZones zone so it snaps to the right size, then swap apps in and out underneath it. PortionOfScreen and Ultra Wide Screen Share 2.0 are alternatives. You can also upvote the Teams feedback request for sharing a custom area of the screen. Please add a +1 to PowerToys#2774 or PowerToys#43464 rather than opening a new request."
+ },
+ "hit_turn_cap": false
+}

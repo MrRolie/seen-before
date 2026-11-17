@@ -1,0 +1,193 @@
+{
+ "shown": [
+  "terminal#18726",
+  "terminal#625",
+  "terminal#11400",
+  "terminal#9167",
+  "terminal#17919"
+ ],
+ "retrieval_seconds": 0.47514975399826653,
+ "retrieval_scores": [
+  0.02844163539403516,
+  0.0246415770609319,
+  0.024422933730454205,
+  0.024325827078120657,
+  0.022604422604422605
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 6756,
+  "stop_reason": "end_turn",
+  "session_id": "64c17ea4-13be-4ea4-9520-d4709445ff9b",
+  "total_cost_usd": 0.024596,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4543,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 642,
+   "output_tokens_details": {
+    "thinking_tokens": 358
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4543,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 642,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4543,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4543
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 642,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4543,
+    "webSearchRequests": 0,
+    "costUSD": 0.024596,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 358,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4543,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#9167\"], \"answer\": \"This looks like a known limitation, not a new bug. In terminal#9167 a user saw the same thing: after saving from the settings UI, the order of things in settings.json was lost. The maintainers closed it as a duplicate of the umbrella issue #8991, because Terminal has no good in-place editing for the settings file. On every save it re-serializes the whole document, so keys such as actions and keybindings can move and comments can be lost. The tickets I was shown give no fix or workaround, so I can't promise one. Please follow #8991 for progress. In the meantime, expect the file to be rewritten whenever settings are saved, for example when you add a shortcut in the UI. To keep diffs readable, compare the files after a normalizing step, or save once to get the new order and commit that as your baseline.\"}",
+  "ttft_ms": 4503,
+  "type": "result",
+  "duration_ms": 6983,
+  "uuid": "2766179b-7484-440f-8396-702ccd4425a2",
+  "ttft_stream_ms": 1404,
+  "time_to_request_ms": 222,
+  "first_content_frame_ms": 1404,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 642,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4543,
+    "webSearchRequests": 0,
+    "costUSD": 0.024596,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 358,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4543,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 7.705812932981644,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-_5r434ar/work"
+  }
+ },
+ "wall_seconds": 8.183687304990599,
+ "qid": "terminal#20661",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#9167"
+  ],
+  "answer": "This looks like a known limitation, not a new bug. In terminal#9167 a user saw the same thing: after saving from the settings UI, the order of things in settings.json was lost. The maintainers closed it as a duplicate of the umbrella issue #8991, because Terminal has no good in-place editing for the settings file. On every save it re-serializes the whole document, so keys such as actions and keybindings can move and comments can be lost. The tickets I was shown give no fix or workaround, so I can't promise one. Please follow #8991 for progress. In the meantime, expect the file to be rewritten whenever settings are saved, for example when you add a shortcut in the UI. To keep diffs readable, compare the files after a normalizing step, or save once to get the new order and commit that as your baseline."
+ },
+ "hit_turn_cap": false
+}

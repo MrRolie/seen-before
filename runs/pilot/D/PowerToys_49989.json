@@ -1,0 +1,290 @@
+{
+ "shown": [
+  "PowerToys#10685",
+  "PowerToys#15376",
+  "PowerToys#21850",
+  "PowerToys#25034",
+  "PowerToys#27991",
+  "PowerToys#3079",
+  "PowerToys#31173",
+  "PowerToys#32164",
+  "PowerToys#3227",
+  "PowerToys#3294",
+  "PowerToys#3546",
+  "PowerToys#3628",
+  "PowerToys#3727",
+  "PowerToys#38837",
+  "PowerToys#40966",
+  "PowerToys#44306",
+  "PowerToys#4630",
+  "PowerToys#4714",
+  "PowerToys#4728",
+  "PowerToys#7007",
+  "PowerToys#8198"
+ ],
+ "retrieval_seconds": 3.5749554279609583,
+ "tool_calls": [
+  {
+   "t": 1794876543.228683,
+   "tool": "similar",
+   "args": {
+    "query": "Keyboard Manager remap alt+tab to disabled still works when holding alt+tab and pressing another key",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.574289904005127,
+   "returned": [
+    "PowerToys#38837",
+    "PowerToys#3227",
+    "PowerToys#15376",
+    "PowerToys#4728",
+    "PowerToys#3546",
+    "PowerToys#27991",
+    "PowerToys#3727",
+    "PowerToys#40966",
+    "PowerToys#4714",
+    "PowerToys#3079",
+    "PowerToys#3628",
+    "PowerToys#32164",
+    "PowerToys#7007",
+    "PowerToys#10685",
+    "PowerToys#31173",
+    "PowerToys#3294",
+    "PowerToys#44306",
+    "PowerToys#25034",
+    "PowerToys#8198",
+    "PowerToys#4630"
+   ]
+  },
+  {
+   "t": 1794876544.3376882,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44306"
+   },
+   "seconds": 0.00016026597586460412,
+   "returned": [
+    "PowerToys#44306"
+   ]
+  },
+  {
+   "t": 1794876544.5779793,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#25034"
+   },
+   "seconds": 0.00020242499886080623,
+   "returned": [
+    "PowerToys#25034"
+   ]
+  },
+  {
+   "t": 1794876544.7540812,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32164"
+   },
+   "seconds": 0.0001406869851052761,
+   "returned": [
+    "PowerToys#32164"
+   ]
+  },
+  {
+   "t": 1794876545.5872934,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21850"
+   },
+   "seconds": 0.00016214599600061774,
+   "returned": [
+    "PowerToys#21850"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8577,
+  "stop_reason": "end_turn",
+  "session_id": "954ebd0e-88d0-47ff-b2a1-20a444de652e",
+  "total_cost_usd": 0.0404596,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 7878,
+   "cache_read_input_tokens": 15316,
+   "output_tokens": 740,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7878,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 285,
+     "cache_read_input_tokens": 8165,
+     "cache_creation_input_tokens": 1126,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1126
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 740,
+    "cacheReadInputTokens": 15316,
+    "cacheCreationInputTokens": 7878,
+    "webSearchRequests": 0,
+    "costUSD": 0.0404596,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7878,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#44306\", \"PowerToys#25034\", \"PowerToys#21850\"], \"answer\": \"This has been reported before. Keyboard Manager only blocks the exact shortcut you remap. If you hold Alt+Tab and press a third key such as W, the combination no longer matches the remap, so Windows handles it and the Alt+Tab switcher opens. The maintainers say this is by design. The related duplicate tickets were closed in favor of the open feature request #21850, which asks for an option to block or allow fallthrough for these combinations. As a workaround, add a separate Disabled remap for each specific combination you want blocked, for example Alt+W+Tab. Keyboard Manager supports only a limited number of keys per shortcut, so this can't cover every combination. You can also add your thumbs-up to #21850.\"}",
+  "ttft_ms": 1868,
+  "type": "result",
+  "duration_ms": 11765,
+  "uuid": "00fea070-acbb-4a63-a823-515b701a0c70",
+  "ttft_stream_ms": 1196,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 1196,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 740,
+    "cacheReadInputTokens": 15316,
+    "cacheCreationInputTokens": 7878,
+    "webSearchRequests": 0,
+    "costUSD": 0.0404596,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7878,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.184647468006006,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-vxzt6lgt/work"
+  }
+ },
+ "wall_seconds": 13.186663536995184,
+ "qid": "PowerToys#49989",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#44306",
+   "PowerToys#25034",
+   "PowerToys#21850"
+  ],
+  "answer": "This has been reported before. Keyboard Manager only blocks the exact shortcut you remap. If you hold Alt+Tab and press a third key such as W, the combination no longer matches the remap, so Windows handles it and the Alt+Tab switcher opens. The maintainers say this is by design. The related duplicate tickets were closed in favor of the open feature request #21850, which asks for an option to block or allow fallthrough for these combinations. As a workaround, add a separate Disabled remap for each specific combination you want blocked, for example Alt+W+Tab. Keyboard Manager supports only a limited number of keys per shortcut, so this can't cover every combination. You can also add your thumbs-up to #21850."
+ },
+ "hit_turn_cap": false
+}

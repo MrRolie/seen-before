@@ -1,0 +1,193 @@
+{
+ "shown": [
+  "PowerToys#26",
+  "WSL#13982",
+  "PowerToys#47594",
+  "PowerToys#37161",
+  "PowerToys#16346"
+ ],
+ "retrieval_seconds": 0.4076527739816811,
+ "retrieval_scores": [
+  0.030303030303030304,
+  0.026988636363636364,
+  0.026399331662489554,
+  0.025155279503105588,
+  0.02402745995423341
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2834,
+  "stop_reason": "end_turn",
+  "session_id": "c55b014b-6b73-497d-98f7-e5ac6ee98f37",
+  "total_cost_usd": 0.047282000000000005,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 11067,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 301,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11067,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 301,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 11067,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 11067
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 301,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 11067,
+    "webSearchRequests": 0,
+    "costUSD": 0.047282000000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11067,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#26\"], \"answer\": \"A closely related request has been filed before: PowerToys#26 asks for a Robocopy-like or SyncToy-style sync tool in PowerToys, in particular a friendly GUI so non-technical users don't have to use the Robocopy command line. That ticket doesn't describe your exact proposal (Explorer context-menu 'RoboCopy/RoboPaste' with multithread options), and it has no resolution or shipped feature. The team's only response there was that Robocopy is already built into Windows and the real ask was SyncToy. For now, you can run robocopy.exe directly (e.g. robocopy \\\"C:\\\\Source\\\" \\\"Z:\\\\Dest\\\" /MT:16) or use a third-party Robocopy GUI. Add your use case and the details to PowerToys#26 and upvote it so it can be tracked.\"}",
+  "ttft_ms": 2997,
+  "type": "result",
+  "duration_ms": 3013,
+  "uuid": "7869f18c-0eec-49b7-a534-f15c2227e26d",
+  "ttft_stream_ms": 786,
+  "time_to_request_ms": 177,
+  "first_content_frame_ms": 786,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 301,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 11067,
+    "webSearchRequests": 0,
+    "costUSD": 0.047282000000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11067,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.8811690199945588,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-3p718ltz/work"
+  }
+ },
+ "wall_seconds": 4.290568853000877,
+ "qid": "PowerToys#50746",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#26"
+  ],
+  "answer": "A closely related request has been filed before: PowerToys#26 asks for a Robocopy-like or SyncToy-style sync tool in PowerToys, in particular a friendly GUI so non-technical users don't have to use the Robocopy command line. That ticket doesn't describe your exact proposal (Explorer context-menu 'RoboCopy/RoboPaste' with multithread options), and it has no resolution or shipped feature. The team's only response there was that Robocopy is already built into Windows and the real ask was SyncToy. For now, you can run robocopy.exe directly (e.g. robocopy \"C:\\Source\" \"Z:\\Dest\" /MT:16) or use a third-party Robocopy GUI. Add your use case and the details to PowerToys#26 and upvote it so it can be tracked."
+ },
+ "hit_turn_cap": false
+}

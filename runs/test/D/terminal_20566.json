@@ -1,0 +1,336 @@
+{
+ "shown": [
+  "terminal#11025",
+  "terminal#1312",
+  "terminal#1380",
+  "terminal#13978",
+  "terminal#14104",
+  "terminal#14110",
+  "terminal#1549",
+  "terminal#15526",
+  "terminal#15576",
+  "terminal#15583",
+  "terminal#15689",
+  "terminal#16326",
+  "terminal#17076",
+  "terminal#18947",
+  "terminal#19269",
+  "terminal#19270",
+  "terminal#19336",
+  "terminal#19349",
+  "terminal#19482",
+  "terminal#19483",
+  "terminal#19492",
+  "terminal#19667",
+  "terminal#19751",
+  "terminal#2000",
+  "terminal#20341",
+  "terminal#2183",
+  "terminal#2537",
+  "terminal#2570",
+  "terminal#2947",
+  "terminal#2986",
+  "terminal#3381",
+  "terminal#3713",
+  "terminal#4613",
+  "terminal#4906",
+  "terminal#5722",
+  "terminal#6444",
+  "terminal#6446",
+  "terminal#6996",
+  "terminal#7553",
+  "terminal#9074",
+  "terminal#950"
+ ],
+ "retrieval_seconds": 3.8905540989653673,
+ "tool_calls": [
+  {
+   "t": 1794880900.1603355,
+   "tool": "search",
+   "args": {
+    "pattern": "0xc000027b",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.022923033975530416,
+   "returned": [
+    "terminal#14104",
+    "terminal#19482",
+    "terminal#16326",
+    "terminal#15583",
+    "terminal#11025",
+    "terminal#7553",
+    "terminal#2570",
+    "terminal#19492",
+    "terminal#19270",
+    "terminal#15689",
+    "terminal#15576",
+    "terminal#15526",
+    "terminal#14110",
+    "terminal#2183",
+    "terminal#19751",
+    "terminal#19667",
+    "terminal#19483",
+    "terminal#19336",
+    "terminal#19269",
+    "terminal#18947"
+   ]
+  },
+  {
+   "t": 1794880904.6532018,
+   "tool": "similar",
+   "args": {
+    "query": "Terminal crashes when clicking mouse to select text, Windows.UI.Xaml.dll fault, window maximized, left edge",
+    "repo": "terminal"
+   },
+   "seconds": 3.8136300640180707,
+   "returned": [
+    "terminal#6446",
+    "terminal#1312",
+    "terminal#17076",
+    "terminal#3713",
+    "terminal#2947",
+    "terminal#3381",
+    "terminal#4906",
+    "terminal#950",
+    "terminal#1549",
+    "terminal#6444",
+    "terminal#6996",
+    "terminal#20341",
+    "terminal#2000",
+    "terminal#2986",
+    "terminal#9074",
+    "terminal#1380",
+    "terminal#2537",
+    "terminal#4613",
+    "terminal#13978",
+    "terminal#5722"
+   ]
+  },
+  {
+   "t": 1794880906.8361044,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19667"
+   },
+   "seconds": 0.00020351598504930735,
+   "returned": [
+    "terminal#19667"
+   ]
+  },
+  {
+   "t": 1794880908.6998682,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#5722"
+   },
+   "seconds": 0.00015741598326712847,
+   "returned": [
+    "terminal#5722"
+   ]
+  },
+  {
+   "t": 1794880911.9309623,
+   "tool": "search",
+   "args": {
+    "pattern": "Windows.UI.Xaml.dll",
+    "regex": false,
+    "also": [
+     "1.24.2682.0"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.05364006900344975,
+   "returned": [
+    "terminal#19667",
+    "terminal#19349"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12326,
+  "stop_reason": "end_turn",
+  "session_id": "70e09e7c-9080-4bbc-a529-c7b282ee1dfb",
+  "total_cost_usd": 0.0641449,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 12014,
+   "cache_read_input_tokens": 47649,
+   "output_tokens": 1130,
+   "output_tokens_details": {
+    "thinking_tokens": 165
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12014,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 374,
+     "cache_read_input_tokens": 12847,
+     "cache_creation_input_tokens": 580,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 580
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1130,
+    "cacheReadInputTokens": 47649,
+    "cacheCreationInputTokens": 12014,
+    "webSearchRequests": 0,
+    "costUSD": 0.0641449,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 165,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12014,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#19667\"], \"answer\": \"This looks like the same crash as terminal#19667. In that ticket, Terminal 1.24.2682.0 crashed with 0xc000027b in Windows.UI.Xaml.dll when the user clicked in the padding outside the text area, which is where your click lands at the far left edge of a maximized window. The ticket I could read shows no fix or workaround. Until a fix ships, avoid pressing the mouse button in the padding at the window edge. Start the drag from inside the text area, a few pixels in from the edge. Check for a newer Terminal or Terminal Preview build. If it still crashes, add your Report Id and repro steps to terminal#19667. I couldn't see the end of that ticket, so I can't confirm whether it was resolved. The older ticket terminal#5722 covers a different problem: selection not starting from the leftmost pixel.\"}",
+  "ttft_ms": 933,
+  "type": "result",
+  "duration_ms": 16277,
+  "uuid": "4b4a5dca-a9d4-4675-9e1e-8a05ac4fe013",
+  "ttft_stream_ms": 579,
+  "time_to_request_ms": 51,
+  "first_content_frame_ms": 580,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1130,
+    "cacheReadInputTokens": 47649,
+    "cacheCreationInputTokens": 12014,
+    "webSearchRequests": 0,
+    "costUSD": 0.0641449,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 165,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12014,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 17.694051416008733,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-uol_v_8j/work"
+  }
+ },
+ "wall_seconds": 17.695861493004486,
+ "qid": "terminal#20566",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#19667"
+  ],
+  "answer": "This looks like the same crash as terminal#19667. In that ticket, Terminal 1.24.2682.0 crashed with 0xc000027b in Windows.UI.Xaml.dll when the user clicked in the padding outside the text area, which is where your click lands at the far left edge of a maximized window. The ticket I could read shows no fix or workaround. Until a fix ships, avoid pressing the mouse button in the padding at the window edge. Start the drag from inside the text area, a few pixels in from the edge. Check for a newer Terminal or Terminal Preview build. If it still crashes, add your Report Id and repro steps to terminal#19667. I couldn't see the end of that ticket, so I can't confirm whether it was resolved. The older ticket terminal#5722 covers a different problem: selection not starting from the leftmost pixel."
+ },
+ "hit_turn_cap": false
+}

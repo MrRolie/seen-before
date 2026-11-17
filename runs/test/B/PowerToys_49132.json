@@ -1,0 +1,288 @@
+{
+ "shown": [
+  "PowerToys#10414",
+  "PowerToys#10927",
+  "PowerToys#11019",
+  "PowerToys#12063",
+  "PowerToys#12138",
+  "PowerToys#12146",
+  "PowerToys#13319",
+  "PowerToys#14058",
+  "PowerToys#16467",
+  "PowerToys#28769",
+  "PowerToys#38389",
+  "PowerToys#38462",
+  "PowerToys#38487",
+  "PowerToys#38593",
+  "PowerToys#38665",
+  "PowerToys#40547"
+ ],
+ "retrieval_seconds": 0.35126956502790563,
+ "tool_calls": [
+  {
+   "t": 1794877616.5324516,
+   "tool": "search",
+   "args": {
+    "pattern": "System Commands",
+    "regex": false,
+    "also": [
+     "English"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.14510836300905794,
+   "returned": [
+    "PowerToys#12063",
+    "PowerToys#38462",
+    "PowerToys#16467",
+    "PowerToys#10414",
+    "PowerToys#38665",
+    "PowerToys#38593",
+    "PowerToys#14058",
+    "PowerToys#11019",
+    "PowerToys#13319",
+    "PowerToys#12146",
+    "PowerToys#12138",
+    "PowerToys#10927"
+   ]
+  },
+  {
+   "t": 1794877616.7495077,
+   "tool": "search",
+   "args": {
+    "pattern": "localized",
+    "regex": false,
+    "also": [
+     "CmdPal",
+     "search"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.20568491599988192,
+   "returned": [
+    "PowerToys#40547",
+    "PowerToys#38487",
+    "PowerToys#38389",
+    "PowerToys#28769"
+   ]
+  },
+  {
+   "t": 1794877618.2326608,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38593"
+   },
+   "seconds": 0.0001640350092202425,
+   "returned": [
+    "PowerToys#38593"
+   ]
+  },
+  {
+   "t": 1794877618.4057531,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38665"
+   },
+   "seconds": 0.00020837399642914534,
+   "returned": [
+    "PowerToys#38665"
+   ]
+  },
+  {
+   "t": 1794877620.1409574,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38462"
+   },
+   "seconds": 0.000103877013316378,
+   "returned": [
+    "PowerToys#38462"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7984,
+  "stop_reason": "end_turn",
+  "session_id": "54f6ac3f-0ca5-4d9d-864e-c3ed1ac85954",
+  "total_cost_usd": 0.0392976,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 7929,
+   "cache_read_input_tokens": 14056,
+   "output_tokens": 616,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7929,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 210,
+     "cache_read_input_tokens": 6263,
+     "cache_creation_input_tokens": 2843,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2843
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 616,
+    "cacheReadInputTokens": 14056,
+    "cacheCreationInputTokens": 7929,
+    "webSearchRequests": 0,
+    "costUSD": 0.0392976,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7929,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#38593\", \"PowerToys#38665\"], \"answer\": \"This has been requested before. PowerToys#38593 asks for an option to use English system command names in Command Palette, like PowerToys Run has. PowerToys#38665 asks for the same thing and was closed as a duplicate of #38593. Your request, to also match by English keywords while keeping localized names, is a variant of that same ask. There is no setting for it yet in the archived tickets. Follow #38593 and add your use case there (typing 'restart' to match '再起動' without switching IME). Until then, type the localized command name.\"}",
+  "ttft_ms": 2216,
+  "type": "result",
+  "duration_ms": 8412,
+  "uuid": "5e019216-425c-4e00-97ef-4493924186cc",
+  "ttft_stream_ms": 1165,
+  "time_to_request_ms": 27,
+  "first_content_frame_ms": 1165,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 616,
+    "cacheReadInputTokens": 14056,
+    "cacheCreationInputTokens": 7929,
+    "webSearchRequests": 0,
+    "costUSD": 0.0392976,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7929,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 9.740826090011979,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-s5tjn158/work"
+  }
+ },
+ "wall_seconds": 9.743245537014445,
+ "qid": "PowerToys#49132",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#38593",
+   "PowerToys#38665"
+  ],
+  "answer": "This has been requested before. PowerToys#38593 asks for an option to use English system command names in Command Palette, like PowerToys Run has. PowerToys#38665 asks for the same thing and was closed as a duplicate of #38593. Your request, to also match by English keywords while keeping localized names, is a variant of that same ask. There is no setting for it yet in the archived tickets. Follow #38593 and add your use case there (typing 'restart' to match '再起動' without switching IME). Until then, type the localized command name."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,300 @@
+{
+ "shown": [
+  "PowerToys#10008",
+  "PowerToys#10138",
+  "PowerToys#1590",
+  "PowerToys#16783",
+  "PowerToys#17320",
+  "PowerToys#2239",
+  "PowerToys#2448",
+  "PowerToys#29891",
+  "PowerToys#31674",
+  "PowerToys#3183",
+  "PowerToys#36116",
+  "PowerToys#38202",
+  "PowerToys#38294",
+  "PowerToys#38330",
+  "PowerToys#38346",
+  "PowerToys#38704",
+  "PowerToys#38713",
+  "PowerToys#3893",
+  "PowerToys#39091",
+  "PowerToys#39092",
+  "PowerToys#39166",
+  "PowerToys#39352",
+  "PowerToys#40102",
+  "PowerToys#40668",
+  "PowerToys#43976",
+  "PowerToys#4497",
+  "PowerToys#4509",
+  "PowerToys#45776",
+  "PowerToys#4616",
+  "PowerToys#48833",
+  "PowerToys#5056",
+  "PowerToys#5261",
+  "PowerToys#6081",
+  "PowerToys#6278",
+  "PowerToys#6587",
+  "PowerToys#6954",
+  "PowerToys#9139",
+  "PowerToys#9284"
+ ],
+ "retrieval_seconds": 3.848345676989993,
+ "tool_calls": [
+  {
+   "t": 1794883840.3060977,
+   "tool": "search",
+   "args": {
+    "query": "RunPageTests TestListFilesEnvVar fails empty result list parsing deadline",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.8332876909989864,
+   "returned": [
+    "PowerToys#6954",
+    "PowerToys#38202",
+    "PowerToys#17320",
+    "PowerToys#3183",
+    "PowerToys#31674",
+    "PowerToys#9284",
+    "PowerToys#3893",
+    "PowerToys#40668",
+    "PowerToys#38294",
+    "PowerToys#6587",
+    "PowerToys#9139",
+    "PowerToys#38330",
+    "PowerToys#10138",
+    "PowerToys#5261",
+    "PowerToys#6081",
+    "PowerToys#5056",
+    "PowerToys#16783",
+    "PowerToys#1590",
+    "PowerToys#36116",
+    "PowerToys#6278"
+   ]
+  },
+  {
+   "t": 1794883840.334285,
+   "tool": "search",
+   "args": {
+    "query": "CmdPal Run page flaky test environment variable RunHistory.ParseCommandline 200 ms",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014950768993003294,
+   "returned": [
+    "PowerToys#38713",
+    "PowerToys#39092",
+    "PowerToys#39166",
+    "PowerToys#38202",
+    "PowerToys#48833",
+    "PowerToys#38704",
+    "PowerToys#45776",
+    "PowerToys#38346",
+    "PowerToys#40102",
+    "PowerToys#4497",
+    "PowerToys#43976",
+    "PowerToys#4616",
+    "PowerToys#29891",
+    "PowerToys#10008",
+    "PowerToys#39352",
+    "PowerToys#39091",
+    "PowerToys#3183",
+    "PowerToys#2448",
+    "PowerToys#4509",
+    "PowerToys#2239"
+   ]
+  },
+  {
+   "t": 1794883842.0957325,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43976"
+   },
+   "seconds": 0.00010721699800342321,
+   "returned": [
+    "PowerToys#43976"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7140,
+  "stop_reason": "end_turn",
+  "session_id": "0d675415-fabe-4d0a-9823-9d777234aa41",
+  "total_cost_usd": 0.0216667,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 3851,
+   "cache_read_input_tokens": 7207,
+   "output_tokens": 553,
+   "output_tokens_details": {
+    "thinking_tokens": 11
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3851,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 267,
+     "cache_read_input_tokens": 4399,
+     "cache_creation_input_tokens": 485,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 485
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 553,
+    "cacheReadInputTokens": 7207,
+    "cacheCreationInputTokens": 3851,
+    "webSearchRequests": 0,
+    "costUSD": 0.0216667,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 11,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3851,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 4,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket about RunPageTests.TestListFilesEnvVar returning zero items. The closest one, PowerToys#43976, is about different CmdPal Shell tests failing in CI (QueryWithoutHistoryCommand), so it isn't a match. Treat this as a new issue. The likely cause is the one in your report. The test's IRunHistoryService mock calls the real RunHistory.ParseCommandline, so on a slow CI machine the call can pass RunListPage's 200 ms parsing deadline and the page returns no items. To stabilize the test, make the mock return deterministic results without calling the real parser, or inject a longer deadline for tests. Either change removes the timing dependency.\"}",
+  "ttft_ms": 2435,
+  "type": "result",
+  "duration_ms": 11051,
+  "uuid": "958cb423-5dea-4c34-a90d-743658d7b6a4",
+  "ttft_stream_ms": 1229,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 1229,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 553,
+    "cacheReadInputTokens": 7207,
+    "cacheCreationInputTokens": 3851,
+    "webSearchRequests": 0,
+    "costUSD": 0.0216667,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 11,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3851,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.423340104025556,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ojwn4io7/work"
+  }
+ },
+ "wall_seconds": 12.425778797012754,
+ "qid": "PowerToys#51042",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket about RunPageTests.TestListFilesEnvVar returning zero items. The closest one, PowerToys#43976, is about different CmdPal Shell tests failing in CI (QueryWithoutHistoryCommand), so it isn't a match. Treat this as a new issue. The likely cause is the one in your report. The test's IRunHistoryService mock calls the real RunHistory.ParseCommandline, so on a slow CI machine the call can pass RunListPage's 200 ms parsing deadline and the page returns no items. To stabilize the test, make the mock return deterministic results without calling the real parser, or inject a longer deadline for tests. Either change removes the timing dependency."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#31606",
+  "PowerToys#25519",
+  "PowerToys#37013",
+  "PowerToys#43278",
+  "PowerToys#35031"
+ ],
+ "retrieval_seconds": 0.37832687198533677,
+ "retrieval_scores": [
+  0.031544957774465976,
+  0.03125,
+  0.029877369007803793,
+  0.028665028665028666,
+  0.028370221327967807
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 5584,
+  "stop_reason": "end_turn",
+  "session_id": "1306a3ff-b3c1-43a8-9ae3-3667311df31b",
+  "total_cost_usd": 0.020582,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3657,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 595,
+   "output_tokens_details": {
+    "thinking_tokens": 343
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3657,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 595,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3657,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3657
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 595,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3657,
+    "webSearchRequests": 0,
+    "costUSD": 0.020582,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 343,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3657,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"No past ticket asks for this exact thing. The related tickets (PowerToys#31606, #25519, #37013, #43278, #35031) all ask for opacity as part of Always On Top, so the whole window becomes transparent and not just the border. Yours asks for opacity that works without Always On Top, which none of them cover. Several of those tickets were closed as duplicates of the general window-transparency requests #28072 and #1084. I wasn't shown those two, so I can't confirm what they say. Please file this as a new feature request, and also check and upvote those two threads. In the meantime, a third-party tool such as AutoHotkey (WinSetTransparent) can set the transparency of any window without pinning it on top.\"}",
+  "ttft_ms": 3805,
+  "type": "result",
+  "duration_ms": 5754,
+  "uuid": "4596b8d1-6a50-481e-ae82-48830048f36b",
+  "ttft_stream_ms": 1067,
+  "time_to_request_ms": 169,
+  "first_content_frame_ms": 1068,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 595,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3657,
+    "webSearchRequests": 0,
+    "costUSD": 0.020582,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 343,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3657,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 6.464865713991458,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-g2d1nh8u/work"
+  }
+ },
+ "wall_seconds": 6.845559641980799,
+ "qid": "PowerToys#51802",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "No past ticket asks for this exact thing. The related tickets (PowerToys#31606, #25519, #37013, #43278, #35031) all ask for opacity as part of Always On Top, so the whole window becomes transparent and not just the border. Yours asks for opacity that works without Always On Top, which none of them cover. Several of those tickets were closed as duplicates of the general window-transparency requests #28072 and #1084. I wasn't shown those two, so I can't confirm what they say. Please file this as a new feature request, and also check and upvote those two threads. In the meantime, a third-party tool such as AutoHotkey (WinSetTransparent) can set the transparency of any window without pinning it on top."
+ },
+ "hit_turn_cap": false
+}

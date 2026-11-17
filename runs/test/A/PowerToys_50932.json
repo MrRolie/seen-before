@@ -1,0 +1,194 @@
+{
+ "shown": [
+  "PowerToys#46032",
+  "PowerToys#42677",
+  "PowerToys#36716",
+  "PowerToys#25382",
+  "PowerToys#25815"
+ ],
+ "retrieval_seconds": 0.01891868098755367,
+ "retrieval_scores": [
+  0.7743589878082275,
+  0.6827155947685242,
+  0.6331219673156738,
+  0.6269471049308777,
+  0.618975043296814
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2137,
+  "stop_reason": "end_turn",
+  "session_id": "7d0b2938-4d21-414e-a9dd-2b9eeb01327a",
+  "total_cost_usd": 0.020228,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4506,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 220,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4506,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 220,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4506,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4506
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 220,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4506,
+    "webSearchRequests": 0,
+    "costUSD": 0.020228,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4506,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46032\", \"PowerToys#42677\"], \"answer\": \"This has been reported before: the Quick Access panel opened from the system tray icon shows its text in the Windows display language instead of the language chosen in PowerToys settings (PowerToys#46032, with a similar report for the 'Show system tray icon' setting text in PowerToys#42677). The archived tickets do not describe a fix or a workaround for this. Until it is fixed, the Quick Access text will follow the OS language (Italian in your case). Add your version (0.100.2), your OS details and your screenshots to the existing tickets so the team can track it.\"}",
+  "ttft_ms": 2294,
+  "type": "result",
+  "duration_ms": 2309,
+  "uuid": "7faf970f-144f-4970-9776-c3f56b48ed22",
+  "ttft_stream_ms": 621,
+  "time_to_request_ms": 170,
+  "first_content_frame_ms": 621,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 220,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4506,
+    "webSearchRequests": 0,
+    "costUSD": 0.020228,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4506,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.1044532950036228,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-_ualwx4i/work"
+  }
+ },
+ "wall_seconds": 3.125406039005611,
+ "qid": "PowerToys#50932",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46032",
+   "PowerToys#42677"
+  ],
+  "answer": "This has been reported before: the Quick Access panel opened from the system tray icon shows its text in the Windows display language instead of the language chosen in PowerToys settings (PowerToys#46032, with a similar report for the 'Show system tray icon' setting text in PowerToys#42677). The archived tickets do not describe a fix or a workaround for this. Until it is fixed, the Quick Access text will follow the OS language (Italian in your case). Add your version (0.100.2), your OS details and your screenshots to the existing tickets so the team can track it."
+ },
+ "hit_turn_cap": false
+}

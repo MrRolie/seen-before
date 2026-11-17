@@ -1,0 +1,348 @@
+{
+ "shown": [
+  "terminal#1000",
+  "terminal#11021",
+  "terminal#11359",
+  "terminal#11920",
+  "terminal#12334",
+  "terminal#13105",
+  "terminal#14865",
+  "terminal#17142",
+  "terminal#17307",
+  "terminal#19010",
+  "terminal#19250",
+  "terminal#4771",
+  "terminal#4878",
+  "terminal#532",
+  "terminal#612",
+  "terminal#6188",
+  "terminal#6298",
+  "terminal#6340",
+  "terminal#6533",
+  "terminal#6586",
+  "terminal#7030",
+  "terminal#7436",
+  "terminal#8405",
+  "terminal#8437",
+  "terminal#8675",
+  "terminal#8746",
+  "terminal#8900",
+  "terminal#8901",
+  "terminal#9579"
+ ],
+ "retrieval_seconds": 3.2470505649980623,
+ "tool_calls": [
+  {
+   "t": 1794880469.200431,
+   "tool": "similar",
+   "args": {
+    "query": "flash of other windows' content behind terminal when splitting panes",
+    "repo": "terminal"
+   },
+   "seconds": 3.173735594988102,
+   "returned": [
+    "terminal#4771",
+    "terminal#11021",
+    "terminal#8437",
+    "terminal#19250",
+    "terminal#6188",
+    "terminal#11359",
+    "terminal#6340",
+    "terminal#7030",
+    "terminal#532",
+    "terminal#6298",
+    "terminal#8675",
+    "terminal#6533",
+    "terminal#612",
+    "terminal#17307",
+    "terminal#1000",
+    "terminal#9579",
+    "terminal#17142",
+    "terminal#11920",
+    "terminal#6586",
+    "terminal#4878"
+   ]
+  },
+  {
+   "t": 1794880470.0201268,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19250"
+   },
+   "seconds": 0.00010865699732676148,
+   "returned": [
+    "terminal#19250"
+   ]
+  },
+  {
+   "t": 1794880470.2803452,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#4771"
+   },
+   "seconds": 0.00012224700185470283,
+   "returned": [
+    "terminal#4771"
+   ]
+  },
+  {
+   "t": 1794880470.5395746,
+   "tool": "search",
+   "args": {
+    "pattern": "Independent Flip",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.022466738999355584,
+   "returned": [
+    "terminal#19010",
+    "terminal#14865"
+   ]
+  },
+  {
+   "t": 1794880471.382875,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#12334"
+   },
+   "seconds": 0.00012212700676172972,
+   "returned": [
+    "terminal#12334"
+   ]
+  },
+  {
+   "t": 1794880473.243792,
+   "tool": "search",
+   "args": {
+    "pattern": "pane animation",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.025679113023215905,
+   "returned": [
+    "terminal#12334",
+    "terminal#8746",
+    "terminal#13105",
+    "terminal#8901",
+    "terminal#8900",
+    "terminal#8405",
+    "terminal#7436",
+    "terminal#1000"
+   ]
+  },
+  {
+   "t": 1794880474.149559,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#13105"
+   },
+   "seconds": 0.00012875697575509548,
+   "returned": [
+    "terminal#13105"
+   ]
+  },
+  {
+   "t": 1794880475.0127547,
+   "tool": "search",
+   "args": {
+    "pattern": "#12334",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.024687330005690455,
+   "returned": [
+    "terminal#19250",
+    "terminal#12334"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10101,
+  "stop_reason": "end_turn",
+  "session_id": "0e39beff-73f5-45d7-a276-f16726b05727",
+  "total_cost_usd": 0.0569836,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 10315,
+   "cache_read_input_tokens": 47516,
+   "output_tokens": 1094,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10315,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 319,
+     "cache_read_input_tokens": 11428,
+     "cache_creation_input_tokens": 300,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 300
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1094,
+    "cacheReadInputTokens": 47516,
+    "cacheCreationInputTokens": 10315,
+    "webSearchRequests": 0,
+    "costUSD": 0.0569836,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10315,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#19250\", \"terminal#12334\"], \"answer\": \"This has been reported before. It is not a DWM/MPO regression, and the Independent Flip discussion (#19010) is a separate topic. Terminal#19250 describes the same thing: content behind the window flashes when a pane is created with Shift+Alt+D. It was closed as a duplicate of terminal#12334, 'The open pane animation background is transparent'. The cause is the pane open animation, where the background is briefly transparent while the new pane animates in. The maintainers said a real fix would need a different UI framework, so don't expect one soon. Follow #12334 for updates. The archive doesn't show a confirmed workaround. The setting 'Disable pane animations' (the `disableAnimations` option) controls pane animations. I'd try it, but I haven't confirmed that it removes the flash. Your PresentMon data is unlikely to change this diagnosis.\"}",
+  "ttft_ms": 952,
+  "type": "result",
+  "duration_ms": 13024,
+  "uuid": "47014f09-523e-4120-88ec-d782bd49551c",
+  "ttft_stream_ms": 552,
+  "time_to_request_ms": 37,
+  "first_content_frame_ms": 553,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1094,
+    "cacheReadInputTokens": 47516,
+    "cacheCreationInputTokens": 10315,
+    "webSearchRequests": 0,
+    "costUSD": 0.0569836,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10315,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.450080021983013,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-kbr5bqmz/work"
+  }
+ },
+ "wall_seconds": 14.451775448018452,
+ "qid": "terminal#20554",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#19250",
+   "terminal#12334"
+  ],
+  "answer": "This has been reported before. It is not a DWM/MPO regression, and the Independent Flip discussion (#19010) is a separate topic. Terminal#19250 describes the same thing: content behind the window flashes when a pane is created with Shift+Alt+D. It was closed as a duplicate of terminal#12334, 'The open pane animation background is transparent'. The cause is the pane open animation, where the background is briefly transparent while the new pane animates in. The maintainers said a real fix would need a different UI framework, so don't expect one soon. Follow #12334 for updates. The archive doesn't show a confirmed workaround. The setting 'Disable pane animations' (the `disableAnimations` option) controls pane animations. I'd try it, but I haven't confirmed that it removes the flash. Your PresentMon data is unlikely to change this diagnosis."
+ },
+ "hit_turn_cap": false
+}

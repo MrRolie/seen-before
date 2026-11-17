@@ -1,0 +1,194 @@
+{
+ "shown": [
+  "terminal#8914",
+  "PowerToys#44739",
+  "PowerToys#45517",
+  "terminal#20364",
+  "terminal#19168"
+ ],
+ "retrieval_seconds": 0.6478770000103395,
+ "retrieval_scores": [
+  0.031544957774465976,
+  0.026973565905412694,
+  0.02638888888888889,
+  0.01639344262295082,
+  0.016129032258064516
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2812,
+  "stop_reason": "end_turn",
+  "session_id": "67816433-c5ca-419d-b40a-22617a0206c0",
+  "total_cost_usd": 0.02416,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5334,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 282,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5334,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 282,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5334,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5334
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 282,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5334,
+    "webSearchRequests": 0,
+    "costUSD": 0.02416,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5334,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#8914\", \"terminal#19168\"], \"answer\": \"Reordering profiles in the Settings UI has already been requested and is tracked in terminal#8914 (terminal#19168 was closed as a duplicate of it). There is no UI for it yet. In the meantime, you can reorder profiles by editing settings.json and rearranging the entries in the `profiles.list` array; that order controls the new-tab dropdown and the ctrl+shift+number shortcuts. You can also rebind the `newTab` action with an explicit `index` to map shortcuts to whichever profile you want. The tickets do not cover reordering extension-provided entries in the dropdown, but the New Tab Menu Customization spec referenced in terminal#8914 is the related design work. Add your use case and a +1 to terminal#8914.\"}",
+  "ttft_ms": 2995,
+  "type": "result",
+  "duration_ms": 3013,
+  "uuid": "e6578694-ad71-44e3-9693-97a6c6a89a88",
+  "ttft_stream_ms": 1078,
+  "time_to_request_ms": 200,
+  "first_content_frame_ms": 1078,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 282,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5334,
+    "webSearchRequests": 0,
+    "costUSD": 0.02416,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5334,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.041647521982668,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-czv6gnj5/work"
+  }
+ },
+ "wall_seconds": 4.691471434023697,
+ "qid": "terminal#20482",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#8914",
+   "terminal#19168"
+  ],
+  "answer": "Reordering profiles in the Settings UI has already been requested and is tracked in terminal#8914 (terminal#19168 was closed as a duplicate of it). There is no UI for it yet. In the meantime, you can reorder profiles by editing settings.json and rearranging the entries in the `profiles.list` array; that order controls the new-tab dropdown and the ctrl+shift+number shortcuts. You can also rebind the `newTab` action with an explicit `index` to map shortcuts to whichever profile you want. The tickets do not cover reordering extension-provided entries in the dropdown, but the New Tab Menu Customization spec referenced in terminal#8914 is the related design work. Add your use case and a +1 to terminal#8914."
+ },
+ "hit_turn_cap": false
+}

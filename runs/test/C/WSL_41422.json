@@ -1,0 +1,361 @@
+{
+ "shown": [
+  "WSL#10083",
+  "WSL#10107",
+  "WSL#10173",
+  "WSL#10280",
+  "WSL#10482",
+  "WSL#10651",
+  "WSL#11253",
+  "WSL#11485",
+  "WSL#11677",
+  "WSL#12230",
+  "WSL#12242",
+  "WSL#12264",
+  "WSL#12286",
+  "WSL#12535",
+  "WSL#12566",
+  "WSL#12596",
+  "WSL#12602",
+  "WSL#12638",
+  "WSL#12753",
+  "WSL#13092",
+  "WSL#13585",
+  "WSL#40488",
+  "WSL#40616",
+  "WSL#40808",
+  "WSL#4112",
+  "WSL#4206",
+  "WSL#4889",
+  "WSL#5280",
+  "WSL#5331",
+  "WSL#5815",
+  "WSL#6341",
+  "WSL#6442",
+  "WSL#6720",
+  "WSL#7068",
+  "WSL#7394",
+  "WSL#7499",
+  "WSL#8127",
+  "WSL#8332",
+  "WSL#8688",
+  "WSL#9365",
+  "WSL#9862",
+  "terminal#1249"
+ ],
+ "retrieval_seconds": 3.9075425469782203,
+ "tool_calls": [
+  {
+   "t": 1794881415.563715,
+   "tool": "search",
+   "args": {
+    "query": "WSL 2.7.12.0 CreateVm HCS ERROR_FILE_NOT_FOUND Windows 10 all distributions fail to start",
+    "repo": "WSL"
+   },
+   "seconds": 3.8778965930105187,
+   "returned": [
+    "WSL#8688",
+    "WSL#12566",
+    "WSL#40488",
+    "WSL#40808",
+    "WSL#7068",
+    "WSL#13585",
+    "WSL#40616",
+    "WSL#12753",
+    "WSL#13092",
+    "WSL#6720",
+    "WSL#12242",
+    "WSL#12638",
+    "WSL#11485",
+    "WSL#11677",
+    "WSL#9365",
+    "WSL#11253",
+    "WSL#4889",
+    "WSL#12535",
+    "WSL#12230",
+    "WSL#10280"
+   ]
+  },
+  {
+   "t": 1794881415.5902267,
+   "tool": "search",
+   "args": {
+    "query": "Wsl/Service/CreateInstance/CreateVm/HCS/ERROR_FILE_NOT_FOUND after update, downgrade fixes",
+    "repo": null
+   },
+   "seconds": 0.015761807997478172,
+   "returned": [
+    "WSL#8688",
+    "WSL#10280",
+    "WSL#10651",
+    "WSL#11253",
+    "WSL#9365",
+    "WSL#10083",
+    "WSL#8127",
+    "WSL#40808",
+    "WSL#13585",
+    "WSL#8332",
+    "terminal#1249",
+    "WSL#10482",
+    "WSL#40616",
+    "WSL#40488",
+    "WSL#12602",
+    "WSL#12753",
+    "WSL#4889",
+    "WSL#12638",
+    "WSL#9862",
+    "WSL#12596"
+   ]
+  },
+  {
+   "t": 1794881417.9054956,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#40808"
+   },
+   "seconds": 0.0002601439773570746,
+   "returned": [
+    "WSL#40808"
+   ]
+  },
+  {
+   "t": 1794881417.9368033,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#40488"
+   },
+   "seconds": 0.0001911550061777234,
+   "returned": [
+    "WSL#40488"
+   ]
+  },
+  {
+   "t": 1794881418.0686343,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#40616"
+   },
+   "seconds": 0.0001492059964220971,
+   "returned": [
+    "WSL#40616"
+   ]
+  },
+  {
+   "t": 1794881419.951762,
+   "tool": "search",
+   "args": {
+    "query": "WSL 2.7.12.0 downgrade 2.7.11.0 HCS ERROR_FILE_NOT_FOUND Windows 10",
+    "repo": null
+   },
+   "seconds": 0.013283640990266576,
+   "returned": [
+    "WSL#8127",
+    "WSL#5815",
+    "terminal#1249",
+    "WSL#12286",
+    "WSL#5280",
+    "WSL#10107",
+    "WSL#40616",
+    "WSL#12602",
+    "WSL#4112",
+    "WSL#6341",
+    "WSL#10173",
+    "WSL#5331",
+    "WSL#10651",
+    "WSL#7499",
+    "WSL#4206",
+    "WSL#7394",
+    "WSL#12264",
+    "WSL#12638",
+    "WSL#40808",
+    "WSL#6442"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12001,
+  "stop_reason": "end_turn",
+  "session_id": "c8f31fc6-8cda-471a-b3aa-5b94cd6c0d04",
+  "total_cost_usd": 0.079171,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 16237,
+   "cache_read_input_tokens": 24970,
+   "output_tokens": 1171,
+   "output_tokens_details": {
+    "thinking_tokens": 67
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 16237,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 662,
+     "cache_read_input_tokens": 15799,
+     "cache_creation_input_tokens": 1471,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1471
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1171,
+    "cacheReadInputTokens": 24970,
+    "cacheCreationInputTokens": 16237,
+    "webSearchRequests": 0,
+    "costUSD": 0.079171,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 67,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 16237,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"WSL#40488\", \"WSL#40808\", \"WSL#40616\"], \"answer\": \"This looks like a known problem. The error is Wsl/Service/CreateInstance/CreateVm/HCS/ERROR_FILE_NOT_FOUND, and it hits every WSL2 distro after a WSL upgrade. In the archived tickets, the upgrade left `C:\\\\Program Files\\\\WSL\\\\system.vhd` and `C:\\\\Program Files\\\\WSL\\\\tools\\\\modules.vhd` missing, so the VM can't be created. Your ticket doesn't show whether those files are missing on your machine, so check that first. The past tickets all point to the same fix.\\n\\n1. Check whether those two files exist in `C:\\\\Program Files\\\\WSL`.\\n2. Download the MSI for your WSL version from the WSL GitHub releases page. Right-click it and choose Repair, or run `msiexec /fa <wsl msi> /l*v repair.log` from an admin prompt. The #40488 thread says a fix is in 2.9.3 and was backported to 2.7.14. That fix only works when you update from an already-fixed version, so repairing the 2.7.14 MSI is the recommended route.\\n3. Exit Docker Desktop before you repair.\\n4. You can also copy the two files back by hand. Extract the MSI with `msiexec /a <msi> /qb TARGETDIR=C:\\\\wsl-tmp` and copy `system.vhd` and `modules.vhd` into place.\\n5. Staying on the older version that works for you, 2.7.11.0, is also fine. Rolling back is a valid workaround, but the thread says it isn't required.\\n\\nYour distros and VHDX files are not affected by any of this.\"}",
+  "ttft_ms": 2390,
+  "type": "result",
+  "duration_ms": 15992,
+  "uuid": "e208cca1-5961-4d0d-9574-63df91818830",
+  "ttft_stream_ms": 1212,
+  "time_to_request_ms": 57,
+  "first_content_frame_ms": 1213,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1171,
+    "cacheReadInputTokens": 24970,
+    "cacheCreationInputTokens": 16237,
+    "webSearchRequests": 0,
+    "costUSD": 0.079171,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 67,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 16237,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 17.423290966980858,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-f_0_us73/work"
+  }
+ },
+ "wall_seconds": 17.425015062006423,
+ "qid": "WSL#41422",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "WSL#40488",
+   "WSL#40808",
+   "WSL#40616"
+  ],
+  "answer": "This looks like a known problem. The error is Wsl/Service/CreateInstance/CreateVm/HCS/ERROR_FILE_NOT_FOUND, and it hits every WSL2 distro after a WSL upgrade. In the archived tickets, the upgrade left `C:\\Program Files\\WSL\\system.vhd` and `C:\\Program Files\\WSL\\tools\\modules.vhd` missing, so the VM can't be created. Your ticket doesn't show whether those files are missing on your machine, so check that first. The past tickets all point to the same fix.\n\n1. Check whether those two files exist in `C:\\Program Files\\WSL`.\n2. Download the MSI for your WSL version from the WSL GitHub releases page. Right-click it and choose Repair, or run `msiexec /fa <wsl msi> /l*v repair.log` from an admin prompt. The #40488 thread says a fix is in 2.9.3 and was backported to 2.7.14. That fix only works when you update from an already-fixed version, so repairing the 2.7.14 MSI is the recommended route.\n3. Exit Docker Desktop before you repair.\n4. You can also copy the two files back by hand. Extract the MSI with `msiexec /a <msi> /qb TARGETDIR=C:\\wsl-tmp` and copy `system.vhd` and `modules.vhd` into place.\n5. Staying on the older version that works for you, 2.7.11.0, is also fine. Rolling back is a valid workaround, but the thread says it isn't required.\n\nYour distros and VHDX files are not affected by any of this."
+ },
+ "hit_turn_cap": false
+}

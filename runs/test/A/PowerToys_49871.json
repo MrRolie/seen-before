@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#47268",
+  "PowerToys#47534",
+  "PowerToys#48038",
+  "PowerToys#47474",
+  "PowerToys#48424"
+ ],
+ "retrieval_seconds": 0.013953333982499316,
+ "retrieval_scores": [
+  0.8589253425598145,
+  0.816784679889679,
+  0.8152395486831665,
+  0.812347948551178,
+  0.8065394759178162
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 6869,
+  "stop_reason": "end_turn",
+  "session_id": "64535d97-2d2f-4b3c-8171-835c4102a256",
+  "total_cost_usd": 0.014968,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3076,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 266,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3076,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 266,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3076,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3076
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 266,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3076,
+    "webSearchRequests": 0,
+    "costUSD": 0.014968,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3076,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#47268\", \"PowerToys#47534\", \"PowerToys#48038\"], \"answer\": \"This request has been reported before. Grab and Move does not currently work with FancyZones: holding Shift (or whatever activation method you've set) while dragging with Alt/Win doesn't show zones or snap the window, even if FancyZones is set to snap without Shift. The tracking issue is PowerToys#47268, and other reports (including #48038, #48424 and #47474) were closed as duplicates of it. Nothing in those tickets offers a workaround. To follow progress, subscribe to #47268 and add a thumbs-up there. For now, drag windows by their title bar to snap them into FancyZones zones, and use Grab and Move only for free-form moves.\"}",
+  "ttft_ms": 7026,
+  "type": "result",
+  "duration_ms": 7040,
+  "uuid": "efd78914-49e2-40c0-b4d8-e62c90b51950",
+  "ttft_stream_ms": 4784,
+  "time_to_request_ms": 171,
+  "first_content_frame_ms": 4784,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 266,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3076,
+    "webSearchRequests": 0,
+    "costUSD": 0.014968,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3076,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 7.8660830649896525,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-66tn7t57/work"
+  }
+ },
+ "wall_seconds": 7.881676584976958,
+ "qid": "PowerToys#49871",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#47268",
+   "PowerToys#47534",
+   "PowerToys#48038"
+  ],
+  "answer": "This request has been reported before. Grab and Move does not currently work with FancyZones: holding Shift (or whatever activation method you've set) while dragging with Alt/Win doesn't show zones or snap the window, even if FancyZones is set to snap without Shift. The tracking issue is PowerToys#47268, and other reports (including #48038, #48424 and #47474) were closed as duplicates of it. Nothing in those tickets offers a workaround. To follow progress, subscribe to #47268 and add a thumbs-up there. For now, drag windows by their title bar to snap them into FancyZones zones, and use Grab and Move only for free-form moves."
+ },
+ "hit_turn_cap": false
+}

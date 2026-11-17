@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run --quiet --script \"${CLAUDE_PLUGIN_ROOT}/seen_before.py\" update --if-older 3600 --background",
+            "async": true
+          }
+        ]
+      }
+    ]
+  }
+}

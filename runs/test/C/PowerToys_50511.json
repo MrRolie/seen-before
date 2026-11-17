@@ -1,0 +1,316 @@
+{
+ "shown": [
+  "PowerToys#10384",
+  "PowerToys#10800",
+  "PowerToys#11239",
+  "PowerToys#11459",
+  "PowerToys#11882",
+  "PowerToys#13014",
+  "PowerToys#169",
+  "PowerToys#176",
+  "PowerToys#27637",
+  "PowerToys#2828",
+  "PowerToys#2911",
+  "PowerToys#31147",
+  "PowerToys#34459",
+  "PowerToys#34950",
+  "PowerToys#3684",
+  "PowerToys#4295",
+  "PowerToys#46334",
+  "PowerToys#4662",
+  "PowerToys#48566",
+  "PowerToys#497",
+  "PowerToys#5",
+  "PowerToys#6482",
+  "PowerToys#6765",
+  "PowerToys#6826",
+  "PowerToys#9171",
+  "PowerToys#9258",
+  "PowerToys#9263",
+  "PowerToys#9733",
+  "WSL#510"
+ ],
+ "retrieval_seconds": 3.871243874018546,
+ "tool_calls": [
+  {
+   "t": 1794882488.1884615,
+   "tool": "search",
+   "args": {
+    "query": "exclude apps windows from screen sharing to hide sensitive data",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.848501538974233,
+   "returned": [
+    "PowerToys#11882",
+    "PowerToys#48566",
+    "PowerToys#9733",
+    "PowerToys#4295",
+    "PowerToys#2911",
+    "PowerToys#10384",
+    "PowerToys#10800",
+    "PowerToys#3684",
+    "PowerToys#4662",
+    "PowerToys#9171",
+    "PowerToys#176",
+    "PowerToys#6765",
+    "PowerToys#9258",
+    "PowerToys#6482",
+    "PowerToys#46334",
+    "PowerToys#11459",
+    "PowerToys#13014",
+    "PowerToys#11239",
+    "PowerToys#34950",
+    "PowerToys#34459"
+   ]
+  },
+  {
+   "t": 1794882488.2283263,
+   "tool": "search",
+   "args": {
+    "query": "hide specific application windows during screen share Teams",
+    "repo": null
+   },
+   "seconds": 0.022093231993494555,
+   "returned": [
+    "PowerToys#11882",
+    "PowerToys#10384",
+    "PowerToys#48566",
+    "PowerToys#46334",
+    "PowerToys#11459",
+    "PowerToys#497",
+    "PowerToys#2911",
+    "PowerToys#2828",
+    "PowerToys#5",
+    "PowerToys#31147",
+    "PowerToys#13014",
+    "WSL#510",
+    "PowerToys#6482",
+    "PowerToys#9263",
+    "PowerToys#176",
+    "PowerToys#9733",
+    "PowerToys#6765",
+    "PowerToys#6826",
+    "PowerToys#27637",
+    "PowerToys#169"
+   ]
+  },
+  {
+   "t": 1794882489.6072917,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48566"
+   },
+   "seconds": 0.0004216990200802684,
+   "returned": [
+    "PowerToys#48566"
+   ]
+  },
+  {
+   "t": 1794882489.951166,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#11882"
+   },
+   "seconds": 0.00010019700857810676,
+   "returned": [
+    "PowerToys#11882"
+   ]
+  },
+  {
+   "t": 1794882490.030329,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34950"
+   },
+   "seconds": 0.00012720702216029167,
+   "returned": [
+    "PowerToys#34950"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7837,
+  "stop_reason": "end_turn",
+  "session_id": "e0cd3b95-1bc8-4d97-adf2-cc8145c988dc",
+  "total_cost_usd": 0.028225300000000002,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 5203,
+   "cache_read_input_tokens": 6913,
+   "output_tokens": 671,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5203,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 334,
+     "cache_read_input_tokens": 4192,
+     "cache_creation_input_tokens": 2044,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2044
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 671,
+    "cacheReadInputTokens": 6913,
+    "cacheCreationInputTokens": 5203,
+    "webSearchRequests": 0,
+    "costUSD": 0.028225300000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5203,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48566\", \"PowerToys#34950\"], \"answer\": \"This feature request has been filed before. PowerToys#34950 (Window Masking) and PowerToys#48566 (Restrict App Sharing) both ask for the same thing. They want chosen apps or windows hidden from screen sharing, recording and screenshots, using WDA_EXCLUDEFROMCAPTURE, with name matching and hotkeys. PowerToys doesn't offer this today, and neither ticket gives a fix or workaround. #48566 was closed as a duplicate of #46333, which I couldn't open, so I can't confirm what it says. Please subscribe to #46333 for updates and add your Outlook and Teams use case there. Until then, check your screen before you share. You can also share a single window instead of the whole screen. Third-party tools such as Invisiwind and winhider are mentioned in #34950. They hide windows from capture, but they don't detect newly opened windows.\"}",
+  "ttft_ms": 2455,
+  "type": "result",
+  "duration_ms": 11785,
+  "uuid": "697e22c2-11be-4868-8516-607412dfbaf3",
+  "ttft_stream_ms": 1538,
+  "time_to_request_ms": 48,
+  "first_content_frame_ms": 1538,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 671,
+    "cacheReadInputTokens": 6913,
+    "cacheCreationInputTokens": 5203,
+    "webSearchRequests": 0,
+    "costUSD": 0.028225300000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5203,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.18527722498402,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-low8n5iy/work"
+  }
+ },
+ "wall_seconds": 13.186987060995307,
+ "qid": "PowerToys#50511",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48566",
+   "PowerToys#34950"
+  ],
+  "answer": "This feature request has been filed before. PowerToys#34950 (Window Masking) and PowerToys#48566 (Restrict App Sharing) both ask for the same thing. They want chosen apps or windows hidden from screen sharing, recording and screenshots, using WDA_EXCLUDEFROMCAPTURE, with name matching and hotkeys. PowerToys doesn't offer this today, and neither ticket gives a fix or workaround. #48566 was closed as a duplicate of #46333, which I couldn't open, so I can't confirm what it says. Please subscribe to #46333 for updates and add your Outlook and Teams use case there. Until then, check your screen before you share. You can also share a single window instead of the whole screen. Third-party tools such as Invisiwind and winhider are mentioned in #34950. They hide windows from capture, but they don't detect newly opened windows."
+ },
+ "hit_turn_cap": false
+}

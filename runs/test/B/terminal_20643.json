@@ -1,0 +1,290 @@
+{
+ "shown": [
+  "terminal#10144",
+  "terminal#10287",
+  "terminal#13328",
+  "terminal#1388",
+  "terminal#14100",
+  "terminal#16330",
+  "terminal#18794",
+  "terminal#18972",
+  "terminal#19000",
+  "terminal#19595",
+  "terminal#19839",
+  "terminal#20070",
+  "terminal#3019",
+  "terminal#4653",
+  "terminal#4669",
+  "terminal#4992",
+  "terminal#5070",
+  "terminal#6504",
+  "terminal#7546",
+  "terminal#9689"
+ ],
+ "retrieval_seconds": 0.030884046020219103,
+ "tool_calls": [
+  {
+   "t": 1794882093.2351253,
+   "tool": "search",
+   "args": {
+    "pattern": "square bracket",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.030459317000349984,
+   "returned": [
+    "terminal#19595",
+    "terminal#3019",
+    "terminal#19839",
+    "terminal#18972",
+    "terminal#18794",
+    "terminal#14100",
+    "terminal#1388",
+    "terminal#20070",
+    "terminal#19000",
+    "terminal#16330",
+    "terminal#13328",
+    "terminal#10287",
+    "terminal#10144",
+    "terminal#9689",
+    "terminal#7546",
+    "terminal#6504",
+    "terminal#5070",
+    "terminal#4992",
+    "terminal#4669",
+    "terminal#4653"
+   ]
+  },
+  {
+   "t": 1794882094.4586985,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19595"
+   },
+   "seconds": 0.00011385700781829655,
+   "returned": [
+    "terminal#19595"
+   ]
+  },
+  {
+   "t": 1794882094.6797664,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19000"
+   },
+   "seconds": 0.00010323699098080397,
+   "returned": [
+    "terminal#19000"
+   ]
+  },
+  {
+   "t": 1794882094.9276803,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#14100"
+   },
+   "seconds": 0.00010992700117640197,
+   "returned": [
+    "terminal#14100"
+   ]
+  },
+  {
+   "t": 1794882095.1108215,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18972"
+   },
+   "seconds": 9.770801989361644e-05,
+   "returned": [
+    "terminal#18972"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6330,
+  "stop_reason": "end_turn",
+  "session_id": "c57c259d-436f-4e71-b0a7-46df8c01566f",
+  "total_cost_usd": 0.042416,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 8198,
+   "cache_read_input_tokens": 9020,
+   "output_tokens": 871,
+   "output_tokens_details": {
+    "thinking_tokens": 86
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8198,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 449,
+     "cache_read_input_tokens": 5590,
+     "cache_creation_input_tokens": 3785,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3785
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 871,
+    "cacheReadInputTokens": 9020,
+    "cacheCreationInputTokens": 8198,
+    "webSearchRequests": 0,
+    "costUSD": 0.042416,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 86,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8198,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#19000\", \"terminal#14100\", \"terminal#18972\"], \"answer\": \"This has been reported before. The cause is a known bug in Windows PowerShell 5.1, not in Windows Terminal. It treats `[` and `]` in the starting directory as wildcard characters. The shell then falls back to `C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0` or to your home folder. This is also why `Set-Location -LiteralPath` works for you and parentheses don't cause trouble. The fix reported in those tickets is to install PowerShell 7 or later (pwsh) and make it your Terminal default profile. Explorer's \\\"Open in Terminal\\\" then starts in the correct directory. The Terminal team treated the PowerShell 5.1 side as out of their control, and terminal#11149 is the original issue they pointed to. One ticket, terminal#19595, reports that wt.exe still resets the directory even with PowerShell 7, but the team said Terminal doesn't inherit the parent's working directory anyway.\"}",
+  "ttft_ms": 1196,
+  "type": "result",
+  "duration_ms": 6602,
+  "uuid": "682d259f-9bed-481e-b0f8-71dba4c82ff3",
+  "ttft_stream_ms": 811,
+  "time_to_request_ms": 252,
+  "first_content_frame_ms": 811,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 871,
+    "cacheReadInputTokens": 9020,
+    "cacheCreationInputTokens": 8198,
+    "webSearchRequests": 0,
+    "costUSD": 0.042416,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 86,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8198,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 7.905335534014739,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-7x8tdd_0/work"
+  }
+ },
+ "wall_seconds": 7.9071114670077804,
+ "qid": "terminal#20643",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#19000",
+   "terminal#14100",
+   "terminal#18972"
+  ],
+  "answer": "This has been reported before. The cause is a known bug in Windows PowerShell 5.1, not in Windows Terminal. It treats `[` and `]` in the starting directory as wildcard characters. The shell then falls back to `C:\\Windows\\System32\\WindowsPowerShell\\v1.0` or to your home folder. This is also why `Set-Location -LiteralPath` works for you and parentheses don't cause trouble. The fix reported in those tickets is to install PowerShell 7 or later (pwsh) and make it your Terminal default profile. Explorer's \"Open in Terminal\" then starts in the correct directory. The Terminal team treated the PowerShell 5.1 side as out of their control, and terminal#11149 is the original issue they pointed to. One ticket, terminal#19595, reports that wt.exe still resets the directory even with PowerShell 7, but the team said Terminal doesn't inherit the parent's working directory anyway."
+ },
+ "hit_turn_cap": false
+}

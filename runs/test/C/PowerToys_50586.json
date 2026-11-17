@@ -1,0 +1,339 @@
+{
+ "shown": [
+  "PowerToys#10882",
+  "PowerToys#11353",
+  "PowerToys#1187",
+  "PowerToys#1203",
+  "PowerToys#1208",
+  "PowerToys#129",
+  "PowerToys#1431",
+  "PowerToys#152",
+  "PowerToys#15781",
+  "PowerToys#1621",
+  "PowerToys#1766",
+  "PowerToys#1885",
+  "PowerToys#19725",
+  "PowerToys#1987",
+  "PowerToys#2094",
+  "PowerToys#21026",
+  "PowerToys#2458",
+  "PowerToys#2539",
+  "PowerToys#33934",
+  "PowerToys#38282",
+  "PowerToys#38293",
+  "PowerToys#38326",
+  "PowerToys#38342",
+  "PowerToys#38353",
+  "PowerToys#3957",
+  "PowerToys#4179",
+  "PowerToys#43712",
+  "PowerToys#4393",
+  "PowerToys#4446",
+  "PowerToys#4494",
+  "PowerToys#45923",
+  "PowerToys#4615",
+  "PowerToys#4673",
+  "PowerToys#4714",
+  "PowerToys#4715",
+  "PowerToys#48725",
+  "PowerToys#4888",
+  "PowerToys#5063",
+  "PowerToys#6060",
+  "PowerToys#6192",
+  "PowerToys#6215",
+  "PowerToys#6362",
+  "PowerToys#6460",
+  "PowerToys#6669",
+  "PowerToys#7308",
+  "PowerToys#7958",
+  "PowerToys#8212",
+  "PowerToys#8477",
+  "PowerToys#9015",
+  "PowerToys#9058",
+  "PowerToys#920",
+  "PowerToys#9347",
+  "PowerToys#9457",
+  "PowerToys#9659",
+  "PowerToys#9771",
+  "PowerToys#9915",
+  "PowerToys#9941"
+ ],
+ "retrieval_seconds": 3.489063113956945,
+ "tool_calls": [
+  {
+   "t": 1794882826.9038296,
+   "tool": "search",
+   "args": {
+    "query": "Shortcut Guide foreground module logged only once, not on every invocation",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.459282653988339,
+   "returned": [
+    "PowerToys#1203",
+    "PowerToys#6060",
+    "PowerToys#1431",
+    "PowerToys#4888",
+    "PowerToys#21026",
+    "PowerToys#1208",
+    "PowerToys#4446",
+    "PowerToys#4714",
+    "PowerToys#6192",
+    "PowerToys#9015",
+    "PowerToys#3957",
+    "PowerToys#48725",
+    "PowerToys#38342",
+    "PowerToys#45923",
+    "PowerToys#4615",
+    "PowerToys#38326",
+    "PowerToys#152",
+    "PowerToys#4179",
+    "PowerToys#9659",
+    "PowerToys#4673"
+   ]
+  },
+  {
+   "t": 1794882826.9296436,
+   "tool": "search",
+   "args": {
+    "query": "Foreground capture HWND PID Module logging LogForegroundCapture",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012826723977923393,
+   "returned": [
+    "PowerToys#8477",
+    "PowerToys#9347",
+    "PowerToys#7958",
+    "PowerToys#9058",
+    "PowerToys#43712",
+    "PowerToys#9941",
+    "PowerToys#11353",
+    "PowerToys#7308",
+    "PowerToys#6215",
+    "PowerToys#15781",
+    "PowerToys#9915",
+    "PowerToys#1187",
+    "PowerToys#6362",
+    "PowerToys#6669",
+    "PowerToys#920",
+    "PowerToys#10882",
+    "PowerToys#8212",
+    "PowerToys#9457",
+    "PowerToys#4393",
+    "PowerToys#6460"
+   ]
+  },
+  {
+   "t": 1794882828.1296523,
+   "tool": "search",
+   "args": {
+    "query": "Shortcut Guide log foreground window exe name each time overlay triggered, diagnose shortcuts not shown for application",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.016953735990682617,
+   "returned": [
+    "PowerToys#1766",
+    "PowerToys#9771",
+    "PowerToys#4494",
+    "PowerToys#33934",
+    "PowerToys#4715",
+    "PowerToys#1431",
+    "PowerToys#19725",
+    "PowerToys#129",
+    "PowerToys#2539",
+    "PowerToys#6192",
+    "PowerToys#1885",
+    "PowerToys#5063",
+    "PowerToys#38282",
+    "PowerToys#1621",
+    "PowerToys#38353",
+    "PowerToys#2094",
+    "PowerToys#2458",
+    "PowerToys#8477",
+    "PowerToys#1987",
+    "PowerToys#38293"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 4692,
+  "stop_reason": "end_turn",
+  "session_id": "6e0694a9-fd6d-4893-a57f-7e0142e9a918",
+  "total_cost_usd": 0.0252284,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 4812,
+   "cache_read_input_tokens": 7484,
+   "output_tokens": 522,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4812,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 208,
+     "cache_read_input_tokens": 4526,
+     "cache_creation_input_tokens": 1319,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1319
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 522,
+    "cacheReadInputTokens": 7484,
+    "cacheCreationInputTokens": 4812,
+    "webSearchRequests": 0,
+    "costUSD": 0.0252284,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4812,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 4,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket that reports this problem. In the archive, Shortcut Guide's foreground-window capture (LogForegroundCapture) is logged only once, not on every trigger. The tickets that came up were about other topics: Shortcut Guide reliability, app-specific shortcut guides, and logging in other modules. Treat this as a new bug. The log call should move from startup into the code path that runs each time the overlay is triggered. That way every trigger records the HWND, PID and module name, which is what you need to diagnose shortcuts that display wrongly for a given app.\"}",
+  "ttft_ms": 971,
+  "type": "result",
+  "duration_ms": 7819,
+  "uuid": "13df274f-9d4e-4737-be2e-2b04036707d5",
+  "ttft_stream_ms": 516,
+  "time_to_request_ms": 35,
+  "first_content_frame_ms": 516,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 522,
+    "cacheReadInputTokens": 7484,
+    "cacheCreationInputTokens": 4812,
+    "webSearchRequests": 0,
+    "costUSD": 0.0252284,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4812,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 9.240653146000113,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-uiwcllxb/work"
+  }
+ },
+ "wall_seconds": 9.24220421499922,
+ "qid": "PowerToys#50586",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket that reports this problem. In the archive, Shortcut Guide's foreground-window capture (LogForegroundCapture) is logged only once, not on every trigger. The tickets that came up were about other topics: Shortcut Guide reliability, app-specific shortcut guides, and logging in other modules. Treat this as a new bug. The log call should move from startup into the code path that runs each time the overlay is triggered. That way every trigger records the HWND, PID and module name, which is what you need to diagnose shortcuts that display wrongly for a given app."
+ },
+ "hit_turn_cap": false
+}

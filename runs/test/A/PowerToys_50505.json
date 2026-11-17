@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#48614",
+  "PowerToys#47791",
+  "PowerToys#48775",
+  "PowerToys#41188",
+  "PowerToys#37521"
+ ],
+ "retrieval_seconds": 0.014798103016801178,
+ "retrieval_scores": [
+  0.5913454294204712,
+  0.5693684816360474,
+  0.5219386219978333,
+  0.5009118914604187,
+  0.49650949239730835
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2796,
+  "stop_reason": "end_turn",
+  "session_id": "c34ea65c-23fe-4b74-9634-869481258f3f",
+  "total_cost_usd": 0.015596,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3298,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 240,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3298,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 240,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3298,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3298
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 240,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3298,
+    "webSearchRequests": 0,
+    "costUSD": 0.015596,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3298,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48614\", \"PowerToys#48775\", \"PowerToys#37521\"], \"answer\": \"This is a known limitation: the Quick Access list in PowerToys can't currently be customized. There's no drag and drop or right-click option to add or pin utilities. The tickets above were closed as duplicates of the tracking issue PowerToys#24283 (a request to make Quick Access editable), so subscribe to that issue for updates. Quick Access only shows utilities that can be invoked directly, and you can enable or disable those in Settings. Using a utility doesn't add it to the list, which is why Text Extractor is already there. For everything else, use the shortcuts shown in Settings.\"}",
+  "ttft_ms": 2969,
+  "type": "result",
+  "duration_ms": 2990,
+  "uuid": "b6a0b089-3eda-48c4-a18d-1f48595d9a72",
+  "ttft_stream_ms": 1210,
+  "time_to_request_ms": 192,
+  "first_content_frame_ms": 1210,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 240,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3298,
+    "webSearchRequests": 0,
+    "costUSD": 0.015596,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3298,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.881964601983782,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-378xga9y/work"
+  }
+ },
+ "wall_seconds": 3.8981737080030143,
+ "qid": "PowerToys#50505",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48614",
+   "PowerToys#48775",
+   "PowerToys#37521"
+  ],
+  "answer": "This is a known limitation: the Quick Access list in PowerToys can't currently be customized. There's no drag and drop or right-click option to add or pin utilities. The tickets above were closed as duplicates of the tracking issue PowerToys#24283 (a request to make Quick Access editable), so subscribe to that issue for updates. Quick Access only shows utilities that can be invoked directly, and you can enable or disable those in Settings. Using a utility doesn't add it to the list, which is why Text Extractor is already there. For everything else, use the shortcuts shown in Settings."
+ },
+ "hit_turn_cap": false
+}

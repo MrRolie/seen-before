@@ -1,0 +1,307 @@
+{
+ "shown": [
+  "PowerToys#12712",
+  "PowerToys#12874",
+  "PowerToys#179",
+  "PowerToys#3079",
+  "PowerToys#31979",
+  "PowerToys#32037",
+  "PowerToys#32994",
+  "PowerToys#3364",
+  "PowerToys#3421",
+  "PowerToys#34347",
+  "PowerToys#3479",
+  "PowerToys#3571",
+  "PowerToys#35808",
+  "PowerToys#36355",
+  "PowerToys#36608",
+  "PowerToys#36692",
+  "PowerToys#37220",
+  "PowerToys#37336",
+  "PowerToys#37559",
+  "PowerToys#37971",
+  "PowerToys#38788",
+  "PowerToys#3920",
+  "PowerToys#40196",
+  "PowerToys#40415",
+  "PowerToys#40416",
+  "PowerToys#42933",
+  "PowerToys#43173",
+  "PowerToys#43402",
+  "PowerToys#44650",
+  "PowerToys#46301",
+  "PowerToys#47062",
+  "PowerToys#4713",
+  "PowerToys#48077",
+  "PowerToys#4973",
+  "PowerToys#5670",
+  "PowerToys#6756",
+  "PowerToys#8952",
+  "PowerToys#9372"
+ ],
+ "retrieval_seconds": 3.537292103021173,
+ "tool_calls": [
+  {
+   "t": 1794879622.3973393,
+   "tool": "search",
+   "args": {
+    "pattern": "copilot key",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07586500802426599,
+   "returned": [
+    "PowerToys#35808",
+    "PowerToys#43173",
+    "PowerToys#31979",
+    "PowerToys#36608",
+    "PowerToys#46301",
+    "PowerToys#48077",
+    "PowerToys#47062",
+    "PowerToys#34347",
+    "PowerToys#44650",
+    "PowerToys#43402",
+    "PowerToys#40416",
+    "PowerToys#40415",
+    "PowerToys#40196",
+    "PowerToys#38788",
+    "PowerToys#37971",
+    "PowerToys#37559",
+    "PowerToys#37336",
+    "PowerToys#36692",
+    "PowerToys#36355",
+    "PowerToys#179"
+   ]
+  },
+  {
+   "t": 1794879625.8798673,
+   "tool": "similar",
+   "args": {
+    "query": "remap Copilot key in Keyboard Manager",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.4611817819823045,
+   "returned": [
+    "PowerToys#32037",
+    "PowerToys#36608",
+    "PowerToys#8952",
+    "PowerToys#6756",
+    "PowerToys#42933",
+    "PowerToys#3364",
+    "PowerToys#32994",
+    "PowerToys#4713",
+    "PowerToys#12874",
+    "PowerToys#4973",
+    "PowerToys#3421",
+    "PowerToys#3079",
+    "PowerToys#3920",
+    "PowerToys#46301",
+    "PowerToys#12712",
+    "PowerToys#37220",
+    "PowerToys#5670",
+    "PowerToys#3571",
+    "PowerToys#3479",
+    "PowerToys#9372"
+   ]
+  },
+  {
+   "t": 1794879627.6738527,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35808"
+   },
+   "seconds": 0.0002453130146022886,
+   "returned": [
+    "PowerToys#35808"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7418,
+  "stop_reason": "end_turn",
+  "session_id": "2544621d-1db9-42c6-ae8b-de7680dbbb6e",
+  "total_cost_usd": 0.047342800000000004,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 10040,
+   "cache_read_input_tokens": 11308,
+   "output_tokens": 604,
+   "output_tokens_details": {
+    "thinking_tokens": 64
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10040,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 304,
+     "cache_read_input_tokens": 7975,
+     "cache_creation_input_tokens": 3478,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3478
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 604,
+    "cacheReadInputTokens": 11308,
+    "cacheCreationInputTokens": 10040,
+    "webSearchRequests": 0,
+    "costUSD": 0.047342800000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 64,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10040,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 4,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#35808\", \"PowerToys#37220\", \"PowerToys#36608\"], \"answer\": \"This has been reported before. The Copilot key doesn't show up under \\\"Remap a key\\\" because Windows sends it as a shortcut: Win (Left) + Shift (Left) + F23. To remap it, open Keyboard Manager and choose \\\"Remap a shortcut\\\". Click the pencil icon, press the Copilot key, and pick your target key or shortcut. This works for mapping to letters or other keys. Mapping it to Ctrl is unreliable: the key can behave as Ctrl+Shift, and it can stop working after Windows updates. Some users say they got Win + Shift + F23 → Ctrl (Left) to work. A standalone \\\"Remap a key\\\" entry for the Copilot key is still only a feature request. Those tickets are the place to follow it.\"}",
+  "ttft_ms": 2231,
+  "type": "result",
+  "duration_ms": 11017,
+  "uuid": "e9eb15a2-05a5-4bd6-affa-afe4565d1cf3",
+  "ttft_stream_ms": 1403,
+  "time_to_request_ms": 28,
+  "first_content_frame_ms": 1403,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 604,
+    "cacheReadInputTokens": 11308,
+    "cacheCreationInputTokens": 10040,
+    "webSearchRequests": 0,
+    "costUSD": 0.047342800000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 64,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10040,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.37095260299975,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-xaohh93t/work"
+  }
+ },
+ "wall_seconds": 12.372850249987096,
+ "qid": "PowerToys#49683",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#35808",
+   "PowerToys#37220",
+   "PowerToys#36608"
+  ],
+  "answer": "This has been reported before. The Copilot key doesn't show up under \"Remap a key\" because Windows sends it as a shortcut: Win (Left) + Shift (Left) + F23. To remap it, open Keyboard Manager and choose \"Remap a shortcut\". Click the pencil icon, press the Copilot key, and pick your target key or shortcut. This works for mapping to letters or other keys. Mapping it to Ctrl is unreliable: the key can behave as Ctrl+Shift, and it can stop working after Windows updates. Some users say they got Win + Shift + F23 → Ctrl (Left) to work. A standalone \"Remap a key\" entry for the Copilot key is still only a feature request. Those tickets are the place to follow it."
+ },
+ "hit_turn_cap": false
+}

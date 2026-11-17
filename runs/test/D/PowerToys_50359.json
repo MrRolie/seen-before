@@ -1,0 +1,290 @@
+{
+ "shown": [
+  "PowerToys#10301",
+  "PowerToys#11780",
+  "PowerToys#12124",
+  "PowerToys#2148",
+  "PowerToys#23259",
+  "PowerToys#26144",
+  "PowerToys#26995",
+  "PowerToys#27372",
+  "PowerToys#27904",
+  "PowerToys#29420",
+  "PowerToys#32214",
+  "PowerToys#32895",
+  "PowerToys#35807",
+  "PowerToys#35904",
+  "PowerToys#3722",
+  "PowerToys#39171",
+  "PowerToys#40465",
+  "PowerToys#40678",
+  "PowerToys#5647",
+  "PowerToys#77",
+  "PowerToys#8234"
+ ],
+ "retrieval_seconds": 4.186464386963053,
+ "tool_calls": [
+  {
+   "t": 1794882016.8874876,
+   "tool": "similar",
+   "args": {
+    "query": "Mouse Without Borders clicking new key does nothing, no devices listed in settings",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.134089058992686,
+   "returned": [
+    "PowerToys#77",
+    "PowerToys#3722",
+    "PowerToys#5647",
+    "PowerToys#12124",
+    "PowerToys#10301",
+    "PowerToys#26144",
+    "PowerToys#40678",
+    "PowerToys#35904",
+    "PowerToys#27372",
+    "PowerToys#32895",
+    "PowerToys#27904",
+    "PowerToys#23259",
+    "PowerToys#29420",
+    "PowerToys#11780",
+    "PowerToys#26995",
+    "PowerToys#2148",
+    "PowerToys#40465",
+    "PowerToys#32214",
+    "PowerToys#39171",
+    "PowerToys#8234"
+   ]
+  },
+  {
+   "t": 1794882018.3395832,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35904"
+   },
+   "seconds": 0.00021502398885786533,
+   "returned": [
+    "PowerToys#35904"
+   ]
+  },
+  {
+   "t": 1794882018.726096,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#26995"
+   },
+   "seconds": 0.0001423969806637615,
+   "returned": [
+    "PowerToys#26995"
+   ]
+  },
+  {
+   "t": 1794882018.8895168,
+   "tool": "search",
+   "args": {
+    "pattern": "50335",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05191044000093825,
+   "returned": []
+  },
+  {
+   "t": 1794882020.7102265,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35807"
+   },
+   "seconds": 0.00010746699990704656,
+   "returned": [
+    "PowerToys#35807"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12657,
+  "stop_reason": "end_turn",
+  "session_id": "87cd32c5-b4a3-416f-b9a3-ccfc85528c13",
+  "total_cost_usd": 0.038570600000000003,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 6449,
+   "cache_read_input_tokens": 21746,
+   "output_tokens": 1058,
+   "output_tokens_details": {
+    "thinking_tokens": 58
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6449,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 443,
+     "cache_read_input_tokens": 7652,
+     "cache_creation_input_tokens": 210,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 210
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1058,
+    "cacheReadInputTokens": 21746,
+    "cacheCreationInputTokens": 6449,
+    "webSearchRequests": 0,
+    "costUSD": 0.038570600000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 58,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6449,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#35904\", \"PowerToys#26995\"], \"answer\": \"Other users have reported this before: the Mouse Without Borders \\\"New Key\\\" button does nothing and no devices are listed. I found no ticket that matches your settings-window problem or the fix you applied, so those tickets cover only the New Key symptom. They suggest these steps, roughly in this order:\\n1. In the PowerToys General tab, turn the Mouse Without Borders toggle off and on again (reported to work in #26995). Doing this from the MWB page itself does nothing.\\n2. If the old standalone Mouse Without Borders is installed, uninstall it. One user could not generate a key until it was gone (#26995).\\n3. Turn off \\\"Always run as administrator\\\" and restart PowerToys without admin rights. Generate a new key and connect your other devices. Then restart PowerToys on every machine and turn admin back on if you want it (#35904).\\n4. Make sure every machine runs the same PowerToys version. In #35904, some users said the problem went away after updating or reverting to a different version.\\n\\nIf none of this helps, add your bug report ZIP and logs to one of those tickets. #35904 was closed as a duplicate of #35807.\"}",
+  "ttft_ms": 2205,
+  "type": "result",
+  "duration_ms": 16928,
+  "uuid": "73b17475-ad19-484f-a23b-719f07e3056a",
+  "ttft_stream_ms": 1159,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 1160,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1058,
+    "cacheReadInputTokens": 21746,
+    "cacheCreationInputTokens": 6449,
+    "webSearchRequests": 0,
+    "costUSD": 0.038570600000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 58,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6449,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.2983590119984,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-_m5erevn/work"
+  }
+ },
+ "wall_seconds": 18.300303590018302,
+ "qid": "PowerToys#50359",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#35904",
+   "PowerToys#26995"
+  ],
+  "answer": "Other users have reported this before: the Mouse Without Borders \"New Key\" button does nothing and no devices are listed. I found no ticket that matches your settings-window problem or the fix you applied, so those tickets cover only the New Key symptom. They suggest these steps, roughly in this order:\n1. In the PowerToys General tab, turn the Mouse Without Borders toggle off and on again (reported to work in #26995). Doing this from the MWB page itself does nothing.\n2. If the old standalone Mouse Without Borders is installed, uninstall it. One user could not generate a key until it was gone (#26995).\n3. Turn off \"Always run as administrator\" and restart PowerToys without admin rights. Generate a new key and connect your other devices. Then restart PowerToys on every machine and turn admin back on if you want it (#35904).\n4. Make sure every machine runs the same PowerToys version. In #35904, some users said the problem went away after updating or reverting to a different version.\n\nIf none of this helps, add your bug report ZIP and logs to one of those tickets. #35904 was closed as a duplicate of #35807."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,336 @@
+{
+ "shown": [
+  "PowerToys#10198",
+  "PowerToys#10248",
+  "PowerToys#13378",
+  "PowerToys#14330",
+  "PowerToys#1460",
+  "PowerToys#24151",
+  "PowerToys#30420",
+  "PowerToys#3421",
+  "PowerToys#3676",
+  "PowerToys#4228",
+  "PowerToys#4296",
+  "PowerToys#5374",
+  "PowerToys#5421",
+  "PowerToys#5706",
+  "PowerToys#5709",
+  "PowerToys#6211",
+  "PowerToys#6224",
+  "PowerToys#6616",
+  "PowerToys#6756",
+  "PowerToys#7541",
+  "PowerToys#7603",
+  "PowerToys#8242",
+  "PowerToys#848",
+  "PowerToys#8937",
+  "PowerToys#9372",
+  "PowerToys#9957"
+ ],
+ "retrieval_seconds": 4.320439264061861,
+ "tool_calls": [
+  {
+   "t": 1794881286.7289844,
+   "tool": "search",
+   "args": {
+    "query": "Keyboard Manager remap only for specific keyboard, internal or external keyboard",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.30543366400525,
+   "returned": [
+    "PowerToys#3421",
+    "PowerToys#6224",
+    "PowerToys#8937",
+    "PowerToys#4296",
+    "PowerToys#9372",
+    "PowerToys#5709",
+    "PowerToys#30420",
+    "PowerToys#6756",
+    "PowerToys#14330",
+    "PowerToys#8242",
+    "PowerToys#4228",
+    "PowerToys#5706",
+    "PowerToys#7603",
+    "PowerToys#6616",
+    "PowerToys#5374",
+    "PowerToys#1460",
+    "PowerToys#13378",
+    "PowerToys#10248",
+    "PowerToys#24151",
+    "PowerToys#7541"
+   ]
+  },
+  {
+   "t": 1794881286.756348,
+   "tool": "search",
+   "args": {
+    "query": "remap keys apply to one keyboard only, not laptop internal keyboard",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014159202022710815,
+   "returned": [
+    "PowerToys#3421",
+    "PowerToys#8937",
+    "PowerToys#7541",
+    "PowerToys#848",
+    "PowerToys#6224",
+    "PowerToys#9372",
+    "PowerToys#6211",
+    "PowerToys#9957",
+    "PowerToys#5706",
+    "PowerToys#1460",
+    "PowerToys#10198",
+    "PowerToys#5709",
+    "PowerToys#4296",
+    "PowerToys#6756",
+    "PowerToys#30420",
+    "PowerToys#5421",
+    "PowerToys#5374",
+    "PowerToys#10248",
+    "PowerToys#7603",
+    "PowerToys#3676"
+   ]
+  },
+  {
+   "t": 1794881287.7925205,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#30420"
+   },
+   "seconds": 0.00015778600936755538,
+   "returned": [
+    "PowerToys#30420"
+   ]
+  },
+  {
+   "t": 1794881288.007008,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#3421"
+   },
+   "seconds": 0.0002541530120652169,
+   "returned": [
+    "PowerToys#3421"
+   ]
+  },
+  {
+   "t": 1794881288.2149043,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1460"
+   },
+   "seconds": 0.00013625601422972977,
+   "returned": [
+    "PowerToys#1460"
+   ]
+  },
+  {
+   "t": 1794881289.1210568,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#6224"
+   },
+   "seconds": 0.0001485769753344357,
+   "returned": [
+    "PowerToys#6224"
+   ]
+  },
+  {
+   "t": 1794881289.9197133,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#8937"
+   },
+   "seconds": 0.00014962602290324867,
+   "returned": [
+    "PowerToys#8937"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7529,
+  "stop_reason": "end_turn",
+  "session_id": "c32c24ad-fb77-45a0-b55f-37de193c4a01",
+  "total_cost_usd": 0.045733,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 8693,
+   "cache_read_input_tokens": 24910,
+   "output_tokens": 845,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8693,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 329,
+     "cache_read_input_tokens": 9234,
+     "cache_creation_input_tokens": 492,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 492
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 845,
+    "cacheReadInputTokens": 24910,
+    "cacheCreationInputTokens": 8693,
+    "webSearchRequests": 0,
+    "costUSD": 0.045733,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8693,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#1460\", \"PowerToys#30420\", \"PowerToys#3421\"], \"answer\": \"This has been requested before. Keyboard Manager remaps apply to all attached keyboards, so you can't limit a remap to the internal or external keyboard. The main tracking ticket is PowerToys#1460 (multi-keyboard support). The maintainers said Windows doesn't give PowerToys a reliable way to tell which keyboard a keypress came from, and that they would revisit it if that changes. PowerToys#30420 was closed as a duplicate of #1460. PowerToys#3421 describes the same internal-versus-Bluetooth keyboard case. You can add a 👍 reaction to #1460 to show you want it. In the meantime, remove or disable the remap when you don't need it, or use the Keyboard Manager toggle to turn it off. Another option is an AutoHotkey script that you switch on and off for the keyboard you're using.\"}",
+  "ttft_ms": 1302,
+  "type": "result",
+  "duration_ms": 11608,
+  "uuid": "ad6e4ee1-f5be-49d6-a275-45a98bc27d56",
+  "ttft_stream_ms": 712,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 712,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 845,
+    "cacheReadInputTokens": 24910,
+    "cacheCreationInputTokens": 8693,
+    "webSearchRequests": 0,
+    "costUSD": 0.045733,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8693,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.251214458985487,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-awjdoksj/work"
+  }
+ },
+ "wall_seconds": 13.252851156983525,
+ "qid": "PowerToys#50078",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#1460",
+   "PowerToys#30420",
+   "PowerToys#3421"
+  ],
+  "answer": "This has been requested before. Keyboard Manager remaps apply to all attached keyboards, so you can't limit a remap to the internal or external keyboard. The main tracking ticket is PowerToys#1460 (multi-keyboard support). The maintainers said Windows doesn't give PowerToys a reliable way to tell which keyboard a keypress came from, and that they would revisit it if that changes. PowerToys#30420 was closed as a duplicate of #1460. PowerToys#3421 describes the same internal-versus-Bluetooth keyboard case. You can add a 👍 reaction to #1460 to show you want it. In the meantime, remove or disable the remap when you don't need it, or use the Keyboard Manager toggle to turn it off. Another option is an AutoHotkey script that you switch on and off for the keyboard you're using."
+ },
+ "hit_turn_cap": false
+}

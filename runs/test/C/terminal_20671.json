@@ -1,0 +1,345 @@
+{
+ "shown": [
+  "terminal#10106",
+  "terminal#10387",
+  "terminal#11231",
+  "terminal#11980",
+  "terminal#12359",
+  "terminal#1292",
+  "terminal#12949",
+  "terminal#1325",
+  "terminal#1329",
+  "terminal#13544",
+  "terminal#13900",
+  "terminal#1397",
+  "terminal#1513",
+  "terminal#1526",
+  "terminal#1664",
+  "terminal#16960",
+  "terminal#17000",
+  "terminal#1704",
+  "terminal#17076",
+  "terminal#1833",
+  "terminal#1928",
+  "terminal#2753",
+  "terminal#2805",
+  "terminal#2914",
+  "terminal#3244",
+  "terminal#365",
+  "terminal#3998",
+  "terminal#442",
+  "terminal#4502",
+  "terminal#4566",
+  "terminal#5188",
+  "terminal#5323",
+  "terminal#5664",
+  "terminal#6102",
+  "terminal#6486",
+  "terminal#7155",
+  "terminal#763",
+  "terminal#7975",
+  "terminal#8452",
+  "terminal#8538",
+  "terminal#869",
+  "terminal#8768",
+  "terminal#8802",
+  "terminal#8876",
+  "terminal#8987",
+  "terminal#9108",
+  "terminal#9273",
+  "terminal#9321",
+  "terminal#9559",
+  "terminal#9650",
+  "terminal#9675",
+  "terminal#9824"
+ ],
+ "retrieval_seconds": 4.2469426240131725,
+ "tool_calls": [
+  {
+   "t": 1794882651.284726,
+   "tool": "search",
+   "args": {
+    "query": "Settings tab does not open Ctrl+, nothing happens after expander groups settings UI",
+    "repo": "terminal"
+   },
+   "seconds": 4.214044496009592,
+   "returned": [
+    "terminal#1928",
+    "terminal#1833",
+    "terminal#9108",
+    "terminal#763",
+    "terminal#8987",
+    "terminal#2753",
+    "terminal#9321",
+    "terminal#1704",
+    "terminal#8538",
+    "terminal#9650",
+    "terminal#16960",
+    "terminal#3244",
+    "terminal#1397",
+    "terminal#6486",
+    "terminal#9675",
+    "terminal#8768",
+    "terminal#1664",
+    "terminal#5323",
+    "terminal#6102",
+    "terminal#442"
+   ]
+  },
+  {
+   "t": 1794882651.3259087,
+   "tool": "search",
+   "args": {
+    "query": "Add expander groups to settings UI (#20200) regression",
+    "repo": "terminal"
+   },
+   "seconds": 0.018115546001354232,
+   "returned": [
+    "terminal#12359",
+    "terminal#7155",
+    "terminal#9559",
+    "terminal#9824",
+    "terminal#1513",
+    "terminal#8876",
+    "terminal#5188",
+    "terminal#8802",
+    "terminal#12949",
+    "terminal#3998",
+    "terminal#13544",
+    "terminal#869",
+    "terminal#17000",
+    "terminal#365",
+    "terminal#8452",
+    "terminal#10387",
+    "terminal#2805",
+    "terminal#4566",
+    "terminal#11231",
+    "terminal#2914"
+   ]
+  },
+  {
+   "t": 1794882653.0555634,
+   "tool": "search",
+   "args": {
+    "query": "Settings editor tab fails to open since recent commit, built from source, settings page crashes silently",
+    "repo": "terminal"
+   },
+   "seconds": 0.014621117006754503,
+   "returned": [
+    "terminal#16960",
+    "terminal#2753",
+    "terminal#9273",
+    "terminal#13900",
+    "terminal#5664",
+    "terminal#9675",
+    "terminal#3244",
+    "terminal#8538",
+    "terminal#1833",
+    "terminal#7975",
+    "terminal#4502",
+    "terminal#1526",
+    "terminal#1329",
+    "terminal#9650",
+    "terminal#1292",
+    "terminal#1704",
+    "terminal#11980",
+    "terminal#1325",
+    "terminal#17076",
+    "terminal#10106"
+   ]
+  },
+  {
+   "t": 1794882653.1939845,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#16960"
+   },
+   "seconds": 0.00016146499547176063,
+   "returned": [
+    "terminal#16960"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6438,
+  "stop_reason": "end_turn",
+  "session_id": "7446baa8-5044-46cb-ad02-1286939e2b0a",
+  "total_cost_usd": 0.039435700000000004,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 7972,
+   "cache_read_input_tokens": 6657,
+   "output_tokens": 687,
+   "output_tokens_details": {
+    "thinking_tokens": 60
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7972,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 272,
+     "cache_read_input_tokens": 3970,
+     "cache_creation_input_tokens": 5035,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5035
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 687,
+    "cacheReadInputTokens": 6657,
+    "cacheCreationInputTokens": 7972,
+    "webSearchRequests": 0,
+    "costUSD": 0.039435700000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 60,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7972,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket in the archive that reports this problem. The archive has older \\\"Settings doesn't open\\\" tickets, but they have different causes. One example is terminal#16960, where the Settings editor failed to launch because of a font-loading regression on Windows 10. None of them involve commit 58c0db9 (\\\"Add expander groups to settings UI (#20200)\\\"). This looks like a new regression in the current git branch. Please keep the ticket open as a new bug. Include your bisect result (the commit that introduced it) and any crash or event log output you can capture. Until a fix lands, you can work around it by building from the commit just before #20200, or by editing settings.json directly. You can open it with Ctrl+Shift+, or by Shift-clicking the Settings menu item.\"}",
+  "ttft_ms": 1637,
+  "type": "result",
+  "duration_ms": 10745,
+  "uuid": "fe81c729-55b5-475c-b8e8-c57e41cfa0f1",
+  "ttft_stream_ms": 654,
+  "time_to_request_ms": 39,
+  "first_content_frame_ms": 654,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 687,
+    "cacheReadInputTokens": 6657,
+    "cacheCreationInputTokens": 7972,
+    "webSearchRequests": 0,
+    "costUSD": 0.039435700000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 60,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7972,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.185204684996279,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-7bevscdq/work"
+  }
+ },
+ "wall_seconds": 12.187145913980203,
+ "qid": "terminal#20671",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket in the archive that reports this problem. The archive has older \"Settings doesn't open\" tickets, but they have different causes. One example is terminal#16960, where the Settings editor failed to launch because of a font-loading regression on Windows 10. None of them involve commit 58c0db9 (\"Add expander groups to settings UI (#20200)\"). This looks like a new regression in the current git branch. Please keep the ticket open as a new bug. Include your bisect result (the commit that introduced it) and any crash or event log output you can capture. Until a fix lands, you can work around it by building from the commit just before #20200, or by editing settings.json directly. You can open it with Ctrl+Shift+, or by Shift-clicking the Settings menu item."
+ },
+ "hit_turn_cap": false
+}

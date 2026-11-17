@@ -1,0 +1,386 @@
+{
+ "shown": [
+  "PowerToys#10961",
+  "PowerToys#12978",
+  "PowerToys#13200",
+  "PowerToys#13638",
+  "PowerToys#13918",
+  "PowerToys#14330",
+  "PowerToys#1460",
+  "PowerToys#14685",
+  "PowerToys#14850",
+  "PowerToys#16708",
+  "PowerToys#19147",
+  "PowerToys#20405",
+  "PowerToys#21167",
+  "PowerToys#21181",
+  "PowerToys#21319",
+  "PowerToys#21782",
+  "PowerToys#21831",
+  "PowerToys#22132",
+  "PowerToys#23278",
+  "PowerToys#25373",
+  "PowerToys#27050",
+  "PowerToys#30420",
+  "PowerToys#31682",
+  "PowerToys#3326",
+  "PowerToys#33501",
+  "PowerToys#35808",
+  "PowerToys#36375",
+  "PowerToys#36421",
+  "PowerToys#37498",
+  "PowerToys#39121",
+  "PowerToys#39716",
+  "PowerToys#40206",
+  "PowerToys#40647",
+  "PowerToys#41536",
+  "PowerToys#41689",
+  "PowerToys#42384",
+  "PowerToys#43825",
+  "PowerToys#4450",
+  "PowerToys#45872",
+  "PowerToys#46498",
+  "PowerToys#47290",
+  "PowerToys#47893",
+  "PowerToys#47954",
+  "PowerToys#48271",
+  "PowerToys#48312",
+  "PowerToys#4870",
+  "PowerToys#48771",
+  "PowerToys#4905",
+  "PowerToys#5030",
+  "PowerToys#5453",
+  "PowerToys#5679",
+  "PowerToys#5706",
+  "PowerToys#6756",
+  "PowerToys#7460",
+  "PowerToys#7603",
+  "PowerToys#9688"
+ ],
+ "retrieval_seconds": 0.34856129498803057,
+ "tool_calls": [
+  {
+   "t": 1794885068.977459,
+   "tool": "search",
+   "args": {
+    "pattern": "remap",
+    "regex": false,
+    "also": [
+     "keyboard",
+     "external"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1650759860058315,
+   "returned": [
+    "PowerToys#6756",
+    "PowerToys#35808",
+    "PowerToys#5679",
+    "PowerToys#10961",
+    "PowerToys#12978",
+    "PowerToys#3326",
+    "PowerToys#1460",
+    "PowerToys#4870",
+    "PowerToys#40647",
+    "PowerToys#20405",
+    "PowerToys#4450",
+    "PowerToys#48312",
+    "PowerToys#33501",
+    "PowerToys#23278",
+    "PowerToys#13918",
+    "PowerToys#48271",
+    "PowerToys#41689",
+    "PowerToys#41536",
+    "PowerToys#39121",
+    "PowerToys#21319"
+   ]
+  },
+  {
+   "t": 1794885069.5625427,
+   "tool": "search",
+   "args": {
+    "pattern": "specific keyboard",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05902634799713269,
+   "returned": [
+    "PowerToys#13918",
+    "PowerToys#7603",
+    "PowerToys#47954",
+    "PowerToys#36375",
+    "PowerToys#30420",
+    "PowerToys#27050",
+    "PowerToys#14850",
+    "PowerToys#14685",
+    "PowerToys#14330",
+    "PowerToys#9688",
+    "PowerToys#5706",
+    "PowerToys#48771",
+    "PowerToys#48312",
+    "PowerToys#46498",
+    "PowerToys#43825",
+    "PowerToys#42384",
+    "PowerToys#40206",
+    "PowerToys#39716",
+    "PowerToys#37498",
+    "PowerToys#36421"
+   ]
+  },
+  {
+   "t": 1794885069.6948447,
+   "tool": "search",
+   "args": {
+    "pattern": "brightness",
+    "regex": false,
+    "also": [
+     "remap"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.12402842100709677,
+   "returned": [
+    "PowerToys#4450",
+    "PowerToys#7460",
+    "PowerToys#47290",
+    "PowerToys#20405",
+    "PowerToys#4905",
+    "PowerToys#25373",
+    "PowerToys#21831",
+    "PowerToys#16708",
+    "PowerToys#13200",
+    "PowerToys#47893",
+    "PowerToys#22132",
+    "PowerToys#21782",
+    "PowerToys#21167",
+    "PowerToys#19147",
+    "PowerToys#13638",
+    "PowerToys#5453",
+    "PowerToys#5030",
+    "PowerToys#45872",
+    "PowerToys#31682",
+    "PowerToys#21181"
+   ]
+  },
+  {
+   "t": 1794885071.5649636,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1460"
+   },
+   "seconds": 0.00015866599278524518,
+   "returned": [
+    "PowerToys#1460"
+   ]
+  },
+  {
+   "t": 1794885073.0135782,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4450"
+   },
+   "seconds": 0.000137466995511204,
+   "returned": [
+    "PowerToys#4450"
+   ]
+  },
+  {
+   "t": 1794885074.4883657,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#13918"
+   },
+   "seconds": 0.00013440698967315257,
+   "returned": [
+    "PowerToys#13918"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11938,
+  "stop_reason": "end_turn",
+  "session_id": "08567fe6-b8cc-4c24-85c6-8807b4dbc8f9",
+  "total_cost_usd": 0.0869984,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 17997,
+   "cache_read_input_tokens": 51604,
+   "output_tokens": 983,
+   "output_tokens_details": {
+    "thinking_tokens": 53
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 17997,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 449,
+     "cache_read_input_tokens": 18373,
+     "cache_creation_input_tokens": 801,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 801
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 983,
+    "cacheReadInputTokens": 51604,
+    "cacheCreationInputTokens": 17997,
+    "webSearchRequests": 0,
+    "costUSD": 0.0869984,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 53,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 17997,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#1460\", \"PowerToys#13918\", \"PowerToys#4450\"], \"answer\": \"Both requests have been reported before. Neither is available today.\\n\\n1. Per-keyboard remapping (laptop keyboard versus external USB keyboard): see PowerToys#1460, and PowerToys#13918, which was closed as a duplicate of it. Keyboard Manager can't tell which keyboard a keystroke came from, because Windows has no public API that identifies the source keyboard and also lets the key be blocked. So remaps apply to all keyboards. The PowerToys team says it would revisit this if a suitable API appears. Until then, the tickets suggest a few workarounds. You can use an AutoHotkey script that you toggle on and off. You can use a tool built for this, such as LuaMacros or the Interception driver. Or you can turn the remaps on and off by hand when you change keyboards.\\n\\n2. Brightness: see PowerToys#4450. Keyboard Manager has no brightness up/down action, and it can't detect the brightness keys. Those keys use codes outside what it supports. The team treats this as a possible future enhancement that would need a separate API. Tools like Twinkle Tray can set brightness with keyboard shortcuts in the meantime. You can add your vote to those tickets.\"}",
+  "ttft_ms": 1870,
+  "type": "result",
+  "duration_ms": 12195,
+  "uuid": "3b049854-d4ea-41e9-97af-e85ae1357b29",
+  "ttft_stream_ms": 1093,
+  "time_to_request_ms": 35,
+  "first_content_frame_ms": 1093,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 983,
+    "cacheReadInputTokens": 51604,
+    "cacheCreationInputTokens": 17997,
+    "webSearchRequests": 0,
+    "costUSD": 0.0869984,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 53,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 17997,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.78076914799749,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-q3jnthu1/work"
+  }
+ },
+ "wall_seconds": 13.782782412017696,
+ "qid": "PowerToys#51818",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#1460",
+   "PowerToys#13918",
+   "PowerToys#4450"
+  ],
+  "answer": "Both requests have been reported before. Neither is available today.\n\n1. Per-keyboard remapping (laptop keyboard versus external USB keyboard): see PowerToys#1460, and PowerToys#13918, which was closed as a duplicate of it. Keyboard Manager can't tell which keyboard a keystroke came from, because Windows has no public API that identifies the source keyboard and also lets the key be blocked. So remaps apply to all keyboards. The PowerToys team says it would revisit this if a suitable API appears. Until then, the tickets suggest a few workarounds. You can use an AutoHotkey script that you toggle on and off. You can use a tool built for this, such as LuaMacros or the Interception driver. Or you can turn the remaps on and off by hand when you change keyboards.\n\n2. Brightness: see PowerToys#4450. Keyboard Manager has no brightness up/down action, and it can't detect the brightness keys. Those keys use codes outside what it supports. The team treats this as a possible future enhancement that would need a separate API. Tools like Twinkle Tray can set brightness with keyboard shortcuts in the meantime. You can add your vote to those tickets."
+ },
+ "hit_turn_cap": false
+}

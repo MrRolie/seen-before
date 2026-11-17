@@ -1,0 +1,296 @@
+{
+ "shown": [
+  "PowerToys#10095",
+  "PowerToys#11463",
+  "PowerToys#1203",
+  "PowerToys#1208",
+  "PowerToys#1431",
+  "PowerToys#1691",
+  "PowerToys#2033",
+  "PowerToys#2050",
+  "PowerToys#21026",
+  "PowerToys#22505",
+  "PowerToys#2651",
+  "PowerToys#27528",
+  "PowerToys#2803",
+  "PowerToys#2911",
+  "PowerToys#346",
+  "PowerToys#38314",
+  "PowerToys#3939",
+  "PowerToys#3957",
+  "PowerToys#4482",
+  "PowerToys#46948",
+  "PowerToys#46950",
+  "PowerToys#4888",
+  "PowerToys#5474",
+  "PowerToys#5955",
+  "PowerToys#5982",
+  "PowerToys#6192",
+  "PowerToys#7814"
+ ],
+ "retrieval_seconds": 4.3304092710022815,
+ "tool_calls": [
+  {
+   "t": 1794882810.3929937,
+   "tool": "search",
+   "args": {
+    "pattern": "Foreground capture",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07390510398545302,
+   "returned": []
+  },
+  {
+   "t": 1794882814.9309883,
+   "tool": "similar",
+   "args": {
+    "query": "Shortcut Guide foreground window exe only logged once, not on every invocation",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.035349350015167,
+   "returned": [
+    "PowerToys#1691",
+    "PowerToys#3939",
+    "PowerToys#1203",
+    "PowerToys#6192",
+    "PowerToys#21026",
+    "PowerToys#3957",
+    "PowerToys#2050",
+    "PowerToys#2033",
+    "PowerToys#46950",
+    "PowerToys#22505",
+    "PowerToys#38314",
+    "PowerToys#2803",
+    "PowerToys#27528",
+    "PowerToys#2911",
+    "PowerToys#4888",
+    "PowerToys#1208",
+    "PowerToys#1431",
+    "PowerToys#2651",
+    "PowerToys#5474",
+    "PowerToys#46948"
+   ]
+  },
+  {
+   "t": 1794882816.6161828,
+   "tool": "search",
+   "args": {
+    "pattern": "LogForegroundCapture",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.061603435984579846,
+   "returned": []
+  },
+  {
+   "t": 1794882818.384428,
+   "tool": "search",
+   "args": {
+    "pattern": "Shortcut Guide",
+    "regex": false,
+    "also": [
+     "log",
+     "foreground"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.15955138101708144,
+   "returned": [
+    "PowerToys#10095",
+    "PowerToys#11463",
+    "PowerToys#4482",
+    "PowerToys#7814",
+    "PowerToys#346",
+    "PowerToys#1431",
+    "PowerToys#5982",
+    "PowerToys#5955"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8169,
+  "stop_reason": "end_turn",
+  "session_id": "33781743-0e85-4f08-8033-ed8bc1b6c62b",
+  "total_cost_usd": 0.0249898,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 4192,
+   "cache_read_input_tokens": 11558,
+   "output_tokens": 705,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4192,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 236,
+     "cache_read_input_tokens": 4089,
+     "cache_creation_input_tokens": 1516,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1516
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 705,
+    "cacheReadInputTokens": 11558,
+    "cacheCreationInputTokens": 4192,
+    "webSearchRequests": 0,
+    "costUSD": 0.0249898,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4192,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket that reports this problem. I searched for the log message text, for LogForegroundCapture, and for Shortcut Guide tickets about logging and the foreground window. The results were unrelated, such as Shortcut Guide not appearing or freezing, and Window Walker issues. Treat this as a new bug. The foreground window (HWND, PID, module name) is logged only once. It should be logged on every Shortcut Guide trigger, so that a log exists for diagnosing apps whose shortcuts display incorrectly. The fix is to move the LogForegroundCapture call in Program.cs into the code path that runs on each overlay invocation.\"}",
+  "ttft_ms": 1641,
+  "type": "result",
+  "duration_ms": 12442,
+  "uuid": "086561b6-8ef1-41b5-8e39-61085173b862",
+  "ttft_stream_ms": 1242,
+  "time_to_request_ms": 67,
+  "first_content_frame_ms": 1242,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 705,
+    "cacheReadInputTokens": 11558,
+    "cacheCreationInputTokens": 4192,
+    "webSearchRequests": 0,
+    "costUSD": 0.0249898,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4192,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.13921112701064,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-4smjiw0c/work"
+  }
+ },
+ "wall_seconds": 14.141218644013861,
+ "qid": "PowerToys#50586",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket that reports this problem. I searched for the log message text, for LogForegroundCapture, and for Shortcut Guide tickets about logging and the foreground window. The results were unrelated, such as Shortcut Guide not appearing or freezing, and Window Walker issues. Treat this as a new bug. The foreground window (HWND, PID, module name) is logged only once. It should be logged on every Shortcut Guide trigger, so that a log exists for diagnosing apps whose shortcuts display incorrectly. The fix is to move the LogForegroundCapture call in Program.cs into the code path that runs on each overlay invocation."
+ },
+ "hit_turn_cap": false
+}

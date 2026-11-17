@@ -1,0 +1,306 @@
+{
+ "shown": [
+  "PowerToys#1002",
+  "PowerToys#10381",
+  "PowerToys#10642",
+  "PowerToys#11080",
+  "PowerToys#11651",
+  "PowerToys#11655",
+  "PowerToys#1206",
+  "PowerToys#12417",
+  "PowerToys#12686",
+  "PowerToys#13781",
+  "PowerToys#13792",
+  "PowerToys#1391",
+  "PowerToys#14047",
+  "PowerToys#1550",
+  "PowerToys#16191",
+  "PowerToys#32152",
+  "PowerToys#32283",
+  "PowerToys#34287",
+  "PowerToys#35160",
+  "PowerToys#37539",
+  "PowerToys#37596",
+  "PowerToys#40091",
+  "PowerToys#40663",
+  "PowerToys#43088",
+  "PowerToys#4390",
+  "PowerToys#44910",
+  "PowerToys#48127",
+  "PowerToys#5651",
+  "PowerToys#615",
+  "PowerToys#644",
+  "PowerToys#684",
+  "PowerToys#686",
+  "PowerToys#9571"
+ ],
+ "retrieval_seconds": 3.0530728889862075,
+ "tool_calls": [
+  {
+   "t": 1794874606.4442172,
+   "tool": "search",
+   "args": {
+    "query": "PowerRename save and recall presets of search/replace patterns and settings",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.0407138410082553,
+   "returned": [
+    "PowerToys#13781",
+    "PowerToys#1206",
+    "PowerToys#48127",
+    "PowerToys#37596",
+    "PowerToys#40091",
+    "PowerToys#11080",
+    "PowerToys#686",
+    "PowerToys#14047",
+    "PowerToys#10381",
+    "PowerToys#32152",
+    "PowerToys#12686",
+    "PowerToys#16191",
+    "PowerToys#11651",
+    "PowerToys#35160",
+    "PowerToys#615",
+    "PowerToys#1002",
+    "PowerToys#37539",
+    "PowerToys#13792",
+    "PowerToys#44910",
+    "PowerToys#40663"
+   ]
+  },
+  {
+   "t": 1794874606.4663353,
+   "tool": "search",
+   "args": {
+    "query": "PowerRename list of saved rename strategies / favorites regex",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.011191346013220027,
+   "returned": [
+    "PowerToys#686",
+    "PowerToys#11080",
+    "PowerToys#9571",
+    "PowerToys#684",
+    "PowerToys#13781",
+    "PowerToys#12686",
+    "PowerToys#1550",
+    "PowerToys#13792",
+    "PowerToys#615",
+    "PowerToys#10642",
+    "PowerToys#12417",
+    "PowerToys#1391",
+    "PowerToys#1002",
+    "PowerToys#11651",
+    "PowerToys#43088",
+    "PowerToys#10381",
+    "PowerToys#644",
+    "PowerToys#5651",
+    "PowerToys#4390",
+    "PowerToys#32283"
+   ]
+  },
+  {
+   "t": 1794874607.4577537,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#13781"
+   },
+   "seconds": 0.0001428159885108471,
+   "returned": [
+    "PowerToys#13781"
+   ]
+  },
+  {
+   "t": 1794874607.6909614,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48127"
+   },
+   "seconds": 0.00011955699301324785,
+   "returned": [
+    "PowerToys#48127"
+   ]
+  },
+  {
+   "t": 1794874607.94275,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37596"
+   },
+   "seconds": 0.00013582699466496706,
+   "returned": [
+    "PowerToys#37596"
+   ]
+  },
+  {
+   "t": 1794874608.1267982,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#16191"
+   },
+   "seconds": 0.00015665701357647777,
+   "returned": [
+    "PowerToys#16191"
+   ]
+  },
+  {
+   "t": 1794874609.299149,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#12686"
+   },
+   "seconds": 0.00018592498963698745,
+   "returned": [
+    "PowerToys#12686"
+   ]
+  },
+  {
+   "t": 1794874609.5865722,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40091"
+   },
+   "seconds": 0.00017253600526601076,
+   "returned": [
+    "PowerToys#40091"
+   ]
+  },
+  {
+   "t": 1794874609.7641604,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#11655"
+   },
+   "seconds": 0.00011299698962830007,
+   "returned": [
+    "PowerToys#11655"
+   ]
+  },
+  {
+   "t": 1794874610.5619748,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34287"
+   },
+   "seconds": 0.00014138699043542147,
+   "returned": [
+    "PowerToys#34287"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7899,
+  "stop_reason": "end_turn",
+  "session_id": "a288606f-5935-4a04-9e25-74d013c8f444",
+  "total_cost_usd": 0.0522115,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 10034,
+   "cache_read_input_tokens": 22455,
+   "output_tokens": 981,
+   "output_tokens_details": {
+    "thinking_tokens": 32
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10034,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 271,
+     "cache_read_input_tokens": 9365,
+     "cache_creation_input_tokens": 669,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 669
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 981,
+    "cacheReadInputTokens": 22455,
+    "cacheCreationInputTokens": 10034,
+    "webSearchRequests": 0,
+    "costUSD": 0.0522115,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 32,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10034,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#11655\", \"PowerToys#12686\", \"PowerToys#34287\"], \"answer\": \"This feature request has been filed before. PowerToys#11655 (Rename Presets/Profiles) is the original tracking issue. PowerToys#12686 (Favorites/Bookmarks), PowerToys#34287 and others were closed as duplicates of it. They ask for the same thing: saving a named set of search and replace patterns plus option checkboxes, and recalling it later. This isn't implemented yet. Subscribe to PowerToys#11655 and add your use case there. Until it ships, PowerRename keeps only a history dropdown of recent search and replace expressions. That history gets overwritten as you use it, so keep your complex regexes in an external notes file for now.\"}",
+  "ttft_ms": 1098,
+  "type": "result",
+  "duration_ms": 10525,
+  "uuid": "783074ae-8f6b-4283-b714-76f69ac14ad7",
+  "ttft_stream_ms": 640,
+  "time_to_request_ms": 27,
+  "first_content_frame_ms": 640,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "claude_wall_seconds": 11.678017219004687
+ },
+ "wall_seconds": 11.678082677011844,
+ "qid": "PowerToys#49060",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#11655",
+   "PowerToys#12686",
+   "PowerToys#34287"
+  ],
+  "answer": "This feature request has been filed before. PowerToys#11655 (Rename Presets/Profiles) is the original tracking issue. PowerToys#12686 (Favorites/Bookmarks), PowerToys#34287 and others were closed as duplicates of it. They ask for the same thing: saving a named set of search and replace patterns plus option checkboxes, and recalling it later. This isn't implemented yet. Subscribe to PowerToys#11655 and add your use case there. Until it ships, PowerRename keeps only a history dropdown of recent search and replace expressions. That history gets overwritten as you use it, so keep your complex regexes in an external notes file for now."
+ },
+ "hit_turn_cap": false
+}

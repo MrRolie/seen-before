@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>seen-before</title>
+<link rel="icon" href="data:,">
+<meta name="description" content="Two ways to give an AI your past support tickets: train a model on them, or let it search them with ripgrep. What we measured.">
+<style>
+:root {
+  --paper: #eceff1;
+  --ink: #17212b;
+  --muted: #5e6b77;
+  --rule: #c8d0d7;
+  --dot0: 74, 96, 120;     /* PowerToys */
+  --dot1: 112, 132, 150;   /* terminal  */
+  --dot2: 150, 166, 180;   /* WSL       */
+  --match: #f2c500;
+  --meaning: #5a3fd0;
+  --answer: #0c8a5f;
+  --panel: rgba(236, 239, 241, .94);
+  --mono: ui-monospace, "Cascadia Mono", "SF Mono", Menlo, Consolas, monospace;
+  --sans: "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #11171d; --ink: #e6ebef; --muted: #93a1ad; --rule: #2a343e;
+    --dot0: 120, 146, 172; --dot1: 92, 114, 134; --dot2: 66, 84, 102;
+    --match: #ffd52e; --meaning: #9b87ff; --answer: #34c88f; --panel: rgba(17, 23, 29, .94);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #11171d; --ink: #e6ebef; --muted: #93a1ad; --rule: #2a343e;
+  --dot0: 120, 146, 172; --dot1: 92, 114, 134; --dot2: 66, 84, 102;
+  --match: #ffd52e; --meaning: #9b87ff; --answer: #34c88f; --panel: rgba(17, 23, 29, .94);
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--paper); color: var(--ink); }
+body { font: 17px/1.55 var(--sans); -webkit-font-smoothing: antialiased; }
+code, .mono { font-family: var(--mono); font-size: .92em; }
+a { color: inherit; text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--meaning); outline-offset: 3px; }
+
+.layout { display: grid; grid-template-columns: minmax(320px, 40%) 1fr; }
+.stage { position: sticky; top: 0; height: 100vh; grid-column: 2; grid-row: 1; overflow: hidden; }
+.steps { grid-column: 1; grid-row: 1; padding: 0 clamp(16px, 4vw, 56px); }
+canvas { display: block; width: 100%; height: 100%; }
+
+.step { min-height: 92vh; display: flex; flex-direction: column; justify-content: center; max-width: 34rem; }
+.step:first-child { min-height: 100vh; }
+.step:last-child { min-height: 100vh; }
+.step p { margin: 0 0 .9em; }
+.small { color: var(--muted); font-size: .9em; }
+h1 { font-size: clamp(44px, 6.4vw, 92px); line-height: .95; letter-spacing: -.035em; margin: 0 0 .35em; font-weight: 700; }
+h2 { font-size: clamp(26px, 2.6vw, 36px); line-height: 1.1; letter-spacing: -.02em; margin: 0 0 .5em; font-weight: 650; }
+.ticket { border-left: 3px solid var(--ink); padding: .2em 0 .2em .8em; margin: .4em 0 1em; }
+.ticket .id { font-family: var(--mono); font-size: .8em; color: var(--muted); display: block; }
+.k-match { background: color-mix(in srgb, var(--match) 55%, transparent); padding: 0 .2em; }
+.k-meaning { color: var(--meaning); font-weight: 600; }
+.k-answer { color: var(--answer); font-weight: 600; }
+
+/* the agent's console over the stage */
+.console { position: absolute; left: 20px; bottom: 20px; max-width: min(560px, calc(100% - 40px)); background: var(--panel);
+  border: 1px solid var(--rule); border-radius: 6px; padding: 10px 14px; font: 13.5px/1.6 var(--mono);
+  opacity: 0; transition: opacity .4s; pointer-events: none; }
+.console.on { opacity: 1; }
+.console .line { white-space: pre-wrap; word-break: break-word; }
+.console .dim { color: var(--muted); }
+.console .hit { color: var(--answer); }
+
+/* results panels over the stage */
+.panel { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; padding: 32px;
+  background: var(--panel); opacity: 0; transition: opacity .5s; pointer-events: none; }
+.panel.on { opacity: 1; pointer-events: auto; }
+.panel-inner { width: min(640px, 100%); }
+.bars { display: grid; grid-template-columns: max-content 1fr max-content; gap: 10px 14px; align-items: center; }
+.bars .name { font-size: 15px; }
+.bars .name small { display: block; color: var(--muted); font-size: 12.5px; }
+.bars .track { position: relative; height: 22px; border-left: 1px solid var(--rule); }
+.bars .fill { position: absolute; left: 0; top: 3px; bottom: 3px; background: var(--ink); width: 0; transition: width 1s cubic-bezier(.2,.7,.2,1); }
+.bars .fill.ours { background: var(--match); }
+.bars .ci { position: absolute; top: 10px; height: 2px; background: var(--muted); opacity: 0; transition: opacity .6s .9s; }
+.bars .ci::before, .bars .ci::after { content: ""; position: absolute; top: -4px; width: 1px; height: 10px; background: var(--muted); }
+.bars .ci::before { left: 0; } .bars .ci::after { right: 0; }
+.panel.on .bars .ci { opacity: 1; }
+.bars .val { font-variant-numeric: tabular-nums; font-size: 15px; }
+.axis { display: flex; justify-content: space-between; color: var(--muted); font-size: 12px; margin: 8px 0 0 calc(var(--namew, 0px)); }
+.compare { width: 100%; border-collapse: collapse; font-size: 15px; font-variant-numeric: tabular-nums; margin-bottom: 14px; }
+.compare th, .compare td { text-align: left; padding: 9px 10px 9px 0; border-top: 1px solid var(--rule); vertical-align: top; }
+.compare thead th { font-weight: 500; color: var(--muted); font-size: 13px; border-top: 0; }
+.compare tbody th { font-weight: 600; }
+.compare tr.ours th { box-shadow: inset 4px 0 0 var(--match); padding-left: 10px; }
+.flow { display: grid; gap: 14px; }
+.flow .box { border: 1px solid var(--rule); border-radius: 6px; padding: 12px 14px; background: var(--paper); }
+.flow .arrow { justify-self: center; color: var(--muted); }
+.comment { border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; }
+.comment .head { padding: 8px 12px; border-bottom: 1px solid var(--rule); font-size: 13.5px; color: var(--muted); }
+.comment .body { padding: 12px; font-size: 15px; }
+.comment .body sub { color: var(--muted); }
+.closing { font-size: clamp(30px, 3.6vw, 52px); line-height: 1.08; letter-spacing: -.025em; font-weight: 650; }
+
+.theme { position: fixed; right: 14px; bottom: 14px; z-index: 5; background: var(--panel); color: var(--ink);
+  border: 1px solid var(--rule); border-radius: 999px; padding: 6px 12px; font: 13px var(--sans); cursor: pointer; }
+footer { padding: 24px clamp(16px, 4vw, 56px) 80px; color: var(--muted); font-size: 14px; max-width: 46rem; }
+
+@media (max-width: 860px) {
+  .layout { display: block; }
+  .stage { height: 50vh; position: sticky; top: 0; z-index: 3; border-bottom: 1px solid var(--rule); background: var(--paper); }
+  .steps { position: relative; z-index: 1; padding: 0 16px; }
+  .step { min-height: 75vh; justify-content: flex-start; padding-top: 2vh; }
+  .step:first-child, .step:last-child { min-height: 75vh; }
+  .console { left: 8px; right: 8px; bottom: 8px; max-height: 45%; overflow: hidden; font-size: 11px; line-height: 1.45; padding: 6px 9px;
+    display: flex; flex-direction: column; justify-content: flex-end; }
+  .panel { padding: 14px; align-items: flex-start; overflow: auto; }
+  body { font-size: 16px; }
+  .bars { grid-template-columns: 1fr max-content; gap: 4px 10px; }
+  .bars .name { grid-column: 1 / -1; margin-top: 6px; }
+  .steps .verdicts, .steps .flow { margin-top: 18px; }
+  .steps .verdicts h2 { display: none; }
+  .bars .name small { display: none; }
+  .bars .name { margin-top: 2px; font-size: 13px; }
+  .bars .track { height: 16px; }
+  .bars .ci { top: 7px; }
+  .panel h2 { font-size: 20px; margin-bottom: .4em; }
+  .panel .small { margin-top: 8px !important; font-size: 12px; }
+  .compare { font-size: 13px; }
+  .compare th, .compare td { padding: 7px 6px 7px 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .bars .fill, .bars .ci, .panel, .console { transition: none; }
+}
+</style>
+</head>
+<body>
+<button class="theme" type="button" id="theme" aria-label="Switch colour theme">Dark</button>
+<div class="layout">
+  <div class="stage" aria-hidden="true">
+    <canvas id="c"></canvas>
+    <div class="console" id="console"></div>
+    <div class="panel" id="p-accuracy"><div class="panel-inner">
+      <h2>Right issue named first</h2>
+      <div class="bars" id="bars"></div>
+      <p class="small" style="margin-top:14px">Out of <span data-k="nq"></span> new issues that maintainers marked as duplicates. Lines show 95% intervals.</p>
+    </div></div>
+    <div class="panel" id="p-claims"><div class="panel-inner verdicts" id="verdicts"></div></div>
+    <div class="panel" id="p-connector"><div class="panel-inner flow">
+      <div class="box">A new issue is opened on GitHub</div>
+      <div class="arrow">↓</div>
+      <div class="box">The mirror of past issues is updated (one file per issue; that is the whole index)</div>
+      <div class="arrow">↓</div>
+      <div class="box">The agent gets two tools, <code>search</code> (ripgrep) and <code>read</code>, and up to 20 turns. The new issue is hidden from both.</div>
+      <div class="arrow">↓</div>
+      <div class="comment"><div class="head">seen-before commented</div><div class="body" id="comment"></div></div>
+    </div></div>
+  </div>
+
+  <main class="steps">
+    <section class="step" id="intro" data-scene="intro">
+      <h1>seen&#8209;before</h1>
+      <p>Someone files an issue. Somewhere in the archive, <span data-k="n"></span> earlier ones are waiting. Has
+        anyone reported this before?</p>
+      <p>At an AI convention, trained-model and embedding pipelines were being pitched for exactly this: train a
+        model on all the past tickets, and let it find the closest ones. The question we took home was simple. Is
+        this the right way to do it?</p>
+      <p>So we built it, built the alternatives, and compared them on the same issues.</p>
+      <p class="small">Scroll to watch the approaches answer the same issues.</p>
+    </section>
+
+    <section class="step" id="question" data-scene="question">
+      <p>Every dot on the right is a real issue from three open-source projects on GitHub: Microsoft PowerToys,
+        Windows Terminal and WSL. This new one came in after all of them:</p>
+      <div class="ticket"><span class="id" data-k="q0id"></span><span data-k="q0title"></span></div>
+      <p>A maintainer later marked it as a duplicate of one earlier issue. Both approaches below get the same
+        question, the same archive and the same AI model, Claude Sonnet 5.5. Each one has to name that earlier issue.</p>
+    </section>
+
+    <section class="step" id="map" data-scene="map">
+      <h2>The trained model</h2>
+      <p>First, a language model is trained on the archive, so that issues about the same problem end up close
+        together. That took 17 minutes on a GPU. Every issue becomes a point in a <span class="k-meaning">map of
+        meaning</span>, and the dots on the right move to their places in it.</p>
+    </section>
+
+    <section class="step" id="mapq0" data-scene="mapq0">
+      <p>The new issue lands on the map. The five closest issues are handed to Claude, which reads them once and answers.</p>
+      <p>Here all five are about the clipboard or escape sequences, and none of them is the one. Claude says
+        <b>not seen before</b>. The <span class="k-answer">right issue</span> is close by on the map, but not among the
+        five.</p>
+      <p class="small" data-k="q0a"></p>
+    </section>
+
+    <section class="step" id="rg0" data-scene="rg0">
+      <h2>The agent with ripgrep</h2>
+      <p>Nothing is trained. The dots go back to plain order, one file per issue. Claude gets one tool that searches
+        those files for exact text, and one that reads a file. It decides what to look for.</p>
+      <p>It starts with the words that only this bug would contain. <span class="k-match">Highlighted</span> dots are
+        the issues each search matches.</p>
+    </section>
+
+    <section class="step" id="rg0b" data-scene="rg0b">
+      <p>It reads <span class="k-answer" data-k="q0ans"></span>, runs two more searches to check, and names it.
+        <b>Right</b>, after <span data-k="q0turns"></span> turns.</p>
+      <p class="small" data-k="q0time"></p>
+    </section>
+
+    <section class="step" id="q1" data-scene="q1">
+      <h2>It cuts both ways</h2>
+      <div class="ticket"><span class="id" data-k="q1id"></span><span data-k="q1title"></span></div>
+      <p>Here the issue is a few plain words. On the map of meaning, two of its five neighbours are earlier
+        requests for exactly this. Claude names one. <b>Right.</b></p>
+    </section>
+
+    <section class="step" id="rg1" data-scene="rg1">
+      <p>The agent searches for <code>translation</code>. That matches <span data-k="q1n"></span> issues, and it is shown the
+        top 20. Two of those 20 are this same request. It passes over them, tries two narrower phrases that match
+        nothing, and answers <b>not seen before</b>. <b>Wrong.</b></p>
+      <p>In these two, words found a bug by its error message, and meaning found a wish by what it asks for.</p>
+    </section>
+
+    <section class="step" id="accuracy" data-scene="accuracy">
+      <h2>Over <span data-k="nq"></span> issues</h2>
+      <p>We ran the same thing on <span data-k="nq"></span> issues filed after the archive was cut. Each one has a
+        known earlier report, marked by a maintainer. We also ran three mixes of the two approaches.</p>
+      <p>The agent with ripgrep named the right issue first more often than the trained model, narrowly. Agents with the
+        trained model as their search tool did best of all, though not by enough to tell them apart from the
+        ripgrep agent.</p>
+    </section>
+
+    <section class="step" id="claims" data-scene="claims">
+      <h2>Side by side</h2>
+      <p>Accuracy is one measure among several. The one-shot pipelines answer three times faster and cost less.
+        The agents need more turns, and the ripgrep agent needs nothing trained, no GPU and no index.</p>
+      <p class="small">How each one would be measured was written down before the first run. Where an approach
+        loses, it says so here.</p>
+    </section>
+
+    <section class="step" id="loop" data-scene="loop">
+      <h2>So, is it the right way?</h2>
+      <p>On these issues, training a model was not the step that mattered. Letting the AI search more than once
+        was: an agent that can look, read, and look again.</p>
+      <p>Give the trained model to an agent instead of a one-shot pipeline, and it goes from <span data-k="hA"></span> to
+        <span data-k="hC"></span>. Swap that model for ripgrep and the agent gets <span data-k="hB"></span>, too close to
+        call. Ripgrep simply needs no training, no GPU and no index to keep up to date.</p>
+    </section>
+
+    <section class="step" id="connector" data-scene="connector">
+      <h2>The connector</h2>
+      <p>So we shipped the simplest approach within reach of the best: the agent with ripgrep, as a GitHub Action and
+        a Claude Code plugin. When an issue is opened, it looks through the past ones and comments if it finds an
+        earlier report.</p>
+      <p class="small">The comment is built only from issue numbers the tools really returned, and their stored titles.
+        The agent's own words are never posted.</p>
+    </section>
+
+    <section class="step" id="end" data-scene="end">
+      <p class="closing">We named it seen&#8209;before after the reflex an agent should reach for first: have I seen this before?</p>
+    </section>
+  </main>
+</div>
+<footer>
+  <p>Every number and every highlighted dot on this page comes from the experiment's own records
+    (<code>showcase/build_data.py</code>). The protocol, every result including the losses, and the code are in the
+    repository: <code>experiment/PROTOCOL.md</code>, <code>experiment/RESULTS.md</code>, <code>connector/</code>.
+    Issue text belongs to its authors and is fetched from GitHub, not redistributed.</p>
+</footer>
+
+<script src="data.js"></script>
+<script>
+(() => {
+const D = window.SB;
+const $ = (s, el = document) => el.querySelector(s);
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const N = D.n_tickets;
+const fmt = n => n.toLocaleString("en-US");
+const dec = b64 => Uint8Array.from(atob(b64), c => c.charCodeAt(0)).buffer;
+const XY = new Uint16Array(dec(D.xy));
+const WALL = new Uint32Array(dec(D.wall));
+const REPO = new Uint8Array(dec(D.repo));
+const [q0, q1] = D.examples;
+const arms = D.arms;
+
+// ---------- text that comes from the data
+const put = (k, v) => document.querySelectorAll(`[data-k="${k}"]`).forEach(e => e.textContent = v);
+put("n", fmt(N));
+put("nq", D.n_questions);
+put("q0id", q0.qid); put("q0title", q0.title);
+put("q1id", q1.qid); put("q1title", q1.title);
+put("q0ans", `${q0.answer[0].id}, “${q0.answer[0].title}”`);
+put("q0turns", q0.B.turns);
+put("q0a", `Trained model: ${q0.A.seconds} s for this issue.`);
+put("q0time", `${q0.B.seconds} s for this issue, against ${q0.A.seconds} s for the trained model. Searching takes turns.`);
+put("q1n", fmt(q1.B.steps[0].n));
+const h = a => `${arms[a].hit1.k} of ${arms[a].hit1.n}`;
+put("hA", h("A")); put("hC", h("C")); put("hB", h("B"));
+
+// ---------- accuracy bars
+const NAMES = {
+  A: ["Trained model", "one look, then answer"], F: ["Trained model + keywords", "one look, then answer"],
+  B: ["Agent with ripgrep", "searches as often as it likes"], C: ["Agent with the trained model", "searches as often as it likes"],
+  D: ["Agent with both", "searches as often as it likes"]};
+const bars = $("#bars");
+for (const a of ["A", "F", "B", "C", "D"]) {
+  const s = arms[a].hit1;
+  bars.insertAdjacentHTML("beforeend", `<div class="name">${NAMES[a][0]}<small>${NAMES[a][1]}</small></div>
+    <div class="track"><div class="fill ${a === "B" ? "ours" : ""}" data-w="${s.rate * 100}"></div>
+    <div class="ci" style="left:${s.ci95[0] * 100}%;width:${(s.ci95[1] - s.ci95[0]) * 100}%"></div></div>
+    <div class="val">${s.k} <span class="small" style="color:var(--muted)">(${Math.round(s.rate * 100)}%)</span></div>`);
+}
+
+// ---------- side by side
+const d = D.diffs.B_minus_A.hit1, bot = D.bot_line, S = D.simplicity, F = D.freshness;
+const pts = x => (x * 100).toFixed(1).replace("-", "−");
+const sgn = x => (x >= 0 ? "+" : "") + pts(x);
+const build = a => S[a].n_build_steps ? `train and index, ${Math.round(S[a].artifacts_mb)} MB, GPU` : "nothing";
+$("#verdicts").innerHTML = `<h2>Side by side</h2>
+  <table class="compare"><thead><tr><th>Approach</th><th>Right first, of ${D.n_questions}</th><th>Per answer</th><th>Cost</th><th>To build</th></tr></thead>
+  <tbody>${["A", "F", "B", "C", "D"].map(a => `<tr${a === "B" ? ' class="ours"' : ""}><th>${NAMES[a][0]}</th>
+    <td>${arms[a].hit1.k}</td><td>${arms[a].median_s.toFixed(1)} s</td>
+    <td>$${arms[a].cost.toFixed(2)}</td><td>${build(a)}</td></tr>`).join("")}</tbody></table>
+  <p class="small">Ripgrep agent against the trained model: ${sgn(d.diff)} points (95% interval ${sgn(d.ci95[0])} to
+    ${sgn(d.ci95[1])}). On ${D.n_questions - bot.n} issues an AI triage bot had suggested duplicates before the
+    maintainer did; without them the gap is ${sgn(bot.diff)} (${sgn(bot.ci95[0])} to ${sgn(bot.ci95[1])}), too close
+    to call. Cost is for all ${D.n_questions + 30} questions. A new issue can be found by ripgrep as soon as its file
+    is written; a trained model learns it at its next ${Math.round(F.retrain.train_seconds / 60)}-minute retrain.</p>`;
+
+const n0 = String(Number(q0.answer[0].id.split("#")[1]));
+$("#comment").innerHTML = `This may have been reported before:<ul style="margin:.6em 0">
+  <li><a href="https://github.com/microsoft/terminal/issues/${n0}">#${n0}</a> <code></code></li></ul>
+  <sub>seen-before: an AI agent searched this repository's past issues with ripgrep and may be wrong.</sub>`;
+$("#comment code").textContent = q0.answer[0].title;  // an issue title is other people's text
+
+// ---------- the stage
+const cv = $("#c"), ctx = cv.getContext("2d");
+let W = 0, H = 0, DPR = 1;
+const pos = { wall: new Float32Array(N * 2), map: new Float32Array(N * 2) };
+const cur = new Float32Array(N * 2);
+let colors = {};
+
+function css(v) { return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); }
+function readColors() {
+  colors = { dots: [0, 1, 2].map(i => css(`--dot${i}`).split(",").map(Number)), paper: css("--paper"), ink: css("--ink"),
+    match: css("--match"), meaning: css("--meaning"), answer: css("--answer"), muted: css("--muted") };
+}
+
+function layout() {
+  const r = cv.getBoundingClientRect();
+  DPR = Math.min(devicePixelRatio || 1, 1.5);
+  W = Math.round(r.width * DPR); H = Math.round(r.height * DPR);
+  cv.width = W; cv.height = H;
+  const pad = 28 * DPR;
+  // the wall: a grid in archive order
+  const aw = W - 2 * pad, ah = H - 2 * pad;
+  const cols = Math.ceil(Math.sqrt(N * aw / ah)), rows = Math.ceil(N / cols);
+  const cw = aw / cols, ch = ah / rows;
+  for (let i = 0; i < N; i++) {
+    const k = WALL[i];
+    pos.wall[2 * i] = pad + (k % cols) * cw + cw / 2;
+    pos.wall[2 * i + 1] = pad + Math.floor(k / cols) * ch + ch / 2;
+    pos.map[2 * i] = pad + XY[2 * i] / 65535 * aw;
+    pos.map[2 * i + 1] = pad + XY[2 * i + 1] / 65535 * ah;
+  }
+  geom = { pad, aw, ah };
+  dotWall = Math.max(1, Math.round(Math.min(cw, ch) * .6));
+  dotMap = DPR > 1.2 ? 2 : 1;
+  const counts = [0, 0, 0]; for (let i = 0; i < N; i++) counts[REPO[i]]++;
+  let acc = 0; repoStarts = counts.map(c => { const k = acc; acc += c; return k; })
+    .map(k => [pad + (k % cols) * cw, pad + Math.floor(k / cols) * ch]);
+  base.width = W; base.height = H;
+  img = bctx.createImageData(W, H); buf = new Uint32Array(img.data.buffer); dirty = true;
+  const sum = [[0, 0, 0], [0, 0, 0], [0, 0, 0]];
+  for (let i = 0; i < N; i++) { const r = REPO[i]; sum[r][0] += pos.wall[2 * i]; sum[r][1] += pos.wall[2 * i + 1]; sum[r][2]++; }
+  repoCenter = sum.map(([x, y, n]) => [x / n, y / n]);
+  if (camT.s === 1) { cam.x = camT.x = W / 2; cam.y = camT.y = H / 2; }
+}
+let geom, img, buf, dirty = true, dotWall = 1, dotMap = 1, repoStarts = [], repoCenter = [];
+const mapPoint = xy => [geom.pad + xy[0] * geom.aw, geom.pad + xy[1] * geom.ah];
+
+// state: which layout, which highlights, and where the camera looks
+let from = "wall", to = "wall", t0 = 0, dur = 1400, dim = 0, dimTarget = 0;
+let marks = [];        // {set, color, r, label?, ring?, lines?, alpha?, born?}
+let question = null;   // [x, y] in map space, drawn when on map
+let qBorn = 0;
+const ease = x => x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
+const backOut = x => 1 + 2.2 * Math.pow(x - 1, 3) + 1.2 * Math.pow(x - 1, 2);
+const cam = { x: 0, y: 0, s: 1 }, camT = { x: 0, y: 0, s: 1 };
+const base = document.createElement("canvas"), bctx = base.getContext("2d");
+
+function go(layoutName) {
+  if (layoutName === to) return;
+  // freeze the current positions as the start
+  from = "cur"; pos.cur = new Float32Array(cur); to = layoutName; t0 = performance.now(); dirty = true;
+}
+function zoom(x, y, s) { camT.x = x; camT.y = y; camT.s = s; }
+function zoomOut() { zoom(W / 2, H / 2, 1); }
+function zoomOn(layoutName, idx, s) {
+  let x = 0, y = 0;
+  for (const i of idx) { x += pos[layoutName][2 * i]; y += pos[layoutName][2 * i + 1]; }
+  zoom(x / idx.length, y / idx.length, s);
+}
+function zoomOnPoint(xy, s) { const [x, y] = mapPoint(xy); zoom(x, y, s); }
+function zoomOnRepo(r, s) { zoom(repoCenter[r][0], repoCenter[r][1], s); }
+const TX = x => (x - cam.x) * cam.s + W / 2, TY = y => (y - cam.y) * cam.s + H / 2;
+
+function frame(now) {
+  const p = reduce ? 1 : Math.min(1, (now - t0) / dur);
+  const moving = p < 1 || pos.cur === undefined;
+  if (moving || dirty) {
+    const A = pos[from] || pos.wall, B = pos[to];
+    for (let i = 0; i < N; i++) {
+      // stagger by position so the move reads as a sweep
+      const delay = reduce ? 0 : (B[2 * i] / W) * .35;
+      const q = ease(Math.max(0, Math.min(1, (p - delay) / .65)));
+      cur[2 * i] = A[2 * i] + (B[2 * i] - A[2 * i]) * q;
+      cur[2 * i + 1] = A[2 * i + 1] + (B[2 * i + 1] - A[2 * i + 1]) * q;
+    }
+  }
+  const k = reduce ? 1 : .07;
+  const camMoving = Math.abs(camT.s - cam.s) > .002 || Math.abs(camT.x - cam.x) > .3 || Math.abs(camT.y - cam.y) > .3;
+  cam.x += (camT.x - cam.x) * k; cam.y += (camT.y - cam.y) * k; cam.s += (camT.s - cam.s) * k;
+  const dimMoving = Math.abs(dimTarget - dim) > .003;
+  dim += (dimTarget - dim) * (reduce ? 1 : .12);
+  if (moving || dirty || camMoving || dimMoving) drawBase();
+  dirty = false;
+  drawOverlay(now, p);
+  requestAnimationFrame(frame);
+}
+
+function drawBase() {
+  const bg = hex(colors.paper);
+  buf.fill(0xff000000 | (bg[2] << 16) | (bg[1] << 8) | bg[0]);
+  const s = Math.min(7, Math.max(1, Math.round((to === "wall" ? dotWall : dotMap) * Math.max(1, cam.s * .8))));
+  const a = 1 - dim * .75;
+  const cols = colors.dots.map(c => c.map((v, j) => Math.round(v * a + bg[j] * (1 - a))));
+  const packed = cols.map(c => 0xff000000 | (c[2] << 16) | (c[1] << 8) | c[0]);
+  const cs = cam.s, ox = W / 2 - cam.x * cs, oy = H / 2 - cam.y * cs;
+  for (let i = 0; i < N; i++) {
+    const x = (cur[2 * i] * cs + ox) | 0, y = (cur[2 * i + 1] * cs + oy) | 0;
+    if (x < -s || x >= W || y < -s || y >= H) continue;
+    const c = packed[REPO[i]];
+    for (let dy = 0; dy < s; dy++) for (let dx = 0; dx < s; dx++) {
+      const X = x + dx, Y = y + dy;
+      if (X >= 0 && X < W && Y >= 0 && Y < H) buf[Y * W + X] = c;
+    }
+  }
+  bctx.putImageData(img, 0, 0);
+}
+
+function drawOverlay(now, p) {
+  ctx.drawImage(base, 0, 0);
+  const zr = Math.min(2.2, Math.max(1, cam.s * .7));   // marks grow a little as the camera closes in
+  if (question && to === "map" && p > .8) {
+    const qx = TX(mapPoint(question)[0]), qy = TY(mapPoint(question)[1]);
+    if (!qBorn) qBorn = now;
+    const f = Math.min(1, (now - qBorn) / 700);
+    for (const m of marks) if (m.lines) for (const i of m.set) {
+      // lines reach out from the new issue to each neighbour in turn
+      const g = Math.max(0, Math.min(1, (now - qBorn - 500 - m.set.indexOf(i) * 180) / 450));
+      if (!g) continue;
+      const x = TX(cur[2 * i]), y = TY(cur[2 * i + 1]);
+      ctx.strokeStyle = m.color; ctx.globalAlpha = .65; ctx.lineWidth = 1.4 * DPR;
+      ctx.beginPath(); ctx.moveTo(qx, qy); ctx.lineTo(qx + (x - qx) * g, qy + (y - qy) * g); ctx.stroke();
+    }
+    ctx.globalAlpha = 1;
+    // a ripple from where the new issue lands
+    const rip = ((now - qBorn) % 2400) / 2400;
+    ctx.strokeStyle = colors.ink; ctx.globalAlpha = (1 - rip) * .5; ctx.lineWidth = 1.5 * DPR;
+    ctx.beginPath(); ctx.arc(qx, qy, (8 + 46 * rip) * DPR, 0, 7); ctx.stroke();
+    ctx.globalAlpha = 1; ctx.fillStyle = colors.ink;
+    ctx.beginPath(); ctx.arc(qx, qy, Math.max(.5, 7 * DPR * backOut(f)), 0, 7); ctx.fill();
+    ctx.strokeStyle = colors.paper; ctx.lineWidth = 2 * DPR; ctx.stroke();
+    if (f >= 1) label("the new issue", qx + 4 * DPR, qy + 36 * DPR, colors.ink);
+  } else qBorn = 0;
+  for (const m of marks) {
+    if (m.born === undefined) m.born = now;
+    if (m.lines && !(question && to === "map" && p > .8)) continue;
+    const delay0 = m.lines ? 500 : 0;
+    ctx.fillStyle = m.color; ctx.strokeStyle = m.color;
+    m.set.forEach((i, n) => {
+      // each dot pops in on its own beat, so a search reads as hits arriving
+      const st = m.born + delay0 + (m.set.length > 1 ? ((i * 2654435761) >>> 0) % Math.min(900, 40 * m.set.length) : 0)
+        + (m.lines ? n * 180 : 0);
+      const k = Math.max(0, Math.min(1, (now - st) / 380));
+      if (!k) return;
+      const x = TX(cur[2 * i]), y = TY(cur[2 * i + 1]);
+      let r = m.r * DPR * zr * (reduce ? 1 : backOut(k));
+      if (m.ring && !reduce) r *= 1 + .12 * Math.sin((now - st) / 260);
+      ctx.globalAlpha = (m.alpha ?? 1) * Math.min(1, k * 1.5);
+      ctx.beginPath(); ctx.arc(x, y, Math.max(.5, r), 0, 7);
+      if (m.ring) { ctx.lineWidth = 2.2 * DPR; ctx.stroke(); } else ctx.fill();
+      if (m.label && k >= 1) { ctx.globalAlpha = 1; label(m.label, x, y, m.color); }
+    });
+  }
+  ctx.globalAlpha = 1;
+  if (to === "wall" && p >= 1 && dim < .7 && cam.s < 1.2) {
+    const names = ["PowerToys", "Windows Terminal", "WSL"];
+    repoStarts.forEach(([x, y], r) => label(names[r], TX(x) - 10 * DPR, TY(y) + 12 * DPR, colors.muted));
+  }
+}
+
+function label(text, x, y, color) {
+  ctx.font = `${13 * DPR}px ${css("--sans")}`;
+  const w = ctx.measureText(text).width, px = 6 * DPR;
+  let lx = x + 10 * DPR, ly = y - 10 * DPR;
+  if (lx + w + px * 2 > W) lx = x - 10 * DPR - w - px * 2;
+  if (ly < 16 * DPR) ly = y + 22 * DPR;
+  ctx.fillStyle = colors.paper; ctx.globalAlpha = .9;
+  ctx.fillRect(lx, ly - 14 * DPR, w + px * 2, 20 * DPR);
+  ctx.globalAlpha = 1; ctx.fillStyle = color; ctx.fillText(text, lx + px, ly);
+}
+
+function hex(c) {
+  if (c.startsWith("#")) { const n = parseInt(c.slice(1), 16); return [n >> 16 & 255, n >> 8 & 255, n & 255]; }
+  const m = c.match(/\d+/g).map(Number); return m.slice(0, 3);
+}
+
+// ---------- the console: the agent's real tool calls
+const con = $("#console");
+let typing = 0;
+function consoleShow(lines) {
+  const id = ++typing;
+  con.innerHTML = ""; con.classList.toggle("on", lines.length > 0);
+  let k = 0;
+  const next = () => {
+    if (id !== typing || k >= lines.length) return;
+    const L = lines[k++];
+    const div = document.createElement("div"); div.className = "line " + (L.cls || ""); con.appendChild(div);
+    if (L.onShow) L.onShow();
+    if (reduce) { div.textContent = L.text; next(); return; }
+    let j = 0;
+    const tick = () => { if (id !== typing) return; div.textContent = L.text.slice(0, ++j);
+      if (j < L.text.length) setTimeout(tick, L.fast ? 3 : 14); else setTimeout(next, L.pause ?? 380); };
+    tick();
+  };
+  next();
+}
+
+function searchLines(ex, upto, markSearch) {
+  const out = [];
+  for (const st of ex.B.steps.slice(0, upto)) {
+    if (st.tool === "search") {
+      const also = st.also.length ? `, also ${st.also.map(a => `"${a}"`).join(", ")}` : "";
+      out.push({ text: `search "${st.pattern}"${also}`, onShow: () => markSearch(st) });
+      const ans = st.answer_returned.length ? `  (shown: ${st.answer_returned.join(", ")})` : "";
+      out.push({ text: `  → ${fmt(st.n)} issue${st.n === 1 ? "" : "s"} match${st.n === 1 ? "es" : ""}${st.n > 20 ? ", top 20 shown" : ""}${ans}`,
+        cls: st.answer_returned.length ? "hit" : "dim", fast: true });
+    } else {
+      out.push({ text: `read ${st.ticket}`, onShow: () => markRead(st) });
+      out.push({ text: `  “${st.title}”`, cls: st.is_answer ? "hit" : "dim", fast: true });
+    }
+  }
+  return out;
+}
+function markSearch(st) {
+  dirty = true;
+  for (const m of marks) if (m.search) m.alpha = .55;
+  marks.push({ set: st.matched, color: colors.match, r: st.matched.length > 300 ? 2.2 : 4, search: true });
+}
+function markRead(st) {
+  if (st.i == null) return;
+  dirty = true;
+  marks.push({ set: [st.i], color: st.is_answer ? colors.answer : colors.ink, r: 7, ring: true,
+    label: st.is_answer ? st.ticket : null });
+}
+
+// ---------- scenes
+const panels = ["p-accuracy", "p-claims", "p-connector"];
+function panel(id) {
+  if (phone && id !== "p-accuracy") id = null;
+  for (const p of panels) $("#" + p).classList.toggle("on", p === id);
+  if (id === "p-accuracy") document.querySelectorAll(".fill").forEach(f => f.style.width = f.dataset.w + "%");
+}
+const answerMark = ex => ({ set: ex.answer.map(a => a.i), color: colors.answer, r: 7, ring: true, label: ex.answer[0].id });
+
+const scenes = {
+  intro() { go("wall"); zoomOut(); marks = []; question = null; dimTarget = 0; consoleShow([]); panel(null); },
+  question() { go("wall"); zoomOut(); question = null; dimTarget = .3; panel(null);
+    marks = [];
+    consoleShow([{ text: `new issue ${q0.qid}` }, { text: `“${q0.title}”`, cls: "dim", fast: true }]); },
+  map() { go("map"); zoomOut(); question = null; dimTarget = 0; marks = []; consoleShow([]); panel(null); },
+  mapq0() { go("map"); zoomOnPoint(q0.q_xy, 3.2); dimTarget = .55; question = q0.q_xy; panel(null);
+    marks = [{ set: q0.A.shown.map(s => s.i), color: colors.meaning, r: 4.5, lines: true }, answerMark(q0)];
+    consoleShow([{ text: "five closest by meaning:" },
+      ...q0.A.shown.map(s => ({ text: `  ${s.id}  “${s.title}”`, cls: "dim", fast: true, pause: 120 })),
+      { text: "answer: not seen before", cls: "", pause: 0 }]); },
+  rg0() { go("wall"); zoomOnRepo(1, 1.7); question = null; dimTarget = .7; marks = []; panel(null);
+    consoleShow(searchLines(q0, 2, markSearch)); },
+  rg0b() { go("wall"); zoomOn("wall", [q0.answer[0].i], 3.2); question = null; dimTarget = .7; panel(null); marks = [];
+    consoleShow([...searchLines(q0, q0.B.steps.length, markSearch),
+      { text: `answer: ${q0.B.cited[0]}`, cls: "hit", pause: 0 }]); },
+  q1() { go("map"); zoomOnPoint(q1.q_xy, 3.2); dimTarget = .55; question = q1.q_xy; panel(null);
+    marks = [{ set: q1.A.shown.map(s => s.i), color: colors.meaning, r: 4.5, lines: true },
+      { set: q1.A.shown.filter(s => s.is_answer).map(s => s.i), color: colors.answer, r: 8, ring: true }];
+    consoleShow([{ text: `new issue ${q1.qid}  “${q1.title}”` }, { text: "five closest by meaning:" },
+      ...q1.A.shown.map(s => ({ text: `  ${s.id}  “${s.title}”${s.is_answer ? "  ✓ same request" : ""}`, cls: s.is_answer ? "hit" : "dim", fast: true, pause: 120 })),
+      { text: `answer: ${q1.A.cited[0]}`, cls: "hit", pause: 0 }]); },
+  rg1() { go("wall"); zoomOnRepo(0, 1.35); question = null; dimTarget = .7; panel(null); marks = [];
+    consoleShow([...searchLines(q1, q1.B.steps.length, markSearch), { text: "answer: not seen before", pause: 0 }]); },
+  accuracy() { zoomOut(); dimTarget = .9; marks = []; question = null; consoleShow([]); panel("p-accuracy"); },
+  claims() { zoomOut(); dimTarget = .9; marks = []; consoleShow([]); panel("p-claims"); },
+  loop() { zoomOut(); dimTarget = .9; marks = []; consoleShow([]); panel("p-accuracy"); },
+  connector() { zoomOut(); dimTarget = .9; marks = []; consoleShow([]); panel("p-connector"); },
+  end() { go("map"); zoomOut(); dimTarget = 0; question = null; consoleShow([]); panel(null);
+    marks = [{ set: [q0.answer[0].i, q1.A.shown.find(s => s.is_answer).i], color: colors.answer, r: 7, ring: true }]; },
+};
+
+// On a phone the stage is half the screen: long panels move into the text instead.
+const phone = matchMedia("(max-width: 860px)").matches;
+if (phone) {
+  $("#claims").appendChild($("#verdicts"));
+  $("#connector").appendChild($("#p-connector .flow"));
+}
+let current = null;
+const io = new IntersectionObserver(es => {
+  for (const e of es) if (e.isIntersecting) {
+    const s = e.target.dataset.scene;
+    if (s !== current) { current = s; scenes[s](); dirty = true; }
+  }
+}, { rootMargin: matchMedia("(max-width: 860px)").matches ? "-58% 0px -40% 0px" : "-45% 0px -45% 0px" });
+document.querySelectorAll(".step").forEach(s => io.observe(s));
+
+// ---------- theme
+const themeBtn = $("#theme");
+function setTheme(t) {
+  if (t) document.documentElement.dataset.theme = t; else delete document.documentElement.dataset.theme;
+  const dark = t ? t === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  themeBtn.textContent = dark ? "Light" : "Dark";
+  readColors();
+  if (current) scenes[current]();
+  dirty = true;
+  try { t ? localStorage.setItem("sb-theme", t) : localStorage.removeItem("sb-theme"); } catch (e) {}
+}
+themeBtn.addEventListener("click", () => {
+  const dark = themeBtn.textContent === "Light"; setTheme(dark ? "light" : "dark");
+});
+let saved = null; try { saved = localStorage.getItem("sb-theme"); } catch (e) {}
+setTheme(saved);
+
+addEventListener("resize", () => { layout(); for (const k of ["wall", "map"]) if (to === k) cur.set(pos[k]); });
+layout();
+cur.set(pos.wall); pos.cur = new Float32Array(cur);
+requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>

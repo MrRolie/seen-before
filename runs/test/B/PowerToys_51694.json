@@ -1,0 +1,381 @@
+{
+ "shown": [
+  "PowerToys#16043",
+  "PowerToys#17673",
+  "PowerToys#38381",
+  "PowerToys#38530",
+  "PowerToys#38565",
+  "PowerToys#38601",
+  "PowerToys#38684",
+  "PowerToys#38785",
+  "PowerToys#38826",
+  "PowerToys#39476",
+  "PowerToys#40113",
+  "PowerToys#40195",
+  "PowerToys#40508",
+  "PowerToys#40929",
+  "PowerToys#41611",
+  "PowerToys#41696",
+  "PowerToys#41852",
+  "PowerToys#42103",
+  "PowerToys#42335",
+  "PowerToys#43699",
+  "PowerToys#44546",
+  "PowerToys#44860",
+  "PowerToys#44901",
+  "PowerToys#45201",
+  "PowerToys#45239",
+  "PowerToys#45248",
+  "PowerToys#45459",
+  "PowerToys#45546",
+  "PowerToys#46272",
+  "PowerToys#47249",
+  "PowerToys#47260",
+  "PowerToys#47330",
+  "PowerToys#47494",
+  "PowerToys#47525",
+  "PowerToys#47793",
+  "PowerToys#47966",
+  "PowerToys#47997",
+  "PowerToys#48707",
+  "PowerToys#48885",
+  "PowerToys#48899"
+ ],
+ "retrieval_seconds": 0.4667574450140819,
+ "tool_calls": [
+  {
+   "t": 1794884932.2649667,
+   "tool": "search",
+   "args": {
+    "pattern": "cmdpal zip portable",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.03921217599418014,
+   "returned": []
+  },
+  {
+   "t": 1794884934.4659617,
+   "tool": "search",
+   "args": {
+    "pattern": "standalone",
+    "regex": false,
+    "also": [
+     "Command Palette"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10842121602036059,
+   "returned": [
+    "PowerToys#38684",
+    "PowerToys#41852",
+    "PowerToys#38785",
+    "PowerToys#45201",
+    "PowerToys#43699",
+    "PowerToys#42103",
+    "PowerToys#40508",
+    "PowerToys#48885",
+    "PowerToys#47966",
+    "PowerToys#47793",
+    "PowerToys#47525",
+    "PowerToys#47260",
+    "PowerToys#46272",
+    "PowerToys#45459",
+    "PowerToys#45248",
+    "PowerToys#42335",
+    "PowerToys#41611",
+    "PowerToys#40929",
+    "PowerToys#38826",
+    "PowerToys#38565"
+   ]
+  },
+  {
+   "t": 1794884934.954429,
+   "tool": "search",
+   "args": {
+    "pattern": "command palette",
+    "regex": false,
+    "also": [
+     "without PowerToys"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10528884900850244,
+   "returned": [
+    "PowerToys#45201"
+   ]
+  },
+  {
+   "t": 1794884935.0959964,
+   "tool": "search",
+   "args": {
+    "pattern": "cmdpal",
+    "regex": false,
+    "also": [
+     "separate"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1343202700081747,
+   "returned": [
+    "PowerToys#47249",
+    "PowerToys#39476",
+    "PowerToys#38530",
+    "PowerToys#41696",
+    "PowerToys#40113",
+    "PowerToys#45201",
+    "PowerToys#44901",
+    "PowerToys#38601",
+    "PowerToys#44860",
+    "PowerToys#38381",
+    "PowerToys#48885",
+    "PowerToys#40195",
+    "PowerToys#48899",
+    "PowerToys#47330",
+    "PowerToys#44546",
+    "PowerToys#48707",
+    "PowerToys#47997",
+    "PowerToys#47494",
+    "PowerToys#45546",
+    "PowerToys#45239"
+   ]
+  },
+  {
+   "t": 1794884937.0197136,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42103"
+   },
+   "seconds": 0.00011938699753955007,
+   "returned": [
+    "PowerToys#42103"
+   ]
+  },
+  {
+   "t": 1794884937.026633,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44901"
+   },
+   "seconds": 0.00011970699415542185,
+   "returned": [
+    "PowerToys#44901"
+   ]
+  },
+  {
+   "t": 1794884937.1264262,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38684"
+   },
+   "seconds": 0.00011964701116085052,
+   "returned": [
+    "PowerToys#38684"
+   ]
+  },
+  {
+   "t": 1794884938.9191508,
+   "tool": "search",
+   "args": {
+    "pattern": "standalone",
+    "regex": false,
+    "also": [
+     "non admin"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0791561929800082,
+   "returned": [
+    "PowerToys#17673",
+    "PowerToys#16043"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 15292,
+  "stop_reason": "end_turn",
+  "session_id": "32c636c8-b739-49a8-a5a2-7bf480dfc8b5",
+  "total_cost_usd": 0.0772461,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 14872,
+   "cache_read_input_tokens": 47241,
+   "output_tokens": 1301,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 14872,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 359,
+     "cache_read_input_tokens": 15990,
+     "cache_creation_input_tokens": 59,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 59
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1301,
+    "cacheReadInputTokens": 47241,
+    "cacheCreationInputTokens": 14872,
+    "webSearchRequests": 0,
+    "costUSD": 0.0772461,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14872,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#42103\", \"PowerToys#38684\", \"PowerToys#44901\"], \"answer\": \"A standalone Command Palette has been requested before. PowerToys#42103 and #38684 ask for a version you can install without the rest of PowerToys. In #38684 the maintainers said they will probably do this in the future. #44901 tracks running CmdPal unpackaged, which covers your use case of people who can't sideload or install apps. In that ticket, extracting the CmdPal .msix as a zip and running Microsoft.CmdPal.UI.exe works, and a portable mode is under discussion. Please add your zip workaround and your non-admin scenario as a comment on #44901 or #42103 instead of opening a new request. Also note that the .msix-to-zip route had quirks, such as settings and state files being written to %localappdata%\\\\Microsoft.CmdPal, and the app being reinstalled from the Store. The reinstall problem was fixed in later versions. Be careful about running zips from third-party repos, because users have to trust the build.\"}",
+  "ttft_ms": 2088,
+  "type": "result",
+  "duration_ms": 15739,
+  "uuid": "f8bd083f-7e0a-4a94-865c-44b7d6afb931",
+  "ttft_stream_ms": 1234,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 1234,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1301,
+    "cacheReadInputTokens": 47241,
+    "cacheCreationInputTokens": 14872,
+    "webSearchRequests": 0,
+    "costUSD": 0.0772461,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14872,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.938040890992852,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-8sdwdmww/work"
+  }
+ },
+ "wall_seconds": 16.94027088099392,
+ "qid": "PowerToys#51694",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#42103",
+   "PowerToys#38684",
+   "PowerToys#44901"
+  ],
+  "answer": "A standalone Command Palette has been requested before. PowerToys#42103 and #38684 ask for a version you can install without the rest of PowerToys. In #38684 the maintainers said they will probably do this in the future. #44901 tracks running CmdPal unpackaged, which covers your use case of people who can't sideload or install apps. In that ticket, extracting the CmdPal .msix as a zip and running Microsoft.CmdPal.UI.exe works, and a portable mode is under discussion. Please add your zip workaround and your non-admin scenario as a comment on #44901 or #42103 instead of opening a new request. Also note that the .msix-to-zip route had quirks, such as settings and state files being written to %localappdata%\\Microsoft.CmdPal, and the app being reinstalled from the Store. The reinstall problem was fixed in later versions. Be careful about running zips from third-party repos, because users have to trust the build."
+ },
+ "hit_turn_cap": false
+}

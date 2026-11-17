@@ -1,0 +1,343 @@
+{
+ "shown": [
+  "PowerToys#14117",
+  "PowerToys#16121",
+  "PowerToys#18790",
+  "PowerToys#19314",
+  "PowerToys#2050",
+  "PowerToys#22473",
+  "PowerToys#22478",
+  "PowerToys#22480",
+  "PowerToys#22485",
+  "PowerToys#22505",
+  "PowerToys#22577",
+  "PowerToys#22582",
+  "PowerToys#22583",
+  "PowerToys#22584",
+  "PowerToys#22601",
+  "PowerToys#22652",
+  "PowerToys#2328",
+  "PowerToys#26137",
+  "PowerToys#2654",
+  "PowerToys#2900",
+  "PowerToys#2918",
+  "PowerToys#3047",
+  "PowerToys#38297",
+  "PowerToys#38333",
+  "PowerToys#38342",
+  "PowerToys#38415",
+  "PowerToys#38442",
+  "PowerToys#3957",
+  "PowerToys#40781",
+  "PowerToys#41712",
+  "PowerToys#41736",
+  "PowerToys#42287",
+  "PowerToys#4618",
+  "PowerToys#46373",
+  "PowerToys#4648",
+  "PowerToys#46948",
+  "PowerToys#46952",
+  "PowerToys#48725",
+  "PowerToys#5722",
+  "PowerToys#5913",
+  "PowerToys#5915",
+  "PowerToys#6223",
+  "PowerToys#7007",
+  "PowerToys#7337",
+  "PowerToys#7418",
+  "PowerToys#8198",
+  "PowerToys#8316",
+  "PowerToys#9288",
+  "terminal#15662",
+  "terminal#16874"
+ ],
+ "retrieval_seconds": 3.551642753998749,
+ "tool_calls": [
+  {
+   "t": 1794882299.4474883,
+   "tool": "search",
+   "args": {
+    "query": "Command Palette shortcut executed twice LocalKeyboardListener HC_NOREMOVE HC_ACTION",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.5244182249880396,
+   "returned": [
+    "PowerToys#48725",
+    "PowerToys#41712",
+    "PowerToys#38297",
+    "PowerToys#3957",
+    "PowerToys#40781",
+    "PowerToys#46952",
+    "PowerToys#41736",
+    "PowerToys#46373",
+    "PowerToys#38333",
+    "PowerToys#9288",
+    "PowerToys#2328",
+    "PowerToys#7007",
+    "PowerToys#2900",
+    "PowerToys#46948",
+    "PowerToys#38342",
+    "PowerToys#38415",
+    "PowerToys#38442",
+    "PowerToys#42287",
+    "PowerToys#2918",
+    "PowerToys#4618"
+   ]
+  },
+  {
+   "t": 1794882299.4709332,
+   "tool": "search",
+   "args": {
+    "query": "CmdPal keyboard hook fires twice shortcut triggers two times",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012059825006872416,
+   "returned": [
+    "PowerToys#48725",
+    "PowerToys#8198",
+    "PowerToys#19314",
+    "PowerToys#2328",
+    "PowerToys#3957",
+    "PowerToys#16121",
+    "PowerToys#2900",
+    "PowerToys#7007",
+    "PowerToys#41736",
+    "PowerToys#8316",
+    "PowerToys#40781",
+    "PowerToys#38297",
+    "PowerToys#7337",
+    "PowerToys#41712",
+    "PowerToys#14117",
+    "PowerToys#2050",
+    "PowerToys#38333",
+    "PowerToys#6223",
+    "PowerToys#18790",
+    "PowerToys#5722"
+   ]
+  },
+  {
+   "t": 1794882301.0742497,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48725"
+   },
+   "seconds": 0.00016893600695766509,
+   "returned": [
+    "PowerToys#48725"
+   ]
+  },
+  {
+   "t": 1794882303.3155298,
+   "tool": "search",
+   "args": {
+    "query": "LocalKeyboardListener hook HC_NOREMOVE peek processed as key event",
+    "repo": null
+   },
+   "seconds": 0.014995767996879295,
+   "returned": [
+    "PowerToys#22473",
+    "PowerToys#2654",
+    "PowerToys#22601",
+    "terminal#16874",
+    "PowerToys#5915",
+    "PowerToys#3047",
+    "PowerToys#26137",
+    "PowerToys#22505",
+    "PowerToys#22652",
+    "terminal#15662",
+    "PowerToys#22583",
+    "PowerToys#22478",
+    "PowerToys#22480",
+    "PowerToys#22584",
+    "PowerToys#22582",
+    "PowerToys#5913",
+    "PowerToys#7418",
+    "PowerToys#22577",
+    "PowerToys#22485",
+    "PowerToys#4648"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8928,
+  "stop_reason": "end_turn",
+  "session_id": "a7cd2b45-c5d4-4034-8fa9-1584a8d38220",
+  "total_cost_usd": 0.037892300000000004,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 7456,
+   "cache_read_input_tokens": 14323,
+   "output_tokens": 662,
+   "output_tokens_details": {
+    "thinking_tokens": 38
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7456,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 256,
+     "cache_read_input_tokens": 7237,
+     "cache_creation_input_tokens": 1252,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1252
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 662,
+    "cacheReadInputTokens": 14323,
+    "cacheCreationInputTokens": 7456,
+    "webSearchRequests": 0,
+    "costUSD": 0.037892300000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 38,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7456,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this problem. The nearest one is PowerToys#48725, where a context-item shortcut navigates twice. Its cause is different. Both CommandBar and ContextMenu handle the same TryCommandKeybindingMessage. Your report is about LocalKeyboardListener's keyboard hook treating HC_NOREMOVE peeks as key events. No archived ticket mentions that. Treat this as a new bug. The fix you propose is to process only HC_ACTION (nCode == 0) notifications in the hook and to ignore HC_NOREMOVE. To help maintainers, please add reproduction steps, the shortcut that fires twice, and the actual behavior to the ticket.\"}",
+  "ttft_ms": 2338,
+  "type": "result",
+  "duration_ms": 12533,
+  "uuid": "4ebbaac0-e674-49ac-bf92-b9efa196d3e5",
+  "ttft_stream_ms": 1204,
+  "time_to_request_ms": 28,
+  "first_content_frame_ms": 1204,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 662,
+    "cacheReadInputTokens": 14323,
+    "cacheCreationInputTokens": 7456,
+    "webSearchRequests": 0,
+    "costUSD": 0.037892300000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 38,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7456,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.956822741020005,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-9xtpwj0h/work"
+  }
+ },
+ "wall_seconds": 13.958821148000425,
+ "qid": "PowerToys#50426",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this problem. The nearest one is PowerToys#48725, where a context-item shortcut navigates twice. Its cause is different. Both CommandBar and ContextMenu handle the same TryCommandKeybindingMessage. Your report is about LocalKeyboardListener's keyboard hook treating HC_NOREMOVE peeks as key events. No archived ticket mentions that. Treat this as a new bug. The fix you propose is to process only HC_ACTION (nCode == 0) notifications in the hook and to ignore HC_NOREMOVE. To help maintainers, please add reproduction steps, the shortcut that fires twice, and the actual behavior to the ticket."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,481 @@
+{
+ "shown": [
+  "PowerToys#10056",
+  "PowerToys#10263",
+  "PowerToys#10279",
+  "PowerToys#10308",
+  "PowerToys#10324",
+  "PowerToys#11348",
+  "PowerToys#11705",
+  "PowerToys#1180",
+  "PowerToys#12378",
+  "PowerToys#12486",
+  "PowerToys#13048",
+  "PowerToys#1382",
+  "PowerToys#1454",
+  "PowerToys#14701",
+  "PowerToys#14732",
+  "PowerToys#14820",
+  "PowerToys#1532",
+  "PowerToys#16043",
+  "PowerToys#16893",
+  "PowerToys#1770",
+  "PowerToys#2012",
+  "PowerToys#202",
+  "PowerToys#208",
+  "PowerToys#2087",
+  "PowerToys#2165",
+  "PowerToys#2275",
+  "PowerToys#2282",
+  "PowerToys#23997",
+  "PowerToys#2407",
+  "PowerToys#25158",
+  "PowerToys#2685",
+  "PowerToys#2886",
+  "PowerToys#2887",
+  "PowerToys#28885",
+  "PowerToys#29650",
+  "PowerToys#3028",
+  "PowerToys#3099",
+  "PowerToys#3115",
+  "PowerToys#3297",
+  "PowerToys#3466",
+  "PowerToys#3630",
+  "PowerToys#393",
+  "PowerToys#4081",
+  "PowerToys#411",
+  "PowerToys#44180",
+  "PowerToys#4473",
+  "PowerToys#4833",
+  "PowerToys#5475",
+  "PowerToys#5678",
+  "PowerToys#5719",
+  "PowerToys#602",
+  "PowerToys#6577",
+  "PowerToys#6601",
+  "PowerToys#6801",
+  "PowerToys#6995",
+  "PowerToys#781",
+  "PowerToys#7850",
+  "PowerToys#7907",
+  "PowerToys#810",
+  "PowerToys#8351",
+  "PowerToys#850",
+  "PowerToys#8647",
+  "PowerToys#8668",
+  "PowerToys#8761",
+  "PowerToys#8870",
+  "PowerToys#8875",
+  "PowerToys#8902",
+  "PowerToys#9092",
+  "PowerToys#9169",
+  "PowerToys#9417",
+  "PowerToys#9572",
+  "PowerToys#9678",
+  "WSL#1244",
+  "WSL#22",
+  "WSL#4023",
+  "WSL#5689",
+  "WSL#817",
+  "terminal#2604",
+  "terminal#4216"
+ ],
+ "retrieval_seconds": 3.6147950779704843,
+ "tool_calls": [
+  {
+   "t": 1794881708.7096477,
+   "tool": "search",
+   "args": {
+    "query": "Error 0x81f40001 PowerToys is already installed on this system for all users but it is not installed",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.5584135329991113,
+   "returned": [
+    "PowerToys#23997",
+    "PowerToys#14732",
+    "PowerToys#10324",
+    "PowerToys#8351",
+    "PowerToys#9092",
+    "PowerToys#4473",
+    "PowerToys#2087",
+    "PowerToys#16893",
+    "PowerToys#850",
+    "PowerToys#8647",
+    "PowerToys#9169",
+    "PowerToys#411",
+    "PowerToys#4833",
+    "PowerToys#3297",
+    "PowerToys#7907",
+    "PowerToys#29650",
+    "PowerToys#8761",
+    "PowerToys#602",
+    "PowerToys#3115",
+    "PowerToys#14701"
+   ]
+  },
+  {
+   "t": 1794881708.7327862,
+   "tool": "search",
+   "args": {
+    "query": "installer says already installed after failed uninstall, cannot reinstall",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.011979740986134857,
+   "returned": [
+    "PowerToys#208",
+    "PowerToys#2887",
+    "PowerToys#4081",
+    "PowerToys#1180",
+    "PowerToys#2012",
+    "PowerToys#8870",
+    "PowerToys#393",
+    "PowerToys#13048",
+    "PowerToys#12378",
+    "PowerToys#16043",
+    "PowerToys#6577",
+    "PowerToys#3466",
+    "PowerToys#1454",
+    "PowerToys#3099",
+    "PowerToys#2275",
+    "PowerToys#5678",
+    "PowerToys#10279",
+    "PowerToys#2165",
+    "PowerToys#14820",
+    "PowerToys#28885"
+   ]
+  },
+  {
+   "t": 1794881709.6197557,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#29650"
+   },
+   "seconds": 0.0001618659880477935,
+   "returned": [
+    "PowerToys#29650"
+   ]
+  },
+  {
+   "t": 1794881709.732968,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#12378"
+   },
+   "seconds": 0.0001679960114415735,
+   "returned": [
+    "PowerToys#12378"
+   ]
+  },
+  {
+   "t": 1794881710.9570005,
+   "tool": "search",
+   "args": {
+    "query": "0x81f40001 already installed for all users, not in installed apps, leftover registry after uninstall, fix",
+    "repo": null
+   },
+   "seconds": 0.013750724989222363,
+   "returned": [
+    "PowerToys#9169",
+    "WSL#22",
+    "PowerToys#2887",
+    "WSL#4023",
+    "PowerToys#9572",
+    "PowerToys#810",
+    "WSL#5689",
+    "PowerToys#2012",
+    "PowerToys#10056",
+    "WSL#817",
+    "PowerToys#2407",
+    "PowerToys#1382",
+    "PowerToys#12486",
+    "PowerToys#2282",
+    "PowerToys#29650",
+    "PowerToys#7850",
+    "PowerToys#44180",
+    "PowerToys#6601",
+    "PowerToys#3028",
+    "terminal#2604"
+   ]
+  },
+  {
+   "t": 1794881711.245465,
+   "tool": "search",
+   "args": {
+    "query": "Bundle condition evaluated to false: MinimumVersion >= DetectedPowerToysVersion",
+    "repo": null
+   },
+   "seconds": 0.013481111993314698,
+   "returned": [
+    "PowerToys#8668",
+    "PowerToys#8875",
+    "PowerToys#9678",
+    "PowerToys#1532",
+    "PowerToys#6801",
+    "PowerToys#1770",
+    "PowerToys#850",
+    "PowerToys#10308",
+    "PowerToys#9417",
+    "PowerToys#5719",
+    "terminal#4216",
+    "PowerToys#10263",
+    "PowerToys#781",
+    "PowerToys#25158",
+    "WSL#1244",
+    "PowerToys#11348",
+    "PowerToys#10324",
+    "PowerToys#602",
+    "PowerToys#3297",
+    "PowerToys#3630"
+   ]
+  },
+  {
+   "t": 1794881712.3181946,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44180"
+   },
+   "seconds": 0.00017102499259635806,
+   "returned": [
+    "PowerToys#44180"
+   ]
+  },
+  {
+   "t": 1794881712.5274053,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#14820"
+   },
+   "seconds": 0.00011576697579585016,
+   "returned": [
+    "PowerToys#14820"
+   ]
+  },
+  {
+   "t": 1794881714.3322804,
+   "tool": "search",
+   "args": {
+    "query": "Microsoft Program Install and Uninstall troubleshooter fixed PowerToys cannot install, already installed",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.01640107700950466,
+   "returned": [
+    "PowerToys#8870",
+    "PowerToys#1180",
+    "PowerToys#2887",
+    "PowerToys#10324",
+    "PowerToys#9092",
+    "PowerToys#8351",
+    "PowerToys#12378",
+    "PowerToys#850",
+    "PowerToys#6577",
+    "PowerToys#10279",
+    "PowerToys#4473",
+    "PowerToys#2087",
+    "PowerToys#5475",
+    "PowerToys#202",
+    "PowerToys#2685",
+    "PowerToys#2886",
+    "PowerToys#8647",
+    "PowerToys#8902",
+    "PowerToys#6995",
+    "PowerToys#11705"
+   ]
+  },
+  {
+   "t": 1794881715.135894,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#8870"
+   },
+   "seconds": 0.0001522360253147781,
+   "returned": [
+    "PowerToys#8870"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13765,
+  "stop_reason": "end_turn",
+  "session_id": "feb09382-4c26-4cbf-88eb-768146f30676",
+  "total_cost_usd": 0.092942,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 18025,
+   "cache_read_input_tokens": 57240,
+   "output_tokens": 1509,
+   "output_tokens_details": {
+    "thinking_tokens": 188
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 18025,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 615,
+     "cache_read_input_tokens": 14985,
+     "cache_creation_input_tokens": 4073,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4073
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1509,
+    "cacheReadInputTokens": 57240,
+    "cacheCreationInputTokens": 18025,
+    "webSearchRequests": 0,
+    "costUSD": 0.092942,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 188,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18025,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#29650\", \"PowerToys#14820\"], \"answer\": \"Error 0x81f40001 is the installer's own check. It found PowerToys registered in the Windows Installer database, so it refused to install. The same thing happens when files are removed by hand or an uninstall fails half-way. PowerToys#29650 reports the same error text and message. PowerToys#14820 is a botched uninstall that left stale registration behind, so no installer would run. The archive doesn't show a confirmed fix for #29650, so treat the steps below as the best available guidance, not a guarantee. Steps to try: (1) Run the Microsoft Program Install and Uninstall troubleshooter (MicrosoftProgram_Install_and_Uninstall.meta.diagcab). Choose Uninstalling, then select PowerToys. This is what fixed #14820. (2) Check both per-machine and per-user installs, because #29650 was caused by a per-user install (PowerToysUserSetup) and a per-machine install existing together. In Settings > Apps, look for any PowerToys entry and uninstall it. If the uninstall fails, run the installer .exe for that exact version and choose Uninstall. (3) Then run the new installer again. As for the bug report ZIP: it is generated by PowerToys Settings (General > Bug report tool), which needs PowerToys to be installed. Since it isn't, attach the installer log from %temp% instead. It is named like powertoys-bootstrapper-msi-<version>_<timestamp>.log.\"}",
+  "ttft_ms": 1247,
+  "type": "result",
+  "duration_ms": 17068,
+  "uuid": "dfb4c2c9-3f78-4b19-a619-951c2776cc97",
+  "ttft_stream_ms": 769,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 769,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1509,
+    "cacheReadInputTokens": 57240,
+    "cacheCreationInputTokens": 18025,
+    "webSearchRequests": 0,
+    "costUSD": 0.092942,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 188,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18025,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.304615837987512,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-dj_ojesj/work"
+  }
+ },
+ "wall_seconds": 18.30635027299286,
+ "qid": "PowerToys#50221",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#29650",
+   "PowerToys#14820"
+  ],
+  "answer": "Error 0x81f40001 is the installer's own check. It found PowerToys registered in the Windows Installer database, so it refused to install. The same thing happens when files are removed by hand or an uninstall fails half-way. PowerToys#29650 reports the same error text and message. PowerToys#14820 is a botched uninstall that left stale registration behind, so no installer would run. The archive doesn't show a confirmed fix for #29650, so treat the steps below as the best available guidance, not a guarantee. Steps to try: (1) Run the Microsoft Program Install and Uninstall troubleshooter (MicrosoftProgram_Install_and_Uninstall.meta.diagcab). Choose Uninstalling, then select PowerToys. This is what fixed #14820. (2) Check both per-machine and per-user installs, because #29650 was caused by a per-user install (PowerToysUserSetup) and a per-machine install existing together. In Settings > Apps, look for any PowerToys entry and uninstall it. If the uninstall fails, run the installer .exe for that exact version and choose Uninstall. (3) Then run the new installer again. As for the bug report ZIP: it is generated by PowerToys Settings (General > Bug report tool), which needs PowerToys to be installed. Since it isn't, attach the installer log from %temp% instead. It is named like powertoys-bootstrapper-msi-<version>_<timestamp>.log."
+ },
+ "hit_turn_cap": false
+}

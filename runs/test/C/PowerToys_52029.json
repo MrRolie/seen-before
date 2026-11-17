@@ -1,0 +1,426 @@
+{
+ "shown": [
+  "PowerToys#11399",
+  "PowerToys#11496",
+  "PowerToys#11514",
+  "PowerToys#11613",
+  "PowerToys#14375",
+  "PowerToys#18014",
+  "PowerToys#1810",
+  "PowerToys#22705",
+  "PowerToys#23584",
+  "PowerToys#24044",
+  "PowerToys#24547",
+  "PowerToys#24843",
+  "PowerToys#25720",
+  "PowerToys#2608",
+  "PowerToys#26759",
+  "PowerToys#29814",
+  "PowerToys#30771",
+  "PowerToys#31512",
+  "PowerToys#329",
+  "PowerToys#33236",
+  "PowerToys#3498",
+  "PowerToys#35211",
+  "PowerToys#36660",
+  "PowerToys#3701",
+  "PowerToys#3786",
+  "PowerToys#4286",
+  "PowerToys#4392",
+  "PowerToys#47914",
+  "PowerToys#48830",
+  "PowerToys#623",
+  "PowerToys#6809",
+  "PowerToys#6965",
+  "PowerToys#7604",
+  "PowerToys#7670",
+  "PowerToys#8047",
+  "PowerToys#8560",
+  "PowerToys#9095",
+  "PowerToys#9142",
+  "PowerToys#9148",
+  "PowerToys#9717",
+  "terminal#10656",
+  "terminal#15288",
+  "terminal#2341"
+ ],
+ "retrieval_seconds": 4.349924386973726,
+ "tool_calls": [
+  {
+   "t": 1794885608.7633882,
+   "tool": "search",
+   "args": {
+    "query": "in-app translation feature, translate text inline",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.300256335991435,
+   "returned": [
+    "PowerToys#9142",
+    "PowerToys#11613",
+    "PowerToys#25720",
+    "PowerToys#11399",
+    "PowerToys#9095",
+    "PowerToys#8560",
+    "PowerToys#14375",
+    "PowerToys#9717",
+    "PowerToys#2608",
+    "PowerToys#4286",
+    "PowerToys#24044",
+    "PowerToys#6809",
+    "PowerToys#7604",
+    "PowerToys#1810",
+    "PowerToys#3701",
+    "PowerToys#623",
+    "PowerToys#31512",
+    "PowerToys#3498",
+    "PowerToys#8047",
+    "PowerToys#23584"
+   ]
+  },
+  {
+   "t": 1794885608.7939665,
+   "tool": "search",
+   "args": {
+    "query": "Translation Support feature request translate messages posts",
+    "repo": null
+   },
+   "seconds": 0.016680472996085882,
+   "returned": [
+    "PowerToys#11613",
+    "terminal#2341",
+    "PowerToys#7604",
+    "PowerToys#623",
+    "terminal#15288",
+    "PowerToys#1810",
+    "PowerToys#9717",
+    "PowerToys#8560",
+    "PowerToys#14375",
+    "PowerToys#3701",
+    "PowerToys#9142",
+    "PowerToys#9095",
+    "PowerToys#11496",
+    "PowerToys#11399",
+    "terminal#10656",
+    "PowerToys#3786",
+    "PowerToys#9148",
+    "PowerToys#25720",
+    "PowerToys#6965",
+    "PowerToys#3498"
+   ]
+  },
+  {
+   "t": 1794885610.7335062,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#11613"
+   },
+   "seconds": 0.00014174598618410528,
+   "returned": [
+    "PowerToys#11613"
+   ]
+  },
+  {
+   "t": 1794885610.7440007,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#25720"
+   },
+   "seconds": 0.00014247701619751751,
+   "returned": [
+    "PowerToys#25720"
+   ]
+  },
+  {
+   "t": 1794885610.917809,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#9717"
+   },
+   "seconds": 0.0001627360179554671,
+   "returned": [
+    "PowerToys#9717"
+   ]
+  },
+  {
+   "t": 1794885612.4690151,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#9095"
+   },
+   "seconds": 0.0001298970018979162,
+   "returned": [
+    "PowerToys#9095"
+   ]
+  },
+  {
+   "t": 1794885612.646721,
+   "tool": "search",
+   "args": {
+    "query": "translate selected text on screen, translator utility",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.017270238982746378,
+   "returned": [
+    "PowerToys#24547",
+    "PowerToys#11399",
+    "PowerToys#33236",
+    "PowerToys#31512",
+    "PowerToys#26759",
+    "PowerToys#30771",
+    "PowerToys#48830",
+    "PowerToys#9142",
+    "PowerToys#11613",
+    "PowerToys#35211",
+    "PowerToys#36660",
+    "PowerToys#22705",
+    "PowerToys#8560",
+    "PowerToys#47914",
+    "PowerToys#14375",
+    "PowerToys#29814",
+    "PowerToys#18014",
+    "PowerToys#25720",
+    "PowerToys#24843",
+    "PowerToys#23584"
+   ]
+  },
+  {
+   "t": 1794885613.9262235,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#18014"
+   },
+   "seconds": 0.00016407598741352558,
+   "returned": [
+    "PowerToys#18014"
+   ]
+  },
+  {
+   "t": 1794885615.5249956,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#9142"
+   },
+   "seconds": 0.00026146401069127023,
+   "returned": [
+    "PowerToys#9142"
+   ]
+  },
+  {
+   "t": 1794885618.2000518,
+   "tool": "search",
+   "args": {
+    "query": "Translate messages, posts directly within app, language barriers",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014714942983118817,
+   "returned": [
+    "PowerToys#3701",
+    "PowerToys#623",
+    "PowerToys#7604",
+    "PowerToys#25720",
+    "PowerToys#11613",
+    "PowerToys#9142",
+    "PowerToys#8560",
+    "PowerToys#14375",
+    "PowerToys#3498",
+    "PowerToys#7670",
+    "PowerToys#1810",
+    "PowerToys#11399",
+    "PowerToys#4392",
+    "PowerToys#9095",
+    "PowerToys#329",
+    "PowerToys#9717",
+    "PowerToys#11514",
+    "PowerToys#6965",
+    "PowerToys#4286",
+    "PowerToys#23584"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 15185,
+  "stop_reason": "end_turn",
+  "session_id": "187260a5-c6f6-4469-aea4-36c0b0956ebf",
+  "total_cost_usd": 0.048427500000000005,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 8546,
+   "cache_read_input_tokens": 36055,
+   "output_tokens": 1061,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8546,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 357,
+     "cache_read_input_tokens": 8454,
+     "cache_creation_input_tokens": 1125,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1125
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1061,
+    "cacheReadInputTokens": 36055,
+    "cacheCreationInputTokens": 8546,
+    "webSearchRequests": 0,
+    "costUSD": 0.048427500000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8546,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#18014\", \"PowerToys#9095\", \"PowerToys#25720\"], \"answer\": \"Yes. Requests to add translation to PowerToys have been reported before. The ticket you filed reads as if it was written for a chat or social platform. PowerToys has no messages, posts or other users to translate. The nearest match is a request to translate selected or visible text without leaving the current app. PowerToys#18014 is the main tracking issue for that request, and several similar requests were closed as duplicates of it. A separate request, PowerToys#9095, asks for a translation plugin for PowerToys Run. No translation feature has shipped yet, so please add your vote or comment to #18014 instead of opening a new issue. In the meantime, you can use a third-party PowerToys Run translator plugin. Two were linked in #9095: [user]'s PowerToysRun.Plugin.Translater and [user]'s DeepLTranslatorPowerToys. The first needs an internet connection. You can also use a standalone tool such as DeepL.\"}",
+  "ttft_ms": 2198,
+  "type": "result",
+  "duration_ms": 19629,
+  "uuid": "bf849127-498d-418a-aa98-8a41868b3e94",
+  "ttft_stream_ms": 1440,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 1440,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1061,
+    "cacheReadInputTokens": 36055,
+    "cacheCreationInputTokens": 8546,
+    "webSearchRequests": 0,
+    "costUSD": 0.048427500000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8546,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 21.01795435202075,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-t_i0tqkt/work"
+  }
+ },
+ "wall_seconds": 21.02055567697971,
+ "qid": "PowerToys#52029",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#18014",
+   "PowerToys#9095",
+   "PowerToys#25720"
+  ],
+  "answer": "Yes. Requests to add translation to PowerToys have been reported before. The ticket you filed reads as if it was written for a chat or social platform. PowerToys has no messages, posts or other users to translate. The nearest match is a request to translate selected or visible text without leaving the current app. PowerToys#18014 is the main tracking issue for that request, and several similar requests were closed as duplicates of it. A separate request, PowerToys#9095, asks for a translation plugin for PowerToys Run. No translation feature has shipped yet, so please add your vote or comment to #18014 instead of opening a new issue. In the meantime, you can use a third-party PowerToys Run translator plugin. Two were linked in #9095: [user]'s PowerToysRun.Plugin.Translater and [user]'s DeepLTranslatorPowerToys. The first needs an internet connection. You can also use a standalone tool such as DeepL."
+ },
+ "hit_turn_cap": false
+}

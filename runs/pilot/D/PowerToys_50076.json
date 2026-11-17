@@ -1,0 +1,333 @@
+{
+ "shown": [
+  "PowerToys#11482",
+  "PowerToys#11882",
+  "PowerToys#14214",
+  "PowerToys#1547",
+  "PowerToys#16061",
+  "PowerToys#174",
+  "PowerToys#20050",
+  "PowerToys#2044",
+  "PowerToys#2240",
+  "PowerToys#2261",
+  "PowerToys#2428",
+  "PowerToys#26047",
+  "PowerToys#2680",
+  "PowerToys#30683",
+  "PowerToys#3234",
+  "PowerToys#3276",
+  "PowerToys#3663",
+  "PowerToys#3672",
+  "PowerToys#3885",
+  "PowerToys#4494",
+  "PowerToys#487",
+  "PowerToys#497",
+  "PowerToys#5063",
+  "PowerToys#552",
+  "PowerToys#5871",
+  "PowerToys#7020",
+  "PowerToys#7874",
+  "PowerToys#890",
+  "PowerToys#97",
+  "PowerToys#9771",
+  "PowerToys#9986"
+ ],
+ "retrieval_seconds": 4.227843642001972,
+ "tool_calls": [
+  {
+   "t": 1794876625.8210747,
+   "tool": "similar",
+   "args": {
+    "query": "Shortcut Guide opaque background covers whole screen",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.0023463560210075,
+   "returned": [
+    "PowerToys#3663",
+    "PowerToys#487",
+    "PowerToys#3885",
+    "PowerToys#3234",
+    "PowerToys#5063",
+    "PowerToys#2680",
+    "PowerToys#14214",
+    "PowerToys#2428",
+    "PowerToys#9986",
+    "PowerToys#497",
+    "PowerToys#3672",
+    "PowerToys#552",
+    "PowerToys#97",
+    "PowerToys#3276",
+    "PowerToys#5871",
+    "PowerToys#16061",
+    "PowerToys#2044",
+    "PowerToys#7874",
+    "PowerToys#7020",
+    "PowerToys#20050"
+   ]
+  },
+  {
+   "t": 1794876628.2913303,
+   "tool": "similar",
+   "args": {
+    "query": "new Shortcut Guide window covers entire screen with theme background, should be overlay",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.021843656984856352,
+   "returned": [
+    "PowerToys#2428",
+    "PowerToys#552",
+    "PowerToys#3663",
+    "PowerToys#3234",
+    "PowerToys#9771",
+    "PowerToys#4494",
+    "PowerToys#11882",
+    "PowerToys#97",
+    "PowerToys#3276",
+    "PowerToys#1547",
+    "PowerToys#5871",
+    "PowerToys#11482",
+    "PowerToys#2044",
+    "PowerToys#2240",
+    "PowerToys#30683",
+    "PowerToys#26047",
+    "PowerToys#2261",
+    "PowerToys#5063",
+    "PowerToys#2680",
+    "PowerToys#174"
+   ]
+  },
+  {
+   "t": 1794876628.5931835,
+   "tool": "search",
+   "args": {
+    "pattern": "shortcut guide",
+    "regex": false,
+    "also": [
+     "0.100",
+     "whole screen"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.20306514398544095,
+   "returned": [
+    "PowerToys#890"
+   ]
+  },
+  {
+   "t": 1794876630.1474314,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#14214"
+   },
+   "seconds": 0.00024163402849808335,
+   "returned": [
+    "PowerToys#14214"
+   ]
+  },
+  {
+   "t": 1794876631.952014,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#3663"
+   },
+   "seconds": 0.0001590859901625663,
+   "returned": [
+    "PowerToys#3663"
+   ]
+  },
+  {
+   "t": 1794876633.3956397,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#890"
+   },
+   "seconds": 0.00018776499200612307,
+   "returned": [
+    "PowerToys#890"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12899,
+  "stop_reason": "end_turn",
+  "session_id": "a471e3c0-65b3-4fe1-afb3-6f83a3e0437c",
+  "total_cost_usd": 0.043931300000000006,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 8125,
+   "cache_read_input_tokens": 24973,
+   "output_tokens": 891,
+   "output_tokens_details": {
+    "thinking_tokens": 33
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8125,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 239,
+     "cache_read_input_tokens": 6295,
+     "cache_creation_input_tokens": 3243,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3243
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 891,
+    "cacheReadInputTokens": 24973,
+    "cacheCreationInputTokens": 8125,
+    "webSearchRequests": 0,
+    "costUSD": 0.043931300000000006,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 33,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8125,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find a past ticket that reports this problem. This looks like a new report about the redesigned Shortcut Guide in v0.101.x. It covers the whole screen with an opaque themed background instead of showing a transparent overlay or a side panel. The older Shortcut Guide tickets are about different issues. They cover background opacity or blur settings in the old version (#3663, #14214) and the general redesign discussion (#890). I can't give a confirmed fix from the archive. In the meantime, please check whether Shortcut Guide settings offer an opacity or theme option, and try switching the theme. We will triage your report and the attached bug report ZIP as a new issue.\"}",
+  "ttft_ms": 2337,
+  "type": "result",
+  "duration_ms": 17205,
+  "uuid": "aab16d1a-2b48-4bda-9c70-308661cc2bc4",
+  "ttft_stream_ms": 1350,
+  "time_to_request_ms": 40,
+  "first_content_frame_ms": 1351,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 891,
+    "cacheReadInputTokens": 24973,
+    "cacheCreationInputTokens": 8125,
+    "webSearchRequests": 0,
+    "costUSD": 0.043931300000000006,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 33,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8125,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.507210629992187,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ml_5jxcj/work"
+  }
+ },
+ "wall_seconds": 18.5090434839949,
+ "qid": "PowerToys#50076",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find a past ticket that reports this problem. This looks like a new report about the redesigned Shortcut Guide in v0.101.x. It covers the whole screen with an opaque themed background instead of showing a transparent overlay or a side panel. The older Shortcut Guide tickets are about different issues. They cover background opacity or blur settings in the old version (#3663, #14214) and the general redesign discussion (#890). I can't give a confirmed fix from the archive. In the meantime, please check whether Shortcut Guide settings offer an opacity or theme option, and try switching the theme. We will triage your report and the attached bug report ZIP as a new issue."
+ },
+ "hit_turn_cap": false
+}

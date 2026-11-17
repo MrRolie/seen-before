@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "terminal#2277",
+  "terminal#3381",
+  "terminal#1856",
+  "terminal#10233",
+  "terminal#15271"
+ ],
+ "retrieval_seconds": 0.3993190900073387,
+ "retrieval_scores": [
+  0.024039829302987197,
+  0.023809523809523808,
+  0.023518469306404464,
+  0.023148148148148147,
+  0.023132592401137242
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3689,
+  "stop_reason": "end_turn",
+  "session_id": "e86616cb-9b65-461f-bbf1-69013a182ebc",
+  "total_cost_usd": 0.08390600000000001,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 19963,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 405,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 19963,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 405,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 19963,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 19963
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 405,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 19963,
+    "webSearchRequests": 0,
+    "costUSD": 0.08390600000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 19963,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this same problem, a fail-fast (0xc000027b) from ListViewBase::OnKeyDown when focus changes while a fullscreen game runs. The tickets that look close are different problems. terminal#2277 and terminal#3381 share the 0xc000027b code in Windows.UI.Xaml.dll, but that was an AG_E_LAYOUT_CYCLE in TabView layout during window resize or launch, fixed in Microsoft.UI.Xaml. Yours is a GettingFocus handler throwing during re-entrant SendMessageW. terminal#1856 is a conpty and full-screen move crash, and terminal#15271 is a tab-drag crash in OnDragGesture. Please file this as a new issue and keep your dumps. Include the five crash timestamps, the XAML versions, and the game-running correlation. Offer the full dumps, since the inner exception can't be read from the minidumps. Until it is investigated, you could try closing or minimizing Terminal while playing, or running the game in borderless-windowed mode, to see whether the crash stops. That is only an experiment, not a fix from any past ticket.\"}",
+  "ttft_ms": 3845,
+  "type": "result",
+  "duration_ms": 3863,
+  "uuid": "c2ef2195-4309-4210-b2ea-6923f6682d82",
+  "ttft_stream_ms": 713,
+  "time_to_request_ms": 172,
+  "first_content_frame_ms": 713,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 405,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 19963,
+    "webSearchRequests": 0,
+    "costUSD": 0.08390600000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 19963,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.634766670002136,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-s9n0fy35/work"
+  }
+ },
+ "wall_seconds": 5.0361398000095505,
+ "qid": "terminal#20668",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this same problem, a fail-fast (0xc000027b) from ListViewBase::OnKeyDown when focus changes while a fullscreen game runs. The tickets that look close are different problems. terminal#2277 and terminal#3381 share the 0xc000027b code in Windows.UI.Xaml.dll, but that was an AG_E_LAYOUT_CYCLE in TabView layout during window resize or launch, fixed in Microsoft.UI.Xaml. Yours is a GettingFocus handler throwing during re-entrant SendMessageW. terminal#1856 is a conpty and full-screen move crash, and terminal#15271 is a tab-drag crash in OnDragGesture. Please file this as a new issue and keep your dumps. Include the five crash timestamps, the XAML versions, and the game-running correlation. Offer the full dumps, since the inner exception can't be read from the minidumps. Until it is investigated, you could try closing or minimizing Terminal while playing, or running the game in borderless-windowed mode, to see whether the crash stops. That is only an experiment, not a fix from any past ticket."
+ },
+ "hit_turn_cap": false
+}

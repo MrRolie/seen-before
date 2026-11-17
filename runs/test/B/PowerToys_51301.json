@@ -1,0 +1,313 @@
+{
+ "shown": [
+  "PowerToys#1527",
+  "PowerToys#19203",
+  "PowerToys#26726",
+  "PowerToys#45201",
+  "PowerToys#46201",
+  "PowerToys#46254",
+  "PowerToys#46299",
+  "PowerToys#46431",
+  "PowerToys#46587",
+  "PowerToys#46939",
+  "PowerToys#47080",
+  "PowerToys#47241",
+  "PowerToys#48254",
+  "PowerToys#48626",
+  "PowerToys#49016",
+  "PowerToys#49019",
+  "PowerToys#49025",
+  "PowerToys#67"
+ ],
+ "retrieval_seconds": 0.21147244703024626,
+ "tool_calls": [
+  {
+   "t": 1794884141.441114,
+   "tool": "search",
+   "args": {
+    "pattern": "pin to dock",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.045013275987003,
+   "returned": [
+    "PowerToys#46299",
+    "PowerToys#47080",
+    "PowerToys#46431",
+    "PowerToys#49025",
+    "PowerToys#48254",
+    "PowerToys#46587",
+    "PowerToys#46201",
+    "PowerToys#45201"
+   ]
+  },
+  {
+   "t": 1794884141.7217667,
+   "tool": "search",
+   "args": {
+    "pattern": "Open url in Edge",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06527508399449289,
+   "returned": []
+  },
+  {
+   "t": 1794884142.788906,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46587"
+   },
+   "seconds": 0.00014188600471243262,
+   "returned": [
+    "PowerToys#46587"
+   ]
+  },
+  {
+   "t": 1794884143.5707736,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48254"
+   },
+   "seconds": 0.00019887500093318522,
+   "returned": [
+    "PowerToys#48254"
+   ]
+  },
+  {
+   "t": 1794884145.659485,
+   "tool": "search",
+   "args": {
+    "pattern": "fallback",
+    "regex": false,
+    "also": [
+     "dock"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10051890500471927,
+   "returned": [
+    "PowerToys#46587",
+    "PowerToys#46254",
+    "PowerToys#49016",
+    "PowerToys#19203",
+    "PowerToys#47241",
+    "PowerToys#1527",
+    "PowerToys#49019",
+    "PowerToys#48626",
+    "PowerToys#46939",
+    "PowerToys#26726",
+    "PowerToys#67"
+   ]
+  },
+  {
+   "t": 1794884146.4215474,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46254"
+   },
+   "seconds": 0.00017792501603253186,
+   "returned": [
+    "PowerToys#46254"
+   ]
+  },
+  {
+   "t": 1794884147.3583434,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46431"
+   },
+   "seconds": 0.00014649602235294878,
+   "returned": [
+    "PowerToys#46431"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12044,
+  "stop_reason": "end_turn",
+  "session_id": "13f9b01f-ae7d-4c89-9331-0768159d6c51",
+  "total_cost_usd": 0.052038,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 9031,
+   "cache_read_input_tokens": 40520,
+   "output_tokens": 1183,
+   "output_tokens_details": {
+    "thinking_tokens": 197
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9031,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 556,
+     "cache_read_input_tokens": 8914,
+     "cache_creation_input_tokens": 1294,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1294
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1183,
+    "cacheReadInputTokens": 40520,
+    "cacheCreationInputTokens": 9031,
+    "webSearchRequests": 0,
+    "costUSD": 0.052038,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 197,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9031,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I'm checking the fallback-pinning tickets against your report. The best match is #46587, and I'm giving the answer now.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#46587\", \"PowerToys#46254\"], \"answer\": \"This has been reported before. \\\"Open url in Edge\\\" is a fallback command, and fallbacks depend on the exact text you typed. The Dock registers the pin (the menu flips to \\\"Unpin\\\") but never shows it. The maintainers say fallbacks shouldn't be pinnable at all, and the planned fix is to disable pinning them. They also plan to add \\\"v2\\\" fallbacks and IDs so files can be pinned. For now, pin a regular, non-fallback command instead. For a URL, you could use a Web Search or Bookmarks command, or a shortcut file that opens the msteams:// link. Pinned entries that don't show can be cleaned up with right-click on the Dock > Edit dock > Save. In #46431, one user found that didn't make the missing pins appear. Also try the latest PowerToys, since the fix is in progress.\"}",
+  "ttft_ms": 968,
+  "type": "result",
+  "duration_ms": 12322,
+  "uuid": "d15ded3a-6fbf-4ba2-876f-f117db88356f",
+  "ttft_stream_ms": 616,
+  "time_to_request_ms": 50,
+  "first_content_frame_ms": 616,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1183,
+    "cacheReadInputTokens": 40520,
+    "cacheCreationInputTokens": 9031,
+    "webSearchRequests": 0,
+    "costUSD": 0.052038,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 197,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9031,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.637275110988412,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-uvjqr_3t/work"
+  }
+ },
+ "wall_seconds": 13.639247156010242,
+ "qid": "PowerToys#51301",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46587",
+   "PowerToys#46254"
+  ],
+  "answer": "This has been reported before. \"Open url in Edge\" is a fallback command, and fallbacks depend on the exact text you typed. The Dock registers the pin (the menu flips to \"Unpin\") but never shows it. The maintainers say fallbacks shouldn't be pinnable at all, and the planned fix is to disable pinning them. They also plan to add \"v2\" fallbacks and IDs so files can be pinned. For now, pin a regular, non-fallback command instead. For a URL, you could use a Web Search or Bookmarks command, or a shortcut file that opens the msteams:// link. Pinned entries that don't show can be cleaned up with right-click on the Dock > Edit dock > Save. In #46431, one user found that didn't make the missing pins appear. Also try the latest PowerToys, since the fix is in progress."
+ },
+ "hit_turn_cap": false
+}

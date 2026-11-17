@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#48446",
+  "PowerToys#48586",
+  "PowerToys#47700",
+  "PowerToys#47652",
+  "PowerToys#48466"
+ ],
+ "retrieval_seconds": 0.5401553440024145,
+ "retrieval_scores": [
+  0.03278688524590164,
+  0.03200204813108039,
+  0.03149801587301587,
+  0.031054405392392875,
+  0.031009615384615385
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2521,
+  "stop_reason": "end_turn",
+  "session_id": "fa3c4bfd-fab1-45c1-80de-258b26865d82",
+  "total_cost_usd": 0.025522,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5622,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 303,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5622,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 303,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5622,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5622
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 303,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5622,
+    "webSearchRequests": 0,
+    "costUSD": 0.025522,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5622,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#47652\", \"PowerToys#48446\", \"PowerToys#47700\"], \"answer\": \"This is a known bug: the Command Palette Dock sits 1 pixel off the screen edge when positioned at the top (also left/right), letting the wallpaper or a black/white line show through. It is tracked in PowerToys#47652; the other reports (#48446, #47700) were closed as duplicates of it, and a maintainer said a fix has been made and will ship in an upcoming PowerToys release. Update PowerToys to the latest version once it is available, since 0.100.x still showed the gap for some users. Workarounds reported in the tickets: restarting the machine makes the gap disappear (it returns if you toggle the dock off and on again, until the next restart), and one user noted it disappears when PowerToys runs as Administrator. Subscribe to #47652 for updates.\"}",
+  "ttft_ms": 2686,
+  "type": "result",
+  "duration_ms": 2698,
+  "uuid": "84e69465-e924-4b33-84be-b1636635ca0c",
+  "ttft_stream_ms": 692,
+  "time_to_request_ms": 177,
+  "first_content_frame_ms": 692,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 303,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5622,
+    "webSearchRequests": 0,
+    "costUSD": 0.025522,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5622,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.6976476949930657,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-p9rtuvmt/work"
+  }
+ },
+ "wall_seconds": 4.239356078993296,
+ "qid": "PowerToys#50145",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#47652",
+   "PowerToys#48446",
+   "PowerToys#47700"
+  ],
+  "answer": "This is a known bug: the Command Palette Dock sits 1 pixel off the screen edge when positioned at the top (also left/right), letting the wallpaper or a black/white line show through. It is tracked in PowerToys#47652; the other reports (#48446, #47700) were closed as duplicates of it, and a maintainer said a fix has been made and will ship in an upcoming PowerToys release. Update PowerToys to the latest version once it is available, since 0.100.x still showed the gap for some users. Workarounds reported in the tickets: restarting the machine makes the gap disappear (it returns if you toggle the dock off and on again, until the next restart), and one user noted it disappears when PowerToys runs as Administrator. Subscribe to #47652 for updates."
+ },
+ "hit_turn_cap": false
+}

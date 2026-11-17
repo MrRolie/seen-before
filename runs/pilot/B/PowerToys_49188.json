@@ -1,0 +1,307 @@
+{
+ "shown": [
+  "PowerToys#16173",
+  "PowerToys#19576",
+  "PowerToys#20016",
+  "PowerToys#23231",
+  "PowerToys#25616",
+  "PowerToys#28376",
+  "PowerToys#32183",
+  "PowerToys#32265",
+  "PowerToys#32644",
+  "PowerToys#3290",
+  "PowerToys#33030",
+  "PowerToys#33130",
+  "PowerToys#34721",
+  "PowerToys#34893",
+  "PowerToys#37118",
+  "PowerToys#43852",
+  "PowerToys#45021",
+  "PowerToys#48416",
+  "PowerToys#6",
+  "PowerToys#6756"
+ ],
+ "retrieval_seconds": 0.2767561789951287,
+ "tool_calls": [
+  {
+   "t": 1794875992.1661513,
+   "tool": "search",
+   "args": {
+    "pattern": "per-app key remap",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.09886258098413236,
+   "returned": [
+    "PowerToys#6756"
+   ]
+  },
+  {
+   "t": 1794875994.512577,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#6756"
+   },
+   "seconds": 0.0002358939964324236,
+   "returned": [
+    "PowerToys#6756"
+   ]
+  },
+  {
+   "t": 1794875996.6071243,
+   "tool": "search",
+   "args": {
+    "pattern": "remap",
+    "regex": false,
+    "also": [
+     "specific app",
+     "key"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.17715124701499008,
+   "returned": [
+    "PowerToys#6756",
+    "PowerToys#23231",
+    "PowerToys#6",
+    "PowerToys#45021",
+    "PowerToys#19576",
+    "PowerToys#28376",
+    "PowerToys#20016",
+    "PowerToys#3290",
+    "PowerToys#34893",
+    "PowerToys#32183",
+    "PowerToys#16173",
+    "PowerToys#33130",
+    "PowerToys#32265",
+    "PowerToys#33030",
+    "PowerToys#32644",
+    "PowerToys#25616",
+    "PowerToys#48416",
+    "PowerToys#37118",
+    "PowerToys#34721",
+    "PowerToys#43852"
+   ]
+  },
+  {
+   "t": 1794875997.3918808,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32265"
+   },
+   "seconds": 0.00020461500389501452,
+   "returned": [
+    "PowerToys#32265"
+   ]
+  },
+  {
+   "t": 1794875998.148751,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45021"
+   },
+   "seconds": 0.0001541560050100088,
+   "returned": [
+    "PowerToys#45021"
+   ]
+  },
+  {
+   "t": 1794875999.0065007,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33130"
+   },
+   "seconds": 0.00014768599066883326,
+   "returned": [
+    "PowerToys#33130"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11703,
+  "stop_reason": "end_turn",
+  "session_id": "119ab7ab-3ee3-4526-9eeb-2e230c0bfb90",
+  "total_cost_usd": 0.0676817,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 12632,
+   "cache_read_input_tokens": 60317,
+   "output_tokens": 1109,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12632,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 288,
+     "cache_read_input_tokens": 13713,
+     "cache_creation_input_tokens": 96,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 96
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1109,
+    "cacheReadInputTokens": 60317,
+    "cacheCreationInputTokens": 12632,
+    "webSearchRequests": 0,
+    "costUSD": 0.0676817,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12632,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#6756\", \"PowerToys#32265\", \"PowerToys#45021\"], \"answer\": \"This feature request has been filed before. PowerToys#6756 is the main tracking issue for app-specific key remapping in Keyboard Manager. The other requests were closed as duplicates of it, including PowerToys#32265 and PowerToys#45021. Today 'Remap a key' only works globally, and only 'Remap a shortcut' has a Target App option. The feature isn't available yet. Add a thumbs-up to #6756 and describe your use case there, such as Enter sending a message instead of adding a new line. For now, you can remap shortcuts per app. For example, in the target app you could map Shift+Enter or Ctrl+Enter to the behavior you want, but a plain Enter key can't be remapped for one app only.\"}",
+  "ttft_ms": 1309,
+  "type": "result",
+  "duration_ms": 11967,
+  "uuid": "759622c1-17d0-47a1-84ff-3d451f4cd5c4",
+  "ttft_stream_ms": 605,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 605,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1109,
+    "cacheReadInputTokens": 60317,
+    "cacheCreationInputTokens": 12632,
+    "webSearchRequests": 0,
+    "costUSD": 0.0676817,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12632,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.343264596012887,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-fh2ny2jb/work"
+  }
+ },
+ "wall_seconds": 13.345643365988508,
+ "qid": "PowerToys#49188",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#6756",
+   "PowerToys#32265",
+   "PowerToys#45021"
+  ],
+  "answer": "This feature request has been filed before. PowerToys#6756 is the main tracking issue for app-specific key remapping in Keyboard Manager. The other requests were closed as duplicates of it, including PowerToys#32265 and PowerToys#45021. Today 'Remap a key' only works globally, and only 'Remap a shortcut' has a Target App option. The feature isn't available yet. Add a thumbs-up to #6756 and describe your use case there, such as Enter sending a message instead of adding a new line. For now, you can remap shortcuts per app. For example, in the target app you could map Shift+Enter or Ctrl+Enter to the behavior you want, but a plain Enter key can't be remapped for one app only."
+ },
+ "hit_turn_cap": false
+}

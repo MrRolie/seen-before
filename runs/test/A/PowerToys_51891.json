@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#33020",
+  "PowerToys#25112",
+  "PowerToys#32964",
+  "PowerToys#33665",
+  "PowerToys#32405"
+ ],
+ "retrieval_seconds": 0.014640567009337246,
+ "retrieval_scores": [
+  0.759014904499054,
+  0.7571402788162231,
+  0.7553046345710754,
+  0.7508308291435242,
+  0.7461238503456116
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3044,
+  "stop_reason": "end_turn",
+  "session_id": "201bae05-8675-4041-85e5-6e7f76192a52",
+  "total_cost_usd": 0.021145999999999998,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4683,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 241,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4683,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 241,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4683,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4683
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 241,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4683,
+    "webSearchRequests": 0,
+    "costUSD": 0.021145999999999998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4683,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#25112\", \"PowerToys#32405\", \"PowerToys#33020\"], \"answer\": \"This feature request has been filed before. Several past tickets ask for a system-wide way to change the case of selected text (UPPER, lower, Sentence, etc.), and #25112 specifically suggests the right-click context menu. Those tickets were closed as duplicates of the main tracking issue #907 (and #29277 for #33020), so no separate action is needed on this ticket. Follow issue #907 and add a thumbs-up there to help prioritize it. The archive shows no available workaround from PowerToys itself, so for now you would still need to use a text editor or an external tool to convert the case.\"}",
+  "ttft_ms": 3212,
+  "type": "result",
+  "duration_ms": 3228,
+  "uuid": "e7a2ed63-878b-4d50-84c6-86780b8c2b91",
+  "ttft_stream_ms": 1445,
+  "time_to_request_ms": 182,
+  "first_content_frame_ms": 1445,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 241,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4683,
+    "webSearchRequests": 0,
+    "costUSD": 0.021145999999999998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4683,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.108309247007128,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-0o36fotz/work"
+  }
+ },
+ "wall_seconds": 4.124776810989715,
+ "qid": "PowerToys#51891",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#25112",
+   "PowerToys#32405",
+   "PowerToys#33020"
+  ],
+  "answer": "This feature request has been filed before. Several past tickets ask for a system-wide way to change the case of selected text (UPPER, lower, Sentence, etc.), and #25112 specifically suggests the right-click context menu. Those tickets were closed as duplicates of the main tracking issue #907 (and #29277 for #33020), so no separate action is needed on this ticket. Follow issue #907 and add a thumbs-up there to help prioritize it. The archive shows no available workaround from PowerToys itself, so for now you would still need to use a text editor or an external tool to convert the case."
+ },
+ "hit_turn_cap": false
+}

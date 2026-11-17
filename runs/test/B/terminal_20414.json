@@ -1,0 +1,314 @@
+{
+ "shown": [
+  "terminal#10000",
+  "terminal#10224",
+  "terminal#10407",
+  "terminal#12681",
+  "terminal#12682",
+  "terminal#13226",
+  "terminal#1375",
+  "terminal#14815",
+  "terminal#15767",
+  "terminal#16237",
+  "terminal#18236",
+  "terminal#19433",
+  "terminal#19993",
+  "terminal#3012",
+  "terminal#3327",
+  "terminal#4066",
+  "terminal#6491"
+ ],
+ "retrieval_seconds": 0.14817671303171664,
+ "tool_calls": [
+  {
+   "t": 1794877845.248779,
+   "tool": "search",
+   "args": {
+    "pattern": "color scheme",
+    "regex": false,
+    "also": [
+     "system theme"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.09437053301371634,
+   "returned": [
+    "terminal#19433",
+    "terminal#4066",
+    "terminal#10407",
+    "terminal#3012",
+    "terminal#16237",
+    "terminal#19993",
+    "terminal#14815",
+    "terminal#10000",
+    "terminal#6491",
+    "terminal#3327",
+    "terminal#13226",
+    "terminal#12682",
+    "terminal#10224",
+    "terminal#1375"
+   ]
+  },
+  {
+   "t": 1794877845.7212017,
+   "tool": "search",
+   "args": {
+    "pattern": "light and dark color scheme",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.020181155006866902,
+   "returned": [
+    "terminal#18236",
+    "terminal#12681"
+   ]
+  },
+  {
+   "t": 1794877845.7621872,
+   "tool": "search",
+   "args": {
+    "pattern": "switch color scheme",
+    "regex": false,
+    "also": [
+     "theme"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.03312653800821863,
+   "returned": [
+    "terminal#15767"
+   ]
+  },
+  {
+   "t": 1794877847.6058671,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#10407"
+   },
+   "seconds": 9.641799260862172e-05,
+   "returned": [
+    "terminal#10407"
+   ]
+  },
+  {
+   "t": 1794877847.7419832,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19993"
+   },
+   "seconds": 0.00011950699263252318,
+   "returned": [
+    "terminal#19993"
+   ]
+  },
+  {
+   "t": 1794877849.2542331,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#4066"
+   },
+   "seconds": 0.00014379600179381669,
+   "returned": [
+    "terminal#4066"
+   ]
+  },
+  {
+   "t": 1794877850.5634518,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18236"
+   },
+   "seconds": 0.00013876601587980986,
+   "returned": [
+    "terminal#18236"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10130,
+  "stop_reason": "end_turn",
+  "session_id": "73e97873-8d85-411e-9142-6dc42fee53db",
+  "total_cost_usd": 0.0458848,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 8743,
+   "cache_read_input_tokens": 23028,
+   "output_tokens": 859,
+   "output_tokens_details": {
+    "thinking_tokens": 37
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8743,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 294,
+     "cache_read_input_tokens": 9298,
+     "cache_creation_input_tokens": 622,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 622
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 859,
+    "cacheReadInputTokens": 23028,
+    "cacheCreationInputTokens": 8743,
+    "webSearchRequests": 0,
+    "costUSD": 0.0458848,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 37,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8743,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#18236\", \"terminal#19993\", \"terminal#4066\"], \"answer\": \"This has been requested before, and Windows Terminal already supports it. Set the profile's \\\"colorScheme\\\" to an object with a light and a dark scheme in settings.json, for example: \\\"colorScheme\\\": {\\\"light\\\": \\\"One Half Light\\\", \\\"dark\\\": \\\"One Half Dark\\\"}. The terminal panes then follow the app theme. Set the app theme to \\\"Use Windows theme\\\" to make that follow the system. The option isn't in the Settings UI yet. That is tracked in #16984, so for now you have to edit settings.json by hand. The original request for this feature is #4066. Sunrise and sunset switching is not built in. It comes from your Windows light/dark mode, which a tool such as Auto Dark Mode can switch on a schedule.\"}",
+  "ttft_ms": 1888,
+  "type": "result",
+  "duration_ms": 10238,
+  "uuid": "0debece1-aa47-4de0-b507-fd131caa9631",
+  "ttft_stream_ms": 1087,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 1087,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 859,
+    "cacheReadInputTokens": 23028,
+    "cacheCreationInputTokens": 8743,
+    "webSearchRequests": 0,
+    "costUSD": 0.0458848,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 37,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8743,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.450936995010125,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-1hp8sx2i/work"
+  }
+ },
+ "wall_seconds": 11.453237406007247,
+ "qid": "terminal#20414",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#18236",
+   "terminal#19993",
+   "terminal#4066"
+  ],
+  "answer": "This has been requested before, and Windows Terminal already supports it. Set the profile's \"colorScheme\" to an object with a light and a dark scheme in settings.json, for example: \"colorScheme\": {\"light\": \"One Half Light\", \"dark\": \"One Half Dark\"}. The terminal panes then follow the app theme. Set the app theme to \"Use Windows theme\" to make that follow the system. The option isn't in the Settings UI yet. That is tracked in #16984, so for now you have to edit settings.json by hand. The original request for this feature is #4066. Sunrise and sunset switching is not built in. It comes from your Windows light/dark mode, which a tool such as Auto Dark Mode can switch on a schedule."
+ },
+ "hit_turn_cap": false
+}

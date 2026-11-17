@@ -1,0 +1,319 @@
+{
+ "shown": [
+  "PowerToys#11580",
+  "PowerToys#11638",
+  "PowerToys#12574",
+  "PowerToys#1768",
+  "PowerToys#2257",
+  "PowerToys#22573",
+  "PowerToys#2263",
+  "PowerToys#23",
+  "PowerToys#23813",
+  "PowerToys#24283",
+  "PowerToys#24907",
+  "PowerToys#25350",
+  "PowerToys#2802",
+  "PowerToys#28933",
+  "PowerToys#29430",
+  "PowerToys#33502",
+  "PowerToys#33984",
+  "PowerToys#36023",
+  "PowerToys#3716",
+  "PowerToys#37165",
+  "PowerToys#38285",
+  "PowerToys#39725",
+  "PowerToys#40927",
+  "PowerToys#41861",
+  "PowerToys#44029",
+  "PowerToys#45712",
+  "PowerToys#46174",
+  "PowerToys#46682",
+  "PowerToys#47478",
+  "PowerToys#47860",
+  "PowerToys#48484",
+  "PowerToys#48614",
+  "PowerToys#5715",
+  "PowerToys#601",
+  "PowerToys#6751",
+  "PowerToys#8323",
+  "PowerToys#8754",
+  "PowerToys#9015",
+  "PowerToys#9387"
+ ],
+ "retrieval_seconds": 3.7737644609587733,
+ "tool_calls": [
+  {
+   "t": 1794882475.6963983,
+   "tool": "similar",
+   "args": {
+    "query": "Cannot add utilities to Quick access flyout, no drag and drop or right click",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.7081293469818775,
+   "returned": [
+    "PowerToys#40927",
+    "PowerToys#11580",
+    "PowerToys#6751",
+    "PowerToys#22573",
+    "PowerToys#38285",
+    "PowerToys#8323",
+    "PowerToys#1768",
+    "PowerToys#48614",
+    "PowerToys#23",
+    "PowerToys#25350",
+    "PowerToys#11638",
+    "PowerToys#2257",
+    "PowerToys#5715",
+    "PowerToys#3716",
+    "PowerToys#2802",
+    "PowerToys#601",
+    "PowerToys#8754",
+    "PowerToys#2263",
+    "PowerToys#24907",
+    "PowerToys#9015"
+   ]
+  },
+  {
+   "t": 1794882475.7866516,
+   "tool": "search",
+   "args": {
+    "pattern": "quick access",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06537049100734293,
+   "returned": [
+    "PowerToys#24283",
+    "PowerToys#47478",
+    "PowerToys#33502",
+    "PowerToys#48614",
+    "PowerToys#45712",
+    "PowerToys#39725",
+    "PowerToys#37165",
+    "PowerToys#23813",
+    "PowerToys#48484",
+    "PowerToys#47860",
+    "PowerToys#44029",
+    "PowerToys#41861",
+    "PowerToys#36023",
+    "PowerToys#33984",
+    "PowerToys#29430",
+    "PowerToys#28933",
+    "PowerToys#12574",
+    "PowerToys#9387",
+    "PowerToys#46682",
+    "PowerToys#46174"
+   ]
+  },
+  {
+   "t": 1794882477.2620163,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47478"
+   },
+   "seconds": 0.00012655698810704052,
+   "returned": [
+    "PowerToys#47478"
+   ]
+  },
+  {
+   "t": 1794882477.4758134,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48614"
+   },
+   "seconds": 0.00013806598144583404,
+   "returned": [
+    "PowerToys#48614"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6069,
+  "stop_reason": "end_turn",
+  "session_id": "6e248efd-ee5f-44df-a524-5966535a126e",
+  "total_cost_usd": 0.0417102,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 8611,
+   "cache_read_input_tokens": 10842,
+   "output_tokens": 617,
+   "output_tokens_details": {
+    "thinking_tokens": 46
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8611,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 268,
+     "cache_read_input_tokens": 7387,
+     "cache_creation_input_tokens": 2637,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2637
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 617,
+    "cacheReadInputTokens": 10842,
+    "cacheCreationInputTokens": 8611,
+    "webSearchRequests": 0,
+    "costUSD": 0.0417102,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 46,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8611,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#24283\", \"PowerToys#48614\", \"PowerToys#47478\"], \"answer\": \"This is a known limitation, not a bug in your install. The Quick Access flyout doesn't support customization yet. You can't drag and drop utilities into it or add them from a right-click menu. PowerToys picks which utilities appear there, and using a utility doesn't add it. That is probably how Text Extractor ended up there. Similar requests were closed as duplicates of the main tracking issue, PowerToys#24283 (allow customizing the Quick Access icons). Subscribe to that issue or add a thumbs-up to follow progress. Until it ships, start other utilities with their activation shortcuts or from the All Apps / utilities pages in PowerToys Settings.\"}",
+  "ttft_ms": 1494,
+  "type": "result",
+  "duration_ms": 9751,
+  "uuid": "a0cae511-946b-4b7c-9653-29c33076e308",
+  "ttft_stream_ms": 900,
+  "time_to_request_ms": 57,
+  "first_content_frame_ms": 900,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 617,
+    "cacheReadInputTokens": 10842,
+    "cacheCreationInputTokens": 8611,
+    "webSearchRequests": 0,
+    "costUSD": 0.0417102,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 46,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8611,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.387679014995228,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-mizh5m35/work"
+  }
+ },
+ "wall_seconds": 11.389295203000074,
+ "qid": "PowerToys#50505",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#24283",
+   "PowerToys#48614",
+   "PowerToys#47478"
+  ],
+  "answer": "This is a known limitation, not a bug in your install. The Quick Access flyout doesn't support customization yet. You can't drag and drop utilities into it or add them from a right-click menu. PowerToys picks which utilities appear there, and using a utility doesn't add it. That is probably how Text Extractor ended up there. Similar requests were closed as duplicates of the main tracking issue, PowerToys#24283 (allow customizing the Quick Access icons). Subscribe to that issue or add a thumbs-up to follow progress. Until it ships, start other utilities with their activation shortcuts or from the All Apps / utilities pages in PowerToys Settings."
+ },
+ "hit_turn_cap": false
+}

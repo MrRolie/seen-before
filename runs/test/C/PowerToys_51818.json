@@ -1,0 +1,328 @@
+{
+ "shown": [
+  "PowerToys#10196",
+  "PowerToys#10198",
+  "PowerToys#10248",
+  "PowerToys#12874",
+  "PowerToys#13200",
+  "PowerToys#13638",
+  "PowerToys#1460",
+  "PowerToys#16708",
+  "PowerToys#18598",
+  "PowerToys#19147",
+  "PowerToys#21181",
+  "PowerToys#21782",
+  "PowerToys#21831",
+  "PowerToys#2733",
+  "PowerToys#3421",
+  "PowerToys#3643",
+  "PowerToys#3676",
+  "PowerToys#37541",
+  "PowerToys#39474",
+  "PowerToys#4450",
+  "PowerToys#47753",
+  "PowerToys#4905",
+  "PowerToys#5030",
+  "PowerToys#5421",
+  "PowerToys#5453",
+  "PowerToys#5709",
+  "PowerToys#6037",
+  "PowerToys#6211",
+  "PowerToys#6224",
+  "PowerToys#6334",
+  "PowerToys#6616",
+  "PowerToys#6756",
+  "PowerToys#7603",
+  "PowerToys#848",
+  "PowerToys#8937",
+  "PowerToys#8952",
+  "PowerToys#9223",
+  "PowerToys#9372",
+  "PowerToys#9557",
+  "PowerToys#9957"
+ ],
+ "retrieval_seconds": 3.959513261943357,
+ "tool_calls": [
+  {
+   "t": 1794885102.9157429,
+   "tool": "search",
+   "args": {
+    "query": "remap keys per keyboard separately, laptop keyboard vs external USB keyboard",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.946547446976183,
+   "returned": [
+    "PowerToys#848",
+    "PowerToys#6616",
+    "PowerToys#10198",
+    "PowerToys#3421",
+    "PowerToys#3676",
+    "PowerToys#6211",
+    "PowerToys#5709",
+    "PowerToys#8937",
+    "PowerToys#6224",
+    "PowerToys#9957",
+    "PowerToys#5421",
+    "PowerToys#1460",
+    "PowerToys#3643",
+    "PowerToys#7603",
+    "PowerToys#9557",
+    "PowerToys#6334",
+    "PowerToys#9372",
+    "PowerToys#10196",
+    "PowerToys#10248",
+    "PowerToys#6756"
+   ]
+  },
+  {
+   "t": 1794885102.9407823,
+   "tool": "search",
+   "args": {
+    "query": "keyboard manager remap brightness key",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012609772995347157,
+   "returned": [
+    "PowerToys#5030",
+    "PowerToys#4450",
+    "PowerToys#9223",
+    "PowerToys#21831",
+    "PowerToys#21782",
+    "PowerToys#13200",
+    "PowerToys#2733",
+    "PowerToys#16708",
+    "PowerToys#37541",
+    "PowerToys#4905",
+    "PowerToys#6037",
+    "PowerToys#39474",
+    "PowerToys#12874",
+    "PowerToys#13638",
+    "PowerToys#19147",
+    "PowerToys#47753",
+    "PowerToys#8952",
+    "PowerToys#18598",
+    "PowerToys#5453",
+    "PowerToys#21181"
+   ]
+  },
+  {
+   "t": 1794885104.0201733,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#6616"
+   },
+   "seconds": 0.00013254699297249317,
+   "returned": [
+    "PowerToys#6616"
+   ]
+  },
+  {
+   "t": 1794885104.2525,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#3676"
+   },
+   "seconds": 0.00011310799163766205,
+   "returned": [
+    "PowerToys#3676"
+   ]
+  },
+  {
+   "t": 1794885104.4270942,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#5030"
+   },
+   "seconds": 0.00011038698721677065,
+   "returned": [
+    "PowerToys#5030"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 5251,
+  "stop_reason": "end_turn",
+  "session_id": "a7837880-887b-4539-a099-e4cab0e7845a",
+  "total_cost_usd": 0.026700900000000003,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 4845,
+   "cache_read_input_tokens": 6789,
+   "output_tokens": 663,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4845,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 284,
+     "cache_read_input_tokens": 4195,
+     "cache_creation_input_tokens": 1683,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1683
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 663,
+    "cacheReadInputTokens": 6789,
+    "cacheCreationInputTokens": 4845,
+    "webSearchRequests": 0,
+    "costUSD": 0.026700900000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4845,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#1460\", \"PowerToys#6616\", \"PowerToys#3676\"], \"answer\": \"Both requests have been reported before. Per-keyboard remapping (laptop vs. external USB keyboard) is tracked in the main ticket PowerToys#1460, and PowerToys#6616 and PowerToys#3676 were closed as duplicates of it. It isn't currently possible. Windows public APIs don't let PowerToys tell which keyboard a keypress came from, so that would need driver-level support. For now, Keyboard Manager remaps apply to all keyboards. The brightness request is tracked separately in PowerToys#4450 (remap a key to brightness up/down). PowerToys has no brightness command yet, so Keyboard Manager can't map to one today. Follow those tickets for updates.\"}",
+  "ttft_ms": 1406,
+  "type": "result",
+  "duration_ms": 9230,
+  "uuid": "2c5e60a2-a80a-44b0-be1d-31048deacdfc",
+  "ttft_stream_ms": 569,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 569,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 663,
+    "cacheReadInputTokens": 6789,
+    "cacheCreationInputTokens": 4845,
+    "webSearchRequests": 0,
+    "costUSD": 0.026700900000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4845,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.643492690986022,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-p5_ffj_0/work"
+  }
+ },
+ "wall_seconds": 10.645796238008188,
+ "qid": "PowerToys#51818",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#1460",
+   "PowerToys#6616",
+   "PowerToys#3676"
+  ],
+  "answer": "Both requests have been reported before. Per-keyboard remapping (laptop vs. external USB keyboard) is tracked in the main ticket PowerToys#1460, and PowerToys#6616 and PowerToys#3676 were closed as duplicates of it. It isn't currently possible. Windows public APIs don't let PowerToys tell which keyboard a keypress came from, so that would need driver-level support. For now, Keyboard Manager remaps apply to all keyboards. The brightness request is tracked separately in PowerToys#4450 (remap a key to brightness up/down). PowerToys has no brightness command yet, so Keyboard Manager can't map to one today. Follow those tickets for updates."
+ },
+ "hit_turn_cap": false
+}

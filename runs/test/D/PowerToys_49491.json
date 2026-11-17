@@ -1,0 +1,341 @@
+{
+ "shown": [
+  "PowerToys#10903",
+  "PowerToys#11318",
+  "PowerToys#11580",
+  "PowerToys#11701",
+  "PowerToys#13207",
+  "PowerToys#1742",
+  "PowerToys#2252",
+  "PowerToys#23857",
+  "PowerToys#23879",
+  "PowerToys#2413",
+  "PowerToys#24200",
+  "PowerToys#24283",
+  "PowerToys#25413",
+  "PowerToys#2547",
+  "PowerToys#28970",
+  "PowerToys#30858",
+  "PowerToys#32169",
+  "PowerToys#34148",
+  "PowerToys#35976",
+  "PowerToys#4006",
+  "PowerToys#41157",
+  "PowerToys#41838",
+  "PowerToys#42755",
+  "PowerToys#43121",
+  "PowerToys#44845",
+  "PowerToys#45201",
+  "PowerToys#45712",
+  "PowerToys#47478",
+  "PowerToys#47537",
+  "PowerToys#4762",
+  "PowerToys#47694",
+  "PowerToys#48614",
+  "PowerToys#4920",
+  "PowerToys#5167",
+  "PowerToys#6120",
+  "PowerToys#6751",
+  "PowerToys#73",
+  "PowerToys#7371",
+  "PowerToys#9087",
+  "PowerToys#9387"
+ ],
+ "retrieval_seconds": 3.301346461958019,
+ "tool_calls": [
+  {
+   "t": 1794878688.6120749,
+   "tool": "search",
+   "args": {
+    "pattern": "quick access",
+    "regex": false,
+    "also": [
+     "taskbar"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.08728798999800347,
+   "returned": [
+    "PowerToys#24283",
+    "PowerToys#47478",
+    "PowerToys#48614",
+    "PowerToys#45712",
+    "PowerToys#9387",
+    "PowerToys#41157",
+    "PowerToys#30858",
+    "PowerToys#25413",
+    "PowerToys#45201",
+    "PowerToys#42755",
+    "PowerToys#34148",
+    "PowerToys#28970",
+    "PowerToys#24200",
+    "PowerToys#23879",
+    "PowerToys#6751",
+    "PowerToys#47537",
+    "PowerToys#44845",
+    "PowerToys#43121",
+    "PowerToys#41838",
+    "PowerToys#35976"
+   ]
+  },
+  {
+   "t": 1794878691.8386295,
+   "tool": "similar",
+   "args": {
+    "query": "quick access flyout appears in bottom right regardless of taskbar position (left/top)",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.2135318259825,
+   "returned": [
+    "PowerToys#23857",
+    "PowerToys#5167",
+    "PowerToys#9087",
+    "PowerToys#11318",
+    "PowerToys#10903",
+    "PowerToys#2413",
+    "PowerToys#7371",
+    "PowerToys#13207",
+    "PowerToys#11580",
+    "PowerToys#11701",
+    "PowerToys#32169",
+    "PowerToys#2547",
+    "PowerToys#4006",
+    "PowerToys#73",
+    "PowerToys#1742",
+    "PowerToys#2252",
+    "PowerToys#6120",
+    "PowerToys#47694",
+    "PowerToys#4762",
+    "PowerToys#4920"
+   ]
+  },
+  {
+   "t": 1794878693.335141,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45712"
+   },
+   "seconds": 0.00013101700460538268,
+   "returned": [
+    "PowerToys#45712"
+   ]
+  },
+  {
+   "t": 1794878693.6210556,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#23857"
+   },
+   "seconds": 0.00014078599633648992,
+   "returned": [
+    "PowerToys#23857"
+   ]
+  },
+  {
+   "t": 1794878693.7647185,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32169"
+   },
+   "seconds": 0.0001453059958294034,
+   "returned": [
+    "PowerToys#32169"
+   ]
+  },
+  {
+   "t": 1794878695.339189,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#23772"
+   },
+   "seconds": 0.00010953698074445128,
+   "returned": []
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9723,
+  "stop_reason": "end_turn",
+  "session_id": "1606ee80-a689-46cc-afa2-b7aa9ebdb8e1",
+  "total_cost_usd": 0.041868,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 7894,
+   "cache_read_input_tokens": 29520,
+   "output_tokens": 732,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7894,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 259,
+     "cache_read_input_tokens": 9248,
+     "cache_creation_input_tokens": 59,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 59
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 732,
+    "cacheReadInputTokens": 29520,
+    "cacheCreationInputTokens": 7894,
+    "webSearchRequests": 0,
+    "costUSD": 0.041868,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7894,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#45712\", \"PowerToys#23857\"], \"answer\": \"This has been reported before. The Quick Access popup always opens in the bottom-right corner, even when the taskbar is on the left or top. PowerToys#45712 (Feb 2026, v0.97.2) asks for the popup to open next to the tray icon, either by auto-detecting the tray or through a setting that picks the corner. It is still open, and a commenter confirmed it with a taskbar moved to the top. PowerToys#23857 (2023) made the same request. I couldn't find a fix or a setting for it in the archive, so there is no workaround for now. Add a 👍 or your use case to #45712. Opening the popup with a global shortcut is the only alternative.\"}",
+  "ttft_ms": 2482,
+  "type": "result",
+  "duration_ms": 13091,
+  "uuid": "fcce1597-6e89-40ba-943c-2128f83d6c61",
+  "ttft_stream_ms": 1382,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 1382,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 732,
+    "cacheReadInputTokens": 29520,
+    "cacheCreationInputTokens": 7894,
+    "webSearchRequests": 0,
+    "costUSD": 0.041868,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7894,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.413806828000816,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-o0cbr1pb/work"
+  }
+ },
+ "wall_seconds": 14.415444957005093,
+ "qid": "PowerToys#49491",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#45712",
+   "PowerToys#23857"
+  ],
+  "answer": "This has been reported before. The Quick Access popup always opens in the bottom-right corner, even when the taskbar is on the left or top. PowerToys#45712 (Feb 2026, v0.97.2) asks for the popup to open next to the tray icon, either by auto-detecting the tray or through a setting that picks the corner. It is still open, and a commenter confirmed it with a taskbar moved to the top. PowerToys#23857 (2023) made the same request. I couldn't find a fix or a setting for it in the archive, so there is no workaround for now. Add a 👍 or your use case to #45712. Opening the popup with a global shortcut is the only alternative."
+ },
+ "hit_turn_cap": false
+}

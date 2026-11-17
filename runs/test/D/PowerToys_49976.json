@@ -1,0 +1,435 @@
+{
+ "shown": [
+  "PowerToys#10301",
+  "PowerToys#11780",
+  "PowerToys#11952",
+  "PowerToys#12124",
+  "PowerToys#173",
+  "PowerToys#2420",
+  "PowerToys#24283",
+  "PowerToys#26147",
+  "PowerToys#26296",
+  "PowerToys#26306",
+  "PowerToys#26405",
+  "PowerToys#26717",
+  "PowerToys#269",
+  "PowerToys#27372",
+  "PowerToys#27377",
+  "PowerToys#27559",
+  "PowerToys#27911",
+  "PowerToys#29434",
+  "PowerToys#29619",
+  "PowerToys#30124",
+  "PowerToys#30714",
+  "PowerToys#31625",
+  "PowerToys#33340",
+  "PowerToys#33655",
+  "PowerToys#33832",
+  "PowerToys#34126",
+  "PowerToys#34218",
+  "PowerToys#35303",
+  "PowerToys#35904",
+  "PowerToys#36530",
+  "PowerToys#36878",
+  "PowerToys#3722",
+  "PowerToys#39430",
+  "PowerToys#39633",
+  "PowerToys#40678",
+  "PowerToys#41072",
+  "PowerToys#41750",
+  "PowerToys#4291",
+  "PowerToys#4330",
+  "PowerToys#4360",
+  "PowerToys#4376",
+  "PowerToys#45825",
+  "PowerToys#4618",
+  "PowerToys#4649",
+  "PowerToys#5647",
+  "PowerToys#7348",
+  "PowerToys#77",
+  "PowerToys#8234",
+  "PowerToys#8385",
+  "PowerToys#9288",
+  "PowerToys#9337",
+  "WSL#225",
+  "WSL#3059",
+  "WSL#569",
+  "terminal#10658",
+  "terminal#19674",
+  "terminal#5979",
+  "terminal#6422",
+  "terminal#9676",
+  "terminal#9955"
+ ],
+ "retrieval_seconds": 3.571569312014617,
+ "tool_calls": [
+  {
+   "t": 1794880549.1626668,
+   "tool": "similar",
+   "args": {
+    "query": "Mouse Without Borders mouse cannot click for minutes in game, keyboard works",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.1442161699815188,
+   "returned": [
+    "PowerToys#41750",
+    "PowerToys#27372",
+    "PowerToys#5647",
+    "PowerToys#3722",
+    "PowerToys#8234",
+    "PowerToys#77",
+    "PowerToys#4360",
+    "PowerToys#4330",
+    "PowerToys#36878",
+    "PowerToys#9288",
+    "PowerToys#10301",
+    "PowerToys#11952",
+    "PowerToys#2420",
+    "PowerToys#12124",
+    "PowerToys#33655",
+    "PowerToys#11780",
+    "PowerToys#35303",
+    "PowerToys#40678",
+    "PowerToys#9337",
+    "PowerToys#173"
+   ]
+  },
+  {
+   "t": 1794880549.377001,
+   "tool": "search",
+   "args": {
+    "pattern": "mouse",
+    "regex": false,
+    "also": [
+     "Mouse Without Borders",
+     "game",
+     "click"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.20127924598637037,
+   "returned": [
+    "PowerToys#77",
+    "PowerToys#26306",
+    "PowerToys#26296",
+    "PowerToys#269",
+    "PowerToys#24283",
+    "PowerToys#29434",
+    "PowerToys#41072",
+    "PowerToys#30124",
+    "PowerToys#4649"
+   ]
+  },
+  {
+   "t": 1794880551.377989,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35303"
+   },
+   "seconds": 0.00011368701234459877,
+   "returned": [
+    "PowerToys#35303"
+   ]
+  },
+  {
+   "t": 1794880551.8605676,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#36878"
+   },
+   "seconds": 0.0001350470120087266,
+   "returned": [
+    "PowerToys#36878"
+   ]
+  },
+  {
+   "t": 1794880551.97012,
+   "tool": "search",
+   "args": {
+    "pattern": "cannot click",
+    "regex": false,
+    "also": [
+     "Mouse Without Borders"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.09297464799601585,
+   "returned": [
+    "PowerToys#36530"
+   ]
+  },
+  {
+   "t": 1794880553.3537402,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#36530"
+   },
+   "seconds": 0.00014772600843571126,
+   "returned": [
+    "PowerToys#36530"
+   ]
+  },
+  {
+   "t": 1794880555.3340998,
+   "tool": "similar",
+   "args": {
+    "query": "mouse clicks stop working for several minutes after hours in game, keyboard fine, MWB",
+    "repo": null
+   },
+   "seconds": 0.014314747997559607,
+   "returned": [
+    "PowerToys#9288",
+    "PowerToys#4330",
+    "WSL#225",
+    "WSL#569",
+    "PowerToys#8234",
+    "terminal#9676",
+    "PowerToys#4360",
+    "terminal#9955",
+    "terminal#5979",
+    "PowerToys#8385",
+    "PowerToys#11952",
+    "terminal#19674",
+    "PowerToys#7348",
+    "WSL#3059",
+    "PowerToys#9337",
+    "PowerToys#4618",
+    "terminal#10658",
+    "PowerToys#4291",
+    "terminal#6422",
+    "PowerToys#4376"
+   ]
+  },
+  {
+   "t": 1794880557.0718932,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4330"
+   },
+   "seconds": 0.00013894701260142028,
+   "returned": [
+    "PowerToys#4330"
+   ]
+  },
+  {
+   "t": 1794880559.3888206,
+   "tool": "search",
+   "args": {
+    "pattern": "MWB",
+    "regex": false,
+    "also": [
+     "click"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11824909300776199,
+   "returned": [
+    "PowerToys#77",
+    "PowerToys#26147",
+    "PowerToys#26306",
+    "PowerToys#34126",
+    "PowerToys#45825",
+    "PowerToys#27911",
+    "PowerToys#40678",
+    "PowerToys#30714",
+    "PowerToys#34218",
+    "PowerToys#33832",
+    "PowerToys#39633",
+    "PowerToys#33340",
+    "PowerToys#26717",
+    "PowerToys#26405",
+    "PowerToys#39430",
+    "PowerToys#35904",
+    "PowerToys#31625",
+    "PowerToys#29619",
+    "PowerToys#27559",
+    "PowerToys#27377"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 19217,
+  "stop_reason": "end_turn",
+  "session_id": "9b9c3967-89c3-435d-90d6-097cae121d7e",
+  "total_cost_usd": 0.07765330000000001,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 14638,
+   "cache_read_input_tokens": 49533,
+   "output_tokens": 1412,
+   "output_tokens_details": {
+    "thinking_tokens": 220
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 14638,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 588,
+     "cache_read_input_tokens": 11363,
+     "cache_creation_input_tokens": 4688,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4688
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1412,
+    "cacheReadInputTokens": 49533,
+    "cacheCreationInputTokens": 14638,
+    "webSearchRequests": 0,
+    "costUSD": 0.07765330000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 220,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14638,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#36530\"], \"answer\": \"A similar report exists, PowerToys#36530. In it, Mouse Without Borders randomly stops accepting clicks and drags. The pointer still moves, and the reporter had to reconnect or restart the machine to get clicks back. That ticket has no comments, no fix and no root cause. The match is partial, because it doesn't mention games or a 4-hour delay.\\n\\nThings to try:\\n1. When clicks stop, turn Mouse Without Borders off and on in PowerToys settings on both PCs, or use Reconnect. This may restore clicks sooner than waiting 5 minutes.\\n2. If you can, test with Mouse Without Borders disabled during a long game session. That shows whether it causes the problem.\\n3. Related tickets point to elevated or administrator windows as a possible cause. Try running PowerToys as administrator, or enabling 'Use Service', if the game runs elevated.\\n\\nYou said your own C program has the same problem. That suggests the cause may be how input is injected or hooked while a game has the foreground. If it still happens, add your PowerToys version, whether the game runs as admin, and the Mouse Without Borders logs to the ticket.\"}",
+  "ttft_ms": 2785,
+  "type": "result",
+  "duration_ms": 22861,
+  "uuid": "09b52030-1128-42ae-96f8-8f215fb69813",
+  "ttft_stream_ms": 1299,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 1299,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1412,
+    "cacheReadInputTokens": 49533,
+    "cacheCreationInputTokens": 14638,
+    "webSearchRequests": 0,
+    "costUSD": 0.07765330000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 220,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14638,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 24.046787633007625,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-yotlzh6l/work"
+  }
+ },
+ "wall_seconds": 24.079091330990195,
+ "qid": "PowerToys#49976",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#36530"
+  ],
+  "answer": "A similar report exists, PowerToys#36530. In it, Mouse Without Borders randomly stops accepting clicks and drags. The pointer still moves, and the reporter had to reconnect or restart the machine to get clicks back. That ticket has no comments, no fix and no root cause. The match is partial, because it doesn't mention games or a 4-hour delay.\n\nThings to try:\n1. When clicks stop, turn Mouse Without Borders off and on in PowerToys settings on both PCs, or use Reconnect. This may restore clicks sooner than waiting 5 minutes.\n2. If you can, test with Mouse Without Borders disabled during a long game session. That shows whether it causes the problem.\n3. Related tickets point to elevated or administrator windows as a possible cause. Try running PowerToys as administrator, or enabling 'Use Service', if the game runs elevated.\n\nYou said your own C program has the same problem. That suggests the cause may be how input is injected or hooked while a game has the foreground. If it still happens, add your PowerToys version, whether the game runs as admin, and the Mouse Without Borders logs to the ticket."
+ },
+ "hit_turn_cap": false
+}

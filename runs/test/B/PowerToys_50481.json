@@ -1,0 +1,242 @@
+{
+ "shown": [
+  "PowerToys#13069",
+  "PowerToys#13214",
+  "PowerToys#15785",
+  "PowerToys#16370",
+  "PowerToys#17550",
+  "PowerToys#18015",
+  "PowerToys#18019",
+  "PowerToys#19203",
+  "PowerToys#19785",
+  "PowerToys#21621",
+  "PowerToys#21645",
+  "PowerToys#22936",
+  "PowerToys#23193",
+  "PowerToys#23654",
+  "PowerToys#23982",
+  "PowerToys#25437",
+  "PowerToys#34682",
+  "PowerToys#37282",
+  "PowerToys#8693",
+  "PowerToys#9017"
+ ],
+ "retrieval_seconds": 0.09045652599888854,
+ "tool_calls": [
+  {
+   "t": 1794882408.1597502,
+   "tool": "search",
+   "args": {
+    "pattern": "PowerToysReport",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.09045652599888854,
+   "returned": [
+    "PowerToys#18015",
+    "PowerToys#13069",
+    "PowerToys#23982",
+    "PowerToys#13214",
+    "PowerToys#16370",
+    "PowerToys#9017",
+    "PowerToys#8693",
+    "PowerToys#19203",
+    "PowerToys#22936",
+    "PowerToys#23193",
+    "PowerToys#21645",
+    "PowerToys#21621",
+    "PowerToys#37282",
+    "PowerToys#23654",
+    "PowerToys#19785",
+    "PowerToys#17550",
+    "PowerToys#15785",
+    "PowerToys#34682",
+    "PowerToys#25437",
+    "PowerToys#18019"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 4984,
+  "stop_reason": "end_turn",
+  "session_id": "6317f972-2ecb-404c-ab58-9dd6138f11c8",
+  "total_cost_usd": 0.030473400000000005,
+  "usage": {
+   "input_tokens": 4,
+   "cache_creation_input_tokens": 6668,
+   "cache_read_input_tokens": 3034,
+   "output_tokens": 349,
+   "output_tokens_details": {
+    "thinking_tokens": 25
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6668,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 263,
+     "cache_read_input_tokens": 1857,
+     "cache_creation_input_tokens": 5988,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5988
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 4,
+    "outputTokens": 349,
+    "cacheReadInputTokens": 3034,
+    "cacheCreationInputTokens": 6668,
+    "webSearchRequests": 0,
+    "costUSD": 0.030473400000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 25,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6668,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 2,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"This ticket doesn't describe a problem. It only attaches a PowerToys bug report ZIP, and the steps to reproduce, expected behavior and actual behavior are all empty. The archive has many tickets with PowerToysReport attachments, but they cover unrelated problems such as FancyZones, Settings not opening and Run. I can't match this to any of them, and I can't open the ZIP. Please edit the ticket to say what went wrong. Include which module is affected (for example FancyZones, Run or Settings), what you did, what you expected and what happened instead. Also say whether this happens every time and whether it started after an update. With those details we can search for a match or investigate.\"}",
+  "ttft_ms": 1827,
+  "type": "result",
+  "duration_ms": 5116,
+  "uuid": "559d3a8e-ee70-41f4-8b08-452ffae4ea46",
+  "ttft_stream_ms": 1372,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 1373,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 4,
+    "outputTokens": 349,
+    "cacheReadInputTokens": 3034,
+    "cacheCreationInputTokens": 6668,
+    "webSearchRequests": 0,
+    "costUSD": 0.030473400000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 25,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6668,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 6.5507015280018095,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-52sr69z6/work"
+  }
+ },
+ "wall_seconds": 6.553568933013594,
+ "qid": "PowerToys#50481",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "This ticket doesn't describe a problem. It only attaches a PowerToys bug report ZIP, and the steps to reproduce, expected behavior and actual behavior are all empty. The archive has many tickets with PowerToysReport attachments, but they cover unrelated problems such as FancyZones, Settings not opening and Run. I can't match this to any of them, and I can't open the ZIP. Please edit the ticket to say what went wrong. Include which module is affected (for example FancyZones, Run or Settings), what you did, what you expected and what happened instead. Also say whether this happens every time and whether it started after an update. With those details we can search for a match or investigate."
+ },
+ "hit_turn_cap": false
+}

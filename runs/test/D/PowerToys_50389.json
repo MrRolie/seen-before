@@ -1,0 +1,333 @@
+{
+ "shown": [
+  "PowerToys#1003",
+  "PowerToys#12658",
+  "PowerToys#1305",
+  "PowerToys#15417",
+  "PowerToys#15654",
+  "PowerToys#168",
+  "PowerToys#17336",
+  "PowerToys#19586",
+  "PowerToys#21339",
+  "PowerToys#21488",
+  "PowerToys#21933",
+  "PowerToys#2243",
+  "PowerToys#23536",
+  "PowerToys#23675",
+  "PowerToys#26394",
+  "PowerToys#26818",
+  "PowerToys#28769",
+  "PowerToys#29466",
+  "PowerToys#30538",
+  "PowerToys#32889",
+  "PowerToys#33395",
+  "PowerToys#33485",
+  "PowerToys#36323",
+  "PowerToys#4383",
+  "PowerToys#44375",
+  "PowerToys#45201",
+  "PowerToys#45260",
+  "PowerToys#47936",
+  "PowerToys#4809",
+  "PowerToys#48239",
+  "PowerToys#6408"
+ ],
+ "retrieval_seconds": 3.5011016909847967,
+ "tool_calls": [
+  {
+   "t": 1794882188.1323745,
+   "tool": "search",
+   "args": {
+    "pattern": "hot corner",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05471845300053246,
+   "returned": [
+    "PowerToys#1305",
+    "PowerToys#32889",
+    "PowerToys#33485",
+    "PowerToys#21488",
+    "PowerToys#33395",
+    "PowerToys#28769",
+    "PowerToys#45201",
+    "PowerToys#47936",
+    "PowerToys#44375",
+    "PowerToys#36323",
+    "PowerToys#30538",
+    "PowerToys#29466",
+    "PowerToys#26818",
+    "PowerToys#23675",
+    "PowerToys#23536",
+    "PowerToys#21339",
+    "PowerToys#19586",
+    "PowerToys#17336",
+    "PowerToys#15654",
+    "PowerToys#15417"
+   ]
+  },
+  {
+   "t": 1794882192.1442063,
+   "tool": "similar",
+   "args": {
+    "query": "Hot corners: trigger action when mouse cursor moves to screen corner",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.445736185007263,
+   "returned": [
+    "PowerToys#15417",
+    "PowerToys#1003",
+    "PowerToys#2243",
+    "PowerToys#6408",
+    "PowerToys#48239",
+    "PowerToys#4383",
+    "PowerToys#29466",
+    "PowerToys#21933",
+    "PowerToys#21339",
+    "PowerToys#26394",
+    "PowerToys#19586",
+    "PowerToys#36323",
+    "PowerToys#21488",
+    "PowerToys#4809",
+    "PowerToys#23675",
+    "PowerToys#15654",
+    "PowerToys#45260",
+    "PowerToys#168",
+    "PowerToys#1305",
+    "PowerToys#12658"
+   ]
+  },
+  {
+   "t": 1794882192.8919792,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1305"
+   },
+   "seconds": 0.00023342398344539106,
+   "returned": [
+    "PowerToys#1305"
+   ]
+  },
+  {
+   "t": 1794882195.5790374,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#23675"
+   },
+   "seconds": 0.00016317598056048155,
+   "returned": [
+    "PowerToys#23675"
+   ]
+  },
+  {
+   "t": 1794882196.3548198,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#19586"
+   },
+   "seconds": 0.00012862600851804018,
+   "returned": [
+    "PowerToys#19586"
+   ]
+  },
+  {
+   "t": 1794882197.2930539,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32889"
+   },
+   "seconds": 0.0001218270044773817,
+   "returned": [
+    "PowerToys#32889"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9228,
+  "stop_reason": "end_turn",
+  "session_id": "93e0f544-6c4e-44c9-bfac-828ae15bb784",
+  "total_cost_usd": 0.052254800000000004,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 10315,
+   "cache_read_input_tokens": 40508,
+   "output_tokens": 692,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10315,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 266,
+     "cache_read_input_tokens": 10807,
+     "cache_creation_input_tokens": 921,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 921
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 692,
+    "cacheReadInputTokens": 40508,
+    "cacheCreationInputTokens": 10315,
+    "webSearchRequests": 0,
+    "costUSD": 0.052254800000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10315,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#1305\", \"PowerToys#19586\", \"PowerToys#23675\"], \"answer\": \"This Hot Corners feature request has been filed many times before. PowerToys#1305 is the main tracking issue, and the others (#19586, #23675, #32889) were closed as duplicates of it. No Hot Corners utility has shipped yet, so there's nothing to enable. Add a thumbs-up and any new use cases to #1305 to help prioritize it. In the meantime, the ticket's suggested workarounds are an AutoHotkey hot-corner script or a third-party tool such as WinXCorners. Both tickets' discussions recommend adding a short delay before a corner triggers, so it doesn't fire by accident when you reach for the window close button.\"}",
+  "ttft_ms": 1001,
+  "type": "result",
+  "duration_ms": 12743,
+  "uuid": "8af6f301-5aa8-4945-98a6-dcefeacb918e",
+  "ttft_stream_ms": 643,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 643,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 692,
+    "cacheReadInputTokens": 40508,
+    "cacheCreationInputTokens": 10315,
+    "webSearchRequests": 0,
+    "costUSD": 0.052254800000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10315,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.199096785014262,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-t7yzmnfe/work"
+  }
+ },
+ "wall_seconds": 14.200704902992584,
+ "qid": "PowerToys#50389",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#1305",
+   "PowerToys#19586",
+   "PowerToys#23675"
+  ],
+  "answer": "This Hot Corners feature request has been filed many times before. PowerToys#1305 is the main tracking issue, and the others (#19586, #23675, #32889) were closed as duplicates of it. No Hot Corners utility has shipped yet, so there's nothing to enable. Add a thumbs-up and any new use cases to #1305 to help prioritize it. In the meantime, the ticket's suggested workarounds are an AutoHotkey hot-corner script or a third-party tool such as WinXCorners. Both tickets' discussions recommend adding a short delay before a corner triggers, so it doesn't fire by accident when you reach for the window close button."
+ },
+ "hit_turn_cap": false
+}

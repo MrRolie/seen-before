@@ -1,0 +1,193 @@
+{
+ "shown": [
+  "PowerToys#45624",
+  "PowerToys#38578",
+  "PowerToys#48252",
+  "PowerToys#41928",
+  "PowerToys#40305"
+ ],
+ "retrieval_seconds": 0.708555224002339,
+ "retrieval_scores": [
+  0.03149801587301587,
+  0.03009207275993712,
+  0.029726775956284153,
+  0.027443609022556388,
+  0.026419626007891578
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2669,
+  "stop_reason": "end_turn",
+  "session_id": "f33f7590-8e54-4222-b70c-a38b7ebe44ff",
+  "total_cost_usd": 0.031056,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 7068,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 278,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7068,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 278,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 7068,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7068
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 278,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7068,
+    "webSearchRequests": 0,
+    "costUSD": 0.031056,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7068,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#41928\"], \"answer\": \"This is a known floating-point precision issue in the Command Palette calculator. The calculation engine returns results with about 15 significant digits, and binary floating-point (IEEE 754) rounding noise shows up when subtracting nearby large numbers, e.g. 3033554.11 - 3033359.71. The earlier ticket reports the same behavior, and the maintainer's proposed fix is to reduce the displayed result precision from 15 digits to roughly 10-12 so the noise is cut off. The ticket doesn't say that fix has shipped, so there is no confirmed workaround yet. For now, round the result by hand (e.g. 0.68099999999993 is 0.681), and watch that ticket for the precision change landing in a newer PowerToys release.\"}",
+  "ttft_ms": 2841,
+  "type": "result",
+  "duration_ms": 2858,
+  "uuid": "858d07a2-4fec-4da9-b87e-524bf1d5f63d",
+  "ttft_stream_ms": 688,
+  "time_to_request_ms": 186,
+  "first_content_frame_ms": 688,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 278,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7068,
+    "webSearchRequests": 0,
+    "costUSD": 0.031056,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7068,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.7870507419866044,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-lxkv3ry9/work"
+  }
+ },
+ "wall_seconds": 4.49711467398447,
+ "qid": "PowerToys#49642",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#41928"
+  ],
+  "answer": "This is a known floating-point precision issue in the Command Palette calculator. The calculation engine returns results with about 15 significant digits, and binary floating-point (IEEE 754) rounding noise shows up when subtracting nearby large numbers, e.g. 3033554.11 - 3033359.71. The earlier ticket reports the same behavior, and the maintainer's proposed fix is to reduce the displayed result precision from 15 digits to roughly 10-12 so the noise is cut off. The ticket doesn't say that fix has shipped, so there is no confirmed workaround yet. For now, round the result by hand (e.g. 0.68099999999993 is 0.681), and watch that ticket for the precision change landing in a newer PowerToys release."
+ },
+ "hit_turn_cap": false
+}

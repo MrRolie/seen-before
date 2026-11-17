@@ -1,0 +1,382 @@
+{
+ "shown": [
+  "PowerToys#10758",
+  "PowerToys#11327",
+  "PowerToys#11879",
+  "PowerToys#12773",
+  "PowerToys#13544",
+  "PowerToys#16333",
+  "PowerToys#16417",
+  "PowerToys#17150",
+  "PowerToys#17228",
+  "PowerToys#17294",
+  "PowerToys#18767",
+  "PowerToys#20984",
+  "PowerToys#2197",
+  "PowerToys#22244",
+  "PowerToys#22983",
+  "PowerToys#22988",
+  "PowerToys#26001",
+  "PowerToys#26505",
+  "PowerToys#29984",
+  "PowerToys#31079",
+  "PowerToys#31482",
+  "PowerToys#33186",
+  "PowerToys#33857",
+  "PowerToys#3441",
+  "PowerToys#3497",
+  "PowerToys#3546",
+  "PowerToys#3641",
+  "PowerToys#36668",
+  "PowerToys#37720",
+  "PowerToys#39674",
+  "PowerToys#4191",
+  "PowerToys#4341",
+  "PowerToys#4470",
+  "PowerToys#47277",
+  "PowerToys#4973",
+  "PowerToys#5243",
+  "PowerToys#5406",
+  "PowerToys#6013",
+  "PowerToys#6976",
+  "PowerToys#7444",
+  "PowerToys#9360",
+  "PowerToys#9434",
+  "PowerToys#9690",
+  "PowerToys#9775"
+ ],
+ "retrieval_seconds": 3.739737837924622,
+ "tool_calls": [
+  {
+   "t": 1794878380.7713645,
+   "tool": "search",
+   "args": {
+    "pattern": "Alt (Right)",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04451063898159191,
+   "returned": [
+    "PowerToys#31079",
+    "PowerToys#22244",
+    "PowerToys#33857",
+    "PowerToys#26505",
+    "PowerToys#3641",
+    "PowerToys#3497",
+    "PowerToys#36668",
+    "PowerToys#33186",
+    "PowerToys#22983",
+    "PowerToys#9775",
+    "PowerToys#29984",
+    "PowerToys#20984",
+    "PowerToys#17228",
+    "PowerToys#3546",
+    "PowerToys#47277",
+    "PowerToys#39674",
+    "PowerToys#37720",
+    "PowerToys#31482",
+    "PowerToys#26001",
+    "PowerToys#22988"
+   ]
+  },
+  {
+   "t": 1794878384.3301258,
+   "tool": "similar",
+   "args": {
+    "query": "Keyboard Manager shortcut remap AltGr + letter to bracket character not working, prints original character",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.543884389975574,
+   "returned": [
+    "PowerToys#4470",
+    "PowerToys#5406",
+    "PowerToys#6976",
+    "PowerToys#9434",
+    "PowerToys#5243",
+    "PowerToys#3641",
+    "PowerToys#13544",
+    "PowerToys#4973",
+    "PowerToys#10758",
+    "PowerToys#4191",
+    "PowerToys#18767",
+    "PowerToys#3441",
+    "PowerToys#9360",
+    "PowerToys#6013",
+    "PowerToys#4341",
+    "PowerToys#2197",
+    "PowerToys#12773",
+    "PowerToys#7444",
+    "PowerToys#11879",
+    "PowerToys#17294"
+   ]
+  },
+  {
+   "t": 1794878385.8971627,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4470"
+   },
+   "seconds": 0.00014599598944187164,
+   "returned": [
+    "PowerToys#4470"
+   ]
+  },
+  {
+   "t": 1794878386.066258,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#3497"
+   },
+   "seconds": 0.00014306599041447043,
+   "returned": [
+    "PowerToys#3497"
+   ]
+  },
+  {
+   "t": 1794878388.034749,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#31079"
+   },
+   "seconds": 0.00011363698286004364,
+   "returned": [
+    "PowerToys#31079"
+   ]
+  },
+  {
+   "t": 1794878388.1642735,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47277"
+   },
+   "seconds": 0.00011021702084690332,
+   "returned": [
+    "PowerToys#47277"
+   ]
+  },
+  {
+   "t": 1794878390.584273,
+   "tool": "search",
+   "args": {
+    "pattern": "Ctrl (Left)",
+    "regex": false,
+    "also": [
+     "Alt (Right)",
+     "shortcut",
+     "layout"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1507166560040787,
+   "returned": [
+    "PowerToys#31079",
+    "PowerToys#22244",
+    "PowerToys#3497",
+    "PowerToys#9690",
+    "PowerToys#16333",
+    "PowerToys#3641",
+    "PowerToys#17150",
+    "PowerToys#16417",
+    "PowerToys#11327"
+   ]
+  },
+  {
+   "t": 1794878392.2231157,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#17150"
+   },
+   "seconds": 0.0001132369798142463,
+   "returned": [
+    "PowerToys#17150"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 15099,
+  "stop_reason": "end_turn",
+  "session_id": "8f6d2b54-0fba-4cd6-ac2e-945d97799119",
+  "total_cost_usd": 0.0901193,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 18062,
+   "cache_read_input_tokens": 53073,
+   "output_tokens": 1254,
+   "output_tokens_details": {
+    "thinking_tokens": 140
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 18062,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 499,
+     "cache_read_input_tokens": 15926,
+     "cache_creation_input_tokens": 3549,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3549
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1254,
+    "cacheReadInputTokens": 53073,
+    "cacheCreationInputTokens": 18062,
+    "webSearchRequests": 0,
+    "costUSD": 0.0901193,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 140,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18062,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I searched the archive and found one close match, PowerToys#31079. It's the same behaviour, not an exact duplicate. I haven't found a confirmed fix.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#31079\", \"PowerToys#3497\"], \"answer\": \"A similar problem has been reported. On a non-US keyboard layout, Windows treats Alt (Right), also called AltGr, as Ctrl (Left) + Alt (Right). Keyboard Manager records that combination when you set a shortcut, and the shortcut can then fail to fire. In PowerToys#31079, the recorded shortcut for Alt (Right) + a letter silently included Ctrl (Left). The reporter's workaround was to open the shortcut in Keyboard Manager > Remap a shortcut, click the extra Ctrl (Left) and choose 'None' in the dropdown, so that only Alt (Right) + è remains. Another user in that ticket said this didn't work for them, and no fix is recorded. If it still fails, try the opposite: keep the shortcut as Ctrl (Left) + Alt (Right) + è. PowerToys#3497 explains the cause: AltGr is Ctrl (Left) + Alt (Right) at the virtual-key level, and PowerToys can't tell the two apart. Neither ticket shows a confirmed fix, so if the workaround doesn't help, add your keyboard layout and a bug report ZIP to PowerToys#31079.\"}",
+  "ttft_ms": 2370,
+  "type": "result",
+  "duration_ms": 18918,
+  "uuid": "a7fce011-4fc0-4d48-945c-2fa84afc4b6d",
+  "ttft_stream_ms": 1238,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 1242,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1254,
+    "cacheReadInputTokens": 53073,
+    "cacheCreationInputTokens": 18062,
+    "webSearchRequests": 0,
+    "costUSD": 0.0901193,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 140,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18062,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 20.406805594015168,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-4mc6b1f9/work"
+  }
+ },
+ "wall_seconds": 20.408876941015478,
+ "qid": "PowerToys#49452",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#31079",
+   "PowerToys#3497"
+  ],
+  "answer": "A similar problem has been reported. On a non-US keyboard layout, Windows treats Alt (Right), also called AltGr, as Ctrl (Left) + Alt (Right). Keyboard Manager records that combination when you set a shortcut, and the shortcut can then fail to fire. In PowerToys#31079, the recorded shortcut for Alt (Right) + a letter silently included Ctrl (Left). The reporter's workaround was to open the shortcut in Keyboard Manager > Remap a shortcut, click the extra Ctrl (Left) and choose 'None' in the dropdown, so that only Alt (Right) + è remains. Another user in that ticket said this didn't work for them, and no fix is recorded. If it still fails, try the opposite: keep the shortcut as Ctrl (Left) + Alt (Right) + è. PowerToys#3497 explains the cause: AltGr is Ctrl (Left) + Alt (Right) at the virtual-key level, and PowerToys can't tell the two apart. Neither ticket shows a confirmed fix, so if the workaround doesn't help, add your keyboard layout and a bug report ZIP to PowerToys#31079."
+ },
+ "hit_turn_cap": false
+}

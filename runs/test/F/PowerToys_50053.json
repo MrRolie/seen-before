@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#35312",
+  "PowerToys#48512",
+  "PowerToys#47609",
+  "PowerToys#40013",
+  "PowerToys#47066"
+ ],
+ "retrieval_seconds": 0.6153470120043494,
+ "retrieval_scores": [
+  0.0315136476426799,
+  0.031099324975891997,
+  0.029726775956284153,
+  0.028814262023217248,
+  0.027071520029266508
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2902,
+  "stop_reason": "end_turn",
+  "session_id": "98222006-22fe-40ff-a3d7-da49619a7acc",
+  "total_cost_usd": 0.044789999999999996,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 10239,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 383,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10239,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 383,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 10239,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 10239
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 383,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 10239,
+    "webSearchRequests": 0,
+    "costUSD": 0.044789999999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10239,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48512\", \"PowerToys#47609\", \"PowerToys#35312\"], \"answer\": \"This has been reported before: New+ does not show up in the classic (Windows 10-style) context menu when the registry key HKCU\\\\Software\\\\Classes\\\\CLSID\\\\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2} is present. It is tracked as a feature request/bug in #48512, and #47609 reports the same thing. Re-registering the New+ package (disable New+, Remove-AppxPackage Microsoft.PowerToys.NewPlusContextMenu_*, re-enable, restart Explorer) did not fix it in #48512, so I wouldn't count on it. No fix is described in those tickets. The workarounds are to remove that registry key and restart Explorer to go back to the Windows 11 context menu, where New+ works, or to leave the classic menu on and use New+ when you right-click a folder. In the classic menu you can also try 'Show more options'. Please add your bug report ZIP and PowerToys version to #48512 so the issue can be tracked.\"}",
+  "ttft_ms": 3084,
+  "type": "result",
+  "duration_ms": 3108,
+  "uuid": "83656864-089f-4ce7-8d3d-acdc1f6a0b90",
+  "ttft_stream_ms": 710,
+  "time_to_request_ms": 204,
+  "first_content_frame_ms": 710,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 383,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 10239,
+    "webSearchRequests": 0,
+    "costUSD": 0.044789999999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10239,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.969521794002503,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-j_rt3gxy/work"
+  }
+ },
+ "wall_seconds": 4.58708822101471,
+ "qid": "PowerToys#50053",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48512",
+   "PowerToys#47609",
+   "PowerToys#35312"
+  ],
+  "answer": "This has been reported before: New+ does not show up in the classic (Windows 10-style) context menu when the registry key HKCU\\Software\\Classes\\CLSID\\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2} is present. It is tracked as a feature request/bug in #48512, and #47609 reports the same thing. Re-registering the New+ package (disable New+, Remove-AppxPackage Microsoft.PowerToys.NewPlusContextMenu_*, re-enable, restart Explorer) did not fix it in #48512, so I wouldn't count on it. No fix is described in those tickets. The workarounds are to remove that registry key and restart Explorer to go back to the Windows 11 context menu, where New+ works, or to leave the classic menu on and use New+ when you right-click a folder. In the classic menu you can also try 'Show more options'. Please add your bug report ZIP and PowerToys version to #48512 so the issue can be tracked."
+ },
+ "hit_turn_cap": false
+}

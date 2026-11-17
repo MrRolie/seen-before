@@ -1,0 +1,366 @@
+{
+ "shown": [
+  "PowerToys#12522",
+  "PowerToys#13",
+  "PowerToys#13252",
+  "PowerToys#15453",
+  "PowerToys#16332",
+  "PowerToys#19124",
+  "PowerToys#2015",
+  "PowerToys#20942",
+  "PowerToys#21908",
+  "PowerToys#2258",
+  "PowerToys#2301",
+  "PowerToys#23074",
+  "PowerToys#2420",
+  "PowerToys#24452",
+  "PowerToys#27158",
+  "PowerToys#31286",
+  "PowerToys#32169",
+  "PowerToys#35377",
+  "PowerToys#35481",
+  "PowerToys#3598",
+  "PowerToys#3707",
+  "PowerToys#38333",
+  "PowerToys#38530",
+  "PowerToys#39229",
+  "PowerToys#3929",
+  "PowerToys#4168",
+  "PowerToys#43005",
+  "PowerToys#46483",
+  "PowerToys#46569",
+  "PowerToys#46653",
+  "PowerToys#46775",
+  "PowerToys#46808",
+  "PowerToys#46854",
+  "PowerToys#46992",
+  "PowerToys#47247",
+  "PowerToys#5773",
+  "PowerToys#641",
+  "PowerToys#767",
+  "PowerToys#814",
+  "PowerToys#8166",
+  "PowerToys#9633",
+  "PowerToys#9868"
+ ],
+ "retrieval_seconds": 3.4778315639996435,
+ "tool_calls": [
+  {
+   "t": 1794879355.4472215,
+   "tool": "search",
+   "args": {
+    "pattern": "putty",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04182806599419564,
+   "returned": [
+    "PowerToys#46569",
+    "PowerToys#46992",
+    "PowerToys#38530",
+    "PowerToys#46854",
+    "PowerToys#24452",
+    "PowerToys#13252",
+    "PowerToys#3707",
+    "PowerToys#46808",
+    "PowerToys#47247",
+    "PowerToys#39229",
+    "PowerToys#31286",
+    "PowerToys#3929",
+    "PowerToys#814",
+    "PowerToys#46653",
+    "PowerToys#43005",
+    "PowerToys#35481",
+    "PowerToys#35377",
+    "PowerToys#27158",
+    "PowerToys#23074",
+    "PowerToys#21908"
+   ]
+  },
+  {
+   "t": 1794879359.2879303,
+   "tool": "similar",
+   "args": {
+    "query": "Always on Top breaks alt-space system menu, advanced menu missing, only basic menu shown",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.435188981005922,
+   "returned": [
+    "PowerToys#20942",
+    "PowerToys#8166",
+    "PowerToys#5773",
+    "PowerToys#13",
+    "PowerToys#2258",
+    "PowerToys#2015",
+    "PowerToys#641",
+    "PowerToys#19124",
+    "PowerToys#2420",
+    "PowerToys#9868",
+    "PowerToys#15453",
+    "PowerToys#767",
+    "PowerToys#3598",
+    "PowerToys#2301",
+    "PowerToys#4168",
+    "PowerToys#9633",
+    "PowerToys#32169",
+    "PowerToys#38333",
+    "PowerToys#16332",
+    "PowerToys#12522"
+   ]
+  },
+  {
+   "t": 1794879360.4591267,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46808"
+   },
+   "seconds": 0.00014329599798657,
+   "returned": [
+    "PowerToys#46808"
+   ]
+  },
+  {
+   "t": 1794879360.6258256,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46569"
+   },
+   "seconds": 0.00013728599878959358,
+   "returned": [
+    "PowerToys#46569"
+   ]
+  },
+  {
+   "t": 1794879360.8659148,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46992"
+   },
+   "seconds": 0.00012836599489673972,
+   "returned": [
+    "PowerToys#46992"
+   ]
+  },
+  {
+   "t": 1794879361.047871,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47247"
+   },
+   "seconds": 0.0001255759852938354,
+   "returned": [
+    "PowerToys#47247"
+   ]
+  },
+  {
+   "t": 1794879361.9441633,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46775"
+   },
+   "seconds": 0.00013095702161081135,
+   "returned": [
+    "PowerToys#46775"
+   ]
+  },
+  {
+   "t": 1794879364.121129,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46483"
+   },
+   "seconds": 0.0001490360009483993,
+   "returned": [
+    "PowerToys#46483"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10493,
+  "stop_reason": "end_turn",
+  "session_id": "2f0ec4db-c7a8-40f5-9148-c6599edc35b2",
+  "total_cost_usd": 0.0697688,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 13535,
+   "cache_read_input_tokens": 50248,
+   "output_tokens": 1058,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13535,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 396,
+     "cache_read_input_tokens": 14746,
+     "cache_creation_input_tokens": 202,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 202
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1058,
+    "cacheReadInputTokens": 50248,
+    "cacheCreationInputTokens": 13535,
+    "webSearchRequests": 0,
+    "costUSD": 0.0697688,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13535,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Enough evidence already.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#46569\", \"PowerToys#46992\", \"PowerToys#46808\"], \"answer\": \"This is a known Always on Top bug. It was introduced in PowerToys 0.98 and is still being tracked in PowerToys#46569, which several duplicate reports were closed in favour of. With the module enabled, apps that add their own entries to the system menu (PuTTY, RDP) only show the standard Windows menu. This happens when the app is launched while Always on Top is enabled. The archive doesn't show a fix, so I can't confirm 0.100.2 has one. Turning off the 'Show Always on Top in the title bar context menu' option doesn't help. Adding putty.exe to the excluded apps list doesn't help either. The only workaround reported is to disable the Always on Top module completely and then launch a new PuTTY window. A PuTTY window that was already open before you enabled the module keeps its full menu. Ctrl+right-click inside the PuTTY window still shows the full PuTTY menu. Follow #46569 for a fix. Adding your PuTTY and PowerToys 0.100.2 details there would help.\"}",
+  "ttft_ms": 1079,
+  "type": "result",
+  "duration_ms": 13973,
+  "uuid": "2a8e420b-0dbd-4029-9f9a-7e478f7cde57",
+  "ttft_stream_ms": 716,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 717,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1058,
+    "cacheReadInputTokens": 50248,
+    "cacheCreationInputTokens": 13535,
+    "webSearchRequests": 0,
+    "costUSD": 0.0697688,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13535,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.346887313004117,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-4epzyl9o/work"
+  }
+ },
+ "wall_seconds": 15.348616914008744,
+ "qid": "PowerToys#49634",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46569",
+   "PowerToys#46992",
+   "PowerToys#46808"
+  ],
+  "answer": "This is a known Always on Top bug. It was introduced in PowerToys 0.98 and is still being tracked in PowerToys#46569, which several duplicate reports were closed in favour of. With the module enabled, apps that add their own entries to the system menu (PuTTY, RDP) only show the standard Windows menu. This happens when the app is launched while Always on Top is enabled. The archive doesn't show a fix, so I can't confirm 0.100.2 has one. Turning off the 'Show Always on Top in the title bar context menu' option doesn't help. Adding putty.exe to the excluded apps list doesn't help either. The only workaround reported is to disable the Always on Top module completely and then launch a new PuTTY window. A PuTTY window that was already open before you enabled the module keeps its full menu. Ctrl+right-click inside the PuTTY window still shows the full PuTTY menu. Follow #46569 for a fix. Adding your PuTTY and PowerToys 0.100.2 details there would help."
+ },
+ "hit_turn_cap": false
+}

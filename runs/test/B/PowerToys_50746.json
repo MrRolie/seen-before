@@ -1,0 +1,270 @@
+{
+ "shown": [
+  "PowerToys#11416",
+  "PowerToys#11703",
+  "PowerToys#26",
+  "PowerToys#27138",
+  "PowerToys#29704",
+  "PowerToys#31626",
+  "PowerToys#32467",
+  "PowerToys#3531",
+  "PowerToys#35604",
+  "PowerToys#3857",
+  "PowerToys#40337",
+  "PowerToys#46337",
+  "PowerToys#46552",
+  "PowerToys#5892",
+  "PowerToys#7588"
+ ],
+ "retrieval_seconds": 0.11748668001382612,
+ "tool_calls": [
+  {
+   "t": 1794883168.3687255,
+   "tool": "search",
+   "args": {
+    "pattern": "robocopy",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07009176001884043,
+   "returned": [
+    "PowerToys#26",
+    "PowerToys#29704",
+    "PowerToys#5892",
+    "PowerToys#40337",
+    "PowerToys#31626",
+    "PowerToys#3857",
+    "PowerToys#46552",
+    "PowerToys#46337",
+    "PowerToys#35604",
+    "PowerToys#32467",
+    "PowerToys#27138",
+    "PowerToys#11703",
+    "PowerToys#11416",
+    "PowerToys#7588",
+    "PowerToys#3531"
+   ]
+  },
+  {
+   "t": 1794883168.6715984,
+   "tool": "search",
+   "args": {
+    "pattern": "multi-threaded copy",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04710131901083514,
+   "returned": []
+  },
+  {
+   "t": 1794883169.8085172,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#31626"
+   },
+   "seconds": 0.00010889599798247218,
+   "returned": [
+    "PowerToys#31626"
+   ]
+  },
+  {
+   "t": 1794883169.9910846,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#29704"
+   },
+   "seconds": 0.00018470498616807163,
+   "returned": [
+    "PowerToys#29704"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 4959,
+  "stop_reason": "end_turn",
+  "session_id": "b677927b-b954-47d6-93d9-1ee681b56d11",
+  "total_cost_usd": 0.0288246,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 5487,
+   "cache_read_input_tokens": 9846,
+   "output_tokens": 588,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5487,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 265,
+     "cache_read_input_tokens": 5499,
+     "cache_creation_input_tokens": 1165,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1165
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 588,
+    "cacheReadInputTokens": 9846,
+    "cacheCreationInputTokens": 5487,
+    "webSearchRequests": 0,
+    "costUSD": 0.0288246,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5487,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#26\", \"PowerToys#31626\", \"PowerToys#29704\"], \"answer\": \"This feature request has been filed before. The maintainers closed the later requests as duplicates of PowerToys#26 (SyncToy and Robocopy), and that is the ticket that tracks it. PowerToys#31626 asked for a Robocopy right-click menu with /MIR sync, and PowerToys#29704 asked for a Robocopy GUI with multithreading. Nothing has been implemented yet. Please add your use cases and a thumbs-up to #26 instead of opening a new request. Until a feature exists, you can run robocopy from a terminal, for example `robocopy src dst /MT:16`, or use a third-party Robocopy GUI.\"}",
+  "ttft_ms": 965,
+  "type": "result",
+  "duration_ms": 5068,
+  "uuid": "2cb87a97-245e-4bc8-9e00-50cb3d2a0e48",
+  "ttft_stream_ms": 613,
+  "time_to_request_ms": 39,
+  "first_content_frame_ms": 613,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 588,
+    "cacheReadInputTokens": 9846,
+    "cacheCreationInputTokens": 5487,
+    "webSearchRequests": 0,
+    "costUSD": 0.0288246,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5487,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 6.361058165988652,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-abd4ufel/work"
+  }
+ },
+ "wall_seconds": 6.3629077410150785,
+ "qid": "PowerToys#50746",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#26",
+   "PowerToys#31626",
+   "PowerToys#29704"
+  ],
+  "answer": "This feature request has been filed before. The maintainers closed the later requests as duplicates of PowerToys#26 (SyncToy and Robocopy), and that is the ticket that tracks it. PowerToys#31626 asked for a Robocopy right-click menu with /MIR sync, and PowerToys#29704 asked for a Robocopy GUI with multithreading. Nothing has been implemented yet. Please add your use cases and a thumbs-up to #26 instead of opening a new request. Until a feature exists, you can run robocopy from a terminal, for example `robocopy src dst /MT:16`, or use a third-party Robocopy GUI."
+ },
+ "hit_turn_cap": false
+}

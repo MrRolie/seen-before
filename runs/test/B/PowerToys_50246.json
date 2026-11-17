@@ -1,0 +1,394 @@
+{
+ "shown": [
+  "PowerToys#31226",
+  "PowerToys#36451",
+  "PowerToys#36736",
+  "PowerToys#36799",
+  "PowerToys#36818",
+  "PowerToys#36881",
+  "PowerToys#37094",
+  "PowerToys#37129",
+  "PowerToys#37185",
+  "PowerToys#37191",
+  "PowerToys#37260",
+  "PowerToys#37428",
+  "PowerToys#37439",
+  "PowerToys#37538",
+  "PowerToys#37859",
+  "PowerToys#37916",
+  "PowerToys#38002",
+  "PowerToys#39032",
+  "PowerToys#39098",
+  "PowerToys#39242",
+  "PowerToys#39995",
+  "PowerToys#41632",
+  "PowerToys#41967",
+  "PowerToys#42764",
+  "PowerToys#43111",
+  "PowerToys#43189",
+  "PowerToys#43232",
+  "PowerToys#43761",
+  "PowerToys#44876",
+  "PowerToys#45214",
+  "PowerToys#45447",
+  "PowerToys#45578",
+  "PowerToys#45730",
+  "PowerToys#46443",
+  "PowerToys#47501",
+  "PowerToys#47605",
+  "PowerToys#48193",
+  "PowerToys#48240",
+  "PowerToys#48242",
+  "PowerToys#48285",
+  "PowerToys#48289",
+  "PowerToys#48357",
+  "PowerToys#48475",
+  "PowerToys#48545"
+ ],
+ "retrieval_seconds": 0.3934747879684437,
+ "tool_calls": [
+  {
+   "t": 1794881854.2898335,
+   "tool": "search",
+   "args": {
+    "pattern": "Cyclic reference found while evaluating the Style property",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07230711600277573,
+   "returned": [
+    "PowerToys#36451",
+    "PowerToys#48242",
+    "PowerToys#39098",
+    "PowerToys#37129",
+    "PowerToys#37094",
+    "PowerToys#48193",
+    "PowerToys#45447",
+    "PowerToys#41967",
+    "PowerToys#41632",
+    "PowerToys#39995",
+    "PowerToys#39242",
+    "PowerToys#39032",
+    "PowerToys#38002",
+    "PowerToys#37538",
+    "PowerToys#37439",
+    "PowerToys#37428",
+    "PowerToys#36881",
+    "PowerToys#36818",
+    "PowerToys#36799",
+    "PowerToys#36736"
+   ]
+  },
+  {
+   "t": 1794881854.5679638,
+   "tool": "search",
+   "args": {
+    "pattern": "OnSystemThemeChanged",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06583884300198406,
+   "returned": [
+    "PowerToys#31226",
+    "PowerToys#36451",
+    "PowerToys#46443",
+    "PowerToys#48357",
+    "PowerToys#45578",
+    "PowerToys#43232",
+    "PowerToys#48545",
+    "PowerToys#48475",
+    "PowerToys#48289",
+    "PowerToys#48285",
+    "PowerToys#48242",
+    "PowerToys#45214",
+    "PowerToys#43189",
+    "PowerToys#43111",
+    "PowerToys#39098",
+    "PowerToys#38002",
+    "PowerToys#37859",
+    "PowerToys#37094",
+    "PowerToys#48240",
+    "PowerToys#47605"
+   ]
+  },
+  {
+   "t": 1794881856.7967649,
+   "tool": "search",
+   "args": {
+    "pattern": "Cyclic reference",
+    "regex": false,
+    "also": [
+     "ListView Items.Count"
+    ],
+    "repo": null
+   },
+   "seconds": 0.12748406498576514,
+   "returned": [
+    "PowerToys#47501",
+    "PowerToys#45730",
+    "PowerToys#44876",
+    "PowerToys#43761",
+    "PowerToys#37916"
+   ]
+  },
+  {
+   "t": 1794881857.6868122,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47501"
+   },
+   "seconds": 0.0001056769979186356,
+   "returned": [
+    "PowerToys#47501"
+   ]
+  },
+  {
+   "t": 1794881857.9226677,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37916"
+   },
+   "seconds": 0.00011519697727635503,
+   "returned": [
+    "PowerToys#37916"
+   ]
+  },
+  {
+   "t": 1794881858.102054,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45730"
+   },
+   "seconds": 0.0001215559896081686,
+   "returned": [
+    "PowerToys#45730"
+   ]
+  },
+  {
+   "t": 1794881858.9885113,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#36451"
+   },
+   "seconds": 0.00021124401246197522,
+   "returned": [
+    "PowerToys#36451"
+   ]
+  },
+  {
+   "t": 1794881860.2810678,
+   "tool": "search",
+   "args": {
+    "pattern": "Cyclic reference",
+    "regex": false,
+    "also": [
+     "fix"
+    ],
+    "repo": null
+   },
+   "seconds": 0.12710807399707846,
+   "returned": [
+    "PowerToys#36451",
+    "PowerToys#42764",
+    "PowerToys#37260",
+    "PowerToys#37191",
+    "PowerToys#37185"
+   ]
+  },
+  {
+   "t": 1794881861.1258013,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43761"
+   },
+   "seconds": 0.000183016003575176,
+   "returned": [
+    "PowerToys#43761"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11045,
+  "stop_reason": "end_turn",
+  "session_id": "23752887-10ba-4bee-a15b-62b9a68370bb",
+  "total_cost_usd": 0.1267643,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 26002,
+   "cache_read_input_tokens": 107543,
+   "output_tokens": 1197,
+   "output_tokens_details": {
+    "thinking_tokens": 54
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 26002,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 447,
+     "cache_read_input_tokens": 24812,
+     "cache_creation_input_tokens": 2367,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2367
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1197,
+    "cacheReadInputTokens": 107543,
+    "cacheCreationInputTokens": 26002,
+    "webSearchRequests": 0,
+    "costUSD": 0.1267643,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 54,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 26002,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "This crash has been reported before. It is a PowerToys Run crash with a \"Cyclic reference found while evaluating the Style property\" error. The archive has no fix or workaround for it.\n\n- **Master ticket:** PowerToys#36451 is the original report. The other tickets were closed as duplicates of it.\n- **Closest matches:** PowerToys#45730 and PowerToys#43761 have the same `ListView Items.Count:15` stack trace as yours. Both were closed as duplicates of #36451.\n- **Cause:** PowerToys#47501 has a triage note on this exact trace. It says the crash starts when Windows sends a system theme change message. This can come from a theme or accent colour change, an automatic light/dark switch, or resuming from sleep. WPF then fails while re-applying the `ListView` style in PowerToys Run.\n- **What to do:**\n  - The crash is not harmful to your data. After the \"Something went wrong\" dialog, restart PowerToys Run by turning the module off and on in PowerToys Settings, or by restarting PowerToys.\n  - Add your version (0.100.2.0, Windows 10 build 19045) and what you were doing at the time to #36451.\n  - Tell them whether a theme or accent change, an automatic dark/light switch, or waking from sleep happened just before. The maintainers asked for this in #47501.",
+  "ttft_ms": 885,
+  "type": "result",
+  "duration_ms": 11453,
+  "uuid": "146ee478-a88a-4494-aeff-504f9069f508",
+  "ttft_stream_ms": 580,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 580,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1197,
+    "cacheReadInputTokens": 107543,
+    "cacheCreationInputTokens": 26002,
+    "webSearchRequests": 0,
+    "costUSD": 0.1267643,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 54,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 26002,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.934993611008395,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-otirn1fd/work"
+  }
+ },
+ "wall_seconds": 12.93682954198448,
+ "qid": "PowerToys#50246",
+ "arm": "B",
+ "parsed": {
+  "ok": false,
+  "seen_before": null,
+  "matches": [],
+  "answer": ""
+ },
+ "hit_turn_cap": false
+}

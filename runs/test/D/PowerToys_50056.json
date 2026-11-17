@@ -1,0 +1,366 @@
+{
+ "shown": [
+  "PowerToys#10495",
+  "PowerToys#123",
+  "PowerToys#12606",
+  "PowerToys#13517",
+  "PowerToys#14055",
+  "PowerToys#1744",
+  "PowerToys#17894",
+  "PowerToys#20433",
+  "PowerToys#2170",
+  "PowerToys#2239",
+  "PowerToys#22601",
+  "PowerToys#2269",
+  "PowerToys#2365",
+  "PowerToys#2436",
+  "PowerToys#2803",
+  "PowerToys#28715",
+  "PowerToys#2986",
+  "PowerToys#3049",
+  "PowerToys#38297",
+  "PowerToys#38333",
+  "PowerToys#38442",
+  "PowerToys#38467",
+  "PowerToys#38494",
+  "PowerToys#39166",
+  "PowerToys#39441",
+  "PowerToys#39655",
+  "PowerToys#39704",
+  "PowerToys#39783",
+  "PowerToys#39990",
+  "PowerToys#41013",
+  "PowerToys#41229",
+  "PowerToys#41737",
+  "PowerToys#41854",
+  "PowerToys#42276",
+  "PowerToys#42407",
+  "PowerToys#4270",
+  "PowerToys#43173",
+  "PowerToys#43302",
+  "PowerToys#443",
+  "PowerToys#44934",
+  "PowerToys#4494",
+  "PowerToys#45010",
+  "PowerToys#45126",
+  "PowerToys#4673",
+  "PowerToys#46790",
+  "PowerToys#4714",
+  "PowerToys#47974",
+  "PowerToys#48364",
+  "PowerToys#48539",
+  "PowerToys#4903",
+  "PowerToys#5474",
+  "PowerToys#5915",
+  "PowerToys#6060",
+  "PowerToys#7627"
+ ],
+ "retrieval_seconds": 4.011631077999482,
+ "tool_calls": [
+  {
+   "t": 1794881058.9771402,
+   "tool": "similar",
+   "args": {
+    "query": "Win+S mapped to Command Palette opens Windows Search when admin window focused, low-level keyboard hook",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.840160345978802,
+   "returned": [
+    "PowerToys#38297",
+    "PowerToys#1744",
+    "PowerToys#4903",
+    "PowerToys#38442",
+    "PowerToys#2269",
+    "PowerToys#123",
+    "PowerToys#5474",
+    "PowerToys#4494",
+    "PowerToys#443",
+    "PowerToys#5915",
+    "PowerToys#2803",
+    "PowerToys#38494",
+    "PowerToys#2170",
+    "PowerToys#7627",
+    "PowerToys#48539",
+    "PowerToys#41229",
+    "PowerToys#38467",
+    "PowerToys#3049",
+    "PowerToys#22601",
+    "PowerToys#10495"
+   ]
+  },
+  {
+   "t": 1794881061.4348526,
+   "tool": "search",
+   "args": {
+    "pattern": "low-level keyboard hook",
+    "regex": false,
+    "also": [
+     "admin"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.15520479599945247,
+   "returned": [
+    "PowerToys#45126",
+    "PowerToys#45010",
+    "PowerToys#43173",
+    "PowerToys#42276",
+    "PowerToys#13517",
+    "PowerToys#48364",
+    "PowerToys#47974",
+    "PowerToys#43302",
+    "PowerToys#41854",
+    "PowerToys#20433",
+    "PowerToys#17894",
+    "PowerToys#46790",
+    "PowerToys#44934",
+    "PowerToys#42407",
+    "PowerToys#39783",
+    "PowerToys#39704",
+    "PowerToys#39655",
+    "PowerToys#39441",
+    "PowerToys#28715",
+    "PowerToys#14055"
+   ]
+  },
+  {
+   "t": 1794881061.457942,
+   "tool": "similar",
+   "args": {
+    "query": "CmdPal hotkey doesn't work when elevated app focused, Windows search opens instead",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014970718999393284,
+   "returned": [
+    "PowerToys#2803",
+    "PowerToys#4903",
+    "PowerToys#39704",
+    "PowerToys#38297",
+    "PowerToys#6060",
+    "PowerToys#39166",
+    "PowerToys#41737",
+    "PowerToys#2436",
+    "PowerToys#4270",
+    "PowerToys#2239",
+    "PowerToys#41013",
+    "PowerToys#5474",
+    "PowerToys#12606",
+    "PowerToys#2986",
+    "PowerToys#1744",
+    "PowerToys#2365",
+    "PowerToys#4673",
+    "PowerToys#4714",
+    "PowerToys#39990",
+    "PowerToys#38333"
+   ]
+  },
+  {
+   "t": 1794881063.1019504,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39704"
+   },
+   "seconds": 0.0011572110233828425,
+   "returned": [
+    "PowerToys#39704"
+   ]
+  },
+  {
+   "t": 1794881063.2021255,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45126"
+   },
+   "seconds": 0.0001380059984512627,
+   "returned": [
+    "PowerToys#45126"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10902,
+  "stop_reason": "end_turn",
+  "session_id": "6ea6ee77-907f-43b4-ae7c-3b622c57e551",
+  "total_cost_usd": 0.0565755,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 11099,
+   "cache_read_input_tokens": 15935,
+   "output_tokens": 1057,
+   "output_tokens_details": {
+    "thinking_tokens": 93
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11099,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 465,
+     "cache_read_input_tokens": 8685,
+     "cache_creation_input_tokens": 3827,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3827
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1057,
+    "cacheReadInputTokens": 15935,
+    "cacheCreationInputTokens": 11099,
+    "webSearchRequests": 0,
+    "costUSD": 0.0565755,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 93,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11099,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#45126\", \"PowerToys#39704\"], \"answer\": \"This looks like a known limitation. Windows doesn't deliver keystrokes from an elevated window to a hook running at a lower privilege level. Running PowerToys as admin doesn't change this, because Command Palette starts as its own non-elevated process. In PowerToys#45126 the reporter checked Task Manager and found PowerToys elevated but Command Palette not. Quitting Command Palette and starting it elevated made the hotkey work over admin windows. Do the same: quit Command Palette, relaunch it as administrator, and keep 'Use low-level keyboard hook' ticked. Be aware that anything you launch from an elevated Command Palette will also run elevated. A maintainer advised against this as a permanent setup. The only other workaround is to accept that the shortcut won't work while an elevated window has focus. A note about this limitation has been added to the Command Palette activation settings. The tickets don't cover Win+S specifically, so Windows Search opening is probably just the unhandled keypress passing through to the system. I haven't confirmed that. PowerToys#39704 reports the same elevated-focus failure.\"}",
+  "ttft_ms": 2257,
+  "type": "result",
+  "duration_ms": 14920,
+  "uuid": "93c5ff4a-e0fa-4d13-ba88-4d3b06e931ef",
+  "ttft_stream_ms": 1098,
+  "time_to_request_ms": 51,
+  "first_content_frame_ms": 1098,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1057,
+    "cacheReadInputTokens": 15935,
+    "cacheCreationInputTokens": 11099,
+    "webSearchRequests": 0,
+    "costUSD": 0.0565755,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 93,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11099,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.303938022989314,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-dcx0ptl2/work"
+  }
+ },
+ "wall_seconds": 16.305703249992803,
+ "qid": "PowerToys#50056",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#45126",
+   "PowerToys#39704"
+  ],
+  "answer": "This looks like a known limitation. Windows doesn't deliver keystrokes from an elevated window to a hook running at a lower privilege level. Running PowerToys as admin doesn't change this, because Command Palette starts as its own non-elevated process. In PowerToys#45126 the reporter checked Task Manager and found PowerToys elevated but Command Palette not. Quitting Command Palette and starting it elevated made the hotkey work over admin windows. Do the same: quit Command Palette, relaunch it as administrator, and keep 'Use low-level keyboard hook' ticked. Be aware that anything you launch from an elevated Command Palette will also run elevated. A maintainer advised against this as a permanent setup. The only other workaround is to accept that the shortcut won't work while an elevated window has focus. A note about this limitation has been added to the Command Palette activation settings. The tickets don't cover Win+S specifically, so Windows Search opening is probably just the unhandled keypress passing through to the system. I haven't confirmed that. PowerToys#39704 reports the same elevated-focus failure."
+ },
+ "hit_turn_cap": false
+}

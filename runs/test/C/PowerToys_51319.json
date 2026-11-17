@@ -1,0 +1,397 @@
+{
+ "shown": [
+  "PowerToys#10151",
+  "PowerToys#1031",
+  "PowerToys#10741",
+  "PowerToys#1124",
+  "PowerToys#1125",
+  "PowerToys#1187",
+  "PowerToys#12496",
+  "PowerToys#1273",
+  "PowerToys#1274",
+  "PowerToys#13336",
+  "PowerToys#1413",
+  "PowerToys#1571",
+  "PowerToys#1628",
+  "PowerToys#1657",
+  "PowerToys#1659",
+  "PowerToys#1795",
+  "PowerToys#1930",
+  "PowerToys#1934",
+  "PowerToys#19521",
+  "PowerToys#2280",
+  "PowerToys#2476",
+  "PowerToys#2793",
+  "PowerToys#2795",
+  "PowerToys#3178",
+  "PowerToys#32152",
+  "PowerToys#3695",
+  "PowerToys#38316",
+  "PowerToys#39297",
+  "PowerToys#4265",
+  "PowerToys#4424",
+  "PowerToys#4500",
+  "PowerToys#4560",
+  "PowerToys#4614",
+  "PowerToys#4744",
+  "PowerToys#48852",
+  "PowerToys#5218",
+  "PowerToys#5454",
+  "PowerToys#5751",
+  "PowerToys#6108",
+  "PowerToys#6288",
+  "PowerToys#6709",
+  "PowerToys#6794",
+  "PowerToys#7382",
+  "PowerToys#7418",
+  "PowerToys#7432",
+  "PowerToys#7985",
+  "PowerToys#8660",
+  "PowerToys#8713",
+  "PowerToys#8734",
+  "PowerToys#9031",
+  "terminal#8690"
+ ],
+ "retrieval_seconds": 3.709839575953083,
+ "tool_calls": [
+  {
+   "t": 1794884171.0085433,
+   "tool": "search",
+   "args": {
+    "query": "Image Resizer CLI ignores --filename option on first run before settings.json exists",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.66648714398616,
+   "returned": [
+    "PowerToys#7985",
+    "PowerToys#4560",
+    "PowerToys#7382",
+    "PowerToys#2280",
+    "PowerToys#8660",
+    "PowerToys#1273",
+    "PowerToys#1571",
+    "PowerToys#1657",
+    "PowerToys#6794",
+    "PowerToys#1413",
+    "PowerToys#5218",
+    "PowerToys#2476",
+    "PowerToys#1628",
+    "PowerToys#10741",
+    "PowerToys#4744",
+    "PowerToys#2795",
+    "PowerToys#1795",
+    "PowerToys#5454",
+    "PowerToys#4614",
+    "PowerToys#13336"
+   ]
+  },
+  {
+   "t": 1794884171.0333195,
+   "tool": "search",
+   "args": {
+    "query": "FileNameFormat cached _fileNameFormat FileName setter not clearing cache",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.01277851199847646,
+   "returned": [
+    "PowerToys#4560",
+    "PowerToys#6108",
+    "PowerToys#38316",
+    "PowerToys#1031",
+    "PowerToys#6288",
+    "PowerToys#2795",
+    "PowerToys#9031",
+    "PowerToys#19521",
+    "PowerToys#32152",
+    "PowerToys#39297",
+    "PowerToys#7418",
+    "PowerToys#3178",
+    "PowerToys#4500",
+    "PowerToys#1187",
+    "PowerToys#4265",
+    "PowerToys#4424",
+    "PowerToys#5751",
+    "PowerToys#8734",
+    "PowerToys#48852",
+    "PowerToys#6709"
+   ]
+  },
+  {
+   "t": 1794884172.041966,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4560"
+   },
+   "seconds": 0.00021659501362591982,
+   "returned": [
+    "PowerToys#4560"
+   ]
+  },
+  {
+   "t": 1794884172.2179224,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#6794"
+   },
+   "seconds": 0.00019899499602615833,
+   "returned": [
+    "PowerToys#6794"
+   ]
+  },
+  {
+   "t": 1794884173.157765,
+   "tool": "search",
+   "args": {
+    "query": "ImageResizerCLI --filename not applied, default format used, settings.json missing",
+    "repo": null
+   },
+   "seconds": 0.012957987986737862,
+   "returned": [
+    "PowerToys#1413",
+    "PowerToys#4560",
+    "PowerToys#1124",
+    "PowerToys#7382",
+    "PowerToys#8660",
+    "PowerToys#7985",
+    "PowerToys#2280",
+    "PowerToys#1795",
+    "PowerToys#3178",
+    "PowerToys#1628",
+    "PowerToys#10151",
+    "PowerToys#2793",
+    "PowerToys#1657",
+    "PowerToys#1274",
+    "terminal#8690",
+    "PowerToys#1571",
+    "PowerToys#2795",
+    "PowerToys#2476",
+    "PowerToys#1934",
+    "PowerToys#7432"
+   ]
+  },
+  {
+   "t": 1794884173.9346476,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#3178"
+   },
+   "seconds": 0.000204983982257545,
+   "returned": [
+    "PowerToys#3178"
+   ]
+  },
+  {
+   "t": 1794884175.1554544,
+   "tool": "search",
+   "args": {
+    "query": "Image Resizer command line options ignored first run default settings written, CLI override lost",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.01699535798979923,
+   "returned": [
+    "PowerToys#7985",
+    "PowerToys#6794",
+    "PowerToys#2476",
+    "PowerToys#5218",
+    "PowerToys#8660",
+    "PowerToys#1571",
+    "PowerToys#4744",
+    "PowerToys#4560",
+    "PowerToys#10151",
+    "PowerToys#12496",
+    "PowerToys#1628",
+    "PowerToys#3695",
+    "PowerToys#8713",
+    "PowerToys#2280",
+    "PowerToys#10741",
+    "PowerToys#7382",
+    "PowerToys#1930",
+    "PowerToys#4614",
+    "PowerToys#1659",
+    "PowerToys#1125"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7688,
+  "stop_reason": "end_turn",
+  "session_id": "060e98d3-b353-4d3d-b2cf-ad7b1d28c27f",
+  "total_cost_usd": 0.0415149,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 7584,
+   "cache_read_input_tokens": 27349,
+   "output_tokens": 842,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7584,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 265,
+     "cache_read_input_tokens": 7329,
+     "cache_creation_input_tokens": 1288,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1288
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 842,
+    "cacheReadInputTokens": 27349,
+    "cacheCreationInputTokens": 7584,
+    "webSearchRequests": 0,
+    "costUSD": 0.0415149,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7584,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket in the archive that reports this problem. The closest ones (PowerToys#4560 and #3178) are about the Settings UI not saving the filename format, which is a different problem. Your analysis looks sound. When settings.json is missing, Settings.Reload() saves the defaults. That serialization reads FileNameFormat, which caches _fileNameFormat from the default FileName, and the FileName setter never clears the cache. Treat this as a new bug and file it with your suggested fix: clear _fileNameFormat in the FileName setter and mark FileNameFormat [JsonIgnore]. Until it's fixed, run the CLI once so settings.json is created, or open Image Resizer settings once, and then --filename will work.\"}",
+  "ttft_ms": 1096,
+  "type": "result",
+  "duration_ms": 11105,
+  "uuid": "4f4d8047-8c6d-4171-a7bd-19c31b2f9ad5",
+  "ttft_stream_ms": 638,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 638,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 842,
+    "cacheReadInputTokens": 27349,
+    "cacheCreationInputTokens": 7584,
+    "webSearchRequests": 0,
+    "costUSD": 0.0415149,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7584,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.63557928102091,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-aoo32etv/work"
+  }
+ },
+ "wall_seconds": 12.638164862000849,
+ "qid": "PowerToys#51319",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket in the archive that reports this problem. The closest ones (PowerToys#4560 and #3178) are about the Settings UI not saving the filename format, which is a different problem. Your analysis looks sound. When settings.json is missing, Settings.Reload() saves the defaults. That serialization reads FileNameFormat, which caches _fileNameFormat from the default FileName, and the FileName setter never clears the cache. Treat this as a new bug and file it with your suggested fix: clear _fileNameFormat in the FileName setter and mark FileNameFormat [JsonIgnore]. Until it's fixed, run the CLI once so settings.json is created, or open Image Resizer settings once, and then --filename will work."
+ },
+ "hit_turn_cap": false
+}

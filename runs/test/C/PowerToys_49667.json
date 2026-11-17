@@ -1,0 +1,284 @@
+{
+ "shown": [
+  "PowerToys#10157",
+  "PowerToys#11352",
+  "PowerToys#1283",
+  "PowerToys#1600",
+  "PowerToys#1898",
+  "PowerToys#2034",
+  "PowerToys#2052",
+  "PowerToys#22480",
+  "PowerToys#22485",
+  "PowerToys#22505",
+  "PowerToys#22581",
+  "PowerToys#22582",
+  "PowerToys#22583",
+  "PowerToys#22584",
+  "PowerToys#22588",
+  "PowerToys#22652",
+  "PowerToys#22656",
+  "PowerToys#23077",
+  "PowerToys#23078",
+  "PowerToys#2367",
+  "PowerToys#23785",
+  "PowerToys#28686",
+  "PowerToys#2911",
+  "PowerToys#38282",
+  "PowerToys#38353",
+  "PowerToys#46601",
+  "PowerToys#46950",
+  "PowerToys#5003",
+  "PowerToys#5658",
+  "PowerToys#6278",
+  "PowerToys#699",
+  "PowerToys#9469",
+  "PowerToys#9865"
+ ],
+ "retrieval_seconds": 4.137824241013732,
+ "tool_calls": [
+  {
+   "t": 1794879546.8058763,
+   "tool": "search",
+   "args": {
+    "query": "Peek.UI.exe runner PID not validated, zombie process no UI",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.1238462410110515,
+   "returned": [
+    "PowerToys#22652",
+    "PowerToys#23785",
+    "PowerToys#22656",
+    "PowerToys#23077",
+    "PowerToys#699",
+    "PowerToys#46950",
+    "PowerToys#1600",
+    "PowerToys#5658",
+    "PowerToys#1283",
+    "PowerToys#11352",
+    "PowerToys#2367",
+    "PowerToys#22485",
+    "PowerToys#2034",
+    "PowerToys#2052",
+    "PowerToys#1898",
+    "PowerToys#38282",
+    "PowerToys#6278",
+    "PowerToys#38353",
+    "PowerToys#5003",
+    "PowerToys#10157"
+   ]
+  },
+  {
+   "t": 1794879546.8394225,
+   "tool": "search",
+   "args": {
+    "query": "Peek process remains running without window when launched with invalid process id argument",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.013978000002680346,
+   "returned": [
+    "PowerToys#22505",
+    "PowerToys#46950",
+    "PowerToys#2367",
+    "PowerToys#22652",
+    "PowerToys#22656",
+    "PowerToys#22582",
+    "PowerToys#2911",
+    "PowerToys#28686",
+    "PowerToys#22584",
+    "PowerToys#22480",
+    "PowerToys#22485",
+    "PowerToys#46601",
+    "PowerToys#22581",
+    "PowerToys#22588",
+    "PowerToys#9469",
+    "PowerToys#5658",
+    "PowerToys#23785",
+    "PowerToys#9865",
+    "PowerToys#22583",
+    "PowerToys#23078"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6013,
+  "stop_reason": "end_turn",
+  "session_id": "3f1d9bee-b35c-4d79-8b92-d5944e1af4e6",
+  "total_cost_usd": 0.018525,
+  "usage": {
+   "input_tokens": 4,
+   "cache_creation_input_tokens": 3442,
+   "cache_read_input_tokens": 2790,
+   "output_tokens": 447,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3442,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 252,
+     "cache_read_input_tokens": 1757,
+     "cache_creation_input_tokens": 2718,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2718
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 4,
+    "outputTokens": 447,
+    "cacheReadInputTokens": 2790,
+    "cacheCreationInputTokens": 3442,
+    "webSearchRequests": 0,
+    "costUSD": 0.018525,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3442,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 3,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I found no ticket in the archive that reports this problem.\n\n{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find an earlier report of this problem. Peek.UI.exe doesn't check that the runner PID passed on its command line belongs to a running process. When you give it a PID that doesn't exist, such as 9999999, it starts with no UI and keeps running as a zombie process. Peek is meant to be launched by the PowerToys runner, not by hand. Until this is fixed, don't start PowerToys.Peek.UI.exe yourself with an arbitrary argument. If a stray instance is already running, end it in Task Manager. We will track this as a new bug: Peek should validate the PID and exit with a logged error when the process doesn't exist.\"}",
+  "ttft_ms": 2495,
+  "type": "result",
+  "duration_ms": 10238,
+  "uuid": "cbbbd132-1f71-4b22-af9b-d6d4cf8a12ef",
+  "ttft_stream_ms": 1294,
+  "time_to_request_ms": 52,
+  "first_content_frame_ms": 1295,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 4,
+    "outputTokens": 447,
+    "cacheReadInputTokens": 2790,
+    "cacheCreationInputTokens": 3442,
+    "webSearchRequests": 0,
+    "costUSD": 0.018525,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3442,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.85927597299451,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-w_x_hw1v/work"
+  }
+ },
+ "wall_seconds": 11.861726133996854,
+ "qid": "PowerToys#49667",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find an earlier report of this problem. Peek.UI.exe doesn't check that the runner PID passed on its command line belongs to a running process. When you give it a PID that doesn't exist, such as 9999999, it starts with no UI and keeps running as a zombie process. Peek is meant to be launched by the PowerToys runner, not by hand. Until this is fixed, don't start PowerToys.Peek.UI.exe yourself with an arbitrary argument. If a stray instance is already running, end it in Task Manager. We will track this as a new bug: Peek should validate the PID and exit with a logged error when the process doesn't exist."
+ },
+ "hit_turn_cap": false
+}

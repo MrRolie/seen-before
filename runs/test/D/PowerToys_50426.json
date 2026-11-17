@@ -1,0 +1,288 @@
+{
+ "shown": [
+  "PowerToys#11716",
+  "PowerToys#2328",
+  "PowerToys#2551",
+  "PowerToys#2803",
+  "PowerToys#2900",
+  "PowerToys#38297",
+  "PowerToys#38342",
+  "PowerToys#38415",
+  "PowerToys#38442",
+  "PowerToys#3957",
+  "PowerToys#41712",
+  "PowerToys#41736",
+  "PowerToys#46948",
+  "PowerToys#46952",
+  "PowerToys#48725",
+  "PowerToys#5782",
+  "PowerToys#7007",
+  "PowerToys#8198",
+  "PowerToys#8316",
+  "PowerToys#9288"
+ ],
+ "retrieval_seconds": 3.6371258010331076,
+ "tool_calls": [
+  {
+   "t": 1794882308.5212286,
+   "tool": "search",
+   "args": {
+    "pattern": "HC_NOREMOVE",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06346269298228435,
+   "returned": []
+  },
+  {
+   "t": 1794882312.3231382,
+   "tool": "similar",
+   "args": {
+    "query": "Command Palette shortcut executes twice LocalKeyboardListener",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.448436628008494,
+   "returned": [
+    "PowerToys#48725",
+    "PowerToys#41712",
+    "PowerToys#38297",
+    "PowerToys#3957",
+    "PowerToys#46952",
+    "PowerToys#41736",
+    "PowerToys#8198",
+    "PowerToys#38442",
+    "PowerToys#2328",
+    "PowerToys#7007",
+    "PowerToys#8316",
+    "PowerToys#38342",
+    "PowerToys#11716",
+    "PowerToys#2551",
+    "PowerToys#9288",
+    "PowerToys#46948",
+    "PowerToys#2900",
+    "PowerToys#5782",
+    "PowerToys#2803",
+    "PowerToys#38415"
+   ]
+  },
+  {
+   "t": 1794882313.2673316,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48725"
+   },
+   "seconds": 0.00011791702127084136,
+   "returned": [
+    "PowerToys#48725"
+   ]
+  },
+  {
+   "t": 1794882314.3993382,
+   "tool": "search",
+   "args": {
+    "pattern": "LocalKeyboardListener",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.060190988006070256,
+   "returned": []
+  },
+  {
+   "t": 1794882315.2139864,
+   "tool": "search",
+   "args": {
+    "pattern": "HC_ACTION",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06491757501498796,
+   "returned": []
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6309,
+  "stop_reason": "end_turn",
+  "session_id": "a94083e2-62b0-4170-bd72-ea584a24f00f",
+  "total_cost_usd": 0.0292725,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 5193,
+   "cache_read_input_tokens": 19905,
+   "output_tokens": 649,
+   "output_tokens_details": {
+    "thinking_tokens": 39
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5193,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 257,
+     "cache_read_input_tokens": 6518,
+     "cache_creation_input_tokens": 88,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 88
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 649,
+    "cacheReadInputTokens": 19905,
+    "cacheCreationInputTokens": 5193,
+    "webSearchRequests": 0,
+    "costUSD": 0.0292725,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 39,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5193,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket that reports this problem. Searches for LocalKeyboardListener, HC_NOREMOVE and HC_ACTION returned nothing. The closest result, PowerToys#48725, is a different bug. In that one, a context-item shortcut is handled by two recipients, CommandBar and ContextMenu, so it navigates twice. It does not involve the keyboard hook. Please treat this as a new report. It would help to add the exact repro steps and the expected and actual behaviour. Also say which shortcut fires twice. The suggested fix is for LocalKeyboardListener's hook callback to act only when nCode == HC_ACTION and to ignore HC_NOREMOVE peeks.\"}",
+  "ttft_ms": 906,
+  "type": "result",
+  "duration_ms": 9945,
+  "uuid": "94201cd3-0489-4268-bfd2-a96c85828bde",
+  "ttft_stream_ms": 607,
+  "time_to_request_ms": 28,
+  "first_content_frame_ms": 607,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 649,
+    "cacheReadInputTokens": 19905,
+    "cacheCreationInputTokens": 5193,
+    "webSearchRequests": 0,
+    "costUSD": 0.0292725,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 39,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5193,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.332480342010967,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-0m2zmvh0/work"
+  }
+ },
+ "wall_seconds": 11.333905034989584,
+ "qid": "PowerToys#50426",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket that reports this problem. Searches for LocalKeyboardListener, HC_NOREMOVE and HC_ACTION returned nothing. The closest result, PowerToys#48725, is a different bug. In that one, a context-item shortcut is handled by two recipients, CommandBar and ContextMenu, so it navigates twice. It does not involve the keyboard hook. Please treat this as a new report. It would help to add the exact repro steps and the expected and actual behaviour. Also say which shortcut fires twice. The suggested fix is for LocalKeyboardListener's hook callback to act only when nCode == HC_ACTION and to ignore HC_NOREMOVE peeks."
+ },
+ "hit_turn_cap": false
+}

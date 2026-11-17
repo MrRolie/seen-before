@@ -1,0 +1,461 @@
+{
+ "shown": [
+  "PowerToys#1033",
+  "PowerToys#13023",
+  "PowerToys#14690",
+  "PowerToys#17991",
+  "PowerToys#20627",
+  "PowerToys#29347",
+  "PowerToys#30275",
+  "PowerToys#31658",
+  "PowerToys#32655",
+  "PowerToys#33190",
+  "PowerToys#38297",
+  "PowerToys#38344",
+  "PowerToys#38384",
+  "PowerToys#38393",
+  "PowerToys#38404",
+  "PowerToys#38438",
+  "PowerToys#38528",
+  "PowerToys#38530",
+  "PowerToys#38659",
+  "PowerToys#39010",
+  "PowerToys#39399",
+  "PowerToys#39451",
+  "PowerToys#39482",
+  "PowerToys#39638",
+  "PowerToys#40138",
+  "PowerToys#40140",
+  "PowerToys#40598",
+  "PowerToys#40763",
+  "PowerToys#40779",
+  "PowerToys#40969",
+  "PowerToys#41065",
+  "PowerToys#41071",
+  "PowerToys#41857",
+  "PowerToys#42082",
+  "PowerToys#42380",
+  "PowerToys#42716",
+  "PowerToys#43251",
+  "PowerToys#43824",
+  "PowerToys#44693",
+  "PowerToys#44961",
+  "PowerToys#45126",
+  "PowerToys#45452",
+  "PowerToys#45957",
+  "PowerToys#46168",
+  "PowerToys#46225",
+  "PowerToys#46269",
+  "PowerToys#46334",
+  "PowerToys#46457",
+  "PowerToys#46531",
+  "PowerToys#47475",
+  "PowerToys#48311",
+  "PowerToys#48538",
+  "PowerToys#48672",
+  "PowerToys#48834",
+  "PowerToys#48867",
+  "PowerToys#48975",
+  "PowerToys#6030",
+  "PowerToys#894"
+ ],
+ "retrieval_seconds": 0.7444684939982835,
+ "tool_calls": [
+  {
+   "t": 1794879925.7185652,
+   "tool": "search",
+   "args": {
+    "pattern": "Command Palette",
+    "regex": false,
+    "also": [
+     "screenshot"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.13813624600879848,
+   "returned": [
+    "PowerToys#38393",
+    "PowerToys#45126",
+    "PowerToys#48834",
+    "PowerToys#46225",
+    "PowerToys#40140",
+    "PowerToys#38530",
+    "PowerToys#48975",
+    "PowerToys#38297",
+    "PowerToys#45452",
+    "PowerToys#42716",
+    "PowerToys#44961",
+    "PowerToys#39399",
+    "PowerToys#41065",
+    "PowerToys#39010",
+    "PowerToys#48867",
+    "PowerToys#40779",
+    "PowerToys#47475",
+    "PowerToys#46531",
+    "PowerToys#46269",
+    "PowerToys#44693"
+   ]
+  },
+  {
+   "t": 1794879926.1823914,
+   "tool": "search",
+   "args": {
+    "pattern": "invisible window",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06457756599411368,
+   "returned": [
+    "PowerToys#33190",
+    "PowerToys#29347",
+    "PowerToys#14690",
+    "PowerToys#41857",
+    "PowerToys#32655",
+    "PowerToys#31658",
+    "PowerToys#20627",
+    "PowerToys#6030",
+    "PowerToys#894"
+   ]
+  },
+  {
+   "t": 1794879926.3230877,
+   "tool": "search",
+   "args": {
+    "pattern": "Command Palette",
+    "regex": false,
+    "also": [
+     "hidden window"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.12979645398445427,
+   "returned": [
+    "PowerToys#43824"
+   ]
+  },
+  {
+   "t": 1794879928.3777182,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40779"
+   },
+   "seconds": 0.00018254501628689468,
+   "returned": [
+    "PowerToys#40779"
+   ]
+  },
+  {
+   "t": 1794879928.69687,
+   "tool": "search",
+   "args": {
+    "pattern": "CmdPal",
+    "regex": false,
+    "also": [
+     "snipping",
+     "hidden"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.17025889398064464,
+   "returned": [
+    "PowerToys#48538"
+   ]
+  },
+  {
+   "t": 1794879930.7523823,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#41835"
+   },
+   "seconds": 9.424702147953212e-05,
+   "returned": []
+  },
+  {
+   "t": 1794879931.0790186,
+   "tool": "search",
+   "args": {
+    "pattern": "cmdpal",
+    "regex": false,
+    "also": [
+     "screenshot",
+     "window"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1919438059849199,
+   "returned": [
+    "PowerToys#38393",
+    "PowerToys#38530",
+    "PowerToys#38297",
+    "PowerToys#48834",
+    "PowerToys#45126",
+    "PowerToys#42380",
+    "PowerToys#38659",
+    "PowerToys#44961",
+    "PowerToys#38528",
+    "PowerToys#46168",
+    "PowerToys#48975",
+    "PowerToys#45452",
+    "PowerToys#43251",
+    "PowerToys#41071",
+    "PowerToys#40763",
+    "PowerToys#40140",
+    "PowerToys#39482",
+    "PowerToys#48672",
+    "PowerToys#48311",
+    "PowerToys#46457"
+   ]
+  },
+  {
+   "t": 1794879932.4769719,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46457"
+   },
+   "seconds": 0.00011033701593987644,
+   "returned": [
+    "PowerToys#46457"
+   ]
+  },
+  {
+   "t": 1794879934.0604806,
+   "tool": "search",
+   "args": {
+    "pattern": "cloak",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.048949179996270686,
+   "returned": [
+    "PowerToys#46225",
+    "PowerToys#42082",
+    "PowerToys#40598",
+    "PowerToys#45957",
+    "PowerToys#17991",
+    "PowerToys#1033",
+    "PowerToys#46457",
+    "PowerToys#40138",
+    "PowerToys#39638",
+    "PowerToys#39451",
+    "PowerToys#38404",
+    "PowerToys#13023",
+    "PowerToys#46334",
+    "PowerToys#43824",
+    "PowerToys#41071",
+    "PowerToys#40969",
+    "PowerToys#38438",
+    "PowerToys#38384",
+    "PowerToys#38344",
+    "PowerToys#30275"
+   ]
+  },
+  {
+   "t": 1794879935.4182785,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39451"
+   },
+   "seconds": 0.000241042987909168,
+   "returned": [
+    "PowerToys#39451"
+   ]
+  },
+  {
+   "t": 1794879936.7781012,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46225"
+   },
+   "seconds": 0.00017817600746639073,
+   "returned": [
+    "PowerToys#46225"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 16872,
+  "stop_reason": "end_turn",
+  "session_id": "6077cfb7-7b95-4c8d-8e59-fe4361fa8632",
+  "total_cost_usd": 0.0995998,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 19443,
+   "cache_read_input_tokens": 83058,
+   "output_tokens": 1349,
+   "output_tokens_details": {
+    "thinking_tokens": 34
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 19443,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 411,
+     "cache_read_input_tokens": 18361,
+     "cache_creation_input_tokens": 2259,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2259
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1349,
+    "cacheReadInputTokens": 83058,
+    "cacheCreationInputTokens": 19443,
+    "webSearchRequests": 0,
+    "costUSD": 0.0995998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 34,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 19443,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Checking the archive turned up one ticket that matches. It's PowerToys#46457, where screenshot software (Snipaste) captured an invisible Command Palette window.\n\n```json\n{\"seen_before\": true, \"matches\": [\"PowerToys#46457\"], \"answer\": \"This was reported before and is by design, not a stray window. A maintainer said Command Palette doesn't hide or minimize its window when you dismiss it. It \\\"cloaks\\\" the window (DWM cloaking) so it can appear instantly the next time you press the hotkey. The window is invisible to you but still exists. Some screenshot tools, like the IM and Snipaste tools in these tickets, don't account for cloaked windows, so they still detect it as a capturable window. The archive has no setting to turn cloaking off and make Command Palette truly hide or minimize its window. The reporter in #46457 asked for one, and nobody answered. For now, the workaround is to use a screenshot tool that ignores cloaked windows, or to exit Command Palette or disable the module while you capture. You can also add your feedback to #46457 as a feature request for a real hide option. Related background on the cloaking behavior is in PowerToys#39451.\"}\n```",
+  "ttft_ms": 1889,
+  "type": "result",
+  "duration_ms": 17583,
+  "uuid": "87d534e0-6609-42b6-90b8-714d501dadf4",
+  "ttft_stream_ms": 1101,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 1101,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1349,
+    "cacheReadInputTokens": 83058,
+    "cacheCreationInputTokens": 19443,
+    "webSearchRequests": 0,
+    "costUSD": 0.0995998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 34,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 19443,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 19.426682212011656,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-f7je7f5f/work"
+  }
+ },
+ "wall_seconds": 19.42839012600598,
+ "qid": "PowerToys#49823",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46457"
+  ],
+  "answer": "This was reported before and is by design, not a stray window. A maintainer said Command Palette doesn't hide or minimize its window when you dismiss it. It \"cloaks\" the window (DWM cloaking) so it can appear instantly the next time you press the hotkey. The window is invisible to you but still exists. Some screenshot tools, like the IM and Snipaste tools in these tickets, don't account for cloaked windows, so they still detect it as a capturable window. The archive has no setting to turn cloaking off and make Command Palette truly hide or minimize its window. The reporter in #46457 asked for one, and nobody answered. For now, the workaround is to use a screenshot tool that ignores cloaked windows, or to exit Command Palette or disable the module while you capture. You can also add your feedback to #46457 as a feature request for a real hide option. Related background on the cloaking behavior is in PowerToys#39451."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,395 @@
+{
+ "shown": [
+  "PowerToys#13",
+  "PowerToys#13023",
+  "PowerToys#13069",
+  "PowerToys#15453",
+  "PowerToys#15580",
+  "PowerToys#16370",
+  "PowerToys#16822",
+  "PowerToys#17097",
+  "PowerToys#179",
+  "PowerToys#17991",
+  "PowerToys#18673",
+  "PowerToys#19227",
+  "PowerToys#21031",
+  "PowerToys#21302",
+  "PowerToys#21892",
+  "PowerToys#23443",
+  "PowerToys#24412",
+  "PowerToys#24424",
+  "PowerToys#25167",
+  "PowerToys#26532",
+  "PowerToys#26935",
+  "PowerToys#27547",
+  "PowerToys#28027",
+  "PowerToys#32041",
+  "PowerToys#32090",
+  "PowerToys#33075",
+  "PowerToys#33790",
+  "PowerToys#35743",
+  "PowerToys#41764",
+  "PowerToys#41806",
+  "PowerToys#42068",
+  "PowerToys#44702",
+  "PowerToys#45201",
+  "PowerToys#45983",
+  "PowerToys#47058",
+  "PowerToys#47131",
+  "PowerToys#47800",
+  "PowerToys#6240",
+  "PowerToys#65"
+ ],
+ "retrieval_seconds": 0.396504514006665,
+ "tool_calls": [
+  {
+   "t": 1794880339.6982765,
+   "tool": "search",
+   "args": {
+    "pattern": "virtual desktop",
+    "regex": false,
+    "also": [
+     "border"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.08760890198755078,
+   "returned": [
+    "PowerToys#13069",
+    "PowerToys#28027",
+    "PowerToys#16370",
+    "PowerToys#47131",
+    "PowerToys#35743",
+    "PowerToys#45983",
+    "PowerToys#32090",
+    "PowerToys#24412",
+    "PowerToys#17991",
+    "PowerToys#24424",
+    "PowerToys#179",
+    "PowerToys#13023",
+    "PowerToys#44702",
+    "PowerToys#26935",
+    "PowerToys#41806",
+    "PowerToys#6240",
+    "PowerToys#47058",
+    "PowerToys#45201",
+    "PowerToys#42068",
+    "PowerToys#41764"
+   ]
+  },
+  {
+   "t": 1794880339.8574865,
+   "tool": "search",
+   "args": {
+    "pattern": "Always on top",
+    "regex": false,
+    "also": [
+     "desktop",
+     "click"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.14766833200701512,
+   "returned": [
+    "PowerToys#13",
+    "PowerToys#32041",
+    "PowerToys#32090",
+    "PowerToys#16822",
+    "PowerToys#47058",
+    "PowerToys#33790",
+    "PowerToys#33075",
+    "PowerToys#27547",
+    "PowerToys#25167",
+    "PowerToys#21892",
+    "PowerToys#17097",
+    "PowerToys#15580",
+    "PowerToys#65",
+    "PowerToys#26532",
+    "PowerToys#21302",
+    "PowerToys#21031",
+    "PowerToys#19227",
+    "PowerToys#18673",
+    "PowerToys#15453",
+    "PowerToys#47800"
+   ]
+  },
+  {
+   "t": 1794880341.6557767,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44702"
+   },
+   "seconds": 0.00014690699754282832,
+   "returned": [
+    "PowerToys#44702"
+   ]
+  },
+  {
+   "t": 1794880341.662876,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33790"
+   },
+   "seconds": 0.00010064701200462878,
+   "returned": [
+    "PowerToys#33790"
+   ]
+  },
+  {
+   "t": 1794880341.7772467,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32090"
+   },
+   "seconds": 0.00010128700523637235,
+   "returned": [
+    "PowerToys#32090"
+   ]
+  },
+  {
+   "t": 1794880344.186433,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#18673"
+   },
+   "seconds": 0.00010258800466544926,
+   "returned": [
+    "PowerToys#18673"
+   ]
+  },
+  {
+   "t": 1794880344.1929789,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#24412"
+   },
+   "seconds": 9.538698941469193e-05,
+   "returned": [
+    "PowerToys#24412"
+   ]
+  },
+  {
+   "t": 1794880344.3554552,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#23443"
+   },
+   "seconds": 0.00015999600873328745,
+   "returned": [
+    "PowerToys#23443"
+   ]
+  },
+  {
+   "t": 1794880346.2619102,
+   "tool": "search",
+   "args": {
+    "pattern": "Always on top",
+    "regex": false,
+    "also": [
+     "virtual desktop",
+     "can't click"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.16037521199905314,
+   "returned": []
+  },
+  {
+   "t": 1794880348.0995448,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21302"
+   },
+   "seconds": 0.00014525599544867873,
+   "returned": [
+    "PowerToys#21302"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 17988,
+  "stop_reason": "end_turn",
+  "session_id": "c12dde23-e33b-40bc-ab6f-9d37f6f4551a",
+  "total_cost_usd": 0.0794562,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 14842,
+   "cache_read_input_tokens": 54642,
+   "output_tokens": 1460,
+   "output_tokens_details": {
+    "thinking_tokens": 321
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 14842,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 677,
+     "cache_read_input_tokens": 15030,
+     "cache_creation_input_tokens": 989,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 989
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1460,
+    "cacheReadInputTokens": 54642,
+    "cacheCreationInputTokens": 14842,
+    "webSearchRequests": 0,
+    "costUSD": 0.0794562,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 321,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14842,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Quick status: I've searched the archive and read the closest tickets, so here is my conclusion.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#24412\", \"PowerToys#23443\", \"PowerToys#44702\"], \"answer\": \"The archive has earlier reports of this. Always on Top leaves its border on other virtual desktops after you switch away from the pinned window's desktop. #24412 is the main tracking ticket, and #23443 was closed as a duplicate of it. #44702 reports the same symptom on 0.96.1. I found no fix or confirmed resolution in any of them. None of them mentions the leftover area blocking mouse clicks, so that part is new. #33790 and #32090 are related reports of clicks or desktop switching misbehaving around a pinned window. Workarounds from the tickets: changing focus (click another window or the desktop) or switching desktops again often clears the stale border. Restarting PowerToys clears a ghost border, as reported in #21302. You can also unpin the window before switching desktops, or turn off the border setting in Always on Top. Please add your details (version 0.100.2, and that the leftover area blocks clicks) to #24412.\"}",
+  "ttft_ms": 2663,
+  "type": "result",
+  "duration_ms": 18457,
+  "uuid": "599957a7-43bc-4531-8369-1f3f0dfbabaf",
+  "ttft_stream_ms": 1652,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 1652,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1460,
+    "cacheReadInputTokens": 54642,
+    "cacheCreationInputTokens": 14842,
+    "webSearchRequests": 0,
+    "costUSD": 0.0794562,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 321,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14842,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 19.56949854901177,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-09jxgbz6/work"
+  }
+ },
+ "wall_seconds": 19.571202202991117,
+ "qid": "PowerToys#49960",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#24412",
+   "PowerToys#23443",
+   "PowerToys#44702"
+  ],
+  "answer": "The archive has earlier reports of this. Always on Top leaves its border on other virtual desktops after you switch away from the pinned window's desktop. #24412 is the main tracking ticket, and #23443 was closed as a duplicate of it. #44702 reports the same symptom on 0.96.1. I found no fix or confirmed resolution in any of them. None of them mentions the leftover area blocking mouse clicks, so that part is new. #33790 and #32090 are related reports of clicks or desktop switching misbehaving around a pinned window. Workarounds from the tickets: changing focus (click another window or the desktop) or switching desktops again often clears the stale border. Restarting PowerToys clears a ghost border, as reported in #21302. You can also unpin the window before switching desktops, or turn off the border setting in Always on Top. Please add your details (version 0.100.2, and that the leftover area blocks clicks) to #24412."
+ },
+ "hit_turn_cap": false
+}

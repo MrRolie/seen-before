@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#28505",
+  "PowerToys#20306",
+  "PowerToys#13816",
+  "PowerToys#24627",
+  "PowerToys#30886"
+ ],
+ "retrieval_seconds": 0.42225117099587806,
+ "retrieval_scores": [
+  0.03252247488101534,
+  0.028991596638655463,
+  0.026333907056798625,
+  0.02574441687344913,
+  0.02312889812889813
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3180,
+  "stop_reason": "end_turn",
+  "session_id": "48840d0f-deda-4633-9aa0-abc7e1a3916d",
+  "total_cost_usd": 0.014594000000000001,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3040,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 243,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3040,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 243,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3040,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3040
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 243,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3040,
+    "webSearchRequests": 0,
+    "costUSD": 0.014594000000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3040,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#20306\", \"PowerToys#28505\", \"PowerToys#24627\"], \"answer\": \"This feature request has been reported before: positioning the Quick Accent toolbar next to the text cursor or textbox instead of in one of the fixed positions. The later tickets (#28505 and #24627) were closed as duplicates of #20306, so that is the one to follow. It is still an open request with no released implementation. Add a thumbs-up or a comment describing your use case on #20306. Until it ships, pick the Quick Accent toolbar position setting in PowerToys that is closest to where you usually type. One commenter suggested adding a toggle so people can keep a fixed position if they prefer it.\"}",
+  "ttft_ms": 3336,
+  "type": "result",
+  "duration_ms": 3354,
+  "uuid": "8dc8d2ab-80b0-465e-ae1f-5c35436dd3dc",
+  "ttft_stream_ms": 1412,
+  "time_to_request_ms": 172,
+  "first_content_frame_ms": 1413,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 243,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3040,
+    "webSearchRequests": 0,
+    "costUSD": 0.014594000000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3040,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.213244988000952,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-qoeo57sm/work"
+  }
+ },
+ "wall_seconds": 4.637348792981356,
+ "qid": "PowerToys#52125",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#20306",
+   "PowerToys#28505",
+   "PowerToys#24627"
+  ],
+  "answer": "This feature request has been reported before: positioning the Quick Accent toolbar next to the text cursor or textbox instead of in one of the fixed positions. The later tickets (#28505 and #24627) were closed as duplicates of #20306, so that is the one to follow. It is still an open request with no released implementation. Add a thumbs-up or a comment describing your use case on #20306. Until it ships, pick the Quick Accent toolbar position setting in PowerToys that is closest to where you usually type. One commenter suggested adding a toggle so people can keep a fixed position if they prefer it."
+ },
+ "hit_turn_cap": false
+}

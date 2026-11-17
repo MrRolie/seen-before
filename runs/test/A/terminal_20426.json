@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "terminal#17028",
+  "terminal#17979",
+  "terminal#12199",
+  "terminal#7136",
+  "terminal#9984"
+ ],
+ "retrieval_seconds": 0.015308625006582588,
+ "retrieval_scores": [
+  0.6367267966270447,
+  0.6208206415176392,
+  0.6201958060264587,
+  0.6043381690979004,
+  0.5971408486366272
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3972,
+  "stop_reason": "end_turn",
+  "session_id": "6c251908-afd3-4cb7-bd8b-21c35bcd90d4",
+  "total_cost_usd": 0.03014,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6694,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 336,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6694,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 336,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6694,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6694
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 336,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6694,
+    "webSearchRequests": 0,
+    "costUSD": 0.03014,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6694,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#17028\", \"terminal#9984\", \"terminal#12199\"], \"answer\": \"This has been reported before: opening the file picker with Browse next to a profile's Command line field and then editing the address bar freezes Windows Terminal, and the picker cannot be used. It mostly reproduces on Windows 10, which matches your build 19045. The past tickets show no fix or confirmed root cause. In #17028 the team suspected that the Browse code, which is meant to run asynchronously, actually blocks the UI thread. In #12199 they thought the cause might be outside Terminal and fixed in Windows 11. Workarounds that the tickets confirm: don't use Browse, and type or paste the executable path directly into the Command line text box in Settings, or edit settings.json by hand. If the window is already frozen, end it from Task Manager. Upgrading to Windows 11 may avoid it, but the tickets don't confirm that. You can add your version details to #17028 to help the team track it.\"}",
+  "ttft_ms": 4148,
+  "type": "result",
+  "duration_ms": 4169,
+  "uuid": "7fd505b0-7c7c-4d23-8c06-9423fc147b3f",
+  "ttft_stream_ms": 1472,
+  "time_to_request_ms": 193,
+  "first_content_frame_ms": 1473,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 336,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6694,
+    "webSearchRequests": 0,
+    "costUSD": 0.03014,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6694,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 5.360600579995662,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-g1ae2jno/work"
+  }
+ },
+ "wall_seconds": 5.378799021011218,
+ "qid": "terminal#20426",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#17028",
+   "terminal#9984",
+   "terminal#12199"
+  ],
+  "answer": "This has been reported before: opening the file picker with Browse next to a profile's Command line field and then editing the address bar freezes Windows Terminal, and the picker cannot be used. It mostly reproduces on Windows 10, which matches your build 19045. The past tickets show no fix or confirmed root cause. In #17028 the team suspected that the Browse code, which is meant to run asynchronously, actually blocks the UI thread. In #12199 they thought the cause might be outside Terminal and fixed in Windows 11. Workarounds that the tickets confirm: don't use Browse, and type or paste the executable path directly into the Command line text box in Settings, or edit settings.json by hand. If the window is already frozen, end it from Task Manager. Upgrading to Windows 11 may avoid it, but the tickets don't confirm that. You can add your version details to #17028 to help the team track it."
+ },
+ "hit_turn_cap": false
+}

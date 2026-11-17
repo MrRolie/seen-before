@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#49010",
+  "PowerToys#48184",
+  "PowerToys#44397",
+  "PowerToys#34593",
+  "PowerToys#48437"
+ ],
+ "retrieval_seconds": 0.48970584000926465,
+ "retrieval_scores": [
+  0.03200204813108039,
+  0.030679156908665108,
+  0.02938045560996381,
+  0.029083245521601686,
+  0.025893752088205813
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3076,
+  "stop_reason": "end_turn",
+  "session_id": "4c164503-341f-4c94-82a2-269dd2be1821",
+  "total_cost_usd": 0.020198,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4316,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 293,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4316,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 293,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4316,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4316
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 293,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4316,
+    "webSearchRequests": 0,
+    "costUSD": 0.020198,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4316,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48184\", \"PowerToys#44397\", \"PowerToys#34593\"], \"answer\": \"This request has been filed before. The closest match is PowerToys#48184, which asks for profiles that automatically turn off chosen PowerToys modules while a specified app, such as a game, is running and turn them back on when it exits. PowerToys#44397 is a related request to load utilities on demand and unload them after inactivity to save RAM. PowerToys#34593 asked to disable background processes to free memory and was closed by the maintainers with 'No plans for this.' None of these tickets describes a shipped feature, so there is nothing to enable today. As a workaround, manually disable the modules you don't need in PowerToys Settings (or exit PowerToys) before launching a heavy full-screen app. You can also add your use case to #48184 and upvote it.\"}",
+  "ttft_ms": 3261,
+  "type": "result",
+  "duration_ms": 3277,
+  "uuid": "bf87edb8-5631-42fd-9e28-635080547dec",
+  "ttft_stream_ms": 1223,
+  "time_to_request_ms": 201,
+  "first_content_frame_ms": 1223,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 293,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4316,
+    "webSearchRequests": 0,
+    "costUSD": 0.020198,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4316,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.086121591972187,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-q4aaxyrx/work"
+  }
+ },
+ "wall_seconds": 4.577469895011745,
+ "qid": "PowerToys#49630",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48184",
+   "PowerToys#44397",
+   "PowerToys#34593"
+  ],
+  "answer": "This request has been filed before. The closest match is PowerToys#48184, which asks for profiles that automatically turn off chosen PowerToys modules while a specified app, such as a game, is running and turn them back on when it exits. PowerToys#44397 is a related request to load utilities on demand and unload them after inactivity to save RAM. PowerToys#34593 asked to disable background processes to free memory and was closed by the maintainers with 'No plans for this.' None of these tickets describes a shipped feature, so there is nothing to enable today. As a workaround, manually disable the modules you don't need in PowerToys Settings (or exit PowerToys) before launching a heavy full-screen app. You can also add your use case to #48184 and upvote it."
+ },
+ "hit_turn_cap": false
+}

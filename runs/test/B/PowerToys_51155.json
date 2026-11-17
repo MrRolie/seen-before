@@ -1,0 +1,448 @@
+{
+ "shown": [
+  "PowerToys#13591",
+  "PowerToys#14263",
+  "PowerToys#15312",
+  "PowerToys#15450",
+  "PowerToys#15954",
+  "PowerToys#15955",
+  "PowerToys#16192",
+  "PowerToys#17788",
+  "PowerToys#18015",
+  "PowerToys#18347",
+  "PowerToys#19261",
+  "PowerToys#19775",
+  "PowerToys#20308",
+  "PowerToys#23731",
+  "PowerToys#23744",
+  "PowerToys#24730",
+  "PowerToys#25984",
+  "PowerToys#261",
+  "PowerToys#26774",
+  "PowerToys#27850",
+  "PowerToys#28939",
+  "PowerToys#29586",
+  "PowerToys#30341",
+  "PowerToys#30702",
+  "PowerToys#30800",
+  "PowerToys#31020",
+  "PowerToys#32865",
+  "PowerToys#3384",
+  "PowerToys#3400",
+  "PowerToys#34277",
+  "PowerToys#34581",
+  "PowerToys#35445",
+  "PowerToys#35772",
+  "PowerToys#38449",
+  "PowerToys#38661",
+  "PowerToys#39364",
+  "PowerToys#39840",
+  "PowerToys#42553",
+  "PowerToys#42627",
+  "PowerToys#42716",
+  "PowerToys#43046",
+  "PowerToys#43254",
+  "PowerToys#43302",
+  "PowerToys#43704",
+  "PowerToys#43944",
+  "PowerToys#44286",
+  "PowerToys#44484",
+  "PowerToys#4452",
+  "PowerToys#44642",
+  "PowerToys#44797",
+  "PowerToys#44878",
+  "PowerToys#4523",
+  "PowerToys#45495",
+  "PowerToys#4661",
+  "PowerToys#47337",
+  "PowerToys#47476",
+  "PowerToys#48184",
+  "PowerToys#48428",
+  "PowerToys#48611",
+  "PowerToys#48907"
+ ],
+ "retrieval_seconds": 0.575370097940322,
+ "tool_calls": [
+  {
+   "t": 1794883926.8275187,
+   "tool": "search",
+   "args": {
+    "pattern": "modules re-enable themselves",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.045550111011834815,
+   "returned": []
+  },
+  {
+   "t": 1794883926.898174,
+   "tool": "search",
+   "args": {
+    "pattern": "turn back on",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05860407301224768,
+   "returned": [
+    "PowerToys#14263",
+    "PowerToys#48428",
+    "PowerToys#48184",
+    "PowerToys#43944",
+    "PowerToys#34277",
+    "PowerToys#32865",
+    "PowerToys#27850",
+    "PowerToys#26774",
+    "PowerToys#25984",
+    "PowerToys#23731",
+    "PowerToys#19261",
+    "PowerToys#17788",
+    "PowerToys#16192",
+    "PowerToys#15312",
+    "PowerToys#13591"
+   ]
+  },
+  {
+   "t": 1794883929.2268605,
+   "tool": "search",
+   "args": {
+    "pattern": "re-enabled",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05945853001321666,
+   "returned": [
+    "PowerToys#43302",
+    "PowerToys#39840",
+    "PowerToys#39364",
+    "PowerToys#35772",
+    "PowerToys#35445",
+    "PowerToys#24730",
+    "PowerToys#19775",
+    "PowerToys#4661",
+    "PowerToys#3400",
+    "PowerToys#3384",
+    "PowerToys#48611",
+    "PowerToys#47337",
+    "PowerToys#44878",
+    "PowerToys#44642",
+    "PowerToys#44484",
+    "PowerToys#44286",
+    "PowerToys#43704",
+    "PowerToys#43254",
+    "PowerToys#42716",
+    "PowerToys#42553"
+   ]
+  },
+  {
+   "t": 1794883929.3696773,
+   "tool": "search",
+   "args": {
+    "pattern": "disabled modules",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06663617299636826,
+   "returned": [
+    "PowerToys#45495",
+    "PowerToys#43046",
+    "PowerToys#31020",
+    "PowerToys#30800",
+    "PowerToys#30341",
+    "PowerToys#29586",
+    "PowerToys#20308",
+    "PowerToys#48907",
+    "PowerToys#47476",
+    "PowerToys#44797",
+    "PowerToys#38661",
+    "PowerToys#38449",
+    "PowerToys#30702",
+    "PowerToys#28939",
+    "PowerToys#23744",
+    "PowerToys#15955",
+    "PowerToys#15954"
+   ]
+  },
+  {
+   "t": 1794883930.930509,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48907"
+   },
+   "seconds": 0.00013061598292551935,
+   "returned": [
+    "PowerToys#48907"
+   ]
+  },
+  {
+   "t": 1794883931.1308007,
+   "tool": "search",
+   "args": {
+    "pattern": "resets all enabled",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05263026797911152,
+   "returned": [
+    "PowerToys#48907"
+   ]
+  },
+  {
+   "t": 1794883933.4479318,
+   "tool": "search",
+   "args": {
+    "pattern": "turn themselves back on",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07467429299140349,
+   "returned": []
+  },
+  {
+   "t": 1794883935.7807505,
+   "tool": "search",
+   "args": {
+    "pattern": "settings.json",
+    "regex": false,
+    "also": [
+     "modules",
+     "reset"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.16025865799747407,
+   "returned": [
+    "PowerToys#15450",
+    "PowerToys#34581",
+    "PowerToys#18015",
+    "PowerToys#42627",
+    "PowerToys#18347",
+    "PowerToys#4523",
+    "PowerToys#4452"
+   ]
+  },
+  {
+   "t": 1794883935.8446991,
+   "tool": "search",
+   "args": {
+    "pattern": "enable themselves",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05706562599516474,
+   "returned": [
+    "PowerToys#261"
+   ]
+  },
+  {
+   "t": 1794883937.3477652,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#15450"
+   },
+   "seconds": 0.00013977597700431943,
+   "returned": [
+    "PowerToys#15450"
+   ]
+  },
+  {
+   "t": 1794883937.5120916,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34581"
+   },
+   "seconds": 0.00022197398357093334,
+   "returned": [
+    "PowerToys#34581"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 20673,
+  "stop_reason": "end_turn",
+  "session_id": "675062ed-3c2b-45aa-98ff-6c72f1317997",
+  "total_cost_usd": 0.0963819,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 17758,
+   "cache_read_input_tokens": 54319,
+   "output_tokens": 1989,
+   "output_tokens_details": {
+    "thinking_tokens": 167
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 17758,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 778,
+     "cache_read_input_tokens": 13337,
+     "cache_creation_input_tokens": 5598,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5598
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1989,
+    "cacheReadInputTokens": 54319,
+    "cacheCreationInputTokens": 17758,
+    "webSearchRequests": 0,
+    "costUSD": 0.0963819,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 167,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 17758,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Probably yes. I found three past tickets that look like the same problem, but none is a confirmed match for your exact case.\n\nIn all three, PowerToys loses the saved on/off state of its modules and falls back to the defaults. Many of the defaults are \"on\", so features you turned off come back on.\n\n- **PowerToys#48907** (most similar, 0.100.x): enabled/disabled modules reset to the default state after each update. Your version, 0.101.2362, is newer than the ones reported there.\n- **PowerToys#34581:** most modules changed state after an update. Some modules you don't use, such as Always on Top and File Locksmith, were switched on. The runner log showed the settings being reset a couple of seconds before the update logger started. It also happened when PowerToys was launched right after login.\n- **PowerToys#15450:** the `\"enabled\"` section of `settings.json` was emptied when PowerToys started without admin rights, so everything reverted to the defaults. It did not happen when PowerToys ran as administrator, either through \"Run as administrator\" or the Task Scheduler startup entry.\n\nI think the \"after a few days\" in your report may be the Microsoft Store updating PowerToys in the background, but that is my guess. Those tickets don't confirm it.\n\nWhat to try:\n\n1. Check whether the resets line up with a PowerToys update. Compare the Store's update history with the dates the features came back.\n2. Turn on \"Run at startup\" in PowerToys, and try running PowerToys as administrator. That avoided the reset in #15450.\n3. Look at `%LOCALAPPDATA%\\Microsoft\\PowerToys\\settings.json`. Check that it isn't read-only, and that the `\"enabled\"` section is still populated after a reset.\n4. Keep your bug report ZIP on the ticket. Look in the runner log for \"malformed JSON\" errors or an `apply_general_settings` line at the moment the modules flip back on.\n5. Back up your PowerToys settings from the Settings app, so you can restore them quickly after a reset.",
+  "ttft_ms": 2760,
+  "type": "result",
+  "duration_ms": 21197,
+  "uuid": "0890c3b9-b3a3-4972-9689-812f62a8083f",
+  "ttft_stream_ms": 1368,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 1368,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1989,
+    "cacheReadInputTokens": 54319,
+    "cacheCreationInputTokens": 17758,
+    "webSearchRequests": 0,
+    "costUSD": 0.0963819,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 167,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 17758,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 22.436961289989995,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-qwfput1v/work"
+  }
+ },
+ "wall_seconds": 22.439191288984148,
+ "qid": "PowerToys#51155",
+ "arm": "B",
+ "parsed": {
+  "ok": false,
+  "seen_before": null,
+  "matches": [],
+  "answer": ""
+ },
+ "hit_turn_cap": false
+}

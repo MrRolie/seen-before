@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#375",
+  "PowerToys#1431",
+  "PowerToys#11463",
+  "PowerToys#5976",
+  "PowerToys#45923"
+ ],
+ "retrieval_seconds": 0.016013520013075322,
+ "retrieval_scores": [
+  0.5525664687156677,
+  0.5436745882034302,
+  0.5412911772727966,
+  0.5367496013641357,
+  0.5296197533607483
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2760,
+  "stop_reason": "end_turn",
+  "session_id": "1c2d442b-76e0-4a82-9b78-8bddb52f8d34",
+  "total_cost_usd": 0.02899,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6639,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 243,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6639,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 243,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6639,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6639
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 243,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6639,
+    "webSearchRequests": 0,
+    "costUSD": 0.02899,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6639,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find a past ticket reporting this problem. The archived Shortcut Guide tickets cover other issues: the Ctrl keypress sent when releasing the Win key, app-specific guides, the overlay staying open after a lock, and the overlay popping up on its own. None of them is about the foreground module/exe being logged only on the first invocation instead of on every trigger. Treat this as a new bug. The fix is to move the foreground-capture logging (LogForegroundCapture in Program.cs) so it runs on every overlay trigger, not just once at startup. That way each trigger leaves a log record to help diagnose cases where an application's shortcuts are not shown correctly.\"}",
+  "ttft_ms": 2925,
+  "type": "result",
+  "duration_ms": 2949,
+  "uuid": "2fb969a4-7a8c-4176-b503-14690548e46a",
+  "ttft_stream_ms": 1184,
+  "time_to_request_ms": 183,
+  "first_content_frame_ms": 1184,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 243,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6639,
+    "webSearchRequests": 0,
+    "costUSD": 0.02899,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6639,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.775802930991631,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-8pusatyp/work"
+  }
+ },
+ "wall_seconds": 3.7934444280108437,
+ "qid": "PowerToys#50586",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find a past ticket reporting this problem. The archived Shortcut Guide tickets cover other issues: the Ctrl keypress sent when releasing the Win key, app-specific guides, the overlay staying open after a lock, and the overlay popping up on its own. None of them is about the foreground module/exe being logged only on the first invocation instead of on every trigger. Treat this as a new bug. The fix is to move the foreground-capture logging (LogForegroundCapture in Program.cs) so it runs on every overlay trigger, not just once at startup. That way each trigger leaves a log record to help diagnose cases where an application's shortcuts are not shown correctly."
+ },
+ "hit_turn_cap": false
+}

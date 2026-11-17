@@ -1,0 +1,277 @@
+{
+ "shown": [
+  "PowerToys#10271",
+  "PowerToys#160",
+  "PowerToys#16139",
+  "PowerToys#1881",
+  "PowerToys#20204",
+  "PowerToys#21286",
+  "PowerToys#21623",
+  "PowerToys#21663",
+  "PowerToys#21686",
+  "PowerToys#21816",
+  "PowerToys#21999",
+  "PowerToys#22548",
+  "PowerToys#26490",
+  "PowerToys#30490",
+  "PowerToys#33616",
+  "PowerToys#36773",
+  "PowerToys#37679",
+  "PowerToys#39859",
+  "PowerToys#40673",
+  "PowerToys#61"
+ ],
+ "retrieval_seconds": 3.639638730994193,
+ "tool_calls": [
+  {
+   "t": 1794880747.9430726,
+   "tool": "similar",
+   "args": {
+    "query": "Hosts file editor profiles to toggle groups of host entries",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.6391076059953775,
+   "returned": [
+    "PowerToys#21686",
+    "PowerToys#20204",
+    "PowerToys#30490",
+    "PowerToys#37679",
+    "PowerToys#21286",
+    "PowerToys#21999",
+    "PowerToys#36773",
+    "PowerToys#40673",
+    "PowerToys#33616",
+    "PowerToys#21816",
+    "PowerToys#39859",
+    "PowerToys#22548",
+    "PowerToys#26490",
+    "PowerToys#21663",
+    "PowerToys#10271",
+    "PowerToys#16139",
+    "PowerToys#1881",
+    "PowerToys#61",
+    "PowerToys#21623",
+    "PowerToys#160"
+   ]
+  },
+  {
+   "t": 1794880748.831492,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21686"
+   },
+   "seconds": 0.00013476601452566683,
+   "returned": [
+    "PowerToys#21686"
+   ]
+  },
+  {
+   "t": 1794880749.0925775,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21999"
+   },
+   "seconds": 0.000263163005001843,
+   "returned": [
+    "PowerToys#21999"
+   ]
+  },
+  {
+   "t": 1794880749.2280557,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#20204"
+   },
+   "seconds": 0.00013319597928784788,
+   "returned": [
+    "PowerToys#20204"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 5008,
+  "stop_reason": "end_turn",
+  "session_id": "e1a16967-232c-4fd1-8674-c445d6b6448c",
+  "total_cost_usd": 0.026089,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 4899,
+   "cache_read_input_tokens": 7210,
+   "output_tokens": 576,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4899,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 200,
+     "cache_read_input_tokens": 3668,
+     "cache_creation_input_tokens": 2644,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2644
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 576,
+    "cacheReadInputTokens": 7210,
+    "cacheCreationInputTokens": 4899,
+    "webSearchRequests": 0,
+    "costUSD": 0.026089,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4899,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#21686\", \"PowerToys#21999\"], \"answer\": \"This feature request has been reported before. PowerToys#21686 asks for named groups of Hosts File Editor entries that you can switch on or off together. PowerToys#21999 asked for the same thing and was closed as a duplicate of #21686. The Hosts File Editor has no profile or group toggle yet. Follow and upvote #21686 to track progress, and add your Local/Staging/Production scenarios there. Until then, you can toggle entries one at a time with each entry's Active switch.\"}",
+  "ttft_ms": 1542,
+  "type": "result",
+  "duration_ms": 8699,
+  "uuid": "448d16a5-b547-4df0-a309-a79d23e73c03",
+  "ttft_stream_ms": 573,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 573,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 576,
+    "cacheReadInputTokens": 7210,
+    "cacheCreationInputTokens": 4899,
+    "webSearchRequests": 0,
+    "costUSD": 0.026089,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4899,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.06164136499865,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-_risrtnl/work"
+  }
+ },
+ "wall_seconds": 10.06379151798319,
+ "qid": "PowerToys#50005",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#21686",
+   "PowerToys#21999"
+  ],
+  "answer": "This feature request has been reported before. PowerToys#21686 asks for named groups of Hosts File Editor entries that you can switch on or off together. PowerToys#21999 asked for the same thing and was closed as a duplicate of #21686. The Hosts File Editor has no profile or group toggle yet. Follow and upvote #21686 to track progress, and add your Local/Staging/Production scenarios there. Until then, you can toggle entries one at a time with each entry's Active switch."
+ },
+ "hit_turn_cap": false
+}

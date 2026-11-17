@@ -1,0 +1,456 @@
+{
+ "shown": [
+  "PowerToys#10165",
+  "PowerToys#10324",
+  "PowerToys#1171",
+  "PowerToys#12370",
+  "PowerToys#2087",
+  "PowerToys#2241",
+  "PowerToys#23997",
+  "PowerToys#24403",
+  "PowerToys#32950",
+  "PowerToys#32960",
+  "PowerToys#32968",
+  "PowerToys#33006",
+  "PowerToys#33007",
+  "PowerToys#33163",
+  "PowerToys#34211",
+  "PowerToys#34310",
+  "PowerToys#34794",
+  "PowerToys#34896",
+  "PowerToys#35901",
+  "PowerToys#3630",
+  "PowerToys#36624",
+  "PowerToys#37132",
+  "PowerToys#37846",
+  "PowerToys#38121",
+  "PowerToys#3845",
+  "PowerToys#38996",
+  "PowerToys#40282",
+  "PowerToys#40432",
+  "PowerToys#4152",
+  "PowerToys#41937",
+  "PowerToys#43814",
+  "PowerToys#43951",
+  "PowerToys#44295",
+  "PowerToys#44480",
+  "PowerToys#4473",
+  "PowerToys#45268",
+  "PowerToys#45340",
+  "PowerToys#47292",
+  "PowerToys#5156",
+  "PowerToys#602",
+  "PowerToys#6457",
+  "PowerToys#6480",
+  "PowerToys#6493",
+  "PowerToys#6494",
+  "PowerToys#6510",
+  "PowerToys#6516",
+  "PowerToys#6519",
+  "PowerToys#6521",
+  "PowerToys#6522",
+  "PowerToys#6527",
+  "PowerToys#6966",
+  "PowerToys#746",
+  "PowerToys#7512",
+  "PowerToys#7524",
+  "PowerToys#7798",
+  "PowerToys#7850",
+  "PowerToys#850",
+  "PowerToys#8668",
+  "PowerToys#9092",
+  "PowerToys#9169",
+  "PowerToys#9327",
+  "PowerToys#96",
+  "WSL#12933",
+  "WSL#13292",
+  "WSL#1331",
+  "WSL#14504",
+  "WSL#185",
+  "WSL#1852",
+  "WSL#2482",
+  "WSL#2648",
+  "WSL#2669",
+  "WSL#2677",
+  "WSL#3265",
+  "WSL#3459",
+  "WSL#3561",
+  "WSL#3762",
+  "WSL#4005",
+  "WSL#40444",
+  "WSL#4062",
+  "WSL#5067",
+  "WSL#5556",
+  "WSL#644",
+  "WSL#7317",
+  "WSL#8494",
+  "WSL#94",
+  "terminal#3870",
+  "terminal#5736",
+  "terminal#6397",
+  "terminal#722",
+  "terminal#922"
+ ],
+ "retrieval_seconds": 3.4401407109980937,
+ "tool_calls": [
+  {
+   "t": 1794882260.756295,
+   "tool": "search",
+   "args": {
+    "query": "Phi Silica cannot be downloaded Advanced Paste 0x80070005 access denied",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.38156650000019,
+   "returned": [
+    "PowerToys#6480",
+    "PowerToys#45340",
+    "PowerToys#32968",
+    "PowerToys#6521",
+    "PowerToys#43814",
+    "PowerToys#47292",
+    "PowerToys#6527",
+    "PowerToys#6522",
+    "PowerToys#43951",
+    "PowerToys#9169",
+    "PowerToys#10165",
+    "PowerToys#9327",
+    "PowerToys#1171",
+    "PowerToys#36624",
+    "PowerToys#24403",
+    "PowerToys#6516",
+    "PowerToys#746",
+    "PowerToys#6494",
+    "PowerToys#7850",
+    "PowerToys#6966"
+   ]
+  },
+  {
+   "t": 1794882260.7781425,
+   "tool": "search",
+   "args": {
+    "query": "Advanced Paste Phi Silica download model error",
+    "repo": null
+   },
+   "seconds": 0.011509680014569312,
+   "returned": [
+    "PowerToys#45340",
+    "PowerToys#32968",
+    "WSL#3265",
+    "PowerToys#32960",
+    "WSL#2482",
+    "PowerToys#40282",
+    "WSL#3561",
+    "PowerToys#47292",
+    "PowerToys#37132",
+    "PowerToys#6480",
+    "PowerToys#6522",
+    "WSL#5556",
+    "terminal#5736",
+    "WSL#3459",
+    "terminal#3870",
+    "terminal#6397",
+    "WSL#7317",
+    "PowerToys#44480",
+    "WSL#2677",
+    "PowerToys#45268"
+   ]
+  },
+  {
+   "t": 1794882261.9422507,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40282"
+   },
+   "seconds": 0.00015986597281880677,
+   "returned": [
+    "PowerToys#40282"
+   ]
+  },
+  {
+   "t": 1794882263.1993027,
+   "tool": "search",
+   "args": {
+    "query": "Phi Silica model download access denied Windows AI components NPU Copilot+",
+    "repo": null
+   },
+   "seconds": 0.014415334007935598,
+   "returned": [
+    "WSL#3762",
+    "WSL#8494",
+    "PowerToys#5156",
+    "WSL#12933",
+    "WSL#5067",
+    "terminal#722",
+    "WSL#94",
+    "WSL#2648",
+    "WSL#185",
+    "WSL#14504",
+    "WSL#4005",
+    "WSL#40444",
+    "PowerToys#3845",
+    "terminal#922",
+    "WSL#4062",
+    "WSL#2669",
+    "WSL#644",
+    "WSL#1852",
+    "WSL#13292",
+    "WSL#1331"
+   ]
+  },
+  {
+   "t": 1794882264.294526,
+   "tool": "search",
+   "args": {
+    "query": "Advanced Paste local model Windows AI \"Download model\" fails",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.016190757014555857,
+   "returned": [
+    "PowerToys#37132",
+    "PowerToys#32960",
+    "PowerToys#33007",
+    "PowerToys#38121",
+    "PowerToys#32968",
+    "PowerToys#37846",
+    "PowerToys#45340",
+    "PowerToys#40282",
+    "PowerToys#33163",
+    "PowerToys#34310",
+    "PowerToys#38996",
+    "PowerToys#40432",
+    "PowerToys#44295",
+    "PowerToys#41937",
+    "PowerToys#34211",
+    "PowerToys#35901",
+    "PowerToys#34794",
+    "PowerToys#32950",
+    "PowerToys#33006",
+    "PowerToys#34896"
+   ]
+  },
+  {
+   "t": 1794882265.0200248,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38121"
+   },
+   "seconds": 0.00015998599701561034,
+   "returned": [
+    "PowerToys#38121"
+   ]
+  },
+  {
+   "t": 1794882266.4208078,
+   "tool": "search",
+   "args": {
+    "query": "Phi Silica not available, model download error in PowerToys settings",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.016138587991008535,
+   "returned": [
+    "PowerToys#4473",
+    "PowerToys#96",
+    "PowerToys#850",
+    "PowerToys#7524",
+    "PowerToys#2087",
+    "PowerToys#4152",
+    "PowerToys#9092",
+    "PowerToys#6457",
+    "PowerToys#3630",
+    "PowerToys#6493",
+    "PowerToys#2241",
+    "PowerToys#7798",
+    "PowerToys#6519",
+    "PowerToys#10324",
+    "PowerToys#6510",
+    "PowerToys#7512",
+    "PowerToys#23997",
+    "PowerToys#602",
+    "PowerToys#8668",
+    "PowerToys#12370"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9896,
+  "stop_reason": "end_turn",
+  "session_id": "a161b3ee-f216-4f48-aae8-d8c8a487d73c",
+  "total_cost_usd": 0.0537282,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 10208,
+   "cache_read_input_tokens": 41882,
+   "output_tokens": 868,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10208,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 269,
+     "cache_read_input_tokens": 9733,
+     "cache_creation_input_tokens": 1508,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1508
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 868,
+    "cacheReadInputTokens": 41882,
+    "cacheCreationInputTokens": 10208,
+    "webSearchRequests": 0,
+    "costUSD": 0.0537282,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10208,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket in the archive that reports this problem. The 0x80070005 \\\"Access denied\\\" error when downloading Phi Silica from Advanced Paste has not been reported before. The Phi Silica tickets I found (PowerToys#40282 and PowerToys#38121) are feature requests for local-model support. They don't cover download failures. Please leave this ticket open for the team to triage, and keep the bug report ZIP attached. In the meantime, you could try Windows Update to install any pending AI component updates. The AI Dev Gallery already shows the model as downloaded, so you could also check that Phi Silica works from there. Please also say whether the error still occurs after you restart the PC. Neither step is confirmed as a fix by any past ticket.\"}",
+  "ttft_ms": 1604,
+  "type": "result",
+  "duration_ms": 13412,
+  "uuid": "57ec7fcd-2b05-49b1-bf98-a615e174dd0a",
+  "ttft_stream_ms": 728,
+  "time_to_request_ms": 28,
+  "first_content_frame_ms": 728,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 868,
+    "cacheReadInputTokens": 41882,
+    "cacheCreationInputTokens": 10208,
+    "webSearchRequests": 0,
+    "costUSD": 0.0537282,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10208,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.759356864989968,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-826zo73d/work"
+  }
+ },
+ "wall_seconds": 14.761966476013185,
+ "qid": "PowerToys#50420",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket in the archive that reports this problem. The 0x80070005 \"Access denied\" error when downloading Phi Silica from Advanced Paste has not been reported before. The Phi Silica tickets I found (PowerToys#40282 and PowerToys#38121) are feature requests for local-model support. They don't cover download failures. Please leave this ticket open for the team to triage, and keep the bug report ZIP attached. In the meantime, you could try Windows Update to install any pending AI component updates. The AI Dev Gallery already shows the model as downloaded, so you could also check that Phi Silica works from there. Please also say whether the error still occurs after you restart the PC. Neither step is confirmed as a fix by any past ticket."
+ },
+ "hit_turn_cap": false
+}

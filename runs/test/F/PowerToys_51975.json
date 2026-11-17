@@ -1,0 +1,193 @@
+{
+ "shown": [
+  "PowerToys#25121",
+  "PowerToys#47850",
+  "PowerToys#264",
+  "PowerToys#1392",
+  "PowerToys#32825"
+ ],
+ "retrieval_seconds": 0.44423457997618243,
+ "retrieval_scores": [
+  0.02976190476190476,
+  0.028298204527712725,
+  0.027673192771084338,
+  0.027598020555767037,
+  0.02528560548362529
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2939,
+  "stop_reason": "end_turn",
+  "session_id": "face9e0c-c517-4fa9-83d5-1ce0434318d0",
+  "total_cost_usd": 0.03712,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 8559,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 288,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8559,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 288,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 8559,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 8559
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 288,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 8559,
+    "webSearchRequests": 0,
+    "costUSD": 0.03712,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8559,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#1392\"], \"answer\": \"This request has been filed before as PowerToys#1392 (Desktop Icon \\\"Zones\\\" with headers, aka Fences). It asks for named groups on the desktop that hold icons, like Stardock Fences. That ticket has no implementation or timeline from the PowerToys team, so the feature does not exist yet. Add your thumbs-up and any extra details there, such as the expand and collapse behavior or Mac-style stacks. In the meantime, commenters on that ticket use third-party tools such as Stardock Fences, Portals (https://github.com/[user]/Portals-Desktop-Organization) or Tiels. The taskbar-grouping tickets (PowerToys#264, #25121) are about the taskbar, not the desktop, so they are not the same request.\"}",
+  "ttft_ms": 3092,
+  "type": "result",
+  "duration_ms": 3109,
+  "uuid": "ab5ed6c4-e531-4849-abfe-9f1e8a875cd1",
+  "ttft_stream_ms": 1162,
+  "time_to_request_ms": 169,
+  "first_content_frame_ms": 1163,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 288,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 8559,
+    "webSearchRequests": 0,
+    "costUSD": 0.03712,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8559,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.193696665985044,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-riyuq05s/work"
+  }
+ },
+ "wall_seconds": 4.639832428976661,
+ "qid": "PowerToys#51975",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#1392"
+  ],
+  "answer": "This request has been filed before as PowerToys#1392 (Desktop Icon \"Zones\" with headers, aka Fences). It asks for named groups on the desktop that hold icons, like Stardock Fences. That ticket has no implementation or timeline from the PowerToys team, so the feature does not exist yet. Add your thumbs-up and any extra details there, such as the expand and collapse behavior or Mac-style stacks. In the meantime, commenters on that ticket use third-party tools such as Stardock Fences, Portals (https://github.com/[user]/Portals-Desktop-Organization) or Tiels. The taskbar-grouping tickets (PowerToys#264, #25121) are about the taskbar, not the desktop, so they are not the same request."
+ },
+ "hit_turn_cap": false
+}

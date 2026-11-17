@@ -1,0 +1,193 @@
+{
+ "shown": [
+  "PowerToys#37482",
+  "PowerToys#23589",
+  "PowerToys#23526",
+  "PowerToys#37618",
+  "PowerToys#24256"
+ ],
+ "retrieval_seconds": 0.018132478988263756,
+ "retrieval_scores": [
+  0.7903498411178589,
+  0.7184744477272034,
+  0.7112306952476501,
+  0.6820935010910034,
+  0.6674589514732361
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3228,
+  "stop_reason": "end_turn",
+  "session_id": "c98adee1-793c-4a08-8a09-ed0154e2aa9a",
+  "total_cost_usd": 0.041874,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 9710,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 303,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9710,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 303,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 9710,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 9710
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 303,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 9710,
+    "webSearchRequests": 0,
+    "costUSD": 0.041874,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9710,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#37482\"], \"answer\": \"This exact crash (System.InvalidOperationException: 'ItemCollection has no inner collection' thrown from PowerLauncher.MainWindow.ViewModel_PropertyChanged during OnLoaded / set_MainWindowVisibility) was reported before in PowerToys#37482 on v0.88.0.0, where PowerToys Run crashed at every startup. That ticket has no recorded fix or workaround in the archive, so there is no confirmed solution yet. Please add your details (version 0.100.1.0, Windows 10 build 19045, that it happens at startup) to that ticket, and attach a Bug Report ZIP from PowerToys. Meanwhile, you could try restarting PowerToys or temporarily disabling PowerToys Run, but these are untested suggestions, not confirmed fixes.\"}",
+  "ttft_ms": 3424,
+  "type": "result",
+  "duration_ms": 3441,
+  "uuid": "ca6f2b56-54c4-42eb-8057-17861f4415a6",
+  "ttft_stream_ms": 1407,
+  "time_to_request_ms": 213,
+  "first_content_frame_ms": 1407,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 303,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 9710,
+    "webSearchRequests": 0,
+    "costUSD": 0.041874,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9710,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.360123869002564,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-0ubfi6jg/work"
+  }
+ },
+ "wall_seconds": 4.380541650985833,
+ "qid": "PowerToys#49766",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#37482"
+  ],
+  "answer": "This exact crash (System.InvalidOperationException: 'ItemCollection has no inner collection' thrown from PowerLauncher.MainWindow.ViewModel_PropertyChanged during OnLoaded / set_MainWindowVisibility) was reported before in PowerToys#37482 on v0.88.0.0, where PowerToys Run crashed at every startup. That ticket has no recorded fix or workaround in the archive, so there is no confirmed solution yet. Please add your details (version 0.100.1.0, Windows 10 build 19045, that it happens at startup) to that ticket, and attach a Bug Report ZIP from PowerToys. Meanwhile, you could try restarting PowerToys or temporarily disabling PowerToys Run, but these are untested suggestions, not confirmed fixes."
+ },
+ "hit_turn_cap": false
+}

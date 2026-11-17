@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#38578",
+  "PowerToys#48109",
+  "PowerToys#46167",
+  "PowerToys#45624",
+  "PowerToys#40097"
+ ],
+ "retrieval_seconds": 0.01834062798297964,
+ "retrieval_scores": [
+  0.7584511637687683,
+  0.7446458339691162,
+  0.7401260733604431,
+  0.7356052398681641,
+  0.7251219749450684
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2337,
+  "stop_reason": "end_turn",
+  "session_id": "bc8c352f-81e5-4ad1-aaf1-8456e754f405",
+  "total_cost_usd": 0.027526000000000002,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6223,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 263,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6223,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 263,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6223,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6223
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 263,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6223,
+    "webSearchRequests": 0,
+    "costUSD": 0.027526000000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6223,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find a past ticket reporting this same problem. The archived Command Palette calculator tickets cover different issues: huge or extra zeros in results (PowerToys#45624, PowerToys#40097), a too-large/too-small decimal error (PowerToys#46167), max() argument ordering (PowerToys#48109), and large integer multiplication (PowerToys#38578). None of them describes small floating-point drift like 615.419-614.738 returning 0.68099999999993. Please keep this ticket open as a new report. Include the exact expressions and results you gave (e.g. 616.686-615.158 returning 1.52800000000002), and your regional number format, so the team can investigate the precision/rounding behavior of the calculator.\"}",
+  "ttft_ms": 2495,
+  "type": "result",
+  "duration_ms": 2514,
+  "uuid": "c72aa19e-0574-44e5-8873-2fdef80f3139",
+  "ttft_stream_ms": 639,
+  "time_to_request_ms": 174,
+  "first_content_frame_ms": 640,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 263,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6223,
+    "webSearchRequests": 0,
+    "costUSD": 0.027526000000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6223,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.300157419027528,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-9gbeazr8/work"
+  }
+ },
+ "wall_seconds": 3.3201314820034895,
+ "qid": "PowerToys#49642",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find a past ticket reporting this same problem. The archived Command Palette calculator tickets cover different issues: huge or extra zeros in results (PowerToys#45624, PowerToys#40097), a too-large/too-small decimal error (PowerToys#46167), max() argument ordering (PowerToys#48109), and large integer multiplication (PowerToys#38578). None of them describes small floating-point drift like 615.419-614.738 returning 0.68099999999993. Please keep this ticket open as a new report. Include the exact expressions and results you gave (e.g. 616.686-615.158 returning 1.52800000000002), and your regional number format, so the team can investigate the precision/rounding behavior of the calculator."
+ },
+ "hit_turn_cap": false
+}

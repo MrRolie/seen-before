@@ -1,0 +1,351 @@
+{
+ "shown": [
+  "PowerToys#10300",
+  "PowerToys#10869",
+  "PowerToys#13177",
+  "PowerToys#15047",
+  "PowerToys#15479",
+  "PowerToys#17079",
+  "PowerToys#18218",
+  "PowerToys#19392",
+  "PowerToys#20599",
+  "PowerToys#2277",
+  "PowerToys#24311",
+  "PowerToys#24671",
+  "PowerToys#27700",
+  "PowerToys#29824",
+  "PowerToys#30398",
+  "PowerToys#31426",
+  "PowerToys#33682",
+  "PowerToys#3381",
+  "PowerToys#34069",
+  "PowerToys#34238",
+  "PowerToys#34634",
+  "PowerToys#36144",
+  "PowerToys#37853",
+  "PowerToys#43082",
+  "PowerToys#43912",
+  "PowerToys#46764",
+  "PowerToys#6761",
+  "PowerToys#8510",
+  "PowerToys#8769",
+  "PowerToys#9198"
+ ],
+ "retrieval_seconds": 3.2203766430029646,
+ "tool_calls": [
+  {
+   "t": 1794880292.6299646,
+   "tool": "search",
+   "args": {
+    "query": "sign in with account and sync settings across multiple computers",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.2071282579854596,
+   "returned": [
+    "PowerToys#43082",
+    "PowerToys#3381",
+    "PowerToys#24671",
+    "PowerToys#2277",
+    "PowerToys#9198",
+    "PowerToys#15047",
+    "PowerToys#34238",
+    "PowerToys#31426",
+    "PowerToys#29824",
+    "PowerToys#20599",
+    "PowerToys#15479",
+    "PowerToys#27700",
+    "PowerToys#46764",
+    "PowerToys#17079",
+    "PowerToys#33682",
+    "PowerToys#13177",
+    "PowerToys#34069",
+    "PowerToys#43912",
+    "PowerToys#36144",
+    "PowerToys#37853"
+   ]
+  },
+  {
+   "t": 1794880292.658179,
+   "tool": "search",
+   "args": {
+    "query": "cloud sync of PowerToys settings between machines",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012424546992406249,
+   "returned": [
+    "PowerToys#3381",
+    "PowerToys#2277",
+    "PowerToys#15479",
+    "PowerToys#8769",
+    "PowerToys#6761",
+    "PowerToys#8510",
+    "PowerToys#19392",
+    "PowerToys#18218",
+    "PowerToys#46764",
+    "PowerToys#10300",
+    "PowerToys#13177",
+    "PowerToys#37853",
+    "PowerToys#30398",
+    "PowerToys#24671",
+    "PowerToys#24311",
+    "PowerToys#36144",
+    "PowerToys#31426",
+    "PowerToys#10869",
+    "PowerToys#34634",
+    "PowerToys#29824"
+   ]
+  },
+  {
+   "t": 1794880294.0168266,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43082"
+   },
+   "seconds": 0.00012402702122926712,
+   "returned": [
+    "PowerToys#43082"
+   ]
+  },
+  {
+   "t": 1794880294.1741283,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#3381"
+   },
+   "seconds": 0.00018627499230206013,
+   "returned": [
+    "PowerToys#3381"
+   ]
+  },
+  {
+   "t": 1794880295.7096627,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34238"
+   },
+   "seconds": 0.00010879698675125837,
+   "returned": [
+    "PowerToys#34238"
+   ]
+  },
+  {
+   "t": 1794880297.1533325,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#15047"
+   },
+   "seconds": 9.981798939406872e-05,
+   "returned": [
+    "PowerToys#15047"
+   ]
+  },
+  {
+   "t": 1794880298.5077481,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#36144"
+   },
+   "seconds": 0.00010800702148117125,
+   "returned": [
+    "PowerToys#36144"
+   ]
+  },
+  {
+   "t": 1794880299.8878493,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#9198"
+   },
+   "seconds": 0.00019691401394084096,
+   "returned": [
+    "PowerToys#9198"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12550,
+  "stop_reason": "end_turn",
+  "session_id": "6bff2737-13ac-4bee-8767-dc805a9bbf80",
+  "total_cost_usd": 0.039078499999999995,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 6723,
+   "cache_read_input_tokens": 34285,
+   "output_tokens": 873,
+   "output_tokens_details": {
+    "thinking_tokens": 18
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6723,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 291,
+     "cache_read_input_tokens": 7475,
+     "cache_creation_input_tokens": 281,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 281
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 873,
+    "cacheReadInputTokens": 34285,
+    "cacheCreationInputTokens": 6723,
+    "webSearchRequests": 0,
+    "costUSD": 0.039078499999999995,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 18,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6723,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#34238\", \"PowerToys#3381\", \"PowerToys#43082\"], \"answer\": \"This feature request has been filed many times before. PowerToys doesn't currently offer account sign-in (Microsoft or Google) or online settings sync. Newer requests are closed as duplicates of PowerToys#34238 and the long-running PowerToys#3381, so add a 👍 or any extra detail there. The online editing and per-computer settings you describe are new details you can add. In the meantime, PowerToys Settings has a built-in backup/restore and import/export option. You can save the backup to OneDrive or another cloud folder and restore it on your other PC. Past comments suggest it may not restore cleanly across machines, so check it on your setup. Some users also copy the PowerToys settings JSON files or sync them with tools such as rclone.\"}",
+  "ttft_ms": 2170,
+  "type": "result",
+  "duration_ms": 15849,
+  "uuid": "308cc464-c360-47f6-b353-50eda7fe15b1",
+  "ttft_stream_ms": 1212,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 1212,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 873,
+    "cacheReadInputTokens": 34285,
+    "cacheCreationInputTokens": 6723,
+    "webSearchRequests": 0,
+    "costUSD": 0.039078499999999995,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 18,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6723,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.98834525901475,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ciolz1iq/work"
+  }
+ },
+ "wall_seconds": 16.989896258019144,
+ "qid": "PowerToys#49959",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#34238",
+   "PowerToys#3381",
+   "PowerToys#43082"
+  ],
+  "answer": "This feature request has been filed many times before. PowerToys doesn't currently offer account sign-in (Microsoft or Google) or online settings sync. Newer requests are closed as duplicates of PowerToys#34238 and the long-running PowerToys#3381, so add a 👍 or any extra detail there. The online editing and per-computer settings you describe are new details you can add. In the meantime, PowerToys Settings has a built-in backup/restore and import/export option. You can save the backup to OneDrive or another cloud folder and restore it on your other PC. Past comments suggest it may not restore cleanly across machines, so check it on your setup. Some users also copy the PowerToys settings JSON files or sync them with tools such as rclone."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,314 @@
+{
+ "shown": [
+  "PowerToys#10224",
+  "PowerToys#10256",
+  "PowerToys#10415",
+  "PowerToys#10682",
+  "PowerToys#11555",
+  "PowerToys#11984",
+  "PowerToys#1406",
+  "PowerToys#14161",
+  "PowerToys#14204",
+  "PowerToys#14912",
+  "PowerToys#16466",
+  "PowerToys#16769",
+  "PowerToys#19126",
+  "PowerToys#19317",
+  "PowerToys#21467",
+  "PowerToys#21826",
+  "PowerToys#2277",
+  "PowerToys#24521",
+  "PowerToys#26",
+  "PowerToys#27138",
+  "PowerToys#29690",
+  "PowerToys#3108",
+  "PowerToys#32600",
+  "PowerToys#34112",
+  "PowerToys#3531",
+  "PowerToys#44917",
+  "PowerToys#4506",
+  "PowerToys#4554",
+  "PowerToys#46189",
+  "PowerToys#4623",
+  "PowerToys#586",
+  "PowerToys#6280",
+  "PowerToys#6640",
+  "PowerToys#75",
+  "PowerToys#844",
+  "PowerToys#8510",
+  "PowerToys#8789"
+ ],
+ "retrieval_seconds": 3.4967609320010524,
+ "tool_calls": [
+  {
+   "t": 1794878159.446732,
+   "tool": "search",
+   "args": {
+    "query": "bring back SyncToy",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.4837694769958034,
+   "returned": [
+    "PowerToys#26",
+    "PowerToys#27138",
+    "PowerToys#16769",
+    "PowerToys#10682",
+    "PowerToys#844",
+    "PowerToys#75",
+    "PowerToys#8510",
+    "PowerToys#32600",
+    "PowerToys#4554",
+    "PowerToys#46189",
+    "PowerToys#24521",
+    "PowerToys#14204",
+    "PowerToys#14161",
+    "PowerToys#8789",
+    "PowerToys#10415",
+    "PowerToys#44917",
+    "PowerToys#11984",
+    "PowerToys#10224",
+    "PowerToys#4506",
+    "PowerToys#1406"
+   ]
+  },
+  {
+   "t": 1794878159.4734352,
+   "tool": "search",
+   "args": {
+    "query": "file synchronization folder sync utility PowerToys module",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012683982989983633,
+   "returned": [
+    "PowerToys#8510",
+    "PowerToys#8789",
+    "PowerToys#3108",
+    "PowerToys#26",
+    "PowerToys#19317",
+    "PowerToys#4623",
+    "PowerToys#19126",
+    "PowerToys#2277",
+    "PowerToys#16466",
+    "PowerToys#14912",
+    "PowerToys#29690",
+    "PowerToys#21467",
+    "PowerToys#10256",
+    "PowerToys#6640",
+    "PowerToys#11555",
+    "PowerToys#3531",
+    "PowerToys#21826",
+    "PowerToys#586",
+    "PowerToys#34112",
+    "PowerToys#6280"
+   ]
+  },
+  {
+   "t": 1794878161.1836066,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#16769"
+   },
+   "seconds": 0.00016354600666090846,
+   "returned": [
+    "PowerToys#16769"
+   ]
+  },
+  {
+   "t": 1794878161.3380919,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#26"
+   },
+   "seconds": 0.00014392600860446692,
+   "returned": [
+    "PowerToys#26"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7501,
+  "stop_reason": "end_turn",
+  "session_id": "80de166f-8297-47b0-ad64-c69827a26267",
+  "total_cost_usd": 0.0358116,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 7261,
+   "cache_read_input_tokens": 7256,
+   "output_tokens": 603,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7261,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 291,
+     "cache_read_input_tokens": 4259,
+     "cache_creation_input_tokens": 4035,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4035
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 603,
+    "cacheReadInputTokens": 7256,
+    "cacheCreationInputTokens": 7261,
+    "webSearchRequests": 0,
+    "costUSD": 0.0358116,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7261,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#26\", \"PowerToys#16769\", \"PowerToys#8510\"], \"answer\": \"This request has been filed many times before. The main thread is PowerToys#26 (\\\"SyncToy and Robocopy\\\"), and other SyncToy tickets have been closed as duplicates of it. SyncToy isn't part of PowerToys now, and the archive shows no commitment to bring it back. In that thread the maintainer's summary was \\\"bring back SyncToy\\\", so it stays a feature request. Add your +1 and your use case to PowerToys#26. In the meantime, Windows' built-in Robocopy handles folder mirroring and can be scheduled with Task Scheduler. Third-party sync tools such as SyncBack or rsync (through WSL) are other options. The thread says not to share unofficial SyncToy installer links.\"}",
+  "ttft_ms": 2469,
+  "type": "result",
+  "duration_ms": 11055,
+  "uuid": "dbfb98ca-4f6f-4407-9b97-8ad2e657d9c4",
+  "ttft_stream_ms": 1456,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 1456,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 603,
+    "cacheReadInputTokens": 7256,
+    "cacheCreationInputTokens": 7261,
+    "webSearchRequests": 0,
+    "costUSD": 0.0358116,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7261,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.349223705008626,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-d6og7_1i/work"
+  }
+ },
+ "wall_seconds": 12.351052607002202,
+ "qid": "PowerToys#49369",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#26",
+   "PowerToys#16769",
+   "PowerToys#8510"
+  ],
+  "answer": "This request has been filed many times before. The main thread is PowerToys#26 (\"SyncToy and Robocopy\"), and other SyncToy tickets have been closed as duplicates of it. SyncToy isn't part of PowerToys now, and the archive shows no commitment to bring it back. In that thread the maintainer's summary was \"bring back SyncToy\", so it stays a feature request. Add your +1 and your use case to PowerToys#26. In the meantime, Windows' built-in Robocopy handles folder mirroring and can be scheduled with Task Scheduler. Third-party sync tools such as SyncBack or rsync (through WSL) are other options. The thread says not to share unofficial SyncToy installer links."
+ },
+ "hit_turn_cap": false
+}

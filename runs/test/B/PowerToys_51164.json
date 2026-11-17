@@ -1,0 +1,542 @@
+{
+ "shown": [
+  "PowerToys#11734",
+  "PowerToys#14535",
+  "PowerToys#14546",
+  "PowerToys#16021",
+  "PowerToys#21042",
+  "PowerToys#26506",
+  "PowerToys#27115",
+  "PowerToys#28769",
+  "PowerToys#29651",
+  "PowerToys#34798",
+  "PowerToys#3641",
+  "PowerToys#37085",
+  "PowerToys#37143",
+  "PowerToys#37197",
+  "PowerToys#38297",
+  "PowerToys#38393",
+  "PowerToys#38528",
+  "PowerToys#38607",
+  "PowerToys#38732",
+  "PowerToys#39441",
+  "PowerToys#39655",
+  "PowerToys#39674",
+  "PowerToys#39704",
+  "PowerToys#39890",
+  "PowerToys#40195",
+  "PowerToys#40611",
+  "PowerToys#41011",
+  "PowerToys#41229",
+  "PowerToys#41265",
+  "PowerToys#41452",
+  "PowerToys#41468",
+  "PowerToys#41591",
+  "PowerToys#41854",
+  "PowerToys#41984",
+  "PowerToys#41986",
+  "PowerToys#43173",
+  "PowerToys#43715",
+  "PowerToys#43906",
+  "PowerToys#44772",
+  "PowerToys#45126",
+  "PowerToys#45295",
+  "PowerToys#45879",
+  "PowerToys#46158",
+  "PowerToys#46332",
+  "PowerToys#46547",
+  "PowerToys#46560",
+  "PowerToys#46693",
+  "PowerToys#46790",
+  "PowerToys#47145",
+  "PowerToys#47271",
+  "PowerToys#47491",
+  "PowerToys#47617",
+  "PowerToys#48433",
+  "PowerToys#48598",
+  "PowerToys#6976",
+  "WSL#11",
+  "WSL#1640",
+  "WSL#183",
+  "WSL#5895",
+  "terminal#1212",
+  "terminal#13388",
+  "terminal#1375",
+  "terminal#15199"
+ ],
+ "retrieval_seconds": 1.727847496047616,
+ "tool_calls": [
+  {
+   "t": 1794884021.9197276,
+   "tool": "search",
+   "args": {
+    "pattern": "Command Palette",
+    "regex": false,
+    "also": [
+     "pipe"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11083639299613424,
+   "returned": [
+    "PowerToys#47145",
+    "PowerToys#38528",
+    "PowerToys#45879",
+    "PowerToys#48433",
+    "PowerToys#48598",
+    "PowerToys#46547",
+    "PowerToys#41984",
+    "PowerToys#40195"
+   ]
+  },
+  {
+   "t": 1794884022.2466528,
+   "tool": "search",
+   "args": {
+    "pattern": "can't type \"|\"",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.057761193020269275,
+   "returned": []
+  },
+  {
+   "t": 1794884022.7895966,
+   "tool": "search",
+   "args": {
+    "pattern": "Command Palette",
+    "regex": false,
+    "also": [
+     "administrator",
+     "character"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1707264370052144,
+   "returned": [
+    "PowerToys#38393",
+    "PowerToys#28769"
+   ]
+  },
+  {
+   "t": 1794884023.9359403,
+   "tool": "search",
+   "args": {
+    "pattern": "keyboard hook",
+    "regex": false,
+    "also": [
+     "CmdPal"
+    ],
+    "repo": null
+   },
+   "seconds": 0.12219536301563494,
+   "returned": [
+    "PowerToys#45126",
+    "PowerToys#43906",
+    "PowerToys#38297",
+    "PowerToys#43173",
+    "PowerToys#41468",
+    "PowerToys#41265",
+    "PowerToys#43715",
+    "PowerToys#41229",
+    "PowerToys#40611",
+    "PowerToys#46790",
+    "PowerToys#46332",
+    "PowerToys#46158",
+    "PowerToys#45295",
+    "PowerToys#41591",
+    "PowerToys#41011",
+    "PowerToys#39890",
+    "PowerToys#39704",
+    "PowerToys#39655",
+    "PowerToys#39441",
+    "PowerToys#38607"
+   ]
+  },
+  {
+   "t": 1794884024.3371859,
+   "tool": "search",
+   "args": {
+    "pattern": "backslash",
+    "regex": false,
+    "also": [
+     "Command Palette"
+    ],
+    "repo": null
+   },
+   "seconds": 0.13485979702090845,
+   "returned": [
+    "WSL#1640",
+    "PowerToys#44772"
+   ]
+  },
+  {
+   "t": 1794884024.5956821,
+   "tool": "search",
+   "args": {
+    "pattern": "cannot type",
+    "regex": false,
+    "also": [
+     "CmdPal"
+    ],
+    "repo": null
+   },
+   "seconds": 0.10783702501794323,
+   "returned": [
+    "PowerToys#38732"
+   ]
+  },
+  {
+   "t": 1794884025.7197955,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46790"
+   },
+   "seconds": 0.00012975599383935332,
+   "returned": [
+    "PowerToys#46790"
+   ]
+  },
+  {
+   "t": 1794884026.037306,
+   "tool": "search",
+   "args": {
+    "pattern": "pipe character",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.0700597669929266,
+   "returned": [
+    "PowerToys#47617",
+    "PowerToys#47491",
+    "terminal#15199",
+    "WSL#5895",
+    "terminal#1212",
+    "WSL#183",
+    "WSL#11"
+   ]
+  },
+  {
+   "t": 1794884026.308089,
+   "tool": "search",
+   "args": {
+    "pattern": "AltGr",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05630166199989617,
+   "returned": [
+    "PowerToys#14535",
+    "PowerToys#29651",
+    "PowerToys#37085",
+    "PowerToys#26506",
+    "PowerToys#11734",
+    "PowerToys#46560",
+    "PowerToys#37143",
+    "PowerToys#27115",
+    "PowerToys#3641",
+    "PowerToys#46693",
+    "PowerToys#47271",
+    "PowerToys#41986",
+    "PowerToys#37197",
+    "PowerToys#34798",
+    "PowerToys#39674",
+    "PowerToys#6976",
+    "PowerToys#41452",
+    "PowerToys#21042",
+    "PowerToys#16021",
+    "PowerToys#14546"
+   ]
+  },
+  {
+   "t": 1794884027.9755704,
+   "tool": "search",
+   "args": {
+    "pattern": "Shift+\\",
+    "regex": false,
+    "also": [
+     "CmdPal"
+    ],
+    "repo": null
+   },
+   "seconds": 0.12007335099042393,
+   "returned": []
+  },
+  {
+   "t": 1794884028.5430155,
+   "tool": "search",
+   "args": {
+    "pattern": "\"|\"",
+    "regex": false,
+    "also": [
+     "Command Palette",
+     "type"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11661674600327387,
+   "returned": []
+  },
+  {
+   "t": 1794884029.1149895,
+   "tool": "search",
+   "args": {
+    "pattern": "Notepad",
+    "regex": false,
+    "also": [
+     "Command Palette",
+     "administrator",
+     "typing"
+    ],
+    "repo": null
+   },
+   "seconds": 0.2637114590033889,
+   "returned": [
+    "terminal#1375",
+    "PowerToys#41854",
+    "terminal#13388"
+   ]
+  },
+  {
+   "t": 1794884030.0009515,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47617"
+   },
+   "seconds": 0.00012577700545080006,
+   "returned": [
+    "PowerToys#47617"
+   ]
+  },
+  {
+   "t": 1794884031.7599313,
+   "tool": "search",
+   "args": {
+    "pattern": "CmdPal",
+    "regex": false,
+    "also": [
+     "pipe",
+     "keyboard"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1777283969859127,
+   "returned": []
+  },
+  {
+   "t": 1794884032.0333118,
+   "tool": "search",
+   "args": {
+    "pattern": "key not typed",
+    "regex": false,
+    "also": [
+     "Command Palette"
+    ],
+    "repo": null
+   },
+   "seconds": 0.05770614399807528,
+   "returned": []
+  },
+  {
+   "t": 1794884032.6325173,
+   "tool": "search",
+   "args": {
+    "pattern": "only works",
+    "regex": false,
+    "also": [
+     "Command Palette",
+     "elevated",
+     "type"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1611782289983239,
+   "returned": []
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13594,
+  "stop_reason": "end_turn",
+  "session_id": "914978cc-7974-47b5-8363-fabff609a302",
+  "total_cost_usd": 0.0878916,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 15753,
+   "cache_read_input_tokens": 62716,
+   "output_tokens": 1858,
+   "output_tokens_details": {
+    "thinking_tokens": 97
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 15753,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 313,
+     "cache_read_input_tokens": 16400,
+     "cache_creation_input_tokens": 530,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 530
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1858,
+    "cacheReadInputTokens": 62716,
+    "cacheCreationInputTokens": 15753,
+    "webSearchRequests": 0,
+    "costUSD": 0.0878916,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 97,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15753,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this problem: Command Palette stopping \\\"|\\\" from being typed in non-elevated apps while it works in elevated ones. The closest tickets are different problems. PowerToys#47617 is a French AZERTY ticket where AltGr+- triggers Text Extractor instead of typing \\\"|\\\". PowerToys#46790 is about dropped letters in the Currency Converter, which was fixed by an update. Please keep this ticket open as a new bug. Add your keyboard layout and the exact key combination you use for \\\"|\\\". Also say whether Command Palette's \\\"Use low-level keyboard hook\\\" setting is on, and attach a PowerToys bug report ZIP. In the meantime, you can turn Command Palette off to type \\\"|\\\" normally. You can also try turning off the low-level keyboard hook in Command Palette settings, but I can't confirm that helps.\"}",
+  "ttft_ms": 1020,
+  "type": "result",
+  "duration_ms": 14431,
+  "uuid": "92228718-157c-43bd-8754-010008ccf5cb",
+  "ttft_stream_ms": 565,
+  "time_to_request_ms": 35,
+  "first_content_frame_ms": 566,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1858,
+    "cacheReadInputTokens": 62716,
+    "cacheCreationInputTokens": 15753,
+    "webSearchRequests": 0,
+    "costUSD": 0.0878916,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 97,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15753,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.856507980002789,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-bkk89yj8/work"
+  }
+ },
+ "wall_seconds": 15.858992082998157,
+ "qid": "PowerToys#51164",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this problem: Command Palette stopping \"|\" from being typed in non-elevated apps while it works in elevated ones. The closest tickets are different problems. PowerToys#47617 is a French AZERTY ticket where AltGr+- triggers Text Extractor instead of typing \"|\". PowerToys#46790 is about dropped letters in the Currency Converter, which was fixed by an update. Please keep this ticket open as a new bug. Add your keyboard layout and the exact key combination you use for \"|\". Also say whether Command Palette's \"Use low-level keyboard hook\" setting is on, and attach a PowerToys bug report ZIP. In the meantime, you can turn Command Palette off to type \"|\" normally. You can also try turning off the low-level keyboard hook in Command Palette settings, but I can't confirm that helps."
+ },
+ "hit_turn_cap": false
+}

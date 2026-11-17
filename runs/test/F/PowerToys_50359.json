@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#48208",
+  "PowerToys#46891",
+  "PowerToys#48196",
+  "PowerToys#32489",
+  "PowerToys#43892"
+ ],
+ "retrieval_seconds": 0.5888650119886734,
+ "retrieval_scores": [
+  0.027692895339954164,
+  0.027313266443701224,
+  0.02280088094312735,
+  0.01639344262295082,
+  0.01639344262295082
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2141,
+  "stop_reason": "end_turn",
+  "session_id": "2961c2d7-3aef-4c70-ac47-50968be6d19e",
+  "total_cost_usd": 0.018202000000000003,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4002,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 219,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4002,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 219,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4002,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4002
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 219,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4002,
+    "webSearchRequests": 0,
+    "costUSD": 0.018202000000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4002,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"None of the past tickets reports this exact problem: the settings window failing to open at first, then Mouse Without Borders showing no response to \\\"New key\\\" and an empty device list after a workaround. The archived tickets are about connections that fail or only partly work (#48208, #46891, #48196, #32489) or a monitor-layout issue (#43892), and they offer no fix that applies here. Please keep this ticket open and make sure the bug report ZIP is attached so the team can look at the logs. Also mention your Windows version and whether PowerToys runs as admin, and describe exactly what you did in the workaround you followed.\"}",
+  "ttft_ms": 2293,
+  "type": "result",
+  "duration_ms": 2309,
+  "uuid": "d100f2b5-239a-41ed-8d44-b345ec10b5f0",
+  "ttft_stream_ms": 600,
+  "time_to_request_ms": 166,
+  "first_content_frame_ms": 600,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 219,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4002,
+    "webSearchRequests": 0,
+    "costUSD": 0.018202000000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4002,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.2189449169964064,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-3m5i6kfh/work"
+  }
+ },
+ "wall_seconds": 3.8101008890080266,
+ "qid": "PowerToys#50359",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "None of the past tickets reports this exact problem: the settings window failing to open at first, then Mouse Without Borders showing no response to \"New key\" and an empty device list after a workaround. The archived tickets are about connections that fail or only partly work (#48208, #46891, #48196, #32489) or a monitor-layout issue (#43892), and they offer no fix that applies here. Please keep this ticket open and make sure the bug report ZIP is attached so the team can look at the logs. Also mention your Windows version and whether PowerToys runs as admin, and describe exactly what you did in the workaround you followed."
+ },
+ "hit_turn_cap": false
+}

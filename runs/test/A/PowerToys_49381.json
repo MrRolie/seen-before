@@ -1,0 +1,193 @@
+{
+ "shown": [
+  "PowerToys#48862",
+  "PowerToys#44867",
+  "PowerToys#42611",
+  "PowerToys#45528",
+  "PowerToys#42401"
+ ],
+ "retrieval_seconds": 0.014826238999376073,
+ "retrieval_scores": [
+  0.6597060561180115,
+  0.6359871029853821,
+  0.5972817540168762,
+  0.5851420760154724,
+  0.5718337297439575
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2826,
+  "stop_reason": "end_turn",
+  "session_id": "827075e5-9a00-4b77-a0b8-d42deb89d4dc",
+  "total_cost_usd": 0.013675999999999999,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 2828,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 236,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 2828,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 236,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 2828,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2828
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 236,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 2828,
+    "webSearchRequests": 0,
+    "costUSD": 0.013675999999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2828,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48862\"], \"answer\": \"This request has already been filed as PowerToys#48862, which asks for a configurable hotkey that advances the desktop wallpaper slideshow (the same as right-click desktop > 'Next desktop background'). It would use the Windows IDesktopWallpaper::AdvanceSlideshow API and target the monitor under the cursor. No such hotkey exists in PowerToys today, so the only built-in way to skip to the next slide is still the desktop right-click menu. Follow PowerToys#48862 and add a thumbs-up there to show interest. That ticket also mentions #36221, the broader wallpaper request it was split from.\"}",
+  "ttft_ms": 3017,
+  "type": "result",
+  "duration_ms": 3031,
+  "uuid": "51a12689-4745-41a3-8e05-db7d9044734e",
+  "ttft_stream_ms": 1399,
+  "time_to_request_ms": 205,
+  "first_content_frame_ms": 1400,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 236,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 2828,
+    "webSearchRequests": 0,
+    "costUSD": 0.013675999999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2828,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.043635179987177,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-62kxx8an/work"
+  }
+ },
+ "wall_seconds": 4.060313611000311,
+ "qid": "PowerToys#49381",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48862"
+  ],
+  "answer": "This request has already been filed as PowerToys#48862, which asks for a configurable hotkey that advances the desktop wallpaper slideshow (the same as right-click desktop > 'Next desktop background'). It would use the Windows IDesktopWallpaper::AdvanceSlideshow API and target the monitor under the cursor. No such hotkey exists in PowerToys today, so the only built-in way to skip to the next slide is still the desktop right-click menu. Follow PowerToys#48862 and add a thumbs-up there to show interest. That ticket also mentions #36221, the broader wallpaper request it was split from."
+ },
+ "hit_turn_cap": false
+}

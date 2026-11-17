@@ -1,0 +1,318 @@
+{
+ "shown": [
+  "PowerToys#1052",
+  "PowerToys#12967",
+  "PowerToys#14844",
+  "PowerToys#16031",
+  "PowerToys#18134",
+  "PowerToys#19223",
+  "PowerToys#21003",
+  "PowerToys#21290",
+  "PowerToys#21339",
+  "PowerToys#21573",
+  "PowerToys#23748",
+  "PowerToys#24189",
+  "PowerToys#24273",
+  "PowerToys#28624",
+  "PowerToys#30123",
+  "PowerToys#30342",
+  "PowerToys#310",
+  "PowerToys#31826",
+  "PowerToys#34708",
+  "PowerToys#39287",
+  "PowerToys#43346",
+  "PowerToys#47488",
+  "PowerToys#47813",
+  "PowerToys#4783",
+  "PowerToys#64",
+  "PowerToys#835",
+  "PowerToys#9258"
+ ],
+ "retrieval_seconds": 3.8450447270006407,
+ "tool_calls": [
+  {
+   "t": 1794876784.2552452,
+   "tool": "similar",
+   "args": {
+    "query": "shortcut to turn off monitor display without sleeping",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.7830710289999843,
+   "returned": [
+    "PowerToys#4783",
+    "PowerToys#9258",
+    "PowerToys#16031",
+    "PowerToys#310",
+    "PowerToys#21003",
+    "PowerToys#24273",
+    "PowerToys#18134",
+    "PowerToys#34708",
+    "PowerToys#28624",
+    "PowerToys#30342",
+    "PowerToys#23748",
+    "PowerToys#12967",
+    "PowerToys#39287",
+    "PowerToys#21290",
+    "PowerToys#47813",
+    "PowerToys#64",
+    "PowerToys#21573",
+    "PowerToys#31826",
+    "PowerToys#24189",
+    "PowerToys#835"
+   ]
+  },
+  {
+   "t": 1794876784.331499,
+   "tool": "search",
+   "args": {
+    "pattern": "turn off display",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06124203998479061,
+   "returned": [
+    "PowerToys#47813",
+    "PowerToys#28624",
+    "PowerToys#47488",
+    "PowerToys#43346",
+    "PowerToys#19223",
+    "PowerToys#30123",
+    "PowerToys#24273",
+    "PowerToys#21339",
+    "PowerToys#14844"
+   ]
+  },
+  {
+   "t": 1794876785.3821874,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4783"
+   },
+   "seconds": 0.00016595501801930368,
+   "returned": [
+    "PowerToys#4783"
+   ]
+  },
+  {
+   "t": 1794876785.6371372,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#16031"
+   },
+   "seconds": 0.0001526449923403561,
+   "returned": [
+    "PowerToys#16031"
+   ]
+  },
+  {
+   "t": 1794876785.7268498,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39287"
+   },
+   "seconds": 0.00015809599426575005,
+   "returned": [
+    "PowerToys#39287"
+   ]
+  },
+  {
+   "t": 1794876786.722414,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1052"
+   },
+   "seconds": 0.0002549620112404227,
+   "returned": [
+    "PowerToys#1052"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7551,
+  "stop_reason": "end_turn",
+  "session_id": "14c20395-492c-4701-807a-05c4fdc58bf0",
+  "total_cost_usd": 0.0583768,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 11897,
+   "cache_read_input_tokens": 17728,
+   "output_tokens": 900,
+   "output_tokens_details": {
+    "thinking_tokens": 26
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11897,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 449,
+     "cache_read_input_tokens": 9759,
+     "cache_creation_input_tokens": 3551,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3551
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 900,
+    "cacheReadInputTokens": 17728,
+    "cacheCreationInputTokens": 11897,
+    "webSearchRequests": 0,
+    "costUSD": 0.0583768,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 26,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11897,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#16031\", \"PowerToys#4783\", \"PowerToys#39287\"], \"answer\": \"This feature request has been made before. A hotkey that turns the screen off instantly, without sleeping or locking, doesn't exist in PowerToys yet. The older requests were closed as duplicates of the tracking issue PowerToys#1052 (Quick Display adjustment), which lists \\\"sleep monitors\\\". Until it's built, you have these workarounds. (1) Make a shortcut that runs `powershell (Add-Type '[DllImport(\\\\\\\"user32.dll\\\\\\\")]public static extern int PostMessage(int hWnd, int hMsg, int wParam, int lParam);' -Name a -Pas)::PostMessage(-1,0x0112,0xF170,2)` and give it a keyboard shortcut. (2) Use AutoHotkey or `nircmd.exe monitor off` bound to a hotkey. (3) Use Twinkle Tray, which can turn monitors off with a hotkey. In all of these, moving the mouse or pressing a key wakes the display, and the PC keeps running, so your render isn't interrupted. Your Windows sign-in settings may require you to sign in again after the display wakes. Also add a thumbs-up to the existing issues instead of opening a new one.\"}",
+  "ttft_ms": 1527,
+  "type": "result",
+  "duration_ms": 11472,
+  "uuid": "de83659a-e234-48c3-a05c-a41d9807858a",
+  "ttft_stream_ms": 609,
+  "time_to_request_ms": 37,
+  "first_content_frame_ms": 609,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 900,
+    "cacheReadInputTokens": 17728,
+    "cacheCreationInputTokens": 11897,
+    "webSearchRequests": 0,
+    "costUSD": 0.0583768,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 26,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11897,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.92109495101613,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-s8mpn7xw/work"
+  }
+ },
+ "wall_seconds": 12.922849196998868,
+ "qid": "PowerToys#50238",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#16031",
+   "PowerToys#4783",
+   "PowerToys#39287"
+  ],
+  "answer": "This feature request has been made before. A hotkey that turns the screen off instantly, without sleeping or locking, doesn't exist in PowerToys yet. The older requests were closed as duplicates of the tracking issue PowerToys#1052 (Quick Display adjustment), which lists \"sleep monitors\". Until it's built, you have these workarounds. (1) Make a shortcut that runs `powershell (Add-Type '[DllImport(\\\"user32.dll\\\")]public static extern int PostMessage(int hWnd, int hMsg, int wParam, int lParam);' -Name a -Pas)::PostMessage(-1,0x0112,0xF170,2)` and give it a keyboard shortcut. (2) Use AutoHotkey or `nircmd.exe monitor off` bound to a hotkey. (3) Use Twinkle Tray, which can turn monitors off with a hotkey. In all of these, moving the mouse or pressing a key wakes the display, and the PC keeps running, so your render isn't interrupted. Your Windows sign-in settings may require you to sign in again after the display wakes. Also add a thumbs-up to the existing issues instead of opening a new one."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,308 @@
+{
+ "shown": [
+  "PowerToys#16458",
+  "PowerToys#19201",
+  "PowerToys#21237",
+  "PowerToys#25898",
+  "PowerToys#26396",
+  "PowerToys#26653",
+  "PowerToys#27001",
+  "PowerToys#27802",
+  "PowerToys#28392",
+  "PowerToys#28779",
+  "PowerToys#32755",
+  "PowerToys#33195",
+  "PowerToys#33656",
+  "PowerToys#35089",
+  "PowerToys#35994",
+  "PowerToys#36816",
+  "PowerToys#39029",
+  "PowerToys#39872",
+  "PowerToys#40467",
+  "PowerToys#41636",
+  "PowerToys#43844",
+  "PowerToys#47558"
+ ],
+ "retrieval_seconds": 0.10202229899005033,
+ "tool_calls": [
+  {
+   "t": 1794885457.2895877,
+   "tool": "search",
+   "args": {
+    "pattern": "right click menu",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04618787800427526,
+   "returned": [
+    "PowerToys#28779",
+    "PowerToys#16458",
+    "PowerToys#47558",
+    "PowerToys#43844",
+    "PowerToys#39872",
+    "PowerToys#39029",
+    "PowerToys#35994",
+    "PowerToys#33656",
+    "PowerToys#33195",
+    "PowerToys#28392",
+    "PowerToys#25898",
+    "PowerToys#21237",
+    "PowerToys#19201",
+    "PowerToys#41636",
+    "PowerToys#40467",
+    "PowerToys#36816",
+    "PowerToys#35089",
+    "PowerToys#27802",
+    "PowerToys#27001",
+    "PowerToys#26653"
+   ]
+  },
+  {
+   "t": 1794885458.8779988,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39029"
+   },
+   "seconds": 0.00021554500563070178,
+   "returned": [
+    "PowerToys#39029"
+   ]
+  },
+  {
+   "t": 1794885459.1609933,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#27001"
+   },
+   "seconds": 0.00012884699390269816,
+   "returned": [
+    "PowerToys#27001"
+   ]
+  },
+  {
+   "t": 1794885459.4118838,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35994"
+   },
+   "seconds": 0.0001226870226673782,
+   "returned": [
+    "PowerToys#35994"
+   ]
+  },
+  {
+   "t": 1794885459.7526214,
+   "tool": "search",
+   "args": {
+    "pattern": "Right click menu management",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05525043499073945,
+   "returned": [
+    "PowerToys#33656",
+    "PowerToys#32755",
+    "PowerToys#26396"
+   ]
+  },
+  {
+   "t": 1794885460.4504085,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#26396"
+   },
+   "seconds": 0.00011690697283484042,
+   "returned": [
+    "PowerToys#26396"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6996,
+  "stop_reason": "end_turn",
+  "session_id": "502c7435-98cf-40c2-9a52-d3bf1f36698e",
+  "total_cost_usd": 0.036340300000000006,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 6649,
+   "cache_read_input_tokens": 15783,
+   "output_tokens": 815,
+   "output_tokens_details": {
+    "thinking_tokens": 34
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6649,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 276,
+     "cache_read_input_tokens": 7356,
+     "cache_creation_input_tokens": 470,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 470
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 815,
+    "cacheReadInputTokens": 15783,
+    "cacheCreationInputTokens": 6649,
+    "webSearchRequests": 0,
+    "costUSD": 0.036340300000000006,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 34,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6649,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#39029\", \"PowerToys#27001\", \"PowerToys#26396\"], \"answer\": \"This feature request has been filed before. PowerToys has no tool for managing the File Explorer right-click menu. That means you can't reorder entries, move items out of 'Show more options', or remove leftover entries from old apps. The earlier tickets were closed as duplicates of a single tracking issue, microsoft/PowerToys#33, and another ticket (#35994) was closed as a duplicate of #37919. Please follow and upvote those issues instead of opening a new one. In the meantime, the earlier tickets suggest two options. You can edit the registry by hand, or you can use a third-party context-menu manager to remove stale entries. Nilesoft Shell is one example mentioned in the archive.\"}",
+  "ttft_ms": 1326,
+  "type": "result",
+  "duration_ms": 7121,
+  "uuid": "fc9f72aa-2054-457c-83ef-0a5b7d5c47dd",
+  "ttft_stream_ms": 975,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 975,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 815,
+    "cacheReadInputTokens": 15783,
+    "cacheCreationInputTokens": 6649,
+    "webSearchRequests": 0,
+    "costUSD": 0.036340300000000006,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 34,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6649,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 8.43250422499841,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-rei7pun4/work"
+  }
+ },
+ "wall_seconds": 8.43477973897825,
+ "qid": "PowerToys#51961",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#39029",
+   "PowerToys#27001",
+   "PowerToys#26396"
+  ],
+  "answer": "This feature request has been filed before. PowerToys has no tool for managing the File Explorer right-click menu. That means you can't reorder entries, move items out of 'Show more options', or remove leftover entries from old apps. The earlier tickets were closed as duplicates of a single tracking issue, microsoft/PowerToys#33, and another ticket (#35994) was closed as a duplicate of #37919. Please follow and upvote those issues instead of opening a new one. In the meantime, the earlier tickets suggest two options. You can edit the registry by hand, or you can use a third-party context-menu manager to remove stale entries. Nilesoft Shell is one example mentioned in the archive."
+ },
+ "hit_turn_cap": false
+}

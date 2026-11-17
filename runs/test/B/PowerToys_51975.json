@@ -1,0 +1,450 @@
+{
+ "shown": [
+  "PowerToys#10777",
+  "PowerToys#12967",
+  "PowerToys#13498",
+  "PowerToys#1392",
+  "PowerToys#13993",
+  "PowerToys#1528",
+  "PowerToys#1580",
+  "PowerToys#16904",
+  "PowerToys#17151",
+  "PowerToys#17172",
+  "PowerToys#17307",
+  "PowerToys#20789",
+  "PowerToys#21031",
+  "PowerToys#22403",
+  "PowerToys#23042",
+  "PowerToys#23532",
+  "PowerToys#243",
+  "PowerToys#2643",
+  "PowerToys#26454",
+  "PowerToys#26498",
+  "PowerToys#28708",
+  "PowerToys#30081",
+  "PowerToys#3209",
+  "PowerToys#32168",
+  "PowerToys#33888",
+  "PowerToys#34066",
+  "PowerToys#34340",
+  "PowerToys#34916",
+  "PowerToys#35439",
+  "PowerToys#37352",
+  "PowerToys#37497",
+  "PowerToys#37504",
+  "PowerToys#38682",
+  "PowerToys#38860",
+  "PowerToys#38867",
+  "PowerToys#39475",
+  "PowerToys#39654",
+  "PowerToys#40356",
+  "PowerToys#40426",
+  "PowerToys#40534",
+  "PowerToys#40913",
+  "PowerToys#41054",
+  "PowerToys#41630",
+  "PowerToys#41756",
+  "PowerToys#41843",
+  "PowerToys#42748",
+  "PowerToys#43426",
+  "PowerToys#45863",
+  "PowerToys#46023",
+  "PowerToys#46753",
+  "PowerToys#47755",
+  "PowerToys#48056",
+  "PowerToys#704",
+  "PowerToys#7786",
+  "PowerToys#7801",
+  "PowerToys#8164",
+  "PowerToys#8726",
+  "PowerToys#8730",
+  "PowerToys#8923",
+  "PowerToys#9339",
+  "PowerToys#977"
+ ],
+ "retrieval_seconds": 0.3263063459889963,
+ "tool_calls": [
+  {
+   "t": 1794885465.9124677,
+   "tool": "search",
+   "args": {
+    "pattern": "desktop icons",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07256590900942683,
+   "returned": [
+    "PowerToys#46753",
+    "PowerToys#977",
+    "PowerToys#46023",
+    "PowerToys#41756",
+    "PowerToys#9339",
+    "PowerToys#7801",
+    "PowerToys#48056",
+    "PowerToys#13498",
+    "PowerToys#40913",
+    "PowerToys#38682",
+    "PowerToys#34066",
+    "PowerToys#32168",
+    "PowerToys#30081",
+    "PowerToys#28708",
+    "PowerToys#20789",
+    "PowerToys#17307",
+    "PowerToys#17151",
+    "PowerToys#16904",
+    "PowerToys#12967",
+    "PowerToys#8164"
+   ]
+  },
+  {
+   "t": 1794885466.6135254,
+   "tool": "search",
+   "args": {
+    "pattern": "group desktop",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.062445907009532675,
+   "returned": [
+    "PowerToys#34340",
+    "PowerToys#17172"
+   ]
+  },
+  {
+   "t": 1794885466.6793425,
+   "tool": "search",
+   "args": {
+    "pattern": "desktop folders",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05476300499867648,
+   "returned": [
+    "PowerToys#34340",
+    "PowerToys#10777",
+    "PowerToys#3209"
+   ]
+  },
+  {
+   "t": 1794885468.406008,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34066"
+   },
+   "seconds": 0.00014928600285202265,
+   "returned": [
+    "PowerToys#34066"
+   ]
+  },
+  {
+   "t": 1794885468.4298244,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#17151"
+   },
+   "seconds": 0.00013505600509233773,
+   "returned": [
+    "PowerToys#17151"
+   ]
+  },
+  {
+   "t": 1794885468.6322923,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#13498"
+   },
+   "seconds": 0.0002049249887932092,
+   "returned": [
+    "PowerToys#13498"
+   ]
+  },
+  {
+   "t": 1794885470.6474876,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1392"
+   },
+   "seconds": 0.00012739698286168277,
+   "returned": [
+    "PowerToys#1392"
+   ]
+  },
+  {
+   "t": 1794885470.8903217,
+   "tool": "search",
+   "args": {
+    "pattern": "Fences",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.060022445977665484,
+   "returned": [
+    "PowerToys#1392",
+    "PowerToys#1528",
+    "PowerToys#23532",
+    "PowerToys#42748",
+    "PowerToys#23042",
+    "PowerToys#21031",
+    "PowerToys#704",
+    "PowerToys#47755",
+    "PowerToys#35439",
+    "PowerToys#34916",
+    "PowerToys#34340",
+    "PowerToys#22403",
+    "PowerToys#13993",
+    "PowerToys#13498",
+    "PowerToys#8923",
+    "PowerToys#7786",
+    "PowerToys#1580",
+    "PowerToys#977",
+    "PowerToys#243",
+    "PowerToys#45863"
+   ]
+  },
+  {
+   "t": 1794885472.3643517,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#8923"
+   },
+   "seconds": 0.00011397700291126966,
+   "returned": [
+    "PowerToys#8923"
+   ]
+  },
+  {
+   "t": 1794885473.8633845,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34340"
+   },
+   "seconds": 0.00019021501066163182,
+   "returned": [
+    "PowerToys#34340"
+   ]
+  },
+  {
+   "t": 1794885475.283491,
+   "tool": "search",
+   "args": {
+    "pattern": "#264",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0755882230005227,
+   "returned": [
+    "PowerToys#8726",
+    "PowerToys#26498",
+    "PowerToys#33888",
+    "PowerToys#26454",
+    "PowerToys#8730",
+    "PowerToys#2643",
+    "PowerToys#43426",
+    "PowerToys#41843",
+    "PowerToys#41630",
+    "PowerToys#41054",
+    "PowerToys#40534",
+    "PowerToys#40426",
+    "PowerToys#40356",
+    "PowerToys#39654",
+    "PowerToys#39475",
+    "PowerToys#38867",
+    "PowerToys#38860",
+    "PowerToys#37504",
+    "PowerToys#37497",
+    "PowerToys#37352"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13774,
+  "stop_reason": "end_turn",
+  "session_id": "10771024-6aa3-4d49-8423-5c1d9d9fbca4",
+  "total_cost_usd": 0.09132660000000001,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 18425,
+   "cache_read_input_tokens": 66686,
+   "output_tokens": 1093,
+   "output_tokens_details": {
+    "thinking_tokens": 29
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 18425,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 270,
+     "cache_read_input_tokens": 16245,
+     "cache_creation_input_tokens": 3357,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3357
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1093,
+    "cacheReadInputTokens": 66686,
+    "cacheCreationInputTokens": 18425,
+    "webSearchRequests": 0,
+    "costUSD": 0.09132660000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 29,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18425,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#1392\", \"PowerToys#34340\", \"PowerToys#8923\"], \"answer\": \"This feature has been requested before. The main tracking issue is PowerToys#1392, \\\"Desktop Icon Zones with headers for organization (aka fences)\\\". It asks for Stardock Fences-style grouping of desktop icons, and similar requests have been closed as duplicates of it (#8923, #34340, #34066, #17151). It is still open, and no PowerToys utility does this yet. Add a 👍 reaction and your use case, including the folder and stack-style expand/collapse behaviour, to #1392. In the meantime, use manually created desktop folders. You could also use a third-party tool such as Stardock Fences or Portals, both of which the tickets mention.\"}",
+  "ttft_ms": 1498,
+  "type": "result",
+  "duration_ms": 14111,
+  "uuid": "9cb62cc5-13a9-4049-a76a-c67449122fe8",
+  "ttft_stream_ms": 1151,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 1151,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1093,
+    "cacheReadInputTokens": 66686,
+    "cacheCreationInputTokens": 18425,
+    "webSearchRequests": 0,
+    "costUSD": 0.09132660000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 29,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18425,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.510978103993693,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-_qo4o0q9/work"
+  }
+ },
+ "wall_seconds": 15.512885656993603,
+ "qid": "PowerToys#51975",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#1392",
+   "PowerToys#34340",
+   "PowerToys#8923"
+  ],
+  "answer": "This feature has been requested before. The main tracking issue is PowerToys#1392, \"Desktop Icon Zones with headers for organization (aka fences)\". It asks for Stardock Fences-style grouping of desktop icons, and similar requests have been closed as duplicates of it (#8923, #34340, #34066, #17151). It is still open, and no PowerToys utility does this yet. Add a 👍 reaction and your use case, including the folder and stack-style expand/collapse behaviour, to #1392. In the meantime, use manually created desktop folders. You could also use a third-party tool such as Stardock Fences or Portals, both of which the tickets mention."
+ },
+ "hit_turn_cap": false
+}

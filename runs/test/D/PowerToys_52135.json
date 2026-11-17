@@ -1,0 +1,317 @@
+{
+ "shown": [
+  "PowerToys#11871",
+  "PowerToys#12068",
+  "PowerToys#14847",
+  "PowerToys#17147",
+  "PowerToys#20690",
+  "PowerToys#22655",
+  "PowerToys#27625",
+  "PowerToys#27869",
+  "PowerToys#28080",
+  "PowerToys#31686",
+  "PowerToys#31718",
+  "PowerToys#31737",
+  "PowerToys#32156",
+  "PowerToys#32273",
+  "PowerToys#35008",
+  "PowerToys#35543",
+  "PowerToys#356",
+  "PowerToys#36121",
+  "PowerToys#38791",
+  "PowerToys#39939",
+  "PowerToys#41097",
+  "PowerToys#44402",
+  "PowerToys#47842",
+  "PowerToys#48217",
+  "PowerToys#6255",
+  "PowerToys#7260"
+ ],
+ "retrieval_seconds": 3.9260764079808723,
+ "tool_calls": [
+  {
+   "t": 1794885844.503977,
+   "tool": "similar",
+   "args": {
+    "query": "show folder size in File Explorer",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.877952084003482,
+   "returned": [
+    "PowerToys#356",
+    "PowerToys#7260",
+    "PowerToys#35543",
+    "PowerToys#6255",
+    "PowerToys#39939",
+    "PowerToys#22655",
+    "PowerToys#38791",
+    "PowerToys#32273",
+    "PowerToys#36121",
+    "PowerToys#31737",
+    "PowerToys#27625",
+    "PowerToys#11871",
+    "PowerToys#28080",
+    "PowerToys#41097",
+    "PowerToys#31718",
+    "PowerToys#12068",
+    "PowerToys#14847",
+    "PowerToys#20690",
+    "PowerToys#17147",
+    "PowerToys#48217"
+   ]
+  },
+  {
+   "t": 1794885844.567583,
+   "tool": "search",
+   "args": {
+    "pattern": "folder size",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04761477900319733,
+   "returned": [
+    "PowerToys#356",
+    "PowerToys#48217",
+    "PowerToys#32273",
+    "PowerToys#44402",
+    "PowerToys#38791",
+    "PowerToys#31718",
+    "PowerToys#27625",
+    "PowerToys#7260",
+    "PowerToys#47842",
+    "PowerToys#41097",
+    "PowerToys#32156",
+    "PowerToys#31737",
+    "PowerToys#31686",
+    "PowerToys#27869",
+    "PowerToys#22655",
+    "PowerToys#14847",
+    "PowerToys#39939",
+    "PowerToys#36121",
+    "PowerToys#35543",
+    "PowerToys#35008"
+   ]
+  },
+  {
+   "t": 1794885845.639797,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#356"
+   },
+   "seconds": 0.00012610599515028298,
+   "returned": [
+    "PowerToys#356"
+   ]
+  },
+  {
+   "t": 1794885845.828419,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#7260"
+   },
+   "seconds": 0.00013268599286675453,
+   "returned": [
+    "PowerToys#7260"
+   ]
+  },
+  {
+   "t": 1794885846.622846,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35543"
+   },
+   "seconds": 0.00025075298617593944,
+   "returned": [
+    "PowerToys#35543"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 5220,
+  "stop_reason": "end_turn",
+  "session_id": "9818dfc0-5fc1-499c-8132-1f06744e2152",
+  "total_cost_usd": 0.049323900000000004,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 10234,
+   "cache_read_input_tokens": 23319,
+   "output_tokens": 604,
+   "output_tokens_details": {
+    "thinking_tokens": 33
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10234,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 224,
+     "cache_read_input_tokens": 11104,
+     "cache_creation_input_tokens": 543,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 543
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 604,
+    "cacheReadInputTokens": 23319,
+    "cacheCreationInputTokens": 10234,
+    "webSearchRequests": 0,
+    "costUSD": 0.049323900000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 33,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10234,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#356\", \"PowerToys#35543\", \"PowerToys#7260\"], \"answer\": \"This feature has been requested before. PowerToys#356 is the main ticket, and the others (such as #35543 and #7260) were closed as duplicates of it. It is not implemented yet, so please add your +1 and your use case to #356. The capacity-bar and relative-size idea would be useful context there. Past comments suggest some workarounds. You can open a folder's Properties to see its size, or use Peek on a folder, which shows its size. You can also use a separate tool such as WizTree, TreeSize, Folder Size or the Files app.\"}",
+  "ttft_ms": 990,
+  "type": "result",
+  "duration_ms": 8972,
+  "uuid": "3d9d76d9-75fa-444d-ad5e-c5e667063ec3",
+  "ttft_stream_ms": 604,
+  "time_to_request_ms": 37,
+  "first_content_frame_ms": 604,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 604,
+    "cacheReadInputTokens": 23319,
+    "cacheCreationInputTokens": 10234,
+    "webSearchRequests": 0,
+    "costUSD": 0.049323900000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 33,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10234,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.470754443987971,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-f80kvhix/work"
+  }
+ },
+ "wall_seconds": 10.472434572002385,
+ "qid": "PowerToys#52135",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#356",
+   "PowerToys#35543",
+   "PowerToys#7260"
+  ],
+  "answer": "This feature has been requested before. PowerToys#356 is the main ticket, and the others (such as #35543 and #7260) were closed as duplicates of it. It is not implemented yet, so please add your +1 and your use case to #356. The capacity-bar and relative-size idea would be useful context there. Past comments suggest some workarounds. You can open a folder's Properties to see its size, or use Peek on a folder, which shows its size. You can also use a separate tool such as WizTree, TreeSize, Folder Size or the Files app."
+ },
+ "hit_turn_cap": false
+}

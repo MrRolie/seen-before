@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#48501",
+  "PowerToys#22756",
+  "PowerToys#48005",
+  "PowerToys#31083",
+  "PowerToys#12677"
+ ],
+ "retrieval_seconds": 0.39138288400135934,
+ "retrieval_scores": [
+  0.03278688524590164,
+  0.03200204813108039,
+  0.030834914611005692,
+  0.022344322344322345,
+  0.02207792207792208
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2645,
+  "stop_reason": "end_turn",
+  "session_id": "94b711b3-4223-47f8-8307-d369a2e65293",
+  "total_cost_usd": 0.02302,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5089,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 266,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5089,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 266,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5089,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5089
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 266,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5089,
+    "webSearchRequests": 0,
+    "costUSD": 0.02302,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5089,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#22756\", \"PowerToys#48501\", \"PowerToys#48005\"], \"answer\": \"This feature request has been filed several times before. Those tickets were closed as duplicates of the main tracking issue, PowerToys#150 (and PowerToys#22756 points to #6157), so there is no built-in folder/file colorizer yet. Please subscribe to and upvote #150 to follow progress rather than opening a new request. In the meantime, you can change a folder's icon by hand through Properties > Customize > Change Icon, which writes a desktop.ini entry (IconResource=...). That does not work for individual files. Third-party tools such as Folder Colorizer or FileMarker do the same thing, but the past tickets give no lighter-weight alternative.\"}",
+  "ttft_ms": 2843,
+  "type": "result",
+  "duration_ms": 2858,
+  "uuid": "5e22052b-b692-4a3b-a531-342e9edebb7a",
+  "ttft_stream_ms": 915,
+  "time_to_request_ms": 213,
+  "first_content_frame_ms": 915,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 266,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5089,
+    "webSearchRequests": 0,
+    "costUSD": 0.02302,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5089,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.871195466024801,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-d08xkcxs/work"
+  }
+ },
+ "wall_seconds": 4.264202709979145,
+ "qid": "PowerToys#51979",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#22756",
+   "PowerToys#48501",
+   "PowerToys#48005"
+  ],
+  "answer": "This feature request has been filed several times before. Those tickets were closed as duplicates of the main tracking issue, PowerToys#150 (and PowerToys#22756 points to #6157), so there is no built-in folder/file colorizer yet. Please subscribe to and upvote #150 to follow progress rather than opening a new request. In the meantime, you can change a folder's icon by hand through Properties > Customize > Change Icon, which writes a desktop.ini entry (IconResource=...). That does not work for individual files. Third-party tools such as Folder Colorizer or FileMarker do the same thing, but the past tickets give no lighter-weight alternative."
+ },
+ "hit_turn_cap": false
+}

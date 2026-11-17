@@ -1,0 +1,281 @@
+{
+ "shown": [
+  "PowerToys#10290",
+  "PowerToys#14455",
+  "PowerToys#14689",
+  "PowerToys#2067",
+  "PowerToys#30260",
+  "PowerToys#33966",
+  "PowerToys#35623",
+  "PowerToys#3583",
+  "PowerToys#42705",
+  "PowerToys#45201",
+  "PowerToys#45852",
+  "PowerToys#46434",
+  "PowerToys#47593",
+  "PowerToys#48325",
+  "PowerToys#48674",
+  "PowerToys#8433",
+  "PowerToys#8756",
+  "PowerToys#8781"
+ ],
+ "retrieval_seconds": 0.20902643105364405,
+ "tool_calls": [
+  {
+   "t": 1794882603.166255,
+   "tool": "search",
+   "args": {
+    "pattern": "temperature",
+    "regex": false,
+    "also": [
+     "CPU"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1282941630051937,
+   "returned": [
+    "PowerToys#35623",
+    "PowerToys#48325",
+    "PowerToys#48674",
+    "PowerToys#46434",
+    "PowerToys#3583",
+    "PowerToys#8433",
+    "PowerToys#45852",
+    "PowerToys#8756",
+    "PowerToys#2067",
+    "PowerToys#47593",
+    "PowerToys#45201",
+    "PowerToys#30260",
+    "PowerToys#14689",
+    "PowerToys#10290",
+    "PowerToys#8781"
+   ]
+  },
+  {
+   "t": 1794882603.2584748,
+   "tool": "search",
+   "args": {
+    "pattern": "cpu temp",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.08034564802073874,
+   "returned": [
+    "PowerToys#35623",
+    "PowerToys#8433",
+    "PowerToys#45852",
+    "PowerToys#2067",
+    "PowerToys#42705",
+    "PowerToys#33966",
+    "PowerToys#14455"
+   ]
+  },
+  {
+   "t": 1794882604.5228457,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46434"
+   },
+   "seconds": 0.00022871402325108647,
+   "returned": [
+    "PowerToys#46434"
+   ]
+  },
+  {
+   "t": 1794882605.4376967,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48674"
+   },
+   "seconds": 0.0001579060044605285,
+   "returned": [
+    "PowerToys#48674"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6786,
+  "stop_reason": "end_turn",
+  "session_id": "5516d3b2-4cde-4004-b0ae-386cdb021db1",
+  "total_cost_usd": 0.035501,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 6564,
+   "cache_read_input_tokens": 22550,
+   "output_tokens": 697,
+   "output_tokens_details": {
+    "thinking_tokens": 48
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6564,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 306,
+     "cache_read_input_tokens": 7668,
+     "cache_creation_input_tokens": 73,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 73
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 697,
+    "cacheReadInputTokens": 22550,
+    "cacheCreationInputTokens": 6564,
+    "webSearchRequests": 0,
+    "costUSD": 0.035501,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 48,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6564,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46434\"], \"answer\": \"This has been requested before. PowerToys#46434 asks for CPU and GPU temperature readings in the Command Palette Dock, next to the existing CPU and Memory stats. That looks like the bar you mean. A contributor said in that ticket that Windows has no native way to read per-component temperatures. Reading them would need vendor-specific driver APIs or WMI, which they said won't be implemented. They are working on a pull request that adds a single thermal-zone temperature metric read through PDH. That metric may not match your CPU's actual temperature. Follow PowerToys#46434 for updates and add a thumbs-up there. Until that ships, use a third-party tool such as HWiNFO or Core Temp to see CPU temperature. Similar requests for the taskbar or desktop are in PowerToys#35623 and PowerToys#8433.\"}",
+  "ttft_ms": 1406,
+  "type": "result",
+  "duration_ms": 7087,
+  "uuid": "2127c258-4b41-40ca-b823-4ff60ba2a180",
+  "ttft_stream_ms": 619,
+  "time_to_request_ms": 41,
+  "first_content_frame_ms": 619,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 697,
+    "cacheReadInputTokens": 22550,
+    "cacheCreationInputTokens": 6564,
+    "webSearchRequests": 0,
+    "costUSD": 0.035501,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 48,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6564,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 8.626177658006782,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-fi9slh55/work"
+  }
+ },
+ "wall_seconds": 8.629080023005372,
+ "qid": "PowerToys#50548",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46434"
+  ],
+  "answer": "This has been requested before. PowerToys#46434 asks for CPU and GPU temperature readings in the Command Palette Dock, next to the existing CPU and Memory stats. That looks like the bar you mean. A contributor said in that ticket that Windows has no native way to read per-component temperatures. Reading them would need vendor-specific driver APIs or WMI, which they said won't be implemented. They are working on a pull request that adds a single thermal-zone temperature metric read through PDH. That metric may not match your CPU's actual temperature. Follow PowerToys#46434 for updates and add a thumbs-up there. Until that ships, use a third-party tool such as HWiNFO or Core Temp to see CPU temperature. Similar requests for the taskbar or desktop are in PowerToys#35623 and PowerToys#8433."
+ },
+ "hit_turn_cap": false
+}

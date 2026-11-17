@@ -1,0 +1,448 @@
+{
+ "shown": [
+  "PowerToys#10050",
+  "PowerToys#10302",
+  "PowerToys#1116",
+  "PowerToys#1163",
+  "PowerToys#11718",
+  "PowerToys#11954",
+  "PowerToys#1210",
+  "PowerToys#12381",
+  "PowerToys#12386",
+  "PowerToys#12877",
+  "PowerToys#13202",
+  "PowerToys#14175",
+  "PowerToys#1536",
+  "PowerToys#18015",
+  "PowerToys#18067",
+  "PowerToys#18681",
+  "PowerToys#18889",
+  "PowerToys#1891",
+  "PowerToys#1948",
+  "PowerToys#2015",
+  "PowerToys#2195",
+  "PowerToys#2399",
+  "PowerToys#23997",
+  "PowerToys#245",
+  "PowerToys#2550",
+  "PowerToys#2590",
+  "PowerToys#27342",
+  "PowerToys#2851",
+  "PowerToys#2910",
+  "PowerToys#3149",
+  "PowerToys#3152",
+  "PowerToys#3201",
+  "PowerToys#3280",
+  "PowerToys#3281",
+  "PowerToys#37565",
+  "PowerToys#38278",
+  "PowerToys#38321",
+  "PowerToys#3855",
+  "PowerToys#38619",
+  "PowerToys#3881",
+  "PowerToys#417",
+  "PowerToys#4753",
+  "PowerToys#5418",
+  "PowerToys#5435",
+  "PowerToys#601",
+  "PowerToys#6023",
+  "PowerToys#6032",
+  "PowerToys#6404",
+  "PowerToys#6983",
+  "PowerToys#7035",
+  "PowerToys#7408",
+  "PowerToys#7512",
+  "PowerToys#7524",
+  "PowerToys#7715",
+  "PowerToys#7803",
+  "PowerToys#827",
+  "PowerToys#9515"
+ ],
+ "retrieval_seconds": 3.7165042320266366,
+ "tool_calls": [
+  {
+   "t": 1794879855.4835942,
+   "tool": "search",
+   "args": {
+    "query": "Settings window doesn't open, navigation to General page doesn't work v0.100.2",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.659128558007069,
+   "returned": [
+    "PowerToys#4753",
+    "PowerToys#827",
+    "PowerToys#1948",
+    "PowerToys#2195",
+    "PowerToys#7512",
+    "PowerToys#3855",
+    "PowerToys#3281",
+    "PowerToys#7524",
+    "PowerToys#417",
+    "PowerToys#11954",
+    "PowerToys#5435",
+    "PowerToys#1536",
+    "PowerToys#10050",
+    "PowerToys#12381",
+    "PowerToys#2910",
+    "PowerToys#11718",
+    "PowerToys#601",
+    "PowerToys#7408",
+    "PowerToys#6983",
+    "PowerToys#3881"
+   ]
+  },
+  {
+   "t": 1794879855.5081985,
+   "tool": "search",
+   "args": {
+    "query": "PowerToys settings won't open after update",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012004683027043939,
+   "returned": [
+    "PowerToys#6023",
+    "PowerToys#7803",
+    "PowerToys#13202",
+    "PowerToys#14175",
+    "PowerToys#6404",
+    "PowerToys#3855",
+    "PowerToys#3881",
+    "PowerToys#4753",
+    "PowerToys#7512",
+    "PowerToys#3281",
+    "PowerToys#11718",
+    "PowerToys#6983",
+    "PowerToys#245",
+    "PowerToys#27342",
+    "PowerToys#23997",
+    "PowerToys#2590",
+    "PowerToys#18067",
+    "PowerToys#12877",
+    "PowerToys#1536",
+    "PowerToys#2399"
+   ]
+  },
+  {
+   "t": 1794879857.0089529,
+   "tool": "search",
+   "args": {
+    "query": "[Settings] Navigation to the General page doesn't work",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0159120750031434,
+   "returned": [
+    "PowerToys#7408",
+    "PowerToys#38278",
+    "PowerToys#4753",
+    "PowerToys#827",
+    "PowerToys#7524",
+    "PowerToys#5435",
+    "PowerToys#2195",
+    "PowerToys#1948",
+    "PowerToys#1891",
+    "PowerToys#9515",
+    "PowerToys#38321",
+    "PowerToys#11954",
+    "PowerToys#7035",
+    "PowerToys#10050",
+    "PowerToys#12386",
+    "PowerToys#7715",
+    "PowerToys#2910",
+    "PowerToys#6032",
+    "PowerToys#3855",
+    "PowerToys#2015"
+   ]
+  },
+  {
+   "t": 1794879857.3654,
+   "tool": "search",
+   "args": {
+    "query": "settings window does not open version 0.100",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014089004980633035,
+   "returned": [
+    "PowerToys#4753",
+    "PowerToys#7512",
+    "PowerToys#827",
+    "PowerToys#1948",
+    "PowerToys#3881",
+    "PowerToys#3281",
+    "PowerToys#2550",
+    "PowerToys#2195",
+    "PowerToys#417",
+    "PowerToys#2590",
+    "PowerToys#18067",
+    "PowerToys#11718",
+    "PowerToys#3149",
+    "PowerToys#10302",
+    "PowerToys#14175",
+    "PowerToys#1163",
+    "PowerToys#1536",
+    "PowerToys#3280",
+    "PowerToys#3152",
+    "PowerToys#38619"
+   ]
+  },
+  {
+   "t": 1794879858.6833718,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38619"
+   },
+   "seconds": 0.0001229170011356473,
+   "returned": [
+    "PowerToys#38619"
+   ]
+  },
+  {
+   "t": 1794879858.8727674,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38321"
+   },
+   "seconds": 0.00012216699542477727,
+   "returned": [
+    "PowerToys#38321"
+   ]
+  },
+  {
+   "t": 1794879859.0570943,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#27342"
+   },
+   "seconds": 0.000146545993629843,
+   "returned": [
+    "PowerToys#27342"
+   ]
+  },
+  {
+   "t": 1794879860.50838,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37565"
+   },
+   "seconds": 0.0003281210083514452,
+   "returned": [
+    "PowerToys#37565"
+   ]
+  },
+  {
+   "t": 1794879860.8401024,
+   "tool": "search",
+   "args": {
+    "query": "Settings window not opening after upgrading, tray icon click does nothing, 0.9x or 0.10x",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014650160010205582,
+   "returned": [
+    "PowerToys#38619",
+    "PowerToys#4753",
+    "PowerToys#3881",
+    "PowerToys#18067",
+    "PowerToys#1210",
+    "PowerToys#1536",
+    "PowerToys#417",
+    "PowerToys#3152",
+    "PowerToys#2851",
+    "PowerToys#1116",
+    "PowerToys#11718",
+    "PowerToys#18889",
+    "PowerToys#18015",
+    "PowerToys#245",
+    "PowerToys#827",
+    "PowerToys#18681",
+    "PowerToys#3201",
+    "PowerToys#3281",
+    "PowerToys#7512",
+    "PowerToys#5418"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11669,
+  "stop_reason": "end_turn",
+  "session_id": "1e66f599-bac5-4bbb-a405-54c8c65fa3f0",
+  "total_cost_usd": 0.0525829,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 9399,
+   "cache_read_input_tokens": 21869,
+   "output_tokens": 1278,
+   "output_tokens_details": {
+    "thinking_tokens": 200
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9399,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 512,
+     "cache_read_input_tokens": 8576,
+     "cache_creation_input_tokens": 1856,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1856
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1278,
+    "cacheReadInputTokens": 21869,
+    "cacheCreationInputTokens": 9399,
+    "webSearchRequests": 0,
+    "costUSD": 0.0525829,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 200,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9399,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#38619\", \"PowerToys#37565\"], \"answer\": \"Your report is very short, so this match is a best guess. Earlier tickets describe the same symptom: the Settings window doesn't open at all after installing or upgrading, with no error. The tickets are PowerToys#38619 and PowerToys#37565. Both were GitHub installs filed under the General area. #38619 was closed as a duplicate of #37565, and neither ticket has a confirmed fix. The only workaround reported was to downgrade to the last version that worked. In #38619 that was 0.85.0, and it fixed the problem. Fully quit PowerToys from the tray and from Task Manager, then start it again. If Settings still doesn't open, reinstall, or go back to the previous version you had working. Please also add a Bug Report ZIP (tray icon > Report bug), your Windows version, and whether PowerToys runs as administrator. The maintainers need that to investigate, because the archive has no confirmed fix for v0.100.2.\"}",
+  "ttft_ms": 1762,
+  "type": "result",
+  "duration_ms": 15444,
+  "uuid": "28bebc5a-6f81-4ae9-b900-d68e7eaee726",
+  "ttft_stream_ms": 970,
+  "time_to_request_ms": 33,
+  "first_content_frame_ms": 971,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1278,
+    "cacheReadInputTokens": 21869,
+    "cacheCreationInputTokens": 9399,
+    "webSearchRequests": 0,
+    "costUSD": 0.0525829,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 200,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9399,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.677224641025532,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-t96ek0dx/work"
+  }
+ },
+ "wall_seconds": 16.679259696014924,
+ "qid": "PowerToys#49815",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#38619",
+   "PowerToys#37565"
+  ],
+  "answer": "Your report is very short, so this match is a best guess. Earlier tickets describe the same symptom: the Settings window doesn't open at all after installing or upgrading, with no error. The tickets are PowerToys#38619 and PowerToys#37565. Both were GitHub installs filed under the General area. #38619 was closed as a duplicate of #37565, and neither ticket has a confirmed fix. The only workaround reported was to downgrade to the last version that worked. In #38619 that was 0.85.0, and it fixed the problem. Fully quit PowerToys from the tray and from Task Manager, then start it again. If Settings still doesn't open, reinstall, or go back to the previous version you had working. Please also add a Bug Report ZIP (tray icon > Report bug), your Windows version, and whether PowerToys runs as administrator. The maintainers need that to investigate, because the archive has no confirmed fix for v0.100.2."
+ },
+ "hit_turn_cap": false
+}

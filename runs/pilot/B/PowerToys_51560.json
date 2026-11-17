@@ -1,0 +1,327 @@
+{
+ "shown": [
+  "PowerToys#12534",
+  "PowerToys#22287",
+  "PowerToys#23593",
+  "PowerToys#25093",
+  "PowerToys#3170",
+  "PowerToys#43056",
+  "PowerToys#47476",
+  "PowerToys#9707"
+ ],
+ "retrieval_seconds": 0.3694580340234097,
+ "tool_calls": [
+  {
+   "t": 1794877213.6688673,
+   "tool": "search",
+   "args": {
+    "pattern": "select which utilities to install",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07048567201127298,
+   "returned": []
+  },
+  {
+   "t": 1794877213.7619722,
+   "tool": "search",
+   "args": {
+    "pattern": "uninstall specific utilities",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.08098165300907567,
+   "returned": []
+  },
+  {
+   "t": 1794877213.8482125,
+   "tool": "search",
+   "args": {
+    "pattern": "choose which modules to install",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07482033298583701,
+   "returned": [
+    "PowerToys#9707"
+   ]
+  },
+  {
+   "t": 1794877216.0031102,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#9707"
+   },
+   "seconds": 0.0001910350110847503,
+   "returned": [
+    "PowerToys#9707"
+   ]
+  },
+  {
+   "t": 1794877218.4269667,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#3170"
+   },
+   "seconds": 0.00022402399918064475,
+   "returned": [
+    "PowerToys#3170"
+   ]
+  },
+  {
+   "t": 1794877218.655195,
+   "tool": "search",
+   "args": {
+    "pattern": "install only",
+    "regex": false,
+    "also": [
+     "module"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.14215848399908282,
+   "returned": [
+    "PowerToys#25093",
+    "PowerToys#23593",
+    "PowerToys#3170",
+    "PowerToys#47476",
+    "PowerToys#43056",
+    "PowerToys#22287",
+    "PowerToys#12534"
+   ]
+  },
+  {
+   "t": 1794877220.1257784,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47476"
+   },
+   "seconds": 0.0001510459987912327,
+   "returned": [
+    "PowerToys#47476"
+   ]
+  },
+  {
+   "t": 1794877220.2468505,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43056"
+   },
+   "seconds": 0.00012884600437246263,
+   "returned": [
+    "PowerToys#43056"
+   ]
+  },
+  {
+   "t": 1794877221.7893252,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#12534"
+   },
+   "seconds": 0.0001451860007364303,
+   "returned": [
+    "PowerToys#12534"
+   ]
+  },
+  {
+   "t": 1794877223.602189,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#23593"
+   },
+   "seconds": 0.0001717550039757043,
+   "returned": [
+    "PowerToys#23593"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 16544,
+  "stop_reason": "end_turn",
+  "session_id": "013cd7f9-13ba-4816-9c2b-3143067660df",
+  "total_cost_usd": 0.0600995,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 11367,
+   "cache_read_input_tokens": 35635,
+   "output_tokens": 1104,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11367,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 268,
+     "cache_read_input_tokens": 11795,
+     "cache_creation_input_tokens": 749,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 749
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1104,
+    "cacheReadInputTokens": 35635,
+    "cacheCreationInputTokens": 11367,
+    "webSearchRequests": 0,
+    "costUSD": 0.0600995,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11367,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#3170\", \"PowerToys#47476\", \"PowerToys#43056\"], \"answer\": \"This feature request has been filed before. PowerToys#3170 is the main tracking issue, and the other tickets were closed as duplicates of it. It asks for an installer option to pick modules and a way to remove modules afterwards. There is no modular installer or per-utility uninstall yet. The team has said it is not planned because of install and upgrade complications. For now you can turn off the utilities you don't want in PowerToys Settings. Admins can disable individual utilities with the Group Policy files that ship with PowerToys (since v0.64). Please add your +1 and your disk-space use case (such as ZoomIt at 65MB) to #3170 instead of opening a new issue.\"}",
+  "ttft_ms": 2762,
+  "type": "result",
+  "duration_ms": 17033,
+  "uuid": "a61766c8-6d0d-408a-8948-d569d048c873",
+  "ttft_stream_ms": 1422,
+  "time_to_request_ms": 39,
+  "first_content_frame_ms": 1422,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1104,
+    "cacheReadInputTokens": 35635,
+    "cacheCreationInputTokens": 11367,
+    "webSearchRequests": 0,
+    "costUSD": 0.0600995,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11367,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.482881045987597,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-o08_ayx1/work"
+  }
+ },
+ "wall_seconds": 18.48482747201342,
+ "qid": "PowerToys#51560",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#3170",
+   "PowerToys#47476",
+   "PowerToys#43056"
+  ],
+  "answer": "This feature request has been filed before. PowerToys#3170 is the main tracking issue, and the other tickets were closed as duplicates of it. It asks for an installer option to pick modules and a way to remove modules afterwards. There is no modular installer or per-utility uninstall yet. The team has said it is not planned because of install and upgrade complications. For now you can turn off the utilities you don't want in PowerToys Settings. Admins can disable individual utilities with the Group Policy files that ship with PowerToys (since v0.64). Please add your +1 and your disk-space use case (such as ZoomIt at 65MB) to #3170 instead of opening a new issue."
+ },
+ "hit_turn_cap": false
+}

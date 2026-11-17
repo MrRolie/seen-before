@@ -1,0 +1,349 @@
+{
+ "shown": [
+  "PowerToys#11792",
+  "PowerToys#11833",
+  "PowerToys#13898",
+  "PowerToys#14286",
+  "PowerToys#15034",
+  "PowerToys#15067",
+  "PowerToys#19543",
+  "PowerToys#1969",
+  "PowerToys#2303",
+  "PowerToys#2694",
+  "PowerToys#31389",
+  "PowerToys#36218",
+  "PowerToys#37",
+  "PowerToys#3706",
+  "PowerToys#38200",
+  "PowerToys#39925",
+  "PowerToys#4",
+  "PowerToys#41135",
+  "PowerToys#41772",
+  "PowerToys#42051",
+  "PowerToys#42052",
+  "PowerToys#44297",
+  "PowerToys#45983",
+  "PowerToys#46108",
+  "PowerToys#47176",
+  "PowerToys#47259",
+  "PowerToys#47631",
+  "PowerToys#5",
+  "PowerToys#5226",
+  "PowerToys#58",
+  "WSL#11335",
+  "WSL#1269",
+  "WSL#745",
+  "terminal#10197",
+  "terminal#15172",
+  "terminal#17298",
+  "terminal#18890"
+ ],
+ "retrieval_seconds": 0.18093325503286906,
+ "tool_calls": [
+  {
+   "t": 1794882138.259304,
+   "tool": "search",
+   "args": {
+    "pattern": "tiling window manager",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06050166400382295,
+   "returned": [
+    "PowerToys#2694",
+    "PowerToys#45983",
+    "PowerToys#5",
+    "PowerToys#5226",
+    "PowerToys#4",
+    "PowerToys#39925",
+    "PowerToys#38200",
+    "PowerToys#13898",
+    "PowerToys#11833",
+    "PowerToys#11792",
+    "PowerToys#3706",
+    "PowerToys#58",
+    "PowerToys#37",
+    "PowerToys#47631",
+    "PowerToys#47259",
+    "PowerToys#47176",
+    "PowerToys#44297",
+    "PowerToys#42052",
+    "PowerToys#42051",
+    "PowerToys#41772"
+   ]
+  },
+  {
+   "t": 1794882138.885286,
+   "tool": "search",
+   "args": {
+    "pattern": "dynamic tiling",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.058070316998055205,
+   "returned": [
+    "PowerToys#42052",
+    "PowerToys#42051",
+    "PowerToys#31389",
+    "PowerToys#2694",
+    "PowerToys#1969",
+    "PowerToys#41135",
+    "PowerToys#15067"
+   ]
+  },
+  {
+   "t": 1794882138.956778,
+   "tool": "search",
+   "args": {
+    "pattern": "komorebi",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.061999194003874436,
+   "returned": [
+    "PowerToys#47176",
+    "WSL#11335",
+    "PowerToys#47631",
+    "terminal#17298",
+    "terminal#10197",
+    "PowerToys#36218",
+    "PowerToys#19543",
+    "PowerToys#13898",
+    "PowerToys#5226",
+    "PowerToys#58",
+    "PowerToys#46108",
+    "PowerToys#31389",
+    "terminal#18890",
+    "terminal#15172",
+    "PowerToys#15034",
+    "PowerToys#14286",
+    "PowerToys#2694",
+    "PowerToys#2303",
+    "WSL#1269",
+    "WSL#745"
+   ]
+  },
+  {
+   "t": 1794882141.0806766,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1969"
+   },
+   "seconds": 0.00010558700887486339,
+   "returned": [
+    "PowerToys#1969"
+   ]
+  },
+  {
+   "t": 1794882141.2274632,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#2694"
+   },
+   "seconds": 0.00016862500342540443,
+   "returned": [
+    "PowerToys#2694"
+   ]
+  },
+  {
+   "t": 1794882143.2389066,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37"
+   },
+   "seconds": 8.786801481619477e-05,
+   "returned": [
+    "PowerToys#37"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9766,
+  "stop_reason": "end_turn",
+  "session_id": "cda0fb23-a19c-4d63-85c1-e3b5dfb34807",
+  "total_cost_usd": 0.0668555,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 14177,
+   "cache_read_input_tokens": 28515,
+   "output_tokens": 728,
+   "output_tokens_details": {
+    "thinking_tokens": 36
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 14177,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 290,
+     "cache_read_input_tokens": 14392,
+     "cache_creation_input_tokens": 962,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 962
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 728,
+    "cacheReadInputTokens": 28515,
+    "cacheCreationInputTokens": 14177,
+    "webSearchRequests": 0,
+    "costUSD": 0.0668555,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 36,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14177,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#2694\", \"PowerToys#37\", \"PowerToys#31389\"], \"answer\": \"This feature request has been filed before, so it isn't new. PowerToys has no dynamic or automatic tiling window manager today. The team has said FancyZones can't be extended to do it, because its architecture doesn't fit auto-tiling. They suggested that auto-tiling would have to be a separate module, and none exists yet. Please add your +1 and your Omarchy/Hyprland use case to PowerToys#2694, which is the main tracking issue. PowerToys#31389 asks for the same thing as a FancyZones option. In the meantime, the tickets suggest using third-party Windows tilers such as Komorebi, GlazeWM or FancyWM. You can also use FancyZones with manual layouts and keyboard snapping.\"}",
+  "ttft_ms": 1693,
+  "type": "result",
+  "duration_ms": 9945,
+  "uuid": "9591a762-bec8-46fa-88da-07581e6c73dd",
+  "ttft_stream_ms": 1300,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 1300,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 728,
+    "cacheReadInputTokens": 28515,
+    "cacheCreationInputTokens": 14177,
+    "webSearchRequests": 0,
+    "costUSD": 0.0668555,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 36,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14177,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.264919506007573,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-aw1kahd_/work"
+  }
+ },
+ "wall_seconds": 11.266559423005674,
+ "qid": "PowerToys#50384",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#2694",
+   "PowerToys#37",
+   "PowerToys#31389"
+  ],
+  "answer": "This feature request has been filed before, so it isn't new. PowerToys has no dynamic or automatic tiling window manager today. The team has said FancyZones can't be extended to do it, because its architecture doesn't fit auto-tiling. They suggested that auto-tiling would have to be a separate module, and none exists yet. Please add your +1 and your Omarchy/Hyprland use case to PowerToys#2694, which is the main tracking issue. PowerToys#31389 asks for the same thing as a FancyZones option. In the meantime, the tickets suggest using third-party Windows tilers such as Komorebi, GlazeWM or FancyWM. You can also use FancyZones with manual layouts and keyboard snapping."
+ },
+ "hit_turn_cap": false
+}

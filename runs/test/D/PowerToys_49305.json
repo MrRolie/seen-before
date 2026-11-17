@@ -1,0 +1,384 @@
+{
+ "shown": [
+  "PowerToys#12316",
+  "PowerToys#16773",
+  "PowerToys#1684",
+  "PowerToys#21001",
+  "PowerToys#2187",
+  "PowerToys#22403",
+  "PowerToys#24089",
+  "PowerToys#24463",
+  "PowerToys#24468",
+  "PowerToys#24624",
+  "PowerToys#24657",
+  "PowerToys#25047",
+  "PowerToys#25192",
+  "PowerToys#26210",
+  "PowerToys#26257",
+  "PowerToys#269",
+  "PowerToys#27029",
+  "PowerToys#27753",
+  "PowerToys#28052",
+  "PowerToys#30556",
+  "PowerToys#31847",
+  "PowerToys#32625",
+  "PowerToys#33653",
+  "PowerToys#33982",
+  "PowerToys#34680",
+  "PowerToys#35525",
+  "PowerToys#36316",
+  "PowerToys#37010",
+  "PowerToys#37554",
+  "PowerToys#37958",
+  "PowerToys#38989",
+  "PowerToys#40681",
+  "PowerToys#41977",
+  "PowerToys#45913",
+  "PowerToys#46065",
+  "PowerToys#47325",
+  "PowerToys#48727",
+  "PowerToys#48830",
+  "PowerToys#4948",
+  "PowerToys#6429",
+  "PowerToys#6469",
+  "PowerToys#8540"
+ ],
+ "retrieval_seconds": 3.508761061937548,
+ "tool_calls": [
+  {
+   "t": 1794877897.8225043,
+   "tool": "similar",
+   "args": {
+    "query": "Paste as Plain Text keeps formatting in LibreOffice Writer; want copy as plain text",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.4296981419902295,
+   "returned": [
+    "PowerToys#1684",
+    "PowerToys#4948",
+    "PowerToys#27029",
+    "PowerToys#24468",
+    "PowerToys#25192",
+    "PowerToys#37554",
+    "PowerToys#40681",
+    "PowerToys#2187",
+    "PowerToys#33982",
+    "PowerToys#16773",
+    "PowerToys#37010",
+    "PowerToys#24657",
+    "PowerToys#36316",
+    "PowerToys#24624",
+    "PowerToys#28052",
+    "PowerToys#27753",
+    "PowerToys#21001",
+    "PowerToys#24463",
+    "PowerToys#26257",
+    "PowerToys#8540"
+   ]
+  },
+  {
+   "t": 1794877900.802737,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#25192"
+   },
+   "seconds": 0.00021287400159053504,
+   "returned": [
+    "PowerToys#25192"
+   ]
+  },
+  {
+   "t": 1794877900.9813056,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37554"
+   },
+   "seconds": 0.00014867697609588504,
+   "returned": [
+    "PowerToys#37554"
+   ]
+  },
+  {
+   "t": 1794877902.168802,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21001"
+   },
+   "seconds": 0.00020915499771945179,
+   "returned": [
+    "PowerToys#21001"
+   ]
+  },
+  {
+   "t": 1794877903.315797,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1684"
+   },
+   "seconds": 0.0001617159869056195,
+   "returned": [
+    "PowerToys#1684"
+   ]
+  },
+  {
+   "t": 1794877904.4842422,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#28052"
+   },
+   "seconds": 0.00015631600399501622,
+   "returned": [
+    "PowerToys#28052"
+   ]
+  },
+  {
+   "t": 1794877908.030471,
+   "tool": "search",
+   "args": {
+    "pattern": "copy as plain text",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04041281098034233,
+   "returned": [
+    "PowerToys#25192",
+    "PowerToys#1684",
+    "PowerToys#47325",
+    "PowerToys#30556",
+    "PowerToys#21001"
+   ]
+  },
+  {
+   "t": 1794877909.3752122,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#30556"
+   },
+   "seconds": 0.00014375700266100466,
+   "returned": [
+    "PowerToys#30556"
+   ]
+  },
+  {
+   "t": 1794877910.6599338,
+   "tool": "search",
+   "args": {
+    "pattern": "Libre",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.03761761399800889,
+   "returned": [
+    "PowerToys#34680",
+    "PowerToys#6429",
+    "PowerToys#25047",
+    "PowerToys#26210",
+    "PowerToys#45913",
+    "PowerToys#35525",
+    "PowerToys#269",
+    "PowerToys#32625",
+    "PowerToys#24089",
+    "PowerToys#6469",
+    "PowerToys#38989",
+    "PowerToys#48830",
+    "PowerToys#46065",
+    "PowerToys#41977",
+    "PowerToys#37958",
+    "PowerToys#33653",
+    "PowerToys#31847",
+    "PowerToys#22403",
+    "PowerToys#12316",
+    "PowerToys#48727"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 19098,
+  "stop_reason": "end_turn",
+  "session_id": "ea7c555b-bd89-48ea-8e66-1ac4705b8bd6",
+  "total_cost_usd": 0.07173550000000001,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 13419,
+   "cache_read_input_tokens": 56535,
+   "output_tokens": 1237,
+   "output_tokens_details": {
+    "thinking_tokens": 123
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13419,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 480,
+     "cache_read_input_tokens": 11098,
+     "cache_creation_input_tokens": 3734,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3734
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1237,
+    "cacheReadInputTokens": 56535,
+    "cacheCreationInputTokens": 13419,
+    "webSearchRequests": 0,
+    "costUSD": 0.07173550000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 123,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13419,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#25192\", \"PowerToys#21001\", \"PowerToys#1684\"], \"answer\": \"A \\\"Copy as plain text\\\" feature has been requested before, and the maintainers haven't implemented it. PowerToys#25192 asks for exactly this. PowerToys#21001 was closed as a duplicate of PowerToys#1684, where a Ctrl+Shift+C copy-as-plain-text shortcut was also suggested. I found no archived ticket about LibreOffice Writer keeping formatting after Paste as Plain Text, so that part of your report is new. In the meantime, use Paste as Plain Text from Advanced Paste (default Ctrl+Win+Alt+V), which rewrites the clipboard with the plain-text result. Or use LibreOffice's own Paste Special > Unformatted text (Ctrl+Alt+Shift+V). Another option is to paste into Notepad and copy from there. You can add your scenario to PowerToys#25192 or PowerToys#1684 to support the request.\"}",
+  "ttft_ms": 1921,
+  "type": "result",
+  "duration_ms": 22631,
+  "uuid": "2f51aaaa-d15b-4608-90fb-c9484be70e2e",
+  "ttft_stream_ms": 973,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 974,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1237,
+    "cacheReadInputTokens": 56535,
+    "cacheCreationInputTokens": 13419,
+    "webSearchRequests": 0,
+    "costUSD": 0.07173550000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 123,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13419,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 23.98208764498122,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ivg0tyd5/work"
+  }
+ },
+ "wall_seconds": 23.98420129000442,
+ "qid": "PowerToys#49305",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#25192",
+   "PowerToys#21001",
+   "PowerToys#1684"
+  ],
+  "answer": "A \"Copy as plain text\" feature has been requested before, and the maintainers haven't implemented it. PowerToys#25192 asks for exactly this. PowerToys#21001 was closed as a duplicate of PowerToys#1684, where a Ctrl+Shift+C copy-as-plain-text shortcut was also suggested. I found no archived ticket about LibreOffice Writer keeping formatting after Paste as Plain Text, so that part of your report is new. In the meantime, use Paste as Plain Text from Advanced Paste (default Ctrl+Win+Alt+V), which rewrites the clipboard with the plain-text result. Or use LibreOffice's own Paste Special > Unformatted text (Ctrl+Alt+Shift+V). Another option is to paste into Notepad and copy from there. You can add your scenario to PowerToys#25192 or PowerToys#1684 to support the request."
+ },
+ "hit_turn_cap": false
+}

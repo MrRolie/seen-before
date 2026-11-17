@@ -1,0 +1,427 @@
+{
+ "shown": [
+  "PowerToys#10095",
+  "PowerToys#10331",
+  "PowerToys#10429",
+  "PowerToys#11078",
+  "PowerToys#11266",
+  "PowerToys#11548",
+  "PowerToys#12147",
+  "PowerToys#12633",
+  "PowerToys#12701",
+  "PowerToys#12921",
+  "PowerToys#13110",
+  "PowerToys#13168",
+  "PowerToys#14071",
+  "PowerToys#17136",
+  "PowerToys#20526",
+  "PowerToys#23868",
+  "PowerToys#26101",
+  "PowerToys#26299",
+  "PowerToys#3090",
+  "PowerToys#33204",
+  "PowerToys#3420",
+  "PowerToys#39745",
+  "PowerToys#40660",
+  "PowerToys#45492",
+  "PowerToys#46542",
+  "PowerToys#46795",
+  "PowerToys#47770",
+  "PowerToys#48170",
+  "PowerToys#48441",
+  "PowerToys#48552",
+  "PowerToys#48638",
+  "PowerToys#48773",
+  "PowerToys#48792",
+  "PowerToys#5282",
+  "PowerToys#6192",
+  "PowerToys#6246",
+  "PowerToys#6317",
+  "PowerToys#7349",
+  "PowerToys#7814",
+  "PowerToys#7876"
+ ],
+ "retrieval_seconds": 0.7932984269573353,
+ "tool_calls": [
+  {
+   "t": 1794883401.3544662,
+   "tool": "search",
+   "args": {
+    "pattern": "Shortcut Guide",
+    "regex": false,
+    "also": [
+     "KeyboardShortcuts"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11149817900150083,
+   "returned": []
+  },
+  {
+   "t": 1794883401.4471343,
+   "tool": "search",
+   "args": {
+    "pattern": "Failed to copy bundled shortcut manifests",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07751796799129806,
+   "returned": [
+    "PowerToys#48170"
+   ]
+  },
+  {
+   "t": 1794883401.6255972,
+   "tool": "search",
+   "args": {
+    "pattern": "Shortcut Guide crash PowerToys tab",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05498992098728195,
+   "returned": []
+  },
+  {
+   "t": 1794883402.8338354,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48170"
+   },
+   "seconds": 0.0001892249856609851,
+   "returned": [
+    "PowerToys#48170"
+   ]
+  },
+  {
+   "t": 1794883403.1725395,
+   "tool": "search",
+   "args": {
+    "pattern": "ShortcutGuide",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.058360644994536415,
+   "returned": [
+    "PowerToys#48638",
+    "PowerToys#45492",
+    "PowerToys#48773",
+    "PowerToys#48441",
+    "PowerToys#11078",
+    "PowerToys#48170",
+    "PowerToys#26101",
+    "PowerToys#14071",
+    "PowerToys#10095",
+    "PowerToys#5282",
+    "PowerToys#3090",
+    "PowerToys#40660",
+    "PowerToys#39745",
+    "PowerToys#23868",
+    "PowerToys#20526",
+    "PowerToys#12147",
+    "PowerToys#10331",
+    "PowerToys#7814",
+    "PowerToys#7349",
+    "PowerToys#6192"
+   ]
+  },
+  {
+   "t": 1794883404.4267328,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48638"
+   },
+   "seconds": 0.0004037489998154342,
+   "returned": [
+    "PowerToys#48638"
+   ]
+  },
+  {
+   "t": 1794883404.6559997,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48773"
+   },
+   "seconds": 0.00014612599625252187,
+   "returned": [
+    "PowerToys#48773"
+   ]
+  },
+  {
+   "t": 1794883405.1878006,
+   "tool": "search",
+   "args": {
+    "pattern": "being used by another process",
+    "regex": false,
+    "also": [
+     "Shortcut"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.12134478898951784,
+   "returned": [
+    "PowerToys#47770",
+    "PowerToys#17136",
+    "PowerToys#13110",
+    "PowerToys#12921",
+    "PowerToys#12701",
+    "PowerToys#12633",
+    "PowerToys#11548",
+    "PowerToys#11266",
+    "PowerToys#10429"
+   ]
+  },
+  {
+   "t": 1794883406.6613557,
+   "tool": "search",
+   "args": {
+    "pattern": "WinGet\\KeyboardShortcuts",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06792018300620839,
+   "returned": []
+  },
+  {
+   "t": 1794883407.1578493,
+   "tool": "search",
+   "args": {
+    "pattern": "Shortcut Guide",
+    "regex": false,
+    "also": [
+     "PowerToys tab",
+     "crash"
+    ],
+    "repo": null
+   },
+   "seconds": 0.17615527799353004,
+   "returned": [
+    "PowerToys#48552"
+   ]
+  },
+  {
+   "t": 1794883408.1345062,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48552"
+   },
+   "seconds": 0.00021918400307185948,
+   "returned": [
+    "PowerToys#48552"
+   ]
+  },
+  {
+   "t": 1794883409.629281,
+   "tool": "search",
+   "args": {
+    "pattern": "Manifests",
+    "regex": false,
+    "also": [
+     "Shortcut"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.124553180008661,
+   "returned": [
+    "PowerToys#48792",
+    "PowerToys#48170",
+    "PowerToys#7814",
+    "PowerToys#48638",
+    "PowerToys#46795",
+    "PowerToys#46542",
+    "PowerToys#33204",
+    "PowerToys#26299",
+    "PowerToys#13168",
+    "PowerToys#7876",
+    "PowerToys#6317",
+    "PowerToys#6246",
+    "PowerToys#3420"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13570,
+  "stop_reason": "end_turn",
+  "session_id": "852da021-a9ac-4e88-8130-cc9a966b7f4c",
+  "total_cost_usd": 0.09580970000000001,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 18669,
+   "cache_read_input_tokens": 62057,
+   "output_tokens": 1490,
+   "output_tokens_details": {
+    "thinking_tokens": 68
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 18669,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 447,
+     "cache_read_input_tokens": 17524,
+     "cache_creation_input_tokens": 2322,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2322
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1490,
+    "cacheReadInputTokens": 62057,
+    "cacheCreationInputTokens": 18669,
+    "webSearchRequests": 0,
+    "costUSD": 0.09580970000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 68,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18669,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this exact problem. That is the Shortcut Guide log error 'Failed to copy bundled shortcut manifests ... being used by another process' on WinGet\\\\KeyboardShortcuts\\\\+WindowsNT.Notepad.en-US.yml, together with a crash when you open the PowerToys tab. Some related Shortcut Guide crashes in 0.100.x have been reported, but they have different causes. PowerToys#48170 was a missing Manifests directory (DirectoryNotFoundException). PowerToys#48773 and PowerToys#48552 are crashes when selecting the Windows tab, caused by a NullReferenceException. PowerToys#48638 is an access violation. Please file this as a new issue and include the log snippet. Check whether another process, such as a second Shortcut Guide instance, an antivirus scanner or a sync tool, has the Notepad manifest file open in %LocalAppData%\\\\Microsoft\\\\WinGet\\\\KeyboardShortcuts. A workaround to try is to close any lingering PowerToys.ShortcutGuide.exe processes and restart PowerToys. You can also disable the Shortcut Guide module until a fix is available.\"}",
+  "ttft_ms": 1817,
+  "type": "result",
+  "duration_ms": 14176,
+  "uuid": "4e32da8b-bb9d-4d64-8ba1-dcb49db4c04f",
+  "ttft_stream_ms": 917,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 917,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1490,
+    "cacheReadInputTokens": 62057,
+    "cacheCreationInputTokens": 18669,
+    "webSearchRequests": 0,
+    "costUSD": 0.09580970000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 68,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18669,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.611269867018564,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-rmp06z9t/work"
+  }
+ },
+ "wall_seconds": 15.61322420099168,
+ "qid": "PowerToys#50802",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this exact problem. That is the Shortcut Guide log error 'Failed to copy bundled shortcut manifests ... being used by another process' on WinGet\\KeyboardShortcuts\\+WindowsNT.Notepad.en-US.yml, together with a crash when you open the PowerToys tab. Some related Shortcut Guide crashes in 0.100.x have been reported, but they have different causes. PowerToys#48170 was a missing Manifests directory (DirectoryNotFoundException). PowerToys#48773 and PowerToys#48552 are crashes when selecting the Windows tab, caused by a NullReferenceException. PowerToys#48638 is an access violation. Please file this as a new issue and include the log snippet. Check whether another process, such as a second Shortcut Guide instance, an antivirus scanner or a sync tool, has the Notepad manifest file open in %LocalAppData%\\Microsoft\\WinGet\\KeyboardShortcuts. A workaround to try is to close any lingering PowerToys.ShortcutGuide.exe processes and restart PowerToys. You can also disable the Shortcut Guide module until a fix is available."
+ },
+ "hit_turn_cap": false
+}

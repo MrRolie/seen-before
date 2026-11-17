@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#34095",
+  "PowerToys#48990",
+  "PowerToys#29650",
+  "PowerToys#42197",
+  "PowerToys#32650"
+ ],
+ "retrieval_seconds": 0.019247797987191007,
+ "retrieval_scores": [
+  0.7476733326911926,
+  0.7474464774131775,
+  0.7450113296508789,
+  0.7321969270706177,
+  0.7229876518249512
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3337,
+  "stop_reason": "end_turn",
+  "session_id": "5def8986-1326-4f1a-b649-552d16fb9c68",
+  "total_cost_usd": 0.056628,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 13366,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 316,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13366,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 316,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 13366,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 13366
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 316,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 13366,
+    "webSearchRequests": 0,
+    "costUSD": 0.056628,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13366,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find an earlier ticket in the archive that reports this problem. The retrieved tickets involve duplicate or conflicting installs (a per-user and a per-machine copy installed together, error 0x81f40001) or questions about the extracted MSI in the Package Cache. None of them describe Burn detecting and planning the same per-user related bundle twice, a second uninstall failing with 0x80070003 after the first removed the cache, or an Installed Apps entry left with a missing UninstallString EXE. Please keep this ticket open as a new report. Attach the full Burn logs from the 0.101.2222.0 -> 0.101.2262.0 upgrade and the link to wixtoolset/issues#7675 so the maintainers can decide whether to carry a Burn fix or upgrade WiX. Until that is resolved, I can't point to a documented fix from past tickets for the stale entries.\"}",
+  "ttft_ms": 3529,
+  "type": "result",
+  "duration_ms": 3551,
+  "uuid": "1b5e8d62-3fa5-4ec9-8f4d-7b9398f78ad8",
+  "ttft_stream_ms": 1296,
+  "time_to_request_ms": 209,
+  "first_content_frame_ms": 1296,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 316,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 13366,
+    "webSearchRequests": 0,
+    "costUSD": 0.056628,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13366,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.537648020981578,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-gg6v6xfr/work"
+  }
+ },
+ "wall_seconds": 4.558979314984754,
+ "qid": "PowerToys#50087",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find an earlier ticket in the archive that reports this problem. The retrieved tickets involve duplicate or conflicting installs (a per-user and a per-machine copy installed together, error 0x81f40001) or questions about the extracted MSI in the Package Cache. None of them describe Burn detecting and planning the same per-user related bundle twice, a second uninstall failing with 0x80070003 after the first removed the cache, or an Installed Apps entry left with a missing UninstallString EXE. Please keep this ticket open as a new report. Attach the full Burn logs from the 0.101.2222.0 -> 0.101.2262.0 upgrade and the link to wixtoolset/issues#7675 so the maintainers can decide whether to carry a Burn fix or upgrade WiX. Until that is resolved, I can't point to a documented fix from past tickets for the stale entries."
+ },
+ "hit_turn_cap": false
+}

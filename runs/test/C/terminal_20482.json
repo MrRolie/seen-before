@@ -1,0 +1,402 @@
+{
+ "shown": [
+  "terminal#10402",
+  "terminal#11398",
+  "terminal#12466",
+  "terminal#13281",
+  "terminal#13597",
+  "terminal#1513",
+  "terminal#1536",
+  "terminal#1562",
+  "terminal#1571",
+  "terminal#16464",
+  "terminal#16616",
+  "terminal#17307",
+  "terminal#17684",
+  "terminal#18281",
+  "terminal#19168",
+  "terminal#2215",
+  "terminal#2273",
+  "terminal#2722",
+  "terminal#2723",
+  "terminal#3467",
+  "terminal#4284",
+  "terminal#5728",
+  "terminal#6083",
+  "terminal#6335",
+  "terminal#6440",
+  "terminal#6607",
+  "terminal#6818",
+  "terminal#7057",
+  "terminal#7672",
+  "terminal#8025",
+  "terminal#8084",
+  "terminal#8146",
+  "terminal#8235",
+  "terminal#835",
+  "terminal#8452",
+  "terminal#8538",
+  "terminal#869",
+  "terminal#8766",
+  "terminal#8914",
+  "terminal#9559",
+  "terminal#9748",
+  "terminal#9817"
+ ],
+ "retrieval_seconds": 4.081983870011754,
+ "tool_calls": [
+  {
+   "t": 1794879066.671339,
+   "tool": "search",
+   "args": {
+    "query": "reorder profiles in new tab dropdown UI",
+    "repo": "terminal"
+   },
+   "seconds": 4.034504087001551,
+   "returned": [
+    "terminal#8914",
+    "terminal#19168",
+    "terminal#6083",
+    "terminal#6440",
+    "terminal#13281",
+    "terminal#835",
+    "terminal#16464",
+    "terminal#7057",
+    "terminal#1536",
+    "terminal#7672",
+    "terminal#6607",
+    "terminal#1562",
+    "terminal#8025",
+    "terminal#2723",
+    "terminal#8235",
+    "terminal#1571",
+    "terminal#2273",
+    "terminal#2722",
+    "terminal#3467",
+    "terminal#10402"
+   ]
+  },
+  {
+   "t": 1794879066.705377,
+   "tool": "search",
+   "args": {
+    "query": "reorder new-tab entries from extensions / fragments in settings UI",
+    "repo": "terminal"
+   },
+   "seconds": 0.017412016983143985,
+   "returned": [
+    "terminal#1562",
+    "terminal#8452",
+    "terminal#19168",
+    "terminal#8914",
+    "terminal#13597",
+    "terminal#8235",
+    "terminal#8025",
+    "terminal#8766",
+    "terminal#5728",
+    "terminal#6335",
+    "terminal#9748",
+    "terminal#835",
+    "terminal#4284",
+    "terminal#18281",
+    "terminal#8538",
+    "terminal#9817",
+    "terminal#12466",
+    "terminal#17307",
+    "terminal#3467",
+    "terminal#2215"
+   ]
+  },
+  {
+   "t": 1794879068.5727084,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19168"
+   },
+   "seconds": 0.00020327401580289006,
+   "returned": [
+    "terminal#19168"
+   ]
+  },
+  {
+   "t": 1794879068.7430606,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#8914"
+   },
+   "seconds": 0.00021594300051219761,
+   "returned": [
+    "terminal#8914"
+   ]
+  },
+  {
+   "t": 1794879070.0681937,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18281"
+   },
+   "seconds": 0.00014072598423808813,
+   "returned": [
+    "terminal#18281"
+   ]
+  },
+  {
+   "t": 1794879071.8771632,
+   "tool": "search",
+   "args": {
+    "query": "New Tab Menu settings page doesn't show extension/fragment/dynamic profiles entries to reorder",
+    "repo": "terminal"
+   },
+   "seconds": 0.014319269015686586,
+   "returned": [
+    "terminal#8914",
+    "terminal#8146",
+    "terminal#19168",
+    "terminal#2722",
+    "terminal#8084",
+    "terminal#8538",
+    "terminal#8452",
+    "terminal#6607",
+    "terminal#835",
+    "terminal#7057",
+    "terminal#3467",
+    "terminal#6818",
+    "terminal#18281",
+    "terminal#6083",
+    "terminal#16616",
+    "terminal#1513",
+    "terminal#869",
+    "terminal#10402",
+    "terminal#7672",
+    "terminal#17684"
+   ]
+  },
+  {
+   "t": 1794879073.6871414,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#6083"
+   },
+   "seconds": 0.00015163500211201608,
+   "returned": [
+    "terminal#6083"
+   ]
+  },
+  {
+   "t": 1794879077.377658,
+   "tool": "search",
+   "args": {
+    "query": "reorder profiles and extension entries in new tab menu from settings UI",
+    "repo": "terminal"
+   },
+   "seconds": 0.015036919008707628,
+   "returned": [
+    "terminal#8914",
+    "terminal#19168",
+    "terminal#8452",
+    "terminal#6083",
+    "terminal#6818",
+    "terminal#835",
+    "terminal#18281",
+    "terminal#1513",
+    "terminal#6607",
+    "terminal#9559",
+    "terminal#8084",
+    "terminal#3467",
+    "terminal#1562",
+    "terminal#6440",
+    "terminal#7672",
+    "terminal#16464",
+    "terminal#8538",
+    "terminal#8766",
+    "terminal#1536",
+    "terminal#11398"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 16207,
+  "stop_reason": "end_turn",
+  "session_id": "e543b503-ce6a-4231-98e6-1bc08b78d603",
+  "total_cost_usd": 0.056918899999999994,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 10367,
+   "cache_read_input_tokens": 42029,
+   "output_tokens": 1122,
+   "output_tokens_details": {
+    "thinking_tokens": 191
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10367,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 268,
+     "cache_read_input_tokens": 9953,
+     "cache_creation_input_tokens": 1447,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1447
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1122,
+    "cacheReadInputTokens": 42029,
+    "cacheCreationInputTokens": 10367,
+    "webSearchRequests": 0,
+    "costUSD": 0.056918899999999994,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 191,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10367,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#8914\", \"terminal#19168\"], \"answer\": \"This feature request has been filed before. The Settings UI can't reorder profiles. terminal#8914 is the main tracking issue, and terminal#19168 was closed as a duplicate of it. Add your use case there, including the wish to reorder entries that come from extensions. Until the feature exists, you can reorder profiles by editing the order of the `profiles.list` array in settings.json. The new-tab dropdown follows that order. The team's suggested workaround for the Ctrl+Shift+number shortcuts is to rebind them to `newTab` actions with an explicit `index`. I found nothing in the archive about reordering extension-provided entries specifically, so that part of your request is only covered indirectly by #8914.\"}",
+  "ttft_ms": 2137,
+  "type": "result",
+  "duration_ms": 20407,
+  "uuid": "2d26f093-d434-43a6-8b8c-8fe478cb7c7f",
+  "ttft_stream_ms": 1200,
+  "time_to_request_ms": 43,
+  "first_content_frame_ms": 1200,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1122,
+    "cacheReadInputTokens": 42029,
+    "cacheCreationInputTokens": 10367,
+    "webSearchRequests": 0,
+    "costUSD": 0.056918899999999994,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 191,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10367,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 21.7851084349968,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-z3wpvgx1/work"
+  }
+ },
+ "wall_seconds": 21.786984178994317,
+ "qid": "terminal#20482",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#8914",
+   "terminal#19168"
+  ],
+  "answer": "This feature request has been filed before. The Settings UI can't reorder profiles. terminal#8914 is the main tracking issue, and terminal#19168 was closed as a duplicate of it. Add your use case there, including the wish to reorder entries that come from extensions. Until the feature exists, you can reorder profiles by editing the order of the `profiles.list` array in settings.json. The new-tab dropdown follows that order. The team's suggested workaround for the Ctrl+Shift+number shortcuts is to rebind them to `newTab` actions with an explicit `index`. I found nothing in the archive about reordering extension-provided entries specifically, so that part of your request is only covered indirectly by #8914."
+ },
+ "hit_turn_cap": false
+}

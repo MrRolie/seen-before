@@ -1,0 +1,343 @@
+{
+ "shown": [
+  "PowerToys#10425",
+  "PowerToys#10689",
+  "PowerToys#11113",
+  "PowerToys#11655",
+  "PowerToys#13276",
+  "PowerToys#14957",
+  "PowerToys#19968",
+  "PowerToys#20131",
+  "PowerToys#20683",
+  "PowerToys#21636",
+  "PowerToys#21690",
+  "PowerToys#22012",
+  "PowerToys#22194",
+  "PowerToys#22201",
+  "PowerToys#25363",
+  "PowerToys#2686",
+  "PowerToys#27177",
+  "PowerToys#28882",
+  "PowerToys#29394",
+  "PowerToys#30067",
+  "PowerToys#30345",
+  "PowerToys#30402",
+  "PowerToys#31339",
+  "PowerToys#3172",
+  "PowerToys#32394",
+  "PowerToys#34532",
+  "PowerToys#34814",
+  "PowerToys#35715",
+  "PowerToys#36807",
+  "PowerToys#39459",
+  "PowerToys#43724",
+  "PowerToys#6158",
+  "PowerToys#7255",
+  "PowerToys#7514",
+  "PowerToys#9584",
+  "PowerToys#9743"
+ ],
+ "retrieval_seconds": 3.924593147006817,
+ "tool_calls": [
+  {
+   "t": 1794885372.2221363,
+   "tool": "similar",
+   "args": {
+    "query": "file converter change file extension or convert file type (DOC to PDF)",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.8035738859907724,
+   "returned": [
+    "PowerToys#6158",
+    "PowerToys#34814",
+    "PowerToys#22201",
+    "PowerToys#9743",
+    "PowerToys#19968",
+    "PowerToys#22194",
+    "PowerToys#27177",
+    "PowerToys#3172",
+    "PowerToys#9584",
+    "PowerToys#30345",
+    "PowerToys#14957",
+    "PowerToys#10425",
+    "PowerToys#25363",
+    "PowerToys#20683",
+    "PowerToys#43724",
+    "PowerToys#29394",
+    "PowerToys#7255",
+    "PowerToys#22012",
+    "PowerToys#7514",
+    "PowerToys#21690"
+   ]
+  },
+  {
+   "t": 1794885372.2921164,
+   "tool": "search",
+   "args": {
+    "pattern": "file converter",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05282264100969769,
+   "returned": [
+    "PowerToys#36807",
+    "PowerToys#20131",
+    "PowerToys#13276",
+    "PowerToys#20683",
+    "PowerToys#43724",
+    "PowerToys#34814",
+    "PowerToys#32394",
+    "PowerToys#30402",
+    "PowerToys#29394",
+    "PowerToys#21636",
+    "PowerToys#35715",
+    "PowerToys#34532",
+    "PowerToys#31339",
+    "PowerToys#30067",
+    "PowerToys#27177",
+    "PowerToys#22012",
+    "PowerToys#21690",
+    "PowerToys#11113",
+    "PowerToys#2686"
+   ]
+  },
+  {
+   "t": 1794885372.372247,
+   "tool": "search",
+   "args": {
+    "pattern": "change extension",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06768605200340971,
+   "returned": [
+    "PowerToys#39459",
+    "PowerToys#28882",
+    "PowerToys#11655",
+    "PowerToys#10689"
+   ]
+  },
+  {
+   "t": 1794885373.453071,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#22201"
+   },
+   "seconds": 0.0002765740209724754,
+   "returned": [
+    "PowerToys#22201"
+   ]
+  },
+  {
+   "t": 1794885373.6295896,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#25363"
+   },
+   "seconds": 0.00010638698586262763,
+   "returned": [
+    "PowerToys#25363"
+   ]
+  },
+  {
+   "t": 1794885374.3893979,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#9743"
+   },
+   "seconds": 0.00012760699610225856,
+   "returned": [
+    "PowerToys#9743"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6685,
+  "stop_reason": "end_turn",
+  "session_id": "6b63e1fa-8215-4258-863a-4e082a660745",
+  "total_cost_usd": 0.0388359,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 7345,
+   "cache_read_input_tokens": 17599,
+   "output_tokens": 768,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7345,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 316,
+     "cache_read_input_tokens": 8003,
+     "cache_creation_input_tokens": 755,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 755
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 768,
+    "cacheReadInputTokens": 17599,
+    "cacheCreationInputTokens": 7345,
+    "webSearchRequests": 0,
+    "costUSD": 0.0388359,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7345,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#22201\", \"PowerToys#25363\", \"PowerToys#9743\"], \"answer\": \"This file converter request has been made before, and the PowerToys team has declined it. Their reasons: conversion between arbitrary file types isn't possible without an app or codec that understands each format. Renaming a zip to .exe or .msi doesn't convert it. Conversions such as DOC to PDF risk data loss and formatting errors, and they would make PowerToys depend on outside programs such as Office. Some formats also have licensing limits. Use the 'Save As' or 'Export' option in the app that opened the file, for example Word's export to PDF. You can also use a dedicated converter such as the third-party File Converter right-click tool. To change only the extension, rename the file in File Explorer with file name extensions turned on. This doesn't change the file's actual format. PowerToys PowerRename can also rename extensions in bulk.\"}",
+  "ttft_ms": 1087,
+  "type": "result",
+  "duration_ms": 10060,
+  "uuid": "3b85e8da-8755-493f-80d1-1a5bae9114bb",
+  "ttft_stream_ms": 630,
+  "time_to_request_ms": 37,
+  "first_content_frame_ms": 631,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 768,
+    "cacheReadInputTokens": 17599,
+    "cacheCreationInputTokens": 7345,
+    "webSearchRequests": 0,
+    "costUSD": 0.0388359,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7345,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.489766298007453,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-hhwjx2gz/work"
+  }
+ },
+ "wall_seconds": 11.492313295981148,
+ "qid": "PowerToys#51924",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#22201",
+   "PowerToys#25363",
+   "PowerToys#9743"
+  ],
+  "answer": "This file converter request has been made before, and the PowerToys team has declined it. Their reasons: conversion between arbitrary file types isn't possible without an app or codec that understands each format. Renaming a zip to .exe or .msi doesn't convert it. Conversions such as DOC to PDF risk data loss and formatting errors, and they would make PowerToys depend on outside programs such as Office. Some formats also have licensing limits. Use the 'Save As' or 'Export' option in the app that opened the file, for example Word's export to PDF. You can also use a dedicated converter such as the third-party File Converter right-click tool. To change only the extension, rename the file in File Explorer with file name extensions turned on. This doesn't change the file's actual format. PowerToys PowerRename can also rename extensions in bulk."
+ },
+ "hit_turn_cap": false
+}

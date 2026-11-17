@@ -1,0 +1,299 @@
+{
+ "shown": [
+  "terminal#11701",
+  "terminal#12395",
+  "terminal#1365",
+  "terminal#14589",
+  "terminal#15113",
+  "terminal#18148",
+  "terminal#18937",
+  "terminal#287",
+  "terminal#3454",
+  "terminal#4920",
+  "terminal#5027",
+  "terminal#6044",
+  "terminal#6565",
+  "terminal#6815",
+  "terminal#7884",
+  "terminal#8894",
+  "terminal#9216",
+  "terminal#9217",
+  "terminal#9218",
+  "terminal#9346"
+ ],
+ "retrieval_seconds": 3.91064938204363,
+ "tool_calls": [
+  {
+   "t": 1794884225.8821878,
+   "tool": "search",
+   "args": {
+    "query": "scrollbar width option always visible accessibility",
+    "repo": "terminal"
+   },
+   "seconds": 3.909827054012567,
+   "returned": [
+    "terminal#6565",
+    "terminal#9218",
+    "terminal#8894",
+    "terminal#18937",
+    "terminal#9216",
+    "terminal#14589",
+    "terminal#9217",
+    "terminal#4920",
+    "terminal#7884",
+    "terminal#12395",
+    "terminal#15113",
+    "terminal#3454",
+    "terminal#6044",
+    "terminal#6815",
+    "terminal#9346",
+    "terminal#1365",
+    "terminal#5027",
+    "terminal#11701",
+    "terminal#287",
+    "terminal#18148"
+   ]
+  },
+  {
+   "t": 1794884225.8980248,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18937"
+   },
+   "seconds": 0.00016580501687712967,
+   "returned": [
+    "terminal#18937"
+   ]
+  },
+  {
+   "t": 1794884227.8388984,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#9218"
+   },
+   "seconds": 0.00016634599887765944,
+   "returned": [
+    "terminal#9218"
+   ]
+  },
+  {
+   "t": 1794884227.8464234,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#6565"
+   },
+   "seconds": 0.00011864700354635715,
+   "returned": [
+    "terminal#6565"
+   ]
+  },
+  {
+   "t": 1794884227.961677,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#6815"
+   },
+   "seconds": 0.0001598350063432008,
+   "returned": [
+    "terminal#6815"
+   ]
+  },
+  {
+   "t": 1794884229.4627247,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#3454"
+   },
+   "seconds": 0.00021169500541873276,
+   "returned": [
+    "terminal#3454"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9756,
+  "stop_reason": "end_turn",
+  "session_id": "a06b2b0a-d51d-453a-b524-040cd2e39b65",
+  "total_cost_usd": 0.0531392,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 10844,
+   "cache_read_input_tokens": 15672,
+   "output_tokens": 818,
+   "output_tokens_details": {
+    "thinking_tokens": 31
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10844,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 411,
+     "cache_read_input_tokens": 8946,
+     "cache_creation_input_tokens": 2931,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2931
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 818,
+    "cacheReadInputTokens": 15672,
+    "cacheCreationInputTokens": 10844,
+    "webSearchRequests": 0,
+    "costUSD": 0.0531392,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 31,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10844,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#3454\", \"terminal#9218\", \"terminal#18937\"], \"answer\": \"Terminal has had this request before, and it isn't implemented as a Terminal setting. There is a workaround for the always-visible part. Turn off Windows Settings > Accessibility (Ease of Access) > Visual effects > 'Automatically hide scroll bars in Windows'. Terminal follows that system-wide setting. Since Terminal Preview 1.17 (#14047), the change applies to open windows right away. Scrollbars then stay visible and expanded, so you don't have to hover to bring them up. Terminal also has a `scrollbarState: \\\"visible\\\"` setting. A custom width is a different matter. #9218 asked for a width setting. The team found the XAML scrollbar width hard to change, and later said they didn't want per-app scrollbar settings. They said this should be handled at the OS or WinUI level. #18937 asked for the same width option and was closed without a change. The width part is probably not going to be added in Terminal. Your best option is to raise it with Windows through Feedback Hub or the WinUI repo, as a system-wide accessibility request. You can also upvote or comment on #3454 and #9218.\"}",
+  "ttft_ms": 1862,
+  "type": "result",
+  "duration_ms": 13742,
+  "uuid": "62c3ca5d-7360-4737-a829-4c969dc6cf85",
+  "ttft_stream_ms": 1175,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 1175,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 818,
+    "cacheReadInputTokens": 15672,
+    "cacheCreationInputTokens": 10844,
+    "webSearchRequests": 0,
+    "costUSD": 0.0531392,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 31,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10844,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.363415694009745,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-21e706j6/work"
+  }
+ },
+ "wall_seconds": 15.36544287801371,
+ "qid": "terminal#20807",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#3454",
+   "terminal#9218",
+   "terminal#18937"
+  ],
+  "answer": "Terminal has had this request before, and it isn't implemented as a Terminal setting. There is a workaround for the always-visible part. Turn off Windows Settings > Accessibility (Ease of Access) > Visual effects > 'Automatically hide scroll bars in Windows'. Terminal follows that system-wide setting. Since Terminal Preview 1.17 (#14047), the change applies to open windows right away. Scrollbars then stay visible and expanded, so you don't have to hover to bring them up. Terminal also has a `scrollbarState: \"visible\"` setting. A custom width is a different matter. #9218 asked for a width setting. The team found the XAML scrollbar width hard to change, and later said they didn't want per-app scrollbar settings. They said this should be handled at the OS or WinUI level. #18937 asked for the same width option and was closed without a change. The width part is probably not going to be added in Terminal. Your best option is to raise it with Windows through Feedback Hub or the WinUI repo, as a system-wide accessibility request. You can also upvote or comment on #3454 and #9218."
+ },
+ "hit_turn_cap": false
+}

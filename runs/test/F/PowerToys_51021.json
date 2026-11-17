@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#530",
+  "PowerToys#9263",
+  "PowerToys#43020",
+  "PowerToys#20927",
+  "PowerToys#22416"
+ ],
+ "retrieval_seconds": 0.6175029310106765,
+ "retrieval_scores": [
+  0.03278688524590164,
+  0.030536130536130537,
+  0.02821939586645469,
+  0.02803379416282642,
+  0.02797067901234568
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2961,
+  "stop_reason": "end_turn",
+  "session_id": "93cf634b-7f4f-4ee2-a924-7cb0b674dd47",
+  "total_cost_usd": 0.018502,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3872,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 301,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3872,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 301,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3872,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3872
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 301,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3872,
+    "webSearchRequests": 0,
+    "costUSD": 0.018502,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3872,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#20927\", \"PowerToys#530\", \"PowerToys#22416\"], \"answer\": \"This request has been filed before: sharing a custom region of a 4K or ultra-wide screen in Teams so you can swap apps in and out without switching shares. The past tickets were closed as duplicates of the general tracking issue (#279, and for newer tickets #43464), so there is no built-in PowerToys feature yet and you can follow those issues for progress. Teams itself does not support sharing a screen region, so a Teams-side fix would have to come from the Teams feedback portal. In the meantime, use the free 'Region to Share' app ([user]/RegionToShare, also in the Microsoft Store). Another user suggested pinning it inside a FancyZones zone, which makes it transparent so the windows behind it show through. You can then move any app into that zone while presenting.\"}",
+  "ttft_ms": 3160,
+  "type": "result",
+  "duration_ms": 3182,
+  "uuid": "4289e884-f9ac-4026-84ef-e028ef9affc5",
+  "ttft_stream_ms": 1113,
+  "time_to_request_ms": 216,
+  "first_content_frame_ms": 1113,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 301,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3872,
+    "webSearchRequests": 0,
+    "costUSD": 0.018502,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3872,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.098559853009647,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-41loo138/work"
+  }
+ },
+ "wall_seconds": 4.718232005019672,
+ "qid": "PowerToys#51021",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#20927",
+   "PowerToys#530",
+   "PowerToys#22416"
+  ],
+  "answer": "This request has been filed before: sharing a custom region of a 4K or ultra-wide screen in Teams so you can swap apps in and out without switching shares. The past tickets were closed as duplicates of the general tracking issue (#279, and for newer tickets #43464), so there is no built-in PowerToys feature yet and you can follow those issues for progress. Teams itself does not support sharing a screen region, so a Teams-side fix would have to come from the Teams feedback portal. In the meantime, use the free 'Region to Share' app ([user]/RegionToShare, also in the Microsoft Store). Another user suggested pinning it inside a FancyZones zone, which makes it transparent so the windows behind it show through. You can then move any app into that zone while presenting."
+ },
+ "hit_turn_cap": false
+}

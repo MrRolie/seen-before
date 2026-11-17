@@ -1,0 +1,353 @@
+{
+ "shown": [
+  "PowerToys#10276",
+  "PowerToys#14702",
+  "PowerToys#1707",
+  "PowerToys#1719",
+  "PowerToys#1730",
+  "PowerToys#1752",
+  "PowerToys#2060",
+  "PowerToys#2304",
+  "PowerToys#2310",
+  "PowerToys#2350",
+  "PowerToys#25048",
+  "PowerToys#25350",
+  "PowerToys#2552",
+  "PowerToys#3035",
+  "PowerToys#3120",
+  "PowerToys#3152",
+  "PowerToys#3223",
+  "PowerToys#3541",
+  "PowerToys#38295",
+  "PowerToys#38347",
+  "PowerToys#38969",
+  "PowerToys#3921",
+  "PowerToys#40299",
+  "PowerToys#41545",
+  "PowerToys#42144",
+  "PowerToys#42147",
+  "PowerToys#42266",
+  "PowerToys#45955",
+  "PowerToys#46074",
+  "PowerToys#46106",
+  "PowerToys#46270",
+  "PowerToys#46291",
+  "PowerToys#46397",
+  "PowerToys#46421",
+  "PowerToys#46499",
+  "PowerToys#46564",
+  "PowerToys#4706",
+  "PowerToys#47155",
+  "PowerToys#47496",
+  "PowerToys#47576",
+  "PowerToys#48459",
+  "PowerToys#48530",
+  "PowerToys#48833",
+  "PowerToys#48914",
+  "PowerToys#48970",
+  "PowerToys#49025",
+  "PowerToys#5061"
+ ],
+ "retrieval_seconds": 3.4531690790317953,
+ "tool_calls": [
+  {
+   "t": 1794879230.4263723,
+   "tool": "search",
+   "args": {
+    "query": "Dock: bookmark bands invisible icon and name not shown when pinning with + in edit dock",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.4174082090030424,
+   "returned": [
+    "PowerToys#48530",
+    "PowerToys#46106",
+    "PowerToys#1730",
+    "PowerToys#46270",
+    "PowerToys#3035",
+    "PowerToys#38347",
+    "PowerToys#48833",
+    "PowerToys#2350",
+    "PowerToys#3541",
+    "PowerToys#47576",
+    "PowerToys#46564",
+    "PowerToys#46291",
+    "PowerToys#48970",
+    "PowerToys#1719",
+    "PowerToys#4706",
+    "PowerToys#49025",
+    "PowerToys#45955",
+    "PowerToys#5061",
+    "PowerToys#42147",
+    "PowerToys#47155"
+   ]
+  },
+  {
+   "t": 1794879230.4609294,
+   "tool": "search",
+   "args": {
+    "query": "Command Palette dock add band list shows blank items for bookmarks",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.015813439997145906,
+   "returned": [
+    "PowerToys#38347",
+    "PowerToys#48833",
+    "PowerToys#42266",
+    "PowerToys#48530",
+    "PowerToys#42144",
+    "PowerToys#46074",
+    "PowerToys#48459",
+    "PowerToys#40299",
+    "PowerToys#47576",
+    "PowerToys#45955",
+    "PowerToys#47496",
+    "PowerToys#46499",
+    "PowerToys#1730",
+    "PowerToys#3120",
+    "PowerToys#41545",
+    "PowerToys#38295",
+    "PowerToys#38969",
+    "PowerToys#3223",
+    "PowerToys#3921",
+    "PowerToys#46421"
+   ]
+  },
+  {
+   "t": 1794879231.5130875,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46270"
+   },
+   "seconds": 0.0001309460203628987,
+   "returned": [
+    "PowerToys#46270"
+   ]
+  },
+  {
+   "t": 1794879231.6803746,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#49025"
+   },
+   "seconds": 0.00016549500287510455,
+   "returned": [
+    "PowerToys#49025"
+   ]
+  },
+  {
+   "t": 1794879232.2725968,
+   "tool": "search",
+   "args": {
+    "query": "pin to dock + button available bands list bookmark missing name and icon",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.019650989008368924,
+   "returned": [
+    "PowerToys#1730",
+    "PowerToys#3035",
+    "PowerToys#2304",
+    "PowerToys#3541",
+    "PowerToys#25350",
+    "PowerToys#48530",
+    "PowerToys#46397",
+    "PowerToys#2552",
+    "PowerToys#48833",
+    "PowerToys#1752",
+    "PowerToys#2350",
+    "PowerToys#48914",
+    "PowerToys#25048",
+    "PowerToys#14702",
+    "PowerToys#3152",
+    "PowerToys#2310",
+    "PowerToys#10276",
+    "PowerToys#1707",
+    "PowerToys#2060",
+    "PowerToys#38347"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7872,
+  "stop_reason": "end_turn",
+  "session_id": "c1025402-36fa-49cc-8e06-c83377b66acc",
+  "total_cost_usd": 0.036655,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 7021,
+   "cache_read_input_tokens": 7090,
+   "output_tokens": 785,
+   "output_tokens_details": {
+    "thinking_tokens": 38
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7021,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 356,
+     "cache_read_input_tokens": 4361,
+     "cache_creation_input_tokens": 3693,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3693
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 785,
+    "cacheReadInputTokens": 7090,
+    "cacheCreationInputTokens": 7021,
+    "webSearchRequests": 0,
+    "costUSD": 0.036655,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 38,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7021,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#49025\"], \"answer\": \"This has been reported before. In PowerToys#49025 (also v0.100.2, Microsoft Store), the bookmark's title and icon are blank in the \\\"+\\\" list when you edit the dock. The reporter calls it a visual glitch. Once the bookmark is added to the dock, its icon and title show up correctly. The ticket gives no fix, so I can't promise one. For now, select the blank entry in the \\\"+\\\" list and add it anyway. It will display properly on the dock. The ticket doesn't say how to tell several blank entries apart, so if you have more than one, you may have to add them one at a time to see which is which. A related ticket, PowerToys#46270, covers pinned bookmark icons disappearing after a restart. Its maintainer said a fix PR existed but had not been merged as of 0.100. That ticket may be a separate problem, so don't treat it as the same bug.\"}",
+  "ttft_ms": 1526,
+  "type": "result",
+  "duration_ms": 11025,
+  "uuid": "e7e9e8e7-1443-478d-a2fa-5b8554b57c64",
+  "ttft_stream_ms": 853,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 853,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 785,
+    "cacheReadInputTokens": 7090,
+    "cacheCreationInputTokens": 7021,
+    "webSearchRequests": 0,
+    "costUSD": 0.036655,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 38,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7021,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.39152148598805,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-qmwj0c52/work"
+  }
+ },
+ "wall_seconds": 12.393089949997375,
+ "qid": "PowerToys#49621",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#49025"
+  ],
+  "answer": "This has been reported before. In PowerToys#49025 (also v0.100.2, Microsoft Store), the bookmark's title and icon are blank in the \"+\" list when you edit the dock. The reporter calls it a visual glitch. Once the bookmark is added to the dock, its icon and title show up correctly. The ticket gives no fix, so I can't promise one. For now, select the blank entry in the \"+\" list and add it anyway. It will display properly on the dock. The ticket doesn't say how to tell several blank entries apart, so if you have more than one, you may have to add them one at a time to see which is which. A related ticket, PowerToys#46270, covers pinned bookmark icons disappearing after a restart. Its maintainer said a fix PR existed but had not been merged as of 0.100. That ticket may be a separate problem, so don't treat it as the same bug."
+ },
+ "hit_turn_cap": false
+}

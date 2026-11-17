@@ -1,0 +1,435 @@
+{
+ "shown": [
+  "PowerToys#11718",
+  "PowerToys#12877",
+  "PowerToys#13202",
+  "PowerToys#14175",
+  "PowerToys#1536",
+  "PowerToys#17493",
+  "PowerToys#18015",
+  "PowerToys#18209",
+  "PowerToys#18244",
+  "PowerToys#18444",
+  "PowerToys#1960",
+  "PowerToys#19872",
+  "PowerToys#22403",
+  "PowerToys#23001",
+  "PowerToys#23982",
+  "PowerToys#243",
+  "PowerToys#24873",
+  "PowerToys#2590",
+  "PowerToys#2595",
+  "PowerToys#26991",
+  "PowerToys#28188",
+  "PowerToys#29024",
+  "PowerToys#2910",
+  "PowerToys#31226",
+  "PowerToys#31237",
+  "PowerToys#31987",
+  "PowerToys#32314",
+  "PowerToys#3281",
+  "PowerToys#36188",
+  "PowerToys#37368",
+  "PowerToys#38376",
+  "PowerToys#38393",
+  "PowerToys#3855",
+  "PowerToys#38730",
+  "PowerToys#3881",
+  "PowerToys#39762",
+  "PowerToys#4000",
+  "PowerToys#417",
+  "PowerToys#42694",
+  "PowerToys#43644",
+  "PowerToys#46196",
+  "PowerToys#46775",
+  "PowerToys#4753",
+  "PowerToys#48382",
+  "PowerToys#48431",
+  "PowerToys#48432",
+  "PowerToys#48433",
+  "PowerToys#48520",
+  "PowerToys#48567",
+  "PowerToys#48613",
+  "PowerToys#48698",
+  "PowerToys#48708",
+  "PowerToys#48906",
+  "PowerToys#48919",
+  "PowerToys#48947",
+  "PowerToys#48975",
+  "PowerToys#4996",
+  "PowerToys#6246",
+  "PowerToys#6983",
+  "PowerToys#7512",
+  "PowerToys#827"
+ ],
+ "retrieval_seconds": 4.904599377972772,
+ "tool_calls": [
+  {
+   "t": 1794876949.6372366,
+   "tool": "similar",
+   "args": {
+    "query": "PowerToys settings window won't open, modules work but main settings page doesn't open",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.050924934010254,
+   "returned": [
+    "PowerToys#3855",
+    "PowerToys#3281",
+    "PowerToys#4753",
+    "PowerToys#3881",
+    "PowerToys#13202",
+    "PowerToys#7512",
+    "PowerToys#2590",
+    "PowerToys#14175",
+    "PowerToys#1536",
+    "PowerToys#4000",
+    "PowerToys#11718",
+    "PowerToys#18444",
+    "PowerToys#4996",
+    "PowerToys#6983",
+    "PowerToys#2910",
+    "PowerToys#1960",
+    "PowerToys#827",
+    "PowerToys#417",
+    "PowerToys#18209",
+    "PowerToys#2595"
+   ]
+  },
+  {
+   "t": 1794876949.733255,
+   "tool": "search",
+   "args": {
+    "pattern": "settings won't open",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.08220948500093073,
+   "returned": [
+    "PowerToys#32314",
+    "PowerToys#24873",
+    "PowerToys#39762",
+    "PowerToys#29024",
+    "PowerToys#23982",
+    "PowerToys#23001",
+    "PowerToys#19872",
+    "PowerToys#18244",
+    "PowerToys#18015",
+    "PowerToys#12877"
+   ]
+  },
+  {
+   "t": 1794876951.8872218,
+   "tool": "search",
+   "args": {
+    "pattern": "0.10",
+    "regex": false,
+    "also": [
+     "settings",
+     "Microsoft Store",
+     "open"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.32533439400140196,
+   "returned": [
+    "PowerToys#48432",
+    "PowerToys#17493",
+    "PowerToys#31226",
+    "PowerToys#22403",
+    "PowerToys#48975",
+    "PowerToys#48906",
+    "PowerToys#46196",
+    "PowerToys#42694",
+    "PowerToys#38393",
+    "PowerToys#48947",
+    "PowerToys#48919",
+    "PowerToys#48708",
+    "PowerToys#48698",
+    "PowerToys#48613",
+    "PowerToys#48567",
+    "PowerToys#48520",
+    "PowerToys#48433",
+    "PowerToys#48431",
+    "PowerToys#46775",
+    "PowerToys#43644"
+   ]
+  },
+  {
+   "t": 1794876951.9005523,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39762"
+   },
+   "seconds": 0.0001145470014307648,
+   "returned": [
+    "PowerToys#39762"
+   ]
+  },
+  {
+   "t": 1794876954.3876662,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48947"
+   },
+   "seconds": 0.00032162098796106875,
+   "returned": [
+    "PowerToys#48947"
+   ]
+  },
+  {
+   "t": 1794876954.91153,
+   "tool": "search",
+   "args": {
+    "pattern": "Microsoft Store",
+    "regex": false,
+    "also": [
+     "settings",
+     "doesn't open"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.2109640009875875,
+   "returned": [
+    "PowerToys#48432",
+    "PowerToys#38730",
+    "PowerToys#37368",
+    "PowerToys#31987",
+    "PowerToys#31237",
+    "PowerToys#28188",
+    "PowerToys#6246",
+    "PowerToys#243"
+   ]
+  },
+  {
+   "t": 1794876956.9789212,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37368"
+   },
+   "seconds": 0.00018989498494192958,
+   "returned": [
+    "PowerToys#37368"
+   ]
+  },
+  {
+   "t": 1794876958.4361472,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38376"
+   },
+   "seconds": 0.00020142400171607733,
+   "returned": [
+    "PowerToys#38376"
+   ]
+  },
+  {
+   "t": 1794876961.9648645,
+   "tool": "search",
+   "args": {
+    "pattern": "settings",
+    "regex": false,
+    "also": [
+     "Microsoft Store",
+     "0.101"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.2343390769965481,
+   "returned": [
+    "PowerToys#17493",
+    "PowerToys#36188",
+    "PowerToys#26991",
+    "PowerToys#22403",
+    "PowerToys#48382"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 16798,
+  "stop_reason": "end_turn",
+  "session_id": "713ca723-1397-442f-a122-35b7923e15d8",
+  "total_cost_usd": 0.0683136,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 12283,
+   "cache_read_input_tokens": 49736,
+   "output_tokens": 1418,
+   "output_tokens_details": {
+    "thinking_tokens": 284
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12283,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 318,
+     "cache_read_input_tokens": 12571,
+     "cache_creation_input_tokens": 1125,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1125
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1418,
+    "cacheReadInputTokens": 49736,
+    "cacheCreationInputTokens": 12283,
+    "webSearchRequests": 0,
+    "costUSD": 0.0683136,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 284,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12283,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48947\", \"PowerToys#38376\", \"PowerToys#37368\"], \"answer\": \"The archive has reports of this same symptom: PowerToys runs in the background and its modules work, but the main Settings window won't open. Your ticket has no details, so I can't confirm these are the same cause. The closest match is #48947, on v0.100.2. That reporter fixed it by completely uninstalling PowerToys and reinstalling it from the Microsoft Store. Try that first. Tickets #38376 and #37368 describe the Settings window opening blank, crashing, or not opening at all. Both were closed as duplicates of the same problem. In those tickets, some people on Windows 10 got it working by going back to an older version (0.86.0). To help us investigate further, check Windows Event Viewer for a PowerToys.Settings.exe crash and add the faulting module to your ticket. Also tell us your Windows version.\"}",
+  "ttft_ms": 2335,
+  "type": "result",
+  "duration_ms": 21705,
+  "uuid": "1643f05b-97a5-4a20-875f-10e3b03a97f3",
+  "ttft_stream_ms": 1350,
+  "time_to_request_ms": 28,
+  "first_content_frame_ms": 1350,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1418,
+    "cacheReadInputTokens": 49736,
+    "cacheCreationInputTokens": 12283,
+    "webSearchRequests": 0,
+    "costUSD": 0.0683136,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 284,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12283,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 23.27725278501748,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-07pfo391/work"
+  }
+ },
+ "wall_seconds": 23.27902270501363,
+ "qid": "PowerToys#50554",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48947",
+   "PowerToys#38376",
+   "PowerToys#37368"
+  ],
+  "answer": "The archive has reports of this same symptom: PowerToys runs in the background and its modules work, but the main Settings window won't open. Your ticket has no details, so I can't confirm these are the same cause. The closest match is #48947, on v0.100.2. That reporter fixed it by completely uninstalling PowerToys and reinstalling it from the Microsoft Store. Try that first. Tickets #38376 and #37368 describe the Settings window opening blank, crashing, or not opening at all. Both were closed as duplicates of the same problem. In those tickets, some people on Windows 10 got it working by going back to an older version (0.86.0). To help us investigate further, check Windows Event Viewer for a PowerToys.Settings.exe crash and add the faulting module to your ticket. Also tell us your Windows version."
+ },
+ "hit_turn_cap": false
+}

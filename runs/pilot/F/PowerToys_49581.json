@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#44474",
+  "PowerToys#46319",
+  "PowerToys#48435",
+  "PowerToys#9105",
+  "PowerToys#48617"
+ ],
+ "retrieval_seconds": 0.5972742099838797,
+ "retrieval_scores": [
+  0.02976190476190476,
+  0.028021349599695006,
+  0.01639344262295082,
+  0.016129032258064516,
+  0.016129032258064516
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3273,
+  "stop_reason": "end_turn",
+  "session_id": "ed68edde-402e-4a97-9265-835230b3c290",
+  "total_cost_usd": 0.01863,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3949,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 283,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3949,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 283,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3949,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3949
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 283,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3949,
+    "webSearchRequests": 0,
+    "costUSD": 0.01863,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3949,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find a past ticket reporting this exact problem: the taskbar section in Shortcut Guide (v0.100.2, Shortcut Guide V2) being cut off on the left and misaligned. The closest tickets are different problems. PowerToys#44474 was numbers missing in the old guide and was closed once V2 shipped in 0.100. PowerToys#48435 covers the taskbar number indicator glitching when the taskbar is not at the bottom, and PowerToys#9105 covers a jerky adjustment with a left/right taskbar in the old guide. Please file this as a new issue, or add to #48435 if your taskbar is not at the bottom. Include your taskbar position, display resolution and scaling, and a PowerToys bug report ZIP so the team can reproduce it.\"}",
+  "ttft_ms": 3457,
+  "type": "result",
+  "duration_ms": 3473,
+  "uuid": "7d2f2e9e-0bdb-4a98-952f-575490205c0f",
+  "ttft_stream_ms": 1169,
+  "time_to_request_ms": 199,
+  "first_content_frame_ms": 1169,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 283,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3949,
+    "webSearchRequests": 0,
+    "costUSD": 0.01863,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3949,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.451598676008871,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-99_tzg3w/work"
+  }
+ },
+ "wall_seconds": 5.0513571049959864,
+ "qid": "PowerToys#49581",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find a past ticket reporting this exact problem: the taskbar section in Shortcut Guide (v0.100.2, Shortcut Guide V2) being cut off on the left and misaligned. The closest tickets are different problems. PowerToys#44474 was numbers missing in the old guide and was closed once V2 shipped in 0.100. PowerToys#48435 covers the taskbar number indicator glitching when the taskbar is not at the bottom, and PowerToys#9105 covers a jerky adjustment with a left/right taskbar in the old guide. Please file this as a new issue, or add to #48435 if your taskbar is not at the bottom. Include your taskbar position, display resolution and scaling, and a PowerToys bug report ZIP so the team can reproduce it."
+ },
+ "hit_turn_cap": false
+}

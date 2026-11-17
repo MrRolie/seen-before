@@ -1,0 +1,194 @@
+{
+ "shown": [
+  "terminal#19383",
+  "terminal#17246",
+  "terminal#19745",
+  "terminal#2277",
+  "terminal#20367"
+ ],
+ "retrieval_seconds": 0.3957039040105883,
+ "retrieval_scores": [
+  0.03252247488101534,
+  0.029906956136464335,
+  0.029418126757516764,
+  0.026200135226504394,
+  0.025873015873015874
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 4093,
+  "stop_reason": "end_turn",
+  "session_id": "191818f5-f308-4535-b92e-5271f590442d",
+  "total_cost_usd": 0.067366,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 15818,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 409,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 15818,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 409,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 15818,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 15818
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 409,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 15818,
+    "webSearchRequests": 0,
+    "costUSD": 0.067366,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15818,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#19383\", \"terminal#17246\"], \"answer\": \"This looks like a known problem: Windows Terminal crashing with an access violation in Microsoft.Terminal.Control.dll when a tab is dragged into another window to merge it. terminal#19383 reports the same crash on 1.22 when merging two windows by dragging a tab. Its WinDbg analysis pointed at AtlasEngine::PaintCursor on the render thread. A later comment on that ticket says the same failure bucket was seen on a newer build. terminal#17246 reports crashes and hangs on drag-merge, in Microsoft.Terminal.Control.dll and Windows.UI.Xaml.dll. The tickets don't give a workaround or a confirmed fix, and the crash is intermittent. As a practical measure, avoid drag-merging tabs between windows until it is fixed, and save any work running in other windows first, since a crash closes all windows. Add your report, with the 1.24.2605.12001 fault offset and the note that it still happens on 1.24, to terminal#19383. Share the crash dump through a private channel such as Feedback Hub rather than attaching it publicly, because it contains scrollback.\"}",
+  "ttft_ms": 4257,
+  "type": "result",
+  "duration_ms": 4274,
+  "uuid": "ddcf1218-9e0e-40b3-8055-b2f44b472118",
+  "ttft_stream_ms": 1540,
+  "time_to_request_ms": 181,
+  "first_content_frame_ms": 1540,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 409,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 15818,
+    "webSearchRequests": 0,
+    "costUSD": 0.067366,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15818,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 5.131783610006096,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-jth55tgg/work"
+  }
+ },
+ "wall_seconds": 5.529320708999876,
+ "qid": "terminal#20406",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#19383",
+   "terminal#17246"
+  ],
+  "answer": "This looks like a known problem: Windows Terminal crashing with an access violation in Microsoft.Terminal.Control.dll when a tab is dragged into another window to merge it. terminal#19383 reports the same crash on 1.22 when merging two windows by dragging a tab. Its WinDbg analysis pointed at AtlasEngine::PaintCursor on the render thread. A later comment on that ticket says the same failure bucket was seen on a newer build. terminal#17246 reports crashes and hangs on drag-merge, in Microsoft.Terminal.Control.dll and Windows.UI.Xaml.dll. The tickets don't give a workaround or a confirmed fix, and the crash is intermittent. As a practical measure, avoid drag-merging tabs between windows until it is fixed, and save any work running in other windows first, since a crash closes all windows. Add your report, with the 1.24.2605.12001 fault offset and the note that it still happens on 1.24, to terminal#19383. Share the crash dump through a private channel such as Feedback Hub rather than attaching it publicly, because it contains scrollback."
+ },
+ "hit_turn_cap": false
+}

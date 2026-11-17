@@ -1,0 +1,443 @@
+{
+ "shown": [
+  "PowerToys#12381",
+  "PowerToys#24403",
+  "PowerToys#25595",
+  "PowerToys#26662",
+  "PowerToys#32960",
+  "PowerToys#32968",
+  "PowerToys#33007",
+  "PowerToys#34211",
+  "PowerToys#37132",
+  "PowerToys#38121",
+  "PowerToys#38713",
+  "PowerToys#39914",
+  "PowerToys#40282",
+  "PowerToys#40432",
+  "PowerToys#43814",
+  "PowerToys#44243",
+  "PowerToys#44480",
+  "PowerToys#45268",
+  "PowerToys#45340",
+  "PowerToys#47292",
+  "PowerToys#5156",
+  "PowerToys#6480",
+  "PowerToys#6522",
+  "PowerToys#746",
+  "WSL#10173",
+  "WSL#13621",
+  "WSL#13671",
+  "WSL#13826",
+  "WSL#14248",
+  "WSL#1487",
+  "WSL#1744",
+  "WSL#185",
+  "WSL#205",
+  "WSL#22",
+  "WSL#2687",
+  "WSL#3167",
+  "WSL#4004",
+  "WSL#40458",
+  "WSL#4077",
+  "WSL#4784",
+  "WSL#5307",
+  "WSL#5540",
+  "WSL#637",
+  "WSL#6951",
+  "WSL#6982",
+  "WSL#7317",
+  "WSL#7852",
+  "WSL#817",
+  "WSL#8529",
+  "WSL#9420",
+  "terminal#14680",
+  "terminal#15601",
+  "terminal#2604",
+  "terminal#2661",
+  "terminal#540",
+  "terminal#584",
+  "terminal#649",
+  "terminal#707",
+  "terminal#722",
+  "terminal#841"
+ ],
+ "retrieval_seconds": 4.032501589012099,
+ "tool_calls": [
+  {
+   "t": 1794882229.7784235,
+   "tool": "search",
+   "args": {
+    "pattern": "Phi Silica",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.033226212981389835,
+   "returned": [
+    "PowerToys#40282"
+   ]
+  },
+  {
+   "t": 1794882232.0052938,
+   "tool": "search",
+   "args": {
+    "pattern": "0x80070005",
+    "regex": false,
+    "also": [
+     "Advanced Paste"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.08954844399704598,
+   "returned": []
+  },
+  {
+   "t": 1794882235.4462993,
+   "tool": "similar",
+   "args": {
+    "query": "Advanced Paste Phi Silica download model access denied error",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.4009445880074054,
+   "returned": [
+    "PowerToys#47292",
+    "PowerToys#45340",
+    "PowerToys#32968",
+    "PowerToys#32960",
+    "PowerToys#33007",
+    "PowerToys#43814",
+    "PowerToys#6480",
+    "PowerToys#24403",
+    "PowerToys#40282",
+    "PowerToys#34211",
+    "PowerToys#44480",
+    "PowerToys#746",
+    "PowerToys#37132",
+    "PowerToys#38121",
+    "PowerToys#40432",
+    "PowerToys#38713",
+    "PowerToys#45268",
+    "PowerToys#44243",
+    "PowerToys#6522",
+    "PowerToys#39914"
+   ]
+  },
+  {
+   "t": 1794882237.4839861,
+   "tool": "search",
+   "args": {
+    "pattern": "Access denied",
+    "regex": false,
+    "also": [
+     "model",
+     "download"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11779449600726366,
+   "returned": []
+  },
+  {
+   "t": 1794882239.3275523,
+   "tool": "search",
+   "args": {
+    "pattern": "Phi",
+    "regex": false,
+    "also": [
+     "download"
+    ],
+    "repo": null
+   },
+   "seconds": 0.1295744790113531,
+   "returned": [
+    "WSL#13671",
+    "terminal#14680",
+    "WSL#6951",
+    "PowerToys#25595",
+    "WSL#5307",
+    "WSL#7852",
+    "WSL#40458",
+    "WSL#4784",
+    "WSL#1744",
+    "terminal#649",
+    "WSL#6982",
+    "terminal#540",
+    "WSL#9420",
+    "WSL#637",
+    "WSL#14248",
+    "terminal#2661",
+    "terminal#15601",
+    "WSL#8529",
+    "WSL#13826",
+    "PowerToys#26662"
+   ]
+  },
+  {
+   "t": 1794882241.1224663,
+   "tool": "search",
+   "args": {
+    "pattern": "Phi Silica",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.0667698780016508,
+   "returned": [
+    "PowerToys#40282"
+   ]
+  },
+  {
+   "t": 1794882242.709035,
+   "tool": "search",
+   "args": {
+    "pattern": "Advanced Paste",
+    "regex": false,
+    "also": [
+     "0x80070005"
+    ],
+    "repo": null
+   },
+   "seconds": 0.12325634399894625,
+   "returned": []
+  },
+  {
+   "t": 1794882244.41464,
+   "tool": "search",
+   "args": {
+    "pattern": "Phi Silica",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.058412006008438766,
+   "returned": [
+    "PowerToys#40282"
+   ]
+  },
+  {
+   "t": 1794882246.2231882,
+   "tool": "similar",
+   "args": {
+    "query": "Download model button fails with Access denied 0x80070005 on Copilot+ PC NPU",
+    "repo": null
+   },
+   "seconds": 0.012846355006331578,
+   "returned": [
+    "WSL#4077",
+    "WSL#10173",
+    "WSL#4004",
+    "WSL#13621",
+    "WSL#7317",
+    "terminal#722",
+    "terminal#2604",
+    "terminal#841",
+    "WSL#205",
+    "WSL#1487",
+    "WSL#3167",
+    "WSL#22",
+    "PowerToys#12381",
+    "terminal#584",
+    "WSL#817",
+    "WSL#2687",
+    "WSL#5540",
+    "PowerToys#5156",
+    "WSL#185",
+    "terminal#707"
+   ]
+  },
+  {
+   "t": 1794882247.9340162,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40282"
+   },
+   "seconds": 0.00012878599227406085,
+   "returned": [
+    "PowerToys#40282"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 19809,
+  "stop_reason": "end_turn",
+  "session_id": "236db0ee-b79d-4af8-96af-8fa344a4976c",
+  "total_cost_usd": 0.0637961,
+  "usage": {
+   "input_tokens": 20,
+   "cache_creation_input_tokens": 11058,
+   "cache_read_input_tokens": 68041,
+   "output_tokens": 1272,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11058,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 301,
+     "cache_read_input_tokens": 11575,
+     "cache_creation_input_tokens": 896,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 896
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 20,
+    "outputTokens": 1272,
+    "cacheReadInputTokens": 68041,
+    "cacheCreationInputTokens": 11058,
+    "webSearchRequests": 0,
+    "costUSD": 0.0637961,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11058,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Feature request only, not the same problem.\n\n{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket that reports this problem. That means no ticket covers the 0x80070005 \\\"Access denied\\\" error when you click \\\"Download model\\\" for Phi Silica in Advanced Paste. The only Phi Silica ticket, PowerToys#40282, is a feature request for adding the model, so it doesn't help here. Please keep this ticket open as a new bug and keep the bug report ZIP attached. Add the details that may matter: the Microsoft Store install, a Copilot+ PC with an AMD NPU, and the fact that AI Dev Gallery already shows the model as downloaded. In the meantime, check Windows Update for pending updates, including the AI component updates for your device. You can also use another Advanced Paste provider such as OpenAI, Azure OpenAI or a local endpoint.\"}",
+  "ttft_ms": 2157,
+  "type": "result",
+  "duration_ms": 23834,
+  "uuid": "3c4f8d84-6fbe-41c2-a408-50292b12cec3",
+  "ttft_stream_ms": 1197,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 1197,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 20,
+    "outputTokens": 1272,
+    "cacheReadInputTokens": 68041,
+    "cacheCreationInputTokens": 11058,
+    "webSearchRequests": 0,
+    "costUSD": 0.0637961,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11058,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 24.95977120200405,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-dyanl0gd/work"
+  }
+ },
+ "wall_seconds": 24.961529555992456,
+ "qid": "PowerToys#50420",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket that reports this problem. That means no ticket covers the 0x80070005 \"Access denied\" error when you click \"Download model\" for Phi Silica in Advanced Paste. The only Phi Silica ticket, PowerToys#40282, is a feature request for adding the model, so it doesn't help here. Please keep this ticket open as a new bug and keep the bug report ZIP attached. Add the details that may matter: the Microsoft Store install, a Copilot+ PC with an AMD NPU, and the fact that AI Dev Gallery already shows the model as downloaded. In the meantime, check Windows Update for pending updates, including the AI component updates for your device. You can also use another Advanced Paste provider such as OpenAI, Azure OpenAI or a local endpoint."
+ },
+ "hit_turn_cap": false
+}

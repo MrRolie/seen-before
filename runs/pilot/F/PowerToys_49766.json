@@ -1,0 +1,194 @@
+{
+ "shown": [
+  "PowerToys#37482",
+  "PowerToys#36969",
+  "PowerToys#44189",
+  "PowerToys#40224",
+  "PowerToys#47934"
+ ],
+ "retrieval_seconds": 0.4471472710138187,
+ "retrieval_scores": [
+  0.03278688524590164,
+  0.02964254577157803,
+  0.02405167674546454,
+  0.02232142857142857,
+  0.020370370370370372
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3257,
+  "stop_reason": "end_turn",
+  "session_id": "6d4a1311-0e51-49df-8f53-cab0ca7fa750",
+  "total_cost_usd": 0.040108,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 9351,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 270,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9351,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 270,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 9351,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 9351
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 270,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 9351,
+    "webSearchRequests": 0,
+    "costUSD": 0.040108,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9351,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#37482\", \"PowerToys#36969\"], \"answer\": \"This is a known PowerToys Run crash: the launcher throws an InvalidOperationException ('ItemCollection has no inner collection') in MainWindow.OnLoaded when it starts. The same stack trace appears in #37482 and #36969. Neither ticket has a confirmed fix. In #36969 the reporter said it started working again by itself after a while, without knowing why. Things to try: fully quit PowerToys from the tray and start it again, restart Windows, and update to the latest PowerToys release. If it still crashes on startup, reply here with the log from %LOCALAPPDATA%\\\\Microsoft\\\\PowerToys\\\\PowerToys Run\\\\Logs so we can track it.\"}",
+  "ttft_ms": 3420,
+  "type": "result",
+  "duration_ms": 3449,
+  "uuid": "10e18007-eb87-409e-8e97-534f4b2180bb",
+  "ttft_stream_ms": 1456,
+  "time_to_request_ms": 186,
+  "first_content_frame_ms": 1456,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 270,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 9351,
+    "webSearchRequests": 0,
+    "costUSD": 0.040108,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9351,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.269430429994827,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-y2cc4hoy/work"
+  }
+ },
+ "wall_seconds": 4.71897373200045,
+ "qid": "PowerToys#49766",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#37482",
+   "PowerToys#36969"
+  ],
+  "answer": "This is a known PowerToys Run crash: the launcher throws an InvalidOperationException ('ItemCollection has no inner collection') in MainWindow.OnLoaded when it starts. The same stack trace appears in #37482 and #36969. Neither ticket has a confirmed fix. In #36969 the reporter said it started working again by itself after a while, without knowing why. Things to try: fully quit PowerToys from the tray and start it again, restart Windows, and update to the latest PowerToys release. If it still crashes on startup, reply here with the log from %LOCALAPPDATA%\\Microsoft\\PowerToys\\PowerToys Run\\Logs so we can track it."
+ },
+ "hit_turn_cap": false
+}

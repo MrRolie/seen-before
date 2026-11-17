@@ -1,0 +1,249 @@
+{
+ "shown": [
+  "PowerToys#36969",
+  "PowerToys#37482",
+  "PowerToys#3971"
+ ],
+ "retrieval_seconds": 0.13242344500031322,
+ "tool_calls": [
+  {
+   "t": 1794876339.2598584,
+   "tool": "search",
+   "args": {
+    "pattern": "ItemCollection has no inner collection",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06217674299841747,
+   "returned": [
+    "PowerToys#37482",
+    "PowerToys#36969"
+   ]
+  },
+  {
+   "t": 1794876339.3446162,
+   "tool": "search",
+   "args": {
+    "pattern": "ViewModel_PropertyChanged",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06990825998946093,
+   "returned": [
+    "PowerToys#37482",
+    "PowerToys#36969",
+    "PowerToys#3971"
+   ]
+  },
+  {
+   "t": 1794876340.7482476,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37482"
+   },
+   "seconds": 0.0001827260130085051,
+   "returned": [
+    "PowerToys#37482"
+   ]
+  },
+  {
+   "t": 1794876340.911543,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#36969"
+   },
+   "seconds": 0.0001557159994263202,
+   "returned": [
+    "PowerToys#36969"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11290,
+  "stop_reason": "end_turn",
+  "session_id": "5efc555e-3433-4232-a3c2-ce770b3144cf",
+  "total_cost_usd": 0.0298355,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 5711,
+   "cache_read_input_tokens": 8395,
+   "output_tokens": 614,
+   "output_tokens_details": {
+    "thinking_tokens": 17
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5711,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 341,
+     "cache_read_input_tokens": 3934,
+     "cache_creation_input_tokens": 3190,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3190
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 614,
+    "cacheReadInputTokens": 8395,
+    "cacheCreationInputTokens": 5711,
+    "webSearchRequests": 0,
+    "costUSD": 0.0298355,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 17,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5711,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#37482\", \"PowerToys#36969\"], \"answer\": \"This crash has been reported before. PowerToys Run (PowerLauncher) throws the same InvalidOperationException from MainWindow.OnLoaded → ViewModel_PropertyChanged. It happens when the window's result list isn't initialized yet at startup. The archived tickets give no confirmed fix or root-cause patch. In #36969 the reporter said it started working again by itself, with no cause found. In #37482 the crash recurred at every startup. Things to try: fully quit PowerToys, including PowerToys.PowerLauncher.exe in Task Manager, then restart it. Reboot, or reinstall the latest PowerToys. If it keeps happening, add your version (0.100.1.0), your Windows 10 build and whether you run as admin to those tickets. Attach a bug report ZIP too, which you can generate from the PowerToys settings.\"}",
+  "ttft_ms": 5718,
+  "type": "result",
+  "duration_ms": 11493,
+  "uuid": "f7cb7350-40cc-40a4-8c06-65f46c08a37c",
+  "ttft_stream_ms": 4921,
+  "time_to_request_ms": 38,
+  "first_content_frame_ms": 4921,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 614,
+    "cacheReadInputTokens": 8395,
+    "cacheCreationInputTokens": 5711,
+    "webSearchRequests": 0,
+    "costUSD": 0.0298355,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 17,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5711,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.867362349003088,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ok3lc86a/work"
+  }
+ },
+ "wall_seconds": 12.940035180014092,
+ "qid": "PowerToys#49766",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#37482",
+   "PowerToys#36969"
+  ],
+  "answer": "This crash has been reported before. PowerToys Run (PowerLauncher) throws the same InvalidOperationException from MainWindow.OnLoaded → ViewModel_PropertyChanged. It happens when the window's result list isn't initialized yet at startup. The archived tickets give no confirmed fix or root-cause patch. In #36969 the reporter said it started working again by itself, with no cause found. In #37482 the crash recurred at every startup. Things to try: fully quit PowerToys, including PowerToys.PowerLauncher.exe in Task Manager, then restart it. Reboot, or reinstall the latest PowerToys. If it keeps happening, add your version (0.100.1.0), your Windows 10 build and whether you run as admin to those tickets. Attach a bug report ZIP too, which you can generate from the PowerToys settings."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,291 @@
+{
+ "shown": [
+  "PowerToys#38204",
+  "PowerToys#38217",
+  "PowerToys#39090",
+  "PowerToys#40114",
+  "PowerToys#40840",
+  "PowerToys#42032",
+  "PowerToys#42191",
+  "PowerToys#43982",
+  "PowerToys#44252",
+  "PowerToys#44476",
+  "PowerToys#44894",
+  "PowerToys#45069",
+  "PowerToys#45755",
+  "PowerToys#46153",
+  "PowerToys#46425",
+  "PowerToys#47045",
+  "PowerToys#47184",
+  "PowerToys#47274",
+  "PowerToys#47862",
+  "PowerToys#48853",
+  "PowerToys#48913"
+ ],
+ "retrieval_seconds": 0.06107439805055037,
+ "tool_calls": [
+  {
+   "t": 1794878227.8083808,
+   "tool": "search",
+   "args": {
+    "pattern": "UWPApplication.Launch",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06050365397823043,
+   "returned": [
+    "PowerToys#40840",
+    "PowerToys#40114",
+    "PowerToys#47862",
+    "PowerToys#47184",
+    "PowerToys#47045",
+    "PowerToys#38217",
+    "PowerToys#38204",
+    "PowerToys#48913",
+    "PowerToys#48853",
+    "PowerToys#47274",
+    "PowerToys#46425",
+    "PowerToys#46153",
+    "PowerToys#45755",
+    "PowerToys#45069",
+    "PowerToys#44894",
+    "PowerToys#44476",
+    "PowerToys#44252",
+    "PowerToys#43982",
+    "PowerToys#42191",
+    "PowerToys#42032"
+   ]
+  },
+  {
+   "t": 1794878229.3022523,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40114"
+   },
+   "seconds": 0.00013760701403953135,
+   "returned": [
+    "PowerToys#40114"
+   ]
+  },
+  {
+   "t": 1794878229.5406837,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47184"
+   },
+   "seconds": 0.0001252060174010694,
+   "returned": [
+    "PowerToys#47184"
+   ]
+  },
+  {
+   "t": 1794878229.7275074,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48913"
+   },
+   "seconds": 0.00013958601630292833,
+   "returned": [
+    "PowerToys#48913"
+   ]
+  },
+  {
+   "t": 1794878230.681208,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39090"
+   },
+   "seconds": 0.00016834502457641065,
+   "returned": [
+    "PowerToys#39090"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6561,
+  "stop_reason": "end_turn",
+  "session_id": "30636397-dcab-4dd5-bbe6-8217161e2841",
+  "total_cost_usd": 0.0447301,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 8835,
+   "cache_read_input_tokens": 18041,
+   "output_tokens": 757,
+   "output_tokens_details": {
+    "thinking_tokens": 21
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8835,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 308,
+     "cache_read_input_tokens": 8985,
+     "cache_creation_input_tokens": 1027,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1027
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 757,
+    "cacheReadInputTokens": 18041,
+    "cacheCreationInputTokens": 8835,
+    "webSearchRequests": 0,
+    "costUSD": 0.0447301,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 21,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8835,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48913\", \"PowerToys#39090\", \"PowerToys#40114\"], \"answer\": \"This crash has been reported before. It is a NullReferenceException in Microsoft.Plugin.Program.Programs.UWPApplication.Launch, which is the PowerToys Run program plugin failing while it launches a Store/UWP app. Past tickets were closed as duplicates of PowerToys#39090, which is the main tracking issue, so subscribe to that one for updates. There is no confirmed fix in those tickets. One reporter in #48913 said it happened when launching Claude Desktop, and the launch failed because of an unexpected file holder. Check which app you were launching from PowerToys Run when it crashed. Try starting that app another way, such as from the Start menu. Make sure PowerToys is up to date. If it keeps happening, add the app name and exact steps to #39090.\"}",
+  "ttft_ms": 1016,
+  "type": "result",
+  "duration_ms": 6631,
+  "uuid": "92f95509-0190-49e7-9da7-99ff758d6ac3",
+  "ttft_stream_ms": 627,
+  "time_to_request_ms": 38,
+  "first_content_frame_ms": 628,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 757,
+    "cacheReadInputTokens": 18041,
+    "cacheCreationInputTokens": 8835,
+    "webSearchRequests": 0,
+    "costUSD": 0.0447301,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 21,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8835,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 8.14439837099053,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-yuyw8rxy/work"
+  }
+ },
+ "wall_seconds": 8.146214273991063,
+ "qid": "PowerToys#49379",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48913",
+   "PowerToys#39090",
+   "PowerToys#40114"
+  ],
+  "answer": "This crash has been reported before. It is a NullReferenceException in Microsoft.Plugin.Program.Programs.UWPApplication.Launch, which is the PowerToys Run program plugin failing while it launches a Store/UWP app. Past tickets were closed as duplicates of PowerToys#39090, which is the main tracking issue, so subscribe to that one for updates. There is no confirmed fix in those tickets. One reporter in #48913 said it happened when launching Claude Desktop, and the launch failed because of an unexpected file holder. Check which app you were launching from PowerToys Run when it crashed. Try starting that app another way, such as from the Start menu. Make sure PowerToys is up to date. If it keeps happening, add the app name and exact steps to #39090."
+ },
+ "hit_turn_cap": false
+}

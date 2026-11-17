@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#9487",
+  "PowerToys#31970",
+  "PowerToys#32935",
+  "PowerToys#32279",
+  "PowerToys#47614"
+ ],
+ "retrieval_seconds": 0.015681414981372654,
+ "retrieval_scores": [
+  0.7078588604927063,
+  0.6942057609558105,
+  0.6896833777427673,
+  0.6856958270072937,
+  0.6784406900405884
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3952,
+  "stop_reason": "end_turn",
+  "session_id": "3c8d9a56-7375-4326-a333-27c9bd3690a5",
+  "total_cost_usd": 0.022196,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4753,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 318,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4753,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 318,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4753,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4753
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 318,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4753,
+    "webSearchRequests": 0,
+    "costUSD": 0.022196,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4753,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#31970\", \"PowerToys#32935\", \"PowerToys#32279\"], \"answer\": \"A macro recorder for keyboard and mouse input has been requested several times, and this is a feature request that PowerToys does not currently offer. Your request has been folded into the existing ones (#31970 is the main thread; #32935 and #32279 were closed as duplicates of other macro threads), so add a thumbs-up to #31970 and describe your use case there. In the meantime, the maintainers' suggested workaround is Power Automate Desktop, which is built into Windows: record a flow of your repetitive steps and assign a keyboard shortcut to it. It can be edited afterward. Note that one commenter asked whether it needs admin permission, and the thread does not answer that. A related proposal for a hotkey-triggered keyboard Macro utility (#47614) exists, but it has no recorder in v1, only manual step entry.\"}",
+  "ttft_ms": 4120,
+  "type": "result",
+  "duration_ms": 4139,
+  "uuid": "a5a54c8b-8848-4ad3-8971-2669cb8afc3a",
+  "ttft_stream_ms": 1287,
+  "time_to_request_ms": 185,
+  "first_content_frame_ms": 1287,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 318,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4753,
+    "webSearchRequests": 0,
+    "costUSD": 0.022196,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4753,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.919572834012797,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-mgviin5c/work"
+  }
+ },
+ "wall_seconds": 4.9375918849837035,
+ "qid": "PowerToys#51336",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#31970",
+   "PowerToys#32935",
+   "PowerToys#32279"
+  ],
+  "answer": "A macro recorder for keyboard and mouse input has been requested several times, and this is a feature request that PowerToys does not currently offer. Your request has been folded into the existing ones (#31970 is the main thread; #32935 and #32279 were closed as duplicates of other macro threads), so add a thumbs-up to #31970 and describe your use case there. In the meantime, the maintainers' suggested workaround is Power Automate Desktop, which is built into Windows: record a flow of your repetitive steps and assign a keyboard shortcut to it. It can be edited afterward. Note that one commenter asked whether it needs admin permission, and the thread does not answer that. A related proposal for a hotkey-triggered keyboard Macro utility (#47614) exists, but it has no recorder in v1, only manual step entry."
+ },
+ "hit_turn_cap": false
+}

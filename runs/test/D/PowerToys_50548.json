@@ -1,0 +1,390 @@
+{
+ "shown": [
+  "PowerToys#10290",
+  "PowerToys#1032",
+  "PowerToys#10903",
+  "PowerToys#10955",
+  "PowerToys#11482",
+  "PowerToys#11882",
+  "PowerToys#12403",
+  "PowerToys#13573",
+  "PowerToys#1451",
+  "PowerToys#1527",
+  "PowerToys#16370",
+  "PowerToys#1649",
+  "PowerToys#18021",
+  "PowerToys#19203",
+  "PowerToys#2067",
+  "PowerToys#21176",
+  "PowerToys#243",
+  "PowerToys#25836",
+  "PowerToys#27690",
+  "PowerToys#28371",
+  "PowerToys#30678",
+  "PowerToys#32960",
+  "PowerToys#33966",
+  "PowerToys#35623",
+  "PowerToys#3583",
+  "PowerToys#37859",
+  "PowerToys#3814",
+  "PowerToys#38530",
+  "PowerToys#40311",
+  "PowerToys#4230",
+  "PowerToys#43345",
+  "PowerToys#45201",
+  "PowerToys#45678",
+  "PowerToys#45852",
+  "PowerToys#46328",
+  "PowerToys#46434",
+  "PowerToys#47300",
+  "PowerToys#48325",
+  "PowerToys#48428",
+  "PowerToys#48674",
+  "PowerToys#48725",
+  "PowerToys#5096",
+  "PowerToys#5935",
+  "PowerToys#6120",
+  "PowerToys#7368",
+  "PowerToys#825",
+  "PowerToys#8339",
+  "PowerToys#8433",
+  "PowerToys#8471",
+  "PowerToys#855",
+  "PowerToys#8662",
+  "PowerToys#8756",
+  "PowerToys#9253"
+ ],
+ "retrieval_seconds": 4.063538239977788,
+ "tool_calls": [
+  {
+   "t": 1794882590.7185674,
+   "tool": "similar",
+   "args": {
+    "query": "add CPU temperature to the top bar next to CPU and Memory icons",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.8665492330037523,
+   "returned": [
+    "PowerToys#8433",
+    "PowerToys#7368",
+    "PowerToys#35623",
+    "PowerToys#8756",
+    "PowerToys#855",
+    "PowerToys#3583",
+    "PowerToys#33966",
+    "PowerToys#10955",
+    "PowerToys#825",
+    "PowerToys#8471",
+    "PowerToys#25836",
+    "PowerToys#40311",
+    "PowerToys#10290",
+    "PowerToys#6120",
+    "PowerToys#48325",
+    "PowerToys#11882",
+    "PowerToys#45852",
+    "PowerToys#46434",
+    "PowerToys#8662",
+    "PowerToys#11482"
+   ]
+  },
+  {
+   "t": 1794882590.7925463,
+   "tool": "search",
+   "args": {
+    "pattern": "temperature",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05887336999876425,
+   "returned": [
+    "PowerToys#35623",
+    "PowerToys#48325",
+    "PowerToys#48674",
+    "PowerToys#46434",
+    "PowerToys#3583",
+    "PowerToys#43345",
+    "PowerToys#30678",
+    "PowerToys#9253",
+    "PowerToys#8433",
+    "PowerToys#48428",
+    "PowerToys#47300",
+    "PowerToys#45852",
+    "PowerToys#45678",
+    "PowerToys#32960",
+    "PowerToys#27690",
+    "PowerToys#8756",
+    "PowerToys#5096",
+    "PowerToys#4230",
+    "PowerToys#3814",
+    "PowerToys#2067"
+   ]
+  },
+  {
+   "t": 1794882592.0493746,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46434"
+   },
+   "seconds": 0.00012005699682049453,
+   "returned": [
+    "PowerToys#46434"
+   ]
+  },
+  {
+   "t": 1794882592.2650738,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35623"
+   },
+   "seconds": 0.0001308470091316849,
+   "returned": [
+    "PowerToys#35623"
+   ]
+  },
+  {
+   "t": 1794882593.5146918,
+   "tool": "search",
+   "args": {
+    "pattern": "temp",
+    "regex": false,
+    "also": [
+     "dock"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1375809799937997,
+   "returned": [
+    "PowerToys#18021",
+    "PowerToys#1032",
+    "PowerToys#37859",
+    "PowerToys#46328",
+    "PowerToys#8339",
+    "PowerToys#12403",
+    "PowerToys#28371",
+    "PowerToys#48725",
+    "PowerToys#21176",
+    "PowerToys#1649",
+    "PowerToys#1527",
+    "PowerToys#1451",
+    "PowerToys#45201",
+    "PowerToys#38530",
+    "PowerToys#19203",
+    "PowerToys#16370",
+    "PowerToys#13573",
+    "PowerToys#10903",
+    "PowerToys#5935",
+    "PowerToys#243"
+   ]
+  },
+  {
+   "t": 1794882594.4468942,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33966"
+   },
+   "seconds": 0.00016187599976547062,
+   "returned": [
+    "PowerToys#33966"
+   ]
+  },
+  {
+   "t": 1794882595.274284,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48325"
+   },
+   "seconds": 0.00012187697575427592,
+   "returned": [
+    "PowerToys#48325"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10236,
+  "stop_reason": "end_turn",
+  "session_id": "468572ea-f653-40b1-9540-ac83e4d57d38",
+  "total_cost_usd": 0.069474,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 13521,
+   "cache_read_input_tokens": 46860,
+   "output_tokens": 1068,
+   "output_tokens_details": {
+    "thinking_tokens": 214
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13521,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 492,
+     "cache_read_input_tokens": 14382,
+     "cache_creation_input_tokens": 552,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 552
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1068,
+    "cacheReadInputTokens": 46860,
+    "cacheCreationInputTokens": 13521,
+    "webSearchRequests": 0,
+    "costUSD": 0.069474,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 214,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13521,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've found the closest past tickets and am writing up the answer now.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#46434\", \"PowerToys#35623\", \"PowerToys#33966\"], \"answer\": \"This has been requested before. The CPU and Memory icons you mean are most likely the stats on the Command Palette Dock, and PowerToys#46434 asks for temperature readings there. That request is still open. A contributor is working on a PR that adds a single heat metric (thermal zone data read through PDH). Windows has no native way to read per-component CPU temperature, so a detailed CPU temp would need vendor-specific drivers or WMI, and that isn't planned. Please follow and upvote #46434. Requests to show CPU temperature in the Windows taskbar itself (#35623, #33966) were closed as duplicates of the taskbar-integration requests #445 and #855. Until a temperature readout ships, a third-party monitor such as Core Temp can show it in the system tray.\"}",
+  "ttft_ms": 1022,
+  "type": "result",
+  "duration_ms": 14124,
+  "uuid": "95f45b9f-79e3-49e0-b238-039e0e65311d",
+  "ttft_stream_ms": 596,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 596,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1068,
+    "cacheReadInputTokens": 46860,
+    "cacheCreationInputTokens": 13521,
+    "webSearchRequests": 0,
+    "costUSD": 0.069474,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 214,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13521,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.749294364999514,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-wfx64imy/work"
+  }
+ },
+ "wall_seconds": 15.751936095999554,
+ "qid": "PowerToys#50548",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46434",
+   "PowerToys#35623",
+   "PowerToys#33966"
+  ],
+  "answer": "This has been requested before. The CPU and Memory icons you mean are most likely the stats on the Command Palette Dock, and PowerToys#46434 asks for temperature readings there. That request is still open. A contributor is working on a PR that adds a single heat metric (thermal zone data read through PDH). Windows has no native way to read per-component CPU temperature, so a detailed CPU temp would need vendor-specific drivers or WMI, and that isn't planned. Please follow and upvote #46434. Requests to show CPU temperature in the Windows taskbar itself (#35623, #33966) were closed as duplicates of the taskbar-integration requests #445 and #855. Until a temperature readout ships, a third-party monitor such as Core Temp can show it in the system tray."
+ },
+ "hit_turn_cap": false
+}

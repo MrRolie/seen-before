@@ -1,0 +1,480 @@
+{
+ "shown": [
+  "PowerToys#10122",
+  "PowerToys#10264",
+  "PowerToys#10324",
+  "PowerToys#10617",
+  "PowerToys#11348",
+  "PowerToys#12964",
+  "PowerToys#13296",
+  "PowerToys#13993",
+  "PowerToys#14180",
+  "PowerToys#143",
+  "PowerToys#14634",
+  "PowerToys#1487",
+  "PowerToys#1532",
+  "PowerToys#15988",
+  "PowerToys#1686",
+  "PowerToys#17493",
+  "PowerToys#1878",
+  "PowerToys#19670",
+  "PowerToys#20137",
+  "PowerToys#2043",
+  "PowerToys#22403",
+  "PowerToys#22718",
+  "PowerToys#2275",
+  "PowerToys#23310",
+  "PowerToys#2354",
+  "PowerToys#2407",
+  "PowerToys#25953",
+  "PowerToys#26320",
+  "PowerToys#26991",
+  "PowerToys#27569",
+  "PowerToys#28782",
+  "PowerToys#2909",
+  "PowerToys#303",
+  "PowerToys#3261",
+  "PowerToys#33086",
+  "PowerToys#34453",
+  "PowerToys#3591",
+  "PowerToys#36188",
+  "PowerToys#3630",
+  "PowerToys#36354",
+  "PowerToys#39156",
+  "PowerToys#39555",
+  "PowerToys#4214",
+  "PowerToys#43055",
+  "PowerToys#43546",
+  "PowerToys#44749",
+  "PowerToys#46174",
+  "PowerToys#47249",
+  "PowerToys#47300",
+  "PowerToys#47319",
+  "PowerToys#47744",
+  "PowerToys#48034",
+  "PowerToys#48382",
+  "PowerToys#4983",
+  "PowerToys#5003",
+  "PowerToys#5242",
+  "PowerToys#5881",
+  "PowerToys#6022",
+  "PowerToys#6067",
+  "PowerToys#6069",
+  "PowerToys#6246",
+  "PowerToys#6329",
+  "PowerToys#6359",
+  "PowerToys#6404",
+  "PowerToys#6441",
+  "PowerToys#6442",
+  "PowerToys#6552",
+  "PowerToys#6640",
+  "PowerToys#6801",
+  "PowerToys#8209",
+  "PowerToys#850",
+  "PowerToys#8627",
+  "PowerToys#8668",
+  "PowerToys#8672",
+  "PowerToys#876",
+  "PowerToys#8902",
+  "PowerToys#9092",
+  "PowerToys#920",
+  "PowerToys#9426",
+  "PowerToys#947",
+  "PowerToys#9512",
+  "PowerToys#96",
+  "PowerToys#9678",
+  "terminal#4216"
+ ],
+ "retrieval_seconds": 3.8386803629691713,
+ "tool_calls": [
+  {
+   "t": 1794881915.040193,
+   "tool": "similar",
+   "args": {
+    "query": "auto-update on stable channel installed preview release",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.606722495984286,
+   "returned": [
+    "PowerToys#1686",
+    "PowerToys#8627",
+    "PowerToys#9512",
+    "PowerToys#3630",
+    "PowerToys#3591",
+    "PowerToys#5003",
+    "PowerToys#3261",
+    "PowerToys#2275",
+    "PowerToys#6359",
+    "PowerToys#6640",
+    "PowerToys#303",
+    "PowerToys#2407",
+    "PowerToys#4983",
+    "PowerToys#4214",
+    "PowerToys#10264",
+    "PowerToys#9426",
+    "PowerToys#876",
+    "PowerToys#920",
+    "PowerToys#2043",
+    "PowerToys#2354"
+   ]
+  },
+  {
+   "t": 1794881916.9721153,
+   "tool": "search",
+   "args": {
+    "pattern": "0.101.2373",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.060648894985206425,
+   "returned": []
+  },
+  {
+   "t": 1794881917.0419097,
+   "tool": "similar",
+   "args": {
+    "query": "PowerToys updated to a pre-release version although stable channel selected; update installed experimental/preview",
+    "repo": null
+   },
+   "seconds": 0.015581285988446325,
+   "returned": [
+    "PowerToys#3630",
+    "PowerToys#11348",
+    "PowerToys#5881",
+    "terminal#4216",
+    "PowerToys#1878",
+    "PowerToys#10324",
+    "PowerToys#1686",
+    "PowerToys#9092",
+    "PowerToys#1532",
+    "PowerToys#5003",
+    "PowerToys#850",
+    "PowerToys#6069",
+    "PowerToys#1487",
+    "PowerToys#6404",
+    "PowerToys#8902",
+    "PowerToys#96",
+    "PowerToys#8668",
+    "PowerToys#6801",
+    "PowerToys#6359",
+    "PowerToys#5242"
+   ]
+  },
+  {
+   "t": 1794881918.7569304,
+   "tool": "search",
+   "args": {
+    "pattern": "pre-release",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05004985100822523,
+   "returned": [
+    "PowerToys#19670",
+    "PowerToys#14180",
+    "PowerToys#6246",
+    "PowerToys#47249",
+    "PowerToys#13993",
+    "PowerToys#12964",
+    "PowerToys#6552",
+    "PowerToys#46174",
+    "PowerToys#28782",
+    "PowerToys#25953",
+    "PowerToys#20137",
+    "PowerToys#14634",
+    "PowerToys#13296",
+    "PowerToys#10617",
+    "PowerToys#6442",
+    "PowerToys#6441",
+    "PowerToys#6067",
+    "PowerToys#6022",
+    "PowerToys#143"
+   ]
+  },
+  {
+   "t": 1794881920.5134487,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47249"
+   },
+   "seconds": 0.00017920497339218855,
+   "returned": [
+    "PowerToys#47249"
+   ]
+  },
+  {
+   "t": 1794881922.5622642,
+   "tool": "similar",
+   "args": {
+    "query": "updater downloaded a Preview release instead of the stable release; installed version labeled Preview on GitHub",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014355516992509365,
+   "returned": [
+    "PowerToys#6801",
+    "PowerToys#3261",
+    "PowerToys#11348",
+    "PowerToys#6359",
+    "PowerToys#10324",
+    "PowerToys#8672",
+    "PowerToys#3630",
+    "PowerToys#9678",
+    "PowerToys#1532",
+    "PowerToys#10122",
+    "PowerToys#8209",
+    "PowerToys#27569",
+    "PowerToys#6640",
+    "PowerToys#2909",
+    "PowerToys#4214",
+    "PowerToys#28782",
+    "PowerToys#8627",
+    "PowerToys#5003",
+    "PowerToys#6329",
+    "PowerToys#947"
+   ]
+  },
+  {
+   "t": 1794881924.2013838,
+   "tool": "search",
+   "args": {
+    "pattern": "update channel",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04791967602795921,
+   "returned": [
+    "PowerToys#33086"
+   ]
+  },
+  {
+   "t": 1794881925.7716491,
+   "tool": "search",
+   "args": {
+    "pattern": "0.101",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04304234200390056,
+   "returned": [
+    "PowerToys#17493",
+    "PowerToys#15988",
+    "PowerToys#47300",
+    "PowerToys#43546",
+    "PowerToys#36354",
+    "PowerToys#36188",
+    "PowerToys#26320",
+    "PowerToys#48382",
+    "PowerToys#48034",
+    "PowerToys#47744",
+    "PowerToys#47319",
+    "PowerToys#44749",
+    "PowerToys#43055",
+    "PowerToys#39555",
+    "PowerToys#39156",
+    "PowerToys#34453",
+    "PowerToys#26991",
+    "PowerToys#23310",
+    "PowerToys#22718",
+    "PowerToys#22403"
+   ]
+  },
+  {
+   "t": 1794881927.5991373,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48034"
+   },
+   "seconds": 0.0001810950052458793,
+   "returned": [
+    "PowerToys#48034"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 17866,
+  "stop_reason": "end_turn",
+  "session_id": "ab5d3f6c-8a26-4252-ad59-ce79ca88f897",
+  "total_cost_usd": 0.0885478,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 17509,
+   "cache_read_input_tokens": 76458,
+   "output_tokens": 1083,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 17509,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 249,
+     "cache_read_input_tokens": 16453,
+     "cache_creation_input_tokens": 2469,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2469
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1083,
+    "cacheReadInputTokens": 76458,
+    "cacheCreationInputTokens": 17509,
+    "webSearchRequests": 0,
+    "costUSD": 0.0885478,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 17509,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Not a match.\n\n{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket that reports this problem. That means auto-update was set to the Stable channel but installed a Preview release (0.101.2373.0). The archive has no report of it. Please keep this ticket open for the maintainers and keep the bug report ZIP attached. Add your update settings and the updater log from %LOCALAPPDATA%\\\\Microsoft\\\\PowerToys\\\\Updates. As a workaround, uninstall the Preview build and install the latest stable release from the PowerToys GitHub releases page. Then check that the update channel setting is still Stable. If you would rather not risk another Preview build, turn off automatic downloads and update by hand until this is fixed.\"}",
+  "ttft_ms": 2527,
+  "type": "result",
+  "duration_ms": 21756,
+  "uuid": "ee0bc7d5-58d6-4106-8df8-45c7e203f40c",
+  "ttft_stream_ms": 1591,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 1591,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1083,
+    "cacheReadInputTokens": 76458,
+    "cacheCreationInputTokens": 17509,
+    "webSearchRequests": 0,
+    "costUSD": 0.0885478,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 17509,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 23.048209161992418,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-lrmceu45/work"
+  }
+ },
+ "wall_seconds": 23.050049504003255,
+ "qid": "PowerToys#50267",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket that reports this problem. That means auto-update was set to the Stable channel but installed a Preview release (0.101.2373.0). The archive has no report of it. Please keep this ticket open for the maintainers and keep the bug report ZIP attached. Add your update settings and the updater log from %LOCALAPPDATA%\\Microsoft\\PowerToys\\Updates. As a workaround, uninstall the Preview build and install the latest stable release from the PowerToys GitHub releases page. Then check that the update channel setting is still Stable. If you would rather not risk another Preview build, turn off automatic downloads and update by hand until this is fixed."
+ },
+ "hit_turn_cap": false
+}

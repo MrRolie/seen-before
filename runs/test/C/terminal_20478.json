@@ -1,0 +1,336 @@
+{
+ "shown": [
+  "PowerToys#38303",
+  "WSL#10578",
+  "terminal#10207",
+  "terminal#10936",
+  "terminal#11638",
+  "terminal#11840",
+  "terminal#12578",
+  "terminal#12661",
+  "terminal#12859",
+  "terminal#14185",
+  "terminal#14220",
+  "terminal#15193",
+  "terminal#17076",
+  "terminal#18210",
+  "terminal#19356",
+  "terminal#19455",
+  "terminal#19735",
+  "terminal#2063",
+  "terminal#2614",
+  "terminal#2776",
+  "terminal#3356",
+  "terminal#5561",
+  "terminal#5939",
+  "terminal#6246",
+  "terminal#6389",
+  "terminal#6674",
+  "terminal#6945",
+  "terminal#7008",
+  "terminal#8104",
+  "terminal#8105",
+  "terminal#8920",
+  "terminal#8936",
+  "terminal#8990",
+  "terminal#9085",
+  "terminal#9086",
+  "terminal#9356",
+  "terminal#9548"
+ ],
+ "retrieval_seconds": 4.281907305994537,
+ "tool_calls": [
+  {
+   "t": 1794879026.2364986,
+   "tool": "search",
+   "args": {
+    "query": "\"Open in Terminal\" context menu entry disappeared from File Explorer",
+    "repo": "terminal"
+   },
+   "seconds": 4.268068256002152,
+   "returned": [
+    "terminal#9356",
+    "terminal#12859",
+    "terminal#6674",
+    "terminal#12578",
+    "terminal#9086",
+    "terminal#7008",
+    "terminal#11840",
+    "terminal#2614",
+    "terminal#2063",
+    "terminal#6389",
+    "terminal#6246",
+    "terminal#8936",
+    "terminal#14220",
+    "terminal#12661",
+    "terminal#8105",
+    "terminal#8104",
+    "terminal#2776",
+    "terminal#5939",
+    "terminal#6945",
+    "terminal#11638"
+   ]
+  },
+  {
+   "t": 1794879026.262335,
+   "tool": "search",
+   "args": {
+    "query": "Open in Terminal missing right-click menu after reinstall",
+    "repo": null
+   },
+   "seconds": 0.013056713010882959,
+   "returned": [
+    "terminal#8105",
+    "terminal#8104",
+    "terminal#12661",
+    "terminal#18210",
+    "terminal#9356",
+    "terminal#19455",
+    "terminal#3356",
+    "terminal#15193",
+    "PowerToys#38303",
+    "terminal#5561",
+    "terminal#19356",
+    "terminal#10207",
+    "terminal#10936",
+    "WSL#10578",
+    "terminal#17076",
+    "terminal#9548",
+    "terminal#19735",
+    "terminal#8920",
+    "terminal#9085",
+    "terminal#8990"
+   ]
+  },
+  {
+   "t": 1794879027.0881298,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18210"
+   },
+   "seconds": 0.00017381500219926238,
+   "returned": [
+    "terminal#18210"
+   ]
+  },
+  {
+   "t": 1794879027.2948217,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19455"
+   },
+   "seconds": 0.00015681597869843245,
+   "returned": [
+    "terminal#19455"
+   ]
+  },
+  {
+   "t": 1794879027.46873,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#11638"
+   },
+   "seconds": 0.00019181400421075523,
+   "returned": [
+    "terminal#11638"
+   ]
+  },
+  {
+   "t": 1794879028.7853677,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#14185"
+   },
+   "seconds": 0.0002598919963929802,
+   "returned": [
+    "terminal#14185"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7151,
+  "stop_reason": "end_turn",
+  "session_id": "f203a963-a40a-48c4-9ff0-39d378591bd2",
+  "total_cost_usd": 0.050347199999999995,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 10108,
+   "cache_read_input_tokens": 14892,
+   "output_tokens": 841,
+   "output_tokens_details": {
+    "thinking_tokens": 70
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10108,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 374,
+     "cache_read_input_tokens": 7743,
+     "cache_creation_input_tokens": 3398,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3398
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 841,
+    "cacheReadInputTokens": 14892,
+    "cacheCreationInputTokens": 10108,
+    "webSearchRequests": 0,
+    "costUSD": 0.050347199999999995,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 70,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10108,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#18210\", \"terminal#19455\", \"terminal#14185\"], \"answer\": \"This has been reported before, on Windows 10 (build 19045) like yours. In those tickets, uninstalling and reinstalling Terminal and restarting Windows did not bring the entry back. The maintainers closed the reports as duplicates of the long-running shell extension issue terminal#14185. They described it as a problem in how Explorer loads the extension, not something a reinstall fixes, and no fix is recorded. Things you can still try: restart explorer.exe, which clears Explorer's context-menu cache. Check whether the entry shows when you right-click a folder itself, as opposed to the empty background, because those use different code paths. Also disable other shell extensions or context-menu tools that could interfere. If you need the entry now, a community workaround is to add the context-menu registry entries manually, for example with the repo https://github.com/[user]/Open-in-Windows-Terminal that another user suggested in terminal#19455. Add any new details, such as whether it works on folders or on the background, to terminal#14185.\"}",
+  "ttft_ms": 1034,
+  "type": "result",
+  "duration_ms": 11202,
+  "uuid": "16ab5014-3138-4810-9368-7ba2bc0e9da5",
+  "ttft_stream_ms": 580,
+  "time_to_request_ms": 38,
+  "first_content_frame_ms": 580,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 841,
+    "cacheReadInputTokens": 14892,
+    "cacheCreationInputTokens": 10108,
+    "webSearchRequests": 0,
+    "costUSD": 0.050347199999999995,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 70,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10108,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.682692457019584,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-9sf2g1_4/work"
+  }
+ },
+ "wall_seconds": 12.684846221003681,
+ "qid": "terminal#20478",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#18210",
+   "terminal#19455",
+   "terminal#14185"
+  ],
+  "answer": "This has been reported before, on Windows 10 (build 19045) like yours. In those tickets, uninstalling and reinstalling Terminal and restarting Windows did not bring the entry back. The maintainers closed the reports as duplicates of the long-running shell extension issue terminal#14185. They described it as a problem in how Explorer loads the extension, not something a reinstall fixes, and no fix is recorded. Things you can still try: restart explorer.exe, which clears Explorer's context-menu cache. Check whether the entry shows when you right-click a folder itself, as opposed to the empty background, because those use different code paths. Also disable other shell extensions or context-menu tools that could interfere. If you need the entry now, a community workaround is to add the context-menu registry entries manually, for example with the repo https://github.com/[user]/Open-in-Windows-Terminal that another user suggested in terminal#19455. Add any new details, such as whether it works on folders or on the background, to terminal#14185."
+ },
+ "hit_turn_cap": false
+}

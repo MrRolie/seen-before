@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#46823",
+  "PowerToys#43113",
+  "PowerToys#46461",
+  "PowerToys#44867",
+  "PowerToys#42436"
+ ],
+ "retrieval_seconds": 0.5148274630191736,
+ "retrieval_scores": [
+  0.03252247488101534,
+  0.03200204813108039,
+  0.031544957774465976,
+  0.03057889822595705,
+  0.02967032967032967
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3309,
+  "stop_reason": "end_turn",
+  "session_id": "556db769-8454-4972-8fb7-bd6d55cf0c22",
+  "total_cost_usd": 0.018752,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3927,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 304,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3927,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 304,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3927,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3927
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 304,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3927,
+    "webSearchRequests": 0,
+    "costUSD": 0.018752,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3927,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46461\", \"PowerToys#46823\", \"PowerToys#44867\"], \"answer\": \"This feature request has been filed before: separate wallpapers for light and dark mode that switch automatically when Light Switch changes the theme. The maintainers closed the newer reports as duplicates of the original request (#42401), and the earlier ones were tied to #42436 and #44598. A maintainer said in January 2026 (#44867) that this would be supported in a following release, and a contributor (#42436) mentioned a prototype for wallpaper switching (#42624). Please check the latest PowerToys release and the Light Switch settings for the wallpaper option. If it isn't there, follow or add a thumbs-up to #42401 rather than opening a new request. Until then, tools like AutoDarkMode, or a Task Scheduler script, can switch the wallpaper along with the theme.\"}",
+  "ttft_ms": 3470,
+  "type": "result",
+  "duration_ms": 3483,
+  "uuid": "35eca9b0-ac56-4e6e-b2a7-ff5466cabc91",
+  "ttft_stream_ms": 1385,
+  "time_to_request_ms": 173,
+  "first_content_frame_ms": 1385,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 304,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3927,
+    "webSearchRequests": 0,
+    "costUSD": 0.018752,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3927,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.382646423007827,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-qyylr7yd/work"
+  }
+ },
+ "wall_seconds": 4.899146192008629,
+ "qid": "PowerToys#49455",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46461",
+   "PowerToys#46823",
+   "PowerToys#44867"
+  ],
+  "answer": "This feature request has been filed before: separate wallpapers for light and dark mode that switch automatically when Light Switch changes the theme. The maintainers closed the newer reports as duplicates of the original request (#42401), and the earlier ones were tied to #42436 and #44598. A maintainer said in January 2026 (#44867) that this would be supported in a following release, and a contributor (#42436) mentioned a prototype for wallpaper switching (#42624). Please check the latest PowerToys release and the Light Switch settings for the wallpaper option. If it isn't there, follow or add a thumbs-up to #42401 rather than opening a new request. Until then, tools like AutoDarkMode, or a Task Scheduler script, can switch the wallpaper along with the theme."
+ },
+ "hit_turn_cap": false
+}

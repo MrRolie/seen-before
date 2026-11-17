@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#26296",
+  "PowerToys#44821",
+  "PowerToys#37938",
+  "PowerToys#33575",
+  "PowerToys#29364"
+ ],
+ "retrieval_seconds": 0.4558296389877796,
+ "retrieval_scores": [
+  0.032266458495966696,
+  0.03225806451612903,
+  0.030776515151515152,
+  0.02967032967032967,
+  0.028021349599695006
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 6556,
+  "stop_reason": "end_turn",
+  "session_id": "f087e7b7-70c4-46a4-a175-15105306be74",
+  "total_cost_usd": 0.02886,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6409,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 322,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6409,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 322,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6409,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6409
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 322,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6409,
+    "webSearchRequests": 0,
+    "costUSD": 0.02886,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6409,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#26296\", \"PowerToys#29364\", \"PowerToys#37938\"], \"answer\": \"This request has been made before. Mouse Without Borders support for Android, iPad and other mobile devices is tracked in PowerToys#26296, and other similar requests (e.g. #29364, #33575) were closed as duplicates of it. It is not currently available. Add a thumbs-up and any extra context to #26296 to help prioritise it. In the meantime, the ticket suggests scrcpy (https://github.com/Genymobile/scrcpy) to show and control an Android phone from your PC. It mirrors the screen rather than moving the cursor across devices as Mouse Without Borders does, but it lets you operate the phone without touching it. For Samsung phones, Phone Link was also mentioned. Your request to share the phone's screen is covered by the screen-mirroring approach above and is not a Mouse Without Borders feature.\"}",
+  "ttft_ms": 6725,
+  "type": "result",
+  "duration_ms": 6754,
+  "uuid": "b5ec35d2-4fda-4318-a26d-2dbb7dd3e0de",
+  "ttft_stream_ms": 4686,
+  "time_to_request_ms": 193,
+  "first_content_frame_ms": 4687,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 322,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6409,
+    "webSearchRequests": 0,
+    "costUSD": 0.02886,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6409,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 7.469471864984371,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-3mg4o4y4/work"
+  }
+ },
+ "wall_seconds": 7.92712781499722,
+ "qid": "PowerToys#51711",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#26296",
+   "PowerToys#29364",
+   "PowerToys#37938"
+  ],
+  "answer": "This request has been made before. Mouse Without Borders support for Android, iPad and other mobile devices is tracked in PowerToys#26296, and other similar requests (e.g. #29364, #33575) were closed as duplicates of it. It is not currently available. Add a thumbs-up and any extra context to #26296 to help prioritise it. In the meantime, the ticket suggests scrcpy (https://github.com/Genymobile/scrcpy) to show and control an Android phone from your PC. It mirrors the screen rather than moving the cursor across devices as Mouse Without Borders does, but it lets you operate the phone without touching it. For Samsung phones, Phone Link was also mentioned. Your request to share the phone's screen is covered by the screen-mirroring approach above and is not a Mouse Without Borders feature."
+ },
+ "hit_turn_cap": false
+}

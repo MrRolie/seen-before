@@ -1,0 +1,299 @@
+{
+ "shown": [
+  "PowerToys#10903",
+  "PowerToys#10918",
+  "PowerToys#12403",
+  "PowerToys#14164",
+  "PowerToys#20205",
+  "PowerToys#2070",
+  "PowerToys#45201",
+  "PowerToys#46216",
+  "PowerToys#46270",
+  "PowerToys#46939",
+  "PowerToys#48466",
+  "PowerToys#48516",
+  "PowerToys#58",
+  "PowerToys#6653",
+  "PowerToys#7790"
+ ],
+ "retrieval_seconds": 0.4771293270168826,
+ "tool_calls": [
+  {
+   "t": 1794883341.083937,
+   "tool": "search",
+   "args": {
+    "pattern": "Dock monitor",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06867987601435743,
+   "returned": [
+    "PowerToys#46939",
+    "PowerToys#6653"
+   ]
+  },
+  {
+   "t": 1794883342.687813,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46939"
+   },
+   "seconds": 0.0001240659912582487,
+   "returned": [
+    "PowerToys#46939"
+   ]
+  },
+  {
+   "t": 1794883343.282298,
+   "tool": "search",
+   "args": {
+    "pattern": "dock",
+    "regex": false,
+    "also": [
+     "monitor",
+     "reappear"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.16583302299841307,
+   "returned": [
+    "PowerToys#46270",
+    "PowerToys#46216",
+    "PowerToys#20205",
+    "PowerToys#10918",
+    "PowerToys#58",
+    "PowerToys#7790",
+    "PowerToys#14164",
+    "PowerToys#12403",
+    "PowerToys#10903",
+    "PowerToys#2070"
+   ]
+  },
+  {
+   "t": 1794883345.2545195,
+   "tool": "search",
+   "args": {
+    "pattern": "Command Palette",
+    "regex": false,
+    "also": [
+     "monitor",
+     "dock",
+     "disconnect"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.24220909000723623,
+   "returned": [
+    "PowerToys#45201",
+    "PowerToys#48516"
+   ]
+  },
+  {
+   "t": 1794883346.7676234,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48516"
+   },
+   "seconds": 0.00014665600610896945,
+   "returned": [
+    "PowerToys#48516"
+   ]
+  },
+  {
+   "t": 1794883348.1753032,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48466"
+   },
+   "seconds": 0.0001366159995086491,
+   "returned": [
+    "PowerToys#48466"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12249,
+  "stop_reason": "end_turn",
+  "session_id": "d4a56d4f-fd71-45bf-91e1-a661f8f879ee",
+  "total_cost_usd": 0.0379647,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 6581,
+   "cache_read_input_tokens": 23967,
+   "output_tokens": 922,
+   "output_tokens_details": {
+    "thinking_tokens": 16
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6581,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 304,
+     "cache_read_input_tokens": 7021,
+     "cache_creation_input_tokens": 737,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 737
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 922,
+    "cacheReadInputTokens": 23967,
+    "cacheCreationInputTokens": 6581,
+    "webSearchRequests": 0,
+    "costUSD": 0.0379647,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 16,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6581,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Checking the last candidate, #48466. It's about dock position on a second display, so it's a different problem. #48516 matches this ticket, so I'm finalizing now.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#48516\"], \"answer\": \"This has been reported before as PowerToys#48516. Since the per-monitor Dock settings were added in 0.100, the Dock keeps its link to specific monitors. When you dock or undock, the Dock settings page often lists only the internal monitor, and the Dock can stay hidden, come back empty, or come back at the wrong size. The ticket shows no fix yet. Your workaround of turning Command Palette off and on again makes it re-detect the monitors, so use that after you reconnect to the dock. Add your details and PowerToys version to #48516. A Dock that follows the primary or non-primary monitor, as 0.99 did, is the behavior that ticket asks for.\"}",
+  "ttft_ms": 2089,
+  "type": "result",
+  "duration_ms": 12833,
+  "uuid": "002379f9-ce7f-4885-8d7b-4a9350ceeb26",
+  "ttft_stream_ms": 1150,
+  "time_to_request_ms": 38,
+  "first_content_frame_ms": 1150,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 922,
+    "cacheReadInputTokens": 23967,
+    "cacheCreationInputTokens": 6581,
+    "webSearchRequests": 0,
+    "costUSD": 0.0379647,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 16,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6581,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.296041866997257,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ifwlbee6/work"
+  }
+ },
+ "wall_seconds": 14.297813995974138,
+ "qid": "PowerToys#50765",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48516"
+  ],
+  "answer": "This has been reported before as PowerToys#48516. Since the per-monitor Dock settings were added in 0.100, the Dock keeps its link to specific monitors. When you dock or undock, the Dock settings page often lists only the internal monitor, and the Dock can stay hidden, come back empty, or come back at the wrong size. The ticket shows no fix yet. Your workaround of turning Command Palette off and on again makes it re-detect the monitors, so use that after you reconnect to the dock. Add your details and PowerToys version to #48516. A Dock that follows the primary or non-primary monitor, as 0.99 did, is the behavior that ticket asks for."
+ },
+ "hit_turn_cap": false
+}

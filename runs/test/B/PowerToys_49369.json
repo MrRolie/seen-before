@@ -1,0 +1,301 @@
+{
+ "shown": [
+  "PowerToys#14204",
+  "PowerToys#16769",
+  "PowerToys#19126",
+  "PowerToys#21826",
+  "PowerToys#21907",
+  "PowerToys#24521",
+  "PowerToys#25046",
+  "PowerToys#25691",
+  "PowerToys#26",
+  "PowerToys#27138",
+  "PowerToys#29590",
+  "PowerToys#29690",
+  "PowerToys#32098",
+  "PowerToys#32600",
+  "PowerToys#34112",
+  "PowerToys#44917",
+  "PowerToys#45270",
+  "PowerToys#46189",
+  "PowerToys#4623",
+  "PowerToys#8510"
+ ],
+ "retrieval_seconds": 0.04558428603922948,
+ "tool_calls": [
+  {
+   "t": 1794878140.985446,
+   "tool": "search",
+   "args": {
+    "pattern": "synctoy",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.044919403007952496,
+   "returned": [
+    "PowerToys#26",
+    "PowerToys#4623",
+    "PowerToys#32600",
+    "PowerToys#44917",
+    "PowerToys#21907",
+    "PowerToys#46189",
+    "PowerToys#29690",
+    "PowerToys#16769",
+    "PowerToys#14204",
+    "PowerToys#8510",
+    "PowerToys#29590",
+    "PowerToys#25046",
+    "PowerToys#19126",
+    "PowerToys#45270",
+    "PowerToys#34112",
+    "PowerToys#32098",
+    "PowerToys#27138",
+    "PowerToys#25691",
+    "PowerToys#24521",
+    "PowerToys#21826"
+   ]
+  },
+  {
+   "t": 1794878142.9055395,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46189"
+   },
+   "seconds": 0.00013481700443662703,
+   "returned": [
+    "PowerToys#46189"
+   ]
+  },
+  {
+   "t": 1794878142.9737554,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32600"
+   },
+   "seconds": 0.00011650699889287353,
+   "returned": [
+    "PowerToys#32600"
+   ]
+  },
+  {
+   "t": 1794878144.355087,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#26"
+   },
+   "seconds": 0.00019820500165224075,
+   "returned": [
+    "PowerToys#26"
+   ]
+  },
+  {
+   "t": 1794878145.9982202,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32098"
+   },
+   "seconds": 0.0001062170194927603,
+   "returned": [
+    "PowerToys#32098"
+   ]
+  },
+  {
+   "t": 1794878147.9363751,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44917"
+   },
+   "seconds": 0.00010913700680248439,
+   "returned": [
+    "PowerToys#44917"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13041,
+  "stop_reason": "end_turn",
+  "session_id": "12bd936f-1514-4d6e-9563-d2ada11abdc3",
+  "total_cost_usd": 0.052423000000000004,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 10210,
+   "cache_read_input_tokens": 37190,
+   "output_tokens": 784,
+   "output_tokens_details": {
+    "thinking_tokens": 66
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10210,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 362,
+     "cache_read_input_tokens": 10808,
+     "cache_creation_input_tokens": 579,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 579
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 784,
+    "cacheReadInputTokens": 37190,
+    "cacheCreationInputTokens": 10210,
+    "webSearchRequests": 0,
+    "costUSD": 0.052423000000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 66,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10210,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've found the archive tickets that match, and I'm writing up the answer now.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#26\", \"PowerToys#46189\", \"PowerToys#44917\"], \"answer\": \"This request has been filed many times. The PowerToys team tracks it in PowerToys#26, \\\"SyncToy and Robocopy\\\", and has closed the other requests as duplicates of it. Those include #46189, #44917 and #32600. Add a thumbs-up to #26 and any specific needs, such as long path support, scheduling, or one-way or two-way sync. A new ticket won't add anything. The tickets show no plan to bring SyncToy back. A maintainer said in #32098 that SyncToy was never a PowerToys utility, and Microsoft has withdrawn the official download. In the meantime, use an alternative. Robocopy is built into Windows. WinMerge was suggested in #14204. #45270 proposes a new open-source SyncToy-style tool called ReStore.\"}",
+  "ttft_ms": 1975,
+  "type": "result",
+  "duration_ms": 13155,
+  "uuid": "7ec8ec31-f32f-4966-8f65-6c5fc1021ea9",
+  "ttft_stream_ms": 1712,
+  "time_to_request_ms": 26,
+  "first_content_frame_ms": 1712,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 784,
+    "cacheReadInputTokens": 37190,
+    "cacheCreationInputTokens": 10210,
+    "webSearchRequests": 0,
+    "costUSD": 0.052423000000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 66,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10210,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.692947370000184,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-34aofxat/work"
+  }
+ },
+ "wall_seconds": 14.695088865002617,
+ "qid": "PowerToys#49369",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#26",
+   "PowerToys#46189",
+   "PowerToys#44917"
+  ],
+  "answer": "This request has been filed many times. The PowerToys team tracks it in PowerToys#26, \"SyncToy and Robocopy\", and has closed the other requests as duplicates of it. Those include #46189, #44917 and #32600. Add a thumbs-up to #26 and any specific needs, such as long path support, scheduling, or one-way or two-way sync. A new ticket won't add anything. The tickets show no plan to bring SyncToy back. A maintainer said in #32098 that SyncToy was never a PowerToys utility, and Microsoft has withdrawn the official download. In the meantime, use an alternative. Robocopy is built into Windows. WinMerge was suggested in #14204. #45270 proposes a new open-source SyncToy-style tool called ReStore."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,306 @@
+{
+ "shown": [
+  "PowerToys#40039",
+  "PowerToys#445",
+  "PowerToys#45201",
+  "PowerToys#45546",
+  "PowerToys#46239",
+  "PowerToys#46242",
+  "PowerToys#46345",
+  "PowerToys#46478",
+  "PowerToys#46480",
+  "PowerToys#46589",
+  "PowerToys#46632",
+  "PowerToys#46750",
+  "PowerToys#46800",
+  "PowerToys#47092",
+  "PowerToys#47096",
+  "PowerToys#47193",
+  "PowerToys#47507",
+  "PowerToys#47602",
+  "PowerToys#48455",
+  "PowerToys#48645",
+  "PowerToys#49015",
+  "PowerToys#49036"
+ ],
+ "retrieval_seconds": 0.14116715599084273,
+ "tool_calls": [
+  {
+   "t": 1794880228.004912,
+   "tool": "search",
+   "args": {
+    "pattern": "dock",
+    "regex": false,
+    "also": [
+     "auto-hide"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.09783035100554116,
+   "returned": [
+    "PowerToys#45201",
+    "PowerToys#46750",
+    "PowerToys#48645",
+    "PowerToys#45546",
+    "PowerToys#49036",
+    "PowerToys#46480",
+    "PowerToys#47507",
+    "PowerToys#47092",
+    "PowerToys#46800",
+    "PowerToys#445",
+    "PowerToys#48455",
+    "PowerToys#47602",
+    "PowerToys#47193",
+    "PowerToys#46632",
+    "PowerToys#46242",
+    "PowerToys#47096",
+    "PowerToys#46478",
+    "PowerToys#49015",
+    "PowerToys#46345",
+    "PowerToys#40039"
+   ]
+  },
+  {
+   "t": 1794880228.0579815,
+   "tool": "search",
+   "args": {
+    "pattern": "command palette dock hide",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04277083999477327,
+   "returned": []
+  },
+  {
+   "t": 1794880230.166831,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46632"
+   },
+   "seconds": 0.00014418599312193692,
+   "returned": [
+    "PowerToys#46632"
+   ]
+  },
+  {
+   "t": 1794880230.2426143,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47092"
+   },
+   "seconds": 0.00014061600086279213,
+   "returned": [
+    "PowerToys#47092"
+   ]
+  },
+  {
+   "t": 1794880232.3495467,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46589"
+   },
+   "seconds": 0.0001459660124965012,
+   "returned": [
+    "PowerToys#46589"
+   ]
+  },
+  {
+   "t": 1794880232.3997562,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46239"
+   },
+   "seconds": 0.00013519698404707015,
+   "returned": [
+    "PowerToys#46239"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10728,
+  "stop_reason": "end_turn",
+  "session_id": "f2b78973-4c28-4773-9b60-9740fc8c026d",
+  "total_cost_usd": 0.040437,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 7629,
+   "cache_read_input_tokens": 15950,
+   "output_tokens": 831,
+   "output_tokens_details": {
+    "thinking_tokens": 91
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7629,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 308,
+     "cache_read_input_tokens": 7176,
+     "cache_creation_input_tokens": 1630,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1630
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 831,
+    "cacheReadInputTokens": 15950,
+    "cacheCreationInputTokens": 7629,
+    "webSearchRequests": 0,
+    "costUSD": 0.040437,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 91,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7629,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46239\", \"PowerToys#46589\", \"PowerToys#46632\"], \"answer\": \"This auto-hide request for the Command Palette Dock has been filed before. The main ticket is PowerToys#46239, \\\"Dock: Add autohide support\\\". It asks for the dock to hide and then appear when the mouse hovers at the screen edge, without shrinking the usable work area. PowerToys#46589 and PowerToys#46632 were closed as duplicates or are tracked under the same request, and so was PowerToys#47092. The tickets I read don't say the feature has shipped, so there is no setting to turn on yet. For now, you can disable the dock or move it to another edge. Please add your +1 and your hover-delay idea to #46239 instead of opening a new ticket. The tickets I found don't cover your comments on the device-info graphs, so you could raise those as a separate request.\"}",
+  "ttft_ms": 2602,
+  "type": "result",
+  "duration_ms": 10925,
+  "uuid": "cacf28a2-a75c-4708-91d3-48841f7602ee",
+  "ttft_stream_ms": 1609,
+  "time_to_request_ms": 27,
+  "first_content_frame_ms": 1609,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 831,
+    "cacheReadInputTokens": 15950,
+    "cacheCreationInputTokens": 7629,
+    "webSearchRequests": 0,
+    "costUSD": 0.040437,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 91,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7629,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.168612400011625,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-6243vr8h/work"
+  }
+ },
+ "wall_seconds": 12.170178806991316,
+ "qid": "PowerToys#49896",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46239",
+   "PowerToys#46589",
+   "PowerToys#46632"
+  ],
+  "answer": "This auto-hide request for the Command Palette Dock has been filed before. The main ticket is PowerToys#46239, \"Dock: Add autohide support\". It asks for the dock to hide and then appear when the mouse hovers at the screen edge, without shrinking the usable work area. PowerToys#46589 and PowerToys#46632 were closed as duplicates or are tracked under the same request, and so was PowerToys#47092. The tickets I read don't say the feature has shipped, so there is no setting to turn on yet. For now, you can disable the dock or move it to another edge. Please add your +1 and your hover-delay idea to #46239 instead of opening a new ticket. The tickets I found don't cover your comments on the device-info graphs, so you could raise those as a separate request."
+ },
+ "hit_turn_cap": false
+}

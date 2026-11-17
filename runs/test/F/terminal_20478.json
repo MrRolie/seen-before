@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "terminal#16236",
+  "terminal#18210",
+  "terminal#11638",
+  "terminal#11840",
+  "terminal#14185"
+ ],
+ "retrieval_seconds": 0.6612056560115889,
+ "retrieval_scores": [
+  0.02832415420928403,
+  0.02821939586645469,
+  0.02728937728937729,
+  0.01639344262295082,
+  0.01639344262295082
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 4579,
+  "stop_reason": "end_turn",
+  "session_id": "4f0e2c62-526f-42b5-bd71-1697b7cb27ec",
+  "total_cost_usd": 0.04796399999999999,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 10835,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 462,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10835,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 462,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 10835,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 10835
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 462,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 10835,
+    "webSearchRequests": 0,
+    "costUSD": 0.04796399999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10835,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#18210\", \"terminal#16236\", \"terminal#11840\"], \"answer\": \"This has been reported before: on Windows 10 (your build is 19045) the 'Open in Terminal' Explorer entry can vanish and does not come back after reinstalling Terminal. The past tickets say this is most likely an Explorer/OS shell-extension registration bug, not something in Terminal, and they track it under the umbrella issues terminal#14185 and #11839. Things to try: (1) restart explorer.exe (`taskkill /f /im explorer.exe & explorer.exe`) or reboot, since Explorer caches context menu entries; (2) right-click directly on a selected folder rather than empty background space, because on Windows 10 the background and drive-root entries often do not appear while the folder entry does; (3) add the entry manually with a registry key, for example HKEY_CLASSES_ROOT\\\\Directory\\\\Background\\\\shell\\\\terminal\\\\command with the value `%LOCALAPPDATA%\\\\Microsoft\\\\WindowsApps\\\\wt.exe -d \\\"%V\\\\.\\\"` for the MSIX install; (4) if none of that helps, file feedback in the Feedback Hub under 'Desktop Environment > Right-click context menu' (or File Explorer) with an advanced diagnostics trace so the Windows team can investigate.\"}",
+  "ttft_ms": 4778,
+  "type": "result",
+  "duration_ms": 4797,
+  "uuid": "015d9373-913f-44f2-a242-033823400a44",
+  "ttft_stream_ms": 1469,
+  "time_to_request_ms": 216,
+  "first_content_frame_ms": 1469,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 462,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 10835,
+    "webSearchRequests": 0,
+    "costUSD": 0.04796399999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10835,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 5.69565134998993,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-nk1yw3eq/work"
+  }
+ },
+ "wall_seconds": 6.359087058022851,
+ "qid": "terminal#20478",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#18210",
+   "terminal#16236",
+   "terminal#11840"
+  ],
+  "answer": "This has been reported before: on Windows 10 (your build is 19045) the 'Open in Terminal' Explorer entry can vanish and does not come back after reinstalling Terminal. The past tickets say this is most likely an Explorer/OS shell-extension registration bug, not something in Terminal, and they track it under the umbrella issues terminal#14185 and #11839. Things to try: (1) restart explorer.exe (`taskkill /f /im explorer.exe & explorer.exe`) or reboot, since Explorer caches context menu entries; (2) right-click directly on a selected folder rather than empty background space, because on Windows 10 the background and drive-root entries often do not appear while the folder entry does; (3) add the entry manually with a registry key, for example HKEY_CLASSES_ROOT\\Directory\\Background\\shell\\terminal\\command with the value `%LOCALAPPDATA%\\Microsoft\\WindowsApps\\wt.exe -d \"%V\\.\"` for the MSIX install; (4) if none of that helps, file feedback in the Feedback Hub under 'Desktop Environment > Right-click context menu' (or File Explorer) with an advanced diagnostics trace so the Windows team can investigate."
+ },
+ "hit_turn_cap": false
+}

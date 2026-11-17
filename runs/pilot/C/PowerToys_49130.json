@@ -1,0 +1,402 @@
+{
+ "shown": [
+  "PowerToys#10165",
+  "PowerToys#12381",
+  "PowerToys#13887",
+  "PowerToys#1827",
+  "PowerToys#1898",
+  "PowerToys#23997",
+  "PowerToys#31226",
+  "PowerToys#37011",
+  "PowerToys#38322",
+  "PowerToys#38353",
+  "PowerToys#43819",
+  "PowerToys#44248",
+  "PowerToys#44629",
+  "PowerToys#45424",
+  "PowerToys#47968",
+  "PowerToys#5399",
+  "PowerToys#5400",
+  "PowerToys#5402",
+  "PowerToys#5414",
+  "PowerToys#5423",
+  "PowerToys#5485",
+  "PowerToys#5509",
+  "PowerToys#5533",
+  "PowerToys#5534",
+  "PowerToys#5557",
+  "PowerToys#5582",
+  "PowerToys#5596",
+  "PowerToys#5598",
+  "PowerToys#5636",
+  "PowerToys#5658",
+  "PowerToys#5665",
+  "PowerToys#5688",
+  "PowerToys#5711",
+  "PowerToys#5716",
+  "PowerToys#5723",
+  "PowerToys#5772",
+  "PowerToys#5830",
+  "PowerToys#5922",
+  "PowerToys#5959",
+  "PowerToys#6105",
+  "PowerToys#6167",
+  "PowerToys#6290",
+  "PowerToys#6521",
+  "PowerToys#6786",
+  "PowerToys#6936",
+  "PowerToys#8048",
+  "PowerToys#9472",
+  "WSL#3522",
+  "terminal#15459",
+  "terminal#17140",
+  "terminal#19215",
+  "terminal#9557"
+ ],
+ "retrieval_seconds": 3.8825188020418864,
+ "tool_calls": [
+  {
+   "t": 1794875852.267223,
+   "tool": "search",
+   "args": {
+    "query": "Exception from UI thread error window appears when connecting or disconnecting external device",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.835941099008778,
+   "returned": [
+    "PowerToys#5414",
+    "PowerToys#6105",
+    "PowerToys#13887",
+    "PowerToys#38353",
+    "PowerToys#6786",
+    "PowerToys#10165",
+    "PowerToys#9472",
+    "PowerToys#12381",
+    "PowerToys#5399",
+    "PowerToys#5959",
+    "PowerToys#5582",
+    "PowerToys#6521",
+    "PowerToys#5922",
+    "PowerToys#5402",
+    "PowerToys#5716",
+    "PowerToys#5830",
+    "PowerToys#6167",
+    "PowerToys#5688",
+    "PowerToys#5598",
+    "PowerToys#5658"
+   ]
+  },
+  {
+   "t": 1794875852.2924097,
+   "tool": "search",
+   "args": {
+    "query": "[FATAL] From UI thread's exception device connected disconnected",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.013132242020219564,
+   "returned": [
+    "PowerToys#5399",
+    "PowerToys#13887",
+    "PowerToys#5688",
+    "PowerToys#6167",
+    "PowerToys#6786",
+    "PowerToys#8048",
+    "PowerToys#6105",
+    "PowerToys#38353",
+    "PowerToys#38322",
+    "PowerToys#5922",
+    "PowerToys#5772",
+    "PowerToys#5582",
+    "PowerToys#5716",
+    "PowerToys#6936",
+    "PowerToys#9472",
+    "PowerToys#5400",
+    "PowerToys#5596",
+    "PowerToys#5830",
+    "PowerToys#5402",
+    "PowerToys#5598"
+   ]
+  },
+  {
+   "t": 1794875854.1428344,
+   "tool": "search",
+   "args": {
+    "query": "error dialog pops up when USB device plugged in or unplugged, display change, PowerToys 0.95",
+    "repo": null
+   },
+   "seconds": 0.016995473997667432,
+   "returned": [
+    "PowerToys#6290",
+    "PowerToys#47968",
+    "terminal#19215",
+    "PowerToys#5582",
+    "PowerToys#5533",
+    "terminal#17140",
+    "PowerToys#5400",
+    "PowerToys#5509",
+    "PowerToys#5688",
+    "terminal#9557",
+    "terminal#15459",
+    "PowerToys#23997",
+    "PowerToys#5711",
+    "PowerToys#5423",
+    "PowerToys#8048",
+    "PowerToys#13887",
+    "PowerToys#1827",
+    "PowerToys#6105",
+    "PowerToys#5723",
+    "WSL#3522"
+   ]
+  },
+  {
+   "t": 1794875856.3866215,
+   "tool": "search",
+   "args": {
+    "query": "Microsoft Store PowerToys fatal error window \"From UI thread\" exception hardware change device arrival",
+    "repo": null
+   },
+   "seconds": 0.015691237000282854,
+   "returned": [
+    "PowerToys#44629",
+    "PowerToys#5557",
+    "PowerToys#45424",
+    "PowerToys#5711",
+    "PowerToys#5534",
+    "PowerToys#5582",
+    "PowerToys#13887",
+    "PowerToys#8048",
+    "PowerToys#5485",
+    "PowerToys#5688",
+    "PowerToys#5723",
+    "PowerToys#1898",
+    "PowerToys#5423",
+    "PowerToys#5636",
+    "PowerToys#43819",
+    "PowerToys#5509",
+    "PowerToys#37011",
+    "PowerToys#44248",
+    "PowerToys#5400",
+    "PowerToys#5665"
+   ]
+  },
+  {
+   "t": 1794875858.0713584,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44629"
+   },
+   "seconds": 9.674701141193509e-05,
+   "returned": [
+    "PowerToys#44629"
+   ]
+  },
+  {
+   "t": 1794875858.2199974,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44248"
+   },
+   "seconds": 0.00013801699969917536,
+   "returned": [
+    "PowerToys#44248"
+   ]
+  },
+  {
+   "t": 1794875861.4551044,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#31226"
+   },
+   "seconds": 0.0005239860038273036,
+   "returned": [
+    "PowerToys#31226"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 16406,
+  "stop_reason": "end_turn",
+  "session_id": "23cb1a11-e5ff-4b01-bd76-a09d1e5a76f4",
+  "total_cost_usd": 0.067138,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 13024,
+   "cache_read_input_tokens": 30580,
+   "output_tokens": 1196,
+   "output_tokens_details": {
+    "thinking_tokens": 237
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13024,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 497,
+     "cache_read_input_tokens": 10393,
+     "cache_creation_input_tokens": 3664,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3664
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1196,
+    "cacheReadInputTokens": 30580,
+    "cacheCreationInputTokens": 13024,
+    "webSearchRequests": 0,
+    "costUSD": 0.067138,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 237,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13024,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#31226\", \"PowerToys#44629\", \"PowerToys#44248\"], \"answer\": \"This is probably a known problem, but I couldn't see your attached log, so I'm not certain. The \\\"[FATAL] From UI thread's exception\\\" window is the PowerToys Run (PowerLauncher) error reporter. Past tickets show it appearing when Windows broadcasts a display or theme change and WPF throws a COMException 0x80263001 (\\\"Desktop composition is disabled\\\"). Connecting or disconnecting a device can trigger that kind of change. The maintainers closed those tickets as duplicates of #31226. They say the cause varies by machine and is often outside PowerToys, such as graphics driver problems or memory pressure. Their fix is to update PowerToys to 0.96 or newer, which handles these failures more gracefully. You're on 0.95.1, so update through the Microsoft Store or GitHub, and update your graphics driver too. If the window still appears, open your attached log and check for a 0x80263001 / DwmExtendFrameIntoClientArea exception. If the exception is different, file it as a new issue and include that exception text.\"}",
+  "ttft_ms": 2224,
+  "type": "result",
+  "duration_ms": 20374,
+  "uuid": "d45cbfbe-910a-4362-aef5-e1fe76b5cc4d",
+  "ttft_stream_ms": 1145,
+  "time_to_request_ms": 40,
+  "first_content_frame_ms": 1145,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1196,
+    "cacheReadInputTokens": 30580,
+    "cacheCreationInputTokens": 13024,
+    "webSearchRequests": 0,
+    "costUSD": 0.067138,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 237,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13024,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 21.80907998699695,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-yvr9ar1r/work"
+  }
+ },
+ "wall_seconds": 21.811269311991055,
+ "qid": "PowerToys#49130",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#31226",
+   "PowerToys#44629",
+   "PowerToys#44248"
+  ],
+  "answer": "This is probably a known problem, but I couldn't see your attached log, so I'm not certain. The \"[FATAL] From UI thread's exception\" window is the PowerToys Run (PowerLauncher) error reporter. Past tickets show it appearing when Windows broadcasts a display or theme change and WPF throws a COMException 0x80263001 (\"Desktop composition is disabled\"). Connecting or disconnecting a device can trigger that kind of change. The maintainers closed those tickets as duplicates of #31226. They say the cause varies by machine and is often outside PowerToys, such as graphics driver problems or memory pressure. Their fix is to update PowerToys to 0.96 or newer, which handles these failures more gracefully. You're on 0.95.1, so update through the Microsoft Store or GitHub, and update your graphics driver too. If the window still appears, open your attached log and check for a 0x80263001 / DwmExtendFrameIntoClientArea exception. If the exception is different, file it as a new issue and include that exception text."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "terminal#14820",
+  "terminal#13630",
+  "terminal#12564",
+  "terminal#12384",
+  "PowerToys#3875"
+ ],
+ "retrieval_seconds": 0.017043553991243243,
+ "retrieval_scores": [
+  0.6561993956565857,
+  0.635712742805481,
+  0.6325599551200867,
+  0.6177952885627747,
+  0.6036907434463501
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2584,
+  "stop_reason": "end_turn",
+  "session_id": "a5ca161f-e764-4a76-93ad-071daad58ab9",
+  "total_cost_usd": 0.03198,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 7364,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 252,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7364,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 252,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 7364,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7364
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 252,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7364,
+    "webSearchRequests": 0,
+    "costUSD": 0.03198,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7364,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"No past ticket reports this problem. The new ticket is a UI issue: the \\\"Launch at login\\\" setting on the Startup page is disabled by an OS setting but shows no explanation, even though the localized text already exists. It was introduced by PR #20200. The archived startup tickets cover different problems: terminal#12564 is about syncing with the OS startup setting, terminal#12384 is about the startup task not registering, terminal#14820 is about Terminal launching when the setting is off, and terminal#13630 is a feature request for a separate login launch mode. None of them mention a missing reason text. This should be tracked as a new issue, with a fix to display the existing localized explanation when the setting is disabled by the OS.\"}",
+  "ttft_ms": 2763,
+  "type": "result",
+  "duration_ms": 2779,
+  "uuid": "582d438e-00e4-4749-bcdd-d0bd1f4da11f",
+  "ttft_stream_ms": 909,
+  "time_to_request_ms": 192,
+  "first_content_frame_ms": 909,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 252,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7364,
+    "webSearchRequests": 0,
+    "costUSD": 0.03198,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7364,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.597945194982458,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-8wv9l0sf/work"
+  }
+ },
+ "wall_seconds": 3.6167246229888406,
+ "qid": "terminal#20685",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "No past ticket reports this problem. The new ticket is a UI issue: the \"Launch at login\" setting on the Startup page is disabled by an OS setting but shows no explanation, even though the localized text already exists. It was introduced by PR #20200. The archived startup tickets cover different problems: terminal#12564 is about syncing with the OS startup setting, terminal#12384 is about the startup task not registering, terminal#14820 is about Terminal launching when the setting is off, and terminal#13630 is a feature request for a separate login launch mode. None of them mention a missing reason text. This should be tracked as a new issue, with a fix to display the existing localized explanation when the setting is disabled by the OS."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,507 @@
+{
+ "shown": [
+  "PowerToys#10122",
+  "PowerToys#10324",
+  "PowerToys#11348",
+  "PowerToys#12219",
+  "PowerToys#12486",
+  "PowerToys#1382",
+  "PowerToys#1383",
+  "PowerToys#1454",
+  "PowerToys#158",
+  "PowerToys#15988",
+  "PowerToys#16203",
+  "PowerToys#17493",
+  "PowerToys#18015",
+  "PowerToys#18021",
+  "PowerToys#18042",
+  "PowerToys#18047",
+  "PowerToys#18336",
+  "PowerToys#18452",
+  "PowerToys#18663",
+  "PowerToys#19090",
+  "PowerToys#19588",
+  "PowerToys#19761",
+  "PowerToys#20597",
+  "PowerToys#2087",
+  "PowerToys#21053",
+  "PowerToys#21168",
+  "PowerToys#2147",
+  "PowerToys#21773",
+  "PowerToys#21945",
+  "PowerToys#22213",
+  "PowerToys#22403",
+  "PowerToys#22618",
+  "PowerToys#22718",
+  "PowerToys#23310",
+  "PowerToys#25966",
+  "PowerToys#26320",
+  "PowerToys#26773",
+  "PowerToys#26991",
+  "PowerToys#283",
+  "PowerToys#2887",
+  "PowerToys#29454",
+  "PowerToys#30933",
+  "PowerToys#31233",
+  "PowerToys#32332",
+  "PowerToys#32341",
+  "PowerToys#32525",
+  "PowerToys#32547",
+  "PowerToys#32628",
+  "PowerToys#34453",
+  "PowerToys#3453",
+  "PowerToys#36188",
+  "PowerToys#36354",
+  "PowerToys#36637",
+  "PowerToys#39156",
+  "PowerToys#39504",
+  "PowerToys#39555",
+  "PowerToys#39562",
+  "PowerToys#39993",
+  "PowerToys#4163",
+  "PowerToys#41724",
+  "PowerToys#41850",
+  "PowerToys#43055",
+  "PowerToys#43546",
+  "PowerToys#4414",
+  "PowerToys#4473",
+  "PowerToys#44749",
+  "PowerToys#44998",
+  "PowerToys#47300",
+  "PowerToys#47319",
+  "PowerToys#47744",
+  "PowerToys#48034",
+  "PowerToys#4833",
+  "PowerToys#48382",
+  "PowerToys#5385",
+  "PowerToys#5397",
+  "PowerToys#5545",
+  "PowerToys#5570",
+  "PowerToys#6215",
+  "PowerToys#6216",
+  "PowerToys#6469",
+  "PowerToys#6577",
+  "PowerToys#6966",
+  "PowerToys#7320",
+  "PowerToys#7771",
+  "PowerToys#8045",
+  "PowerToys#8273",
+  "PowerToys#8312",
+  "PowerToys#8396",
+  "PowerToys#850",
+  "PowerToys#8761",
+  "PowerToys#8870",
+  "PowerToys#8954",
+  "PowerToys#9092",
+  "PowerToys#9678"
+ ],
+ "retrieval_seconds": 3.7922950260108337,
+ "tool_calls": [
+  {
+   "t": 1794879815.6644645,
+   "tool": "search",
+   "args": {
+    "pattern": "installation still",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.03714170499006286,
+   "returned": [
+    "PowerToys#2887"
+   ]
+  },
+  {
+   "t": 1794879819.086293,
+   "tool": "similar",
+   "args": {
+    "query": "Installation/upgrade fails with preview v0.101 bootstrapper msi log",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.4107575780071784,
+   "returned": [
+    "PowerToys#12486",
+    "PowerToys#9678",
+    "PowerToys#8273",
+    "PowerToys#6577",
+    "PowerToys#6215",
+    "PowerToys#1382",
+    "PowerToys#1383",
+    "PowerToys#6216",
+    "PowerToys#2147",
+    "PowerToys#6966",
+    "PowerToys#8045",
+    "PowerToys#39504",
+    "PowerToys#10324",
+    "PowerToys#4414",
+    "PowerToys#1454",
+    "PowerToys#11348",
+    "PowerToys#158",
+    "PowerToys#10122",
+    "PowerToys#7771",
+    "PowerToys#850"
+   ]
+  },
+  {
+   "t": 1794879821.2292767,
+   "tool": "search",
+   "args": {
+    "pattern": "0.101",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.038252534985076636,
+   "returned": [
+    "PowerToys#17493",
+    "PowerToys#15988",
+    "PowerToys#47300",
+    "PowerToys#43546",
+    "PowerToys#36354",
+    "PowerToys#36188",
+    "PowerToys#26320",
+    "PowerToys#48382",
+    "PowerToys#48034",
+    "PowerToys#47744",
+    "PowerToys#47319",
+    "PowerToys#44749",
+    "PowerToys#43055",
+    "PowerToys#39555",
+    "PowerToys#39156",
+    "PowerToys#34453",
+    "PowerToys#26991",
+    "PowerToys#23310",
+    "PowerToys#22718",
+    "PowerToys#22403"
+   ]
+  },
+  {
+   "t": 1794879821.3333375,
+   "tool": "search",
+   "args": {
+    "pattern": "installation issue",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07074217800982296,
+   "returned": [
+    "PowerToys#18021",
+    "PowerToys#5545",
+    "PowerToys#39562",
+    "PowerToys#26773",
+    "PowerToys#21773",
+    "PowerToys#21168",
+    "PowerToys#19761",
+    "PowerToys#18015",
+    "PowerToys#12219",
+    "PowerToys#8396",
+    "PowerToys#8312",
+    "PowerToys#5397"
+   ]
+  },
+  {
+   "t": 1794879823.669318,
+   "tool": "similar",
+   "args": {
+    "query": "Installation fails PowerToys 0.100 preview installer bootstrapper msi log upgrade failed",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.016384921997087076,
+   "returned": [
+    "PowerToys#10324",
+    "PowerToys#850",
+    "PowerToys#18452",
+    "PowerToys#11348",
+    "PowerToys#8045",
+    "PowerToys#2087",
+    "PowerToys#4833",
+    "PowerToys#19090",
+    "PowerToys#7771",
+    "PowerToys#6577",
+    "PowerToys#39504",
+    "PowerToys#8761",
+    "PowerToys#3453",
+    "PowerToys#41850",
+    "PowerToys#19588",
+    "PowerToys#4163",
+    "PowerToys#7320",
+    "PowerToys#6469",
+    "PowerToys#20597",
+    "PowerToys#6966"
+   ]
+  },
+  {
+   "t": 1794879825.922017,
+   "tool": "search",
+   "args": {
+    "pattern": "powertoys-bootstrapper-msi",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06489718702505343,
+   "returned": [
+    "PowerToys#36637",
+    "PowerToys#18021",
+    "PowerToys#22213",
+    "PowerToys#44998",
+    "PowerToys#32341",
+    "PowerToys#30933",
+    "PowerToys#18047",
+    "PowerToys#39993",
+    "PowerToys#29454",
+    "PowerToys#16203",
+    "PowerToys#41724",
+    "PowerToys#32628",
+    "PowerToys#32547",
+    "PowerToys#21945",
+    "PowerToys#21053",
+    "PowerToys#32525",
+    "PowerToys#32332",
+    "PowerToys#31233",
+    "PowerToys#25966",
+    "PowerToys#22618"
+   ]
+  },
+  {
+   "t": 1794879828.8275704,
+   "tool": "similar",
+   "args": {
+    "query": "PowerToys 0.100 installation upgrade fails installer error, 2026",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0200726909970399,
+   "returned": [
+    "PowerToys#4833",
+    "PowerToys#2087",
+    "PowerToys#10324",
+    "PowerToys#9092",
+    "PowerToys#8761",
+    "PowerToys#850",
+    "PowerToys#7320",
+    "PowerToys#5570",
+    "PowerToys#5545",
+    "PowerToys#5385",
+    "PowerToys#20597",
+    "PowerToys#18663",
+    "PowerToys#11348",
+    "PowerToys#283",
+    "PowerToys#8870",
+    "PowerToys#4163",
+    "PowerToys#4473",
+    "PowerToys#18042",
+    "PowerToys#8954",
+    "PowerToys#6469"
+   ]
+  },
+  {
+   "t": 1794879830.7306275,
+   "tool": "search",
+   "args": {
+    "pattern": "0.101.",
+    "regex": false,
+    "also": [
+     "install"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.13404622999951243,
+   "returned": [
+    "PowerToys#17493",
+    "PowerToys#43546",
+    "PowerToys#36354",
+    "PowerToys#36188",
+    "PowerToys#26320",
+    "PowerToys#43055",
+    "PowerToys#39555",
+    "PowerToys#34453",
+    "PowerToys#23310",
+    "PowerToys#18336"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 17649,
+  "stop_reason": "end_turn",
+  "session_id": "87286100-579d-472e-9e81-0ad7a729c408",
+  "total_cost_usd": 0.1012751,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 20022,
+   "cache_read_input_tokens": 63091,
+   "output_tokens": 1485,
+   "output_tokens_details": {
+    "thinking_tokens": 91
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 20022,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 300,
+     "cache_read_input_tokens": 19879,
+     "cache_creation_input_tokens": 1556,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1556
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1485,
+    "cacheReadInputTokens": 63091,
+    "cacheCreationInputTokens": 20022,
+    "webSearchRequests": 0,
+    "costUSD": 0.1012751,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 91,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 20022,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find an earlier ticket in the archive that reports this same failure. This ticket has no error text. The failure is only in the attached log and screenshot, and I can't open either one. The archive has many older installer failures, but I can't tell that any of them is the same problem, so I'm not citing them. Please add the failing step and error code from the bootstrapper log (powertoys-bootstrapper-msi-0.101.2211.0_*.log in %TEMP%). Please also add the matching per-package MSI log if there is one, and say whether this is a fresh install or an upgrade from an earlier version. Say which installer you used: per-user or machine-wide, x64 or ARM64. Then we can check it against known causes. In the meantime, close PowerToys fully and run the installer again. If that fails, uninstall the old version, or use the stable release instead of the preview.\"}",
+  "ttft_ms": 2144,
+  "type": "result",
+  "duration_ms": 21432,
+  "uuid": "6ce172ab-96ec-4fa2-a71f-80aff0f35e9c",
+  "ttft_stream_ms": 1249,
+  "time_to_request_ms": 27,
+  "first_content_frame_ms": 1249,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1485,
+    "cacheReadInputTokens": 63091,
+    "cacheCreationInputTokens": 20022,
+    "webSearchRequests": 0,
+    "costUSD": 0.1012751,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 91,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 20022,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 22.639681729022413,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ex05krv5/work"
+  }
+ },
+ "wall_seconds": 22.641640154994093,
+ "qid": "PowerToys#49800",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find an earlier ticket in the archive that reports this same failure. This ticket has no error text. The failure is only in the attached log and screenshot, and I can't open either one. The archive has many older installer failures, but I can't tell that any of them is the same problem, so I'm not citing them. Please add the failing step and error code from the bootstrapper log (powertoys-bootstrapper-msi-0.101.2211.0_*.log in %TEMP%). Please also add the matching per-package MSI log if there is one, and say whether this is a fresh install or an upgrade from an earlier version. Say which installer you used: per-user or machine-wide, x64 or ARM64. Then we can check it against known causes. In the meantime, close PowerToys fully and run the installer again. If that fails, uninstall the old version, or use the stable release instead of the preview."
+ },
+ "hit_turn_cap": false
+}

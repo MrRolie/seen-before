@@ -1,0 +1,322 @@
+{
+ "shown": [
+  "terminal#11032",
+  "terminal#12640",
+  "terminal#1375",
+  "terminal#18070",
+  "terminal#18851",
+  "terminal#20004",
+  "terminal#20245",
+  "terminal#3257",
+  "terminal#4992",
+  "terminal#6217",
+  "terminal#7596",
+  "terminal#8358"
+ ],
+ "retrieval_seconds": 0.2899356819689274,
+ "tool_calls": [
+  {
+   "t": 1794879464.749317,
+   "tool": "search",
+   "args": {
+    "pattern": "font face crash",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.015892972995061427,
+   "returned": []
+  },
+  {
+   "t": 1794879464.8056045,
+   "tool": "search",
+   "args": {
+    "pattern": "20004",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.04629587699309923,
+   "returned": [
+    "terminal#20004",
+    "terminal#18851",
+    "terminal#12640",
+    "terminal#7596"
+   ]
+  },
+  {
+   "t": 1794879464.9039824,
+   "tool": "search",
+   "args": {
+    "pattern": "font",
+    "regex": false,
+    "also": [
+     "crash",
+     "autosuggest"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.0852651100140065,
+   "returned": [
+    "terminal#20245",
+    "terminal#1375",
+    "terminal#6217"
+   ]
+  },
+  {
+   "t": 1794879466.3097756,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#20004"
+   },
+   "seconds": 0.00012273600441403687,
+   "returned": [
+    "terminal#20004"
+   ]
+  },
+  {
+   "t": 1794879466.473615,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#20245"
+   },
+   "seconds": 0.00015881599392741919,
+   "returned": [
+    "terminal#20245"
+   ]
+  },
+  {
+   "t": 1794879468.2212224,
+   "tool": "search",
+   "args": {
+    "pattern": "font face",
+    "regex": false,
+    "also": [
+     "crash",
+     "enter"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.06905254698358476,
+   "returned": [
+    "terminal#20245",
+    "terminal#3257",
+    "terminal#18070",
+    "terminal#11032",
+    "terminal#20004",
+    "terminal#8358",
+    "terminal#4992"
+   ]
+  },
+  {
+   "t": 1794879469.8073926,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18070"
+   },
+   "seconds": 0.00012779698590748012,
+   "returned": [
+    "terminal#18070"
+   ]
+  },
+  {
+   "t": 1794879471.6231005,
+   "tool": "search",
+   "args": {
+    "pattern": "PR #20255",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07301982599892654,
+   "returned": [
+    "terminal#20245"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 14957,
+  "stop_reason": "end_turn",
+  "session_id": "95080029-6565-4d5e-9481-37828b94903e",
+  "total_cost_usd": 0.0490718,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 8600,
+   "cache_read_input_tokens": 31978,
+   "output_tokens": 1145,
+   "output_tokens_details": {
+    "thinking_tokens": 162
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8600,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 541,
+     "cache_read_input_tokens": 9571,
+     "cache_creation_input_tokens": 206,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 206
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1145,
+    "cacheReadInputTokens": 31978,
+    "cacheCreationInputTokens": 8600,
+    "webSearchRequests": 0,
+    "costUSD": 0.0490718,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 162,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8600,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've found two past tickets that match, so I'm writing up the answer now.\n\n{\"seen_before\": true, \"matches\": [\"terminal#20004\", \"terminal#20245\"], \"answer\": \"This is a known crash. Choosing a font in the Font face box with the arrow keys and Enter crashes Terminal, and your change isn't saved. #20004 reports the same crash. It was seen on 1.23 and 1.24, and it is still open in the archive. #20245 reports it on 1.25. A contributor traced it to the font face AutoSuggestBox explicitly unfocusing after a keyboard-selected suggestion is committed. They opened PR #20255 to fix it. The archive doesn't show that PR being merged or released, so your build (1.25.1912.0) probably doesn't include it. Until a release includes the fix, pick the font from the dropdown with the mouse, which works. You can also type the full name, such as \\\"Berkeley Mono, Hack Nerd Font\\\", into the box and click away instead of pressing Enter. Or edit the profile's font face in settings.json directly. Add your Feedback Hub link and crash details to #20245 or #20004.\"}",
+  "ttft_ms": 2693,
+  "type": "result",
+  "duration_ms": 15333,
+  "uuid": "78b62546-26af-46ac-a71f-4b92a100da81",
+  "ttft_stream_ms": 1393,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 1395,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1145,
+    "cacheReadInputTokens": 31978,
+    "cacheCreationInputTokens": 8600,
+    "webSearchRequests": 0,
+    "costUSD": 0.0490718,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 162,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8600,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.531840852025198,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-pkmbc5cq/work"
+  }
+ },
+ "wall_seconds": 16.53341951701441,
+ "qid": "terminal#20504",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#20004",
+   "terminal#20245"
+  ],
+  "answer": "This is a known crash. Choosing a font in the Font face box with the arrow keys and Enter crashes Terminal, and your change isn't saved. #20004 reports the same crash. It was seen on 1.23 and 1.24, and it is still open in the archive. #20245 reports it on 1.25. A contributor traced it to the font face AutoSuggestBox explicitly unfocusing after a keyboard-selected suggestion is committed. They opened PR #20255 to fix it. The archive doesn't show that PR being merged or released, so your build (1.25.1912.0) probably doesn't include it. Until a release includes the fix, pick the font from the dropdown with the mouse, which works. You can also type the full name, such as \"Berkeley Mono, Hack Nerd Font\", into the box and click away instead of pressing Enter. Or edit the profile's font face in settings.json directly. Add your Feedback Hub link and crash details to #20245 or #20004."
+ },
+ "hit_turn_cap": false
+}

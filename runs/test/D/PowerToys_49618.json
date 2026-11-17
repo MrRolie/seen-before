@@ -1,0 +1,317 @@
+{
+ "shown": [
+  "PowerToys#31226",
+  "PowerToys#31313",
+  "PowerToys#32101",
+  "PowerToys#32530",
+  "PowerToys#32726",
+  "PowerToys#32812",
+  "PowerToys#33078",
+  "PowerToys#33172",
+  "PowerToys#36353",
+  "PowerToys#3921",
+  "PowerToys#41110",
+  "PowerToys#42589",
+  "PowerToys#42616",
+  "PowerToys#43032",
+  "PowerToys#43125",
+  "PowerToys#43425",
+  "PowerToys#43678",
+  "PowerToys#43857",
+  "PowerToys#43873",
+  "PowerToys#43911",
+  "PowerToys#44245",
+  "PowerToys#44319",
+  "PowerToys#44595",
+  "PowerToys#44663",
+  "PowerToys#45009",
+  "PowerToys#45214",
+  "PowerToys#45440",
+  "PowerToys#45563",
+  "PowerToys#45578",
+  "PowerToys#45908",
+  "PowerToys#47099",
+  "PowerToys#47723",
+  "PowerToys#48237",
+  "PowerToys#48285",
+  "PowerToys#48289",
+  "PowerToys#48357",
+  "PowerToys#48545"
+ ],
+ "retrieval_seconds": 3.551272438984597,
+ "tool_calls": [
+  {
+   "t": 1794879148.9501903,
+   "tool": "search",
+   "args": {
+    "pattern": "desktop composition is disabled",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0584532719803974,
+   "returned": [
+    "PowerToys#31226",
+    "PowerToys#41110",
+    "PowerToys#48357",
+    "PowerToys#45908",
+    "PowerToys#36353",
+    "PowerToys#33172",
+    "PowerToys#33078",
+    "PowerToys#32530",
+    "PowerToys#45578",
+    "PowerToys#43425",
+    "PowerToys#42616",
+    "PowerToys#42589",
+    "PowerToys#32812",
+    "PowerToys#32101",
+    "PowerToys#48545",
+    "PowerToys#48289",
+    "PowerToys#48285",
+    "PowerToys#48237",
+    "PowerToys#45563",
+    "PowerToys#45214"
+   ]
+  },
+  {
+   "t": 1794879152.4543908,
+   "tool": "similar",
+   "args": {
+    "query": "screens went black DwmExtendFrameIntoClientArea 0x80263001 desktop composition disabled",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.492202544992324,
+   "returned": [
+    "PowerToys#43125",
+    "PowerToys#43911",
+    "PowerToys#44663",
+    "PowerToys#43678",
+    "PowerToys#36353",
+    "PowerToys#43032",
+    "PowerToys#31313",
+    "PowerToys#32530",
+    "PowerToys#47099",
+    "PowerToys#44319",
+    "PowerToys#45908",
+    "PowerToys#43873",
+    "PowerToys#47723",
+    "PowerToys#45440",
+    "PowerToys#44245",
+    "PowerToys#32726",
+    "PowerToys#45009",
+    "PowerToys#43857",
+    "PowerToys#3921",
+    "PowerToys#44595"
+   ]
+  },
+  {
+   "t": 1794879154.1671803,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#31226"
+   },
+   "seconds": 0.0005092950013931841,
+   "returned": [
+    "PowerToys#31226"
+   ]
+  },
+  {
+   "t": 1794879154.3094764,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44319"
+   },
+   "seconds": 0.00010732701048254967,
+   "returned": [
+    "PowerToys#44319"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7757,
+  "stop_reason": "end_turn",
+  "session_id": "44ea16ed-22be-4c60-9bb7-c252102bef9a",
+  "total_cost_usd": 0.05919050000000001,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 12876,
+   "cache_read_input_tokens": 13545,
+   "output_tokens": 632,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12876,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 299,
+     "cache_read_input_tokens": 9531,
+     "cache_creation_input_tokens": 4758,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4758
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 632,
+    "cacheReadInputTokens": 13545,
+    "cacheCreationInputTokens": 12876,
+    "webSearchRequests": 0,
+    "costUSD": 0.05919050000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12876,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "```json\n{\"seen_before\": true, \"matches\": [\"PowerToys#31226\", \"PowerToys#44319\", \"PowerToys#32530\"], \"answer\": \"This crash has been reported before. Windows raised the 'Desktop composition is disabled' error (0x80263001) while the screens went black. PowerToys then crashed when it tried to redraw its window frame. The main ticket is #31226, and the others were closed as duplicates of it. The underlying cause varies from machine to machine. It is often a graphics driver problem or running out of memory, so it is not a PowerToys bug alone. The recommended fix is to update PowerToys to 0.96 or newer, because newer versions of PowerToys Run handle this failure more gracefully. You are on 0.86.0. Also update your graphics card drivers and Windows. If the black screens keep happening after that, the cause is probably the GPU driver or the hardware.\"}\n```",
+  "ttft_ms": 2490,
+  "type": "result",
+  "duration_ms": 11365,
+  "uuid": "09ad4fa3-cced-481b-8ec4-435cf0a5615f",
+  "ttft_stream_ms": 1519,
+  "time_to_request_ms": 27,
+  "first_content_frame_ms": 1520,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 632,
+    "cacheReadInputTokens": 13545,
+    "cacheCreationInputTokens": 12876,
+    "webSearchRequests": 0,
+    "costUSD": 0.05919050000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12876,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.864508935017511,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-78z8iq5f/work"
+  }
+ },
+ "wall_seconds": 12.866168556996854,
+ "qid": "PowerToys#49618",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#31226",
+   "PowerToys#44319",
+   "PowerToys#32530"
+  ],
+  "answer": "This crash has been reported before. Windows raised the 'Desktop composition is disabled' error (0x80263001) while the screens went black. PowerToys then crashed when it tried to redraw its window frame. The main ticket is #31226, and the others were closed as duplicates of it. The underlying cause varies from machine to machine. It is often a graphics driver problem or running out of memory, so it is not a PowerToys bug alone. The recommended fix is to update PowerToys to 0.96 or newer, because newer versions of PowerToys Run handle this failure more gracefully. You are on 0.86.0. Also update your graphics card drivers and Windows. If the black screens keep happening after that, the cause is probably the GPU driver or the hardware."
+ },
+ "hit_turn_cap": false
+}

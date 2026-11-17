@@ -1,0 +1,333 @@
+{
+ "shown": [
+  "terminal#1022",
+  "terminal#11037",
+  "terminal#11354",
+  "terminal#11614",
+  "terminal#1188",
+  "terminal#1198",
+  "terminal#1339",
+  "terminal#13498",
+  "terminal#13599",
+  "terminal#14259",
+  "terminal#15216",
+  "terminal#15271",
+  "terminal#15303",
+  "terminal#15689",
+  "terminal#16129",
+  "terminal#1675",
+  "terminal#16995",
+  "terminal#17075",
+  "terminal#17076",
+  "terminal#17089",
+  "terminal#17246",
+  "terminal#17793",
+  "terminal#17847",
+  "terminal#2537",
+  "terminal#2947",
+  "terminal#3376",
+  "terminal#3435",
+  "terminal#4270",
+  "terminal#4482",
+  "terminal#4785",
+  "terminal#5738",
+  "terminal#6201",
+  "terminal#6446",
+  "terminal#760",
+  "terminal#7804",
+  "terminal#8683",
+  "terminal#9021",
+  "terminal#9910"
+ ],
+ "retrieval_seconds": 3.7637696879683062,
+ "tool_calls": [
+  {
+   "t": 1794876058.7523072,
+   "tool": "search",
+   "args": {
+    "query": "crash 0xc0000005 Microsoft.Terminal.Control.dll drag tab to another window merge",
+    "repo": "terminal"
+   },
+   "seconds": 3.7337865459849127,
+   "returned": [
+    "terminal#17076",
+    "terminal#3435",
+    "terminal#9021",
+    "terminal#7804",
+    "terminal#11354",
+    "terminal#15271",
+    "terminal#11037",
+    "terminal#4482",
+    "terminal#15303",
+    "terminal#2537",
+    "terminal#17847",
+    "terminal#2947",
+    "terminal#1198",
+    "terminal#17089",
+    "terminal#3376",
+    "terminal#1188",
+    "terminal#16995",
+    "terminal#17075",
+    "terminal#9910",
+    "terminal#11614"
+   ]
+  },
+  {
+   "t": 1794876058.7668488,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#17246"
+   },
+   "seconds": 0.0002576140104793012,
+   "returned": [
+    "terminal#17246"
+   ]
+  },
+  {
+   "t": 1794876061.0987911,
+   "tool": "search",
+   "args": {
+    "query": "merge tab into another window crashes all windows, access violation TermControl OnCreateAutomationPeer",
+    "repo": "terminal"
+   },
+   "seconds": 0.013491182995494455,
+   "returned": [
+    "terminal#4482",
+    "terminal#11037",
+    "terminal#9021",
+    "terminal#1339",
+    "terminal#17076",
+    "terminal#5738",
+    "terminal#2947",
+    "terminal#17793",
+    "terminal#13599",
+    "terminal#14259",
+    "terminal#17075",
+    "terminal#1675",
+    "terminal#15271",
+    "terminal#1188",
+    "terminal#15303",
+    "terminal#6446",
+    "terminal#760",
+    "terminal#1022",
+    "terminal#11354",
+    "terminal#1198"
+   ]
+  },
+  {
+   "t": 1794876061.1714678,
+   "tool": "search",
+   "args": {
+    "query": "drag tab drop onto another window WindowsTerminal.exe crash 1.24",
+    "repo": "terminal"
+   },
+   "seconds": 0.016234344977419823,
+   "returned": [
+    "terminal#15271",
+    "terminal#15303",
+    "terminal#4482",
+    "terminal#3435",
+    "terminal#11037",
+    "terminal#7804",
+    "terminal#16129",
+    "terminal#8683",
+    "terminal#4270",
+    "terminal#17076",
+    "terminal#9021",
+    "terminal#5738",
+    "terminal#6201",
+    "terminal#17847",
+    "terminal#15689",
+    "terminal#15216",
+    "terminal#13498",
+    "terminal#1188",
+    "terminal#4785",
+    "terminal#11354"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9710,
+  "stop_reason": "end_turn",
+  "session_id": "a43aa9e5-f4dd-412e-b405-53975eec71d2",
+  "total_cost_usd": 0.0487265,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 9517,
+   "cache_read_input_tokens": 11265,
+   "output_tokens": 952,
+   "output_tokens_details": {
+    "thinking_tokens": 93
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9517,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 549,
+     "cache_read_input_tokens": 7818,
+     "cache_creation_input_tokens": 2732,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2732
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 952,
+    "cacheReadInputTokens": 11265,
+    "cacheCreationInputTokens": 9517,
+    "webSearchRequests": 0,
+    "costUSD": 0.0487265,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 93,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9517,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#17246\"], \"answer\": \"This looks like the crash reported in terminal#17246. Merging a tab into another window crashes WindowsTerminal.exe with 0xc0000005 in Microsoft.Terminal.Control.dll, and every window dies because they share one process. In that ticket, a maintainer-side analysis found that when a tab is torn off or closed, XAML calls OnCreateAutomationPeer on a TermControl that is detached and has no _interactivity. That causes a null-pointer dereference. The ticket also shows a second access violation inside Windows.UI.Xaml (DXamlCore::EnsureDragDrop). The archive doesn't show a confirmed fix. Your report suggests the problem still happens on 1.24.2605.12001 even though #17246 is closed. I'd suggest three things. (1) Add your event-log signature (fault offset 0x2c924, 1.24.2605.12001) to #17246, or open a new issue that links it, and say that it reproduces on 1.24. (2) Until it's fixed, avoid drag-merging tabs between windows. Use the move-tab or move-pane actions, or keep the work in one window. (3) Keep the crash dump and share it through a private channel with the maintainers, since it contains scrollback. The RADAR_PRE_LEAK warning and the large scrollback buffers aren't mentioned in #17246, so note them as extra detail.\"}",
+  "ttft_ms": 2114,
+  "type": "result",
+  "duration_ms": 13533,
+  "uuid": "5952c926-d136-4aa7-8fa5-dd2adbafdb00",
+  "ttft_stream_ms": 1290,
+  "time_to_request_ms": 39,
+  "first_content_frame_ms": 1290,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 952,
+    "cacheReadInputTokens": 11265,
+    "cacheCreationInputTokens": 9517,
+    "webSearchRequests": 0,
+    "costUSD": 0.0487265,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 93,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9517,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.924776753992774,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-h_ttrd13/work"
+  }
+ },
+ "wall_seconds": 14.926420372008579,
+ "qid": "terminal#20406",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#17246"
+  ],
+  "answer": "This looks like the crash reported in terminal#17246. Merging a tab into another window crashes WindowsTerminal.exe with 0xc0000005 in Microsoft.Terminal.Control.dll, and every window dies because they share one process. In that ticket, a maintainer-side analysis found that when a tab is torn off or closed, XAML calls OnCreateAutomationPeer on a TermControl that is detached and has no _interactivity. That causes a null-pointer dereference. The ticket also shows a second access violation inside Windows.UI.Xaml (DXamlCore::EnsureDragDrop). The archive doesn't show a confirmed fix. Your report suggests the problem still happens on 1.24.2605.12001 even though #17246 is closed. I'd suggest three things. (1) Add your event-log signature (fault offset 0x2c924, 1.24.2605.12001) to #17246, or open a new issue that links it, and say that it reproduces on 1.24. (2) Until it's fixed, avoid drag-merging tabs between windows. Use the move-tab or move-pane actions, or keep the work in one window. (3) Keep the crash dump and share it through a private channel with the maintainers, since it contains scrollback. The RADAR_PRE_LEAK warning and the large scrollback buffers aren't mentioned in #17246, so note them as extra detail."
+ },
+ "hit_turn_cap": false
+}

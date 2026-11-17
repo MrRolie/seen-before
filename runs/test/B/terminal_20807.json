@@ -1,0 +1,342 @@
+{
+ "shown": [
+  "terminal#10226",
+  "terminal#11444",
+  "terminal#11867",
+  "terminal#12395",
+  "terminal#13446",
+  "terminal#13741",
+  "terminal#1375",
+  "terminal#13842",
+  "terminal#14589",
+  "terminal#14968",
+  "terminal#15036",
+  "terminal#15057",
+  "terminal#15113",
+  "terminal#17744",
+  "terminal#17831",
+  "terminal#18148",
+  "terminal#18293",
+  "terminal#18582",
+  "terminal#1860",
+  "terminal#18880",
+  "terminal#18937",
+  "terminal#20086",
+  "terminal#20342",
+  "terminal#281",
+  "terminal#3454",
+  "terminal#3878",
+  "terminal#5868",
+  "terminal#6565",
+  "terminal#8657",
+  "terminal#8764",
+  "terminal#8894",
+  "terminal#9218",
+  "terminal#9346",
+  "terminal#9751",
+  "terminal#9955"
+ ],
+ "retrieval_seconds": 0.10860393094480969,
+ "tool_calls": [
+  {
+   "t": 1794884211.3347032,
+   "tool": "search",
+   "args": {
+    "pattern": "scrollbar",
+    "regex": false,
+    "also": [
+     "width"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.052912152983481064,
+   "returned": [
+    "terminal#1860",
+    "terminal#9218",
+    "terminal#3878",
+    "terminal#18937",
+    "terminal#10226",
+    "terminal#1375",
+    "terminal#18582",
+    "terminal#15057",
+    "terminal#14968",
+    "terminal#8894",
+    "terminal#18880",
+    "terminal#15113",
+    "terminal#13446",
+    "terminal#11444",
+    "terminal#9955",
+    "terminal#18293",
+    "terminal#13842",
+    "terminal#12395",
+    "terminal#281",
+    "terminal#20342"
+   ]
+  },
+  {
+   "t": 1794884211.4014425,
+   "tool": "search",
+   "args": {
+    "pattern": "scroll bar",
+    "regex": false,
+    "also": [
+     "always"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.054917028988711536,
+   "returned": [
+    "terminal#1860",
+    "terminal#3454",
+    "terminal#3878",
+    "terminal#15057",
+    "terminal#6565",
+    "terminal#5868",
+    "terminal#15036",
+    "terminal#14589",
+    "terminal#12395",
+    "terminal#11867",
+    "terminal#18148",
+    "terminal#14968",
+    "terminal#9346",
+    "terminal#8764",
+    "terminal#20086",
+    "terminal#17831",
+    "terminal#17744",
+    "terminal#13741",
+    "terminal#9751",
+    "terminal#8657"
+   ]
+  },
+  {
+   "t": 1794884211.4180439,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18937"
+   },
+   "seconds": 0.0002563829766586423,
+   "returned": [
+    "terminal#18937"
+   ]
+  },
+  {
+   "t": 1794884213.0567858,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#9218"
+   },
+   "seconds": 0.00023114398936741054,
+   "returned": [
+    "terminal#9218"
+   ]
+  },
+  {
+   "t": 1794884213.1853693,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#6565"
+   },
+   "seconds": 0.00015755501226522028,
+   "returned": [
+    "terminal#6565"
+   ]
+  },
+  {
+   "t": 1794884213.3202329,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#14589"
+   },
+   "seconds": 0.00012966699432581663,
+   "returned": [
+    "terminal#14589"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9558,
+  "stop_reason": "end_turn",
+  "session_id": "fda79155-cb83-4242-ba58-d68b6b6effa3",
+  "total_cost_usd": 0.07262450000000001,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 15193,
+   "cache_read_input_tokens": 14005,
+   "output_tokens": 1044,
+   "output_tokens_details": {
+    "thinking_tokens": 137
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 15193,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 582,
+     "cache_read_input_tokens": 10956,
+     "cache_creation_input_tokens": 5414,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5414
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 1044,
+    "cacheReadInputTokens": 14005,
+    "cacheCreationInputTokens": 15193,
+    "webSearchRequests": 0,
+    "costUSD": 0.07262450000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 137,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15193,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#9218\", \"terminal#18937\", \"terminal#3454\"], \"answer\": \"Both requests have been made before, and the Terminal team has declined the width one. Terminal#9218 and #18937 asked for a configurable scrollbar width. The maintainers said they would rather not add a Terminal-only setting that makes it differ from Windows, and neither request was implemented. Terminal#3454 and #12395 cover the scrollbar being too narrow to grab and are the closest places to add your accessibility case. Terminal#3454 also says the Terminal can't easily keep the scrollbar expanded unless it re-templates the control.\\n\\nFor keeping the scrollbar always visible, terminal#14589 says a scrollbar visibility option of \\\"Always\\\" was added in Terminal 1.17. Set it under Settings > [Profile or Defaults] > Appearance > Scrollbar visibility. If you only see Visible and Hidden, update Terminal. A related ticket (#9346) says the Windows setting 'Automatically hide scroll bars in Windows' (under Accessibility > Visual effects) also affects Terminal's scrollbar, and Terminal may need a restart to pick up a change. I did not find a ticket confirming that this keeps the bar expanded at full width. You can comment on #9218 or #3454 to explain the accessibility need and ask for a wider bar.\"}",
+  "ttft_ms": 2335,
+  "type": "result",
+  "duration_ms": 9761,
+  "uuid": "ed5b9bc8-82d1-4c7c-a812-69c69755bc25",
+  "ttft_stream_ms": 1208,
+  "time_to_request_ms": 42,
+  "first_content_frame_ms": 1208,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 1044,
+    "cacheReadInputTokens": 14005,
+    "cacheCreationInputTokens": 15193,
+    "webSearchRequests": 0,
+    "costUSD": 0.07262450000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 137,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15193,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.484709711017786,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-2nn52k1m/work"
+  }
+ },
+ "wall_seconds": 11.486653628991917,
+ "qid": "terminal#20807",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#9218",
+   "terminal#18937",
+   "terminal#3454"
+  ],
+  "answer": "Both requests have been made before, and the Terminal team has declined the width one. Terminal#9218 and #18937 asked for a configurable scrollbar width. The maintainers said they would rather not add a Terminal-only setting that makes it differ from Windows, and neither request was implemented. Terminal#3454 and #12395 cover the scrollbar being too narrow to grab and are the closest places to add your accessibility case. Terminal#3454 also says the Terminal can't easily keep the scrollbar expanded unless it re-templates the control.\n\nFor keeping the scrollbar always visible, terminal#14589 says a scrollbar visibility option of \"Always\" was added in Terminal 1.17. Set it under Settings > [Profile or Defaults] > Appearance > Scrollbar visibility. If you only see Visible and Hidden, update Terminal. A related ticket (#9346) says the Windows setting 'Automatically hide scroll bars in Windows' (under Accessibility > Visual effects) also affects Terminal's scrollbar, and Terminal may need a restart to pick up a change. I did not find a ticket confirming that this keeps the bar expanded at full width. You can comment on #9218 or #3454 to explain the accessibility need and ask for a wider bar."
+ },
+ "hit_turn_cap": false
+}

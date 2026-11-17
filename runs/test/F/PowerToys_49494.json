@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#48097",
+  "PowerToys#45926",
+  "PowerToys#42217",
+  "PowerToys#44991",
+  "PowerToys#42256"
+ ],
+ "retrieval_seconds": 0.45013901402126066,
+ "retrieval_scores": [
+  0.029571646010002173,
+  0.029418126757516764,
+  0.029083245521601686,
+  0.028782894736842105,
+  0.028438886647841874
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3954,
+  "stop_reason": "end_turn",
+  "session_id": "b84faafe-7798-4711-bae8-171c9ff9bc6b",
+  "total_cost_usd": 0.07446799999999999,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 17841,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 310,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 17841,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 310,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 17841,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 17841
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 310,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 17841,
+    "webSearchRequests": 0,
+    "costUSD": 0.07446799999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 17841,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#45926\", \"PowerToys#44991\", \"PowerToys#42256\"], \"answer\": \"This exact crash (NullReferenceException in BindingExpression.SetupDefaultValueConverter, thrown from ThemeManager.OnSystemThemeChanged while WPF reapplies theme resources) has been reported several times before, across versions 0.94 to 0.97 and others. Each of those tickets was closed as a duplicate of the original issue #37859, so that is the issue to follow for updates. The tickets show no fix or workaround. The error is a 'Something went wrong' dialog that appears when the system theme changes (for example, light/dark switching or the display or theme settings being updated). You can dismiss the dialog and restart PowerToys if it stopped working. Add your report details, such as the log file from the PowerToys logs folder, to #37859 if you want to help the team investigate.\"}",
+  "ttft_ms": 4122,
+  "type": "result",
+  "duration_ms": 4141,
+  "uuid": "9503da35-da23-477f-9f88-a57915b663d3",
+  "ttft_stream_ms": 1545,
+  "time_to_request_ms": 183,
+  "first_content_frame_ms": 1545,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 310,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 17841,
+    "webSearchRequests": 0,
+    "costUSD": 0.07446799999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 17841,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 5.0525109299924225,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-tv6ix8qa/work"
+  }
+ },
+ "wall_seconds": 5.505487851012731,
+ "qid": "PowerToys#49494",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#45926",
+   "PowerToys#44991",
+   "PowerToys#42256"
+  ],
+  "answer": "This exact crash (NullReferenceException in BindingExpression.SetupDefaultValueConverter, thrown from ThemeManager.OnSystemThemeChanged while WPF reapplies theme resources) has been reported several times before, across versions 0.94 to 0.97 and others. Each of those tickets was closed as a duplicate of the original issue #37859, so that is the issue to follow for updates. The tickets show no fix or workaround. The error is a 'Something went wrong' dialog that appears when the system theme changes (for example, light/dark switching or the display or theme settings being updated). You can dismiss the dialog and restart PowerToys if it stopped working. Add your report details, such as the log file from the PowerToys logs folder, to #37859 if you want to help the team investigate."
+ },
+ "hit_turn_cap": false
+}

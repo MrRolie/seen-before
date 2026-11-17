@@ -1,0 +1,348 @@
+{
+ "shown": [
+  "PowerToys#15003",
+  "PowerToys#16404",
+  "PowerToys#18383",
+  "PowerToys#18637",
+  "PowerToys#21031",
+  "PowerToys#29283",
+  "PowerToys#3407",
+  "PowerToys#45823",
+  "PowerToys#46097",
+  "PowerToys#46216",
+  "PowerToys#46286",
+  "PowerToys#46321",
+  "PowerToys#46360",
+  "PowerToys#46555",
+  "PowerToys#46607",
+  "PowerToys#46791",
+  "PowerToys#46882",
+  "PowerToys#46976",
+  "PowerToys#47108",
+  "PowerToys#47275",
+  "PowerToys#47443",
+  "PowerToys#47471",
+  "PowerToys#47526",
+  "PowerToys#47545",
+  "PowerToys#47704",
+  "PowerToys#47821",
+  "PowerToys#48014",
+  "PowerToys#48597",
+  "PowerToys#48677",
+  "PowerToys#48680",
+  "PowerToys#48802",
+  "PowerToys#48833",
+  "PowerToys#48834",
+  "PowerToys#48934",
+  "PowerToys#828"
+ ],
+ "retrieval_seconds": 3.512077864987077,
+ "tool_calls": [
+  {
+   "t": 1794879662.9546633,
+   "tool": "search",
+   "args": {
+    "pattern": "dock",
+    "regex": false,
+    "also": [
+     "???"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07860925898421556,
+   "returned": [
+    "PowerToys#46360",
+    "PowerToys#48834",
+    "PowerToys#46555",
+    "PowerToys#48680",
+    "PowerToys#46216",
+    "PowerToys#47545",
+    "PowerToys#47275",
+    "PowerToys#21031",
+    "PowerToys#47526",
+    "PowerToys#15003",
+    "PowerToys#48833",
+    "PowerToys#47821",
+    "PowerToys#46286",
+    "PowerToys#29283",
+    "PowerToys#18637",
+    "PowerToys#18383",
+    "PowerToys#16404",
+    "PowerToys#3407"
+   ]
+  },
+  {
+   "t": 1794879666.39985,
+   "tool": "similar",
+   "args": {
+    "query": "Command Palette dock performance widget shows ??? for CPU GPU RAM, no network send receive data",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.432842392998282,
+   "returned": [
+    "PowerToys#48833",
+    "PowerToys#46976",
+    "PowerToys#48934",
+    "PowerToys#48802",
+    "PowerToys#47108",
+    "PowerToys#46286",
+    "PowerToys#46882",
+    "PowerToys#48597",
+    "PowerToys#46791",
+    "PowerToys#46607",
+    "PowerToys#47471",
+    "PowerToys#45823",
+    "PowerToys#47443",
+    "PowerToys#48677",
+    "PowerToys#48014",
+    "PowerToys#828",
+    "PowerToys#46321",
+    "PowerToys#48680",
+    "PowerToys#47704",
+    "PowerToys#46097"
+   ]
+  },
+  {
+   "t": 1794879668.284821,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46286"
+   },
+   "seconds": 0.00014731602277606726,
+   "returned": [
+    "PowerToys#46286"
+   ]
+  },
+  {
+   "t": 1794879668.2905886,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47275"
+   },
+   "seconds": 0.0001024570083245635,
+   "returned": [
+    "PowerToys#47275"
+   ]
+  },
+  {
+   "t": 1794879668.4275181,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48680"
+   },
+   "seconds": 0.00012248699204064906,
+   "returned": [
+    "PowerToys#48680"
+   ]
+  },
+  {
+   "t": 1794879670.000176,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46216"
+   },
+   "seconds": 0.00010825699428096414,
+   "returned": [
+    "PowerToys#46216"
+   ]
+  },
+  {
+   "t": 1794879670.1416507,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48833"
+   },
+   "seconds": 0.00014569598715752363,
+   "returned": [
+    "PowerToys#48833"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11627,
+  "stop_reason": "end_turn",
+  "session_id": "6df784c6-edef-44e8-aad3-eb77ded6135a",
+  "total_cost_usd": 0.057612800000000006,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 11266,
+   "cache_read_input_tokens": 31388,
+   "output_tokens": 939,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11266,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 381,
+     "cache_read_input_tokens": 12596,
+     "cache_creation_input_tokens": 83,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 83
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 939,
+    "cacheReadInputTokens": 31388,
+    "cacheCreationInputTokens": 11266,
+    "webSearchRequests": 0,
+    "costUSD": 0.057612800000000006,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11266,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46216\", \"PowerToys#48680\", \"PowerToys#47275\"], \"answer\": \"This has been reported before. The Command Palette dock's performance monitor shows ??? for CPU, GPU and RAM, and it shows no network data. PowerToys#46216 is the main tracking ticket. A commenter there said clicking each widget once cleared it, and the problem didn't come back after a restart. Others said that didn't work for them. Another commenter reported the same thing on 0.100.2, your version, so it isn't fixed yet. Here is what you can try. First, click each ??? widget in the dock. Then restart PowerToys, or turn the dock off and on again. If you run PowerToys as administrator or at startup, PowerToys#48680 describes ??? persisting after a restart. That ticket is also still open, and I found no fix in the archive. Please add your bug report ZIP to PowerToys#46216 or PowerToys#48680. Related tickets: PowerToys#47275 (flyout shows no data and a crash) and PowerToys#48833 (closed as a duplicate of #48680).\"}",
+  "ttft_ms": 2648,
+  "type": "result",
+  "duration_ms": 15209,
+  "uuid": "e7c5cec8-2bb6-47a5-8b23-7d890420ce4f",
+  "ttft_stream_ms": 1380,
+  "time_to_request_ms": 28,
+  "first_content_frame_ms": 1381,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 939,
+    "cacheReadInputTokens": 31388,
+    "cacheCreationInputTokens": 11266,
+    "webSearchRequests": 0,
+    "costUSD": 0.057612800000000006,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11266,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.381135818985058,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-txon0tf2/work"
+  }
+ },
+ "wall_seconds": 16.38315783298458,
+ "qid": "PowerToys#49771",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46216",
+   "PowerToys#48680",
+   "PowerToys#47275"
+  ],
+  "answer": "This has been reported before. The Command Palette dock's performance monitor shows ??? for CPU, GPU and RAM, and it shows no network data. PowerToys#46216 is the main tracking ticket. A commenter there said clicking each widget once cleared it, and the problem didn't come back after a restart. Others said that didn't work for them. Another commenter reported the same thing on 0.100.2, your version, so it isn't fixed yet. Here is what you can try. First, click each ??? widget in the dock. Then restart PowerToys, or turn the dock off and on again. If you run PowerToys as administrator or at startup, PowerToys#48680 describes ??? persisting after a restart. That ticket is also still open, and I found no fix in the archive. Please add your bug report ZIP to PowerToys#46216 or PowerToys#48680. Related tickets: PowerToys#47275 (flyout shows no data and a crash) and PowerToys#48833 (closed as a duplicate of #48680)."
+ },
+ "hit_turn_cap": false
+}

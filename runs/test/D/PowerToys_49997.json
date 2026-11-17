@@ -1,0 +1,414 @@
+{
+ "shown": [
+  "PowerToys#10099",
+  "PowerToys#10867",
+  "PowerToys#10979",
+  "PowerToys#11811",
+  "PowerToys#11996",
+  "PowerToys#12532",
+  "PowerToys#14097",
+  "PowerToys#14228",
+  "PowerToys#14880",
+  "PowerToys#1527",
+  "PowerToys#1630",
+  "PowerToys#1652",
+  "PowerToys#16563",
+  "PowerToys#1674",
+  "PowerToys#1833",
+  "PowerToys#18431",
+  "PowerToys#19277",
+  "PowerToys#19812",
+  "PowerToys#2044",
+  "PowerToys#20578",
+  "PowerToys#21561",
+  "PowerToys#22532",
+  "PowerToys#2260",
+  "PowerToys#23514",
+  "PowerToys#2417",
+  "PowerToys#2516",
+  "PowerToys#26726",
+  "PowerToys#2686",
+  "PowerToys#2733",
+  "PowerToys#28099",
+  "PowerToys#2938",
+  "PowerToys#3202",
+  "PowerToys#3485",
+  "PowerToys#37298",
+  "PowerToys#38530",
+  "PowerToys#39367",
+  "PowerToys#40004",
+  "PowerToys#41653",
+  "PowerToys#5008",
+  "PowerToys#5233",
+  "PowerToys#5437",
+  "PowerToys#5602",
+  "PowerToys#5857",
+  "PowerToys#6491",
+  "PowerToys#888",
+  "PowerToys#9727"
+ ],
+ "retrieval_seconds": 3.373912947019562,
+ "tool_calls": [
+  {
+   "t": 1794880621.5620763,
+   "tool": "search",
+   "args": {
+    "pattern": "SVG",
+    "regex": false,
+    "also": [
+     "dark"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10322032601106912,
+   "returned": [
+    "PowerToys#2516",
+    "PowerToys#19277",
+    "PowerToys#39367",
+    "PowerToys#19812",
+    "PowerToys#41653",
+    "PowerToys#20578",
+    "PowerToys#18431",
+    "PowerToys#9727",
+    "PowerToys#2938",
+    "PowerToys#2686",
+    "PowerToys#14228",
+    "PowerToys#10979",
+    "PowerToys#5437",
+    "PowerToys#40004",
+    "PowerToys#38530",
+    "PowerToys#21561",
+    "PowerToys#16563",
+    "PowerToys#11811",
+    "PowerToys#888",
+    "PowerToys#11996"
+   ]
+  },
+  {
+   "t": 1794880624.9373784,
+   "tool": "similar",
+   "args": {
+    "query": "SVG preview background color does not switch when changing Windows theme dark/light mode",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.0984684159921017,
+   "returned": [
+    "PowerToys#2516",
+    "PowerToys#20578",
+    "PowerToys#3485",
+    "PowerToys#5437",
+    "PowerToys#28099",
+    "PowerToys#19812",
+    "PowerToys#2044",
+    "PowerToys#10867",
+    "PowerToys#2733",
+    "PowerToys#3202",
+    "PowerToys#12532",
+    "PowerToys#1833",
+    "PowerToys#16563",
+    "PowerToys#5233",
+    "PowerToys#11811",
+    "PowerToys#5008",
+    "PowerToys#1674",
+    "PowerToys#37298",
+    "PowerToys#6491",
+    "PowerToys#21561"
+   ]
+  },
+  {
+   "t": 1794880625.9567401,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37298"
+   },
+   "seconds": 0.00010518700582906604,
+   "returned": [
+    "PowerToys#37298"
+   ]
+  },
+  {
+   "t": 1794880626.1322682,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#10867"
+   },
+   "seconds": 0.00015966600039973855,
+   "returned": [
+    "PowerToys#10867"
+   ]
+  },
+  {
+   "t": 1794880626.9185987,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1833"
+   },
+   "seconds": 0.00012401700951159,
+   "returned": [
+    "PowerToys#1833"
+   ]
+  },
+  {
+   "t": 1794880628.192718,
+   "tool": "search",
+   "args": {
+    "pattern": "preview pane",
+    "regex": false,
+    "also": [
+     "theme",
+     "svg"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.15747294900938869,
+   "returned": [
+    "PowerToys#26726",
+    "PowerToys#1527",
+    "PowerToys#19277",
+    "PowerToys#37298",
+    "PowerToys#23514",
+    "PowerToys#2516",
+    "PowerToys#14228",
+    "PowerToys#14097"
+   ]
+  },
+  {
+   "t": 1794880628.9505403,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37298"
+   },
+   "seconds": 0.00010120699880644679,
+   "returned": [
+    "PowerToys#37298"
+   ]
+  },
+  {
+   "t": 1794880630.034363,
+   "tool": "similar",
+   "args": {
+    "query": "SVG preview keeps dark background after switching Windows to light mode, needs restart of Explorer",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014129713003057986,
+   "returned": [
+    "PowerToys#2516",
+    "PowerToys#1652",
+    "PowerToys#2044",
+    "PowerToys#5437",
+    "PowerToys#2938",
+    "PowerToys#1630",
+    "PowerToys#5008",
+    "PowerToys#12532",
+    "PowerToys#10867",
+    "PowerToys#11811",
+    "PowerToys#10099",
+    "PowerToys#5857",
+    "PowerToys#5602",
+    "PowerToys#2260",
+    "PowerToys#3202",
+    "PowerToys#3485",
+    "PowerToys#1674",
+    "PowerToys#22532",
+    "PowerToys#14880",
+    "PowerToys#2417"
+   ]
+  },
+  {
+   "t": 1794880630.7906284,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#5857"
+   },
+   "seconds": 0.0001314659893978387,
+   "returned": [
+    "PowerToys#5857"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11074,
+  "stop_reason": "end_turn",
+  "session_id": "c8a52f64-af5e-463c-98d6-e978b48f6100",
+  "total_cost_usd": 0.0683913,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 12447,
+   "cache_read_input_tokens": 67313,
+   "output_tokens": 1184,
+   "output_tokens_details": {
+    "thinking_tokens": 164
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12447,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 442,
+     "cache_read_input_tokens": 13550,
+     "cache_creation_input_tokens": 310,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 310
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1184,
+    "cacheReadInputTokens": 67313,
+    "cacheCreationInputTokens": 12447,
+    "webSearchRequests": 0,
+    "costUSD": 0.0683913,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 164,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12447,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I'm wrapping up the archive search. The closest match is PowerToys#37298, so I'm writing the answer from it.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#37298\"], \"answer\": \"This has been reported before. The File Explorer preview pane doesn't re-render an SVG that is already loaded when you switch Windows between dark and light mode. As a workaround, hide and re-show the preview pane, or close and reopen the Explorer window, after changing the theme. The preview then picks up the new theme. PowerToys#37298 is the same request, asking for the pane to update immediately, and it has no fix or comments yet. Your wish to keep the SVG preview always in light mode is a related request about SVG backgrounds (for example PowerToys#20578 and PowerToys#21561), but I haven't confirmed it was implemented.\"}",
+  "ttft_ms": 1056,
+  "type": "result",
+  "duration_ms": 14406,
+  "uuid": "e25a8af7-a5f3-408c-9d97-01f0826953ed",
+  "ttft_stream_ms": 591,
+  "time_to_request_ms": 27,
+  "first_content_frame_ms": 591,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1184,
+    "cacheReadInputTokens": 67313,
+    "cacheCreationInputTokens": 12447,
+    "webSearchRequests": 0,
+    "costUSD": 0.0683913,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 164,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12447,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.586408811010187,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-o590832k/work"
+  }
+ },
+ "wall_seconds": 15.588007868005661,
+ "qid": "PowerToys#49997",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#37298"
+  ],
+  "answer": "This has been reported before. The File Explorer preview pane doesn't re-render an SVG that is already loaded when you switch Windows between dark and light mode. As a workaround, hide and re-show the preview pane, or close and reopen the Explorer window, after changing the theme. The preview then picks up the new theme. PowerToys#37298 is the same request, asking for the pane to update immediately, and it has no fix or comments yet. Your wish to keep the SVG preview always in light mode is a related request about SVG backgrounds (for example PowerToys#20578 and PowerToys#21561), but I haven't confirmed it was implemented."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#1460",
+  "PowerToys#31122",
+  "PowerToys#27050",
+  "PowerToys#30420",
+  "PowerToys#48312"
+ ],
+ "retrieval_seconds": 0.4769220519810915,
+ "retrieval_scores": [
+  0.02821869488536155,
+  0.027820121951219513,
+  0.027783137179239824,
+  0.027598020555767037,
+  0.027031963470319637
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3005,
+  "stop_reason": "end_turn",
+  "session_id": "d7f016a9-4451-41c5-83c5-ee9f5ce68278",
+  "total_cost_usd": 0.030914,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6880,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 339,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6880,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 339,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6880,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6880
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 339,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6880,
+    "webSearchRequests": 0,
+    "costUSD": 0.030914,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6880,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#1460\", \"PowerToys#31122\", \"PowerToys#30420\"], \"answer\": \"Per-keyboard remapping (e.g. remapping the laptop keyboard but not the external USB keyboard, or vice versa) has been requested before and is tracked in PowerToys#1460 (Multi Keyboard Support). It is not currently supported: Keyboard Manager applies remaps to all keyboards, because Windows has no solid API that both identifies which keyboard a keypress came from and lets the app suppress it. The maintainers will revisit it if the input method changes. There is no workaround within PowerToys itself; the tickets mention third-party tools such as AutoHotkey (with the Interception driver) or LuaMacros, and PowerToys#27050 mentions profiles as a possible stopgap. Add a thumbs-up to #1460 to show interest. Your brightness question is a separate point not covered by these tickets, so I can't give an answer for it from the archive.\"}",
+  "ttft_ms": 3166,
+  "type": "result",
+  "duration_ms": 3182,
+  "uuid": "51c17837-5ffc-4e39-8664-ab3eaf5ddb58",
+  "ttft_stream_ms": 606,
+  "time_to_request_ms": 176,
+  "first_content_frame_ms": 607,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 339,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6880,
+    "webSearchRequests": 0,
+    "costUSD": 0.030914,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6880,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.905706541991094,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-es12eyxo/work"
+  }
+ },
+ "wall_seconds": 4.385210376000032,
+ "qid": "PowerToys#51818",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#1460",
+   "PowerToys#31122",
+   "PowerToys#30420"
+  ],
+  "answer": "Per-keyboard remapping (e.g. remapping the laptop keyboard but not the external USB keyboard, or vice versa) has been requested before and is tracked in PowerToys#1460 (Multi Keyboard Support). It is not currently supported: Keyboard Manager applies remaps to all keyboards, because Windows has no solid API that both identifies which keyboard a keypress came from and lets the app suppress it. The maintainers will revisit it if the input method changes. There is no workaround within PowerToys itself; the tickets mention third-party tools such as AutoHotkey (with the Interception driver) or LuaMacros, and PowerToys#27050 mentions profiles as a possible stopgap. Add a thumbs-up to #1460 to show interest. Your brightness question is a separate point not covered by these tickets, so I can't give an answer for it from the archive."
+ },
+ "hit_turn_cap": false
+}

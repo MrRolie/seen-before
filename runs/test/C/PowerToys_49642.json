@@ -1,0 +1,366 @@
+{
+ "shown": [
+  "PowerToys#10333",
+  "PowerToys#15636",
+  "PowerToys#22417",
+  "PowerToys#2265",
+  "PowerToys#33890",
+  "PowerToys#36699",
+  "PowerToys#36956",
+  "PowerToys#3697",
+  "PowerToys#37828",
+  "PowerToys#38372",
+  "PowerToys#38385",
+  "PowerToys#38578",
+  "PowerToys#38708",
+  "PowerToys#39319",
+  "PowerToys#3972",
+  "PowerToys#40097",
+  "PowerToys#40305",
+  "PowerToys#40502",
+  "PowerToys#4104",
+  "PowerToys#41715",
+  "PowerToys#41811",
+  "PowerToys#4443",
+  "PowerToys#45530",
+  "PowerToys#45624",
+  "PowerToys#47726",
+  "PowerToys#48109",
+  "PowerToys#4977",
+  "PowerToys#5353",
+  "PowerToys#5902",
+  "PowerToys#5948",
+  "PowerToys#7150",
+  "PowerToys#7473",
+  "PowerToys#9112",
+  "PowerToys#9309",
+  "WSL#2434",
+  "WSL#2747",
+  "WSL#3044"
+ ],
+ "retrieval_seconds": 3.5184430830122437,
+ "tool_calls": [
+  {
+   "t": 1794879430.8682609,
+   "tool": "search",
+   "args": {
+    "query": "Command Palette calculator floating point inaccuracy subtraction result 0.68099999999993",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.4918142769893166,
+   "returned": [
+    "PowerToys#40305",
+    "PowerToys#38578",
+    "PowerToys#40097",
+    "PowerToys#38372",
+    "PowerToys#45530",
+    "PowerToys#2265",
+    "PowerToys#45624",
+    "PowerToys#39319",
+    "PowerToys#40502",
+    "PowerToys#5948",
+    "PowerToys#38385",
+    "PowerToys#48109",
+    "PowerToys#3697",
+    "PowerToys#41715",
+    "PowerToys#3972",
+    "PowerToys#4443",
+    "PowerToys#38708",
+    "PowerToys#36699",
+    "PowerToys#47726",
+    "PowerToys#4104"
+   ]
+  },
+  {
+   "t": 1794879430.8946145,
+   "tool": "search",
+   "args": {
+    "query": "calculator precision error wrong result decimal subtraction rounding",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012670791998971254,
+   "returned": [
+    "PowerToys#3972",
+    "PowerToys#2265",
+    "PowerToys#37828",
+    "PowerToys#4977",
+    "PowerToys#5948",
+    "PowerToys#5902",
+    "PowerToys#9309",
+    "PowerToys#7150",
+    "PowerToys#4104",
+    "PowerToys#4443",
+    "PowerToys#10333",
+    "PowerToys#3697",
+    "PowerToys#33890",
+    "PowerToys#36956",
+    "PowerToys#7473",
+    "PowerToys#22417",
+    "PowerToys#15636",
+    "PowerToys#9112",
+    "PowerToys#41811",
+    "PowerToys#5353"
+   ]
+  },
+  {
+   "t": 1794879433.1201177,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45624"
+   },
+   "seconds": 0.0001422660134267062,
+   "returned": [
+    "PowerToys#45624"
+   ]
+  },
+  {
+   "t": 1794879433.4127393,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#36956"
+   },
+   "seconds": 0.00011924601858481765,
+   "returned": [
+    "PowerToys#36956"
+   ]
+  },
+  {
+   "t": 1794879433.523658,
+   "tool": "search",
+   "args": {
+    "query": "CmdPal calculator subtraction slightly off result like 1.52800000000002",
+    "repo": null
+   },
+   "seconds": 0.013424760982161388,
+   "returned": [
+    "PowerToys#40097",
+    "PowerToys#38578",
+    "PowerToys#7150",
+    "PowerToys#2265",
+    "PowerToys#40305",
+    "PowerToys#38372",
+    "PowerToys#3697",
+    "WSL#2434",
+    "PowerToys#9112",
+    "WSL#3044",
+    "PowerToys#4443",
+    "PowerToys#38708",
+    "PowerToys#45530",
+    "PowerToys#9309",
+    "PowerToys#3972",
+    "PowerToys#4977",
+    "WSL#2747",
+    "PowerToys#10333",
+    "PowerToys#22417",
+    "PowerToys#36956"
+   ]
+  },
+  {
+   "t": 1794879435.6476846,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37828"
+   },
+   "seconds": 0.00011713601998053491,
+   "returned": [
+    "PowerToys#37828"
+   ]
+  },
+  {
+   "t": 1794879435.7688217,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#41811"
+   },
+   "seconds": 0.00015460498980246484,
+   "returned": [
+    "PowerToys#41811"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11574,
+  "stop_reason": "end_turn",
+  "session_id": "e6baf668-ca2e-4a9a-bea8-839df13d514d",
+  "total_cost_usd": 0.0587028,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 11615,
+   "cache_read_input_tokens": 18568,
+   "output_tokens": 1037,
+   "output_tokens_details": {
+    "thinking_tokens": 166
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11615,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 430,
+     "cache_read_input_tokens": 10881,
+     "cache_creation_input_tokens": 1767,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1767
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1037,
+    "cacheReadInputTokens": 18568,
+    "cacheCreationInputTokens": 11615,
+    "webSearchRequests": 0,
+    "costUSD": 0.0587028,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 166,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11615,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#36956\", \"PowerToys#2265\"], \"answer\": \"This looks like a known floating-point precision problem in the PowerToys calculator engine. Subtracting two close decimal numbers leaves a tiny error, such as 615.419-614.738 giving 0.68099999999993. PowerToys#36956 reports the same pattern in PowerToys Run: float subtractions where the result is much smaller than the operands return values like 5629.5700000001. That ticket is for PowerToys Run, not Command Palette, and it has no fix or workaround recorded. Command Palette appears to use the same calculation approach. PowerToys#2265 is the open tracking issue for moving the calculator to a decimal-based engine. Another precision report, PowerToys#41811, was closed as a duplicate of it. I found no fix or workaround in these tickets. For now, round the result by hand, or use Windows Calculator when you need exact decimal answers. Add your examples to PowerToys#2265 or PowerToys#36956 to help track it.\"}",
+  "ttft_ms": 2316,
+  "type": "result",
+  "duration_ms": 15151,
+  "uuid": "88eaec51-40e3-4f87-9e08-0277c43574fe",
+  "ttft_stream_ms": 1238,
+  "time_to_request_ms": 28,
+  "first_content_frame_ms": 1238,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1037,
+    "cacheReadInputTokens": 18568,
+    "cacheCreationInputTokens": 11615,
+    "webSearchRequests": 0,
+    "costUSD": 0.0587028,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 166,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11615,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.375102141988464,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-q0bc_ee7/work"
+  }
+ },
+ "wall_seconds": 16.377049886999885,
+ "qid": "PowerToys#49642",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#36956",
+   "PowerToys#2265"
+  ],
+  "answer": "This looks like a known floating-point precision problem in the PowerToys calculator engine. Subtracting two close decimal numbers leaves a tiny error, such as 615.419-614.738 giving 0.68099999999993. PowerToys#36956 reports the same pattern in PowerToys Run: float subtractions where the result is much smaller than the operands return values like 5629.5700000001. That ticket is for PowerToys Run, not Command Palette, and it has no fix or workaround recorded. Command Palette appears to use the same calculation approach. PowerToys#2265 is the open tracking issue for moving the calculator to a decimal-based engine. Another precision report, PowerToys#41811, was closed as a duplicate of it. I found no fix or workaround in these tickets. For now, round the result by hand, or use Windows Calculator when you need exact decimal answers. Add your examples to PowerToys#2265 or PowerToys#36956 to help track it."
+ },
+ "hit_turn_cap": false
+}

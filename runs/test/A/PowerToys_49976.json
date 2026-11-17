@@ -1,0 +1,194 @@
+{
+ "shown": [
+  "PowerToys#43769",
+  "PowerToys#44335",
+  "PowerToys#28449",
+  "PowerToys#39030",
+  "PowerToys#33869"
+ ],
+ "retrieval_seconds": 0.014938980981241912,
+ "retrieval_scores": [
+  0.6551374793052673,
+  0.6245722770690918,
+  0.6149275302886963,
+  0.6019381880760193,
+  0.6009727120399475
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 6170,
+  "stop_reason": "end_turn",
+  "session_id": "0e9d01cd-226e-4ea0-bb86-618fdb60f71f",
+  "total_cost_usd": 0.021192,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3737,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 624,
+   "output_tokens_details": {
+    "thinking_tokens": 263
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3737,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 624,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3737,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3737
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 624,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3737,
+    "webSearchRequests": 0,
+    "costUSD": 0.021192,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 263,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3737,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#28449\", \"PowerToys#39030\"], \"answer\": \"Similar reports exist, but none has a fix. In PowerToys#28449 the mouse connects and moves, then after some time left and right clicks stop working while hovering still works. That ticket was closed with no resolution after the reporter stopped using that setup. In PowerToys#39030 clicks also stopped registering while movement continued, and the only workaround was to toggle Mouse Without Borders off and then on again. That one was triggered by an admin/UAC prompt, so the cause may differ from yours. Try toggling Mouse Without Borders off and on when the clicks stop. Also attach a Report Bug ZIP from the PowerToys tray icon, taken right after an occurrence, and add your game and version details to the ticket. The maintainers asked for that ZIP in #39030. Your own C program shows the same behaviour, so the cause may be in how Windows or the game handles the hooked or injected mouse input, not only in PowerToys. Don't expect a quick fix from the archive.\"}",
+  "ttft_ms": 3397,
+  "type": "result",
+  "duration_ms": 6346,
+  "uuid": "d54b4295-a81c-4cec-bef0-19f24c1c6fc6",
+  "ttft_stream_ms": 1117,
+  "time_to_request_ms": 175,
+  "first_content_frame_ms": 1117,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 624,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3737,
+    "webSearchRequests": 0,
+    "costUSD": 0.021192,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 263,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3737,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 7.201094453979749,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-352r3cmj/work"
+  }
+ },
+ "wall_seconds": 7.217901786003495,
+ "qid": "PowerToys#49976",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#28449",
+   "PowerToys#39030"
+  ],
+  "answer": "Similar reports exist, but none has a fix. In PowerToys#28449 the mouse connects and moves, then after some time left and right clicks stop working while hovering still works. That ticket was closed with no resolution after the reporter stopped using that setup. In PowerToys#39030 clicks also stopped registering while movement continued, and the only workaround was to toggle Mouse Without Borders off and then on again. That one was triggered by an admin/UAC prompt, so the cause may differ from yours. Try toggling Mouse Without Borders off and on when the clicks stop. Also attach a Report Bug ZIP from the PowerToys tray icon, taken right after an occurrence, and add your game and version details to the ticket. The maintainers asked for that ZIP in #39030. Your own C program shows the same behaviour, so the cause may be in how Windows or the game handles the hooked or injected mouse input, not only in PowerToys. Don't expect a quick fix from the archive."
+ },
+ "hit_turn_cap": false
+}

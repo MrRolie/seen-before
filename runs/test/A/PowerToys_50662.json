@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#32787",
+  "PowerToys#42117",
+  "PowerToys#46337",
+  "PowerToys#44512",
+  "PowerToys#35406"
+ ],
+ "retrieval_seconds": 0.017190033016959205,
+ "retrieval_scores": [
+  0.8102878928184509,
+  0.7767013907432556,
+  0.7677906155586243,
+  0.7629600167274475,
+  0.7587984800338745
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2551,
+  "stop_reason": "end_turn",
+  "session_id": "4a373282-1922-44d4-8372-ec7358f0af20",
+  "total_cost_usd": 0.02094,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4679,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 222,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4679,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 222,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4679,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4679
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 222,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4679,
+    "webSearchRequests": 0,
+    "costUSD": 0.02094,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4679,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#44512\", \"PowerToys#46337\", \"PowerToys#42117\"], \"answer\": \"This feature request has been reported before: an app-list based keep-awake mode for Awake, where listed executables like winword.exe keep the PC (and optionally the display) awake while they run. The tickets were closed as duplicates of the main tracking issue #32467, so please upvote and follow that issue for updates. It is not available in the UI yet. As a partial workaround, Awake's CLI supports `--pid <process id>`, which keeps the PC awake until that process exits. See the Awake CLI docs on Microsoft Learn.\"}",
+  "ttft_ms": 2710,
+  "type": "result",
+  "duration_ms": 2736,
+  "uuid": "934d34fe-8fcb-4610-8dd4-a47e2635f05f",
+  "ttft_stream_ms": 1132,
+  "time_to_request_ms": 181,
+  "first_content_frame_ms": 1132,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 222,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4679,
+    "webSearchRequests": 0,
+    "costUSD": 0.02094,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4679,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.657318754994776,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-cf9e0vri/work"
+  }
+ },
+ "wall_seconds": 3.6765067480155267,
+ "qid": "PowerToys#50662",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#44512",
+   "PowerToys#46337",
+   "PowerToys#42117"
+  ],
+  "answer": "This feature request has been reported before: an app-list based keep-awake mode for Awake, where listed executables like winword.exe keep the PC (and optionally the display) awake while they run. The tickets were closed as duplicates of the main tracking issue #32467, so please upvote and follow that issue for updates. It is not available in the UI yet. As a partial workaround, Awake's CLI supports `--pid <process id>`, which keeps the PC awake until that process exits. See the Awake CLI docs on Microsoft Learn."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,351 @@
+{
+ "shown": [
+  "PowerToys#31226",
+  "PowerToys#31313",
+  "PowerToys#32530",
+  "PowerToys#32726",
+  "PowerToys#32812",
+  "PowerToys#33111",
+  "PowerToys#36353",
+  "PowerToys#36542",
+  "PowerToys#3921",
+  "PowerToys#40283",
+  "PowerToys#42510",
+  "PowerToys#42631",
+  "PowerToys#42789",
+  "PowerToys#43032",
+  "PowerToys#43125",
+  "PowerToys#43678",
+  "PowerToys#43857",
+  "PowerToys#43873",
+  "PowerToys#43911",
+  "PowerToys#44148",
+  "PowerToys#44245",
+  "PowerToys#44319",
+  "PowerToys#44595",
+  "PowerToys#44663",
+  "PowerToys#45440",
+  "PowerToys#45853",
+  "PowerToys#45908",
+  "PowerToys#47099",
+  "PowerToys#47723",
+  "PowerToys#48289"
+ ],
+ "retrieval_seconds": 4.242411195940804,
+ "tool_calls": [
+  {
+   "t": 1794877387.034234,
+   "tool": "search",
+   "args": {
+    "query": "Desktop composition is disabled screen went black",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.227465208998183,
+   "returned": [
+    "PowerToys#44319",
+    "PowerToys#32530",
+    "PowerToys#43857",
+    "PowerToys#43032",
+    "PowerToys#43678",
+    "PowerToys#43125",
+    "PowerToys#42510",
+    "PowerToys#43911",
+    "PowerToys#44663",
+    "PowerToys#3921",
+    "PowerToys#33111",
+    "PowerToys#31313",
+    "PowerToys#47723",
+    "PowerToys#44595",
+    "PowerToys#36353",
+    "PowerToys#43873",
+    "PowerToys#47099",
+    "PowerToys#44245",
+    "PowerToys#32812",
+    "PowerToys#45853"
+   ]
+  },
+  {
+   "t": 1794877387.0597491,
+   "tool": "search",
+   "args": {
+    "query": "Desktop composition is disabled error crash",
+    "repo": null
+   },
+   "seconds": 0.013309951988048851,
+   "returned": [
+    "PowerToys#43678",
+    "PowerToys#43911",
+    "PowerToys#45440",
+    "PowerToys#31313",
+    "PowerToys#43873",
+    "PowerToys#42631",
+    "PowerToys#47723",
+    "PowerToys#47099",
+    "PowerToys#44663",
+    "PowerToys#32726",
+    "PowerToys#45908",
+    "PowerToys#43125",
+    "PowerToys#42789",
+    "PowerToys#44148",
+    "PowerToys#36542",
+    "PowerToys#40283",
+    "PowerToys#44595",
+    "PowerToys#32812",
+    "PowerToys#36353",
+    "PowerToys#48289"
+   ]
+  },
+  {
+   "t": 1794877388.078195,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44319"
+   },
+   "seconds": 0.0001817649754229933,
+   "returned": [
+    "PowerToys#44319"
+   ]
+  },
+  {
+   "t": 1794877388.3013408,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32530"
+   },
+   "seconds": 0.00018163499771617353,
+   "returned": [
+    "PowerToys#32530"
+   ]
+  },
+  {
+   "t": 1794877388.54556,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43857"
+   },
+   "seconds": 0.0001284159952774644,
+   "returned": [
+    "PowerToys#43857"
+   ]
+  },
+  {
+   "t": 1794877388.7591665,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40283"
+   },
+   "seconds": 0.0001062969968188554,
+   "returned": [
+    "PowerToys#40283"
+   ]
+  },
+  {
+   "t": 1794877389.8855727,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#31226"
+   },
+   "seconds": 0.0009296749776694924,
+   "returned": [
+    "PowerToys#31226"
+   ]
+  },
+  {
+   "t": 1794877390.7297666,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43857"
+   },
+   "seconds": 0.00010824701166711748,
+   "returned": [
+    "PowerToys#43857"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8057,
+  "stop_reason": "end_turn",
+  "session_id": "dab178a3-b38d-4c84-82d8-ccfd743de791",
+  "total_cost_usd": 0.0802825,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 16878,
+   "cache_read_input_tokens": 37705,
+   "output_tokens": 898,
+   "output_tokens_details": {
+    "thinking_tokens": 24
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 16878,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 352,
+     "cache_read_input_tokens": 16573,
+     "cache_creation_input_tokens": 1338,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1338
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 898,
+    "cacheReadInputTokens": 37705,
+    "cacheCreationInputTokens": 16878,
+    "webSearchRequests": 0,
+    "costUSD": 0.0802825,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 24,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 16878,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#31226\", \"PowerToys#44319\", \"PowerToys#43857\"], \"answer\": \"This problem has been reported before. The screen goes black briefly and PowerToys (usually PowerToys Run) shows a 'Something went wrong' error: COMException 0x80263001, 'Desktop composition is disabled'. The cause varies from machine to machine. It is usually outside PowerToys, for example graphics driver problems or memory exhaustion. The black screen comes from Windows and the GPU driver, and PowerToys just reports the error. The archive's fix is to update PowerToys to 0.96 or newer, because newer versions handle this failure more gracefully. Your Microsoft Store install is on 0.102.3001, which is already newer than 0.96. So check the Store for an even newer build. Also update your graphics drivers and Windows. If it keeps happening, comment on PowerToys#31226 with your GPU, driver version and Windows version, and attach the log file from the PowerToys Run Logs folder.\"}",
+  "ttft_ms": 1073,
+  "type": "result",
+  "duration_ms": 12132,
+  "uuid": "07dbd953-f3cd-4778-aff1-f01a8215837f",
+  "ttft_stream_ms": 652,
+  "time_to_request_ms": 41,
+  "first_content_frame_ms": 652,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 898,
+    "cacheReadInputTokens": 37705,
+    "cacheCreationInputTokens": 16878,
+    "webSearchRequests": 0,
+    "costUSD": 0.0802825,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 24,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 16878,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.675053899991326,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-hjs0bfyr/work"
+  }
+ },
+ "wall_seconds": 13.677242891018977,
+ "qid": "PowerToys#51808",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#31226",
+   "PowerToys#44319",
+   "PowerToys#43857"
+  ],
+  "answer": "This problem has been reported before. The screen goes black briefly and PowerToys (usually PowerToys Run) shows a 'Something went wrong' error: COMException 0x80263001, 'Desktop composition is disabled'. The cause varies from machine to machine. It is usually outside PowerToys, for example graphics driver problems or memory exhaustion. The black screen comes from Windows and the GPU driver, and PowerToys just reports the error. The archive's fix is to update PowerToys to 0.96 or newer, because newer versions handle this failure more gracefully. Your Microsoft Store install is on 0.102.3001, which is already newer than 0.96. So check the Store for an even newer build. Also update your graphics drivers and Windows. If it keeps happening, comment on PowerToys#31226 with your GPU, driver version and Windows version, and attach the log file from the PowerToys Run Logs folder."
+ },
+ "hit_turn_cap": false
+}

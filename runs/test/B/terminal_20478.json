@@ -1,0 +1,304 @@
+{
+ "shown": [
+  "terminal#11839",
+  "terminal#12717",
+  "terminal#13195",
+  "terminal#13388",
+  "terminal#13782",
+  "terminal#14185",
+  "terminal#14243",
+  "terminal#14597",
+  "terminal#14804",
+  "terminal#14810",
+  "terminal#15125",
+  "terminal#15479",
+  "terminal#15763",
+  "terminal#16236",
+  "terminal#16605",
+  "terminal#16765",
+  "terminal#18401",
+  "terminal#18560",
+  "terminal#18768",
+  "terminal#20070"
+ ],
+ "retrieval_seconds": 0.10414797198609449,
+ "tool_calls": [
+  {
+   "t": 1794878980.6877646,
+   "tool": "search",
+   "args": {
+    "pattern": "context menu disappeared",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.041178244980983436,
+   "returned": []
+  },
+  {
+   "t": 1794878982.2605093,
+   "tool": "search",
+   "args": {
+    "pattern": "Open in Terminal",
+    "regex": false,
+    "also": [
+     "context menu"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.0621729810081888,
+   "returned": [
+    "terminal#15479",
+    "terminal#14185",
+    "terminal#13388",
+    "terminal#16765",
+    "terminal#15763",
+    "terminal#14243",
+    "terminal#16605",
+    "terminal#11839",
+    "terminal#18401",
+    "terminal#14804",
+    "terminal#13195",
+    "terminal#18768",
+    "terminal#18560",
+    "terminal#16236",
+    "terminal#15125",
+    "terminal#14810",
+    "terminal#14597",
+    "terminal#13782",
+    "terminal#12717",
+    "terminal#20070"
+   ]
+  },
+  {
+   "t": 1794878983.8333757,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#16765"
+   },
+   "seconds": 0.0001214460062328726,
+   "returned": [
+    "terminal#16765"
+   ]
+  },
+  {
+   "t": 1794878984.1194804,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#16236"
+   },
+   "seconds": 0.0003099809982813895,
+   "returned": [
+    "terminal#16236"
+   ]
+  },
+  {
+   "t": 1794878984.2241657,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18768"
+   },
+   "seconds": 0.00013931599096395075,
+   "returned": [
+    "terminal#18768"
+   ]
+  },
+  {
+   "t": 1794878986.114433,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#14185"
+   },
+   "seconds": 0.00022600300144404173,
+   "returned": [
+    "terminal#14185"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12497,
+  "stop_reason": "end_turn",
+  "session_id": "c77cd67e-57fb-4474-8e61-0c4160007fc2",
+  "total_cost_usd": 0.0766621,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 15716,
+   "cache_read_input_tokens": 26181,
+   "output_tokens": 1116,
+   "output_tokens_details": {
+    "thinking_tokens": 117
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 15716,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 567,
+     "cache_read_input_tokens": 13545,
+     "cache_creation_input_tokens": 3348,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3348
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1116,
+    "cacheReadInputTokens": 26181,
+    "cacheCreationInputTokens": 15716,
+    "webSearchRequests": 0,
+    "costUSD": 0.0766621,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 117,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15716,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#16236\", \"terminal#14185\", \"terminal#16765\"], \"answer\": \"This looks like a known problem on Windows 10 (build 19045). Explorer sometimes loses or never loads the Terminal shell-extension entry, and reinstalling doesn't always bring it back. The archived tickets give no confirmed fix. They do suggest the following:\\n\\n1. Restart Explorer, which caches context-menu entries. Run `taskkill /f /im explorer.exe && explorer.exe`, or reboot.\\n2. On Windows 10, right-clicking the empty background of a folder, the desktop or a drive often doesn't show the entry. Right-click an actual folder instead.\\n3. As a workaround, add a registry entry. Under `HKEY_CLASSES_ROOT\\\\Directory\\\\Background\\\\shell\\\\wt\\\\command`, set the default value to `%LOCALAPPDATA%\\\\Microsoft\\\\WindowsApps\\\\wt.exe -d \\\"%V\\\\.\\\"`. Treat this as a workaround only, because in #16765 a similar manual entry did not open anything.\\n4. If it still doesn't work, send feedback through Feedback Hub under \\\"Desktop Environment > Right-click context menu\\\". The maintainers believe this is an OS-side bug. They track the issue in #14185, so add your details and a thumbs-up there.\"}",
+  "ttft_ms": 2022,
+  "type": "result",
+  "duration_ms": 12694,
+  "uuid": "b2769893-7201-42e0-89f6-880aa9986d35",
+  "ttft_stream_ms": 1141,
+  "time_to_request_ms": 47,
+  "first_content_frame_ms": 1141,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1116,
+    "cacheReadInputTokens": 26181,
+    "cacheCreationInputTokens": 15716,
+    "webSearchRequests": 0,
+    "costUSD": 0.0766621,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 117,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15716,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.191326106985798,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-_0z8jkkj/work"
+  }
+ },
+ "wall_seconds": 14.193166821001796,
+ "qid": "terminal#20478",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#16236",
+   "terminal#14185",
+   "terminal#16765"
+  ],
+  "answer": "This looks like a known problem on Windows 10 (build 19045). Explorer sometimes loses or never loads the Terminal shell-extension entry, and reinstalling doesn't always bring it back. The archived tickets give no confirmed fix. They do suggest the following:\n\n1. Restart Explorer, which caches context-menu entries. Run `taskkill /f /im explorer.exe && explorer.exe`, or reboot.\n2. On Windows 10, right-clicking the empty background of a folder, the desktop or a drive often doesn't show the entry. Right-click an actual folder instead.\n3. As a workaround, add a registry entry. Under `HKEY_CLASSES_ROOT\\Directory\\Background\\shell\\wt\\command`, set the default value to `%LOCALAPPDATA%\\Microsoft\\WindowsApps\\wt.exe -d \"%V\\.\"`. Treat this as a workaround only, because in #16765 a similar manual entry did not open anything.\n4. If it still doesn't work, send feedback through Feedback Hub under \"Desktop Environment > Right-click context menu\". The maintainers believe this is an OS-side bug. They track the issue in #14185, so add your details and a thumbs-up there."
+ },
+ "hit_turn_cap": false
+}

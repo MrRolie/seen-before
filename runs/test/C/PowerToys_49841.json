@@ -1,0 +1,333 @@
+{
+ "shown": [
+  "PowerToys#10271",
+  "PowerToys#11139",
+  "PowerToys#13544",
+  "PowerToys#1880",
+  "PowerToys#2197",
+  "PowerToys#2199",
+  "PowerToys#23641",
+  "PowerToys#33774",
+  "PowerToys#3390",
+  "PowerToys#3392",
+  "PowerToys#3421",
+  "PowerToys#34383",
+  "PowerToys#34554",
+  "PowerToys#38467",
+  "PowerToys#3920",
+  "PowerToys#4248",
+  "PowerToys#4511",
+  "PowerToys#4713",
+  "PowerToys#4973",
+  "PowerToys#4987",
+  "PowerToys#5263",
+  "PowerToys#5406",
+  "PowerToys#5653",
+  "PowerToys#5709",
+  "PowerToys#6211",
+  "PowerToys#6223",
+  "PowerToys#6224",
+  "PowerToys#6616",
+  "PowerToys#6756",
+  "PowerToys#6976",
+  "PowerToys#7878",
+  "PowerToys#8230",
+  "PowerToys#8952",
+  "PowerToys#9767"
+ ],
+ "retrieval_seconds": 3.8033319289970677,
+ "tool_calls": [
+  {
+   "t": 1794879992.2302134,
+   "tool": "search",
+   "args": {
+    "query": "Keyboard Manager enable mappings only for specific input method / keyboard layout language",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.7903847790148575,
+   "returned": [
+    "PowerToys#4987",
+    "PowerToys#6976",
+    "PowerToys#3421",
+    "PowerToys#34383",
+    "PowerToys#3920",
+    "PowerToys#7878",
+    "PowerToys#6756",
+    "PowerToys#38467",
+    "PowerToys#6224",
+    "PowerToys#4973",
+    "PowerToys#5263",
+    "PowerToys#11139",
+    "PowerToys#8952",
+    "PowerToys#1880",
+    "PowerToys#5709",
+    "PowerToys#4713",
+    "PowerToys#8230",
+    "PowerToys#6211",
+    "PowerToys#6616",
+    "PowerToys#10271"
+   ]
+  },
+  {
+   "t": 1794879992.2546592,
+   "tool": "search",
+   "args": {
+    "query": "KBM different mappings per IME input language switch",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012443612999049947,
+   "returned": [
+    "PowerToys#3392",
+    "PowerToys#8230",
+    "PowerToys#2197",
+    "PowerToys#2199",
+    "PowerToys#6976",
+    "PowerToys#3920",
+    "PowerToys#6756",
+    "PowerToys#13544",
+    "PowerToys#9767",
+    "PowerToys#3390",
+    "PowerToys#4511",
+    "PowerToys#4973",
+    "PowerToys#5406",
+    "PowerToys#6223",
+    "PowerToys#34383",
+    "PowerToys#4248",
+    "PowerToys#5653",
+    "PowerToys#34554",
+    "PowerToys#23641",
+    "PowerToys#33774"
+   ]
+  },
+  {
+   "t": 1794879994.1607907,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#9767"
+   },
+   "seconds": 0.00011999698472209275,
+   "returned": [
+    "PowerToys#9767"
+   ]
+  },
+  {
+   "t": 1794879994.1662755,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4987"
+   },
+   "seconds": 9.911699453368783e-05,
+   "returned": [
+    "PowerToys#4987"
+   ]
+  },
+  {
+   "t": 1794879994.2277634,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33774"
+   },
+   "seconds": 0.00012455700198188424,
+   "returned": [
+    "PowerToys#33774"
+   ]
+  },
+  {
+   "t": 1794879996.2235348,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#23641"
+   },
+   "seconds": 0.00015986600192263722,
+   "returned": [
+    "PowerToys#23641"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9240,
+  "stop_reason": "end_turn",
+  "session_id": "dd4dac45-d100-4f59-aa78-23d4b7b3c7ce",
+  "total_cost_usd": 0.0404394,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 7826,
+   "cache_read_input_tokens": 14894,
+   "output_tokens": 763,
+   "output_tokens_details": {
+    "thinking_tokens": 58
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7826,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 274,
+     "cache_read_input_tokens": 8056,
+     "cache_creation_input_tokens": 803,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 803
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 763,
+    "cacheReadInputTokens": 14894,
+    "cacheCreationInputTokens": 7826,
+    "webSearchRequests": 0,
+    "costUSD": 0.0404394,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 58,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7826,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "```json\n{\"seen_before\": true, \"matches\": [\"PowerToys#23641\", \"PowerToys#33774\", \"PowerToys#9767\"], \"answer\": \"Others have already asked for this feature, and it isn't available yet. Keyboard Manager remaps apply to every input language or layout. Remaps stay active when you switch to another input method, and you can't limit them to one. Maintainers closed #23641 as a duplicate of #33774, which tracks profiles tied to IMEs and layouts. #9767 asks for the same kind of per-language remapping. Follow #33774 and add your use case there. Until it ships, you can turn Keyboard Manager off and on manually, or build a custom keyboard layout (for example with Microsoft Keyboard Layout Creator). A custom layout lets you change the mapping for one layout only.\"}\n```",
+  "ttft_ms": 2127,
+  "type": "result",
+  "duration_ms": 13120,
+  "uuid": "2bd00de3-f7e5-482e-9179-5874718490ac",
+  "ttft_stream_ms": 1136,
+  "time_to_request_ms": 38,
+  "first_content_frame_ms": 1136,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 763,
+    "cacheReadInputTokens": 14894,
+    "cacheCreationInputTokens": 7826,
+    "webSearchRequests": 0,
+    "costUSD": 0.0404394,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 58,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7826,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.50863863399718,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-jb2idn7m/work"
+  }
+ },
+ "wall_seconds": 14.51080255600391,
+ "qid": "PowerToys#49841",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#23641",
+   "PowerToys#33774",
+   "PowerToys#9767"
+  ],
+  "answer": "Others have already asked for this feature, and it isn't available yet. Keyboard Manager remaps apply to every input language or layout. Remaps stay active when you switch to another input method, and you can't limit them to one. Maintainers closed #23641 as a duplicate of #33774, which tracks profiles tied to IMEs and layouts. #9767 asks for the same kind of per-language remapping. Follow #33774 and add your use case there. Until it ships, you can turn Keyboard Manager off and on manually, or build a custom keyboard layout (for example with Microsoft Keyboard Layout Creator). A custom layout lets you change the mapping for one layout only."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "WSL#40688",
+  "WSL#14154",
+  "WSL#13868",
+  "WSL#10561",
+  "WSL#9750"
+ ],
+ "retrieval_seconds": 0.01973660898511298,
+ "retrieval_scores": [
+  0.7597417235374451,
+  0.7423479557037354,
+  0.7353231906890869,
+  0.7281691431999207,
+  0.7230965495109558
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3531,
+  "stop_reason": "end_turn",
+  "session_id": "ff8e7ff4-7ccc-4494-a5c1-87a862651c00",
+  "total_cost_usd": 0.05423,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 12714,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 337,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12714,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 337,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 12714,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 12714
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 337,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 12714,
+    "webSearchRequests": 0,
+    "costUSD": 0.05423,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12714,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find a past ticket reporting this same problem: Windows-to-WSL2 port forwarding over IPv4 loopback (127.0.0.1) failing after wsl --shutdown in NAT mode, while IPv6 (::1) still works. The closest tickets describe different problems. WSL#14154 is about dual-stack IPv6 sockets refusing IPv4 connections inside WSL. WSL#9750 is about forwarded ports disappearing a few seconds after a service starts. WSL#40688 is about NAT mode having no outbound connectivity at all. WSL#13868 is a mirrored-mode loopback issue. None of them gives a fix for your case. In the meantime, you can try connecting to localhost or ::1 (which already works for you), or to the WSL VM's eth0 IP address from Windows. Please file this as a new issue with the networking logs from collect-wsl-logs.ps1 -LogProfile networking attached.\"}",
+  "ttft_ms": 3703,
+  "type": "result",
+  "duration_ms": 3725,
+  "uuid": "73467b4c-22e1-4012-bedd-7da6dfbade45",
+  "ttft_stream_ms": 1327,
+  "time_to_request_ms": 190,
+  "first_content_frame_ms": 1327,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 337,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 12714,
+    "webSearchRequests": 0,
+    "costUSD": 0.05423,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12714,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.519072244991548,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-835q3gtz/work"
+  }
+ },
+ "wall_seconds": 4.540558620006777,
+ "qid": "WSL#41196",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find a past ticket reporting this same problem: Windows-to-WSL2 port forwarding over IPv4 loopback (127.0.0.1) failing after wsl --shutdown in NAT mode, while IPv6 (::1) still works. The closest tickets describe different problems. WSL#14154 is about dual-stack IPv6 sockets refusing IPv4 connections inside WSL. WSL#9750 is about forwarded ports disappearing a few seconds after a service starts. WSL#40688 is about NAT mode having no outbound connectivity at all. WSL#13868 is a mirrored-mode loopback issue. None of them gives a fix for your case. In the meantime, you can try connecting to localhost or ::1 (which already works for you), or to the WSL VM's eth0 IP address from Windows. Please file this as a new issue with the networking logs from collect-wsl-logs.ps1 -LogProfile networking attached."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,193 @@
+{
+ "shown": [
+  "PowerToys#43976",
+  "PowerToys#40707",
+  "PowerToys#45814",
+  "PowerToys#38959",
+  "PowerToys#42286"
+ ],
+ "retrieval_seconds": 0.0182177470123861,
+ "retrieval_scores": [
+  0.7271088361740112,
+  0.6571834087371826,
+  0.6422796249389648,
+  0.6319213509559631,
+  0.6308237314224243
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3399,
+  "stop_reason": "end_turn",
+  "session_id": "d1b6dc35-5bcb-4871-9908-bebd6ab742d4",
+  "total_cost_usd": 0.03914,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 9054,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 292,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9054,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 292,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 9054,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 9054
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 292,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 9054,
+    "webSearchRequests": 0,
+    "costUSD": 0.03914,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9054,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#43976\"], \"answer\": \"This looks like the same class of problem as PowerToys#43976: CmdPal Run/Shell unit tests that fail intermittently in CI. The ticket reports a Run-related test (QueryWithoutHistoryCommand) that passed in one run (318 ms) and failed in another (1 s), so timing is the likely cause. The archived ticket only describes the failure and does not record a fix or workaround. For TestListFilesEnvVar, the cause given in your ticket is that the real RunHistory.ParseCommandline can exceed RunListPage's 200 ms deadline. The way to stabilize the test is to stop it depending on the real parser's timing, for example by having the mocked IRunHistoryService return a fast, deterministic result. This is my suggestion, not something the past ticket confirms.\"}",
+  "ttft_ms": 3583,
+  "type": "result",
+  "duration_ms": 3601,
+  "uuid": "a2f1d85e-8876-4958-8f46-7f88a8906bc5",
+  "ttft_stream_ms": 1349,
+  "time_to_request_ms": 201,
+  "first_content_frame_ms": 1349,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 292,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 9054,
+    "webSearchRequests": 0,
+    "costUSD": 0.03914,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9054,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.598344491008902,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-y4ytxh47/work"
+  }
+ },
+ "wall_seconds": 4.64478543100995,
+ "qid": "PowerToys#51042",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#43976"
+  ],
+  "answer": "This looks like the same class of problem as PowerToys#43976: CmdPal Run/Shell unit tests that fail intermittently in CI. The ticket reports a Run-related test (QueryWithoutHistoryCommand) that passed in one run (318 ms) and failed in another (1 s), so timing is the likely cause. The archived ticket only describes the failure and does not record a fix or workaround. For TestListFilesEnvVar, the cause given in your ticket is that the real RunHistory.ParseCommandline can exceed RunListPage's 200 ms deadline. The way to stabilize the test is to stop it depending on the real parser's timing, for example by having the mocked IRunHistoryService return a fast, deterministic result. This is my suggestion, not something the past ticket confirms."
+ },
+ "hit_turn_cap": false
+}

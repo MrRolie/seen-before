@@ -1,0 +1,340 @@
+{
+ "shown": [
+  "PowerToys#10196",
+  "PowerToys#10198",
+  "PowerToys#10248",
+  "PowerToys#12874",
+  "PowerToys#13200",
+  "PowerToys#13638",
+  "PowerToys#1460",
+  "PowerToys#16708",
+  "PowerToys#19147",
+  "PowerToys#21782",
+  "PowerToys#21831",
+  "PowerToys#2733",
+  "PowerToys#3364",
+  "PowerToys#3421",
+  "PowerToys#3643",
+  "PowerToys#3676",
+  "PowerToys#37541",
+  "PowerToys#38467",
+  "PowerToys#39474",
+  "PowerToys#4450",
+  "PowerToys#47753",
+  "PowerToys#4905",
+  "PowerToys#5030",
+  "PowerToys#5421",
+  "PowerToys#5453",
+  "PowerToys#5709",
+  "PowerToys#6037",
+  "PowerToys#6211",
+  "PowerToys#6224",
+  "PowerToys#6334",
+  "PowerToys#6616",
+  "PowerToys#6756",
+  "PowerToys#7603",
+  "PowerToys#848",
+  "PowerToys#8937",
+  "PowerToys#8952",
+  "PowerToys#9223",
+  "PowerToys#9372",
+  "PowerToys#9557",
+  "PowerToys#9957"
+ ],
+ "retrieval_seconds": 4.472822578973137,
+ "tool_calls": [
+  {
+   "t": 1794885087.6398027,
+   "tool": "similar",
+   "args": {
+    "query": "remap keys per keyboard independently, laptop keyboard vs external USB keyboard",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.458218791987747,
+   "returned": [
+    "PowerToys#848",
+    "PowerToys#6616",
+    "PowerToys#10198",
+    "PowerToys#3421",
+    "PowerToys#3676",
+    "PowerToys#5709",
+    "PowerToys#6211",
+    "PowerToys#8937",
+    "PowerToys#9957",
+    "PowerToys#1460",
+    "PowerToys#3643",
+    "PowerToys#6224",
+    "PowerToys#5421",
+    "PowerToys#9557",
+    "PowerToys#6334",
+    "PowerToys#9372",
+    "PowerToys#7603",
+    "PowerToys#10196",
+    "PowerToys#10248",
+    "PowerToys#6756"
+   ]
+  },
+  {
+   "t": 1794885087.6673937,
+   "tool": "similar",
+   "args": {
+    "query": "keyboard manager brightness key remap",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.01391322398558259,
+   "returned": [
+    "PowerToys#5030",
+    "PowerToys#4450",
+    "PowerToys#9223",
+    "PowerToys#21831",
+    "PowerToys#13200",
+    "PowerToys#21782",
+    "PowerToys#2733",
+    "PowerToys#16708",
+    "PowerToys#37541",
+    "PowerToys#4905",
+    "PowerToys#39474",
+    "PowerToys#12874",
+    "PowerToys#6037",
+    "PowerToys#8952",
+    "PowerToys#13638",
+    "PowerToys#19147",
+    "PowerToys#5453",
+    "PowerToys#38467",
+    "PowerToys#47753",
+    "PowerToys#3364"
+   ]
+  },
+  {
+   "t": 1794885089.629063,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#3676"
+   },
+   "seconds": 0.00016463600331917405,
+   "returned": [
+    "PowerToys#3676"
+   ]
+  },
+  {
+   "t": 1794885089.796494,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#6616"
+   },
+   "seconds": 0.00014032699982635677,
+   "returned": [
+    "PowerToys#6616"
+   ]
+  },
+  {
+   "t": 1794885091.2481978,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1460"
+   },
+   "seconds": 0.00019680499099195004,
+   "returned": [
+    "PowerToys#1460"
+   ]
+  },
+  {
+   "t": 1794885091.409649,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4450"
+   },
+   "seconds": 0.00018879500566981733,
+   "returned": [
+    "PowerToys#4450"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10584,
+  "stop_reason": "end_turn",
+  "session_id": "bba53dd8-f0f3-4442-9b59-5967f134fbe5",
+  "total_cost_usd": 0.0489743,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 9491,
+   "cache_read_input_tokens": 24803,
+   "output_tokens": 851,
+   "output_tokens_details": {
+    "thinking_tokens": 60
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9491,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 335,
+     "cache_read_input_tokens": 10845,
+     "cache_creation_input_tokens": 59,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 59
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 851,
+    "cacheReadInputTokens": 24803,
+    "cacheCreationInputTokens": 9491,
+    "webSearchRequests": 0,
+    "costUSD": 0.0489743,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 60,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9491,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#1460\", \"PowerToys#3676\", \"PowerToys#4450\"], \"answer\": \"Both requests have been reported before. (1) Remapping keys separately for each keyboard, such as a laptop keyboard and an external USB keyboard, is tracked in PowerToys#1460 and PowerToys#3676. Keyboard Manager can't do this today. Windows has no public API that can tell which keyboard a keypress came from and also block it. The team has said it would look at this again if that changes. For now, Keyboard Manager remaps apply to all keyboards. Some people use AutoHotkey or LuaMacros for per-device mapping. (2) Remapping a key to screen brightness up/down is requested in PowerToys#4450. Keyboard Manager doesn't offer a brightness action yet, which is why you didn't find a command for it. A separate tool such as Twinkle Tray can set brightness with hotkeys. You can add your use case to those tickets.\"}",
+  "ttft_ms": 2200,
+  "type": "result",
+  "duration_ms": 15173,
+  "uuid": "28db620a-e3e4-4e61-bb2b-04138d29e7f8",
+  "ttft_stream_ms": 1283,
+  "time_to_request_ms": 69,
+  "first_content_frame_ms": 1284,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 851,
+    "cacheReadInputTokens": 24803,
+    "cacheCreationInputTokens": 9491,
+    "webSearchRequests": 0,
+    "costUSD": 0.0489743,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 60,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9491,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.818331140995724,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-zafjb41g/work"
+  }
+ },
+ "wall_seconds": 16.820421714015538,
+ "qid": "PowerToys#51818",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#1460",
+   "PowerToys#3676",
+   "PowerToys#4450"
+  ],
+  "answer": "Both requests have been reported before. (1) Remapping keys separately for each keyboard, such as a laptop keyboard and an external USB keyboard, is tracked in PowerToys#1460 and PowerToys#3676. Keyboard Manager can't do this today. Windows has no public API that can tell which keyboard a keypress came from and also block it. The team has said it would look at this again if that changes. For now, Keyboard Manager remaps apply to all keyboards. Some people use AutoHotkey or LuaMacros for per-device mapping. (2) Remapping a key to screen brightness up/down is requested in PowerToys#4450. Keyboard Manager doesn't offer a brightness action yet, which is why you didn't find a command for it. A separate tool such as Twinkle Tray can set brightness with hotkeys. You can add your use case to those tickets."
+ },
+ "hit_turn_cap": false
+}

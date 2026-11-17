@@ -1,0 +1,315 @@
+{
+ "shown": [
+  "PowerToys#13369",
+  "PowerToys#17142",
+  "PowerToys#3381",
+  "PowerToys#38295",
+  "PowerToys#38351",
+  "PowerToys#38524",
+  "PowerToys#38601",
+  "PowerToys#38683",
+  "PowerToys#38979",
+  "PowerToys#39364",
+  "PowerToys#39745",
+  "PowerToys#40372",
+  "PowerToys#40685",
+  "PowerToys#41028",
+  "PowerToys#41909",
+  "PowerToys#43139",
+  "PowerToys#43161",
+  "PowerToys#46231",
+  "PowerToys#46667",
+  "PowerToys#47223",
+  "PowerToys#47445",
+  "PowerToys#48663",
+  "PowerToys#586",
+  "PowerToys#6023",
+  "PowerToys#8905",
+  "PowerToys#895",
+  "PowerToys#9708"
+ ],
+ "retrieval_seconds": 4.172847935988102,
+ "tool_calls": [
+  {
+   "t": 1794884596.4368033,
+   "tool": "search",
+   "args": {
+    "pattern": "command palette",
+    "regex": false,
+    "also": [
+     "backup"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11900034098653123,
+   "returned": [
+    "PowerToys#43161",
+    "PowerToys#41909",
+    "PowerToys#47445",
+    "PowerToys#38524",
+    "PowerToys#48663",
+    "PowerToys#40372",
+    "PowerToys#43139",
+    "PowerToys#39745"
+   ]
+  },
+  {
+   "t": 1794884600.3113904,
+   "tool": "similar",
+   "args": {
+    "query": "PowerToys backup/restore settings does not include Command Palette settings",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.860038270999212,
+   "returned": [
+    "PowerToys#38295",
+    "PowerToys#586",
+    "PowerToys#9708",
+    "PowerToys#46667",
+    "PowerToys#43161",
+    "PowerToys#38683",
+    "PowerToys#17142",
+    "PowerToys#46231",
+    "PowerToys#38979",
+    "PowerToys#47223",
+    "PowerToys#38351",
+    "PowerToys#6023",
+    "PowerToys#13369",
+    "PowerToys#40685",
+    "PowerToys#895",
+    "PowerToys#38601",
+    "PowerToys#3381",
+    "PowerToys#39364",
+    "PowerToys#41028",
+    "PowerToys#8905"
+   ]
+  },
+  {
+   "t": 1794884602.6647978,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43161"
+   },
+   "seconds": 0.00013734601088799536,
+   "returned": [
+    "PowerToys#43161"
+   ]
+  },
+  {
+   "t": 1794884602.829477,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40372"
+   },
+   "seconds": 0.00012635599705390632,
+   "returned": [
+    "PowerToys#40372"
+   ]
+  },
+  {
+   "t": 1794884604.7296872,
+   "tool": "search",
+   "args": {
+    "pattern": "cmdpal",
+    "regex": false,
+    "also": [
+     "backup",
+     "restore"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.19354562199441716,
+   "returned": [
+    "PowerToys#39745",
+    "PowerToys#43161",
+    "PowerToys#40372"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11822,
+  "stop_reason": "end_turn",
+  "session_id": "1997e141-66ba-4723-b7ec-9dc1b02f322e",
+  "total_cost_usd": 0.0371246,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 6556,
+   "cache_read_input_tokens": 23106,
+   "output_tokens": 857,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6556,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 390,
+     "cache_read_input_tokens": 7896,
+     "cache_creation_input_tokens": 73,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 73
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 857,
+    "cacheReadInputTokens": 23106,
+    "cacheCreationInputTokens": 6556,
+    "webSearchRequests": 0,
+    "costUSD": 0.0371246,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6556,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#43161\", \"PowerToys#40372\"], \"answer\": \"This has been reported before. PowerToys#43161 is the same request: PowerToys Backup and restore doesn't include Command Palette settings, and it doesn't notice changes made to them. The archive shows no fix yet, so there is currently no built-in way to back up Command Palette. The ticket is still collecting votes for the feature. In the meantime, you can back up Command Palette by hand. Copy the contents of its settings folder, which is hidden by default: %LOCALAPPDATA%\\\\Packages\\\\Microsoft.CommandPalette_8wekyb3d8bbwe\\\\LocalState. It holds settings.json and extension data such as bookmarks.json. You can also look in %LOCALAPPDATA%\\\\Microsoft.CmdPal, which is where PowerToys#40372 says the folder may be, depending on how PowerToys was installed. To restore, copy the files back into the same folder on the new install. Only do this while Command Palette is closed. Add a thumbs-up or a comment on PowerToys#43161 rather than opening a new ticket.\"}",
+  "ttft_ms": 2469,
+  "type": "result",
+  "duration_ms": 16070,
+  "uuid": "44c66433-4d32-4e0f-8c89-22984f667c88",
+  "ttft_stream_ms": 1533,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 1534,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 857,
+    "cacheReadInputTokens": 23106,
+    "cacheCreationInputTokens": 6556,
+    "webSearchRequests": 0,
+    "costUSD": 0.0371246,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6556,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 17.405869392998284,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-5isod5h3/work"
+  }
+ },
+ "wall_seconds": 17.407762683025794,
+ "qid": "PowerToys#51536",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#43161",
+   "PowerToys#40372"
+  ],
+  "answer": "This has been reported before. PowerToys#43161 is the same request: PowerToys Backup and restore doesn't include Command Palette settings, and it doesn't notice changes made to them. The archive shows no fix yet, so there is currently no built-in way to back up Command Palette. The ticket is still collecting votes for the feature. In the meantime, you can back up Command Palette by hand. Copy the contents of its settings folder, which is hidden by default: %LOCALAPPDATA%\\Packages\\Microsoft.CommandPalette_8wekyb3d8bbwe\\LocalState. It holds settings.json and extension data such as bookmarks.json. You can also look in %LOCALAPPDATA%\\Microsoft.CmdPal, which is where PowerToys#40372 says the folder may be, depending on how PowerToys was installed. To restore, copy the files back into the same folder on the new install. Only do this while Command Palette is closed. Add a thumbs-up or a comment on PowerToys#43161 rather than opening a new ticket."
+ },
+ "hit_turn_cap": false
+}

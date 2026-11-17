@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#15335",
+  "PowerToys#19588",
+  "PowerToys#22715",
+  "PowerToys#19090",
+  "PowerToys#42100"
+ ],
+ "retrieval_seconds": 0.016295144014293328,
+ "retrieval_scores": [
+  0.6937245726585388,
+  0.6863391995429993,
+  0.68101966381073,
+  0.6796053647994995,
+  0.6781771779060364
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2521,
+  "stop_reason": "end_turn",
+  "session_id": "859f767d-4fb7-43a2-a342-df5c79d33525",
+  "total_cost_usd": 0.042796,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 10013,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 274,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10013,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 274,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 10013,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 10013
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 274,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 10013,
+    "webSearchRequests": 0,
+    "costUSD": 0.042796,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10013,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"No past ticket reports this exact problem. The new ticket has no error message or description, only a bootstrapper log and a screenshot that I can't read, so I can't tell why the install or upgrade fails. The past installer tickets each had a different root cause: a failed .NET runtime install (#15335, #22715), a conflicting newer VC++ Redist (#19090), a leftover or conflicting existing install (#19588, #42100). Please check the bootstrapper log for the first 'e000' error line and the failing package. Then try the matching fix: install the .NET Desktop Runtime manually, uninstall any newer VC++ Redist, or fully remove old PowerToys installs (per-user and per-machine) and retry. If it still fails, please post the error code and the failing package from the log.\"}",
+  "ttft_ms": 2701,
+  "type": "result",
+  "duration_ms": 2716,
+  "uuid": "ad5e8f9d-a936-4fbf-9a56-2ff4a52038c8",
+  "ttft_stream_ms": 635,
+  "time_to_request_ms": 194,
+  "first_content_frame_ms": 635,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 274,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 10013,
+    "webSearchRequests": 0,
+    "costUSD": 0.042796,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10013,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.516980338987196,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-17rzy3ak/work"
+  }
+ },
+ "wall_seconds": 3.534893649019068,
+ "qid": "PowerToys#49800",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "No past ticket reports this exact problem. The new ticket has no error message or description, only a bootstrapper log and a screenshot that I can't read, so I can't tell why the install or upgrade fails. The past installer tickets each had a different root cause: a failed .NET runtime install (#15335, #22715), a conflicting newer VC++ Redist (#19090), a leftover or conflicting existing install (#19588, #42100). Please check the bootstrapper log for the first 'e000' error line and the failing package. Then try the matching fix: install the .NET Desktop Runtime manually, uninstall any newer VC++ Redist, or fully remove old PowerToys installs (per-user and per-machine) and retry. If it still fails, please post the error code and the failing package from the log."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#15125",
+  "PowerToys#47065",
+  "PowerToys#41540",
+  "PowerToys#13035",
+  "PowerToys#9496"
+ ],
+ "retrieval_seconds": 0.5245951279939618,
+ "retrieval_scores": [
+  0.032266458495966696,
+  0.032018442622950824,
+  0.0315136476426799,
+  0.030798389007344232,
+  0.03021353930031804
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3304,
+  "stop_reason": "end_turn",
+  "session_id": "81b62eb9-76c4-4315-a11a-e7e47279e2f9",
+  "total_cost_usd": 0.026633999999999998,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5985,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 269,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5985,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 269,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5985,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5985
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 269,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5985,
+    "webSearchRequests": 0,
+    "costUSD": 0.026633999999999998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5985,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#13035\", \"PowerToys#15125\", \"PowerToys#9496\"], \"answer\": \"This feature request (a HazeOver-style tool that dims inactive windows and leaves only the active one lit) has been filed before. PowerToys#13035 is the main thread that the other reports were closed as duplicates of (#15125 and #9496), so add your 👍 and any extra detail there, such as the multi-monitor and adjustable dimming-intensity requirements. The tickets show no committed plan to ship it in PowerToys. A community contributor started a proof of concept and the maintainers suggested building it as a separate app first. A user also wrote a standalone tool called PowerDimmer (github.com/[user]/PowerDimmer), which you could try in the meantime.\"}",
+  "ttft_ms": 3507,
+  "type": "result",
+  "duration_ms": 3527,
+  "uuid": "8b85d515-b320-4596-b194-2c3b54bef487",
+  "ttft_stream_ms": 1244,
+  "time_to_request_ms": 221,
+  "first_content_frame_ms": 1244,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 269,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5985,
+    "webSearchRequests": 0,
+    "costUSD": 0.026633999999999998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5985,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.570055276009953,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-qtbg2wrs/work"
+  }
+ },
+ "wall_seconds": 5.096748612006195,
+ "qid": "PowerToys#49837",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#13035",
+   "PowerToys#15125",
+   "PowerToys#9496"
+  ],
+  "answer": "This feature request (a HazeOver-style tool that dims inactive windows and leaves only the active one lit) has been filed before. PowerToys#13035 is the main thread that the other reports were closed as duplicates of (#15125 and #9496), so add your 👍 and any extra detail there, such as the multi-monitor and adjustable dimming-intensity requirements. The tickets show no committed plan to ship it in PowerToys. A community contributor started a proof of concept and the maintainers suggested building it as a separate app first. A user also wrote a standalone tool called PowerDimmer (github.com/[user]/PowerDimmer), which you could try in the meantime."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#3421",
+  "PowerToys#8937",
+  "PowerToys#21181",
+  "PowerToys#31122",
+  "PowerToys#9957"
+ ],
+ "retrieval_seconds": 0.015622673003235832,
+ "retrieval_scores": [
+  0.7152463793754578,
+  0.708939254283905,
+  0.6954729557037354,
+  0.6942532658576965,
+  0.6940215826034546
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3508,
+  "stop_reason": "end_turn",
+  "session_id": "67e73a48-780f-4cb7-9f42-a11710451d4f",
+  "total_cost_usd": 0.013684000000000002,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 2645,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 310,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 2645,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 310,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 2645,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2645
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 310,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 2645,
+    "webSearchRequests": 0,
+    "costUSD": 0.013684000000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2645,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#31122\", \"PowerToys#3421\", \"PowerToys#9957\"], \"answer\": \"Remapping keys or shortcuts per keyboard (laptop vs. external USB) has been requested before and isn't supported. Keyboard Manager remaps apply to all attached keyboards, because Windows doesn't let PowerToys tell which keyboard a keystroke came from (PowerToys#3421). Newer requests such as PowerToys#31122 were closed as duplicates of the tracking issue PowerToys#1460, so follow and add a 👍 there to vote for the feature. For now, the remap will apply to every keyboard. Your brightness question is a separate matter and the past tickets don't give a PowerToys command for it. One related ticket (PowerToys#21181) asked about remapping a key to Fn for brightness and was closed as a duplicate of PowerToys#20405.\"}",
+  "ttft_ms": 3725,
+  "type": "result",
+  "duration_ms": 3739,
+  "uuid": "5e981dd5-e9b2-4580-8b13-af494cad867a",
+  "ttft_stream_ms": 1314,
+  "time_to_request_ms": 230,
+  "first_content_frame_ms": 1314,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 310,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 2645,
+    "webSearchRequests": 0,
+    "costUSD": 0.013684000000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2645,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.7169339649844915,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-368s9m1x/work"
+  }
+ },
+ "wall_seconds": 4.734320747986203,
+ "qid": "PowerToys#51818",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#31122",
+   "PowerToys#3421",
+   "PowerToys#9957"
+  ],
+  "answer": "Remapping keys or shortcuts per keyboard (laptop vs. external USB) has been requested before and isn't supported. Keyboard Manager remaps apply to all attached keyboards, because Windows doesn't let PowerToys tell which keyboard a keystroke came from (PowerToys#3421). Newer requests such as PowerToys#31122 were closed as duplicates of the tracking issue PowerToys#1460, so follow and add a 👍 there to vote for the feature. For now, the remap will apply to every keyboard. Your brightness question is a separate matter and the past tickets don't give a PowerToys command for it. One related ticket (PowerToys#21181) asked about remapping a key to Fn for brightness and was closed as a duplicate of PowerToys#20405."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#2795",
+  "PowerToys#4560",
+  "PowerToys#2280",
+  "PowerToys#3178",
+  "PowerToys#7382"
+ ],
+ "retrieval_seconds": 0.017260091000935063,
+ "retrieval_scores": [
+  0.6961018443107605,
+  0.6950522065162659,
+  0.6687830090522766,
+  0.6563212275505066,
+  0.6528266072273254
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3337,
+  "stop_reason": "end_turn",
+  "session_id": "bdb4f54c-7e85-44ea-80c4-9e80708ce911",
+  "total_cost_usd": 0.020484000000000002,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4420,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 280,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4420,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 280,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4420,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4420
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 280,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4420,
+    "webSearchRequests": 0,
+    "costUSD": 0.020484000000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4420,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"No past ticket reports this problem. The archived Image Resizer tickets (#2795, #3178, #4560) are about the settings UI not saving the filename format, #2280 is about a crash on malformed settings JSON, and #7382 is about naming of the settings folder. None involve the CLI ignoring -n/--filename on first run when settings.json doesn't exist. Treat this as a new bug. Your root-cause analysis (the cached _fileNameFormat in Settings.cs being computed during the default save in Reload() and never cleared by the FileName setter) and the suggested fix (clear the cache in the setter and mark FileNameFormat [JsonIgnore]) look reasonable. In the meantime, running the CLI once so settings.json is created, then re-running with --filename, works around it.\"}",
+  "ttft_ms": 3510,
+  "type": "result",
+  "duration_ms": 3526,
+  "uuid": "b595bb08-3dd1-4c4e-aece-680397262a2d",
+  "ttft_stream_ms": 1566,
+  "time_to_request_ms": 189,
+  "first_content_frame_ms": 1566,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 280,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4420,
+    "webSearchRequests": 0,
+    "costUSD": 0.020484000000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4420,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.38771126899519,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ien3y4h6/work"
+  }
+ },
+ "wall_seconds": 4.407034333999036,
+ "qid": "PowerToys#51319",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "No past ticket reports this problem. The archived Image Resizer tickets (#2795, #3178, #4560) are about the settings UI not saving the filename format, #2280 is about a crash on malformed settings JSON, and #7382 is about naming of the settings folder. None involve the CLI ignoring -n/--filename on first run when settings.json doesn't exist. Treat this as a new bug. Your root-cause analysis (the cached _fileNameFormat in Settings.cs being computed during the default save in Reload() and never cleared by the FileName setter) and the suggested fix (clear the cache in the setter and mark FileNameFormat [JsonIgnore]) look reasonable. In the meantime, running the CLI once so settings.json is created, then re-running with --filename, works around it."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "seen-before": {
+      "command": "uv",
+      "args": ["run", "--quiet", "--script", "${CLAUDE_PLUGIN_ROOT}/seen_before.py", "serve"],
+      "env": {"SEEN_BEFORE_SERVER_NAME": "seen-before"}
+    }
+  }
+}

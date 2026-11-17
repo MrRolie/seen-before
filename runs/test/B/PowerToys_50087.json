@@ -1,0 +1,352 @@
+{
+ "shown": [
+  "PowerToys#15961",
+  "PowerToys#18021",
+  "PowerToys#19451",
+  "PowerToys#20882",
+  "PowerToys#24206",
+  "PowerToys#26324",
+  "PowerToys#27948",
+  "PowerToys#29454",
+  "PowerToys#29650",
+  "PowerToys#30163",
+  "PowerToys#30846",
+  "PowerToys#31841",
+  "PowerToys#32525",
+  "PowerToys#34153",
+  "PowerToys#37306",
+  "PowerToys#37739",
+  "PowerToys#38738",
+  "PowerToys#38948",
+  "PowerToys#41377",
+  "PowerToys#41724",
+  "PowerToys#42100",
+  "PowerToys#42181",
+  "PowerToys#43774",
+  "PowerToys#46994",
+  "PowerToys#47250",
+  "PowerToys#6533",
+  "PowerToys#6673"
+ ],
+ "retrieval_seconds": 0.34210008196532726,
+ "tool_calls": [
+  {
+   "t": 1794881484.968715,
+   "tool": "search",
+   "args": {
+    "pattern": "related bundle",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06383873600861989,
+   "returned": [
+    "PowerToys#42100",
+    "PowerToys#41724",
+    "PowerToys#46994",
+    "PowerToys#27948",
+    "PowerToys#19451",
+    "PowerToys#18021",
+    "PowerToys#47250",
+    "PowerToys#43774",
+    "PowerToys#41377",
+    "PowerToys#38948",
+    "PowerToys#38738",
+    "PowerToys#37739",
+    "PowerToys#37306",
+    "PowerToys#32525",
+    "PowerToys#31841",
+    "PowerToys#30846",
+    "PowerToys#30163",
+    "PowerToys#29650",
+    "PowerToys#29454",
+    "PowerToys#26324"
+   ]
+  },
+  {
+   "t": 1794881485.0618737,
+   "tool": "search",
+   "args": {
+    "pattern": "0x80070003",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06919269901118241,
+   "returned": [
+    "PowerToys#42181",
+    "PowerToys#27948",
+    "PowerToys#20882",
+    "PowerToys#34153",
+    "PowerToys#6673",
+    "PowerToys#6533",
+    "PowerToys#24206",
+    "PowerToys#15961"
+   ]
+  },
+  {
+   "t": 1794881485.145767,
+   "tool": "search",
+   "args": {
+    "pattern": "wixtoolset/issues/7675",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07411802199203521,
+   "returned": []
+  },
+  {
+   "t": 1794881487.4524245,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43774"
+   },
+   "seconds": 0.00017108599422499537,
+   "returned": [
+    "PowerToys#43774"
+   ]
+  },
+  {
+   "t": 1794881487.4611933,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47250"
+   },
+   "seconds": 0.00011070698383264244,
+   "returned": [
+    "PowerToys#47250"
+   ]
+  },
+  {
+   "t": 1794881487.629923,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46994"
+   },
+   "seconds": 0.00012837699614465237,
+   "returned": [
+    "PowerToys#46994"
+   ]
+  },
+  {
+   "t": 1794881490.3317633,
+   "tool": "search",
+   "args": {
+    "pattern": "Failed to configure per-user related bundle",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.08587809099117294,
+   "returned": [
+    "PowerToys#42181"
+   ]
+  },
+  {
+   "t": 1794881490.3888807,
+   "tool": "search",
+   "args": {
+    "pattern": "w109",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.048511717992369086,
+   "returned": []
+  },
+  {
+   "t": 1794881490.4112673,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42181"
+   },
+   "seconds": 0.00015064599574543536,
+   "returned": [
+    "PowerToys#42181"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 15129,
+  "stop_reason": "end_turn",
+  "session_id": "134de8e9-7245-41c8-b31b-6b8f3f23b9c2",
+  "total_cost_usd": 0.1204843,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 25717,
+   "cache_read_input_tokens": 39903,
+   "output_tokens": 1361,
+   "output_tokens_details": {
+    "thinking_tokens": 400
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 25717,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 684,
+     "cache_read_input_tokens": 23993,
+     "cache_creation_input_tokens": 2901,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2901
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1361,
+    "cacheReadInputTokens": 39903,
+    "cacheCreationInputTokens": 25717,
+    "webSearchRequests": 0,
+    "costUSD": 0.1204843,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 400,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 25717,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this exact problem. That problem is Burn detecting and planning each per-user related bundle twice, which leaves a stale Installed Apps entry with a missing cached EXE. Some tickets are close but not the same. PowerToys#42181 has the same 0x80070003 'Failed to configure per-user related bundle' non-vital error, but it is about a reinstall with a file-in-use failure, and it never mentions duplicate planning. PowerToys#43774, #47250 and #46994 show the duplicated i102 'Detected related bundle' lines. Their actual failure is the 0x81f40001 per-user versus per-machine conflict, which is a different problem. Please file this as a new installer issue. Include the full Burn logs, and link wixtoolset/issues#7675. To clear a stale entry now, you can try uninstalling the matching older bundle from its cached copy if one still exists, or use a per-user installer of the same version to repair and then remove it. I could not confirm that workaround from the archive.\"}",
+  "ttft_ms": 2154,
+  "type": "result",
+  "duration_ms": 15571,
+  "uuid": "90e2dc1b-451e-43bb-bfc1-c91c368414b3",
+  "ttft_stream_ms": 1116,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 1117,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1361,
+    "cacheReadInputTokens": 39903,
+    "cacheCreationInputTokens": 25717,
+    "webSearchRequests": 0,
+    "costUSD": 0.1204843,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 400,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 25717,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.893713330995524,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-01pt8wp6/work"
+  }
+ },
+ "wall_seconds": 16.895798826997634,
+ "qid": "PowerToys#50087",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this exact problem. That problem is Burn detecting and planning each per-user related bundle twice, which leaves a stale Installed Apps entry with a missing cached EXE. Some tickets are close but not the same. PowerToys#42181 has the same 0x80070003 'Failed to configure per-user related bundle' non-vital error, but it is about a reinstall with a file-in-use failure, and it never mentions duplicate planning. PowerToys#43774, #47250 and #46994 show the duplicated i102 'Detected related bundle' lines. Their actual failure is the 0x81f40001 per-user versus per-machine conflict, which is a different problem. Please file this as a new installer issue. Include the full Burn logs, and link wixtoolset/issues#7675. To clear a stale entry now, you can try uninstalling the matching older bundle from its cached copy if one still exists, or use a per-user installer of the same version to repair and then remove it. I could not confirm that workaround from the archive."
+ },
+ "hit_turn_cap": false
+}

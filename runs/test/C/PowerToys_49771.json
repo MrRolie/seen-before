@@ -1,0 +1,400 @@
+{
+ "shown": [
+  "PowerToys#186",
+  "PowerToys#2283",
+  "PowerToys#38202",
+  "PowerToys#38704",
+  "PowerToys#39166",
+  "PowerToys#40102",
+  "PowerToys#45823",
+  "PowerToys#46097",
+  "PowerToys#46216",
+  "PowerToys#46268",
+  "PowerToys#46286",
+  "PowerToys#46321",
+  "PowerToys#46607",
+  "PowerToys#46791",
+  "PowerToys#46882",
+  "PowerToys#46976",
+  "PowerToys#47108",
+  "PowerToys#47155",
+  "PowerToys#47275",
+  "PowerToys#47430",
+  "PowerToys#47471",
+  "PowerToys#47939",
+  "PowerToys#48014",
+  "PowerToys#48456",
+  "PowerToys#48597",
+  "PowerToys#48680",
+  "PowerToys#48802",
+  "PowerToys#48833",
+  "PowerToys#48931",
+  "PowerToys#48933",
+  "PowerToys#48934",
+  "WSL#1051",
+  "WSL#12893",
+  "WSL#1301",
+  "WSL#216",
+  "WSL#3281",
+  "WSL#3762",
+  "WSL#4678",
+  "WSL#4706",
+  "WSL#488",
+  "WSL#8480",
+  "WSL#8570",
+  "WSL#9029",
+  "terminal#10563",
+  "terminal#11766",
+  "terminal#11934",
+  "terminal#3987",
+  "terminal#783"
+ ],
+ "retrieval_seconds": 3.583728930010693,
+ "tool_calls": [
+  {
+   "t": 1794879681.5302517,
+   "tool": "search",
+   "args": {
+    "query": "Command Palette dock shows ??? for CPU, GPU, RAM, no network send receive data",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.5562699979927856,
+   "returned": [
+    "PowerToys#46286",
+    "PowerToys#48833",
+    "PowerToys#46097",
+    "PowerToys#46976",
+    "PowerToys#46607",
+    "PowerToys#48597",
+    "PowerToys#47108",
+    "PowerToys#46882",
+    "PowerToys#48934",
+    "PowerToys#48802",
+    "PowerToys#46216",
+    "PowerToys#47939",
+    "PowerToys#47430",
+    "PowerToys#47471",
+    "PowerToys#46791",
+    "PowerToys#46321",
+    "PowerToys#48456",
+    "PowerToys#48680",
+    "PowerToys#47275",
+    "PowerToys#46268"
+   ]
+  },
+  {
+   "t": 1794879681.5536761,
+   "tool": "search",
+   "args": {
+    "query": "CmdPal dock performance widget no data",
+    "repo": null
+   },
+   "seconds": 0.011963099997956306,
+   "returned": [
+    "PowerToys#48833",
+    "PowerToys#48802",
+    "PowerToys#48934",
+    "PowerToys#38704",
+    "PowerToys#39166",
+    "PowerToys#48933",
+    "PowerToys#48680",
+    "PowerToys#40102",
+    "PowerToys#46976",
+    "PowerToys#46097",
+    "PowerToys#48931",
+    "terminal#10563",
+    "PowerToys#38202",
+    "PowerToys#47108",
+    "PowerToys#48014",
+    "PowerToys#2283",
+    "WSL#12893",
+    "PowerToys#47155",
+    "PowerToys#46216",
+    "PowerToys#46882"
+   ]
+  },
+  {
+   "t": 1794879682.390008,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48680"
+   },
+   "seconds": 0.00018404499860480428,
+   "returned": [
+    "PowerToys#48680"
+   ]
+  },
+  {
+   "t": 1794879682.6164443,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48833"
+   },
+   "seconds": 0.00012337701627984643,
+   "returned": [
+    "PowerToys#48833"
+   ]
+  },
+  {
+   "t": 1794879682.809597,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46286"
+   },
+   "seconds": 0.00013804598711431026,
+   "returned": [
+    "PowerToys#46286"
+   ]
+  },
+  {
+   "t": 1794879683.9097762,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46216"
+   },
+   "seconds": 0.00012192601570859551,
+   "returned": [
+    "PowerToys#46216"
+   ]
+  },
+  {
+   "t": 1794879684.120884,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47275"
+   },
+   "seconds": 0.00013742598821409047,
+   "returned": [
+    "PowerToys#47275"
+   ]
+  },
+  {
+   "t": 1794879685.1809878,
+   "tool": "search",
+   "args": {
+    "query": "performance counters broken ??? dock fix lodctr /R rebuild performance counter",
+    "repo": null
+   },
+   "seconds": 0.014683145011076704,
+   "returned": [
+    "PowerToys#48833",
+    "terminal#11934",
+    "terminal#11766",
+    "WSL#12893",
+    "terminal#783",
+    "WSL#216",
+    "PowerToys#45823",
+    "WSL#4706",
+    "PowerToys#186",
+    "WSL#488",
+    "terminal#10563",
+    "WSL#8570",
+    "terminal#3987",
+    "WSL#3762",
+    "WSL#8480",
+    "WSL#1051",
+    "WSL#1301",
+    "WSL#3281",
+    "WSL#9029",
+    "WSL#4678"
+   ]
+  },
+  {
+   "t": 1794879685.9842057,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48597"
+   },
+   "seconds": 0.0001078670029528439,
+   "returned": [
+    "PowerToys#48597"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10448,
+  "stop_reason": "end_turn",
+  "session_id": "39fd6891-066c-448b-8fbc-fe9cd6e3b6fc",
+  "total_cost_usd": 0.0619881,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 11718,
+   "cache_read_input_tokens": 36621,
+   "output_tokens": 1143,
+   "output_tokens_details": {
+    "thinking_tokens": 159
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11718,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 507,
+     "cache_read_input_tokens": 11891,
+     "cache_creation_input_tokens": 860,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 860
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1143,
+    "cacheReadInputTokens": 36621,
+    "cacheCreationInputTokens": 11718,
+    "webSearchRequests": 0,
+    "costUSD": 0.0619881,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 159,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11718,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46216\", \"PowerToys#48680\", \"PowerToys#47275\"], \"answer\": \"This has been reported before. The CmdPal Dock performance widgets (CPU, GPU, RAM, network) show ??? or no data. Several tickets describe it, including on 0.100.x, and none of them records a code fix. There are three things to try. (1) Click each widget (CPU, GPU, RAM, network) once. In #46216 one user said this fixed it and it stayed fixed after restarts. Other users said it did nothing for them. (2) The cause may be a corrupted or unregistered Windows performance counter database. If Task Manager or other monitors also show missing GPU or network data, open an elevated Command Prompt, run `lodctr /R`, and reboot. In #48597 a user said this restored the network and GPU data. (3) Make sure you are on the latest PowerToys. Fixes for the ??? after restart were being worked on in #48680 and #48833, but #46216 shows 0.100.2 users still affected. If none of this helps, add your bug report ZIP and your details to #46216.\"}",
+  "ttft_ms": 1382,
+  "type": "result",
+  "duration_ms": 14083,
+  "uuid": "c5360214-f8c4-4f80-8e2c-7c566b618f51",
+  "ttft_stream_ms": 572,
+  "time_to_request_ms": 27,
+  "first_content_frame_ms": 572,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1143,
+    "cacheReadInputTokens": 36621,
+    "cacheCreationInputTokens": 11718,
+    "webSearchRequests": 0,
+    "costUSD": 0.0619881,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 159,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11718,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.38472579800873,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-h50yw15n/work"
+  }
+ },
+ "wall_seconds": 15.38643123098882,
+ "qid": "PowerToys#49771",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46216",
+   "PowerToys#48680",
+   "PowerToys#47275"
+  ],
+  "answer": "This has been reported before. The CmdPal Dock performance widgets (CPU, GPU, RAM, network) show ??? or no data. Several tickets describe it, including on 0.100.x, and none of them records a code fix. There are three things to try. (1) Click each widget (CPU, GPU, RAM, network) once. In #46216 one user said this fixed it and it stayed fixed after restarts. Other users said it did nothing for them. (2) The cause may be a corrupted or unregistered Windows performance counter database. If Task Manager or other monitors also show missing GPU or network data, open an elevated Command Prompt, run `lodctr /R`, and reboot. In #48597 a user said this restored the network and GPU data. (3) Make sure you are on the latest PowerToys. Fixes for the ??? after restart were being worked on in #48680 and #48833, but #46216 shows 0.100.2 users still affected. If none of this helps, add your bug report ZIP and your details to #46216."
+ },
+ "hit_turn_cap": false
+}

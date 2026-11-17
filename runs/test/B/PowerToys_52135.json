@@ -1,0 +1,302 @@
+{
+ "shown": [
+  "PowerToys#14847",
+  "PowerToys#22655",
+  "PowerToys#27625",
+  "PowerToys#27869",
+  "PowerToys#31686",
+  "PowerToys#31718",
+  "PowerToys#31737",
+  "PowerToys#32156",
+  "PowerToys#32273",
+  "PowerToys#35008",
+  "PowerToys#35543",
+  "PowerToys#356",
+  "PowerToys#36121",
+  "PowerToys#38791",
+  "PowerToys#39939",
+  "PowerToys#41097",
+  "PowerToys#44402",
+  "PowerToys#47842",
+  "PowerToys#48217",
+  "PowerToys#7260"
+ ],
+ "retrieval_seconds": 0.1132091179897543,
+ "tool_calls": [
+  {
+   "t": 1794885852.194529,
+   "tool": "search",
+   "args": {
+    "pattern": "folder size",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.052933962986571714,
+   "returned": [
+    "PowerToys#356",
+    "PowerToys#48217",
+    "PowerToys#32273",
+    "PowerToys#44402",
+    "PowerToys#38791",
+    "PowerToys#31718",
+    "PowerToys#27625",
+    "PowerToys#7260",
+    "PowerToys#47842",
+    "PowerToys#41097",
+    "PowerToys#32156",
+    "PowerToys#31737",
+    "PowerToys#31686",
+    "PowerToys#27869",
+    "PowerToys#22655",
+    "PowerToys#14847",
+    "PowerToys#39939",
+    "PowerToys#36121",
+    "PowerToys#35543",
+    "PowerToys#35008"
+   ]
+  },
+  {
+   "t": 1794885852.265663,
+   "tool": "search",
+   "args": {
+    "pattern": "capacity bar",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05938548900303431,
+   "returned": []
+  },
+  {
+   "t": 1794885854.5025516,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#7260"
+   },
+   "seconds": 0.0002191640087403357,
+   "returned": [
+    "PowerToys#7260"
+   ]
+  },
+  {
+   "t": 1794885854.6003041,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#31718"
+   },
+   "seconds": 0.00022571400040760636,
+   "returned": [
+    "PowerToys#31718"
+   ]
+  },
+  {
+   "t": 1794885856.1888154,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#356"
+   },
+   "seconds": 0.00023502399562858045,
+   "returned": [
+    "PowerToys#356"
+   ]
+  },
+  {
+   "t": 1794885858.2654421,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#14847"
+   },
+   "seconds": 0.00020976399537175894,
+   "returned": [
+    "PowerToys#14847"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11254,
+  "stop_reason": "end_turn",
+  "session_id": "f9212829-a929-4222-bc1f-cb303422297b",
+  "total_cost_usd": 0.0482405,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 9386,
+   "cache_read_input_tokens": 27865,
+   "output_tokens": 789,
+   "output_tokens_details": {
+    "thinking_tokens": 74
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9386,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 311,
+     "cache_read_input_tokens": 10239,
+     "cache_creation_input_tokens": 324,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 324
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 789,
+    "cacheReadInputTokens": 27865,
+    "cacheCreationInputTokens": 9386,
+    "webSearchRequests": 0,
+    "costUSD": 0.0482405,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 74,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9386,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#356\", \"PowerToys#31718\", \"PowerToys#7260\"], \"answer\": \"This feature has been requested before. Folder sizes in File Explorer are tracked in PowerToys#356. Later requests, including #31718, #7260 and #14847, were closed as duplicates of it. The archive shows no implementation of this feature, so PowerToys can't do it today. Add your +1 or your ideas to #356. Those ideas are the capacity bar, a baseline of parent folder or drive, background caching, and exclusions for network and cloud folders. Until then, people in that thread use these workarounds. They open Properties on a folder, use PowerToys Peek on a folder to see its size, or use a third-party tool such as WizTree, TreeSize, the Folder Size utility, or the Files app. One point in your request is not covered in those tickets. None of them asks for the visual capacity bar.\"}",
+  "ttft_ms": 2085,
+  "type": "result",
+  "duration_ms": 11478,
+  "uuid": "1a1a1b52-4cca-4ff7-948c-db13892f83ee",
+  "ttft_stream_ms": 1308,
+  "time_to_request_ms": 37,
+  "first_content_frame_ms": 1308,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 789,
+    "cacheReadInputTokens": 27865,
+    "cacheCreationInputTokens": 9386,
+    "webSearchRequests": 0,
+    "costUSD": 0.0482405,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 74,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9386,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.83128916399437,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-xewp_nry/work"
+  }
+ },
+ "wall_seconds": 12.83318181600771,
+ "qid": "PowerToys#52135",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#356",
+   "PowerToys#31718",
+   "PowerToys#7260"
+  ],
+  "answer": "This feature has been requested before. Folder sizes in File Explorer are tracked in PowerToys#356. Later requests, including #31718, #7260 and #14847, were closed as duplicates of it. The archive shows no implementation of this feature, so PowerToys can't do it today. Add your +1 or your ideas to #356. Those ideas are the capacity bar, a baseline of parent folder or drive, background caching, and exclusions for network and cloud folders. Until then, people in that thread use these workarounds. They open Properties on a folder, use PowerToys Peek on a folder to see its size, or use a third-party tool such as WizTree, TreeSize, the Folder Size utility, or the Files app. One point in your request is not covered in those tickets. None of them asks for the visual capacity bar."
+ },
+ "hit_turn_cap": false
+}

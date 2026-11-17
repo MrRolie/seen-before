@@ -1,0 +1,512 @@
+{
+ "shown": [
+  "PowerToys#10099",
+  "PowerToys#10384",
+  "PowerToys#10903",
+  "PowerToys#11083",
+  "PowerToys#11140",
+  "PowerToys#11433",
+  "PowerToys#11459",
+  "PowerToys#11701",
+  "PowerToys#11882",
+  "PowerToys#11894",
+  "PowerToys#11963",
+  "PowerToys#12147",
+  "PowerToys#13207",
+  "PowerToys#14702",
+  "PowerToys#14992",
+  "PowerToys#1517",
+  "PowerToys#15921",
+  "PowerToys#1650",
+  "PowerToys#1730",
+  "PowerToys#1742",
+  "PowerToys#18287",
+  "PowerToys#20197",
+  "PowerToys#23236",
+  "PowerToys#24475",
+  "PowerToys#2487",
+  "PowerToys#25350",
+  "PowerToys#2552",
+  "PowerToys#26727",
+  "PowerToys#28894",
+  "PowerToys#29026",
+  "PowerToys#29044",
+  "PowerToys#291",
+  "PowerToys#3035",
+  "PowerToys#3036",
+  "PowerToys#3134",
+  "PowerToys#33605",
+  "PowerToys#3404",
+  "PowerToys#36092",
+  "PowerToys#375",
+  "PowerToys#39182",
+  "PowerToys#4006",
+  "PowerToys#43437",
+  "PowerToys#44373",
+  "PowerToys#445",
+  "PowerToys#44827",
+  "PowerToys#45201",
+  "PowerToys#46070",
+  "PowerToys#4694",
+  "PowerToys#47260",
+  "PowerToys#47859",
+  "PowerToys#48190",
+  "PowerToys#48491",
+  "PowerToys#4851",
+  "PowerToys#48789",
+  "PowerToys#4920",
+  "PowerToys#5063",
+  "PowerToys#5167",
+  "PowerToys#543",
+  "PowerToys#5797",
+  "PowerToys#5976",
+  "PowerToys#6816",
+  "PowerToys#7065",
+  "PowerToys#7169",
+  "PowerToys#7369",
+  "PowerToys#7371",
+  "PowerToys#8058",
+  "PowerToys#8662",
+  "PowerToys#8736",
+  "PowerToys#9105",
+  "PowerToys#9727",
+  "PowerToys#9771"
+ ],
+ "retrieval_seconds": 4.6358633839699905,
+ "tool_calls": [
+  {
+   "t": 1794877052.6975,
+   "tool": "search",
+   "args": {
+    "pattern": "taskbar",
+    "regex": false,
+    "also": [
+     "auto-hide"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.12405533401761204,
+   "returned": [
+    "PowerToys#45201",
+    "PowerToys#10903",
+    "PowerToys#28894",
+    "PowerToys#43437",
+    "PowerToys#4694",
+    "PowerToys#44827",
+    "PowerToys#15921",
+    "PowerToys#24475",
+    "PowerToys#1650",
+    "PowerToys#47859",
+    "PowerToys#23236",
+    "PowerToys#33605",
+    "PowerToys#29044",
+    "PowerToys#29026",
+    "PowerToys#445",
+    "PowerToys#47260",
+    "PowerToys#44373",
+    "PowerToys#36092",
+    "PowerToys#20197",
+    "PowerToys#11459"
+   ]
+  },
+  {
+   "t": 1794877056.80601,
+   "tool": "similar",
+   "args": {
+    "query": "Shortcut Guide taskbar indicators wrong position when taskbar auto-hide",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.083735288993921,
+   "returned": [
+    "PowerToys#7169",
+    "PowerToys#11433",
+    "PowerToys#11459",
+    "PowerToys#9105",
+    "PowerToys#8736",
+    "PowerToys#291",
+    "PowerToys#13207",
+    "PowerToys#11882",
+    "PowerToys#9771",
+    "PowerToys#1517",
+    "PowerToys#11701",
+    "PowerToys#10384",
+    "PowerToys#1742",
+    "PowerToys#2552",
+    "PowerToys#5063",
+    "PowerToys#4006",
+    "PowerToys#1650",
+    "PowerToys#5167",
+    "PowerToys#12147",
+    "PowerToys#6816"
+   ]
+  },
+  {
+   "t": 1794877058.4221132,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#291"
+   },
+   "seconds": 0.000159476010594517,
+   "returned": [
+    "PowerToys#291"
+   ]
+  },
+  {
+   "t": 1794877060.6837661,
+   "tool": "search",
+   "args": {
+    "pattern": "taskbar indicators",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04123652700218372,
+   "returned": [
+    "PowerToys#48789",
+    "PowerToys#39182"
+   ]
+  },
+  {
+   "t": 1794877060.783677,
+   "tool": "similar",
+   "args": {
+    "query": "Shortcut Guide V2 taskbar indicators badges misplaced obscure icons",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.018473108008038253,
+   "returned": [
+    "PowerToys#2552",
+    "PowerToys#1730",
+    "PowerToys#3036",
+    "PowerToys#1517",
+    "PowerToys#2487",
+    "PowerToys#11433",
+    "PowerToys#7369",
+    "PowerToys#3404",
+    "PowerToys#9727",
+    "PowerToys#14702",
+    "PowerToys#8662",
+    "PowerToys#291",
+    "PowerToys#4851",
+    "PowerToys#8058",
+    "PowerToys#46070",
+    "PowerToys#10099",
+    "PowerToys#3035",
+    "PowerToys#543",
+    "PowerToys#5797",
+    "PowerToys#25350"
+   ]
+  },
+  {
+   "t": 1794877062.190851,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39182"
+   },
+   "seconds": 0.00016856499132700264,
+   "returned": [
+    "PowerToys#39182"
+   ]
+  },
+  {
+   "t": 1794877063.9727411,
+   "tool": "search",
+   "args": {
+    "pattern": "Shortcut Guide",
+    "regex": false,
+    "also": [
+     "auto-hide"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.13075393199687824,
+   "returned": []
+  },
+  {
+   "t": 1794877066.064406,
+   "tool": "search",
+   "args": {
+    "pattern": "Shortcut Guide",
+    "regex": false,
+    "also": [
+     "autohide"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.13869060997967608,
+   "returned": [
+    "PowerToys#291",
+    "PowerToys#3134"
+   ]
+  },
+  {
+   "t": 1794877067.5445662,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48789"
+   },
+   "seconds": 0.0001244859886355698,
+   "returned": [
+    "PowerToys#48789"
+   ]
+  },
+  {
+   "t": 1794877068.9534693,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48491"
+   },
+   "seconds": 0.000150136009324342,
+   "returned": [
+    "PowerToys#48491"
+   ]
+  },
+  {
+   "t": 1794877070.612124,
+   "tool": "search",
+   "args": {
+    "pattern": "Hold Windows key",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0800714349898044,
+   "returned": [
+    "PowerToys#14992",
+    "PowerToys#11963",
+    "PowerToys#48190",
+    "PowerToys#26727",
+    "PowerToys#11894",
+    "PowerToys#11140",
+    "PowerToys#7065",
+    "PowerToys#5976",
+    "PowerToys#375"
+   ]
+  },
+  {
+   "t": 1794877072.6324546,
+   "tool": "similar",
+   "args": {
+    "query": "Shortcut Guide taskbar indicators appear over taskbar items instead of positioned correctly, taskbar auto-hide",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.017777278990251943,
+   "returned": [
+    "PowerToys#7169",
+    "PowerToys#13207",
+    "PowerToys#11433",
+    "PowerToys#8736",
+    "PowerToys#11882",
+    "PowerToys#11459",
+    "PowerToys#11083",
+    "PowerToys#2552",
+    "PowerToys#291",
+    "PowerToys#9771",
+    "PowerToys#8662",
+    "PowerToys#4920",
+    "PowerToys#445",
+    "PowerToys#1517",
+    "PowerToys#18287",
+    "PowerToys#11701",
+    "PowerToys#8058",
+    "PowerToys#9105",
+    "PowerToys#4851",
+    "PowerToys#7371"
+   ]
+  },
+  {
+   "t": 1794877074.3030825,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#9105"
+   },
+   "seconds": 0.0004672069917432964,
+   "returned": [
+    "PowerToys#9105"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 24693,
+  "stop_reason": "end_turn",
+  "session_id": "a94db58d-13bb-4f15-9303-c474ab462bab",
+  "total_cost_usd": 0.0935331,
+  "usage": {
+   "input_tokens": 24,
+   "cache_creation_input_tokens": 15658,
+   "cache_read_input_tokens": 129431,
+   "output_tokens": 1791,
+   "output_tokens_details": {
+    "thinking_tokens": 38
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 15658,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 597,
+     "cache_read_input_tokens": 16369,
+     "cache_creation_input_tokens": 702,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 702
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 24,
+    "outputTokens": 1791,
+    "cacheReadInputTokens": 129431,
+    "cacheCreationInputTokens": 15658,
+    "webSearchRequests": 0,
+    "costUSD": 0.0935331,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 38,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15658,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I found no past ticket that reports this exact problem, so I'm treating it as new.\n\n- **Closest ticket:** PowerToys#291 is also about Shortcut Guide and an auto-hiding taskbar. It describes the old Shortcut Guide, which showed no numbers (or only a stray \"0\") when the taskbar was hidden. It was closed in May 2026 because Shortcut Guide V2, released in 0.100, replaced that code. Your report is about V2 and the opposite symptom: indicators do appear, but they sit on top of the taskbar items.\n- **Other tickets checked:** PowerToys#9105, PowerToys#39182, PowerToys#48789 and PowerToys#48491 cover different problems.\n\nTo help the team triage it, file this as a new Shortcut Guide V2 bug. Include your screenshots, the 0.102 build, and the repro with auto-hide on and the taskbar shown by hovering. Mention whether the indicators line up when auto-hide is off. I found nothing in the archive that offers a workaround, so the only option for now is to turn off \"Automatically hide the taskbar\" while you use Shortcut Guide.\n\n```json\n{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this exact problem. The closest, PowerToys#291, is about the old Shortcut Guide showing no numbers when the taskbar auto-hides, and it was closed once V2 replaced that code in 0.100. Yours is a V2 bug where the indicators appear but cover the taskbar items. Please file it as a new bug with your screenshots and the 0.102 build, and say whether the indicators line up when auto-hide is off. The archive has no workaround, so for now turn off 'Automatically hide the taskbar' while you use Shortcut Guide.\"}\n```",
+  "ttft_ms": 2181,
+  "type": "result",
+  "duration_ms": 29463,
+  "uuid": "eb4e7050-873c-41b9-bbfc-74451c99b7a6",
+  "ttft_stream_ms": 1121,
+  "time_to_request_ms": 45,
+  "first_content_frame_ms": 1121,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 24,
+    "outputTokens": 1791,
+    "cacheReadInputTokens": 129431,
+    "cacheCreationInputTokens": 15658,
+    "webSearchRequests": 0,
+    "costUSD": 0.0935331,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 38,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15658,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 30.861972099984996,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-cdpf0883/work"
+  }
+ },
+ "wall_seconds": 30.864423971012002,
+ "qid": "PowerToys#50666",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this exact problem. The closest, PowerToys#291, is about the old Shortcut Guide showing no numbers when the taskbar auto-hides, and it was closed once V2 replaced that code in 0.100. Yours is a V2 bug where the indicators appear but cover the taskbar items. Please file it as a new bug with your screenshots and the 0.102 build, and say whether the indicators line up when auto-hide is off. The archive has no workaround, so for now turn off 'Automatically hide the taskbar' while you use Shortcut Guide."
+ },
+ "hit_turn_cap": false
+}

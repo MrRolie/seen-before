@@ -1,0 +1,280 @@
+{
+ "shown": [
+  "terminal#13281",
+  "terminal#1513",
+  "terminal#16464",
+  "terminal#16616",
+  "terminal#19168",
+  "terminal#2722",
+  "terminal#2723",
+  "terminal#3467",
+  "terminal#6083",
+  "terminal#6440",
+  "terminal#6607",
+  "terminal#7057",
+  "terminal#754",
+  "terminal#7672",
+  "terminal#8025",
+  "terminal#8084",
+  "terminal#8235",
+  "terminal#835",
+  "terminal#8452",
+  "terminal#8914"
+ ],
+ "retrieval_seconds": 4.018955394043587,
+ "tool_calls": [
+  {
+   "t": 1794879053.6765652,
+   "tool": "similar",
+   "args": {
+    "query": "reorder profiles in settings UI / new tab dropdown order, including extensions entries",
+    "repo": "terminal"
+   },
+   "seconds": 3.987070406001294,
+   "returned": [
+    "terminal#8914",
+    "terminal#19168",
+    "terminal#6083",
+    "terminal#6440",
+    "terminal#13281",
+    "terminal#7057",
+    "terminal#2723",
+    "terminal#2722",
+    "terminal#8084",
+    "terminal#835",
+    "terminal#16464",
+    "terminal#1513",
+    "terminal#16616",
+    "terminal#8235",
+    "terminal#8025",
+    "terminal#3467",
+    "terminal#7672",
+    "terminal#754",
+    "terminal#6607",
+    "terminal#8452"
+   ]
+  },
+  {
+   "t": 1794879053.7280986,
+   "tool": "search",
+   "args": {
+    "pattern": "reorder profiles",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.03157502700923942,
+   "returned": [
+    "terminal#8914"
+   ]
+  },
+  {
+   "t": 1794879054.730081,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19168"
+   },
+   "seconds": 0.0001362060138490051,
+   "returned": [
+    "terminal#19168"
+   ]
+  },
+  {
+   "t": 1794879054.820353,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#8914"
+   },
+   "seconds": 0.00017375501920469105,
+   "returned": [
+    "terminal#8914"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6962,
+  "stop_reason": "end_turn",
+  "session_id": "f9b85897-f110-48fb-8c5e-07a9a4b09c03",
+  "total_cost_usd": 0.0320329,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 5848,
+   "cache_read_input_tokens": 14049,
+   "output_tokens": 722,
+   "output_tokens_details": {
+    "thinking_tokens": 40
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5848,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 310,
+     "cache_read_input_tokens": 7065,
+     "cache_creation_input_tokens": 196,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 196
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 722,
+    "cacheReadInputTokens": 14049,
+    "cacheCreationInputTokens": 5848,
+    "webSearchRequests": 0,
+    "costUSD": 0.0320329,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 40,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5848,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#8914\", \"terminal#19168\"], \"answer\": \"The archive has this request already. terminal#8914 (\\\"Profile reordering for Settings UI\\\") is the main tracking issue, and terminal#19168 was closed as a duplicate of it. It asks for a way to reorder profiles in the Settings UI, and it is still open as a feature request. Your extra ask, showing extension entries in the new-tab view, is not covered by either ticket, so I treated it as part of the same request. You can add your use case to #8914 and follow it there. Until it ships, reorder the entries in the `profiles.list` array in settings.json. The new-tab dropdown follows that order. If you only want certain profiles to open quickly, you can also bind `newTab` actions to specific profile indexes.\"}",
+  "ttft_ms": 1697,
+  "type": "result",
+  "duration_ms": 11074,
+  "uuid": "e7eaa6f6-3640-493a-80b9-3287bd0ebbcb",
+  "ttft_stream_ms": 750,
+  "time_to_request_ms": 44,
+  "first_content_frame_ms": 750,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 722,
+    "cacheReadInputTokens": 14049,
+    "cacheCreationInputTokens": 5848,
+    "webSearchRequests": 0,
+    "costUSD": 0.0320329,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 40,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5848,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.513691965985345,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-co8qu78b/work"
+  }
+ },
+ "wall_seconds": 12.515245908987708,
+ "qid": "terminal#20482",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#8914",
+   "terminal#19168"
+  ],
+  "answer": "The archive has this request already. terminal#8914 (\"Profile reordering for Settings UI\") is the main tracking issue, and terminal#19168 was closed as a duplicate of it. It asks for a way to reorder profiles in the Settings UI, and it is still open as a feature request. Your extra ask, showing extension entries in the new-tab view, is not covered by either ticket, so I treated it as part of the same request. You can add your use case to #8914 and follow it there. Until it ships, reorder the entries in the `profiles.list` array in settings.json. The new-tab dropdown follows that order. If you only want certain profiles to open quickly, you can also bind `newTab` actions to specific profile indexes."
+ },
+ "hit_turn_cap": false
+}

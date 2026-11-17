@@ -1,0 +1,312 @@
+{
+ "shown": [
+  "PowerToys#10201",
+  "PowerToys#10998",
+  "PowerToys#12158",
+  "PowerToys#12897",
+  "PowerToys#15076",
+  "PowerToys#15077",
+  "PowerToys#15152",
+  "PowerToys#15331",
+  "PowerToys#15695",
+  "PowerToys#16675",
+  "PowerToys#16792",
+  "PowerToys#17377",
+  "PowerToys#19793",
+  "PowerToys#199",
+  "PowerToys#22705",
+  "PowerToys#24843",
+  "PowerToys#25197",
+  "PowerToys#26011",
+  "PowerToys#27547",
+  "PowerToys#32107",
+  "PowerToys#37264",
+  "PowerToys#41103",
+  "PowerToys#46083",
+  "PowerToys#48259",
+  "PowerToys#48830",
+  "PowerToys#7325",
+  "PowerToys#7330",
+  "PowerToys#7533",
+  "PowerToys#7670",
+  "PowerToys#7726",
+  "PowerToys#7859",
+  "PowerToys#7965",
+  "PowerToys#9508"
+ ],
+ "retrieval_seconds": 0.2478914609819185,
+ "tool_calls": [
+  {
+   "t": 1794885563.8479614,
+   "tool": "search",
+   "args": {
+    "pattern": "translation",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06885445897933096,
+   "returned": [
+    "PowerToys#48259",
+    "PowerToys#7670",
+    "PowerToys#15077",
+    "PowerToys#15076",
+    "PowerToys#7533",
+    "PowerToys#16792",
+    "PowerToys#7325",
+    "PowerToys#37264",
+    "PowerToys#15695",
+    "PowerToys#16675",
+    "PowerToys#7965",
+    "PowerToys#7726",
+    "PowerToys#7330",
+    "PowerToys#41103",
+    "PowerToys#15152",
+    "PowerToys#12158",
+    "PowerToys#9508",
+    "PowerToys#199",
+    "PowerToys#48830",
+    "PowerToys#32107"
+   ]
+  },
+  {
+   "t": 1794885564.1395667,
+   "tool": "search",
+   "args": {
+    "pattern": "translate",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06298953498480842,
+   "returned": [
+    "PowerToys#48259",
+    "PowerToys#25197",
+    "PowerToys#7670",
+    "PowerToys#27547",
+    "PowerToys#7325",
+    "PowerToys#7859",
+    "PowerToys#10201",
+    "PowerToys#48830",
+    "PowerToys#17377",
+    "PowerToys#10998",
+    "PowerToys#46083",
+    "PowerToys#26011",
+    "PowerToys#24843",
+    "PowerToys#16792",
+    "PowerToys#15331",
+    "PowerToys#199",
+    "PowerToys#22705",
+    "PowerToys#19793",
+    "PowerToys#12897",
+    "PowerToys#9508"
+   ]
+  },
+  {
+   "t": 1794885566.6559782,
+   "tool": "search",
+   "args": {
+    "pattern": "in-app translation",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.058324351004557684,
+   "returned": []
+  },
+  {
+   "t": 1794885566.909277,
+   "tool": "search",
+   "args": {
+    "pattern": "Translate button",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.05772311601322144,
+   "returned": []
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6016,
+  "stop_reason": "end_turn",
+  "session_id": "022b17d1-eb23-4318-9df9-217a444632e8",
+  "total_cost_usd": 0.04192559999999999,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 8562,
+   "cache_read_input_tokens": 12456,
+   "output_tokens": 642,
+   "output_tokens_details": {
+    "thinking_tokens": 174
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8562,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 196,
+     "cache_read_input_tokens": 9340,
+     "cache_creation_input_tokens": 399,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 399
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 642,
+    "cacheReadInputTokens": 12456,
+    "cacheCreationInputTokens": 8562,
+    "webSearchRequests": 0,
+    "costUSD": 0.04192559999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 174,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8562,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this request. Your ticket describes translating messages, posts and other users' content inside an app. PowerToys has no such platform, so it looks like it was filed against the wrong product. Please send it to the app or service you meant. If you want translation in PowerToys itself, the archive has related requests for translating selected or on-screen text: PowerToys#22705, PowerToys#37264 and PowerToys#46083. You can add your use case to those tickets, or open a new request that names the PowerToys utility and the text you want translated.\"}",
+  "ttft_ms": 937,
+  "type": "result",
+  "duration_ms": 6178,
+  "uuid": "96d034ac-203e-4838-b23e-9a9e221f6249",
+  "ttft_stream_ms": 587,
+  "time_to_request_ms": 35,
+  "first_content_frame_ms": 587,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 642,
+    "cacheReadInputTokens": 12456,
+    "cacheCreationInputTokens": 8562,
+    "webSearchRequests": 0,
+    "costUSD": 0.04192559999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 174,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8562,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 7.773467535007512,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-g_jfa55w/work"
+  }
+ },
+ "wall_seconds": 7.775035925995326,
+ "qid": "PowerToys#52029",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this request. Your ticket describes translating messages, posts and other users' content inside an app. PowerToys has no such platform, so it looks like it was filed against the wrong product. Please send it to the app or service you meant. If you want translation in PowerToys itself, the archive has related requests for translating selected or on-screen text: PowerToys#22705, PowerToys#37264 and PowerToys#46083. You can add your use case to those tickets, or open a new request that names the PowerToys utility and the text you want translated."
+ },
+ "hit_turn_cap": false
+}

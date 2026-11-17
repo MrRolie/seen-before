@@ -1,0 +1,315 @@
+{
+ "shown": [
+  "PowerToys#47280",
+  "terminal#11509",
+  "terminal#12054",
+  "terminal#13019",
+  "terminal#13666",
+  "terminal#13810",
+  "terminal#18158",
+  "terminal#18605",
+  "terminal#19683",
+  "terminal#19692",
+  "terminal#19693",
+  "terminal#19694",
+  "terminal#19772",
+  "terminal#19783",
+  "terminal#20122",
+  "terminal#20302",
+  "terminal#7908",
+  "terminal#835"
+ ],
+ "retrieval_seconds": 0.3130493000498973,
+ "tool_calls": [
+  {
+   "t": 1794883449.5158293,
+   "tool": "search",
+   "args": {
+    "pattern": "Copilot CLI",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.02512823700089939,
+   "returned": [
+    "terminal#835",
+    "terminal#20122",
+    "terminal#19772",
+    "terminal#20302",
+    "terminal#19783",
+    "terminal#19683",
+    "terminal#18605",
+    "terminal#18158",
+    "terminal#11509"
+   ]
+  },
+  {
+   "t": 1794883449.5566235,
+   "tool": "search",
+   "args": {
+    "pattern": "screen reader announces",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.027053112018620595,
+   "returned": [
+    "terminal#19692",
+    "terminal#19694",
+    "terminal#19693",
+    "terminal#13019",
+    "terminal#12054",
+    "terminal#7908"
+   ]
+  },
+  {
+   "t": 1794883452.854572,
+   "tool": "search",
+   "args": {
+    "pattern": "NVDA",
+    "regex": false,
+    "also": [
+     "copilot"
+    ],
+    "repo": null
+   },
+   "seconds": 0.1332497100229375,
+   "returned": [
+    "PowerToys#47280"
+   ]
+  },
+  {
+   "t": 1794883454.3570905,
+   "tool": "search",
+   "args": {
+    "pattern": "announces the information of the second option",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06335904300794937,
+   "returned": []
+  },
+  {
+   "t": 1794883455.992303,
+   "tool": "search",
+   "args": {
+    "pattern": "Up Arrow",
+    "regex": false,
+    "also": [
+     "screen reader",
+     "option"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.0639614760002587,
+   "returned": [
+    "terminal#13810"
+   ]
+  },
+  {
+   "t": 1794883457.8261209,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#13810"
+   },
+   "seconds": 0.00012234700261615217,
+   "returned": [
+    "terminal#13810"
+   ]
+  },
+  {
+   "t": 1794883459.6101398,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#13666"
+   },
+   "seconds": 0.00017537499661557376,
+   "returned": [
+    "terminal#13666"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 16218,
+  "stop_reason": "end_turn",
+  "session_id": "a3bf3771-0653-4733-a8db-69d9f0142f8d",
+  "total_cost_usd": 0.0521764,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 9305,
+   "cache_read_input_tokens": 36744,
+   "output_tokens": 1125,
+   "output_tokens_details": {
+    "thinking_tokens": 91
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9305,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 377,
+     "cache_read_input_tokens": 7518,
+     "cache_creation_input_tokens": 2964,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2964
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1125,
+    "cacheReadInputTokens": 36744,
+    "cacheCreationInputTokens": 9305,
+    "webSearchRequests": 0,
+    "costUSD": 0.0521764,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 91,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9305,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this exact problem. That is NVDA or Narrator announcing the second option when focus moves to the first option with Up Arrow in the Copilot CLI option list. Two older tickets are related but not the same: terminal#13666 and terminal#13810. Both describe screen readers announcing interactive arrow-key prompts unreliably or blank, for example in `gh pr create` and `dpkg-reconfigure`. In terminal#13666 the maintainers explained that such apps redraw the whole prompt on every key press. The screen reader then can't tell which line changed. The suggested ways forward were a fix on the screen reader side, or a mechanism that lets apps tell screen readers what to read. Neither exists yet. Please keep this ticket open as a new report. Add the NVDA version, the Copilot CLI version, and the recording you linked. Say whether the wrong announcement happens only at the first option. Also say whether reviewing the line with the NVDA review cursor shows the correct selected option. That would suggest the cause is how Copilot CLI redraws its menu.\"}",
+  "ttft_ms": 2272,
+  "type": "result",
+  "duration_ms": 16657,
+  "uuid": "e3924242-0fa6-44db-aa04-c51426a05090",
+  "ttft_stream_ms": 1392,
+  "time_to_request_ms": 55,
+  "first_content_frame_ms": 1392,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1125,
+    "cacheReadInputTokens": 36744,
+    "cacheCreationInputTokens": 9305,
+    "webSearchRequests": 0,
+    "costUSD": 0.0521764,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 91,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9305,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.04568726598518,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-k3q7qbsb/work"
+  }
+ },
+ "wall_seconds": 18.048139885999262,
+ "qid": "terminal#20742",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this exact problem. That is NVDA or Narrator announcing the second option when focus moves to the first option with Up Arrow in the Copilot CLI option list. Two older tickets are related but not the same: terminal#13666 and terminal#13810. Both describe screen readers announcing interactive arrow-key prompts unreliably or blank, for example in `gh pr create` and `dpkg-reconfigure`. In terminal#13666 the maintainers explained that such apps redraw the whole prompt on every key press. The screen reader then can't tell which line changed. The suggested ways forward were a fix on the screen reader side, or a mechanism that lets apps tell screen readers what to read. Neither exists yet. Please keep this ticket open as a new report. Add the NVDA version, the Copilot CLI version, and the recording you linked. Say whether the wrong announcement happens only at the first option. Also say whether reviewing the line with the NVDA review cursor shows the correct selected option. That would suggest the cause is how Copilot CLI redraws its menu."
+ },
+ "hit_turn_cap": false
+}

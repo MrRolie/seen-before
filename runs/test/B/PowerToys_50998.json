@@ -1,0 +1,489 @@
+{
+ "shown": [
+  "PowerToys#10087",
+  "PowerToys#101",
+  "PowerToys#14064",
+  "PowerToys#14100",
+  "PowerToys#14138",
+  "PowerToys#14262",
+  "PowerToys#14280",
+  "PowerToys#14566",
+  "PowerToys#14651",
+  "PowerToys#14681",
+  "PowerToys#14740",
+  "PowerToys#14760",
+  "PowerToys#15512",
+  "PowerToys#15910",
+  "PowerToys#16021",
+  "PowerToys#16063",
+  "PowerToys#17431",
+  "PowerToys#18384",
+  "PowerToys#18691",
+  "PowerToys#19430",
+  "PowerToys#20475",
+  "PowerToys#20893",
+  "PowerToys#21473",
+  "PowerToys#22528",
+  "PowerToys#24049",
+  "PowerToys#24434",
+  "PowerToys#25625",
+  "PowerToys#25651",
+  "PowerToys#26703",
+  "PowerToys#28769",
+  "PowerToys#29257",
+  "PowerToys#29870",
+  "PowerToys#30501",
+  "PowerToys#33105",
+  "PowerToys#33443",
+  "PowerToys#33489",
+  "PowerToys#3452",
+  "PowerToys#3478",
+  "PowerToys#3571",
+  "PowerToys#36820",
+  "PowerToys#37411",
+  "PowerToys#38530",
+  "PowerToys#39573",
+  "PowerToys#39759",
+  "PowerToys#40494",
+  "PowerToys#40891",
+  "PowerToys#41954",
+  "PowerToys#41983",
+  "PowerToys#42459",
+  "PowerToys#42890",
+  "PowerToys#42995",
+  "PowerToys#43137",
+  "PowerToys#44363",
+  "PowerToys#4505",
+  "PowerToys#45295",
+  "PowerToys#45983",
+  "PowerToys#47823",
+  "PowerToys#48230",
+  "PowerToys#5079",
+  "PowerToys#5379",
+  "PowerToys#5730",
+  "PowerToys#5859",
+  "PowerToys#7468",
+  "PowerToys#890",
+  "PowerToys#907",
+  "PowerToys#9300"
+ ],
+ "retrieval_seconds": 0.995199047960341,
+ "tool_calls": [
+  {
+   "t": 1794883698.3759193,
+   "tool": "search",
+   "args": {
+    "pattern": "Find My Mouse",
+    "regex": false,
+    "also": [
+     "Shift"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1203450079774484,
+   "returned": [
+    "PowerToys#15512",
+    "PowerToys#14100",
+    "PowerToys#33443",
+    "PowerToys#14138",
+    "PowerToys#45295",
+    "PowerToys#17431",
+    "PowerToys#14681",
+    "PowerToys#14651",
+    "PowerToys#29257",
+    "PowerToys#28769",
+    "PowerToys#25651",
+    "PowerToys#21473",
+    "PowerToys#14740",
+    "PowerToys#14566",
+    "PowerToys#14280",
+    "PowerToys#14262"
+   ]
+  },
+  {
+   "t": 1794883698.4393969,
+   "tool": "search",
+   "args": {
+    "pattern": "shift+h",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04858688000240363,
+   "returned": [
+    "PowerToys#3478",
+    "PowerToys#45983",
+    "PowerToys#37411",
+    "PowerToys#5730",
+    "PowerToys#48230",
+    "PowerToys#40891",
+    "PowerToys#30501",
+    "PowerToys#29870",
+    "PowerToys#25625",
+    "PowerToys#16063",
+    "PowerToys#15512",
+    "PowerToys#14760",
+    "PowerToys#10087",
+    "PowerToys#7468",
+    "PowerToys#4505",
+    "PowerToys#3571",
+    "PowerToys#3452",
+    "PowerToys#890"
+   ]
+  },
+  {
+   "t": 1794883700.500724,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#29257"
+   },
+   "seconds": 0.00017666499479673803,
+   "returned": [
+    "PowerToys#29257"
+   ]
+  },
+  {
+   "t": 1794883703.0403452,
+   "tool": "search",
+   "args": {
+    "pattern": "uppercase",
+    "regex": false,
+    "also": [
+     "mouse"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.09852529497584328,
+   "returned": [
+    "PowerToys#19430",
+    "PowerToys#33489",
+    "PowerToys#20475",
+    "PowerToys#40494",
+    "PowerToys#39759",
+    "PowerToys#38530",
+    "PowerToys#33105",
+    "PowerToys#9300",
+    "PowerToys#5379",
+    "PowerToys#101"
+   ]
+  },
+  {
+   "t": 1794883703.3445644,
+   "tool": "search",
+   "args": {
+    "pattern": "sonar",
+    "regex": false,
+    "also": [
+     "keyboard",
+     "typing"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11522941099246964,
+   "returned": []
+  },
+  {
+   "t": 1794883703.4365568,
+   "tool": "search",
+   "args": {
+    "pattern": "capital letter",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07040264600072987,
+   "returned": [
+    "PowerToys#5859",
+    "PowerToys#44363",
+    "PowerToys#39573",
+    "PowerToys#18691",
+    "PowerToys#43137",
+    "PowerToys#41954",
+    "PowerToys#36820",
+    "PowerToys#26703",
+    "PowerToys#24434",
+    "PowerToys#24049",
+    "PowerToys#22528",
+    "PowerToys#20893",
+    "PowerToys#14064",
+    "PowerToys#5079",
+    "PowerToys#907",
+    "PowerToys#47823",
+    "PowerToys#42995",
+    "PowerToys#42890",
+    "PowerToys#42459",
+    "PowerToys#41983"
+   ]
+  },
+  {
+   "t": 1794883704.9939027,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42459"
+   },
+   "seconds": 0.00020834500901401043,
+   "returned": [
+    "PowerToys#42459"
+   ]
+  },
+  {
+   "t": 1794883705.1602488,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42890"
+   },
+   "seconds": 0.00017570500494912267,
+   "returned": [
+    "PowerToys#42890"
+   ]
+  },
+  {
+   "t": 1794883707.653596,
+   "tool": "search",
+   "args": {
+    "pattern": "find my mouse",
+    "regex": false,
+    "also": [
+     "shift key"
+    ],
+    "repo": null
+   },
+   "seconds": 0.12837017799029127,
+   "returned": [
+    "PowerToys#29257",
+    "PowerToys#28769"
+   ]
+  },
+  {
+   "t": 1794883707.9233153,
+   "tool": "search",
+   "args": {
+    "pattern": "mouse utilities",
+    "regex": false,
+    "also": [
+     "keyboard",
+     "disabled",
+     "typing"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.23084738399484195,
+   "returned": [
+    "PowerToys#28769",
+    "PowerToys#18384",
+    "PowerToys#16021",
+    "PowerToys#15910"
+   ]
+  },
+  {
+   "t": 1794883709.3820922,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47823"
+   },
+   "seconds": 0.0001612149935681373,
+   "returned": [
+    "PowerToys#47823"
+   ]
+  },
+  {
+   "t": 1794883711.365104,
+   "tool": "search",
+   "args": {
+    "pattern": "shift",
+    "regex": false,
+    "also": [
+     "find my mouse",
+     "not working"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.18217031602398492,
+   "returned": [
+    "PowerToys#21473"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 19777,
+  "stop_reason": "end_turn",
+  "session_id": "dee4ba5a-2da5-41a2-b9d0-7d4dfc7d93e4",
+  "total_cost_usd": 0.10022260000000001,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 18562,
+   "cache_read_input_tokens": 93126,
+   "output_tokens": 1663,
+   "output_tokens_details": {
+    "thinking_tokens": 101
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 18562,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 521,
+     "cache_read_input_tokens": 19328,
+     "cache_creation_input_tokens": 411,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 411
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1663,
+    "cacheReadInputTokens": 93126,
+    "cacheCreationInputTokens": 18562,
+    "webSearchRequests": 0,
+    "costUSD": 0.10022260000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 101,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18562,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I found no past ticket that matches this problem, so I'm treating it as new. I searched for Find My Mouse together with Shift, uppercase and capital-letter symptoms.\n\nThe closest tickets describe Shift failing in other modules:\n- PowerToys#29257 and PowerToys#47823: Shift stopped working because of FancyZones.\n- PowerToys#42890: Shift stopped working, fixed by toggling FancyZones off.\n- PowerToys#42459: capital H and B misbehaved because of Keyboard Manager.\n\nNone of them involve Find My Mouse.\n\n```json\n{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket reporting Shift+H (or Shift in general) breaking because of Find My Mouse, so this looks like a new report. Keep Find My Mouse disabled for now, since you've confirmed that fixes it. Please also check that FancyZones isn't causing it. Other tickets (#29257, #47823, #42890) show Shift breaking with FancyZones' 'hold Shift while dragging' option, and turning that option or FancyZones off fixed it. Also turn off Keyboard Manager and the other Mouse Utilities modules, one at a time, to see whether any of them matters. Please tell us whether Shift+H alone fails or other Shift+letter combinations fail too. Also say whether the Find My Mouse activation method is 'Double press Left Ctrl' or something else. Your bug report ZIP will help the team investigate.\"}\n```",
+  "ttft_ms": 2218,
+  "type": "result",
+  "duration_ms": 20534,
+  "uuid": "390bc985-e8cd-4c65-ba50-e844c2357568",
+  "ttft_stream_ms": 1285,
+  "time_to_request_ms": 38,
+  "first_content_frame_ms": 1286,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1663,
+    "cacheReadInputTokens": 93126,
+    "cacheCreationInputTokens": 18562,
+    "webSearchRequests": 0,
+    "costUSD": 0.10022260000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 101,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18562,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 21.987098042009166,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ias69uq0/work"
+  }
+ },
+ "wall_seconds": 21.98934717901284,
+ "qid": "PowerToys#50998",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket reporting Shift+H (or Shift in general) breaking because of Find My Mouse, so this looks like a new report. Keep Find My Mouse disabled for now, since you've confirmed that fixes it. Please also check that FancyZones isn't causing it. Other tickets (#29257, #47823, #42890) show Shift breaking with FancyZones' 'hold Shift while dragging' option, and turning that option or FancyZones off fixed it. Also turn off Keyboard Manager and the other Mouse Utilities modules, one at a time, to see whether any of them matters. Please tell us whether Shift+H alone fails or other Shift+letter combinations fail too. Also say whether the Find My Mouse activation method is 'Double press Left Ctrl' or something else. Your bug report ZIP will help the team investigate."
+ },
+ "hit_turn_cap": false
+}

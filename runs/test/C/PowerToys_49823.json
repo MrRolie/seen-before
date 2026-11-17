@@ -1,0 +1,352 @@
+{
+ "shown": [
+  "PowerToys#2239",
+  "PowerToys#22505",
+  "PowerToys#2260",
+  "PowerToys#2367",
+  "PowerToys#2420",
+  "PowerToys#2424",
+  "PowerToys#2428",
+  "PowerToys#2828",
+  "PowerToys#2911",
+  "PowerToys#3082",
+  "PowerToys#38295",
+  "PowerToys#38341",
+  "PowerToys#38346",
+  "PowerToys#38353",
+  "PowerToys#3885",
+  "PowerToys#3939",
+  "PowerToys#39638",
+  "PowerToys#4030",
+  "PowerToys#40334",
+  "PowerToys#40535",
+  "PowerToys#40617",
+  "PowerToys#40712",
+  "PowerToys#41086",
+  "PowerToys#42575",
+  "PowerToys#42872",
+  "PowerToys#43702",
+  "PowerToys#44197",
+  "PowerToys#44221",
+  "PowerToys#44487",
+  "PowerToys#45371",
+  "PowerToys#45548",
+  "PowerToys#45550",
+  "PowerToys#45591",
+  "PowerToys#45592",
+  "PowerToys#45963",
+  "PowerToys#46019",
+  "PowerToys#46138",
+  "PowerToys#46225",
+  "PowerToys#46457",
+  "PowerToys#47496",
+  "PowerToys#48538",
+  "PowerToys#5063",
+  "PowerToys#5541",
+  "PowerToys#6121",
+  "PowerToys#8199",
+  "PowerToys#9986"
+ ],
+ "retrieval_seconds": 2.89453673796379,
+ "tool_calls": [
+  {
+   "t": 1794879905.75864,
+   "tool": "search",
+   "args": {
+    "query": "Command Palette hidden invisible window remains on screen, screenshot tools capture it after dismissing",
+    "repo": "PowerToys"
+   },
+   "seconds": 2.869436330976896,
+   "returned": [
+    "PowerToys#46457",
+    "PowerToys#5063",
+    "PowerToys#2367",
+    "PowerToys#2239",
+    "PowerToys#42575",
+    "PowerToys#44221",
+    "PowerToys#46225",
+    "PowerToys#47496",
+    "PowerToys#2260",
+    "PowerToys#42872",
+    "PowerToys#45550",
+    "PowerToys#45371",
+    "PowerToys#2828",
+    "PowerToys#45592",
+    "PowerToys#44487",
+    "PowerToys#40334",
+    "PowerToys#4030",
+    "PowerToys#9986",
+    "PowerToys#45963",
+    "PowerToys#48538"
+   ]
+  },
+  {
+   "t": 1794879905.7800703,
+   "tool": "search",
+   "args": {
+    "query": "Command Palette invisible window left on desktop after losing focus",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.01102244999492541,
+   "returned": [
+    "PowerToys#39638",
+    "PowerToys#47496",
+    "PowerToys#45550",
+    "PowerToys#40617",
+    "PowerToys#46225",
+    "PowerToys#2239",
+    "PowerToys#41086",
+    "PowerToys#2420",
+    "PowerToys#38353",
+    "PowerToys#3885",
+    "PowerToys#46019",
+    "PowerToys#9986",
+    "PowerToys#44221",
+    "PowerToys#43702",
+    "PowerToys#40712",
+    "PowerToys#45591",
+    "PowerToys#6121",
+    "PowerToys#46138",
+    "PowerToys#3939",
+    "PowerToys#40535"
+   ]
+  },
+  {
+   "t": 1794879906.4881876,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46457"
+   },
+   "seconds": 9.683700045570731e-05,
+   "returned": [
+    "PowerToys#46457"
+   ]
+  },
+  {
+   "t": 1794879907.514462,
+   "tool": "search",
+   "args": {
+    "query": "Command Palette window cloaked, screenshot app detects window",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.01386453298619017,
+   "returned": [
+    "PowerToys#5063",
+    "PowerToys#47496",
+    "PowerToys#5541",
+    "PowerToys#46457",
+    "PowerToys#2367",
+    "PowerToys#46225",
+    "PowerToys#45371",
+    "PowerToys#44197",
+    "PowerToys#3082",
+    "PowerToys#22505",
+    "PowerToys#3885",
+    "PowerToys#38341",
+    "PowerToys#38346",
+    "PowerToys#2911",
+    "PowerToys#2828",
+    "PowerToys#2424",
+    "PowerToys#38295",
+    "PowerToys#8199",
+    "PowerToys#2428",
+    "PowerToys#45548"
+   ]
+  },
+  {
+   "t": 1794879908.3011672,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47496"
+   },
+   "seconds": 0.00011658700532279909,
+   "returned": [
+    "PowerToys#47496"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6629,
+  "stop_reason": "end_turn",
+  "session_id": "f9bd424f-59dc-4bb3-98ff-d66a4475b1af",
+  "total_cost_usd": 0.032049,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 5788,
+   "cache_read_input_tokens": 18670,
+   "output_tokens": 701,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5788,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 281,
+     "cache_read_input_tokens": 6348,
+     "cache_creation_input_tokens": 473,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 473
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 701,
+    "cacheReadInputTokens": 18670,
+    "cacheCreationInputTokens": 5788,
+    "webSearchRequests": 0,
+    "costUSD": 0.032049,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5788,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46457\"], \"answer\": \"This has been reported before (PowerToys#46457). Command Palette doesn't minimize or destroy its window when you dismiss it. It cloaks the window, which keeps it available for instant summoning. Windows doesn't draw a cloaked window, but screenshot tools that don't check for cloaking can still detect it and snap to it. The maintainer comment on that ticket says the problem is in the screenshot app, so the fix is on the screenshot tool's side. Report it to the IM or screenshot tool's developers and ask them to skip cloaked windows (DWMWA_CLOAKED). The ticket doesn't mention a setting to turn off the cloaking. The user in that ticket asked for one and got no answer, so there is no known workaround in PowerToys yet.\"}",
+  "ttft_ms": 1242,
+  "type": "result",
+  "duration_ms": 9180,
+  "uuid": "65e0a6fb-5b9e-4d5c-a753-018ecdb298f7",
+  "ttft_stream_ms": 649,
+  "time_to_request_ms": 25,
+  "first_content_frame_ms": 649,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 701,
+    "cacheReadInputTokens": 18670,
+    "cacheCreationInputTokens": 5788,
+    "webSearchRequests": 0,
+    "costUSD": 0.032049,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5788,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.452438160980819,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-7tolt52i/work"
+  }
+ },
+ "wall_seconds": 10.453881661989726,
+ "qid": "PowerToys#49823",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46457"
+  ],
+  "answer": "This has been reported before (PowerToys#46457). Command Palette doesn't minimize or destroy its window when you dismiss it. It cloaks the window, which keeps it available for instant summoning. Windows doesn't draw a cloaked window, but screenshot tools that don't check for cloaking can still detect it and snap to it. The maintainer comment on that ticket says the problem is in the screenshot app, so the fix is on the screenshot tool's side. Report it to the IM or screenshot tool's developers and ask them to skip cloaked windows (DWMWA_CLOAKED). The ticket doesn't mention a setting to turn off the cloaking. The user in that ticket asked for one and got no answer, so there is no known workaround in PowerToys yet."
+ },
+ "hit_turn_cap": false
+}

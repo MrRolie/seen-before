@@ -1,0 +1,390 @@
+{
+ "shown": [
+  "PowerToys#11148",
+  "PowerToys#11189",
+  "PowerToys#12496",
+  "PowerToys#13",
+  "PowerToys#14182",
+  "PowerToys#14248",
+  "PowerToys#1571",
+  "PowerToys#2044",
+  "PowerToys#2058",
+  "PowerToys#2260",
+  "PowerToys#2425",
+  "PowerToys#25406",
+  "PowerToys#2835",
+  "PowerToys#30683",
+  "PowerToys#38332",
+  "PowerToys#38350",
+  "PowerToys#3837",
+  "PowerToys#4171",
+  "PowerToys#45590",
+  "PowerToys#45596",
+  "PowerToys#46092",
+  "PowerToys#46097",
+  "PowerToys#46236",
+  "PowerToys#46256",
+  "PowerToys#46477",
+  "PowerToys#46544",
+  "PowerToys#46750",
+  "PowerToys#46801",
+  "PowerToys#46806",
+  "PowerToys#46937",
+  "PowerToys#46946",
+  "PowerToys#47494",
+  "PowerToys#47496",
+  "PowerToys#47652",
+  "PowerToys#47700",
+  "PowerToys#47764",
+  "PowerToys#48255",
+  "PowerToys#48446",
+  "PowerToys#48586",
+  "PowerToys#48833",
+  "PowerToys#5881",
+  "PowerToys#6103",
+  "PowerToys#71",
+  "PowerToys#7985",
+  "PowerToys#8181",
+  "PowerToys#8528",
+  "PowerToys#9378",
+  "PowerToys#959",
+  "PowerToys#9991"
+ ],
+ "retrieval_seconds": 3.517411449982319,
+ "tool_calls": [
+  {
+   "t": 1794881605.052302,
+   "tool": "search",
+   "args": {
+    "query": "Command Palette dock 1 pixel gap at top of screen",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.490910952008562,
+   "returned": [
+    "PowerToys#48446",
+    "PowerToys#48586",
+    "PowerToys#47652",
+    "PowerToys#47700",
+    "PowerToys#46092",
+    "PowerToys#9378",
+    "PowerToys#959",
+    "PowerToys#46801",
+    "PowerToys#2425",
+    "PowerToys#46750",
+    "PowerToys#46806",
+    "PowerToys#47496",
+    "PowerToys#46097",
+    "PowerToys#38350",
+    "PowerToys#38332",
+    "PowerToys#46544",
+    "PowerToys#8528",
+    "PowerToys#46946",
+    "PowerToys#45596",
+    "PowerToys#25406"
+   ]
+  },
+  {
+   "t": 1794881605.0761647,
+   "tool": "search",
+   "args": {
+    "query": "dock not flush with screen edge, thin line visible",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.011782487010350451,
+   "returned": [
+    "PowerToys#47700",
+    "PowerToys#46750",
+    "PowerToys#46937",
+    "PowerToys#48446",
+    "PowerToys#45590",
+    "PowerToys#9378",
+    "PowerToys#46256",
+    "PowerToys#959",
+    "PowerToys#46236",
+    "PowerToys#48833",
+    "PowerToys#3837",
+    "PowerToys#46092",
+    "PowerToys#46477",
+    "PowerToys#9991",
+    "PowerToys#46801",
+    "PowerToys#47494",
+    "PowerToys#46097",
+    "PowerToys#2835",
+    "PowerToys#25406",
+    "PowerToys#2260"
+   ]
+  },
+  {
+   "t": 1794881605.941543,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48446"
+   },
+   "seconds": 0.00013184599811211228,
+   "returned": [
+    "PowerToys#48446"
+   ]
+  },
+  {
+   "t": 1794881606.1514442,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47652"
+   },
+   "seconds": 0.0001462259970139712,
+   "returned": [
+    "PowerToys#47652"
+   ]
+  },
+  {
+   "t": 1794881606.3636303,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47700"
+   },
+   "seconds": 0.00012469699140638113,
+   "returned": [
+    "PowerToys#47700"
+   ]
+  },
+  {
+   "t": 1794881607.5542321,
+   "tool": "search",
+   "args": {
+    "query": "Dock gap fix released version 0.100 top edge Wallpaper Engine",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014016069995705038,
+   "returned": [
+    "PowerToys#2058",
+    "PowerToys#71",
+    "PowerToys#8181",
+    "PowerToys#48255",
+    "PowerToys#30683",
+    "PowerToys#2044",
+    "PowerToys#48833",
+    "PowerToys#47700",
+    "PowerToys#47764",
+    "PowerToys#11148",
+    "PowerToys#12496",
+    "PowerToys#1571",
+    "PowerToys#5881",
+    "PowerToys#4171",
+    "PowerToys#14248",
+    "PowerToys#14182",
+    "PowerToys#7985",
+    "PowerToys#13",
+    "PowerToys#6103",
+    "PowerToys#11189"
+   ]
+  },
+  {
+   "t": 1794881608.5050802,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48586"
+   },
+   "seconds": 0.00019292498473078012,
+   "returned": [
+    "PowerToys#48586"
+   ]
+  },
+  {
+   "t": 1794881609.3287647,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46801"
+   },
+   "seconds": 0.00010624699643813074,
+   "returned": [
+    "PowerToys#46801"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10068,
+  "stop_reason": "end_turn",
+  "session_id": "fbce236a-2500-4a9e-a893-ec6c4693eb8f",
+  "total_cost_usd": 0.05602549999999999,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 10448,
+   "cache_read_input_tokens": 35595,
+   "output_tokens": 1065,
+   "output_tokens_details": {
+    "thinking_tokens": 155
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10448,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 476,
+     "cache_read_input_tokens": 10683,
+     "cache_creation_input_tokens": 798,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 798
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1065,
+    "cacheReadInputTokens": 35595,
+    "cacheCreationInputTokens": 10448,
+    "webSearchRequests": 0,
+    "costUSD": 0.05602549999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 155,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10448,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#47652\", \"PowerToys#48446\", \"PowerToys#47700\"], \"answer\": \"This 1px gap at the top of the screen when the Command Palette dock is at the top has been reported before. PowerToys#47652 is the original tracking issue, and the other two were closed as duplicates of it. A maintainer said in PowerToys#48446 that a fix would ship in an upcoming release, but you are still seeing it on v0.100.2, so the fix may not have reached your build or may not cover your case. First, update PowerToys to the latest version. Two workarounds came up in the tickets. A commenter on #47652 found the gap disappears after a restart but returns whenever the dock is toggled off and on. The reporter of #47700 found it did not appear when PowerToys ran as Administrator. If it persists after updating, add your details (v0.100.2, Microsoft Store install, Wallpaper Engine) to #47652.\"}",
+  "ttft_ms": 978,
+  "type": "result",
+  "duration_ms": 13305,
+  "uuid": "08b86be0-c6d7-469b-b161-a7a4ca9a1448",
+  "ttft_stream_ms": 555,
+  "time_to_request_ms": 33,
+  "first_content_frame_ms": 556,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1065,
+    "cacheReadInputTokens": 35595,
+    "cacheCreationInputTokens": 10448,
+    "webSearchRequests": 0,
+    "costUSD": 0.05602549999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 155,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10448,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.60214521700982,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-54oyjo16/work"
+  }
+ },
+ "wall_seconds": 14.60385107199545,
+ "qid": "PowerToys#50145",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#47652",
+   "PowerToys#48446",
+   "PowerToys#47700"
+  ],
+  "answer": "This 1px gap at the top of the screen when the Command Palette dock is at the top has been reported before. PowerToys#47652 is the original tracking issue, and the other two were closed as duplicates of it. A maintainer said in PowerToys#48446 that a fix would ship in an upcoming release, but you are still seeing it on v0.100.2, so the fix may not have reached your build or may not cover your case. First, update PowerToys to the latest version. Two workarounds came up in the tickets. A commenter on #47652 found the gap disappears after a restart but returns whenever the dock is toggled off and on. The reporter of #47700 found it did not appear when PowerToys ran as Administrator. If it persists after updating, add your details (v0.100.2, Microsoft Store install, Wallpaper Engine) to #47652."
+ },
+ "hit_turn_cap": false
+}

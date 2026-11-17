@@ -1,0 +1,320 @@
+{
+ "shown": [
+  "PowerToys#10164",
+  "PowerToys#1897",
+  "PowerToys#32331",
+  "PowerToys#37011",
+  "PowerToys#37859",
+  "PowerToys#38076",
+  "PowerToys#39189",
+  "PowerToys#41448",
+  "PowerToys#44300",
+  "PowerToys#46579",
+  "PowerToys#46873",
+  "PowerToys#48375",
+  "PowerToys#4932",
+  "PowerToys#5556",
+  "PowerToys#5557",
+  "PowerToys#5656",
+  "PowerToys#5688",
+  "PowerToys#5711",
+  "PowerToys#5781",
+  "PowerToys#5798",
+  "PowerToys#5922",
+  "PowerToys#5929",
+  "PowerToys#6457",
+  "PowerToys#6493",
+  "PowerToys#6499",
+  "PowerToys#6510",
+  "PowerToys#6954",
+  "PowerToys#7393",
+  "PowerToys#8048",
+  "PowerToys#8544",
+  "PowerToys#9676",
+  "PowerToys#9977"
+ ],
+ "retrieval_seconds": 4.0708828719798476,
+ "tool_calls": [
+  {
+   "t": 1794878710.6026232,
+   "tool": "search",
+   "args": {
+    "query": "NullReferenceException BindingExpression.SetupDefaultValueConverter ThemeManager.OnSystemThemeChanged PowerToys Run",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.054121238994412,
+   "returned": [
+    "PowerToys#37859",
+    "PowerToys#46873",
+    "PowerToys#46579",
+    "PowerToys#32331",
+    "PowerToys#6457",
+    "PowerToys#7393",
+    "PowerToys#10164",
+    "PowerToys#6510",
+    "PowerToys#5781",
+    "PowerToys#39189",
+    "PowerToys#5922",
+    "PowerToys#5929",
+    "PowerToys#6493",
+    "PowerToys#1897",
+    "PowerToys#6954",
+    "PowerToys#9977",
+    "PowerToys#38076",
+    "PowerToys#5798",
+    "PowerToys#8544",
+    "PowerToys#6499"
+   ]
+  },
+  {
+   "t": 1794878710.6348984,
+   "tool": "search",
+   "args": {
+    "query": "PowerToys Run crash when system theme changes, SystemThemeFilterMessage NullReferenceException",
+    "repo": null
+   },
+   "seconds": 0.01614808800513856,
+   "returned": [
+    "PowerToys#46579",
+    "PowerToys#32331",
+    "PowerToys#41448",
+    "PowerToys#5922",
+    "PowerToys#5656",
+    "PowerToys#5711",
+    "PowerToys#37859",
+    "PowerToys#8048",
+    "PowerToys#7393",
+    "PowerToys#10164",
+    "PowerToys#44300",
+    "PowerToys#5556",
+    "PowerToys#39189",
+    "PowerToys#37011",
+    "PowerToys#5688",
+    "PowerToys#46873",
+    "PowerToys#4932",
+    "PowerToys#48375",
+    "PowerToys#9676",
+    "PowerToys#5557"
+   ]
+  },
+  {
+   "t": 1794878712.1027436,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46579"
+   },
+   "seconds": 0.0002489939797669649,
+   "returned": [
+    "PowerToys#46579"
+   ]
+  },
+  {
+   "t": 1794878712.4144027,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37859"
+   },
+   "seconds": 0.00019530500867404044,
+   "returned": [
+    "PowerToys#37859"
+   ]
+  },
+  {
+   "t": 1794878712.5321367,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46873"
+   },
+   "seconds": 0.00016924599185585976,
+   "returned": [
+    "PowerToys#46873"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7961,
+  "stop_reason": "end_turn",
+  "session_id": "62fd0666-53b1-49bf-88fa-7f7c42010b72",
+  "total_cost_usd": 0.0646269,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 14021,
+   "cache_read_input_tokens": 12709,
+   "output_tokens": 726,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 14021,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 338,
+     "cache_read_input_tokens": 7605,
+     "cache_creation_input_tokens": 7449,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7449
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 726,
+    "cacheReadInputTokens": 12709,
+    "cacheCreationInputTokens": 14021,
+    "webSearchRequests": 0,
+    "costUSD": 0.0646269,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14021,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#37859\", \"PowerToys#46873\", \"PowerToys#46579\"], \"answer\": \"This crash has been reported before. It is a NullReferenceException in WPF's SetupDefaultValueConverter, thrown while handling a Windows system theme change (ThemeManager.OnSystemThemeChanged). Earlier reporters hit it after waking from hibernate or standby, or after a display or dock change. PowerToys#37859 is the main tracking ticket, and PowerToys#46873 was closed as a duplicate of it. No fix or workaround is recorded in those tickets. The original reporter said theirs was a one-time crash. If you are seeing it, restart PowerToys, which is safe to do after the crash. Please add your details to PowerToys#37859: version 0.98.1.0, Windows 10 build 19045, Microsoft Store install, and what you were doing when it happened. Tell us if it happens again, and attach a bug report ZIP if you can.\"}",
+  "ttft_ms": 2449,
+  "type": "result",
+  "duration_ms": 12088,
+  "uuid": "75f6dcf6-94ab-4785-be40-2c20aceae172",
+  "ttft_stream_ms": 1322,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 1322,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 726,
+    "cacheReadInputTokens": 12709,
+    "cacheCreationInputTokens": 14021,
+    "webSearchRequests": 0,
+    "costUSD": 0.0646269,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14021,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.58860625201487,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-yfmadsj_/work"
+  }
+ },
+ "wall_seconds": 13.590698368003359,
+ "qid": "PowerToys#49494",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#37859",
+   "PowerToys#46873",
+   "PowerToys#46579"
+  ],
+  "answer": "This crash has been reported before. It is a NullReferenceException in WPF's SetupDefaultValueConverter, thrown while handling a Windows system theme change (ThemeManager.OnSystemThemeChanged). Earlier reporters hit it after waking from hibernate or standby, or after a display or dock change. PowerToys#37859 is the main tracking ticket, and PowerToys#46873 was closed as a duplicate of it. No fix or workaround is recorded in those tickets. The original reporter said theirs was a one-time crash. If you are seeing it, restart PowerToys, which is safe to do after the crash. Please add your details to PowerToys#37859: version 0.98.1.0, Windows 10 build 19045, Microsoft Store install, and what you were doing when it happened. Tell us if it happens again, and attach a bug report ZIP if you can."
+ },
+ "hit_turn_cap": false
+}

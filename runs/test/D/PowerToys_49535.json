@@ -1,0 +1,312 @@
+{
+ "shown": [
+  "PowerToys#10933",
+  "PowerToys#12089",
+  "PowerToys#12191",
+  "PowerToys#15582",
+  "PowerToys#17970",
+  "PowerToys#21605",
+  "PowerToys#23215",
+  "PowerToys#27393",
+  "PowerToys#28263",
+  "PowerToys#28490",
+  "PowerToys#30392",
+  "PowerToys#30958",
+  "PowerToys#32200",
+  "PowerToys#32852",
+  "PowerToys#34919",
+  "PowerToys#3625",
+  "PowerToys#39282",
+  "PowerToys#40285",
+  "PowerToys#43346",
+  "PowerToys#64",
+  "PowerToys#8086"
+ ],
+ "retrieval_seconds": 4.055111927998951,
+ "tool_calls": [
+  {
+   "t": 1794878892.794162,
+   "tool": "similar",
+   "args": {
+    "query": "schedule automatic shutdown or sleep after specified minutes timer",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.054249275999609,
+   "returned": [
+    "PowerToys#64",
+    "PowerToys#39282",
+    "PowerToys#34919",
+    "PowerToys#32852",
+    "PowerToys#30958",
+    "PowerToys#28490",
+    "PowerToys#30392",
+    "PowerToys#43346",
+    "PowerToys#28263",
+    "PowerToys#40285",
+    "PowerToys#27393",
+    "PowerToys#12191",
+    "PowerToys#21605",
+    "PowerToys#8086",
+    "PowerToys#32200",
+    "PowerToys#23215",
+    "PowerToys#15582",
+    "PowerToys#3625",
+    "PowerToys#12089",
+    "PowerToys#10933"
+   ]
+  },
+  {
+   "t": 1794878894.7611578,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34919"
+   },
+   "seconds": 0.00016511400463059545,
+   "returned": [
+    "PowerToys#34919"
+   ]
+  },
+  {
+   "t": 1794878895.2873414,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39282"
+   },
+   "seconds": 0.00013322601444087923,
+   "returned": [
+    "PowerToys#39282"
+   ]
+  },
+  {
+   "t": 1794878895.293865,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#64"
+   },
+   "seconds": 0.00012048598728142679,
+   "returned": [
+    "PowerToys#64"
+   ]
+  },
+  {
+   "t": 1794878896.7061071,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#28490"
+   },
+   "seconds": 0.00015879498096182942,
+   "returned": [
+    "PowerToys#28490"
+   ]
+  },
+  {
+   "t": 1794878898.7151268,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#17970"
+   },
+   "seconds": 0.00017222401220351458,
+   "returned": [
+    "PowerToys#17970"
+   ]
+  },
+  {
+   "t": 1794878900.1678236,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32852"
+   },
+   "seconds": 0.00011280699982307851,
+   "returned": [
+    "PowerToys#32852"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12333,
+  "stop_reason": "end_turn",
+  "session_id": "66e2fd83-e038-4aa9-aa98-4fb275baf459",
+  "total_cost_usd": 0.038422500000000005,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 6718,
+   "cache_read_input_tokens": 26065,
+   "output_tokens": 892,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6718,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 315,
+     "cache_read_input_tokens": 6965,
+     "cache_creation_input_tokens": 1166,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1166
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 892,
+    "cacheReadInputTokens": 26065,
+    "cacheCreationInputTokens": 6718,
+    "webSearchRequests": 0,
+    "costUSD": 0.038422500000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6718,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#28490\", \"PowerToys#34919\", \"PowerToys#32852\"], \"answer\": \"This feature has been requested before. PowerToys has no timed shutdown or sleep tool. The maintainers closed the duplicate requests in favor of PowerToys#28490, which is the main ticket for a scheduled shutdown, sleep or restart utility. You can follow it there and add a thumbs-up. Until it exists, use the built-in Windows command. Press Win+R and run `shutdown /s /t N`, where N is the number of seconds. For example, `shutdown /s /t 1800` shuts down after 30 minutes. `shutdown /a` cancels it. `shutdown /i` opens a dialog. You can also put the command in a shortcut or trigger it from Task Scheduler. The `shutdown` command has no sleep option, so sleep needs a different approach, such as a scheduled task.\"}",
+  "ttft_ms": 2233,
+  "type": "result",
+  "duration_ms": 16912,
+  "uuid": "952e0c86-c1b1-4b4f-b1df-1f57fe1b30db",
+  "ttft_stream_ms": 1184,
+  "time_to_request_ms": 48,
+  "first_content_frame_ms": 1184,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 892,
+    "cacheReadInputTokens": 26065,
+    "cacheCreationInputTokens": 6718,
+    "webSearchRequests": 0,
+    "costUSD": 0.038422500000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6718,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.220661775994813,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-549glxw6/work"
+  }
+ },
+ "wall_seconds": 18.223210046009626,
+ "qid": "PowerToys#49535",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#28490",
+   "PowerToys#34919",
+   "PowerToys#32852"
+  ],
+  "answer": "This feature has been requested before. PowerToys has no timed shutdown or sleep tool. The maintainers closed the duplicate requests in favor of PowerToys#28490, which is the main ticket for a scheduled shutdown, sleep or restart utility. You can follow it there and add a thumbs-up. Until it exists, use the built-in Windows command. Press Win+R and run `shutdown /s /t N`, where N is the number of seconds. For example, `shutdown /s /t 1800` shuts down after 30 minutes. `shutdown /a` cancels it. `shutdown /i` opens a dialog. You can also put the command in a shortcut or trigger it from Task Scheduler. The `shutdown` command has no sleep option, so sleep needs a different approach, such as a scheduled task."
+ },
+ "hit_turn_cap": false
+}

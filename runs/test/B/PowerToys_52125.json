@@ -1,0 +1,368 @@
+{
+ "shown": [
+  "PowerToys#20143",
+  "PowerToys#20306",
+  "PowerToys#20316",
+  "PowerToys#20326",
+  "PowerToys#20366",
+  "PowerToys#20429",
+  "PowerToys#20571",
+  "PowerToys#20864",
+  "PowerToys#21123",
+  "PowerToys#21158",
+  "PowerToys#22267",
+  "PowerToys#22797",
+  "PowerToys#24627",
+  "PowerToys#25010",
+  "PowerToys#25778",
+  "PowerToys#26687",
+  "PowerToys#28505",
+  "PowerToys#28723",
+  "PowerToys#28769",
+  "PowerToys#30252",
+  "PowerToys#30410",
+  "PowerToys#32112",
+  "PowerToys#32225",
+  "PowerToys#32800",
+  "PowerToys#33244",
+  "PowerToys#33556",
+  "PowerToys#33679",
+  "PowerToys#36370",
+  "PowerToys#36549",
+  "PowerToys#36670",
+  "PowerToys#36805",
+  "PowerToys#39436",
+  "PowerToys#40498",
+  "PowerToys#40671",
+  "PowerToys#41244",
+  "PowerToys#41530",
+  "PowerToys#43226",
+  "PowerToys#44111",
+  "PowerToys#44725",
+  "PowerToys#44980",
+  "PowerToys#48840",
+  "PowerToys#48889"
+ ],
+ "retrieval_seconds": 0.4349270490638446,
+ "tool_calls": [
+  {
+   "t": 1794885785.5402975,
+   "tool": "search",
+   "args": {
+    "pattern": "quick accent",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06694009402417578,
+   "returned": [
+    "PowerToys#22267",
+    "PowerToys#39436",
+    "PowerToys#44980",
+    "PowerToys#36370",
+    "PowerToys#48840",
+    "PowerToys#36805",
+    "PowerToys#33244",
+    "PowerToys#32112",
+    "PowerToys#44725",
+    "PowerToys#32225",
+    "PowerToys#28723",
+    "PowerToys#36670",
+    "PowerToys#33679",
+    "PowerToys#33556",
+    "PowerToys#32800",
+    "PowerToys#30410",
+    "PowerToys#30252",
+    "PowerToys#28769",
+    "PowerToys#26687",
+    "PowerToys#25010"
+   ]
+  },
+  {
+   "t": 1794885787.9871273,
+   "tool": "search",
+   "args": {
+    "pattern": "accent",
+    "regex": false,
+    "also": [
+     "near the cursor"
+    ],
+    "repo": null
+   },
+   "seconds": 0.11573017699993216,
+   "returned": []
+  },
+  {
+   "t": 1794885788.1185157,
+   "tool": "search",
+   "args": {
+    "pattern": "quick accent",
+    "regex": false,
+    "also": [
+     "caret"
+    ],
+    "repo": null
+   },
+   "seconds": 0.12210201699053869,
+   "returned": [
+    "PowerToys#20326",
+    "PowerToys#25778",
+    "PowerToys#20429"
+   ]
+  },
+  {
+   "t": 1794885788.2579668,
+   "tool": "search",
+   "args": {
+    "pattern": "accent",
+    "regex": false,
+    "also": [
+     "toolbar position"
+    ],
+    "repo": null
+   },
+   "seconds": 0.12962539499858394,
+   "returned": [
+    "PowerToys#44980",
+    "PowerToys#26687",
+    "PowerToys#48889",
+    "PowerToys#41530",
+    "PowerToys#40671",
+    "PowerToys#40498",
+    "PowerToys#21123",
+    "PowerToys#44111",
+    "PowerToys#41244",
+    "PowerToys#36549",
+    "PowerToys#20864",
+    "PowerToys#20366",
+    "PowerToys#20316",
+    "PowerToys#20143",
+    "PowerToys#43226",
+    "PowerToys#28505",
+    "PowerToys#22797",
+    "PowerToys#21158",
+    "PowerToys#20571",
+    "PowerToys#24627"
+   ]
+  },
+  {
+   "t": 1794885789.8788354,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#28505"
+   },
+   "seconds": 0.00018078502034768462,
+   "returned": [
+    "PowerToys#28505"
+   ]
+  },
+  {
+   "t": 1794885789.9997804,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#24627"
+   },
+   "seconds": 0.00018093502148985863,
+   "returned": [
+    "PowerToys#24627"
+   ]
+  },
+  {
+   "t": 1794885791.6128254,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#20306"
+   },
+   "seconds": 0.00016764600877650082,
+   "returned": [
+    "PowerToys#20306"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10534,
+  "stop_reason": "end_turn",
+  "session_id": "33b7ec17-9553-4a30-a803-09d965a3b95f",
+  "total_cost_usd": 0.055496000000000004,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 10976,
+   "cache_read_input_tokens": 30020,
+   "output_tokens": 857,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10976,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 263,
+     "cache_read_input_tokens": 11304,
+     "cache_creation_input_tokens": 849,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 849
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 857,
+    "cacheReadInputTokens": 30020,
+    "cacheCreationInputTokens": 10976,
+    "webSearchRequests": 0,
+    "costUSD": 0.055496000000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10976,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "```json\n{\"seen_before\": true, \"matches\": [\"PowerToys#20306\", \"PowerToys#24627\", \"PowerToys#28505\"], \"answer\": \"This feature request has been filed before. The main ticket is PowerToys#20306, \\\"Quick Accent: show toolbar close to text cursor\\\". PowerToys#24627 and PowerToys#28505 were closed as duplicates of it. Quick Accent can currently only show its toolbar at one of nine fixed screen positions, and none of the tickets mention a workaround. In Settings > Quick Accent, you can pick the fixed position that is closest to where you usually type. To support the request, add a 👍 or a comment on #20306. One commenter suggested a toggle or dropdown, so people who prefer a fixed position can keep it.\"}\n```",
+  "ttft_ms": 2039,
+  "type": "result",
+  "duration_ms": 10996,
+  "uuid": "415d37e9-f05d-4d66-a8cf-612ac65e43a8",
+  "ttft_stream_ms": 1181,
+  "time_to_request_ms": 35,
+  "first_content_frame_ms": 1181,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 857,
+    "cacheReadInputTokens": 30020,
+    "cacheCreationInputTokens": 10976,
+    "webSearchRequests": 0,
+    "costUSD": 0.055496000000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10976,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.295242830005009,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-gggw_i2u/work"
+  }
+ },
+ "wall_seconds": 12.296847738994984,
+ "qid": "PowerToys#52125",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#20306",
+   "PowerToys#24627",
+   "PowerToys#28505"
+  ],
+  "answer": "This feature request has been filed before. The main ticket is PowerToys#20306, \"Quick Accent: show toolbar close to text cursor\". PowerToys#24627 and PowerToys#28505 were closed as duplicates of it. Quick Accent can currently only show its toolbar at one of nine fixed screen positions, and none of the tickets mention a workaround. In Settings > Quick Accent, you can pick the fixed position that is closest to where you usually type. To support the request, add a 👍 or a comment on #20306. One commenter suggested a toggle or dropdown, so people who prefer a fixed position can keep it."
+ },
+ "hit_turn_cap": false
+}

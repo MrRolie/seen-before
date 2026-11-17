@@ -1,0 +1,490 @@
+{
+ "shown": [
+  "PowerToys#10667",
+  "PowerToys#13013",
+  "PowerToys#13327",
+  "PowerToys#13763",
+  "PowerToys#13860",
+  "PowerToys#17344",
+  "PowerToys#17704",
+  "PowerToys#17954",
+  "PowerToys#21308",
+  "PowerToys#21752",
+  "PowerToys#22138",
+  "PowerToys#22834",
+  "PowerToys#2303",
+  "PowerToys#26500",
+  "PowerToys#26752",
+  "PowerToys#29227",
+  "PowerToys#31979",
+  "PowerToys#33721",
+  "PowerToys#33727",
+  "PowerToys#33857",
+  "PowerToys#34348",
+  "PowerToys#34714",
+  "PowerToys#35319",
+  "PowerToys#3619",
+  "PowerToys#36605",
+  "PowerToys#37437",
+  "PowerToys#38297",
+  "PowerToys#38333",
+  "PowerToys#38393",
+  "PowerToys#38423",
+  "PowerToys#38441",
+  "PowerToys#38460",
+  "PowerToys#38465",
+  "PowerToys#38482",
+  "PowerToys#38658",
+  "PowerToys#38786",
+  "PowerToys#38916",
+  "PowerToys#39035",
+  "PowerToys#39330",
+  "PowerToys#39626",
+  "PowerToys#39735",
+  "PowerToys#40294",
+  "PowerToys#40323",
+  "PowerToys#41157",
+  "PowerToys#41174",
+  "PowerToys#41477",
+  "PowerToys#41487",
+  "PowerToys#41529",
+  "PowerToys#41591",
+  "PowerToys#41696",
+  "PowerToys#41872",
+  "PowerToys#42133",
+  "PowerToys#42796",
+  "PowerToys#43173",
+  "PowerToys#43715",
+  "PowerToys#44230",
+  "PowerToys#44858",
+  "PowerToys#44934",
+  "PowerToys#45147",
+  "PowerToys#45295",
+  "PowerToys#45452",
+  "PowerToys#45464",
+  "PowerToys#45875",
+  "PowerToys#46324",
+  "PowerToys#47430",
+  "PowerToys#47562",
+  "PowerToys#47739",
+  "PowerToys#48431",
+  "PowerToys#48725",
+  "PowerToys#48885",
+  "PowerToys#48895",
+  "PowerToys#48899",
+  "PowerToys#48975",
+  "PowerToys#5554",
+  "PowerToys#5624",
+  "PowerToys#68",
+  "PowerToys#9690"
+ ],
+ "retrieval_seconds": 1.1786830119090155,
+ "tool_calls": [
+  {
+   "t": 1794884489.4401157,
+   "tool": "search",
+   "args": {
+    "pattern": "Ctrl+B",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06423431498114951,
+   "returned": [
+    "PowerToys#10667",
+    "PowerToys#47562",
+    "PowerToys#22834",
+    "PowerToys#68",
+    "PowerToys#37437",
+    "PowerToys#36605",
+    "PowerToys#35319",
+    "PowerToys#34714",
+    "PowerToys#34348",
+    "PowerToys#29227",
+    "PowerToys#26752",
+    "PowerToys#22138",
+    "PowerToys#21752",
+    "PowerToys#21308",
+    "PowerToys#13763",
+    "PowerToys#9690",
+    "PowerToys#5624",
+    "PowerToys#5554",
+    "PowerToys#3619"
+   ]
+  },
+  {
+   "t": 1794884489.938748,
+   "tool": "search",
+   "args": {
+    "pattern": "Command Palette",
+    "regex": false,
+    "also": [
+     "Ctrl + B"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10786110698245466,
+   "returned": []
+  },
+  {
+   "t": 1794884491.2987185,
+   "tool": "search",
+   "args": {
+    "pattern": "Command Palette",
+    "regex": false,
+    "also": [
+     "shortcut",
+     "not working"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1587349829787854,
+   "returned": [
+    "PowerToys#41696",
+    "PowerToys#38297",
+    "PowerToys#41529",
+    "PowerToys#38441",
+    "PowerToys#39735",
+    "PowerToys#44230",
+    "PowerToys#47739",
+    "PowerToys#44934",
+    "PowerToys#41174",
+    "PowerToys#40294",
+    "PowerToys#38482",
+    "PowerToys#46324",
+    "PowerToys#43715",
+    "PowerToys#41872",
+    "PowerToys#41157",
+    "PowerToys#38916",
+    "PowerToys#45875",
+    "PowerToys#41487",
+    "PowerToys#44858",
+    "PowerToys#42796"
+   ]
+  },
+  {
+   "t": 1794884491.6762612,
+   "tool": "search",
+   "args": {
+    "pattern": "CmdPal",
+    "regex": false,
+    "also": [
+     "Ctrl"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.12409697897965088,
+   "returned": [
+    "PowerToys#39035",
+    "PowerToys#38297",
+    "PowerToys#43173",
+    "PowerToys#47430",
+    "PowerToys#48725",
+    "PowerToys#38460",
+    "PowerToys#38333",
+    "PowerToys#45295",
+    "PowerToys#39626",
+    "PowerToys#48885",
+    "PowerToys#45464",
+    "PowerToys#48899",
+    "PowerToys#48895",
+    "PowerToys#40323",
+    "PowerToys#38423",
+    "PowerToys#48431",
+    "PowerToys#41591",
+    "PowerToys#41477",
+    "PowerToys#38658",
+    "PowerToys#48975"
+   ]
+  },
+  {
+   "t": 1794884493.5742376,
+   "tool": "search",
+   "args": {
+    "pattern": "Command Palette",
+    "regex": false,
+    "also": [
+     "Ctrl",
+     "bold"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.15367567000794224,
+   "returned": []
+  },
+  {
+   "t": 1794884494.1228783,
+   "tool": "search",
+   "args": {
+    "pattern": "command palette",
+    "regex": false,
+    "also": [
+     "shortcut",
+     "other apps",
+     "stops working"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.2450987320044078,
+   "returned": []
+  },
+  {
+   "t": 1794884495.2107868,
+   "tool": "search",
+   "args": {
+    "pattern": "Ctrl+B",
+    "regex": false,
+    "also": [
+     "CmdPal"
+    ],
+    "repo": null
+   },
+   "seconds": 0.12035062999348156,
+   "returned": []
+  },
+  {
+   "t": 1794884495.5435617,
+   "tool": "search",
+   "args": {
+    "pattern": "Ctrl + B",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05990615297923796,
+   "returned": [
+    "PowerToys#13013",
+    "PowerToys#33721",
+    "PowerToys#26500",
+    "PowerToys#33857",
+    "PowerToys#31979",
+    "PowerToys#17704",
+    "PowerToys#17344",
+    "PowerToys#13327",
+    "PowerToys#2303"
+   ]
+  },
+  {
+   "t": 1794884496.0871584,
+   "tool": "search",
+   "args": {
+    "pattern": "Command Palette",
+    "regex": false,
+    "also": [
+     "hotkey",
+     "conflict"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.14457370698801242,
+   "returned": [
+    "PowerToys#38393",
+    "PowerToys#38297",
+    "PowerToys#45452",
+    "PowerToys#38465",
+    "PowerToys#39330",
+    "PowerToys#38786",
+    "PowerToys#45147",
+    "PowerToys#42133",
+    "PowerToys#33727",
+    "PowerToys#17954",
+    "PowerToys#13860"
+   ]
+  },
+  {
+   "t": 1794884497.0257459,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45452"
+   },
+   "seconds": 0.00015073601389303803,
+   "returned": [
+    "PowerToys#45452"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11266,
+  "stop_reason": "end_turn",
+  "session_id": "00f9caf4-1f14-4db4-835c-2ad8e1eddb79",
+  "total_cost_usd": 0.09331650000000001,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 18410,
+   "cache_read_input_tokens": 50925,
+   "output_tokens": 1456,
+   "output_tokens_details": {
+    "thinking_tokens": 91
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 18410,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 344,
+     "cache_read_input_tokens": 16866,
+     "cache_creation_input_tokens": 2721,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2721
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1456,
+    "cacheReadInputTokens": 50925,
+    "cacheCreationInputTokens": 18410,
+    "webSearchRequests": 0,
+    "costUSD": 0.09331650000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 91,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18410,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#45452\"], \"answer\": \"This looks like the same problem as PowerToys#45452. There, Ctrl+W stopped working in every app while Command Palette was on, and it worked again once Command Palette was off. The cause was a leftover hotkey in Command Palette's settings. A command or extension had been assigned that hotkey, and it stayed after the extension was removed. To fix it, close Command Palette and open %localappdata%\\\\Packages\\\\Microsoft.CommandPalette_8wekyb3d8bbwe\\\\LocalState\\\\settings.json. In the \\\"CommandHotkeys\\\" array, look for an entry with \\\"ctrl\\\": true and \\\"code\\\": 66, which is the B key. Delete that entry. The key is released as soon as the entry is gone. You can also check Command Palette's settings for any command that has Ctrl+B assigned and clear it there. If you find no such entry, upload a Report Bug zip and your settings.json to the ticket so it can be investigated further.\"}",
+  "ttft_ms": 1077,
+  "type": "result",
+  "duration_ms": 11956,
+  "uuid": "6f4fd87e-2850-4015-ba94-32e91732ad3f",
+  "ttft_stream_ms": 706,
+  "time_to_request_ms": 39,
+  "first_content_frame_ms": 706,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1456,
+    "cacheReadInputTokens": 50925,
+    "cacheCreationInputTokens": 18410,
+    "webSearchRequests": 0,
+    "costUSD": 0.09331650000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 91,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18410,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.3921536100097,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ly0g25bp/work"
+  }
+ },
+ "wall_seconds": 13.39430101198377,
+ "qid": "PowerToys#51515",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#45452"
+  ],
+  "answer": "This looks like the same problem as PowerToys#45452. There, Ctrl+W stopped working in every app while Command Palette was on, and it worked again once Command Palette was off. The cause was a leftover hotkey in Command Palette's settings. A command or extension had been assigned that hotkey, and it stayed after the extension was removed. To fix it, close Command Palette and open %localappdata%\\Packages\\Microsoft.CommandPalette_8wekyb3d8bbwe\\LocalState\\settings.json. In the \"CommandHotkeys\" array, look for an entry with \"ctrl\": true and \"code\": 66, which is the B key. Delete that entry. The key is released as soon as the entry is gone. You can also check Command Palette's settings for any command that has Ctrl+B assigned and clear it there. If you find no such entry, upload a Report Bug zip and your settings.json to the ticket so it can be investigated further."
+ },
+ "hit_turn_cap": false
+}

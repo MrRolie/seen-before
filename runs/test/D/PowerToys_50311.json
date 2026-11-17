@@ -1,0 +1,315 @@
+{
+ "shown": [
+  "PowerToys#20539",
+  "PowerToys#20829",
+  "PowerToys#21047",
+  "PowerToys#21187",
+  "PowerToys#21459",
+  "PowerToys#21584",
+  "PowerToys#22223",
+  "PowerToys#22975",
+  "PowerToys#23375",
+  "PowerToys#23832",
+  "PowerToys#23960",
+  "PowerToys#24171",
+  "PowerToys#24299",
+  "PowerToys#25735",
+  "PowerToys#27201",
+  "PowerToys#27893",
+  "PowerToys#30064",
+  "PowerToys#30595",
+  "PowerToys#30664",
+  "PowerToys#32044",
+  "PowerToys#32531",
+  "PowerToys#32536",
+  "PowerToys#34152",
+  "PowerToys#35164",
+  "PowerToys#36151",
+  "PowerToys#38506",
+  "PowerToys#39360",
+  "PowerToys#39847",
+  "PowerToys#40672",
+  "PowerToys#41509",
+  "PowerToys#4948",
+  "PowerToys#6190",
+  "PowerToys#8827"
+ ],
+ "retrieval_seconds": 3.721457502018893,
+ "tool_calls": [
+  {
+   "t": 1794881954.8960388,
+   "tool": "similar",
+   "args": {
+    "query": "Text Extractor shortcut doesn't work / cannot use hotkey",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.669601578003494,
+   "returned": [
+    "PowerToys#34152",
+    "PowerToys#27893",
+    "PowerToys#40672",
+    "PowerToys#25735",
+    "PowerToys#38506",
+    "PowerToys#22223",
+    "PowerToys#24299",
+    "PowerToys#20829",
+    "PowerToys#23375",
+    "PowerToys#36151",
+    "PowerToys#6190",
+    "PowerToys#30664",
+    "PowerToys#8827",
+    "PowerToys#27201",
+    "PowerToys#23960",
+    "PowerToys#32044",
+    "PowerToys#21584",
+    "PowerToys#4948",
+    "PowerToys#39360",
+    "PowerToys#23832"
+   ]
+  },
+  {
+   "t": 1794881956.227812,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#27893"
+   },
+   "seconds": 0.0001511160226073116,
+   "returned": [
+    "PowerToys#27893"
+   ]
+  },
+  {
+   "t": 1794881956.5429952,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39360"
+   },
+   "seconds": 0.00013068699627183378,
+   "returned": [
+    "PowerToys#39360"
+   ]
+  },
+  {
+   "t": 1794881956.6603796,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#36151"
+   },
+   "seconds": 0.0001297169947065413,
+   "returned": [
+    "PowerToys#36151"
+   ]
+  },
+  {
+   "t": 1794881958.9089625,
+   "tool": "search",
+   "args": {
+    "pattern": "文本提取器",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05144440400181338,
+   "returned": [
+    "PowerToys#30064",
+    "PowerToys#32531",
+    "PowerToys#39847",
+    "PowerToys#35164",
+    "PowerToys#30595",
+    "PowerToys#22975",
+    "PowerToys#21047",
+    "PowerToys#41509",
+    "PowerToys#32536",
+    "PowerToys#24171",
+    "PowerToys#21459",
+    "PowerToys#21187",
+    "PowerToys#20539"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11781,
+  "stop_reason": "end_turn",
+  "session_id": "117cf38e-e650-4cd4-b694-63f63da81b35",
+  "total_cost_usd": 0.062018,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 12426,
+   "cache_read_input_tokens": 15480,
+   "output_tokens": 1075,
+   "output_tokens_details": {
+    "thinking_tokens": 221
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12426,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 462,
+     "cache_read_input_tokens": 8401,
+     "cache_creation_input_tokens": 5438,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5438
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1075,
+    "cacheReadInputTokens": 15480,
+    "cacheCreationInputTokens": 12426,
+    "webSearchRequests": 0,
+    "costUSD": 0.062018,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 221,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12426,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#27893\"], \"answer\": \"Your ticket has almost no details, so this is a likely match and not a confirmed one. PowerToys#27893 reported the same symptom: the Text Extractor shortcut stopped working, although it still worked from the tray icon. The cause there was another installed program that intercepted the hotkeys. Disabling that program fixed it. Check whether any keyboard, input-method or hotkey utility is running and might be capturing the shortcut. Try closing or disabling it. Then open PowerToys Settings > Text Extractor and set a different shortcut, such as one that isn't Win+Shift+T. Restart PowerToys afterwards. If it still fails, add your steps, your shortcut and a Bug Report zip (tray icon > Report bug) to the ticket.\"}",
+  "ttft_ms": 2350,
+  "type": "result",
+  "duration_ms": 15534,
+  "uuid": "7191b369-eac4-4c82-ab5c-634de4b0a73d",
+  "ttft_stream_ms": 1310,
+  "time_to_request_ms": 37,
+  "first_content_frame_ms": 1310,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1075,
+    "cacheReadInputTokens": 15480,
+    "cacheCreationInputTokens": 12426,
+    "webSearchRequests": 0,
+    "costUSD": 0.062018,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 221,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12426,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.89604924499872,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-mv8nwya9/work"
+  }
+ },
+ "wall_seconds": 16.897744590998627,
+ "qid": "PowerToys#50311",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#27893"
+  ],
+  "answer": "Your ticket has almost no details, so this is a likely match and not a confirmed one. PowerToys#27893 reported the same symptom: the Text Extractor shortcut stopped working, although it still worked from the tray icon. The cause there was another installed program that intercepted the hotkeys. Disabling that program fixed it. Check whether any keyboard, input-method or hotkey utility is running and might be capturing the shortcut. Try closing or disabling it. Then open PowerToys Settings > Text Extractor and set a different shortcut, such as one that isn't Win+Shift+T. Restart PowerToys afterwards. If it still fails, add your steps, your shortcut and a Bug Report zip (tray icon > Report bug) to the ticket."
+ },
+ "hit_turn_cap": false
+}

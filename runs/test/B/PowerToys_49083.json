@@ -1,0 +1,399 @@
+{
+ "shown": [
+  "PowerToys#13",
+  "PowerToys#13252",
+  "PowerToys#14186",
+  "PowerToys#17252",
+  "PowerToys#21908",
+  "PowerToys#23074",
+  "PowerToys#24452",
+  "PowerToys#26369",
+  "PowerToys#26474",
+  "PowerToys#27158",
+  "PowerToys#28769",
+  "PowerToys#29074",
+  "PowerToys#31286",
+  "PowerToys#3175",
+  "PowerToys#34334",
+  "PowerToys#35377",
+  "PowerToys#35481",
+  "PowerToys#3707",
+  "PowerToys#38530",
+  "PowerToys#39229",
+  "PowerToys#3929",
+  "PowerToys#3957",
+  "PowerToys#40520",
+  "PowerToys#41623",
+  "PowerToys#43005",
+  "PowerToys#442",
+  "PowerToys#45611",
+  "PowerToys#45901",
+  "PowerToys#46204",
+  "PowerToys#46569",
+  "PowerToys#46653",
+  "PowerToys#46775",
+  "PowerToys#46808",
+  "PowerToys#46854",
+  "PowerToys#46992",
+  "PowerToys#47058",
+  "PowerToys#47247",
+  "PowerToys#47917",
+  "PowerToys#48699",
+  "PowerToys#6850",
+  "PowerToys#814"
+ ],
+ "retrieval_seconds": 0.5459147120418493,
+ "tool_calls": [
+  {
+   "t": 1794877521.6477458,
+   "tool": "search",
+   "args": {
+    "pattern": "PuTTY",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07224492100067437,
+   "returned": [
+    "PowerToys#46569",
+    "PowerToys#46992",
+    "PowerToys#38530",
+    "PowerToys#46854",
+    "PowerToys#24452",
+    "PowerToys#13252",
+    "PowerToys#3707",
+    "PowerToys#46808",
+    "PowerToys#47247",
+    "PowerToys#39229",
+    "PowerToys#31286",
+    "PowerToys#3929",
+    "PowerToys#814",
+    "PowerToys#46653",
+    "PowerToys#43005",
+    "PowerToys#35481",
+    "PowerToys#35377",
+    "PowerToys#27158",
+    "PowerToys#23074",
+    "PowerToys#21908"
+   ]
+  },
+  {
+   "t": 1794877521.7674634,
+   "tool": "search",
+   "args": {
+    "pattern": "system menu",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10774975700769573,
+   "returned": [
+    "PowerToys#46569",
+    "PowerToys#47917",
+    "PowerToys#40520",
+    "PowerToys#26369",
+    "PowerToys#46992",
+    "PowerToys#29074",
+    "PowerToys#26474",
+    "PowerToys#13",
+    "PowerToys#45611",
+    "PowerToys#41623",
+    "PowerToys#34334",
+    "PowerToys#17252",
+    "PowerToys#14186",
+    "PowerToys#6850",
+    "PowerToys#3957",
+    "PowerToys#3175",
+    "PowerToys#442",
+    "PowerToys#47058",
+    "PowerToys#46204",
+    "PowerToys#45901"
+   ]
+  },
+  {
+   "t": 1794877523.7564127,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46992"
+   },
+   "seconds": 0.00013081598444841802,
+   "returned": [
+    "PowerToys#46992"
+   ]
+  },
+  {
+   "t": 1794877523.7645657,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46569"
+   },
+   "seconds": 7.773801917210221e-05,
+   "returned": [
+    "PowerToys#46569"
+   ]
+  },
+  {
+   "t": 1794877523.8384407,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46808"
+   },
+   "seconds": 0.00014082601410336792,
+   "returned": [
+    "PowerToys#46808"
+   ]
+  },
+  {
+   "t": 1794877526.0505674,
+   "tool": "search",
+   "args": {
+    "pattern": "0.100",
+    "regex": false,
+    "also": [
+     "menu",
+     "Always on Top"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.23261284301406704,
+   "returned": [
+    "PowerToys#48699",
+    "PowerToys#46775",
+    "PowerToys#28769"
+   ]
+  },
+  {
+   "t": 1794877527.481723,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47247"
+   },
+   "seconds": 0.00024307298008352518,
+   "returned": [
+    "PowerToys#47247"
+   ]
+  },
+  {
+   "t": 1794877529.1537664,
+   "tool": "search",
+   "args": {
+    "pattern": "PuTTY",
+    "regex": false,
+    "also": [
+     "0.100"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.13244639500044286,
+   "returned": []
+  },
+  {
+   "t": 1794877530.7848408,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47917"
+   },
+   "seconds": 0.0001254660019185394,
+   "returned": [
+    "PowerToys#47917"
+   ]
+  },
+  {
+   "t": 1794877532.5077417,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46775"
+   },
+   "seconds": 0.00014287701924331486,
+   "returned": [
+    "PowerToys#46775"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 18593,
+  "stop_reason": "end_turn",
+  "session_id": "3bad7cff-1da9-4d75-94d6-89e14bd0f7bc",
+  "total_cost_usd": 0.09128710000000001,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 17315,
+   "cache_read_input_tokens": 87151,
+   "output_tokens": 1328,
+   "output_tokens_details": {
+    "thinking_tokens": 230
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 17315,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 568,
+     "cache_read_input_tokens": 16615,
+     "cache_creation_input_tokens": 1877,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1877
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1328,
+    "cacheReadInputTokens": 87151,
+    "cacheCreationInputTokens": 17315,
+    "webSearchRequests": 0,
+    "costUSD": 0.09128710000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 230,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 17315,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46992\", \"PowerToys#46569\", \"PowerToys#46808\"], \"answer\": \"This has been reported before. The cause is the PowerToys Always on Top module. Since 0.98 it hooks new top-level windows, and that replaces the custom system menu that apps like PuTTY add. The reports describe the same symptom you see: only the default Windows menu appears, and only in windows opened while PowerToys is running. Reinstalling doesn't help. The workaround is to open PowerToys Settings, go to Always on Top, and turn the module off completely, then open a new PuTTY window. Turning off 'Show Always on Top in the title bar context menu' does not fix it. Adding putty.exe to the excluded apps list does not fix it either. Windows that were already open keep their menu. The archive doesn't show a fix yet, and your 0.100.2 report appears to be the newest one. Follow PowerToys#46569, which is the main tracking ticket, for a fix.\"}",
+  "ttft_ms": 2200,
+  "type": "result",
+  "duration_ms": 19277,
+  "uuid": "6c9d2915-c9f7-4d05-a15e-10fc8f5a43f7",
+  "ttft_stream_ms": 1381,
+  "time_to_request_ms": 53,
+  "first_content_frame_ms": 1381,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1328,
+    "cacheReadInputTokens": 87151,
+    "cacheCreationInputTokens": 17315,
+    "webSearchRequests": 0,
+    "costUSD": 0.09128710000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 230,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 17315,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 20.65925856900867,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-hmdr58l8/work"
+  }
+ },
+ "wall_seconds": 20.66125004598871,
+ "qid": "PowerToys#49083",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46992",
+   "PowerToys#46569",
+   "PowerToys#46808"
+  ],
+  "answer": "This has been reported before. The cause is the PowerToys Always on Top module. Since 0.98 it hooks new top-level windows, and that replaces the custom system menu that apps like PuTTY add. The reports describe the same symptom you see: only the default Windows menu appears, and only in windows opened while PowerToys is running. Reinstalling doesn't help. The workaround is to open PowerToys Settings, go to Always on Top, and turn the module off completely, then open a new PuTTY window. Turning off 'Show Always on Top in the title bar context menu' does not fix it. Adding putty.exe to the excluded apps list does not fix it either. Windows that were already open keep their menu. The archive doesn't show a fix yet, and your 0.100.2 report appears to be the newest one. Follow PowerToys#46569, which is the main tracking ticket, for a fix."
+ },
+ "hit_turn_cap": false
+}

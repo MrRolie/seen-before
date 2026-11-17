@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#291",
+  "PowerToys#38192",
+  "PowerToys#7169",
+  "PowerToys#18287",
+  "PowerToys#8736"
+ ],
+ "retrieval_seconds": 0.01944397299666889,
+ "retrieval_scores": [
+  0.7117775082588196,
+  0.6722185015678406,
+  0.6720748543739319,
+  0.6716391444206238,
+  0.6586374640464783
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3501,
+  "stop_reason": "end_turn",
+  "session_id": "8693beac-2f47-40ba-a785-9ae93564bf12",
+  "total_cost_usd": 0.018978,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4101,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 257,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4101,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 257,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4101,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4101
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 257,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4101,
+    "webSearchRequests": 0,
+    "costUSD": 0.018978,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4101,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"No past ticket reports this exact problem. The closest tickets, PowerToys#291 and PowerToys#38192, concern the old Shortcut Guide not showing numbers (or not revealing the taskbar) when the taskbar is set to auto-hide. PowerToys#291 was closed because Shortcut Guide V2 (0.100) made it obsolete. Your report is different: in the new V2 build (0.102), the taskbar indicators are shown but sit on top of the taskbar items when the taskbar is revealed with auto-hide on. Please keep this ticket open as a new bug. Meanwhile, you can avoid the overlap by turning off 'Automatically hide the taskbar' in Windows Settings.\"}",
+  "ttft_ms": 3669,
+  "type": "result",
+  "duration_ms": 3696,
+  "uuid": "01743887-3e02-4c41-b237-3890d57ee0c8",
+  "ttft_stream_ms": 1581,
+  "time_to_request_ms": 189,
+  "first_content_frame_ms": 1581,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 257,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4101,
+    "webSearchRequests": 0,
+    "costUSD": 0.018978,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4101,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.554129844007548,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-uaplmtum/work"
+  }
+ },
+ "wall_seconds": 4.576617181999609,
+ "qid": "PowerToys#50666",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "No past ticket reports this exact problem. The closest tickets, PowerToys#291 and PowerToys#38192, concern the old Shortcut Guide not showing numbers (or not revealing the taskbar) when the taskbar is set to auto-hide. PowerToys#291 was closed because Shortcut Guide V2 (0.100) made it obsolete. Your report is different: in the new V2 build (0.102), the taskbar indicators are shown but sit on top of the taskbar items when the taskbar is revealed with auto-hide on. Please keep this ticket open as a new bug. Meanwhile, you can avoid the overlap by turning off 'Automatically hide the taskbar' in Windows Settings."
+ },
+ "hit_turn_cap": false
+}

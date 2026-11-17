@@ -1,0 +1,449 @@
+{
+ "shown": [
+  "PowerToys#10232",
+  "PowerToys#1027",
+  "PowerToys#10384",
+  "PowerToys#1070",
+  "PowerToys#10903",
+  "PowerToys#11318",
+  "PowerToys#11433",
+  "PowerToys#11508",
+  "PowerToys#11580",
+  "PowerToys#11701",
+  "PowerToys#11882",
+  "PowerToys#12471",
+  "PowerToys#12524",
+  "PowerToys#13207",
+  "PowerToys#1406",
+  "PowerToys#1488",
+  "PowerToys#15156",
+  "PowerToys#1650",
+  "PowerToys#16635",
+  "PowerToys#1730",
+  "PowerToys#1742",
+  "PowerToys#18237",
+  "PowerToys#1936",
+  "PowerToys#2053",
+  "PowerToys#2252",
+  "PowerToys#22588",
+  "PowerToys#2344",
+  "PowerToys#23857",
+  "PowerToys#2413",
+  "PowerToys#25101",
+  "PowerToys#25350",
+  "PowerToys#2547",
+  "PowerToys#26782",
+  "PowerToys#29164",
+  "PowerToys#29753",
+  "PowerToys#32169",
+  "PowerToys#34901",
+  "PowerToys#35019",
+  "PowerToys#360",
+  "PowerToys#38947",
+  "PowerToys#4006",
+  "PowerToys#41335",
+  "PowerToys#4152",
+  "PowerToys#4501",
+  "PowerToys#45493",
+  "PowerToys#4567",
+  "PowerToys#4737",
+  "PowerToys#47694",
+  "PowerToys#48073",
+  "PowerToys#48144",
+  "PowerToys#4851",
+  "PowerToys#4920",
+  "PowerToys#5167",
+  "PowerToys#5918",
+  "PowerToys#5935",
+  "PowerToys#6120",
+  "PowerToys#6751",
+  "PowerToys#73",
+  "PowerToys#7371",
+  "PowerToys#773",
+  "PowerToys#7963",
+  "PowerToys#799",
+  "PowerToys#8355",
+  "PowerToys#8662",
+  "PowerToys#8942",
+  "PowerToys#9087",
+  "PowerToys#9493",
+  "PowerToys#9510",
+  "PowerToys#9991"
+ ],
+ "retrieval_seconds": 3.9360154870082624,
+ "tool_calls": [
+  {
+   "t": 1794884706.6138551,
+   "tool": "search",
+   "args": {
+    "query": "Quick access flyout should appear next to tray icon when taskbar is not at bottom (vertical/top taskbar)",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.8777393859927543,
+   "returned": [
+    "PowerToys#11580",
+    "PowerToys#6120",
+    "PowerToys#8662",
+    "PowerToys#5167",
+    "PowerToys#6751",
+    "PowerToys#11433",
+    "PowerToys#9493",
+    "PowerToys#4567",
+    "PowerToys#4851",
+    "PowerToys#23857",
+    "PowerToys#4501",
+    "PowerToys#11882",
+    "PowerToys#11508",
+    "PowerToys#1488",
+    "PowerToys#13207",
+    "PowerToys#10384",
+    "PowerToys#16635",
+    "PowerToys#8355",
+    "PowerToys#9510",
+    "PowerToys#73"
+   ]
+  },
+  {
+   "t": 1794884706.6393042,
+   "tool": "search",
+   "args": {
+    "query": "PowerDisplay flyout position wrong with taskbar on side",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012620780005818233,
+   "returned": [
+    "PowerToys#2413",
+    "PowerToys#5167",
+    "PowerToys#9087",
+    "PowerToys#6120",
+    "PowerToys#7371",
+    "PowerToys#10903",
+    "PowerToys#773",
+    "PowerToys#7963",
+    "PowerToys#47694",
+    "PowerToys#1742",
+    "PowerToys#2252",
+    "PowerToys#4737",
+    "PowerToys#11701",
+    "PowerToys#11318",
+    "PowerToys#2053",
+    "PowerToys#1650",
+    "PowerToys#2344",
+    "PowerToys#1936",
+    "PowerToys#12524",
+    "PowerToys#799"
+   ]
+  },
+  {
+   "t": 1794884708.0595303,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#23857"
+   },
+   "seconds": 0.00014612599625252187,
+   "returned": [
+    "PowerToys#23857"
+   ]
+  },
+  {
+   "t": 1794884708.2264297,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47694"
+   },
+   "seconds": 0.00018167501548305154,
+   "returned": [
+    "PowerToys#47694"
+   ]
+  },
+  {
+   "t": 1794884709.7606363,
+   "tool": "search",
+   "args": {
+    "query": "flyout position follow taskbar orientation vertical taskbar Windows 11",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.017304603999946266,
+   "returned": [
+    "PowerToys#25101",
+    "PowerToys#38947",
+    "PowerToys#11701",
+    "PowerToys#12524",
+    "PowerToys#26782",
+    "PowerToys#29164",
+    "PowerToys#6120",
+    "PowerToys#18237",
+    "PowerToys#29753",
+    "PowerToys#35019",
+    "PowerToys#41335",
+    "PowerToys#2413",
+    "PowerToys#15156",
+    "PowerToys#48144",
+    "PowerToys#5167",
+    "PowerToys#13207",
+    "PowerToys#34901",
+    "PowerToys#799",
+    "PowerToys#12471",
+    "PowerToys#7371"
+   ]
+  },
+  {
+   "t": 1794884711.459575,
+   "tool": "search",
+   "args": {
+    "query": "Quick Access flyout appears bottom right regardless of taskbar position",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.013409969018539414,
+   "returned": [
+    "PowerToys#5167",
+    "PowerToys#23857",
+    "PowerToys#10903",
+    "PowerToys#11318",
+    "PowerToys#9087",
+    "PowerToys#7371",
+    "PowerToys#13207",
+    "PowerToys#4006",
+    "PowerToys#32169",
+    "PowerToys#2413",
+    "PowerToys#2252",
+    "PowerToys#5935",
+    "PowerToys#11580",
+    "PowerToys#6120",
+    "PowerToys#4920",
+    "PowerToys#2547",
+    "PowerToys#5918",
+    "PowerToys#11701",
+    "PowerToys#1742",
+    "PowerToys#47694"
+   ]
+  },
+  {
+   "t": 1794884713.15058,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32169"
+   },
+   "seconds": 8.986800094135106e-05,
+   "returned": [
+    "PowerToys#32169"
+   ]
+  },
+  {
+   "t": 1794884715.153662,
+   "tool": "search",
+   "args": {
+    "query": "Power Display flyout hardcoded bottom right, should open next to systray icon",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014523078978527337,
+   "returned": [
+    "PowerToys#47694",
+    "PowerToys#25350",
+    "PowerToys#12471",
+    "PowerToys#9991",
+    "PowerToys#22588",
+    "PowerToys#1730",
+    "PowerToys#73",
+    "PowerToys#11580",
+    "PowerToys#360",
+    "PowerToys#1406",
+    "PowerToys#48073",
+    "PowerToys#6751",
+    "PowerToys#1027",
+    "PowerToys#8942",
+    "PowerToys#45493",
+    "PowerToys#2053",
+    "PowerToys#4152",
+    "PowerToys#11508",
+    "PowerToys#10232",
+    "PowerToys#1070"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 14925,
+  "stop_reason": "end_turn",
+  "session_id": "75e2457c-e9aa-4a49-86be-ce4c009246d8",
+  "total_cost_usd": 0.0512767,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 9055,
+   "cache_read_input_tokens": 36787,
+   "output_tokens": 1135,
+   "output_tokens_details": {
+    "thinking_tokens": 66
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9055,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 350,
+     "cache_read_input_tokens": 8801,
+     "cache_creation_input_tokens": 1287,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1287
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1135,
+    "cacheReadInputTokens": 36787,
+    "cacheCreationInputTokens": 9055,
+    "webSearchRequests": 0,
+    "costUSD": 0.0512767,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 66,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9055,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#47694\", \"PowerToys#23857\"], \"answer\": \"This has been reported before. The closest match is PowerToys#47694, which covers the Power Display flyout. It is hard-coded to the bottom-right of the screen and ignores taskbar orientation. A maintainer replied that bottom-right placement is by design and reclassified it as a feature request. It is still open as a request, and I found no fix or workaround in it. PowerToys#23857 is the same complaint for the Quick Access tray flyout. It always opened in the lower-right corner whatever the taskbar position. It was marked as a duplicate of #23772 and was due a hotfix in 2023. That ticket predates native vertical taskbar support in Windows 11, so the behavior you see now may be a regression or a new gap. For now, expect both flyouts to open at the bottom-right. To get this changed, add your use case and a thumbs-up to #47694. If the Quick Access flyout is still wrong on your current version, say so there or in a new bug report.\"}",
+  "ttft_ms": 2427,
+  "type": "result",
+  "duration_ms": 18940,
+  "uuid": "45c147ef-e8c8-4283-a4a7-848cda8b9d68",
+  "ttft_stream_ms": 1242,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 1242,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1135,
+    "cacheReadInputTokens": 36787,
+    "cacheCreationInputTokens": 9055,
+    "webSearchRequests": 0,
+    "costUSD": 0.0512767,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 66,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9055,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 20.335126616992056,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-66vin58g/work"
+  }
+ },
+ "wall_seconds": 20.337384576996556,
+ "qid": "PowerToys#51600",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#47694",
+   "PowerToys#23857"
+  ],
+  "answer": "This has been reported before. The closest match is PowerToys#47694, which covers the Power Display flyout. It is hard-coded to the bottom-right of the screen and ignores taskbar orientation. A maintainer replied that bottom-right placement is by design and reclassified it as a feature request. It is still open as a request, and I found no fix or workaround in it. PowerToys#23857 is the same complaint for the Quick Access tray flyout. It always opened in the lower-right corner whatever the taskbar position. It was marked as a duplicate of #23772 and was due a hotfix in 2023. That ticket predates native vertical taskbar support in Windows 11, so the behavior you see now may be a regression or a new gap. For now, expect both flyouts to open at the bottom-right. To get this changed, add your use case and a thumbs-up to #47694. If the Quick Access flyout is still wrong on your current version, say so there or in a new bug report."
+ },
+ "hit_turn_cap": false
+}

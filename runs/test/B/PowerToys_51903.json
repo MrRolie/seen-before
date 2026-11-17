@@ -1,0 +1,313 @@
+{
+ "shown": [
+  "PowerToys#13580",
+  "PowerToys#14026",
+  "PowerToys#14351",
+  "PowerToys#14586",
+  "PowerToys#16393",
+  "PowerToys#2092",
+  "PowerToys#23",
+  "PowerToys#26201",
+  "PowerToys#29115",
+  "PowerToys#31946",
+  "PowerToys#31949",
+  "PowerToys#33432",
+  "PowerToys#35199",
+  "PowerToys#3610",
+  "PowerToys#37681",
+  "PowerToys#42284",
+  "PowerToys#43864",
+  "PowerToys#44",
+  "PowerToys#44511",
+  "PowerToys#4462"
+ ],
+ "retrieval_seconds": 0.12660225800937042,
+ "tool_calls": [
+  {
+   "t": 1794885262.8511343,
+   "tool": "search",
+   "args": {
+    "pattern": "Dialog Jump",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05926377500873059,
+   "returned": []
+  },
+  {
+   "t": 1794885263.0954483,
+   "tool": "search",
+   "args": {
+    "pattern": "Listary",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06659632999799214,
+   "returned": [
+    "PowerToys#14351",
+    "PowerToys#3610",
+    "PowerToys#44",
+    "PowerToys#43864",
+    "PowerToys#2092",
+    "PowerToys#23",
+    "PowerToys#13580",
+    "PowerToys#4462",
+    "PowerToys#35199",
+    "PowerToys#31949",
+    "PowerToys#16393",
+    "PowerToys#14586",
+    "PowerToys#14026",
+    "PowerToys#44511",
+    "PowerToys#42284",
+    "PowerToys#37681",
+    "PowerToys#33432",
+    "PowerToys#31946",
+    "PowerToys#29115",
+    "PowerToys#26201"
+   ]
+  },
+  {
+   "t": 1794885264.7067258,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#3610"
+   },
+   "seconds": 0.00011955699301324785,
+   "returned": [
+    "PowerToys#3610"
+   ]
+  },
+  {
+   "t": 1794885264.892176,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#16393"
+   },
+   "seconds": 0.00013730701175518334,
+   "returned": [
+    "PowerToys#16393"
+   ]
+  },
+  {
+   "t": 1794885265.7277322,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#23"
+   },
+   "seconds": 0.0001631059858482331,
+   "returned": [
+    "PowerToys#23"
+   ]
+  },
+  {
+   "t": 1794885266.455425,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#13580"
+   },
+   "seconds": 0.00018291600281372666,
+   "returned": [
+    "PowerToys#13580"
+   ]
+  },
+  {
+   "t": 1794885267.2165473,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#14351"
+   },
+   "seconds": 0.00013926700921729207,
+   "returned": [
+    "PowerToys#14351"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8839,
+  "stop_reason": "end_turn",
+  "session_id": "19cb454b-493b-48f6-a49e-e928909f454a",
+  "total_cost_usd": 0.0538225,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 10125,
+   "cache_read_input_tokens": 35285,
+   "output_tokens": 977,
+   "output_tokens_details": {
+    "thinking_tokens": 112
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10125,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 388,
+     "cache_read_input_tokens": 9576,
+     "cache_creation_input_tokens": 1726,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1726
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 977,
+    "cacheReadInputTokens": 35285,
+    "cacheCreationInputTokens": 10125,
+    "webSearchRequests": 0,
+    "costUSD": 0.0538225,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 112,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10125,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#14351\", \"PowerToys#23\", \"PowerToys#3610\"], \"answer\": \"This feature request has been filed many times before. The Listary-style Quick Switch / Ctrl+G jump to an open Explorer folder in Open/Save dialogs is not implemented in PowerToys yet. PowerToys#14351 is the main tracking thread, and #23 and #3610 cover the same request. Several other tickets ask for the same thing: #13580, #16393, #31946, #31949, #37681, #42284, #26201 and #33432. Please add a +1 or your use case to #14351 instead of opening a new request. In the meantime, use a third-party tool for this. The tickets mention Listary, Fluent Search, QuickSwitch (gepruts/QuickSwitch on GitHub) and DirectFolders. Your ticket also names Flow Launcher and Lertaro, but neither appears in the archive.\"}",
+  "ttft_ms": 990,
+  "type": "result",
+  "duration_ms": 8917,
+  "uuid": "a0d09d95-6839-4d13-bc55-04421a5bdad0",
+  "ttft_stream_ms": 637,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 637,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 977,
+    "cacheReadInputTokens": 35285,
+    "cacheCreationInputTokens": 10125,
+    "webSearchRequests": 0,
+    "costUSD": 0.0538225,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 112,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10125,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.413992448011413,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-bhdc59ob/work"
+  }
+ },
+ "wall_seconds": 10.415588130010292,
+ "qid": "PowerToys#51903",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#14351",
+   "PowerToys#23",
+   "PowerToys#3610"
+  ],
+  "answer": "This feature request has been filed many times before. The Listary-style Quick Switch / Ctrl+G jump to an open Explorer folder in Open/Save dialogs is not implemented in PowerToys yet. PowerToys#14351 is the main tracking thread, and #23 and #3610 cover the same request. Several other tickets ask for the same thing: #13580, #16393, #31946, #31949, #37681, #42284, #26201 and #33432. Please add a +1 or your use case to #14351 instead of opening a new request. In the meantime, use a third-party tool for this. The tickets mention Listary, Fluent Search, QuickSwitch (gepruts/QuickSwitch on GitHub) and DirectFolders. Your ticket also names Flow Launcher and Lertaro, but neither appears in the archive."
+ },
+ "hit_turn_cap": false
+}

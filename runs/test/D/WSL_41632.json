@@ -1,0 +1,306 @@
+{
+ "shown": [
+  "WSL#10280",
+  "WSL#11253",
+  "WSL#12242",
+  "WSL#12286",
+  "WSL#12566",
+  "WSL#12596",
+  "WSL#12602",
+  "WSL#12638",
+  "WSL#12730",
+  "WSL#13585",
+  "WSL#14536",
+  "WSL#2565",
+  "WSL#40488",
+  "WSL#40616",
+  "WSL#40683",
+  "WSL#40762",
+  "WSL#40808",
+  "WSL#40938",
+  "WSL#4120",
+  "WSL#4228",
+  "WSL#4786",
+  "WSL#5815",
+  "WSL#8127",
+  "WSL#8688",
+  "WSL#9365"
+ ],
+ "retrieval_seconds": 4.550460747996112,
+ "tool_calls": [
+  {
+   "t": 1794882970.7773125,
+   "tool": "search",
+   "args": {
+    "pattern": "CreateVm/HCS/ERROR_FILE_NOT_FOUND",
+    "regex": false,
+    "also": null,
+    "repo": "WSL"
+   },
+   "seconds": 0.03332959199906327,
+   "returned": [
+    "WSL#40488",
+    "WSL#40762",
+    "WSL#40808",
+    "WSL#12596",
+    "WSL#12566",
+    "WSL#40616",
+    "WSL#40938",
+    "WSL#40683",
+    "WSL#14536",
+    "WSL#12602"
+   ]
+  },
+  {
+   "t": 1794882975.831864,
+   "tool": "similar",
+   "args": {
+    "query": "wsl --update 2.7.14 breaks WSL, ERROR_FILE_NOT_FOUND CreateVm, rolling back to 2.7.13 works",
+    "repo": "WSL"
+   },
+   "seconds": 4.5163001010078005,
+   "returned": [
+    "WSL#8688",
+    "WSL#40488",
+    "WSL#8127",
+    "WSL#11253",
+    "WSL#10280",
+    "WSL#40808",
+    "WSL#9365",
+    "WSL#40616",
+    "WSL#14536",
+    "WSL#5815",
+    "WSL#4786",
+    "WSL#13585",
+    "WSL#4120",
+    "WSL#12242",
+    "WSL#12730",
+    "WSL#12566",
+    "WSL#12286",
+    "WSL#4228",
+    "WSL#12638",
+    "WSL#2565"
+   ]
+  },
+  {
+   "t": 1794882977.0197718,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#40808"
+   },
+   "seconds": 0.00028972100699320436,
+   "returned": [
+    "WSL#40808"
+   ]
+  },
+  {
+   "t": 1794882977.2635455,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#40488"
+   },
+   "seconds": 0.0003106009971816093,
+   "returned": [
+    "WSL#40488"
+   ]
+  },
+  {
+   "t": 1794882977.4481385,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#40762"
+   },
+   "seconds": 0.00023073298507370055,
+   "returned": [
+    "WSL#40762"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7830,
+  "stop_reason": "end_turn",
+  "session_id": "87b3c7db-8fd6-4447-b907-eee8d937ad24",
+  "total_cost_usd": 0.0731645,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 15257,
+   "cache_read_input_tokens": 26605,
+   "output_tokens": 946,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 15257,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 480,
+     "cache_read_input_tokens": 16597,
+     "cache_creation_input_tokens": 73,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 73
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 946,
+    "cacheReadInputTokens": 26605,
+    "cacheCreationInputTokens": 15257,
+    "webSearchRequests": 0,
+    "costUSD": 0.0731645,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15257,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"WSL#40488\", \"WSL#40762\", \"WSL#40808\"], \"answer\": \"This has been reported before. The WSL MSI upgrade can fail to replace or leave behind the system VHDs (system.vhd and modules.vhd under C:\\\\Program Files\\\\WSL). WSL then can't start any WSL2 VM and gives Wsl/Service/CreateInstance/CreateVm/HCS/ERROR_FILE_NOT_FOUND. Your distro data is safe. Rolling back to 2.7.13, as you did, works. The other fix from those tickets is to download the wsl.2.7.14.0.x64.msi installer from the GitHub releases page, right-click it and choose Repair, or run `msiexec /fa wsl.2.7.14.0.x64.msi`. Close Docker Desktop and VS Code first. If that fails, disable the WSL and Virtual Machine Platform Windows features, reboot, re-enable them, reboot again, then reinstall from the MSI. The maintainers say the underlying bug was fixed in 2.9.3 and backported to 2.7.14, but the fix only helps when you update from an already-fixed version. Updating from an older version can still hit it. So staying on 2.7.13 for now is reasonable. If you need to report the 2.7.14 failure, attach logs from collect-wsl-logs.ps1 captured while the installer runs.\"}",
+  "ttft_ms": 1062,
+  "type": "result",
+  "duration_ms": 12420,
+  "uuid": "780c4d06-e9ff-4648-b8d6-44a7c87d033d",
+  "ttft_stream_ms": 604,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 605,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 946,
+    "cacheReadInputTokens": 26605,
+    "cacheCreationInputTokens": 15257,
+    "webSearchRequests": 0,
+    "costUSD": 0.0731645,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15257,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.99918063901714,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-vjq86gbr/work"
+  }
+ },
+ "wall_seconds": 14.001671292993706,
+ "qid": "WSL#41632",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "WSL#40488",
+   "WSL#40762",
+   "WSL#40808"
+  ],
+  "answer": "This has been reported before. The WSL MSI upgrade can fail to replace or leave behind the system VHDs (system.vhd and modules.vhd under C:\\Program Files\\WSL). WSL then can't start any WSL2 VM and gives Wsl/Service/CreateInstance/CreateVm/HCS/ERROR_FILE_NOT_FOUND. Your distro data is safe. Rolling back to 2.7.13, as you did, works. The other fix from those tickets is to download the wsl.2.7.14.0.x64.msi installer from the GitHub releases page, right-click it and choose Repair, or run `msiexec /fa wsl.2.7.14.0.x64.msi`. Close Docker Desktop and VS Code first. If that fails, disable the WSL and Virtual Machine Platform Windows features, reboot, re-enable them, reboot again, then reinstall from the MSI. The maintainers say the underlying bug was fixed in 2.9.3 and backported to 2.7.14, but the fix only helps when you update from an already-fixed version. Updating from an older version can still hit it. So staying on 2.7.13 for now is reasonable. If you need to report the 2.7.14 failure, attach logs from collect-wsl-logs.ps1 captured while the installer runs."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,328 @@
+{
+ "shown": [
+  "PowerToys#30507",
+  "PowerToys#31226",
+  "PowerToys#31313",
+  "PowerToys#32101",
+  "PowerToys#32530",
+  "PowerToys#32726",
+  "PowerToys#32812",
+  "PowerToys#33078",
+  "PowerToys#33172",
+  "PowerToys#36353",
+  "PowerToys#41110",
+  "PowerToys#42589",
+  "PowerToys#42616",
+  "PowerToys#42771",
+  "PowerToys#42791",
+  "PowerToys#42817",
+  "PowerToys#43125",
+  "PowerToys#43425",
+  "PowerToys#43678",
+  "PowerToys#43873",
+  "PowerToys#43911",
+  "PowerToys#44148",
+  "PowerToys#44188",
+  "PowerToys#44663",
+  "PowerToys#45020",
+  "PowerToys#45058",
+  "PowerToys#45214",
+  "PowerToys#45440",
+  "PowerToys#45563",
+  "PowerToys#45578",
+  "PowerToys#45908",
+  "PowerToys#47099",
+  "PowerToys#48237",
+  "PowerToys#48285",
+  "PowerToys#48289",
+  "PowerToys#48357",
+  "PowerToys#48545"
+ ],
+ "retrieval_seconds": 3.867024204984773,
+ "tool_calls": [
+  {
+   "t": 1794884052.107534,
+   "tool": "search",
+   "args": {
+    "pattern": "desktop composition is disabled",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.05596910297754221,
+   "returned": [
+    "PowerToys#31226",
+    "PowerToys#41110",
+    "PowerToys#48357",
+    "PowerToys#45908",
+    "PowerToys#36353",
+    "PowerToys#33172",
+    "PowerToys#33078",
+    "PowerToys#32530",
+    "PowerToys#45578",
+    "PowerToys#43425",
+    "PowerToys#42616",
+    "PowerToys#42589",
+    "PowerToys#32812",
+    "PowerToys#32101",
+    "PowerToys#48545",
+    "PowerToys#48289",
+    "PowerToys#48285",
+    "PowerToys#48237",
+    "PowerToys#45563",
+    "PowerToys#45214"
+   ]
+  },
+  {
+   "t": 1794884056.2559545,
+   "tool": "similar",
+   "args": {
+    "query": "DwmExtendFrameIntoClientArea COMException 0x80263001 desktop composition disabled PowerToys Run",
+    "repo": null
+   },
+   "seconds": 3.8102783839858603,
+   "returned": [
+    "PowerToys#43678",
+    "PowerToys#45058",
+    "PowerToys#43125",
+    "PowerToys#32726",
+    "PowerToys#43911",
+    "PowerToys#44663",
+    "PowerToys#36353",
+    "PowerToys#31313",
+    "PowerToys#44148",
+    "PowerToys#42817",
+    "PowerToys#43873",
+    "PowerToys#45440",
+    "PowerToys#31226",
+    "PowerToys#45020",
+    "PowerToys#45908",
+    "PowerToys#42791",
+    "PowerToys#30507",
+    "PowerToys#44188",
+    "PowerToys#47099",
+    "PowerToys#42771"
+   ]
+  },
+  {
+   "t": 1794884057.2205997,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#31226"
+   },
+   "seconds": 0.0004795769928023219,
+   "returned": [
+    "PowerToys#31226"
+   ]
+  },
+  {
+   "t": 1794884057.4036624,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32530"
+   },
+   "seconds": 0.00016275502275675535,
+   "returned": [
+    "PowerToys#32530"
+   ]
+  },
+  {
+   "t": 1794884058.233482,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#30507"
+   },
+   "seconds": 0.00013438600581139326,
+   "returned": [
+    "PowerToys#30507"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6066,
+  "stop_reason": "end_turn",
+  "session_id": "1ee5fc3c-843b-45a6-a164-d3863f40c0df",
+  "total_cost_usd": 0.08541240000000001,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 18886,
+   "cache_read_input_tokens": 30624,
+   "output_tokens": 679,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 18886,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 333,
+     "cache_read_input_tokens": 16563,
+     "cache_creation_input_tokens": 3736,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3736
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 679,
+    "cacheReadInputTokens": 30624,
+    "cacheCreationInputTokens": 18886,
+    "webSearchRequests": 0,
+    "costUSD": 0.08541240000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18886,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#31226\", \"PowerToys#30507\", \"PowerToys#32530\"], \"answer\": \"This has been reported before. PowerToys Run throws COMException 0x80263001 ({Desktop composition is disabled}) when Windows sends a desktop-composition-changed message. That usually happens when the display goes black or flickers, for example during a power or GPU mode switch like unplugging the charger. The root cause varies from machine to machine and is usually outside PowerToys, such as graphics driver problems or memory exhaustion. The maintainers' recommended fix, in the pinned note on #31226, is to update PowerToys to 0.96 or newer. That version handles the error gracefully instead of showing the crash dialog. You are on 0.83.0.0. Also update your graphics drivers, and check Armoury Crate's GPU or power-saving switching settings. The black flicker on unplug is a display-mode change, and the PowerToys error is a side effect of it.\"}",
+  "ttft_ms": 894,
+  "type": "result",
+  "duration_ms": 9933,
+  "uuid": "342f87ec-8c45-4202-a596-2145c0ac2303",
+  "ttft_stream_ms": 569,
+  "time_to_request_ms": 37,
+  "first_content_frame_ms": 569,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 679,
+    "cacheReadInputTokens": 30624,
+    "cacheCreationInputTokens": 18886,
+    "webSearchRequests": 0,
+    "costUSD": 0.08541240000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18886,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.27737884700764,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-l5wf4w8q/work"
+  }
+ },
+ "wall_seconds": 11.279497249983251,
+ "qid": "PowerToys#51203",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#31226",
+   "PowerToys#30507",
+   "PowerToys#32530"
+  ],
+  "answer": "This has been reported before. PowerToys Run throws COMException 0x80263001 ({Desktop composition is disabled}) when Windows sends a desktop-composition-changed message. That usually happens when the display goes black or flickers, for example during a power or GPU mode switch like unplugging the charger. The root cause varies from machine to machine and is usually outside PowerToys, such as graphics driver problems or memory exhaustion. The maintainers' recommended fix, in the pinned note on #31226, is to update PowerToys to 0.96 or newer. That version handles the error gracefully instead of showing the crash dialog. You are on 0.83.0.0. Also update your graphics drivers, and check Armoury Crate's GPU or power-saving switching settings. The black flicker on unplug is a display-mode change, and the PowerToys error is a side effect of it."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "WSL#40808",
+  "WSL#40616",
+  "WSL#40488",
+  "WSL#13539",
+  "WSL#14536"
+ ],
+ "retrieval_seconds": 0.569042040995555,
+ "retrieval_scores": [
+  0.03055037313432836,
+  0.02964254577157803,
+  0.02919863597612958,
+  0.027526395173453996,
+  0.027500922849760058
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 7142,
+  "stop_reason": "end_turn",
+  "session_id": "668570de-eb08-4f2d-bb20-343c0788f114",
+  "total_cost_usd": 0.070428,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 15206,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 960,
+   "output_tokens_details": {
+    "thinking_tokens": 468
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 15206,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 960,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 15206,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 15206
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 960,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 15206,
+    "webSearchRequests": 0,
+    "costUSD": 0.070428,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 468,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15206,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"WSL#40488\", \"WSL#40808\", \"WSL#40616\"], \"answer\": \"This looks like a known problem. After a WSL update, the files C:\\\\Program Files\\\\WSL\\\\system.vhd and C:\\\\Program Files\\\\WSL\\\\tools\\\\modules.vhd can be missing. WSL2 distros then fail with Wsl/Service/CreateInstance/CreateVm/HCS/ERROR_FILE_NOT_FOUND, and WSL1 is unaffected. Your ticket doesn't say whether those files are missing, so check that first. The past tickets suggest the following. (1) Download the WSL MSI from the GitHub releases page. WSL#40488 recommends 2.7.14, which has a backported fix, but your own installed version (2.7.12.0) is also reported to work for repair. (2) Exit Docker Desktop if it is running. (3) Right-click the MSI and choose Repair, or run `msiexec /fa wsl.<version>.x64.msi` from a command line. This restored WSL for the reporter in WSL#40808. Rolling back to the last working version, as you already did with 2.7.11.0, also works but is not required. If the MSI won't run, WSL#40488 suggests disabling the WSL feature, rebooting, re-enabling it, rebooting again and then reinstalling the MSI. That did not work for everyone, and some people had to roll back instead. This does not affect your distro data.\"}",
+  "ttft_ms": 4016,
+  "type": "result",
+  "duration_ms": 7343,
+  "uuid": "a8be67da-0b7a-4275-a000-e6780cf7ed0c",
+  "ttft_stream_ms": 728,
+  "time_to_request_ms": 195,
+  "first_content_frame_ms": 728,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 960,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 15206,
+    "webSearchRequests": 0,
+    "costUSD": 0.070428,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 468,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15206,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 8.112300148990471,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-k1s4pzpa/work"
+  }
+ },
+ "wall_seconds": 8.684181057004025,
+ "qid": "WSL#41422",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "WSL#40488",
+   "WSL#40808",
+   "WSL#40616"
+  ],
+  "answer": "This looks like a known problem. After a WSL update, the files C:\\Program Files\\WSL\\system.vhd and C:\\Program Files\\WSL\\tools\\modules.vhd can be missing. WSL2 distros then fail with Wsl/Service/CreateInstance/CreateVm/HCS/ERROR_FILE_NOT_FOUND, and WSL1 is unaffected. Your ticket doesn't say whether those files are missing, so check that first. The past tickets suggest the following. (1) Download the WSL MSI from the GitHub releases page. WSL#40488 recommends 2.7.14, which has a backported fix, but your own installed version (2.7.12.0) is also reported to work for repair. (2) Exit Docker Desktop if it is running. (3) Right-click the MSI and choose Repair, or run `msiexec /fa wsl.<version>.x64.msi` from a command line. This restored WSL for the reporter in WSL#40808. Rolling back to the last working version, as you already did with 2.7.11.0, also works but is not required. If the MSI won't run, WSL#40488 suggests disabling the WSL feature, rebooting, re-enabling it, rebooting again and then reinstalling the MSI. That did not work for everyone, and some people had to roll back instead. This does not affect your distro data."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,330 @@
+{
+ "shown": [
+  "PowerToys#1052",
+  "PowerToys#11239",
+  "PowerToys#11315",
+  "PowerToys#11330",
+  "PowerToys#14123",
+  "PowerToys#16370",
+  "PowerToys#16404",
+  "PowerToys#1895",
+  "PowerToys#19073",
+  "PowerToys#20315",
+  "PowerToys#22073",
+  "PowerToys#23857",
+  "PowerToys#24114",
+  "PowerToys#24283",
+  "PowerToys#243",
+  "PowerToys#2869",
+  "PowerToys#3308",
+  "PowerToys#3407",
+  "PowerToys#3523",
+  "PowerToys#360",
+  "PowerToys#39224",
+  "PowerToys#40311",
+  "PowerToys#4487",
+  "PowerToys#45201",
+  "PowerToys#46232",
+  "PowerToys#46327",
+  "PowerToys#46544",
+  "PowerToys#47355",
+  "PowerToys#48211",
+  "PowerToys#48225",
+  "PowerToys#48389",
+  "PowerToys#4851",
+  "PowerToys#5634",
+  "PowerToys#6103",
+  "PowerToys#6202",
+  "PowerToys#7626",
+  "PowerToys#765",
+  "PowerToys#8136"
+ ],
+ "retrieval_seconds": 3.538854404032463,
+ "tool_calls": [
+  {
+   "t": 1794879212.8226664,
+   "tool": "similar",
+   "args": {
+    "query": "Dock show system tray notification area icons",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.3954772670113016,
+   "returned": [
+    "PowerToys#46232",
+    "PowerToys#1895",
+    "PowerToys#3523",
+    "PowerToys#360",
+    "PowerToys#6202",
+    "PowerToys#4851",
+    "PowerToys#46327",
+    "PowerToys#3308",
+    "PowerToys#11315",
+    "PowerToys#11239",
+    "PowerToys#19073",
+    "PowerToys#5634",
+    "PowerToys#7626",
+    "PowerToys#4487",
+    "PowerToys#40311",
+    "PowerToys#48389",
+    "PowerToys#765",
+    "PowerToys#6103",
+    "PowerToys#2869",
+    "PowerToys#8136"
+   ]
+  },
+  {
+   "t": 1794879213.946713,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46232"
+   },
+   "seconds": 0.00013515600585378706,
+   "returned": [
+    "PowerToys#46232"
+   ]
+  },
+  {
+   "t": 1794879214.481275,
+   "tool": "search",
+   "args": {
+    "pattern": "tray",
+    "regex": false,
+    "also": [
+     "Dock"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.14290015000733547,
+   "returned": [
+    "PowerToys#45201",
+    "PowerToys#11330",
+    "PowerToys#243",
+    "PowerToys#3407",
+    "PowerToys#1052",
+    "PowerToys#46232",
+    "PowerToys#47355",
+    "PowerToys#46544",
+    "PowerToys#16404",
+    "PowerToys#14123",
+    "PowerToys#48389",
+    "PowerToys#48225",
+    "PowerToys#48211",
+    "PowerToys#39224",
+    "PowerToys#24283",
+    "PowerToys#24114",
+    "PowerToys#23857",
+    "PowerToys#22073",
+    "PowerToys#20315",
+    "PowerToys#16370"
+   ]
+  },
+  {
+   "t": 1794879215.5087938,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48211"
+   },
+   "seconds": 0.00011086699669249356,
+   "returned": [
+    "PowerToys#48211"
+   ]
+  },
+  {
+   "t": 1794879216.6379259,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45201"
+   },
+   "seconds": 0.0002309640112798661,
+   "returned": [
+    "PowerToys#45201"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8189,
+  "stop_reason": "end_turn",
+  "session_id": "85f29232-2180-41fb-9d03-d47006fa5074",
+  "total_cost_usd": 0.057618,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 11908,
+   "cache_read_input_tokens": 26660,
+   "output_tokens": 730,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11908,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 251,
+     "cache_read_input_tokens": 10183,
+     "cache_creation_input_tokens": 3138,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3138
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 730,
+    "cacheReadInputTokens": 26660,
+    "cacheCreationInputTokens": 11908,
+    "webSearchRequests": 0,
+    "costUSD": 0.057618,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11908,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46232\", \"PowerToys#48211\"], \"answer\": \"This request has been filed before. PowerToys#46232 ('Allow all system tray icons to be displayed on the dock') is the tracking thread, and PowerToys#48211 points to it for the tray part of its request. The PowerToys team said they probably can't ship tray-icon support in the Dock themselves. They left the thread open as a tracker and said they would welcome a third-party Command Palette extension that shows tray icons as a dock band. Add a thumbs-up to #46232 rather than opening a new request. For now, keep using the Windows taskbar's notification area for background apps. A community-built dock band extension is the likely route if you want this sooner.\"}",
+  "ttft_ms": 1481,
+  "type": "result",
+  "duration_ms": 11606,
+  "uuid": "cbe2ed34-1c2c-446d-980b-0285b80081c0",
+  "ttft_stream_ms": 894,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 894,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 730,
+    "cacheReadInputTokens": 26660,
+    "cacheCreationInputTokens": 11908,
+    "webSearchRequests": 0,
+    "costUSD": 0.057618,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11908,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.095053822005866,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-nz3ijq17/work"
+  }
+ },
+ "wall_seconds": 13.096811451017857,
+ "qid": "PowerToys#49619",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46232",
+   "PowerToys#48211"
+  ],
+  "answer": "This request has been filed before. PowerToys#46232 ('Allow all system tray icons to be displayed on the dock') is the tracking thread, and PowerToys#48211 points to it for the tray part of its request. The PowerToys team said they probably can't ship tray-icon support in the Dock themselves. They left the thread open as a tracker and said they would welcome a third-party Command Palette extension that shows tray icons as a dock band. Add a thumbs-up to #46232 rather than opening a new request. For now, keep using the Windows taskbar's notification area for background apps. A community-built dock band extension is the likely route if you want this sooner."
+ },
+ "hit_turn_cap": false
+}

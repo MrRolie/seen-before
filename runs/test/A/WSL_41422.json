@@ -1,0 +1,194 @@
+{
+ "shown": [
+  "WSL#14489",
+  "WSL#40616",
+  "WSL#14536",
+  "WSL#40808",
+  "WSL#12165"
+ ],
+ "retrieval_seconds": 0.018169146991567686,
+ "retrieval_scores": [
+  0.7903614044189453,
+  0.7817291617393494,
+  0.7670354247093201,
+  0.7647703886032104,
+  0.7518613934516907
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 8225,
+  "stop_reason": "end_turn",
+  "session_id": "05f1e5a7-978d-426d-89df-0b6577f76a8d",
+  "total_cost_usd": 0.073706,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 15628,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 1119,
+   "output_tokens_details": {
+    "thinking_tokens": 417
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 15628,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 1119,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 15628,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 15628
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 1119,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 15628,
+    "webSearchRequests": 0,
+    "costUSD": 0.073706,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 417,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15628,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"WSL#40616\", \"WSL#40808\"], \"answer\": \"This looks like a known problem. After a WSL update (2.7.3 and 2.7.8 in the past tickets), every WSL2 distro fails with Wsl/Service/CreateInstance/CreateVm/HCS/ERROR_FILE_NOT_FOUND. The cause in those tickets was that the update left WSL's files incomplete. First check whether C:\\\\Program Files\\\\WSL\\\\system.vhd, C:\\\\Program Files\\\\WSL\\\\tools\\\\modules.vhd and the kernel file are present. Then try one of these fixes:\\n\\n1. Download the 2.7.12.0 MSI from the WSL releases page and run a repair: `msiexec /fa wsl.2.7.12.0.x64.msi /l*v repair.log`. This fixed it in WSL#40808.\\n2. If files are missing, extract them from the MSI with `msiexec /a <msi> /qb TARGETDIR=C:\\\\wsl-tmp`. Copy system.vhd and modules.vhd from C:\\\\wsl-tmp\\\\PFiles64\\\\WSL into C:\\\\Program Files\\\\WSL and C:\\\\Program Files\\\\WSL\\\\tools. This worked for a user in WSL#40616.\\n3. Until then, staying on 2.7.11.0 is a valid workaround, as it was for the downgrade in WSL#40616.\\n\\nBoth tickets point to WSL issue #40488 for the root cause and the official fix, so check that thread too. Your ticket does not say whether the files are missing, so this match rests on the identical error and the update-then-downgrade pattern. If the files are all present and the repair does not help, a different cause is possible. WSL#14536 describes one: ERROR_FILE_NOT_FOUND masking 'hypervisor not available' (0xC0370103), which was fixed by enabling the HypervisorPlatform feature. Collect logs with collect-wsl-logs.ps1 while reproducing the failure on 2.7.12.0 if so.\"}",
+  "ttft_ms": 3982,
+  "type": "result",
+  "duration_ms": 8398,
+  "uuid": "a3f0080f-50ca-435c-abfe-bb13b7cffdfe",
+  "ttft_stream_ms": 1230,
+  "time_to_request_ms": 174,
+  "first_content_frame_ms": 1230,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 1119,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 15628,
+    "webSearchRequests": 0,
+    "costUSD": 0.073706,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 417,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15628,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 9.181390484009171,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-qahiqp5s/work"
+  }
+ },
+ "wall_seconds": 9.201432373985881,
+ "qid": "WSL#41422",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "WSL#40616",
+   "WSL#40808"
+  ],
+  "answer": "This looks like a known problem. After a WSL update (2.7.3 and 2.7.8 in the past tickets), every WSL2 distro fails with Wsl/Service/CreateInstance/CreateVm/HCS/ERROR_FILE_NOT_FOUND. The cause in those tickets was that the update left WSL's files incomplete. First check whether C:\\Program Files\\WSL\\system.vhd, C:\\Program Files\\WSL\\tools\\modules.vhd and the kernel file are present. Then try one of these fixes:\n\n1. Download the 2.7.12.0 MSI from the WSL releases page and run a repair: `msiexec /fa wsl.2.7.12.0.x64.msi /l*v repair.log`. This fixed it in WSL#40808.\n2. If files are missing, extract them from the MSI with `msiexec /a <msi> /qb TARGETDIR=C:\\wsl-tmp`. Copy system.vhd and modules.vhd from C:\\wsl-tmp\\PFiles64\\WSL into C:\\Program Files\\WSL and C:\\Program Files\\WSL\\tools. This worked for a user in WSL#40616.\n3. Until then, staying on 2.7.11.0 is a valid workaround, as it was for the downgrade in WSL#40616.\n\nBoth tickets point to WSL issue #40488 for the root cause and the official fix, so check that thread too. Your ticket does not say whether the files are missing, so this match rests on the identical error and the update-then-downgrade pattern. If the files are all present and the repair does not help, a different cause is possible. WSL#14536 describes one: ERROR_FILE_NOT_FOUND masking 'hypervisor not available' (0xC0370103), which was fixed by enabling the HypervisorPlatform feature. Collect logs with collect-wsl-logs.ps1 while reproducing the failure on 2.7.12.0 if so."
+ },
+ "hit_turn_cap": false
+}

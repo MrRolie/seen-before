@@ -1,0 +1,317 @@
+{
+ "shown": [
+  "PowerToys#10167",
+  "PowerToys#1052",
+  "PowerToys#1208",
+  "PowerToys#12839",
+  "PowerToys#22592",
+  "PowerToys#2733",
+  "PowerToys#3217",
+  "PowerToys#35315",
+  "PowerToys#3613",
+  "PowerToys#42864",
+  "PowerToys#47322",
+  "PowerToys#47480",
+  "PowerToys#47776",
+  "PowerToys#47878",
+  "PowerToys#47951",
+  "PowerToys#48428",
+  "PowerToys#4846",
+  "PowerToys#48774",
+  "PowerToys#48833",
+  "PowerToys#48888",
+  "PowerToys#49020",
+  "PowerToys#49032",
+  "PowerToys#49038",
+  "PowerToys#4980",
+  "PowerToys#5008",
+  "PowerToys#6023",
+  "PowerToys#678",
+  "PowerToys#6950",
+  "PowerToys#7190",
+  "PowerToys#7803",
+  "PowerToys#835",
+  "PowerToys#886"
+ ],
+ "retrieval_seconds": 4.104088454972953,
+ "tool_calls": [
+  {
+   "t": 1794881351.0388925,
+   "tool": "similar",
+   "args": {
+    "query": "Power Display profile changes after sleep/wake, brightness profile not applied",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.083024758991087,
+   "returned": [
+    "PowerToys#835",
+    "PowerToys#3217",
+    "PowerToys#4980",
+    "PowerToys#48428",
+    "PowerToys#48774",
+    "PowerToys#35315",
+    "PowerToys#49032",
+    "PowerToys#47951",
+    "PowerToys#6950",
+    "PowerToys#12839",
+    "PowerToys#49020",
+    "PowerToys#47776",
+    "PowerToys#1052",
+    "PowerToys#47480",
+    "PowerToys#49038",
+    "PowerToys#47322",
+    "PowerToys#42864",
+    "PowerToys#48888",
+    "PowerToys#3613",
+    "PowerToys#22592"
+   ]
+  },
+  {
+   "t": 1794881352.4095452,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48774"
+   },
+   "seconds": 0.00012641699868254364,
+   "returned": [
+    "PowerToys#48774"
+   ]
+  },
+  {
+   "t": 1794881352.569266,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47951"
+   },
+   "seconds": 0.0001301970041822642,
+   "returned": [
+    "PowerToys#47951"
+   ]
+  },
+  {
+   "t": 1794881355.0278676,
+   "tool": "similar",
+   "args": {
+    "query": "PowerDisplay switches to a different profile after resume from sleep, bright levels, docking station",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.02069144498091191,
+   "returned": [
+    "PowerToys#49032",
+    "PowerToys#3217",
+    "PowerToys#7190",
+    "PowerToys#835",
+    "PowerToys#42864",
+    "PowerToys#6950",
+    "PowerToys#48833",
+    "PowerToys#4846",
+    "PowerToys#12839",
+    "PowerToys#10167",
+    "PowerToys#6023",
+    "PowerToys#886",
+    "PowerToys#7803",
+    "PowerToys#2733",
+    "PowerToys#47776",
+    "PowerToys#1208",
+    "PowerToys#5008",
+    "PowerToys#678",
+    "PowerToys#1052",
+    "PowerToys#47878"
+   ]
+  },
+  {
+   "t": 1794881356.5695987,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47776"
+   },
+   "seconds": 0.00011563699808903039,
+   "returned": [
+    "PowerToys#47776"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12315,
+  "stop_reason": "end_turn",
+  "session_id": "9138d8af-ec54-47a7-bb45-c53742572b19",
+  "total_cost_usd": 0.0356663,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 5675,
+   "cache_read_input_tokens": 18863,
+   "output_tokens": 1106,
+   "output_tokens_details": {
+    "thinking_tokens": 11
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5675,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 501,
+     "cache_read_input_tokens": 6443,
+     "cache_creation_input_tokens": 645,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 645
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1106,
+    "cacheReadInputTokens": 18863,
+    "cacheCreationInputTokens": 5675,
+    "webSearchRequests": 0,
+    "costUSD": 0.0356663,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 11,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5675,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I couldn't find a past ticket that reports this same problem.\n\n- **PowerToys#48774:** Closest. It covers a Power Display profile that doesn't switch on wake when it's linked to Light Switch. Your problem is the reverse: a profile you set yourself changes on wake.\n- **PowerToys#47951:** Power Display stops working after sleep or hibernate. That ticket has no detail.\n- **PowerToys#47776:** Monitor-specific settings reset after the monitor is turned off and on. That's a different symptom.\n\nPlease file this as a new bug and attach a bug report ZIP from PowerToys. Say that you use a USB-C dock with two monitors, and that the active profile changes after wake. As a stopgap, you could manually re-apply your dimmed profile after waking, or check whether Light Switch is set to switch Power Display profiles. Those are my guesses, not fixes confirmed in the archive.\n\n```json\n{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket reporting this exact problem. The closest is PowerToys#48774, where a Light Switch-linked profile doesn't trigger on wake. That is a different problem. Please file this as a new bug with a bug report ZIP, and mention the USB-C dock with two monitors and the profile change on wake. As a stopgap, re-apply your dimmed profile manually after waking, or check whether Light Switch is set to switch Power Display profiles. Those are my suggestions, not fixes confirmed in the archive.\"}\n```",
+  "ttft_ms": 2281,
+  "type": "result",
+  "duration_ms": 16538,
+  "uuid": "bc6667c0-407a-4fb4-87da-54975c439d37",
+  "ttft_stream_ms": 1316,
+  "time_to_request_ms": 46,
+  "first_content_frame_ms": 1316,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1106,
+    "cacheReadInputTokens": 18863,
+    "cacheCreationInputTokens": 5675,
+    "webSearchRequests": 0,
+    "costUSD": 0.0356663,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 11,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5675,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 17.964072240982205,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-z1413up6/work"
+  }
+ },
+ "wall_seconds": 17.96651426999597,
+ "qid": "PowerToys#50083",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket reporting this exact problem. The closest is PowerToys#48774, where a Light Switch-linked profile doesn't trigger on wake. That is a different problem. Please file this as a new bug with a bug report ZIP, and mention the USB-C dock with two monitors and the profile change on wake. As a stopgap, re-apply your dimmed profile manually after waking, or check whether Light Switch is set to switch Power Display profiles. Those are my suggestions, not fixes confirmed in the archive."
+ },
+ "hit_turn_cap": false
+}

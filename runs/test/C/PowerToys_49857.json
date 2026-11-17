@@ -1,0 +1,327 @@
+{
+ "shown": [
+  "PowerToys#1153",
+  "PowerToys#12000",
+  "PowerToys#16848",
+  "PowerToys#19226",
+  "PowerToys#19519",
+  "PowerToys#19739",
+  "PowerToys#20713",
+  "PowerToys#24157",
+  "PowerToys#24731",
+  "PowerToys#25380",
+  "PowerToys#25646",
+  "PowerToys#26937",
+  "PowerToys#29510",
+  "PowerToys#29790",
+  "PowerToys#2984",
+  "PowerToys#33337",
+  "PowerToys#38331",
+  "PowerToys#39249",
+  "PowerToys#40443",
+  "PowerToys#4250",
+  "PowerToys#44137",
+  "PowerToys#47313",
+  "PowerToys#47502",
+  "PowerToys#48366",
+  "PowerToys#5088",
+  "PowerToys#6434",
+  "PowerToys#6548",
+  "PowerToys#84"
+ ],
+ "retrieval_seconds": 3.6323335619526915,
+ "tool_calls": [
+  {
+   "t": 1794880064.241966,
+   "tool": "search",
+   "args": {
+    "query": "horizontal scroll with modifier key and vertical mouse wheel",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.6157678889867384,
+   "returned": [
+    "PowerToys#1153",
+    "PowerToys#33337",
+    "PowerToys#39249",
+    "PowerToys#4250",
+    "PowerToys#38331",
+    "PowerToys#40443",
+    "PowerToys#25646",
+    "PowerToys#24157",
+    "PowerToys#6434",
+    "PowerToys#20713",
+    "PowerToys#12000",
+    "PowerToys#19226",
+    "PowerToys#84",
+    "PowerToys#5088",
+    "PowerToys#26937",
+    "PowerToys#25380",
+    "PowerToys#2984",
+    "PowerToys#19739",
+    "PowerToys#47313",
+    "PowerToys#29790"
+   ]
+  },
+  {
+   "t": 1794880064.2758873,
+   "tool": "search",
+   "args": {
+    "query": "Power Scroll: hold Shift and scroll wheel to scroll horizontally",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.01592847000574693,
+   "returned": [
+    "PowerToys#25646",
+    "PowerToys#33337",
+    "PowerToys#40443",
+    "PowerToys#44137",
+    "PowerToys#5088",
+    "PowerToys#1153",
+    "PowerToys#12000",
+    "PowerToys#48366",
+    "PowerToys#6434",
+    "PowerToys#38331",
+    "PowerToys#24731",
+    "PowerToys#29510",
+    "PowerToys#19519",
+    "PowerToys#19226",
+    "PowerToys#16848",
+    "PowerToys#24157",
+    "PowerToys#47502",
+    "PowerToys#84",
+    "PowerToys#4250",
+    "PowerToys#6548"
+   ]
+  },
+  {
+   "t": 1794880066.2628293,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1153"
+   },
+   "seconds": 0.0001622159907128662,
+   "returned": [
+    "PowerToys#1153"
+   ]
+  },
+  {
+   "t": 1794880066.7930357,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33337"
+   },
+   "seconds": 0.00017196498811244965,
+   "returned": [
+    "PowerToys#33337"
+   ]
+  },
+  {
+   "t": 1794880066.8045785,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#25646"
+   },
+   "seconds": 0.00017924499115906656,
+   "returned": [
+    "PowerToys#25646"
+   ]
+  },
+  {
+   "t": 1794880066.8208237,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39249"
+   },
+   "seconds": 0.00012377699022181332,
+   "returned": [
+    "PowerToys#39249"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9574,
+  "stop_reason": "end_turn",
+  "session_id": "2242a591-bb8e-4606-af9c-93145ae9bff0",
+  "total_cost_usd": 0.0343898,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 6419,
+   "cache_read_input_tokens": 7518,
+   "output_tokens": 795,
+   "output_tokens_details": {
+    "thinking_tokens": 43
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6419,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 349,
+     "cache_read_input_tokens": 4566,
+     "cache_creation_input_tokens": 2886,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2886
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 795,
+    "cacheReadInputTokens": 7518,
+    "cacheCreationInputTokens": 6419,
+    "webSearchRequests": 0,
+    "costUSD": 0.0343898,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 43,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6419,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#25646\", \"PowerToys#33337\", \"PowerToys#39249\"], \"answer\": \"This feature request has been filed before. It asks for a modifier key (Shift, Alt, Ctrl and so on) plus the vertical mouse wheel to scroll horizontally across the system. Maintainers are tracking it in PowerToys#25646. Older requests, including #1153 and #39249, were closed as duplicates of it. PowerToys doesn't have this feature yet, and the tickets don't give a release date. Add a thumbs-up and your use cases (Word zoom, Excel columns, photo panning) to #25646 rather than opening a new ticket. In the meantime, many apps already scroll horizontally with Shift + wheel. For apps that ignore it, such as Excel and Word, the tickets say a third-party tool like AutoHotkey is the only workaround.\"}",
+  "ttft_ms": 2835,
+  "type": "result",
+  "duration_ms": 13306,
+  "uuid": "934e0b5f-8d60-47d2-a4b5-52cb89b918a1",
+  "ttft_stream_ms": 1723,
+  "time_to_request_ms": 47,
+  "first_content_frame_ms": 1723,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 795,
+    "cacheReadInputTokens": 7518,
+    "cacheCreationInputTokens": 6419,
+    "webSearchRequests": 0,
+    "costUSD": 0.0343898,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 43,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6419,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.707422022009268,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-37xaqyqb/work"
+  }
+ },
+ "wall_seconds": 14.709343991009519,
+ "qid": "PowerToys#49857",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#25646",
+   "PowerToys#33337",
+   "PowerToys#39249"
+  ],
+  "answer": "This feature request has been filed before. It asks for a modifier key (Shift, Alt, Ctrl and so on) plus the vertical mouse wheel to scroll horizontally across the system. Maintainers are tracking it in PowerToys#25646. Older requests, including #1153 and #39249, were closed as duplicates of it. PowerToys doesn't have this feature yet, and the tickets don't give a release date. Add a thumbs-up and your use cases (Word zoom, Excel columns, photo panning) to #25646 rather than opening a new ticket. In the meantime, many apps already scroll horizontally with Shift + wheel. For apps that ignore it, such as Excel and Word, the tickets say a third-party tool like AutoHotkey is the only workaround."
+ },
+ "hit_turn_cap": false
+}

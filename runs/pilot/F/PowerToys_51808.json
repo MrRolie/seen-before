@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#42659",
+  "PowerToys#43499",
+  "PowerToys#45153",
+  "PowerToys#43648",
+  "PowerToys#44319"
+ ],
+ "retrieval_seconds": 0.6643250619817991,
+ "retrieval_scores": [
+  0.03036576949620428,
+  0.02946912242686891,
+  0.027443609022556388,
+  0.02580128205128205,
+  0.02565284178187404
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 4170,
+  "stop_reason": "end_turn",
+  "session_id": "6f638f5e-86ab-4962-bb1c-b3cf68b1ed5a",
+  "total_cost_usd": 0.02941,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6529,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 329,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6529,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 329,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6529,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6529
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 329,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6529,
+    "webSearchRequests": 0,
+    "costUSD": 0.02941,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6529,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#43499\", \"PowerToys#44319\", \"PowerToys#43648\"], \"answer\": \"This is a known issue: the screen goes black (often a GPU/driver reset or display composition loss during a call, video, or game), and PowerToys then shows an unhandled 'Desktop composition is disabled' (0x80263001) error from DwmExtendFrameIntoClientArea. Past tickets were closed as duplicates of PowerToys#31226, which is the thread tracking it. The maintainers' advice in those tickets was to update to the latest PowerToys release (0.96 or later), since your version 0.102.3001 is already newer than that, so if it still happens, add your details and the exception log from the error window to PowerToys#31226. Also check that your graphics drivers are up to date, as the black screen itself appears to be triggered by a display driver timeout/reset. The error dialog is a side effect and the PowerToys Run process may need to be restarted.\"}",
+  "ttft_ms": 4356,
+  "type": "result",
+  "duration_ms": 4377,
+  "uuid": "0a81ada4-0ea1-4dca-a09a-65e41b996125",
+  "ttft_stream_ms": 1510,
+  "time_to_request_ms": 203,
+  "first_content_frame_ms": 1510,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 329,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6529,
+    "webSearchRequests": 0,
+    "costUSD": 0.02941,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6529,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 5.235227931989357,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-fmhj4pnj/work"
+  }
+ },
+ "wall_seconds": 5.902864044997841,
+ "qid": "PowerToys#51808",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#43499",
+   "PowerToys#44319",
+   "PowerToys#43648"
+  ],
+  "answer": "This is a known issue: the screen goes black (often a GPU/driver reset or display composition loss during a call, video, or game), and PowerToys then shows an unhandled 'Desktop composition is disabled' (0x80263001) error from DwmExtendFrameIntoClientArea. Past tickets were closed as duplicates of PowerToys#31226, which is the thread tracking it. The maintainers' advice in those tickets was to update to the latest PowerToys release (0.96 or later), since your version 0.102.3001 is already newer than that, so if it still happens, add your details and the exception log from the error window to PowerToys#31226. Also check that your graphics drivers are up to date, as the black screen itself appears to be triggered by a display driver timeout/reset. The error dialog is a side effect and the PowerToys Run process may need to be restarted."
+ },
+ "hit_turn_cap": false
+}

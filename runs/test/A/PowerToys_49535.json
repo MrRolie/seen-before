@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#30958",
+  "PowerToys#39282",
+  "PowerToys#32852",
+  "PowerToys#15582",
+  "PowerToys#34919"
+ ],
+ "retrieval_seconds": 0.02102227899013087,
+ "retrieval_scores": [
+  0.7992379665374756,
+  0.796802282333374,
+  0.793009340763092,
+  0.7725914716720581,
+  0.76873779296875
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2402,
+  "stop_reason": "end_turn",
+  "session_id": "77a0bded-f598-45c4-bfbe-b4dc0bf04e0c",
+  "total_cost_usd": 0.019674,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4190,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 291,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4190,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 291,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4190,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4190
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 291,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4190,
+    "webSearchRequests": 0,
+    "costUSD": 0.019674,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4190,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#34919\", \"PowerToys#39282\", \"PowerToys#32852\"], \"answer\": \"This feature request has been made before: a scheduled shutdown/sleep timer (after N minutes or at a set time). PowerToys has no such tool yet. The earlier tickets were closed as duplicates of the main tracking issues (#28490, #17970), so you can follow and thumbs-up those. In the meantime, use the built-in shutdown command: press Win+R and run `shutdown /s /t X`, where X is the number of seconds (e.g. 1800 for 30 minutes). Run `shutdown /a` to cancel. You can also put this command in a shortcut (.lnk) or trigger it from Task Scheduler. Sleep is harder to do with a command line timer, and the tickets did not offer a built-in way to do it.\"}",
+  "ttft_ms": 2567,
+  "type": "result",
+  "duration_ms": 2588,
+  "uuid": "2bf334ab-670f-4a34-b065-6a76309dcfb5",
+  "ttft_stream_ms": 680,
+  "time_to_request_ms": 183,
+  "first_content_frame_ms": 680,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 291,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4190,
+    "webSearchRequests": 0,
+    "costUSD": 0.019674,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4190,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.407304975000443,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-o9yk19rz/work"
+  }
+ },
+ "wall_seconds": 3.4305428939987905,
+ "qid": "PowerToys#49535",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#34919",
+   "PowerToys#39282",
+   "PowerToys#32852"
+  ],
+  "answer": "This feature request has been made before: a scheduled shutdown/sleep timer (after N minutes or at a set time). PowerToys has no such tool yet. The earlier tickets were closed as duplicates of the main tracking issues (#28490, #17970), so you can follow and thumbs-up those. In the meantime, use the built-in shutdown command: press Win+R and run `shutdown /s /t X`, where X is the number of seconds (e.g. 1800 for 30 minutes). Run `shutdown /a` to cancel. You can also put this command in a shortcut (.lnk) or trigger it from Task Scheduler. Sleep is harder to do with a command line timer, and the tickets did not offer a built-in way to do it."
+ },
+ "hit_turn_cap": false
+}

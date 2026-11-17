@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#46546",
+  "PowerToys#48802",
+  "PowerToys#46200",
+  "PowerToys#49010",
+  "PowerToys#47686"
+ ],
+ "retrieval_seconds": 0.386988921003649,
+ "retrieval_scores": [
+  0.03128054740957967,
+  0.031054405392392875,
+  0.03076923076923077,
+  0.027757078986587184,
+  0.027673192771084338
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 4258,
+  "stop_reason": "end_turn",
+  "session_id": "a4302bad-8f3e-4a19-a0c4-c31f3464830e",
+  "total_cost_usd": 0.02547,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5409,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 383,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5409,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 383,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5409,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5409
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 383,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5409,
+    "webSearchRequests": 0,
+    "costUSD": 0.02547,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5409,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"No past ticket reports this exact request. The new ticket combines several asks: merging the CPU, Memory, Network and GPU indicators into a single Monitor icon with a click-open panel, showing a charging indicator on the battery, and fixing windows overlapping the dock. The past tickets are only related. #46546 asked for performance metrics on the taskbar and was closed as a duplicate of other threads, because it bundled many requests. #46200 asks to choose which metrics appear in the Performance Monitor band. #48802 asks for disk stats. #49010 asks for per-app drill-down reports. #47686 asks for a battery percentage, which was marked a duplicate of #47218. None of these ask for the same thing. Maintainers have said that bundling several requests into one issue makes them hard to track, so file the Monitor icon redesign, the charging indicator and the dock overlap bug as separate tickets. Include reproduction steps and your Windows version for the overlap bug. In the meantime, the Performance Monitor band is already available to pin to the Dock, and the Dock's material settings include an Acrylic option.\"}",
+  "ttft_ms": 4428,
+  "type": "result",
+  "duration_ms": 4445,
+  "uuid": "053668f1-18ea-40a6-87d8-fe6177553984",
+  "ttft_stream_ms": 1235,
+  "time_to_request_ms": 186,
+  "first_content_frame_ms": 1235,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 383,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5409,
+    "webSearchRequests": 0,
+    "costUSD": 0.02547,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5409,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 5.255037094000727,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-d8wc73gk/work"
+  }
+ },
+ "wall_seconds": 5.644385184015846,
+ "qid": "PowerToys#50224",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "No past ticket reports this exact request. The new ticket combines several asks: merging the CPU, Memory, Network and GPU indicators into a single Monitor icon with a click-open panel, showing a charging indicator on the battery, and fixing windows overlapping the dock. The past tickets are only related. #46546 asked for performance metrics on the taskbar and was closed as a duplicate of other threads, because it bundled many requests. #46200 asks to choose which metrics appear in the Performance Monitor band. #48802 asks for disk stats. #49010 asks for per-app drill-down reports. #47686 asks for a battery percentage, which was marked a duplicate of #47218. None of these ask for the same thing. Maintainers have said that bundling several requests into one issue makes them hard to track, so file the Monitor icon redesign, the charging indicator and the dock overlap bug as separate tickets. Include reproduction steps and your Windows version for the overlap bug. In the meantime, the Performance Monitor band is already available to pin to the Dock, and the Dock's material settings include an Acrylic option."
+ },
+ "hit_turn_cap": false
+}

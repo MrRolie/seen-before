@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#48446",
+  "PowerToys#47652",
+  "PowerToys#48586",
+  "PowerToys#47700",
+  "PowerToys#48466"
+ ],
+ "retrieval_seconds": 0.018016137008089572,
+ "retrieval_scores": [
+  0.9469062089920044,
+  0.8731337785720825,
+  0.8605814576148987,
+  0.8529866337776184,
+  0.6960440278053284
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3639,
+  "stop_reason": "end_turn",
+  "session_id": "334c3194-3b49-4cd2-8dbe-afac2f5edfc0",
+  "total_cost_usd": 0.025688000000000002,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5621,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 320,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5621,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 320,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5621,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5621
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 320,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5621,
+    "webSearchRequests": 0,
+    "costUSD": 0.025688000000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5621,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#47652\", \"PowerToys#48446\", \"PowerToys#47700\"], \"answer\": \"This is a known bug: the Command Palette Dock leaves a 1px gap at the screen edge (top, and also left/right), letting the wallpaper show through. PowerToys#47652 is the original tracking issue, and the other reports were closed as duplicates of it. A maintainer said it has been fixed and would ship in an upcoming release, but a commenter still saw the gap in 0.100.0, so it may persist in your version (0.100.2). Workarounds from the tickets: the gap disappeared after a restart, but returned when the dock was toggled off and on, and it stayed until the next restart. One report said the gap went away when PowerToys ran as Administrator. Please update to the latest PowerToys, and if the gap is still there, add your details (version, Windows build, Wallpaper Engine) to PowerToys#47652.\"}",
+  "ttft_ms": 4247,
+  "type": "result",
+  "duration_ms": 4262,
+  "uuid": "8d9fb910-de57-4f98-be89-daccb726c087",
+  "ttft_stream_ms": 1719,
+  "time_to_request_ms": 621,
+  "first_content_frame_ms": 1720,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 320,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5621,
+    "webSearchRequests": 0,
+    "costUSD": 0.025688000000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5621,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 5.008269865007605,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-b36n4o6x/work"
+  }
+ },
+ "wall_seconds": 5.0278450320183765,
+ "qid": "PowerToys#50145",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#47652",
+   "PowerToys#48446",
+   "PowerToys#47700"
+  ],
+  "answer": "This is a known bug: the Command Palette Dock leaves a 1px gap at the screen edge (top, and also left/right), letting the wallpaper show through. PowerToys#47652 is the original tracking issue, and the other reports were closed as duplicates of it. A maintainer said it has been fixed and would ship in an upcoming release, but a commenter still saw the gap in 0.100.0, so it may persist in your version (0.100.2). Workarounds from the tickets: the gap disappeared after a restart, but returned when the dock was toggled off and on, and it stayed until the next restart. One report said the gap went away when PowerToys ran as Administrator. Please update to the latest PowerToys, and if the gap is still there, add your details (version, Windows build, Wallpaper Engine) to PowerToys#47652."
+ },
+ "hit_turn_cap": false
+}

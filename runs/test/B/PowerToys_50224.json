@@ -1,0 +1,340 @@
+{
+ "shown": [
+  "PowerToys#1052",
+  "PowerToys#18536",
+  "PowerToys#24786",
+  "PowerToys#28961",
+  "PowerToys#38530",
+  "PowerToys#3954",
+  "PowerToys#45201",
+  "PowerToys#45584",
+  "PowerToys#46216",
+  "PowerToys#46275",
+  "PowerToys#46327",
+  "PowerToys#46381",
+  "PowerToys#46546",
+  "PowerToys#46705",
+  "PowerToys#47218",
+  "PowerToys#47275",
+  "PowerToys#47437",
+  "PowerToys#47471",
+  "PowerToys#47584",
+  "PowerToys#47686",
+  "PowerToys#47939",
+  "PowerToys#480",
+  "PowerToys#48246",
+  "PowerToys#48486",
+  "PowerToys#48538",
+  "PowerToys#48589",
+  "PowerToys#48597",
+  "PowerToys#48598",
+  "PowerToys#48674",
+  "PowerToys#48677",
+  "PowerToys#48680",
+  "PowerToys#48802",
+  "PowerToys#48834",
+  "PowerToys#49012",
+  "PowerToys#611",
+  "PowerToys#8339",
+  "PowerToys#8755",
+  "PowerToys#8842"
+ ],
+ "retrieval_seconds": 0.4251597020193003,
+ "tool_calls": [
+  {
+   "t": 1794881767.800457,
+   "tool": "search",
+   "args": {
+    "pattern": "dock",
+    "regex": false,
+    "also": [
+     "battery"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11261599700083025,
+   "returned": [
+    "PowerToys#45201",
+    "PowerToys#45584",
+    "PowerToys#46546",
+    "PowerToys#46327",
+    "PowerToys#47686",
+    "PowerToys#48802",
+    "PowerToys#47218",
+    "PowerToys#49012",
+    "PowerToys#48486",
+    "PowerToys#48246",
+    "PowerToys#28961",
+    "PowerToys#8842",
+    "PowerToys#8755",
+    "PowerToys#3954",
+    "PowerToys#48598",
+    "PowerToys#47437",
+    "PowerToys#38530",
+    "PowerToys#24786",
+    "PowerToys#18536",
+    "PowerToys#1052"
+   ]
+  },
+  {
+   "t": 1794881768.260378,
+   "tool": "search",
+   "args": {
+    "pattern": "dock",
+    "regex": false,
+    "also": [
+     "GPU"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07579465000890195,
+   "returned": [
+    "PowerToys#45201",
+    "PowerToys#48834",
+    "PowerToys#480",
+    "PowerToys#46546",
+    "PowerToys#8339",
+    "PowerToys#46381",
+    "PowerToys#48677",
+    "PowerToys#48680",
+    "PowerToys#48538",
+    "PowerToys#47584",
+    "PowerToys#46705",
+    "PowerToys#46216",
+    "PowerToys#611",
+    "PowerToys#48802",
+    "PowerToys#48674",
+    "PowerToys#48589",
+    "PowerToys#48597",
+    "PowerToys#47939",
+    "PowerToys#47471",
+    "PowerToys#47275"
+   ]
+  },
+  {
+   "t": 1794881768.5481472,
+   "tool": "search",
+   "args": {
+    "pattern": "dock overlap",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04858877300284803,
+   "returned": [
+    "PowerToys#46275"
+   ]
+  },
+  {
+   "t": 1794881770.4943411,
+   "tool": "search",
+   "args": {
+    "pattern": "single",
+    "regex": false,
+    "also": [
+     "dock",
+     "CPU",
+     "flyout"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.188053124002181,
+   "returned": [
+    "PowerToys#45201"
+   ]
+  },
+  {
+   "t": 1794881770.504519,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46275"
+   },
+   "seconds": 0.00010715800453908741,
+   "returned": [
+    "PowerToys#46275"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8020,
+  "stop_reason": "end_turn",
+  "session_id": "d256c74b-274d-4841-88ad-124e0f20319e",
+  "total_cost_usd": 0.050053600000000004,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 9836,
+   "cache_read_input_tokens": 13076,
+   "output_tokens": 939,
+   "output_tokens_details": {
+    "thinking_tokens": 195
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9836,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 445,
+     "cache_read_input_tokens": 9806,
+     "cache_creation_input_tokens": 1207,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1207
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 939,
+    "cacheReadInputTokens": 13076,
+    "cacheCreationInputTokens": 9836,
+    "webSearchRequests": 0,
+    "costUSD": 0.050053600000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 195,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9836,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket that asks for this redesign: merging the CPU, memory, network and GPU indicators into one Monitor icon with a flyout panel, plus a clearer charging state on the battery indicator. This will be tracked as a new feature request. Related Dock tickets exist, such as #48802 (Disk Stats), #47218 (battery time remaining) and #47939 (network send/receive order). The window-overlap part of your report has been seen before, as a separate bug. PowerToys#46275, 'CmdPal Dock overlaps the window', was closed as a duplicate of #46849, which covers windows and the Dock covering each other. Please file the overlap as its own bug report and include your PowerToys version, the dock position and whether transparency is on. Also add a note to #46849.\"}",
+  "ttft_ms": 1208,
+  "type": "result",
+  "duration_ms": 8132,
+  "uuid": "afaf0ad0-9a10-4984-a5ad-efcba287a0ea",
+  "ttft_stream_ms": 718,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 718,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 939,
+    "cacheReadInputTokens": 13076,
+    "cacheCreationInputTokens": 9836,
+    "webSearchRequests": 0,
+    "costUSD": 0.050053600000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 195,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9836,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 9.621995407011127,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-71p8d4dl/work"
+  }
+ },
+ "wall_seconds": 9.624857843999052,
+ "qid": "PowerToys#50224",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket that asks for this redesign: merging the CPU, memory, network and GPU indicators into one Monitor icon with a flyout panel, plus a clearer charging state on the battery indicator. This will be tracked as a new feature request. Related Dock tickets exist, such as #48802 (Disk Stats), #47218 (battery time remaining) and #47939 (network send/receive order). The window-overlap part of your report has been seen before, as a separate bug. PowerToys#46275, 'CmdPal Dock overlaps the window', was closed as a duplicate of #46849, which covers windows and the Dock covering each other. Please file the overlap as its own bug report and include your PowerToys version, the dock position and whether transparency is on. Also add a note to #46849."
+ },
+ "hit_turn_cap": false
+}

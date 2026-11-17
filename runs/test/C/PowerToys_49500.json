@@ -1,0 +1,406 @@
+{
+ "shown": [
+  "PowerToys#1051",
+  "PowerToys#117",
+  "PowerToys#16861",
+  "PowerToys#1763",
+  "PowerToys#18535",
+  "PowerToys#19612",
+  "PowerToys#2015",
+  "PowerToys#2205",
+  "PowerToys#22577",
+  "PowerToys#2258",
+  "PowerToys#22583",
+  "PowerToys#23078",
+  "PowerToys#23079",
+  "PowerToys#24337",
+  "PowerToys#25197",
+  "PowerToys#25365",
+  "PowerToys#2559",
+  "PowerToys#3126",
+  "PowerToys#33",
+  "PowerToys#34499",
+  "PowerToys#37921",
+  "PowerToys#38299",
+  "PowerToys#38308",
+  "PowerToys#39019",
+  "PowerToys#3953",
+  "PowerToys#40583",
+  "PowerToys#40663",
+  "PowerToys#45905",
+  "PowerToys#4657",
+  "PowerToys#5231",
+  "PowerToys#5457",
+  "PowerToys#6088",
+  "PowerToys#6152",
+  "PowerToys#642",
+  "PowerToys#767",
+  "PowerToys#7715",
+  "PowerToys#81",
+  "PowerToys#8435",
+  "PowerToys#8559",
+  "PowerToys#9376",
+  "PowerToys#9480",
+  "PowerToys#975",
+  "PowerToys#9815"
+ ],
+ "retrieval_seconds": 4.011544280976523,
+ "tool_calls": [
+  {
+   "t": 1794878777.1097229,
+   "tool": "search",
+   "args": {
+    "query": "context menu editor: choose which items show in contracted/compact context menu vs full menu",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.9775938380043954,
+   "returned": [
+    "PowerToys#117",
+    "PowerToys#3953",
+    "PowerToys#2015",
+    "PowerToys#767",
+    "PowerToys#8435",
+    "PowerToys#38308",
+    "PowerToys#9376",
+    "PowerToys#40583",
+    "PowerToys#4657",
+    "PowerToys#33",
+    "PowerToys#22577",
+    "PowerToys#2258",
+    "PowerToys#5457",
+    "PowerToys#642",
+    "PowerToys#38299",
+    "PowerToys#7715",
+    "PowerToys#81",
+    "PowerToys#18535",
+    "PowerToys#45905",
+    "PowerToys#2559"
+   ]
+  },
+  {
+   "t": 1794878777.1398182,
+   "tool": "search",
+   "args": {
+    "query": "customize which PowerToys items appear in Windows 11 context menu, remove Notepad, Send to",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.011877957003889605,
+   "returned": [
+    "PowerToys#8435",
+    "PowerToys#642",
+    "PowerToys#9480",
+    "PowerToys#2015",
+    "PowerToys#25365",
+    "PowerToys#117",
+    "PowerToys#9376",
+    "PowerToys#16861",
+    "PowerToys#7715",
+    "PowerToys#19612",
+    "PowerToys#975",
+    "PowerToys#24337",
+    "PowerToys#25197",
+    "PowerToys#33",
+    "PowerToys#39019",
+    "PowerToys#1051",
+    "PowerToys#37921",
+    "PowerToys#40663",
+    "PowerToys#5231",
+    "PowerToys#8559"
+   ]
+  },
+  {
+   "t": 1794878778.9878013,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#117"
+   },
+   "seconds": 0.0001815859868656844,
+   "returned": [
+    "PowerToys#117"
+   ]
+  },
+  {
+   "t": 1794878779.0000048,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45905"
+   },
+   "seconds": 0.0001670059864409268,
+   "returned": [
+    "PowerToys#45905"
+   ]
+  },
+  {
+   "t": 1794878779.0944524,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39019"
+   },
+   "seconds": 0.00017593501252122223,
+   "returned": [
+    "PowerToys#39019"
+   ]
+  },
+  {
+   "t": 1794878780.6555655,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33"
+   },
+   "seconds": 0.0001675850071478635,
+   "returned": [
+    "PowerToys#33"
+   ]
+  },
+  {
+   "t": 1794878782.4271653,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#8435"
+   },
+   "seconds": 0.0001861449854914099,
+   "returned": [
+    "PowerToys#8435"
+   ]
+  },
+  {
+   "t": 1794878784.0292757,
+   "tool": "search",
+   "args": {
+    "query": "choose what items show in abbreviated compact context menu File Explorer",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.020856707997154444,
+   "returned": [
+    "PowerToys#5457",
+    "PowerToys#8435",
+    "PowerToys#4657",
+    "PowerToys#3953",
+    "PowerToys#34499",
+    "PowerToys#23078",
+    "PowerToys#6152",
+    "PowerToys#22577",
+    "PowerToys#9376",
+    "PowerToys#23079",
+    "PowerToys#1763",
+    "PowerToys#22583",
+    "PowerToys#6088",
+    "PowerToys#7715",
+    "PowerToys#3126",
+    "PowerToys#9815",
+    "PowerToys#2015",
+    "PowerToys#975",
+    "PowerToys#2205",
+    "PowerToys#33"
+   ]
+  },
+  {
+   "t": 1794878785.6990054,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#19612"
+   },
+   "seconds": 0.0001482960069552064,
+   "returned": [
+    "PowerToys#19612"
+   ]
+  },
+  {
+   "t": 1794878787.4666111,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#9376"
+   },
+   "seconds": 0.0001892249856609851,
+   "returned": [
+    "PowerToys#9376"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 16095,
+  "stop_reason": "end_turn",
+  "session_id": "f60b99f3-724d-4fe4-8d2a-48d28381c500",
+  "total_cost_usd": 0.060338199999999995,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 11011,
+   "cache_read_input_tokens": 55622,
+   "output_tokens": 1070,
+   "output_tokens_details": {
+    "thinking_tokens": 31
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11011,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 333,
+     "cache_read_input_tokens": 11446,
+     "cache_creation_input_tokens": 598,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 598
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1070,
+    "cacheReadInputTokens": 55622,
+    "cacheCreationInputTokens": 11011,
+    "webSearchRequests": 0,
+    "costUSD": 0.060338199999999995,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 31,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11011,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#33\", \"PowerToys#45905\", \"PowerToys#39019\"], \"answer\": \"This feature request has been filed before. PowerToys#33 is the main tracking issue for a context menu editor, and the others were closed as duplicates of it. PowerToys#45905 asks for the same thing as your ticket: choosing which items appear in the compact Explorer menu. That one was closed as a duplicate of #33. PowerToys doesn't offer this yet, and the archive shows no planned release. Add your Word, Notepad and 'create desktop shortcut' examples as a comment on #33 and give it a thumbs-up. In the meantime, the discussion in #33 suggests third-party tools such as NileSoft Shell, which can remove existing entries. Another option is the registry-based switch to the classic menu, but that needs a registry edit and brings back the full menu.\"}",
+  "ttft_ms": 2526,
+  "type": "result",
+  "duration_ms": 20236,
+  "uuid": "c5315aa3-cd17-4b8d-8138-121a398f8aa5",
+  "ttft_stream_ms": 1345,
+  "time_to_request_ms": 52,
+  "first_content_frame_ms": 1345,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1070,
+    "cacheReadInputTokens": 55622,
+    "cacheCreationInputTokens": 11011,
+    "webSearchRequests": 0,
+    "costUSD": 0.060338199999999995,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 31,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11011,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 21.714152818982257,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-8etqs96w/work"
+  }
+ },
+ "wall_seconds": 21.717053235013736,
+ "qid": "PowerToys#49500",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#33",
+   "PowerToys#45905",
+   "PowerToys#39019"
+  ],
+  "answer": "This feature request has been filed before. PowerToys#33 is the main tracking issue for a context menu editor, and the others were closed as duplicates of it. PowerToys#45905 asks for the same thing as your ticket: choosing which items appear in the compact Explorer menu. That one was closed as a duplicate of #33. PowerToys doesn't offer this yet, and the archive shows no planned release. Add your Word, Notepad and 'create desktop shortcut' examples as a comment on #33 and give it a thumbs-up. In the meantime, the discussion in #33 suggests third-party tools such as NileSoft Shell, which can remove existing entries. Another option is the registry-based switch to the classic menu, but that needs a registry edit and brings back the full menu."
+ },
+ "hit_turn_cap": false
+}

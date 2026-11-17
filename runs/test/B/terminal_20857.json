@@ -1,0 +1,354 @@
+{
+ "shown": [
+  "WSL#9261",
+  "terminal#10149",
+  "terminal#10167",
+  "terminal#10230",
+  "terminal#10346",
+  "terminal#11522",
+  "terminal#11759",
+  "terminal#11836",
+  "terminal#12204",
+  "terminal#12249",
+  "terminal#12345",
+  "terminal#12582",
+  "terminal#12767",
+  "terminal#13452",
+  "terminal#13622",
+  "terminal#14818",
+  "terminal#15471",
+  "terminal#16085",
+  "terminal#17486",
+  "terminal#1772",
+  "terminal#18044",
+  "terminal#18721",
+  "terminal#18815",
+  "terminal#18923",
+  "terminal#20333",
+  "terminal#3433",
+  "terminal#4768",
+  "terminal#607",
+  "terminal#6748",
+  "terminal#7057",
+  "terminal#7188",
+  "terminal#7204"
+ ],
+ "retrieval_seconds": 0.25540449903928675,
+ "tool_calls": [
+  {
+   "t": 1794884656.8443913,
+   "tool": "search",
+   "args": {
+    "pattern": "app execution alias",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.028718096000375226,
+   "returned": [
+    "terminal#7188",
+    "terminal#10149",
+    "terminal#7204",
+    "terminal#12204",
+    "terminal#12767",
+    "terminal#6748",
+    "terminal#18721",
+    "terminal#16085",
+    "terminal#14818",
+    "terminal#13622",
+    "terminal#12249",
+    "terminal#11759",
+    "terminal#10346",
+    "terminal#10230",
+    "terminal#10167",
+    "terminal#4768",
+    "terminal#18923",
+    "terminal#18815",
+    "terminal#18044",
+    "terminal#17486"
+   ]
+  },
+  {
+   "t": 1794884657.4965584,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#15471"
+   },
+   "seconds": 0.00010935700265690684,
+   "returned": [
+    "terminal#15471"
+   ]
+  },
+  {
+   "t": 1794884659.87332,
+   "tool": "search",
+   "args": {
+    "pattern": "PowerShell Preview (msix)",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07413462200202048,
+   "returned": [
+    "terminal#20333",
+    "terminal#7057"
+   ]
+  },
+  {
+   "t": 1794884659.943373,
+   "tool": "search",
+   "args": {
+    "pattern": "AppExecLink",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.055342169012874365,
+   "returned": [
+    "terminal#17486",
+    "WSL#9261",
+    "terminal#607"
+   ]
+  },
+  {
+   "t": 1794884661.836384,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#20333"
+   },
+   "seconds": 0.00013050698908045888,
+   "returned": [
+    "terminal#20333"
+   ]
+  },
+  {
+   "t": 1794884662.3375866,
+   "tool": "search",
+   "args": {
+    "pattern": "profile matching",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.03081642001052387,
+   "returned": [
+    "terminal#12345",
+    "terminal#13452",
+    "terminal#12582",
+    "terminal#11836",
+    "terminal#3433",
+    "terminal#1772"
+   ]
+  },
+  {
+   "t": 1794884662.458011,
+   "tool": "search",
+   "args": {
+    "pattern": "pwsh.exe",
+    "regex": false,
+    "also": [
+     "handoff",
+     "font"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.06598049201420508,
+   "returned": [
+    "terminal#11522"
+   ]
+  },
+  {
+   "t": 1794884664.0358357,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#12582"
+   },
+   "seconds": 0.00017283600755035877,
+   "returned": [
+    "terminal#12582"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13636,
+  "stop_reason": "end_turn",
+  "session_id": "a422182b-971d-49bc-bebb-e42c0ded4ca3",
+  "total_cost_usd": 0.0706129,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 13622,
+   "cache_read_input_tokens": 38049,
+   "output_tokens": 1230,
+   "output_tokens_details": {
+    "thinking_tokens": 72
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13622,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 432,
+     "cache_read_input_tokens": 13653,
+     "cache_creation_input_tokens": 1146,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1146
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1230,
+    "cacheReadInputTokens": 38049,
+    "cacheCreationInputTokens": 13622,
+    "webSearchRequests": 0,
+    "costUSD": 0.0706129,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 72,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13622,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this exact problem. That problem is the generated 'PowerShell Preview (msix)' profile storing the app execution alias path. The handed-off process runs from the versioned path under C:\\\\Program Files\\\\WindowsApps, so the two never match.\\n\\nTwo older tickets have the same root cause, a profile command line that differs from the path actually launched. They are terminal#15471 (the Visual Studio Debug Console) and terminal#12582 (the WSL package path from the Start Menu). Both are about different programs, and neither covers MSIX alias resolution. Neither has a fix you can apply, and #15471 asked the owning team to change the profile.\\n\\nUntil this is fixed, your hidden-profile workaround is the best option. You will need to update its package path after each PowerShell Preview update. Please file this as a new issue with your proposed solution, which is to resolve AppExecLink targets or match on package family name. Link #15471 and #12582 in it.\\n\\nTicket #20333 involves the same generated profile, but it is a different problem. There the profile doesn't appear in the profile list at all.\"}",
+  "ttft_ms": 1922,
+  "type": "result",
+  "duration_ms": 13845,
+  "uuid": "8ae31ad1-4baf-426e-aece-e35a1fbc4dba",
+  "ttft_stream_ms": 1528,
+  "time_to_request_ms": 33,
+  "first_content_frame_ms": 1528,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1230,
+    "cacheReadInputTokens": 38049,
+    "cacheCreationInputTokens": 13622,
+    "webSearchRequests": 0,
+    "costUSD": 0.0706129,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 72,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13622,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.191038638004102,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-_8ulvqgx/work"
+  }
+ },
+ "wall_seconds": 15.193173092004145,
+ "qid": "terminal#20857",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this exact problem. That problem is the generated 'PowerShell Preview (msix)' profile storing the app execution alias path. The handed-off process runs from the versioned path under C:\\Program Files\\WindowsApps, so the two never match.\n\nTwo older tickets have the same root cause, a profile command line that differs from the path actually launched. They are terminal#15471 (the Visual Studio Debug Console) and terminal#12582 (the WSL package path from the Start Menu). Both are about different programs, and neither covers MSIX alias resolution. Neither has a fix you can apply, and #15471 asked the owning team to change the profile.\n\nUntil this is fixed, your hidden-profile workaround is the best option. You will need to update its package path after each PowerShell Preview update. Please file this as a new issue with your proposed solution, which is to resolve AppExecLink targets or match on package family name. Link #15471 and #12582 in it.\n\nTicket #20333 involves the same generated profile, but it is a different problem. There the profile doesn't appear in the profile list at all."
+ },
+ "hit_turn_cap": false
+}

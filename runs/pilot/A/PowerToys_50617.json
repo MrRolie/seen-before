@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#26326",
+  "PowerToys#40579",
+  "PowerToys#41750",
+  "PowerToys#46450",
+  "PowerToys#39030"
+ ],
+ "retrieval_seconds": 0.016174845019122586,
+ "retrieval_scores": [
+  0.7359760403633118,
+  0.7236995697021484,
+  0.6975409388542175,
+  0.6973208785057068,
+  0.6957226991653442
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3702,
+  "stop_reason": "end_turn",
+  "session_id": "de7b97c0-ef67-4cb0-bc33-df9d154abb5b",
+  "total_cost_usd": 0.020112,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4152,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 350,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4152,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 350,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4152,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4152
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 350,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4152,
+    "webSearchRequests": 0,
+    "costUSD": 0.020112,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4152,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#26326\", \"PowerToys#40579\", \"PowerToys#41750\"], \"answer\": \"This is a known limitation. Task Manager, UAC/install prompts and other elevated or secure-desktop windows can only be controlled by Mouse Without Borders if it has elevated rights. The fix reported in the earlier tickets (PowerToys#26326) was to run PowerToys as administrator on BOTH computers; the maintainer also suggested installing the Mouse Without Borders service so it can interact with elevated apps. Your report shows PowerToys running non-elevated, so run it as admin on both machines (Settings > General > Run at startup / 'Always run as administrator') and enable the MWB service. Until then, the workaround is to use the physical keyboard/mouse of the computer showing the dialog, or close the elevated window to regain control. Note that in other reports (PowerToys#40579, PowerToys#41750) the same lockout was seen with Task Manager and UAC prompts and no other fix was given.\"}",
+  "ttft_ms": 3879,
+  "type": "result",
+  "duration_ms": 3896,
+  "uuid": "471e609a-4296-4110-81b8-fd45f8800486",
+  "ttft_stream_ms": 1317,
+  "time_to_request_ms": 193,
+  "first_content_frame_ms": 1317,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 350,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4152,
+    "webSearchRequests": 0,
+    "costUSD": 0.020112,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4152,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.77893877599854,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-dtt4guz9/work"
+  }
+ },
+ "wall_seconds": 4.7968601809989195,
+ "qid": "PowerToys#50617",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#26326",
+   "PowerToys#40579",
+   "PowerToys#41750"
+  ],
+  "answer": "This is a known limitation. Task Manager, UAC/install prompts and other elevated or secure-desktop windows can only be controlled by Mouse Without Borders if it has elevated rights. The fix reported in the earlier tickets (PowerToys#26326) was to run PowerToys as administrator on BOTH computers; the maintainer also suggested installing the Mouse Without Borders service so it can interact with elevated apps. Your report shows PowerToys running non-elevated, so run it as admin on both machines (Settings > General > Run at startup / 'Always run as administrator') and enable the MWB service. Until then, the workaround is to use the physical keyboard/mouse of the computer showing the dialog, or close the elevated window to regain control. Note that in other reports (PowerToys#40579, PowerToys#41750) the same lockout was seen with Task Manager and UAC prompts and no other fix was given."
+ },
+ "hit_turn_cap": false
+}

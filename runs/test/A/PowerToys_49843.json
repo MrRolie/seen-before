@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "terminal#13696",
+  "PowerToys#46304",
+  "terminal#10196",
+  "PowerToys#38487",
+  "PowerToys#41629"
+ ],
+ "retrieval_seconds": 0.02016054399427958,
+ "retrieval_scores": [
+  0.8259295225143433,
+  0.772193193435669,
+  0.7589742541313171,
+  0.7405248284339905,
+  0.7268431782722473
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2740,
+  "stop_reason": "end_turn",
+  "session_id": "7d0f2378-431f-4737-9d7b-f23d4ea90744",
+  "total_cost_usd": 0.01778,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3584,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 344,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3584,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 344,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3584,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3584
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 344,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3584,
+    "webSearchRequests": 0,
+    "costUSD": 0.01778,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3584,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46304\", \"terminal#10196\", \"terminal#13696\"], \"answer\": \"This request (searching in English as well as your display language in the Command Palette) has been reported before. PowerToys#46304 asks for exactly this for the PowerToys Command Palette. The maintainer replied that a partial mechanism exists (for Pinyin) and that the open questions are how deep it should go, the performance overhead, and how to represent it in the API; they cross-referenced #38593 and #42346. In Windows Terminal, the same request (terminal#10196, terminal#13696) was closed as a duplicate of terminal#7039, and Terminal 1.24 now searches in both English and your display language. There is no confirmed fix for PowerToys Command Palette in these tickets, so please add your Spotlight-style Chinese/English scenario as a comment on PowerToys#46304 and follow it for updates. Meanwhile, Windows Terminal's Command Palette already supports this in version 1.24 or later.\"}",
+  "ttft_ms": 2915,
+  "type": "result",
+  "duration_ms": 2935,
+  "uuid": "1dfcbd48-3527-4bb2-9f42-87fc96197268",
+  "ttft_stream_ms": 631,
+  "time_to_request_ms": 192,
+  "first_content_frame_ms": 631,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 344,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3584,
+    "webSearchRequests": 0,
+    "costUSD": 0.01778,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3584,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.9194182549836114,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-l7v6i7mm/work"
+  }
+ },
+ "wall_seconds": 3.9411784159892704,
+ "qid": "PowerToys#49843",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46304",
+   "terminal#10196",
+   "terminal#13696"
+  ],
+  "answer": "This request (searching in English as well as your display language in the Command Palette) has been reported before. PowerToys#46304 asks for exactly this for the PowerToys Command Palette. The maintainer replied that a partial mechanism exists (for Pinyin) and that the open questions are how deep it should go, the performance overhead, and how to represent it in the API; they cross-referenced #38593 and #42346. In Windows Terminal, the same request (terminal#10196, terminal#13696) was closed as a duplicate of terminal#7039, and Terminal 1.24 now searches in both English and your display language. There is no confirmed fix for PowerToys Command Palette in these tickets, so please add your Spotlight-style Chinese/English scenario as a comment on PowerToys#46304 and follow it for updates. Meanwhile, Windows Terminal's Command Palette already supports this in version 1.24 or later."
+ },
+ "hit_turn_cap": false
+}

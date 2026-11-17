@@ -1,0 +1,412 @@
+{
+ "shown": [
+  "PowerToys#10640",
+  "PowerToys#1240",
+  "PowerToys#12652",
+  "PowerToys#16370",
+  "PowerToys#19203",
+  "PowerToys#22298",
+  "PowerToys#2363",
+  "PowerToys#2396",
+  "PowerToys#2442",
+  "PowerToys#25595",
+  "PowerToys#27828",
+  "PowerToys#3124",
+  "PowerToys#3200",
+  "PowerToys#3223",
+  "PowerToys#3230",
+  "PowerToys#3600",
+  "PowerToys#38312",
+  "PowerToys#38346",
+  "PowerToys#38700",
+  "PowerToys#38704",
+  "PowerToys#38713",
+  "PowerToys#38967",
+  "PowerToys#39164",
+  "PowerToys#39166",
+  "PowerToys#39640",
+  "PowerToys#3976",
+  "PowerToys#39861",
+  "PowerToys#4010",
+  "PowerToys#40299",
+  "PowerToys#40776",
+  "PowerToys#40797",
+  "PowerToys#4151",
+  "PowerToys#42144",
+  "PowerToys#42147",
+  "PowerToys#42266",
+  "PowerToys#43936",
+  "PowerToys#445",
+  "PowerToys#45201",
+  "PowerToys#45546",
+  "PowerToys#46360",
+  "PowerToys#46397",
+  "PowerToys#46499",
+  "PowerToys#47576",
+  "PowerToys#47966",
+  "PowerToys#480",
+  "PowerToys#48004",
+  "PowerToys#48225",
+  "PowerToys#48530",
+  "PowerToys#48802",
+  "PowerToys#48833",
+  "PowerToys#557",
+  "PowerToys#6021",
+  "PowerToys#611",
+  "PowerToys#7308",
+  "PowerToys#7543",
+  "PowerToys#8339",
+  "PowerToys#8706"
+ ],
+ "retrieval_seconds": 4.159000618034042,
+ "tool_calls": [
+  {
+   "t": 1794884838.4622755,
+   "tool": "similar",
+   "args": {
+    "query": "Command Palette dock: can't add drive by typing c:\\ in file search / bookmark, nothing happens",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.822058644000208,
+   "returned": [
+    "PowerToys#2396",
+    "PowerToys#40299",
+    "PowerToys#3124",
+    "PowerToys#2363",
+    "PowerToys#48530",
+    "PowerToys#3976",
+    "PowerToys#39861",
+    "PowerToys#39166",
+    "PowerToys#7543",
+    "PowerToys#38312",
+    "PowerToys#4010",
+    "PowerToys#38346",
+    "PowerToys#46499",
+    "PowerToys#39164",
+    "PowerToys#38967",
+    "PowerToys#40776",
+    "PowerToys#46397",
+    "PowerToys#42144",
+    "PowerToys#6021",
+    "PowerToys#40797"
+   ]
+  },
+  {
+   "t": 1794884840.4503064,
+   "tool": "search",
+   "args": {
+    "pattern": "dock",
+    "regex": false,
+    "also": [
+     "drive"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0988596300012432,
+   "returned": [
+    "PowerToys#45201",
+    "PowerToys#46360",
+    "PowerToys#4151",
+    "PowerToys#480",
+    "PowerToys#8339",
+    "PowerToys#47966",
+    "PowerToys#45546",
+    "PowerToys#3223",
+    "PowerToys#557",
+    "PowerToys#1240",
+    "PowerToys#611",
+    "PowerToys#48802",
+    "PowerToys#48225",
+    "PowerToys#27828",
+    "PowerToys#16370",
+    "PowerToys#12652",
+    "PowerToys#445",
+    "PowerToys#43936",
+    "PowerToys#39640",
+    "PowerToys#19203"
+   ]
+  },
+  {
+   "t": 1794884840.4598975,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40797"
+   },
+   "seconds": 9.395700180903077e-05,
+   "returned": [
+    "PowerToys#40797"
+   ]
+  },
+  {
+   "t": 1794884842.5424345,
+   "tool": "similar",
+   "args": {
+    "query": "CmdPal dock add bookmark drive path c:\\ nothing happens, mapped network drive works",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.01611806600703858,
+   "returned": [
+    "PowerToys#38704",
+    "PowerToys#3124",
+    "PowerToys#39166",
+    "PowerToys#38700",
+    "PowerToys#42266",
+    "PowerToys#7308",
+    "PowerToys#3976",
+    "PowerToys#48833",
+    "PowerToys#38346",
+    "PowerToys#40797",
+    "PowerToys#47576",
+    "PowerToys#38713",
+    "PowerToys#42144",
+    "PowerToys#48530",
+    "PowerToys#3230",
+    "PowerToys#2442",
+    "PowerToys#10640",
+    "PowerToys#40776",
+    "PowerToys#6021",
+    "PowerToys#42147"
+   ]
+  },
+  {
+   "t": 1794884842.6580799,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48802"
+   },
+   "seconds": 0.00015124600031413138,
+   "returned": [
+    "PowerToys#48802"
+   ]
+  },
+  {
+   "t": 1794884844.6201248,
+   "tool": "search",
+   "args": {
+    "pattern": "root of a drive",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05899039300857112,
+   "returned": [
+    "PowerToys#22298",
+    "PowerToys#8706"
+   ]
+  },
+  {
+   "t": 1794884844.8291714,
+   "tool": "search",
+   "args": {
+    "pattern": "bookmark",
+    "regex": false,
+    "also": [
+     "c:\\",
+     "drive"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.16257017600582913,
+   "returned": [
+    "PowerToys#3600",
+    "PowerToys#48004",
+    "PowerToys#25595",
+    "PowerToys#3200"
+   ]
+  },
+  {
+   "t": 1794884846.3934908,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42266"
+   },
+   "seconds": 0.00015850600902922451,
+   "returned": [
+    "PowerToys#42266"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13250,
+  "stop_reason": "end_turn",
+  "session_id": "7e9d4a5f-3bbc-47fd-86c1-ab2528904d29",
+  "total_cost_usd": 0.05478419999999999,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 10083,
+   "cache_read_input_tokens": 36782,
+   "output_tokens": 1075,
+   "output_tokens_details": {
+    "thinking_tokens": 30
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10083,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 229,
+     "cache_read_input_tokens": 11263,
+     "cache_creation_input_tokens": 233,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 233
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1075,
+    "cacheReadInputTokens": 36782,
+    "cacheCreationInputTokens": 10083,
+    "webSearchRequests": 0,
+    "costUSD": 0.05478419999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 30,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10083,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find an earlier ticket that reports this problem. Adding a drive root such as c:\\\\ or c:/ to the Command Palette dock by typing the path, with nothing happening, doesn't appear in the archive. I only found tickets on related topics: path search, the Bookmarks megathread, and dock feature requests. None describe this failure. Please keep this ticket open as a new bug. It would help to add your Windows version, the exact steps you take to add the drive to the dock (for example, which command or bookmark dialog you use), and the CmdPal logs. Until it's fixed, you can use the manually mapped drive, which you say works.\"}",
+  "ttft_ms": 2520,
+  "type": "result",
+  "duration_ms": 17325,
+  "uuid": "3ced336a-8396-42cd-92be-ecc77b854b05",
+  "ttft_stream_ms": 1200,
+  "time_to_request_ms": 40,
+  "first_content_frame_ms": 1200,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1075,
+    "cacheReadInputTokens": 36782,
+    "cacheCreationInputTokens": 10083,
+    "webSearchRequests": 0,
+    "costUSD": 0.05478419999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 30,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10083,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.704833428986603,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ktne037m/work"
+  }
+ },
+ "wall_seconds": 18.706640571006574,
+ "qid": "PowerToys#51663",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find an earlier ticket that reports this problem. Adding a drive root such as c:\\ or c:/ to the Command Palette dock by typing the path, with nothing happening, doesn't appear in the archive. I only found tickets on related topics: path search, the Bookmarks megathread, and dock feature requests. None describe this failure. Please keep this ticket open as a new bug. It would help to add your Windows version, the exact steps you take to add the drive to the dock (for example, which command or bookmark dialog you use), and the CmdPal logs. Until it's fixed, you can use the manually mapped drive, which you say works."
+ },
+ "hit_turn_cap": false
+}

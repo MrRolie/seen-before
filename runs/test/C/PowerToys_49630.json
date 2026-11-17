@@ -1,0 +1,466 @@
+{
+ "shown": [
+  "PowerToys#10683",
+  "PowerToys#11414",
+  "PowerToys#11740",
+  "PowerToys#119",
+  "PowerToys#12114",
+  "PowerToys#1241",
+  "PowerToys#12600",
+  "PowerToys#14071",
+  "PowerToys#142",
+  "PowerToys#1958",
+  "PowerToys#2047",
+  "PowerToys#20615",
+  "PowerToys#2067",
+  "PowerToys#24273",
+  "PowerToys#24997",
+  "PowerToys#2542",
+  "PowerToys#28",
+  "PowerToys#30020",
+  "PowerToys#3262",
+  "PowerToys#3625",
+  "PowerToys#3642",
+  "PowerToys#3684",
+  "PowerToys#3744",
+  "PowerToys#40237",
+  "PowerToys#4026",
+  "PowerToys#41211",
+  "PowerToys#4257",
+  "PowerToys#4295",
+  "PowerToys#43380",
+  "PowerToys#4370",
+  "PowerToys#4509",
+  "PowerToys#45548",
+  "PowerToys#4566",
+  "PowerToys#4673",
+  "PowerToys#47518",
+  "PowerToys#4783",
+  "PowerToys#497",
+  "PowerToys#5251",
+  "PowerToys#6207",
+  "PowerToys#6399",
+  "PowerToys#6765",
+  "PowerToys#6793",
+  "PowerToys#7784",
+  "PowerToys#7999",
+  "PowerToys#8179",
+  "PowerToys#8559",
+  "PowerToys#9113",
+  "PowerToys#9258",
+  "PowerToys#9426",
+  "PowerToys#95"
+ ],
+ "retrieval_seconds": 3.5920731780061033,
+ "tool_calls": [
+  {
+   "t": 1794879304.1729765,
+   "tool": "search",
+   "args": {
+    "query": "auto disable PowerToys modules when running full screen games or heavy load apps to save resources",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.5513171500060707,
+   "returned": [
+    "PowerToys#4566",
+    "PowerToys#497",
+    "PowerToys#9426",
+    "PowerToys#6793",
+    "PowerToys#119",
+    "PowerToys#2542",
+    "PowerToys#6207",
+    "PowerToys#11414",
+    "PowerToys#28",
+    "PowerToys#9258",
+    "PowerToys#9113",
+    "PowerToys#11740",
+    "PowerToys#7784",
+    "PowerToys#6399",
+    "PowerToys#4673",
+    "PowerToys#3262",
+    "PowerToys#3684",
+    "PowerToys#4509",
+    "PowerToys#43380",
+    "PowerToys#3744"
+   ]
+  },
+  {
+   "t": 1794879304.196834,
+   "tool": "search",
+   "args": {
+    "query": "reduce PowerToys memory consumption in background, pause when gaming",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012321185000473633,
+   "returned": [
+    "PowerToys#11740",
+    "PowerToys#6399",
+    "PowerToys#142",
+    "PowerToys#2047",
+    "PowerToys#12114",
+    "PowerToys#497",
+    "PowerToys#11414",
+    "PowerToys#7999",
+    "PowerToys#119",
+    "PowerToys#8179",
+    "PowerToys#4370",
+    "PowerToys#4509",
+    "PowerToys#47518",
+    "PowerToys#6793",
+    "PowerToys#4257",
+    "PowerToys#24273",
+    "PowerToys#3625",
+    "PowerToys#2067",
+    "PowerToys#12600",
+    "PowerToys#4783"
+   ]
+  },
+  {
+   "t": 1794879305.1311176,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4566"
+   },
+   "seconds": 0.00016109499847516418,
+   "returned": [
+    "PowerToys#4566"
+   ]
+  },
+  {
+   "t": 1794879305.3797154,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#6399"
+   },
+   "seconds": 0.00012958599836565554,
+   "returned": [
+    "PowerToys#6399"
+   ]
+  },
+  {
+   "t": 1794879305.5542464,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#11740"
+   },
+   "seconds": 0.000127676990814507,
+   "returned": [
+    "PowerToys#11740"
+   ]
+  },
+  {
+   "t": 1794879306.6366894,
+   "tool": "search",
+   "args": {
+    "query": "automatically disable PowerToys utilities when a game or full screen app is running, user-defined list",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.013417775015113875,
+   "returned": [
+    "PowerToys#4566",
+    "PowerToys#1241",
+    "PowerToys#497",
+    "PowerToys#6793",
+    "PowerToys#4026",
+    "PowerToys#1958",
+    "PowerToys#3684",
+    "PowerToys#5251",
+    "PowerToys#4673",
+    "PowerToys#3262",
+    "PowerToys#3744",
+    "PowerToys#6399",
+    "PowerToys#3642",
+    "PowerToys#9258",
+    "PowerToys#10683",
+    "PowerToys#4295",
+    "PowerToys#8559",
+    "PowerToys#6765",
+    "PowerToys#4783",
+    "PowerToys#30020"
+   ]
+  },
+  {
+   "t": 1794879307.5494194,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#30020"
+   },
+   "seconds": 0.00011580699356272817,
+   "returned": [
+    "PowerToys#30020"
+   ]
+  },
+  {
+   "t": 1794879307.669834,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1241"
+   },
+   "seconds": 0.00011736698797903955,
+   "returned": [
+    "PowerToys#1241"
+   ]
+  },
+  {
+   "t": 1794879308.7656658,
+   "tool": "search",
+   "args": {
+    "query": "game mode: pause all PowerToys modules when fullscreen app detected",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.013798772997688502,
+   "returned": [
+    "PowerToys#497",
+    "PowerToys#6399",
+    "PowerToys#3262",
+    "PowerToys#4566",
+    "PowerToys#14071",
+    "PowerToys#24997",
+    "PowerToys#9113",
+    "PowerToys#45548",
+    "PowerToys#4673",
+    "PowerToys#20615",
+    "PowerToys#30020",
+    "PowerToys#6793",
+    "PowerToys#1958",
+    "PowerToys#1241",
+    "PowerToys#41211",
+    "PowerToys#28",
+    "PowerToys#6207",
+    "PowerToys#11414",
+    "PowerToys#95",
+    "PowerToys#40237"
+   ]
+  },
+  {
+   "t": 1794879309.6749225,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#24997"
+   },
+   "seconds": 0.00013313599629327655,
+   "returned": [
+    "PowerToys#24997"
+   ]
+  },
+  {
+   "t": 1794879309.80593,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#41211"
+   },
+   "seconds": 0.00012983600026927888,
+   "returned": [
+    "PowerToys#41211"
+   ]
+  },
+  {
+   "t": 1794879310.559172,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#20615"
+   },
+   "seconds": 0.00015437501133419573,
+   "returned": [
+    "PowerToys#20615"
+   ]
+  },
+  {
+   "t": 1794879311.386303,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#6793"
+   },
+   "seconds": 0.00014941600966267288,
+   "returned": [
+    "PowerToys#6793"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13543,
+  "stop_reason": "end_turn",
+  "session_id": "a3c2da99-e95e-49fa-851b-123d4cbb8bd5",
+  "total_cost_usd": 0.06961339999999999,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 11998,
+   "cache_read_input_tokens": 66854,
+   "output_tokens": 1490,
+   "output_tokens_details": {
+    "thinking_tokens": 145
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11998,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 546,
+     "cache_read_input_tokens": 12743,
+     "cache_creation_input_tokens": 288,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 288
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1490,
+    "cacheReadInputTokens": 66854,
+    "cacheCreationInputTokens": 11998,
+    "webSearchRequests": 0,
+    "costUSD": 0.06961339999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 145,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11998,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#30020\", \"PowerToys#24997\", \"PowerToys#20615\"], \"answer\": \"This has been requested before. Several tickets ask for a global 'game mode' that automatically pauses or disables PowerToys, or chosen modules, while a game or full-screen app is running. Those requests (#24997, #41211) were closed as duplicates of the tracking issue #20615, and #30020 asks for the same thing. Your memory-saving angle is also close to #11740, a RAM limiter request. The team answered that one by saying to disable the modules you don't use and, for PowerToys Run, the plugins you don't use. Based on those tickets, no automatic feature exists yet. Until one does:\\n- Turn off the modules you don't need in PowerToys Settings.\\n- Turn on 'Ignore shortcuts in full screen mode' in PowerToys Run.\\n- Use the per-module game-related options that already exist: the Always on Top game-mode setting and the Shortcut Guide exclude-app list.\\n- Exit PowerToys from the tray before heavy sessions if you want to free memory.\\n\\nYou can add your use case and an upvote to #20615.\"}",
+  "ttft_ms": 1163,
+  "type": "result",
+  "duration_ms": 16835,
+  "uuid": "a46bba26-5ad3-416f-bb5a-064e38b28454",
+  "ttft_stream_ms": 596,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 596,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1490,
+    "cacheReadInputTokens": 66854,
+    "cacheCreationInputTokens": 11998,
+    "webSearchRequests": 0,
+    "costUSD": 0.06961339999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 145,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11998,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.112976862990763,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-24y5q4am/work"
+  }
+ },
+ "wall_seconds": 18.1146293959755,
+ "qid": "PowerToys#49630",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#30020",
+   "PowerToys#24997",
+   "PowerToys#20615"
+  ],
+  "answer": "This has been requested before. Several tickets ask for a global 'game mode' that automatically pauses or disables PowerToys, or chosen modules, while a game or full-screen app is running. Those requests (#24997, #41211) were closed as duplicates of the tracking issue #20615, and #30020 asks for the same thing. Your memory-saving angle is also close to #11740, a RAM limiter request. The team answered that one by saying to disable the modules you don't use and, for PowerToys Run, the plugins you don't use. Based on those tickets, no automatic feature exists yet. Until one does:\n- Turn off the modules you don't need in PowerToys Settings.\n- Turn on 'Ignore shortcuts in full screen mode' in PowerToys Run.\n- Use the per-module game-related options that already exist: the Always on Top game-mode setting and the Shortcut Guide exclude-app list.\n- Exit PowerToys from the tray before heavy sessions if you want to free memory.\n\nYou can add your use case and an upvote to #20615."
+ },
+ "hit_turn_cap": false
+}

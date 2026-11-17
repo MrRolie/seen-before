@@ -1,0 +1,306 @@
+{
+ "shown": [
+  "PowerToys#38297",
+  "PowerToys#38607",
+  "PowerToys#39441",
+  "PowerToys#39655",
+  "PowerToys#39704",
+  "PowerToys#39890",
+  "PowerToys#40611",
+  "PowerToys#41011",
+  "PowerToys#41229",
+  "PowerToys#41265",
+  "PowerToys#41468",
+  "PowerToys#41591",
+  "PowerToys#42428",
+  "PowerToys#42716",
+  "PowerToys#43173",
+  "PowerToys#43715",
+  "PowerToys#43906",
+  "PowerToys#45126",
+  "PowerToys#45295",
+  "PowerToys#46158",
+  "PowerToys#46332",
+  "PowerToys#46790",
+  "PowerToys#47891",
+  "PowerToys#47942",
+  "PowerToys#48725"
+ ],
+ "retrieval_seconds": 0.4428524750401266,
+ "tool_calls": [
+  {
+   "t": 1794882324.8508966,
+   "tool": "search",
+   "args": {
+    "pattern": "HC_NOREMOVE",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06810596102150157,
+   "returned": []
+  },
+  {
+   "t": 1794882325.1156938,
+   "tool": "search",
+   "args": {
+    "pattern": "LocalKeyboardListener",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.057785990997217596,
+   "returned": []
+  },
+  {
+   "t": 1794882325.6710534,
+   "tool": "search",
+   "args": {
+    "pattern": "shortcut",
+    "regex": false,
+    "also": [
+     "twice",
+     "CmdPal"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.18077351001556963,
+   "returned": [
+    "PowerToys#48725",
+    "PowerToys#43173",
+    "PowerToys#42716",
+    "PowerToys#47891",
+    "PowerToys#47942",
+    "PowerToys#42428"
+   ]
+  },
+  {
+   "t": 1794882326.7003376,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48725"
+   },
+   "seconds": 0.00013919599587097764,
+   "returned": [
+    "PowerToys#48725"
+   ]
+  },
+  {
+   "t": 1794882327.1181207,
+   "tool": "search",
+   "args": {
+    "pattern": "keyboard hook",
+    "regex": false,
+    "also": [
+     "CmdPal"
+    ],
+    "repo": null
+   },
+   "seconds": 0.13604781700996682,
+   "returned": [
+    "PowerToys#45126",
+    "PowerToys#43906",
+    "PowerToys#38297",
+    "PowerToys#43173",
+    "PowerToys#41468",
+    "PowerToys#41265",
+    "PowerToys#43715",
+    "PowerToys#41229",
+    "PowerToys#40611",
+    "PowerToys#46790",
+    "PowerToys#46332",
+    "PowerToys#46158",
+    "PowerToys#45295",
+    "PowerToys#41591",
+    "PowerToys#41011",
+    "PowerToys#39890",
+    "PowerToys#39704",
+    "PowerToys#39655",
+    "PowerToys#39441",
+    "PowerToys#38607"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 5684,
+  "stop_reason": "end_turn",
+  "session_id": "f7ee3fa8-29ec-4860-9aab-44a9a3ef4eeb",
+  "total_cost_usd": 0.042241100000000004,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 8606,
+   "cache_read_input_tokens": 6251,
+   "output_tokens": 718,
+   "output_tokens_details": {
+    "thinking_tokens": 68
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8606,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 303,
+     "cache_read_input_tokens": 3273,
+     "cache_creation_input_tokens": 6510,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6510
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 718,
+    "cacheReadInputTokens": 6251,
+    "cacheCreationInputTokens": 8606,
+    "webSearchRequests": 0,
+    "costUSD": 0.042241100000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 68,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8606,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this problem. Searches for LocalKeyboardListener and HC_NOREMOVE returned nothing. The closest ticket is PowerToys#48725, where a context-item shortcut navigates twice. That one is a different bug. In it, CommandBar and ContextMenu both handle TryCommandKeybindingMessage. Your report concerns the low-level local keyboard hook treating HC_NOREMOVE peeks as key events. Treat this as a new issue. In the ticket, say which code path you traced and add repro steps. The fix you propose, handling only HC_ACTION in the hook callback, is reasonable. Please also fill in the Expected and Actual Behavior sections, and name a shortcut that fires twice.\"}",
+  "ttft_ms": 846,
+  "type": "result",
+  "duration_ms": 6042,
+  "uuid": "d4e25a33-7826-4044-88fc-0133a348c936",
+  "ttft_stream_ms": 567,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 567,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 718,
+    "cacheReadInputTokens": 6251,
+    "cacheCreationInputTokens": 8606,
+    "webSearchRequests": 0,
+    "costUSD": 0.042241100000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 68,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8606,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 7.259274263982661,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-w7l3txir/work"
+  }
+ },
+ "wall_seconds": 7.2610649569833186,
+ "qid": "PowerToys#50426",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this problem. Searches for LocalKeyboardListener and HC_NOREMOVE returned nothing. The closest ticket is PowerToys#48725, where a context-item shortcut navigates twice. That one is a different bug. In it, CommandBar and ContextMenu both handle TryCommandKeybindingMessage. Your report concerns the low-level local keyboard hook treating HC_NOREMOVE peeks as key events. Treat this as a new issue. In the ticket, say which code path you traced and add repro steps. The fix you propose, handling only HC_ACTION in the hook callback, is reasonable. Please also fill in the Expected and Actual Behavior sections, and name a shortcut that fires twice."
+ },
+ "hit_turn_cap": false
+}

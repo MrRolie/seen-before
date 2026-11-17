@@ -1,0 +1,440 @@
+{
+ "shown": [
+  "PowerToys#10149",
+  "PowerToys#10758",
+  "PowerToys#11484",
+  "PowerToys#11734",
+  "PowerToys#11879",
+  "PowerToys#12659",
+  "PowerToys#12773",
+  "PowerToys#12923",
+  "PowerToys#13544",
+  "PowerToys#14535",
+  "PowerToys#16570",
+  "PowerToys#19613",
+  "PowerToys#20220",
+  "PowerToys#219",
+  "PowerToys#2197",
+  "PowerToys#2199",
+  "PowerToys#23332",
+  "PowerToys#3079",
+  "PowerToys#3515",
+  "PowerToys#35987",
+  "PowerToys#3641",
+  "PowerToys#3920",
+  "PowerToys#4029",
+  "PowerToys#4191",
+  "PowerToys#42287",
+  "PowerToys#4248",
+  "PowerToys#4341",
+  "PowerToys#4404",
+  "PowerToys#4467",
+  "PowerToys#4470",
+  "PowerToys#4945",
+  "PowerToys#4973",
+  "PowerToys#5243",
+  "PowerToys#5406",
+  "PowerToys#5653",
+  "PowerToys#6013",
+  "PowerToys#6208",
+  "PowerToys#6930",
+  "PowerToys#6951",
+  "PowerToys#6976",
+  "PowerToys#7007",
+  "PowerToys#7444",
+  "PowerToys#7567",
+  "PowerToys#8230",
+  "PowerToys#8518",
+  "PowerToys#8566",
+  "PowerToys#9110",
+  "PowerToys#9360",
+  "PowerToys#9434",
+  "PowerToys#9876"
+ ],
+ "retrieval_seconds": 3.984378903056495,
+ "tool_calls": [
+  {
+   "t": 1794878414.6154177,
+   "tool": "search",
+   "args": {
+    "query": "Keyboard Manager remap Alt (Right) + key to square bracket prints original character instead",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.939573781011859,
+   "returned": [
+    "PowerToys#4470",
+    "PowerToys#5406",
+    "PowerToys#2197",
+    "PowerToys#6976",
+    "PowerToys#13544",
+    "PowerToys#9434",
+    "PowerToys#11879",
+    "PowerToys#3641",
+    "PowerToys#4191",
+    "PowerToys#2199",
+    "PowerToys#5243",
+    "PowerToys#5653",
+    "PowerToys#10758",
+    "PowerToys#6013",
+    "PowerToys#4467",
+    "PowerToys#12773",
+    "PowerToys#20220",
+    "PowerToys#4973",
+    "PowerToys#8518",
+    "PowerToys#7444"
+   ]
+  },
+  {
+   "t": 1794878414.646786,
+   "tool": "search",
+   "args": {
+    "query": "AltGr shortcut remap not working non-US keyboard layout Keyboard Manager",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.015123101999051869,
+   "returned": [
+    "PowerToys#3641",
+    "PowerToys#12659",
+    "PowerToys#11734",
+    "PowerToys#11879",
+    "PowerToys#3079",
+    "PowerToys#9434",
+    "PowerToys#6976",
+    "PowerToys#4973",
+    "PowerToys#6930",
+    "PowerToys#4945",
+    "PowerToys#16570",
+    "PowerToys#7007",
+    "PowerToys#3920",
+    "PowerToys#42287",
+    "PowerToys#11484",
+    "PowerToys#219",
+    "PowerToys#7567",
+    "PowerToys#6951",
+    "PowerToys#4470",
+    "PowerToys#14535"
+   ]
+  },
+  {
+   "t": 1794878416.2810524,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4470"
+   },
+   "seconds": 0.00010401697363704443,
+   "returned": [
+    "PowerToys#4470"
+   ]
+  },
+  {
+   "t": 1794878416.4468482,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#16570"
+   },
+   "seconds": 0.00012103701010346413,
+   "returned": [
+    "PowerToys#16570"
+   ]
+  },
+  {
+   "t": 1794878418.6547377,
+   "tool": "search",
+   "args": {
+    "query": "shortcut with Alt (Right) and accented letter (è, ù, ç) remapped, outputs the letter only; mimic Mac layout",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.01432776200817898,
+   "returned": [
+    "PowerToys#6208",
+    "PowerToys#5406",
+    "PowerToys#4191",
+    "PowerToys#13544",
+    "PowerToys#6976",
+    "PowerToys#10149",
+    "PowerToys#4248",
+    "PowerToys#19613",
+    "PowerToys#4973",
+    "PowerToys#10758",
+    "PowerToys#8230",
+    "PowerToys#12773",
+    "PowerToys#23332",
+    "PowerToys#8566",
+    "PowerToys#4404",
+    "PowerToys#5243",
+    "PowerToys#3515",
+    "PowerToys#9434",
+    "PowerToys#9360",
+    "PowerToys#5653"
+   ]
+  },
+  {
+   "t": 1794878418.743387,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35987"
+   },
+   "seconds": 0.0001415470032952726,
+   "returned": [
+    "PowerToys#35987"
+   ]
+  },
+  {
+   "t": 1794878420.6126106,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#19613"
+   },
+   "seconds": 0.00011658700532279909,
+   "returned": [
+    "PowerToys#19613"
+   ]
+  },
+  {
+   "t": 1794878420.780874,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#3641"
+   },
+   "seconds": 0.0001238370023202151,
+   "returned": [
+    "PowerToys#3641"
+   ]
+  },
+  {
+   "t": 1794878423.4390743,
+   "tool": "search",
+   "args": {
+    "query": "Alt (Right) + letter shortcut remap to bracket doesn't work, only original character typed, AltGr layout",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014484729006653652,
+   "returned": [
+    "PowerToys#5406",
+    "PowerToys#4470",
+    "PowerToys#3641",
+    "PowerToys#5243",
+    "PowerToys#9434",
+    "PowerToys#10758",
+    "PowerToys#9360",
+    "PowerToys#6976",
+    "PowerToys#219",
+    "PowerToys#12773",
+    "PowerToys#10149",
+    "PowerToys#9110",
+    "PowerToys#13544",
+    "PowerToys#2197",
+    "PowerToys#4029",
+    "PowerToys#3515",
+    "PowerToys#12923",
+    "PowerToys#4341",
+    "PowerToys#8518",
+    "PowerToys#9876"
+   ]
+  },
+  {
+   "t": 1794878424.9056308,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#9110"
+   },
+   "seconds": 0.00011465701390989125,
+   "returned": [
+    "PowerToys#9110"
+   ]
+  },
+  {
+   "t": 1794878425.0713892,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#5243"
+   },
+   "seconds": 0.00014784702216275036,
+   "returned": [
+    "PowerToys#5243"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 16037,
+  "stop_reason": "end_turn",
+  "session_id": "8d9046e7-8b86-4276-aa10-9e0dff5a72c5",
+  "total_cost_usd": 0.072019,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 13509,
+   "cache_read_input_tokens": 45750,
+   "output_tokens": 1338,
+   "output_tokens_details": {
+    "thinking_tokens": 147
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13509,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 314,
+     "cache_read_input_tokens": 13070,
+     "cache_creation_input_tokens": 1472,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1472
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1338,
+    "cacheReadInputTokens": 45750,
+    "cacheCreationInputTokens": 13509,
+    "webSearchRequests": 0,
+    "costUSD": 0.072019,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 147,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13509,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this exact problem. Your shortcut `Alt (Right)` + `è` mapped to `[` still types only `è`. The closest tickets are related but don't match. PowerToys#3641 explains that on layouts with AltGr, Windows treats `Alt (Right)` as `Ctrl (Left)` + `Alt (Right)`, and Keyboard Manager handles that combination badly. PowerToys#16570 covers a similar Mac-style AltGr remap on a Czech layout, but its symptom is different. As a workaround, try a shortcut that doesn't use AltGr, for example `Ctrl (Left)` + `Alt (Left)` + `è`, or a different modifier. Please also upload a PowerToys bug report ZIP, and state your keyboard layout (for example Italian or Swiss). That will help the team investigate this as a new report.\"}",
+  "ttft_ms": 2444,
+  "type": "result",
+  "duration_ms": 20103,
+  "uuid": "17ca7e0f-3b5e-457c-b6c6-0a3a0705d1b4",
+  "ttft_stream_ms": 1294,
+  "time_to_request_ms": 39,
+  "first_content_frame_ms": 1294,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1338,
+    "cacheReadInputTokens": 45750,
+    "cacheCreationInputTokens": 13509,
+    "webSearchRequests": 0,
+    "costUSD": 0.072019,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 147,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13509,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 21.485726439976133,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-r_38_3gb/work"
+  }
+ },
+ "wall_seconds": 21.487878004991217,
+ "qid": "PowerToys#49452",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this exact problem. Your shortcut `Alt (Right)` + `è` mapped to `[` still types only `è`. The closest tickets are related but don't match. PowerToys#3641 explains that on layouts with AltGr, Windows treats `Alt (Right)` as `Ctrl (Left)` + `Alt (Right)`, and Keyboard Manager handles that combination badly. PowerToys#16570 covers a similar Mac-style AltGr remap on a Czech layout, but its symptom is different. As a workaround, try a shortcut that doesn't use AltGr, for example `Ctrl (Left)` + `Alt (Left)` + `è`, or a different modifier. Please also upload a PowerToys bug report ZIP, and state your keyboard layout (for example Italian or Swiss). That will help the team investigate this as a new report."
+ },
+ "hit_turn_cap": false
+}

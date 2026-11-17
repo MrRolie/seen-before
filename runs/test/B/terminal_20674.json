@@ -1,0 +1,283 @@
+{
+ "shown": [
+  "terminal#11076",
+  "terminal#12954",
+  "terminal#14707",
+  "terminal#14957",
+  "terminal#15238",
+  "terminal#15271",
+  "terminal#15303",
+  "terminal#15689",
+  "terminal#16126",
+  "terminal#17209",
+  "terminal#18561",
+  "terminal#18719",
+  "terminal#3386",
+  "terminal#433",
+  "terminal#4583",
+  "terminal#4706",
+  "terminal#7754"
+ ],
+ "retrieval_seconds": 0.06999477697536349,
+ "tool_calls": [
+  {
+   "t": 1794882716.4084103,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18719"
+   },
+   "seconds": 0.00030074198730289936,
+   "returned": [
+    "terminal#18719"
+   ]
+  },
+  {
+   "t": 1794882716.8353276,
+   "tool": "search",
+   "args": {
+    "pattern": "drag tab crash",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.034344910993240774,
+   "returned": []
+  },
+  {
+   "t": 1794882718.0553691,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18561"
+   },
+   "seconds": 0.00015829599578864872,
+   "returned": [
+    "terminal#18561"
+   ]
+  },
+  {
+   "t": 1794882718.9245925,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#15689"
+   },
+   "seconds": 0.0003184709930792451,
+   "returned": [
+    "terminal#15689"
+   ]
+  },
+  {
+   "t": 1794882719.1406298,
+   "tool": "search",
+   "args": {
+    "pattern": "dragging tab",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.034872357005951926,
+   "returned": [
+    "terminal#17209",
+    "terminal#15689",
+    "terminal#16126",
+    "terminal#15303",
+    "terminal#15271",
+    "terminal#15238",
+    "terminal#14957",
+    "terminal#14707",
+    "terminal#12954",
+    "terminal#11076",
+    "terminal#7754",
+    "terminal#4706",
+    "terminal#4583",
+    "terminal#3386",
+    "terminal#433"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9634,
+  "stop_reason": "end_turn",
+  "session_id": "684f9f42-b037-435d-b362-8cd9fc931450",
+  "total_cost_usd": 0.0589026,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 11614,
+   "cache_read_input_tokens": 13406,
+   "output_tokens": 1109,
+   "output_tokens_details": {
+    "thinking_tokens": 92
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11614,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 675,
+     "cache_read_input_tokens": 6074,
+     "cache_creation_input_tokens": 6717,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6717
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1109,
+    "cacheReadInputTokens": 13406,
+    "cacheCreationInputTokens": 11614,
+    "webSearchRequests": 0,
+    "costUSD": 0.0589026,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 92,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11614,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#18719\", \"terminal#18561\", \"terminal#15689\"], \"answer\": \"This has been reported before, and I found no fix in the archive. Dragging a tab crashes the whole Terminal window, which kills every session in it. #18719 is the report you cite. It was closed as stale after the reporter was asked for a crash dump and no further activity followed, so it was not resolved. #18561 and #15689 describe the same crash. The crash is a stowed exception (0xc000027b) in Windows.UI.Xaml.dll, raised from the tab-drag pointer input. What the tickets suggest:\\n1. Enable automatic crash-dump capture, as described on the Terminal wiki's Troubleshooting Tips page. Reproduce the crash, then send the dump to the maintainers ([user] or [user]) and @ them in the ticket. Dumps contain buffer contents, so don't post them publicly. Also include the Event Viewer Application Error entry (Event ID 1000).\\n2. Try Terminal Preview. A maintainer in #18561 thought the 1.23 process-model changes might have fixed this. Your report on 1.24 shows it may still happen.\\n3. Check whether security or endpoint software is involved. BeyondTrust was suspected in #18561 and #15689. Also check whether Terminal is running elevated, since dragging tabs from an elevated window is a separate known problem (#4583, #4706).\\n4. In #15689, a portable zip build did not crash but the installed msixbundle build did. Trying the portable zip build is a possible workaround.\\nUntil this is fixed, avoid dragging tabs, and use the tab context menu or keyboard shortcuts to move them instead.\"}",
+  "ttft_ms": 1251,
+  "type": "result",
+  "duration_ms": 9744,
+  "uuid": "c4d55e2a-a0c2-44a1-9b39-188c23bf429e",
+  "ttft_stream_ms": 932,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 932,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1109,
+    "cacheReadInputTokens": 13406,
+    "cacheCreationInputTokens": 11614,
+    "webSearchRequests": 0,
+    "costUSD": 0.0589026,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 92,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11614,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.156160595011897,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-txccpbxk/work"
+  }
+ },
+ "wall_seconds": 11.15781784200226,
+ "qid": "terminal#20674",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#18719",
+   "terminal#18561",
+   "terminal#15689"
+  ],
+  "answer": "This has been reported before, and I found no fix in the archive. Dragging a tab crashes the whole Terminal window, which kills every session in it. #18719 is the report you cite. It was closed as stale after the reporter was asked for a crash dump and no further activity followed, so it was not resolved. #18561 and #15689 describe the same crash. The crash is a stowed exception (0xc000027b) in Windows.UI.Xaml.dll, raised from the tab-drag pointer input. What the tickets suggest:\n1. Enable automatic crash-dump capture, as described on the Terminal wiki's Troubleshooting Tips page. Reproduce the crash, then send the dump to the maintainers ([user] or [user]) and @ them in the ticket. Dumps contain buffer contents, so don't post them publicly. Also include the Event Viewer Application Error entry (Event ID 1000).\n2. Try Terminal Preview. A maintainer in #18561 thought the 1.23 process-model changes might have fixed this. Your report on 1.24 shows it may still happen.\n3. Check whether security or endpoint software is involved. BeyondTrust was suspected in #18561 and #15689. Also check whether Terminal is running elevated, since dragging tabs from an elevated window is a separate known problem (#4583, #4706).\n4. In #15689, a portable zip build did not crash but the installed msixbundle build did. Trying the portable zip build is a possible workaround.\nUntil this is fixed, avoid dragging tabs, and use the tab context menu or keyboard shortcuts to move them instead."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#46491",
+  "PowerToys#46083",
+  "PowerToys#37264",
+  "PowerToys#48830",
+  "PowerToys#23584"
+ ],
+ "retrieval_seconds": 0.5374490539834369,
+ "retrieval_scores": [
+  0.032018442622950824,
+  0.032018442622950824,
+  0.0304147465437788,
+  0.027777777777777776,
+  0.016129032258064516
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3863,
+  "stop_reason": "end_turn",
+  "session_id": "f17e8ab5-afca-4ec8-babb-40face8e758a",
+  "total_cost_usd": 0.023828000000000002,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5176,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 312,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5176,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 312,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5176,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5176
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 312,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5176,
+    "webSearchRequests": 0,
+    "costUSD": 0.023828000000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5176,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46491\", \"PowerToys#46083\", \"PowerToys#23584\"], \"answer\": \"Requests for a built-in translation feature have been filed before. The ticket says 'in-app', but PowerToys has no content or messaging platform, so the closest matches are requests for system-wide translation: translating selected text, or typing text and translating it. The past tickets did not produce a shipped feature. Some were closed as duplicates of the main tracking issue #18014 (see #23584, and also #37264 and #48830, which were closed the same way), and one was redirected to Windows Feedback Hub (#46083). Please add your use case and a thumbs-up to #18014, and file feedback through Feedback Hub (Win+F) as well. Until a feature exists, you can use Edge's right-click Translate in the browser, or PowerToys Text Extractor to copy on-screen text and paste it into a translation service.\"}",
+  "ttft_ms": 4025,
+  "type": "result",
+  "duration_ms": 4046,
+  "uuid": "a5e2deec-2f59-4ae4-abbd-09a646b2c8b7",
+  "ttft_stream_ms": 1269,
+  "time_to_request_ms": 180,
+  "first_content_frame_ms": 1269,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 312,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5176,
+    "webSearchRequests": 0,
+    "costUSD": 0.023828000000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5176,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.983570181997493,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-zaodw8k6/work"
+  }
+ },
+ "wall_seconds": 5.5230374459933955,
+ "qid": "PowerToys#52029",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46491",
+   "PowerToys#46083",
+   "PowerToys#23584"
+  ],
+  "answer": "Requests for a built-in translation feature have been filed before. The ticket says 'in-app', but PowerToys has no content or messaging platform, so the closest matches are requests for system-wide translation: translating selected text, or typing text and translating it. The past tickets did not produce a shipped feature. Some were closed as duplicates of the main tracking issue #18014 (see #23584, and also #37264 and #48830, which were closed the same way), and one was redirected to Windows Feedback Hub (#46083). Please add your use case and a thumbs-up to #18014, and file feedback through Feedback Hub (Win+F) as well. Until a feature exists, you can use Edge's right-click Translate in the browser, or PowerToys Text Extractor to copy on-screen text and paste it into a translation service."
+ },
+ "hit_turn_cap": false
+}

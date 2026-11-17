@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#43082",
+  "PowerToys#15047",
+  "PowerToys#24671",
+  "PowerToys#33682",
+  "PowerToys#29824"
+ ],
+ "retrieval_seconds": 0.01404706301400438,
+ "retrieval_scores": [
+  0.832280158996582,
+  0.8035722374916077,
+  0.7942220568656921,
+  0.7813138961791992,
+  0.7736082673072815
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2795,
+  "stop_reason": "end_turn",
+  "session_id": "66d323bb-eba5-4456-96ac-07cee550a7dd",
+  "total_cost_usd": 0.016252000000000003,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3357,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 282,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3357,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 282,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3357,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3357
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 282,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3357,
+    "webSearchRequests": 0,
+    "costUSD": 0.016252000000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3357,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#43082\", \"PowerToys#33682\", \"PowerToys#29824\"], \"answer\": \"This feature request (sign in with an account and sync PowerToys settings across devices) has been filed many times before. Past tickets were closed as duplicates of the main tracking issue, PowerToys#3381 (also referenced as #34238 in the most recent closure), so please add your thumbs-up and any extra detail there rather than opening a new request. Your ask for online editing and per-computer settings could be added as a comment on that thread. In the meantime, PowerToys has a built-in backup/restore option in Settings that lets you manually copy your configuration to another machine, though a maintainer noted that some settings, such as FancyZones layouts, depend on monitor configuration and may not transfer cleanly between computers with different displays.\"}",
+  "ttft_ms": 2942,
+  "type": "result",
+  "duration_ms": 2956,
+  "uuid": "f1edb905-6f6d-4b93-b8d9-cf7458fa6c34",
+  "ttft_stream_ms": 598,
+  "time_to_request_ms": 161,
+  "first_content_frame_ms": 599,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 282,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3357,
+    "webSearchRequests": 0,
+    "costUSD": 0.016252000000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3357,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.698508811998181,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-b7c5vtyk/work"
+  }
+ },
+ "wall_seconds": 3.7144422240089625,
+ "qid": "PowerToys#49959",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#43082",
+   "PowerToys#33682",
+   "PowerToys#29824"
+  ],
+  "answer": "This feature request (sign in with an account and sync PowerToys settings across devices) has been filed many times before. Past tickets were closed as duplicates of the main tracking issue, PowerToys#3381 (also referenced as #34238 in the most recent closure), so please add your thumbs-up and any extra detail there rather than opening a new request. Your ask for online editing and per-computer settings could be added as a comment on that thread. In the meantime, PowerToys has a built-in backup/restore option in Settings that lets you manually copy your configuration to another machine, though a maintainer noted that some settings, such as FancyZones layouts, depend on monitor configuration and may not transfer cleanly between computers with different displays."
+ },
+ "hit_turn_cap": false
+}

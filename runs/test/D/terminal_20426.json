@@ -1,0 +1,347 @@
+{
+ "shown": [
+  "terminal#1060",
+  "terminal#11385",
+  "terminal#11463",
+  "terminal#11800",
+  "terminal#12199",
+  "terminal#12640",
+  "terminal#12715",
+  "terminal#12968",
+  "terminal#13167",
+  "terminal#13782",
+  "terminal#15763",
+  "terminal#15895",
+  "terminal#16161",
+  "terminal#17076",
+  "terminal#17241",
+  "terminal#20189",
+  "terminal#2856",
+  "terminal#2922",
+  "terminal#3897",
+  "terminal#4647",
+  "terminal#4787",
+  "terminal#5796",
+  "terminal#6031",
+  "terminal#6079",
+  "terminal#6108",
+  "terminal#620",
+  "terminal#6456",
+  "terminal#6596",
+  "terminal#7136",
+  "terminal#7188",
+  "terminal#7234",
+  "terminal#7236",
+  "terminal#7491",
+  "terminal#8029",
+  "terminal#8341",
+  "terminal#8737",
+  "terminal#878",
+  "terminal#8957",
+  "terminal#9273",
+  "terminal#9536",
+  "terminal#9962"
+ ],
+ "retrieval_seconds": 4.187836689030519,
+ "tool_calls": [
+  {
+   "t": 1794878045.2995138,
+   "tool": "similar",
+   "args": {
+    "query": "Terminal freezes when pressing Backspace in Browse file dialog from profile Command line setting",
+    "repo": "terminal"
+   },
+   "seconds": 4.09544432599796,
+   "returned": [
+    "terminal#9536",
+    "terminal#9962",
+    "terminal#11385",
+    "terminal#3897",
+    "terminal#12199",
+    "terminal#12968",
+    "terminal#8957",
+    "terminal#17241",
+    "terminal#9273",
+    "terminal#7136",
+    "terminal#7491",
+    "terminal#17076",
+    "terminal#20189",
+    "terminal#7234",
+    "terminal#11463",
+    "terminal#2922",
+    "terminal#2856",
+    "terminal#7236",
+    "terminal#8737",
+    "terminal#8341"
+   ]
+  },
+  {
+   "t": 1794878045.3798711,
+   "tool": "search",
+   "args": {
+    "pattern": "Browse",
+    "regex": false,
+    "also": [
+     "backspace",
+     "freeze"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.05466593799064867,
+   "returned": []
+  },
+  {
+   "t": 1794878046.592446,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#20189"
+   },
+   "seconds": 0.00018937501590698957,
+   "returned": [
+    "terminal#20189"
+   ]
+  },
+  {
+   "t": 1794878046.7621267,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#12199"
+   },
+   "seconds": 0.00018851601635105908,
+   "returned": [
+    "terminal#12199"
+   ]
+  },
+  {
+   "t": 1794878048.4497967,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#13167"
+   },
+   "seconds": 0.0001342759933322668,
+   "returned": [
+    "terminal#13167"
+   ]
+  },
+  {
+   "t": 1794878048.7412071,
+   "tool": "search",
+   "args": {
+    "pattern": "address bar",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.037214258016319945,
+   "returned": [
+    "terminal#620",
+    "terminal#11800",
+    "terminal#7188",
+    "terminal#4647",
+    "terminal#16161",
+    "terminal#12640",
+    "terminal#6079",
+    "terminal#4787",
+    "terminal#15895",
+    "terminal#15763",
+    "terminal#13782",
+    "terminal#12715",
+    "terminal#8029",
+    "terminal#6596",
+    "terminal#6456",
+    "terminal#6108",
+    "terminal#6031",
+    "terminal#5796",
+    "terminal#1060",
+    "terminal#878"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9693,
+  "stop_reason": "end_turn",
+  "session_id": "37fd6d58-26fa-43fa-9772-24f6648ddabe",
+  "total_cost_usd": 0.0428306,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 8343,
+   "cache_read_input_tokens": 11726,
+   "output_tokens": 827,
+   "output_tokens_details": {
+    "thinking_tokens": 35
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8343,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 325,
+     "cache_read_input_tokens": 4571,
+     "cache_creation_input_tokens": 5185,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5185
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 827,
+    "cacheReadInputTokens": 11726,
+    "cacheCreationInputTokens": 8343,
+    "webSearchRequests": 0,
+    "costUSD": 0.0428306,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 35,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8343,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#12199\", \"terminal#13167\", \"terminal#20189\"], \"answer\": \"This looks like a known problem. Terminal freezes when a Browse button in Settings opens the Windows file picker. The earlier tickets mostly reproduce it on Windows 10, and your build 19045 is Windows 10. One of them (#13167) also froze when typing into the picker, which is close to your Backspace freeze. The team tracks all of these under #12199, and the archive has no fix or confirmed workaround. The team suspected the cause is outside Terminal, in the Windows 10 file dialog, and that it doesn't happen on Windows 11. To avoid the freeze, don't use the Browse dialog. Type or paste the path (for example the full path to Git Bash's bash.exe) straight into the Command line field. You can also edit settings.json directly. If Terminal is already frozen, end the task and relaunch it. Add your repro details to #12199.\"}",
+  "ttft_ms": 3078,
+  "type": "result",
+  "duration_ms": 13946,
+  "uuid": "2fcd689d-b49c-41ca-b352-b4c25d4b18a9",
+  "ttft_stream_ms": 2215,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 2215,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 827,
+    "cacheReadInputTokens": 11726,
+    "cacheCreationInputTokens": 8343,
+    "webSearchRequests": 0,
+    "costUSD": 0.0428306,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 35,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8343,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.271969024004648,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ifzqlx5k/work"
+  }
+ },
+ "wall_seconds": 15.274572516005719,
+ "qid": "terminal#20426",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#12199",
+   "terminal#13167",
+   "terminal#20189"
+  ],
+  "answer": "This looks like a known problem. Terminal freezes when a Browse button in Settings opens the Windows file picker. The earlier tickets mostly reproduce it on Windows 10, and your build 19045 is Windows 10. One of them (#13167) also froze when typing into the picker, which is close to your Backspace freeze. The team tracks all of these under #12199, and the archive has no fix or confirmed workaround. The team suspected the cause is outside Terminal, in the Windows 10 file dialog, and that it doesn't happen on Windows 11. To avoid the freeze, don't use the Browse dialog. Type or paste the path (for example the full path to Git Bash's bash.exe) straight into the Command line field. You can also edit settings.json directly. If Terminal is already frozen, end the task and relaunch it. Add your repro details to #12199."
+ },
+ "hit_turn_cap": false
+}

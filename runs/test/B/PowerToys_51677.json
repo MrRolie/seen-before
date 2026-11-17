@@ -1,0 +1,389 @@
+{
+ "shown": [
+  "PowerToys#10552",
+  "PowerToys#15427",
+  "PowerToys#17734",
+  "PowerToys#20003",
+  "PowerToys#20848",
+  "PowerToys#21313",
+  "PowerToys#21795",
+  "PowerToys#22050",
+  "PowerToys#22147",
+  "PowerToys#24833",
+  "PowerToys#26506",
+  "PowerToys#28596",
+  "PowerToys#29382",
+  "PowerToys#29587",
+  "PowerToys#31713",
+  "PowerToys#31856",
+  "PowerToys#32713",
+  "PowerToys#33200",
+  "PowerToys#33218",
+  "PowerToys#33566",
+  "PowerToys#33581",
+  "PowerToys#35193",
+  "PowerToys#35356",
+  "PowerToys#35512",
+  "PowerToys#35874",
+  "PowerToys#37380",
+  "PowerToys#40322",
+  "PowerToys#42868",
+  "PowerToys#42890",
+  "PowerToys#44783",
+  "PowerToys#46693",
+  "PowerToys#47185",
+  "PowerToys#4756",
+  "PowerToys#9300",
+  "PowerToys#9974"
+ ],
+ "retrieval_seconds": 0.46937752500525676,
+ "tool_calls": [
+  {
+   "t": 1794884865.183517,
+   "tool": "search",
+   "args": {
+    "pattern": "lock keyboard",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07555703798425384,
+   "returned": [
+    "PowerToys#42868",
+    "PowerToys#35193",
+    "PowerToys#28596",
+    "PowerToys#17734",
+    "PowerToys#9974"
+   ]
+  },
+  {
+   "t": 1794884865.5405958,
+   "tool": "search",
+   "args": {
+    "pattern": "keyboard clean",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.08747366699390113,
+   "returned": [
+    "PowerToys#33581",
+    "PowerToys#28596"
+   ]
+  },
+  {
+   "t": 1794884865.8584337,
+   "tool": "search",
+   "args": {
+    "pattern": "disable keyboard",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.09396896298858337,
+   "returned": [
+    "PowerToys#33218",
+    "PowerToys#22147",
+    "PowerToys#20003",
+    "PowerToys#35512",
+    "PowerToys#33566",
+    "PowerToys#32713",
+    "PowerToys#29587",
+    "PowerToys#29382",
+    "PowerToys#26506",
+    "PowerToys#24833",
+    "PowerToys#20848",
+    "PowerToys#10552",
+    "PowerToys#9300",
+    "PowerToys#4756",
+    "PowerToys#47185",
+    "PowerToys#44783",
+    "PowerToys#42890",
+    "PowerToys#40322",
+    "PowerToys#37380",
+    "PowerToys#35356"
+   ]
+  },
+  {
+   "t": 1794884866.9378037,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#28596"
+   },
+   "seconds": 0.00032907098648138344,
+   "returned": [
+    "PowerToys#28596"
+   ]
+  },
+  {
+   "t": 1794884867.1649,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44783"
+   },
+   "seconds": 0.00027673199656419456,
+   "returned": [
+    "PowerToys#44783"
+   ]
+  },
+  {
+   "t": 1794884867.3446145,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42868"
+   },
+   "seconds": 0.00026901302044279873,
+   "returned": [
+    "PowerToys#42868"
+   ]
+  },
+  {
+   "t": 1794884868.4256408,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21313"
+   },
+   "seconds": 0.0003457099955994636,
+   "returned": [
+    "PowerToys#21313"
+   ]
+  },
+  {
+   "t": 1794884868.5917435,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#31856"
+   },
+   "seconds": 0.00022666400764137506,
+   "returned": [
+    "PowerToys#31856"
+   ]
+  },
+  {
+   "t": 1794884869.3061922,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#15427"
+   },
+   "seconds": 0.00011388701386749744,
+   "returned": [
+    "PowerToys#15427"
+   ]
+  },
+  {
+   "t": 1794884870.530141,
+   "tool": "search",
+   "args": {
+    "pattern": "keyboard",
+    "regex": false,
+    "also": [
+     "cleaning",
+     "lock"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.2108167800179217,
+   "returned": [
+    "PowerToys#28596",
+    "PowerToys#21313",
+    "PowerToys#46693",
+    "PowerToys#22050",
+    "PowerToys#35874",
+    "PowerToys#33200",
+    "PowerToys#33581",
+    "PowerToys#44783",
+    "PowerToys#42868",
+    "PowerToys#29382",
+    "PowerToys#21795",
+    "PowerToys#31856",
+    "PowerToys#31713"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9710,
+  "stop_reason": "end_turn",
+  "session_id": "0a2c48d1-c95c-4919-af64-5fb6eefd5a45",
+  "total_cost_usd": 0.0660858,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 12625,
+   "cache_read_input_tokens": 39618,
+   "output_tokens": 1160,
+   "output_tokens_details": {
+    "thinking_tokens": 112
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12625,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 391,
+     "cache_read_input_tokens": 11214,
+     "cache_creation_input_tokens": 2588,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2588
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1160,
+    "cacheReadInputTokens": 39618,
+    "cacheCreationInputTokens": 12625,
+    "webSearchRequests": 0,
+    "costUSD": 0.0660858,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 112,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12625,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#21313\", \"PowerToys#28596\", \"PowerToys#42868\"], \"answer\": \"This feature has been requested before, and PowerToys doesn't have it. In #21313 and #28596 the maintainers said they have no plans to build it. #42868 was closed as a duplicate of #21313. Several similar requests (#33581, #44783, #31856) were also closed as duplicates, so there is nothing new to file. You can add a +1 or your use case to #21313. Until then, you have three options. You can lock the PC (Win+L) or put it to sleep. On a desktop, you can unplug the keyboard. You can also disable the keyboard in Device Manager (Win+X > Device Manager > Keyboards > Disable), which is the workaround suggested in #44783. Third-party keyboard-lock tools also exist. Some users run a small AutoHotkey script, and #21313 mentions KeyboardCleanTool as one example.\"}",
+  "ttft_ms": 1011,
+  "type": "result",
+  "duration_ms": 10163,
+  "uuid": "988a2f4c-1c42-4e70-9a54-680006f159d0",
+  "ttft_stream_ms": 697,
+  "time_to_request_ms": 78,
+  "first_content_frame_ms": 697,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1160,
+    "cacheReadInputTokens": 39618,
+    "cacheCreationInputTokens": 12625,
+    "webSearchRequests": 0,
+    "costUSD": 0.0660858,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 112,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12625,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.926984271005495,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-wiks0uzu/work"
+  }
+ },
+ "wall_seconds": 11.929437544982648,
+ "qid": "PowerToys#51677",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#21313",
+   "PowerToys#28596",
+   "PowerToys#42868"
+  ],
+  "answer": "This feature has been requested before, and PowerToys doesn't have it. In #21313 and #28596 the maintainers said they have no plans to build it. #42868 was closed as a duplicate of #21313. Several similar requests (#33581, #44783, #31856) were also closed as duplicates, so there is nothing new to file. You can add a +1 or your use case to #21313. Until then, you have three options. You can lock the PC (Win+L) or put it to sleep. On a desktop, you can unplug the keyboard. You can also disable the keyboard in Device Manager (Win+X > Device Manager > Keyboards > Disable), which is the workaround suggested in #44783. Third-party keyboard-lock tools also exist. Some users run a small AutoHotkey script, and #21313 mentions KeyboardCleanTool as one example."
+ },
+ "hit_turn_cap": false
+}

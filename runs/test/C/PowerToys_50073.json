@@ -1,0 +1,323 @@
+{
+ "shown": [
+  "PowerToys#11365",
+  "PowerToys#11606",
+  "PowerToys#11634",
+  "PowerToys#13060",
+  "PowerToys#183",
+  "PowerToys#20057",
+  "PowerToys#2215",
+  "PowerToys#25438",
+  "PowerToys#25563",
+  "PowerToys#29711",
+  "PowerToys#30305",
+  "PowerToys#3262",
+  "PowerToys#3332",
+  "PowerToys#34383",
+  "PowerToys#3479",
+  "PowerToys#3514",
+  "PowerToys#36079",
+  "PowerToys#3744",
+  "PowerToys#3920",
+  "PowerToys#39841",
+  "PowerToys#40735",
+  "PowerToys#41689",
+  "PowerToys#4879",
+  "PowerToys#5001",
+  "PowerToys#5141",
+  "PowerToys#5496",
+  "PowerToys#5670",
+  "PowerToys#5722",
+  "PowerToys#6467",
+  "PowerToys#6751",
+  "PowerToys#6793",
+  "PowerToys#7910",
+  "PowerToys#8662",
+  "PowerToys#8952",
+  "PowerToys#9209"
+ ],
+ "retrieval_seconds": 4.420004196988884,
+ "tool_calls": [
+  {
+   "t": 1794881256.0710502,
+   "tool": "search",
+   "args": {
+    "query": "keyboard shortcut to toggle Keyboard Manager remapping on and off",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.404059118998703,
+   "returned": [
+    "PowerToys#5001",
+    "PowerToys#34383",
+    "PowerToys#4879",
+    "PowerToys#11606",
+    "PowerToys#9209",
+    "PowerToys#5141",
+    "PowerToys#6467",
+    "PowerToys#8952",
+    "PowerToys#5670",
+    "PowerToys#5722",
+    "PowerToys#40735",
+    "PowerToys#11634",
+    "PowerToys#39841",
+    "PowerToys#3920",
+    "PowerToys#20057",
+    "PowerToys#5496",
+    "PowerToys#3332",
+    "PowerToys#29711",
+    "PowerToys#3479",
+    "PowerToys#13060"
+   ]
+  },
+  {
+   "t": 1794881256.1015828,
+   "tool": "search",
+   "args": {
+    "query": "hotkey to enable/disable PowerToys module quickly",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.01487469399580732,
+   "returned": [
+    "PowerToys#7910",
+    "PowerToys#183",
+    "PowerToys#41689",
+    "PowerToys#11606",
+    "PowerToys#2215",
+    "PowerToys#9209",
+    "PowerToys#34383",
+    "PowerToys#6793",
+    "PowerToys#3514",
+    "PowerToys#25563",
+    "PowerToys#3262",
+    "PowerToys#3744",
+    "PowerToys#36079",
+    "PowerToys#6751",
+    "PowerToys#25438",
+    "PowerToys#8662",
+    "PowerToys#5001",
+    "PowerToys#4879",
+    "PowerToys#11365",
+    "PowerToys#30305"
+   ]
+  },
+  {
+   "t": 1794881257.7218993,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#5001"
+   },
+   "seconds": 0.0004989180015400052,
+   "returned": [
+    "PowerToys#5001"
+   ]
+  },
+  {
+   "t": 1794881257.8944857,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4879"
+   },
+   "seconds": 0.00027089298237115145,
+   "returned": [
+    "PowerToys#4879"
+   ]
+  },
+  {
+   "t": 1794881259.2152019,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34383"
+   },
+   "seconds": 0.00030057301046326756,
+   "returned": [
+    "PowerToys#34383"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8423,
+  "stop_reason": "end_turn",
+  "session_id": "550269f1-95e9-4559-8e7e-e5fa8a81241a",
+  "total_cost_usd": 0.04163820000000001,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 8158,
+   "cache_read_input_tokens": 15902,
+   "output_tokens": 740,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8158,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 342,
+     "cache_read_input_tokens": 8742,
+     "cache_creation_input_tokens": 449,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 449
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 740,
+    "cacheReadInputTokens": 15902,
+    "cacheCreationInputTokens": 8158,
+    "webSearchRequests": 0,
+    "costUSD": 0.04163820000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8158,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#4879\", \"PowerToys#5001\", \"PowerToys#34383\"], \"answer\": \"Someone has already asked for this. A hotkey to toggle Keyboard Manager on and off is tracked in PowerToys#4879. Later requests, such as #34383, were closed as duplicates of it. The archive doesn't say the feature has been built, so there's no built-in shortcut yet. Two workarounds are described in #4879. (1) Use a small PowerShell script that stops the PowerToys.KeyboardManagerEngine process if it's running, or starts it if it isn't. Bind the script to a hotkey with a desktop shortcut's 'Shortcut key' setting, or with AutoHotkey. The PowerToys settings page may not show the right on/off state while you do this. (2) Suggested in the ticket as an idea: toggle it from the PowerToys Run PowerToys plugin. The archive doesn't say whether that exists. You can add your scenario to #4879.\"}",
+  "ttft_ms": 1931,
+  "type": "result",
+  "duration_ms": 12932,
+  "uuid": "537ab820-2508-4444-9955-6d3d8d1f9506",
+  "ttft_stream_ms": 997,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 998,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 740,
+    "cacheReadInputTokens": 15902,
+    "cacheCreationInputTokens": 8158,
+    "webSearchRequests": 0,
+    "costUSD": 0.04163820000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8158,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.452128873992478,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-vsih7s71/work"
+  }
+ },
+ "wall_seconds": 14.454997680993984,
+ "qid": "PowerToys#50073",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#4879",
+   "PowerToys#5001",
+   "PowerToys#34383"
+  ],
+  "answer": "Someone has already asked for this. A hotkey to toggle Keyboard Manager on and off is tracked in PowerToys#4879. Later requests, such as #34383, were closed as duplicates of it. The archive doesn't say the feature has been built, so there's no built-in shortcut yet. Two workarounds are described in #4879. (1) Use a small PowerShell script that stops the PowerToys.KeyboardManagerEngine process if it's running, or starts it if it isn't. Bind the script to a hotkey with a desktop shortcut's 'Shortcut key' setting, or with AutoHotkey. The PowerToys settings page may not show the right on/off state while you do this. (2) Suggested in the ticket as an idea: toggle it from the PowerToys Run PowerToys plugin. The archive doesn't say whether that exists. You can add your scenario to #4879."
+ },
+ "hit_turn_cap": false
+}

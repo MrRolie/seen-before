@@ -1,0 +1,379 @@
+{
+ "shown": [
+  "PowerToys#10306",
+  "PowerToys#10330",
+  "PowerToys#10356",
+  "PowerToys#10808",
+  "PowerToys#10903",
+  "PowerToys#11554",
+  "PowerToys#11701",
+  "PowerToys#13268",
+  "PowerToys#1349",
+  "PowerToys#1517",
+  "PowerToys#152",
+  "PowerToys#1650",
+  "PowerToys#174",
+  "PowerToys#1742",
+  "PowerToys#20438",
+  "PowerToys#2422",
+  "PowerToys#2483",
+  "PowerToys#2547",
+  "PowerToys#2552",
+  "PowerToys#2587",
+  "PowerToys#25937",
+  "PowerToys#2867",
+  "PowerToys#29996",
+  "PowerToys#346",
+  "PowerToys#3578",
+  "PowerToys#4345",
+  "PowerToys#4615",
+  "PowerToys#4737",
+  "PowerToys#4762",
+  "PowerToys#5329",
+  "PowerToys#543",
+  "PowerToys#5465",
+  "PowerToys#5756",
+  "PowerToys#6196",
+  "PowerToys#6364",
+  "PowerToys#6593",
+  "PowerToys#7371",
+  "PowerToys#764",
+  "PowerToys#773",
+  "PowerToys#7856",
+  "PowerToys#7963",
+  "PowerToys#8589",
+  "PowerToys#8662",
+  "PowerToys#890",
+  "PowerToys#9087",
+  "PowerToys#9105",
+  "PowerToys#9510",
+  "PowerToys#9771",
+  "terminal#10010",
+  "terminal#1231",
+  "terminal#17077",
+  "terminal#2551",
+  "terminal#3642",
+  "terminal#5470",
+  "terminal#5989"
+ ],
+ "retrieval_seconds": 3.7290161429846194,
+ "tool_calls": [
+  {
+   "t": 1794876208.6569877,
+   "tool": "search",
+   "args": {
+    "query": "Shortcut Guide taskbar section cut off on the left, misaligned",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.6859797749784775,
+   "returned": [
+    "PowerToys#9105",
+    "PowerToys#1742",
+    "PowerToys#4762",
+    "PowerToys#2552",
+    "PowerToys#11701",
+    "PowerToys#9087",
+    "PowerToys#7371",
+    "PowerToys#1517",
+    "PowerToys#1349",
+    "PowerToys#6196",
+    "PowerToys#6364",
+    "PowerToys#2547",
+    "PowerToys#543",
+    "PowerToys#1650",
+    "PowerToys#11554",
+    "PowerToys#4737",
+    "PowerToys#7963",
+    "PowerToys#773",
+    "PowerToys#4615",
+    "PowerToys#2483"
+   ]
+  },
+  {
+   "t": 1794876208.6850424,
+   "tool": "search",
+   "args": {
+    "query": "Shortcut Guide new UI layout clipped taskbar shortcuts",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.01368420899962075,
+   "returned": [
+    "PowerToys#764",
+    "PowerToys#2552",
+    "PowerToys#29996",
+    "PowerToys#543",
+    "PowerToys#890",
+    "PowerToys#9771",
+    "PowerToys#6593",
+    "PowerToys#1517",
+    "PowerToys#3578",
+    "PowerToys#5756",
+    "PowerToys#2587",
+    "PowerToys#2867",
+    "PowerToys#4345",
+    "PowerToys#9105",
+    "PowerToys#9510",
+    "PowerToys#8662",
+    "PowerToys#10330",
+    "PowerToys#1349",
+    "PowerToys#152",
+    "PowerToys#10356"
+   ]
+  },
+  {
+   "t": 1794876209.889938,
+   "tool": "search",
+   "args": {
+    "query": "Shortcut Guide taskbar section text cut off not aligned 0.100",
+    "repo": null
+   },
+   "seconds": 0.014644945011241361,
+   "returned": [
+    "terminal#5989",
+    "PowerToys#5329",
+    "terminal#5470",
+    "PowerToys#1742",
+    "PowerToys#9105",
+    "terminal#10010",
+    "terminal#3642",
+    "PowerToys#773",
+    "terminal#1231",
+    "PowerToys#5465",
+    "PowerToys#2483",
+    "PowerToys#7856",
+    "PowerToys#10306",
+    "terminal#2551",
+    "PowerToys#20438",
+    "PowerToys#1650",
+    "PowerToys#6364",
+    "PowerToys#2422",
+    "terminal#17077",
+    "PowerToys#6196"
+   ]
+  },
+  {
+   "t": 1794876210.6872983,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#9105"
+   },
+   "seconds": 0.00014657698920927942,
+   "returned": [
+    "PowerToys#9105"
+   ]
+  },
+  {
+   "t": 1794876211.8501265,
+   "tool": "search",
+   "args": {
+    "query": "Shortcut Guide Windows section taskbar column cropped left side layout bug",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014560637006070465,
+   "returned": [
+    "PowerToys#4762",
+    "PowerToys#9087",
+    "PowerToys#7963",
+    "PowerToys#9105",
+    "PowerToys#6196",
+    "PowerToys#13268",
+    "PowerToys#1742",
+    "PowerToys#2552",
+    "PowerToys#10903",
+    "PowerToys#2483",
+    "PowerToys#25937",
+    "PowerToys#7371",
+    "PowerToys#773",
+    "PowerToys#1349",
+    "PowerToys#174",
+    "PowerToys#8589",
+    "PowerToys#1517",
+    "PowerToys#346",
+    "PowerToys#10808",
+    "PowerToys#2547"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7051,
+  "stop_reason": "end_turn",
+  "session_id": "8299fa36-6f2f-40de-b22f-cac53fd5275f",
+  "total_cost_usd": 0.036695099999999994,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 6888,
+   "cache_read_input_tokens": 19531,
+   "output_tokens": 717,
+   "output_tokens_details": {
+    "thinking_tokens": 35
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6888,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 241,
+     "cache_read_input_tokens": 6503,
+     "cache_creation_input_tokens": 1418,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1418
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 717,
+    "cacheReadInputTokens": 19531,
+    "cacheCreationInputTokens": 6888,
+    "webSearchRequests": 0,
+    "costUSD": 0.036695099999999994,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 35,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6888,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket that reports this problem. That is, I found nothing about the Windows taskbar section in the redesigned Shortcut Guide (0.100.2) being cut off on the left and misaligned. The closest result was PowerToys#9105. It covers a different problem in the old Shortcut Guide: a jerky resize when the taskbar is on the left or right. This looks like a new layout bug, so please keep the ticket open for triage. It would help to add your Windows version, your display resolution and scaling (DPI), the taskbar position and alignment, and whether you use multiple monitors. Please also attach the full screenshot and a PowerToys bug report ZIP.\"}",
+  "ttft_ms": 959,
+  "type": "result",
+  "duration_ms": 10314,
+  "uuid": "9f66de13-76ab-4967-ad68-82c5b9241d39",
+  "ttft_stream_ms": 536,
+  "time_to_request_ms": 37,
+  "first_content_frame_ms": 536,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 717,
+    "cacheReadInputTokens": 19531,
+    "cacheCreationInputTokens": 6888,
+    "webSearchRequests": 0,
+    "costUSD": 0.036695099999999994,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 35,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6888,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.945362722995924,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-rwd90kzy/work"
+  }
+ },
+ "wall_seconds": 11.947663366008783,
+ "qid": "PowerToys#49581",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket that reports this problem. That is, I found nothing about the Windows taskbar section in the redesigned Shortcut Guide (0.100.2) being cut off on the left and misaligned. The closest result was PowerToys#9105. It covers a different problem in the old Shortcut Guide: a jerky resize when the taskbar is on the left or right. This looks like a new layout bug, so please keep the ticket open for triage. It would help to add your Windows version, your display resolution and scaling (DPI), the taskbar position and alignment, and whether you use multiple monitors. Please also attach the full screenshot and a PowerToys bug report ZIP."
+ },
+ "hit_turn_cap": false
+}

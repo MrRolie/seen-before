@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#20541",
+  "PowerToys#27771",
+  "PowerToys#39407",
+  "PowerToys#32194",
+  "PowerToys#47328"
+ ],
+ "retrieval_seconds": 0.017220241978066042,
+ "retrieval_scores": [
+  0.519540011882782,
+  0.50750333070755,
+  0.5036515593528748,
+  0.4879058599472046,
+  0.484735906124115
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2279,
+  "stop_reason": "end_turn",
+  "session_id": "a88dea21-1167-4a37-8c53-e094054ef1fa",
+  "total_cost_usd": 0.018532,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3942,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 276,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3942,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 276,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3942,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3942
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 276,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3942,
+    "webSearchRequests": 0,
+    "costUSD": 0.018532,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3942,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find a past ticket reporting this problem. The archive has no report of Find My Mouse stopping Shift+H (or other uppercase characters) from being typed. The closest tickets are about different problems: Quick Accent uppercase issues (#20541, #27771), a Find My Mouse ticket where it doesn't work in one specific app (#32194), and Grab And Move interfering with Alt+scroll (#47328). Until someone looks at this, keep Find My Mouse disabled, since that is what restored Shift+H for you. Please also leave the bug report ZIP attached and mention whether Quick Accent or Keyboard Manager is enabled, the activation method (double-press Ctrl or shake), and whether the problem only affects H or other Shift combinations as well.\"}",
+  "ttft_ms": 2845,
+  "type": "result",
+  "duration_ms": 2865,
+  "uuid": "0758fb07-d3cb-4ccf-bcff-ad0a4b4b517e",
+  "ttft_stream_ms": 1025,
+  "time_to_request_ms": 585,
+  "first_content_frame_ms": 1026,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 276,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3942,
+    "webSearchRequests": 0,
+    "costUSD": 0.018532,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3942,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.647603307996178,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-msakhi5h/work"
+  }
+ },
+ "wall_seconds": 3.6666303499951027,
+ "qid": "PowerToys#50998",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find a past ticket reporting this problem. The archive has no report of Find My Mouse stopping Shift+H (or other uppercase characters) from being typed. The closest tickets are about different problems: Quick Accent uppercase issues (#20541, #27771), a Find My Mouse ticket where it doesn't work in one specific app (#32194), and Grab And Move interfering with Alt+scroll (#47328). Until someone looks at this, keep Find My Mouse disabled, since that is what restored Shift+H for you. Please also leave the bug report ZIP attached and mention whether Quick Accent or Keyboard Manager is enabled, the activation method (double-press Ctrl or shake), and whether the problem only affects H or other Shift combinations as well."
+ },
+ "hit_turn_cap": false
+}

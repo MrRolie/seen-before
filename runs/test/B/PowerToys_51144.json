@@ -1,0 +1,346 @@
+{
+ "shown": [
+  "PowerToys#11010",
+  "PowerToys#14013",
+  "PowerToys#14273",
+  "PowerToys#14895",
+  "PowerToys#15447",
+  "PowerToys#15622",
+  "PowerToys#15905",
+  "PowerToys#1685",
+  "PowerToys#16851",
+  "PowerToys#16987",
+  "PowerToys#17005",
+  "PowerToys#18015",
+  "PowerToys#18469",
+  "PowerToys#20472",
+  "PowerToys#20594",
+  "PowerToys#21097",
+  "PowerToys#22113",
+  "PowerToys#23312",
+  "PowerToys#24167",
+  "PowerToys#28272",
+  "PowerToys#29683",
+  "PowerToys#33718",
+  "PowerToys#34649",
+  "PowerToys#36052",
+  "PowerToys#36066",
+  "PowerToys#36080",
+  "PowerToys#36602",
+  "PowerToys#4043",
+  "PowerToys#40577",
+  "PowerToys#41409",
+  "PowerToys#41864",
+  "PowerToys#47"
+ ],
+ "retrieval_seconds": 0.19776612901478074,
+ "tool_calls": [
+  {
+   "t": 1794883852.2523713,
+   "tool": "search",
+   "args": {
+    "pattern": "RBTray",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.0653089830011595,
+   "returned": [
+    "PowerToys#47",
+    "PowerToys#18015",
+    "PowerToys#36080",
+    "PowerToys#23312",
+    "PowerToys#18469",
+    "PowerToys#41864",
+    "PowerToys#41409",
+    "PowerToys#36602",
+    "PowerToys#28272",
+    "PowerToys#20472",
+    "PowerToys#14895",
+    "PowerToys#4043"
+   ]
+  },
+  {
+   "t": 1794883853.0602245,
+   "tool": "search",
+   "args": {
+    "pattern": "minimize to system tray",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06847064598696306,
+   "returned": [
+    "PowerToys#36066",
+    "PowerToys#33718",
+    "PowerToys#24167",
+    "PowerToys#16987",
+    "PowerToys#15447",
+    "PowerToys#14273"
+   ]
+  },
+  {
+   "t": 1794883853.1307294,
+   "tool": "search",
+   "args": {
+    "pattern": "minimize to tray",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06330868901568465,
+   "returned": [
+    "PowerToys#1685",
+    "PowerToys#34649",
+    "PowerToys#20472",
+    "PowerToys#17005",
+    "PowerToys#47",
+    "PowerToys#36052",
+    "PowerToys#33718",
+    "PowerToys#21097",
+    "PowerToys#18469",
+    "PowerToys#16851",
+    "PowerToys#15622",
+    "PowerToys#14895",
+    "PowerToys#11010",
+    "PowerToys#40577",
+    "PowerToys#29683",
+    "PowerToys#28272",
+    "PowerToys#22113",
+    "PowerToys#20594",
+    "PowerToys#15905",
+    "PowerToys#14013"
+   ]
+  },
+  {
+   "t": 1794883854.6923378,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47"
+   },
+   "seconds": 0.0002700620098039508,
+   "returned": [
+    "PowerToys#47"
+   ]
+  },
+  {
+   "t": 1794883856.3969402,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4043"
+   },
+   "seconds": 0.00011804699897766113,
+   "returned": [
+    "PowerToys#4043"
+   ]
+  },
+  {
+   "t": 1794883857.9576433,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#20472"
+   },
+   "seconds": 0.00011154700769111514,
+   "returned": [
+    "PowerToys#20472"
+   ]
+  },
+  {
+   "t": 1794883859.5212967,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#23312"
+   },
+   "seconds": 0.00017815499450080097,
+   "returned": [
+    "PowerToys#23312"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13241,
+  "stop_reason": "end_turn",
+  "session_id": "2cd2fec2-2f8e-495f-b8aa-0cf7da7d5405",
+  "total_cost_usd": 0.057822,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 10973,
+   "cache_read_input_tokens": 44760,
+   "output_tokens": 943,
+   "output_tokens_details": {
+    "thinking_tokens": 143
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10973,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 431,
+     "cache_read_input_tokens": 11730,
+     "cache_creation_input_tokens": 420,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 420
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 943,
+    "cacheReadInputTokens": 44760,
+    "cacheCreationInputTokens": 10973,
+    "webSearchRequests": 0,
+    "costUSD": 0.057822,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 143,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10973,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#47\", \"PowerToys#23312\", \"PowerToys#4043\"], \"answer\": \"This feature has been requested before. PowerToys#47 is the main tracking issue for minimizing to the tray by right-clicking the minimize button. The team closed #23312 and #4043 as duplicates of #47, so add your +1 and your use case there. The archive shows no sign that PowerToys has built this feature, and I found no ticket saying it is planned. Until it exists, the tickets point to third-party tools. RBTray (https://github.com/[user]/rbtray) does exactly this, but users report it doesn't work with every app, for example Opera. Also, PowerToys#18015 reports that RBTray's hook stopped the PowerToys Settings app from loading, so close RBTray or run it with `--no-hook` if that happens. Another option is the AutoHotkey-based Min2Tray (https://junyx.breadfan.de/Min2Tray/).\"}",
+  "ttft_ms": 1437,
+  "type": "result",
+  "duration_ms": 13452,
+  "uuid": "233d61d1-e8b3-4973-8b28-139e073a44fd",
+  "ttft_stream_ms": 1206,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 1206,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 943,
+    "cacheReadInputTokens": 44760,
+    "cacheCreationInputTokens": 10973,
+    "webSearchRequests": 0,
+    "costUSD": 0.057822,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 143,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10973,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.92693702102406,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-iom0to8y/work"
+  }
+ },
+ "wall_seconds": 14.929184289008845,
+ "qid": "PowerToys#51144",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#47",
+   "PowerToys#23312",
+   "PowerToys#4043"
+  ],
+  "answer": "This feature has been requested before. PowerToys#47 is the main tracking issue for minimizing to the tray by right-clicking the minimize button. The team closed #23312 and #4043 as duplicates of #47, so add your +1 and your use case there. The archive shows no sign that PowerToys has built this feature, and I found no ticket saying it is planned. Until it exists, the tickets point to third-party tools. RBTray (https://github.com/[user]/rbtray) does exactly this, but users report it doesn't work with every app, for example Opera. Also, PowerToys#18015 reports that RBTray's hook stopped the PowerToys Settings app from loading, so close RBTray or run it with `--no-hook` if that happens. Another option is the AutoHotkey-based Min2Tray (https://junyx.breadfan.de/Min2Tray/)."
+ },
+ "hit_turn_cap": false
+}

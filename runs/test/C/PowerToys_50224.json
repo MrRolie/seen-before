@@ -1,0 +1,356 @@
+{
+ "shown": [
+  "PowerToys#10903",
+  "PowerToys#11802",
+  "PowerToys#1240",
+  "PowerToys#14689",
+  "PowerToys#15202",
+  "PowerToys#1544",
+  "PowerToys#15453",
+  "PowerToys#1808",
+  "PowerToys#2547",
+  "PowerToys#32",
+  "PowerToys#33911",
+  "PowerToys#3583",
+  "PowerToys#360",
+  "PowerToys#4",
+  "PowerToys#40311",
+  "PowerToys#45584",
+  "PowerToys#45590",
+  "PowerToys#45861",
+  "PowerToys#46092",
+  "PowerToys#46097",
+  "PowerToys#46275",
+  "PowerToys#46544",
+  "PowerToys#46607",
+  "PowerToys#46750",
+  "PowerToys#46882",
+  "PowerToys#46937",
+  "PowerToys#47218",
+  "PowerToys#47437",
+  "PowerToys#47686",
+  "PowerToys#47700",
+  "PowerToys#47983",
+  "PowerToys#48014",
+  "PowerToys#48073",
+  "PowerToys#48211",
+  "PowerToys#48246",
+  "PowerToys#48287",
+  "PowerToys#48486",
+  "PowerToys#48802",
+  "PowerToys#48833",
+  "PowerToys#48934",
+  "PowerToys#49010",
+  "PowerToys#49012",
+  "PowerToys#5780",
+  "PowerToys#6538",
+  "PowerToys#71",
+  "PowerToys#7368",
+  "PowerToys#7526",
+  "PowerToys#825",
+  "PowerToys#834",
+  "PowerToys#855",
+  "PowerToys#8756",
+  "PowerToys#9080"
+ ],
+ "retrieval_seconds": 3.5729789280158,
+ "tool_calls": [
+  {
+   "t": 1794881781.8317413,
+   "tool": "search",
+   "args": {
+    "query": "dock system monitor CPU memory network GPU indicators combined into one icon",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.5426187539997045,
+   "returned": [
+    "PowerToys#3583",
+    "PowerToys#48802",
+    "PowerToys#7368",
+    "PowerToys#46607",
+    "PowerToys#8756",
+    "PowerToys#825",
+    "PowerToys#46882",
+    "PowerToys#48014",
+    "PowerToys#48287",
+    "PowerToys#834",
+    "PowerToys#855",
+    "PowerToys#48833",
+    "PowerToys#1544",
+    "PowerToys#49010",
+    "PowerToys#48934",
+    "PowerToys#32",
+    "PowerToys#360",
+    "PowerToys#40311",
+    "PowerToys#14689",
+    "PowerToys#33911"
+   ]
+  },
+  {
+   "t": 1794881781.8628392,
+   "tool": "search",
+   "args": {
+    "query": "dock window overlaps or slides underneath the dock",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.015339683013735339,
+   "returned": [
+    "PowerToys#46275",
+    "PowerToys#46750",
+    "PowerToys#4",
+    "PowerToys#7526",
+    "PowerToys#46937",
+    "PowerToys#5780",
+    "PowerToys#46092",
+    "PowerToys#46544",
+    "PowerToys#15453",
+    "PowerToys#10903",
+    "PowerToys#45584",
+    "PowerToys#45590",
+    "PowerToys#1808",
+    "PowerToys#46097",
+    "PowerToys#47700",
+    "PowerToys#45861",
+    "PowerToys#47983",
+    "PowerToys#2547",
+    "PowerToys#71",
+    "PowerToys#15202"
+   ]
+  },
+  {
+   "t": 1794881783.8162863,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46275"
+   },
+   "seconds": 0.000123717007227242,
+   "returned": [
+    "PowerToys#46275"
+   ]
+  },
+  {
+   "t": 1794881784.140848,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#49010"
+   },
+   "seconds": 0.00014572599320672452,
+   "returned": [
+    "PowerToys#49010"
+   ]
+  },
+  {
+   "t": 1794881784.2592154,
+   "tool": "search",
+   "args": {
+    "query": "combine performance monitor widgets into one dock button with flyout; battery charging indicator",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014751048001926392,
+   "returned": [
+    "PowerToys#1240",
+    "PowerToys#47437",
+    "PowerToys#47218",
+    "PowerToys#48486",
+    "PowerToys#48833",
+    "PowerToys#49012",
+    "PowerToys#47686",
+    "PowerToys#48802",
+    "PowerToys#48073",
+    "PowerToys#48934",
+    "PowerToys#11802",
+    "PowerToys#4",
+    "PowerToys#855",
+    "PowerToys#48211",
+    "PowerToys#9080",
+    "PowerToys#71",
+    "PowerToys#48246",
+    "PowerToys#6538",
+    "PowerToys#48014",
+    "PowerToys#46937"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8272,
+  "stop_reason": "end_turn",
+  "session_id": "627db5c8-99c7-4f26-b5be-b6a1ad8cd8f3",
+  "total_cost_usd": 0.0351617,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 6730,
+   "cache_read_input_tokens": 7597,
+   "output_tokens": 747,
+   "output_tokens_details": {
+    "thinking_tokens": 59
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6730,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 305,
+     "cache_read_input_tokens": 4614,
+     "cache_creation_input_tokens": 3149,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3149
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 747,
+    "cacheReadInputTokens": 7597,
+    "cacheCreationInputTokens": 6730,
+    "webSearchRequests": 0,
+    "costUSD": 0.0351617,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 59,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6730,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this same proposal. The archive has related tickets, but each covers only one piece of it. #46275 reports the Command Palette dock slightly overlapping app windows, and it was closed as a duplicate of #46849. #48934 is about network send/receive in the dock performance monitor. #47437 asks for battery information on the dock. #49010 asks for drill-down detail when you click the monitor widgets. Please file this as a new feature request. It would help to split it into separate requests: (1) combine the CPU, memory, network and GPU widgets into one monitor button with a flyout, (2) show a charging indicator on the battery widget, and (3) fix the dock overlap. For the overlap bug, add your PowerToys version and dock position to #46275 or #46849.\"}",
+  "ttft_ms": 2191,
+  "type": "result",
+  "duration_ms": 11913,
+  "uuid": "dbeb262f-d64a-4ffa-a2d2-601459277998",
+  "ttft_stream_ms": 1269,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 1269,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 747,
+    "cacheReadInputTokens": 7597,
+    "cacheCreationInputTokens": 6730,
+    "webSearchRequests": 0,
+    "costUSD": 0.0351617,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 59,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6730,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.412837462994503,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-w9ajs5lv/work"
+  }
+ },
+ "wall_seconds": 13.414320005016634,
+ "qid": "PowerToys#50224",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this same proposal. The archive has related tickets, but each covers only one piece of it. #46275 reports the Command Palette dock slightly overlapping app windows, and it was closed as a duplicate of #46849. #48934 is about network send/receive in the dock performance monitor. #47437 asks for battery information on the dock. #49010 asks for drill-down detail when you click the monitor widgets. Please file this as a new feature request. It would help to split it into separate requests: (1) combine the CPU, memory, network and GPU widgets into one monitor button with a flyout, (2) show a charging indicator on the battery widget, and (3) fix the dock overlap. For the overlap bug, add your PowerToys version and dock position to #46275 or #46849."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,298 @@
+{
+ "shown": [
+  "PowerToys#1016",
+  "PowerToys#1060",
+  "PowerToys#1325",
+  "PowerToys#2033",
+  "PowerToys#2239",
+  "PowerToys#2257",
+  "PowerToys#2287",
+  "PowerToys#2367",
+  "PowerToys#2396",
+  "PowerToys#2497",
+  "PowerToys#2499",
+  "PowerToys#2531",
+  "PowerToys#2698",
+  "PowerToys#2970",
+  "PowerToys#3317",
+  "PowerToys#38295",
+  "PowerToys#38346",
+  "PowerToys#39166",
+  "PowerToys#39299",
+  "PowerToys#39441",
+  "PowerToys#39538",
+  "PowerToys#39883",
+  "PowerToys#41745",
+  "PowerToys#43408",
+  "PowerToys#47496",
+  "PowerToys#47997",
+  "PowerToys#5038",
+  "PowerToys#5858",
+  "PowerToys#6635",
+  "PowerToys#6916",
+  "PowerToys#8403",
+  "PowerToys#8664",
+  "PowerToys#9096",
+  "PowerToys#953"
+ ],
+ "retrieval_seconds": 3.808071982988622,
+ "tool_calls": [
+  {
+   "t": 1794882540.0223253,
+   "tool": "search",
+   "args": {
+    "query": "Command Palette app that self-elevates does not show window when launched, UAC shown",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.7957379349973053,
+   "returned": [
+    "PowerToys#39166",
+    "PowerToys#2033",
+    "PowerToys#38346",
+    "PowerToys#2497",
+    "PowerToys#2239",
+    "PowerToys#2367",
+    "PowerToys#5038",
+    "PowerToys#41745",
+    "PowerToys#1016",
+    "PowerToys#2698",
+    "PowerToys#5858",
+    "PowerToys#2499",
+    "PowerToys#953",
+    "PowerToys#8403",
+    "PowerToys#43408",
+    "PowerToys#2257",
+    "PowerToys#47496",
+    "PowerToys#2396",
+    "PowerToys#38295",
+    "PowerToys#2970"
+   ]
+  },
+  {
+   "t": 1794882540.049992,
+   "tool": "search",
+   "args": {
+    "query": "CmdPal launch as administrator app doesn't open, works from Start Menu",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012167051987489685,
+   "returned": [
+    "PowerToys#39166",
+    "PowerToys#2497",
+    "PowerToys#39441",
+    "PowerToys#2287",
+    "PowerToys#2499",
+    "PowerToys#2033",
+    "PowerToys#47997",
+    "PowerToys#9096",
+    "PowerToys#39883",
+    "PowerToys#5038",
+    "PowerToys#1060",
+    "PowerToys#6916",
+    "PowerToys#2396",
+    "PowerToys#39538",
+    "PowerToys#3317",
+    "PowerToys#2531",
+    "PowerToys#8664",
+    "PowerToys#1325",
+    "PowerToys#6635",
+    "PowerToys#39299"
+   ]
+  },
+  {
+   "t": 1794882541.4370458,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43408"
+   },
+   "seconds": 0.00016699600382708013,
+   "returned": [
+    "PowerToys#43408"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7190,
+  "stop_reason": "end_turn",
+  "session_id": "5700eb07-41ab-492c-b50d-75651a5afc2a",
+  "total_cost_usd": 0.029929300000000002,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 5720,
+   "cache_read_input_tokens": 7373,
+   "output_tokens": 630,
+   "output_tokens_details": {
+    "thinking_tokens": 26
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5720,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 368,
+     "cache_read_input_tokens": 4495,
+     "cache_creation_input_tokens": 2258,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2258
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 630,
+    "cacheReadInputTokens": 7373,
+    "cacheCreationInputTokens": 5720,
+    "webSearchRequests": 0,
+    "costUSD": 0.029929300000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 26,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5720,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 4,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#43408\"], \"answer\": \"This looks like a known problem, reported in PowerToys#43408 with HWiNFO. You get a UAC prompt, but the app never starts after you approve it. A PowerToys developer traced it to Command Palette being unelevated. Some apps can't be elevated from an unelevated WinUI3 process, and the launch fails with a Win32Exception after the first UAC dialog. Launching the same shortcut from Start Menu or Windows Search works. The ticket shows no fix yet. The developers were discussing a workaround that uses an intermediary, such as sudo bundled with CmdPal or PowerShell, to do the elevation. Until a fix ships, launch these apps (LenovoLegionToolkit, HWiNFO64) from Start Menu or Windows Search. If your results list the app more than once, another entry may work, because in that ticket one HWiNFO entry launched and the other didn't. Add your versions and the apps you tested to #43408.\"}",
+  "ttft_ms": 2212,
+  "type": "result",
+  "duration_ms": 11091,
+  "uuid": "6801d415-1e79-4981-ac31-230a0bec29ce",
+  "ttft_stream_ms": 1141,
+  "time_to_request_ms": 58,
+  "first_content_frame_ms": 1141,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 630,
+    "cacheReadInputTokens": 7373,
+    "cacheCreationInputTokens": 5720,
+    "webSearchRequests": 0,
+    "costUSD": 0.029929300000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 26,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5720,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.52673349599354,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ec66z27i/work"
+  }
+ },
+ "wall_seconds": 12.529081265005516,
+ "qid": "PowerToys#50523",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#43408"
+  ],
+  "answer": "This looks like a known problem, reported in PowerToys#43408 with HWiNFO. You get a UAC prompt, but the app never starts after you approve it. A PowerToys developer traced it to Command Palette being unelevated. Some apps can't be elevated from an unelevated WinUI3 process, and the launch fails with a Win32Exception after the first UAC dialog. Launching the same shortcut from Start Menu or Windows Search works. The ticket shows no fix yet. The developers were discussing a workaround that uses an intermediary, such as sudo bundled with CmdPal or PowerShell, to do the elevation. Until a fix ships, launch these apps (LenovoLegionToolkit, HWiNFO64) from Start Menu or Windows Search. If your results list the app more than once, another entry may work, because in that ticket one HWiNFO entry launched and the other didn't. Add your versions and the apps you tested to #43408."
+ },
+ "hit_turn_cap": false
+}

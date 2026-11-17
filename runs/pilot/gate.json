@@ -1,0 +1,34 @@
+{
+ "A": {
+  "n": 30,
+  "parsed": 1.0,
+  "turn_cap": 0.0,
+  "usd": 0.81
+ },
+ "B": {
+  "n": 30,
+  "parsed": 1.0,
+  "turn_cap": 0.0,
+  "usd": 1.96
+ },
+ "C": {
+  "n": 30,
+  "parsed": 1.0,
+  "turn_cap": 0.0,
+  "usd": 1.51
+ },
+ "D": {
+  "n": 30,
+  "parsed": 1.0,
+  "turn_cap": 0.0,
+  "usd": 1.59
+ },
+ "F": {
+  "n": 30,
+  "parsed": 1.0,
+  "turn_cap": 0.0,
+  "usd": 0.98
+ },
+ "total_usd": 6.84,
+ "test_may_start": true
+}

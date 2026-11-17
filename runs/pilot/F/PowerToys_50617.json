@@ -1,0 +1,194 @@
+{
+ "shown": [
+  "PowerToys#46450",
+  "PowerToys#26326",
+  "PowerToys#35490",
+  "PowerToys#40579",
+  "PowerToys#46504"
+ ],
+ "retrieval_seconds": 0.6873375260038301,
+ "retrieval_scores": [
+  0.032018442622950824,
+  0.028298204527712725,
+  0.027222222222222224,
+  0.026881720430107527,
+  0.026881720430107527
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3872,
+  "stop_reason": "end_turn",
+  "session_id": "494d8d7b-2b52-4d4b-875d-adf96b4c19a8",
+  "total_cost_usd": 0.027238,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5906,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 361,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5906,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 361,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5906,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5906
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 361,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5906,
+    "webSearchRequests": 0,
+    "costUSD": 0.027238,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5906,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#26326\", \"PowerToys#40579\"], \"answer\": \"This has been reported before. Task Manager, install (UAC) dialogs and passkey/credential prompts are elevated system windows, and Mouse Without Borders can't inject input into them unless it has higher permissions. In PowerToys#26326 a maintainer suggested running PowerToys as administrator and installing the Mouse Without Borders service so it can interact with elevated apps. The reporter confirmed that running PowerToys as admin on BOTH computers fixed it. Your diagnostics show PowerToys running non-elevated, so try this: run PowerToys as administrator on both machines, and enable the 'Use Service' option (or install the MWB service) in the Mouse Without Borders settings on both. Until then, the workaround is to switch the keyboard and mouse to the other computer manually, or use the other computer's own input, while the elevated window is open. PowerToys#40579 describes the same Task Manager symptom, but I saw no resolution there beyond closing Task Manager.\"}",
+  "ttft_ms": 4050,
+  "type": "result",
+  "duration_ms": 4071,
+  "uuid": "12ffba16-8c01-45a1-8ab3-05f2674b3aaf",
+  "ttft_stream_ms": 1571,
+  "time_to_request_ms": 196,
+  "first_content_frame_ms": 1571,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 361,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5906,
+    "webSearchRequests": 0,
+    "costUSD": 0.027238,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5906,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.9667426139931194,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-mk6nhf3q/work"
+  }
+ },
+ "wall_seconds": 5.656181808997644,
+ "qid": "PowerToys#50617",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#26326",
+   "PowerToys#40579"
+  ],
+  "answer": "This has been reported before. Task Manager, install (UAC) dialogs and passkey/credential prompts are elevated system windows, and Mouse Without Borders can't inject input into them unless it has higher permissions. In PowerToys#26326 a maintainer suggested running PowerToys as administrator and installing the Mouse Without Borders service so it can interact with elevated apps. The reporter confirmed that running PowerToys as admin on BOTH computers fixed it. Your diagnostics show PowerToys running non-elevated, so try this: run PowerToys as administrator on both machines, and enable the 'Use Service' option (or install the MWB service) in the Mouse Without Borders settings on both. Until then, the workaround is to switch the keyboard and mouse to the other computer manually, or use the other computer's own input, while the elevated window is open. PowerToys#40579 describes the same Task Manager symptom, but I saw no resolution there beyond closing Task Manager."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#40443",
+  "PowerToys#24731",
+  "PowerToys#33337",
+  "PowerToys#39249",
+  "PowerToys#25646"
+ ],
+ "retrieval_seconds": 0.01682205600081943,
+ "retrieval_scores": [
+  0.7978107929229736,
+  0.718629777431488,
+  0.7116435766220093,
+  0.7100473046302795,
+  0.70413738489151
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2653,
+  "stop_reason": "end_turn",
+  "session_id": "afffc0cb-9914-4b7a-8433-c779ad775c9e",
+  "total_cost_usd": 0.020276,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4193,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 350,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4193,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 350,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4193,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4193
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 350,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4193,
+    "webSearchRequests": 0,
+    "costUSD": 0.020276,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4193,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#33337\", \"PowerToys#39249\", \"PowerToys#40443\"], \"answer\": \"This feature request has been filed before. Tickets #33337, #39249 and #40443 all ask for PowerToys to emulate horizontal scrolling by holding a modifier key (Shift, Ctrl or a user-chosen key) while using the normal vertical mouse wheel. #40443 was closed as a duplicate of #33337, and #39249 was closed as a duplicate of #1153, which was not shown to me and is the original request. No implementation has been announced in these tickets. Please add a thumbs-up and any extra use cases to the original request instead of keeping this ticket open. In the meantime, many apps already support Shift+scroll for horizontal scrolling, and Excel supports Ctrl+Shift+scroll. Word does not respond to Shift+scroll. Per #24731, that is app behavior rather than a PowerToys problem, and a mouse with a tilt or thumb wheel does work in Word.\"}",
+  "ttft_ms": 2803,
+  "type": "result",
+  "duration_ms": 2820,
+  "uuid": "a28407d9-34bc-494a-9df0-bc2a8f1eb1d0",
+  "ttft_stream_ms": 620,
+  "time_to_request_ms": 168,
+  "first_content_frame_ms": 620,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 350,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4193,
+    "webSearchRequests": 0,
+    "costUSD": 0.020276,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4193,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.658440341008827,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ie6dnt1x/work"
+  }
+ },
+ "wall_seconds": 3.6770902579883114,
+ "qid": "PowerToys#49857",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#33337",
+   "PowerToys#39249",
+   "PowerToys#40443"
+  ],
+  "answer": "This feature request has been filed before. Tickets #33337, #39249 and #40443 all ask for PowerToys to emulate horizontal scrolling by holding a modifier key (Shift, Ctrl or a user-chosen key) while using the normal vertical mouse wheel. #40443 was closed as a duplicate of #33337, and #39249 was closed as a duplicate of #1153, which was not shown to me and is the original request. No implementation has been announced in these tickets. Please add a thumbs-up and any extra use cases to the original request instead of keeping this ticket open. In the meantime, many apps already support Shift+scroll for horizontal scrolling, and Excel supports Ctrl+Shift+scroll. Word does not respond to Shift+scroll. Per #24731, that is app behavior rather than a PowerToys problem, and a mouse with a tilt or thumb wheel does work in Word."
+ },
+ "hit_turn_cap": false
+}

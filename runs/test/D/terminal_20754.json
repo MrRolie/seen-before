@@ -1,0 +1,346 @@
+{
+ "shown": [
+  "PowerToys#22371",
+  "PowerToys#23231",
+  "PowerToys#25347",
+  "PowerToys#25739",
+  "PowerToys#29120",
+  "PowerToys#34721",
+  "PowerToys#37325",
+  "PowerToys#39169",
+  "PowerToys#48460",
+  "WSL#12642",
+  "WSL#14384",
+  "terminal#1320",
+  "terminal#1503",
+  "terminal#1703",
+  "terminal#18405",
+  "terminal#19337",
+  "terminal#19477",
+  "terminal#2334",
+  "terminal#3482",
+  "terminal#3546",
+  "terminal#3553",
+  "terminal#3642",
+  "terminal#4345",
+  "terminal#4828",
+  "terminal#529",
+  "terminal#5470",
+  "terminal#5816",
+  "terminal#5894",
+  "terminal#6445",
+  "terminal#6488",
+  "terminal#674",
+  "terminal#7153",
+  "terminal#8970",
+  "terminal#900",
+  "terminal#9708"
+ ],
+ "retrieval_seconds": 3.9473819849372376,
+ "tool_calls": [
+  {
+   "t": 1794883631.415397,
+   "tool": "search",
+   "args": {
+    "pattern": "keycap",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.03642777298227884,
+   "returned": [
+    "terminal#9708"
+   ]
+  },
+  {
+   "t": 1794883635.58917,
+   "tool": "similar",
+   "args": {
+    "query": "keycap emoji 1️⃣ number in box rendered misaligned, box edge goes through number",
+    "repo": "terminal"
+   },
+   "seconds": 3.7697603089909535,
+   "returned": [
+    "terminal#3553",
+    "terminal#8970",
+    "terminal#4828",
+    "terminal#3642",
+    "terminal#4345",
+    "terminal#5894",
+    "terminal#529",
+    "terminal#900",
+    "terminal#19477",
+    "terminal#3546",
+    "terminal#6488",
+    "terminal#1703",
+    "terminal#7153",
+    "terminal#674",
+    "terminal#5816",
+    "terminal#2334",
+    "terminal#19337",
+    "terminal#5470",
+    "terminal#3482",
+    "terminal#6445"
+   ]
+  },
+  {
+   "t": 1794883636.48619,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#9708"
+   },
+   "seconds": 0.0001436560123693198,
+   "returned": [
+    "terminal#9708"
+   ]
+  },
+  {
+   "t": 1794883636.6020179,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#8970"
+   },
+   "seconds": 0.00013535600737668574,
+   "returned": [
+    "terminal#8970"
+   ]
+  },
+  {
+   "t": 1794883637.490219,
+   "tool": "search",
+   "args": {
+    "pattern": "1️⃣",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06801827298477292,
+   "returned": [
+    "WSL#14384",
+    "PowerToys#39169",
+    "PowerToys#37325",
+    "PowerToys#22371",
+    "terminal#18405",
+    "WSL#12642",
+    "terminal#1503",
+    "terminal#1320"
+   ]
+  },
+  {
+   "t": 1794883638.5747664,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18405"
+   },
+   "seconds": 0.00011994698434136808,
+   "returned": [
+    "terminal#18405"
+   ]
+  },
+  {
+   "t": 1794883639.3951166,
+   "tool": "search",
+   "args": {
+    "pattern": "keycap",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07277667097514495,
+   "returned": [
+    "terminal#9708",
+    "PowerToys#48460",
+    "PowerToys#34721",
+    "PowerToys#29120",
+    "PowerToys#25739",
+    "PowerToys#25347",
+    "PowerToys#23231"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9584,
+  "stop_reason": "end_turn",
+  "session_id": "b3d925c1-4a1a-4774-813d-738ddc57c427",
+  "total_cost_usd": 0.0633742,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 12299,
+   "cache_read_input_tokens": 39942,
+   "output_tokens": 1016,
+   "output_tokens_details": {
+    "thinking_tokens": 228
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12299,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 508,
+     "cache_read_input_tokens": 12350,
+     "cache_creation_input_tokens": 1362,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1362
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1016,
+    "cacheReadInputTokens": 39942,
+    "cacheCreationInputTokens": 12299,
+    "webSearchRequests": 0,
+    "costUSD": 0.0633742,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 228,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12299,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've finished searching the archive and found one matching ticket, so I'm sending the answer now.\n\n{\"seen_before\": true, \"matches\": [\"terminal#9708\"], \"answer\": \"This has been reported before. Keycap emoji such as 1️⃣ are several codepoints joined together: the digit, U+FE0F and U+20E3. Windows Terminal doesn't handle that sequence well, so the digit and the box get drawn misaligned. The unrelated 🔟 has its own single codepoint, which is why it renders fine. In terminal#9708 a maintainer ([user]) said the fix is to add custom keycap detection to the font fallback (MapCharacters) logic. The ticket doesn't record a fix or a configuration workaround. Please add your version (1.24) and screenshots to that ticket, and follow it for updates. Until it's fixed, avoid keycap emoji in file and directory names, or use a different character such as 🔟 or plain digits.\"}",
+  "ttft_ms": 924,
+  "type": "result",
+  "duration_ms": 13573,
+  "uuid": "5857eee0-0dcb-4334-a3dd-26daea1efad4",
+  "ttft_stream_ms": 600,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 601,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1016,
+    "cacheReadInputTokens": 39942,
+    "cacheCreationInputTokens": 12299,
+    "webSearchRequests": 0,
+    "costUSD": 0.0633742,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 228,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12299,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.982372686004965,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-8pst5bf8/work"
+  }
+ },
+ "wall_seconds": 14.984580003976589,
+ "qid": "terminal#20754",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#9708"
+  ],
+  "answer": "This has been reported before. Keycap emoji such as 1️⃣ are several codepoints joined together: the digit, U+FE0F and U+20E3. Windows Terminal doesn't handle that sequence well, so the digit and the box get drawn misaligned. The unrelated 🔟 has its own single codepoint, which is why it renders fine. In terminal#9708 a maintainer ([user]) said the fix is to add custom keycap detection to the font fallback (MapCharacters) logic. The ticket doesn't record a fix or a configuration workaround. Please add your version (1.24) and screenshots to that ticket, and follow it for updates. Until it's fixed, avoid keycap emoji in file and directory names, or use a different character such as 🔟 or plain digits."
+ },
+ "hit_turn_cap": false
+}

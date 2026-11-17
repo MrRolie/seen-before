@@ -1,0 +1,385 @@
+{
+ "shown": [
+  "PowerToys#1006",
+  "PowerToys#10179",
+  "PowerToys#1245",
+  "PowerToys#1305",
+  "PowerToys#1383",
+  "PowerToys#13940",
+  "PowerToys#154",
+  "PowerToys#179",
+  "PowerToys#18577",
+  "PowerToys#22601",
+  "PowerToys#23193",
+  "PowerToys#24269",
+  "PowerToys#24283",
+  "PowerToys#2587",
+  "PowerToys#26409",
+  "PowerToys#26527",
+  "PowerToys#27590",
+  "PowerToys#28027",
+  "PowerToys#2867",
+  "PowerToys#28769",
+  "PowerToys#29340",
+  "PowerToys#299",
+  "PowerToys#3405",
+  "PowerToys#34860",
+  "PowerToys#35203",
+  "PowerToys#35250",
+  "PowerToys#3578",
+  "PowerToys#3600",
+  "PowerToys#36081",
+  "PowerToys#36520",
+  "PowerToys#36805",
+  "PowerToys#3716",
+  "PowerToys#37215",
+  "PowerToys#38297",
+  "PowerToys#38393",
+  "PowerToys#38530",
+  "PowerToys#38563",
+  "PowerToys#38826",
+  "PowerToys#38977",
+  "PowerToys#39114",
+  "PowerToys#39255",
+  "PowerToys#39432",
+  "PowerToys#39476",
+  "PowerToys#41624",
+  "PowerToys#41696",
+  "PowerToys#4240",
+  "PowerToys#43791",
+  "PowerToys#4480",
+  "PowerToys#45201",
+  "PowerToys#45923",
+  "PowerToys#46326",
+  "PowerToys#47445",
+  "PowerToys#48834",
+  "PowerToys#543",
+  "PowerToys#5524",
+  "PowerToys#5756",
+  "PowerToys#6306",
+  "PowerToys#6593",
+  "PowerToys#6726",
+  "PowerToys#7018",
+  "PowerToys#8785",
+  "PowerToys#9107"
+ ],
+ "retrieval_seconds": 3.8180614069860894,
+ "tool_calls": [
+  {
+   "t": 1794878515.7987897,
+   "tool": "search",
+   "args": {
+    "pattern": "peek",
+    "regex": false,
+    "also": [
+     "Shortcut Guide"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0748249749885872,
+   "returned": [
+    "PowerToys#29340",
+    "PowerToys#23193",
+    "PowerToys#28027",
+    "PowerToys#28769",
+    "PowerToys#1305",
+    "PowerToys#39432",
+    "PowerToys#8785",
+    "PowerToys#299",
+    "PowerToys#37215",
+    "PowerToys#26527",
+    "PowerToys#26409",
+    "PowerToys#9107",
+    "PowerToys#6726",
+    "PowerToys#45923",
+    "PowerToys#43791",
+    "PowerToys#41624",
+    "PowerToys#38977",
+    "PowerToys#36520",
+    "PowerToys#36081",
+    "PowerToys#34860"
+   ]
+  },
+  {
+   "t": 1794878519.6920168,
+   "tool": "similar",
+   "args": {
+    "query": "Shortcut Guide missing Windows shortcut Win+, peek at desktop",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.555908686015755,
+   "returned": [
+    "PowerToys#543",
+    "PowerToys#13940",
+    "PowerToys#6593",
+    "PowerToys#1245",
+    "PowerToys#3578",
+    "PowerToys#2867",
+    "PowerToys#3716",
+    "PowerToys#4480",
+    "PowerToys#2587",
+    "PowerToys#22601",
+    "PowerToys#7018",
+    "PowerToys#4240",
+    "PowerToys#1383",
+    "PowerToys#24269",
+    "PowerToys#1006",
+    "PowerToys#5524",
+    "PowerToys#5756",
+    "PowerToys#6306",
+    "PowerToys#10179",
+    "PowerToys#179"
+   ]
+  },
+  {
+   "t": 1794878521.5782623,
+   "tool": "search",
+   "args": {
+    "pattern": "comma",
+    "regex": false,
+    "also": [
+     "missing"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.12694139100494795,
+   "returned": [
+    "PowerToys#41696",
+    "PowerToys#38393",
+    "PowerToys#39476",
+    "PowerToys#46326",
+    "PowerToys#27590",
+    "PowerToys#38530",
+    "PowerToys#45201",
+    "PowerToys#48834",
+    "PowerToys#18577",
+    "PowerToys#38297",
+    "PowerToys#39255",
+    "PowerToys#3405",
+    "PowerToys#39114",
+    "PowerToys#24283",
+    "PowerToys#3600",
+    "PowerToys#38826",
+    "PowerToys#38563",
+    "PowerToys#36805",
+    "PowerToys#35250",
+    "PowerToys#47445"
+   ]
+  },
+  {
+   "t": 1794878521.6295083,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#179"
+   },
+   "seconds": 0.00014252698747441173,
+   "returned": [
+    "PowerToys#179"
+   ]
+  },
+  {
+   "t": 1794878523.2378588,
+   "tool": "search",
+   "args": {
+    "pattern": "peek at desktop",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06024382798932493,
+   "returned": [
+    "PowerToys#35203",
+    "PowerToys#9107",
+    "PowerToys#1305",
+    "PowerToys#179",
+    "PowerToys#154"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8511,
+  "stop_reason": "end_turn",
+  "session_id": "5e2b8209-07d0-46d6-8524-5c03b3a2b791",
+  "total_cost_usd": 0.0706909,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 14691,
+   "cache_read_input_tokens": 26509,
+   "output_tokens": 926,
+   "output_tokens_details": {
+    "thinking_tokens": 214
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 14691,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 353,
+     "cache_read_input_tokens": 15294,
+     "cache_creation_input_tokens": 810,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 810
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 926,
+    "cacheReadInputTokens": 26509,
+    "cacheCreationInputTokens": 14691,
+    "webSearchRequests": 0,
+    "costUSD": 0.0706909,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 214,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14691,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#179\", \"PowerToys#154\"], \"answer\": \"Win+, (peek at desktop) was already requested as a Shortcut Guide entry. It is listed in the Shortcut Guide shortcuts tracker, PowerToys#179, and in the shortcut sorting and configuration ticket, PowerToys#154. I found no ticket reporting only this shortcut, so these are the closest matches. Those tickets say the guide can't show every Windows shortcut because of limited screen space. They also say a user-configurable shortcut list is planned. Please add your +1 on #179 so Win+, is considered. Until it's added, Win+, still works: hold Win and press comma to peek at the desktop.\"}",
+  "ttft_ms": 1271,
+  "type": "result",
+  "duration_ms": 12162,
+  "uuid": "5e084eb0-b39e-4580-a1e1-a19209de0e7f",
+  "ttft_stream_ms": 594,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 595,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 926,
+    "cacheReadInputTokens": 26509,
+    "cacheCreationInputTokens": 14691,
+    "webSearchRequests": 0,
+    "costUSD": 0.0706909,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 214,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14691,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.688466650986811,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-iowi7ub5/work"
+  }
+ },
+ "wall_seconds": 13.690607155993348,
+ "qid": "PowerToys#49458",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#179",
+   "PowerToys#154"
+  ],
+  "answer": "Win+, (peek at desktop) was already requested as a Shortcut Guide entry. It is listed in the Shortcut Guide shortcuts tracker, PowerToys#179, and in the shortcut sorting and configuration ticket, PowerToys#154. I found no ticket reporting only this shortcut, so these are the closest matches. Those tickets say the guide can't show every Windows shortcut because of limited screen space. They also say a user-configurable shortcut list is planned. Please add your +1 on #179 so Win+, is considered. Until it's added, Win+, still works: hold Win and press comma to peek at the desktop."
+ },
+ "hit_turn_cap": false
+}

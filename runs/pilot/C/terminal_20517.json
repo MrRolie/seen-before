@@ -1,0 +1,402 @@
+{
+ "shown": [
+  "PowerToys#12381",
+  "PowerToys#13031",
+  "PowerToys#1322",
+  "PowerToys#15022",
+  "PowerToys#2199",
+  "PowerToys#2549",
+  "PowerToys#2733",
+  "PowerToys#38343",
+  "PowerToys#42287",
+  "PowerToys#4307",
+  "PowerToys#4618",
+  "PowerToys#9288",
+  "WSL#11",
+  "WSL#12",
+  "WSL#2157",
+  "WSL#3983",
+  "WSL#863",
+  "terminal#10729",
+  "terminal#10875",
+  "terminal#11285",
+  "terminal#11385",
+  "terminal#12607",
+  "terminal#13036",
+  "terminal#1329",
+  "terminal#13559",
+  "terminal#14131",
+  "terminal#14349",
+  "terminal#15209",
+  "terminal#1575",
+  "terminal#16672",
+  "terminal#16909",
+  "terminal#17076",
+  "terminal#17172",
+  "terminal#17197",
+  "terminal#17249",
+  "terminal#179",
+  "terminal#18803",
+  "terminal#18947",
+  "terminal#19091",
+  "terminal#1940",
+  "terminal#19735",
+  "terminal#215",
+  "terminal#2156",
+  "terminal#2159",
+  "terminal#2311",
+  "terminal#2503",
+  "terminal#2626",
+  "terminal#2753",
+  "terminal#2955",
+  "terminal#3827",
+  "terminal#3944",
+  "terminal#4820",
+  "terminal#4982",
+  "terminal#6421",
+  "terminal#6422",
+  "terminal#6444",
+  "terminal#7631",
+  "terminal#7786",
+  "terminal#7839",
+  "terminal#7994",
+  "terminal#809",
+  "terminal#863",
+  "terminal#9084",
+  "terminal#9256",
+  "terminal#9273",
+  "terminal#9321",
+  "terminal#9716"
+ ],
+ "retrieval_seconds": 6.928194838983472,
+ "tool_calls": [
+  {
+   "t": 1794876287.1951132,
+   "tool": "search",
+   "args": {
+    "query": "UI freezes for seconds when switching keyboard language with Ctrl+Shift",
+    "repo": "terminal"
+   },
+   "seconds": 6.847533309017308,
+   "returned": [
+    "terminal#6422",
+    "terminal#179",
+    "terminal#6444",
+    "terminal#16909",
+    "terminal#10729",
+    "terminal#809",
+    "terminal#1575",
+    "terminal#863",
+    "terminal#2156",
+    "terminal#17197",
+    "terminal#215",
+    "terminal#7839",
+    "terminal#3827",
+    "terminal#7786",
+    "terminal#2626",
+    "terminal#6421",
+    "terminal#10875",
+    "terminal#11285",
+    "terminal#9273",
+    "terminal#17249"
+   ]
+  },
+  {
+   "t": 1794876287.2451322,
+   "tool": "search",
+   "args": {
+    "query": "terminal hang when changing input language / keyboard layout, settings UI redraws",
+    "repo": "terminal"
+   },
+   "seconds": 0.027988382993498817,
+   "returned": [
+    "terminal#9273",
+    "terminal#11385",
+    "terminal#7994",
+    "terminal#15209",
+    "terminal#2159",
+    "terminal#13036",
+    "terminal#16672",
+    "terminal#14349",
+    "terminal#863",
+    "terminal#1329",
+    "terminal#14131",
+    "terminal#12607",
+    "terminal#4820",
+    "terminal#18803",
+    "terminal#13559",
+    "terminal#9084",
+    "terminal#17076",
+    "terminal#1940",
+    "terminal#2503",
+    "terminal#19091"
+   ]
+  },
+  {
+   "t": 1794876288.123769,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#10729"
+   },
+   "seconds": 0.0001910050050355494,
+   "returned": [
+    "terminal#10729"
+   ]
+  },
+  {
+   "t": 1794876288.5045915,
+   "tool": "search",
+   "args": {
+    "query": "freeze when switching input language Russian English, settings page collapses",
+    "repo": null
+   },
+   "seconds": 0.02168035999056883,
+   "returned": [
+    "WSL#863",
+    "terminal#7631",
+    "PowerToys#13031",
+    "terminal#3944",
+    "terminal#9273",
+    "PowerToys#9288",
+    "terminal#2311",
+    "terminal#2955",
+    "terminal#10729",
+    "WSL#12",
+    "PowerToys#1322",
+    "terminal#17197",
+    "WSL#3983",
+    "terminal#18947",
+    "WSL#11",
+    "PowerToys#12381",
+    "PowerToys#2199",
+    "terminal#4982",
+    "PowerToys#38343",
+    "PowerToys#4307"
+   ]
+  },
+  {
+   "t": 1794876290.0285344,
+   "tool": "search",
+   "args": {
+    "query": "changing keyboard layout causes Terminal to freeze and reload settings UI",
+    "repo": null
+   },
+   "seconds": 0.030627266998635605,
+   "returned": [
+    "terminal#9273",
+    "terminal#9321",
+    "terminal#19735",
+    "PowerToys#2733",
+    "terminal#2503",
+    "terminal#13559",
+    "terminal#4820",
+    "PowerToys#42287",
+    "terminal#17172",
+    "WSL#2157",
+    "terminal#15209",
+    "terminal#9716",
+    "PowerToys#15022",
+    "terminal#1329",
+    "terminal#2753",
+    "PowerToys#2199",
+    "terminal#2159",
+    "terminal#9256",
+    "PowerToys#4618",
+    "PowerToys#2549"
+   ]
+  },
+  {
+   "t": 1794876290.810637,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#9273"
+   },
+   "seconds": 0.00017451497842557728,
+   "returned": [
+    "terminal#9273"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7804,
+  "stop_reason": "end_turn",
+  "session_id": "ac6347bb-0dfb-45a0-b266-82cf64d3091b",
+  "total_cost_usd": 0.04701079999999999,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 9142,
+   "cache_read_input_tokens": 21428,
+   "output_tokens": 828,
+   "output_tokens_details": {
+    "thinking_tokens": 52
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9142,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 315,
+     "cache_read_input_tokens": 7824,
+     "cache_creation_input_tokens": 2351,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2351
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 828,
+    "cacheReadInputTokens": 21428,
+    "cacheCreationInputTokens": 9142,
+    "webSearchRequests": 0,
+    "costUSD": 0.04701079999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 52,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9142,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this problem. The nearest are terminal#10729, which covers reloading locale-specific data (keybinding and virtual-key mappings) when the input language changes, and terminal#9273, which is a settings-reload crash in the settings UI. Neither describes a 3–5 second freeze when you switch language with Ctrl+Shift, so I'm treating this as a new report. To help the team investigate, please include these details. First, say whether it happens in a plain PowerShell or cmd tab with no other apps running. Second, say whether it still happens with a custom keybinding set or with settings.json reset to defaults. Third, say whether it also happens on the latest Preview build. Fourth, say whether switching with Win+Space gives the same freeze. Fifth, list the keyboard layouts and any IME or third-party input tools you have installed. A short screen recording or a performance trace would also help.\"}",
+  "ttft_ms": 1114,
+  "type": "result",
+  "duration_ms": 14537,
+  "uuid": "88981e4c-6dfe-438c-9983-b53c65a98a4f",
+  "ttft_stream_ms": 665,
+  "time_to_request_ms": 119,
+  "first_content_frame_ms": 665,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 828,
+    "cacheReadInputTokens": 21428,
+    "cacheCreationInputTokens": 9142,
+    "webSearchRequests": 0,
+    "costUSD": 0.04701079999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 52,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9142,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 17.109546464984305,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-asb1pe5j/work"
+  }
+ },
+ "wall_seconds": 17.111940354981925,
+ "qid": "terminal#20517",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this problem. The nearest are terminal#10729, which covers reloading locale-specific data (keybinding and virtual-key mappings) when the input language changes, and terminal#9273, which is a settings-reload crash in the settings UI. Neither describes a 3–5 second freeze when you switch language with Ctrl+Shift, so I'm treating this as a new report. To help the team investigate, please include these details. First, say whether it happens in a plain PowerShell or cmd tab with no other apps running. Second, say whether it still happens with a custom keybinding set or with settings.json reset to defaults. Third, say whether it also happens on the latest Preview build. Fourth, say whether switching with Win+Space gives the same freeze. Fifth, list the keyboard layouts and any IME or third-party input tools you have installed. A short screen recording or a performance trace would also help."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "terminal#19333",
+  "terminal#18691",
+  "terminal#11903",
+  "terminal#9306",
+  "terminal#18713"
+ ],
+ "retrieval_seconds": 0.4564706809760537,
+ "retrieval_scores": [
+  0.026779422128259338,
+  0.025987006496751626,
+  0.02431476569407604,
+  0.022420975251163933,
+  0.01639344262295082
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2872,
+  "stop_reason": "end_turn",
+  "session_id": "93d7e9f4-1919-40b8-94e1-76d38a9fa0f7",
+  "total_cost_usd": 0.0422,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 9689,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 344,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9689,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 344,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 9689,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 9689
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 344,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 9689,
+    "webSearchRequests": 0,
+    "costUSD": 0.0422,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9689,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find a past ticket reporting this exact problem, a multi-second freeze of the whole Terminal window each time the input language is switched (Win+Space / Alt+Shift) with many tabs open. The retrieved tickets are about different problems. Some are general freezes: terminal#19333 (render freeze, fixed in Canary or by a GPU driver/Windows update), terminal#11903 and terminal#9306. Others are input-method issues: terminal#18691 (IME forced to Microsoft Pinyin after Alt+Tab) and terminal#18713 (freeze with the WeType IME installed). None of them describes a freeze triggered by switching input language that grows with tab count. Please file this as a new issue with the details you gave. A controlled bisection of freeze duration against tab count and a WPR/ETW trace taken during a language switch would help the team. It would also help to check whether the freeze occurs with only a few tabs open, and whether it reproduces on the Canary build.\"}",
+  "ttft_ms": 3047,
+  "type": "result",
+  "duration_ms": 3069,
+  "uuid": "6f769d85-52e5-4dd3-a047-8e767c0f881b",
+  "ttft_stream_ms": 727,
+  "time_to_request_ms": 194,
+  "first_content_frame_ms": 727,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 344,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 9689,
+    "webSearchRequests": 0,
+    "costUSD": 0.0422,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9689,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.980907182994997,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-u4u06fbm/work"
+  }
+ },
+ "wall_seconds": 4.439320075995056,
+ "qid": "terminal#20389",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find a past ticket reporting this exact problem, a multi-second freeze of the whole Terminal window each time the input language is switched (Win+Space / Alt+Shift) with many tabs open. The retrieved tickets are about different problems. Some are general freezes: terminal#19333 (render freeze, fixed in Canary or by a GPU driver/Windows update), terminal#11903 and terminal#9306. Others are input-method issues: terminal#18691 (IME forced to Microsoft Pinyin after Alt+Tab) and terminal#18713 (freeze with the WeType IME installed). None of them describes a freeze triggered by switching input language that grows with tab count. Please file this as a new issue with the details you gave. A controlled bisection of freeze duration against tab count and a WPR/ETW trace taken during a language switch would help the team. It would also help to check whether the freeze occurs with only a few tabs open, and whether it reproduces on the Canary build."
+ },
+ "hit_turn_cap": false
+}

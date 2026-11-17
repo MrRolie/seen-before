@@ -1,0 +1,348 @@
+{
+ "shown": [
+  "WSL#10379",
+  "WSL#10632",
+  "WSL#10855",
+  "WSL#11034",
+  "WSL#11312",
+  "WSL#11600",
+  "WSL#12011",
+  "WSL#13626",
+  "WSL#1866",
+  "WSL#1937",
+  "WSL#2082",
+  "WSL#4105",
+  "WSL#4150",
+  "WSL#4210",
+  "WSL#4277",
+  "WSL#4340",
+  "WSL#4353",
+  "WSL#4364",
+  "WSL#4619",
+  "WSL#4636",
+  "WSL#4851",
+  "WSL#4901",
+  "WSL#5068",
+  "WSL#5211",
+  "WSL#5298",
+  "WSL#9095",
+  "WSL#9508"
+ ],
+ "retrieval_seconds": 0.2045101559779141,
+ "tool_calls": [
+  {
+   "t": 1794878959.955601,
+   "tool": "search",
+   "args": {
+    "pattern": "127.0.0.1",
+    "regex": false,
+    "also": [
+     "::1"
+    ],
+    "repo": "WSL"
+   },
+   "seconds": 0.05080071999691427,
+   "returned": [
+    "WSL#4150",
+    "WSL#10855",
+    "WSL#13626",
+    "WSL#4851",
+    "WSL#10379",
+    "WSL#9508",
+    "WSL#9095",
+    "WSL#1866",
+    "WSL#5211",
+    "WSL#4210",
+    "WSL#1937",
+    "WSL#11312",
+    "WSL#5068",
+    "WSL#10632",
+    "WSL#2082",
+    "WSL#4636",
+    "WSL#4353",
+    "WSL#11600",
+    "WSL#4619",
+    "WSL#12011"
+   ]
+  },
+  {
+   "t": 1794878960.0050006,
+   "tool": "search",
+   "args": {
+    "pattern": "localhost forwarding IPv4 fails after wsl --shutdown",
+    "regex": false,
+    "also": null,
+    "repo": "WSL"
+   },
+   "seconds": 0.0322301339765545,
+   "returned": []
+  },
+  {
+   "t": 1794878961.597619,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#4851"
+   },
+   "seconds": 0.0002967510081361979,
+   "returned": [
+    "WSL#4851"
+   ]
+  },
+  {
+   "t": 1794878961.763534,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#9508"
+   },
+   "seconds": 0.00025769200874492526,
+   "returned": [
+    "WSL#9508"
+   ]
+  },
+  {
+   "t": 1794878965.1994488,
+   "tool": "search",
+   "args": {
+    "pattern": "127.0.0.1",
+    "regex": false,
+    "also": [
+     "wsl --shutdown",
+     "::1",
+     "NAT"
+    ],
+    "repo": "WSL"
+   },
+   "seconds": 0.09433816900127567,
+   "returned": [
+    "WSL#4150",
+    "WSL#10855",
+    "WSL#13626",
+    "WSL#4851",
+    "WSL#9508",
+    "WSL#9095",
+    "WSL#5211",
+    "WSL#4210",
+    "WSL#5068",
+    "WSL#10632",
+    "WSL#4636",
+    "WSL#4353",
+    "WSL#4619",
+    "WSL#4277",
+    "WSL#4105",
+    "WSL#4364",
+    "WSL#11034",
+    "WSL#4340",
+    "WSL#5298",
+    "WSL#4901"
+   ]
+  },
+  {
+   "t": 1794878965.2396023,
+   "tool": "search",
+   "args": {
+    "pattern": "localhost resolves to ::1 but 127.0.0.1 does not connect",
+    "regex": false,
+    "also": null,
+    "repo": "WSL"
+   },
+   "seconds": 0.025951088988222182,
+   "returned": []
+  },
+  {
+   "t": 1794878966.7980125,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#4210"
+   },
+   "seconds": 0.0006356009980663657,
+   "returned": [
+    "WSL#4210"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 14299,
+  "stop_reason": "end_turn",
+  "session_id": "156c368e-e80e-4d86-a908-42eab5f5d5c8",
+  "total_cost_usd": 0.10464169999999999,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 21667,
+   "cache_read_input_tokens": 45337,
+   "output_tokens": 1342,
+   "output_tokens_details": {
+    "thinking_tokens": 130
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 21667,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 584,
+     "cache_read_input_tokens": 19277,
+     "cache_creation_input_tokens": 3567,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3567
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1342,
+    "cacheReadInputTokens": 45337,
+    "cacheCreationInputTokens": 21667,
+    "webSearchRequests": 0,
+    "costUSD": 0.10464169999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 130,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 21667,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"WSL#4851\", \"WSL#9508\"], \"answer\": \"This looks like a known limitation of the WSL2 localhost relay. Your k3s API server listens on a dual-stack wildcard socket (`*:6443`). In the archived tickets, the relay binds only `::1` on the Windows side for that kind of listener. So `localhost` resolves to `::1` and connects, but `127.0.0.1` is refused. WSL#4851 describes this exactly, with a server on `::` reachable by `localhost` but not by `127.0.0.1`. WSL#9508 shows the same pattern, where only IPv6 `::1` is forwarded and `curl -4`/127.0.0.1 is refused. I found no ticket that ties this to `wsl --shutdown`, and I found no fix in the archive. Workarounds from those tickets:\\n\\n- Make the service listen on IPv4 explicitly. Use `0.0.0.0` or `127.0.0.1`, for example by setting the k3s bind address to `0.0.0.0`. With an IPv4 listener, 127.0.0.1 is forwarded.\\n- Point Windows clients such as Headlamp at `https://localhost:6443` or `https://[::1]:6443`. Change the server address in the kubeconfig that Windows uses. Hosts-file entries can use `::1` instead of `127.0.0.1`.\\n- Alternatively, run the process IPv4-only. For Java that is `-Djava.net.preferIPv4Stack=true`. The equivalent for your service would be an IPv4-only listen address.\\n\\nBecause the k3s certificate is issued for specific SANs, check that `localhost` or `::1` is covered if you change the address.\"}",
+  "ttft_ms": 2139,
+  "type": "result",
+  "duration_ms": 14584,
+  "uuid": "1e7e5400-8530-4ff6-a795-4e594e3ea8ac",
+  "ttft_stream_ms": 1143,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 1144,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1342,
+    "cacheReadInputTokens": 45337,
+    "cacheCreationInputTokens": 21667,
+    "webSearchRequests": 0,
+    "costUSD": 0.10464169999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 130,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 21667,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.918814219010528,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-jncix90p/work"
+  }
+ },
+ "wall_seconds": 15.98801567699411,
+ "qid": "WSL#41196",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "WSL#4851",
+   "WSL#9508"
+  ],
+  "answer": "This looks like a known limitation of the WSL2 localhost relay. Your k3s API server listens on a dual-stack wildcard socket (`*:6443`). In the archived tickets, the relay binds only `::1` on the Windows side for that kind of listener. So `localhost` resolves to `::1` and connects, but `127.0.0.1` is refused. WSL#4851 describes this exactly, with a server on `::` reachable by `localhost` but not by `127.0.0.1`. WSL#9508 shows the same pattern, where only IPv6 `::1` is forwarded and `curl -4`/127.0.0.1 is refused. I found no ticket that ties this to `wsl --shutdown`, and I found no fix in the archive. Workarounds from those tickets:\n\n- Make the service listen on IPv4 explicitly. Use `0.0.0.0` or `127.0.0.1`, for example by setting the k3s bind address to `0.0.0.0`. With an IPv4 listener, 127.0.0.1 is forwarded.\n- Point Windows clients such as Headlamp at `https://localhost:6443` or `https://[::1]:6443`. Change the server address in the kubeconfig that Windows uses. Hosts-file entries can use `::1` instead of `127.0.0.1`.\n- Alternatively, run the process IPv4-only. For Java that is `-Djava.net.preferIPv4Stack=true`. The equivalent for your service would be an IPv4-only listen address.\n\nBecause the k3s certificate is issued for specific SANs, check that `localhost` or `::1` is covered if you change the address."
+ },
+ "hit_turn_cap": false
+}

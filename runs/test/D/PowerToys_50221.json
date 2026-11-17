@@ -1,0 +1,353 @@
+{
+ "shown": [
+  "PowerToys#10324",
+  "PowerToys#11348",
+  "PowerToys#118",
+  "PowerToys#11984",
+  "PowerToys#12378",
+  "PowerToys#15363",
+  "PowerToys#1878",
+  "PowerToys#19337",
+  "PowerToys#1995",
+  "PowerToys#21243",
+  "PowerToys#23997",
+  "PowerToys#25966",
+  "PowerToys#2886",
+  "PowerToys#29650",
+  "PowerToys#31670",
+  "PowerToys#3170",
+  "PowerToys#31841",
+  "PowerToys#32650",
+  "PowerToys#37739",
+  "PowerToys#411",
+  "PowerToys#41377",
+  "PowerToys#4152",
+  "PowerToys#42100",
+  "PowerToys#42197",
+  "PowerToys#42268",
+  "PowerToys#43081",
+  "PowerToys#43696",
+  "PowerToys#43774",
+  "PowerToys#4473",
+  "PowerToys#44805",
+  "PowerToys#44998",
+  "PowerToys#45733",
+  "PowerToys#46994",
+  "PowerToys#47250",
+  "PowerToys#7907",
+  "PowerToys#850",
+  "PowerToys#9092",
+  "PowerToys#9169",
+  "PowerToys#9707",
+  "PowerToys#9720"
+ ],
+ "retrieval_seconds": 3.494927487045061,
+ "tool_calls": [
+  {
+   "t": 1794881747.0764039,
+   "tool": "search",
+   "args": {
+    "pattern": "0x81f40001",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06885631999466568,
+   "returned": [
+    "PowerToys#42197",
+    "PowerToys#42100",
+    "PowerToys#32650",
+    "PowerToys#31670",
+    "PowerToys#29650",
+    "PowerToys#47250",
+    "PowerToys#46994",
+    "PowerToys#37739",
+    "PowerToys#31841",
+    "PowerToys#25966",
+    "PowerToys#21243",
+    "PowerToys#19337",
+    "PowerToys#15363",
+    "PowerToys#44998",
+    "PowerToys#44805",
+    "PowerToys#43774",
+    "PowerToys#43696",
+    "PowerToys#43081",
+    "PowerToys#42268",
+    "PowerToys#41377"
+   ]
+  },
+  {
+   "t": 1794881750.8443854,
+   "tool": "similar",
+   "args": {
+    "query": "installer says PowerToys is already installed on this system for all users but it is not installed",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.425398475024849,
+   "returned": [
+    "PowerToys#9092",
+    "PowerToys#411",
+    "PowerToys#11348",
+    "PowerToys#4473",
+    "PowerToys#850",
+    "PowerToys#7907",
+    "PowerToys#9720",
+    "PowerToys#23997",
+    "PowerToys#4152",
+    "PowerToys#9707",
+    "PowerToys#11984",
+    "PowerToys#10324",
+    "PowerToys#3170",
+    "PowerToys#1995",
+    "PowerToys#12378",
+    "PowerToys#118",
+    "PowerToys#9169",
+    "PowerToys#1878",
+    "PowerToys#45733",
+    "PowerToys#2886"
+   ]
+  },
+  {
+   "t": 1794881751.8386455,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44998"
+   },
+   "seconds": 0.00013691600179299712,
+   "returned": [
+    "PowerToys#44998"
+   ]
+  },
+  {
+   "t": 1794881751.98023,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42100"
+   },
+   "seconds": 0.0001202870043925941,
+   "returned": [
+    "PowerToys#42100"
+   ]
+  },
+  {
+   "t": 1794881753.32242,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#25966"
+   },
+   "seconds": 0.00011514700599946082,
+   "returned": [
+    "PowerToys#25966"
+   ]
+  },
+  {
+   "t": 1794881753.6086361,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#12378"
+   },
+   "seconds": 0.00011579701094888151,
+   "returned": [
+    "PowerToys#12378"
+   ]
+  },
+  {
+   "t": 1794881753.7910457,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47250"
+   },
+   "seconds": 0.00018454500241205096,
+   "returned": [
+    "PowerToys#47250"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9867,
+  "stop_reason": "end_turn",
+  "session_id": "6b96c70a-7a17-41b6-aa83-9a933bca7cd3",
+  "total_cost_usd": 0.11273739999999999,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 24542,
+   "cache_read_input_tokens": 27834,
+   "output_tokens": 1177,
+   "output_tokens_details": {
+    "thinking_tokens": 135
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 24542,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 666,
+     "cache_read_input_tokens": 16528,
+     "cache_creation_input_tokens": 9427,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 9427
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1177,
+    "cacheReadInputTokens": 27834,
+    "cacheCreationInputTokens": 24542,
+    "webSearchRequests": 0,
+    "costUSD": 0.11273739999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 135,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 24542,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#44998\", \"PowerToys#42100\", \"PowerToys#47250\"], \"answer\": \"This has been reported before. The installer detects a leftover PowerToys registration, either per-machine (\\\"all users\\\") or per-user, even though the app is gone, and aborts with Error 0x81f40001. In the archive it is not a problem with your PC alone. The archive has no confirmed fix for a leftover registration with no visible install. It does have a diagnosis and a partial workaround. (1) Check Settings > Apps > Installed apps under every user account on the PC, and uninstall any PowerToys entry you find, whether per-user or machine-wide. In #47250 a per-user install and a per-machine install existed side by side and blocked each other. Uninstalling the per-user copy first was the suggested workaround. (2) Open the bootstrapper log at %TEMP%\\\\powertoys-bootstrapper-msi-*.log. Look at the lines 'DetectedPowerToysVersion' (machine-wide) and 'DetectedPowerToysUserVersion' (per-user). They show which stale install is being detected and what version it is. (3) Run the PowerToys CleanUp_tool.ps1 script from the repo (tools/CleanUp_tool_powershell_script). Be aware that in #44998 one user ran it, and also removed registry entries with Revo, and still hit the same error. If that happens to you, attach the full log to that ticket or to this one so the team can see which registration is left behind. The Bug Report ZIP is generated from PowerToys itself (Settings > General > 'Bug report tool'). It can't be generated here because PowerToys isn't installed, so attach the installer log instead.\"}",
+  "ttft_ms": 850,
+  "type": "result",
+  "duration_ms": 13344,
+  "uuid": "e65d4499-ba81-4cf9-8404-795e79264e23",
+  "ttft_stream_ms": 561,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 561,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1177,
+    "cacheReadInputTokens": 27834,
+    "cacheCreationInputTokens": 24542,
+    "webSearchRequests": 0,
+    "costUSD": 0.11273739999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 135,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 24542,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.660916514985729,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ffexcz34/work"
+  }
+ },
+ "wall_seconds": 14.662753217999125,
+ "qid": "PowerToys#50221",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#44998",
+   "PowerToys#42100",
+   "PowerToys#47250"
+  ],
+  "answer": "This has been reported before. The installer detects a leftover PowerToys registration, either per-machine (\"all users\") or per-user, even though the app is gone, and aborts with Error 0x81f40001. In the archive it is not a problem with your PC alone. The archive has no confirmed fix for a leftover registration with no visible install. It does have a diagnosis and a partial workaround. (1) Check Settings > Apps > Installed apps under every user account on the PC, and uninstall any PowerToys entry you find, whether per-user or machine-wide. In #47250 a per-user install and a per-machine install existed side by side and blocked each other. Uninstalling the per-user copy first was the suggested workaround. (2) Open the bootstrapper log at %TEMP%\\powertoys-bootstrapper-msi-*.log. Look at the lines 'DetectedPowerToysVersion' (machine-wide) and 'DetectedPowerToysUserVersion' (per-user). They show which stale install is being detected and what version it is. (3) Run the PowerToys CleanUp_tool.ps1 script from the repo (tools/CleanUp_tool_powershell_script). Be aware that in #44998 one user ran it, and also removed registry entries with Revo, and still hit the same error. If that happens to you, attach the full log to that ticket or to this one so the team can see which registration is left behind. The Bug Report ZIP is generated from PowerToys itself (Settings > General > 'Bug report tool'). It can't be generated here because PowerToys isn't installed, so attach the installer log instead."
+ },
+ "hit_turn_cap": false
+}

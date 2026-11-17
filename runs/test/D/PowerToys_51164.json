@@ -1,0 +1,475 @@
+{
+ "shown": [
+  "PowerToys#1022",
+  "PowerToys#1325",
+  "PowerToys#17294",
+  "PowerToys#18519",
+  "PowerToys#2175",
+  "PowerToys#2197",
+  "PowerToys#2199",
+  "PowerToys#2239",
+  "PowerToys#2396",
+  "PowerToys#2499",
+  "PowerToys#2557",
+  "PowerToys#2855",
+  "PowerToys#2884",
+  "PowerToys#29701",
+  "PowerToys#30545",
+  "PowerToys#3122",
+  "PowerToys#3392",
+  "PowerToys#38137",
+  "PowerToys#38297",
+  "PowerToys#38333",
+  "PowerToys#38346",
+  "PowerToys#38528",
+  "PowerToys#39092",
+  "PowerToys#39166",
+  "PowerToys#40195",
+  "PowerToys#41736",
+  "PowerToys#41984",
+  "PowerToys#44473",
+  "PowerToys#45879",
+  "PowerToys#4608",
+  "PowerToys#46547",
+  "PowerToys#4673",
+  "PowerToys#46949",
+  "PowerToys#46963",
+  "PowerToys#47145",
+  "PowerToys#47491",
+  "PowerToys#47617",
+  "PowerToys#48433",
+  "PowerToys#48598",
+  "PowerToys#5038",
+  "PowerToys#5406",
+  "PowerToys#5966",
+  "PowerToys#6114",
+  "PowerToys#6635",
+  "PowerToys#8274",
+  "PowerToys#91",
+  "terminal#11463",
+  "terminal#16578",
+  "terminal#16599",
+  "terminal#169",
+  "terminal#194",
+  "terminal#5093",
+  "terminal#5400",
+  "terminal#5816",
+  "terminal#6645",
+  "terminal#6646",
+  "terminal#6647",
+  "terminal#6892",
+  "terminal#6973",
+  "terminal#7126",
+  "terminal#7254",
+  "terminal#7284",
+  "terminal#8853",
+  "terminal#8884"
+ ],
+ "retrieval_seconds": 4.502149543957785,
+ "tool_calls": [
+  {
+   "t": 1794883988.2898972,
+   "tool": "search",
+   "args": {
+    "pattern": "Command Palette",
+    "regex": false,
+    "also": [
+     "pipe"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1347677139856387,
+   "returned": [
+    "PowerToys#47145",
+    "PowerToys#38528",
+    "PowerToys#45879",
+    "PowerToys#48433",
+    "PowerToys#48598",
+    "PowerToys#46547",
+    "PowerToys#41984",
+    "PowerToys#40195"
+   ]
+  },
+  {
+   "t": 1794883992.2007124,
+   "tool": "similar",
+   "args": {
+    "query": "Command Palette blocks typing \"|\" character unless app runs as administrator",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.891248233994702,
+   "returned": [
+    "PowerToys#2239",
+    "PowerToys#39166",
+    "PowerToys#38346",
+    "PowerToys#38333",
+    "PowerToys#2499",
+    "PowerToys#2557",
+    "PowerToys#2855",
+    "PowerToys#6114",
+    "PowerToys#3122",
+    "PowerToys#4673",
+    "PowerToys#41736",
+    "PowerToys#8274",
+    "PowerToys#91",
+    "PowerToys#4608",
+    "PowerToys#1325",
+    "PowerToys#5038",
+    "PowerToys#6635",
+    "PowerToys#1022",
+    "PowerToys#2396",
+    "PowerToys#30545"
+   ]
+  },
+  {
+   "t": 1794883994.525439,
+   "tool": "search",
+   "args": {
+    "pattern": "can't type",
+    "regex": false,
+    "also": [
+     "CmdPal"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.09839848001138307,
+   "returned": [
+    "PowerToys#44473"
+   ]
+  },
+  {
+   "t": 1794883994.5468004,
+   "tool": "similar",
+   "args": {
+    "query": "CmdPal enabled keyboard hook swallows pipe character, backslash key not typed in non-elevated apps",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.013565239001763985,
+   "returned": [
+    "PowerToys#38333",
+    "PowerToys#2199",
+    "PowerToys#41736",
+    "PowerToys#39166",
+    "PowerToys#38346",
+    "PowerToys#38297",
+    "PowerToys#5406",
+    "PowerToys#46963",
+    "PowerToys#2197",
+    "PowerToys#29701",
+    "PowerToys#2884",
+    "PowerToys#3392",
+    "PowerToys#17294",
+    "PowerToys#46949",
+    "PowerToys#5966",
+    "PowerToys#18519",
+    "PowerToys#38137",
+    "PowerToys#39092",
+    "PowerToys#2175",
+    "PowerToys#2239"
+   ]
+  },
+  {
+   "t": 1794883997.7481327,
+   "tool": "search",
+   "args": {
+    "pattern": "\"|\"",
+    "regex": false,
+    "also": [
+     "Command Palette",
+     "administrator"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.119834743993124,
+   "returned": []
+  },
+  {
+   "t": 1794883997.773102,
+   "tool": "similar",
+   "args": {
+    "query": "vertical bar character not typed when Command Palette enabled",
+    "repo": null
+   },
+   "seconds": 0.013140141003532335,
+   "returned": [
+    "terminal#6892",
+    "terminal#8853",
+    "terminal#194",
+    "terminal#7254",
+    "terminal#8884",
+    "PowerToys#2239",
+    "terminal#16599",
+    "terminal#16578",
+    "terminal#5093",
+    "terminal#6646",
+    "terminal#6647",
+    "terminal#6645",
+    "terminal#5816",
+    "terminal#7126",
+    "terminal#6973",
+    "terminal#11463",
+    "terminal#169",
+    "terminal#5400",
+    "PowerToys#38297",
+    "terminal#7284"
+   ]
+  },
+  {
+   "t": 1794883999.2701104,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#41736"
+   },
+   "seconds": 0.00011974701192229986,
+   "returned": [
+    "PowerToys#41736"
+   ]
+  },
+  {
+   "t": 1794884000.9648478,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38297"
+   },
+   "seconds": 0.000198893976630643,
+   "returned": [
+    "PowerToys#38297"
+   ]
+  },
+  {
+   "t": 1794884008.520647,
+   "tool": "search",
+   "args": {
+    "pattern": "CmdPal",
+    "regex": false,
+    "also": [
+     "keyboard hook",
+     "character"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.16669186498620547,
+   "returned": []
+  },
+  {
+   "t": 1794884010.1561038,
+   "tool": "search",
+   "args": {
+    "pattern": "pipe character",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06393809302244335,
+   "returned": [
+    "PowerToys#47617",
+    "PowerToys#47491"
+   ]
+  },
+  {
+   "t": 1794884012.6048806,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47617"
+   },
+   "seconds": 0.00014102598652243614,
+   "returned": [
+    "PowerToys#47617"
+   ]
+  },
+  {
+   "t": 1794884014.5751936,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47491"
+   },
+   "seconds": 0.00010536698391661048,
+   "returned": [
+    "PowerToys#47491"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 29221,
+  "stop_reason": "end_turn",
+  "session_id": "a9b54f68-aeea-44b1-ad88-6711447c1bc1",
+  "total_cost_usd": 0.0741585,
+  "usage": {
+   "input_tokens": 20,
+   "cache_creation_input_tokens": 12653,
+   "cache_read_input_tokens": 82865,
+   "output_tokens": 1522,
+   "output_tokens_details": {
+    "thinking_tokens": 100
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12653,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 398,
+     "cache_read_input_tokens": 13355,
+     "cache_creation_input_tokens": 711,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 711
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 20,
+    "outputTokens": 1522,
+    "cacheReadInputTokens": 82865,
+    "cacheCreationInputTokens": 12653,
+    "webSearchRequests": 0,
+    "costUSD": 0.0741585,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 100,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12653,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I'm wrapping up. I searched the archive several ways and found no ticket that matches this problem.\n\n{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find an earlier report of Command Palette blocking the \\\"|\\\" key, including the pattern where it only types in elevated apps. Two tickets look similar but aren't the same problem. PowerToys#47617 and PowerToys#47491 are about \\\"|\\\" on French AZERTY keyboards launching Text Extractor or screen capture. The cause there was another module's shortcut, and in PowerToys#47491 turning off ZoomIt fixed it. Your report points at Command Palette instead, because turning it off fixes the problem and turning off its extensions doesn't. Please file this as a new bug. Include the key combination you use for \\\"|\\\" and your keyboard layout, and say whether the Command Palette hotkey or any alias is set to something unusual. Also attach a PowerToys bug report ZIP. In the meantime, you can turn Command Palette off, or run the affected apps as administrator.\"}",
+  "ttft_ms": 2462,
+  "type": "result",
+  "duration_ms": 33697,
+  "uuid": "7785e989-a2cb-494d-b50c-d460c16ac3b3",
+  "ttft_stream_ms": 1384,
+  "time_to_request_ms": 63,
+  "first_content_frame_ms": 1384,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 20,
+    "outputTokens": 1522,
+    "cacheReadInputTokens": 82865,
+    "cacheCreationInputTokens": 12653,
+    "webSearchRequests": 0,
+    "costUSD": 0.0741585,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 100,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12653,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 35.30194952499005,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-cyie05lz/work"
+  }
+ },
+ "wall_seconds": 35.30461014100001,
+ "qid": "PowerToys#51164",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find an earlier report of Command Palette blocking the \"|\" key, including the pattern where it only types in elevated apps. Two tickets look similar but aren't the same problem. PowerToys#47617 and PowerToys#47491 are about \"|\" on French AZERTY keyboards launching Text Extractor or screen capture. The cause there was another module's shortcut, and in PowerToys#47491 turning off ZoomIt fixed it. Your report points at Command Palette instead, because turning it off fixes the problem and turning off its extensions doesn't. Please file this as a new bug. Include the key combination you use for \"|\" and your keyboard layout, and say whether the Command Palette hotkey or any alias is set to something unusual. Also attach a PowerToys bug report ZIP. In the meantime, you can turn Command Palette off, or run the affected apps as administrator."
+ },
+ "hit_turn_cap": false
+}

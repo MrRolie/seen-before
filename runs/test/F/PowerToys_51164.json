@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#39239",
+  "PowerToys#40599",
+  "PowerToys#39527",
+  "PowerToys#38453",
+  "PowerToys#38732"
+ ],
+ "retrieval_seconds": 0.6493360839958768,
+ "retrieval_scores": [
+  0.029138513513513514,
+  0.028083267871170464,
+  0.027346637102734665,
+  0.02724014336917563,
+  0.026881720430107527
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3882,
+  "stop_reason": "end_turn",
+  "session_id": "ccf99b5a-c974-4290-963d-4d9ccea5e74a",
+  "total_cost_usd": 0.030314,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6965,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 245,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6965,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 245,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6965,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6965
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 245,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6965,
+    "webSearchRequests": 0,
+    "costUSD": 0.030314,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6965,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"None of the archived tickets report this problem. The closest ones are about Command Palette typing (self-typing or repeating characters in #39239 and #40599, IME or syllabic input being committed early in #38732 and #38453), but none involve a single character, \\\"|\\\", being blocked in non-elevated apps while it works in elevated ones. Please file this as a new issue and include the PowerToys bug report ZIP. Also mention that the Command Palette global hotkey or keyboard hook is the likely trigger, your keyboard layout, and that the problem goes away when Command Palette is disabled. As a temporary workaround, you can keep Command Palette disabled, or run the affected apps as administrator.\"}",
+  "ttft_ms": 4109,
+  "type": "result",
+  "duration_ms": 4133,
+  "uuid": "7c2cfa3d-fd8e-4a0f-ae05-7fa28af2a00d",
+  "ttft_stream_ms": 2155,
+  "time_to_request_ms": 245,
+  "first_content_frame_ms": 2156,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 245,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6965,
+    "webSearchRequests": 0,
+    "costUSD": 0.030314,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6965,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 5.1698244640138,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-989km69o/work"
+  }
+ },
+ "wall_seconds": 5.918942916992819,
+ "qid": "PowerToys#51164",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "None of the archived tickets report this problem. The closest ones are about Command Palette typing (self-typing or repeating characters in #39239 and #40599, IME or syllabic input being committed early in #38732 and #38453), but none involve a single character, \"|\", being blocked in non-elevated apps while it works in elevated ones. Please file this as a new issue and include the PowerToys bug report ZIP. Also mention that the Command Palette global hotkey or keyboard hook is the likely trigger, your keyboard layout, and that the problem goes away when Command Palette is disabled. As a temporary workaround, you can keep Command Palette disabled, or run the affected apps as administrator."
+ },
+ "hit_turn_cap": false
+}

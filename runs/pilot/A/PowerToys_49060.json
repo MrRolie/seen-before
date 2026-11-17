@@ -1,0 +1,134 @@
+{
+ "shown": [
+  "PowerToys#48127",
+  "PowerToys#13792",
+  "PowerToys#47547",
+  "PowerToys#37596",
+  "PowerToys#13781"
+ ],
+ "retrieval_seconds": 0.02694665000308305,
+ "retrieval_scores": [
+  0.7005754113197327,
+  0.682072103023529,
+  0.6802074313163757,
+  0.679012656211853,
+  0.6718894243240356
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3419,
+  "stop_reason": "end_turn",
+  "session_id": "653850dc-ab17-42e4-9801-2681f8c8dce4",
+  "total_cost_usd": 0.016338,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3366,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 287,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3366,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 287,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3366,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3366
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 287,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3366,
+    "webSearchRequests": 0,
+    "costUSD": 0.016338,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3366,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48127\", \"PowerToys#13792\", \"PowerToys#13781\"], \"answer\": \"This feature request has been made before: saving and recalling named PowerRename presets (Search for/Replace with plus the option checkboxes). These tickets were closed as duplicates of the original tracking issues, which are #11655 and #12686 (per the closing comments), and #40091 (per the closing comment on #37596). Those original issues were not shown to me, so I can't say what their current status is. No workaround or release is mentioned in the past tickets. Subscribe to the original tracking issues for updates and add your use case there, such as saving complete strategies, loading them over the active settings, and deleting them. For now, PowerRename only keeps a history of recent Search/Replace expressions, so you would need to keep your common regex patterns in external notes.\"}",
+  "ttft_ms": 3447,
+  "type": "result",
+  "duration_ms": 3464,
+  "uuid": "ad318b9e-7c73-468d-bfb6-3a22cadc4831",
+  "ttft_stream_ms": 1161,
+  "time_to_request_ms": 45,
+  "first_content_frame_ms": 1161,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "claude_wall_seconds": 4.070550714008277
+ },
+ "wall_seconds": 4.097776247013826,
+ "qid": "PowerToys#49060",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48127",
+   "PowerToys#13792",
+   "PowerToys#13781"
+  ],
+  "answer": "This feature request has been made before: saving and recalling named PowerRename presets (Search for/Replace with plus the option checkboxes). These tickets were closed as duplicates of the original tracking issues, which are #11655 and #12686 (per the closing comments), and #40091 (per the closing comment on #37596). Those original issues were not shown to me, so I can't say what their current status is. No workaround or release is mentioned in the past tickets. Subscribe to the original tracking issues for updates and add your use case there, such as saving complete strategies, loading them over the active settings, and deleting them. For now, PowerRename only keeps a history of recent Search/Replace expressions, so you would need to keep your common regex patterns in external notes."
+ },
+ "hit_turn_cap": false
+}

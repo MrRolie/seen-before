@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#31506",
+  "PowerToys#12305",
+  "PowerToys#35288",
+  "PowerToys#13617",
+  "PowerToys#29133"
+ ],
+ "retrieval_seconds": 0.015771863982081413,
+ "retrieval_scores": [
+  0.8269878029823303,
+  0.6592791676521301,
+  0.6579820513725281,
+  0.5809441804885864,
+  0.5756813883781433
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2254,
+  "stop_reason": "end_turn",
+  "session_id": "a51351bc-cdc6-42b5-9dc1-e3599c392be8",
+  "total_cost_usd": 0.017674,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3750,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 267,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3750,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 267,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3750,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3750
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 267,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3750,
+    "webSearchRequests": 0,
+    "costUSD": 0.017674,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3750,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#31506\", \"PowerToys#35288\", \"PowerToys#29133\"], \"answer\": \"This request has been filed before: users asking PowerToys to restore the 'Cascade Windows' option removed in Windows 11. PowerToys#31506 and PowerToys#29133 were closed as duplicates of earlier requests (#22361 and #12305 respectively), so the request is tracked there. PowerToys#35288 is an open-style request for the same feature with no maintainer response. No cascade feature has been delivered in those tickets. The only workaround suggested is to use FancyZones to arrange windows into zones, which approximates cascading but does not fully replace it. You can add a thumbs-up to the existing tracking issues to show support instead of opening a new one.\"}",
+  "ttft_ms": 2423,
+  "type": "result",
+  "duration_ms": 2443,
+  "uuid": "f09421d1-e324-4fd2-affa-0bec0b502515",
+  "ttft_stream_ms": 641,
+  "time_to_request_ms": 186,
+  "first_content_frame_ms": 641,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 267,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3750,
+    "webSearchRequests": 0,
+    "costUSD": 0.017674,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3750,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.2637196849973407,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-k4_7v11a/work"
+  }
+ },
+ "wall_seconds": 3.281651397002861,
+ "qid": "PowerToys#50756",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#31506",
+   "PowerToys#35288",
+   "PowerToys#29133"
+  ],
+  "answer": "This request has been filed before: users asking PowerToys to restore the 'Cascade Windows' option removed in Windows 11. PowerToys#31506 and PowerToys#29133 were closed as duplicates of earlier requests (#22361 and #12305 respectively), so the request is tracked there. PowerToys#35288 is an open-style request for the same feature with no maintainer response. No cascade feature has been delivered in those tickets. The only workaround suggested is to use FancyZones to arrange windows into zones, which approximates cascading but does not fully replace it. You can add a thumbs-up to the existing tracking issues to show support instead of opening a new one."
+ },
+ "hit_turn_cap": false
+}

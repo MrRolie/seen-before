@@ -1,0 +1,322 @@
+{
+ "shown": [
+  "PowerToys#11996",
+  "PowerToys#12337",
+  "PowerToys#12753",
+  "PowerToys#13135",
+  "PowerToys#13501",
+  "PowerToys#13755",
+  "PowerToys#14208",
+  "PowerToys#16220",
+  "PowerToys#17826",
+  "PowerToys#18214",
+  "PowerToys#18427",
+  "PowerToys#18584",
+  "PowerToys#23193",
+  "PowerToys#24846",
+  "PowerToys#25377",
+  "PowerToys#27619",
+  "PowerToys#27790",
+  "PowerToys#28283",
+  "PowerToys#29407",
+  "PowerToys#30227",
+  "PowerToys#30310",
+  "PowerToys#32005",
+  "PowerToys#32305",
+  "PowerToys#33278",
+  "PowerToys#33965",
+  "PowerToys#34148",
+  "PowerToys#34487",
+  "PowerToys#35102",
+  "PowerToys#35250",
+  "PowerToys#35823",
+  "PowerToys#38014",
+  "PowerToys#40120",
+  "PowerToys#41671",
+  "PowerToys#4246",
+  "PowerToys#42720",
+  "PowerToys#44134",
+  "PowerToys#45910",
+  "PowerToys#46150",
+  "PowerToys#46281",
+  "PowerToys#48965"
+ ],
+ "retrieval_seconds": 3.5309337270155083,
+ "tool_calls": [
+  {
+   "t": 1794881572.4502912,
+   "tool": "search",
+   "args": {
+    "pattern": "Awake",
+    "regex": false,
+    "also": [
+     "schedule"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10068544198293239,
+   "returned": [
+    "PowerToys#34148",
+    "PowerToys#35250",
+    "PowerToys#11996",
+    "PowerToys#4246",
+    "PowerToys#40120",
+    "PowerToys#32005",
+    "PowerToys#48965",
+    "PowerToys#23193",
+    "PowerToys#17826",
+    "PowerToys#34487",
+    "PowerToys#18427",
+    "PowerToys#16220",
+    "PowerToys#46281",
+    "PowerToys#44134",
+    "PowerToys#24846",
+    "PowerToys#35823",
+    "PowerToys#41671",
+    "PowerToys#27790",
+    "PowerToys#18214",
+    "PowerToys#33278"
+   ]
+  },
+  {
+   "t": 1794881576.217462,
+   "tool": "similar",
+   "args": {
+    "query": "Awake schedule keep awake at working hours / days of week, standby on weekends",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.430003851011861,
+   "returned": [
+    "PowerToys#42720",
+    "PowerToys#45910",
+    "PowerToys#13135",
+    "PowerToys#13501",
+    "PowerToys#32305",
+    "PowerToys#27619",
+    "PowerToys#14208",
+    "PowerToys#30227",
+    "PowerToys#29407",
+    "PowerToys#46150",
+    "PowerToys#33965",
+    "PowerToys#12337",
+    "PowerToys#12753",
+    "PowerToys#35102",
+    "PowerToys#13755",
+    "PowerToys#25377",
+    "PowerToys#30310",
+    "PowerToys#18584",
+    "PowerToys#38014",
+    "PowerToys#28283"
+   ]
+  },
+  {
+   "t": 1794881577.4627814,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#17826"
+   },
+   "seconds": 0.00010942699736915529,
+   "returned": [
+    "PowerToys#17826"
+   ]
+  },
+  {
+   "t": 1794881577.6390002,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#12753"
+   },
+   "seconds": 0.00013500702334567904,
+   "returned": [
+    "PowerToys#12753"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6526,
+  "stop_reason": "end_turn",
+  "session_id": "b5bc526f-5625-451e-9c02-2d9d178f86d7",
+  "total_cost_usd": 0.040178099999999994,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 7851,
+   "cache_read_input_tokens": 10321,
+   "output_tokens": 773,
+   "output_tokens_details": {
+    "thinking_tokens": 36
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7851,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 409,
+     "cache_read_input_tokens": 6980,
+     "cache_creation_input_tokens": 2284,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2284
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 773,
+    "cacheReadInputTokens": 10321,
+    "cacheCreationInputTokens": 7851,
+    "webSearchRequests": 0,
+    "costUSD": 0.040178099999999994,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 36,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7851,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#17826\", \"PowerToys#12753\", \"PowerToys#24846\"], \"answer\": \"This feature request has been filed before, several times. Awake has no built-in schedule. The maintainers closed the main request (#17826) as won't-fix, because a schedule would duplicate Windows Task Scheduler. The workaround from that ticket is to use Task Scheduler to launch Awake on working days. Create one weekly task, for example 'StayAwakeOnBusinessHours', that runs `%LocalAppData%\\\\PowerToys\\\\PowerToys.Awake.exe --use-parent-pid` Monday to Friday at the start of your day. Create a second weekly task at the end of your day that runs `schtasks /end /tn \\\"StayAwakeOnBusinessHours\\\"`. Awake then runs only during those hours, and the laptop can go to standby in the evening and at weekends. Alternatively, run Awake with a time limit or `--expire-at` from a script. Run PowerShell scripts with `-ExecutionPolicy Bypass` if they are unsigned. If you want to follow the request, you can add a thumbs-up to the existing tickets instead of opening a new one.\"}",
+  "ttft_ms": 1312,
+  "type": "result",
+  "duration_ms": 10011,
+  "uuid": "b391f137-11c4-4f03-8242-b5d437461f87",
+  "ttft_stream_ms": 619,
+  "time_to_request_ms": 45,
+  "first_content_frame_ms": 619,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 773,
+    "cacheReadInputTokens": 10321,
+    "cacheCreationInputTokens": 7851,
+    "webSearchRequests": 0,
+    "costUSD": 0.040178099999999994,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 36,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7851,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.38585409199004,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-1nh5cb4v/work"
+  }
+ },
+ "wall_seconds": 11.387654044985538,
+ "qid": "PowerToys#50129",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#17826",
+   "PowerToys#12753",
+   "PowerToys#24846"
+  ],
+  "answer": "This feature request has been filed before, several times. Awake has no built-in schedule. The maintainers closed the main request (#17826) as won't-fix, because a schedule would duplicate Windows Task Scheduler. The workaround from that ticket is to use Task Scheduler to launch Awake on working days. Create one weekly task, for example 'StayAwakeOnBusinessHours', that runs `%LocalAppData%\\PowerToys\\PowerToys.Awake.exe --use-parent-pid` Monday to Friday at the start of your day. Create a second weekly task at the end of your day that runs `schtasks /end /tn \"StayAwakeOnBusinessHours\"`. Awake then runs only during those hours, and the laptop can go to standby in the evening and at weekends. Alternatively, run Awake with a time limit or `--expire-at` from a script. Run PowerShell scripts with `-ExecutionPolicy Bypass` if they are unsigned. If you want to follow the request, you can add a thumbs-up to the existing tickets instead of opening a new one."
+ },
+ "hit_turn_cap": false
+}

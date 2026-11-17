@@ -1,0 +1,276 @@
+{
+ "shown": [
+  "PowerToys#10202",
+  "PowerToys#10320",
+  "PowerToys#11019",
+  "PowerToys#11347",
+  "PowerToys#12505",
+  "PowerToys#1810",
+  "PowerToys#19417",
+  "PowerToys#19521",
+  "PowerToys#21399",
+  "PowerToys#2608",
+  "PowerToys#3282",
+  "PowerToys#3498",
+  "PowerToys#3773",
+  "PowerToys#38487",
+  "PowerToys#39343",
+  "PowerToys#4146",
+  "PowerToys#41629",
+  "PowerToys#45466",
+  "PowerToys#46304",
+  "PowerToys#8390"
+ ],
+ "retrieval_seconds": 3.7247468330315314,
+ "tool_calls": [
+  {
+   "t": 1794880027.6423678,
+   "tool": "similar",
+   "args": {
+    "query": "Command Palette search apps using English name when system language is Chinese / localized names",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.7243304350122344,
+   "returned": [
+    "PowerToys#38487",
+    "PowerToys#41629",
+    "PowerToys#39343",
+    "PowerToys#3773",
+    "PowerToys#10320",
+    "PowerToys#2608",
+    "PowerToys#4146",
+    "PowerToys#1810",
+    "PowerToys#12505",
+    "PowerToys#11347",
+    "PowerToys#10202",
+    "PowerToys#46304",
+    "PowerToys#3282",
+    "PowerToys#8390",
+    "PowerToys#11019",
+    "PowerToys#19417",
+    "PowerToys#45466",
+    "PowerToys#21399",
+    "PowerToys#3498",
+    "PowerToys#19521"
+   ]
+  },
+  {
+   "t": 1794880028.4746928,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46304"
+   },
+   "seconds": 0.00016821501776576042,
+   "returned": [
+    "PowerToys#46304"
+   ]
+  },
+  {
+   "t": 1794880028.5998802,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39343"
+   },
+   "seconds": 0.00014014600310474634,
+   "returned": [
+    "PowerToys#39343"
+   ]
+  },
+  {
+   "t": 1794880029.360074,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38487"
+   },
+   "seconds": 0.00010803699842654169,
+   "returned": [
+    "PowerToys#38487"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7059,
+  "stop_reason": "end_turn",
+  "session_id": "a7bd40e6-636e-415a-bbdf-5e9a6e8a853a",
+  "total_cost_usd": 0.0258959,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 4054,
+   "cache_read_input_tokens": 16899,
+   "output_tokens": 797,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4054,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 303,
+     "cache_read_input_tokens": 5269,
+     "cache_creation_input_tokens": 198,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 198
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 797,
+    "cacheReadInputTokens": 16899,
+    "cacheCreationInputTokens": 4054,
+    "webSearchRequests": 0,
+    "costUSD": 0.0258959,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4054,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "The best match is #46304. It asks for the same thing: Command Palette searching in English as well as the display language.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#46304\"], \"answer\": \"This feature request has been filed before: PowerToys#46304, 'CmdPal: search simultaneously in English and user display language'. It asks for Command Palette to match both English names and the display-language names, so typing 'terminal' or 'Files' would find the app even when the system language is Chinese. It is still open as a feature request. A maintainer said Command Palette has partial support for this (Pinyin), but it is undecided how deep the support should go, what it would cost in performance, and how to represent it in the API. There is no workaround in the archive yet. Add a 👍 and your Spotlight example to #46304 rather than opening a new issue. Windows Terminal 1.24 already searches in both English and the display language, so that is the behavior to expect.\"}",
+  "ttft_ms": 1116,
+  "type": "result",
+  "duration_ms": 10499,
+  "uuid": "c81b86cd-bd16-4e89-b384-dff6d84cad71",
+  "ttft_stream_ms": 556,
+  "time_to_request_ms": 53,
+  "first_content_frame_ms": 556,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 797,
+    "cacheReadInputTokens": 16899,
+    "cacheCreationInputTokens": 4054,
+    "webSearchRequests": 0,
+    "costUSD": 0.0258959,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4054,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.915645330998814,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-a8p6qcti/work"
+  }
+ },
+ "wall_seconds": 11.917775663023349,
+ "qid": "PowerToys#49843",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46304"
+  ],
+  "answer": "This feature request has been filed before: PowerToys#46304, 'CmdPal: search simultaneously in English and user display language'. It asks for Command Palette to match both English names and the display-language names, so typing 'terminal' or 'Files' would find the app even when the system language is Chinese. It is still open as a feature request. A maintainer said Command Palette has partial support for this (Pinyin), but it is undecided how deep the support should go, what it would cost in performance, and how to represent it in the API. There is no workaround in the archive yet. Add a 👍 and your Spotlight example to #46304 rather than opening a new issue. Windows Terminal 1.24 already searches in both English and the display language, so that is the behavior to expect."
+ },
+ "hit_turn_cap": false
+}

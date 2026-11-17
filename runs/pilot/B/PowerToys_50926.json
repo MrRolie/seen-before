@@ -1,0 +1,375 @@
+{
+ "shown": [
+  "PowerToys#1032",
+  "PowerToys#12871",
+  "PowerToys#15001",
+  "PowerToys#19462",
+  "PowerToys#23508",
+  "PowerToys#25197",
+  "PowerToys#2527",
+  "PowerToys#27712",
+  "PowerToys#28769",
+  "PowerToys#31443",
+  "PowerToys#32262",
+  "PowerToys#37800",
+  "PowerToys#38297",
+  "PowerToys#38423",
+  "PowerToys#40755",
+  "PowerToys#42157",
+  "PowerToys#44857",
+  "PowerToys#45248",
+  "PowerToys#45546",
+  "PowerToys#48725",
+  "PowerToys#48895",
+  "PowerToys#48899",
+  "PowerToys#5208",
+  "PowerToys#888",
+  "PowerToys#907",
+  "PowerToys#9162",
+  "PowerToys#9520"
+ ],
+ "retrieval_seconds": 1.1117096270318143,
+ "tool_calls": [
+  {
+   "t": 1794877108.0484254,
+   "tool": "search",
+   "args": {
+    "pattern": "CmdPal context menu first item selected",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07762833897140808,
+   "returned": []
+  },
+  {
+   "t": 1794877110.049397,
+   "tool": "search",
+   "args": {
+    "pattern": "context menu",
+    "regex": false,
+    "also": [
+     "selection"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.14002080500358716,
+   "returned": [
+    "PowerToys#25197",
+    "PowerToys#2527",
+    "PowerToys#48899",
+    "PowerToys#32262",
+    "PowerToys#27712",
+    "PowerToys#19462",
+    "PowerToys#1032",
+    "PowerToys#907",
+    "PowerToys#44857",
+    "PowerToys#9520",
+    "PowerToys#5208",
+    "PowerToys#48725",
+    "PowerToys#40755",
+    "PowerToys#38423",
+    "PowerToys#31443",
+    "PowerToys#23508",
+    "PowerToys#15001",
+    "PowerToys#12871",
+    "PowerToys#9162",
+    "PowerToys#888"
+   ]
+  },
+  {
+   "t": 1794877112.8754177,
+   "tool": "search",
+   "args": {
+    "pattern": "CmdPal",
+    "regex": false,
+    "also": [
+     "context menu",
+     "highlight"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.18447464401833713,
+   "returned": [
+    "PowerToys#38297",
+    "PowerToys#48725",
+    "PowerToys#48895",
+    "PowerToys#45546",
+    "PowerToys#28769"
+   ]
+  },
+  {
+   "t": 1794877113.0972998,
+   "tool": "search",
+   "args": {
+    "pattern": "context menu",
+    "regex": false,
+    "also": [
+     "first item",
+     "CmdPal"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.2104893270006869,
+   "returned": [
+    "PowerToys#42157",
+    "PowerToys#48895"
+   ]
+  },
+  {
+   "t": 1794877115.4305716,
+   "tool": "search",
+   "args": {
+    "pattern": "selection is visible",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06889296500594355,
+   "returned": [
+    "PowerToys#37800"
+   ]
+  },
+  {
+   "t": 1794877115.5658226,
+   "tool": "search",
+   "args": {
+    "pattern": "context menu",
+    "regex": false,
+    "also": [
+     "not visible until",
+     "Enter"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.12622366400319152,
+   "returned": []
+  },
+  {
+   "t": 1794877117.461533,
+   "tool": "search",
+   "args": {
+    "pattern": "ContextMenu",
+    "regex": false,
+    "also": [
+     "focus visual",
+     "CmdPal"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.13164377401699312,
+   "returned": []
+  },
+  {
+   "t": 1794877120.1756742,
+   "tool": "search",
+   "args": {
+    "pattern": "context menu",
+    "regex": false,
+    "also": [
+     "CmdPal",
+     "selected item"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.17212348501197994,
+   "returned": [
+    "PowerToys#48725",
+    "PowerToys#45248"
+   ]
+  },
+  {
+   "t": 1794877121.5934525,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42157"
+   },
+   "seconds": 0.0002126239996869117,
+   "returned": [
+    "PowerToys#42157"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 18240,
+  "stop_reason": "end_turn",
+  "session_id": "1cc5ebf2-0f53-4c83-b579-35791dd4bf1a",
+  "total_cost_usd": 0.0591796,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 10286,
+   "cache_read_input_tokens": 47736,
+   "output_tokens": 1323,
+   "output_tokens_details": {
+    "thinking_tokens": 11
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10286,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 247,
+     "cache_read_input_tokens": 9744,
+     "cache_creation_input_tokens": 1719,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1719
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1323,
+    "cacheReadInputTokens": 47736,
+    "cacheCreationInputTokens": 10286,
+    "webSearchRequests": 0,
+    "costUSD": 0.0591796,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 11,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10286,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this problem. The first item in the CmdPal context menu (Ctrl+K) is now visibly highlighted as soon as the menu opens. You'd expect it to stay unhighlighted until you move the selection. It would still run on Enter, as in Windows menus. The closest tickets are PowerToys#42157, where the first item isn't selected when a list opens, and PowerToys#48895, where list selection jumps to the first row. Both are different problems. Please keep this ticket open as a new report. To help the team, add your build or commit and a screenshot of the context menu on open. Also say whether the highlight shows after opening with Ctrl+K and after opening with the More button.\"}",
+  "ttft_ms": 2264,
+  "type": "result",
+  "duration_ms": 19300,
+  "uuid": "cee30387-9672-4a07-815c-b149725e736b",
+  "ttft_stream_ms": 1193,
+  "time_to_request_ms": 56,
+  "first_content_frame_ms": 1193,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1323,
+    "cacheReadInputTokens": 47736,
+    "cacheCreationInputTokens": 10286,
+    "webSearchRequests": 0,
+    "costUSD": 0.0591796,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 11,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10286,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 20.680101220990764,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-jljhpl7e/work"
+  }
+ },
+ "wall_seconds": 20.683056217996636,
+ "qid": "PowerToys#50926",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this problem. The first item in the CmdPal context menu (Ctrl+K) is now visibly highlighted as soon as the menu opens. You'd expect it to stay unhighlighted until you move the selection. It would still run on Enter, as in Windows menus. The closest tickets are PowerToys#42157, where the first item isn't selected when a list opens, and PowerToys#48895, where list selection jumps to the first row. Both are different problems. Please keep this ticket open as a new report. To help the team, add your build or commit and a screenshot of the context menu on open. Also say whether the highlight shows after opening with Ctrl+K and after opening with the More button."
+ },
+ "hit_turn_cap": false
+}

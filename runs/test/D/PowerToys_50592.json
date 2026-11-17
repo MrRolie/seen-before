@@ -1,0 +1,347 @@
+{
+ "shown": [
+  "PowerToys#15483",
+  "PowerToys#16599",
+  "PowerToys#17718",
+  "PowerToys#18884",
+  "PowerToys#18962",
+  "PowerToys#20650",
+  "PowerToys#21823",
+  "PowerToys#22341",
+  "PowerToys#25228",
+  "PowerToys#25565",
+  "PowerToys#26993",
+  "PowerToys#28311",
+  "PowerToys#28720",
+  "PowerToys#35253",
+  "PowerToys#37571",
+  "PowerToys#38953",
+  "PowerToys#40247",
+  "PowerToys#42192",
+  "PowerToys#45987",
+  "PowerToys#46321",
+  "PowerToys#46567",
+  "PowerToys#47031",
+  "PowerToys#47430",
+  "PowerToys#47593",
+  "PowerToys#48224",
+  "PowerToys#48287",
+  "PowerToys#48688",
+  "PowerToys#48887",
+  "PowerToys#48934",
+  "PowerToys#48969",
+  "PowerToys#6122",
+  "PowerToys#828",
+  "PowerToys#855",
+  "PowerToys#8756"
+ ],
+ "retrieval_seconds": 3.9731779569992796,
+ "tool_calls": [
+  {
+   "t": 1794882911.193302,
+   "tool": "similar",
+   "args": {
+    "query": "network speed indicator on taskbar showing upload and download",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.907798278989503,
+   "returned": [
+    "PowerToys#828",
+    "PowerToys#40247",
+    "PowerToys#42192",
+    "PowerToys#25565",
+    "PowerToys#26993",
+    "PowerToys#18962",
+    "PowerToys#15483",
+    "PowerToys#45987",
+    "PowerToys#35253",
+    "PowerToys#28311",
+    "PowerToys#22341",
+    "PowerToys#855",
+    "PowerToys#48287",
+    "PowerToys#6122",
+    "PowerToys#21823",
+    "PowerToys#28720",
+    "PowerToys#18884",
+    "PowerToys#16599",
+    "PowerToys#48934",
+    "PowerToys#20650"
+   ]
+  },
+  {
+   "t": 1794882911.2757254,
+   "tool": "search",
+   "args": {
+    "pattern": "network speed",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0646945149928797,
+   "returned": [
+    "PowerToys#48969",
+    "PowerToys#47031",
+    "PowerToys#48688",
+    "PowerToys#46321",
+    "PowerToys#25565",
+    "PowerToys#17718",
+    "PowerToys#47430",
+    "PowerToys#46567",
+    "PowerToys#45987",
+    "PowerToys#40247",
+    "PowerToys#38953",
+    "PowerToys#28720",
+    "PowerToys#26993",
+    "PowerToys#25228",
+    "PowerToys#15483",
+    "PowerToys#828",
+    "PowerToys#48887",
+    "PowerToys#48224",
+    "PowerToys#47593",
+    "PowerToys#37571"
+   ]
+  },
+  {
+   "t": 1794882912.4458032,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#828"
+   },
+   "seconds": 0.00011927701416425407,
+   "returned": [
+    "PowerToys#828"
+   ]
+  },
+  {
+   "t": 1794882912.627824,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42192"
+   },
+   "seconds": 0.0001423170033376664,
+   "returned": [
+    "PowerToys#42192"
+   ]
+  },
+  {
+   "t": 1794882913.3564584,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40247"
+   },
+   "seconds": 0.00010854698484763503,
+   "returned": [
+    "PowerToys#40247"
+   ]
+  },
+  {
+   "t": 1794882914.5321574,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#8756"
+   },
+   "seconds": 0.0001860650081653148,
+   "returned": [
+    "PowerToys#8756"
+   ]
+  },
+  {
+   "t": 1794882915.2279177,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45987"
+   },
+   "seconds": 0.0001289570063818246,
+   "returned": [
+    "PowerToys#45987"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9488,
+  "stop_reason": "end_turn",
+  "session_id": "1853cf44-59bf-4f5c-97df-632e42ba81ae",
+  "total_cost_usd": 0.0576867,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 11293,
+   "cache_read_input_tokens": 41207,
+   "output_tokens": 837,
+   "output_tokens_details": {
+    "thinking_tokens": 23
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11293,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 316,
+     "cache_read_input_tokens": 11351,
+     "cache_creation_input_tokens": 1355,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1355
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 837,
+    "cacheReadInputTokens": 41207,
+    "cacheCreationInputTokens": 11293,
+    "webSearchRequests": 0,
+    "costUSD": 0.0576867,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 23,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11293,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#45987\", \"PowerToys#40247\", \"PowerToys#8756\"], \"answer\": \"This request has been filed many times before. The closest matches are #45987 and #40247, and others such as #828 and #42192 were closed as duplicates. Three things come out of those tickets. First, PowerToys can't customize the Windows taskbar, because the APIs are private (#45987). The suggested route is the Windows Feedback Hub (WinKey+F). Second, the general system and network monitor request (#8756) is the one the duplicates were closed against. A maintainer there said the Command Palette Dock now provides this, with a Performance Monitor band that shows network upload and download speed. Third, the Dock is not on the taskbar. If you want network speed on the taskbar itself, file it in Feedback Hub or use a third-party tool such as TrafficMonitor. Your request will most likely be closed as a duplicate.\"}",
+  "ttft_ms": 958,
+  "type": "result",
+  "duration_ms": 13150,
+  "uuid": "49030a96-eb7c-46a1-a2f6-fe7af78bf051",
+  "ttft_stream_ms": 536,
+  "time_to_request_ms": 37,
+  "first_content_frame_ms": 536,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 837,
+    "cacheReadInputTokens": 41207,
+    "cacheCreationInputTokens": 11293,
+    "webSearchRequests": 0,
+    "costUSD": 0.0576867,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 23,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11293,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.672739264991833,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-g5yi40gk/work"
+  }
+ },
+ "wall_seconds": 14.675142475985922,
+ "qid": "PowerToys#50592",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#45987",
+   "PowerToys#40247",
+   "PowerToys#8756"
+  ],
+  "answer": "This request has been filed many times before. The closest matches are #45987 and #40247, and others such as #828 and #42192 were closed as duplicates. Three things come out of those tickets. First, PowerToys can't customize the Windows taskbar, because the APIs are private (#45987). The suggested route is the Windows Feedback Hub (WinKey+F). Second, the general system and network monitor request (#8756) is the one the duplicates were closed against. A maintainer there said the Command Palette Dock now provides this, with a Performance Monitor band that shows network upload and download speed. Third, the Dock is not on the taskbar. If you want network speed on the taskbar itself, file it in Feedback Hub or use a third-party tool such as TrafficMonitor. Your request will most likely be closed as a duplicate."
+ },
+ "hit_turn_cap": false
+}

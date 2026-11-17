@@ -1,0 +1,284 @@
+{
+ "shown": [
+  "PowerToys#23909",
+  "PowerToys#25007",
+  "PowerToys#28769",
+  "PowerToys#30407",
+  "PowerToys#33492",
+  "PowerToys#38393",
+  "PowerToys#39299",
+  "PowerToys#39629",
+  "PowerToys#40302",
+  "PowerToys#41914",
+  "PowerToys#45146",
+  "PowerToys#45201",
+  "PowerToys#45712",
+  "PowerToys#46032",
+  "PowerToys#46137",
+  "PowerToys#47788",
+  "PowerToys#48432",
+  "PowerToys#48550",
+  "PowerToys#48558",
+  "PowerToys#48676"
+ ],
+ "retrieval_seconds": 0.28514962902409025,
+ "tool_calls": [
+  {
+   "t": 1794883593.8122249,
+   "tool": "search",
+   "args": {
+    "pattern": "Quick Access",
+    "regex": false,
+    "also": [
+     "language"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1212853150209412,
+   "returned": [
+    "PowerToys#45712",
+    "PowerToys#45201",
+    "PowerToys#40302",
+    "PowerToys#48550",
+    "PowerToys#47788",
+    "PowerToys#46032",
+    "PowerToys#45146",
+    "PowerToys#39299",
+    "PowerToys#25007",
+    "PowerToys#23909",
+    "PowerToys#48676",
+    "PowerToys#48558",
+    "PowerToys#48432",
+    "PowerToys#46137",
+    "PowerToys#41914",
+    "PowerToys#39629",
+    "PowerToys#38393",
+    "PowerToys#33492",
+    "PowerToys#30407",
+    "PowerToys#28769"
+   ]
+  },
+  {
+   "t": 1794883593.8851788,
+   "tool": "search",
+   "args": {
+    "pattern": "tray icon flyout language OS language instead of selected",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06130653401487507,
+   "returned": []
+  },
+  {
+   "t": 1794883595.157606,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46032"
+   },
+   "seconds": 0.00018480498692952096,
+   "returned": [
+    "PowerToys#46032"
+   ]
+  },
+  {
+   "t": 1794883597.095568,
+   "tool": "search",
+   "args": {
+    "pattern": "Quick Access",
+    "regex": false,
+    "also": [
+     "OS language",
+     "tray"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10237297500134446,
+   "returned": []
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7698,
+  "stop_reason": "end_turn",
+  "session_id": "3d4336bd-7bc1-4de2-aaf1-b0093a53b972",
+  "total_cost_usd": 0.026424700000000002,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 4735,
+   "cache_read_input_tokens": 14087,
+   "output_tokens": 606,
+   "output_tokens_details": {
+    "thinking_tokens": 24
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4735,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 206,
+     "cache_read_input_tokens": 5745,
+     "cache_creation_input_tokens": 167,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 167
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 606,
+    "cacheReadInputTokens": 14087,
+    "cacheCreationInputTokens": 4735,
+    "webSearchRequests": 0,
+    "costUSD": 0.026424700000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 24,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4735,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46032\"], \"answer\": \"This looks like a known problem. PowerToys#46032 reports the same behavior: the Quick Access panel opened from the tray icon shows the Windows display language instead of the language chosen in PowerToys settings. That ticket has no fix or workaround in the archive, so I can't promise one. For now, the panel will probably follow the OS language. To get it in English, you could set the Windows display language to English. Please add your details (version 0.100.2, Italian OS with English selected in PowerToys) to PowerToys#46032 so the team can track it.\"}",
+  "ttft_ms": 2182,
+  "type": "result",
+  "duration_ms": 8057,
+  "uuid": "8156623b-cde9-4035-9f1d-3c8ac9407dc7",
+  "ttft_stream_ms": 1116,
+  "time_to_request_ms": 39,
+  "first_content_frame_ms": 1116,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 606,
+    "cacheReadInputTokens": 14087,
+    "cacheCreationInputTokens": 4735,
+    "webSearchRequests": 0,
+    "costUSD": 0.026424700000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 24,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4735,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 9.633636650018161,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-wl_vdmk_/work"
+  }
+ },
+ "wall_seconds": 9.635690693015931,
+ "qid": "PowerToys#50932",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46032"
+  ],
+  "answer": "This looks like a known problem. PowerToys#46032 reports the same behavior: the Quick Access panel opened from the tray icon shows the Windows display language instead of the language chosen in PowerToys settings. That ticket has no fix or workaround in the archive, so I can't promise one. For now, the panel will probably follow the OS language. To get it in English, you could set the Windows display language to English. Please add your details (version 0.100.2, Italian OS with English selected in PowerToys) to PowerToys#46032 so the team can track it."
+ },
+ "hit_turn_cap": false
+}

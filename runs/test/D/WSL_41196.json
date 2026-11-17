@@ -1,0 +1,425 @@
+{
+ "shown": [
+  "WSL#10632",
+  "WSL#10855",
+  "WSL#11034",
+  "WSL#11312",
+  "WSL#12297",
+  "WSL#12891",
+  "WSL#13022",
+  "WSL#13343",
+  "WSL#13584",
+  "WSL#13626",
+  "WSL#14154",
+  "WSL#1869",
+  "WSL#3637",
+  "WSL#388",
+  "WSL#3880",
+  "WSL#4105",
+  "WSL#4150",
+  "WSL#4210",
+  "WSL#4212",
+  "WSL#4277",
+  "WSL#4340",
+  "WSL#4353",
+  "WSL#4356",
+  "WSL#4364",
+  "WSL#4366",
+  "WSL#4436",
+  "WSL#4527",
+  "WSL#4582",
+  "WSL#4619",
+  "WSL#4636",
+  "WSL#4769",
+  "WSL#4773",
+  "WSL#4851",
+  "WSL#4897",
+  "WSL#4935",
+  "WSL#4970",
+  "WSL#5051",
+  "WSL#5068",
+  "WSL#5211",
+  "WSL#5298",
+  "WSL#5343",
+  "WSL#6003",
+  "WSL#6146",
+  "WSL#6387",
+  "WSL#6693",
+  "WSL#6694",
+  "WSL#6725",
+  "WSL#6731",
+  "WSL#674",
+  "WSL#7641",
+  "WSL#8270",
+  "WSL#9095",
+  "WSL#9508",
+  "WSL#9746",
+  "WSL#9750"
+ ],
+ "retrieval_seconds": 4.391977496066829,
+ "tool_calls": [
+  {
+   "t": 1794878918.8806808,
+   "tool": "similar",
+   "args": {
+    "query": "localhost port forwarding 127.0.0.1 IPv4 fails after wsl --shutdown while ::1 IPv6 works",
+    "repo": "WSL"
+   },
+   "seconds": 4.207819763018051,
+   "returned": [
+    "WSL#6003",
+    "WSL#6725",
+    "WSL#14154",
+    "WSL#3880",
+    "WSL#388",
+    "WSL#4436",
+    "WSL#13343",
+    "WSL#8270",
+    "WSL#4769",
+    "WSL#12297",
+    "WSL#9746",
+    "WSL#5051",
+    "WSL#13022",
+    "WSL#13584",
+    "WSL#4356",
+    "WSL#6387",
+    "WSL#3637",
+    "WSL#674",
+    "WSL#7641",
+    "WSL#9750"
+   ]
+  },
+  {
+   "t": 1794878920.0622487,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#14154"
+   },
+   "seconds": 0.00021407302119769156,
+   "returned": [
+    "WSL#14154"
+   ]
+  },
+  {
+   "t": 1794878920.2354221,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#6725"
+   },
+   "seconds": 0.00013088600826449692,
+   "returned": [
+    "WSL#6725"
+   ]
+  },
+  {
+   "t": 1794878923.7842512,
+   "tool": "search",
+   "args": {
+    "pattern": "127.0.0.1",
+    "regex": false,
+    "also": [
+     "wsl --shutdown",
+     "::1"
+    ],
+    "repo": "WSL"
+   },
+   "seconds": 0.07044102001236752,
+   "returned": [
+    "WSL#4150",
+    "WSL#10855",
+    "WSL#13626",
+    "WSL#4851",
+    "WSL#9508",
+    "WSL#9095",
+    "WSL#5211",
+    "WSL#4210",
+    "WSL#11312",
+    "WSL#5068",
+    "WSL#10632",
+    "WSL#4636",
+    "WSL#4353",
+    "WSL#4619",
+    "WSL#4277",
+    "WSL#4105",
+    "WSL#4364",
+    "WSL#11034",
+    "WSL#4340",
+    "WSL#5298"
+   ]
+  },
+  {
+   "t": 1794878924.1622078,
+   "tool": "search",
+   "args": {
+    "pattern": "k3s",
+    "regex": false,
+    "also": [
+     "localhost"
+    ],
+    "repo": "WSL"
+   },
+   "seconds": 0.037117850995855406,
+   "returned": [
+    "WSL#12891",
+    "WSL#4212"
+   ]
+  },
+  {
+   "t": 1794878924.705898,
+   "tool": "similar",
+   "args": {
+    "query": "after wsl --shutdown and restart, Windows cannot connect to 127.0.0.1 port of WSL service but localhost via ::1 works, NAT mode",
+    "repo": "WSL"
+   },
+   "seconds": 0.018490573012968525,
+   "returned": [
+    "WSL#12297",
+    "WSL#6725",
+    "WSL#13343",
+    "WSL#4773",
+    "WSL#8270",
+    "WSL#4970",
+    "WSL#4897",
+    "WSL#4582",
+    "WSL#3880",
+    "WSL#9746",
+    "WSL#6693",
+    "WSL#6694",
+    "WSL#4619",
+    "WSL#6731",
+    "WSL#4935",
+    "WSL#6146",
+    "WSL#5343",
+    "WSL#4366",
+    "WSL#4527",
+    "WSL#6003"
+   ]
+  },
+  {
+   "t": 1794878926.0942147,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#4851"
+   },
+   "seconds": 0.00024451297940686345,
+   "returned": [
+    "WSL#4851"
+   ]
+  },
+  {
+   "t": 1794878929.500713,
+   "tool": "search",
+   "args": {
+    "pattern": "dual-stack",
+    "regex": false,
+    "also": [
+     "localhost"
+    ],
+    "repo": "WSL"
+   },
+   "seconds": 0.05735141201876104,
+   "returned": [
+    "WSL#14154",
+    "WSL#4851",
+    "WSL#1869"
+   ]
+  },
+  {
+   "t": 1794878929.6242115,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#6387"
+   },
+   "seconds": 0.0001674049999564886,
+   "returned": [
+    "WSL#6387"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 16694,
+  "stop_reason": "end_turn",
+  "session_id": "1c4f031e-9e0a-4155-a8f0-976a556f6756",
+  "total_cost_usd": 0.1126924,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 21685,
+   "cache_read_input_tokens": 68344,
+   "output_tokens": 1909,
+   "output_tokens_details": {
+    "thinking_tokens": 266
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 21685,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 481,
+     "cache_read_input_tokens": 20617,
+     "cache_creation_input_tokens": 2481,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2481
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1909,
+    "cacheReadInputTokens": 68344,
+    "cacheCreationInputTokens": 21685,
+    "webSearchRequests": 0,
+    "costUSD": 0.1126924,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 266,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 21685,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "```json\n{\"seen_before\": true, \"matches\": [\"WSL#4851\", \"WSL#6387\"], \"answer\": \"This looks like a known limitation. The WSL2 localhost relay doesn't forward IPv4 127.0.0.1 to a dual-stack socket. Your `ss` output shows k3s listening on `*:6443`, which is such a socket. Windows then only gets the IPv6 `::1` forward, so `localhost` works and `127.0.0.1` fails. The archive tickets don't say why it works some of the time and not after a restart. The relay treats 127.0.0.1 and ::1 differently, and clients differ in which one `localhost` resolves to. Workarounds from those tickets: (1) Make the service listen on an IPv4 address, either 0.0.0.0 or 127.0.0.1. For k3s, set `bind-address: 0.0.0.0`, or the advertise or node IP, in /etc/rancher/k3s/config.yaml. (2) Point Windows tools such as Headlamp at `https://localhost:6443` or `https://[::1]:6443` instead of 127.0.0.1. Edit the server URL in the kubeconfig that Headlamp uses on Windows, and make sure 'localhost' is in the API server certificate's SANs (k3s `tls-san`). (3) Make hosts-file entries point to `::1` instead of 127.0.0.1. I found no fix for this in the archive.\"}\n```",
+  "ttft_ms": 1644,
+  "type": "result",
+  "duration_ms": 20837,
+  "uuid": "c23cdcc9-4341-4afd-9537-ca051a212b05",
+  "ttft_stream_ms": 871,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 871,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1909,
+    "cacheReadInputTokens": 68344,
+    "cacheCreationInputTokens": 21685,
+    "webSearchRequests": 0,
+    "costUSD": 0.1126924,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 266,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 21685,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 22.244636393006658,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-5l6nwdyj/work"
+  }
+ },
+ "wall_seconds": 22.24698205999448,
+ "qid": "WSL#41196",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "WSL#4851",
+   "WSL#6387"
+  ],
+  "answer": "This looks like a known limitation. The WSL2 localhost relay doesn't forward IPv4 127.0.0.1 to a dual-stack socket. Your `ss` output shows k3s listening on `*:6443`, which is such a socket. Windows then only gets the IPv6 `::1` forward, so `localhost` works and `127.0.0.1` fails. The archive tickets don't say why it works some of the time and not after a restart. The relay treats 127.0.0.1 and ::1 differently, and clients differ in which one `localhost` resolves to. Workarounds from those tickets: (1) Make the service listen on an IPv4 address, either 0.0.0.0 or 127.0.0.1. For k3s, set `bind-address: 0.0.0.0`, or the advertise or node IP, in /etc/rancher/k3s/config.yaml. (2) Point Windows tools such as Headlamp at `https://localhost:6443` or `https://[::1]:6443` instead of 127.0.0.1. Edit the server URL in the kubeconfig that Headlamp uses on Windows, and make sure 'localhost' is in the API server certificate's SANs (k3s `tls-san`). (3) Make hosts-file entries point to `::1` instead of 127.0.0.1. I found no fix for this in the archive."
+ },
+ "hit_turn_cap": false
+}

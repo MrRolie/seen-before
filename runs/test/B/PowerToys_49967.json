@@ -1,0 +1,291 @@
+{
+ "shown": [
+  "PowerToys#1411",
+  "PowerToys#1529",
+  "PowerToys#16247",
+  "PowerToys#16347",
+  "PowerToys#20238",
+  "PowerToys#23897",
+  "PowerToys#25062",
+  "PowerToys#25610",
+  "PowerToys#26343",
+  "PowerToys#27556",
+  "PowerToys#27615",
+  "PowerToys#30090",
+  "PowerToys#31093",
+  "PowerToys#3244",
+  "PowerToys#33537",
+  "PowerToys#3626",
+  "PowerToys#36694",
+  "PowerToys#40658",
+  "PowerToys#4384",
+  "PowerToys#9285"
+ ],
+ "retrieval_seconds": 0.10411357900011353,
+ "tool_calls": [
+  {
+   "t": 1794880533.5858898,
+   "tool": "search",
+   "args": {
+    "pattern": "non-primary mouse",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05366409700945951,
+   "returned": [
+    "PowerToys#9285",
+    "PowerToys#3244",
+    "PowerToys#40658",
+    "PowerToys#33537",
+    "PowerToys#20238",
+    "PowerToys#4384",
+    "PowerToys#1529",
+    "PowerToys#1411",
+    "PowerToys#30090",
+    "PowerToys#25062",
+    "PowerToys#23897",
+    "PowerToys#16347",
+    "PowerToys#16247",
+    "PowerToys#3626",
+    "PowerToys#36694",
+    "PowerToys#31093",
+    "PowerToys#27615",
+    "PowerToys#27556",
+    "PowerToys#26343",
+    "PowerToys#25610"
+   ]
+  },
+  {
+   "t": 1794880533.6458225,
+   "tool": "search",
+   "args": {
+    "pattern": "FancyZones shows when moving window even though disabled",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0501219010038767,
+   "returned": []
+  },
+  {
+   "t": 1794880535.9050515,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#9285"
+   },
+   "seconds": 0.00012626699754036963,
+   "returned": [
+    "PowerToys#9285"
+   ]
+  },
+  {
+   "t": 1794880535.9108233,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#30090"
+   },
+   "seconds": 8.788699051365256e-05,
+   "returned": [
+    "PowerToys#30090"
+   ]
+  },
+  {
+   "t": 1794880536.0456562,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#27615"
+   },
+   "seconds": 0.00011342699872329831,
+   "returned": [
+    "PowerToys#27615"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10460,
+  "stop_reason": "end_turn",
+  "session_id": "d93334aa-719b-4150-9143-1f5cd2b5f9f9",
+  "total_cost_usd": 0.050253400000000004,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 9781,
+   "cache_read_input_tokens": 10574,
+   "output_tokens": 1006,
+   "output_tokens_details": {
+    "thinking_tokens": 156
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9781,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 625,
+     "cache_read_input_tokens": 7260,
+     "cache_creation_input_tokens": 3698,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3698
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 1006,
+    "cacheReadInputTokens": 10574,
+    "cacheCreationInputTokens": 9781,
+    "webSearchRequests": 0,
+    "costUSD": 0.050253400000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 156,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9781,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#30090\", \"PowerToys#27615\", \"PowerToys#9285\"], \"answer\": \"This has been reported before. In the archived tickets, zones show as soon as you drag a window when 'Hold Shift key to activate zones while dragging' is off, even if 'Use a non-primary mouse button to toggle zone activation' is on. Pressing the non-primary button then switches the zones off, which is the reversed behaviour you describe. PowerToys#9285 was answered as by design. The activation options work independently. With Shift off and the mouse option on, the mouse button only toggles whatever state zones start in, and the zones start on. The docs say zones appear immediately when both options are cleared. PowerToys#30090 and PowerToys#27615 report the same behaviour, and neither has a fix. In PowerToys#30090 the original reporter said changing the settings resolved it. In that ticket, FancyZones seemed to remember the toggle state from the last non-primary click. A workaround is to turn 'Hold Shift key to activate zones while dragging' back on, and use the mouse button as well if you want it. Another is to click the non-primary button once during a drag to reset the toggle. PowerToys#30090 also links a separate issue, #39104, with a possible explanation and workaround. PowerToys#25062 and PowerToys#33537 request an option for zones to start toggled off, so you could follow those. I did not open them, and I don't know whether they are fixed.\"}",
+  "ttft_ms": 2113,
+  "type": "result",
+  "duration_ms": 10622,
+  "uuid": "5b8d607b-d4fb-4119-b7ae-67df245daae6",
+  "ttft_stream_ms": 1198,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 1198,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 1006,
+    "cacheReadInputTokens": 10574,
+    "cacheCreationInputTokens": 9781,
+    "webSearchRequests": 0,
+    "costUSD": 0.050253400000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 156,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9781,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.781426989997271,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-pn3l_6gf/work"
+  }
+ },
+ "wall_seconds": 11.783377869025571,
+ "qid": "PowerToys#49967",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#30090",
+   "PowerToys#27615",
+   "PowerToys#9285"
+  ],
+  "answer": "This has been reported before. In the archived tickets, zones show as soon as you drag a window when 'Hold Shift key to activate zones while dragging' is off, even if 'Use a non-primary mouse button to toggle zone activation' is on. Pressing the non-primary button then switches the zones off, which is the reversed behaviour you describe. PowerToys#9285 was answered as by design. The activation options work independently. With Shift off and the mouse option on, the mouse button only toggles whatever state zones start in, and the zones start on. The docs say zones appear immediately when both options are cleared. PowerToys#30090 and PowerToys#27615 report the same behaviour, and neither has a fix. In PowerToys#30090 the original reporter said changing the settings resolved it. In that ticket, FancyZones seemed to remember the toggle state from the last non-primary click. A workaround is to turn 'Hold Shift key to activate zones while dragging' back on, and use the mouse button as well if you want it. Another is to click the non-primary button once during a drag to reset the toggle. PowerToys#30090 also links a separate issue, #39104, with a possible explanation and workaround. PowerToys#25062 and PowerToys#33537 request an option for zones to start toggled off, so you could follow those. I did not open them, and I don't know whether they are fixed."
+ },
+ "hit_turn_cap": false
+}

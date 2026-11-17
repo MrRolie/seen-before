@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#29978",
+  "PowerToys#29984",
+  "PowerToys#14984",
+  "PowerToys#37470",
+  "PowerToys#25238"
+ ],
+ "retrieval_seconds": 0.015476843022042885,
+ "retrieval_scores": [
+  0.6689448952674866,
+  0.6293594837188721,
+  0.6102055311203003,
+  0.5851351022720337,
+  0.5758203268051147
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 6089,
+  "stop_reason": "end_turn",
+  "session_id": "563072c9-4700-45d5-8397-18e231da6523",
+  "total_cost_usd": 0.020004,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3535,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 586,
+   "output_tokens_details": {
+    "thinking_tokens": 282
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3535,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 586,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3535,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3535
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 586,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3535,
+    "webSearchRequests": 0,
+    "costUSD": 0.020004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 282,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3535,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket reporting this exact problem, where an Alt (Right) + è shortcut mapped to a square bracket just types è. The closest ones are different. PowerToys#29978 is about not being able to pick [ or ] in the Keyboard Manager editor on non-US layouts. PowerToys#29984 is about Alt Gr breaking after Ctrl and Alt were swapped. Neither describes your case, so please keep this ticket open as a new report. Please add your keyboard layout (it looks Italian), the exact mapping as shown in Keyboard Manager, and whether it behaves differently with the Left Alt key or a different target key. Attaching the PowerToys bug report ZIP would also help. Note that on many European layouts Alt (Right) is treated as Ctrl+Alt (AltGr), which may interfere with the shortcut.\"}",
+  "ttft_ms": 3645,
+  "type": "result",
+  "duration_ms": 6258,
+  "uuid": "f2fa6a13-414b-4403-97dd-211eff1d13d3",
+  "ttft_stream_ms": 1359,
+  "time_to_request_ms": 168,
+  "first_content_frame_ms": 1359,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 586,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3535,
+    "webSearchRequests": 0,
+    "costUSD": 0.020004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 282,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3535,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 7.015057792013977,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-w_x8eqx_/work"
+  }
+ },
+ "wall_seconds": 7.032027356006438,
+ "qid": "PowerToys#49452",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket reporting this exact problem, where an Alt (Right) + è shortcut mapped to a square bracket just types è. The closest ones are different. PowerToys#29978 is about not being able to pick [ or ] in the Keyboard Manager editor on non-US layouts. PowerToys#29984 is about Alt Gr breaking after Ctrl and Alt were swapped. Neither describes your case, so please keep this ticket open as a new report. Please add your keyboard layout (it looks Italian), the exact mapping as shown in Keyboard Manager, and whether it behaves differently with the Left Alt key or a different target key. Attaching the PowerToys bug report ZIP would also help. Note that on many European layouts Alt (Right) is treated as Ctrl+Alt (AltGr), which may interfere with the shortcut."
+ },
+ "hit_turn_cap": false
+}

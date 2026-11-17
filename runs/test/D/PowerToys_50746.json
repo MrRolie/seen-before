@@ -1,0 +1,404 @@
+{
+ "shown": [
+  "PowerToys#112",
+  "PowerToys#11416",
+  "PowerToys#11703",
+  "PowerToys#14",
+  "PowerToys#2015",
+  "PowerToys#22579",
+  "PowerToys#22580",
+  "PowerToys#25197",
+  "PowerToys#26",
+  "PowerToys#27138",
+  "PowerToys#29704",
+  "PowerToys#30625",
+  "PowerToys#31626",
+  "PowerToys#31996",
+  "PowerToys#32467",
+  "PowerToys#3422",
+  "PowerToys#3531",
+  "PowerToys#35604",
+  "PowerToys#3857",
+  "PowerToys#40337",
+  "PowerToys#46337",
+  "PowerToys#46552",
+  "PowerToys#4657",
+  "PowerToys#5208",
+  "PowerToys#5457",
+  "PowerToys#5892",
+  "PowerToys#7588",
+  "PowerToys#78",
+  "PowerToys#7970",
+  "PowerToys#8467",
+  "PowerToys#8993"
+ ],
+ "retrieval_seconds": 4.182946127984906,
+ "tool_calls": [
+  {
+   "t": 1794883201.4971082,
+   "tool": "search",
+   "args": {
+    "pattern": "robocopy",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.047231553005985916,
+   "returned": [
+    "PowerToys#26",
+    "PowerToys#29704",
+    "PowerToys#5892",
+    "PowerToys#40337",
+    "PowerToys#31626",
+    "PowerToys#3857",
+    "PowerToys#46552",
+    "PowerToys#46337",
+    "PowerToys#35604",
+    "PowerToys#32467",
+    "PowerToys#27138",
+    "PowerToys#11703",
+    "PowerToys#11416",
+    "PowerToys#7588",
+    "PowerToys#3531"
+   ]
+  },
+  {
+   "t": 1794883205.9758668,
+   "tool": "similar",
+   "args": {
+    "query": "Explorer context menu fast multi-threaded copy paste using Robocopy",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.9414963769959286,
+   "returned": [
+    "PowerToys#8467",
+    "PowerToys#112",
+    "PowerToys#31996",
+    "PowerToys#78",
+    "PowerToys#5208",
+    "PowerToys#25197",
+    "PowerToys#3857",
+    "PowerToys#14",
+    "PowerToys#7970",
+    "PowerToys#22579",
+    "PowerToys#30625",
+    "PowerToys#5457",
+    "PowerToys#3422",
+    "PowerToys#22580",
+    "PowerToys#2015",
+    "PowerToys#4657",
+    "PowerToys#26",
+    "PowerToys#31626",
+    "PowerToys#29704",
+    "PowerToys#8993"
+   ]
+  },
+  {
+   "t": 1794883207.7693062,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#31626"
+   },
+   "seconds": 0.00014262599870562553,
+   "returned": [
+    "PowerToys#31626"
+   ]
+  },
+  {
+   "t": 1794883207.8922305,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#26"
+   },
+   "seconds": 0.00016716500977054238,
+   "returned": [
+    "PowerToys#26"
+   ]
+  },
+  {
+   "t": 1794883209.5474977,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#29704"
+   },
+   "seconds": 0.00016715499805286527,
+   "returned": [
+    "PowerToys#29704"
+   ]
+  },
+  {
+   "t": 1794883211.2039804,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#5892"
+   },
+   "seconds": 0.00025422198814339936,
+   "returned": [
+    "PowerToys#5892"
+   ]
+  },
+  {
+   "t": 1794883212.8990946,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40337"
+   },
+   "seconds": 0.00013920600758865476,
+   "returned": [
+    "PowerToys#40337"
+   ]
+  },
+  {
+   "t": 1794883216.6457586,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#7588"
+   },
+   "seconds": 0.0003013219975400716,
+   "returned": [
+    "PowerToys#7588"
+   ]
+  },
+  {
+   "t": 1794883218.252499,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#3857"
+   },
+   "seconds": 0.0002557929838076234,
+   "returned": [
+    "PowerToys#3857"
+   ]
+  },
+  {
+   "t": 1794883220.0665226,
+   "tool": "search",
+   "args": {
+    "pattern": "RoboPaste",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06304850400192663,
+   "returned": []
+  },
+  {
+   "t": 1794883221.5081494,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#11416"
+   },
+   "seconds": 0.00011878600344061852,
+   "returned": [
+    "PowerToys#11416"
+   ]
+  },
+  {
+   "t": 1794883225.2272985,
+   "tool": "search",
+   "args": {
+    "pattern": "robocopy",
+    "regex": false,
+    "also": [
+     "/dup"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.12962341899401508,
+   "returned": [
+    "PowerToys#29704",
+    "PowerToys#40337",
+    "PowerToys#31626",
+    "PowerToys#35604",
+    "PowerToys#27138"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 26835,
+  "stop_reason": "end_turn",
+  "session_id": "e1a924c1-5d01-4aad-b398-fc1121d27b3e",
+  "total_cost_usd": 0.0828629,
+  "usage": {
+   "input_tokens": 26,
+   "cache_creation_input_tokens": 13295,
+   "cache_read_input_tokens": 138509,
+   "output_tokens": 1578,
+   "output_tokens_details": {
+    "thinking_tokens": 176
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13295,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 465,
+     "cache_read_input_tokens": 13962,
+     "cache_creation_input_tokens": 746,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 746
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 26,
+    "outputTokens": 1578,
+    "cacheReadInputTokens": 138509,
+    "cacheCreationInputTokens": 13295,
+    "webSearchRequests": 0,
+    "costUSD": 0.0828629,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 176,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13295,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've checked the archive and I'm about to send the answer.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#26\", \"PowerToys#31626\", \"PowerToys#29704\"], \"answer\": \"This request has been made before. The maintainers track it in PowerToys#26 (\\\"SyncToy and Robocopy\\\"). They closed the later Robocopy requests as duplicates of it: #31626 (Robocopy right-click menu), #29704 (Robocopy GUI), #40337 and others. Nothing in those tickets says it will be built, and no feature like it exists today. Add a 👍 reaction and your use cases (multithreaded /MT copy, /MIR sync, a progress UI and an Explorer context menu) to #26. Until then, run robocopy.exe from a terminal, or use a third-party Robocopy GUI. One was suggested in #29704.\"}",
+  "ttft_ms": 1548,
+  "type": "result",
+  "duration_ms": 31144,
+  "uuid": "4b1efe79-553e-42d5-868a-002abdfc3c3b",
+  "ttft_stream_ms": 1115,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 1115,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 26,
+    "outputTokens": 1578,
+    "cacheReadInputTokens": 138509,
+    "cacheCreationInputTokens": 13295,
+    "webSearchRequests": 0,
+    "costUSD": 0.0828629,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 176,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13295,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 32.49666181000066,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ocyzh_ej/work"
+  }
+ },
+ "wall_seconds": 32.49951547602541,
+ "qid": "PowerToys#50746",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#26",
+   "PowerToys#31626",
+   "PowerToys#29704"
+  ],
+  "answer": "This request has been made before. The maintainers track it in PowerToys#26 (\"SyncToy and Robocopy\"). They closed the later Robocopy requests as duplicates of it: #31626 (Robocopy right-click menu), #29704 (Robocopy GUI), #40337 and others. Nothing in those tickets says it will be built, and no feature like it exists today. Add a 👍 reaction and your use cases (multithreaded /MT copy, /MIR sync, a progress UI and an Explorer context menu) to #26. Until then, run robocopy.exe from a terminal, or use a third-party Robocopy GUI. One was suggested in #29704."
+ },
+ "hit_turn_cap": false
+}

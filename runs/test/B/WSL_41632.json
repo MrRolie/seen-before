@@ -1,0 +1,261 @@
+{
+ "shown": [
+  "WSL#12566",
+  "WSL#12596",
+  "WSL#12602",
+  "WSL#14536",
+  "WSL#40488",
+  "WSL#40616",
+  "WSL#40683",
+  "WSL#40762",
+  "WSL#40808",
+  "WSL#40938"
+ ],
+ "retrieval_seconds": 0.05281972803641111,
+ "tool_calls": [
+  {
+   "t": 1794882962.3357089,
+   "tool": "search",
+   "args": {
+    "pattern": "CreateVm/HCS/ERROR_FILE_NOT_FOUND",
+    "regex": false,
+    "also": null,
+    "repo": "WSL"
+   },
+   "seconds": 0.027081553998868912,
+   "returned": [
+    "WSL#40488",
+    "WSL#40762",
+    "WSL#40808",
+    "WSL#12596",
+    "WSL#12566",
+    "WSL#40616",
+    "WSL#40938",
+    "WSL#40683",
+    "WSL#14536",
+    "WSL#12602"
+   ]
+  },
+  {
+   "t": 1794882962.3817546,
+   "tool": "search",
+   "args": {
+    "pattern": "2.7.14",
+    "regex": false,
+    "also": null,
+    "repo": "WSL"
+   },
+   "seconds": 0.025028047006344423,
+   "returned": [
+    "WSL#40488"
+   ]
+  },
+  {
+   "t": 1794882963.7700465,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#40488"
+   },
+   "seconds": 0.0002563120215199888,
+   "returned": [
+    "WSL#40488"
+   ]
+  },
+  {
+   "t": 1794882963.9102526,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#40762"
+   },
+   "seconds": 0.00045381500967778265,
+   "returned": [
+    "WSL#40762"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7895,
+  "stop_reason": "end_turn",
+  "session_id": "636ce0fe-f4d1-46e7-aff6-2d02306234f1",
+  "total_cost_usd": 0.0538882,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 11462,
+   "cache_read_input_tokens": 8082,
+   "output_tokens": 722,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11462,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 424,
+     "cache_read_input_tokens": 4785,
+     "cache_creation_input_tokens": 7854,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7854
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 722,
+    "cacheReadInputTokens": 8082,
+    "cacheCreationInputTokens": 11462,
+    "webSearchRequests": 0,
+    "costUSD": 0.0538882,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11462,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"WSL#40488\", \"WSL#40762\"], \"answer\": \"This has been reported before. The WSL MSI upgrade fails to replace the system VHDs (system.vhd and modules.vhd under C:\\\\Program Files\\\\WSL). WSL2 then fails with Wsl/Service/CreateInstance/CreateVm/HCS/ERROR_FILE_NOT_FOUND. Your distro data is safe. The fix in 2.9.3 was backported to 2.7.14, but it only helps when you update from a version that already has the fix. Because you updated from a broken version, the 2.7.14 installer didn't repair it.\\n\\nWhat to do:\\n1. Download the current MSI (wsl.2.7.14.0.x64.msi) from the WSL releases page.\\n2. Right-click the file, choose Show more options, then Repair. Don't just run it as an install. The Repair option in Windows Settings > System Components did not help in the past tickets.\\n3. Close Docker Desktop and VS Code first.\\n4. If that doesn't work, do what you already did and roll back to 2.7.13. Some users in these tickets rolled back to 2.6.3.\\n\\nAfter you are on a fixed version, later updates should work.\"}",
+  "ttft_ms": 2116,
+  "type": "result",
+  "duration_ms": 8033,
+  "uuid": "b557db52-30a0-4545-a2be-16f9f8c4f86b",
+  "ttft_stream_ms": 1251,
+  "time_to_request_ms": 33,
+  "first_content_frame_ms": 1251,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 722,
+    "cacheReadInputTokens": 8082,
+    "cacheCreationInputTokens": 11462,
+    "webSearchRequests": 0,
+    "costUSD": 0.0538882,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11462,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 9.414355551998597,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-nfmj3a03/work"
+  }
+ },
+ "wall_seconds": 9.41632215201389,
+ "qid": "WSL#41632",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "WSL#40488",
+   "WSL#40762"
+  ],
+  "answer": "This has been reported before. The WSL MSI upgrade fails to replace the system VHDs (system.vhd and modules.vhd under C:\\Program Files\\WSL). WSL2 then fails with Wsl/Service/CreateInstance/CreateVm/HCS/ERROR_FILE_NOT_FOUND. Your distro data is safe. The fix in 2.9.3 was backported to 2.7.14, but it only helps when you update from a version that already has the fix. Because you updated from a broken version, the 2.7.14 installer didn't repair it.\n\nWhat to do:\n1. Download the current MSI (wsl.2.7.14.0.x64.msi) from the WSL releases page.\n2. Right-click the file, choose Show more options, then Repair. Don't just run it as an install. The Repair option in Windows Settings > System Components did not help in the past tickets.\n3. Close Docker Desktop and VS Code first.\n4. If that doesn't work, do what you already did and roll back to 2.7.13. Some users in these tickets rolled back to 2.6.3.\n\nAfter you are on a fixed version, later updates should work."
+ },
+ "hit_turn_cap": false
+}

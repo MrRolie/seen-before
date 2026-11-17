@@ -1,0 +1,343 @@
+{
+ "shown": [
+  "PowerToys#20077",
+  "PowerToys#25010",
+  "PowerToys#25860",
+  "PowerToys#26801",
+  "PowerToys#28769",
+  "PowerToys#31572",
+  "PowerToys#35412",
+  "PowerToys#36101",
+  "PowerToys#36502",
+  "PowerToys#36878",
+  "PowerToys#3737",
+  "PowerToys#38530",
+  "PowerToys#39856",
+  "PowerToys#45201",
+  "PowerToys#46201",
+  "PowerToys#46270",
+  "PowerToys#46299",
+  "PowerToys#46326",
+  "PowerToys#46431",
+  "PowerToys#46555",
+  "PowerToys#46587",
+  "PowerToys#46705",
+  "PowerToys#47080",
+  "PowerToys#47966",
+  "PowerToys#48225",
+  "PowerToys#48254",
+  "PowerToys#48530",
+  "PowerToys#48914",
+  "PowerToys#48986",
+  "PowerToys#49025"
+ ],
+ "retrieval_seconds": 0.38210429894388653,
+ "tool_calls": [
+  {
+   "t": 1794879242.5389876,
+   "tool": "search",
+   "args": {
+    "pattern": "dock bookmark",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05271698901196942,
+   "returned": []
+  },
+  {
+   "t": 1794879242.991963,
+   "tool": "search",
+   "args": {
+    "pattern": "dock pin band invisible",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.047379803989315405,
+   "returned": []
+  },
+  {
+   "t": 1794879244.6195655,
+   "tool": "search",
+   "args": {
+    "pattern": "band",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04260046299896203,
+   "returned": [
+    "PowerToys#28769",
+    "PowerToys#46555",
+    "PowerToys#45201",
+    "PowerToys#26801",
+    "PowerToys#46705",
+    "PowerToys#46326",
+    "PowerToys#31572",
+    "PowerToys#36101",
+    "PowerToys#25860",
+    "PowerToys#36502",
+    "PowerToys#35412",
+    "PowerToys#3737",
+    "PowerToys#46201",
+    "PowerToys#39856",
+    "PowerToys#36878",
+    "PowerToys#25010",
+    "PowerToys#20077",
+    "PowerToys#48986",
+    "PowerToys#48225",
+    "PowerToys#47966"
+   ]
+  },
+  {
+   "t": 1794879246.0147839,
+   "tool": "search",
+   "args": {
+    "pattern": "pin to dock",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.062084998993668705,
+   "returned": [
+    "PowerToys#46299",
+    "PowerToys#47080",
+    "PowerToys#46431",
+    "PowerToys#49025",
+    "PowerToys#48254",
+    "PowerToys#46587",
+    "PowerToys#46201",
+    "PowerToys#45201"
+   ]
+  },
+  {
+   "t": 1794879247.25768,
+   "tool": "search",
+   "args": {
+    "pattern": "bookmark",
+    "regex": false,
+    "also": [
+     "dock",
+     "icon"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.17704199298168533,
+   "returned": [
+    "PowerToys#46270",
+    "PowerToys#48530",
+    "PowerToys#49025",
+    "PowerToys#48914",
+    "PowerToys#45201",
+    "PowerToys#38530"
+   ]
+  },
+  {
+   "t": 1794879248.115349,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#49025"
+   },
+   "seconds": 0.00012092597899027169,
+   "returned": [
+    "PowerToys#49025"
+   ]
+  },
+  {
+   "t": 1794879250.6994698,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48914"
+   },
+   "seconds": 0.00015912498929537833,
+   "returned": [
+    "PowerToys#48914"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10945,
+  "stop_reason": "end_turn",
+  "session_id": "596d1520-8251-4914-9631-f09ff97b1626",
+  "total_cost_usd": 0.054114800000000005,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 9746,
+   "cache_read_input_tokens": 37728,
+   "output_tokens": 1133,
+   "output_tokens_details": {
+    "thinking_tokens": 89
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9746,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 232,
+     "cache_read_input_tokens": 9663,
+     "cache_creation_input_tokens": 1260,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1260
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1133,
+    "cacheReadInputTokens": 37728,
+    "cacheCreationInputTokens": 9746,
+    "webSearchRequests": 0,
+    "costUSD": 0.054114800000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 89,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9746,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#49025\"], \"answer\": \"This has been reported before. In PowerToys#49025, also on 0.100.2, bookmarks show a blank icon and title in the Dock's \\\"+\\\" (add band) list. That ticket says the entries are still there, just not displayed. If you select the blank entry, the bookmark is added to the dock and its icon and title then show up correctly. So as a workaround, click the blank entry in the \\\"+\\\" list to pin it. The ticket records no fix, so watch it for updates. PowerToys#48914 mentions a related problem: after 0.100.2, bookmarks pinned from Command Palette didn't appear on the dock.\"}",
+  "ttft_ms": 899,
+  "type": "result",
+  "duration_ms": 11334,
+  "uuid": "8c5e8868-8629-4453-93c7-d7260d20415b",
+  "ttft_stream_ms": 542,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 543,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1133,
+    "cacheReadInputTokens": 37728,
+    "cacheCreationInputTokens": 9746,
+    "webSearchRequests": 0,
+    "costUSD": 0.054114800000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 89,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9746,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.771184084005654,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-lbzbjth3/work"
+  }
+ },
+ "wall_seconds": 12.77306859899545,
+ "qid": "PowerToys#49621",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#49025"
+  ],
+  "answer": "This has been reported before. In PowerToys#49025, also on 0.100.2, bookmarks show a blank icon and title in the Dock's \"+\" (add band) list. That ticket says the entries are still there, just not displayed. If you select the blank entry, the bookmark is added to the dock and its icon and title then show up correctly. So as a workaround, click the blank entry in the \"+\" list to pin it. The ticket records no fix, so watch it for updates. PowerToys#48914 mentions a related problem: after 0.100.2, bookmarks pinned from Command Palette didn't appear on the dock."
+ },
+ "hit_turn_cap": false
+}

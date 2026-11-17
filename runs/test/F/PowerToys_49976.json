@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#48640",
+  "PowerToys#31539",
+  "PowerToys#28280",
+  "PowerToys#48450",
+  "PowerToys#29434"
+ ],
+ "retrieval_seconds": 0.5964140980213415,
+ "retrieval_scores": [
+  0.027598020555767037,
+  0.027212143650499815,
+  0.026419626007891578,
+  0.02547482665058788,
+  0.02502638323533846
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3400,
+  "stop_reason": "end_turn",
+  "session_id": "24fab0d9-c277-449c-bad1-1f23620053ef",
+  "total_cost_usd": 0.036274,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 8085,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 393,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8085,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 393,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 8085,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 8085
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 393,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 8085,
+    "webSearchRequests": 0,
+    "costUSD": 0.036274,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8085,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"None of the archived tickets reports this exact problem: mouse clicks stop working for about 5 minutes after roughly 4 hours of running, in some games, while the keyboard still works. The closest tickets describe different symptoms: a cursor trapped on an external monitor (PowerToys#48640), jittery remote mouse movement (PowerToys#31539), a crash that left the cursor nearly unusable (PowerToys#28280), keyboard input dropping (PowerToys#48450), and Alt+Tab popping up (PowerToys#29434). Since the archive has no fix for this, please file it as a new issue and attach a Report Bug ZIP, which you can create by right-clicking the PowerToys tray icon and choosing Report Bug. In it, include the game name and whether the issue occurs only while Mouse Without Borders is running. Also include whether PowerToys is running as administrator on both machines. As a possible workaround suggested by the similar tickets, try clicking Apply or refreshing the connections in Mouse Without Borders, or disabling and re-enabling it, when the clicks stop working. This is not confirmed for your case.\"}",
+  "ttft_ms": 3543,
+  "type": "result",
+  "duration_ms": 3559,
+  "uuid": "059ba760-77eb-4639-b149-59f159f4636a",
+  "ttft_stream_ms": 726,
+  "time_to_request_ms": 157,
+  "first_content_frame_ms": 727,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 393,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 8085,
+    "webSearchRequests": 0,
+    "costUSD": 0.036274,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8085,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.450193223019596,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-omcs0c35/work"
+  }
+ },
+ "wall_seconds": 5.0485790990060195,
+ "qid": "PowerToys#49976",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "None of the archived tickets reports this exact problem: mouse clicks stop working for about 5 minutes after roughly 4 hours of running, in some games, while the keyboard still works. The closest tickets describe different symptoms: a cursor trapped on an external monitor (PowerToys#48640), jittery remote mouse movement (PowerToys#31539), a crash that left the cursor nearly unusable (PowerToys#28280), keyboard input dropping (PowerToys#48450), and Alt+Tab popping up (PowerToys#29434). Since the archive has no fix for this, please file it as a new issue and attach a Report Bug ZIP, which you can create by right-clicking the PowerToys tray icon and choosing Report Bug. In it, include the game name and whether the issue occurs only while Mouse Without Borders is running. Also include whether PowerToys is running as administrator on both machines. As a possible workaround suggested by the similar tickets, try clicking Apply or refreshing the connections in Mouse Without Borders, or disabling and re-enabling it, when the clicks stop working. This is not confirmed for your case."
+ },
+ "hit_turn_cap": false
+}

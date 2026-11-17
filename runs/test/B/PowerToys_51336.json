@@ -1,0 +1,369 @@
+{
+ "shown": [
+  "PowerToys#112",
+  "PowerToys#13237",
+  "PowerToys#143",
+  "PowerToys#15855",
+  "PowerToys#19041",
+  "PowerToys#20451",
+  "PowerToys#22117",
+  "PowerToys#23186",
+  "PowerToys#25520",
+  "PowerToys#25595",
+  "PowerToys#25778",
+  "PowerToys#26182",
+  "PowerToys#26635",
+  "PowerToys#2682",
+  "PowerToys#28469",
+  "PowerToys#28919",
+  "PowerToys#29580",
+  "PowerToys#30857",
+  "PowerToys#3194",
+  "PowerToys#32022",
+  "PowerToys#32279",
+  "PowerToys#32360",
+  "PowerToys#3245",
+  "PowerToys#3383",
+  "PowerToys#34084",
+  "PowerToys#36169",
+  "PowerToys#36351",
+  "PowerToys#3703",
+  "PowerToys#37715",
+  "PowerToys#40085",
+  "PowerToys#4197",
+  "PowerToys#42032",
+  "PowerToys#459",
+  "PowerToys#47614",
+  "PowerToys#47637",
+  "PowerToys#47678",
+  "PowerToys#5668",
+  "PowerToys#5944",
+  "PowerToys#8876",
+  "PowerToys#9054",
+  "PowerToys#9108"
+ ],
+ "retrieval_seconds": 0.24874053202802315,
+ "tool_calls": [
+  {
+   "t": 1794884307.1263418,
+   "tool": "search",
+   "args": {
+    "pattern": "macro",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.083299463003641,
+   "returned": [
+    "PowerToys#25595",
+    "PowerToys#29580",
+    "PowerToys#3245",
+    "PowerToys#47614",
+    "PowerToys#3383",
+    "PowerToys#26182",
+    "PowerToys#5668",
+    "PowerToys#32022",
+    "PowerToys#28919",
+    "PowerToys#25778",
+    "PowerToys#19041",
+    "PowerToys#4197",
+    "PowerToys#3703",
+    "PowerToys#36169",
+    "PowerToys#34084",
+    "PowerToys#3194",
+    "PowerToys#2682",
+    "PowerToys#37715",
+    "PowerToys#25520",
+    "PowerToys#20451"
+   ]
+  },
+  {
+   "t": 1794884307.2353294,
+   "tool": "search",
+   "args": {
+    "pattern": "record keystrokes",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.08077968101133592,
+   "returned": [
+    "PowerToys#47637"
+   ]
+  },
+  {
+   "t": 1794884308.8060052,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47614"
+   },
+   "seconds": 0.001278976007597521,
+   "returned": [
+    "PowerToys#47614"
+   ]
+  },
+  {
+   "t": 1794884309.017244,
+   "tool": "search",
+   "args": {
+    "pattern": "recorder",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.08224136198987253,
+   "returned": [
+    "PowerToys#143",
+    "PowerToys#9054",
+    "PowerToys#8876",
+    "PowerToys#36351",
+    "PowerToys#459",
+    "PowerToys#112",
+    "PowerToys#47614",
+    "PowerToys#32360",
+    "PowerToys#22117",
+    "PowerToys#15855",
+    "PowerToys#13237",
+    "PowerToys#9108",
+    "PowerToys#5944",
+    "PowerToys#47678",
+    "PowerToys#42032",
+    "PowerToys#40085",
+    "PowerToys#32279",
+    "PowerToys#30857",
+    "PowerToys#28469",
+    "PowerToys#26635"
+   ]
+  },
+  {
+   "t": 1794884310.602031,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32279"
+   },
+   "seconds": 0.0003012120141647756,
+   "returned": [
+    "PowerToys#32279"
+   ]
+  },
+  {
+   "t": 1794884310.7392876,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#112"
+   },
+   "seconds": 0.0003923600015696138,
+   "returned": [
+    "PowerToys#112"
+   ]
+  },
+  {
+   "t": 1794884312.3122344,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#23186"
+   },
+   "seconds": 0.0002542629954405129,
+   "returned": [
+    "PowerToys#23186"
+   ]
+  },
+  {
+   "t": 1794884313.757085,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47637"
+   },
+   "seconds": 0.00019321500440128148,
+   "returned": [
+    "PowerToys#47637"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13984,
+  "stop_reason": "end_turn",
+  "session_id": "c06b722e-9506-4c18-9cdc-492846516720",
+  "total_cost_usd": 0.073826,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 14560,
+   "cache_read_input_tokens": 50020,
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "thinking_tokens": 176
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 14560,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 513,
+     "cache_read_input_tokens": 15223,
+     "cache_creation_input_tokens": 514,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 514
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1056,
+    "cacheReadInputTokens": 50020,
+    "cacheCreationInputTokens": 14560,
+    "webSearchRequests": 0,
+    "costUSD": 0.073826,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 176,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14560,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've finished checking the archive and am writing up the result.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#32279\", \"PowerToys#23186\", \"PowerToys#112\"], \"answer\": \"This macro recorder request has been filed before. The closest tickets are #32279 (record and play back keyboard and mouse actions), #23186 (Windows GUI macro/automation) and #112 (Macro Recorder or Automator UI). PowerToys has no macro recorder today. The team's recommendation in those tickets is Power Automate Desktop, which is built into Windows. It can record and edit UI and keystroke flows, and it can target a specific app or run independently of one. AutoIt and AutoHotkey are other options that people suggested. A related proposal, #47614, suggests a new Macro utility for PowerToys with hotkey-triggered, editable step sequences and per-app scoping. Its first version would have no recorder. You can follow that ticket or add a thumbs-up to the existing requests instead of filing a new one.\"}",
+  "ttft_ms": 2199,
+  "type": "result",
+  "duration_ms": 14382,
+  "uuid": "9c1cea7c-8a98-4056-b8af-4f14fe66c805",
+  "ttft_stream_ms": 1390,
+  "time_to_request_ms": 43,
+  "first_content_frame_ms": 1390,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1056,
+    "cacheReadInputTokens": 50020,
+    "cacheCreationInputTokens": 14560,
+    "webSearchRequests": 0,
+    "costUSD": 0.073826,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 176,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14560,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.691227835020982,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-wckm3os6/work"
+  }
+ },
+ "wall_seconds": 15.69355130297481,
+ "qid": "PowerToys#51336",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#32279",
+   "PowerToys#23186",
+   "PowerToys#112"
+  ],
+  "answer": "This macro recorder request has been filed before. The closest tickets are #32279 (record and play back keyboard and mouse actions), #23186 (Windows GUI macro/automation) and #112 (Macro Recorder or Automator UI). PowerToys has no macro recorder today. The team's recommendation in those tickets is Power Automate Desktop, which is built into Windows. It can record and edit UI and keystroke flows, and it can target a specific app or run independently of one. AutoIt and AutoHotkey are other options that people suggested. A related proposal, #47614, suggests a new Macro utility for PowerToys with hotkey-triggered, editable step sequences and per-app scoping. Its first version would have no recorder. You can follow that ticket or add a thumbs-up to the existing requests instead of filing a new one."
+ },
+ "hit_turn_cap": false
+}

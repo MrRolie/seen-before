@@ -1,0 +1,383 @@
+{
+ "shown": [
+  "PowerToys#31226",
+  "PowerToys#36451",
+  "PowerToys#37094",
+  "PowerToys#37841",
+  "PowerToys#37859",
+  "PowerToys#38002",
+  "PowerToys#39076",
+  "PowerToys#39098",
+  "PowerToys#42205",
+  "PowerToys#42217",
+  "PowerToys#42256",
+  "PowerToys#42423",
+  "PowerToys#42556",
+  "PowerToys#42623",
+  "PowerToys#42866",
+  "PowerToys#43111",
+  "PowerToys#43189",
+  "PowerToys#43232",
+  "PowerToys#43633",
+  "PowerToys#44308",
+  "PowerToys#44418",
+  "PowerToys#44670",
+  "PowerToys#44991",
+  "PowerToys#45056",
+  "PowerToys#45214",
+  "PowerToys#45219",
+  "PowerToys#45463",
+  "PowerToys#45578",
+  "PowerToys#45603",
+  "PowerToys#45850",
+  "PowerToys#45926",
+  "PowerToys#46443",
+  "PowerToys#46873",
+  "PowerToys#46888",
+  "PowerToys#47183",
+  "PowerToys#47244",
+  "PowerToys#47448",
+  "PowerToys#47605",
+  "PowerToys#47648",
+  "PowerToys#48032",
+  "PowerToys#48097",
+  "PowerToys#48240",
+  "PowerToys#48242",
+  "PowerToys#48285",
+  "PowerToys#48289",
+  "PowerToys#48357",
+  "PowerToys#48475",
+  "PowerToys#48545"
+ ],
+ "retrieval_seconds": 0.18234191893134266,
+ "tool_calls": [
+  {
+   "t": 1794878330.087361,
+   "tool": "search",
+   "args": {
+    "pattern": "SetupDefaultValueConverter",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05064609998953529,
+   "returned": [
+    "PowerToys#37859",
+    "PowerToys#46873",
+    "PowerToys#45056",
+    "PowerToys#42423",
+    "PowerToys#37841",
+    "PowerToys#48097",
+    "PowerToys#48032",
+    "PowerToys#47648",
+    "PowerToys#47448",
+    "PowerToys#47244",
+    "PowerToys#46888",
+    "PowerToys#45926",
+    "PowerToys#45603",
+    "PowerToys#45463",
+    "PowerToys#45219",
+    "PowerToys#44991",
+    "PowerToys#44670",
+    "PowerToys#44418",
+    "PowerToys#44308",
+    "PowerToys#43633"
+   ]
+  },
+  {
+   "t": 1794878330.1782777,
+   "tool": "search",
+   "args": {
+    "pattern": "OnSystemThemeChanged",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06467898999108002,
+   "returned": [
+    "PowerToys#31226",
+    "PowerToys#36451",
+    "PowerToys#46443",
+    "PowerToys#48357",
+    "PowerToys#45578",
+    "PowerToys#43232",
+    "PowerToys#48545",
+    "PowerToys#48475",
+    "PowerToys#48289",
+    "PowerToys#48285",
+    "PowerToys#48242",
+    "PowerToys#45214",
+    "PowerToys#43189",
+    "PowerToys#43111",
+    "PowerToys#39098",
+    "PowerToys#38002",
+    "PowerToys#37859",
+    "PowerToys#37094",
+    "PowerToys#48240",
+    "PowerToys#47605"
+   ]
+  },
+  {
+   "t": 1794878332.0644622,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37859"
+   },
+   "seconds": 0.0001311959931626916,
+   "returned": [
+    "PowerToys#37859"
+   ]
+  },
+  {
+   "t": 1794878332.2303271,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46873"
+   },
+   "seconds": 0.0001284669851884246,
+   "returned": [
+    "PowerToys#46873"
+   ]
+  },
+  {
+   "t": 1794878333.6294072,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45219"
+   },
+   "seconds": 0.0001087469863705337,
+   "returned": [
+    "PowerToys#45219"
+   ]
+  },
+  {
+   "t": 1794878335.277365,
+   "tool": "search",
+   "args": {
+    "pattern": "/dup #37859",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0665391219954472,
+   "returned": [
+    "PowerToys#47648",
+    "PowerToys#47183",
+    "PowerToys#46873",
+    "PowerToys#45926",
+    "PowerToys#45850",
+    "PowerToys#45463",
+    "PowerToys#45219",
+    "PowerToys#44991",
+    "PowerToys#44670",
+    "PowerToys#44418",
+    "PowerToys#43633",
+    "PowerToys#42866",
+    "PowerToys#42623",
+    "PowerToys#42556",
+    "PowerToys#42423",
+    "PowerToys#42256",
+    "PowerToys#42217",
+    "PowerToys#42205",
+    "PowerToys#39076"
+   ]
+  },
+  {
+   "t": 1794878337.4740438,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47648"
+   },
+   "seconds": 0.00010929699055850506,
+   "returned": [
+    "PowerToys#47648"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13802,
+  "stop_reason": "end_turn",
+  "session_id": "5b970ab1-7871-47e0-bd3a-6b561dadfa79",
+  "total_cost_usd": 0.1102449,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 23020,
+   "cache_read_input_tokens": 94769,
+   "output_tokens": 866,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 23020,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 317,
+     "cache_read_input_tokens": 24124,
+     "cache_creation_input_tokens": 73,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 73
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 866,
+    "cacheReadInputTokens": 94769,
+    "cacheCreationInputTokens": 23020,
+    "webSearchRequests": 0,
+    "costUSD": 0.1102449,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 23020,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#37859\", \"PowerToys#47648\", \"PowerToys#46873\"], \"answer\": \"This crash has been reported before. The original ticket is PowerToys#37859, and later reports were closed as duplicates of it. It is a NullReferenceException in WPF's SetupDefaultValueConverter. It happens while WPF applies a system theme change, for example when the PC wakes from sleep or hibernation, when displays or a dock change, or when light/dark mode switches automatically. One report (PowerToys#45219) suggested a day/night auto-switch tool may trigger it. The archive tickets give no fix or workaround. The original reporter saw it only once. You can restart PowerToys after the crash dialog, and nothing is lost. Add your log file (2026-07-22.txt) and any details about what triggered it, such as wake from sleep, a theme switch or a monitor change, to PowerToys#37859.\"}",
+  "ttft_ms": 2092,
+  "type": "result",
+  "duration_ms": 14119,
+  "uuid": "44c80d14-dd34-4796-8061-c327e0f72e01",
+  "ttft_stream_ms": 1235,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 1235,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 866,
+    "cacheReadInputTokens": 94769,
+    "cacheCreationInputTokens": 23020,
+    "webSearchRequests": 0,
+    "costUSD": 0.1102449,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 23020,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.479588293004781,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-yff2joc6/work"
+  }
+ },
+ "wall_seconds": 15.481525023991708,
+ "qid": "PowerToys#49449",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#37859",
+   "PowerToys#47648",
+   "PowerToys#46873"
+  ],
+  "answer": "This crash has been reported before. The original ticket is PowerToys#37859, and later reports were closed as duplicates of it. It is a NullReferenceException in WPF's SetupDefaultValueConverter. It happens while WPF applies a system theme change, for example when the PC wakes from sleep or hibernation, when displays or a dock change, or when light/dark mode switches automatically. One report (PowerToys#45219) suggested a day/night auto-switch tool may trigger it. The archive tickets give no fix or workaround. The original reporter saw it only once. You can restart PowerToys after the crash dialog, and nothing is lost. Add your log file (2026-07-22.txt) and any details about what triggered it, such as wake from sleep, a theme switch or a monitor change, to PowerToys#37859."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,35 @@
+{
+ "ripgrep_write_file": {
+  "median_ms": 0.02,
+  "max_ms": 0.08
+ },
+ "ripgrep_build_all_files_seconds": 2.7,
+ "keyword_fts_insert": {
+  "median_ms": 7.02,
+  "max_ms": 69.87
+ },
+ "embedding_add_one": {
+  "median_ms": 11.66,
+  "max_ms": 51.97
+ },
+ "retrain": {
+  "train_pairs_total": 16090,
+  "after_cap": 11200,
+  "val": 560,
+  "train_rows": 10640,
+  "mine_seconds": 12.9,
+  "train_seconds": 1019.5,
+  "total_seconds": 1032.4
+ },
+ "build_from_scratch": {
+  "embedding_index_trained": {
+   "model": "trained",
+   "docs": 66747,
+   "seconds": 344.2
+  },
+  "keyword_index": {
+   "seconds": 7.9,
+   "bytes": 395730944
+  }
+ }
+}

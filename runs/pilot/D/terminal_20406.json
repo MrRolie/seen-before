@@ -1,0 +1,302 @@
+{
+ "shown": [
+  "terminal#1022",
+  "terminal#11037",
+  "terminal#11354",
+  "terminal#1188",
+  "terminal#1198",
+  "terminal#1364",
+  "terminal#14025",
+  "terminal#14164",
+  "terminal#1486",
+  "terminal#1498",
+  "terminal#15216",
+  "terminal#15271",
+  "terminal#15303",
+  "terminal#15364",
+  "terminal#15689",
+  "terminal#17075",
+  "terminal#17076",
+  "terminal#17246",
+  "terminal#19383",
+  "terminal#2238",
+  "terminal#2947",
+  "terminal#3435",
+  "terminal#4059",
+  "terminal#4270",
+  "terminal#437",
+  "terminal#4482",
+  "terminal#6746",
+  "terminal#7804",
+  "terminal#8936",
+  "terminal#9021"
+ ],
+ "retrieval_seconds": 3.6478716989804525,
+ "tool_calls": [
+  {
+   "t": 1794876035.243214,
+   "tool": "search",
+   "args": {
+    "pattern": "drag",
+    "regex": false,
+    "also": [
+     "0xc0000005"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.05733971900190227,
+   "returned": [
+    "terminal#2238",
+    "terminal#17246",
+    "terminal#8936",
+    "terminal#1364",
+    "terminal#19383",
+    "terminal#15364",
+    "terminal#14164",
+    "terminal#14025",
+    "terminal#6746",
+    "terminal#1486",
+    "terminal#437"
+   ]
+  },
+  {
+   "t": 1794876035.775085,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#17246"
+   },
+   "seconds": 0.00024381399271078408,
+   "returned": [
+    "terminal#17246"
+   ]
+  },
+  {
+   "t": 1794876039.3746462,
+   "tool": "similar",
+   "args": {
+    "query": "crash when dragging tab to another window merge, Microsoft.Terminal.Control.dll access violation",
+    "repo": "terminal"
+   },
+   "seconds": 3.590152518998366,
+   "returned": [
+    "terminal#9021",
+    "terminal#17076",
+    "terminal#7804",
+    "terminal#11037",
+    "terminal#4482",
+    "terminal#2947",
+    "terminal#3435",
+    "terminal#15271",
+    "terminal#15303",
+    "terminal#17246",
+    "terminal#4059",
+    "terminal#1198",
+    "terminal#4270",
+    "terminal#17075",
+    "terminal#11354",
+    "terminal#15216",
+    "terminal#15689",
+    "terminal#1022",
+    "terminal#1498",
+    "terminal#1188"
+   ]
+  },
+  {
+   "t": 1794876040.9356089,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19383"
+   },
+   "seconds": 0.00013564698747359216,
+   "returned": [
+    "terminal#19383"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13081,
+  "stop_reason": "end_turn",
+  "session_id": "ab69169c-c75e-4835-aa57-0fa1f17e34aa",
+  "total_cost_usd": 0.0617794,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 12936,
+   "cache_read_input_tokens": 14134,
+   "output_tokens": 861,
+   "output_tokens_details": {
+    "thinking_tokens": 72
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12936,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 512,
+     "cache_read_input_tokens": 9928,
+     "cache_creation_input_tokens": 4421,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4421
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 861,
+    "cacheReadInputTokens": 14134,
+    "cacheCreationInputTokens": 12936,
+    "webSearchRequests": 0,
+    "costUSD": 0.0617794,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 72,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12936,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#19383\", \"terminal#17246\"], \"answer\": \"This crash has been reported before, but I found no fix and no workaround in those tickets. terminal#17246 is the same drag-merge crash with a fault in Microsoft.Terminal.Control.dll. In that ticket, a tab that is torn off or merged is left detached, and a null pointer is dereferenced. Part of that crash takes down the whole process. terminal#19383 is the closest match. It is a WindowsTerminal.exe 0xc0000005 in Microsoft.Terminal.Control.dll when dragging a tab to merge windows. WinDbg put the fault in the render thread, in AtlasEngine::PaintCursor. A later comment there reports the same failure bucket on a newer build. Please add your report to #19383. Include your 1.24.2605.12001 build, the fault offset 0x2c924, and the details about heavy scrollback and the RADAR_PRE_LEAK warning. Don't attach the dump publicly, because it contains scrollback. Tell the maintainers it's available and offer it through a private channel, such as a Feedback Hub upload. As a precaution until it is fixed, avoid dragging tabs between windows. You could also save your work first, or use fewer windows and smaller scrollback.\"}",
+  "ttft_ms": 5774,
+  "type": "result",
+  "duration_ms": 16721,
+  "uuid": "b73b01f5-33e3-4122-9fa3-9eb66eec6bdd",
+  "ttft_stream_ms": 4946,
+  "time_to_request_ms": 37,
+  "first_content_frame_ms": 4946,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 861,
+    "cacheReadInputTokens": 14134,
+    "cacheCreationInputTokens": 12936,
+    "webSearchRequests": 0,
+    "costUSD": 0.0617794,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 72,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12936,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.01108122098958,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-3r47uko2/work"
+  }
+ },
+ "wall_seconds": 18.012916164996568,
+ "qid": "terminal#20406",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#19383",
+   "terminal#17246"
+  ],
+  "answer": "This crash has been reported before, but I found no fix and no workaround in those tickets. terminal#17246 is the same drag-merge crash with a fault in Microsoft.Terminal.Control.dll. In that ticket, a tab that is torn off or merged is left detached, and a null pointer is dereferenced. Part of that crash takes down the whole process. terminal#19383 is the closest match. It is a WindowsTerminal.exe 0xc0000005 in Microsoft.Terminal.Control.dll when dragging a tab to merge windows. WinDbg put the fault in the render thread, in AtlasEngine::PaintCursor. A later comment there reports the same failure bucket on a newer build. Please add your report to #19383. Include your 1.24.2605.12001 build, the fault offset 0x2c924, and the details about heavy scrollback and the RADAR_PRE_LEAK warning. Don't attach the dump publicly, because it contains scrollback. Tell the maintainers it's available and offer it through a private channel, such as a Feedback Hub upload. As a precaution until it is fixed, avoid dragging tabs between windows. You could also save your work first, or use fewer windows and smaller scrollback."
+ },
+ "hit_turn_cap": false
+}

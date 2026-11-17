@@ -1,0 +1,374 @@
+{
+ "shown": [
+  "PowerToys#16424",
+  "PowerToys#16896",
+  "PowerToys#17929",
+  "PowerToys#18015",
+  "PowerToys#39996",
+  "PowerToys#41482",
+  "PowerToys#41918",
+  "PowerToys#46210",
+  "PowerToys#46213",
+  "PowerToys#46388",
+  "PowerToys#46394",
+  "PowerToys#46412",
+  "PowerToys#46430",
+  "PowerToys#46496",
+  "PowerToys#6081",
+  "terminal#10063",
+  "terminal#11279",
+  "terminal#14511",
+  "terminal#15411",
+  "terminal#15455",
+  "terminal#15950",
+  "terminal#16301",
+  "terminal#16660",
+  "terminal#16843",
+  "terminal#17016",
+  "terminal#17230",
+  "terminal#18615",
+  "terminal#4361",
+  "terminal#4428",
+  "terminal#4498",
+  "terminal#9315"
+ ],
+ "retrieval_seconds": 0.573302117001731,
+ "tool_calls": [
+  {
+   "t": 1794884402.5638063,
+   "tool": "search",
+   "args": {
+    "pattern": "totalWidth",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06457187398336828,
+   "returned": [
+    "terminal#17016"
+   ]
+  },
+  {
+   "t": 1794884402.898672,
+   "tool": "search",
+   "args": {
+    "pattern": "ShowUpdateNotification",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06134621100500226,
+   "returned": []
+  },
+  {
+   "t": 1794884404.3947108,
+   "tool": "search",
+   "args": {
+    "pattern": "UpdatesNotification",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.09582869897712953,
+   "returned": []
+  },
+  {
+   "t": 1794884404.6343386,
+   "tool": "search",
+   "args": {
+    "pattern": "must be a non-negative value",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.05930287699447945,
+   "returned": []
+  },
+  {
+   "t": 1794884404.7699926,
+   "tool": "search",
+   "args": {
+    "pattern": "0x80131623",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07830343299428932,
+   "returned": [
+    "PowerToys#18015",
+    "PowerToys#17929",
+    "PowerToys#16424",
+    "terminal#16843",
+    "terminal#16660",
+    "terminal#16301",
+    "terminal#14511"
+   ]
+  },
+  {
+   "t": 1794884406.2642283,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#16660"
+   },
+   "seconds": 0.0001269260246772319,
+   "returned": [
+    "terminal#16660"
+   ]
+  },
+  {
+   "t": 1794884406.4262555,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#16301"
+   },
+   "seconds": 0.00015458502457477152,
+   "returned": [
+    "terminal#16301"
+   ]
+  },
+  {
+   "t": 1794884408.8671978,
+   "tool": "search",
+   "args": {
+    "pattern": "PadRight",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.0717608600098174,
+   "returned": [
+    "terminal#15455",
+    "terminal#17016",
+    "terminal#18615",
+    "terminal#10063"
+   ]
+  },
+  {
+   "t": 1794884409.0250933,
+   "tool": "search",
+   "args": {
+    "pattern": "ArgumentOutOfRangeException",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07772744799149223,
+   "returned": [
+    "PowerToys#46496",
+    "PowerToys#46394",
+    "PowerToys#46213",
+    "PowerToys#46430",
+    "terminal#9315",
+    "terminal#4498",
+    "terminal#4428",
+    "terminal#4361",
+    "PowerToys#46412",
+    "PowerToys#46388",
+    "PowerToys#46210",
+    "PowerToys#41482",
+    "PowerToys#6081",
+    "PowerToys#41918",
+    "PowerToys#39996",
+    "terminal#17230",
+    "PowerToys#16896",
+    "terminal#15950",
+    "terminal#15411",
+    "terminal#11279"
+   ]
+  },
+  {
+   "t": 1794884411.169075,
+   "tool": "search",
+   "args": {
+    "pattern": "new version of PowerShell is available",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06417920399690047,
+   "returned": []
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13586,
+  "stop_reason": "end_turn",
+  "session_id": "61ae4263-da8b-4cdf-b6f5-57b398137fd3",
+  "total_cost_usd": 0.0613789,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 11801,
+   "cache_read_input_tokens": 31009,
+   "output_tokens": 1105,
+   "output_tokens_details": {
+    "thinking_tokens": 26
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11801,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 320,
+     "cache_read_input_tokens": 12648,
+     "cache_creation_input_tokens": 330,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 330
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1105,
+    "cacheReadInputTokens": 31009,
+    "cacheCreationInputTokens": 11801,
+    "webSearchRequests": 0,
+    "costUSD": 0.0613789,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 26,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11801,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this crash. The error comes from PowerShell 7's update-notification code (UpdatesNotification.ShowUpdateNotification). That code calls String.PadRight with a negative width (-17), which is probably because the console window is very narrow when it opens. The 0x80131623 exit code is just the .NET FailFast code. The similar archived tickets (terminal#16660 and terminal#16301) are a different problem. They were an environment-variable bug in Terminal 1.18 and 1.19 that was fixed in 1.19.10302.0. This looks like a PowerShell bug, so please report it to the PowerShell repo and include your PowerShell version and window size. As a workaround, set the environment variable POWERSHELL_UPDATECHECK=Off, or use LTS or Off. That skips the update notification. You can also try starting Terminal with a wider window, or update PowerShell.\"}",
+  "ttft_ms": 1545,
+  "type": "result",
+  "duration_ms": 13945,
+  "uuid": "bce67277-4138-40f5-adf1-89ac59040cdd",
+  "ttft_stream_ms": 1313,
+  "time_to_request_ms": 44,
+  "first_content_frame_ms": 1313,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1105,
+    "cacheReadInputTokens": 31009,
+    "cacheCreationInputTokens": 11801,
+    "webSearchRequests": 0,
+    "costUSD": 0.0613789,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 26,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11801,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.377723676996538,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-evohmehn/work"
+  }
+ },
+ "wall_seconds": 15.379902337997919,
+ "qid": "terminal#20836",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this crash. The error comes from PowerShell 7's update-notification code (UpdatesNotification.ShowUpdateNotification). That code calls String.PadRight with a negative width (-17), which is probably because the console window is very narrow when it opens. The 0x80131623 exit code is just the .NET FailFast code. The similar archived tickets (terminal#16660 and terminal#16301) are a different problem. They were an environment-variable bug in Terminal 1.18 and 1.19 that was fixed in 1.19.10302.0. This looks like a PowerShell bug, so please report it to the PowerShell repo and include your PowerShell version and window size. As a workaround, set the environment variable POWERSHELL_UPDATECHECK=Off, or use LTS or Off. That skips the update notification. You can also try starting Terminal with a wider window, or update PowerShell."
+ },
+ "hit_turn_cap": false
+}

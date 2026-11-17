@@ -1,0 +1,264 @@
+{
+ "shown": [
+  "PowerToys#47031",
+  "PowerToys#47430",
+  "PowerToys#47939",
+  "PowerToys#48456",
+  "PowerToys#48459",
+  "PowerToys#48858",
+  "WSL#10380"
+ ],
+ "retrieval_seconds": 0.13925947199459188,
+ "tool_calls": [
+  {
+   "t": 1794880784.6606262,
+   "tool": "search",
+   "args": {
+    "pattern": "Dock network",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07736583999940194,
+   "returned": [
+    "PowerToys#48459",
+    "PowerToys#48456",
+    "PowerToys#47939",
+    "PowerToys#47031"
+   ]
+  },
+  {
+   "t": 1794880784.7973971,
+   "tool": "search",
+   "args": {
+    "pattern": "Next Network",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.061550601007184014,
+   "returned": [
+    "PowerToys#48858",
+    "WSL#10380"
+   ]
+  },
+  {
+   "t": 1794880785.5669982,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48858"
+   },
+   "seconds": 0.00011824700050055981,
+   "returned": [
+    "PowerToys#48858"
+   ]
+  },
+  {
+   "t": 1794880785.7442236,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47031"
+   },
+   "seconds": 0.00011314699077047408,
+   "returned": [
+    "PowerToys#47031"
+   ]
+  },
+  {
+   "t": 1794880786.4661465,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47430"
+   },
+   "seconds": 0.00011163699673488736,
+   "returned": [
+    "PowerToys#47430"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 5312,
+  "stop_reason": "end_turn",
+  "session_id": "17b91f4c-12c2-4421-8c0a-db240e9aa235",
+  "total_cost_usd": 0.0308304,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 5912,
+   "cache_read_input_tokens": 10264,
+   "output_tokens": 614,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5912,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 297,
+     "cache_read_input_tokens": 4150,
+     "cache_creation_input_tokens": 2939,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2939
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 614,
+    "cacheReadInputTokens": 10264,
+    "cacheCreationInputTokens": 5912,
+    "webSearchRequests": 0,
+    "costUSD": 0.0308304,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5912,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48858\", \"PowerToys#47430\"], \"answer\": \"This has been reported before. The Command Palette Dock doesn't remember the network adapter picked with 'Next Network'. After a restart it goes back to a different adapter, usually the unused Ethernet one, and shows zeros. PowerToys#48858 describes the same behaviour on 0.100.1, and several other users confirmed it there. I found no fix in the archive. There is a workaround from PowerToys#47430. After each reboot, open the network flyout (click the network stats) and select the adapter you actually use, which is your Wi-Fi. If the values are blank, disable and re-enable the Dock in the Command Palette settings. Another option is to disable the unused Ethernet adapter, which one commenter did. Add your report and your bug report ZIP to #48858 so the team can track it.\"}",
+  "ttft_ms": 895,
+  "type": "result",
+  "duration_ms": 5441,
+  "uuid": "397d33f8-df13-4a7b-bc70-7eec6f5becd2",
+  "ttft_stream_ms": 530,
+  "time_to_request_ms": 49,
+  "first_content_frame_ms": 530,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 614,
+    "cacheReadInputTokens": 10264,
+    "cacheCreationInputTokens": 5912,
+    "webSearchRequests": 0,
+    "costUSD": 0.0308304,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5912,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 6.813327735988423,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-3j6iu808/work"
+  }
+ },
+ "wall_seconds": 6.815788769978099,
+ "qid": "PowerToys#50022",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48858",
+   "PowerToys#47430"
+  ],
+  "answer": "This has been reported before. The Command Palette Dock doesn't remember the network adapter picked with 'Next Network'. After a restart it goes back to a different adapter, usually the unused Ethernet one, and shows zeros. PowerToys#48858 describes the same behaviour on 0.100.1, and several other users confirmed it there. I found no fix in the archive. There is a workaround from PowerToys#47430. After each reboot, open the network flyout (click the network stats) and select the adapter you actually use, which is your Wi-Fi. If the values are blank, disable and re-enable the Dock in the Command Palette settings. Another option is to disable the unused Ethernet adapter, which one commenter did. Add your report and your bug report ZIP to #48858 so the team can track it."
+ },
+ "hit_turn_cap": false
+}

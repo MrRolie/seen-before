@@ -1,0 +1,324 @@
+{
+ "shown": [
+  "terminal#10224",
+  "terminal#10407",
+  "terminal#11596",
+  "terminal#11757",
+  "terminal#12681",
+  "terminal#13226",
+  "terminal#13369",
+  "terminal#14475",
+  "terminal#14858",
+  "terminal#15767",
+  "terminal#16237",
+  "terminal#16984",
+  "terminal#18236",
+  "terminal#19062",
+  "terminal#19560",
+  "terminal#19993",
+  "terminal#3335",
+  "terminal#4066",
+  "terminal#6425",
+  "terminal#6491",
+  "terminal#6658",
+  "terminal#9840"
+ ],
+ "retrieval_seconds": 3.827924989978783,
+ "tool_calls": [
+  {
+   "t": 1794877866.8882859,
+   "tool": "similar",
+   "args": {
+    "query": "color scheme automatically switch with system light/dark theme",
+    "repo": "terminal"
+   },
+   "seconds": 3.7227761019894388,
+   "returned": [
+    "terminal#6425",
+    "terminal#6491",
+    "terminal#11596",
+    "terminal#6658",
+    "terminal#9840",
+    "terminal#10407",
+    "terminal#4066",
+    "terminal#16984",
+    "terminal#19560",
+    "terminal#12681",
+    "terminal#15767",
+    "terminal#16237",
+    "terminal#10224",
+    "terminal#18236",
+    "terminal#19993",
+    "terminal#11757",
+    "terminal#14475",
+    "terminal#13226",
+    "terminal#19062",
+    "terminal#14858"
+   ]
+  },
+  {
+   "t": 1794877866.9214804,
+   "tool": "search",
+   "args": {
+    "pattern": "match system theme",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.01610227199853398,
+   "returned": []
+  },
+  {
+   "t": 1794877868.9511085,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#6425"
+   },
+   "seconds": 0.00014588699559681118,
+   "returned": [
+    "terminal#6425"
+   ]
+  },
+  {
+   "t": 1794877869.0889342,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19560"
+   },
+   "seconds": 0.0001942550006788224,
+   "returned": [
+    "terminal#19560"
+   ]
+  },
+  {
+   "t": 1794877870.5756843,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#4066"
+   },
+   "seconds": 0.00015855600940994918,
+   "returned": [
+    "terminal#4066"
+   ]
+  },
+  {
+   "t": 1794877872.5639997,
+   "tool": "search",
+   "args": {
+    "pattern": "\"dark\"",
+    "regex": false,
+    "also": [
+     "colorScheme",
+     "light",
+     "implemented"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.0884049309825059,
+   "returned": [
+    "terminal#4066",
+    "terminal#6491",
+    "terminal#3335",
+    "terminal#13369"
+   ]
+  },
+  {
+   "t": 1794877874.2582843,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#6491"
+   },
+   "seconds": 0.00014298700261861086,
+   "returned": [
+    "terminal#6491"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 20685,
+  "stop_reason": "end_turn",
+  "session_id": "1b84b208-bcc0-42f7-8569-d8035ee91870",
+  "total_cost_usd": 0.0527439,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 9962,
+   "cache_read_input_tokens": 26419,
+   "output_tokens": 1023,
+   "output_tokens_details": {
+    "thinking_tokens": 152
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9962,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 457,
+     "cache_read_input_tokens": 8119,
+     "cache_creation_input_tokens": 3256,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3256
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1023,
+    "cacheReadInputTokens": 26419,
+    "cacheCreationInputTokens": 9962,
+    "webSearchRequests": 0,
+    "costUSD": 0.0527439,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 152,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9962,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#4066\", \"terminal#6491\", \"terminal#19560\"], \"answer\": \"Windows Terminal already supports this, so no new option is needed. Set the profile's colorScheme to a light/dark pair, for example `\\\"colorScheme\\\": {\\\"light\\\": \\\"One Half Light\\\", \\\"dark\\\": \\\"One Half Dark\\\"}`. In the UI, this is under Profiles > Appearance > Color scheme. Put it in `profiles.defaults` to apply it to every profile. Also set the app's `theme` to `default` (\\\"Use Windows theme\\\"), not a fixed light or dark theme. The color scheme follows the app theme, so a fixed theme keeps it on one scheme. This is tracked in terminal#4066, and terminal#6491 and terminal#19560 were closed as duplicates of it. Switching by time of day (sunrise/sunset) isn't built in. It works if Windows switches its own theme on a schedule, for example with Night Light or the Auto Dark Mode tool.\"}",
+  "ttft_ms": 8404,
+  "type": "result",
+  "duration_ms": 24368,
+  "uuid": "527bcbfd-54a2-4e14-980a-625bc86eb0b9",
+  "ttft_stream_ms": 7977,
+  "time_to_request_ms": 35,
+  "first_content_frame_ms": 7977,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1023,
+    "cacheReadInputTokens": 26419,
+    "cacheCreationInputTokens": 9962,
+    "webSearchRequests": 0,
+    "costUSD": 0.0527439,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 152,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9962,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 25.65167216199916,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-bz9fq2f2/work"
+  }
+ },
+ "wall_seconds": 25.653429425990907,
+ "qid": "terminal#20414",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#4066",
+   "terminal#6491",
+   "terminal#19560"
+  ],
+  "answer": "Windows Terminal already supports this, so no new option is needed. Set the profile's colorScheme to a light/dark pair, for example `\"colorScheme\": {\"light\": \"One Half Light\", \"dark\": \"One Half Dark\"}`. In the UI, this is under Profiles > Appearance > Color scheme. Put it in `profiles.defaults` to apply it to every profile. Also set the app's `theme` to `default` (\"Use Windows theme\"), not a fixed light or dark theme. The color scheme follows the app theme, so a fixed theme keeps it on one scheme. This is tracked in terminal#4066, and terminal#6491 and terminal#19560 were closed as duplicates of it. Switching by time of day (sunrise/sunset) isn't built in. It works if Windows switches its own theme on a schedule, for example with Night Light or the Auto Dark Mode tool."
+ },
+ "hit_turn_cap": false
+}

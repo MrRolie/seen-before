@@ -1,0 +1,194 @@
+{
+ "shown": [
+  "PowerToys#37211",
+  "PowerToys#35189",
+  "PowerToys#43619",
+  "PowerToys#1623",
+  "PowerToys#9770"
+ ],
+ "retrieval_seconds": 0.015126681013498455,
+ "retrieval_scores": [
+  0.6917908191680908,
+  0.6575143337249756,
+  0.6306727528572083,
+  0.5848076939582825,
+  0.5838538408279419
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 1740,
+  "stop_reason": "end_turn",
+  "session_id": "6f61c606-27bd-4940-ab98-2201b6f19554",
+  "total_cost_usd": 0.021908,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4986,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 196,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4986,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 196,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4986,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4986
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 196,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4986,
+    "webSearchRequests": 0,
+    "costUSD": 0.021908,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4986,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#37211\", \"PowerToys#43619\"], \"answer\": \"This has been requested before: ZoomIt currently draws the arrow with the arrowhead at the point where the drag starts, and users have asked for an option to reverse it (draw from tail to head). PowerToys#37211 is the main feature request, and PowerToys#43619 was closed as a duplicate of it. There is no setting for this yet, and the tickets show no workaround. Please add your use case or a thumbs-up to PowerToys#37211 and follow that issue for updates.\"}",
+  "ttft_ms": 1939,
+  "type": "result",
+  "duration_ms": 1954,
+  "uuid": "c10b4414-6d03-485f-a773-bf51c0e6a95d",
+  "ttft_stream_ms": 661,
+  "time_to_request_ms": 213,
+  "first_content_frame_ms": 662,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 196,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4986,
+    "webSearchRequests": 0,
+    "costUSD": 0.021908,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4986,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 2.8545083260105457,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-1hhtut4r/work"
+  }
+ },
+ "wall_seconds": 2.871456560998922,
+ "qid": "PowerToys#49106",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#37211",
+   "PowerToys#43619"
+  ],
+  "answer": "This has been requested before: ZoomIt currently draws the arrow with the arrowhead at the point where the drag starts, and users have asked for an option to reverse it (draw from tail to head). PowerToys#37211 is the main feature request, and PowerToys#43619 was closed as a duplicate of it. There is no setting for this yet, and the tickets show no workaround. Please add your use case or a thumbs-up to PowerToys#37211 and follow that issue for updates."
+ },
+ "hit_turn_cap": false
+}

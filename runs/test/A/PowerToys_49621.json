@@ -1,0 +1,193 @@
+{
+ "shown": [
+  "PowerToys#48530",
+  "PowerToys#46270",
+  "PowerToys#47576",
+  "PowerToys#49025",
+  "PowerToys#42144"
+ ],
+ "retrieval_seconds": 0.01489936700090766,
+ "retrieval_scores": [
+  0.8106793165206909,
+  0.7831617593765259,
+  0.7388777732849121,
+  0.7050835490226746,
+  0.6895751357078552
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2630,
+  "stop_reason": "end_turn",
+  "session_id": "6b2a5b19-9c5b-4a1d-9c4b-cdc4b8d48bab",
+  "total_cost_usd": 0.017954,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3960,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 211,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3960,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 211,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3960,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3960
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 211,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3960,
+    "webSearchRequests": 0,
+    "costUSD": 0.017954,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3960,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#49025\"], \"answer\": \"This has been reported before. In PowerToys#49025 (also on 0.100.2), the reporter noted that bookmarks show a blank title and icon in the \\\"+\\\" list when editing the dock, but once the bookmark is added to the dock, its icon and title appear correctly. So the bookmark is still selectable even though it looks blank: click the blank entry in the \\\"+\\\" menu to pin it, and it will display properly on the dock. That ticket doesn't mention a fix or a better workaround, so if the blank entries bother you, subscribe to it for updates.\"}",
+  "ttft_ms": 2804,
+  "type": "result",
+  "duration_ms": 2824,
+  "uuid": "dadf7ce6-8a21-4ba4-b7c6-6748fbcefdb1",
+  "ttft_stream_ms": 1248,
+  "time_to_request_ms": 192,
+  "first_content_frame_ms": 1248,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 211,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3960,
+    "webSearchRequests": 0,
+    "costUSD": 0.017954,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3960,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.6510198279866017,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-muv3fmzn/work"
+  }
+ },
+ "wall_seconds": 3.6676504840143025,
+ "qid": "PowerToys#49621",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#49025"
+  ],
+  "answer": "This has been reported before. In PowerToys#49025 (also on 0.100.2), the reporter noted that bookmarks show a blank title and icon in the \"+\" list when editing the dock, but once the bookmark is added to the dock, its icon and title appear correctly. So the bookmark is still selectable even though it looks blank: click the blank entry in the \"+\" menu to pin it, and it will display properly on the dock. That ticket doesn't mention a fix or a better workaround, so if the blank entries bother you, subscribe to it for updates."
+ },
+ "hit_turn_cap": false
+}

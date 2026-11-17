@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#10867",
+  "PowerToys#42896",
+  "PowerToys#42703",
+  "PowerToys#42587",
+  "PowerToys#42639"
+ ],
+ "retrieval_seconds": 0.015530495991697535,
+ "retrieval_scores": [
+  0.7498132586479187,
+  0.6497400403022766,
+  0.6315973401069641,
+  0.6264398097991943,
+  0.620995283126831
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2467,
+  "stop_reason": "end_turn",
+  "session_id": "6608e496-7d65-4bfa-bca9-d531ba53692b",
+  "total_cost_usd": 0.017314,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3745,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 233,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3745,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 233,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3745,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3745
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 233,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3745,
+    "webSearchRequests": 0,
+    "costUSD": 0.017314,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3745,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find a past ticket reporting this exact problem: an SVG preview whose background stays dark after Windows switches to light mode. PowerToys#10867 is about SVG Preview settings, not theme handling. The Light Switch tickets (PowerToys#42703, #42587, #42639, #42896) are about Light Switch changing or failing to restore the Windows theme, which is a different problem. Please leave this ticket open for triage. It would help to say whether the Light Switch module is enabled on your machine. Also say whether the preview updates after you re-select the file or reopen the Preview pane, and include the PowerToys bug report ZIP.\"}",
+  "ttft_ms": 2623,
+  "type": "result",
+  "duration_ms": 2640,
+  "uuid": "0a62ab11-de88-457c-b619-759b98d705e3",
+  "ttft_stream_ms": 999,
+  "time_to_request_ms": 172,
+  "first_content_frame_ms": 999,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 233,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3745,
+    "webSearchRequests": 0,
+    "costUSD": 0.017314,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3745,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.3576500969938934,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-esn6req1/work"
+  }
+ },
+ "wall_seconds": 3.374565516016446,
+ "qid": "PowerToys#49997",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find a past ticket reporting this exact problem: an SVG preview whose background stays dark after Windows switches to light mode. PowerToys#10867 is about SVG Preview settings, not theme handling. The Light Switch tickets (PowerToys#42703, #42587, #42639, #42896) are about Light Switch changing or failing to restore the Windows theme, which is a different problem. Please leave this ticket open for triage. It would help to say whether the Light Switch module is enabled on your machine. Also say whether the preview updates after you re-select the file or reopen the Preview pane, and include the PowerToys bug report ZIP."
+ },
+ "hit_turn_cap": false
+}

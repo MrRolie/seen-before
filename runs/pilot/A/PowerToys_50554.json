@@ -1,0 +1,193 @@
+{
+ "shown": [
+  "PowerToys#23982",
+  "PowerToys#32314",
+  "PowerToys#13202",
+  "PowerToys#12877",
+  "PowerToys#8735"
+ ],
+ "retrieval_seconds": 0.015920401987386867,
+ "retrieval_scores": [
+  0.6567394733428955,
+  0.6349919438362122,
+  0.6337743401527405,
+  0.6307622194290161,
+  0.612510085105896
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 7242,
+  "stop_reason": "end_turn",
+  "session_id": "6bb4b929-5121-4d9f-8792-e0f890b7cd71",
+  "total_cost_usd": 0.05623,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 12104,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 781,
+   "output_tokens_details": {
+    "thinking_tokens": 398
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12104,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 781,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 12104,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 12104
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 781,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 12104,
+    "webSearchRequests": 0,
+    "costUSD": 0.05623,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 398,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12104,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#23982\"], \"answer\": \"This looks like the problem in PowerToys#23982. PowerToys runs in the tray and modules such as key remaps keep working, but the Settings window never opens. Your ticket has no details, so I can't confirm the cause. In that ticket the bug report showed files left over from an older version (PowerToys.Interop.dll) after an upgrade. The fix was a clean reinstall: 1) Uninstall PowerToys. 2) Check whether the install folder (default C:\\\\Program Files\\\\PowerToys) still exists, and delete it manually if it does. 3) Reinstall the latest version and restart. If Settings still won't open, reply with what happens when you click the tray icon or right-click it and choose Settings. Also check Event Viewer (Windows Logs > Application) for a PowerToys.Settings.exe error. Other past 'Settings won't open' tickets had different causes, such as a missing or broken .NET runtime, an old CPU, or a hidden-attribute file in the PowerToys AppData folder. Those errors would show up in Event Viewer or the bug report.\"}",
+  "ttft_ms": 4509,
+  "type": "result",
+  "duration_ms": 7464,
+  "uuid": "75f7282d-5667-45fa-a40b-bddc4c7ffea8",
+  "ttft_stream_ms": 1377,
+  "time_to_request_ms": 223,
+  "first_content_frame_ms": 1377,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 781,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 12104,
+    "webSearchRequests": 0,
+    "costUSD": 0.05623,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 398,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12104,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 8.281780347024323,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-u5eys5cl/work"
+  }
+ },
+ "wall_seconds": 8.299350111978129,
+ "qid": "PowerToys#50554",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#23982"
+  ],
+  "answer": "This looks like the problem in PowerToys#23982. PowerToys runs in the tray and modules such as key remaps keep working, but the Settings window never opens. Your ticket has no details, so I can't confirm the cause. In that ticket the bug report showed files left over from an older version (PowerToys.Interop.dll) after an upgrade. The fix was a clean reinstall: 1) Uninstall PowerToys. 2) Check whether the install folder (default C:\\Program Files\\PowerToys) still exists, and delete it manually if it does. 3) Reinstall the latest version and restart. If Settings still won't open, reply with what happens when you click the tray icon or right-click it and choose Settings. Also check Event Viewer (Windows Logs > Application) for a PowerToys.Settings.exe error. Other past 'Settings won't open' tickets had different causes, such as a missing or broken .NET runtime, an old CPU, or a hidden-attribute file in the PowerToys AppData folder. Those errors would show up in Event Viewer or the bug report."
+ },
+ "hit_turn_cap": false
+}

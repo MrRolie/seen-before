@@ -1,0 +1,335 @@
+{
+ "shown": [
+  "PowerToys#10047",
+  "PowerToys#11265",
+  "PowerToys#11580",
+  "PowerToys#11638",
+  "PowerToys#11784",
+  "PowerToys#14702",
+  "PowerToys#152",
+  "PowerToys#2257",
+  "PowerToys#22573",
+  "PowerToys#2263",
+  "PowerToys#23",
+  "PowerToys#30120",
+  "PowerToys#304",
+  "PowerToys#30665",
+  "PowerToys#3402",
+  "PowerToys#36871",
+  "PowerToys#3716",
+  "PowerToys#38285",
+  "PowerToys#38289",
+  "PowerToys#38290",
+  "PowerToys#40543",
+  "PowerToys#40927",
+  "PowerToys#41861",
+  "PowerToys#4501",
+  "PowerToys#45378",
+  "PowerToys#4657",
+  "PowerToys#47478",
+  "PowerToys#48614",
+  "PowerToys#48775",
+  "PowerToys#5715",
+  "PowerToys#6538",
+  "PowerToys#6751",
+  "PowerToys#8323",
+  "PowerToys#855",
+  "PowerToys#890",
+  "PowerToys#9015"
+ ],
+ "retrieval_seconds": 3.64137543895049,
+ "tool_calls": [
+  {
+   "t": 1794882465.2735052,
+   "tool": "search",
+   "args": {
+    "query": "Cannot add utilities to Quick access flyout, drag and drop or right click",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.626380921981763,
+   "returned": [
+    "PowerToys#40927",
+    "PowerToys#22573",
+    "PowerToys#8323",
+    "PowerToys#38285",
+    "PowerToys#2257",
+    "PowerToys#23",
+    "PowerToys#5715",
+    "PowerToys#9015",
+    "PowerToys#3716",
+    "PowerToys#6751",
+    "PowerToys#11580",
+    "PowerToys#11638",
+    "PowerToys#38289",
+    "PowerToys#38290",
+    "PowerToys#48614",
+    "PowerToys#14702",
+    "PowerToys#152",
+    "PowerToys#3402",
+    "PowerToys#30120",
+    "PowerToys#2263"
+   ]
+  },
+  {
+   "t": 1794882465.3055696,
+   "tool": "search",
+   "args": {
+    "query": "Quick access pin utility to quick access list",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0144554520084057,
+   "returned": [
+    "PowerToys#30665",
+    "PowerToys#36871",
+    "PowerToys#11784",
+    "PowerToys#48775",
+    "PowerToys#6538",
+    "PowerToys#47478",
+    "PowerToys#40927",
+    "PowerToys#41861",
+    "PowerToys#8323",
+    "PowerToys#4657",
+    "PowerToys#10047",
+    "PowerToys#9015",
+    "PowerToys#11265",
+    "PowerToys#4501",
+    "PowerToys#40543",
+    "PowerToys#855",
+    "PowerToys#45378",
+    "PowerToys#304",
+    "PowerToys#890",
+    "PowerToys#5715"
+   ]
+  },
+  {
+   "t": 1794882466.1289735,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48614"
+   },
+   "seconds": 0.00013951599248684943,
+   "returned": [
+    "PowerToys#48614"
+   ]
+  },
+  {
+   "t": 1794882466.3707213,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48775"
+   },
+   "seconds": 0.0001118469808716327,
+   "returned": [
+    "PowerToys#48775"
+   ]
+  },
+  {
+   "t": 1794882466.6246452,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47478"
+   },
+   "seconds": 0.00017865499830804765,
+   "returned": [
+    "PowerToys#47478"
+   ]
+  },
+  {
+   "t": 1794882466.8312929,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40927"
+   },
+   "seconds": 0.00010904698865488172,
+   "returned": [
+    "PowerToys#40927"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 5008,
+  "stop_reason": "end_turn",
+  "session_id": "4c92be72-c6f4-4557-969a-bf2503b492ed",
+  "total_cost_usd": 0.0339652,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 6688,
+   "cache_read_input_tokens": 6912,
+   "output_tokens": 651,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6688,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 227,
+     "cache_read_input_tokens": 4216,
+     "cache_creation_input_tokens": 3505,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3505
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 651,
+    "cacheReadInputTokens": 6912,
+    "cacheCreationInputTokens": 6688,
+    "webSearchRequests": 0,
+    "costUSD": 0.0339652,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6688,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48614\", \"PowerToys#47478\", \"PowerToys#48775\"], \"answer\": \"This has been reported before. The Quick Access flyout can't be customized right now. You can't drag and drop utilities into it, and right-click doesn't add or pin them. The list is chosen automatically, which is why Text Extractor is there and you can't change it. The earlier tickets were closed as duplicates of the tracking request #24283 for customizing or pinning utilities in Quick Access. Subscribe to that issue for updates. Until it's implemented, launch other utilities from their keyboard shortcuts or from the PowerToys Settings window.\"}",
+  "ttft_ms": 1196,
+  "type": "result",
+  "duration_ms": 8451,
+  "uuid": "035fa832-d4b2-43fc-9925-afaacdc273de",
+  "ttft_stream_ms": 537,
+  "time_to_request_ms": 26,
+  "first_content_frame_ms": 537,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 651,
+    "cacheReadInputTokens": 6912,
+    "cacheCreationInputTokens": 6688,
+    "webSearchRequests": 0,
+    "costUSD": 0.0339652,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6688,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.046224077988882,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-5s8jujl3/work"
+  }
+ },
+ "wall_seconds": 10.048515898990445,
+ "qid": "PowerToys#50505",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48614",
+   "PowerToys#47478",
+   "PowerToys#48775"
+  ],
+  "answer": "This has been reported before. The Quick Access flyout can't be customized right now. You can't drag and drop utilities into it, and right-click doesn't add or pin them. The list is chosen automatically, which is why Text Extractor is there and you can't change it. The earlier tickets were closed as duplicates of the tracking request #24283 for customizing or pinning utilities in Quick Access. Subscribe to that issue for updates. Until it's implemented, launch other utilities from their keyboard shortcuts or from the PowerToys Settings window."
+ },
+ "hit_turn_cap": false
+}

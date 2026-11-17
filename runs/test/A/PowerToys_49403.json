@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#35543",
+  "PowerToys#36121",
+  "PowerToys#356",
+  "PowerToys#31737",
+  "PowerToys#38791"
+ ],
+ "retrieval_seconds": 0.014026620017830282,
+ "retrieval_scores": [
+  0.7793464064598083,
+  0.7636441588401794,
+  0.7622930407524109,
+  0.7615737915039062,
+  0.7586316466331482
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2956,
+  "stop_reason": "end_turn",
+  "session_id": "a98bf5ae-32ee-4127-aca6-1ebe4de9ca24",
+  "total_cost_usd": 0.025498,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5551,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 329,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5551,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 329,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5551,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5551
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 329,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5551,
+    "webSearchRequests": 0,
+    "costUSD": 0.025498,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5551,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#356\", \"PowerToys#35543\", \"PowerToys#31737\"], \"answer\": \"This feature request has been made before. Showing folder sizes in File Explorer's Size column is tracked in the original ticket PowerToys#356, and later requests (such as #35543, #36121, #31737 and #38791) were closed as duplicates of it. There is no built-in solution yet, so the best thing to do is follow and add a thumbs-up or your use case to #356 rather than opening a new ticket. In the meantime, the past tickets mention third-party tools that can show folder sizes, such as WinDirStat, WizTree (which reads the MFT and scans a drive quickly), the Folder Size shell extension, Files, or Windhawk with Everything. Also, PowerToys Peek can show a folder's size on demand. The part of your request about assigning colors to folders by size is not covered in the past tickets, so you may want to mention it as additional context on #356.\"}",
+  "ttft_ms": 3216,
+  "type": "result",
+  "duration_ms": 3230,
+  "uuid": "a80df4e8-a95c-401f-92d0-12faaa0d33dd",
+  "ttft_stream_ms": 759,
+  "time_to_request_ms": 276,
+  "first_content_frame_ms": 759,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 329,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5551,
+    "webSearchRequests": 0,
+    "costUSD": 0.025498,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5551,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.281627718009986,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-_7evia1v/work"
+  }
+ },
+ "wall_seconds": 4.297199769003782,
+ "qid": "PowerToys#49403",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#356",
+   "PowerToys#35543",
+   "PowerToys#31737"
+  ],
+  "answer": "This feature request has been made before. Showing folder sizes in File Explorer's Size column is tracked in the original ticket PowerToys#356, and later requests (such as #35543, #36121, #31737 and #38791) were closed as duplicates of it. There is no built-in solution yet, so the best thing to do is follow and add a thumbs-up or your use case to #356 rather than opening a new ticket. In the meantime, the past tickets mention third-party tools that can show folder sizes, such as WinDirStat, WizTree (which reads the MFT and scans a drive quickly), the Folder Size shell extension, Files, or Windhawk with Everything. Also, PowerToys Peek can show a folder's size on demand. The part of your request about assigning colors to folders by size is not covered in the past tickets, so you may want to mention it as additional context on #356."
+ },
+ "hit_turn_cap": false
+}

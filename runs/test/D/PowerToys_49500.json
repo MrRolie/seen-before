@@ -1,0 +1,289 @@
+{
+ "shown": [
+  "PowerToys#117",
+  "PowerToys#18535",
+  "PowerToys#2015",
+  "PowerToys#22577",
+  "PowerToys#2258",
+  "PowerToys#2559",
+  "PowerToys#33",
+  "PowerToys#38299",
+  "PowerToys#38308",
+  "PowerToys#3953",
+  "PowerToys#40583",
+  "PowerToys#45905",
+  "PowerToys#4657",
+  "PowerToys#5457",
+  "PowerToys#642",
+  "PowerToys#767",
+  "PowerToys#7715",
+  "PowerToys#81",
+  "PowerToys#8435",
+  "PowerToys#9376"
+ ],
+ "retrieval_seconds": 3.9575957829947583,
+ "tool_calls": [
+  {
+   "t": 1794878798.49549,
+   "tool": "similar",
+   "args": {
+    "query": "context menu editor: choose which items show in the contracted/compact context menu vs full menu",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.956992719002301,
+   "returned": [
+    "PowerToys#117",
+    "PowerToys#767",
+    "PowerToys#3953",
+    "PowerToys#2015",
+    "PowerToys#38308",
+    "PowerToys#8435",
+    "PowerToys#40583",
+    "PowerToys#9376",
+    "PowerToys#4657",
+    "PowerToys#33",
+    "PowerToys#22577",
+    "PowerToys#2258",
+    "PowerToys#5457",
+    "PowerToys#7715",
+    "PowerToys#642",
+    "PowerToys#38299",
+    "PowerToys#45905",
+    "PowerToys#2559",
+    "PowerToys#81",
+    "PowerToys#18535"
+   ]
+  },
+  {
+   "t": 1794878800.3210568,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45905"
+   },
+   "seconds": 0.00016480599879287183,
+   "returned": [
+    "PowerToys#45905"
+   ]
+  },
+  {
+   "t": 1794878800.33048,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#117"
+   },
+   "seconds": 0.00011805698159150779,
+   "returned": [
+    "PowerToys#117"
+   ]
+  },
+  {
+   "t": 1794878800.434258,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#8435"
+   },
+   "seconds": 0.00015319601516239345,
+   "returned": [
+    "PowerToys#8435"
+   ]
+  },
+  {
+   "t": 1794878801.7228134,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33"
+   },
+   "seconds": 0.00016700499691069126,
+   "returned": [
+    "PowerToys#33"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10083,
+  "stop_reason": "end_turn",
+  "session_id": "4e3d1587-5176-456d-b133-e28cbcb149f7",
+  "total_cost_usd": 0.037832099999999994,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 6951,
+   "cache_read_input_tokens": 20781,
+   "output_tokens": 793,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6951,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 287,
+     "cache_read_input_tokens": 8270,
+     "cache_creation_input_tokens": 94,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 94
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 793,
+    "cacheReadInputTokens": 20781,
+    "cacheCreationInputTokens": 6951,
+    "webSearchRequests": 0,
+    "costUSD": 0.037832099999999994,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6951,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#45905\", \"PowerToys#33\", \"PowerToys#8435\"], \"answer\": \"Yes, this has been requested before. PowerToys#45905 asks for the same thing: choose which items appear in the compact File Explorer context menu, with an Office-ribbon-style editor. It was closed as a duplicate of PowerToys#33, the main tracker for customizing the right-click menu. PowerToys#8435 and #117 were closed as duplicates of the same tracker. No such feature exists in PowerToys yet. Add your 👍 and your use case to PowerToys#33 to follow it. Until then, the only way to edit the menu is third-party tools. People in #33 mention NirSoft ShellMenuView, NileSoft Shell and ContextMenuManager. Some of these may only work on the old menu.\"}",
+  "ttft_ms": 2227,
+  "type": "result",
+  "duration_ms": 14140,
+  "uuid": "e9c6bf9c-d5bb-4bea-a5d7-2eda376ab793",
+  "ttft_stream_ms": 1161,
+  "time_to_request_ms": 42,
+  "first_content_frame_ms": 1161,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 793,
+    "cacheReadInputTokens": 20781,
+    "cacheCreationInputTokens": 6951,
+    "webSearchRequests": 0,
+    "costUSD": 0.037832099999999994,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6951,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.621410337014822,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-55qn1qqz/work"
+  }
+ },
+ "wall_seconds": 15.623798154992983,
+ "qid": "PowerToys#49500",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#45905",
+   "PowerToys#33",
+   "PowerToys#8435"
+  ],
+  "answer": "Yes, this has been requested before. PowerToys#45905 asks for the same thing: choose which items appear in the compact File Explorer context menu, with an Office-ribbon-style editor. It was closed as a duplicate of PowerToys#33, the main tracker for customizing the right-click menu. PowerToys#8435 and #117 were closed as duplicates of the same tracker. No such feature exists in PowerToys yet. Add your 👍 and your use case to PowerToys#33 to follow it. Until then, the only way to edit the menu is third-party tools. People in #33 mention NirSoft ShellMenuView, NileSoft Shell and ContextMenuManager. Some of these may only work on the old menu."
+ },
+ "hit_turn_cap": false
+}

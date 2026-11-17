@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#47222",
+  "PowerToys#46422",
+  "PowerToys#45219",
+  "PowerToys#46993",
+  "PowerToys#44629"
+ ],
+ "retrieval_seconds": 0.017985829996177927,
+ "retrieval_scores": [
+  0.6719740033149719,
+  0.6621169447898865,
+  0.6521037220954895,
+  0.6370245814323425,
+  0.6339631080627441
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 6566,
+  "stop_reason": "end_turn",
+  "session_id": "1581e94a-c122-4aae-b758-5fe12e1098db",
+  "total_cost_usd": 0.03496,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 7114,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 650,
+   "output_tokens_details": {
+    "thinking_tokens": 337
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7114,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 650,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 7114,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7114
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 650,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7114,
+    "webSearchRequests": 0,
+    "costUSD": 0.03496,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 337,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7114,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find a past ticket reporting this exact problem. The exception text is only in your screenshot and log, so I can't tell which exception is being thrown. None of the archived tickets involve an error window appearing when a device is connected or disconnected. The closest ones are other generic PowerToys crash dialogs, such as COMExceptions closed as duplicates of #31226, a crash after waking from sleep, and a crash at shutdown. Those have different triggers and stack traces, so I can't treat them as the same issue. Please paste the exception type and stack trace from your log into the ticket as text. Also attach a PowerToys bug report ZIP (Settings > General > Report a bug), and say which devices trigger it. Meanwhile, update to the latest PowerToys version, since the maintainers asked for that on the similar crash reports. If it persists, disable modules one at a time to find which one is responsible.\"}",
+  "ttft_ms": 4158,
+  "type": "result",
+  "duration_ms": 6760,
+  "uuid": "ba46b871-3e14-40f6-9e73-7a17d3c400f7",
+  "ttft_stream_ms": 1245,
+  "time_to_request_ms": 194,
+  "first_content_frame_ms": 1245,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 650,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7114,
+    "webSearchRequests": 0,
+    "costUSD": 0.03496,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 337,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7114,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 7.585023419989739,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-27xwqgbt/work"
+  }
+ },
+ "wall_seconds": 7.6046985069988295,
+ "qid": "PowerToys#49130",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find a past ticket reporting this exact problem. The exception text is only in your screenshot and log, so I can't tell which exception is being thrown. None of the archived tickets involve an error window appearing when a device is connected or disconnected. The closest ones are other generic PowerToys crash dialogs, such as COMExceptions closed as duplicates of #31226, a crash after waking from sleep, and a crash at shutdown. Those have different triggers and stack traces, so I can't treat them as the same issue. Please paste the exception type and stack trace from your log into the ticket as text. Also attach a PowerToys bug report ZIP (Settings > General > Report a bug), and say which devices trigger it. Meanwhile, update to the latest PowerToys version, since the maintainers asked for that on the similar crash reports. If it persists, disable modules one at a time to find which one is responsible."
+ },
+ "hit_turn_cap": false
+}

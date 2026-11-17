@@ -1,0 +1,385 @@
+{
+ "shown": [
+  "PowerToys#10060",
+  "PowerToys#10264",
+  "PowerToys#10483",
+  "PowerToys#11132",
+  "PowerToys#11164",
+  "PowerToys#11371",
+  "PowerToys#1301",
+  "PowerToys#13590",
+  "PowerToys#16352",
+  "PowerToys#17515",
+  "PowerToys#1878",
+  "PowerToys#2138",
+  "PowerToys#21981",
+  "PowerToys#2215",
+  "PowerToys#2340",
+  "PowerToys#23499",
+  "PowerToys#2452",
+  "PowerToys#25048",
+  "PowerToys#25438",
+  "PowerToys#26781",
+  "PowerToys#2688",
+  "PowerToys#2710",
+  "PowerToys#27413",
+  "PowerToys#2829",
+  "PowerToys#2855",
+  "PowerToys#2885",
+  "PowerToys#29769",
+  "PowerToys#303",
+  "PowerToys#3152",
+  "PowerToys#3260",
+  "PowerToys#33314",
+  "PowerToys#3534",
+  "PowerToys#3630",
+  "PowerToys#3684",
+  "PowerToys#38177",
+  "PowerToys#38291",
+  "PowerToys#38351",
+  "PowerToys#43380",
+  "PowerToys#4442",
+  "PowerToys#45422",
+  "PowerToys#4673",
+  "PowerToys#4851",
+  "PowerToys#5003",
+  "PowerToys#5363",
+  "PowerToys#6359",
+  "PowerToys#6702",
+  "PowerToys#7373",
+  "PowerToys#7391",
+  "PowerToys#7715",
+  "PowerToys#9230",
+  "PowerToys#9426",
+  "PowerToys#9465",
+  "PowerToys#9512",
+  "PowerToys#953",
+  "PowerToys#9655"
+ ],
+ "retrieval_seconds": 4.655999337963294,
+ "tool_calls": [
+  {
+   "t": 1794876444.9462674,
+   "tool": "search",
+   "args": {
+    "query": "disable \"What's new in PowerToys\" popup after update, don't show again",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.614018972002668,
+   "returned": [
+    "PowerToys#21981",
+    "PowerToys#29769",
+    "PowerToys#9426",
+    "PowerToys#11164",
+    "PowerToys#23499",
+    "PowerToys#16352",
+    "PowerToys#9512",
+    "PowerToys#43380",
+    "PowerToys#3630",
+    "PowerToys#9465",
+    "PowerToys#9230",
+    "PowerToys#1878",
+    "PowerToys#6359",
+    "PowerToys#33314",
+    "PowerToys#27413",
+    "PowerToys#3534",
+    "PowerToys#13590",
+    "PowerToys#10264",
+    "PowerToys#26781",
+    "PowerToys#5003"
+   ]
+  },
+  {
+   "t": 1794876446.6711378,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21981"
+   },
+   "seconds": 0.0001555059861857444,
+   "returned": [
+    "PowerToys#21981"
+   ]
+  },
+  {
+   "t": 1794876447.0077374,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33314"
+   },
+   "seconds": 0.00022080499911680818,
+   "returned": [
+    "PowerToys#33314"
+   ]
+  },
+  {
+   "t": 1794876447.1006243,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#27413"
+   },
+   "seconds": 0.0001334469998255372,
+   "returned": [
+    "PowerToys#27413"
+   ]
+  },
+  {
+   "t": 1794876448.7729084,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#29769"
+   },
+   "seconds": 0.000126405997434631,
+   "returned": [
+    "PowerToys#29769"
+   ]
+  },
+  {
+   "t": 1794876450.4271884,
+   "tool": "search",
+   "args": {
+    "query": "What's new popup disable setting in General settings, group policy",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.02115075397887267,
+   "returned": [
+    "PowerToys#27413",
+    "PowerToys#7373",
+    "PowerToys#2885",
+    "PowerToys#2855",
+    "PowerToys#25438",
+    "PowerToys#2688",
+    "PowerToys#2829",
+    "PowerToys#43380",
+    "PowerToys#2452",
+    "PowerToys#3684",
+    "PowerToys#2340",
+    "PowerToys#4673",
+    "PowerToys#2215",
+    "PowerToys#5363",
+    "PowerToys#38291",
+    "PowerToys#1301",
+    "PowerToys#3152",
+    "PowerToys#38177",
+    "PowerToys#953",
+    "PowerToys#9655"
+   ]
+  },
+  {
+   "t": 1794876452.9250557,
+   "tool": "search",
+   "args": {
+    "query": "Add a pill or badge on \"What's new\" button in settings; don't show again checkbox in release notes window",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.02019344799919054,
+   "returned": [
+    "PowerToys#4442",
+    "PowerToys#2138",
+    "PowerToys#3260",
+    "PowerToys#3152",
+    "PowerToys#2688",
+    "PowerToys#7715",
+    "PowerToys#11371",
+    "PowerToys#2710",
+    "PowerToys#303",
+    "PowerToys#11132",
+    "PowerToys#10060",
+    "PowerToys#25048",
+    "PowerToys#7391",
+    "PowerToys#6702",
+    "PowerToys#4851",
+    "PowerToys#1878",
+    "PowerToys#38351",
+    "PowerToys#45422",
+    "PowerToys#10483",
+    "PowerToys#17515"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 14798,
+  "stop_reason": "end_turn",
+  "session_id": "6b491bda-660a-4012-8f0f-4c290a76ef18",
+  "total_cost_usd": 0.0386424,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 6513,
+   "cache_read_input_tokens": 21164,
+   "output_tokens": 1045,
+   "output_tokens_details": {
+    "thinking_tokens": 167
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6513,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 505,
+     "cache_read_input_tokens": 6247,
+     "cache_creation_input_tokens": 1299,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1299
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1045,
+    "cacheReadInputTokens": 21164,
+    "cacheCreationInputTokens": 6513,
+    "webSearchRequests": 0,
+    "costUSD": 0.0386424,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 167,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6513,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've checked the archive and I'm now writing up the answer.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#21981\", \"PowerToys#33314\", \"PowerToys#27413\"], \"answer\": \"Other customers have already asked for this. PowerToys#21981 asks for a setting to stop the \\\"What's New\\\" window from appearing after an update. PowerToys#33314 was closed as a duplicate of #21981. The archive doesn't show that a per-user setting or a \\\"Don't show again\\\" checkbox was ever added. PowerToys#27413 asked for a group policy to disable the \\\"What's new\\\" popup, and it was included in v0.78.0. If you can, update to v0.78.0 or later and use the PowerToys group policy (ADMX) setting to suppress the popup. The policy applies at the computer level, not per user. For the checkbox and the badge on the \\\"What's new\\\" button, add your vote to #21981. Your request for the badge on the \\\"What's new\\\" button doesn't appear in any earlier ticket.\"}",
+  "ttft_ms": 1956,
+  "type": "result",
+  "duration_ms": 19596,
+  "uuid": "105b0f05-b1c2-41d6-9a23-434986b0d15b",
+  "ttft_stream_ms": 1370,
+  "time_to_request_ms": 50,
+  "first_content_frame_ms": 1370,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1045,
+    "cacheReadInputTokens": 21164,
+    "cacheCreationInputTokens": 6513,
+    "webSearchRequests": 0,
+    "costUSD": 0.0386424,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 167,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6513,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 21.16772095800843,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-pp4haois/work"
+  }
+ },
+ "wall_seconds": 21.17214411799796,
+ "qid": "PowerToys#49957",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#21981",
+   "PowerToys#33314",
+   "PowerToys#27413"
+  ],
+  "answer": "Other customers have already asked for this. PowerToys#21981 asks for a setting to stop the \"What's New\" window from appearing after an update. PowerToys#33314 was closed as a duplicate of #21981. The archive doesn't show that a per-user setting or a \"Don't show again\" checkbox was ever added. PowerToys#27413 asked for a group policy to disable the \"What's new\" popup, and it was included in v0.78.0. If you can, update to v0.78.0 or later and use the PowerToys group policy (ADMX) setting to suppress the popup. The policy applies at the computer level, not per user. For the checkbox and the badge on the \"What's new\" button, add your vote to #21981. Your request for the badge on the \"What's new\" button doesn't appear in any earlier ticket."
+ },
+ "hit_turn_cap": false
+}

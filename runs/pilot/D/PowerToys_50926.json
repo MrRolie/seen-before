@@ -1,0 +1,357 @@
+{
+ "shown": [
+  "PowerToys#1032",
+  "PowerToys#12871",
+  "PowerToys#15001",
+  "PowerToys#19462",
+  "PowerToys#2015",
+  "PowerToys#2049",
+  "PowerToys#22577",
+  "PowerToys#23508",
+  "PowerToys#25197",
+  "PowerToys#2527",
+  "PowerToys#2559",
+  "PowerToys#27712",
+  "PowerToys#28769",
+  "PowerToys#31443",
+  "PowerToys#32262",
+  "PowerToys#38294",
+  "PowerToys#38299",
+  "PowerToys#38300",
+  "PowerToys#38321",
+  "PowerToys#38423",
+  "PowerToys#38442",
+  "PowerToys#39211",
+  "PowerToys#40583",
+  "PowerToys#40755",
+  "PowerToys#44611",
+  "PowerToys#44857",
+  "PowerToys#45083",
+  "PowerToys#45892",
+  "PowerToys#46283",
+  "PowerToys#4657",
+  "PowerToys#46625",
+  "PowerToys#48725",
+  "PowerToys#48885",
+  "PowerToys#48895",
+  "PowerToys#48899",
+  "PowerToys#5208",
+  "PowerToys#888",
+  "PowerToys#907",
+  "PowerToys#9162",
+  "PowerToys#9520"
+ ],
+ "retrieval_seconds": 4.512052396021318,
+ "tool_calls": [
+  {
+   "t": 1794877145.0027592,
+   "tool": "search",
+   "args": {
+    "pattern": "context menu",
+    "regex": false,
+    "also": [
+     "selection"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.13830432499526069,
+   "returned": [
+    "PowerToys#25197",
+    "PowerToys#2527",
+    "PowerToys#48899",
+    "PowerToys#32262",
+    "PowerToys#27712",
+    "PowerToys#19462",
+    "PowerToys#1032",
+    "PowerToys#907",
+    "PowerToys#44857",
+    "PowerToys#9520",
+    "PowerToys#5208",
+    "PowerToys#48725",
+    "PowerToys#40755",
+    "PowerToys#38423",
+    "PowerToys#31443",
+    "PowerToys#23508",
+    "PowerToys#15001",
+    "PowerToys#12871",
+    "PowerToys#9162",
+    "PowerToys#888"
+   ]
+  },
+  {
+   "t": 1794877148.8940492,
+   "tool": "similar",
+   "args": {
+    "query": "CmdPal context menu first item selection visible immediately",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.869540170999244,
+   "returned": [
+    "PowerToys#45892",
+    "PowerToys#2049",
+    "PowerToys#46625",
+    "PowerToys#22577",
+    "PowerToys#45083",
+    "PowerToys#38442",
+    "PowerToys#2015",
+    "PowerToys#38321",
+    "PowerToys#39211",
+    "PowerToys#44611",
+    "PowerToys#40583",
+    "PowerToys#46283",
+    "PowerToys#38299",
+    "PowerToys#48885",
+    "PowerToys#4657",
+    "PowerToys#38300",
+    "PowerToys#2559",
+    "PowerToys#38294",
+    "PowerToys#38423",
+    "PowerToys#48895"
+   ]
+  },
+  {
+   "t": 1794877150.5400825,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44611"
+   },
+   "seconds": 0.0001370759855490178,
+   "returned": [
+    "PowerToys#44611"
+   ]
+  },
+  {
+   "t": 1794877152.9689817,
+   "tool": "search",
+   "args": {
+    "pattern": "context menu",
+    "regex": false,
+    "also": [
+     "highlight",
+     "first item"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.25198250502580777,
+   "returned": [
+    "PowerToys#25197",
+    "PowerToys#48895"
+   ]
+  },
+  {
+   "t": 1794877154.4042754,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40583"
+   },
+   "seconds": 0.00012158701429143548,
+   "returned": [
+    "PowerToys#40583"
+   ]
+  },
+  {
+   "t": 1794877158.529409,
+   "tool": "search",
+   "args": {
+    "pattern": "selection",
+    "regex": false,
+    "also": [
+     "context menu",
+     "CmdPal",
+     "Enter"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.25196673200116493,
+   "returned": [
+    "PowerToys#48899",
+    "PowerToys#48725",
+    "PowerToys#38423",
+    "PowerToys#28769"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13964,
+  "stop_reason": "end_turn",
+  "session_id": "e4b59fc9-36d8-44df-bdab-530e42c2012d",
+  "total_cost_usd": 0.0498425,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 8866,
+   "cache_read_input_tokens": 37145,
+   "output_tokens": 1064,
+   "output_tokens_details": {
+    "thinking_tokens": 295
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8866,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 217,
+     "cache_read_input_tokens": 9018,
+     "cache_creation_input_tokens": 1261,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1261
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1064,
+    "cacheReadInputTokens": 37145,
+    "cacheCreationInputTokens": 8866,
+    "webSearchRequests": 0,
+    "costUSD": 0.0498425,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 295,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8866,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "```json\n{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this exact problem. In the Command Palette context menu, the first item now shows as selected as soon as the menu opens. Windows convention is to hide that selection until the user moves it, with Enter still running the first item. The closest tickets are PowerToys#44611 (hide the selection indicator or pill in the context menu) and PowerToys#40583 (a context menu clean-up list). Neither describes this behavior. Please keep this ticket open as a new issue. Note that it appeared after a recent update to the context menu on a main dev build, and mention #44611 as related.\"}\n```",
+  "ttft_ms": 2229,
+  "type": "result",
+  "duration_ms": 18588,
+  "uuid": "8dfaf783-12e0-4fad-9a02-03d7a093d520",
+  "ttft_stream_ms": 1251,
+  "time_to_request_ms": 38,
+  "first_content_frame_ms": 1251,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1064,
+    "cacheReadInputTokens": 37145,
+    "cacheCreationInputTokens": 8866,
+    "webSearchRequests": 0,
+    "costUSD": 0.0498425,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 295,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8866,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 19.99953075600206,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-5zb0k83w/work"
+  }
+ },
+ "wall_seconds": 20.00131878600223,
+ "qid": "PowerToys#50926",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this exact problem. In the Command Palette context menu, the first item now shows as selected as soon as the menu opens. Windows convention is to hide that selection until the user moves it, with Enter still running the first item. The closest tickets are PowerToys#44611 (hide the selection indicator or pill in the context menu) and PowerToys#40583 (a context menu clean-up list). Neither describes this behavior. Please keep this ticket open as a new issue. Note that it appeared after a recent update to the context menu on a main dev build, and mention #44611 as related."
+ },
+ "hit_turn_cap": false
+}

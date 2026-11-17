@@ -1,0 +1,359 @@
+{
+ "shown": [
+  "PowerToys#10483",
+  "PowerToys#10607",
+  "PowerToys#1203",
+  "PowerToys#1208",
+  "PowerToys#12312",
+  "PowerToys#1250",
+  "PowerToys#1260",
+  "PowerToys#137",
+  "PowerToys#2025",
+  "PowerToys#2043",
+  "PowerToys#20636",
+  "PowerToys#21147",
+  "PowerToys#2311",
+  "PowerToys#2551",
+  "PowerToys#29996",
+  "PowerToys#3152",
+  "PowerToys#31651",
+  "PowerToys#3650",
+  "PowerToys#3833",
+  "PowerToys#4231",
+  "PowerToys#4446",
+  "PowerToys#4482",
+  "PowerToys#48150",
+  "PowerToys#48152",
+  "PowerToys#48170",
+  "PowerToys#48460",
+  "PowerToys#48638",
+  "PowerToys#48792",
+  "PowerToys#4888",
+  "PowerToys#48966",
+  "PowerToys#48985",
+  "PowerToys#49024",
+  "PowerToys#5003",
+  "PowerToys#5524",
+  "PowerToys#5933",
+  "PowerToys#6023",
+  "PowerToys#6404",
+  "PowerToys#659",
+  "PowerToys#6726",
+  "PowerToys#7814",
+  "PowerToys#890"
+ ],
+ "retrieval_seconds": 3.7341947100067046,
+ "tool_calls": [
+  {
+   "t": 1794882777.1793032,
+   "tool": "search",
+   "args": {
+    "pattern": "PowerToysShortcutsPopulator",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.061315144994296134,
+   "returned": []
+  },
+  {
+   "t": 1794882780.9364367,
+   "tool": "similar",
+   "args": {
+    "query": "Shortcut Guide updated shortcut not shown until PowerToys restarted twice, index.yml generated before populate",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.3195807769952808,
+   "returned": [
+    "PowerToys#4446",
+    "PowerToys#6023",
+    "PowerToys#48152",
+    "PowerToys#3152",
+    "PowerToys#1203",
+    "PowerToys#31651",
+    "PowerToys#6404",
+    "PowerToys#20636",
+    "PowerToys#10483",
+    "PowerToys#5003",
+    "PowerToys#3833",
+    "PowerToys#1208",
+    "PowerToys#2043",
+    "PowerToys#4231",
+    "PowerToys#4482",
+    "PowerToys#2311",
+    "PowerToys#659",
+    "PowerToys#5524",
+    "PowerToys#2025",
+    "PowerToys#1250"
+   ]
+  },
+  {
+   "t": 1794882781.9088304,
+   "tool": "search",
+   "args": {
+    "pattern": "index.yml",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.060554374009370804,
+   "returned": []
+  },
+  {
+   "t": 1794882784.221236,
+   "tool": "search",
+   "args": {
+    "pattern": "manifest",
+    "regex": false,
+    "also": [
+     "Shortcut Guide"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1206334010057617,
+   "returned": [
+    "PowerToys#48792",
+    "PowerToys#7814",
+    "PowerToys#890",
+    "PowerToys#48966",
+    "PowerToys#48460",
+    "PowerToys#49024",
+    "PowerToys#48985",
+    "PowerToys#48170",
+    "PowerToys#48638"
+   ]
+  },
+  {
+   "t": 1794882785.453184,
+   "tool": "search",
+   "args": {
+    "pattern": "restart",
+    "regex": false,
+    "also": [
+     "Shortcut Guide",
+     "index"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.15813897899352014,
+   "returned": [
+    "PowerToys#3650",
+    "PowerToys#21147"
+   ]
+  },
+  {
+   "t": 1794882787.0995448,
+   "tool": "similar",
+   "args": {
+    "query": "Shortcut Guide PowerToys section shows outdated shortcut after changing a PowerToys hotkey; manifest index regenerated",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.01397203400847502,
+   "returned": [
+    "PowerToys#48152",
+    "PowerToys#6023",
+    "PowerToys#4446",
+    "PowerToys#31651",
+    "PowerToys#20636",
+    "PowerToys#12312",
+    "PowerToys#2551",
+    "PowerToys#48150",
+    "PowerToys#890",
+    "PowerToys#2025",
+    "PowerToys#5524",
+    "PowerToys#1203",
+    "PowerToys#4888",
+    "PowerToys#137",
+    "PowerToys#10607",
+    "PowerToys#5933",
+    "PowerToys#6726",
+    "PowerToys#10483",
+    "PowerToys#29996",
+    "PowerToys#1260"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9546,
+  "stop_reason": "end_turn",
+  "session_id": "04e2e236-08ff-4a85-a7c4-9fa23e021d33",
+  "total_cost_usd": 0.040051500000000004,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 6784,
+   "cache_read_input_tokens": 27875,
+   "output_tokens": 1010,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6784,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 249,
+     "cache_read_input_tokens": 6848,
+     "cache_creation_input_tokens": 1349,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1349
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1010,
+    "cacheReadInputTokens": 27875,
+    "cacheCreationInputTokens": 6784,
+    "webSearchRequests": 0,
+    "costUSD": 0.040051500000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6784,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket that reports this problem. Searches on the Populate() and index.yml ordering, and on the manifest index needing two restarts, returned nothing relevant. The Shortcut Guide tickets I did find cover different problems, such as crashes, missing manifests, and new manifest requests. Treat this as a new bug. Your diagnosis is a good starting point for the report: PowerToysShortcutsPopulator.Populate() runs after the index.yml generation, so the index is built from the old data. Moving Populate() before the index generation should make a changed shortcut show up after one restart, or immediately. Until it's fixed, restarting PowerToys twice shows the updated shortcut.\"}",
+  "ttft_ms": 935,
+  "type": "result",
+  "duration_ms": 13276,
+  "uuid": "4d7838f4-0170-4edf-ae3d-609991195f53",
+  "ttft_stream_ms": 619,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 620,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1010,
+    "cacheReadInputTokens": 27875,
+    "cacheCreationInputTokens": 6784,
+    "webSearchRequests": 0,
+    "costUSD": 0.040051500000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6784,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.551799305016175,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-jqe1acsb/work"
+  }
+ },
+ "wall_seconds": 14.553419513016706,
+ "qid": "PowerToys#50570",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket that reports this problem. Searches on the Populate() and index.yml ordering, and on the manifest index needing two restarts, returned nothing relevant. The Shortcut Guide tickets I did find cover different problems, such as crashes, missing manifests, and new manifest requests. Treat this as a new bug. Your diagnosis is a good starting point for the report: PowerToysShortcutsPopulator.Populate() runs after the index.yml generation, so the index is built from the old data. Moving Populate() before the index generation should make a changed shortcut show up after one restart, or immediately. Until it's fixed, restarting PowerToys twice shows the updated shortcut."
+ },
+ "hit_turn_cap": false
+}

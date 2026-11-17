@@ -1,0 +1,481 @@
+{
+ "shown": [
+  "PowerToys#12137",
+  "PowerToys#14213",
+  "PowerToys#15022",
+  "PowerToys#17294",
+  "PowerToys#18519",
+  "PowerToys#2046",
+  "PowerToys#21451",
+  "PowerToys#2175",
+  "PowerToys#2197",
+  "PowerToys#2198",
+  "PowerToys#2199",
+  "PowerToys#2239",
+  "PowerToys#2270",
+  "PowerToys#2363",
+  "PowerToys#2396",
+  "PowerToys#2495",
+  "PowerToys#2499",
+  "PowerToys#2500",
+  "PowerToys#2503",
+  "PowerToys#2548",
+  "PowerToys#2557",
+  "PowerToys#2803",
+  "PowerToys#2884",
+  "PowerToys#30545",
+  "PowerToys#3317",
+  "PowerToys#3479",
+  "PowerToys#3573",
+  "PowerToys#3731",
+  "PowerToys#38295",
+  "PowerToys#38296",
+  "PowerToys#38297",
+  "PowerToys#38333",
+  "PowerToys#38346",
+  "PowerToys#38347",
+  "PowerToys#38442",
+  "PowerToys#38732",
+  "PowerToys#39166",
+  "PowerToys#41013",
+  "PowerToys#41736",
+  "PowerToys#42140",
+  "PowerToys#42204",
+  "PowerToys#42867",
+  "PowerToys#4673",
+  "PowerToys#46949",
+  "PowerToys#4714",
+  "PowerToys#4903",
+  "PowerToys#5249",
+  "PowerToys#5406",
+  "PowerToys#5915",
+  "PowerToys#5966",
+  "PowerToys#6060",
+  "PowerToys#6114",
+  "PowerToys#63",
+  "PowerToys#7007",
+  "PowerToys#8010",
+  "PowerToys#8274",
+  "PowerToys#9288",
+  "WSL#1254",
+  "WSL#183",
+  "WSL#269",
+  "WSL#275",
+  "WSL#4489",
+  "WSL#48",
+  "WSL#5037",
+  "WSL#6027",
+  "terminal#10196",
+  "terminal#1168",
+  "terminal#1390",
+  "terminal#15389",
+  "terminal#16578",
+  "terminal#16881",
+  "terminal#1705",
+  "terminal#17241",
+  "terminal#4339",
+  "terminal#4454",
+  "terminal#4476",
+  "terminal#6646",
+  "terminal#6662",
+  "terminal#718",
+  "terminal#7254",
+  "terminal#7394",
+  "terminal#7593",
+  "terminal#840",
+  "terminal#8853"
+ ],
+ "retrieval_seconds": 3.8109601909818593,
+ "tool_calls": [
+  {
+   "t": 1794884041.633718,
+   "tool": "search",
+   "args": {
+    "query": "Command Palette blocks typing \"|\" pipe character in non-elevated apps",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.714481545990566,
+   "returned": [
+    "PowerToys#38333",
+    "PowerToys#39166",
+    "PowerToys#38346",
+    "PowerToys#2239",
+    "PowerToys#2557",
+    "PowerToys#6114",
+    "PowerToys#18519",
+    "PowerToys#2495",
+    "PowerToys#41736",
+    "PowerToys#2363",
+    "PowerToys#4673",
+    "PowerToys#38347",
+    "PowerToys#30545",
+    "PowerToys#2046",
+    "PowerToys#2270",
+    "PowerToys#2503",
+    "PowerToys#2500",
+    "PowerToys#2175",
+    "PowerToys#46949",
+    "PowerToys#8274"
+   ]
+  },
+  {
+   "t": 1794884041.7021358,
+   "tool": "search",
+   "args": {
+    "query": "pipe character cannot be typed, only works when running as administrator, Command Palette",
+    "repo": null
+   },
+   "seconds": 0.0411007980001159,
+   "returned": [
+    "WSL#183",
+    "WSL#275",
+    "terminal#840",
+    "WSL#269",
+    "terminal#7394",
+    "terminal#16578",
+    "terminal#4454",
+    "terminal#16881",
+    "WSL#4489",
+    "terminal#8853",
+    "WSL#1254",
+    "terminal#7254",
+    "terminal#1168",
+    "terminal#1390",
+    "terminal#4339",
+    "terminal#718",
+    "WSL#5037",
+    "WSL#48",
+    "terminal#15389",
+    "WSL#6027"
+   ]
+  },
+  {
+   "t": 1794884042.8546813,
+   "tool": "search",
+   "args": {
+    "query": "CmdPal global hotkey or low-level keyboard hook swallows shift+backslash keystroke in other apps",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012734412011923268,
+   "returned": [
+    "PowerToys#41736",
+    "PowerToys#38297",
+    "PowerToys#7007",
+    "PowerToys#38333",
+    "PowerToys#2199",
+    "PowerToys#2197",
+    "PowerToys#5406",
+    "PowerToys#2884",
+    "PowerToys#2548",
+    "PowerToys#12137",
+    "PowerToys#3573",
+    "PowerToys#3479",
+    "PowerToys#21451",
+    "PowerToys#5249",
+    "PowerToys#4714",
+    "PowerToys#2803",
+    "PowerToys#5966",
+    "PowerToys#5915",
+    "PowerToys#2198",
+    "PowerToys#9288"
+   ]
+  },
+  {
+   "t": 1794884043.247935,
+   "tool": "search",
+   "args": {
+    "query": "Command Palette enabled cannot type character in Notepad unless elevated",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.01399062798009254,
+   "returned": [
+    "PowerToys#42204",
+    "PowerToys#2239",
+    "PowerToys#15022",
+    "PowerToys#38346",
+    "PowerToys#6114",
+    "PowerToys#38333",
+    "PowerToys#38297",
+    "PowerToys#2557",
+    "PowerToys#2503",
+    "PowerToys#8010",
+    "PowerToys#38732",
+    "PowerToys#38442",
+    "PowerToys#38295",
+    "PowerToys#2046",
+    "PowerToys#39166",
+    "PowerToys#5406",
+    "PowerToys#2199",
+    "PowerToys#42140",
+    "PowerToys#3731",
+    "PowerToys#2396"
+   ]
+  },
+  {
+   "t": 1794884044.4407446,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42204"
+   },
+   "seconds": 0.00015052600065246224,
+   "returned": [
+    "PowerToys#42204"
+   ]
+  },
+  {
+   "t": 1794884044.9588273,
+   "tool": "search",
+   "args": {
+    "query": "vertical bar pipe key not typed, CmdPal on, works only as admin",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.01504792898776941,
+   "returned": [
+    "PowerToys#39166",
+    "PowerToys#38297",
+    "PowerToys#38333",
+    "PowerToys#2239",
+    "PowerToys#63",
+    "PowerToys#2396",
+    "PowerToys#38346",
+    "PowerToys#4903",
+    "PowerToys#6060",
+    "PowerToys#38296",
+    "PowerToys#2499",
+    "PowerToys#14213",
+    "PowerToys#41736",
+    "PowerToys#8274",
+    "PowerToys#6114",
+    "PowerToys#41013",
+    "PowerToys#17294",
+    "PowerToys#2500",
+    "PowerToys#21451",
+    "PowerToys#3317"
+   ]
+  },
+  {
+   "t": 1794884045.734471,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38297"
+   },
+   "seconds": 0.00017168500926345587,
+   "returned": [
+    "PowerToys#38297"
+   ]
+  },
+  {
+   "t": 1794884046.861253,
+   "tool": "search",
+   "args": {
+    "query": "\"|\" character not typed in all apps after enabling Command Palette, search box in Settings only accepts when elevated",
+    "repo": null
+   },
+   "seconds": 0.013282667001476511,
+   "returned": [
+    "terminal#16578",
+    "WSL#183",
+    "terminal#6662",
+    "PowerToys#2557",
+    "terminal#17241",
+    "terminal#7593",
+    "PowerToys#2363",
+    "terminal#7254",
+    "PowerToys#42204",
+    "PowerToys#2239",
+    "terminal#6646",
+    "terminal#4339",
+    "terminal#10196",
+    "terminal#1705",
+    "PowerToys#38295",
+    "terminal#4476",
+    "PowerToys#42867",
+    "PowerToys#2175",
+    "PowerToys#2396",
+    "terminal#8853"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9105,
+  "stop_reason": "end_turn",
+  "session_id": "0873ec03-ddbf-44d9-9031-8b370af133d6",
+  "total_cost_usd": 0.06512520000000001,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 12759,
+   "cache_read_input_tokens": 36452,
+   "output_tokens": 1042,
+   "output_tokens_details": {
+    "thinking_tokens": 14
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12759,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 320,
+     "cache_read_input_tokens": 12515,
+     "cache_creation_input_tokens": 1277,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1277
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1042,
+    "cacheReadInputTokens": 36452,
+    "cacheCreationInputTokens": 12759,
+    "webSearchRequests": 0,
+    "costUSD": 0.06512520000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 14,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12759,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket that reports this problem. Nothing in the archive describes Command Palette blocking the \\\"|\\\" character in non-elevated apps while it works in elevated ones. The closest tickets were about other problems. PowerToys#42204 turned out to be a \\\"+\\\" alias for an extension that wasn't running. PowerToys#41736 is about aliases eating keystrokes when you type fast. PowerToys#38297 is about hotkey handling. None of them match. Please keep this ticket open as a new bug. Add the PowerToys bug report ZIP and your keyboard layout. Also say whether any Command Palette alias or global hotkey is set to \\\"|\\\" or to a key combination that produces it, such as Shift+\\\\. Say whether the problem still happens with the Command Palette hotkey and aliases cleared. As a temporary workaround, turn Command Palette off while you need to type \\\"|\\\".\"}",
+  "ttft_ms": 1298,
+  "type": "result",
+  "duration_ms": 13001,
+  "uuid": "a6612bbd-409d-47f3-b193-bc29396a352d",
+  "ttft_stream_ms": 568,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 568,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1042,
+    "cacheReadInputTokens": 36452,
+    "cacheCreationInputTokens": 12759,
+    "webSearchRequests": 0,
+    "costUSD": 0.06512520000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 14,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12759,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.617919791024178,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-11e87350/work"
+  }
+ },
+ "wall_seconds": 14.620257796981605,
+ "qid": "PowerToys#51164",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket that reports this problem. Nothing in the archive describes Command Palette blocking the \"|\" character in non-elevated apps while it works in elevated ones. The closest tickets were about other problems. PowerToys#42204 turned out to be a \"+\" alias for an extension that wasn't running. PowerToys#41736 is about aliases eating keystrokes when you type fast. PowerToys#38297 is about hotkey handling. None of them match. Please keep this ticket open as a new bug. Add the PowerToys bug report ZIP and your keyboard layout. Also say whether any Command Palette alias or global hotkey is set to \"|\" or to a key combination that produces it, such as Shift+\\. Say whether the problem still happens with the Command Palette hotkey and aliases cleared. As a temporary workaround, turn Command Palette off while you need to type \"|\"."
+ },
+ "hit_turn_cap": false
+}

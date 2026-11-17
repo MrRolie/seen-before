@@ -1,0 +1,193 @@
+{
+ "shown": [
+  "PowerToys#47609",
+  "PowerToys#35864",
+  "PowerToys#36677",
+  "PowerToys#35784",
+  "PowerToys#35312"
+ ],
+ "retrieval_seconds": 0.016721136984415352,
+ "retrieval_scores": [
+  0.7250059843063354,
+  0.687256932258606,
+  0.6433087587356567,
+  0.6324617266654968,
+  0.6311584115028381
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3132,
+  "stop_reason": "end_turn",
+  "session_id": "012e0396-32f7-4f78-bcb8-8cb57fa5f7b8",
+  "total_cost_usd": 0.025656,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5498,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 366,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5498,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 366,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5498,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5498
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 366,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5498,
+    "webSearchRequests": 0,
+    "costUSD": 0.025656,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5498,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#47609\"], \"answer\": \"This has been reported before. In PowerToys#47609, New+ stops appearing in the right-click menu on desktop or folder backgrounds once the classic (Windows 10 style) context menu is enabled through the HKCU\\\\Software\\\\Classes\\\\CLSID\\\\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2} registry key. That ticket records no fix or workaround, so the problem appears to be unresolved. You can follow it there, and adding your PowerToys version (0.100.2) and your report ZIP would help. Older tickets about New+ missing with the legacy menu (PowerToys#35312) mention reinstalling PowerToys, a reboot, or removing the NewPlus package with Remove-AppxPackage and restarting Explorer. Those steps worked for some people and not for others, and they were not aimed at this exact symptom. The only dependable workaround so far is to turn the classic menu off by deleting that registry key, which brings New+ back in the Windows 11 menu.\"}",
+  "ttft_ms": 3280,
+  "type": "result",
+  "duration_ms": 3305,
+  "uuid": "99bad178-bb42-4b05-b99e-207eb412543d",
+  "ttft_stream_ms": 639,
+  "time_to_request_ms": 166,
+  "first_content_frame_ms": 639,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 366,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5498,
+    "webSearchRequests": 0,
+    "costUSD": 0.025656,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5498,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.234312996006338,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-rjg552a0/work"
+  }
+ },
+ "wall_seconds": 4.253825213992968,
+ "qid": "PowerToys#50053",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#47609"
+  ],
+  "answer": "This has been reported before. In PowerToys#47609, New+ stops appearing in the right-click menu on desktop or folder backgrounds once the classic (Windows 10 style) context menu is enabled through the HKCU\\Software\\Classes\\CLSID\\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2} registry key. That ticket records no fix or workaround, so the problem appears to be unresolved. You can follow it there, and adding your PowerToys version (0.100.2) and your report ZIP would help. Older tickets about New+ missing with the legacy menu (PowerToys#35312) mention reinstalling PowerToys, a reboot, or removing the NewPlus package with Remove-AppxPackage and restarting Explorer. Those steps worked for some people and not for others, and they were not aimed at this exact symptom. The only dependable workaround so far is to turn the classic menu off by deleting that registry key, which brings New+ back in the Windows 11 menu."
+ },
+ "hit_turn_cap": false
+}

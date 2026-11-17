@@ -1,0 +1,333 @@
+{
+ "shown": [
+  "terminal#11149",
+  "terminal#11778",
+  "terminal#12650",
+  "terminal#14100",
+  "terminal#14235",
+  "terminal#14717",
+  "terminal#16024",
+  "terminal#16330",
+  "terminal#17985",
+  "terminal#18972",
+  "terminal#19000",
+  "terminal#19362",
+  "terminal#19595",
+  "terminal#19839",
+  "terminal#2495",
+  "terminal#3759",
+  "terminal#4214",
+  "terminal#4287",
+  "terminal#6559",
+  "terminal#8029",
+  "terminal#8107",
+  "terminal#8878",
+  "terminal#9469",
+  "terminal#9585"
+ ],
+ "retrieval_seconds": 3.821269368956564,
+ "tool_calls": [
+  {
+   "t": 1794882106.1033776,
+   "tool": "search",
+   "args": {
+    "pattern": "startingDirectory",
+    "regex": false,
+    "also": [
+     "bracket"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.04700165498070419,
+   "returned": [
+    "terminal#14717",
+    "terminal#17985",
+    "terminal#3759"
+   ]
+  },
+  {
+   "t": 1794882110.1457655,
+   "tool": "similar",
+   "args": {
+    "query": "starting directory path with square brackets not working, Open in Terminal from Explorer",
+    "repo": "terminal"
+   },
+   "seconds": 3.7735751820146106,
+   "returned": [
+    "terminal#19000",
+    "terminal#16024",
+    "terminal#16330",
+    "terminal#14100",
+    "terminal#19595",
+    "terminal#8878",
+    "terminal#18972",
+    "terminal#4287",
+    "terminal#8107",
+    "terminal#9469",
+    "terminal#12650",
+    "terminal#19839",
+    "terminal#19362",
+    "terminal#2495",
+    "terminal#6559",
+    "terminal#8029",
+    "terminal#14235",
+    "terminal#11778",
+    "terminal#4214",
+    "terminal#9585"
+   ]
+  },
+  {
+   "t": 1794882111.2871912,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19000"
+   },
+   "seconds": 0.00010789799853228033,
+   "returned": [
+    "terminal#19000"
+   ]
+  },
+  {
+   "t": 1794882111.5457344,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#14100"
+   },
+   "seconds": 0.00011159697896800935,
+   "returned": [
+    "terminal#14100"
+   ]
+  },
+  {
+   "t": 1794882111.6619327,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19595"
+   },
+   "seconds": 0.0001283559831790626,
+   "returned": [
+    "terminal#19595"
+   ]
+  },
+  {
+   "t": 1794882113.0168858,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19839"
+   },
+   "seconds": 0.00010740701691247523,
+   "returned": [
+    "terminal#19839"
+   ]
+  },
+  {
+   "t": 1794882113.1871474,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18972"
+   },
+   "seconds": 0.00011910698958672583,
+   "returned": [
+    "terminal#18972"
+   ]
+  },
+  {
+   "t": 1794882114.0652976,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#11149"
+   },
+   "seconds": 0.00011816699407063425,
+   "returned": [
+    "terminal#11149"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9752,
+  "stop_reason": "end_turn",
+  "session_id": "c94025b5-2199-4b3a-a9c0-d98f4d87b605",
+  "total_cost_usd": 0.0466467,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 8487,
+   "cache_read_input_tokens": 25487,
+   "output_tokens": 1013,
+   "output_tokens_details": {
+    "thinking_tokens": 43
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8487,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 406,
+     "cache_read_input_tokens": 9268,
+     "cache_creation_input_tokens": 632,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 632
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1013,
+    "cacheReadInputTokens": 25487,
+    "cacheCreationInputTokens": 8487,
+    "webSearchRequests": 0,
+    "costUSD": 0.0466467,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 43,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8487,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#19839\", \"terminal#11149\", \"terminal#14100\"], \"answer\": \"This has been reported before. It is a known limitation of Windows PowerShell 5.1, not of Windows Terminal. PowerShell 5.1 can't be launched with a working directory that contains `[`. It falls back to `C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0`, to the home directory, or to `C:\\\\`. Parentheses are fine, which matches what you saw. The Terminal team says they can't work around it, and the earlier tickets were closed as duplicates of #11149. The fix that worked for earlier reporters (#14100, #19000) was to switch the profile to PowerShell 7 or later (`pwsh`). Install it, then set it as the default profile. Explorer's \\\"Open in Terminal\\\" will then start in the right folder. Command Prompt also handles these paths. One caveat: in #19595 a reporter said that with pwsh 7.5.4 as the default profile, `wt.exe` launched from a bracketed path still opened in the home directory. That is a separate issue about launching `wt.exe` with no `--startingDirectory`, not this one.\"}",
+  "ttft_ms": 1483,
+  "type": "result",
+  "duration_ms": 13590,
+  "uuid": "b9a4ba58-de31-45b6-aad8-63870315e14e",
+  "ttft_stream_ms": 866,
+  "time_to_request_ms": 35,
+  "first_content_frame_ms": 867,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1013,
+    "cacheReadInputTokens": 25487,
+    "cacheCreationInputTokens": 8487,
+    "webSearchRequests": 0,
+    "costUSD": 0.0466467,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 43,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8487,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.14182062499458,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-7kb6ryel/work"
+  }
+ },
+ "wall_seconds": 15.144148153980495,
+ "qid": "terminal#20643",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#19839",
+   "terminal#11149",
+   "terminal#14100"
+  ],
+  "answer": "This has been reported before. It is a known limitation of Windows PowerShell 5.1, not of Windows Terminal. PowerShell 5.1 can't be launched with a working directory that contains `[`. It falls back to `C:\\Windows\\System32\\WindowsPowerShell\\v1.0`, to the home directory, or to `C:\\`. Parentheses are fine, which matches what you saw. The Terminal team says they can't work around it, and the earlier tickets were closed as duplicates of #11149. The fix that worked for earlier reporters (#14100, #19000) was to switch the profile to PowerShell 7 or later (`pwsh`). Install it, then set it as the default profile. Explorer's \"Open in Terminal\" will then start in the right folder. Command Prompt also handles these paths. One caveat: in #19595 a reporter said that with pwsh 7.5.4 as the default profile, `wt.exe` launched from a bracketed path still opened in the home directory. That is a separate issue about launching `wt.exe` with no `--startingDirectory`, not this one."
+ },
+ "hit_turn_cap": false
+}

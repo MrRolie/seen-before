@@ -1,0 +1,329 @@
+{
+ "shown": [
+  "PowerToys#13069",
+  "PowerToys#15431",
+  "PowerToys#19392",
+  "PowerToys#19413",
+  "PowerToys#20599",
+  "PowerToys#20700",
+  "PowerToys#21535",
+  "PowerToys#21701",
+  "PowerToys#22548",
+  "PowerToys#2277",
+  "PowerToys#23586",
+  "PowerToys#24048",
+  "PowerToys#24671",
+  "PowerToys#27260",
+  "PowerToys#27700",
+  "PowerToys#28399",
+  "PowerToys#31426",
+  "PowerToys#31463",
+  "PowerToys#31467",
+  "PowerToys#32688",
+  "PowerToys#33686",
+  "PowerToys#3381",
+  "PowerToys#36861",
+  "PowerToys#36897",
+  "PowerToys#37731",
+  "PowerToys#37853",
+  "PowerToys#38669",
+  "PowerToys#41267",
+  "PowerToys#42735",
+  "PowerToys#43912",
+  "PowerToys#48465",
+  "PowerToys#586",
+  "PowerToys#9656"
+ ],
+ "retrieval_seconds": 0.11027334301616065,
+ "tool_calls": [
+  {
+   "t": 1794880324.7715566,
+   "tool": "search",
+   "args": {
+    "pattern": "sync settings",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.052352376020280644,
+   "returned": [
+    "PowerToys#31426",
+    "PowerToys#586",
+    "PowerToys#37853",
+    "PowerToys#28399",
+    "PowerToys#27700",
+    "PowerToys#24671",
+    "PowerToys#20599",
+    "PowerToys#19413",
+    "PowerToys#19392",
+    "PowerToys#15431",
+    "PowerToys#13069",
+    "PowerToys#3381",
+    "PowerToys#2277"
+   ]
+  },
+  {
+   "t": 1794880325.1507885,
+   "tool": "search",
+   "args": {
+    "pattern": "multiple computers",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.057341051986441016,
+   "returned": [
+    "PowerToys#22548",
+    "PowerToys#36861",
+    "PowerToys#31467",
+    "PowerToys#31463",
+    "PowerToys#9656",
+    "PowerToys#48465",
+    "PowerToys#43912",
+    "PowerToys#42735",
+    "PowerToys#41267",
+    "PowerToys#38669",
+    "PowerToys#37731",
+    "PowerToys#36897",
+    "PowerToys#33686",
+    "PowerToys#32688",
+    "PowerToys#27260",
+    "PowerToys#24048",
+    "PowerToys#23586",
+    "PowerToys#21701",
+    "PowerToys#21535",
+    "PowerToys#20700"
+   ]
+  },
+  {
+   "t": 1794880326.467361,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#3381"
+   },
+   "seconds": 0.00015585598885081708,
+   "returned": [
+    "PowerToys#3381"
+   ]
+  },
+  {
+   "t": 1794880326.7100024,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37853"
+   },
+   "seconds": 0.0001452470023650676,
+   "returned": [
+    "PowerToys#37853"
+   ]
+  },
+  {
+   "t": 1794880326.8902042,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#586"
+   },
+   "seconds": 0.0001815049909055233,
+   "returned": [
+    "PowerToys#586"
+   ]
+  },
+  {
+   "t": 1794880327.6965687,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#28399"
+   },
+   "seconds": 9.730702731758356e-05,
+   "returned": [
+    "PowerToys#28399"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7345,
+  "stop_reason": "end_turn",
+  "session_id": "0160cd05-ce52-4e64-9058-27106672a718",
+  "total_cost_usd": 0.0594281,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 11897,
+   "cache_read_input_tokens": 34801,
+   "output_tokens": 834,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11897,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 269,
+     "cache_read_input_tokens": 12980,
+     "cache_creation_input_tokens": 94,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 94
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 834,
+    "cacheReadInputTokens": 34801,
+    "cacheCreationInputTokens": 11897,
+    "webSearchRequests": 0,
+    "costUSD": 0.0594281,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11897,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#3381\", \"PowerToys#37853\", \"PowerToys#28399\"], \"answer\": \"This has been requested before. The main tracking issue is PowerToys#3381 (Settings sync), and similar requests were closed as duplicates of it. Account-based sync, such as signing in with a Microsoft or Google account, is not available yet. In the meantime, PowerToys has a manual Backup/Restore and Import/Export for settings in its Settings app. Export your settings, save the file to OneDrive or another cloud folder, and restore it on your other computer. Some users have also scripted a copy of the settings folder (%LOCALAPPDATA%\\\\Microsoft\\\\PowerToys) with tools like rclone. Add your use case and a +1 to #3381.\"}",
+  "ttft_ms": 956,
+  "type": "result",
+  "duration_ms": 7405,
+  "uuid": "cda70236-41e5-4b52-9677-61d96dc471da",
+  "ttft_stream_ms": 595,
+  "time_to_request_ms": 38,
+  "first_content_frame_ms": 595,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 834,
+    "cacheReadInputTokens": 34801,
+    "cacheCreationInputTokens": 11897,
+    "webSearchRequests": 0,
+    "costUSD": 0.0594281,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11897,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 8.730007676000241,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-9gra7mwt/work"
+  }
+ },
+ "wall_seconds": 8.731630420981674,
+ "qid": "PowerToys#49959",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#3381",
+   "PowerToys#37853",
+   "PowerToys#28399"
+  ],
+  "answer": "This has been requested before. The main tracking issue is PowerToys#3381 (Settings sync), and similar requests were closed as duplicates of it. Account-based sync, such as signing in with a Microsoft or Google account, is not available yet. In the meantime, PowerToys has a manual Backup/Restore and Import/Export for settings in its Settings app. Export your settings, save the file to OneDrive or another cloud folder, and restore it on your other computer. Some users have also scripted a copy of the settings folder (%LOCALAPPDATA%\\Microsoft\\PowerToys) with tools like rclone. Add your use case and a +1 to #3381."
+ },
+ "hit_turn_cap": false
+}

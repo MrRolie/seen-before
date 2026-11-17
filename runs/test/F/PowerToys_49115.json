@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#27790",
+  "PowerToys#45602",
+  "PowerToys#32305",
+  "PowerToys#38086",
+  "PowerToys#24846"
+ ],
+ "retrieval_seconds": 0.827200564002851,
+ "retrieval_scores": [
+  0.032266458495966696,
+  0.03177805800756621,
+  0.029138513513513514,
+  0.02782608695652174,
+  0.027108970929195647
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 4053,
+  "stop_reason": "end_turn",
+  "session_id": "e9427437-5c99-40d3-b482-f2ea7a104e6b",
+  "total_cost_usd": 0.032196,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 7103,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 378,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7103,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 378,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 7103,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7103
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 378,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7103,
+    "webSearchRequests": 0,
+    "costUSD": 0.032196,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7103,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#24846\", \"PowerToys#27790\", \"PowerToys#32305\"], \"answer\": \"This request (a start/end time window and weekdays for Awake) has been reported many times and is tracked in PowerToys#24846 (Keep Awake on a Schedule), where other duplicates were closed. Scheduling is not available in Awake yet. Please add a thumbs-up and any extra details to #24846. A scheduled 'daily window' mode has been proposed there, but the first version would not include weekday filters. Until it ships, you can use these workarounds from the tickets: (1) start Awake from the command line with an expiry, e.g. PowerToys.Awake.exe --expire-at=17:30:00 --display-on=false, and automate it with a Windows Task Scheduler task (for example, one that triggers on resume from sleep and runs a PowerShell script that stops any running Awake process and relaunches it with the end-of-day time); or (2) set an expiry in Awake each day so it turns off at the end of your working hours. One ticket also mentions the third-party Caffeine tool as an alternative.\"}",
+  "ttft_ms": 4262,
+  "type": "result",
+  "duration_ms": 4284,
+  "uuid": "e9092e04-0cc5-42cc-bb53-8e88d64a6263",
+  "ttft_stream_ms": 1484,
+  "time_to_request_ms": 230,
+  "first_content_frame_ms": 1484,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 378,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7103,
+    "webSearchRequests": 0,
+    "costUSD": 0.032196,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7103,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 5.23784685600549,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-lmqgg7n4/work"
+  }
+ },
+ "wall_seconds": 6.067491636000341,
+ "qid": "PowerToys#49115",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#24846",
+   "PowerToys#27790",
+   "PowerToys#32305"
+  ],
+  "answer": "This request (a start/end time window and weekdays for Awake) has been reported many times and is tracked in PowerToys#24846 (Keep Awake on a Schedule), where other duplicates were closed. Scheduling is not available in Awake yet. Please add a thumbs-up and any extra details to #24846. A scheduled 'daily window' mode has been proposed there, but the first version would not include weekday filters. Until it ships, you can use these workarounds from the tickets: (1) start Awake from the command line with an expiry, e.g. PowerToys.Awake.exe --expire-at=17:30:00 --display-on=false, and automate it with a Windows Task Scheduler task (for example, one that triggers on resume from sleep and runs a PowerShell script that stops any running Awake process and relaunches it with the end-of-day time); or (2) set an expiry in Awake each day so it turns off at the end of your working hours. One ticket also mentions the third-party Caffeine tool as an alternative."
+ },
+ "hit_turn_cap": false
+}

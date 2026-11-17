@@ -1,0 +1,415 @@
+{
+ "shown": [
+  "terminal#10106",
+  "terminal#10198",
+  "terminal#10609",
+  "terminal#11025",
+  "terminal#11076",
+  "terminal#12169",
+  "terminal#13290",
+  "terminal#1364",
+  "terminal#13695",
+  "terminal#13773",
+  "terminal#14104",
+  "terminal#14110",
+  "terminal#14954",
+  "terminal#15180",
+  "terminal#15410",
+  "terminal#15526",
+  "terminal#15576",
+  "terminal#15583",
+  "terminal#15689",
+  "terminal#16326",
+  "terminal#16579",
+  "terminal#16747",
+  "terminal#1728",
+  "terminal#17425",
+  "terminal#18923",
+  "terminal#18947",
+  "terminal#19253",
+  "terminal#19269",
+  "terminal#19270",
+  "terminal#19336",
+  "terminal#19349",
+  "terminal#19482",
+  "terminal#19483",
+  "terminal#19492",
+  "terminal#19667",
+  "terminal#19670",
+  "terminal#19751",
+  "terminal#20004",
+  "terminal#20245",
+  "terminal#20249",
+  "terminal#2183",
+  "terminal#2343",
+  "terminal#2570",
+  "terminal#489",
+  "terminal#5490",
+  "terminal#5582",
+  "terminal#5604",
+  "terminal#5625",
+  "terminal#5698",
+  "terminal#5730",
+  "terminal#5830",
+  "terminal#6080",
+  "terminal#6177",
+  "terminal#6771",
+  "terminal#6946",
+  "terminal#7553",
+  "terminal#8384",
+  "terminal#8581",
+  "terminal#9109",
+  "terminal#9955"
+ ],
+ "retrieval_seconds": 0.4344532009563409,
+ "tool_calls": [
+  {
+   "t": 1794880887.1615152,
+   "tool": "search",
+   "args": {
+    "pattern": "0xc000027b",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.052574338973499835,
+   "returned": [
+    "terminal#14104",
+    "terminal#19482",
+    "terminal#16326",
+    "terminal#15583",
+    "terminal#11025",
+    "terminal#7553",
+    "terminal#2570",
+    "terminal#19492",
+    "terminal#19270",
+    "terminal#15689",
+    "terminal#15576",
+    "terminal#15526",
+    "terminal#14110",
+    "terminal#2183",
+    "terminal#19751",
+    "terminal#19667",
+    "terminal#19483",
+    "terminal#19336",
+    "terminal#19269",
+    "terminal#18947"
+   ]
+  },
+  {
+   "t": 1794880887.4025738,
+   "tool": "search",
+   "args": {
+    "pattern": "crash",
+    "regex": false,
+    "also": [
+     "select",
+     "Windows.UI.Xaml.dll"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.14603371999692172,
+   "returned": [
+    "terminal#1364",
+    "terminal#16747",
+    "terminal#19270",
+    "terminal#5582",
+    "terminal#18923",
+    "terminal#13695",
+    "terminal#20245",
+    "terminal#20004",
+    "terminal#12169",
+    "terminal#19349",
+    "terminal#17425",
+    "terminal#16579",
+    "terminal#10106",
+    "terminal#19667",
+    "terminal#15410",
+    "terminal#15180",
+    "terminal#14954",
+    "terminal#13773",
+    "terminal#10198",
+    "terminal#10609"
+   ]
+  },
+  {
+   "t": 1794880888.3587334,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19667"
+   },
+   "seconds": 0.0001933450112119317,
+   "returned": [
+    "terminal#19667"
+   ]
+  },
+  {
+   "t": 1794880890.2110937,
+   "tool": "search",
+   "args": {
+    "pattern": "crash",
+    "regex": false,
+    "also": [
+     "padding",
+     "click"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.08334373400430195,
+   "returned": [
+    "terminal#20249",
+    "terminal#9955",
+    "terminal#19667",
+    "terminal#1728",
+    "terminal#13290",
+    "terminal#2343",
+    "terminal#489",
+    "terminal#9109",
+    "terminal#8581",
+    "terminal#8384",
+    "terminal#6946",
+    "terminal#6771",
+    "terminal#6177",
+    "terminal#6080",
+    "terminal#5830",
+    "terminal#5730",
+    "terminal#5698",
+    "terminal#5625",
+    "terminal#5604",
+    "terminal#5490"
+   ]
+  },
+  {
+   "t": 1794880890.506857,
+   "tool": "search",
+   "args": {
+    "pattern": "1.24.2509.25002",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.04697986299288459,
+   "returned": [
+    "terminal#19670",
+    "terminal#19667",
+    "terminal#19349",
+    "terminal#19253"
+   ]
+  },
+  {
+   "t": 1794880892.081952,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19349"
+   },
+   "seconds": 0.0003530709946062416,
+   "returned": [
+    "terminal#19349"
+   ]
+  },
+  {
+   "t": 1794880893.6347935,
+   "tool": "search",
+   "args": {
+    "pattern": "click",
+    "regex": false,
+    "also": [
+     "0xc000027b",
+     "Windows.UI.Xaml.dll",
+     "mouse"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.10497512898291461,
+   "returned": [
+    "terminal#19667",
+    "terminal#19483",
+    "terminal#11076"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11714,
+  "stop_reason": "end_turn",
+  "session_id": "e0983999-d2be-4edf-adb6-dac6edb6eccd",
+  "total_cost_usd": 0.09320470000000002,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 18923,
+   "cache_read_input_tokens": 63387,
+   "output_tokens": 1115,
+   "output_tokens_details": {
+    "thinking_tokens": 229
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 18923,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 362,
+     "cache_read_input_tokens": 19360,
+     "cache_creation_input_tokens": 740,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 740
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1115,
+    "cacheReadInputTokens": 63387,
+    "cacheCreationInputTokens": 18923,
+    "webSearchRequests": 0,
+    "costUSD": 0.09320470000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 229,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18923,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#19667\"], \"answer\": \"This looks like the same crash as terminal#19667. In that ticket, Terminal Preview 1.24.2682.0 (exe 1.24.2509.25002) crashes with exception 0xc000027b in Windows.UI.Xaml.dll when you click in the padding outside the text area, which is the left edge of the window in your case. The archive shows no fix or confirmed workaround. Until a fix ships, avoid starting a click-and-drag selection in the padding at the far left or right edge. Start the selection inside the text area instead. Also try updating to the newest Terminal Preview or Stable build. If it still crashes, add your Event Viewer details to terminal#19667.\"}",
+  "ttft_ms": 1648,
+  "type": "result",
+  "duration_ms": 12155,
+  "uuid": "939a0fa8-1c16-4850-8e22-d28015df9125",
+  "ttft_stream_ms": 1021,
+  "time_to_request_ms": 100,
+  "first_content_frame_ms": 1022,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1115,
+    "cacheReadInputTokens": 63387,
+    "cacheCreationInputTokens": 18923,
+    "webSearchRequests": 0,
+    "costUSD": 0.09320470000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 229,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18923,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.915476044989191,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-exolfd2s/work"
+  }
+ },
+ "wall_seconds": 13.920457824016921,
+ "qid": "terminal#20566",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#19667"
+  ],
+  "answer": "This looks like the same crash as terminal#19667. In that ticket, Terminal Preview 1.24.2682.0 (exe 1.24.2509.25002) crashes with exception 0xc000027b in Windows.UI.Xaml.dll when you click in the padding outside the text area, which is the left edge of the window in your case. The archive shows no fix or confirmed workaround. Until a fix ships, avoid starting a click-and-drag selection in the padding at the far left or right edge. Start the selection inside the text area instead. Also try updating to the newest Terminal Preview or Stable build. If it still crashes, add your Event Viewer details to terminal#19667."
+ },
+ "hit_turn_cap": false
+}

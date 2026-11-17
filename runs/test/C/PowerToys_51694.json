@@ -1,0 +1,322 @@
+{
+ "shown": [
+  "PowerToys#10126",
+  "PowerToys#11984",
+  "PowerToys#14092",
+  "PowerToys#202",
+  "PowerToys#204",
+  "PowerToys#2843",
+  "PowerToys#3122",
+  "PowerToys#3509",
+  "PowerToys#38273",
+  "PowerToys#38295",
+  "PowerToys#38501",
+  "PowerToys#38683",
+  "PowerToys#38684",
+  "PowerToys#39399",
+  "PowerToys#40685",
+  "PowerToys#40864",
+  "PowerToys#411",
+  "PowerToys#41852",
+  "PowerToys#42103",
+  "PowerToys#42216",
+  "PowerToys#43935",
+  "PowerToys#44442",
+  "PowerToys#598",
+  "PowerToys#63",
+  "PowerToys#6484",
+  "PowerToys#6742",
+  "PowerToys#7554",
+  "PowerToys#7907",
+  "PowerToys#8403",
+  "PowerToys#8421",
+  "PowerToys#8523",
+  "PowerToys#8602",
+  "PowerToys#8922",
+  "PowerToys#9092"
+ ],
+ "retrieval_seconds": 3.747256416012533,
+ "tool_calls": [
+  {
+   "t": 1794884923.421927,
+   "tool": "search",
+   "args": {
+    "query": "standalone Command Palette zip portable install without PowerToys",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.7321184029860888,
+   "returned": [
+    "PowerToys#598",
+    "PowerToys#42103",
+    "PowerToys#8922",
+    "PowerToys#6742",
+    "PowerToys#411",
+    "PowerToys#40864",
+    "PowerToys#38684",
+    "PowerToys#204",
+    "PowerToys#41852",
+    "PowerToys#44442",
+    "PowerToys#39399",
+    "PowerToys#38273",
+    "PowerToys#202",
+    "PowerToys#3509",
+    "PowerToys#6484",
+    "PowerToys#40685",
+    "PowerToys#38501",
+    "PowerToys#8421",
+    "PowerToys#9092",
+    "PowerToys#8602"
+   ]
+  },
+  {
+   "t": 1794884923.4573238,
+   "tool": "search",
+   "args": {
+    "query": "Command Palette install for non-admin users, separate from PowerToys",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014722263993462548,
+   "returned": [
+    "PowerToys#411",
+    "PowerToys#42103",
+    "PowerToys#8922",
+    "PowerToys#40685",
+    "PowerToys#40864",
+    "PowerToys#43935",
+    "PowerToys#6484",
+    "PowerToys#2843",
+    "PowerToys#8403",
+    "PowerToys#14092",
+    "PowerToys#38295",
+    "PowerToys#8523",
+    "PowerToys#7907",
+    "PowerToys#10126",
+    "PowerToys#42216",
+    "PowerToys#38683",
+    "PowerToys#7554",
+    "PowerToys#63",
+    "PowerToys#3122",
+    "PowerToys#11984"
+   ]
+  },
+  {
+   "t": 1794884924.5601668,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42103"
+   },
+   "seconds": 0.00015131602413021028,
+   "returned": [
+    "PowerToys#42103"
+   ]
+  },
+  {
+   "t": 1794884924.8077047,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38684"
+   },
+   "seconds": 0.00014648601063527167,
+   "returned": [
+    "PowerToys#38684"
+   ]
+  },
+  {
+   "t": 1794884925.027052,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#41852"
+   },
+   "seconds": 0.0001179469982162118,
+   "returned": [
+    "PowerToys#41852"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6222,
+  "stop_reason": "end_turn",
+  "session_id": "343d01ac-a206-47c2-a668-d5a6cd7fc8b7",
+  "total_cost_usd": 0.0322684,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 6308,
+   "cache_read_input_tokens": 6644,
+   "output_tokens": 636,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6308,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 268,
+     "cache_read_input_tokens": 4051,
+     "cache_creation_input_tokens": 3290,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3290
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 636,
+    "cacheReadInputTokens": 6644,
+    "cacheCreationInputTokens": 6308,
+    "webSearchRequests": 0,
+    "costUSD": 0.0322684,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6308,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#42103\", \"PowerToys#38684\", \"PowerToys#41852\"], \"answer\": \"Requests for a standalone Command Palette, installable without the rest of PowerToys, have been filed before. PowerToys#38684 is the main thread and the others were merged into it. The team said they will probably do this at some point. Command Palette is already a separate MSIX package, and when it is split out it should keep the same identity, so settings and extensions should carry over. Nothing has been released yet. Please add your use case (non-admin users, people who only want CmdPal) to #38684 and follow it for updates. Your own zip workaround is unofficial and unsupported by the team, so I can't recommend it as a replacement for an official release. If you share it, be clear that it is a community workaround.\"}",
+  "ttft_ms": 1529,
+  "type": "result",
+  "duration_ms": 9792,
+  "uuid": "e7568ae8-c10e-444b-9bdc-1a6eafa35af5",
+  "ttft_stream_ms": 921,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 922,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 636,
+    "cacheReadInputTokens": 6644,
+    "cacheCreationInputTokens": 6308,
+    "webSearchRequests": 0,
+    "costUSD": 0.0322684,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6308,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.22105355799431,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-oqo9x6k_/work"
+  }
+ },
+ "wall_seconds": 11.223229719005758,
+ "qid": "PowerToys#51694",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#42103",
+   "PowerToys#38684",
+   "PowerToys#41852"
+  ],
+  "answer": "Requests for a standalone Command Palette, installable without the rest of PowerToys, have been filed before. PowerToys#38684 is the main thread and the others were merged into it. The team said they will probably do this at some point. Command Palette is already a separate MSIX package, and when it is split out it should keep the same identity, so settings and extensions should carry over. Nothing has been released yet. Please add your use case (non-admin users, people who only want CmdPal) to #38684 and follow it for updates. Your own zip workaround is unofficial and unsupported by the team, so I can't recommend it as a replacement for an official release. If you share it, be clear that it is a community workaround."
+ },
+ "hit_turn_cap": false
+}

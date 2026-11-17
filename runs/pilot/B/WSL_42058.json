@@ -1,0 +1,427 @@
+{
+ "shown": [
+  "WSL#10494",
+  "WSL#10869",
+  "WSL#10917",
+  "WSL#11675",
+  "WSL#11693",
+  "WSL#11725",
+  "WSL#11791",
+  "WSL#12103",
+  "WSL#12170",
+  "WSL#12351",
+  "WSL#13301",
+  "WSL#13328",
+  "WSL#14513",
+  "WSL#40783",
+  "WSL#4084",
+  "WSL#40944",
+  "WSL#40945",
+  "WSL#40951",
+  "WSL#40957",
+  "WSL#40959",
+  "WSL#4150",
+  "WSL#4166",
+  "WSL#4322",
+  "WSL#449",
+  "WSL#4699",
+  "WSL#4735",
+  "WSL#4901",
+  "WSL#5109",
+  "WSL#5231",
+  "WSL#5240",
+  "WSL#5336",
+  "WSL#5718",
+  "WSL#5836",
+  "WSL#6404",
+  "WSL#6662",
+  "WSL#6982",
+  "WSL#8714",
+  "WSL#8725",
+  "WSL#8883",
+  "WSL#8997",
+  "WSL#9490",
+  "WSL#9932",
+  "terminal#13388"
+ ],
+ "retrieval_seconds": 0.9200848370383028,
+ "tool_calls": [
+  {
+   "t": 1794877236.5545201,
+   "tool": "search",
+   "args": {
+    "pattern": "image import",
+    "regex": false,
+    "also": null,
+    "repo": "WSL"
+   },
+   "seconds": 0.015006959001766518,
+   "returned": []
+  },
+  {
+   "t": 1794877236.582625,
+   "tool": "search",
+   "args": {
+    "pattern": "wslc import latest tag",
+    "regex": false,
+    "also": null,
+    "repo": "WSL"
+   },
+   "seconds": 0.014844703022390604,
+   "returned": []
+  },
+  {
+   "t": 1794877238.553017,
+   "tool": "search",
+   "args": {
+    "pattern": "wslc image",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.0782904649968259,
+   "returned": [
+    "WSL#14513",
+    "WSL#40959"
+   ]
+  },
+  {
+   "t": 1794877240.56589,
+   "tool": "search",
+   "args": {
+    "pattern": "import",
+    "regex": false,
+    "also": [
+     "wslc",
+     "tag"
+    ],
+    "repo": null
+   },
+   "seconds": 0.1927286610007286,
+   "returned": [
+    "WSL#4699",
+    "WSL#4735",
+    "WSL#8714",
+    "WSL#4150",
+    "WSL#8997",
+    "WSL#10869",
+    "WSL#13328",
+    "WSL#13301",
+    "WSL#9932",
+    "WSL#5718",
+    "WSL#6982",
+    "WSL#5109",
+    "WSL#4166",
+    "WSL#12170",
+    "WSL#40783",
+    "WSL#9490",
+    "WSL#8883",
+    "WSL#4322",
+    "WSL#449",
+    "terminal#13388"
+   ]
+  },
+  {
+   "t": 1794877242.5661867,
+   "tool": "search",
+   "args": {
+    "pattern": "wslc",
+    "regex": false,
+    "also": [
+     "import"
+    ],
+    "repo": "WSL"
+   },
+   "seconds": 0.06292112701339647,
+   "returned": [
+    "WSL#4699",
+    "WSL#4150",
+    "WSL#6982",
+    "WSL#4166",
+    "WSL#8725",
+    "WSL#11675",
+    "WSL#5231",
+    "WSL#4901",
+    "WSL#6404",
+    "WSL#5240",
+    "WSL#12351",
+    "WSL#11693",
+    "WSL#6662",
+    "WSL#5836",
+    "WSL#4084",
+    "WSL#10494",
+    "WSL#11791",
+    "WSL#5336",
+    "WSL#40951",
+    "WSL#13301"
+   ]
+  },
+  {
+   "t": 1794877242.6589694,
+   "tool": "search",
+   "args": {
+    "pattern": "wslc load",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.0831077640177682,
+   "returned": [
+    "WSL#40945",
+    "WSL#40951"
+   ]
+  },
+  {
+   "t": 1794877244.5519042,
+   "tool": "search",
+   "args": {
+    "pattern": "default to :latest",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.08617000098456629,
+   "returned": []
+  },
+  {
+   "t": 1794877244.706181,
+   "tool": "search",
+   "args": {
+    "pattern": "wslc",
+    "regex": false,
+    "also": [
+     "without tag"
+    ],
+    "repo": null
+   },
+   "seconds": 0.14626745498389937,
+   "returned": []
+  },
+  {
+   "t": 1794877247.2110157,
+   "tool": "search",
+   "args": {
+    "pattern": "wslc",
+    "regex": false,
+    "also": [
+     "latest",
+     "E_INVALIDARG"
+    ],
+    "repo": null
+   },
+   "seconds": 0.21726734400726855,
+   "returned": [
+    "WSL#40957",
+    "WSL#40944",
+    "WSL#12103",
+    "WSL#11725",
+    "WSL#10917"
+   ]
+  },
+  {
+   "t": 1794877247.2471092,
+   "tool": "search",
+   "args": {
+    "pattern": "image save",
+    "regex": false,
+    "also": null,
+    "repo": "WSL"
+   },
+   "seconds": 0.023364941007457674,
+   "returned": []
+  },
+  {
+   "t": 1794877250.7609065,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#40944"
+   },
+   "seconds": 0.00011541700223460793,
+   "returned": [
+    "WSL#40944"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 19073,
+  "stop_reason": "end_turn",
+  "session_id": "84485bb6-5400-4d8d-b5dc-772670f090a8",
+  "total_cost_usd": 0.079286,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 14905,
+   "cache_read_input_tokens": 55540,
+   "output_tokens": 1408,
+   "output_tokens_details": {
+    "thinking_tokens": 237
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 14905,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 223,
+     "cache_read_input_tokens": 14130,
+     "cache_creation_input_tokens": 1952,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1952
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1408,
+    "cacheReadInputTokens": 55540,
+    "cacheCreationInputTokens": 14905,
+    "webSearchRequests": 0,
+    "costUSD": 0.079286,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 237,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14905,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket that reports this problem. The closest one, WSL#40944, is a different issue. In that ticket every wslc command failed with E_INVALIDARG because of a bug in how the session name was generated from a Windows username containing a '.'. In your case pull and save work, and only `wslc image import` without a tag fails. Until this is fixed, give the image an explicit tag, for example `wslc image import alp.tar test:latest`, which you've already confirmed works. Please keep this ticket open as a bug report. The expected behavior is that a missing tag defaults to :latest, as it does with `docker import`.\"}",
+  "ttft_ms": 2533,
+  "type": "result",
+  "duration_ms": 19899,
+  "uuid": "b8f3ab59-6b42-4f57-bb17-f7d000c05637",
+  "ttft_stream_ms": 1643,
+  "time_to_request_ms": 55,
+  "first_content_frame_ms": 1644,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1408,
+    "cacheReadInputTokens": 55540,
+    "cacheCreationInputTokens": 14905,
+    "webSearchRequests": 0,
+    "costUSD": 0.079286,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 237,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14905,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 21.42668675299501,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-y86cbir2/work"
+  }
+ },
+ "wall_seconds": 21.42855856200913,
+ "qid": "WSL#42058",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket that reports this problem. The closest one, WSL#40944, is a different issue. In that ticket every wslc command failed with E_INVALIDARG because of a bug in how the session name was generated from a Windows username containing a '.'. In your case pull and save work, and only `wslc image import` without a tag fails. Until this is fixed, give the image an explicit tag, for example `wslc image import alp.tar test:latest`, which you've already confirmed works. Please keep this ticket open as a bug report. The expected behavior is that a missing tag defaults to :latest, as it does with `docker import`."
+ },
+ "hit_turn_cap": false
+}

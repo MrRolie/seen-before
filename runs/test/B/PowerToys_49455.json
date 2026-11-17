@@ -1,0 +1,319 @@
+{
+ "shown": [
+  "PowerToys#1331",
+  "PowerToys#42401",
+  "PowerToys#42413",
+  "PowerToys#42561",
+  "PowerToys#42562",
+  "PowerToys#42596",
+  "PowerToys#42611",
+  "PowerToys#42857",
+  "PowerToys#42869",
+  "PowerToys#42984",
+  "PowerToys#43812",
+  "PowerToys#44867",
+  "PowerToys#45559",
+  "PowerToys#45960",
+  "PowerToys#45974",
+  "PowerToys#46101",
+  "PowerToys#46461",
+  "PowerToys#46722",
+  "PowerToys#46823",
+  "PowerToys#47986",
+  "PowerToys#48361",
+  "PowerToys#48705"
+ ],
+ "retrieval_seconds": 0.14225642901146784,
+ "tool_calls": [
+  {
+   "t": 1794878489.7872097,
+   "tool": "search",
+   "args": {
+    "pattern": "wallpaper",
+    "regex": false,
+    "also": [
+     "Light Switch"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.08371931701549329,
+   "returned": [
+    "PowerToys#46823",
+    "PowerToys#1331",
+    "PowerToys#46461",
+    "PowerToys#43812",
+    "PowerToys#42596",
+    "PowerToys#48705",
+    "PowerToys#47986",
+    "PowerToys#46722",
+    "PowerToys#46101",
+    "PowerToys#45960",
+    "PowerToys#44867",
+    "PowerToys#42984",
+    "PowerToys#42869",
+    "PowerToys#42857",
+    "PowerToys#42611",
+    "PowerToys#42562",
+    "PowerToys#42561",
+    "PowerToys#48361",
+    "PowerToys#45974",
+    "PowerToys#45559"
+   ]
+  },
+  {
+   "t": 1794878489.8559444,
+   "tool": "search",
+   "args": {
+    "pattern": "light switch wallpaper",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.0578624089830555,
+   "returned": [
+    "PowerToys#45960"
+   ]
+  },
+  {
+   "t": 1794878491.8327265,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42401"
+   },
+   "seconds": 0.00011102700955234468,
+   "returned": [
+    "PowerToys#42401"
+   ]
+  },
+  {
+   "t": 1794878493.2753441,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47986"
+   },
+   "seconds": 0.00011725700460374355,
+   "returned": [
+    "PowerToys#47986"
+   ]
+  },
+  {
+   "t": 1794878494.8150687,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42413"
+   },
+   "seconds": 0.00012503701145760715,
+   "returned": [
+    "PowerToys#42413"
+   ]
+  },
+  {
+   "t": 1794878496.3512678,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42611"
+   },
+   "seconds": 0.0001415169972460717,
+   "returned": [
+    "PowerToys#42611"
+   ]
+  },
+  {
+   "t": 1794878500.233653,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46461"
+   },
+   "seconds": 0.00017986499005928636,
+   "returned": [
+    "PowerToys#46461"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 16408,
+  "stop_reason": "end_turn",
+  "session_id": "1906c1a0-5cdd-42a6-81fc-98a5194e856d",
+  "total_cost_usd": 0.044887699999999996,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 7548,
+   "cache_read_input_tokens": 37977,
+   "output_tokens": 1087,
+   "output_tokens_details": {
+    "thinking_tokens": 247
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7548,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 329,
+     "cache_read_input_tokens": 7822,
+     "cache_creation_input_tokens": 903,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 903
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1087,
+    "cacheReadInputTokens": 37977,
+    "cacheCreationInputTokens": 7548,
+    "webSearchRequests": 0,
+    "costUSD": 0.044887699999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 247,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7548,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#42401\", \"PowerToys#46461\", \"PowerToys#47986\"], \"answer\": \"This feature has been requested before, and Light Switch can't do it yet. The main tracking issue is PowerToys#42401, 'Auto changing desktop background image alongside with Light switch'. Other requests for the same thing, such as #46461 and #45559, were closed as duplicates of it. #47986 was closed as a duplicate of #42413 ('Select specific light/dark themes'), which would switch whole Windows theme files including the wallpaper. Add a thumbs-up or a comment on #42401 to show interest. Until it's built, you can set the wallpaper in one of these ways. First, use a Windows theme or a task scheduler task that changes the wallpaper. Second, use a third-party tool such as Auto Dark Mode, which can switch wallpapers with the theme. Third, if you use Wallpaper Engine, use its command-line options.\"}",
+  "ttft_ms": 2148,
+  "type": "result",
+  "duration_ms": 16628,
+  "uuid": "dde23066-ddfa-4f8d-bbad-3bd07de8a697",
+  "ttft_stream_ms": 1237,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 1237,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1087,
+    "cacheReadInputTokens": 37977,
+    "cacheCreationInputTokens": 7548,
+    "webSearchRequests": 0,
+    "costUSD": 0.044887699999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 247,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7548,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 17.77276398500544,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-xudt5gdk/work"
+  }
+ },
+ "wall_seconds": 17.77431030498701,
+ "qid": "PowerToys#49455",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#42401",
+   "PowerToys#46461",
+   "PowerToys#47986"
+  ],
+  "answer": "This feature has been requested before, and Light Switch can't do it yet. The main tracking issue is PowerToys#42401, 'Auto changing desktop background image alongside with Light switch'. Other requests for the same thing, such as #46461 and #45559, were closed as duplicates of it. #47986 was closed as a duplicate of #42413 ('Select specific light/dark themes'), which would switch whole Windows theme files including the wallpaper. Add a thumbs-up or a comment on #42401 to show interest. Until it's built, you can set the wallpaper in one of these ways. First, use a Windows theme or a task scheduler task that changes the wallpaper. Second, use a third-party tool such as Auto Dark Mode, which can switch wallpapers with the theme. Third, if you use Wallpaper Engine, use its command-line options."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,278 @@
+{
+ "shown": [
+  "PowerToys#10926",
+  "PowerToys#11221",
+  "PowerToys#11265",
+  "PowerToys#11733",
+  "PowerToys#12517",
+  "PowerToys#15179",
+  "PowerToys#17416",
+  "PowerToys#32183",
+  "PowerToys#3421",
+  "PowerToys#34721",
+  "PowerToys#4228",
+  "PowerToys#45021",
+  "PowerToys#46260",
+  "PowerToys#48973",
+  "PowerToys#5374",
+  "PowerToys#6756",
+  "PowerToys#7225",
+  "PowerToys#7724",
+  "PowerToys#8016",
+  "PowerToys#8937"
+ ],
+ "retrieval_seconds": 3.650656915997388,
+ "tool_calls": [
+  {
+   "t": 1794876009.0705976,
+   "tool": "similar",
+   "args": {
+    "query": "Keyboard Manager: remap a single key only in specific apps (app-specific key remap)",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.6500351619906723,
+   "returned": [
+    "PowerToys#6756",
+    "PowerToys#5374",
+    "PowerToys#48973",
+    "PowerToys#11221",
+    "PowerToys#4228",
+    "PowerToys#7724",
+    "PowerToys#32183",
+    "PowerToys#15179",
+    "PowerToys#17416",
+    "PowerToys#3421",
+    "PowerToys#34721",
+    "PowerToys#11265",
+    "PowerToys#46260",
+    "PowerToys#12517",
+    "PowerToys#8937",
+    "PowerToys#7225",
+    "PowerToys#45021",
+    "PowerToys#11733",
+    "PowerToys#10926",
+    "PowerToys#8016"
+   ]
+  },
+  {
+   "t": 1794876010.0791018,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#6756"
+   },
+   "seconds": 0.00028187298448756337,
+   "returned": [
+    "PowerToys#6756"
+   ]
+  },
+  {
+   "t": 1794876010.2560472,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#5374"
+   },
+   "seconds": 0.000163026008522138,
+   "returned": [
+    "PowerToys#5374"
+   ]
+  },
+  {
+   "t": 1794876011.0693345,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45021"
+   },
+   "seconds": 0.00017685501370579004,
+   "returned": [
+    "PowerToys#45021"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6179,
+  "stop_reason": "end_turn",
+  "session_id": "413bcbee-32b1-44ff-adad-317d1731ac59",
+  "total_cost_usd": 0.038128999999999996,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 7343,
+   "cache_read_input_tokens": 14210,
+   "output_tokens": 732,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7343,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 325,
+     "cache_read_input_tokens": 7331,
+     "cache_creation_input_tokens": 1425,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1425
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 732,
+    "cacheReadInputTokens": 14210,
+    "cacheCreationInputTokens": 7343,
+    "webSearchRequests": 0,
+    "costUSD": 0.038128999999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7343,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#6756\", \"PowerToys#5374\", \"PowerToys#45021\"], \"answer\": \"This feature request has been made before. The main tracking ticket is PowerToys#6756, \\\"App-specific remapping for keys\\\". Other tickets, including #5374 and #45021, were closed as duplicates of it. Keyboard Manager's \\\"Remap keys\\\" currently works globally only. Only \\\"Remap shortcuts\\\" lets you pick a target app. No app-specific key remap has been delivered in these tickets. Add a 👍 reaction and your use case to #6756. For your Enter-key scenario, a workaround is to use \\\"Remap shortcuts\\\" with a target app, but it needs a modifier-based shortcut. A plain Enter key can't be remapped for one app that way. Until the feature is built, you would need a third-party tool, such as AutoHotkey or Keyboard Butler, for app-specific single-key remaps.\"}",
+  "ttft_ms": 1382,
+  "type": "result",
+  "duration_ms": 9784,
+  "uuid": "32684f05-c242-4002-8892-f000dfbee15f",
+  "ttft_stream_ms": 605,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 605,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 732,
+    "cacheReadInputTokens": 14210,
+    "cacheCreationInputTokens": 7343,
+    "webSearchRequests": 0,
+    "costUSD": 0.038128999999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7343,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.297613483999157,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-vm0von2g/work"
+  }
+ },
+ "wall_seconds": 11.300610709004104,
+ "qid": "PowerToys#49188",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#6756",
+   "PowerToys#5374",
+   "PowerToys#45021"
+  ],
+  "answer": "This feature request has been made before. The main tracking ticket is PowerToys#6756, \"App-specific remapping for keys\". Other tickets, including #5374 and #45021, were closed as duplicates of it. Keyboard Manager's \"Remap keys\" currently works globally only. Only \"Remap shortcuts\" lets you pick a target app. No app-specific key remap has been delivered in these tickets. Add a 👍 reaction and your use case to #6756. For your Enter-key scenario, a workaround is to use \"Remap shortcuts\" with a target app, but it needs a modifier-based shortcut. A plain Enter key can't be remapped for one app that way. Until the feature is built, you would need a third-party tool, such as AutoHotkey or Keyboard Butler, for app-specific single-key remaps."
+ },
+ "hit_turn_cap": false
+}

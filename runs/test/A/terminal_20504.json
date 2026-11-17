@@ -1,0 +1,193 @@
+{
+ "shown": [
+  "terminal#19709",
+  "terminal#2114",
+  "terminal#19751",
+  "terminal#1408",
+  "terminal#20004"
+ ],
+ "retrieval_seconds": 0.022717083018505946,
+ "retrieval_scores": [
+  0.7328709363937378,
+  0.6953976154327393,
+  0.6945810914039612,
+  0.6847732067108154,
+  0.67894446849823
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3203,
+  "stop_reason": "end_turn",
+  "session_id": "e4e53037-917e-4ee7-a612-a03dced71636",
+  "total_cost_usd": 0.025765999999999997,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5748,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 277,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5748,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 277,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5748,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5748
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 277,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5748,
+    "webSearchRequests": 0,
+    "costUSD": 0.025765999999999997,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5748,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#20004\"], \"answer\": \"This has been reported before as terminal#20004: the Terminal crashes when you pick a font from the Font face suggestion list using the arrow keys and Enter in Settings > Profiles > Defaults > Appearance. The ticket has no fix or official resolution yet; maintainers were asking for crash dumps. A commenter noted that selecting the font by mouse click works fine. As a workaround, click the suggestion with the mouse instead of using the arrow keys and Enter, or type the full font name ('Hack Nerd Font') and apply it without choosing from the popup. You can also edit settings.json directly. If you have a crash dump, capture it using the wiki's Troubleshooting Tips and add it to terminal#20004, along with your Feedback Hub link.\"}",
+  "ttft_ms": 3356,
+  "type": "result",
+  "duration_ms": 3389,
+  "uuid": "64c0c065-37bc-4ebe-8a9c-06198b3db513",
+  "ttft_stream_ms": 1288,
+  "time_to_request_ms": 179,
+  "first_content_frame_ms": 1288,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 277,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5748,
+    "webSearchRequests": 0,
+    "costUSD": 0.025765999999999997,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5748,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.288332653988618,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-do7s0fva/work"
+  }
+ },
+ "wall_seconds": 4.3137985590146855,
+ "qid": "terminal#20504",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#20004"
+  ],
+  "answer": "This has been reported before as terminal#20004: the Terminal crashes when you pick a font from the Font face suggestion list using the arrow keys and Enter in Settings > Profiles > Defaults > Appearance. The ticket has no fix or official resolution yet; maintainers were asking for crash dumps. A commenter noted that selecting the font by mouse click works fine. As a workaround, click the suggestion with the mouse instead of using the arrow keys and Enter, or type the full font name ('Hack Nerd Font') and apply it without choosing from the popup. You can also edit settings.json directly. If you have a crash dump, capture it using the wiki's Troubleshooting Tips and add it to terminal#20004, along with your Feedback Hub link."
+ },
+ "hit_turn_cap": false
+}

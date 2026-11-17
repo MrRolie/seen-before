@@ -1,0 +1,360 @@
+{
+ "shown": [
+  "PowerToys#13059",
+  "PowerToys#1320",
+  "PowerToys#13222",
+  "PowerToys#15898",
+  "PowerToys#17919",
+  "PowerToys#22403",
+  "PowerToys#23193",
+  "PowerToys#30782",
+  "PowerToys#38393",
+  "PowerToys#38460",
+  "PowerToys#39010",
+  "PowerToys#39432",
+  "PowerToys#39441",
+  "PowerToys#39476",
+  "PowerToys#39527",
+  "PowerToys#39532",
+  "PowerToys#39538",
+  "PowerToys#39704",
+  "PowerToys#40607",
+  "PowerToys#43408",
+  "PowerToys#45126",
+  "PowerToys#46270",
+  "PowerToys#47597",
+  "PowerToys#47739",
+  "PowerToys#48014",
+  "PowerToys#48219",
+  "PowerToys#48226",
+  "PowerToys#48254",
+  "PowerToys#48364",
+  "PowerToys#48436",
+  "PowerToys#48440",
+  "PowerToys#48580",
+  "PowerToys#48834",
+  "PowerToys#48975",
+  "PowerToys#48978",
+  "PowerToys#8781",
+  "WSL#4771",
+  "WSL#6470",
+  "WSL#9556",
+  "terminal#16702",
+  "terminal#18112",
+  "terminal#5316",
+  "terminal#5318",
+  "terminal#5770"
+ ],
+ "retrieval_seconds": 0.3756756809889339,
+ "tool_calls": [
+  {
+   "t": 1794882578.062428,
+   "tool": "search",
+   "args": {
+    "pattern": "elevate",
+    "regex": false,
+    "also": [
+     "Command Palette"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.12658491800539196,
+   "returned": [
+    "PowerToys#45126",
+    "PowerToys#39527",
+    "PowerToys#39432",
+    "PowerToys#48254",
+    "PowerToys#43408",
+    "PowerToys#39476",
+    "PowerToys#39704",
+    "PowerToys#39538",
+    "PowerToys#38460",
+    "PowerToys#48978",
+    "PowerToys#48975",
+    "PowerToys#48834",
+    "PowerToys#48580",
+    "PowerToys#48440",
+    "PowerToys#48436",
+    "PowerToys#48364",
+    "PowerToys#48226",
+    "PowerToys#48219",
+    "PowerToys#47739",
+    "PowerToys#47597"
+   ]
+  },
+  {
+   "t": 1794882578.539325,
+   "tool": "search",
+   "args": {
+    "pattern": "UAC",
+    "regex": false,
+    "also": [
+     "CmdPal"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11019839698565193,
+   "returned": [
+    "PowerToys#39441",
+    "PowerToys#43408",
+    "PowerToys#39532",
+    "PowerToys#38393",
+    "PowerToys#46270",
+    "PowerToys#45126",
+    "PowerToys#23193"
+   ]
+  },
+  {
+   "t": 1794882578.665904,
+   "tool": "search",
+   "args": {
+    "pattern": "HWiNFO",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.062410537007963285,
+   "returned": [
+    "PowerToys#43408",
+    "PowerToys#40607",
+    "PowerToys#1320",
+    "PowerToys#13059",
+    "WSL#4771",
+    "WSL#9556",
+    "terminal#16702",
+    "terminal#5316",
+    "PowerToys#48014",
+    "PowerToys#39010",
+    "PowerToys#30782",
+    "PowerToys#22403",
+    "terminal#18112",
+    "PowerToys#17919",
+    "PowerToys#15898",
+    "PowerToys#13222",
+    "PowerToys#8781",
+    "WSL#6470",
+    "terminal#5770",
+    "terminal#5318"
+   ]
+  },
+  {
+   "t": 1794882579.6494138,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43408"
+   },
+   "seconds": 0.00016892599523998797,
+   "returned": [
+    "PowerToys#43408"
+   ]
+  },
+  {
+   "t": 1794882579.7685292,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40607"
+   },
+   "seconds": 0.00014309599646367133,
+   "returned": [
+    "PowerToys#40607"
+   ]
+  },
+  {
+   "t": 1794882580.7465844,
+   "tool": "search",
+   "args": {
+    "pattern": "self-elevat",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07616980699822307,
+   "returned": []
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7452,
+  "stop_reason": "end_turn",
+  "session_id": "74f1c22b-e9de-4f29-9bbd-81717d164387",
+  "total_cost_usd": 0.05984439999999999,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 12045,
+   "cache_read_input_tokens": 26184,
+   "output_tokens": 903,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12045,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 427,
+     "cache_read_input_tokens": 13110,
+     "cache_creation_input_tokens": 112,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 112
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 903,
+    "cacheReadInputTokens": 26184,
+    "cacheCreationInputTokens": 12045,
+    "webSearchRequests": 0,
+    "costUSD": 0.05984439999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12045,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#43408\", \"PowerToys#40607\"], \"answer\": \"This has been reported before. Some apps that require UAC elevation, such as HWiNFO, won't start from Command Palette. The UAC prompt appears, but the app never opens. The same shortcut works from the Start Menu. In PowerToys#43408 the cause was identified. Command Palette is unelevated, and it fails to start these apps through their shortcut (.lnk) with a Win32Exception ('No application is associated with the specified file'). The ticket as archived records no released fix. One idea discussed there was to launch through a trusted helper such as sudo. The workaround in PowerToys#40607 is to open the app's shortcut Properties, go to the Compatibility tab, and enable 'Run this program as administrator'. The shortcut for HWiNFO is in C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs. Until Command Palette is fixed, you can also use the Start Menu or PowerToys Run for these apps. I found no archived ticket for LenovoLegionToolkit, so I can't confirm that the same cause and workaround apply to it. Please add your version (0.100.2) and the app list to PowerToys#43408.\"}",
+  "ttft_ms": 1180,
+  "type": "result",
+  "duration_ms": 7632,
+  "uuid": "f5b0118f-54fe-465f-b82a-0aabcccef21a",
+  "ttft_stream_ms": 622,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 622,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 903,
+    "cacheReadInputTokens": 26184,
+    "cacheCreationInputTokens": 12045,
+    "webSearchRequests": 0,
+    "costUSD": 0.05984439999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12045,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 9.029754640010651,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-4zgqupbs/work"
+  }
+ },
+ "wall_seconds": 9.031492434005486,
+ "qid": "PowerToys#50523",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#43408",
+   "PowerToys#40607"
+  ],
+  "answer": "This has been reported before. Some apps that require UAC elevation, such as HWiNFO, won't start from Command Palette. The UAC prompt appears, but the app never opens. The same shortcut works from the Start Menu. In PowerToys#43408 the cause was identified. Command Palette is unelevated, and it fails to start these apps through their shortcut (.lnk) with a Win32Exception ('No application is associated with the specified file'). The ticket as archived records no released fix. One idea discussed there was to launch through a trusted helper such as sudo. The workaround in PowerToys#40607 is to open the app's shortcut Properties, go to the Compatibility tab, and enable 'Run this program as administrator'. The shortcut for HWiNFO is in C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs. Until Command Palette is fixed, you can also use the Start Menu or PowerToys Run for these apps. I found no archived ticket for LenovoLegionToolkit, so I can't confirm that the same cause and workaround apply to it. Please add your version (0.100.2) and the app list to PowerToys#43408."
+ },
+ "hit_turn_cap": false
+}

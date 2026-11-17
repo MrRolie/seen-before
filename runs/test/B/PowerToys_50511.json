@@ -1,0 +1,279 @@
+{
+ "shown": [
+  "PowerToys#16751",
+  "PowerToys#19079",
+  "PowerToys#19825",
+  "PowerToys#25076",
+  "PowerToys#25179",
+  "PowerToys#27347",
+  "PowerToys#2774",
+  "PowerToys#28642",
+  "PowerToys#32100",
+  "PowerToys#34950",
+  "PowerToys#39696",
+  "PowerToys#41322",
+  "PowerToys#42816",
+  "PowerToys#43020",
+  "PowerToys#46333",
+  "PowerToys#46334",
+  "PowerToys#47167",
+  "PowerToys#48316",
+  "PowerToys#48566",
+  "PowerToys#6826"
+ ],
+ "retrieval_seconds": 0.044132996001280844,
+ "tool_calls": [
+  {
+   "t": 1794882520.582268,
+   "tool": "search",
+   "args": {
+    "pattern": "screen shar",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04359241999918595,
+   "returned": [
+    "PowerToys#48566",
+    "PowerToys#34950",
+    "PowerToys#46333",
+    "PowerToys#42816",
+    "PowerToys#28642",
+    "PowerToys#32100",
+    "PowerToys#27347",
+    "PowerToys#19825",
+    "PowerToys#19079",
+    "PowerToys#16751",
+    "PowerToys#6826",
+    "PowerToys#2774",
+    "PowerToys#48316",
+    "PowerToys#47167",
+    "PowerToys#46334",
+    "PowerToys#43020",
+    "PowerToys#41322",
+    "PowerToys#39696",
+    "PowerToys#25179",
+    "PowerToys#25076"
+   ]
+  },
+  {
+   "t": 1794882523.348547,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46333"
+   },
+   "seconds": 0.000178754999069497,
+   "returned": [
+    "PowerToys#46333"
+   ]
+  },
+  {
+   "t": 1794882523.356081,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34950"
+   },
+   "seconds": 7.486800313927233e-05,
+   "returned": [
+    "PowerToys#34950"
+   ]
+  },
+  {
+   "t": 1794882523.4250119,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48566"
+   },
+   "seconds": 0.0002869529998861253,
+   "returned": [
+    "PowerToys#48566"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8922,
+  "stop_reason": "end_turn",
+  "session_id": "4608748c-4ded-4377-bb86-2b80139657f2",
+  "total_cost_usd": 0.050546400000000005,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 10325,
+   "cache_read_input_tokens": 9244,
+   "output_tokens": 831,
+   "output_tokens_details": {
+    "thinking_tokens": 33
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10325,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 334,
+     "cache_read_input_tokens": 6234,
+     "cache_creation_input_tokens": 5268,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5268
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 831,
+    "cacheReadInputTokens": 9244,
+    "cacheCreationInputTokens": 10325,
+    "webSearchRequests": 0,
+    "costUSD": 0.050546400000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 33,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10325,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46333\", \"PowerToys#48566\", \"PowerToys#34950\"], \"answer\": \"This feature request has been filed before. PowerToys has no way to exclude specific apps from screen sharing yet. The main tracking issue is PowerToys#46333 (Privacy Overlay). It proposes a utility, similar to Always on Top, that marks chosen windows as excluded from capture, so they stay visible to you but not to Teams or Zoom sharing, recordings or screenshots. PowerToys#48566 was closed as a duplicate of #46333. PowerToys#34950 is an earlier request for the same idea, based on WDA_EXCLUDEFROMCAPTURE. Please subscribe to or upvote #46333 instead of opening a new request. A contributor has built a proof of concept there, but nothing has shipped. Until then, share a single window instead of the whole screen. You could also use the Region to Share app, which is mentioned in #43020.\"}",
+  "ttft_ms": 1995,
+  "type": "result",
+  "duration_ms": 8981,
+  "uuid": "9044dfba-179a-49e2-824d-2c3618e2dbb5",
+  "ttft_stream_ms": 1158,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 1158,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 831,
+    "cacheReadInputTokens": 9244,
+    "cacheCreationInputTokens": 10325,
+    "webSearchRequests": 0,
+    "costUSD": 0.050546400000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 33,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10325,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.532497178006452,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-yagxkg0_/work"
+  }
+ },
+ "wall_seconds": 10.534063347004121,
+ "qid": "PowerToys#50511",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46333",
+   "PowerToys#48566",
+   "PowerToys#34950"
+  ],
+  "answer": "This feature request has been filed before. PowerToys has no way to exclude specific apps from screen sharing yet. The main tracking issue is PowerToys#46333 (Privacy Overlay). It proposes a utility, similar to Always on Top, that marks chosen windows as excluded from capture, so they stay visible to you but not to Teams or Zoom sharing, recordings or screenshots. PowerToys#48566 was closed as a duplicate of #46333. PowerToys#34950 is an earlier request for the same idea, based on WDA_EXCLUDEFROMCAPTURE. Please subscribe to or upvote #46333 instead of opening a new request. A contributor has built a proof of concept there, but nothing has shipped. Until then, share a single window instead of the whole screen. You could also use the Region to Share app, which is mentioned in #43020."
+ },
+ "hit_turn_cap": false
+}

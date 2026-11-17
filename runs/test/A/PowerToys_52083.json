@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#47607",
+  "PowerToys#31352",
+  "PowerToys#11003",
+  "PowerToys#30292",
+  "PowerToys#22521"
+ ],
+ "retrieval_seconds": 0.023143750993767753,
+ "retrieval_scores": [
+  0.8659217953681946,
+  0.8212354183197021,
+  0.8051706552505493,
+  0.7898269295692444,
+  0.788067102432251
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2723,
+  "stop_reason": "end_turn",
+  "session_id": "6c2605bf-5104-40a3-bbf0-64f9f00aa7e6",
+  "total_cost_usd": 0.018304,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3975,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 240,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3975,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 240,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3975,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3975
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 240,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3975,
+    "webSearchRequests": 0,
+    "costUSD": 0.018304,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3975,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#47607\", \"PowerToys#31352\", \"PowerToys#30292\"], \"answer\": \"This feature request has been filed before. A system-wide text expander is tracked in the existing issue PowerToys#5074, and the earlier requests were closed as duplicates of it, so add a thumbs-up there rather than opening a new ticket. As a partial workaround, Keyboard Manager can remap a key or shortcut to insert a block of text, though it is limited to shortcuts and not typed abbreviations like ::email::. For true trigger-based expansion with variables, third-party tools such as AutoHotkey, Espanso or Beeftext are the suggested alternatives for now.\"}",
+  "ttft_ms": 2959,
+  "type": "result",
+  "duration_ms": 2980,
+  "uuid": "d3e1929c-c516-48da-bbb7-478abd0f0644",
+  "ttft_stream_ms": 1178,
+  "time_to_request_ms": 253,
+  "first_content_frame_ms": 1178,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 240,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3975,
+    "webSearchRequests": 0,
+    "costUSD": 0.018304,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3975,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.894694233982591,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-kgrpw5kv/work"
+  }
+ },
+ "wall_seconds": 3.9194409750052728,
+ "qid": "PowerToys#52083",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#47607",
+   "PowerToys#31352",
+   "PowerToys#30292"
+  ],
+  "answer": "This feature request has been filed before. A system-wide text expander is tracked in the existing issue PowerToys#5074, and the earlier requests were closed as duplicates of it, so add a thumbs-up there rather than opening a new ticket. As a partial workaround, Keyboard Manager can remap a key or shortcut to insert a block of text, though it is limited to shortcuts and not typed abbreviations like ::email::. For true trigger-based expansion with variables, third-party tools such as AutoHotkey, Espanso or Beeftext are the suggested alternatives for now."
+ },
+ "hit_turn_cap": false
+}

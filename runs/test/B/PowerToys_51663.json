@@ -1,0 +1,555 @@
+{
+ "shown": [
+  "PowerToys#10",
+  "PowerToys#10429",
+  "PowerToys#11911",
+  "PowerToys#1240",
+  "PowerToys#12652",
+  "PowerToys#14530",
+  "PowerToys#15605",
+  "PowerToys#16212",
+  "PowerToys#16370",
+  "PowerToys#18678",
+  "PowerToys#19203",
+  "PowerToys#19852",
+  "PowerToys#19887",
+  "PowerToys#20550",
+  "PowerToys#21211",
+  "PowerToys#22298",
+  "PowerToys#23511",
+  "PowerToys#23918",
+  "PowerToys#243",
+  "PowerToys#24393",
+  "PowerToys#25197",
+  "PowerToys#25595",
+  "PowerToys#26263",
+  "PowerToys#27828",
+  "PowerToys#28769",
+  "PowerToys#29430",
+  "PowerToys#3170",
+  "PowerToys#3200",
+  "PowerToys#32005",
+  "PowerToys#3223",
+  "PowerToys#33371",
+  "PowerToys#3350",
+  "PowerToys#33891",
+  "PowerToys#34938",
+  "PowerToys#35507",
+  "PowerToys#3600",
+  "PowerToys#36589",
+  "PowerToys#37952",
+  "PowerToys#38134",
+  "PowerToys#38530",
+  "PowerToys#39441",
+  "PowerToys#39640",
+  "PowerToys#3976",
+  "PowerToys#39791",
+  "PowerToys#40100",
+  "PowerToys#40274",
+  "PowerToys#40545",
+  "PowerToys#411",
+  "PowerToys#4151",
+  "PowerToys#42013",
+  "PowerToys#42778",
+  "PowerToys#43654",
+  "PowerToys#43936",
+  "PowerToys#44286",
+  "PowerToys#44312",
+  "PowerToys#445",
+  "PowerToys#44845",
+  "PowerToys#45201",
+  "PowerToys#45248",
+  "PowerToys#45546",
+  "PowerToys#46201",
+  "PowerToys#46269",
+  "PowerToys#46270",
+  "PowerToys#46328",
+  "PowerToys#46360",
+  "PowerToys#46378",
+  "PowerToys#46522",
+  "PowerToys#46555",
+  "PowerToys#46723",
+  "PowerToys#46861",
+  "PowerToys#47245",
+  "PowerToys#47483",
+  "PowerToys#47719",
+  "PowerToys#47866",
+  "PowerToys#47966",
+  "PowerToys#480",
+  "PowerToys#48004",
+  "PowerToys#48225",
+  "PowerToys#48725",
+  "PowerToys#48766",
+  "PowerToys#48802",
+  "PowerToys#48834",
+  "PowerToys#48899",
+  "PowerToys#48986",
+  "PowerToys#557",
+  "PowerToys#611",
+  "PowerToys#6321",
+  "PowerToys#6526",
+  "PowerToys#6653",
+  "PowerToys#8054",
+  "PowerToys#8283",
+  "PowerToys#8339",
+  "PowerToys#8693",
+  "PowerToys#8706",
+  "PowerToys#907",
+  "PowerToys#946"
+ ],
+ "retrieval_seconds": 1.0404105179477483,
+ "tool_calls": [
+  {
+   "t": 1794884809.31173,
+   "tool": "search",
+   "args": {
+    "pattern": "dock",
+    "regex": false,
+    "also": [
+     "drive"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.12230042900773697,
+   "returned": [
+    "PowerToys#45201",
+    "PowerToys#46360",
+    "PowerToys#4151",
+    "PowerToys#480",
+    "PowerToys#8339",
+    "PowerToys#47966",
+    "PowerToys#45546",
+    "PowerToys#3223",
+    "PowerToys#557",
+    "PowerToys#1240",
+    "PowerToys#611",
+    "PowerToys#48802",
+    "PowerToys#48225",
+    "PowerToys#27828",
+    "PowerToys#16370",
+    "PowerToys#12652",
+    "PowerToys#445",
+    "PowerToys#43936",
+    "PowerToys#39640",
+    "PowerToys#19203"
+   ]
+  },
+  {
+   "t": 1794884809.4785962,
+   "tool": "search",
+   "args": {
+    "pattern": "pin",
+    "regex": false,
+    "also": [
+     "disk"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.14082524098921567,
+   "returned": [
+    "PowerToys#25197",
+    "PowerToys#243",
+    "PowerToys#10429",
+    "PowerToys#48834",
+    "PowerToys#48766",
+    "PowerToys#28769",
+    "PowerToys#3350",
+    "PowerToys#24393",
+    "PowerToys#21211",
+    "PowerToys#14530",
+    "PowerToys#8054",
+    "PowerToys#3170",
+    "PowerToys#411",
+    "PowerToys#44286",
+    "PowerToys#33891",
+    "PowerToys#29430",
+    "PowerToys#8693",
+    "PowerToys#946",
+    "PowerToys#33371",
+    "PowerToys#32005"
+   ]
+  },
+  {
+   "t": 1794884811.9080102,
+   "tool": "search",
+   "args": {
+    "pattern": "pin folder",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06673868501093239,
+   "returned": [
+    "PowerToys#44312",
+    "PowerToys#43654",
+    "PowerToys#11911"
+   ]
+  },
+  {
+   "t": 1794884812.186658,
+   "tool": "search",
+   "args": {
+    "pattern": "CmdPal",
+    "regex": false,
+    "also": [
+     "drive",
+     "path"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.16793438198510557,
+   "returned": [
+    "PowerToys#48725",
+    "PowerToys#42778",
+    "PowerToys#48899",
+    "PowerToys#45248",
+    "PowerToys#46269",
+    "PowerToys#40274",
+    "PowerToys#28769",
+    "PowerToys#3600",
+    "PowerToys#47719",
+    "PowerToys#40545",
+    "PowerToys#39791"
+   ]
+  },
+  {
+   "t": 1794884813.9580178,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48802"
+   },
+   "seconds": 0.00013628698070533574,
+   "returned": [
+    "PowerToys#48802"
+   ]
+  },
+  {
+   "t": 1794884814.2514417,
+   "tool": "search",
+   "args": {
+    "pattern": "dock",
+    "regex": false,
+    "also": [
+     "bookmark",
+     "folder"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.17546080899774097,
+   "returned": [
+    "PowerToys#45201",
+    "PowerToys#46270",
+    "PowerToys#10",
+    "PowerToys#38530"
+   ]
+  },
+  {
+   "t": 1794884816.89367,
+   "tool": "search",
+   "args": {
+    "pattern": "bookmark",
+    "regex": false,
+    "also": [
+     "drive"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10707694900338538,
+   "returned": [
+    "PowerToys#38134",
+    "PowerToys#3600",
+    "PowerToys#48004",
+    "PowerToys#47866",
+    "PowerToys#45201",
+    "PowerToys#38530",
+    "PowerToys#25595",
+    "PowerToys#23918",
+    "PowerToys#11911",
+    "PowerToys#8283",
+    "PowerToys#3200",
+    "PowerToys#907"
+   ]
+  },
+  {
+   "t": 1794884816.990876,
+   "tool": "search",
+   "args": {
+    "pattern": "root of a drive",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0673600570007693,
+   "returned": [
+    "PowerToys#22298",
+    "PowerToys#8706"
+   ]
+  },
+  {
+   "t": 1794884819.8592393,
+   "tool": "search",
+   "args": {
+    "pattern": "dock",
+    "regex": false,
+    "also": [
+     "c:\\"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11930680999648757,
+   "returned": [
+    "PowerToys#4151",
+    "PowerToys#46555",
+    "PowerToys#18678",
+    "PowerToys#46201",
+    "PowerToys#48986",
+    "PowerToys#40100",
+    "PowerToys#46723",
+    "PowerToys#47483",
+    "PowerToys#611",
+    "PowerToys#46861",
+    "PowerToys#46378",
+    "PowerToys#34938",
+    "PowerToys#16370",
+    "PowerToys#6653",
+    "PowerToys#6321",
+    "PowerToys#47245",
+    "PowerToys#46328",
+    "PowerToys#15605",
+    "PowerToys#243",
+    "PowerToys#46522"
+   ]
+  },
+  {
+   "t": 1794884819.941204,
+   "tool": "search",
+   "args": {
+    "pattern": "mapped drive",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0730572349857539,
+   "returned": [
+    "PowerToys#16212",
+    "PowerToys#35507",
+    "PowerToys#44845",
+    "PowerToys#42013",
+    "PowerToys#39441",
+    "PowerToys#37952",
+    "PowerToys#36589",
+    "PowerToys#26263",
+    "PowerToys#23511",
+    "PowerToys#20550",
+    "PowerToys#19887",
+    "PowerToys#19852",
+    "PowerToys#6526",
+    "PowerToys#3976"
+   ]
+  },
+  {
+   "t": 1794884819.9502597,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43654"
+   },
+   "seconds": 9.465697803534567e-05,
+   "returned": [
+    "PowerToys#43654"
+   ]
+  },
+  {
+   "t": 1794884821.985014,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46270"
+   },
+   "seconds": 0.00011897701187990606,
+   "returned": [
+    "PowerToys#46270"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 20168,
+  "stop_reason": "end_turn",
+  "session_id": "eada233f-2bf5-4509-b57c-c14cda41c4c0",
+  "total_cost_usd": 0.12129279999999999,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 23941,
+   "cache_read_input_tokens": 86768,
+   "output_tokens": 1682,
+   "output_tokens_details": {
+    "thinking_tokens": 71
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 23941,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 298,
+     "cache_read_input_tokens": 23608,
+     "cache_creation_input_tokens": 1510,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1510
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1682,
+    "cacheReadInputTokens": 86768,
+    "cacheCreationInputTokens": 23941,
+    "webSearchRequests": 0,
+    "costUSD": 0.12129279999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 71,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 23941,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket reporting this problem. That means typing a drive path such as c:\\\\ or c:/ in Command Palette and getting no result, so you can't pin the drive to the dock, while a manually mapped drive works. The tickets I found were about different dock problems. These were pinned bookmarks turning invisible after a restart (PowerToys#46270), a custom .exe that can't be pinned (PowerToys#46201), and a feature request for disk stats in the dock (PowerToys#48802). In the meantime, you could create a Bookmark in Command Palette that points to the drive, for example C:\\\\, and pin that bookmark to the dock. Please also file this as a new bug. Include the 0.102 version, an example of what you typed, and a PowerToys bug report ZIP, which contains the CmdPal logs.\"}",
+  "ttft_ms": 2474,
+  "type": "result",
+  "duration_ms": 20979,
+  "uuid": "4d4d521a-a0bb-4bac-ae4e-cc497b0b9df8",
+  "ttft_stream_ms": 1435,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 1435,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1682,
+    "cacheReadInputTokens": 86768,
+    "cacheCreationInputTokens": 23941,
+    "webSearchRequests": 0,
+    "costUSD": 0.12129279999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 71,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 23941,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 22.200808769994183,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-cgchzx0u/work"
+  }
+ },
+ "wall_seconds": 22.203089048998663,
+ "qid": "PowerToys#51663",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket reporting this problem. That means typing a drive path such as c:\\ or c:/ in Command Palette and getting no result, so you can't pin the drive to the dock, while a manually mapped drive works. The tickets I found were about different dock problems. These were pinned bookmarks turning invisible after a restart (PowerToys#46270), a custom .exe that can't be pinned (PowerToys#46201), and a feature request for disk stats in the dock (PowerToys#48802). In the meantime, you could create a Bookmark in Command Palette that points to the drive, for example C:\\, and pin that bookmark to the dock. Please also file this as a new bug. Include the 0.102 version, an example of what you typed, and a PowerToys bug report ZIP, which contains the CmdPal logs."
+ },
+ "hit_turn_cap": false
+}

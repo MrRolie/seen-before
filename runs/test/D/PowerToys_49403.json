@@ -1,0 +1,376 @@
+{
+ "shown": [
+  "PowerToys#10717",
+  "PowerToys#11871",
+  "PowerToys#12068",
+  "PowerToys#14847",
+  "PowerToys#1527",
+  "PowerToys#16124",
+  "PowerToys#17147",
+  "PowerToys#17983",
+  "PowerToys#18015",
+  "PowerToys#19277",
+  "PowerToys#20457",
+  "PowerToys#21147",
+  "PowerToys#22655",
+  "PowerToys#23744",
+  "PowerToys#24589",
+  "PowerToys#27625",
+  "PowerToys#27869",
+  "PowerToys#28080",
+  "PowerToys#29750",
+  "PowerToys#30512",
+  "PowerToys#31226",
+  "PowerToys#31686",
+  "PowerToys#31718",
+  "PowerToys#31737",
+  "PowerToys#32156",
+  "PowerToys#32273",
+  "PowerToys#35008",
+  "PowerToys#35543",
+  "PowerToys#356",
+  "PowerToys#36121",
+  "PowerToys#3650",
+  "PowerToys#3822",
+  "PowerToys#38791",
+  "PowerToys#39367",
+  "PowerToys#39432",
+  "PowerToys#39745",
+  "PowerToys#39939",
+  "PowerToys#41097",
+  "PowerToys#44402",
+  "PowerToys#45201",
+  "PowerToys#47842",
+  "PowerToys#48217",
+  "PowerToys#6255",
+  "PowerToys#6397",
+  "PowerToys#7260",
+  "PowerToys#7488",
+  "PowerToys#9168",
+  "PowerToys#9762"
+ ],
+ "retrieval_seconds": 4.485703478974756,
+ "tool_calls": [
+  {
+   "t": 1794878294.036586,
+   "tool": "similar",
+   "args": {
+    "query": "show folder size in File Explorer detail view",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.092058266978711,
+   "returned": [
+    "PowerToys#38791",
+    "PowerToys#7260",
+    "PowerToys#17147",
+    "PowerToys#356",
+    "PowerToys#6255",
+    "PowerToys#48217",
+    "PowerToys#47842",
+    "PowerToys#22655",
+    "PowerToys#31737",
+    "PowerToys#35543",
+    "PowerToys#12068",
+    "PowerToys#39939",
+    "PowerToys#9168",
+    "PowerToys#9762",
+    "PowerToys#28080",
+    "PowerToys#27625",
+    "PowerToys#10717",
+    "PowerToys#11871",
+    "PowerToys#32273",
+    "PowerToys#14847"
+   ]
+  },
+  {
+   "t": 1794878294.1671548,
+   "tool": "search",
+   "args": {
+    "pattern": "folder size",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11321648300508969,
+   "returned": [
+    "PowerToys#356",
+    "PowerToys#48217",
+    "PowerToys#32273",
+    "PowerToys#44402",
+    "PowerToys#38791",
+    "PowerToys#31718",
+    "PowerToys#27625",
+    "PowerToys#7260",
+    "PowerToys#47842",
+    "PowerToys#41097",
+    "PowerToys#32156",
+    "PowerToys#31737",
+    "PowerToys#31686",
+    "PowerToys#27869",
+    "PowerToys#22655",
+    "PowerToys#14847",
+    "PowerToys#39939",
+    "PowerToys#36121",
+    "PowerToys#35543",
+    "PowerToys#35008"
+   ]
+  },
+  {
+   "t": 1794878295.898341,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#356"
+   },
+   "seconds": 0.0002117950061801821,
+   "returned": [
+    "PowerToys#356"
+   ]
+  },
+  {
+   "t": 1794878296.0756166,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38791"
+   },
+   "seconds": 0.00015379599062725902,
+   "returned": [
+    "PowerToys#38791"
+   ]
+  },
+  {
+   "t": 1794878297.64778,
+   "tool": "search",
+   "args": {
+    "pattern": "folder",
+    "regex": false,
+    "also": [
+     "color",
+     "size",
+     "explorer"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.2799481110123452,
+   "returned": [
+    "PowerToys#16124",
+    "PowerToys#30512",
+    "PowerToys#39432",
+    "PowerToys#21147",
+    "PowerToys#18015",
+    "PowerToys#39745",
+    "PowerToys#20457",
+    "PowerToys#45201",
+    "PowerToys#7488",
+    "PowerToys#31226",
+    "PowerToys#3650",
+    "PowerToys#24589",
+    "PowerToys#17983",
+    "PowerToys#6397",
+    "PowerToys#3822",
+    "PowerToys#39367",
+    "PowerToys#29750",
+    "PowerToys#23744",
+    "PowerToys#19277",
+    "PowerToys#1527"
+   ]
+  },
+  {
+   "t": 1794878298.654604,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#7260"
+   },
+   "seconds": 0.00011502698180265725,
+   "returned": [
+    "PowerToys#7260"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8739,
+  "stop_reason": "end_turn",
+  "session_id": "63316a69-9052-4286-b82e-d67e7240b8eb",
+  "total_cost_usd": 0.0668672,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 13787,
+   "cache_read_input_tokens": 35892,
+   "output_tokens": 811,
+   "output_tokens_details": {
+    "thinking_tokens": 52
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13787,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 296,
+     "cache_read_input_tokens": 14910,
+     "cache_creation_input_tokens": 290,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 290
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 811,
+    "cacheReadInputTokens": 35892,
+    "cacheCreationInputTokens": 13787,
+    "webSearchRequests": 0,
+    "costUSD": 0.0668672,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 52,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13787,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#356\", \"PowerToys#38791\", \"PowerToys#7260\"], \"answer\": \"The folder-size part of this request has been filed before. PowerToys#356 is the main ticket, and the others (#38791, #7260) were closed as duplicates of it. It is still only a feature request, and PowerToys has no feature that shows folder sizes in File Explorer's Details view. Add your +1 or your use case to #356. Until it is built, third-party tools can do this: WinDirStat, WizTree, the Folder Size shell extension, the Files app, or Everything. PowerToys Peek also shows a folder's size when you preview a folder. The ticket's comments don't ask for the colour-coding by size or the custom folder colours. A separate request, #30512 (custom folder thumbnails and colours), covers the colour idea, but it is a different request.\"}",
+  "ttft_ms": 1387,
+  "type": "result",
+  "duration_ms": 13166,
+  "uuid": "f94c3966-db46-4c87-9b89-7c21dda2f664",
+  "ttft_stream_ms": 891,
+  "time_to_request_ms": 33,
+  "first_content_frame_ms": 892,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 811,
+    "cacheReadInputTokens": 35892,
+    "cacheCreationInputTokens": 13787,
+    "webSearchRequests": 0,
+    "costUSD": 0.0668672,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 52,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13787,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.798481675999938,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-d8uoc5iv/work"
+  }
+ },
+ "wall_seconds": 14.800144052976975,
+ "qid": "PowerToys#49403",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#356",
+   "PowerToys#38791",
+   "PowerToys#7260"
+  ],
+  "answer": "The folder-size part of this request has been filed before. PowerToys#356 is the main ticket, and the others (#38791, #7260) were closed as duplicates of it. It is still only a feature request, and PowerToys has no feature that shows folder sizes in File Explorer's Details view. Add your +1 or your use case to #356. Until it is built, third-party tools can do this: WinDirStat, WizTree, the Folder Size shell extension, the Files app, or Everything. PowerToys Peek also shows a folder's size when you preview a folder. The ticket's comments don't ask for the colour-coding by size or the custom folder colours. A separate request, #30512 (custom folder thumbnails and colours), covers the colour idea, but it is a different request."
+ },
+ "hit_turn_cap": false
+}

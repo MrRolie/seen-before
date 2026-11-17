@@ -1,0 +1,193 @@
+{
+ "shown": [
+  "PowerToys#23982",
+  "terminal#17202",
+  "PowerToys#32314",
+  "PowerToys#37372",
+  "PowerToys#13202"
+ ],
+ "retrieval_seconds": 0.690439661993878,
+ "retrieval_scores": [
+  0.01639344262295082,
+  0.01639344262295082,
+  0.016129032258064516,
+  0.016129032258064516,
+  0.015873015873015872
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 7693,
+  "stop_reason": "end_turn",
+  "session_id": "d18a8146-cd17-4bb5-9edc-e1dea2ad1162",
+  "total_cost_usd": 0.056122,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 12152,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 751,
+   "output_tokens_details": {
+    "thinking_tokens": 384
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12152,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 751,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 12152,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 12152
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 751,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 12152,
+    "webSearchRequests": 0,
+    "costUSD": 0.056122,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 384,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12152,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#23982\"], \"answer\": \"Your symptoms match PowerToys#23982. In that ticket the PowerToys runner was running and some modules still worked (key remapping did), but the Settings window would not open from the Start menu, the tray icon, or the tray menu. The maintainers found in the bug report that files from the previous version had not been upgraded properly. What fixed it for the reporter was a clean reinstall: 1) uninstall PowerToys, 2) check whether the install folder (by default C:\\\\Program Files\\\\PowerToys) is still there and delete it manually if so, 3) reinstall PowerToys. Please try that. Your install is from the Microsoft Store, so make sure the old version is fully removed first. That ticket was on 0.67.x and your version is much newer, so I can't be sure the cause is the same. If Settings still won't open after a clean reinstall, reply here and the attached bug report ZIP can be checked for the cause. Please also add what happens when you click the tray icon or choose Settings (nothing, a brief hourglass, or an error).\"}",
+  "ttft_ms": 4831,
+  "type": "result",
+  "duration_ms": 7912,
+  "uuid": "0063dc87-c6bc-424d-8903-ed904d98449f",
+  "ttft_stream_ms": 1620,
+  "time_to_request_ms": 219,
+  "first_content_frame_ms": 1620,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 751,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 12152,
+    "webSearchRequests": 0,
+    "costUSD": 0.056122,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 384,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12152,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 8.78672509000171,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-3many3hy/work"
+  }
+ },
+ "wall_seconds": 9.479335959011223,
+ "qid": "PowerToys#50554",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#23982"
+  ],
+  "answer": "Your symptoms match PowerToys#23982. In that ticket the PowerToys runner was running and some modules still worked (key remapping did), but the Settings window would not open from the Start menu, the tray icon, or the tray menu. The maintainers found in the bug report that files from the previous version had not been upgraded properly. What fixed it for the reporter was a clean reinstall: 1) uninstall PowerToys, 2) check whether the install folder (by default C:\\Program Files\\PowerToys) is still there and delete it manually if so, 3) reinstall PowerToys. Please try that. Your install is from the Microsoft Store, so make sure the old version is fully removed first. That ticket was on 0.67.x and your version is much newer, so I can't be sure the cause is the same. If Settings still won't open after a clean reinstall, reply here and the attached bug report ZIP can be checked for the cause. Please also add what happens when you click the tray icon or choose Settings (nothing, a brief hourglass, or an error)."
+ },
+ "hit_turn_cap": false
+}

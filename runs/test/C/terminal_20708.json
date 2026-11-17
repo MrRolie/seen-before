@@ -1,0 +1,314 @@
+{
+ "shown": [
+  "terminal#10939",
+  "terminal#11019",
+  "terminal#11265",
+  "terminal#11316",
+  "terminal#12756",
+  "terminal#14313",
+  "terminal#1432",
+  "terminal#1502",
+  "terminal#1562",
+  "terminal#16312",
+  "terminal#17456",
+  "terminal#1831",
+  "terminal#18837",
+  "terminal#2021",
+  "terminal#3084",
+  "terminal#3524",
+  "terminal#433",
+  "terminal#615",
+  "terminal#6783",
+  "terminal#6927",
+  "terminal#8181",
+  "terminal#835",
+  "terminal#8412",
+  "terminal#9082",
+  "terminal#9100",
+  "terminal#9361"
+ ],
+ "retrieval_seconds": 4.2868664620036725,
+ "tool_calls": [
+  {
+   "t": 1794883155.5183988,
+   "tool": "search",
+   "args": {
+    "query": "vertical tabs on the left side",
+    "repo": "terminal"
+   },
+   "seconds": 4.273823737981729,
+   "returned": [
+    "terminal#18837",
+    "terminal#835",
+    "terminal#9082",
+    "terminal#9100",
+    "terminal#12756",
+    "terminal#11265",
+    "terminal#10939",
+    "terminal#8412",
+    "terminal#9361",
+    "terminal#1562",
+    "terminal#3524",
+    "terminal#3084",
+    "terminal#1432",
+    "terminal#6927",
+    "terminal#11316",
+    "terminal#16312",
+    "terminal#14313",
+    "terminal#11019",
+    "terminal#8181",
+    "terminal#1502"
+   ]
+  },
+  {
+   "t": 1794883155.546536,
+   "tool": "search",
+   "args": {
+    "query": "option to place tabs on the left side like Edge",
+    "repo": "terminal"
+   },
+   "seconds": 0.012557869020383805,
+   "returned": [
+    "terminal#11265",
+    "terminal#835",
+    "terminal#8412",
+    "terminal#3524",
+    "terminal#16312",
+    "terminal#1562",
+    "terminal#1831",
+    "terminal#9361",
+    "terminal#17456",
+    "terminal#9100",
+    "terminal#615",
+    "terminal#3084",
+    "terminal#6927",
+    "terminal#14313",
+    "terminal#11019",
+    "terminal#12756",
+    "terminal#433",
+    "terminal#9082",
+    "terminal#6783",
+    "terminal#2021"
+   ]
+  },
+  {
+   "t": 1794883157.7632675,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#10939"
+   },
+   "seconds": 0.00016754501848481596,
+   "returned": [
+    "terminal#10939"
+   ]
+  },
+  {
+   "t": 1794883157.7716074,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#11265"
+   },
+   "seconds": 0.00014111600467003882,
+   "returned": [
+    "terminal#11265"
+   ]
+  },
+  {
+   "t": 1794883157.8528335,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#835"
+   },
+   "seconds": 0.00017619397840462625,
+   "returned": [
+    "terminal#835"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7847,
+  "stop_reason": "end_turn",
+  "session_id": "b0816ab7-4441-451d-b538-bf921bce5ec6",
+  "total_cost_usd": 0.0362254,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 7340,
+   "cache_read_input_tokens": 6334,
+   "output_tokens": 622,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7340,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 270,
+     "cache_read_input_tokens": 3756,
+     "cache_creation_input_tokens": 4617,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4617
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 622,
+    "cacheReadInputTokens": 6334,
+    "cacheCreationInputTokens": 7340,
+    "webSearchRequests": 0,
+    "costUSD": 0.0362254,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7340,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#835\", \"terminal#10939\", \"terminal#11265\"], \"answer\": \"Yes. This is a known feature request, tracked in terminal#835 (tabs on the bottom, left or right, including Edge-style vertical tabs). Several other tickets were closed as duplicates of it, including terminal#10939 and terminal#11265. It isn't implemented, and the team hasn't scheduled it. The blocker is that the WinUI TabView control only supports tabs above the content. Upstream tracking is in microsoft-ui-xaml#2194. The maintainers said they would accept a contribution, either a forked TabView or a change to WinUI itself. For now, add your vote or comment on terminal#835 instead of opening a new issue. There is no setting to move the tabs.\"}",
+  "ttft_ms": 2166,
+  "type": "result",
+  "duration_ms": 12194,
+  "uuid": "39777768-fa28-4633-8ff7-46016755d9b4",
+  "ttft_stream_ms": 1235,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 1235,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 622,
+    "cacheReadInputTokens": 6334,
+    "cacheCreationInputTokens": 7340,
+    "webSearchRequests": 0,
+    "costUSD": 0.0362254,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7340,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.730276540998602,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-rx2ikb3b/work"
+  }
+ },
+ "wall_seconds": 13.732682208996266,
+ "qid": "terminal#20708",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#835",
+   "terminal#10939",
+   "terminal#11265"
+  ],
+  "answer": "Yes. This is a known feature request, tracked in terminal#835 (tabs on the bottom, left or right, including Edge-style vertical tabs). Several other tickets were closed as duplicates of it, including terminal#10939 and terminal#11265. It isn't implemented, and the team hasn't scheduled it. The blocker is that the WinUI TabView control only supports tabs above the content. Upstream tracking is in microsoft-ui-xaml#2194. The maintainers said they would accept a contribution, either a forked TabView or a change to WinUI itself. For now, add your vote or comment on terminal#835 instead of opening a new issue. There is no setting to move the tabs."
+ },
+ "hit_turn_cap": false
+}

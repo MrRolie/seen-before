@@ -1,0 +1,376 @@
+{
+ "shown": [
+  "PowerToys#1084",
+  "PowerToys#13",
+  "PowerToys#15439",
+  "PowerToys#15453",
+  "PowerToys#17104",
+  "PowerToys#18150",
+  "PowerToys#19537",
+  "PowerToys#21288",
+  "PowerToys#23418",
+  "PowerToys#25519",
+  "PowerToys#26049",
+  "PowerToys#28072",
+  "PowerToys#28769",
+  "PowerToys#29162",
+  "PowerToys#31606",
+  "PowerToys#31732",
+  "PowerToys#32373",
+  "PowerToys#34542",
+  "PowerToys#36352",
+  "PowerToys#40419",
+  "PowerToys#42929",
+  "PowerToys#43278",
+  "PowerToys#45985",
+  "PowerToys#46135",
+  "PowerToys#46209",
+  "PowerToys#46300",
+  "PowerToys#46387",
+  "PowerToys#46391",
+  "PowerToys#46483",
+  "PowerToys#47904",
+  "PowerToys#5871",
+  "PowerToys#97",
+  "PowerToys#9868"
+ ],
+ "retrieval_seconds": 4.352806460054126,
+ "tool_calls": [
+  {
+   "t": 1794884999.880809,
+   "tool": "search",
+   "args": {
+    "pattern": "opacity",
+    "regex": false,
+    "also": [
+     "always on top"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.14463016399531625,
+   "returned": [
+    "PowerToys#46209",
+    "PowerToys#45985",
+    "PowerToys#46387",
+    "PowerToys#46300",
+    "PowerToys#36352",
+    "PowerToys#34542",
+    "PowerToys#26049",
+    "PowerToys#25519",
+    "PowerToys#46391",
+    "PowerToys#43278",
+    "PowerToys#40419",
+    "PowerToys#31732",
+    "PowerToys#31606",
+    "PowerToys#29162",
+    "PowerToys#28769",
+    "PowerToys#19537",
+    "PowerToys#18150",
+    "PowerToys#1084",
+    "PowerToys#47904",
+    "PowerToys#46135"
+   ]
+  },
+  {
+   "t": 1794885004.2831426,
+   "tool": "similar",
+   "args": {
+    "query": "Adjust window transparency/opacity without Always On Top pinning",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.035912343009841,
+   "returned": [
+    "PowerToys#21288",
+    "PowerToys#25519",
+    "PowerToys#26049",
+    "PowerToys#32373",
+    "PowerToys#15439",
+    "PowerToys#40419",
+    "PowerToys#9868",
+    "PowerToys#42929",
+    "PowerToys#34542",
+    "PowerToys#15453",
+    "PowerToys#31606",
+    "PowerToys#28072",
+    "PowerToys#97",
+    "PowerToys#23418",
+    "PowerToys#5871",
+    "PowerToys#19537",
+    "PowerToys#43278",
+    "PowerToys#17104",
+    "PowerToys#18150",
+    "PowerToys#13"
+   ]
+  },
+  {
+   "t": 1794885005.6317122,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#36352"
+   },
+   "seconds": 0.00016769699868746102,
+   "returned": [
+    "PowerToys#36352"
+   ]
+  },
+  {
+   "t": 1794885005.8861344,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32373"
+   },
+   "seconds": 0.00014378700871020555,
+   "returned": [
+    "PowerToys#32373"
+   ]
+  },
+  {
+   "t": 1794885006.0577424,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47904"
+   },
+   "seconds": 0.00013832701370120049,
+   "returned": [
+    "PowerToys#47904"
+   ]
+  },
+  {
+   "t": 1794885006.8027916,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1084"
+   },
+   "seconds": 0.00013974698958918452,
+   "returned": [
+    "PowerToys#1084"
+   ]
+  },
+  {
+   "t": 1794885007.767508,
+   "tool": "search",
+   "args": {
+    "pattern": "without always on top",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05749333999119699,
+   "returned": [
+    "PowerToys#46483"
+   ]
+  },
+  {
+   "t": 1794885009.1056006,
+   "tool": "search",
+   "args": {
+    "pattern": "window transparency",
+    "regex": false,
+    "also": [
+     "not always on top"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11404892802238464,
+   "returned": []
+  },
+  {
+   "t": 1794885009.1273358,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#25519"
+   },
+   "seconds": 0.0001321270246990025,
+   "returned": [
+    "PowerToys#25519"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9190,
+  "stop_reason": "end_turn",
+  "session_id": "a6d9bc35-dff5-40d9-b650-6afaeb43cdb0",
+  "total_cost_usd": 0.06497119999999999,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 12508,
+   "cache_read_input_tokens": 45852,
+   "output_tokens": 1033,
+   "output_tokens_details": {
+    "thinking_tokens": 51
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12508,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 316,
+     "cache_read_input_tokens": 13092,
+     "cache_creation_input_tokens": 829,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 829
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1033,
+    "cacheReadInputTokens": 45852,
+    "cacheCreationInputTokens": 12508,
+    "webSearchRequests": 0,
+    "costUSD": 0.06497119999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 51,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12508,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#36352\", \"PowerToys#32373\", \"PowerToys#1084\"], \"answer\": \"This has been requested before. Opacity in Always On Top currently only changes the border, not the window itself, and the opacity shortcut only works on pinned windows. Requests for transparency on any window, independent of Always On Top, were closed as duplicates of PowerToys#1084 (\\\"Make windows Acrylic / Transparent\\\"). PowerToys#36352 and PowerToys#32373 are the closest of those. That is the ticket tracking this feature, so please add a thumbs-up and your use case there. PowerToys has no built-in way to do this today. A third-party tool such as MenuTools or WindowTop can set per-window transparency without pinning the window.\"}",
+  "ttft_ms": 1251,
+  "type": "result",
+  "duration_ms": 13352,
+  "uuid": "9b3c6d0a-373b-40cf-9964-d1b1222cc2eb",
+  "ttft_stream_ms": 759,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 759,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1033,
+    "cacheReadInputTokens": 45852,
+    "cacheCreationInputTokens": 12508,
+    "webSearchRequests": 0,
+    "costUSD": 0.06497119999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 51,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12508,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.73115837801015,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-q6_h_r3c/work"
+  }
+ },
+ "wall_seconds": 14.733125923987245,
+ "qid": "PowerToys#51802",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#36352",
+   "PowerToys#32373",
+   "PowerToys#1084"
+  ],
+  "answer": "This has been requested before. Opacity in Always On Top currently only changes the border, not the window itself, and the opacity shortcut only works on pinned windows. Requests for transparency on any window, independent of Always On Top, were closed as duplicates of PowerToys#1084 (\"Make windows Acrylic / Transparent\"). PowerToys#36352 and PowerToys#32373 are the closest of those. That is the ticket tracking this feature, so please add a thumbs-up and your use case there. PowerToys has no built-in way to do this today. A third-party tool such as MenuTools or WindowTop can set per-window transparency without pinning the window."
+ },
+ "hit_turn_cap": false
+}

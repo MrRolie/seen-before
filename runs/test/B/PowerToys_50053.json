@@ -1,0 +1,334 @@
+{
+ "shown": [
+  "PowerToys#15688",
+  "PowerToys#19622",
+  "PowerToys#26189",
+  "PowerToys#27593",
+  "PowerToys#28842",
+  "PowerToys#30569",
+  "PowerToys#32733",
+  "PowerToys#35210",
+  "PowerToys#35312",
+  "PowerToys#35323",
+  "PowerToys#35328",
+  "PowerToys#35482",
+  "PowerToys#35484",
+  "PowerToys#35531",
+  "PowerToys#35664",
+  "PowerToys#35784",
+  "PowerToys#35864",
+  "PowerToys#36650",
+  "PowerToys#36677",
+  "PowerToys#37178",
+  "PowerToys#37263",
+  "PowerToys#37469",
+  "PowerToys#39874",
+  "PowerToys#40013",
+  "PowerToys#41319",
+  "PowerToys#47066",
+  "PowerToys#47575",
+  "PowerToys#48512"
+ ],
+ "retrieval_seconds": 0.2572818430198822,
+ "tool_calls": [
+  {
+   "t": 1794881014.3835537,
+   "tool": "search",
+   "args": {
+    "pattern": "New+",
+    "regex": false,
+    "also": [
+     "Windows 10 context menu"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.12448772499919869,
+   "returned": []
+  },
+  {
+   "t": 1794881014.4587202,
+   "tool": "search",
+   "args": {
+    "pattern": "86ca1aa0-34aa-4e8b-a509-50c905bae2a2",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.058297444018535316,
+   "returned": [
+    "PowerToys#47575",
+    "PowerToys#35312",
+    "PowerToys#48512",
+    "PowerToys#26189",
+    "PowerToys#15688",
+    "PowerToys#32733",
+    "PowerToys#30569",
+    "PowerToys#28842",
+    "PowerToys#19622"
+   ]
+  },
+  {
+   "t": 1794881015.5053208,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48512"
+   },
+   "seconds": 0.0002756229951046407,
+   "returned": [
+    "PowerToys#48512"
+   ]
+  },
+  {
+   "t": 1794881015.546156,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35312"
+   },
+   "seconds": 0.00019002502085641026,
+   "returned": [
+    "PowerToys#35312"
+   ]
+  },
+  {
+   "t": 1794881016.456988,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47575"
+   },
+   "seconds": 0.00012745699496008456,
+   "returned": [
+    "PowerToys#47575"
+   ]
+  },
+  {
+   "t": 1794881017.5581205,
+   "tool": "search",
+   "args": {
+    "pattern": "35210",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07342040099320002,
+   "returned": [
+    "PowerToys#35210",
+    "PowerToys#35784",
+    "PowerToys#35531",
+    "PowerToys#35312",
+    "PowerToys#37178",
+    "PowerToys#36677",
+    "PowerToys#36650",
+    "PowerToys#35864",
+    "PowerToys#35482",
+    "PowerToys#35323",
+    "PowerToys#47066",
+    "PowerToys#41319",
+    "PowerToys#40013",
+    "PowerToys#39874",
+    "PowerToys#37469",
+    "PowerToys#37263",
+    "PowerToys#35664",
+    "PowerToys#35484",
+    "PowerToys#35328",
+    "PowerToys#27593"
+   ]
+  },
+  {
+   "t": 1794881018.9124281,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35210"
+   },
+   "seconds": 0.00048316799802705646,
+   "returned": [
+    "PowerToys#35210"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11927,
+  "stop_reason": "end_turn",
+  "session_id": "d5c6c67b-33e1-4415-b39c-024719cff4ac",
+  "total_cost_usd": 0.0712362,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 13986,
+   "cache_read_input_tokens": 36382,
+   "output_tokens": 1163,
+   "output_tokens_details": {
+    "thinking_tokens": 252
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13986,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 650,
+     "cache_read_input_tokens": 11543,
+     "cache_creation_input_tokens": 3620,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3620
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1163,
+    "cacheReadInputTokens": 36382,
+    "cacheCreationInputTokens": 13986,
+    "webSearchRequests": 0,
+    "costUSD": 0.0712362,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 252,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13986,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I'm wrapping up: the archive has matching reports, so here is the result.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#48512\", \"PowerToys#35312\", \"PowerToys#47575\"], \"answer\": \"This has been reported before. New+ only shows up in the Windows 11 modern context menu. When the classic menu is forced with the {86ca1aa0-34aa-4e8b-a509-50c905bae2a2} registry key, it doesn't appear on the folder background, even though the win10 shell extension DLL loads (PowerToys#48512). Other PowerToys extensions are affected the same way (PowerToys#47575). The archive has no fix. The only confirmed workaround is to delete that registry key and restart Explorer, which brings back the modern menu where New+ works. A few users on PowerToys#35312 reported it started working after a reboot or hibernate. Others recommend this reset, though it did not help in PowerToys#48512: turn New+ off, run Remove-AppxPackage on the Microsoft.PowerToys.NewPlusContextMenu package, turn New+ back on, then restart Explorer. Classic-menu support for New+ is being tracked as a feature request.\"}",
+  "ttft_ms": 1769,
+  "type": "result",
+  "duration_ms": 12398,
+  "uuid": "f9369705-87ea-4f05-8ece-5c99f7776a4f",
+  "ttft_stream_ms": 808,
+  "time_to_request_ms": 96,
+  "first_content_frame_ms": 808,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1163,
+    "cacheReadInputTokens": 36382,
+    "cacheCreationInputTokens": 13986,
+    "webSearchRequests": 0,
+    "costUSD": 0.0712362,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 252,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13986,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.05602756299777,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-w4288gqa/work"
+  }
+ },
+ "wall_seconds": 14.05897290998837,
+ "qid": "PowerToys#50053",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48512",
+   "PowerToys#35312",
+   "PowerToys#47575"
+  ],
+  "answer": "This has been reported before. New+ only shows up in the Windows 11 modern context menu. When the classic menu is forced with the {86ca1aa0-34aa-4e8b-a509-50c905bae2a2} registry key, it doesn't appear on the folder background, even though the win10 shell extension DLL loads (PowerToys#48512). Other PowerToys extensions are affected the same way (PowerToys#47575). The archive has no fix. The only confirmed workaround is to delete that registry key and restart Explorer, which brings back the modern menu where New+ works. A few users on PowerToys#35312 reported it started working after a reboot or hibernate. Others recommend this reset, though it did not help in PowerToys#48512: turn New+ off, run Remove-AppxPackage on the Microsoft.PowerToys.NewPlusContextMenu package, turn New+ back on, then restart Explorer. Classic-menu support for New+ is being tracked as a feature request."
+ },
+ "hit_turn_cap": false
+}

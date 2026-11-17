@@ -1,0 +1,393 @@
+{
+ "shown": [
+  "terminal#1032",
+  "terminal#11111",
+  "terminal#11231",
+  "terminal#11355",
+  "terminal#11454",
+  "terminal#12190",
+  "terminal#12191",
+  "terminal#12309",
+  "terminal#12759",
+  "terminal#12842",
+  "terminal#13241",
+  "terminal#1348",
+  "terminal#14593",
+  "terminal#1513",
+  "terminal#16946",
+  "terminal#19202",
+  "terminal#1939",
+  "terminal#2127",
+  "terminal#2255",
+  "terminal#2440",
+  "terminal#2547",
+  "terminal#2598",
+  "terminal#2721",
+  "terminal#2893",
+  "terminal#3246",
+  "terminal#3318",
+  "terminal#360",
+  "terminal#3998",
+  "terminal#430",
+  "terminal#431",
+  "terminal#4969",
+  "terminal#5276",
+  "terminal#5474",
+  "terminal#5621",
+  "terminal#5640",
+  "terminal#5990",
+  "terminal#6042",
+  "terminal#632",
+  "terminal#6336",
+  "terminal#6878",
+  "terminal#691",
+  "terminal#7236",
+  "terminal#740",
+  "terminal#754",
+  "terminal#8146",
+  "terminal#8311",
+  "terminal#8675",
+  "terminal#8766",
+  "terminal#9032",
+  "terminal#933",
+  "terminal#9559",
+  "terminal#9992"
+ ],
+ "retrieval_seconds": 3.68249452803866,
+ "tool_calls": [
+  {
+   "t": 1794878575.3364327,
+   "tool": "search",
+   "args": {
+    "query": "profile defaults for elevated windows, different color scheme when running as administrator",
+    "repo": "terminal"
+   },
+   "seconds": 3.65440016600769,
+   "returned": [
+    "terminal#8311",
+    "terminal#3246",
+    "terminal#1939",
+    "terminal#11111",
+    "terminal#6042",
+    "terminal#2721",
+    "terminal#11355",
+    "terminal#431",
+    "terminal#16946",
+    "terminal#3998",
+    "terminal#2547",
+    "terminal#632",
+    "terminal#430",
+    "terminal#1513",
+    "terminal#6878",
+    "terminal#740",
+    "terminal#360",
+    "terminal#8146",
+    "terminal#5990",
+    "terminal#933"
+   ]
+  },
+  {
+   "t": 1794878575.3621747,
+   "tool": "search",
+   "args": {
+    "query": "separate settings for elevated terminal window, visually distinguish admin window",
+    "repo": "terminal"
+   },
+   "seconds": 0.013006847002543509,
+   "returned": [
+    "terminal#1939",
+    "terminal#6336",
+    "terminal#11111",
+    "terminal#2255",
+    "terminal#14593",
+    "terminal#8311",
+    "terminal#2598",
+    "terminal#9559",
+    "terminal#12191",
+    "terminal#8675",
+    "terminal#4969",
+    "terminal#691",
+    "terminal#632",
+    "terminal#2127",
+    "terminal#12759",
+    "terminal#13241",
+    "terminal#9992",
+    "terminal#1032",
+    "terminal#8766",
+    "terminal#11231"
+   ]
+  },
+  {
+   "t": 1794878576.5534647,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#3246"
+   },
+   "seconds": 0.00017207599012181163,
+   "returned": [
+    "terminal#3246"
+   ]
+  },
+  {
+   "t": 1794878576.799315,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#8311"
+   },
+   "seconds": 0.00017721499898470938,
+   "returned": [
+    "terminal#8311"
+   ]
+  },
+  {
+   "t": 1794878576.9736128,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#14593"
+   },
+   "seconds": 0.0002214450214523822,
+   "returned": [
+    "terminal#14593"
+   ]
+  },
+  {
+   "t": 1794878578.0377347,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#11111"
+   },
+   "seconds": 0.00011512701166793704,
+   "returned": [
+    "terminal#11111"
+   ]
+  },
+  {
+   "t": 1794878579.2591805,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#1939"
+   },
+   "seconds": 0.00016206598957069218,
+   "returned": [
+    "terminal#1939"
+   ]
+  },
+  {
+   "t": 1794878580.7332287,
+   "tool": "search",
+   "args": {
+    "query": "profiles.defaults when running elevated, elevatedDefaults",
+    "repo": "terminal"
+   },
+   "seconds": 0.014239586016628891,
+   "returned": [
+    "terminal#8146",
+    "terminal#2440",
+    "terminal#2721",
+    "terminal#12190",
+    "terminal#12309",
+    "terminal#12842",
+    "terminal#5474",
+    "terminal#11454",
+    "terminal#19202",
+    "terminal#431",
+    "terminal#1348",
+    "terminal#1513",
+    "terminal#7236",
+    "terminal#5276",
+    "terminal#5640",
+    "terminal#2893",
+    "terminal#754",
+    "terminal#5621",
+    "terminal#9032",
+    "terminal#3318"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12856,
+  "stop_reason": "end_turn",
+  "session_id": "53af40e2-0a85-4d4e-9987-ddbf6df5e01a",
+  "total_cost_usd": 0.07213259999999999,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 13934,
+   "cache_read_input_tokens": 40826,
+   "output_tokens": 1229,
+   "output_tokens_details": {
+    "thinking_tokens": 203
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13934,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 652,
+     "cache_read_input_tokens": 13640,
+     "cache_creation_input_tokens": 1327,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1327
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1229,
+    "cacheReadInputTokens": 40826,
+    "cacheCreationInputTokens": 13934,
+    "webSearchRequests": 0,
+    "costUSD": 0.07213259999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 203,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13934,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've found the existing requests for admin-specific settings and am now writing up the answer.\n\n{\"seen_before\": true, \"matches\": [\"terminal#11111\", \"terminal#3246\", \"terminal#14593\"], \"answer\": \"This has been requested before. The team tracks it under the epic terminal#11111 (Admin-specific customizations). One of that epic's user stories is \\\"I want to use a different `profile.defaults` block when running elevated\\\". Related requests are terminal#3246 (different color scheme when running as Administrator) and terminal#14593 (different appearance when running as Administrator). terminal#14593 was closed as a duplicate of #3246 and #8311. It isn't implemented yet. The team is holding off because of the combinatorial explosion of appearance states (focused/unfocused × elevated/unelevated, and so on). The epic floats ideas such as `profiles.elevatedDefaults`, a separate `admin-settings.json`, or a `showWhenElevated` option, but none is committed. The tickets don't offer a built-in workaround. For now, subscribe to terminal#11111 and add your use case there, including the `sudo` `disableInput` scenario. You can also keep a dedicated elevated profile with its own color scheme, as you already do. Another option is to make the shell prompt or tab title show when it's elevated, a workaround suggested in terminal#1939.\"}",
+  "ttft_ms": 1811,
+  "type": "result",
+  "duration_ms": 16573,
+  "uuid": "70d9c471-94a5-4d98-aa88-fff910066da7",
+  "ttft_stream_ms": 981,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 981,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1229,
+    "cacheReadInputTokens": 40826,
+    "cacheCreationInputTokens": 13934,
+    "webSearchRequests": 0,
+    "costUSD": 0.07213259999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 203,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13934,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 17.793065940000815,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-l68r6pkv/work"
+  }
+ },
+ "wall_seconds": 17.79480772599345,
+ "qid": "terminal#20465",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#11111",
+   "terminal#3246",
+   "terminal#14593"
+  ],
+  "answer": "This has been requested before. The team tracks it under the epic terminal#11111 (Admin-specific customizations). One of that epic's user stories is \"I want to use a different `profile.defaults` block when running elevated\". Related requests are terminal#3246 (different color scheme when running as Administrator) and terminal#14593 (different appearance when running as Administrator). terminal#14593 was closed as a duplicate of #3246 and #8311. It isn't implemented yet. The team is holding off because of the combinatorial explosion of appearance states (focused/unfocused × elevated/unelevated, and so on). The epic floats ideas such as `profiles.elevatedDefaults`, a separate `admin-settings.json`, or a `showWhenElevated` option, but none is committed. The tickets don't offer a built-in workaround. For now, subscribe to terminal#11111 and add your use case there, including the `sudo` `disableInput` scenario. You can also keep a dedicated elevated profile with its own color scheme, as you already do. Another option is to make the shell prompt or tab title show when it's elevated, a workaround suggested in terminal#1939."
+ },
+ "hit_turn_cap": false
+}

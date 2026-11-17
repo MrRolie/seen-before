@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#46279",
+  "PowerToys#41597",
+  "PowerToys#46475",
+  "PowerToys#46269",
+  "PowerToys#38967"
+ ],
+ "retrieval_seconds": 0.5370156290009618,
+ "retrieval_scores": [
+  0.03252247488101534,
+  0.03125763125763126,
+  0.031099324975891997,
+  0.0264957264957265,
+  0.026171741361614778
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 4373,
+  "stop_reason": "end_turn",
+  "session_id": "ec179a89-d9a6-457b-93e7-0b5a6002d032",
+  "total_cost_usd": 0.02969,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6159,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 505,
+   "output_tokens_details": {
+    "thinking_tokens": 273
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6159,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 505,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6159,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6159
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 505,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6159,
+    "webSearchRequests": 0,
+    "costUSD": 0.02969,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 273,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6159,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find an earlier ticket that reports this exact problem, which is the search results page in the Command Palette settings window (\\\"show all results\\\") being misaligned when the window is wide. Two nearby tickets are about different pages. PowerToys#46279 and PowerToys#46475 cover the Command Palette page in the main PowerToys Settings app being shifted right and clipped, especially when maximized. PowerToys#41597 covers a small breadcrumb offset in the Command Palette settings window. Neither describes the search results page. Please keep this ticket open as a new report. It would help to add the window size at which the misalignment starts and your display scaling.\"}",
+  "ttft_ms": 2949,
+  "type": "result",
+  "duration_ms": 4600,
+  "uuid": "3b44c568-7cf0-468a-a3cb-7b0d512b9d2f",
+  "ttft_stream_ms": 952,
+  "time_to_request_ms": 226,
+  "first_content_frame_ms": 953,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 505,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6159,
+    "webSearchRequests": 0,
+    "costUSD": 0.02969,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 273,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6159,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 5.583751763013424,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-5ki3g30m/work"
+  }
+ },
+ "wall_seconds": 6.122521434008377,
+ "qid": "PowerToys#51517",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find an earlier ticket that reports this exact problem, which is the search results page in the Command Palette settings window (\"show all results\") being misaligned when the window is wide. Two nearby tickets are about different pages. PowerToys#46279 and PowerToys#46475 cover the Command Palette page in the main PowerToys Settings app being shifted right and clipped, especially when maximized. PowerToys#41597 covers a small breadcrumb offset in the Command Palette settings window. Neither describes the search results page. Please keep this ticket open as a new report. It would help to add the window size at which the misalignment starts and your display scaling."
+ },
+ "hit_turn_cap": false
+}

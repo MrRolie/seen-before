@@ -1,0 +1,356 @@
+{
+ "shown": [
+  "PowerToys#1053",
+  "PowerToys#11655",
+  "PowerToys#1255",
+  "PowerToys#14080",
+  "PowerToys#14936",
+  "PowerToys#16349",
+  "PowerToys#1771",
+  "PowerToys#17856",
+  "PowerToys#18015",
+  "PowerToys#18591",
+  "PowerToys#19307",
+  "PowerToys#20457",
+  "PowerToys#21147",
+  "PowerToys#21977",
+  "PowerToys#21998",
+  "PowerToys#22164",
+  "PowerToys#25520",
+  "PowerToys#2594",
+  "PowerToys#27253",
+  "PowerToys#27362",
+  "PowerToys#29157",
+  "PowerToys#29340",
+  "PowerToys#29610",
+  "PowerToys#29909",
+  "PowerToys#31226",
+  "PowerToys#31321",
+  "PowerToys#34694",
+  "PowerToys#35490",
+  "PowerToys#3590",
+  "PowerToys#36961",
+  "PowerToys#36972",
+  "PowerToys#39476",
+  "PowerToys#411",
+  "PowerToys#42311",
+  "PowerToys#45825",
+  "PowerToys#7248",
+  "PowerToys#804"
+ ],
+ "retrieval_seconds": 0.35494677402311936,
+ "tool_calls": [
+  {
+   "t": 1794875712.337217,
+   "tool": "search",
+   "args": {
+    "pattern": "PowerRename",
+    "regex": false,
+    "also": [
+     "profile"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11263555401819758,
+   "returned": [
+    "PowerToys#29340",
+    "PowerToys#19307",
+    "PowerToys#18015",
+    "PowerToys#17856",
+    "PowerToys#34694",
+    "PowerToys#1771",
+    "PowerToys#411",
+    "PowerToys#45825",
+    "PowerToys#39476",
+    "PowerToys#22164",
+    "PowerToys#20457",
+    "PowerToys#42311",
+    "PowerToys#31321",
+    "PowerToys#29909",
+    "PowerToys#29157",
+    "PowerToys#27253",
+    "PowerToys#21998",
+    "PowerToys#21147",
+    "PowerToys#16349",
+    "PowerToys#14936"
+   ]
+  },
+  {
+   "t": 1794875712.609426,
+   "tool": "search",
+   "args": {
+    "pattern": "PowerRename save presets",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04928004299290478,
+   "returned": []
+  },
+  {
+   "t": 1794875713.5051217,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#11655"
+   },
+   "seconds": 0.0001250770001206547,
+   "returned": [
+    "PowerToys#11655"
+   ]
+  },
+  {
+   "t": 1794875713.5468583,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#14936"
+   },
+   "seconds": 0.00010069800191558897,
+   "returned": [
+    "PowerToys#14936"
+   ]
+  },
+  {
+   "t": 1794875714.729454,
+   "tool": "search",
+   "args": {
+    "pattern": "PowerRename",
+    "regex": false,
+    "also": [
+     "saved",
+     "settings"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.19249081102316268,
+   "returned": [
+    "PowerToys#18015",
+    "PowerToys#3590",
+    "PowerToys#14080",
+    "PowerToys#36961",
+    "PowerToys#25520",
+    "PowerToys#804",
+    "PowerToys#18591",
+    "PowerToys#7248",
+    "PowerToys#1255",
+    "PowerToys#1053",
+    "PowerToys#36972",
+    "PowerToys#35490",
+    "PowerToys#31226",
+    "PowerToys#29610",
+    "PowerToys#27362",
+    "PowerToys#27253",
+    "PowerToys#21977",
+    "PowerToys#14936",
+    "PowerToys#2594"
+   ]
+  },
+  {
+   "t": 1794875715.467845,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#25520"
+   },
+   "seconds": 0.00017101498087868094,
+   "returned": [
+    "PowerToys#25520"
+   ]
+  },
+  {
+   "t": 1794875716.2850466,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#7248"
+   },
+   "seconds": 0.00014357600593939424,
+   "returned": [
+    "PowerToys#7248"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8706,
+  "stop_reason": "end_turn",
+  "session_id": "a0785f67-1e7a-4abe-8938-6479e8c3f71f",
+  "total_cost_usd": 0.0578925,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 11159,
+   "cache_read_input_tokens": 38225,
+   "output_tokens": 941,
+   "output_tokens_details": {
+    "thinking_tokens": 96
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11159,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 394,
+     "cache_read_input_tokens": 11280,
+     "cache_creation_input_tokens": 1056,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1056
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 941,
+    "cacheReadInputTokens": 38225,
+    "cacheCreationInputTokens": 11159,
+    "webSearchRequests": 0,
+    "costUSD": 0.0578925,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 96,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11159,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#11655\", \"PowerToys#25520\", \"PowerToys#7248\"], \"answer\": \"This feature request has been filed before. PowerToys#11655 (Rename Presets/Profiles) is the main ticket. PowerToys#25520 (save queries, with a proposed dropdown plus save button) and PowerToys#14936 were closed as duplicates of it. PowerToys#7248 asks for the same thing and notes that PowerRename currently only keeps recently used search and replace strings as history. Saved profiles are not implemented yet. For now, the history autocomplete is the only built-in help: clear the search box and press the down arrow to see past entries. Keeping your regex settings in a separate note is the other workaround. To show you want the feature, add a thumbs-up and your example profiles to PowerToys#11655 instead of opening a new ticket.\"}",
+  "ttft_ms": 1205,
+  "type": "result",
+  "duration_ms": 9016,
+  "uuid": "26205231-07f6-45b2-ad69-f791186df38f",
+  "ttft_stream_ms": 746,
+  "time_to_request_ms": 37,
+  "first_content_frame_ms": 746,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 941,
+    "cacheReadInputTokens": 38225,
+    "cacheCreationInputTokens": 11159,
+    "webSearchRequests": 0,
+    "costUSD": 0.0578925,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 96,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11159,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.4213862339966,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-fr57mo6m/work"
+  }
+ },
+ "wall_seconds": 10.423164559004363,
+ "qid": "PowerToys#49097",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#11655",
+   "PowerToys#25520",
+   "PowerToys#7248"
+  ],
+  "answer": "This feature request has been filed before. PowerToys#11655 (Rename Presets/Profiles) is the main ticket. PowerToys#25520 (save queries, with a proposed dropdown plus save button) and PowerToys#14936 were closed as duplicates of it. PowerToys#7248 asks for the same thing and notes that PowerRename currently only keeps recently used search and replace strings as history. Saved profiles are not implemented yet. For now, the history autocomplete is the only built-in help: clear the search box and press the down arrow to see past entries. Keeping your regex settings in a separate note is the other workaround. To show you want the feature, add a thumbs-up and your example profiles to PowerToys#11655 instead of opening a new ticket."
+ },
+ "hit_turn_cap": false
+}

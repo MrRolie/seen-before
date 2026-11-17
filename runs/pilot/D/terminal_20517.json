@@ -1,0 +1,463 @@
+{
+ "shown": [
+  "terminal#10203",
+  "terminal#10729",
+  "terminal#10776",
+  "terminal#10875",
+  "terminal#11285",
+  "terminal#11385",
+  "terminal#11522",
+  "terminal#11796",
+  "terminal#11945",
+  "terminal#12598",
+  "terminal#12607",
+  "terminal#1329",
+  "terminal#13499",
+  "terminal#13559",
+  "terminal#13610",
+  "terminal#1380",
+  "terminal#13900",
+  "terminal#13960",
+  "terminal#15209",
+  "terminal#15238",
+  "terminal#15534",
+  "terminal#1575",
+  "terminal#15830",
+  "terminal#16909",
+  "terminal#17076",
+  "terminal#17187",
+  "terminal#17197",
+  "terminal#17249",
+  "terminal#17619",
+  "terminal#17776",
+  "terminal#179",
+  "terminal#18105",
+  "terminal#18579",
+  "terminal#18713",
+  "terminal#18736",
+  "terminal#18803",
+  "terminal#19416",
+  "terminal#19903",
+  "terminal#19977",
+  "terminal#20103",
+  "terminal#20150",
+  "terminal#215",
+  "terminal#2156",
+  "terminal#2159",
+  "terminal#2503",
+  "terminal#2626",
+  "terminal#2753",
+  "terminal#3516",
+  "terminal#3788",
+  "terminal#3827",
+  "terminal#4885",
+  "terminal#5038",
+  "terminal#521",
+  "terminal#5497",
+  "terminal#5525",
+  "terminal#6421",
+  "terminal#6422",
+  "terminal#6444",
+  "terminal#653",
+  "terminal#7081",
+  "terminal#7407",
+  "terminal#7786",
+  "terminal#7839",
+  "terminal#7994",
+  "terminal#809",
+  "terminal#8130",
+  "terminal#8458",
+  "terminal#863",
+  "terminal#8871",
+  "terminal#9232",
+  "terminal#9273",
+  "terminal#9306",
+  "terminal#9391"
+ ],
+ "retrieval_seconds": 3.739464812009828,
+ "tool_calls": [
+  {
+   "t": 1794876305.8692174,
+   "tool": "similar",
+   "args": {
+    "query": "UI freezes for seconds when switching keyboard language with Ctrl+Shift",
+    "repo": "terminal"
+   },
+   "seconds": 3.574205957003869,
+   "returned": [
+    "terminal#6422",
+    "terminal#179",
+    "terminal#6444",
+    "terminal#16909",
+    "terminal#10729",
+    "terminal#809",
+    "terminal#1575",
+    "terminal#863",
+    "terminal#2156",
+    "terminal#17197",
+    "terminal#215",
+    "terminal#7839",
+    "terminal#3827",
+    "terminal#7786",
+    "terminal#2626",
+    "terminal#6421",
+    "terminal#10875",
+    "terminal#11285",
+    "terminal#9273",
+    "terminal#17249"
+   ]
+  },
+  {
+   "t": 1794876307.384619,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#10729"
+   },
+   "seconds": 0.00016503597726114094,
+   "returned": [
+    "terminal#10729"
+   ]
+  },
+  {
+   "t": 1794876307.648044,
+   "tool": "search",
+   "args": {
+    "pattern": "language switch",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.03209628100739792,
+   "returned": [
+    "terminal#15830",
+    "terminal#17619",
+    "terminal#5497"
+   ]
+  },
+  {
+   "t": 1794876309.9590642,
+   "tool": "similar",
+   "args": {
+    "query": "terminal hangs for a few seconds when changing keyboard layout, settings page redraws and collapses",
+    "repo": "terminal"
+   },
+   "seconds": 0.013880614016670734,
+   "returned": [
+    "terminal#9273",
+    "terminal#7994",
+    "terminal#1329",
+    "terminal#12607",
+    "terminal#11385",
+    "terminal#15209",
+    "terminal#2159",
+    "terminal#13559",
+    "terminal#17076",
+    "terminal#18803",
+    "terminal#13900",
+    "terminal#12598",
+    "terminal#2503",
+    "terminal#1380",
+    "terminal#17776",
+    "terminal#5038",
+    "terminal#15238",
+    "terminal#2753",
+    "terminal#13610",
+    "terminal#18736"
+   ]
+  },
+  {
+   "t": 1794876313.8162913,
+   "tool": "search",
+   "args": {
+    "pattern": "keyboard layout",
+    "regex": false,
+    "also": [
+     "hang"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.05438984601642005,
+   "returned": [
+    "terminal#3516",
+    "terminal#521",
+    "terminal#17197",
+    "terminal#8871",
+    "terminal#17187",
+    "terminal#4885",
+    "terminal#3788",
+    "terminal#8458",
+    "terminal#5525",
+    "terminal#19977",
+    "terminal#8130",
+    "terminal#19903",
+    "terminal#10776",
+    "terminal#19416",
+    "terminal#13960",
+    "terminal#11796",
+    "terminal#11522",
+    "terminal#10203",
+    "terminal#7407",
+    "terminal#18579"
+   ]
+  },
+  {
+   "t": 1794876313.998057,
+   "tool": "search",
+   "args": {
+    "pattern": "switch",
+    "regex": false,
+    "also": [
+     "Ctrl+Shift",
+     "freez"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.06412518399883993,
+   "returned": [
+    "terminal#11522",
+    "terminal#653",
+    "terminal#9232",
+    "terminal#20103",
+    "terminal#13499",
+    "terminal#18105",
+    "terminal#7081",
+    "terminal#20150",
+    "terminal#18713",
+    "terminal#15534",
+    "terminal#11945",
+    "terminal#9391",
+    "terminal#9306"
+   ]
+  },
+  {
+   "t": 1794876315.879896,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#11522"
+   },
+   "seconds": 0.0001687949988991022,
+   "returned": [
+    "terminal#11522"
+   ]
+  },
+  {
+   "t": 1794876316.0200825,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#20103"
+   },
+   "seconds": 0.0001544459955766797,
+   "returned": [
+    "terminal#20103"
+   ]
+  },
+  {
+   "t": 1794876317.5111668,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19416"
+   },
+   "seconds": 0.00011806699330918491,
+   "returned": [
+    "terminal#19416"
+   ]
+  },
+  {
+   "t": 1794876319.1126199,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#13960"
+   },
+   "seconds": 0.00016058600158430636,
+   "returned": [
+    "terminal#13960"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 18843,
+  "stop_reason": "end_turn",
+  "session_id": "431b45ed-2cb2-4772-8f97-e95efe36fffc",
+  "total_cost_usd": 0.1057656,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 20266,
+   "cache_read_input_tokens": 80556,
+   "output_tokens": 1661,
+   "output_tokens_details": {
+    "thinking_tokens": 33
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 20266,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 377,
+     "cache_read_input_tokens": 20764,
+     "cache_creation_input_tokens": 915,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 915
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1661,
+    "cacheReadInputTokens": 80556,
+    "cacheCreationInputTokens": 20266,
+    "webSearchRequests": 0,
+    "costUSD": 0.1057656,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 33,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 20266,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "```json\n{\"seen_before\": true, \"matches\": [\"terminal#11522\", \"terminal#20103\"], \"answer\": \"This has been reported before. Windows Terminal reloads its settings whenever the OS keyboard layout or input language changes. Ctrl+Shift, Win+Space and the taskbar switcher all trigger it. The reload is what freezes the UI, and it also explains why the Settings page redraws and collapses your expanded sections. It is tracked in terminal#11522, which is still open. terminal#20103 describes why the freeze gets longer: layout switches that arrive while a reload is running trigger a second reload straight after the first. The effect is worst with many tabs or a lot of scrollback, and rapid switching makes it worse. I found no fix in the archive. Two things may help. Switch layouts once and wait for the freeze to finish, rather than pressing repeatedly. Reduce the reload cost by closing unused tabs and lowering historySize. Please add your version (1.24.11911.0) and your experience to terminal#11522. Tickets such as terminal#19416 and terminal#13960 were closed as duplicates of it.\"}\n```",
+  "ttft_ms": 1984,
+  "type": "result",
+  "duration_ms": 22648,
+  "uuid": "9657e160-b089-4e89-be88-0c807a6ebc98",
+  "ttft_stream_ms": 1009,
+  "time_to_request_ms": 41,
+  "first_content_frame_ms": 1009,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1661,
+    "cacheReadInputTokens": 80556,
+    "cacheCreationInputTokens": 20266,
+    "webSearchRequests": 0,
+    "costUSD": 0.1057656,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 33,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 20266,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 24.251066417986294,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-vk0fe5cn/work"
+  }
+ },
+ "wall_seconds": 24.2534166489786,
+ "qid": "terminal#20517",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#11522",
+   "terminal#20103"
+  ],
+  "answer": "This has been reported before. Windows Terminal reloads its settings whenever the OS keyboard layout or input language changes. Ctrl+Shift, Win+Space and the taskbar switcher all trigger it. The reload is what freezes the UI, and it also explains why the Settings page redraws and collapses your expanded sections. It is tracked in terminal#11522, which is still open. terminal#20103 describes why the freeze gets longer: layout switches that arrive while a reload is running trigger a second reload straight after the first. The effect is worst with many tabs or a lot of scrollback, and rapid switching makes it worse. I found no fix in the archive. Two things may help. Switch layouts once and wait for the freeze to finish, rather than pressing repeatedly. Reduce the reload cost by closing unused tabs and lowering historySize. Please add your version (1.24.11911.0) and your experience to terminal#11522. Tickets such as terminal#19416 and terminal#13960 were closed as duplicates of it."
+ },
+ "hit_turn_cap": false
+}

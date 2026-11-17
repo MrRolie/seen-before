@@ -1,0 +1,341 @@
+{
+ "shown": [
+  "PowerToys#10301",
+  "PowerToys#11780",
+  "PowerToys#12124",
+  "PowerToys#13214",
+  "PowerToys#13221",
+  "PowerToys#13303",
+  "PowerToys#13573",
+  "PowerToys#13675",
+  "PowerToys#13713",
+  "PowerToys#14326",
+  "PowerToys#14347",
+  "PowerToys#14636",
+  "PowerToys#16043",
+  "PowerToys#16454",
+  "PowerToys#17276",
+  "PowerToys#22572",
+  "PowerToys#23259",
+  "PowerToys#25595",
+  "PowerToys#26200",
+  "PowerToys#26296",
+  "PowerToys#26935",
+  "PowerToys#27372",
+  "PowerToys#27837",
+  "PowerToys#29364",
+  "PowerToys#33100",
+  "PowerToys#33575",
+  "PowerToys#34667",
+  "PowerToys#36241",
+  "PowerToys#3722",
+  "PowerToys#37938",
+  "PowerToys#4010",
+  "PowerToys#40465",
+  "PowerToys#41032",
+  "PowerToys#4112",
+  "PowerToys#4167",
+  "PowerToys#44821",
+  "PowerToys#5150",
+  "PowerToys#5647",
+  "PowerToys#77"
+ ],
+ "retrieval_seconds": 3.8100355839706026,
+ "tool_calls": [
+  {
+   "t": 1794876829.033813,
+   "tool": "search",
+   "args": {
+    "pattern": "android",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.052949131990317255,
+   "returned": [
+    "PowerToys#26296",
+    "PowerToys#4112",
+    "PowerToys#16043",
+    "PowerToys#4010",
+    "PowerToys#33100",
+    "PowerToys#25595",
+    "PowerToys#16454",
+    "PowerToys#14636",
+    "PowerToys#13713",
+    "PowerToys#13214",
+    "PowerToys#41032",
+    "PowerToys#26200",
+    "PowerToys#17276",
+    "PowerToys#13675",
+    "PowerToys#13303",
+    "PowerToys#13221",
+    "PowerToys#4167",
+    "PowerToys#36241",
+    "PowerToys#14347",
+    "PowerToys#13573"
+   ]
+  },
+  {
+   "t": 1794876832.807844,
+   "tool": "similar",
+   "args": {
+    "query": "Mouse Without Borders support for Android phone",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.7566091649932787,
+   "returned": [
+    "PowerToys#3722",
+    "PowerToys#10301",
+    "PowerToys#12124",
+    "PowerToys#77",
+    "PowerToys#44821",
+    "PowerToys#26296",
+    "PowerToys#5647",
+    "PowerToys#37938",
+    "PowerToys#34667",
+    "PowerToys#29364",
+    "PowerToys#33575",
+    "PowerToys#23259",
+    "PowerToys#40465",
+    "PowerToys#26935",
+    "PowerToys#22572",
+    "PowerToys#14326",
+    "PowerToys#11780",
+    "PowerToys#27837",
+    "PowerToys#5150",
+    "PowerToys#27372"
+   ]
+  },
+  {
+   "t": 1794876834.8911157,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#26296"
+   },
+   "seconds": 0.00014488599845208228,
+   "returned": [
+    "PowerToys#26296"
+   ]
+  },
+  {
+   "t": 1794876834.8966935,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44821"
+   },
+   "seconds": 7.56179797463119e-05,
+   "returned": [
+    "PowerToys#44821"
+   ]
+  },
+  {
+   "t": 1794876834.9173517,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37938"
+   },
+   "seconds": 0.00011098702088929713,
+   "returned": [
+    "PowerToys#37938"
+   ]
+  },
+  {
+   "t": 1794876836.9769588,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33575"
+   },
+   "seconds": 0.00014579598791897297,
+   "returned": [
+    "PowerToys#33575"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11652,
+  "stop_reason": "end_turn",
+  "session_id": "54fa96b0-b58b-49cc-b186-3edde11d2e57",
+  "total_cost_usd": 0.061109000000000004,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 12362,
+   "cache_read_input_tokens": 36010,
+   "output_tokens": 804,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12362,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 272,
+     "cache_read_input_tokens": 13570,
+     "cache_creation_input_tokens": 205,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 205
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 804,
+    "cacheReadInputTokens": 36010,
+    "cacheCreationInputTokens": 12362,
+    "webSearchRequests": 0,
+    "costUSD": 0.061109000000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12362,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Enough evidence.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#26296\", \"PowerToys#37938\", \"PowerToys#44821\"], \"answer\": \"Android support for Mouse Without Borders has been requested before. The main ticket is PowerToys#26296, and similar requests such as PowerToys#33575 were closed as duplicates of it. The archive shows no implementation. Add your +1 and your use case to #26296. Until then, these workarounds came up in the discussion. scrcpy, with USB or OTG, mirrors and controls the phone from your PC, but it mirrors the screen and doesn't share the mouse across devices. Barrier and Synergy share a mouse and keyboard between PCs. Phone Link also offers some cross-device control, but the thread mentions it only for Samsung phones.\"}",
+  "ttft_ms": 2232,
+  "type": "result",
+  "duration_ms": 15533,
+  "uuid": "434aea9b-b112-4713-beb5-e38051971451",
+  "ttft_stream_ms": 1279,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 1279,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 804,
+    "cacheReadInputTokens": 36010,
+    "cacheCreationInputTokens": 12362,
+    "webSearchRequests": 0,
+    "costUSD": 0.061109000000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12362,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.75556563399732,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-vkm15scr/work"
+  }
+ },
+ "wall_seconds": 16.75775649899151,
+ "qid": "PowerToys#50394",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#26296",
+   "PowerToys#37938",
+   "PowerToys#44821"
+  ],
+  "answer": "Android support for Mouse Without Borders has been requested before. The main ticket is PowerToys#26296, and similar requests such as PowerToys#33575 were closed as duplicates of it. The archive shows no implementation. Add your +1 and your use case to #26296. Until then, these workarounds came up in the discussion. scrcpy, with USB or OTG, mirrors and controls the phone from your PC, but it mirrors the screen and doesn't share the mouse across devices. Barrier and Synergy share a mouse and keyboard between PCs. Phone Link also offers some cross-device control, but the thread mentions it only for Samsung phones."
+ },
+ "hit_turn_cap": false
+}

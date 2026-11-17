@@ -1,0 +1,333 @@
+{
+ "shown": [
+  "PowerToys#11239",
+  "PowerToys#11315",
+  "PowerToys#11433",
+  "PowerToys#11724",
+  "PowerToys#14273",
+  "PowerToys#14895",
+  "PowerToys#15122",
+  "PowerToys#15447",
+  "PowerToys#18469",
+  "PowerToys#20472",
+  "PowerToys#21097",
+  "PowerToys#22113",
+  "PowerToys#23312",
+  "PowerToys#28228",
+  "PowerToys#28272",
+  "PowerToys#33718",
+  "PowerToys#34649",
+  "PowerToys#36052",
+  "PowerToys#36066",
+  "PowerToys#38303",
+  "PowerToys#3896",
+  "PowerToys#4043",
+  "PowerToys#41864",
+  "PowerToys#4487",
+  "PowerToys#47",
+  "PowerToys#4851",
+  "PowerToys#5634",
+  "PowerToys#5889",
+  "PowerToys#6143",
+  "PowerToys#6202",
+  "PowerToys#7626",
+  "PowerToys#765",
+  "PowerToys#8223",
+  "PowerToys#8803"
+ ],
+ "retrieval_seconds": 4.450576556992019,
+ "tool_calls": [
+  {
+   "t": 1794883883.038469,
+   "tool": "search",
+   "args": {
+    "query": "minimize window to system tray right-click minimize button RBTray",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.43231591800577,
+   "returned": [
+    "PowerToys#47",
+    "PowerToys#4043",
+    "PowerToys#23312",
+    "PowerToys#6143",
+    "PowerToys#15122",
+    "PowerToys#36066",
+    "PowerToys#15447",
+    "PowerToys#14895",
+    "PowerToys#20472",
+    "PowerToys#22113",
+    "PowerToys#33718",
+    "PowerToys#4851",
+    "PowerToys#3896",
+    "PowerToys#36052",
+    "PowerToys#14273",
+    "PowerToys#38303",
+    "PowerToys#41864",
+    "PowerToys#34649",
+    "PowerToys#28272",
+    "PowerToys#28228"
+   ]
+  },
+  {
+   "t": 1794883883.0784597,
+   "tool": "search",
+   "args": {
+    "query": "minimize application to tray icon notification area utility",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.01747143000829965,
+   "returned": [
+    "PowerToys#4851",
+    "PowerToys#11239",
+    "PowerToys#7626",
+    "PowerToys#11315",
+    "PowerToys#11724",
+    "PowerToys#4043",
+    "PowerToys#6202",
+    "PowerToys#47",
+    "PowerToys#765",
+    "PowerToys#11433",
+    "PowerToys#5634",
+    "PowerToys#3896",
+    "PowerToys#14273",
+    "PowerToys#4487",
+    "PowerToys#6143",
+    "PowerToys#8803",
+    "PowerToys#5889",
+    "PowerToys#21097",
+    "PowerToys#8223",
+    "PowerToys#18469"
+   ]
+  },
+  {
+   "t": 1794883885.1082568,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4043"
+   },
+   "seconds": 0.00014503599959425628,
+   "returned": [
+    "PowerToys#4043"
+   ]
+  },
+  {
+   "t": 1794883885.1241488,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47"
+   },
+   "seconds": 0.0002995420072693378,
+   "returned": [
+    "PowerToys#47"
+   ]
+  },
+  {
+   "t": 1794883885.2580485,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33718"
+   },
+   "seconds": 0.00021286497940309346,
+   "returned": [
+    "PowerToys#33718"
+   ]
+  },
+  {
+   "t": 1794883886.8816612,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#15447"
+   },
+   "seconds": 0.00013176599168218672,
+   "returned": [
+    "PowerToys#15447"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8849,
+  "stop_reason": "end_turn",
+  "session_id": "e2cd882f-8cb3-47f1-acaa-96c3f7fd295c",
+  "total_cost_usd": 0.0429372,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 8506,
+   "cache_read_input_tokens": 16572,
+   "output_tokens": 724,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8506,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 278,
+     "cache_read_input_tokens": 9165,
+     "cache_creation_input_tokens": 374,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 374
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 724,
+    "cacheReadInputTokens": 16572,
+    "cacheCreationInputTokens": 8506,
+    "webSearchRequests": 0,
+    "costUSD": 0.0429372,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8506,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#47\", \"PowerToys#4043\", \"PowerToys#33718\"], \"answer\": \"This feature has been requested before. PowerToys#47 ('Minimize to tray by right clicking the minimize button') is the main tracking issue, and the other tickets were closed as duplicates of it. PowerToys doesn't have this utility yet. Add your use case and a thumbs-up to #47 instead of opening a new request. Until it's built, people use third-party tools. RBTray still works for most apps, though not for all of them (Opera, for example). Other options are Traymond, Min2Tray (an AutoHotkey script) and Minimize2Tray. On Windows 10 and later, grouping windows on virtual desktops or changing the taskbar's button-combining setting can also reduce clutter.\"}",
+  "ttft_ms": 2147,
+  "type": "result",
+  "duration_ms": 13395,
+  "uuid": "648ba840-84a0-491f-af33-667b9a8b55c5",
+  "ttft_stream_ms": 1191,
+  "time_to_request_ms": 37,
+  "first_content_frame_ms": 1192,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 724,
+    "cacheReadInputTokens": 16572,
+    "cacheCreationInputTokens": 8506,
+    "webSearchRequests": 0,
+    "costUSD": 0.0429372,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8506,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.052633668005,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-5vc267bz/work"
+  }
+ },
+ "wall_seconds": 15.054424717993243,
+ "qid": "PowerToys#51144",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#47",
+   "PowerToys#4043",
+   "PowerToys#33718"
+  ],
+  "answer": "This feature has been requested before. PowerToys#47 ('Minimize to tray by right clicking the minimize button') is the main tracking issue, and the other tickets were closed as duplicates of it. PowerToys doesn't have this utility yet. Add your use case and a thumbs-up to #47 instead of opening a new request. Until it's built, people use third-party tools. RBTray still works for most apps, though not for all of them (Opera, for example). Other options are Traymond, Min2Tray (an AutoHotkey script) and Minimize2Tray. On Windows 10 and later, grouping windows on virtual desktops or changing the taskbar's button-combining setting can also reduce clutter."
+ },
+ "hit_turn_cap": false
+}

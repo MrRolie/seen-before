@@ -1,0 +1,344 @@
+{
+ "shown": [
+  "PowerToys#12712",
+  "PowerToys#12874",
+  "PowerToys#2543",
+  "PowerToys#2545",
+  "PowerToys#2662",
+  "PowerToys#2783",
+  "PowerToys#3079",
+  "PowerToys#32037",
+  "PowerToys#32994",
+  "PowerToys#3364",
+  "PowerToys#34155",
+  "PowerToys#3421",
+  "PowerToys#3479",
+  "PowerToys#35086",
+  "PowerToys#3571",
+  "PowerToys#35808",
+  "PowerToys#36608",
+  "PowerToys#37220",
+  "PowerToys#37971",
+  "PowerToys#38688",
+  "PowerToys#3920",
+  "PowerToys#41769",
+  "PowerToys#42933",
+  "PowerToys#46301",
+  "PowerToys#4707",
+  "PowerToys#4713",
+  "PowerToys#48077",
+  "PowerToys#4973",
+  "PowerToys#4976",
+  "PowerToys#5670",
+  "PowerToys#6756",
+  "PowerToys#8952",
+  "PowerToys#9360",
+  "PowerToys#9372"
+ ],
+ "retrieval_seconds": 3.559157958981814,
+ "tool_calls": [
+  {
+   "t": 1794879636.9995837,
+   "tool": "search",
+   "args": {
+    "query": "remap Copilot key in Keyboard Manager",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.5408208569861017,
+   "returned": [
+    "PowerToys#32037",
+    "PowerToys#36608",
+    "PowerToys#8952",
+    "PowerToys#6756",
+    "PowerToys#42933",
+    "PowerToys#3364",
+    "PowerToys#32994",
+    "PowerToys#4713",
+    "PowerToys#12874",
+    "PowerToys#4973",
+    "PowerToys#3421",
+    "PowerToys#3079",
+    "PowerToys#3920",
+    "PowerToys#46301",
+    "PowerToys#12712",
+    "PowerToys#37220",
+    "PowerToys#5670",
+    "PowerToys#3571",
+    "PowerToys#3479",
+    "PowerToys#9372"
+   ]
+  },
+  {
+   "t": 1794879637.0282438,
+   "tool": "search",
+   "args": {
+    "query": "Copilot key replaced right Ctrl, remap to something else",
+    "repo": null
+   },
+   "seconds": 0.017608802998438478,
+   "returned": [
+    "PowerToys#32037",
+    "PowerToys#36608",
+    "PowerToys#2543",
+    "PowerToys#41769",
+    "PowerToys#35086",
+    "PowerToys#2783",
+    "PowerToys#34155",
+    "PowerToys#5670",
+    "PowerToys#38688",
+    "PowerToys#3364",
+    "PowerToys#9360",
+    "PowerToys#2662",
+    "PowerToys#4707",
+    "PowerToys#42933",
+    "PowerToys#37971",
+    "PowerToys#12712",
+    "PowerToys#8952",
+    "PowerToys#4976",
+    "PowerToys#48077",
+    "PowerToys#2545"
+   ]
+  },
+  {
+   "t": 1794879638.0377922,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#36608"
+   },
+   "seconds": 0.0001249859924428165,
+   "returned": [
+    "PowerToys#36608"
+   ]
+  },
+  {
+   "t": 1794879638.285495,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37220"
+   },
+   "seconds": 0.00010924701928161085,
+   "returned": [
+    "PowerToys#37220"
+   ]
+  },
+  {
+   "t": 1794879638.4684439,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#41769"
+   },
+   "seconds": 0.00019958498887717724,
+   "returned": [
+    "PowerToys#41769"
+   ]
+  },
+  {
+   "t": 1794879639.482572,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35808"
+   },
+   "seconds": 0.0001633850042708218,
+   "returned": [
+    "PowerToys#35808"
+   ]
+  },
+  {
+   "t": 1794879639.6590068,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32037"
+   },
+   "seconds": 0.00013109599240124226,
+   "returned": [
+    "PowerToys#32037"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7178,
+  "stop_reason": "end_turn",
+  "session_id": "2385d1b5-9d5b-4c0f-9446-46df78870d96",
+  "total_cost_usd": 0.0511442,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 10230,
+   "cache_read_input_tokens": 14182,
+   "output_tokens": 879,
+   "output_tokens_details": {
+    "thinking_tokens": 22
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10230,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 385,
+     "cache_read_input_tokens": 7292,
+     "cache_creation_input_tokens": 3971,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3971
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 879,
+    "cacheReadInputTokens": 14182,
+    "cacheCreationInputTokens": 10230,
+    "webSearchRequests": 0,
+    "costUSD": 0.0511442,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 22,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10230,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#35808\", \"PowerToys#37220\", \"PowerToys#41769\"], \"answer\": \"This has been reported before. PowerToys#35808 is the main ticket, and the others were closed as duplicates of it. The Copilot key doesn't appear in Remap a key because it isn't a single key. It sends the shortcut Win (Left) + Shift (Left) + F23. Use Keyboard Manager > Remap a shortcut instead. Click the pencil/edit icon, press the Copilot key so it records that combination, then choose what it should send. Mapping it to Ctrl (Left) has worked for some users, for example on an HP laptop. Known limits: a remap to Ctrl may only send a single Ctrl press, and it may not work in combinations such as Ctrl+Shift+Esc or Ctrl+Alt+Del. Some people also get an extra Shift or Win, and the result varies by laptop model. A separate remap of the Win key can interfere too. Some users work around this with AutoHotkey. Adding a dedicated Copilot entry to the Remap a key list is still an open request in those tickets.\"}",
+  "ttft_ms": 1008,
+  "type": "result",
+  "duration_ms": 10562,
+  "uuid": "592f3012-eac9-4f69-9081-6d5a4770e58a",
+  "ttft_stream_ms": 550,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 550,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 879,
+    "cacheReadInputTokens": 14182,
+    "cacheCreationInputTokens": 10230,
+    "webSearchRequests": 0,
+    "costUSD": 0.0511442,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 22,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10230,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.041554247989552,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-t9q5d3df/work"
+  }
+ },
+ "wall_seconds": 12.043495404999703,
+ "qid": "PowerToys#49683",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#35808",
+   "PowerToys#37220",
+   "PowerToys#41769"
+  ],
+  "answer": "This has been reported before. PowerToys#35808 is the main ticket, and the others were closed as duplicates of it. The Copilot key doesn't appear in Remap a key because it isn't a single key. It sends the shortcut Win (Left) + Shift (Left) + F23. Use Keyboard Manager > Remap a shortcut instead. Click the pencil/edit icon, press the Copilot key so it records that combination, then choose what it should send. Mapping it to Ctrl (Left) has worked for some users, for example on an HP laptop. Known limits: a remap to Ctrl may only send a single Ctrl press, and it may not work in combinations such as Ctrl+Shift+Esc or Ctrl+Alt+Del. Some people also get an extra Shift or Win, and the result varies by laptop model. A separate remap of the Win key can interfere too. Some users work around this with AutoHotkey. Adding a dedicated Copilot entry to the Remap a key list is still an open request in those tickets."
+ },
+ "hit_turn_cap": false
+}

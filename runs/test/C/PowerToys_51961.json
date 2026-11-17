@@ -1,0 +1,322 @@
+{
+ "shown": [
+  "PowerToys#11246",
+  "PowerToys#117",
+  "PowerToys#12872",
+  "PowerToys#17872",
+  "PowerToys#18424",
+  "PowerToys#18535",
+  "PowerToys#19124",
+  "PowerToys#1984",
+  "PowerToys#2015",
+  "PowerToys#20247",
+  "PowerToys#2037",
+  "PowerToys#2258",
+  "PowerToys#23055",
+  "PowerToys#28179",
+  "PowerToys#28285",
+  "PowerToys#28365",
+  "PowerToys#31672",
+  "PowerToys#32616",
+  "PowerToys#33",
+  "PowerToys#34",
+  "PowerToys#3684",
+  "PowerToys#38308",
+  "PowerToys#39019",
+  "PowerToys#40583",
+  "PowerToys#4657",
+  "PowerToys#4718",
+  "PowerToys#47629",
+  "PowerToys#4888",
+  "PowerToys#7715",
+  "PowerToys#7752",
+  "PowerToys#81",
+  "PowerToys#8435",
+  "PowerToys#9376",
+  "PowerToys#975"
+ ],
+ "retrieval_seconds": 3.9336615249630995,
+ "tool_calls": [
+  {
+   "t": 1794885440.696072,
+   "tool": "search",
+   "args": {
+    "query": "customize Explorer right click context menu entries, remove or reorder items",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.9211550100008026,
+   "returned": [
+    "PowerToys#11246",
+    "PowerToys#33",
+    "PowerToys#8435",
+    "PowerToys#117",
+    "PowerToys#20247",
+    "PowerToys#9376",
+    "PowerToys#17872",
+    "PowerToys#34",
+    "PowerToys#975",
+    "PowerToys#32616",
+    "PowerToys#18535",
+    "PowerToys#2015",
+    "PowerToys#4657",
+    "PowerToys#39019",
+    "PowerToys#4718",
+    "PowerToys#7752",
+    "PowerToys#18424",
+    "PowerToys#28285",
+    "PowerToys#28179",
+    "PowerToys#47629"
+   ]
+  },
+  {
+   "t": 1794885440.71975,
+   "tool": "search",
+   "args": {
+    "query": "remove leftover context menu entries from old apps, show more options submenu",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012117933976696804,
+   "returned": [
+    "PowerToys#4718",
+    "PowerToys#2015",
+    "PowerToys#8435",
+    "PowerToys#117",
+    "PowerToys#2258",
+    "PowerToys#3684",
+    "PowerToys#9376",
+    "PowerToys#39019",
+    "PowerToys#7715",
+    "PowerToys#19124",
+    "PowerToys#2037",
+    "PowerToys#12872",
+    "PowerToys#28365",
+    "PowerToys#40583",
+    "PowerToys#81",
+    "PowerToys#38308",
+    "PowerToys#31672",
+    "PowerToys#1984",
+    "PowerToys#4888",
+    "PowerToys#23055"
+   ]
+  },
+  {
+   "t": 1794885442.527728,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#11246"
+   },
+   "seconds": 0.0001295969996135682,
+   "returned": [
+    "PowerToys#11246"
+   ]
+  },
+  {
+   "t": 1794885442.5344725,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33"
+   },
+   "seconds": 0.00013402701006270945,
+   "returned": [
+    "PowerToys#33"
+   ]
+  },
+  {
+   "t": 1794885442.6430883,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39019"
+   },
+   "seconds": 0.00012495697592385113,
+   "returned": [
+    "PowerToys#39019"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7201,
+  "stop_reason": "end_turn",
+  "session_id": "13b4bd3c-133b-4dbc-a4a8-cc9c9cb94fc1",
+  "total_cost_usd": 0.03646630000000001,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 7273,
+   "cache_read_input_tokens": 6623,
+   "output_tokens": 670,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7273,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 283,
+     "cache_read_input_tokens": 4005,
+     "cache_creation_input_tokens": 4301,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4301
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 670,
+    "cacheReadInputTokens": 6623,
+    "cacheCreationInputTokens": 7273,
+    "webSearchRequests": 0,
+    "costUSD": 0.03646630000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7273,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#33\", \"PowerToys#11246\", \"PowerToys#39019\"], \"answer\": \"This feature request has been filed before. PowerToys#33 is the main tracking issue, and the others were closed as duplicates of it. PowerToys has no Explorer context menu editor yet. Add your +1 or your use case to PowerToys#33. In the meantime, use third-party tools. The archive tickets mention NirSoft ShellExView and ShellMenuView, ContextMenuManager (which only handles the old menu), and NilesSoft Shell (which can remove entries). On Windows 11, the 'Show more options' classic menu can be restored with a registry edit. Leftover entries from old apps usually mean the app's shell extension is still registered, so you can remove them with those tools or by uninstalling the app.\"}",
+  "ttft_ms": 2205,
+  "type": "result",
+  "duration_ms": 11196,
+  "uuid": "8c2aa924-70c3-444a-84bb-12c6b51d8be1",
+  "ttft_stream_ms": 1152,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 1152,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 670,
+    "cacheReadInputTokens": 6623,
+    "cacheCreationInputTokens": 7273,
+    "webSearchRequests": 0,
+    "costUSD": 0.03646630000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7273,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.632101291004801,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-y4y__276/work"
+  }
+ },
+ "wall_seconds": 12.633733870985452,
+ "qid": "PowerToys#51961",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#33",
+   "PowerToys#11246",
+   "PowerToys#39019"
+  ],
+  "answer": "This feature request has been filed before. PowerToys#33 is the main tracking issue, and the others were closed as duplicates of it. PowerToys has no Explorer context menu editor yet. Add your +1 or your use case to PowerToys#33. In the meantime, use third-party tools. The archive tickets mention NirSoft ShellExView and ShellMenuView, ContextMenuManager (which only handles the old menu), and NilesSoft Shell (which can remove entries). On Windows 11, the 'Show more options' classic menu can be restored with a registry edit. Leftover entries from old apps usually mean the app's shell extension is still registered, so you can remove them with those tools or by uninstalling the app."
+ },
+ "hit_turn_cap": false
+}

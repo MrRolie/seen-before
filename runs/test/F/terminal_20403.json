@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "terminal#19783",
+  "terminal#5321",
+  "terminal#10331",
+  "terminal#19842",
+  "terminal#5612"
+ ],
+ "retrieval_seconds": 0.5799164419877343,
+ "retrieval_scores": [
+  0.032018442622950824,
+  0.01639344262295082,
+  0.016129032258064516,
+  0.016129032258064516,
+  0.015873015873015872
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 4060,
+  "stop_reason": "end_turn",
+  "session_id": "a49e1d0f-a6f8-42f4-b03a-9cfb060d7c85",
+  "total_cost_usd": 0.054342,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 12727,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 343,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12727,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 343,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 12727,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 12727
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 343,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 12727,
+    "webSearchRequests": 0,
+    "costUSD": 0.054342,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12727,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find a past ticket in the archive that reports this same request: an opt-in, authenticated automation surface (list sessions, read pane buffers, send input) for agent/MCP tooling. The nearest tickets cover different problems. terminal#19783 asks for focusing a tab by WT_SESSION, which is a focus/query request with no buffer read or input. terminal#5612 asks for tmux control mode, and terminal#5321 asks for HTM support. Both are about Windows Terminal rendering a multiplexer's state, not about external programs driving the terminal. terminal#10331 is about a tmux-style session concept, and terminal#19842 is about pane rebalancing. In the meantime, the structural `wt.exe` subcommands (new-tab, split-pane, focus-tab and so on) are the only supported control path, and there is no archived workaround for reading buffers or sending input. Please file this as a new feature request and reference #9368, #16568 and #19783 for context.\"}",
+  "ttft_ms": 4261,
+  "type": "result",
+  "duration_ms": 4280,
+  "uuid": "658d97f3-fcd1-4c12-b0ff-ea84098bbb0b",
+  "ttft_stream_ms": 1636,
+  "time_to_request_ms": 219,
+  "first_content_frame_ms": 1636,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 343,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 12727,
+    "webSearchRequests": 0,
+    "costUSD": 0.054342,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12727,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 5.287037567002699,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-jgnlsnk9/work"
+  }
+ },
+ "wall_seconds": 5.8685569259978365,
+ "qid": "terminal#20403",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find a past ticket in the archive that reports this same request: an opt-in, authenticated automation surface (list sessions, read pane buffers, send input) for agent/MCP tooling. The nearest tickets cover different problems. terminal#19783 asks for focusing a tab by WT_SESSION, which is a focus/query request with no buffer read or input. terminal#5612 asks for tmux control mode, and terminal#5321 asks for HTM support. Both are about Windows Terminal rendering a multiplexer's state, not about external programs driving the terminal. terminal#10331 is about a tmux-style session concept, and terminal#19842 is about pane rebalancing. In the meantime, the structural `wt.exe` subcommands (new-tab, split-pane, focus-tab and so on) are the only supported control path, and there is no archived workaround for reading buffers or sending input. Please file this as a new feature request and reference #9368, #16568 and #19783 for context."
+ },
+ "hit_turn_cap": false
+}

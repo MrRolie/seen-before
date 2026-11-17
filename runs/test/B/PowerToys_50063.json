@@ -1,0 +1,356 @@
+{
+ "shown": [
+  "PowerToys#1032",
+  "PowerToys#10810",
+  "PowerToys#1167",
+  "PowerToys#12845",
+  "PowerToys#13052",
+  "PowerToys#13406",
+  "PowerToys#13627",
+  "PowerToys#1411",
+  "PowerToys#14812",
+  "PowerToys#16370",
+  "PowerToys#17697",
+  "PowerToys#17991",
+  "PowerToys#18971",
+  "PowerToys#22774",
+  "PowerToys#23249",
+  "PowerToys#2596",
+  "PowerToys#26506",
+  "PowerToys#28027",
+  "PowerToys#35058",
+  "PowerToys#40404",
+  "PowerToys#40658",
+  "PowerToys#41903",
+  "PowerToys#45983",
+  "PowerToys#46738",
+  "PowerToys#492",
+  "PowerToys#4969",
+  "PowerToys#7809"
+ ],
+ "retrieval_seconds": 0.5118248760409188,
+ "tool_calls": [
+  {
+   "t": 1794881188.1294298,
+   "tool": "search",
+   "args": {
+    "pattern": "FancyZones switch layout while dragging",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.062213279015850276,
+   "returned": []
+  },
+  {
+   "t": 1794881188.7510545,
+   "tool": "search",
+   "args": {
+    "pattern": "layout",
+    "regex": false,
+    "also": [
+     "Alt",
+     "Shift",
+     "drag"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.22491983702639118,
+   "returned": [
+    "PowerToys#1032",
+    "PowerToys#40658",
+    "PowerToys#16370",
+    "PowerToys#10810",
+    "PowerToys#1411",
+    "PowerToys#4969",
+    "PowerToys#28027",
+    "PowerToys#7809",
+    "PowerToys#492",
+    "PowerToys#14812",
+    "PowerToys#17991",
+    "PowerToys#17697",
+    "PowerToys#12845",
+    "PowerToys#41903",
+    "PowerToys#23249",
+    "PowerToys#1167",
+    "PowerToys#18971",
+    "PowerToys#2596",
+    "PowerToys#45983",
+    "PowerToys#13052"
+   ]
+  },
+  {
+   "t": 1794881189.7996628,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#41903"
+   },
+   "seconds": 0.00016468600369989872,
+   "returned": [
+    "PowerToys#41903"
+   ]
+  },
+  {
+   "t": 1794881190.7688227,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35058"
+   },
+   "seconds": 0.00017036599456332624,
+   "returned": [
+    "PowerToys#35058"
+   ]
+  },
+  {
+   "t": 1794881190.945065,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40404"
+   },
+   "seconds": 0.00013905699597671628,
+   "returned": [
+    "PowerToys#40404"
+   ]
+  },
+  {
+   "t": 1794881191.7514014,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4969"
+   },
+   "seconds": 0.00019806501222774386,
+   "returned": [
+    "PowerToys#4969"
+   ]
+  },
+  {
+   "t": 1794881192.5318353,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#23249"
+   },
+   "seconds": 0.00014647698844783008,
+   "returned": [
+    "PowerToys#23249"
+   ]
+  },
+  {
+   "t": 1794881193.229112,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46738"
+   },
+   "seconds": 0.00011496699880808592,
+   "returned": [
+    "PowerToys#46738"
+   ]
+  },
+  {
+   "t": 1794881194.5655107,
+   "tool": "search",
+   "args": {
+    "pattern": "press Alt",
+    "regex": false,
+    "also": [
+     "FancyZones",
+     "layout"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.2237581420049537,
+   "returned": [
+    "PowerToys#14812",
+    "PowerToys#26506",
+    "PowerToys#22774",
+    "PowerToys#13627",
+    "PowerToys#13406"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11161,
+  "stop_reason": "end_turn",
+  "session_id": "fc9407a4-fbd0-40ff-add3-d847ff851d58",
+  "total_cost_usd": 0.07666139999999999,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 14292,
+   "cache_read_input_tokens": 69214,
+   "output_tokens": 1254,
+   "output_tokens_details": {
+    "thinking_tokens": 186
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 14292,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 519,
+     "cache_read_input_tokens": 14785,
+     "cache_creation_input_tokens": 684,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 684
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1254,
+    "cacheReadInputTokens": 69214,
+    "cacheCreationInputTokens": 14292,
+    "webSearchRequests": 0,
+    "costUSD": 0.07666139999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 186,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14292,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've finished checking the archive and found the matching tickets, so I'm sending the answer now.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#46738\", \"PowerToys#4969\", \"PowerToys#23249\"], \"answer\": \"This feature request has been filed before. PowerToys#46738 asks for the same thing: hold Shift while dragging, then press Alt to cycle to the next saved FancyZones layout. It was made the main ticket for quick layout switching. PowerToys#4969 (scroll wheel) and PowerToys#23249 (non-primary mouse button) were closed as duplicates of it. The archive shows no implemented Alt-to-switch feature, so it isn't available yet. Add your use case or a thumbs-up to #46738. For now, you can assign a number to each custom layout in the FancyZones editor and switch layouts with Win+Ctrl+Alt+<number>. PowerToys#35058 shows a top-of-screen layout picker that appears while you drag with Shift held. The scripted workarounds in #4969 use AutoHotkey.\"}",
+  "ttft_ms": 971,
+  "type": "result",
+  "duration_ms": 11744,
+  "uuid": "ab94f091-1bce-43b1-aaca-cb835bfe57aa",
+  "ttft_stream_ms": 553,
+  "time_to_request_ms": 65,
+  "first_content_frame_ms": 553,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1254,
+    "cacheReadInputTokens": 69214,
+    "cacheCreationInputTokens": 14292,
+    "webSearchRequests": 0,
+    "costUSD": 0.07666139999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 186,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14292,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.347436053998535,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-e9u2fbja/work"
+  }
+ },
+ "wall_seconds": 13.349586388998432,
+ "qid": "PowerToys#50063",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46738",
+   "PowerToys#4969",
+   "PowerToys#23249"
+  ],
+  "answer": "This feature request has been filed before. PowerToys#46738 asks for the same thing: hold Shift while dragging, then press Alt to cycle to the next saved FancyZones layout. It was made the main ticket for quick layout switching. PowerToys#4969 (scroll wheel) and PowerToys#23249 (non-primary mouse button) were closed as duplicates of it. The archive shows no implemented Alt-to-switch feature, so it isn't available yet. Add your use case or a thumbs-up to #46738. For now, you can assign a number to each custom layout in the FancyZones editor and switch layouts with Win+Ctrl+Alt+<number>. PowerToys#35058 shows a top-of-screen layout picker that appears while you drag with Shift held. The scripted workarounds in #4969 use AutoHotkey."
+ },
+ "hit_turn_cap": false
+}

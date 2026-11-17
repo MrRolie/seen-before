@@ -1,0 +1,332 @@
+{
+ "shown": [
+  "PowerToys#11233",
+  "PowerToys#11996",
+  "PowerToys#12579",
+  "PowerToys#13501",
+  "PowerToys#13755",
+  "PowerToys#14208",
+  "PowerToys#16220",
+  "PowerToys#17826",
+  "PowerToys#18214",
+  "PowerToys#18427",
+  "PowerToys#23193",
+  "PowerToys#24846",
+  "PowerToys#25377",
+  "PowerToys#25581",
+  "PowerToys#27531",
+  "PowerToys#27619",
+  "PowerToys#27790",
+  "PowerToys#30227",
+  "PowerToys#30310",
+  "PowerToys#32005",
+  "PowerToys#32305",
+  "PowerToys#33278",
+  "PowerToys#33965",
+  "PowerToys#34148",
+  "PowerToys#34487",
+  "PowerToys#35102",
+  "PowerToys#35250",
+  "PowerToys#35477",
+  "PowerToys#35823",
+  "PowerToys#38014",
+  "PowerToys#40120",
+  "PowerToys#41671",
+  "PowerToys#4246",
+  "PowerToys#42720",
+  "PowerToys#44134",
+  "PowerToys#45602",
+  "PowerToys#45910",
+  "PowerToys#46281",
+  "PowerToys#48965"
+ ],
+ "retrieval_seconds": 4.203990523034008,
+ "tool_calls": [
+  {
+   "t": 1794877578.4940505,
+   "tool": "similar",
+   "args": {
+    "query": "Awake schedule: keep awake during specific time interval and days of the week",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.055736784008332,
+   "returned": [
+    "PowerToys#32305",
+    "PowerToys#13501",
+    "PowerToys#42720",
+    "PowerToys#38014",
+    "PowerToys#30310",
+    "PowerToys#14208",
+    "PowerToys#27619",
+    "PowerToys#35477",
+    "PowerToys#45910",
+    "PowerToys#24846",
+    "PowerToys#25581",
+    "PowerToys#30227",
+    "PowerToys#35102",
+    "PowerToys#45602",
+    "PowerToys#13755",
+    "PowerToys#12579",
+    "PowerToys#27531",
+    "PowerToys#33965",
+    "PowerToys#25377",
+    "PowerToys#11233"
+   ]
+  },
+  {
+   "t": 1794877578.6636593,
+   "tool": "search",
+   "args": {
+    "pattern": "awake",
+    "regex": false,
+    "also": [
+     "schedule"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.14788458900875412,
+   "returned": [
+    "PowerToys#34148",
+    "PowerToys#35250",
+    "PowerToys#11996",
+    "PowerToys#4246",
+    "PowerToys#40120",
+    "PowerToys#32005",
+    "PowerToys#48965",
+    "PowerToys#23193",
+    "PowerToys#17826",
+    "PowerToys#34487",
+    "PowerToys#18427",
+    "PowerToys#16220",
+    "PowerToys#46281",
+    "PowerToys#44134",
+    "PowerToys#24846",
+    "PowerToys#35823",
+    "PowerToys#41671",
+    "PowerToys#27790",
+    "PowerToys#18214",
+    "PowerToys#33278"
+   ]
+  },
+  {
+   "t": 1794877580.5752695,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#12579"
+   },
+   "seconds": 0.00010258800466544926,
+   "returned": [
+    "PowerToys#12579"
+   ]
+  },
+  {
+   "t": 1794877580.7288043,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#30310"
+   },
+   "seconds": 0.00012867600889876485,
+   "returned": [
+    "PowerToys#30310"
+   ]
+  },
+  {
+   "t": 1794877582.2372363,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#27790"
+   },
+   "seconds": 0.0001378860033582896,
+   "returned": [
+    "PowerToys#27790"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10279,
+  "stop_reason": "end_turn",
+  "session_id": "0710103a-9a8c-4977-a871-c49ab850d48b",
+  "total_cost_usd": 0.0417202,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 7831,
+   "cache_read_input_tokens": 27462,
+   "output_tokens": 763,
+   "output_tokens_details": {
+    "thinking_tokens": 62
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7831,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 292,
+     "cache_read_input_tokens": 9185,
+     "cache_creation_input_tokens": 59,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 59
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 763,
+    "cacheReadInputTokens": 27462,
+    "cacheCreationInputTokens": 7831,
+    "webSearchRequests": 0,
+    "costUSD": 0.0417202,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 62,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7831,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#27790\", \"PowerToys#30310\", \"PowerToys#12579\"], \"answer\": \"Other users have already requested this feature, which is a schedule for Awake with a start time, an end time and days of the week. PowerToys#27790 is the main request. It was marked as tracked under PowerToys#24846, so add your +1 or use case there. The archive doesn't show that it has been implemented. Awake can't schedule by time and day yet. As a workaround, use the Awake CLI with an expiry time. For example, a Windows Task Scheduler task can run `PowerToys.Awake.exe --expire-at=18:00:00` on weekdays at 09:00. Another option is a task that triggers when the PC resumes from sleep and restarts Awake with the expiry time. PowerToys#27790 has an example PowerShell script for this.\"}",
+  "ttft_ms": 2226,
+  "type": "result",
+  "duration_ms": 14609,
+  "uuid": "1c1a1966-3cbb-4912-8f4b-84c08d26b7ca",
+  "ttft_stream_ms": 1194,
+  "time_to_request_ms": 58,
+  "first_content_frame_ms": 1194,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 763,
+    "cacheReadInputTokens": 27462,
+    "cacheCreationInputTokens": 7831,
+    "webSearchRequests": 0,
+    "costUSD": 0.0417202,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 62,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7831,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.127038478996838,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-h3qdomaf/work"
+  }
+ },
+ "wall_seconds": 16.12930994000635,
+ "qid": "PowerToys#49115",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#27790",
+   "PowerToys#30310",
+   "PowerToys#12579"
+  ],
+  "answer": "Other users have already requested this feature, which is a schedule for Awake with a start time, an end time and days of the week. PowerToys#27790 is the main request. It was marked as tracked under PowerToys#24846, so add your +1 or use case there. The archive doesn't show that it has been implemented. Awake can't schedule by time and day yet. As a workaround, use the Awake CLI with an expiry time. For example, a Windows Task Scheduler task can run `PowerToys.Awake.exe --expire-at=18:00:00` on weekdays at 09:00. Another option is a task that triggers when the PC resumes from sleep and restarts Awake with the expiry time. PowerToys#27790 has an example PowerShell script for this."
+ },
+ "hit_turn_cap": false
+}

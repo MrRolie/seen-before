@@ -1,0 +1,298 @@
+{
+ "shown": [
+  "PowerToys#1331",
+  "PowerToys#42401",
+  "PowerToys#42413",
+  "PowerToys#42436",
+  "PowerToys#42531",
+  "PowerToys#42561",
+  "PowerToys#42562",
+  "PowerToys#42596",
+  "PowerToys#42611",
+  "PowerToys#42984",
+  "PowerToys#43113",
+  "PowerToys#43201",
+  "PowerToys#44867",
+  "PowerToys#45077",
+  "PowerToys#45528",
+  "PowerToys#45960",
+  "PowerToys#45974",
+  "PowerToys#46461",
+  "PowerToys#47786",
+  "PowerToys#48361",
+  "PowerToys#48705"
+ ],
+ "retrieval_seconds": 3.266449529037345,
+ "tool_calls": [
+  {
+   "t": 1794878460.1575496,
+   "tool": "search",
+   "args": {
+    "query": "Light Switch change wallpaper automatically when switching light/dark theme",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.2659188930119853,
+   "returned": [
+    "PowerToys#44867",
+    "PowerToys#42611",
+    "PowerToys#45077",
+    "PowerToys#48705",
+    "PowerToys#45960",
+    "PowerToys#42436",
+    "PowerToys#46461",
+    "PowerToys#42561",
+    "PowerToys#1331",
+    "PowerToys#43113",
+    "PowerToys#42401",
+    "PowerToys#48361",
+    "PowerToys#43201",
+    "PowerToys#45528",
+    "PowerToys#42984",
+    "PowerToys#42531",
+    "PowerToys#42596",
+    "PowerToys#47786",
+    "PowerToys#45974",
+    "PowerToys#42562"
+   ]
+  },
+  {
+   "t": 1794878462.1562722,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42611"
+   },
+   "seconds": 0.00010241701966151595,
+   "returned": [
+    "PowerToys#42611"
+   ]
+  },
+  {
+   "t": 1794878462.2694662,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43113"
+   },
+   "seconds": 0.00011511699995025992,
+   "returned": [
+    "PowerToys#43113"
+   ]
+  },
+  {
+   "t": 1794878463.616312,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42436"
+   },
+   "seconds": 0.00011377700138837099,
+   "returned": [
+    "PowerToys#42436"
+   ]
+  },
+  {
+   "t": 1794878465.0167549,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42413"
+   },
+   "seconds": 9.875799878500402e-05,
+   "returned": [
+    "PowerToys#42413"
+   ]
+  },
+  {
+   "t": 1794878466.5534403,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42624"
+   },
+   "seconds": 0.00010056700557470322,
+   "returned": []
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12050,
+  "stop_reason": "end_turn",
+  "session_id": "66e3f7e6-b755-4ba5-973f-14c4a8e160d1",
+  "total_cost_usd": 0.027269599999999998,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 4493,
+   "cache_read_input_tokens": 20636,
+   "output_tokens": 721,
+   "output_tokens_details": {
+    "thinking_tokens": 49
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4493,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 280,
+     "cache_read_input_tokens": 5403,
+     "cache_creation_input_tokens": 123,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 123
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 721,
+    "cacheReadInputTokens": 20636,
+    "cacheCreationInputTokens": 4493,
+    "webSearchRequests": 0,
+    "costUSD": 0.027269599999999998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 49,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4493,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#42436\", \"PowerToys#42611\", \"PowerToys#43113\"], \"answer\": \"This feature request has been filed many times before. Light Switch can't set separate light and dark wallpapers yet. The other tickets were closed as duplicates, and PowerToys#42436 is the one still open for tracking. In that ticket, a contributor said they had a prototype for wallpaper switching and pointed to PR #42624. I couldn't find that PR in the archive, so I can't confirm its status. Please add a thumbs-up to #42436 and any details about your use case. For now, you can switch wallpapers by hand, use Windows theme files (.theme) that include a wallpaper, or use a third-party tool such as Auto Dark Mode, which can switch theme files.\"}",
+  "ttft_ms": 2262,
+  "type": "result",
+  "duration_ms": 15374,
+  "uuid": "24c338f5-3913-4f21-8dc8-c421520e8e13",
+  "ttft_stream_ms": 1716,
+  "time_to_request_ms": 27,
+  "first_content_frame_ms": 1716,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 721,
+    "cacheReadInputTokens": 20636,
+    "cacheCreationInputTokens": 4493,
+    "webSearchRequests": 0,
+    "costUSD": 0.027269599999999998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 49,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4493,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.592584408004768,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-piz938wx/work"
+  }
+ },
+ "wall_seconds": 16.59400054998696,
+ "qid": "PowerToys#49455",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#42436",
+   "PowerToys#42611",
+   "PowerToys#43113"
+  ],
+  "answer": "This feature request has been filed many times before. Light Switch can't set separate light and dark wallpapers yet. The other tickets were closed as duplicates, and PowerToys#42436 is the one still open for tracking. In that ticket, a contributor said they had a prototype for wallpaper switching and pointed to PR #42624. I couldn't find that PR in the archive, so I can't confirm its status. Please add a thumbs-up to #42436 and any details about your use case. For now, you can switch wallpapers by hand, use Windows theme files (.theme) that include a wallpaper, or use a third-party tool such as Auto Dark Mode, which can switch theme files."
+ },
+ "hit_turn_cap": false
+}

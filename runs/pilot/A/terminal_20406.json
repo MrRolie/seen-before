@@ -1,0 +1,194 @@
+{
+ "shown": [
+  "terminal#17246",
+  "terminal#19383",
+  "terminal#3435",
+  "terminal#3150",
+  "terminal#8683"
+ ],
+ "retrieval_seconds": 0.01867869301349856,
+ "retrieval_scores": [
+  0.7454437613487244,
+  0.7449639439582825,
+  0.7039393782615662,
+  0.6916753649711609,
+  0.6842493414878845
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 4429,
+  "stop_reason": "end_turn",
+  "session_id": "ad5040ee-f1f6-48ab-9b23-2178c8e4db14",
+  "total_cost_usd": 0.054922,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 12472,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 503,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12472,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 503,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 12472,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 12472
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 503,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 12472,
+    "webSearchRequests": 0,
+    "costUSD": 0.054922,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12472,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#17246\", \"terminal#19383\"], \"answer\": \"This looks like a known problem: Windows Terminal crashing with an access violation (0xc0000005) in Microsoft.Terminal.Control.dll when a tab is dragged or merged into another window (terminal#17246, terminal#19383). In terminal#17246 the cause was traced to a null pointer dereference: when a tab is torn off or closed, XAML calls OnCreateAutomationPeer on a TermControl that has no interactivity attached, and a fix was proposed in #17251. That ticket was reported as fatal only for some drag cases and notes that other crash scenarios remained, so it is not a complete fix. terminal#19383 reports a similar crash during a merge on 1.22, with a different fault in the renderer (AtlasEngine::PaintCursor). It has no resolution in the ticket text shown to me. Neither ticket gives a workaround or a confirmed fix for 1.24. Please comment on terminal#19383 (or terminal#17246) with your build, the fault offset 0x2c924, and the faulting stack from your dump. You can run !analyze -v in WinDbg on the dump and share only the stack and failure bucket, which avoids exposing scrollback. Until a fix is available, avoid drag-merging tabs between windows, especially after long sessions with large scrollback. Instead, open a new tab in the target window. Because all windows share one process, a crash takes them all down, so save any important work first.\"}",
+  "ttft_ms": 4591,
+  "type": "result",
+  "duration_ms": 4609,
+  "uuid": "3d0a3412-6a3c-4ed3-b825-0ef0c715811d",
+  "ttft_stream_ms": 682,
+  "time_to_request_ms": 178,
+  "first_content_frame_ms": 682,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 503,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 12472,
+    "webSearchRequests": 0,
+    "costUSD": 0.054922,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12472,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 5.503089640988037,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-fhnedscc/work"
+  }
+ },
+ "wall_seconds": 5.524535076023312,
+ "qid": "terminal#20406",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#17246",
+   "terminal#19383"
+  ],
+  "answer": "This looks like a known problem: Windows Terminal crashing with an access violation (0xc0000005) in Microsoft.Terminal.Control.dll when a tab is dragged or merged into another window (terminal#17246, terminal#19383). In terminal#17246 the cause was traced to a null pointer dereference: when a tab is torn off or closed, XAML calls OnCreateAutomationPeer on a TermControl that has no interactivity attached, and a fix was proposed in #17251. That ticket was reported as fatal only for some drag cases and notes that other crash scenarios remained, so it is not a complete fix. terminal#19383 reports a similar crash during a merge on 1.22, with a different fault in the renderer (AtlasEngine::PaintCursor). It has no resolution in the ticket text shown to me. Neither ticket gives a workaround or a confirmed fix for 1.24. Please comment on terminal#19383 (or terminal#17246) with your build, the fault offset 0x2c924, and the faulting stack from your dump. You can run !analyze -v in WinDbg on the dump and share only the stack and failure bucket, which avoids exposing scrollback. Until a fix is available, avoid drag-merging tabs between windows, especially after long sessions with large scrollback. Instead, open a new tab in the target window. Because all windows share one process, a crash takes them all down, so save any important work first."
+ },
+ "hit_turn_cap": false
+}

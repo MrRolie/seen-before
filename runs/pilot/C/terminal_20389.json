@@ -1,0 +1,473 @@
+{
+ "shown": [
+  "PowerToys#2199",
+  "PowerToys#2328",
+  "PowerToys#34383",
+  "PowerToys#9288",
+  "WSL#11",
+  "WSL#1486",
+  "WSL#1741",
+  "WSL#392",
+  "WSL#400",
+  "terminal#10203",
+  "terminal#10822",
+  "terminal#10825",
+  "terminal#11385",
+  "terminal#11779",
+  "terminal#11968",
+  "terminal#12598",
+  "terminal#12607",
+  "terminal#12730",
+  "terminal#12892",
+  "terminal#12982",
+  "terminal#13036",
+  "terminal#1329",
+  "terminal#13805",
+  "terminal#14131",
+  "terminal#14202",
+  "terminal#14349",
+  "terminal#15209",
+  "terminal#1533",
+  "terminal#16641",
+  "terminal#17076",
+  "terminal#17187",
+  "terminal#17197",
+  "terminal#17249",
+  "terminal#1777",
+  "terminal#17776",
+  "terminal#179",
+  "terminal#18713",
+  "terminal#18803",
+  "terminal#18897",
+  "terminal#18947",
+  "terminal#19749",
+  "terminal#19847",
+  "terminal#3086",
+  "terminal#3108",
+  "terminal#3516",
+  "terminal#3944",
+  "terminal#4482",
+  "terminal#4735",
+  "terminal#4873",
+  "terminal#4954",
+  "terminal#4968",
+  "terminal#4999",
+  "terminal#5017",
+  "terminal#5160",
+  "terminal#5168",
+  "terminal#5205",
+  "terminal#5288",
+  "terminal#53",
+  "terminal#5535",
+  "terminal#5583",
+  "terminal#6421",
+  "terminal#6422",
+  "terminal#6444",
+  "terminal#6513",
+  "terminal#6971",
+  "terminal#7416",
+  "terminal#745",
+  "terminal#7631",
+  "terminal#7994",
+  "terminal#8440",
+  "terminal#863",
+  "terminal#8640",
+  "terminal#9273",
+  "terminal#9641"
+ ],
+ "retrieval_seconds": 3.378146532981191,
+ "tool_calls": [
+  {
+   "t": 1794875917.4428148,
+   "tool": "search",
+   "args": {
+    "query": "window freezes for seconds when switching input language with many tabs open",
+    "repo": "terminal"
+   },
+   "seconds": 3.3245808109932113,
+   "returned": [
+    "terminal#4482",
+    "terminal#18803",
+    "terminal#8640",
+    "terminal#5583",
+    "terminal#863",
+    "terminal#3944",
+    "terminal#745",
+    "terminal#179",
+    "terminal#15209",
+    "terminal#1329",
+    "terminal#17076",
+    "terminal#18713",
+    "terminal#9273",
+    "terminal#5535",
+    "terminal#11385",
+    "terminal#6422",
+    "terminal#9641",
+    "terminal#1533",
+    "terminal#6444",
+    "terminal#3108"
+   ]
+  },
+  {
+   "t": 1794875917.4657707,
+   "tool": "search",
+   "args": {
+    "query": "Terminal hangs on keyboard layout change Alt+Shift Win+Space TSF",
+    "repo": "terminal"
+   },
+   "seconds": 0.01212113699875772,
+   "returned": [
+    "terminal#11968",
+    "terminal#1777",
+    "terminal#3516",
+    "terminal#4999",
+    "terminal#12607",
+    "terminal#7994",
+    "terminal#7416",
+    "terminal#5205",
+    "terminal#14202",
+    "terminal#16641",
+    "terminal#12892",
+    "terminal#19847",
+    "terminal#11779",
+    "terminal#11385",
+    "terminal#6421",
+    "terminal#863",
+    "terminal#12598",
+    "terminal#17776",
+    "terminal#6422",
+    "terminal#6513"
+   ]
+  },
+  {
+   "t": 1794875919.0879314,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18713"
+   },
+   "seconds": 0.00011026699212379754,
+   "returned": [
+    "terminal#18713"
+   ]
+  },
+  {
+   "t": 1794875919.1990647,
+   "tool": "search",
+   "args": {
+    "query": "input language switch freeze Terminal UI thread TSF input context per tab",
+    "repo": null
+   },
+   "seconds": 0.012850689003244042,
+   "returned": [
+    "terminal#3108",
+    "terminal#17076",
+    "terminal#5288",
+    "terminal#13036",
+    "terminal#863",
+    "terminal#4954",
+    "terminal#11385",
+    "terminal#14131",
+    "terminal#4873",
+    "terminal#18803",
+    "terminal#745",
+    "terminal#5017",
+    "terminal#17776",
+    "WSL#400",
+    "terminal#7994",
+    "terminal#12982",
+    "terminal#19749",
+    "terminal#53",
+    "terminal#8440",
+    "terminal#4968"
+   ]
+  },
+  {
+   "t": 1794875920.8432715,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18803"
+   },
+   "seconds": 0.00017401599325239658,
+   "returned": [
+    "terminal#18803"
+   ]
+  },
+  {
+   "t": 1794875920.9762564,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#8640"
+   },
+   "seconds": 0.00011141799041070044,
+   "returned": [
+    "terminal#8640"
+   ]
+  },
+  {
+   "t": 1794875922.5519454,
+   "tool": "search",
+   "args": {
+    "query": "switching keyboard layout language causes Terminal to freeze a few seconds",
+    "repo": null
+   },
+   "seconds": 0.013670807995367795,
+   "returned": [
+    "terminal#863",
+    "PowerToys#34383",
+    "terminal#17249",
+    "WSL#1486",
+    "WSL#11",
+    "PowerToys#2199",
+    "terminal#18803",
+    "WSL#1741",
+    "terminal#19847",
+    "terminal#17197",
+    "terminal#6971",
+    "terminal#17187",
+    "terminal#10203",
+    "terminal#5168",
+    "terminal#12892",
+    "terminal#7631",
+    "WSL#392",
+    "PowerToys#2328",
+    "terminal#4735",
+    "PowerToys#9288"
+   ]
+  },
+  {
+   "t": 1794875924.2012382,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#17187"
+   },
+   "seconds": 0.00013071700232103467,
+   "returned": [
+    "terminal#17187"
+   ]
+  },
+  {
+   "t": 1794875926.3867285,
+   "tool": "search",
+   "args": {
+    "query": "input language change hang proportional to number of tabs, TSF, TextServiceFramework, Terminal unresponsive on IME switch",
+    "repo": "terminal"
+   },
+   "seconds": 0.014236784016247839,
+   "returned": [
+    "terminal#14349",
+    "terminal#11385",
+    "terminal#863",
+    "terminal#10825",
+    "terminal#3108",
+    "terminal#12730",
+    "terminal#3944",
+    "terminal#18947",
+    "terminal#5160",
+    "terminal#4968",
+    "terminal#13805",
+    "terminal#1533",
+    "terminal#13036",
+    "terminal#10822",
+    "terminal#7994",
+    "terminal#18897",
+    "terminal#17076",
+    "terminal#12598",
+    "terminal#19749",
+    "terminal#3086"
+   ]
+  },
+  {
+   "t": 1794875927.8958852,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#14349"
+   },
+   "seconds": 0.000159885996254161,
+   "returned": [
+    "terminal#14349"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 16460,
+  "stop_reason": "end_turn",
+  "session_id": "58e2f5fe-2d52-45ac-a83d-256a27f09d3b",
+  "total_cost_usd": 0.0876718,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 17533,
+   "cache_read_input_tokens": 64478,
+   "output_tokens": 1106,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 17533,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 334,
+     "cache_read_input_tokens": 14806,
+     "cache_creation_input_tokens": 3760,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3760
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1106,
+    "cacheReadInputTokens": 64478,
+    "cacheCreationInputTokens": 17533,
+    "webSearchRequests": 0,
+    "costUSD": 0.0876718,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 17533,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket in the archive that reports this problem. That problem is a multi-second freeze of the whole Terminal window on every input-language switch (Win+Space or Alt+Shift) when many tabs are open. The closest tickets were about other problems. #18803 is a general unresponsive-window report that turned out to be an Nvidia driver issue. #17187 is about wrong characters after a layout switch. #14349 and #18713 are about specific IMEs (the legacy Japanese IME and WeType). Please file this as a new issue. Include the controlled test of freeze duration against tab count that you offered, and a WPR/ETW trace or a dump taken during the freeze. Also say whether the freeze happens in a fresh window with only a few tabs, and whether it happens in the Canary build (https://aka.ms/terminal-canary-installer). Until it's fixed, you can reduce the freeze by splitting your tabs across several Terminal windows.\"}",
+  "ttft_ms": 2253,
+  "type": "result",
+  "duration_ms": 19907,
+  "uuid": "63d1d65a-0eca-4e4b-aec4-4a3138f02a31",
+  "ttft_stream_ms": 1244,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 1244,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1106,
+    "cacheReadInputTokens": 64478,
+    "cacheCreationInputTokens": 17533,
+    "webSearchRequests": 0,
+    "costUSD": 0.0876718,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 17533,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 21.165572956000688,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-6gew5cb3/work"
+  }
+ },
+ "wall_seconds": 21.16738427101518,
+ "qid": "terminal#20389",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket in the archive that reports this problem. That problem is a multi-second freeze of the whole Terminal window on every input-language switch (Win+Space or Alt+Shift) when many tabs are open. The closest tickets were about other problems. #18803 is a general unresponsive-window report that turned out to be an Nvidia driver issue. #17187 is about wrong characters after a layout switch. #14349 and #18713 are about specific IMEs (the legacy Japanese IME and WeType). Please file this as a new issue. Include the controlled test of freeze duration against tab count that you offered, and a WPR/ETW trace or a dump taken during the freeze. Also say whether the freeze happens in a fresh window with only a few tabs, and whether it happens in the Canary build (https://aka.ms/terminal-canary-installer). Until it's fixed, you can reduce the freeze by splitting your tabs across several Terminal windows."
+ },
+ "hit_turn_cap": false
+}

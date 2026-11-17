@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#46823",
+  "PowerToys#46461",
+  "PowerToys#43113",
+  "PowerToys#44867",
+  "PowerToys#48705"
+ ],
+ "retrieval_seconds": 0.017539320018840954,
+ "retrieval_scores": [
+  0.8404680490493774,
+  0.8238361477851868,
+  0.8159422874450684,
+  0.8001670837402344,
+  0.7862792611122131
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2589,
+  "stop_reason": "end_turn",
+  "session_id": "78181db9-040f-4ad9-80d9-170801c8c031",
+  "total_cost_usd": 0.019846000000000003,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4198,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 305,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4198,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 305,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4198,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4198
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 305,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4198,
+    "webSearchRequests": 0,
+    "costUSD": 0.019846000000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4198,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46823\", \"PowerToys#46461\", \"PowerToys#48705\"], \"answer\": \"This request has been made before. Maintainers closed these tickets as duplicates of the main tracking issue #42401, which covers automatically switching the wallpaper when Light Switch changes between light and dark modes. Subscribe to #42401 for updates. Separately, in ticket #44867 a maintainer said wallpaper switching would be supported in the next release and pointed to #44598, so check that issue and the latest PowerToys release notes to see whether it has shipped. Until then, the tickets mention workarounds: a Task Scheduler script that sets the wallpaper, or the third-party tool AutoDarkMode. I did not see a ticket that confirms support for per-theme wallpaper folders (slideshows) in Light Switch, so that part of your request is not confirmed as covered.\"}",
+  "ttft_ms": 2740,
+  "type": "result",
+  "duration_ms": 2755,
+  "uuid": "dbdf9ccd-6ecb-4b55-a9b7-a49da54a40b4",
+  "ttft_stream_ms": 586,
+  "time_to_request_ms": 165,
+  "first_content_frame_ms": 586,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 305,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4198,
+    "webSearchRequests": 0,
+    "costUSD": 0.019846000000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4198,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.630135023006005,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-6mn8m_aw/work"
+  }
+ },
+ "wall_seconds": 3.6492822199943475,
+ "qid": "PowerToys#49913",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46823",
+   "PowerToys#46461",
+   "PowerToys#48705"
+  ],
+  "answer": "This request has been made before. Maintainers closed these tickets as duplicates of the main tracking issue #42401, which covers automatically switching the wallpaper when Light Switch changes between light and dark modes. Subscribe to #42401 for updates. Separately, in ticket #44867 a maintainer said wallpaper switching would be supported in the next release and pointed to #44598, so check that issue and the latest PowerToys release notes to see whether it has shipped. Until then, the tickets mention workarounds: a Task Scheduler script that sets the wallpaper, or the third-party tool AutoDarkMode. I did not see a ticket that confirms support for per-theme wallpaper folders (slideshows) in Light Switch, so that part of your request is not confirmed as covered."
+ },
+ "hit_turn_cap": false
+}

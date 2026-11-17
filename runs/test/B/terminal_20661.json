@@ -1,0 +1,553 @@
+{
+ "shown": [
+  "terminal#1000",
+  "terminal#10000",
+  "terminal#10203",
+  "terminal#10417",
+  "terminal#10520",
+  "terminal#1060",
+  "terminal#10717",
+  "terminal#10813",
+  "terminal#10933",
+  "terminal#11400",
+  "terminal#11630",
+  "terminal#1173",
+  "terminal#11941",
+  "terminal#12201",
+  "terminal#12665",
+  "terminal#12903",
+  "terminal#13037",
+  "terminal#13099",
+  "terminal#13369",
+  "terminal#13388",
+  "terminal#1375",
+  "terminal#1379",
+  "terminal#14051",
+  "terminal#14111",
+  "terminal#1414",
+  "terminal#14152",
+  "terminal#15726",
+  "terminal#15763",
+  "terminal#16181",
+  "terminal#16465",
+  "terminal#16661",
+  "terminal#16736",
+  "terminal#16745",
+  "terminal#16843",
+  "terminal#17155",
+  "terminal#17224",
+  "terminal#17880",
+  "terminal#18110",
+  "terminal#18446",
+  "terminal#18534",
+  "terminal#18715",
+  "terminal#18793",
+  "terminal#18845",
+  "terminal#19498",
+  "terminal#19869",
+  "terminal#20270",
+  "terminal#2439",
+  "terminal#2531",
+  "terminal#2785",
+  "terminal#283",
+  "terminal#3021",
+  "terminal#3121",
+  "terminal#3158",
+  "terminal#339",
+  "terminal#3593",
+  "terminal#3600",
+  "terminal#4029",
+  "terminal#4662",
+  "terminal#5000",
+  "terminal#531",
+  "terminal#541",
+  "terminal#649",
+  "terminal#653",
+  "terminal#6800",
+  "terminal#6851",
+  "terminal#715",
+  "terminal#756",
+  "terminal#766",
+  "terminal#7721",
+  "terminal#8247",
+  "terminal#8563",
+  "terminal#8639",
+  "terminal#8767",
+  "terminal#8888",
+  "terminal#8914",
+  "terminal#8991",
+  "terminal#9134",
+  "terminal#9390",
+  "terminal#9539",
+  "terminal#961",
+  "terminal#973",
+  "terminal#9861"
+ ],
+ "retrieval_seconds": 0.450976941967383,
+ "tool_calls": [
+  {
+   "t": 1794882353.7036703,
+   "tool": "search",
+   "args": {
+    "pattern": "order",
+    "regex": false,
+    "also": [
+     "keybindings",
+     "actions"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.07923704100539908,
+   "returned": [
+    "terminal#973",
+    "terminal#12201",
+    "terminal#3593",
+    "terminal#8247",
+    "terminal#13369",
+    "terminal#8888",
+    "terminal#1000",
+    "terminal#756",
+    "terminal#653",
+    "terminal#9390",
+    "terminal#961",
+    "terminal#15763",
+    "terminal#5000",
+    "terminal#3121",
+    "terminal#1060",
+    "terminal#766",
+    "terminal#531",
+    "terminal#19498",
+    "terminal#18793",
+    "terminal#18715"
+   ]
+  },
+  {
+   "t": 1794882353.7338524,
+   "tool": "search",
+   "args": {
+    "pattern": "settings.json reordered on save",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.01901812298456207,
+   "returned": []
+  },
+  {
+   "t": 1794882355.6933286,
+   "tool": "search",
+   "args": {
+    "pattern": "settings.json",
+    "regex": false,
+    "also": [
+     "reorder"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.05132172998855822,
+   "returned": [
+    "terminal#8914",
+    "terminal#17155",
+    "terminal#1375",
+    "terminal#18534",
+    "terminal#11400",
+    "terminal#9539",
+    "terminal#3600",
+    "terminal#7721",
+    "terminal#4662"
+   ]
+  },
+  {
+   "t": 1794882356.0930839,
+   "tool": "search",
+   "args": {
+    "pattern": "moves the actions",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.02099532200372778,
+   "returned": []
+  },
+  {
+   "t": 1794882356.249345,
+   "tool": "search",
+   "args": {
+    "pattern": "settings UI",
+    "regex": false,
+    "also": [
+     "diff",
+     "actions"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.07234717099345289,
+   "returned": [
+    "terminal#19869",
+    "terminal#8991",
+    "terminal#8767",
+    "terminal#8639",
+    "terminal#10000",
+    "terminal#9861",
+    "terminal#2785",
+    "terminal#715",
+    "terminal#17224",
+    "terminal#11630",
+    "terminal#6851",
+    "terminal#2531",
+    "terminal#1375",
+    "terminal#766",
+    "terminal#16843",
+    "terminal#15726",
+    "terminal#14152",
+    "terminal#14051",
+    "terminal#12665",
+    "terminal#10933"
+   ]
+  },
+  {
+   "t": 1794882357.9720657,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#8991"
+   },
+   "seconds": 0.00013586599379777908,
+   "returned": [
+    "terminal#8991"
+   ]
+  },
+  {
+   "t": 1794882358.1050766,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18534"
+   },
+   "seconds": 0.00020789401605725288,
+   "returned": [
+    "terminal#18534"
+   ]
+  },
+  {
+   "t": 1794882359.6252406,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18110"
+   },
+   "seconds": 0.00013051601126790047,
+   "returned": [
+    "terminal#18110"
+   ]
+  },
+  {
+   "t": 1794882361.3150983,
+   "tool": "search",
+   "args": {
+    "pattern": "order",
+    "regex": false,
+    "also": [
+     "settings.json",
+     "save"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.06638610598747618,
+   "returned": [
+    "terminal#1375",
+    "terminal#8914",
+    "terminal#1173",
+    "terminal#649",
+    "terminal#653",
+    "terminal#17155",
+    "terminal#961",
+    "terminal#16736",
+    "terminal#16465",
+    "terminal#13388",
+    "terminal#13099",
+    "terminal#6800",
+    "terminal#5000",
+    "terminal#3121",
+    "terminal#2531",
+    "terminal#1379",
+    "terminal#766",
+    "terminal#18845",
+    "terminal#18715",
+    "terminal#18446"
+   ]
+  },
+  {
+   "t": 1794882363.0230458,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#11400"
+   },
+   "seconds": 0.0001979149819817394,
+   "returned": [
+    "terminal#11400"
+   ]
+  },
+  {
+   "t": 1794882364.9746935,
+   "tool": "search",
+   "args": {
+    "pattern": "actions",
+    "regex": false,
+    "also": [
+     "keybindings",
+     "settings.json",
+     "order"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.1159986600105185,
+   "returned": [
+    "terminal#653",
+    "terminal#8991",
+    "terminal#8767",
+    "terminal#5000",
+    "terminal#961",
+    "terminal#8563",
+    "terminal#3121",
+    "terminal#766",
+    "terminal#10203",
+    "terminal#8888",
+    "terminal#3158",
+    "terminal#19498",
+    "terminal#18715",
+    "terminal#12201",
+    "terminal#10717",
+    "terminal#9134",
+    "terminal#8247"
+   ]
+  },
+  {
+   "t": 1794882366.4762154,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#17155"
+   },
+   "seconds": 0.00014138699043542147,
+   "returned": [
+    "terminal#17155"
+   ]
+  },
+  {
+   "t": 1794882370.0501218,
+   "tool": "search",
+   "args": {
+    "pattern": "shuffle",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.024859211000148207,
+   "returned": [
+    "terminal#13037",
+    "terminal#12903",
+    "terminal#10520",
+    "terminal#10417",
+    "terminal#18110",
+    "terminal#4029",
+    "terminal#541",
+    "terminal#339",
+    "terminal#283",
+    "terminal#20270",
+    "terminal#17880",
+    "terminal#16745",
+    "terminal#16661",
+    "terminal#16181",
+    "terminal#14111",
+    "terminal#11941",
+    "terminal#10813",
+    "terminal#3021",
+    "terminal#2439",
+    "terminal#1414"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 22006,
+  "stop_reason": "end_turn",
+  "session_id": "42becf81-5108-4273-8ccb-e9e890fc3d57",
+  "total_cost_usd": 0.15441250000000004,
+  "usage": {
+   "input_tokens": 20,
+   "cache_creation_input_tokens": 30663,
+   "cache_read_input_tokens": 151905,
+   "output_tokens": 1653,
+   "output_tokens_details": {
+    "thinking_tokens": 199
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 30663,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 328,
+     "cache_read_input_tokens": 28995,
+     "cache_creation_input_tokens": 2845,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2845
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 20,
+    "outputTokens": 1653,
+    "cacheReadInputTokens": 151905,
+    "cacheCreationInputTokens": 30663,
+    "webSearchRequests": 0,
+    "costUSD": 0.15441250000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 199,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 30663,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "```json\n{\"seen_before\": true, \"matches\": [\"terminal#8991\", \"terminal#18110\", \"terminal#18534\"], \"answer\": \"This has been reported before. When Terminal saves settings.json, it re-serializes the whole file. That reorders the items in `actions` and the keys inside each entry. It also reformats the layout and drops comments. This is a known limitation, not a bug in your setup. The team has tracked it under terminal#8991 and closed the others (terminal#18110 and terminal#18534) as duplicates of it. Fixing it is hard, because Terminal would have to rewrite only the changed settings in place. No fix is recorded in these tickets. Workarounds: edit settings.json directly in a text editor and avoid saving through the Settings UI, since the UI save is what rewrites the file. If you need to diff the file, normalize the JSON first (sort the keys and the `actions` array) and compare the normalized copies. You can also follow terminal#8991 and add your voice there.\"}\n```",
+  "ttft_ms": 1978,
+  "type": "result",
+  "duration_ms": 22495,
+  "uuid": "9511f4b7-2eda-4e05-80d6-5947366f1c2b",
+  "ttft_stream_ms": 1067,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 1067,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 20,
+    "outputTokens": 1653,
+    "cacheReadInputTokens": 151905,
+    "cacheCreationInputTokens": 30663,
+    "webSearchRequests": 0,
+    "costUSD": 0.15441250000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 199,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 30663,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 23.750942884013057,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-zml6az_a/work"
+  }
+ },
+ "wall_seconds": 23.752883992972784,
+ "qid": "terminal#20661",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#8991",
+   "terminal#18110",
+   "terminal#18534"
+  ],
+  "answer": "This has been reported before. When Terminal saves settings.json, it re-serializes the whole file. That reorders the items in `actions` and the keys inside each entry. It also reformats the layout and drops comments. This is a known limitation, not a bug in your setup. The team has tracked it under terminal#8991 and closed the others (terminal#18110 and terminal#18534) as duplicates of it. Fixing it is hard, because Terminal would have to rewrite only the changed settings in place. No fix is recorded in these tickets. Workarounds: edit settings.json directly in a text editor and avoid saving through the Settings UI, since the UI save is what rewrites the file. If you need to diff the file, normalize the JSON first (sort the keys and the `actions` array) and compare the normalized copies. You can also follow terminal#8991 and add your voice there."
+ },
+ "hit_turn_cap": false
+}

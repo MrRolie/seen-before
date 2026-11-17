@@ -1,0 +1,359 @@
+{
+ "shown": [
+  "PowerToys#10",
+  "PowerToys#10276",
+  "PowerToys#1240",
+  "PowerToys#14702",
+  "PowerToys#1730",
+  "PowerToys#1752",
+  "PowerToys#1895",
+  "PowerToys#2164",
+  "PowerToys#2304",
+  "PowerToys#2310",
+  "PowerToys#2350",
+  "PowerToys#2390",
+  "PowerToys#25350",
+  "PowerToys#2552",
+  "PowerToys#2869",
+  "PowerToys#3035",
+  "PowerToys#3152",
+  "PowerToys#3409",
+  "PowerToys#3450",
+  "PowerToys#3523",
+  "PowerToys#3541",
+  "PowerToys#38339",
+  "PowerToys#38347",
+  "PowerToys#38530",
+  "PowerToys#3937",
+  "PowerToys#40100",
+  "PowerToys#40311",
+  "PowerToys#4040",
+  "PowerToys#45201",
+  "PowerToys#46114",
+  "PowerToys#46270",
+  "PowerToys#46382",
+  "PowerToys#47576",
+  "PowerToys#48530",
+  "PowerToys#48606",
+  "PowerToys#48914",
+  "PowerToys#49025",
+  "PowerToys#76",
+  "PowerToys#8458",
+  "PowerToys#9141"
+ ],
+ "retrieval_seconds": 3.7332963589578867,
+ "tool_calls": [
+  {
+   "t": 1794879255.4667437,
+   "tool": "search",
+   "args": {
+    "pattern": "dock",
+    "regex": false,
+    "also": [
+     "bookmark"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1048971510026604,
+   "returned": [
+    "PowerToys#45201",
+    "PowerToys#48914",
+    "PowerToys#46270",
+    "PowerToys#40100",
+    "PowerToys#49025",
+    "PowerToys#47576",
+    "PowerToys#10",
+    "PowerToys#48530",
+    "PowerToys#46382",
+    "PowerToys#38530",
+    "PowerToys#3409"
+   ]
+  },
+  {
+   "t": 1794879259.2771037,
+   "tool": "similar",
+   "args": {
+    "query": "Dock pin band + button bookmark icon and name not shown",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.431397451000521,
+   "returned": [
+    "PowerToys#1730",
+    "PowerToys#3035",
+    "PowerToys#2304",
+    "PowerToys#2552",
+    "PowerToys#48530",
+    "PowerToys#2310",
+    "PowerToys#14702",
+    "PowerToys#1752",
+    "PowerToys#2350",
+    "PowerToys#2869",
+    "PowerToys#8458",
+    "PowerToys#3541",
+    "PowerToys#25350",
+    "PowerToys#10276",
+    "PowerToys#2390",
+    "PowerToys#38339",
+    "PowerToys#3450",
+    "PowerToys#3523",
+    "PowerToys#3152",
+    "PowerToys#46114"
+   ]
+  },
+  {
+   "t": 1794879260.2673812,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46270"
+   },
+   "seconds": 0.0001199269900098443,
+   "returned": [
+    "PowerToys#46270"
+   ]
+  },
+  {
+   "t": 1794879260.8596966,
+   "tool": "search",
+   "args": {
+    "pattern": "available",
+    "regex": false,
+    "also": [
+     "dock",
+     "bookmark",
+     "invisible"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1829204850073438,
+   "returned": []
+  },
+  {
+   "t": 1794879262.4454348,
+   "tool": "similar",
+   "args": {
+    "query": "Edit dock, click + to add band, bookmarks show no icon or name in list of available items",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.013805579976178706,
+   "returned": [
+    "PowerToys#1730",
+    "PowerToys#14702",
+    "PowerToys#3035",
+    "PowerToys#40311",
+    "PowerToys#1240",
+    "PowerToys#2869",
+    "PowerToys#3541",
+    "PowerToys#10276",
+    "PowerToys#2350",
+    "PowerToys#76",
+    "PowerToys#2552",
+    "PowerToys#3450",
+    "PowerToys#4040",
+    "PowerToys#9141",
+    "PowerToys#38347",
+    "PowerToys#48606",
+    "PowerToys#3937",
+    "PowerToys#2304",
+    "PowerToys#2164",
+    "PowerToys#1895"
+   ]
+  },
+  {
+   "t": 1794879262.6122844,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47576"
+   },
+   "seconds": 0.00015576498117297888,
+   "returned": [
+    "PowerToys#47576"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8756,
+  "stop_reason": "end_turn",
+  "session_id": "bddad386-8117-4f12-87a3-4784de596a14",
+  "total_cost_usd": 0.0428813,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 7616,
+   "cache_read_input_tokens": 15713,
+   "output_tokens": 1083,
+   "output_tokens_details": {
+    "thinking_tokens": 188
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7616,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 483,
+     "cache_read_input_tokens": 6972,
+     "cache_creation_input_tokens": 2057,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2057
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1083,
+    "cacheReadInputTokens": 15713,
+    "cacheCreationInputTokens": 7616,
+    "webSearchRequests": 0,
+    "costUSD": 0.0428813,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 188,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7616,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46270\", \"PowerToys#47576\"], \"answer\": \"This looks like the known Dock bug where bookmark bands don't render their icon or name. No past ticket describes the add (+) picker specifically, so the match is close but not exact. PowerToys#46270 is the tracking issue. In 0.100.0 a maintainer said a fix PR existed but hadn't been merged, so 0.100.x doesn't include it. Try these workarounds from that ticket. (1) In Command Palette, disable and then re-enable the Bookmarks extension, or reload extensions. (2) Turn on Settings > General > For Developers > 'Enable External reload'. Then run x-cmdpal://reload, for example from a .vbs file that you pin as a bookmark or put in shell:startup. Bookmarks should then show again. Update PowerToys once a release containing the fix is available, and subscribe to #46270 for updates. If the picker still shows blank entries after a reload, add that to #46270.\"}",
+  "ttft_ms": 996,
+  "type": "result",
+  "duration_ms": 12419,
+  "uuid": "5480a09c-755a-4fff-bed2-c8eada0070a4",
+  "ttft_stream_ms": 537,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 537,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1083,
+    "cacheReadInputTokens": 15713,
+    "cacheCreationInputTokens": 7616,
+    "webSearchRequests": 0,
+    "costUSD": 0.0428813,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 188,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7616,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.731066114007263,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-b365za3u/work"
+  }
+ },
+ "wall_seconds": 13.732658297987655,
+ "qid": "PowerToys#49621",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46270",
+   "PowerToys#47576"
+  ],
+  "answer": "This looks like the known Dock bug where bookmark bands don't render their icon or name. No past ticket describes the add (+) picker specifically, so the match is close but not exact. PowerToys#46270 is the tracking issue. In 0.100.0 a maintainer said a fix PR existed but hadn't been merged, so 0.100.x doesn't include it. Try these workarounds from that ticket. (1) In Command Palette, disable and then re-enable the Bookmarks extension, or reload extensions. (2) Turn on Settings > General > For Developers > 'Enable External reload'. Then run x-cmdpal://reload, for example from a .vbs file that you pin as a bookmark or put in shell:startup. Bookmarks should then show again. Update PowerToys once a release containing the fix is available, and subscribe to #46270 for updates. If the picker still shows blank entries after a reload, add that to #46270."
+ },
+ "hit_turn_cap": false
+}

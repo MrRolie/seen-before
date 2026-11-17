@@ -1,0 +1,409 @@
+{
+ "shown": [
+  "PowerToys#25717",
+  "PowerToys#26147",
+  "PowerToys#26182",
+  "PowerToys#26326",
+  "PowerToys#26405",
+  "PowerToys#26537",
+  "PowerToys#26768",
+  "PowerToys#26856",
+  "PowerToys#26873",
+  "PowerToys#269",
+  "PowerToys#26949",
+  "PowerToys#28280",
+  "PowerToys#29939",
+  "PowerToys#30259",
+  "PowerToys#30509",
+  "PowerToys#31578",
+  "PowerToys#31680",
+  "PowerToys#31792",
+  "PowerToys#32333",
+  "PowerToys#33801",
+  "PowerToys#35490",
+  "PowerToys#35904",
+  "PowerToys#36878",
+  "PowerToys#37996",
+  "PowerToys#38066",
+  "PowerToys#39087",
+  "PowerToys#40466",
+  "PowerToys#40579",
+  "PowerToys#40650",
+  "PowerToys#40678",
+  "PowerToys#41116",
+  "PowerToys#41449",
+  "PowerToys#41655",
+  "PowerToys#41750",
+  "PowerToys#41874",
+  "PowerToys#41957",
+  "PowerToys#42184",
+  "PowerToys#44065",
+  "PowerToys#44177",
+  "PowerToys#44335",
+  "PowerToys#45471",
+  "PowerToys#46033",
+  "PowerToys#46657",
+  "PowerToys#47039",
+  "PowerToys#47873",
+  "PowerToys#48314",
+  "PowerToys#48550",
+  "PowerToys#48551"
+ ],
+ "retrieval_seconds": 0.5230342939903494,
+ "tool_calls": [
+  {
+   "t": 1794876981.7031147,
+   "tool": "search",
+   "args": {
+    "pattern": "Mouse Without Borders",
+    "regex": false,
+    "also": [
+     "UAC"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.13286066902219318,
+   "returned": [
+    "PowerToys#30259",
+    "PowerToys#38066",
+    "PowerToys#30509",
+    "PowerToys#26147",
+    "PowerToys#41750",
+    "PowerToys#40466",
+    "PowerToys#39087",
+    "PowerToys#33801",
+    "PowerToys#26873",
+    "PowerToys#26405",
+    "PowerToys#25717",
+    "PowerToys#269"
+   ]
+  },
+  {
+   "t": 1794876982.481989,
+   "tool": "search",
+   "args": {
+    "pattern": "Mouse Without Borders",
+    "regex": false,
+    "also": [
+     "task manager"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.15189657401060686,
+   "returned": [
+    "PowerToys#41655",
+    "PowerToys#36878",
+    "PowerToys#30259",
+    "PowerToys#26768",
+    "PowerToys#45471",
+    "PowerToys#35904",
+    "PowerToys#35490",
+    "PowerToys#46657",
+    "PowerToys#40579",
+    "PowerToys#31792",
+    "PowerToys#26856",
+    "PowerToys#26326",
+    "PowerToys#47039",
+    "PowerToys#44065",
+    "PowerToys#33801",
+    "PowerToys#28280",
+    "PowerToys#26537",
+    "PowerToys#40678",
+    "PowerToys#26949",
+    "PowerToys#26873"
+   ]
+  },
+  {
+   "t": 1794876982.6358604,
+   "tool": "search",
+   "args": {
+    "pattern": "Mouse Without Borders",
+    "regex": false,
+    "also": [
+     "elevated"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.14095092797651887,
+   "returned": [
+    "PowerToys#48314",
+    "PowerToys#30259",
+    "PowerToys#41874",
+    "PowerToys#31578",
+    "PowerToys#48550",
+    "PowerToys#44335",
+    "PowerToys#44177",
+    "PowerToys#48551",
+    "PowerToys#47873",
+    "PowerToys#46033",
+    "PowerToys#26326",
+    "PowerToys#26182",
+    "PowerToys#42184",
+    "PowerToys#41957",
+    "PowerToys#41449",
+    "PowerToys#41116",
+    "PowerToys#40650",
+    "PowerToys#40466",
+    "PowerToys#31680",
+    "PowerToys#29939"
+   ]
+  },
+  {
+   "t": 1794876984.5084407,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#26326"
+   },
+   "seconds": 0.00015289598377421498,
+   "returned": [
+    "PowerToys#26326"
+   ]
+  },
+  {
+   "t": 1794876984.523223,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40579"
+   },
+   "seconds": 0.00012480700388550758,
+   "returned": [
+    "PowerToys#40579"
+   ]
+  },
+  {
+   "t": 1794876984.6309838,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#26405"
+   },
+   "seconds": 0.00012650599819608033,
+   "returned": [
+    "PowerToys#26405"
+   ]
+  },
+  {
+   "t": 1794876986.4057572,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38066"
+   },
+   "seconds": 0.0002654329873621464,
+   "returned": [
+    "PowerToys#38066"
+   ]
+  },
+  {
+   "t": 1794876987.8066947,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40466"
+   },
+   "seconds": 0.00015092501416802406,
+   "returned": [
+    "PowerToys#40466"
+   ]
+  },
+  {
+   "t": 1794876989.48565,
+   "tool": "search",
+   "args": {
+    "pattern": "passkey",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.09650555599364452,
+   "returned": [
+    "PowerToys#37996",
+    "PowerToys#32333",
+    "PowerToys#26147"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 14907,
+  "stop_reason": "end_turn",
+  "session_id": "465effaa-7556-4785-9c0f-ff17794a0bc5",
+  "total_cost_usd": 0.0755495,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 14192,
+   "cache_read_input_tokens": 55075,
+   "output_tokens": 1325,
+   "output_tokens_details": {
+    "thinking_tokens": 195
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 14192,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 608,
+     "cache_read_input_tokens": 14777,
+     "cache_creation_input_tokens": 592,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 592
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1325,
+    "cacheReadInputTokens": 55075,
+    "cacheCreationInputTokens": 14192,
+    "webSearchRequests": 0,
+    "costUSD": 0.0755495,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 195,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14192,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I'm wrapping up my archive search now. I found matching tickets and I'm writing the answer.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#26326\", \"PowerToys#26405\", \"PowerToys#40579\"], \"answer\": \"This has been reported before. Mouse Without Borders can't control elevated or secure windows on the other computer, such as Task Manager, UAC prompts and install dialogs. Passkey dialogs aren't mentioned in the archive, but they probably behave the same way. In #26326 the fix was to run PowerToys as administrator on BOTH computers. The maintainers also suggested enabling the 'Use service' option in Mouse Without Borders settings, which needs an elevated PowerToys. Your PowerToys is running non-elevated, so try one or both of these on both machines. One caveat from #26405: with service mode, a UAC prompt can still force a reconnect and throw the pointer back to the host. If that happens, you'll have to switch the mouse and keyboard to the other computer by hand for those prompts. In the archive, #40579 (Task Manager) has no resolution and #26326 is the only one that reports a fix. I couldn't find a ticket that confirms a complete fix for secure-desktop prompts.\"}",
+  "ttft_ms": 1988,
+  "type": "result",
+  "duration_ms": 15413,
+  "uuid": "8ca33255-2f50-47e3-9d96-734cacedd22c",
+  "ttft_stream_ms": 1180,
+  "time_to_request_ms": 51,
+  "first_content_frame_ms": 1180,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1325,
+    "cacheReadInputTokens": 55075,
+    "cacheCreationInputTokens": 14192,
+    "webSearchRequests": 0,
+    "costUSD": 0.0755495,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 195,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14192,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.893812415015418,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-pl0lkzpb/work"
+  }
+ },
+ "wall_seconds": 16.895721131004393,
+ "qid": "PowerToys#50617",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#26326",
+   "PowerToys#26405",
+   "PowerToys#40579"
+  ],
+  "answer": "This has been reported before. Mouse Without Borders can't control elevated or secure windows on the other computer, such as Task Manager, UAC prompts and install dialogs. Passkey dialogs aren't mentioned in the archive, but they probably behave the same way. In #26326 the fix was to run PowerToys as administrator on BOTH computers. The maintainers also suggested enabling the 'Use service' option in Mouse Without Borders settings, which needs an elevated PowerToys. Your PowerToys is running non-elevated, so try one or both of these on both machines. One caveat from #26405: with service mode, a UAC prompt can still force a reconnect and throw the pointer back to the host. If that happens, you'll have to switch the mouse and keyboard to the other computer by hand for those prompts. In the archive, #40579 (Task Manager) has no resolution and #26326 is the only one that reports a fix. I couldn't find a ticket that confirms a complete fix for secure-desktop prompts."
+ },
+ "hit_turn_cap": false
+}

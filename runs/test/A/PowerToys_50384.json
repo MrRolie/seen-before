@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#15404",
+  "PowerToys#31389",
+  "PowerToys#39925",
+  "PowerToys#1969",
+  "PowerToys#8030"
+ ],
+ "retrieval_seconds": 0.019269057986093685,
+ "retrieval_scores": [
+  0.7954908013343811,
+  0.7899567484855652,
+  0.7739991545677185,
+  0.7608507871627808,
+  0.740876317024231
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2982,
+  "stop_reason": "end_turn",
+  "session_id": "3b89ca95-3ec7-43e6-be0d-40b2fb9a8833",
+  "total_cost_usd": 0.01855,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4084,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 221,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4084,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 221,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4084,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4084
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 221,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4084,
+    "webSearchRequests": 0,
+    "costUSD": 0.01855,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4084,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#31389\", \"PowerToys#39925\", \"PowerToys#15404\"], \"answer\": \"This dynamic/auto-tiling window manager request has been filed several times before. The past tickets were closed as duplicates of the main tracking issue PowerToys#2694, so please add your 👍 and any extra detail there instead of opening a new ticket. The earlier tickets don't offer a built-in workaround. Commenters point to existing Windows tiling managers such as Komorebi, GlazeWM, Whim and Workspacer, and FancyZones remains the manual, predefined-zone option in PowerToys for now.\"}",
+  "ttft_ms": 3133,
+  "type": "result",
+  "duration_ms": 3158,
+  "uuid": "1f18ed95-a623-4ff5-8784-1f12ce7b7816",
+  "ttft_stream_ms": 1553,
+  "time_to_request_ms": 174,
+  "first_content_frame_ms": 1553,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 221,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4084,
+    "webSearchRequests": 0,
+    "costUSD": 0.01855,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4084,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.9692784670041874,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-pbtxp814/work"
+  }
+ },
+ "wall_seconds": 3.9905226929986384,
+ "qid": "PowerToys#50384",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#31389",
+   "PowerToys#39925",
+   "PowerToys#15404"
+  ],
+  "answer": "This dynamic/auto-tiling window manager request has been filed several times before. The past tickets were closed as duplicates of the main tracking issue PowerToys#2694, so please add your 👍 and any extra detail there instead of opening a new ticket. The earlier tickets don't offer a built-in workaround. Commenters point to existing Windows tiling managers such as Komorebi, GlazeWM, Whim and Workspacer, and FancyZones remains the manual, predefined-zone option in PowerToys for now."
+ },
+ "hit_turn_cap": false
+}

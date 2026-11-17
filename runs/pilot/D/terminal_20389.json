@@ -1,0 +1,358 @@
+{
+ "shown": [
+  "terminal#10643",
+  "terminal#10729",
+  "terminal#11522",
+  "terminal#11746",
+  "terminal#11796",
+  "terminal#11854",
+  "terminal#12730",
+  "terminal#14338",
+  "terminal#1533",
+  "terminal#1592",
+  "terminal#17076",
+  "terminal#1810",
+  "terminal#18803",
+  "terminal#18947",
+  "terminal#20103",
+  "terminal#2856",
+  "terminal#3108",
+  "terminal#3877",
+  "terminal#3944",
+  "terminal#4482",
+  "terminal#5458",
+  "terminal#5525",
+  "terminal#5583",
+  "terminal#6422",
+  "terminal#6439",
+  "terminal#6574",
+  "terminal#745",
+  "terminal#7524",
+  "terminal#7556",
+  "terminal#7879",
+  "terminal#8228",
+  "terminal#8319",
+  "terminal#863",
+  "terminal#8640",
+  "terminal#8888",
+  "terminal#9273",
+  "terminal#980",
+  "terminal#9909"
+ ],
+ "retrieval_seconds": 3.7852779760141857,
+ "tool_calls": [
+  {
+   "t": 1794875896.4561756,
+   "tool": "similar",
+   "args": {
+    "query": "freeze when switching input language with many tabs open",
+    "repo": "terminal"
+   },
+   "seconds": 3.65547411100124,
+   "returned": [
+    "terminal#3944",
+    "terminal#863",
+    "terminal#18803",
+    "terminal#4482",
+    "terminal#745",
+    "terminal#17076",
+    "terminal#6422",
+    "terminal#8640",
+    "terminal#10729",
+    "terminal#3108",
+    "terminal#9273",
+    "terminal#5583",
+    "terminal#2856",
+    "terminal#980",
+    "terminal#7879",
+    "terminal#1592",
+    "terminal#12730",
+    "terminal#7524",
+    "terminal#1533",
+    "terminal#18947"
+   ]
+  },
+  {
+   "t": 1794875898.4262145,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#10729"
+   },
+   "seconds": 0.00016268601757474244,
+   "returned": [
+    "terminal#10729"
+   ]
+  },
+  {
+   "t": 1794875898.9235826,
+   "tool": "search",
+   "args": {
+    "pattern": "keyboard layout",
+    "regex": false,
+    "also": [
+     "tabs",
+     "hang"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.06678615999408066,
+   "returned": [
+    "terminal#5525",
+    "terminal#11796",
+    "terminal#11522",
+    "terminal#8888",
+    "terminal#10643",
+    "terminal#6574",
+    "terminal#9909",
+    "terminal#6439",
+    "terminal#3877",
+    "terminal#20103",
+    "terminal#14338",
+    "terminal#11854",
+    "terminal#11746",
+    "terminal#8319",
+    "terminal#8228",
+    "terminal#7556",
+    "terminal#5458"
+   ]
+  },
+  {
+   "t": 1794875901.0974643,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#20103"
+   },
+   "seconds": 0.00018726498819887638,
+   "returned": [
+    "terminal#20103"
+   ]
+  },
+  {
+   "t": 1794875901.2341614,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#11522"
+   },
+   "seconds": 0.0001853459980338812,
+   "returned": [
+    "terminal#11522"
+   ]
+  },
+  {
+   "t": 1794875903.8600476,
+   "tool": "search",
+   "args": {
+    "pattern": "layout",
+    "regex": false,
+    "also": [
+     "freeze",
+     "reload"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.06235680100508034,
+   "returned": [
+    "terminal#20103",
+    "terminal#11522",
+    "terminal#1810"
+   ]
+  },
+  {
+   "t": 1794875905.6055534,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#11854"
+   },
+   "seconds": 0.00012560700997710228,
+   "returned": [
+    "terminal#11854"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 18052,
+  "stop_reason": "end_turn",
+  "session_id": "53f25e87-7ae6-405d-85fd-93404fa548a7",
+  "total_cost_usd": 0.0724971,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 14059,
+   "cache_read_input_tokens": 45371,
+   "output_tokens": 1170,
+   "output_tokens_details": {
+    "thinking_tokens": 128
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 14059,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 428,
+     "cache_read_input_tokens": 15020,
+     "cache_creation_input_tokens": 452,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 452
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1170,
+    "cacheReadInputTokens": 45371,
+    "cacheCreationInputTokens": 14059,
+    "webSearchRequests": 0,
+    "costUSD": 0.0724971,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 128,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14059,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#20103\", \"terminal#11522\"], \"answer\": \"This looks like a known problem. Windows Terminal reloads all of its settings whenever the OS keyboard layout or input language changes (terminal#11522). The reload runs on the UI thread and touches every open tab, so it takes longer the more tabs you have. terminal#20103 measured the same multi-second whole-window freeze with about 40 heavy tabs. Typed characters were buffered and then came out in a burst. That ticket also found that a second reload can run straight after the first, which roughly doubles the freeze. Your guess that the cost grows with tab count fits what is described there, though neither ticket reports a controlled test of it. I found no fix in the archive yet, because #11522 is still open. Until one ships, you can: (1) close tabs you don't need, or split them across several windows; (2) avoid switching layouts several times in quick succession; (3) turn on Windows' per-window keyboard layout setting, which one commenter on #11522 said avoids the problem; (4) add your ETW/WPR traces and tab-count measurements to #11522 or #20103. A real bisection of freeze time against tab count would help.\"}",
+  "ttft_ms": 4191,
+  "type": "result",
+  "duration_ms": 21905,
+  "uuid": "6158cb32-959e-4f47-9a03-7aa8d55246d1",
+  "ttft_stream_ms": 3278,
+  "time_to_request_ms": 33,
+  "first_content_frame_ms": 3279,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1170,
+    "cacheReadInputTokens": 45371,
+    "cacheCreationInputTokens": 14059,
+    "webSearchRequests": 0,
+    "costUSD": 0.0724971,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 128,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14059,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 23.337353519018507,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-meq32iuo/work"
+  }
+ },
+ "wall_seconds": 23.339229222998256,
+ "qid": "terminal#20389",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#20103",
+   "terminal#11522"
+  ],
+  "answer": "This looks like a known problem. Windows Terminal reloads all of its settings whenever the OS keyboard layout or input language changes (terminal#11522). The reload runs on the UI thread and touches every open tab, so it takes longer the more tabs you have. terminal#20103 measured the same multi-second whole-window freeze with about 40 heavy tabs. Typed characters were buffered and then came out in a burst. That ticket also found that a second reload can run straight after the first, which roughly doubles the freeze. Your guess that the cost grows with tab count fits what is described there, though neither ticket reports a controlled test of it. I found no fix in the archive yet, because #11522 is still open. Until one ships, you can: (1) close tabs you don't need, or split them across several windows; (2) avoid switching layouts several times in quick succession; (3) turn on Windows' per-window keyboard layout setting, which one commenter on #11522 said avoids the problem; (4) add your ETW/WPR traces and tab-count measurements to #11522 or #20103. A real bisection of freeze time against tab count would help."
+ },
+ "hit_turn_cap": false
+}

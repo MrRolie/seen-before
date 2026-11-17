@@ -1,0 +1,414 @@
+{
+ "shown": [
+  "PowerToys#1052",
+  "PowerToys#10969",
+  "PowerToys#11510",
+  "PowerToys#11838",
+  "PowerToys#12147",
+  "PowerToys#1305",
+  "PowerToys#1488",
+  "PowerToys#16641",
+  "PowerToys#179",
+  "PowerToys#18680",
+  "PowerToys#21473",
+  "PowerToys#24094",
+  "PowerToys#2428",
+  "PowerToys#279",
+  "PowerToys#28769",
+  "PowerToys#291",
+  "PowerToys#31226",
+  "PowerToys#3134",
+  "PowerToys#33605",
+  "PowerToys#34860",
+  "PowerToys#35721",
+  "PowerToys#36741",
+  "PowerToys#37031",
+  "PowerToys#38192",
+  "PowerToys#39182",
+  "PowerToys#45201",
+  "PowerToys#46668",
+  "PowerToys#47859",
+  "PowerToys#48435",
+  "PowerToys#48773",
+  "PowerToys#48789",
+  "PowerToys#4882",
+  "PowerToys#49015",
+  "PowerToys#6751",
+  "PowerToys#890",
+  "PowerToys#9105"
+ ],
+ "retrieval_seconds": 1.317620062007336,
+ "tool_calls": [
+  {
+   "t": 1794877091.9132423,
+   "tool": "search",
+   "args": {
+    "pattern": "taskbar",
+    "regex": false,
+    "also": [
+     "Shortcut Guide",
+     "hide"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.18457136198412627,
+   "returned": [
+    "PowerToys#291",
+    "PowerToys#179",
+    "PowerToys#38192",
+    "PowerToys#3134",
+    "PowerToys#48773",
+    "PowerToys#21473",
+    "PowerToys#6751",
+    "PowerToys#890",
+    "PowerToys#28769",
+    "PowerToys#11510"
+   ]
+  },
+  {
+   "t": 1794877091.9817736,
+   "tool": "search",
+   "args": {
+    "pattern": "taskbar indicators",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.04921135900076479,
+   "returned": [
+    "PowerToys#48789",
+    "PowerToys#39182"
+   ]
+  },
+  {
+   "t": 1794877092.698195,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#291"
+   },
+   "seconds": 0.00027896201936528087,
+   "returned": [
+    "PowerToys#291"
+   ]
+  },
+  {
+   "t": 1794877094.382805,
+   "tool": "search",
+   "args": {
+    "pattern": "auto-hide",
+    "regex": false,
+    "also": [
+     "indicator"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.14148222299991176,
+   "returned": [
+    "PowerToys#45201"
+   ]
+  },
+  {
+   "t": 1794877094.6295443,
+   "tool": "search",
+   "args": {
+    "pattern": "Automatically hide the taskbar",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07670002899249084,
+   "returned": [
+    "PowerToys#24094",
+    "PowerToys#37031",
+    "PowerToys#35721",
+    "PowerToys#10969",
+    "PowerToys#49015",
+    "PowerToys#47859",
+    "PowerToys#46668",
+    "PowerToys#36741",
+    "PowerToys#33605",
+    "PowerToys#16641",
+    "PowerToys#11510",
+    "PowerToys#279"
+   ]
+  },
+  {
+   "t": 1794877096.0753312,
+   "tool": "search",
+   "args": {
+    "pattern": "Shortcut Guide",
+    "regex": false,
+    "also": [
+     "taskbar",
+     "obscure"
+    ],
+    "repo": null
+   },
+   "seconds": 0.2424755029787775,
+   "returned": [
+    "PowerToys#890"
+   ]
+  },
+  {
+   "t": 1794877096.4760842,
+   "tool": "search",
+   "args": {
+    "pattern": "Shortcut Guide",
+    "regex": false,
+    "also": [
+     "taskbar",
+     "misplaced"
+    ],
+    "repo": null
+   },
+   "seconds": 0.25516889701248147,
+   "returned": []
+  },
+  {
+   "t": 1794877097.7596037,
+   "tool": "search",
+   "args": {
+    "pattern": "Shortcut Guide",
+    "regex": false,
+    "also": [
+     "taskbar",
+     "position"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.21277680600178428,
+   "returned": [
+    "PowerToys#890",
+    "PowerToys#48773",
+    "PowerToys#28769",
+    "PowerToys#9105",
+    "PowerToys#18680",
+    "PowerToys#12147",
+    "PowerToys#11838",
+    "PowerToys#4882",
+    "PowerToys#2428",
+    "PowerToys#48435",
+    "PowerToys#21473",
+    "PowerToys#34860",
+    "PowerToys#31226",
+    "PowerToys#1488",
+    "PowerToys#1305",
+    "PowerToys#1052"
+   ]
+  },
+  {
+   "t": 1794877100.4070156,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48435"
+   },
+   "seconds": 0.00014883599942550063,
+   "returned": [
+    "PowerToys#48435"
+   ]
+  },
+  {
+   "t": 1794877101.580514,
+   "tool": "search",
+   "args": {
+    "pattern": "Shortcut Guide",
+    "regex": false,
+    "also": [
+     "taskbar",
+     "hidden"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.15480608501820825,
+   "returned": [
+    "PowerToys#890",
+    "PowerToys#291",
+    "PowerToys#38192",
+    "PowerToys#1305",
+    "PowerToys#1052"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12945,
+  "stop_reason": "end_turn",
+  "session_id": "41402fc8-dd42-4618-83bc-f24d7c777804",
+  "total_cost_usd": 0.06994890000000001,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 12764,
+   "cache_read_input_tokens": 58509,
+   "output_tokens": 1301,
+   "output_tokens_details": {
+    "thinking_tokens": 60
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12764,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 291,
+     "cache_read_input_tokens": 12964,
+     "cache_creation_input_tokens": 977,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 977
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1301,
+    "cacheReadInputTokens": 58509,
+    "cacheCreationInputTokens": 12764,
+    "webSearchRequests": 0,
+    "costUSD": 0.06994890000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 60,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12764,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this exact problem. In your case the taskbar is auto-hidden and showing, and the Shortcut Guide indicators are drawn on top of the taskbar items instead of over the matching icons. Nearby tickets describe different problems. PowerToys#291 is about the old Shortcut Guide showing no numbers when the taskbar auto-hides, and it was closed after v2 shipped in 0.100. PowerToys#48435 is about indicators glitching when the taskbar is not at the bottom. PowerToys#38192 asks for Shortcut Guide to bring up a hidden taskbar. Please keep this ticket open as a new bug. Include your Windows version, the display scaling, and the taskbar position. Also say whether the overlay is still misplaced when the taskbar is set to always show.\"}",
+  "ttft_ms": 1500,
+  "type": "result",
+  "duration_ms": 14033,
+  "uuid": "29d3e8ca-85dd-4f13-b5c6-f4a6713caeff",
+  "ttft_stream_ms": 577,
+  "time_to_request_ms": 43,
+  "first_content_frame_ms": 577,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1301,
+    "cacheReadInputTokens": 58509,
+    "cacheCreationInputTokens": 12764,
+    "webSearchRequests": 0,
+    "costUSD": 0.06994890000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 60,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12764,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.524200961983297,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-h3ubrbfe/work"
+  }
+ },
+ "wall_seconds": 15.526921066018986,
+ "qid": "PowerToys#50666",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this exact problem. In your case the taskbar is auto-hidden and showing, and the Shortcut Guide indicators are drawn on top of the taskbar items instead of over the matching icons. Nearby tickets describe different problems. PowerToys#291 is about the old Shortcut Guide showing no numbers when the taskbar auto-hides, and it was closed after v2 shipped in 0.100. PowerToys#48435 is about indicators glitching when the taskbar is not at the bottom. PowerToys#38192 asks for Shortcut Guide to bring up a hidden taskbar. Please keep this ticket open as a new bug. Include your Windows version, the display scaling, and the taskbar position. Also say whether the overlay is still misplaced when the taskbar is set to always show."
+ },
+ "hit_turn_cap": false
+}

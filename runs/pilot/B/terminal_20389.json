@@ -1,0 +1,421 @@
+{
+ "shown": [
+  "PowerToys#22059",
+  "PowerToys#30976",
+  "terminal#1000",
+  "terminal#10203",
+  "terminal#10729",
+  "terminal#11121",
+  "terminal#11354",
+  "terminal#11459",
+  "terminal#11522",
+  "terminal#11796",
+  "terminal#12201",
+  "terminal#12267",
+  "terminal#12944",
+  "terminal#13579",
+  "terminal#13681",
+  "terminal#13960",
+  "terminal#14318",
+  "terminal#14940",
+  "terminal#14957",
+  "terminal#15238",
+  "terminal#15450",
+  "terminal#15951",
+  "terminal#16303",
+  "terminal#16332",
+  "terminal#1637",
+  "terminal#17283",
+  "terminal#18659",
+  "terminal#18691",
+  "terminal#19460",
+  "terminal#19897",
+  "terminal#20077",
+  "terminal#20103",
+  "terminal#2277",
+  "terminal#3324",
+  "terminal#3729",
+  "terminal#3759",
+  "terminal#3788",
+  "terminal#3877",
+  "terminal#3925",
+  "terminal#4226",
+  "terminal#4682",
+  "terminal#5497",
+  "terminal#5507",
+  "terminal#5525",
+  "terminal#5788",
+  "terminal#5833",
+  "terminal#6186",
+  "terminal#6971",
+  "terminal#7087",
+  "terminal#756",
+  "terminal#7657",
+  "terminal#766",
+  "terminal#7726",
+  "terminal#8000",
+  "terminal#8699",
+  "terminal#8710",
+  "terminal#8871",
+  "terminal#8888",
+  "terminal#8964",
+  "terminal#9210",
+  "terminal#9304",
+  "terminal#9309",
+  "terminal#961"
+ ],
+ "retrieval_seconds": 0.24494376400252804,
+ "tool_calls": [
+  {
+   "t": 1794875875.0985825,
+   "tool": "search",
+   "args": {
+    "pattern": "input language",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.026768250012537464,
+   "returned": [
+    "terminal#16332",
+    "terminal#10729",
+    "terminal#19460",
+    "terminal#14318",
+    "terminal#11459",
+    "terminal#18691",
+    "terminal#18659",
+    "terminal#13960",
+    "terminal#8964",
+    "terminal#8871",
+    "terminal#8699",
+    "terminal#7726",
+    "terminal#7087",
+    "terminal#6971",
+    "terminal#6186",
+    "terminal#5497",
+    "terminal#4226",
+    "terminal#3925",
+    "terminal#3788",
+    "terminal#1637"
+   ]
+  },
+  {
+   "t": 1794875875.1870434,
+   "tool": "search",
+   "args": {
+    "pattern": "Alt+Shift",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.05130894700414501,
+   "returned": [
+    "terminal#3729",
+    "terminal#3877",
+    "terminal#15450",
+    "terminal#12201",
+    "terminal#9210",
+    "terminal#15951",
+    "terminal#14940",
+    "terminal#8710",
+    "terminal#3324",
+    "terminal#1000",
+    "terminal#9304",
+    "terminal#5833",
+    "terminal#5507",
+    "terminal#13681",
+    "terminal#12944",
+    "terminal#11121",
+    "terminal#9309",
+    "terminal#7657",
+    "terminal#5788",
+    "terminal#4682"
+   ]
+  },
+  {
+   "t": 1794875877.1039488,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#16332"
+   },
+   "seconds": 0.0004455390153452754,
+   "returned": [
+    "terminal#16332"
+   ]
+  },
+  {
+   "t": 1794875877.470604,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#10729"
+   },
+   "seconds": 0.0001598559902049601,
+   "returned": [
+    "terminal#10729"
+   ]
+  },
+  {
+   "t": 1794875879.7472312,
+   "tool": "search",
+   "args": {
+    "pattern": "WM_INPUTLANGCHANGE",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07187701200018637,
+   "returned": [
+    "PowerToys#30976",
+    "terminal#16332",
+    "terminal#8871",
+    "PowerToys#22059",
+    "terminal#10729",
+    "terminal#10203"
+   ]
+  },
+  {
+   "t": 1794875880.088757,
+   "tool": "search",
+   "args": {
+    "pattern": "layout",
+    "regex": false,
+    "also": [
+     "tabs",
+     "hang"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.09404070800519548,
+   "returned": [
+    "terminal#11354",
+    "terminal#12267",
+    "terminal#20103",
+    "terminal#756",
+    "terminal#11522",
+    "terminal#5525",
+    "terminal#3759",
+    "terminal#16303",
+    "terminal#961",
+    "terminal#11796",
+    "terminal#766",
+    "terminal#19897",
+    "terminal#14957",
+    "terminal#20077",
+    "terminal#8888",
+    "terminal#8000",
+    "terminal#2277",
+    "terminal#17283",
+    "terminal#15238",
+    "terminal#13579"
+   ]
+  },
+  {
+   "t": 1794875881.6315722,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#20103"
+   },
+   "seconds": 0.00016831597895361483,
+   "returned": [
+    "terminal#20103"
+   ]
+  },
+  {
+   "t": 1794875881.736455,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#11522"
+   },
+   "seconds": 0.00017513599595986307,
+   "returned": [
+    "terminal#11522"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 14549,
+  "stop_reason": "end_turn",
+  "session_id": "80c95bf6-7a12-4b9c-8f6d-4a0c08722c2b",
+  "total_cost_usd": 0.11946620000000001,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 25291,
+   "cache_read_input_tokens": 48022,
+   "output_tokens": 1348,
+   "output_tokens_details": {
+    "thinking_tokens": 115
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 25291,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 512,
+     "cache_read_input_tokens": 20378,
+     "cache_creation_input_tokens": 6090,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6090
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1348,
+    "cacheReadInputTokens": 48022,
+    "cacheCreationInputTokens": 25291,
+    "webSearchRequests": 0,
+    "costUSD": 0.11946620000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 115,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 25291,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#20103\", \"terminal#11522\", \"terminal#13960\"], \"answer\": \"This looks like a known problem. Windows Terminal reloads its whole settings file every time the input language or keyboard layout changes. Terminal needs this to re-parse key bindings for the new layout. The reload cost grows with the number of tabs and how much scrollback they hold. With dozens of tabs, each language switch freezes the window for several seconds. terminal#20103 reproduces exactly this: about 40 tabs, then Win+Space or Ctrl+Shift, then a multi-second UI freeze. That ticket also finds that rapid switches can chain a second reload straight after the first, which doubles the freeze. terminal#11522 and terminal#13960 describe the underlying reload-on-layout-change behavior. The tickets I read show no released fix or setting that turns this off. The only workarounds they suggest are practical ones. Keep fewer tabs open per window, or close tabs with a lot of scrollback. Avoid switching layouts several times in quick succession. Add your ~60-tab data point, your OS build and the Terminal version to terminal#20103. If you can capture the controlled tab-count measurements or a WPR trace that you offered, attach them there too. That would help confirm how the freeze scales with tab count.\"}",
+  "ttft_ms": 2605,
+  "type": "result",
+  "duration_ms": 14829,
+  "uuid": "b64ea8e1-6816-4202-8a92-c1941b7fb55d",
+  "ttft_stream_ms": 1185,
+  "time_to_request_ms": 38,
+  "first_content_frame_ms": 1185,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1348,
+    "cacheReadInputTokens": 48022,
+    "cacheCreationInputTokens": 25291,
+    "webSearchRequests": 0,
+    "costUSD": 0.11946620000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 115,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 25291,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.1840944160067,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-lalpt9iy/work"
+  }
+ },
+ "wall_seconds": 16.186648041999433,
+ "qid": "terminal#20389",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#20103",
+   "terminal#11522",
+   "terminal#13960"
+  ],
+  "answer": "This looks like a known problem. Windows Terminal reloads its whole settings file every time the input language or keyboard layout changes. Terminal needs this to re-parse key bindings for the new layout. The reload cost grows with the number of tabs and how much scrollback they hold. With dozens of tabs, each language switch freezes the window for several seconds. terminal#20103 reproduces exactly this: about 40 tabs, then Win+Space or Ctrl+Shift, then a multi-second UI freeze. That ticket also finds that rapid switches can chain a second reload straight after the first, which doubles the freeze. terminal#11522 and terminal#13960 describe the underlying reload-on-layout-change behavior. The tickets I read show no released fix or setting that turns this off. The only workarounds they suggest are practical ones. Keep fewer tabs open per window, or close tabs with a lot of scrollback. Avoid switching layouts several times in quick succession. Add your ~60-tab data point, your OS build and the Terminal version to terminal#20103. If you can capture the controlled tab-count measurements or a WPR trace that you offered, attach them there too. That would help confirm how the freeze scales with tab count."
+ },
+ "hit_turn_cap": false
+}

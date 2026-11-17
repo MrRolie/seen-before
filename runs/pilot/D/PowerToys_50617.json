@@ -1,0 +1,353 @@
+{
+ "shown": [
+  "PowerToys#10301",
+  "PowerToys#11780",
+  "PowerToys#12124",
+  "PowerToys#23259",
+  "PowerToys#25717",
+  "PowerToys#26147",
+  "PowerToys#26326",
+  "PowerToys#26405",
+  "PowerToys#26873",
+  "PowerToys#269",
+  "PowerToys#26935",
+  "PowerToys#27018",
+  "PowerToys#27372",
+  "PowerToys#30259",
+  "PowerToys#30509",
+  "PowerToys#30820",
+  "PowerToys#32333",
+  "PowerToys#33801",
+  "PowerToys#34285",
+  "PowerToys#35303",
+  "PowerToys#3722",
+  "PowerToys#37996",
+  "PowerToys#38066",
+  "PowerToys#39087",
+  "PowerToys#40466",
+  "PowerToys#40678",
+  "PowerToys#41750",
+  "PowerToys#45215",
+  "PowerToys#47561",
+  "PowerToys#5647",
+  "PowerToys#77"
+ ],
+ "retrieval_seconds": 4.41426537107327,
+ "tool_calls": [
+  {
+   "t": 1794877016.4587924,
+   "tool": "search",
+   "args": {
+    "pattern": "Mouse Without Borders",
+    "regex": false,
+    "also": [
+     "UAC"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.14088961901143193,
+   "returned": [
+    "PowerToys#30259",
+    "PowerToys#38066",
+    "PowerToys#30509",
+    "PowerToys#26147",
+    "PowerToys#41750",
+    "PowerToys#40466",
+    "PowerToys#39087",
+    "PowerToys#33801",
+    "PowerToys#26873",
+    "PowerToys#26405",
+    "PowerToys#25717",
+    "PowerToys#269"
+   ]
+  },
+  {
+   "t": 1794877020.6750057,
+   "tool": "similar",
+   "args": {
+    "query": "Mouse Without Borders cursor cannot move to other computer when task manager, install dialog, UAC or passkey dialog is open",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.2043065640027635,
+   "returned": [
+    "PowerToys#77",
+    "PowerToys#41750",
+    "PowerToys#5647",
+    "PowerToys#40678",
+    "PowerToys#3722",
+    "PowerToys#11780",
+    "PowerToys#12124",
+    "PowerToys#35303",
+    "PowerToys#10301",
+    "PowerToys#23259",
+    "PowerToys#27372",
+    "PowerToys#34285",
+    "PowerToys#45215",
+    "PowerToys#26935",
+    "PowerToys#27018",
+    "PowerToys#26326",
+    "PowerToys#38066",
+    "PowerToys#30509",
+    "PowerToys#30820",
+    "PowerToys#47561"
+   ]
+  },
+  {
+   "t": 1794877022.4484549,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#26326"
+   },
+   "seconds": 0.0001423459907528013,
+   "returned": [
+    "PowerToys#26326"
+   ]
+  },
+  {
+   "t": 1794877022.4566407,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#26405"
+   },
+   "seconds": 9.02470201253891e-05,
+   "returned": [
+    "PowerToys#26405"
+   ]
+  },
+  {
+   "t": 1794877022.5677242,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40466"
+   },
+   "seconds": 0.0001270869979634881,
+   "returned": [
+    "PowerToys#40466"
+   ]
+  },
+  {
+   "t": 1794877024.042652,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38066"
+   },
+   "seconds": 0.00010194702190347016,
+   "returned": [
+    "PowerToys#38066"
+   ]
+  },
+  {
+   "t": 1794877025.6511776,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45215"
+   },
+   "seconds": 0.00013786600902676582,
+   "returned": [
+    "PowerToys#45215"
+   ]
+  },
+  {
+   "t": 1794877027.3694158,
+   "tool": "search",
+   "args": {
+    "pattern": "passkey",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06846969501930289,
+   "returned": [
+    "PowerToys#37996",
+    "PowerToys#32333",
+    "PowerToys#26147"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 15416,
+  "stop_reason": "end_turn",
+  "session_id": "e745e382-9820-4c45-a7de-fa3c098cfdfc",
+  "total_cost_usd": 0.0532674,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 9295,
+   "cache_read_input_tokens": 37434,
+   "output_tokens": 1232,
+   "output_tokens_details": {
+    "thinking_tokens": 200
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9295,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 620,
+     "cache_read_input_tokens": 10116,
+     "cache_creation_input_tokens": 592,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 592
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1232,
+    "cacheReadInputTokens": 37434,
+    "cacheCreationInputTokens": 9295,
+    "webSearchRequests": 0,
+    "costUSD": 0.0532674,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 200,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9295,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've checked the archive for earlier reports of this problem, and I'm now writing up the result.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#26326\", \"PowerToys#26405\"], \"answer\": \"This has been reported before. Mouse Without Borders can't control elevated or secure windows, such as Task Manager, UAC prompts and other system dialogs. The same applies to install and passkey dialogs, which usually run elevated or on the secure desktop. In #26326, the maintainer's explanation was that Task Manager is a system window, so the app needs higher permissions to interact with it. Running PowerToys as administrator on BOTH computers fixed it for that reporter. Your ticket says PowerToys is running non-elevated, so try that first. The maintainer's other suggestion (#26405) was to enable 'Use Service' in the Mouse Without Borders settings. That setting is only offered when PowerToys runs as administrator. It also has limits: in #26405 a later commenter says a UAC prompt can still force a reconnect and throw the pointer back to the host, and in #26147 the reporter says 'Use Service' can only be enabled on one machine. If the problem remains, the workaround is to switch the keyboard and mouse to computer B manually, as you are doing now.\"}",
+  "ttft_ms": 2550,
+  "type": "result",
+  "duration_ms": 19909,
+  "uuid": "9e01b417-53e5-4970-b3ab-29ed2e480256",
+  "ttft_stream_ms": 1412,
+  "time_to_request_ms": 27,
+  "first_content_frame_ms": 1412,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1232,
+    "cacheReadInputTokens": 37434,
+    "cacheCreationInputTokens": 9295,
+    "webSearchRequests": 0,
+    "costUSD": 0.0532674,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 200,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9295,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 21.29818026200519,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-zjbfa6dj/work"
+  }
+ },
+ "wall_seconds": 21.300974973011762,
+ "qid": "PowerToys#50617",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#26326",
+   "PowerToys#26405"
+  ],
+  "answer": "This has been reported before. Mouse Without Borders can't control elevated or secure windows, such as Task Manager, UAC prompts and other system dialogs. The same applies to install and passkey dialogs, which usually run elevated or on the secure desktop. In #26326, the maintainer's explanation was that Task Manager is a system window, so the app needs higher permissions to interact with it. Running PowerToys as administrator on BOTH computers fixed it for that reporter. Your ticket says PowerToys is running non-elevated, so try that first. The maintainer's other suggestion (#26405) was to enable 'Use Service' in the Mouse Without Borders settings. That setting is only offered when PowerToys runs as administrator. It also has limits: in #26405 a later commenter says a UAC prompt can still force a reconnect and throw the pointer back to the host, and in #26147 the reporter says 'Use Service' can only be enabled on one machine. If the problem remains, the workaround is to switch the keyboard and mouse to computer B manually, as you are doing now."
+ },
+ "hit_turn_cap": false
+}

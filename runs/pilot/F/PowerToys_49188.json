@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#47779",
+  "PowerToys#22745",
+  "PowerToys#17416",
+  "PowerToys#6756",
+  "PowerToys#32183"
+ ],
+ "retrieval_seconds": 0.43703246099175885,
+ "retrieval_scores": [
+  0.03225806451612903,
+  0.030309988518943745,
+  0.029236022193768675,
+  0.027579737335834898,
+  0.02684684684684685
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3231,
+  "stop_reason": "end_turn",
+  "session_id": "7e830356-22ee-4c1b-ae66-ca195ce82d55",
+  "total_cost_usd": 0.02707,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6074,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 277,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6074,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 277,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6074,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6074
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 277,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6074,
+    "webSearchRequests": 0,
+    "costUSD": 0.02707,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6074,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#47779\", \"PowerToys#6756\", \"PowerToys#22745\"], \"answer\": \"This is a known feature request: Keyboard Manager's \\\"Remap a key\\\" currently applies globally, and app-specific remapping only works for shortcuts (modifier + key). The central tracking issue is PowerToys#6756, and the other tickets were closed as duplicates of it. There is no app-specific single-key remap yet, so add a thumbs-up and your ChatGPT Enter/Shift+Enter scenario to #6756 to help prioritize it. As a partial workaround, you can use \\\"Remap a shortcut\\\" with a target app, but it needs a modifier, so it can't remap a bare Enter key. Remapping Enter globally would affect every app, so it isn't recommended.\"}",
+  "ttft_ms": 3430,
+  "type": "result",
+  "duration_ms": 3446,
+  "uuid": "1c81e85c-8b73-444b-b380-3d0d71897e8a",
+  "ttft_stream_ms": 1352,
+  "time_to_request_ms": 214,
+  "first_content_frame_ms": 1352,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 277,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6074,
+    "webSearchRequests": 0,
+    "costUSD": 0.02707,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6074,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.347628399991663,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-f49ol0dk/work"
+  }
+ },
+ "wall_seconds": 4.786920423997799,
+ "qid": "PowerToys#49188",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#47779",
+   "PowerToys#6756",
+   "PowerToys#22745"
+  ],
+  "answer": "This is a known feature request: Keyboard Manager's \"Remap a key\" currently applies globally, and app-specific remapping only works for shortcuts (modifier + key). The central tracking issue is PowerToys#6756, and the other tickets were closed as duplicates of it. There is no app-specific single-key remap yet, so add a thumbs-up and your ChatGPT Enter/Shift+Enter scenario to #6756 to help prioritize it. As a partial workaround, you can use \"Remap a shortcut\" with a target app, but it needs a modifier, so it can't remap a bare Enter key. Remapping Enter globally would affect every app, so it isn't recommended."
+ },
+ "hit_turn_cap": false
+}

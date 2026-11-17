@@ -1,0 +1,194 @@
+{
+ "shown": [
+  "PowerToys#24412",
+  "PowerToys#44702",
+  "PowerToys#32090",
+  "PowerToys#48029",
+  "PowerToys#18673"
+ ],
+ "retrieval_seconds": 2.092126539995661,
+ "retrieval_scores": [
+  0.03177805800756621,
+  0.03047794966520434,
+  0.028958333333333336,
+  0.027777777777777776,
+  0.02623004235907462
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 5480,
+  "stop_reason": "end_turn",
+  "session_id": "b007afe6-b904-40d6-8687-b9cbcde9b0aa",
+  "total_cost_usd": 0.024814,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4530,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 669,
+   "output_tokens_details": {
+    "thinking_tokens": 345
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4530,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 669,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4530,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4530
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 669,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4530,
+    "webSearchRequests": 0,
+    "costUSD": 0.024814,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 345,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4530,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#44702\", \"PowerToys#24412\"], \"answer\": \"The stale Always on Top border showing on other virtual desktops has been reported before: PowerToys#44702 (border appears on another desktop after switching) and PowerToys#24412 (border left behind on the other desktop). Neither ticket has a fix. #44702 was closed as a duplicate of other Always on Top border issues, and #24412 has had repeat reports through 2025. The tickets don't mention the border area blocking clicks, so that part of your report is new detail. Workarounds from the tickets: changing focus (clicking another window or the desktop) usually clears the stale border, and switching desktops again sometimes does too. The behavior is described as intermittent. Please add your version (0.100.2) and the click-blocking detail to #24412 so it can be prioritized. If the blocking persists, you can turn off Always on Top's border option or unpin the window before switching desktops.\"}",
+  "ttft_ms": 3245,
+  "type": "result",
+  "duration_ms": 5676,
+  "uuid": "f1909ce0-64db-4a03-89cc-c7a3726ebefb",
+  "ttft_stream_ms": 648,
+  "time_to_request_ms": 195,
+  "first_content_frame_ms": 648,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 669,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4530,
+    "webSearchRequests": 0,
+    "costUSD": 0.024814,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 345,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4530,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.868180771009065,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-nfhy0tfg/work"
+  }
+ },
+ "wall_seconds": 13.961977026017848,
+ "qid": "PowerToys#49960",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#44702",
+   "PowerToys#24412"
+  ],
+  "answer": "The stale Always on Top border showing on other virtual desktops has been reported before: PowerToys#44702 (border appears on another desktop after switching) and PowerToys#24412 (border left behind on the other desktop). Neither ticket has a fix. #44702 was closed as a duplicate of other Always on Top border issues, and #24412 has had repeat reports through 2025. The tickets don't mention the border area blocking clicks, so that part of your report is new detail. Workarounds from the tickets: changing focus (clicking another window or the desktop) usually clears the stale border, and switching desktops again sometimes does too. The behavior is described as intermittent. Please add your version (0.100.2) and the click-blocking detail to #24412 so it can be prioritized. If the blocking persists, you can turn off Always on Top's border option or unpin the window before switching desktops."
+ },
+ "hit_turn_cap": false
+}

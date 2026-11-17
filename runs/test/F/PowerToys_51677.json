@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#28596",
+  "PowerToys#18066",
+  "PowerToys#33200",
+  "PowerToys#21313",
+  "PowerToys#31856"
+ ],
+ "retrieval_seconds": 0.4762681920256,
+ "retrieval_scores": [
+  0.03252247488101534,
+  0.03149801587301587,
+  0.0304147465437788,
+  0.03036576949620428,
+  0.027984344422700584
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3038,
+  "stop_reason": "end_turn",
+  "session_id": "c820956e-b461-48b7-9ca5-1723e5c50eb7",
+  "total_cost_usd": 0.02452,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5409,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 288,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5409,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 288,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5409,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5409
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 288,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5409,
+    "webSearchRequests": 0,
+    "costUSD": 0.02452,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5409,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#28596\", \"PowerToys#21313\", \"PowerToys#33200\"], \"answer\": \"This feature has been requested several times before (a temporary keyboard lock for cleaning or avoiding accidental keystrokes). The PowerToys team has said there are no plans to implement it: in #28596 they suggested locking or turning off the computer instead, and in #21313 they again said there are currently no plans. Suggested workarounds from those tickets are to lock the PC or put it to sleep, unplug a USB keyboard, or turn off Bluetooth or remove the batteries of a wireless keyboard. A third-party keyboard-lock or keyboard-clean tool (for example the one linked in #21313) can also do this. You can add a thumbs-up to #21313 if you want to show interest, but no native feature is currently planned.\"}",
+  "ttft_ms": 3195,
+  "type": "result",
+  "duration_ms": 3220,
+  "uuid": "06f5aa69-027c-47a6-9f58-11576b0a8234",
+  "ttft_stream_ms": 1133,
+  "time_to_request_ms": 180,
+  "first_content_frame_ms": 1133,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 288,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5409,
+    "webSearchRequests": 0,
+    "costUSD": 0.02452,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5409,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.007830300979549,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-8tx1eevj/work"
+  }
+ },
+ "wall_seconds": 4.485863286012318,
+ "qid": "PowerToys#51677",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#28596",
+   "PowerToys#21313",
+   "PowerToys#33200"
+  ],
+  "answer": "This feature has been requested several times before (a temporary keyboard lock for cleaning or avoiding accidental keystrokes). The PowerToys team has said there are no plans to implement it: in #28596 they suggested locking or turning off the computer instead, and in #21313 they again said there are currently no plans. Suggested workarounds from those tickets are to lock the PC or put it to sleep, unplug a USB keyboard, or turn off Bluetooth or remove the batteries of a wireless keyboard. A third-party keyboard-lock or keyboard-clean tool (for example the one linked in #21313) can also do this. You can add a thumbs-up to #21313 if you want to show interest, but no native feature is currently planned."
+ },
+ "hit_turn_cap": false
+}

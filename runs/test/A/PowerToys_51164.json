@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#42204",
+  "PowerToys#38732",
+  "PowerToys#44066",
+  "PowerToys#41557",
+  "PowerToys#39310"
+ ],
+ "retrieval_seconds": 0.05926179900416173,
+ "retrieval_scores": [
+  0.6755682229995728,
+  0.6147429943084717,
+  0.5865482091903687,
+  0.5855040550231934,
+  0.5764009952545166
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2592,
+  "stop_reason": "end_turn",
+  "session_id": "81d20ab0-b6e9-478f-8fd4-c96d9f0d73ff",
+  "total_cost_usd": 0.023904,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5340,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 254,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5340,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 254,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5340,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5340
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 254,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5340,
+    "webSearchRequests": 0,
+    "costUSD": 0.023904,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5340,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find a past ticket that reports this problem. None of the retrieved tickets describe Command Palette blocking the \\\"|\\\" character in non-elevated apps while it works in elevated apps. The closest ones cover different issues: input problems with third-party extensions (#38732), autocorrect (#41557), and an alias character that wasn't typing because its extension wasn't running (#42204). As a workaround in the meantime, you can turn Command Palette off, or run the affected app as administrator. Please keep this ticket open and add details: check Command Palette's activation shortcut and any hotkey settings in case \\\"|\\\" is part of a keyboard layout or key combination, and attach a PowerToys bug report ZIP.\"}",
+  "ttft_ms": 2771,
+  "type": "result",
+  "duration_ms": 2798,
+  "uuid": "a3745aea-2abc-4bd9-a499-5f0331498064",
+  "ttft_stream_ms": 739,
+  "time_to_request_ms": 205,
+  "first_content_frame_ms": 739,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 254,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5340,
+    "webSearchRequests": 0,
+    "costUSD": 0.023904,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5340,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.770223362982506,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-uzw2y26x/work"
+  }
+ },
+ "wall_seconds": 3.8323519039840903,
+ "qid": "PowerToys#51164",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find a past ticket that reports this problem. None of the retrieved tickets describe Command Palette blocking the \"|\" character in non-elevated apps while it works in elevated apps. The closest ones cover different issues: input problems with third-party extensions (#38732), autocorrect (#41557), and an alias character that wasn't typing because its extension wasn't running (#42204). As a workaround in the meantime, you can turn Command Palette off, or run the affected app as administrator. Please keep this ticket open and add details: check Command Palette's activation shortcut and any hotkey settings in case \"|\" is part of a keyboard layout or key combination, and attach a PowerToys bug report ZIP."
+ },
+ "hit_turn_cap": false
+}

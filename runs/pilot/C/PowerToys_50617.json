@@ -1,0 +1,316 @@
+{
+ "shown": [
+  "PowerToys#10301",
+  "PowerToys#11780",
+  "PowerToys#12124",
+  "PowerToys#23259",
+  "PowerToys#26144",
+  "PowerToys#26359",
+  "PowerToys#26405",
+  "PowerToys#26871",
+  "PowerToys#26935",
+  "PowerToys#27018",
+  "PowerToys#27372",
+  "PowerToys#29728",
+  "PowerToys#30509",
+  "PowerToys#30956",
+  "PowerToys#33325",
+  "PowerToys#34285",
+  "PowerToys#35303",
+  "PowerToys#36184",
+  "PowerToys#3722",
+  "PowerToys#38066",
+  "PowerToys#40678",
+  "PowerToys#41750",
+  "PowerToys#41860",
+  "PowerToys#43778",
+  "PowerToys#46450",
+  "PowerToys#47561",
+  "PowerToys#48406",
+  "PowerToys#5647",
+  "PowerToys#77"
+ ],
+ "retrieval_seconds": 4.159337076009251,
+ "tool_calls": [
+  {
+   "t": 1794877007.4750187,
+   "tool": "search",
+   "args": {
+    "query": "Mouse Without Borders cursor cannot move to other computer when UAC prompt, install dialog, secure desktop, task manager open",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.141508613014594,
+   "returned": [
+    "PowerToys#41750",
+    "PowerToys#77",
+    "PowerToys#40678",
+    "PowerToys#5647",
+    "PowerToys#11780",
+    "PowerToys#3722",
+    "PowerToys#12124",
+    "PowerToys#38066",
+    "PowerToys#35303",
+    "PowerToys#10301",
+    "PowerToys#34285",
+    "PowerToys#30509",
+    "PowerToys#26935",
+    "PowerToys#46450",
+    "PowerToys#26405",
+    "PowerToys#23259",
+    "PowerToys#26359",
+    "PowerToys#27018",
+    "PowerToys#27372",
+    "PowerToys#41860"
+   ]
+  },
+  {
+   "t": 1794877007.509043,
+   "tool": "search",
+   "args": {
+    "query": "Mouse Without Borders passkey dialog cursor stuck on other machine",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.017254287988180295,
+   "returned": [
+    "PowerToys#77",
+    "PowerToys#41750",
+    "PowerToys#40678",
+    "PowerToys#27372",
+    "PowerToys#3722",
+    "PowerToys#35303",
+    "PowerToys#5647",
+    "PowerToys#26871",
+    "PowerToys#12124",
+    "PowerToys#47561",
+    "PowerToys#11780",
+    "PowerToys#23259",
+    "PowerToys#26144",
+    "PowerToys#36184",
+    "PowerToys#33325",
+    "PowerToys#26405",
+    "PowerToys#30956",
+    "PowerToys#29728",
+    "PowerToys#43778",
+    "PowerToys#48406"
+   ]
+  },
+  {
+   "t": 1794877008.4232984,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#26405"
+   },
+   "seconds": 0.00021737400675192475,
+   "returned": [
+    "PowerToys#26405"
+   ]
+  },
+  {
+   "t": 1794877008.652308,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#30509"
+   },
+   "seconds": 0.0001880149939097464,
+   "returned": [
+    "PowerToys#30509"
+   ]
+  },
+  {
+   "t": 1794877008.8300695,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38066"
+   },
+   "seconds": 0.00016878600581549108,
+   "returned": [
+    "PowerToys#38066"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6232,
+  "stop_reason": "end_turn",
+  "session_id": "a55b3f90-0b0a-468d-8ec5-2b755df236f7",
+  "total_cost_usd": 0.0337772,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 6234,
+   "cache_read_input_tokens": 7692,
+   "output_tokens": 806,
+   "output_tokens_details": {
+    "thinking_tokens": 66
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6234,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 410,
+     "cache_read_input_tokens": 4812,
+     "cache_creation_input_tokens": 2455,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2455
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 806,
+    "cacheReadInputTokens": 7692,
+    "cacheCreationInputTokens": 6234,
+    "webSearchRequests": 0,
+    "costUSD": 0.0337772,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 66,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6234,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#26405\", \"PowerToys#30509\"], \"answer\": \"This has been reported before. Install dialogs, passkey dialogs and Task Manager all run elevated or on the secure desktop, and Mouse Without Borders can't send input to those without extra permissions. In PowerToys#26405 the maintainers advised turning on Mouse Without Borders' service mode in PowerToys Settings on the affected computer (B). The service lets it control UAC prompts and other restricted windows. Your install is per-user and non-elevated, so you may also need to run PowerToys as administrator for the service option to be available. Be aware that some users in #26405 and #30509 say this doesn't fully fix it. Even in service mode, a UAC prompt can force a reconnect and send the pointer back to the other machine. If that happens, the workaround is to switch the mouse and keyboard to computer B by hand for those dialogs. #30509 was closed as a duplicate of #26405, and there is no complete fix yet.\"}",
+  "ttft_ms": 1140,
+  "type": "result",
+  "duration_ms": 10056,
+  "uuid": "94982893-5adf-44cb-8955-6b4a5e69ce4f",
+  "ttft_stream_ms": 572,
+  "time_to_request_ms": 55,
+  "first_content_frame_ms": 572,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 806,
+    "cacheReadInputTokens": 7692,
+    "cacheCreationInputTokens": 6234,
+    "webSearchRequests": 0,
+    "costUSD": 0.0337772,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 66,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6234,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.589892926014727,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-s_nh5izt/work"
+  }
+ },
+ "wall_seconds": 11.592216540011577,
+ "qid": "PowerToys#50617",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#26405",
+   "PowerToys#30509"
+  ],
+  "answer": "This has been reported before. Install dialogs, passkey dialogs and Task Manager all run elevated or on the secure desktop, and Mouse Without Borders can't send input to those without extra permissions. In PowerToys#26405 the maintainers advised turning on Mouse Without Borders' service mode in PowerToys Settings on the affected computer (B). The service lets it control UAC prompts and other restricted windows. Your install is per-user and non-elevated, so you may also need to run PowerToys as administrator for the service option to be available. Be aware that some users in #26405 and #30509 say this doesn't fully fix it. Even in service mode, a UAC prompt can force a reconnect and send the pointer back to the other machine. If that happens, the workaround is to switch the mouse and keyboard to computer B by hand for those dialogs. #30509 was closed as a duplicate of #26405, and there is no complete fix yet."
+ },
+ "hit_turn_cap": false
+}

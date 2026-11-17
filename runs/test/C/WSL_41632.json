@@ -1,0 +1,327 @@
+{
+ "shown": [
+  "WSL#10083",
+  "WSL#10280",
+  "WSL#10482",
+  "WSL#10651",
+  "WSL#11253",
+  "WSL#11484",
+  "WSL#12042",
+  "WSL#12242",
+  "WSL#12264",
+  "WSL#12286",
+  "WSL#12535",
+  "WSL#12566",
+  "WSL#12596",
+  "WSL#12638",
+  "WSL#12730",
+  "WSL#12753",
+  "WSL#12758",
+  "WSL#13585",
+  "WSL#14536",
+  "WSL#40488",
+  "WSL#40616",
+  "WSL#40808",
+  "WSL#5815",
+  "WSL#8127",
+  "WSL#8551",
+  "WSL#8688",
+  "WSL#9365",
+  "WSL#9862"
+ ],
+ "retrieval_seconds": 4.760733892006101,
+ "tool_calls": [
+  {
+   "t": 1794882998.9849858,
+   "tool": "search",
+   "args": {
+    "query": "HCS ERROR_FILE_NOT_FOUND CreateVm after wsl --update 2.7.14",
+    "repo": "WSL"
+   },
+   "seconds": 4.721234341996023,
+   "returned": [
+    "WSL#8688",
+    "WSL#13585",
+    "WSL#11253",
+    "WSL#40488",
+    "WSL#40808",
+    "WSL#12242",
+    "WSL#40616",
+    "WSL#12638",
+    "WSL#12753",
+    "WSL#12596",
+    "WSL#10280",
+    "WSL#12042",
+    "WSL#12264",
+    "WSL#9365",
+    "WSL#12566",
+    "WSL#12730",
+    "WSL#14536",
+    "WSL#12535",
+    "WSL#5815",
+    "WSL#8127"
+   ]
+  },
+  {
+   "t": 1794882999.050178,
+   "tool": "search",
+   "args": {
+    "query": "wsl --update reboot, then Wsl/Service/CreateInstance/CreateVm/HCS/ERROR_FILE_NOT_FOUND; installer 2.7.13 works",
+    "repo": "WSL"
+   },
+   "seconds": 0.038712195004336536,
+   "returned": [
+    "WSL#8688",
+    "WSL#40616",
+    "WSL#40488",
+    "WSL#40808",
+    "WSL#8127",
+    "WSL#11253",
+    "WSL#14536",
+    "WSL#12286",
+    "WSL#9365",
+    "WSL#12638",
+    "WSL#12730",
+    "WSL#9862",
+    "WSL#12753",
+    "WSL#10280",
+    "WSL#11484",
+    "WSL#10651",
+    "WSL#10083",
+    "WSL#12758",
+    "WSL#10482",
+    "WSL#8551"
+   ]
+  },
+  {
+   "t": 1794883000.9561355,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#40808"
+   },
+   "seconds": 0.00014535500667989254,
+   "returned": [
+    "WSL#40808"
+   ]
+  },
+  {
+   "t": 1794883001.2405474,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#40616"
+   },
+   "seconds": 0.00021470399224199355,
+   "returned": [
+    "WSL#40616"
+   ]
+  },
+  {
+   "t": 1794883001.2489707,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#40488"
+   },
+   "seconds": 0.00028126101824454963,
+   "returned": [
+    "WSL#40488"
+   ]
+  },
+  {
+   "t": 1794883001.3766484,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#14536"
+   },
+   "seconds": 0.00014603498857468367,
+   "returned": [
+    "WSL#14536"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10608,
+  "stop_reason": "end_turn",
+  "session_id": "d34fba17-37c3-4da0-adce-cf67fd379b59",
+  "total_cost_usd": 0.08459610000000001,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 18219,
+   "cache_read_input_tokens": 8481,
+   "output_tokens": 1086,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 18219,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 588,
+     "cache_read_input_tokens": 5473,
+     "cache_creation_input_tokens": 13779,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 13779
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 1086,
+    "cacheReadInputTokens": 8481,
+    "cacheCreationInputTokens": 18219,
+    "webSearchRequests": 0,
+    "costUSD": 0.08459610000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18219,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"WSL#40488\", \"WSL#40616\", \"WSL#40808\"], \"answer\": \"This has been reported before. The update to a newer WSL release (2.7.3 or later) leaves C:\\\\Program Files\\\\WSL without system.vhd and tools\\\\modules.vhd. The VM can't start, so you get HCS/ERROR_FILE_NOT_FOUND. An interrupted install or a forced reboot during the update can trigger it. Your 2.7.13 reinstall already restored those files, so your machine is working again.\\n\\nThe fix for this bug only takes effect when you update from a version that already contains it. Because of that, the 2.7.14 installer may fail silently on a broken install, as it did for you.\\n\\nFixes from the tickets:\\n1. Download the installer for your current version (2.7.14 here) from the WSL releases page. Right-click the .msi and choose Repair. Alternatively, run `msiexec /fa wsl.<version>.x64.msi` from an admin prompt. This repaired the install in #40808.\\n2. Rolling back to an older release, such as 2.6.3 or 2.7.13 as you did, also works.\\n3. If an installer exits silently, disable the Windows Subsystem for Linux feature, reboot, re-enable it, reboot, and reinstall the MSI.\\n4. You can also extract system.vhd and modules.vhd from the MSI with `msiexec /a` and copy them into C:\\\\Program Files\\\\WSL. This is the method one #40616 commenter used.\\n\\nUntil 2.7.14 is repaired or 2.7.13 is installed, stay on 2.7.13 and avoid running `wsl --update`. Once you are on a fixed version, later updates should work.\"}",
+  "ttft_ms": 2696,
+  "type": "result",
+  "duration_ms": 15469,
+  "uuid": "a63700b3-895b-4ad4-a922-8137da959461",
+  "ttft_stream_ms": 1418,
+  "time_to_request_ms": 51,
+  "first_content_frame_ms": 1418,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 1086,
+    "cacheReadInputTokens": 8481,
+    "cacheCreationInputTokens": 18219,
+    "webSearchRequests": 0,
+    "costUSD": 0.08459610000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18219,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 17.064256841986207,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-m6fc170x/work"
+  }
+ },
+ "wall_seconds": 17.066459914000006,
+ "qid": "WSL#41632",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "WSL#40488",
+   "WSL#40616",
+   "WSL#40808"
+  ],
+  "answer": "This has been reported before. The update to a newer WSL release (2.7.3 or later) leaves C:\\Program Files\\WSL without system.vhd and tools\\modules.vhd. The VM can't start, so you get HCS/ERROR_FILE_NOT_FOUND. An interrupted install or a forced reboot during the update can trigger it. Your 2.7.13 reinstall already restored those files, so your machine is working again.\n\nThe fix for this bug only takes effect when you update from a version that already contains it. Because of that, the 2.7.14 installer may fail silently on a broken install, as it did for you.\n\nFixes from the tickets:\n1. Download the installer for your current version (2.7.14 here) from the WSL releases page. Right-click the .msi and choose Repair. Alternatively, run `msiexec /fa wsl.<version>.x64.msi` from an admin prompt. This repaired the install in #40808.\n2. Rolling back to an older release, such as 2.6.3 or 2.7.13 as you did, also works.\n3. If an installer exits silently, disable the Windows Subsystem for Linux feature, reboot, re-enable it, reboot, and reinstall the MSI.\n4. You can also extract system.vhd and modules.vhd from the MSI with `msiexec /a` and copy them into C:\\Program Files\\WSL. This is the method one #40616 commenter used.\n\nUntil 2.7.14 is repaired or 2.7.13 is installed, stay on 2.7.13 and avoid running `wsl --update`. Once you are on a fixed version, later updates should work."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,334 @@
+{
+ "shown": [
+  "PowerToys#10707",
+  "PowerToys#1077",
+  "PowerToys#11136",
+  "PowerToys#159",
+  "PowerToys#2580",
+  "PowerToys#29241",
+  "PowerToys#29242",
+  "PowerToys#3681",
+  "PowerToys#387",
+  "PowerToys#3935",
+  "PowerToys#47268",
+  "PowerToys#47534",
+  "PowerToys#47625",
+  "PowerToys#47664",
+  "PowerToys#47674",
+  "PowerToys#48038",
+  "PowerToys#4886",
+  "PowerToys#556",
+  "PowerToys#6769",
+  "PowerToys#7523",
+  "PowerToys#9146"
+ ],
+ "retrieval_seconds": 3.6483851060038432,
+ "tool_calls": [
+  {
+   "t": 1794880174.121619,
+   "tool": "similar",
+   "args": {
+    "query": "Grab and Move with FancyZones snap window to zone",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.6472786359954625,
+   "returned": [
+    "PowerToys#29241",
+    "PowerToys#48038",
+    "PowerToys#3681",
+    "PowerToys#556",
+    "PowerToys#47674",
+    "PowerToys#3935",
+    "PowerToys#2580",
+    "PowerToys#47625",
+    "PowerToys#29242",
+    "PowerToys#9146",
+    "PowerToys#1077",
+    "PowerToys#47664",
+    "PowerToys#4886",
+    "PowerToys#47534",
+    "PowerToys#11136",
+    "PowerToys#10707",
+    "PowerToys#7523",
+    "PowerToys#159",
+    "PowerToys#387",
+    "PowerToys#6769"
+   ]
+  },
+  {
+   "t": 1794880175.9200156,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48038"
+   },
+   "seconds": 0.000159626011736691,
+   "returned": [
+    "PowerToys#48038"
+   ]
+  },
+  {
+   "t": 1794880175.9313724,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47674"
+   },
+   "seconds": 0.0001205469889100641,
+   "returned": [
+    "PowerToys#47674"
+   ]
+  },
+  {
+   "t": 1794880176.0733669,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47625"
+   },
+   "seconds": 0.00015777500811964273,
+   "returned": [
+    "PowerToys#47625"
+   ]
+  },
+  {
+   "t": 1794880177.9978254,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47268"
+   },
+   "seconds": 0.00016866502119228244,
+   "returned": [
+    "PowerToys#47268"
+   ]
+  },
+  {
+   "t": 1794880179.8307655,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47664"
+   },
+   "seconds": 0.00014300597831606865,
+   "returned": [
+    "PowerToys#47664"
+   ]
+  },
+  {
+   "t": 1794880181.3948362,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47534"
+   },
+   "seconds": 0.00011409699800424278,
+   "returned": [
+    "PowerToys#47534"
+   ]
+  },
+  {
+   "t": 1794880182.8571367,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47268"
+   },
+   "seconds": 0.00013711699284613132,
+   "returned": [
+    "PowerToys#47268"
+   ]
+  },
+  {
+   "t": 1794880184.6697736,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47268"
+   },
+   "seconds": 0.00010563700925558805,
+   "returned": [
+    "PowerToys#47268"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 17641,
+  "stop_reason": "end_turn",
+  "session_id": "388fb03b-2ef0-48a1-ac33-576c90765c58",
+  "total_cost_usd": 0.041838499999999994,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 6509,
+   "cache_read_input_tokens": 45765,
+   "output_tokens": 1119,
+   "output_tokens_details": {
+    "thinking_tokens": 28
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6509,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 299,
+     "cache_read_input_tokens": 7686,
+     "cache_creation_input_tokens": 236,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 236
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1119,
+    "cacheReadInputTokens": 45765,
+    "cacheCreationInputTokens": 6509,
+    "webSearchRequests": 0,
+    "costUSD": 0.041838499999999994,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 28,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6509,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've found enough matches and am writing up the answer now.\n\n```json\n{\"seen_before\": true, \"matches\": [\"PowerToys#47268\", \"PowerToys#47534\", \"PowerToys#48038\"], \"answer\": \"This feature request has been filed before. The original is PowerToys#47268, and many later reports were closed as duplicates of it, including #47625, #47664, #47674 and #48038. Today, dragging a window with Grab and Move (Alt or Win) does not trigger FancyZones. Holding Shift, or having Shift activation turned off, makes no difference, so the window can't be dropped into a zone. The archive shows no fix or workaround. For now, drag the window by its title bar to snap it into a zone. To support the request, add a thumbs-up or a comment on #47268 rather than opening a new ticket.\"}\n```",
+  "ttft_ms": 2196,
+  "type": "result",
+  "duration_ms": 21693,
+  "uuid": "004b538e-4734-4c1d-ae71-a3e29e4d4e28",
+  "ttft_stream_ms": 1200,
+  "time_to_request_ms": 38,
+  "first_content_frame_ms": 1200,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1119,
+    "cacheReadInputTokens": 45765,
+    "cacheCreationInputTokens": 6509,
+    "webSearchRequests": 0,
+    "costUSD": 0.041838499999999994,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 28,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6509,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 23.067517438990762,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-21oos9ue/work"
+  }
+ },
+ "wall_seconds": 23.069823047000682,
+ "qid": "PowerToys#49871",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#47268",
+   "PowerToys#47534",
+   "PowerToys#48038"
+  ],
+  "answer": "This feature request has been filed before. The original is PowerToys#47268, and many later reports were closed as duplicates of it, including #47625, #47664, #47674 and #48038. Today, dragging a window with Grab and Move (Alt or Win) does not trigger FancyZones. Holding Shift, or having Shift activation turned off, makes no difference, so the window can't be dropped into a zone. The archive shows no fix or workaround. For now, drag the window by its title bar to snap it into a zone. To support the request, add a thumbs-up or a comment on #47268 rather than opening a new ticket."
+ },
+ "hit_turn_cap": false
+}

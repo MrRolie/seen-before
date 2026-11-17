@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#48830",
+  "PowerToys#37264",
+  "PowerToys#46083",
+  "PowerToys#29814",
+  "PowerToys#30771"
+ ],
+ "retrieval_seconds": 0.021805821015732363,
+ "retrieval_scores": [
+  0.8854309916496277,
+  0.8611218929290771,
+  0.8215629458427429,
+  0.8077991008758545,
+  0.8015221357345581
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2484,
+  "stop_reason": "end_turn",
+  "session_id": "03f0388f-7ca9-44e1-a9a9-6481bdc6b36b",
+  "total_cost_usd": 0.025698,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5856,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 227,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5856,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 227,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5856,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5856
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 227,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5856,
+    "webSearchRequests": 0,
+    "costUSD": 0.025698,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5856,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48830\", \"PowerToys#37264\", \"PowerToys#30771\"], \"answer\": \"This screen translator request (OCR on screen text, select an area, overlay with translation) has been filed several times before. The past tickets were closed as duplicates of the main tracking issue PowerToys#18014, which isn't in the tickets shown here but is the one named in those closures. Subscribe to and add your +1 or extra details there, such as the window translation and PowerToys Run ideas. No translation feature exists yet. In the meantime, the existing Text Extractor utility can OCR text from any region of the screen, and you can paste the result into a translator.\"}",
+  "ttft_ms": 2652,
+  "type": "result",
+  "duration_ms": 2678,
+  "uuid": "1e240c97-fc4e-4be7-9d0e-c1588ba7e726",
+  "ttft_stream_ms": 699,
+  "time_to_request_ms": 193,
+  "first_content_frame_ms": 699,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 227,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5856,
+    "webSearchRequests": 0,
+    "costUSD": 0.025698,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5856,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.6098726889758836,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-pqdv_gbn/work"
+  }
+ },
+ "wall_seconds": 3.6345907720096875,
+ "qid": "PowerToys#51886",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48830",
+   "PowerToys#37264",
+   "PowerToys#30771"
+  ],
+  "answer": "This screen translator request (OCR on screen text, select an area, overlay with translation) has been filed several times before. The past tickets were closed as duplicates of the main tracking issue PowerToys#18014, which isn't in the tickets shown here but is the one named in those closures. Subscribe to and add your +1 or extra details there, such as the window translation and PowerToys Run ideas. No translation feature exists yet. In the meantime, the existing Text Extractor utility can OCR text from any region of the screen, and you can paste the result into a translator."
+ },
+ "hit_turn_cap": false
+}

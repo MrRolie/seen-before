@@ -1,0 +1,194 @@
+{
+ "shown": [
+  "PowerToys#46304",
+  "PowerToys#43825",
+  "PowerToys#38453",
+  "terminal#13696",
+  "PowerToys#45325"
+ ],
+ "retrieval_seconds": 0.5426653650065418,
+ "retrieval_scores": [
+  0.03225806451612903,
+  0.027263007840342125,
+  0.026754075124025514,
+  0.02619736419157827,
+  0.025478740668614087
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2534,
+  "stop_reason": "end_turn",
+  "session_id": "230a0d40-6ddd-4a98-84bd-888f97c2a3c0",
+  "total_cost_usd": 0.023778,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5286,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 263,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5286,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 263,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5286,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5286
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 263,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5286,
+    "webSearchRequests": 0,
+    "costUSD": 0.023778,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5286,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46304\", \"terminal#13696\"], \"answer\": \"This request has been reported before. PowerToys#46304 asks for Command Palette to search in English and the user's display language at the same time, which is the same as your request. A maintainer replied that a partial mechanism exists for Pinyin, and that how far to extend it, the performance cost and the API design are still open questions. No fix is recorded in that ticket. Windows Terminal's own command palette already does this: as of Terminal 1.24 it searches in English and the display language together. terminal#13696 was the earlier request for the same thing there. For now, in PowerToys, search with terms in your display language. If you want to follow the work, subscribe to PowerToys#46304 and add your Spotlight-style example there.\"}",
+  "ttft_ms": 2715,
+  "type": "result",
+  "duration_ms": 2739,
+  "uuid": "38853f2d-b093-4188-b15a-83fd479186c9",
+  "ttft_stream_ms": 662,
+  "time_to_request_ms": 205,
+  "first_content_frame_ms": 663,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 263,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5286,
+    "webSearchRequests": 0,
+    "costUSD": 0.023778,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5286,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.585013762000017,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-2f6ize32/work"
+  }
+ },
+ "wall_seconds": 4.129381981008919,
+ "qid": "PowerToys#49843",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46304",
+   "terminal#13696"
+  ],
+  "answer": "This request has been reported before. PowerToys#46304 asks for Command Palette to search in English and the user's display language at the same time, which is the same as your request. A maintainer replied that a partial mechanism exists for Pinyin, and that how far to extend it, the performance cost and the API design are still open questions. No fix is recorded in that ticket. Windows Terminal's own command palette already does this: as of Terminal 1.24 it searches in English and the display language together. terminal#13696 was the earlier request for the same thing there. For now, in PowerToys, search with terms in your display language. If you want to follow the work, subscribe to PowerToys#46304 and add your Spotlight-style example there."
+ },
+ "hit_turn_cap": false
+}

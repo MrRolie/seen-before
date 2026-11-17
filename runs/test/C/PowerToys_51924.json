@@ -1,0 +1,362 @@
+{
+ "shown": [
+  "PowerToys#10642",
+  "PowerToys#10689",
+  "PowerToys#11080",
+  "PowerToys#13076",
+  "PowerToys#14957",
+  "PowerToys#1585",
+  "PowerToys#20683",
+  "PowerToys#21690",
+  "PowerToys#22012",
+  "PowerToys#22194",
+  "PowerToys#22201",
+  "PowerToys#22586",
+  "PowerToys#25363",
+  "PowerToys#2686",
+  "PowerToys#27177",
+  "PowerToys#29394",
+  "PowerToys#30345",
+  "PowerToys#3126",
+  "PowerToys#32282",
+  "PowerToys#32284",
+  "PowerToys#32394",
+  "PowerToys#33887",
+  "PowerToys#34362",
+  "PowerToys#34814",
+  "PowerToys#3930",
+  "PowerToys#43724",
+  "PowerToys#44771",
+  "PowerToys#4642",
+  "PowerToys#4936",
+  "PowerToys#4968",
+  "PowerToys#6158",
+  "PowerToys#625",
+  "PowerToys#684",
+  "PowerToys#6871",
+  "PowerToys#7514",
+  "PowerToys#7961",
+  "PowerToys#8993",
+  "PowerToys#9375",
+  "PowerToys#9439",
+  "PowerToys#9584",
+  "PowerToys#9743"
+ ],
+ "retrieval_seconds": 3.8089494799496606,
+ "tool_calls": [
+  {
+   "t": 1794885396.9759638,
+   "tool": "search",
+   "args": {
+    "query": "file converter change file extension / convert file types",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.794968289003009,
+   "returned": [
+    "PowerToys#6158",
+    "PowerToys#22194",
+    "PowerToys#34814",
+    "PowerToys#22201",
+    "PowerToys#9584",
+    "PowerToys#29394",
+    "PowerToys#30345",
+    "PowerToys#22012",
+    "PowerToys#20683",
+    "PowerToys#44771",
+    "PowerToys#27177",
+    "PowerToys#14957",
+    "PowerToys#25363",
+    "PowerToys#7514",
+    "PowerToys#2686",
+    "PowerToys#21690",
+    "PowerToys#32394",
+    "PowerToys#4968",
+    "PowerToys#34362",
+    "PowerToys#43724"
+   ]
+  },
+  {
+   "t": 1794885397.0024705,
+   "tool": "search",
+   "args": {
+    "query": "quickly change file extension in one place, rename extension",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012933385994983837,
+   "returned": [
+    "PowerToys#1585",
+    "PowerToys#684",
+    "PowerToys#4642",
+    "PowerToys#22586",
+    "PowerToys#32282",
+    "PowerToys#33887",
+    "PowerToys#10642",
+    "PowerToys#10689",
+    "PowerToys#4936",
+    "PowerToys#7961",
+    "PowerToys#3930",
+    "PowerToys#3126",
+    "PowerToys#6871",
+    "PowerToys#13076",
+    "PowerToys#9375",
+    "PowerToys#32284",
+    "PowerToys#9439",
+    "PowerToys#625",
+    "PowerToys#8993",
+    "PowerToys#11080"
+   ]
+  },
+  {
+   "t": 1794885398.9008162,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#22201"
+   },
+   "seconds": 0.0002773029846139252,
+   "returned": [
+    "PowerToys#22201"
+   ]
+  },
+  {
+   "t": 1794885399.0719757,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#6158"
+   },
+   "seconds": 0.00025299398112110794,
+   "returned": [
+    "PowerToys#6158"
+   ]
+  },
+  {
+   "t": 1794885400.817473,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34814"
+   },
+   "seconds": 0.00011841699597425759,
+   "returned": [
+    "PowerToys#34814"
+   ]
+  },
+  {
+   "t": 1794885402.1818066,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#9743"
+   },
+   "seconds": 0.00013801699969917536,
+   "returned": [
+    "PowerToys#9743"
+   ]
+  },
+  {
+   "t": 1794885403.8739617,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33887"
+   },
+   "seconds": 0.0001297470007557422,
+   "returned": [
+    "PowerToys#33887"
+   ]
+  },
+  {
+   "t": 1794885405.2508368,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#25363"
+   },
+   "seconds": 0.00013132698950357735,
+   "returned": [
+    "PowerToys#25363"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13993,
+  "stop_reason": "end_turn",
+  "session_id": "6f1f1f91-1e9e-469e-af8c-ffe327aea876",
+  "total_cost_usd": 0.042973,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 7711,
+   "cache_read_input_tokens": 32510,
+   "output_tokens": 885,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7711,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 331,
+     "cache_read_input_tokens": 7685,
+     "cache_creation_input_tokens": 1059,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1059
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 885,
+    "cacheReadInputTokens": 32510,
+    "cacheCreationInputTokens": 7711,
+    "webSearchRequests": 0,
+    "costUSD": 0.042973,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7711,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#22201\", \"PowerToys#25363\", \"PowerToys#34814\"], \"answer\": \"Yes, this has been requested many times, and the PowerToys team has declined it. Renaming a zip to exe or msi doesn't convert anything. Real conversions such as DOC to PDF need format-specific logic, codecs and sometimes licenses. They can also lose data, and the team doesn't plan to build a universal file converter. Most of those requests were closed as duplicates of #9743. Use the app that opened the file and its Save As or Export option (for example, Word can save as PDF). Otherwise use a dedicated converter tool. If you only want to change extensions, PowerRename can do it, including for many files at once. Set 'Apply to' to 'Filename + extension', turn on regex, and search for something like \\\\.txt$ to replace it. In File Explorer you can also rename a single file by hand. Be aware that renaming a file doesn't change its actual format.\"}",
+  "ttft_ms": 2247,
+  "type": "result",
+  "duration_ms": 17904,
+  "uuid": "cd082e74-f4ab-4ac2-b9a2-3bf7a644d458",
+  "ttft_stream_ms": 1244,
+  "time_to_request_ms": 47,
+  "first_content_frame_ms": 1244,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 885,
+    "cacheReadInputTokens": 32510,
+    "cacheCreationInputTokens": 7711,
+    "webSearchRequests": 0,
+    "costUSD": 0.042973,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7711,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 19.244433697022032,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ldde3m1h/work"
+  }
+ },
+ "wall_seconds": 19.24647458799882,
+ "qid": "PowerToys#51924",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#22201",
+   "PowerToys#25363",
+   "PowerToys#34814"
+  ],
+  "answer": "Yes, this has been requested many times, and the PowerToys team has declined it. Renaming a zip to exe or msi doesn't convert anything. Real conversions such as DOC to PDF need format-specific logic, codecs and sometimes licenses. They can also lose data, and the team doesn't plan to build a universal file converter. Most of those requests were closed as duplicates of #9743. Use the app that opened the file and its Save As or Export option (for example, Word can save as PDF). Otherwise use a dedicated converter tool. If you only want to change extensions, PowerRename can do it, including for many files at once. Set 'Apply to' to 'Filename + extension', turn on regex, and search for something like \\.txt$ to replace it. In File Explorer you can also rename a single file by hand. Be aware that renaming a file doesn't change its actual format."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,377 @@
+{
+ "shown": [
+  "PowerToys#10422",
+  "PowerToys#10509",
+  "PowerToys#11802",
+  "PowerToys#11882",
+  "PowerToys#12279",
+  "PowerToys#13035",
+  "PowerToys#15125",
+  "PowerToys#16322",
+  "PowerToys#176",
+  "PowerToys#17942",
+  "PowerToys#1894",
+  "PowerToys#19424",
+  "PowerToys#2065",
+  "PowerToys#20725",
+  "PowerToys#22588",
+  "PowerToys#2274",
+  "PowerToys#23210",
+  "PowerToys#2428",
+  "PowerToys#2823",
+  "PowerToys#310",
+  "PowerToys#3107",
+  "PowerToys#35315",
+  "PowerToys#35735",
+  "PowerToys#3663",
+  "PowerToys#38030",
+  "PowerToys#38293",
+  "PowerToys#38353",
+  "PowerToys#3885",
+  "PowerToys#41540",
+  "PowerToys#47231",
+  "PowerToys#5",
+  "PowerToys#5008",
+  "PowerToys#5871",
+  "PowerToys#6121",
+  "PowerToys#6250",
+  "PowerToys#6435",
+  "PowerToys#6491",
+  "PowerToys#6885",
+  "PowerToys#6890",
+  "PowerToys#6980",
+  "PowerToys#7526",
+  "PowerToys#7853",
+  "PowerToys#7874",
+  "PowerToys#86",
+  "PowerToys#9496",
+  "PowerToys#97",
+  "PowerToys#9986"
+ ],
+ "retrieval_seconds": 3.7984923079784494,
+ "tool_calls": [
+  {
+   "t": 1794876392.393561,
+   "tool": "search",
+   "args": {
+    "query": "dim inactive windows, highlight active window like HazeOver",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.769233244995121,
+   "returned": [
+    "PowerToys#9496",
+    "PowerToys#15125",
+    "PowerToys#13035",
+    "PowerToys#6121",
+    "PowerToys#47231",
+    "PowerToys#35735",
+    "PowerToys#7874",
+    "PowerToys#5008",
+    "PowerToys#97",
+    "PowerToys#10509",
+    "PowerToys#20725",
+    "PowerToys#5871",
+    "PowerToys#6491",
+    "PowerToys#2428",
+    "PowerToys#38030",
+    "PowerToys#12279",
+    "PowerToys#3885",
+    "PowerToys#9986",
+    "PowerToys#11882",
+    "PowerToys#3663"
+   ]
+  },
+  {
+   "t": 1794876392.4227934,
+   "tool": "search",
+   "args": {
+    "query": "feature request dim background windows focus active window multi-monitor",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.013178052991861477,
+   "returned": [
+    "PowerToys#6121",
+    "PowerToys#9496",
+    "PowerToys#6890",
+    "PowerToys#6435",
+    "PowerToys#2065",
+    "PowerToys#10509",
+    "PowerToys#22588",
+    "PowerToys#6980",
+    "PowerToys#17942",
+    "PowerToys#2823",
+    "PowerToys#11802",
+    "PowerToys#6250",
+    "PowerToys#7526",
+    "PowerToys#6885",
+    "PowerToys#2274",
+    "PowerToys#5",
+    "PowerToys#7874",
+    "PowerToys#3107",
+    "PowerToys#1894",
+    "PowerToys#15125"
+   ]
+  },
+  {
+   "t": 1794876394.3693535,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#9496"
+   },
+   "seconds": 0.00018306600395590067,
+   "returned": [
+    "PowerToys#9496"
+   ]
+  },
+  {
+   "t": 1794876394.3785777,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#15125"
+   },
+   "seconds": 0.00014673598343506455,
+   "returned": [
+    "PowerToys#15125"
+   ]
+  },
+  {
+   "t": 1794876394.4888322,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#10509"
+   },
+   "seconds": 0.00016458600293844938,
+   "returned": [
+    "PowerToys#10509"
+   ]
+  },
+  {
+   "t": 1794876396.1561117,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#13035"
+   },
+   "seconds": 0.00017195599502883852,
+   "returned": [
+    "PowerToys#13035"
+   ]
+  },
+  {
+   "t": 1794876398.0670166,
+   "tool": "search",
+   "args": {
+    "query": "Dim inactive windows",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.015414666006108746,
+   "returned": [
+    "PowerToys#9496",
+    "PowerToys#15125",
+    "PowerToys#13035",
+    "PowerToys#38353",
+    "PowerToys#10422",
+    "PowerToys#38293",
+    "PowerToys#35315",
+    "PowerToys#41540",
+    "PowerToys#6121",
+    "PowerToys#7874",
+    "PowerToys#19424",
+    "PowerToys#23210",
+    "PowerToys#310",
+    "PowerToys#10509",
+    "PowerToys#16322",
+    "PowerToys#5008",
+    "PowerToys#20725",
+    "PowerToys#176",
+    "PowerToys#7853",
+    "PowerToys#86"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11158,
+  "stop_reason": "end_turn",
+  "session_id": "381253d1-28d8-4087-8412-8b093abbf2ab",
+  "total_cost_usd": 0.047357399999999994,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 9235,
+   "cache_read_input_tokens": 21674,
+   "output_tokens": 823,
+   "output_tokens_details": {
+    "thinking_tokens": 30
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9235,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 270,
+     "cache_read_input_tokens": 9019,
+     "cache_creation_input_tokens": 1249,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1249
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 823,
+    "cacheReadInputTokens": 21674,
+    "cacheCreationInputTokens": 9235,
+    "webSearchRequests": 0,
+    "costUSD": 0.047357399999999994,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 30,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9235,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#13035\", \"PowerToys#9496\", \"PowerToys#15125\"], \"answer\": \"This feature request has been filed before. PowerToys has no built-in tool that dims inactive windows. The earlier tickets were merged into PowerToys#13035, which is the main one to follow. Add a 👍 to it and put your multi-monitor and adjustable-intensity requirements there instead of opening a new request. In that thread the maintainers suggested building it as a separate proof-of-concept app first. The design they discussed was an underlay with a configurable colour and transparency, activated by a hotkey. A community project, PowerDimmer (github.com/[user]/PowerDimmer), was shared in that thread and does something similar. Until PowerToys adds this, you could try it.\"}",
+  "ttft_ms": 2496,
+  "type": "result",
+  "duration_ms": 15051,
+  "uuid": "cc059544-491e-4b72-9ded-41dfe1d5989f",
+  "ttft_stream_ms": 1431,
+  "time_to_request_ms": 42,
+  "first_content_frame_ms": 1431,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 823,
+    "cacheReadInputTokens": 21674,
+    "cacheCreationInputTokens": 9235,
+    "webSearchRequests": 0,
+    "costUSD": 0.047357399999999994,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 30,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9235,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.405697739013704,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-6p93ggdl/work"
+  }
+ },
+ "wall_seconds": 16.407641369994963,
+ "qid": "PowerToys#49837",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#13035",
+   "PowerToys#9496",
+   "PowerToys#15125"
+  ],
+  "answer": "This feature request has been filed before. PowerToys has no built-in tool that dims inactive windows. The earlier tickets were merged into PowerToys#13035, which is the main one to follow. Add a 👍 to it and put your multi-monitor and adjustable-intensity requirements there instead of opening a new request. In that thread the maintainers suggested building it as a separate proof-of-concept app first. The design they discussed was an underlay with a configurable colour and transparency, activated by a hotkey. A community project, PowerDimmer (github.com/[user]/PowerDimmer), was shared in that thread and does something similar. Until PowerToys adds this, you could try it."
+ },
+ "hit_turn_cap": false
+}

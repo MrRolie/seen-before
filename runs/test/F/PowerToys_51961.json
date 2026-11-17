@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#15312",
+  "PowerToys#33",
+  "PowerToys#39715",
+  "PowerToys#21538",
+  "PowerToys#20247"
+ ],
+ "retrieval_seconds": 0.6504784559947439,
+ "retrieval_scores": [
+  0.024799311926605505,
+  0.02454819277108434,
+  0.023148148148148147,
+  0.022917757988475642,
+  0.01639344262295082
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3083,
+  "stop_reason": "end_turn",
+  "session_id": "ddfd8b29-976e-4523-8c59-6530e8e50cdf",
+  "total_cost_usd": 0.030342,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6832,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 301,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6832,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 301,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6832,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6832
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 301,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6832,
+    "webSearchRequests": 0,
+    "costUSD": 0.030342,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6832,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#33\", \"PowerToys#20247\", \"PowerToys#39715\"], \"answer\": \"This request has been reported before. It is tracked in PowerToys#33 (Manage right-click / customize context menu), and similar requests such as #20247 and #39715 were closed as duplicates of it. It is not implemented in PowerToys yet, so please follow #33 and add your use case there (removing unused or leftover entries, reordering, and moving useful items out of 'Show more options'). In the meantime, the past tickets suggest: Shift+F10 or the bottom menu item opens the full classic menu, and third-party tools can help, such as NirSoft ShellExView/ShellMenuView for removing old entries and NileSoft Shell for customizing the menu, including removing entries. Note that some of these tools only affect the old-style menu, not the new Windows 11 one.\"}",
+  "ttft_ms": 3272,
+  "type": "result",
+  "duration_ms": 3288,
+  "uuid": "7781d84c-69ab-44fe-baa2-adc223118193",
+  "ttft_stream_ms": 1200,
+  "time_to_request_ms": 201,
+  "first_content_frame_ms": 1200,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 301,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6832,
+    "webSearchRequests": 0,
+    "costUSD": 0.030342,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6832,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.114579198008869,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ffcyry0e/work"
+  }
+ },
+ "wall_seconds": 4.7673918069922365,
+ "qid": "PowerToys#51961",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#33",
+   "PowerToys#20247",
+   "PowerToys#39715"
+  ],
+  "answer": "This request has been reported before. It is tracked in PowerToys#33 (Manage right-click / customize context menu), and similar requests such as #20247 and #39715 were closed as duplicates of it. It is not implemented in PowerToys yet, so please follow #33 and add your use case there (removing unused or leftover entries, reordering, and moving useful items out of 'Show more options'). In the meantime, the past tickets suggest: Shift+F10 or the bottom menu item opens the full classic menu, and third-party tools can help, such as NirSoft ShellExView/ShellMenuView for removing old entries and NileSoft Shell for customizing the menu, including removing entries. Note that some of these tools only affect the old-style menu, not the new Windows 11 one."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,340 @@
+{
+ "shown": [
+  "terminal#1017",
+  "terminal#10305",
+  "terminal#11032",
+  "terminal#11381",
+  "terminal#1329",
+  "terminal#13387",
+  "terminal#13559",
+  "terminal#13900",
+  "terminal#143",
+  "terminal#16943",
+  "terminal#17172",
+  "terminal#18029",
+  "terminal#18070",
+  "terminal#18147",
+  "terminal#18318",
+  "terminal#190",
+  "terminal#19751",
+  "terminal#20004",
+  "terminal#20245",
+  "terminal#20353",
+  "terminal#2114",
+  "terminal#2753",
+  "terminal#2969",
+  "terminal#3123",
+  "terminal#3257",
+  "terminal#4824",
+  "terminal#4992",
+  "terminal#602",
+  "terminal#6283",
+  "terminal#6444",
+  "terminal#6446",
+  "terminal#6800",
+  "terminal#8358",
+  "terminal#9273",
+  "terminal#9290"
+ ],
+ "retrieval_seconds": 4.094126128969947,
+ "tool_calls": [
+  {
+   "t": 1794879480.5682657,
+   "tool": "search",
+   "args": {
+    "pattern": "font face",
+    "regex": false,
+    "also": [
+     "crash"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.04431071499129757,
+   "returned": [
+    "terminal#20245",
+    "terminal#3257",
+    "terminal#18070",
+    "terminal#11032",
+    "terminal#20004",
+    "terminal#18029",
+    "terminal#19751",
+    "terminal#10305",
+    "terminal#9290",
+    "terminal#8358",
+    "terminal#6283",
+    "terminal#4992",
+    "terminal#4824",
+    "terminal#2114",
+    "terminal#190",
+    "terminal#143"
+   ]
+  },
+  {
+   "t": 1794879484.6265016,
+   "tool": "similar",
+   "args": {
+    "query": "Settings UI crashes when selecting font name from autocomplete suggestion in font face box",
+    "repo": "terminal"
+   },
+   "seconds": 4.012164311017841,
+   "returned": [
+    "terminal#20245",
+    "terminal#18070",
+    "terminal#17172",
+    "terminal#602",
+    "terminal#20004",
+    "terminal#6444",
+    "terminal#18029",
+    "terminal#6446",
+    "terminal#16943",
+    "terminal#9273",
+    "terminal#18147",
+    "terminal#3123",
+    "terminal#6800",
+    "terminal#18318",
+    "terminal#13559",
+    "terminal#13900",
+    "terminal#1329",
+    "terminal#2969",
+    "terminal#1017",
+    "terminal#2753"
+   ]
+  },
+  {
+   "t": 1794879484.6363447,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#20004"
+   },
+   "seconds": 0.00011439700028859079,
+   "returned": [
+    "terminal#20004"
+   ]
+  },
+  {
+   "t": 1794879485.7140954,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#20245"
+   },
+   "seconds": 0.0005439049855340272,
+   "returned": [
+    "terminal#20245"
+   ]
+  },
+  {
+   "t": 1794879485.8507738,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18070"
+   },
+   "seconds": 0.00012487597996369004,
+   "returned": [
+    "terminal#18070"
+   ]
+  },
+  {
+   "t": 1794879487.039867,
+   "tool": "search",
+   "args": {
+    "pattern": "20255",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.036867924995021895,
+   "returned": [
+    "terminal#20353",
+    "terminal#20245",
+    "terminal#13387",
+    "terminal#11381"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7601,
+  "stop_reason": "end_turn",
+  "session_id": "bb6f9eed-e829-4890-a4ff-6f065e37ba3a",
+  "total_cost_usd": 0.0498397,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 9949,
+   "cache_read_input_tokens": 22077,
+   "output_tokens": 782,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9949,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 327,
+     "cache_read_input_tokens": 10807,
+     "cache_creation_input_tokens": 555,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 555
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 782,
+    "cacheReadInputTokens": 22077,
+    "cacheCreationInputTokens": 9949,
+    "webSearchRequests": 0,
+    "costUSD": 0.0498397,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9949,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#20004\", \"terminal#20245\"], \"answer\": \"This is a known crash in the Settings UI. It happens when you pick a suggestion from the Font face box with the arrow keys and press Enter. It was reported in #20004 (the same keyboard-selection crash) and #20245 (reproduced by the team). A fix is in progress in PR #20255. It stops the font face AutoSuggestBox from explicitly unfocusing after a keyboard-selected suggestion is committed. That PR was still open in the tickets I read, so I couldn't confirm which release will include it. Until it ships, select the suggestion with the mouse instead of arrow keys plus Enter. Mouse selection worked in #20004. You can also type the full font name, or edit settings.json directly. Your new ticket suggests 1.25.1912.0 doesn't have the fix yet. If you can, add your crash dump or Feedback Hub link to #20004 or #20245.\"}",
+  "ttft_ms": 1745,
+  "type": "result",
+  "duration_ms": 11528,
+  "uuid": "55c35b24-0380-427f-9fda-7fbbd8e8f6c2",
+  "ttft_stream_ms": 846,
+  "time_to_request_ms": 33,
+  "first_content_frame_ms": 846,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 782,
+    "cacheReadInputTokens": 22077,
+    "cacheCreationInputTokens": 9949,
+    "webSearchRequests": 0,
+    "costUSD": 0.0498397,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9949,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.289353875006782,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-xe1h_plj/work"
+  }
+ },
+ "wall_seconds": 13.29094917999464,
+ "qid": "terminal#20504",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#20004",
+   "terminal#20245"
+  ],
+  "answer": "This is a known crash in the Settings UI. It happens when you pick a suggestion from the Font face box with the arrow keys and press Enter. It was reported in #20004 (the same keyboard-selection crash) and #20245 (reproduced by the team). A fix is in progress in PR #20255. It stops the font face AutoSuggestBox from explicitly unfocusing after a keyboard-selected suggestion is committed. That PR was still open in the tickets I read, so I couldn't confirm which release will include it. Until it ships, select the suggestion with the mouse instead of arrow keys plus Enter. Mouse selection worked in #20004. You can also type the full font name, or edit settings.json directly. Your new ticket suggests 1.25.1912.0 doesn't have the fix yet. If you can, add your crash dump or Feedback Hub link to #20004 or #20245."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,331 @@
+{
+ "shown": [
+  "PowerToys#10094",
+  "PowerToys#2074",
+  "PowerToys#36451",
+  "PowerToys#36513",
+  "PowerToys#36599",
+  "PowerToys#36604",
+  "PowerToys#36656",
+  "PowerToys#36736",
+  "PowerToys#36881",
+  "PowerToys#37129",
+  "PowerToys#37185",
+  "PowerToys#37191",
+  "PowerToys#37260",
+  "PowerToys#37613",
+  "PowerToys#37916",
+  "PowerToys#37977",
+  "PowerToys#39032",
+  "PowerToys#39242",
+  "PowerToys#39493",
+  "PowerToys#41247",
+  "PowerToys#41448",
+  "PowerToys#41490",
+  "PowerToys#41632",
+  "PowerToys#41967",
+  "PowerToys#44653",
+  "PowerToys#45447",
+  "PowerToys#46957",
+  "PowerToys#47666",
+  "PowerToys#48057",
+  "PowerToys#48193",
+  "PowerToys#5271",
+  "PowerToys#6936"
+ ],
+ "retrieval_seconds": 3.4683945550059434,
+ "tool_calls": [
+  {
+   "t": 1794881842.5994565,
+   "tool": "search",
+   "args": {
+    "query": "Cyclic reference found while evaluating the Style property on ListView, ThemeManager OnSystemThemeChanged",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.455171306995908,
+   "returned": [
+    "PowerToys#37613",
+    "PowerToys#39242",
+    "PowerToys#48193",
+    "PowerToys#39493",
+    "PowerToys#37185",
+    "PowerToys#36881",
+    "PowerToys#39032",
+    "PowerToys#36656",
+    "PowerToys#37129",
+    "PowerToys#37191",
+    "PowerToys#41247",
+    "PowerToys#2074",
+    "PowerToys#36513",
+    "PowerToys#47666",
+    "PowerToys#45447",
+    "PowerToys#41632",
+    "PowerToys#36736",
+    "PowerToys#41967",
+    "PowerToys#46957",
+    "PowerToys#5271"
+   ]
+  },
+  {
+   "t": 1794881842.6237762,
+   "tool": "search",
+   "args": {
+    "query": "PowerToys Run crash InvalidOperationException Cyclic reference Style property system theme changed",
+    "repo": null
+   },
+   "seconds": 0.012653172016143799,
+   "returned": [
+    "PowerToys#36604",
+    "PowerToys#36451",
+    "PowerToys#36656",
+    "PowerToys#39242",
+    "PowerToys#37260",
+    "PowerToys#39493",
+    "PowerToys#36513",
+    "PowerToys#37191",
+    "PowerToys#36881",
+    "PowerToys#10094",
+    "PowerToys#37977",
+    "PowerToys#6936",
+    "PowerToys#44653",
+    "PowerToys#36599",
+    "PowerToys#48057",
+    "PowerToys#41490",
+    "PowerToys#41448",
+    "PowerToys#36736",
+    "PowerToys#45447",
+    "PowerToys#37916"
+   ]
+  },
+  {
+   "t": 1794881843.784128,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39242"
+   },
+   "seconds": 0.00011464697308838367,
+   "returned": [
+    "PowerToys#39242"
+   ]
+  },
+  {
+   "t": 1794881844.033074,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45447"
+   },
+   "seconds": 0.00012888701166957617,
+   "returned": [
+    "PowerToys#45447"
+   ]
+  },
+  {
+   "t": 1794881844.208769,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#41247"
+   },
+   "seconds": 0.00012648699339479208,
+   "returned": [
+    "PowerToys#41247"
+   ]
+  },
+  {
+   "t": 1794881845.133961,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#36451"
+   },
+   "seconds": 0.0002000550157390535,
+   "returned": [
+    "PowerToys#36451"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7414,
+  "stop_reason": "end_turn",
+  "session_id": "8f27bb7d-9608-4331-988d-66feda0ef388",
+  "total_cost_usd": 0.0735736,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 15587,
+   "cache_read_input_tokens": 23596,
+   "output_tokens": 885,
+   "output_tokens_details": {
+    "thinking_tokens": 36
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 15587,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 407,
+     "cache_read_input_tokens": 12678,
+     "cache_creation_input_tokens": 3942,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3942
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 885,
+    "cacheReadInputTokens": 23596,
+    "cacheCreationInputTokens": 15587,
+    "webSearchRequests": 0,
+    "costUSD": 0.0735736,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 36,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15587,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#36451\", \"PowerToys#45447\", \"PowerToys#39242\"], \"answer\": \"This crash has been reported before. PowerToys Run throws 'Cyclic reference found while evaluating the Style property' when Windows applies a system theme change (the ThemeManager.OnSystemThemeChanged call in your stack trace). Your trace names a ListView where the older reports name a ScrollViewer, but the exception and call path are the same. The archived tickets were closed as duplicates of PowerToys#36451, which is the one to follow. They don't give a fix or a confirmed workaround. The error is a WPF theme-refresh failure, not something you misconfigured. If the PowerToys Run error dialog appears, dismiss it and, if Run stops responding, restart PowerToys. Add your version (0.100.2.0), your Windows build (10.0.19045) and the log from %LOCALAPPDATA%\\\\Microsoft\\\\PowerToys\\\\PowerToys Run\\\\Logs to #36451 so the maintainers can see it still happens on recent builds.\"}",
+  "ttft_ms": 1368,
+  "type": "result",
+  "duration_ms": 10946,
+  "uuid": "304e4a09-4698-4eb5-b943-e467789ae707",
+  "ttft_stream_ms": 554,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 554,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 885,
+    "cacheReadInputTokens": 23596,
+    "cacheCreationInputTokens": 15587,
+    "webSearchRequests": 0,
+    "costUSD": 0.0735736,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 36,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15587,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.261264637985732,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-_4deubhi/work"
+  }
+ },
+ "wall_seconds": 12.262948874995345,
+ "qid": "PowerToys#50246",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#36451",
+   "PowerToys#45447",
+   "PowerToys#39242"
+  ],
+  "answer": "This crash has been reported before. PowerToys Run throws 'Cyclic reference found while evaluating the Style property' when Windows applies a system theme change (the ThemeManager.OnSystemThemeChanged call in your stack trace). Your trace names a ListView where the older reports name a ScrollViewer, but the exception and call path are the same. The archived tickets were closed as duplicates of PowerToys#36451, which is the one to follow. They don't give a fix or a confirmed workaround. The error is a WPF theme-refresh failure, not something you misconfigured. If the PowerToys Run error dialog appears, dismiss it and, if Run stops responding, restart PowerToys. Add your version (0.100.2.0), your Windows build (10.0.19045) and the log from %LOCALAPPDATA%\\Microsoft\\PowerToys\\PowerToys Run\\Logs to #36451 so the maintainers can see it still happens on recent builds."
+ },
+ "hit_turn_cap": false
+}

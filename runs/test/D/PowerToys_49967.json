@@ -1,0 +1,348 @@
+{
+ "shown": [
+  "PowerToys#10337",
+  "PowerToys#11567",
+  "PowerToys#1411",
+  "PowerToys#1529",
+  "PowerToys#16247",
+  "PowerToys#16347",
+  "PowerToys#20238",
+  "PowerToys#23897",
+  "PowerToys#25062",
+  "PowerToys#25610",
+  "PowerToys#26343",
+  "PowerToys#27556",
+  "PowerToys#27615",
+  "PowerToys#2771",
+  "PowerToys#2830",
+  "PowerToys#30090",
+  "PowerToys#31093",
+  "PowerToys#3244",
+  "PowerToys#33537",
+  "PowerToys#3626",
+  "PowerToys#36694",
+  "PowerToys#4031",
+  "PowerToys#40658",
+  "PowerToys#4261",
+  "PowerToys#4384",
+  "PowerToys#4536",
+  "PowerToys#4571",
+  "PowerToys#4679",
+  "PowerToys#4835",
+  "PowerToys#495",
+  "PowerToys#6795",
+  "PowerToys#8184",
+  "PowerToys#8556",
+  "PowerToys#8792",
+  "PowerToys#9285"
+ ],
+ "retrieval_seconds": 3.547959780029487,
+ "tool_calls": [
+  {
+   "t": 1794880488.8448865,
+   "tool": "similar",
+   "args": {
+    "query": "FancyZones zones show when moving window even though \"move a window\" activation disabled, only non-primary mouse button enabled",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.495180060999701,
+   "returned": [
+    "PowerToys#4536",
+    "PowerToys#3244",
+    "PowerToys#495",
+    "PowerToys#16247",
+    "PowerToys#1529",
+    "PowerToys#4384",
+    "PowerToys#4571",
+    "PowerToys#10337",
+    "PowerToys#2771",
+    "PowerToys#4261",
+    "PowerToys#11567",
+    "PowerToys#4031",
+    "PowerToys#4835",
+    "PowerToys#8184",
+    "PowerToys#6795",
+    "PowerToys#4679",
+    "PowerToys#2830",
+    "PowerToys#9285",
+    "PowerToys#8792",
+    "PowerToys#8556"
+   ]
+  },
+  {
+   "t": 1794880488.9105258,
+   "tool": "search",
+   "args": {
+    "pattern": "non-primary mouse",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.051922172016929835,
+   "returned": [
+    "PowerToys#9285",
+    "PowerToys#3244",
+    "PowerToys#40658",
+    "PowerToys#33537",
+    "PowerToys#20238",
+    "PowerToys#4384",
+    "PowerToys#1529",
+    "PowerToys#1411",
+    "PowerToys#30090",
+    "PowerToys#25062",
+    "PowerToys#23897",
+    "PowerToys#16347",
+    "PowerToys#16247",
+    "PowerToys#3626",
+    "PowerToys#36694",
+    "PowerToys#31093",
+    "PowerToys#27615",
+    "PowerToys#27556",
+    "PowerToys#26343",
+    "PowerToys#25610"
+   ]
+  },
+  {
+   "t": 1794880491.218388,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#30090"
+   },
+   "seconds": 0.00016310499631799757,
+   "returned": [
+    "PowerToys#30090"
+   ]
+  },
+  {
+   "t": 1794880491.2384622,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#36694"
+   },
+   "seconds": 0.0001680459827184677,
+   "returned": [
+    "PowerToys#36694"
+   ]
+  },
+  {
+   "t": 1794880492.749537,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#27615"
+   },
+   "seconds": 0.00015942601021379232,
+   "returned": [
+    "PowerToys#27615"
+   ]
+  },
+  {
+   "t": 1794880494.6675134,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#25062"
+   },
+   "seconds": 0.00014902601833455265,
+   "returned": [
+    "PowerToys#25062"
+   ]
+  },
+  {
+   "t": 1794880496.5829866,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#9285"
+   },
+   "seconds": 0.00021794400527141988,
+   "returned": [
+    "PowerToys#9285"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 14723,
+  "stop_reason": "end_turn",
+  "session_id": "11981308-b580-49db-a92d-48cfa69bf7b0",
+  "total_cost_usd": 0.0667463,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 12908,
+   "cache_read_input_tokens": 51503,
+   "output_tokens": 994,
+   "output_tokens_details": {
+    "thinking_tokens": 85
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12908,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 423,
+     "cache_read_input_tokens": 13579,
+     "cache_creation_input_tokens": 742,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 742
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 994,
+    "cacheReadInputTokens": 51503,
+    "cacheCreationInputTokens": 12908,
+    "webSearchRequests": 0,
+    "costUSD": 0.0667463,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 85,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12908,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've found several earlier tickets that match, and I'm sending the answer now.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#30090\", \"PowerToys#36694\", \"PowerToys#9285\"], \"answer\": \"This has been reported before, and it is how FancyZones currently behaves. It is not a new regression. When 'Hold Shift key to activate zones while dragging' is off and only 'Use a non-primary mouse button to toggle zone activation' is on, zones show as soon as you drag a window. The non-primary button then toggles them off, and it doesn't switch them on. Maintainers said in PowerToys#9285 that this is by design. The two options work independently, and turning Shift off makes zones activate on every drag. PowerToys#30090 and PowerToys#36694 report the same mismatch with the documentation, and they have no fix. To get zones that only appear on demand, turn 'Hold Shift key to activate zones while dragging' back on and use Shift as the trigger. The other way to stop zones from showing is to disable FancyZones. For a 'zones off by default, mouse button toggles them on' mode, see the feature requests PowerToys#25062 and PowerToys#16247. I don't know of any fix for that yet.\"}",
+  "ttft_ms": 2295,
+  "type": "result",
+  "duration_ms": 18351,
+  "uuid": "40fd44f5-81ce-45eb-873a-6fa557e3dd91",
+  "ttft_stream_ms": 1154,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 1154,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 994,
+    "cacheReadInputTokens": 51503,
+    "cacheCreationInputTokens": 12908,
+    "webSearchRequests": 0,
+    "costUSD": 0.0667463,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 85,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12908,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 19.615396376000717,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-bngh7g0b/work"
+  }
+ },
+ "wall_seconds": 19.61752135999268,
+ "qid": "PowerToys#49967",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#30090",
+   "PowerToys#36694",
+   "PowerToys#9285"
+  ],
+  "answer": "This has been reported before, and it is how FancyZones currently behaves. It is not a new regression. When 'Hold Shift key to activate zones while dragging' is off and only 'Use a non-primary mouse button to toggle zone activation' is on, zones show as soon as you drag a window. The non-primary button then toggles them off, and it doesn't switch them on. Maintainers said in PowerToys#9285 that this is by design. The two options work independently, and turning Shift off makes zones activate on every drag. PowerToys#30090 and PowerToys#36694 report the same mismatch with the documentation, and they have no fix. To get zones that only appear on demand, turn 'Hold Shift key to activate zones while dragging' back on and use Shift as the trigger. The other way to stop zones from showing is to disable FancyZones. For a 'zones off by default, mouse button toggles them on' mode, see the feature requests PowerToys#25062 and PowerToys#16247. I don't know of any fix for that yet."
+ },
+ "hit_turn_cap": false
+}

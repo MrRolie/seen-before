@@ -1,0 +1,384 @@
+{
+ "shown": [
+  "PowerToys#10141",
+  "PowerToys#10233",
+  "PowerToys#10933",
+  "PowerToys#11151",
+  "PowerToys#11417",
+  "PowerToys#12089",
+  "PowerToys#12191",
+  "PowerToys#15582",
+  "PowerToys#17970",
+  "PowerToys#20260",
+  "PowerToys#20936",
+  "PowerToys#21605",
+  "PowerToys#23215",
+  "PowerToys#27393",
+  "PowerToys#28263",
+  "PowerToys#28490",
+  "PowerToys#30392",
+  "PowerToys#30958",
+  "PowerToys#32200",
+  "PowerToys#32317",
+  "PowerToys#32852",
+  "PowerToys#34425",
+  "PowerToys#34919",
+  "PowerToys#34924",
+  "PowerToys#3625",
+  "PowerToys#36293",
+  "PowerToys#38267",
+  "PowerToys#38269",
+  "PowerToys#39282",
+  "PowerToys#39442",
+  "PowerToys#40285",
+  "PowerToys#40570",
+  "PowerToys#40975",
+  "PowerToys#41795",
+  "PowerToys#42983",
+  "PowerToys#43346",
+  "PowerToys#44524",
+  "PowerToys#64",
+  "PowerToys#7614",
+  "PowerToys#8086",
+  "PowerToys#9260"
+ ],
+ "retrieval_seconds": 3.7952035530179273,
+ "tool_calls": [
+  {
+   "t": 1794878873.8681262,
+   "tool": "search",
+   "args": {
+    "query": "schedule automatic shutdown or sleep after specified minutes timer",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.77536114200484,
+   "returned": [
+    "PowerToys#64",
+    "PowerToys#39282",
+    "PowerToys#34919",
+    "PowerToys#32852",
+    "PowerToys#30958",
+    "PowerToys#28490",
+    "PowerToys#30392",
+    "PowerToys#43346",
+    "PowerToys#28263",
+    "PowerToys#40285",
+    "PowerToys#27393",
+    "PowerToys#12191",
+    "PowerToys#21605",
+    "PowerToys#8086",
+    "PowerToys#32200",
+    "PowerToys#23215",
+    "PowerToys#15582",
+    "PowerToys#3625",
+    "PowerToys#12089",
+    "PowerToys#10933"
+   ]
+  },
+  {
+   "t": 1794878873.9070773,
+   "tool": "search",
+   "args": {
+    "query": "定时关机 睡眠 分钟后自动关机",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.01841380601399578,
+   "returned": [
+    "PowerToys#38267",
+    "PowerToys#10141",
+    "PowerToys#40975",
+    "PowerToys#11151",
+    "PowerToys#41795",
+    "PowerToys#10233",
+    "PowerToys#7614",
+    "PowerToys#34425",
+    "PowerToys#20936",
+    "PowerToys#11417",
+    "PowerToys#39442",
+    "PowerToys#9260",
+    "PowerToys#38269",
+    "PowerToys#20260",
+    "PowerToys#44524",
+    "PowerToys#40570",
+    "PowerToys#42983",
+    "PowerToys#32317",
+    "PowerToys#34924",
+    "PowerToys#36293"
+   ]
+  },
+  {
+   "t": 1794878875.2092898,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34919"
+   },
+   "seconds": 0.00022369300131686032,
+   "returned": [
+    "PowerToys#34919"
+   ]
+  },
+  {
+   "t": 1794878875.3048654,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39282"
+   },
+   "seconds": 0.0001751850068103522,
+   "returned": [
+    "PowerToys#39282"
+   ]
+  },
+  {
+   "t": 1794878875.486122,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#64"
+   },
+   "seconds": 0.00018060498405247927,
+   "returned": [
+    "PowerToys#64"
+   ]
+  },
+  {
+   "t": 1794878876.3259888,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#28490"
+   },
+   "seconds": 0.00021675301832146943,
+   "returned": [
+    "PowerToys#28490"
+   ]
+  },
+  {
+   "t": 1794878877.2377079,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#17970"
+   },
+   "seconds": 0.0001990429882425815,
+   "returned": [
+    "PowerToys#17970"
+   ]
+  },
+  {
+   "t": 1794878878.6309476,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#28490"
+   },
+   "seconds": 0.00013896598829887807,
+   "returned": [
+    "PowerToys#28490"
+   ]
+  },
+  {
+   "t": 1794878879.9361653,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32852"
+   },
+   "seconds": 0.00016513399896211922,
+   "returned": [
+    "PowerToys#32852"
+   ]
+  },
+  {
+   "t": 1794878880.7190602,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#28490"
+   },
+   "seconds": 0.0001292260130867362,
+   "returned": [
+    "PowerToys#28490"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12371,
+  "stop_reason": "end_turn",
+  "session_id": "5ebc5466-3d63-442b-b76d-ab4baa12b503",
+  "total_cost_usd": 0.0520858,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 9149,
+   "cache_read_input_tokens": 44878,
+   "output_tokens": 1097,
+   "output_tokens_details": {
+    "thinking_tokens": 59
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9149,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 414,
+     "cache_read_input_tokens": 9386,
+     "cache_creation_input_tokens": 796,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 796
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1097,
+    "cacheReadInputTokens": 44878,
+    "cacheCreationInputTokens": 9149,
+    "webSearchRequests": 0,
+    "costUSD": 0.0520858,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 59,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9149,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#34919\", \"PowerToys#32852\", \"PowerToys#28490\"], \"answer\": \"This feature request has been filed before. Past tickets ask for a timer or schedule to shut down or sleep a PC after a set duration. #34919 and #32852 were closed as duplicates of #28490, which is the main ticket for a scheduled shutdown/sleep utility. #39282 and #17970 were closed in favour of the same request. PowerToys has no such tool yet, so add your vote to #28490. In the meantime you can use the built-in Windows command. Press Win+R and run `shutdown /s /t N`, where N is the number of seconds. For example, `shutdown /s /t 3600` shuts down after 60 minutes, and `shutdown /a` cancels it. Running `shutdown /i` opens a graphical dialog. You can also make a shortcut to shutdown.exe, or use Task Scheduler to trigger it. Sleep has no equivalent built-in command, so it needs a script or a third-party tool.\"}",
+  "ttft_ms": 1068,
+  "type": "result",
+  "duration_ms": 16169,
+  "uuid": "be466163-fc68-4d8f-8282-93fd19fd9d1b",
+  "ttft_stream_ms": 642,
+  "time_to_request_ms": 40,
+  "first_content_frame_ms": 643,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1097,
+    "cacheReadInputTokens": 44878,
+    "cacheCreationInputTokens": 9149,
+    "webSearchRequests": 0,
+    "costUSD": 0.0520858,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 59,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9149,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 17.510488419007743,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-goq5jw5j/work"
+  }
+ },
+ "wall_seconds": 17.51253597502364,
+ "qid": "PowerToys#49535",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#34919",
+   "PowerToys#32852",
+   "PowerToys#28490"
+  ],
+  "answer": "This feature request has been filed before. Past tickets ask for a timer or schedule to shut down or sleep a PC after a set duration. #34919 and #32852 were closed as duplicates of #28490, which is the main ticket for a scheduled shutdown/sleep utility. #39282 and #17970 were closed in favour of the same request. PowerToys has no such tool yet, so add your vote to #28490. In the meantime you can use the built-in Windows command. Press Win+R and run `shutdown /s /t N`, where N is the number of seconds. For example, `shutdown /s /t 3600` shuts down after 60 minutes, and `shutdown /a` cancels it. Running `shutdown /i` opens a graphical dialog. You can also make a shortcut to shutdown.exe, or use Task Scheduler to trigger it. Sleep has no equivalent built-in command, so it needs a script or a third-party tool."
+ },
+ "hit_turn_cap": false
+}

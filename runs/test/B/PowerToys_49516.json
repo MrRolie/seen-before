@@ -1,0 +1,349 @@
+{
+ "shown": [
+  "PowerToys#26296",
+  "PowerToys#26506",
+  "PowerToys#27945",
+  "PowerToys#27995",
+  "PowerToys#28253",
+  "PowerToys#28725",
+  "PowerToys#29575",
+  "PowerToys#29700",
+  "PowerToys#29803",
+  "PowerToys#29831",
+  "PowerToys#31625",
+  "PowerToys#31953",
+  "PowerToys#35203",
+  "PowerToys#35354",
+  "PowerToys#35751",
+  "PowerToys#35904",
+  "PowerToys#36856",
+  "PowerToys#36910",
+  "PowerToys#37840",
+  "PowerToys#37966",
+  "PowerToys#38228",
+  "PowerToys#40336",
+  "PowerToys#40494",
+  "PowerToys#40924",
+  "PowerToys#41480",
+  "PowerToys#44335",
+  "PowerToys#44794",
+  "PowerToys#44829",
+  "PowerToys#45640",
+  "PowerToys#47673",
+  "PowerToys#48314",
+  "PowerToys#77"
+ ],
+ "retrieval_seconds": 0.7895224639796652,
+ "tool_calls": [
+  {
+   "t": 1794878847.1431186,
+   "tool": "search",
+   "args": {
+    "pattern": "Mouse Without Borders",
+    "regex": false,
+    "also": [
+     "grave"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.13678609498310834,
+   "returned": []
+  },
+  {
+   "t": 1794878847.938617,
+   "tool": "search",
+   "args": {
+    "pattern": "Mouse Without Borders",
+    "regex": false,
+    "also": [
+     "backslash"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.15190634000464343,
+   "returned": [
+    "PowerToys#41480"
+   ]
+  },
+  {
+   "t": 1794878848.0331056,
+   "tool": "search",
+   "args": {
+    "pattern": "Mouse Without Borders wrong characters keyboard layout remote",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.08412573899840936,
+   "returned": []
+  },
+  {
+   "t": 1794878850.0691826,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#41480"
+   },
+   "seconds": 0.00020145400776527822,
+   "returned": [
+    "PowerToys#41480"
+   ]
+  },
+  {
+   "t": 1794878850.2451444,
+   "tool": "search",
+   "args": {
+    "pattern": "Mouse Without Borders",
+    "regex": false,
+    "also": [
+     "keys"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10963744600303471,
+   "returned": [
+    "PowerToys#77",
+    "PowerToys#26296",
+    "PowerToys#29831",
+    "PowerToys#36856",
+    "PowerToys#29700",
+    "PowerToys#48314",
+    "PowerToys#38228",
+    "PowerToys#29803",
+    "PowerToys#35203",
+    "PowerToys#27945",
+    "PowerToys#44335",
+    "PowerToys#40494",
+    "PowerToys#35904",
+    "PowerToys#35751",
+    "PowerToys#35354",
+    "PowerToys#31625",
+    "PowerToys#28253",
+    "PowerToys#26506",
+    "PowerToys#40336",
+    "PowerToys#36910"
+   ]
+  },
+  {
+   "t": 1794878852.666895,
+   "tool": "search",
+   "args": {
+    "pattern": "tilde",
+    "regex": false,
+    "also": [
+     "Mouse Without Borders"
+    ],
+    "repo": null
+   },
+   "seconds": 0.1382482649933081,
+   "returned": []
+  },
+  {
+   "t": 1794878852.843114,
+   "tool": "search",
+   "args": {
+    "pattern": "Mouse Without Borders",
+    "regex": false,
+    "also": [
+     "Chinese"
+    ],
+    "repo": null
+   },
+   "seconds": 0.16861712498939596,
+   "returned": [
+    "PowerToys#47673",
+    "PowerToys#45640",
+    "PowerToys#44794",
+    "PowerToys#31953",
+    "PowerToys#29575",
+    "PowerToys#40924",
+    "PowerToys#27995",
+    "PowerToys#44829",
+    "PowerToys#37966",
+    "PowerToys#37840",
+    "PowerToys#28725"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11171,
+  "stop_reason": "end_turn",
+  "session_id": "d455d1a7-104e-44b4-be8c-dfe229160009",
+  "total_cost_usd": 0.0445314,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 8368,
+   "cache_read_input_tokens": 14734,
+   "output_tokens": 957,
+   "output_tokens_details": {
+    "thinking_tokens": 37
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8368,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 252,
+     "cache_read_input_tokens": 7625,
+     "cache_creation_input_tokens": 1920,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1920
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 957,
+    "cacheReadInputTokens": 14734,
+    "cacheCreationInputTokens": 8368,
+    "webSearchRequests": 0,
+    "costUSD": 0.0445314,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 37,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8368,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this three-key rotation (quote → grave → backslash). The closest is PowerToys#41480. It's a feature request about wrong characters when the two PCs use different keyboard layouts, for example a US keyboard on a machine set to Turkish Q. That is a different problem, because both of your PCs are set to US. Please treat this as a new bug. To help narrow it down, check the input language on both PCs. Windows can keep a separate input method per app or per window, so the remote PC may be using a different layout (such as Chinese) than the one the taskbar shows. Try making US the only installed keyboard layout on the remote PC and test again. Please also confirm whether the problem happens in both directions.\"}",
+  "ttft_ms": 2139,
+  "type": "result",
+  "duration_ms": 11853,
+  "uuid": "62587e23-816f-4e56-8988-3512accd6ff6",
+  "ttft_stream_ms": 1273,
+  "time_to_request_ms": 26,
+  "first_content_frame_ms": 1273,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 957,
+    "cacheReadInputTokens": 14734,
+    "cacheCreationInputTokens": 8368,
+    "webSearchRequests": 0,
+    "costUSD": 0.0445314,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 37,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8368,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.34787191200303,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-x35hs58e/work"
+  }
+ },
+ "wall_seconds": 13.34967452500132,
+ "qid": "PowerToys#49516",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this three-key rotation (quote → grave → backslash). The closest is PowerToys#41480. It's a feature request about wrong characters when the two PCs use different keyboard layouts, for example a US keyboard on a machine set to Turkish Q. That is a different problem, because both of your PCs are set to US. Please treat this as a new bug. To help narrow it down, check the input language on both PCs. Windows can keep a separate input method per app or per window, so the remote PC may be using a different layout (such as Chinese) than the one the taskbar shows. Try making US the only installed keyboard layout on the remote PC and test again. Please also confirm whether the problem happens in both directions."
+ },
+ "hit_turn_cap": false
+}

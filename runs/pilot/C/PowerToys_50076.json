@@ -1,0 +1,303 @@
+{
+ "shown": [
+  "PowerToys#10384",
+  "PowerToys#1084",
+  "PowerToys#11882",
+  "PowerToys#14214",
+  "PowerToys#14248",
+  "PowerToys#15453",
+  "PowerToys#1547",
+  "PowerToys#1606",
+  "PowerToys#16061",
+  "PowerToys#174",
+  "PowerToys#1950",
+  "PowerToys#2044",
+  "PowerToys#2261",
+  "PowerToys#23418",
+  "PowerToys#2428",
+  "PowerToys#2680",
+  "PowerToys#3234",
+  "PowerToys#3276",
+  "PowerToys#3663",
+  "PowerToys#3672",
+  "PowerToys#3885",
+  "PowerToys#4494",
+  "PowerToys#47496",
+  "PowerToys#487",
+  "PowerToys#497",
+  "PowerToys#5063",
+  "PowerToys#552",
+  "PowerToys#5871",
+  "PowerToys#97",
+  "PowerToys#9771"
+ ],
+ "retrieval_seconds": 3.636732887971448,
+ "tool_calls": [
+  {
+   "t": 1794876610.920253,
+   "tool": "search",
+   "args": {
+    "query": "Shortcut Guide opaque background covers whole screen, should be transparent overlay",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.6215489550086204,
+   "returned": [
+    "PowerToys#3663",
+    "PowerToys#2428",
+    "PowerToys#3234",
+    "PowerToys#487",
+    "PowerToys#5871",
+    "PowerToys#2680",
+    "PowerToys#3276",
+    "PowerToys#3672",
+    "PowerToys#3885",
+    "PowerToys#97",
+    "PowerToys#1950",
+    "PowerToys#16061",
+    "PowerToys#2044",
+    "PowerToys#1084",
+    "PowerToys#23418",
+    "PowerToys#14214",
+    "PowerToys#5063",
+    "PowerToys#1606",
+    "PowerToys#14248",
+    "PowerToys#47496"
+   ]
+  },
+  {
+   "t": 1794876612.9234698,
+   "tool": "search",
+   "args": {
+    "query": "new Shortcut Guide window covers entire screen with theme background, not overlay",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014936658990336582,
+   "returned": [
+    "PowerToys#2428",
+    "PowerToys#552",
+    "PowerToys#3663",
+    "PowerToys#5063",
+    "PowerToys#3234",
+    "PowerToys#14214",
+    "PowerToys#2261",
+    "PowerToys#9771",
+    "PowerToys#15453",
+    "PowerToys#2044",
+    "PowerToys#497",
+    "PowerToys#2680",
+    "PowerToys#11882",
+    "PowerToys#487",
+    "PowerToys#1547",
+    "PowerToys#4494",
+    "PowerToys#10384",
+    "PowerToys#174",
+    "PowerToys#5871",
+    "PowerToys#97"
+   ]
+  },
+  {
+   "t": 1794876613.0508351,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#14214"
+   },
+   "seconds": 0.0001166369765996933,
+   "returned": [
+    "PowerToys#14214"
+   ]
+  },
+  {
+   "t": 1794876614.8804247,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4494"
+   },
+   "seconds": 0.0001306369958911091,
+   "returned": [
+    "PowerToys#4494"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9235,
+  "stop_reason": "end_turn",
+  "session_id": "465d56d4-20d7-4c03-acd4-258f2ee350ba",
+  "total_cost_usd": 0.0236403,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 4118,
+   "cache_read_input_tokens": 10723,
+   "output_tokens": 608,
+   "output_tokens_details": {
+    "thinking_tokens": 34
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4118,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 203,
+     "cache_read_input_tokens": 4923,
+     "cache_creation_input_tokens": 228,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 228
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 608,
+    "cacheReadInputTokens": 10723,
+    "cacheCreationInputTokens": 4118,
+    "webSearchRequests": 0,
+    "costUSD": 0.0236403,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 34,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4118,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this problem. The nearby tickets are older Shortcut Guide requests about blur, opacity and the background blending into the desktop. Examples are PowerToys#3663, #487 and #14214. They concern the old overlay, not the opaque full-screen background in v0.101.x. Please treat this as a new report. Keep the bug report ZIP and screenshot attached. Say whether you've changed the theme or the opacity setting in Shortcut Guide settings. Also say whether updating to the latest PowerToys release changes anything.\"}",
+  "ttft_ms": 2110,
+  "type": "result",
+  "duration_ms": 12923,
+  "uuid": "67a826a6-713a-4a4b-8063-dbdb47621bf2",
+  "ttft_stream_ms": 1575,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 1575,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 608,
+    "cacheReadInputTokens": 10723,
+    "cacheCreationInputTokens": 4118,
+    "webSearchRequests": 0,
+    "costUSD": 0.0236403,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 34,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4118,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.198349187005078,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-2r7nzgk1/work"
+  }
+ },
+ "wall_seconds": 14.20043869499932,
+ "qid": "PowerToys#50076",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this problem. The nearby tickets are older Shortcut Guide requests about blur, opacity and the background blending into the desktop. Examples are PowerToys#3663, #487 and #14214. They concern the old overlay, not the opaque full-screen background in v0.101.x. Please treat this as a new report. Keep the bug report ZIP and screenshot attached. Say whether you've changed the theme or the opacity setting in Shortcut Guide settings. Also say whether updating to the latest PowerToys release changes anything."
+ },
+ "hit_turn_cap": false
+}

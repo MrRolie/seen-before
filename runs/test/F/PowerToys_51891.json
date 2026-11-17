@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#29719",
+  "PowerToys#33665",
+  "PowerToys#33020",
+  "PowerToys#32964",
+  "PowerToys#46354"
+ ],
+ "retrieval_seconds": 0.46863397301058285,
+ "retrieval_scores": [
+  0.03128054740957967,
+  0.03125,
+  0.030886196246139225,
+  0.029386529386529386,
+  0.0287391216352965
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 10105,
+  "stop_reason": "end_turn",
+  "session_id": "3567046e-9d3b-4a9a-b61a-51430b27220c",
+  "total_cost_usd": 0.019638,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4311,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 239,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4311,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 239,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4311,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4311
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 239,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4311,
+    "webSearchRequests": 0,
+    "costUSD": 0.019638,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4311,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#29719\", \"PowerToys#32964\", \"PowerToys#33665\"], \"answer\": \"This feature request has been filed several times before: a system-wide way to change the case of selected text (UPPER, lower, sentence, title) without copying it to another app. Those tickets were closed as duplicates of the main tracking issues #907 and #33109, so there is no separate fix to apply. Add a thumbs-up to those original issues to help prioritize the request. A related ticket (#46354) asks for case options inside Advanced Paste and was also closed as a duplicate of #33109. In the meantime, a third-party tool such as AnyCase can do this with keyboard shortcuts.\"}",
+  "ttft_ms": 10259,
+  "type": "result",
+  "duration_ms": 10276,
+  "uuid": "2704e1bd-f40d-445b-b844-d637569f16ad",
+  "ttft_stream_ms": 8649,
+  "time_to_request_ms": 169,
+  "first_content_frame_ms": 8649,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 239,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4311,
+    "webSearchRequests": 0,
+    "costUSD": 0.019638,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4311,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.982725696987472,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-7s1josrq/work"
+  }
+ },
+ "wall_seconds": 11.453111648006598,
+ "qid": "PowerToys#51891",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#29719",
+   "PowerToys#32964",
+   "PowerToys#33665"
+  ],
+  "answer": "This feature request has been filed several times before: a system-wide way to change the case of selected text (UPPER, lower, sentence, title) without copying it to another app. Those tickets were closed as duplicates of the main tracking issues #907 and #33109, so there is no separate fix to apply. Add a thumbs-up to those original issues to help prioritize the request. A related ticket (#46354) asks for case options inside Advanced Paste and was also closed as a duplicate of #33109. In the meantime, a third-party tool such as AnyCase can do this with keyboard shortcuts."
+ },
+ "hit_turn_cap": false
+}

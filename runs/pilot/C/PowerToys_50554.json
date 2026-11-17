@@ -1,0 +1,357 @@
+{
+ "shown": [
+  "PowerToys#1163",
+  "PowerToys#11718",
+  "PowerToys#1210",
+  "PowerToys#13202",
+  "PowerToys#1382",
+  "PowerToys#14175",
+  "PowerToys#1536",
+  "PowerToys#18209",
+  "PowerToys#18444",
+  "PowerToys#18681",
+  "PowerToys#1875",
+  "PowerToys#18889",
+  "PowerToys#194",
+  "PowerToys#1960",
+  "PowerToys#2399",
+  "PowerToys#245",
+  "PowerToys#2590",
+  "PowerToys#2595",
+  "PowerToys#27342",
+  "PowerToys#2851",
+  "PowerToys#2910",
+  "PowerToys#3281",
+  "PowerToys#3855",
+  "PowerToys#3881",
+  "PowerToys#3921",
+  "PowerToys#4000",
+  "PowerToys#4058",
+  "PowerToys#4152",
+  "PowerToys#417",
+  "PowerToys#4753",
+  "PowerToys#4996",
+  "PowerToys#5770",
+  "PowerToys#6023",
+  "PowerToys#6404",
+  "PowerToys#6577",
+  "PowerToys#6983",
+  "PowerToys#7512",
+  "PowerToys#827",
+  "PowerToys#9092",
+  "terminal#16960",
+  "terminal#2753",
+  "terminal#9675"
+ ],
+ "retrieval_seconds": 4.135332906997064,
+ "tool_calls": [
+  {
+   "t": 1794876912.341135,
+   "tool": "search",
+   "args": {
+    "query": "PowerToys settings window won't open, modules work but main settings page doesn't open",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.1015553809993435,
+   "returned": [
+    "PowerToys#3855",
+    "PowerToys#3281",
+    "PowerToys#4753",
+    "PowerToys#3881",
+    "PowerToys#13202",
+    "PowerToys#7512",
+    "PowerToys#2590",
+    "PowerToys#14175",
+    "PowerToys#1536",
+    "PowerToys#4000",
+    "PowerToys#11718",
+    "PowerToys#18444",
+    "PowerToys#4996",
+    "PowerToys#6983",
+    "PowerToys#2910",
+    "PowerToys#1960",
+    "PowerToys#827",
+    "PowerToys#417",
+    "PowerToys#18209",
+    "PowerToys#2595"
+   ]
+  },
+  {
+   "t": 1794876912.3673692,
+   "tool": "search",
+   "args": {
+    "query": "Settings doesn't open Microsoft Store install, tray icon click does nothing",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012966761976713315,
+   "returned": [
+    "PowerToys#4753",
+    "PowerToys#18889",
+    "PowerToys#1382",
+    "PowerToys#417",
+    "PowerToys#13202",
+    "PowerToys#9092",
+    "PowerToys#6577",
+    "PowerToys#245",
+    "PowerToys#4058",
+    "PowerToys#18681",
+    "PowerToys#1210",
+    "PowerToys#4152",
+    "PowerToys#2851",
+    "PowerToys#3921",
+    "PowerToys#2399",
+    "PowerToys#7512",
+    "PowerToys#194",
+    "PowerToys#5770",
+    "PowerToys#1536",
+    "PowerToys#1163"
+   ]
+  },
+  {
+   "t": 1794876914.4963794,
+   "tool": "search",
+   "args": {
+    "query": "PowerToys 0.100 settings window does not open, modules still running, Store version",
+    "repo": null
+   },
+   "seconds": 0.02035264699952677,
+   "returned": [
+    "PowerToys#2590",
+    "PowerToys#3281",
+    "PowerToys#14175",
+    "PowerToys#4753",
+    "terminal#2753",
+    "PowerToys#3855",
+    "terminal#16960",
+    "PowerToys#13202",
+    "PowerToys#7512",
+    "PowerToys#1960",
+    "PowerToys#6023",
+    "PowerToys#3881",
+    "PowerToys#4000",
+    "PowerToys#6404",
+    "PowerToys#27342",
+    "PowerToys#1875",
+    "PowerToys#6983",
+    "PowerToys#2595",
+    "terminal#9675",
+    "PowerToys#2399"
+   ]
+  },
+  {
+   "t": 1794876914.5695758,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#18889"
+   },
+   "seconds": 0.00013171599130146205,
+   "returned": [
+    "PowerToys#18889"
+   ]
+  },
+  {
+   "t": 1794876916.150645,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#3881"
+   },
+   "seconds": 0.00016591601888649166,
+   "returned": [
+    "PowerToys#3881"
+   ]
+  },
+  {
+   "t": 1794876916.288741,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#13202"
+   },
+   "seconds": 0.0001604850112926215,
+   "returned": [
+    "PowerToys#13202"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10164,
+  "stop_reason": "end_turn",
+  "session_id": "115c76c9-4afa-47de-a190-da3a5ec4bb2d",
+  "total_cost_usd": 0.0488369,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 9670,
+   "cache_read_input_tokens": 12909,
+   "output_tokens": 885,
+   "output_tokens_details": {
+    "thinking_tokens": 68
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9670,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 378,
+     "cache_read_input_tokens": 6068,
+     "cache_creation_input_tokens": 4635,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4635
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 885,
+    "cacheReadInputTokens": 12909,
+    "cacheCreationInputTokens": 9670,
+    "webSearchRequests": 0,
+    "costUSD": 0.0488369,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 68,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9670,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find a past ticket that matches this problem. The archive has many older reports of the PowerToys Settings window not opening while the modules keep working. Those had different causes: an old Windows build (#3881), a broken .NET runtime (#13202), and Settings only working after a restart as admin (#18889). Your ticket has no steps, no error text and no actual-behavior description, and I can't open the bug report ZIP, so I can't tell which of these applies, if any. Please try the following. 1) Fully exit PowerToys from the tray, then start it again and open Settings. 2) Try right-clicking the tray icon and choosing 'Restart as administrator'. 3) Update to the latest PowerToys from the Store, or repair or reinstall it. 4) Check Event Viewer > Windows Logs > Application for PowerToys.Settings.exe errors. 5) Reply with what happens when you click Settings (nothing, a blank window, or an error), your Windows version, and a fresh bug report. With those details we can look for a closer match.\"}",
+  "ttft_ms": 2479,
+  "type": "result",
+  "duration_ms": 14347,
+  "uuid": "6e30a00d-850a-4f29-8ea7-6ac52471233e",
+  "ttft_stream_ms": 1250,
+  "time_to_request_ms": 27,
+  "first_content_frame_ms": 1251,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 885,
+    "cacheReadInputTokens": 12909,
+    "cacheCreationInputTokens": 9670,
+    "webSearchRequests": 0,
+    "costUSD": 0.0488369,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 68,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9670,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.756340518011712,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-vnqpdrgf/work"
+  }
+ },
+ "wall_seconds": 15.758248952013673,
+ "qid": "PowerToys#50554",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find a past ticket that matches this problem. The archive has many older reports of the PowerToys Settings window not opening while the modules keep working. Those had different causes: an old Windows build (#3881), a broken .NET runtime (#13202), and Settings only working after a restart as admin (#18889). Your ticket has no steps, no error text and no actual-behavior description, and I can't open the bug report ZIP, so I can't tell which of these applies, if any. Please try the following. 1) Fully exit PowerToys from the tray, then start it again and open Settings. 2) Try right-clicking the tray icon and choosing 'Restart as administrator'. 3) Update to the latest PowerToys from the Store, or repair or reinstall it. 4) Check Event Viewer > Windows Logs > Application for PowerToys.Settings.exe errors. 5) Reply with what happens when you click Settings (nothing, a blank window, or an error), your Windows version, and a fresh bug report. With those details we can look for a closer match."
+ },
+ "hit_turn_cap": false
+}

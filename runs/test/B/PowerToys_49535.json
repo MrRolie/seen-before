@@ -1,0 +1,343 @@
+{
+ "shown": [
+  "PowerToys#11071",
+  "PowerToys#12063",
+  "PowerToys#12191",
+  "PowerToys#12293",
+  "PowerToys#13094",
+  "PowerToys#13256",
+  "PowerToys#13683",
+  "PowerToys#15194",
+  "PowerToys#15582",
+  "PowerToys#17782",
+  "PowerToys#19193",
+  "PowerToys#2408",
+  "PowerToys#27531",
+  "PowerToys#2820",
+  "PowerToys#28490",
+  "PowerToys#29403",
+  "PowerToys#32200",
+  "PowerToys#32467",
+  "PowerToys#32852",
+  "PowerToys#34919",
+  "PowerToys#36239",
+  "PowerToys#38462",
+  "PowerToys#39046",
+  "PowerToys#39282",
+  "PowerToys#43346",
+  "PowerToys#44286",
+  "PowerToys#48965",
+  "PowerToys#8086",
+  "PowerToys#8327"
+ ],
+ "retrieval_seconds": 0.19555210001999512,
+ "tool_calls": [
+  {
+   "t": 1794878859.1699376,
+   "tool": "search",
+   "args": {
+    "pattern": "shutdown",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04784649598877877,
+   "returned": [
+    "PowerToys#17782",
+    "PowerToys#36239",
+    "PowerToys#32852",
+    "PowerToys#13683",
+    "PowerToys#38462",
+    "PowerToys#8327",
+    "PowerToys#2820",
+    "PowerToys#32200",
+    "PowerToys#11071",
+    "PowerToys#2408",
+    "PowerToys#29403",
+    "PowerToys#39282",
+    "PowerToys#39046",
+    "PowerToys#12191",
+    "PowerToys#43346",
+    "PowerToys#15194",
+    "PowerToys#13256",
+    "PowerToys#13094",
+    "PowerToys#12293",
+    "PowerToys#12063"
+   ]
+  },
+  {
+   "t": 1794878859.5725615,
+   "tool": "search",
+   "args": {
+    "pattern": "sleep timer",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07759579800767824,
+   "returned": [
+    "PowerToys#48965",
+    "PowerToys#44286",
+    "PowerToys#34919",
+    "PowerToys#32467",
+    "PowerToys#27531",
+    "PowerToys#19193",
+    "PowerToys#15582",
+    "PowerToys#8086"
+   ]
+  },
+  {
+   "t": 1794878859.77346,
+   "tool": "search",
+   "args": {
+    "pattern": "自动关机",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.0692029649799224,
+   "returned": []
+  },
+  {
+   "t": 1794878860.8198025,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34919"
+   },
+   "seconds": 0.00020590302301570773,
+   "returned": [
+    "PowerToys#34919"
+   ]
+  },
+  {
+   "t": 1794878861.102874,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32852"
+   },
+   "seconds": 0.00019250399782322347,
+   "returned": [
+    "PowerToys#32852"
+   ]
+  },
+  {
+   "t": 1794878861.2760365,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#15582"
+   },
+   "seconds": 0.00018948400975205004,
+   "returned": [
+    "PowerToys#15582"
+   ]
+  },
+  {
+   "t": 1794878862.251998,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#28490"
+   },
+   "seconds": 0.00017221400048583746,
+   "returned": [
+    "PowerToys#28490"
+   ]
+  },
+  {
+   "t": 1794878863.201423,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#12191"
+   },
+   "seconds": 0.000146736012538895,
+   "returned": [
+    "PowerToys#12191"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9262,
+  "stop_reason": "end_turn",
+  "session_id": "73041549-5761-4279-9fa1-f7dc7cb6f460",
+  "total_cost_usd": 0.055097,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 10158,
+   "cache_read_input_tokens": 41310,
+   "output_tokens": 1031,
+   "output_tokens_details": {
+    "thinking_tokens": 79
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10158,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 407,
+     "cache_read_input_tokens": 11210,
+     "cache_creation_input_tokens": 125,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 125
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1031,
+    "cacheReadInputTokens": 41310,
+    "cacheCreationInputTokens": 10158,
+    "webSearchRequests": 0,
+    "costUSD": 0.055097,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 79,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10158,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I'm wrapping up. I found earlier requests for the same feature, and the answer below is based on them.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#34919\", \"PowerToys#32852\", \"PowerToys#28490\"], \"answer\": \"This feature has been requested before. PowerToys has no timer that shuts down or sleeps the PC after a set number of minutes. Tickets #34919 (sleep after N minutes) and #32852 (scheduled shutdown) were both closed as duplicates of #28490, which is the main request for a shutdown scheduling utility. Add your vote or your use case to #28490. In the meantime, you can use the built-in Windows command `shutdown /s /t <seconds>`. For example, `shutdown /s /t 3600` shuts down after 60 minutes, and `shutdown /a` cancels it. You can put the command in a shortcut (.lnk) or a Task Scheduler task. For sleep, use Task Scheduler or a third-party tool. Related requests are #12191, which asks for a sleep or shutdown action when an Awake period ends, and #15582, which was closed as a duplicate of #12191.\"}",
+  "ttft_ms": 923,
+  "type": "result",
+  "duration_ms": 9434,
+  "uuid": "380643a1-9a9a-4128-84b2-f2a48cda35b4",
+  "ttft_stream_ms": 572,
+  "time_to_request_ms": 55,
+  "first_content_frame_ms": 573,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1031,
+    "cacheReadInputTokens": 41310,
+    "cacheCreationInputTokens": 10158,
+    "webSearchRequests": 0,
+    "costUSD": 0.055097,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 79,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10158,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.810759628016967,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-o6i2w0ii/work"
+  }
+ },
+ "wall_seconds": 10.812406624987489,
+ "qid": "PowerToys#49535",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#34919",
+   "PowerToys#32852",
+   "PowerToys#28490"
+  ],
+  "answer": "This feature has been requested before. PowerToys has no timer that shuts down or sleeps the PC after a set number of minutes. Tickets #34919 (sleep after N minutes) and #32852 (scheduled shutdown) were both closed as duplicates of #28490, which is the main request for a shutdown scheduling utility. Add your vote or your use case to #28490. In the meantime, you can use the built-in Windows command `shutdown /s /t <seconds>`. For example, `shutdown /s /t 3600` shuts down after 60 minutes, and `shutdown /a` cancels it. You can put the command in a shortcut (.lnk) or a Task Scheduler task. For sleep, use Task Scheduler or a third-party tool. Related requests are #12191, which asks for a sleep or shutdown action when an Awake period ends, and #15582, which was closed as a duplicate of #12191."
+ },
+ "hit_turn_cap": false
+}

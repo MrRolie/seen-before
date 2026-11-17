@@ -1,0 +1,371 @@
+{
+ "shown": [
+  "terminal#10037",
+  "terminal#10600",
+  "terminal#10627",
+  "terminal#10909",
+  "terminal#11254",
+  "terminal#13285",
+  "terminal#13544",
+  "terminal#1526",
+  "terminal#1668",
+  "terminal#17133",
+  "terminal#18534",
+  "terminal#18726",
+  "terminal#19019",
+  "terminal#19168",
+  "terminal#1984",
+  "terminal#20151",
+  "terminal#2411",
+  "terminal#2723",
+  "terminal#2805",
+  "terminal#2991",
+  "terminal#4566",
+  "terminal#5187",
+  "terminal#5188",
+  "terminal#5732",
+  "terminal#6083",
+  "terminal#683",
+  "terminal#6900",
+  "terminal#7057",
+  "terminal#8084",
+  "terminal#858",
+  "terminal#8721",
+  "terminal#8758",
+  "terminal#8767",
+  "terminal#8914",
+  "terminal#8987",
+  "terminal#8991",
+  "terminal#9167",
+  "terminal#9298",
+  "terminal#9321",
+  "terminal#9362",
+  "terminal#947"
+ ],
+ "retrieval_seconds": 3.617535966972355,
+ "tool_calls": [
+  {
+   "t": 1794882340.4721544,
+   "tool": "search",
+   "args": {
+    "query": "settings.json actions and keybindings order changes on save, reorders entries",
+    "repo": "terminal"
+   },
+   "seconds": 3.5898977699980605,
+   "returned": [
+    "terminal#8084",
+    "terminal#13285",
+    "terminal#683",
+    "terminal#8758",
+    "terminal#18534",
+    "terminal#9362",
+    "terminal#2991",
+    "terminal#6900",
+    "terminal#9298",
+    "terminal#18726",
+    "terminal#19168",
+    "terminal#858",
+    "terminal#1984",
+    "terminal#17133",
+    "terminal#10627",
+    "terminal#8721",
+    "terminal#8914",
+    "terminal#6083",
+    "terminal#10909",
+    "terminal#947"
+   ]
+  },
+  {
+   "t": 1794882340.4970338,
+   "tool": "search",
+   "args": {
+    "query": "adding keybinding in settings UI rewrites settings.json, moves actions array, diff noisy",
+    "repo": "terminal"
+   },
+   "seconds": 0.01231616799486801,
+   "returned": [
+    "terminal#683",
+    "terminal#18726",
+    "terminal#6900",
+    "terminal#9362",
+    "terminal#19019",
+    "terminal#8767",
+    "terminal#13544",
+    "terminal#11254",
+    "terminal#17133",
+    "terminal#9321",
+    "terminal#1984",
+    "terminal#8987",
+    "terminal#1668",
+    "terminal#8084",
+    "terminal#2991",
+    "terminal#5187",
+    "terminal#20151",
+    "terminal#8991",
+    "terminal#10600",
+    "terminal#5188"
+   ]
+  },
+  {
+   "t": 1794882342.1101813,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#13285"
+   },
+   "seconds": 0.00012887598131783307,
+   "returned": [
+    "terminal#13285"
+   ]
+  },
+  {
+   "t": 1794882342.2707992,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18726"
+   },
+   "seconds": 0.00012275698827579618,
+   "returned": [
+    "terminal#18726"
+   ]
+  },
+  {
+   "t": 1794882344.3027275,
+   "tool": "search",
+   "args": {
+    "query": "settings.json keys reordered alphabetically after Settings UI save, hard to diff",
+    "repo": "terminal"
+   },
+   "seconds": 0.014859702001558617,
+   "returned": [
+    "terminal#8084",
+    "terminal#8758",
+    "terminal#18534",
+    "terminal#8991",
+    "terminal#7057",
+    "terminal#19168",
+    "terminal#9167",
+    "terminal#2805",
+    "terminal#1668",
+    "terminal#1526",
+    "terminal#9298",
+    "terminal#10037",
+    "terminal#2723",
+    "terminal#4566",
+    "terminal#2411",
+    "terminal#5732",
+    "terminal#947",
+    "terminal#8914",
+    "terminal#858",
+    "terminal#9362"
+   ]
+  },
+  {
+   "t": 1794882345.6670175,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#8991"
+   },
+   "seconds": 0.00011091699707321823,
+   "returned": [
+    "terminal#8991"
+   ]
+  },
+  {
+   "t": 1794882345.8282301,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18534"
+   },
+   "seconds": 9.977701120078564e-05,
+   "returned": [
+    "terminal#18534"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12094,
+  "stop_reason": "end_turn",
+  "session_id": "1d3e6dcf-5764-47a2-a48a-6b1cbc40e09b",
+  "total_cost_usd": 0.0525493,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 10166,
+   "cache_read_input_tokens": 20453,
+   "output_tokens": 982,
+   "output_tokens_details": {
+    "thinking_tokens": 62
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10166,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 428,
+     "cache_read_input_tokens": 7464,
+     "cache_creation_input_tokens": 3735,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3735
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 982,
+    "cacheReadInputTokens": 20453,
+    "cacheCreationInputTokens": 10166,
+    "webSearchRequests": 0,
+    "costUSD": 0.0525493,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 62,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10166,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#13285\", \"terminal#8991\", \"terminal#18534\"], \"answer\": \"Yes, this has been reported before. Windows Terminal rewrites settings.json whenever it saves from the Settings UI. It doesn't edit the file in place, so the order of entries in `actions` and `keybindings` isn't preserved. In terminal#13285 a maintainer confirmed it as a real bug. The cause is that the key chords are held in a map with no guaranteed order, and the fix is tied to the settings-serialization rework in #12388. terminal#8991 says the same about the Settings UI reordering and reformatting the file. Fixing that is hard because the app would have to write back only the settings that changed, in their original places. terminal#18534 was closed as a duplicate of #18110, which tracks the wider problem of Terminal reordering the file and deleting comments. No fix is mentioned in any of these tickets. Until one ships, you have two options. You can edit settings.json by hand and avoid saving from the Settings UI. Or you can compare the two files after sorting or normalizing them. You can also follow #18110 and #12388 for progress.\"}",
+  "ttft_ms": 2201,
+  "type": "result",
+  "duration_ms": 15785,
+  "uuid": "a14f9ab2-88a8-4595-a63a-c9d0f08d6f9b",
+  "ttft_stream_ms": 1127,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 1127,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 982,
+    "cacheReadInputTokens": 20453,
+    "cacheCreationInputTokens": 10166,
+    "webSearchRequests": 0,
+    "costUSD": 0.0525493,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 62,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10166,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.933365161996335,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-pl_pgv8l/work"
+  }
+ },
+ "wall_seconds": 16.93518913400476,
+ "qid": "terminal#20661",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#13285",
+   "terminal#8991",
+   "terminal#18534"
+  ],
+  "answer": "Yes, this has been reported before. Windows Terminal rewrites settings.json whenever it saves from the Settings UI. It doesn't edit the file in place, so the order of entries in `actions` and `keybindings` isn't preserved. In terminal#13285 a maintainer confirmed it as a real bug. The cause is that the key chords are held in a map with no guaranteed order, and the fix is tied to the settings-serialization rework in #12388. terminal#8991 says the same about the Settings UI reordering and reformatting the file. Fixing that is hard because the app would have to write back only the settings that changed, in their original places. terminal#18534 was closed as a duplicate of #18110, which tracks the wider problem of Terminal reordering the file and deleting comments. No fix is mentioned in any of these tickets. Until one ships, you have two options. You can edit settings.json by hand and avoid saving from the Settings UI. Or you can compare the two files after sorting or normalizing them. You can also follow #18110 and #12388 for progress."
+ },
+ "hit_turn_cap": false
+}

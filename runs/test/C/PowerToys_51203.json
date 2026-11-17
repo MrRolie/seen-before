@@ -1,0 +1,289 @@
+{
+ "shown": [
+  "PowerToys#31226",
+  "PowerToys#31313",
+  "PowerToys#32726",
+  "PowerToys#36353",
+  "PowerToys#42789",
+  "PowerToys#42817",
+  "PowerToys#43125",
+  "PowerToys#43275",
+  "PowerToys#43678",
+  "PowerToys#43873",
+  "PowerToys#43911",
+  "PowerToys#44148",
+  "PowerToys#44272",
+  "PowerToys#44663",
+  "PowerToys#45020",
+  "PowerToys#45058",
+  "PowerToys#45440",
+  "PowerToys#45907",
+  "PowerToys#45908",
+  "PowerToys#47099",
+  "PowerToys#47723"
+ ],
+ "retrieval_seconds": 3.7064539899874944,
+ "tool_calls": [
+  {
+   "t": 1794884068.3472612,
+   "tool": "search",
+   "args": {
+    "query": "COMException 0x80263001 desktop composition is disabled DwmExtendFrameIntoClientArea WindowChromeWorker",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.7056235519994516,
+   "returned": [
+    "PowerToys#43678",
+    "PowerToys#43125",
+    "PowerToys#45440",
+    "PowerToys#32726",
+    "PowerToys#44663",
+    "PowerToys#45020",
+    "PowerToys#43911",
+    "PowerToys#45907",
+    "PowerToys#45908",
+    "PowerToys#31313",
+    "PowerToys#36353",
+    "PowerToys#43873",
+    "PowerToys#47099",
+    "PowerToys#44148",
+    "PowerToys#43275",
+    "PowerToys#45058",
+    "PowerToys#42817",
+    "PowerToys#44272",
+    "PowerToys#47723",
+    "PowerToys#42789"
+   ]
+  },
+  {
+   "t": 1794884070.2931974,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43678"
+   },
+   "seconds": 0.0001436260063201189,
+   "returned": [
+    "PowerToys#43678"
+   ]
+  },
+  {
+   "t": 1794884070.3059177,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45058"
+   },
+   "seconds": 0.00012204700033180416,
+   "returned": [
+    "PowerToys#45058"
+   ]
+  },
+  {
+   "t": 1794884070.4318998,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#31313"
+   },
+   "seconds": 0.00012472699745558202,
+   "returned": [
+    "PowerToys#31313"
+   ]
+  },
+  {
+   "t": 1794884072.4376025,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#31226"
+   },
+   "seconds": 0.00044003798393532634,
+   "returned": [
+    "PowerToys#31226"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10103,
+  "stop_reason": "end_turn",
+  "session_id": "016c617f-ec77-4f2b-b528-57a3fae08270",
+  "total_cost_usd": 0.0579577,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 12031,
+   "cache_read_input_tokens": 17777,
+   "output_tokens": 804,
+   "output_tokens_details": {
+    "thinking_tokens": 42
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12031,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 389,
+     "cache_read_input_tokens": 9457,
+     "cache_creation_input_tokens": 3607,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3607
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 804,
+    "cacheReadInputTokens": 17777,
+    "cacheCreationInputTokens": 12031,
+    "webSearchRequests": 0,
+    "costUSD": 0.0579577,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 42,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12031,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#31226\", \"PowerToys#45058\", \"PowerToys#31313\"], \"answer\": \"This problem has been reported before. PowerToys Run throws a COMException 0x80263001 (\\\"Desktop composition is disabled\\\") when Windows DWM briefly drops and restores desktop composition. Screen blackouts, GPU or power-state changes, and driver switches can all cause that. Your unplug-the-charger blackout fits this pattern. The stack trace (WindowChromeWorker._HandleDwmCompositionChanged → DwmExtendFrameIntoClientArea) is the same as in those tickets. The root cause varies by machine. It is often a graphics driver issue or memory exhaustion, and it lies outside PowerToys. The tracking ticket, #31226, says the fix is to update PowerToys to 0.96 or newer, because newer PowerToys Run handles this more gracefully. You are on 0.83.0.0, so update PowerToys. Also update your GPU drivers and Armoury Crate or ASUS power software. If PowerToys Run stops working after the crash, restart PowerToys.\"}",
+  "ttft_ms": 2036,
+  "type": "result",
+  "duration_ms": 13879,
+  "uuid": "a09219cc-8109-422e-9c03-62209ed7b455",
+  "ttft_stream_ms": 1349,
+  "time_to_request_ms": 44,
+  "first_content_frame_ms": 1349,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 804,
+    "cacheReadInputTokens": 17777,
+    "cacheCreationInputTokens": 12031,
+    "webSearchRequests": 0,
+    "costUSD": 0.0579577,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 42,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12031,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.3283609909995,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-0oew6spz/work"
+  }
+ },
+ "wall_seconds": 15.33045309400768,
+ "qid": "PowerToys#51203",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#31226",
+   "PowerToys#45058",
+   "PowerToys#31313"
+  ],
+  "answer": "This problem has been reported before. PowerToys Run throws a COMException 0x80263001 (\"Desktop composition is disabled\") when Windows DWM briefly drops and restores desktop composition. Screen blackouts, GPU or power-state changes, and driver switches can all cause that. Your unplug-the-charger blackout fits this pattern. The stack trace (WindowChromeWorker._HandleDwmCompositionChanged → DwmExtendFrameIntoClientArea) is the same as in those tickets. The root cause varies by machine. It is often a graphics driver issue or memory exhaustion, and it lies outside PowerToys. The tracking ticket, #31226, says the fix is to update PowerToys to 0.96 or newer, because newer PowerToys Run handles this more gracefully. You are on 0.83.0.0, so update PowerToys. Also update your GPU drivers and Armoury Crate or ASUS power software. If PowerToys Run stops working after the crash, restart PowerToys."
+ },
+ "hit_turn_cap": false
+}

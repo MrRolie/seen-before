@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#47250",
+  "PowerToys#36468",
+  "PowerToys#32650",
+  "PowerToys#34299",
+  "PowerToys#42197"
+ ],
+ "retrieval_seconds": 0.7447585320041981,
+ "retrieval_scores": [
+  0.029551337359792925,
+  0.027479766610201392,
+  0.025974025974025976,
+  0.025794938351719664,
+  0.024799311926605505
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 4700,
+  "stop_reason": "end_turn",
+  "session_id": "0e677a9b-f611-490e-af6b-b3f20d4aea61",
+  "total_cost_usd": 0.060058,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 13586,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 571,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13586,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 571,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 13586,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 13586
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 571,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 13586,
+    "webSearchRequests": 0,
+    "costUSD": 0.060058,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13586,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#36468\", \"PowerToys#34299\", \"PowerToys#32650\"], \"answer\": \"This error (0x81f40001, 'PowerToys is already installed on this system for all users') has been reported before. The installer's detection step sees leftover traces of an earlier install (registry entries or Windows Installer records for a per-user or per-machine copy), even though PowerToys no longer appears in Installed apps. Things that worked for others: (1) Run the Microsoft 'Program Install and Uninstall troubleshooter' and let it remove any PowerToys entries, then restart and reinstall. (2) Manually purge the leftover PowerToys registry keys and files, then reinstall. (3) Download the installer for the version that was previously installed, extract its embedded MSI (for example with dark.exe from WiX3: `dark.exe <installer.exe> -x .`, the MSI is in the AttachedContainer folder) and uninstall using that MSI, which clears the stale record. (4) Try the other installer flavor: if the machine-wide setup (PowerToysSetup) fails, try PowerToysUserSetup, and vice versa. Also check whether a copy was installed under another user account or in C:\\\\Program Files\\\\PowerToys. If it still fails, attach the full bootstrapper log (%TEMP%\\\\powertoys-bootstrapper-msi-*.log) to the ticket; it shows which version the installer detects. The Bug Report ZIP is generated from PowerToys Settings > General > 'Report a bug', which you can't use if PowerToys isn't installed, so the log file is the useful thing to provide here. Please also remove your email address from the ticket, as it is public.\"}",
+  "ttft_ms": 4871,
+  "type": "result",
+  "duration_ms": 4887,
+  "uuid": "b92fb966-ccad-41a1-b1f3-ac59800c3c6e",
+  "ttft_stream_ms": 927,
+  "time_to_request_ms": 188,
+  "first_content_frame_ms": 927,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 571,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 13586,
+    "webSearchRequests": 0,
+    "costUSD": 0.060058,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13586,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 5.65477576199919,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-dp2lte8s/work"
+  }
+ },
+ "wall_seconds": 6.40126591999433,
+ "qid": "PowerToys#50221",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#36468",
+   "PowerToys#34299",
+   "PowerToys#32650"
+  ],
+  "answer": "This error (0x81f40001, 'PowerToys is already installed on this system for all users') has been reported before. The installer's detection step sees leftover traces of an earlier install (registry entries or Windows Installer records for a per-user or per-machine copy), even though PowerToys no longer appears in Installed apps. Things that worked for others: (1) Run the Microsoft 'Program Install and Uninstall troubleshooter' and let it remove any PowerToys entries, then restart and reinstall. (2) Manually purge the leftover PowerToys registry keys and files, then reinstall. (3) Download the installer for the version that was previously installed, extract its embedded MSI (for example with dark.exe from WiX3: `dark.exe <installer.exe> -x .`, the MSI is in the AttachedContainer folder) and uninstall using that MSI, which clears the stale record. (4) Try the other installer flavor: if the machine-wide setup (PowerToysSetup) fails, try PowerToysUserSetup, and vice versa. Also check whether a copy was installed under another user account or in C:\\Program Files\\PowerToys. If it still fails, attach the full bootstrapper log (%TEMP%\\powertoys-bootstrapper-msi-*.log) to the ticket; it shows which version the installer detects. The Bug Report ZIP is generated from PowerToys Settings > General > 'Report a bug', which you can't use if PowerToys isn't installed, so the log file is the useful thing to provide here. Please also remove your email address from the ticket, as it is public."
+ },
+ "hit_turn_cap": false
+}

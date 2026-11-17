@@ -1,0 +1,377 @@
+{
+ "shown": [
+  "terminal#10520",
+  "terminal#11037",
+  "terminal#12413",
+  "terminal#1339",
+  "terminal#14259",
+  "terminal#14595",
+  "terminal#1498",
+  "terminal#15216",
+  "terminal#15271",
+  "terminal#15303",
+  "terminal#15689",
+  "terminal#1609",
+  "terminal#16112",
+  "terminal#17076",
+  "terminal#17847",
+  "terminal#18719",
+  "terminal#2896",
+  "terminal#2897",
+  "terminal#2947",
+  "terminal#3435",
+  "terminal#3776",
+  "terminal#4059",
+  "terminal#4230",
+  "terminal#4270",
+  "terminal#4453",
+  "terminal#4482",
+  "terminal#4583",
+  "terminal#5738",
+  "terminal#6444",
+  "terminal#6446",
+  "terminal#745",
+  "terminal#760",
+  "terminal#7804",
+  "terminal#8683"
+ ],
+ "retrieval_seconds": 3.7171510960324667,
+ "tool_calls": [
+  {
+   "t": 1794882698.177845,
+   "tool": "search",
+   "args": {
+    "query": "dragging tab crashes Windows Terminal, kills all child processes",
+    "repo": "terminal"
+   },
+   "seconds": 3.7016529149841517,
+   "returned": [
+    "terminal#15216",
+    "terminal#17076",
+    "terminal#8683",
+    "terminal#7804",
+    "terminal#1498",
+    "terminal#1609",
+    "terminal#4583",
+    "terminal#4453",
+    "terminal#2896",
+    "terminal#4270",
+    "terminal#14595",
+    "terminal#15689",
+    "terminal#745",
+    "terminal#4059",
+    "terminal#2897",
+    "terminal#4482",
+    "terminal#15303",
+    "terminal#4230",
+    "terminal#15271",
+    "terminal#3776"
+   ]
+  },
+  {
+   "t": 1794882698.1985857,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18719"
+   },
+   "seconds": 0.0003070020175073296,
+   "returned": [
+    "terminal#18719"
+   ]
+  },
+  {
+   "t": 1794882700.206957,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#15303"
+   },
+   "seconds": 0.00016270499327220023,
+   "returned": [
+    "terminal#15303"
+   ]
+  },
+  {
+   "t": 1794882700.5302176,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#15216"
+   },
+   "seconds": 0.00013461601338349283,
+   "returned": [
+    "terminal#15216"
+   ]
+  },
+  {
+   "t": 1794882700.6668956,
+   "tool": "search",
+   "args": {
+    "query": "drag tab crash Windows.UI.Xaml.dll 0xc000027b non-elevated",
+    "repo": "terminal"
+   },
+   "seconds": 0.013847016991348937,
+   "returned": [
+    "terminal#15271",
+    "terminal#15303",
+    "terminal#16112",
+    "terminal#11037",
+    "terminal#4482",
+    "terminal#6444",
+    "terminal#760",
+    "terminal#7804",
+    "terminal#6446",
+    "terminal#14259",
+    "terminal#4270",
+    "terminal#17847",
+    "terminal#5738",
+    "terminal#1339",
+    "terminal#8683",
+    "terminal#12413",
+    "terminal#2947",
+    "terminal#10520",
+    "terminal#4059",
+    "terminal#3435"
+   ]
+  },
+  {
+   "t": 1794882702.1117682,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#15271"
+   },
+   "seconds": 0.00020521398982964456,
+   "returned": [
+    "terminal#15271"
+   ]
+  },
+  {
+   "t": 1794882702.2384686,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#4583"
+   },
+   "seconds": 0.0001341960160061717,
+   "returned": [
+    "terminal#4583"
+   ]
+  },
+  {
+   "t": 1794882704.9658244,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#15689"
+   },
+   "seconds": 0.00033103101304732263,
+   "returned": [
+    "terminal#15689"
+   ]
+  },
+  {
+   "t": 1794882705.0802407,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#14595"
+   },
+   "seconds": 0.00022609400912187994,
+   "returned": [
+    "terminal#14595"
+   ]
+  },
+  {
+   "t": 1794882706.7313735,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#4059"
+   },
+   "seconds": 0.0001503060047980398,
+   "returned": [
+    "terminal#4059"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 17908,
+  "stop_reason": "end_turn",
+  "session_id": "a752075b-80db-446c-851f-6f8e1180646a",
+  "total_cost_usd": 0.0936544,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 18459,
+   "cache_read_input_tokens": 47944,
+   "output_tokens": 1500,
+   "output_tokens_details": {
+    "thinking_tokens": 347
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 18459,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 717,
+     "cache_read_input_tokens": 19010,
+     "cache_creation_input_tokens": 482,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 482
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1500,
+    "cacheReadInputTokens": 47944,
+    "cacheCreationInputTokens": 18459,
+    "webSearchRequests": 0,
+    "costUSD": 0.0936544,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 347,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18459,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've checked the archive and I'm writing up the match now.\n\n{\"seen_before\": true, \"matches\": [\"terminal#18719\", \"terminal#15689\", \"terminal#15271\"], \"answer\": \"This crash has been reported before. In #18719, dragging a tab made the whole Terminal window disappear. The Event Viewer showed a WindowsTerminal.exe fault in Windows.UI.Xaml.dll with exception 0xc000027b. #15689 has the same stowed-exception crash when dragging a tab. #15271 is an internal fix-tracking ticket for a Windows.UI.Xaml crash in OnDragGesture when a tab is dragged. No ticket in the archive has a confirmed fix, and #18719 was closed as stale after the reporter was asked for a crash dump. Until it's fixed, don't drag tabs. Use the tab context menu, or the move-tab and split-pane actions, to rearrange instead. Save work in long-running sessions first. To help the team, turn on automatic crash dump capture, as the Terminal troubleshooting wiki describes. Then reproduce the crash and send them the WindowsTerminal.exe dump privately, along with the Event Viewer entry for the crash. Add the new details to #18719: version 1.24.11911.0, build 19045, a non-elevated process, and the fact that all child processes are killed. Dragging tabs in an elevated Terminal is a separate known crash. That one is tracked under #3581 in the archive.\"}",
+  "ttft_ms": 2432,
+  "type": "result",
+  "duration_ms": 21725,
+  "uuid": "a9f8ee18-1fc8-49ab-bb4e-42422e9a0e10",
+  "ttft_stream_ms": 1573,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 1574,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1500,
+    "cacheReadInputTokens": 47944,
+    "cacheCreationInputTokens": 18459,
+    "webSearchRequests": 0,
+    "costUSD": 0.0936544,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 347,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18459,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 23.073219014011556,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-pa37h5ic/work"
+  }
+ },
+ "wall_seconds": 23.0758534350025,
+ "qid": "terminal#20674",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#18719",
+   "terminal#15689",
+   "terminal#15271"
+  ],
+  "answer": "This crash has been reported before. In #18719, dragging a tab made the whole Terminal window disappear. The Event Viewer showed a WindowsTerminal.exe fault in Windows.UI.Xaml.dll with exception 0xc000027b. #15689 has the same stowed-exception crash when dragging a tab. #15271 is an internal fix-tracking ticket for a Windows.UI.Xaml crash in OnDragGesture when a tab is dragged. No ticket in the archive has a confirmed fix, and #18719 was closed as stale after the reporter was asked for a crash dump. Until it's fixed, don't drag tabs. Use the tab context menu, or the move-tab and split-pane actions, to rearrange instead. Save work in long-running sessions first. To help the team, turn on automatic crash dump capture, as the Terminal troubleshooting wiki describes. Then reproduce the crash and send them the WindowsTerminal.exe dump privately, along with the Event Viewer entry for the crash. Add the new details to #18719: version 1.24.11911.0, build 19045, a non-elevated process, and the fact that all child processes are killed. Dragging tabs in an elevated Terminal is a separate known crash. That one is tracked under #3581 in the archive."
+ },
+ "hit_turn_cap": false
+}

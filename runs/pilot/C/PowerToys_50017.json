@@ -1,0 +1,471 @@
+{
+ "shown": [
+  "PowerToys#11222",
+  "PowerToys#12022",
+  "PowerToys#13544",
+  "PowerToys#1692",
+  "PowerToys#20324",
+  "PowerToys#20541",
+  "PowerToys#20696",
+  "PowerToys#20806",
+  "PowerToys#21036",
+  "PowerToys#2198",
+  "PowerToys#2199",
+  "PowerToys#23496",
+  "PowerToys#25173",
+  "PowerToys#25435",
+  "PowerToys#2548",
+  "PowerToys#32112",
+  "PowerToys#32344",
+  "PowerToys#3326",
+  "PowerToys#3335",
+  "PowerToys#3390",
+  "PowerToys#3397",
+  "PowerToys#34199",
+  "PowerToys#34383",
+  "PowerToys#35111",
+  "PowerToys#3606",
+  "PowerToys#38467",
+  "PowerToys#3920",
+  "PowerToys#3992",
+  "PowerToys#40671",
+  "PowerToys#42287",
+  "PowerToys#43927",
+  "PowerToys#4575",
+  "PowerToys#4618",
+  "PowerToys#4648",
+  "PowerToys#46963",
+  "PowerToys#4699",
+  "PowerToys#47034",
+  "PowerToys#4707",
+  "PowerToys#4714",
+  "PowerToys#4959",
+  "PowerToys#5079",
+  "PowerToys#5225",
+  "PowerToys#5413",
+  "PowerToys#6541",
+  "PowerToys#6978",
+  "PowerToys#7625",
+  "PowerToys#79",
+  "PowerToys#8813",
+  "PowerToys#8952",
+  "PowerToys#9209",
+  "PowerToys#9288",
+  "PowerToys#9337"
+ ],
+ "retrieval_seconds": 3.8446753549796995,
+ "tool_calls": [
+  {
+   "t": 1794876572.6966207,
+   "tool": "search",
+   "args": {
+    "query": "Quick Accent enables Caps Lock when Keyboard Manager remaps caps lock and backspace",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.765868324000621,
+   "returned": [
+    "PowerToys#2198",
+    "PowerToys#79",
+    "PowerToys#6541",
+    "PowerToys#3335",
+    "PowerToys#35111",
+    "PowerToys#3326",
+    "PowerToys#3992",
+    "PowerToys#5413",
+    "PowerToys#4648",
+    "PowerToys#4707",
+    "PowerToys#34383",
+    "PowerToys#7625",
+    "PowerToys#2548",
+    "PowerToys#3397",
+    "PowerToys#4699",
+    "PowerToys#4575",
+    "PowerToys#3606",
+    "PowerToys#3920",
+    "PowerToys#13544",
+    "PowerToys#6978"
+   ]
+  },
+  {
+   "t": 1794876572.727702,
+   "tool": "search",
+   "args": {
+    "query": "Quick Accent toggles caps lock on with remapped keys",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.018324064003536478,
+   "returned": [
+    "PowerToys#79",
+    "PowerToys#4707",
+    "PowerToys#3326",
+    "PowerToys#2198",
+    "PowerToys#3335",
+    "PowerToys#7625",
+    "PowerToys#4648",
+    "PowerToys#6541",
+    "PowerToys#34383",
+    "PowerToys#8952",
+    "PowerToys#4699",
+    "PowerToys#5413",
+    "PowerToys#4959",
+    "PowerToys#12022",
+    "PowerToys#35111",
+    "PowerToys#3390",
+    "PowerToys#3992",
+    "PowerToys#3920",
+    "PowerToys#2548",
+    "PowerToys#5079"
+   ]
+  },
+  {
+   "t": 1794876574.0868928,
+   "tool": "search",
+   "args": {
+    "query": "Quick Accent caps lock turns on after selecting accent character",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014555147994542494,
+   "returned": [
+    "PowerToys#2198",
+    "PowerToys#23496",
+    "PowerToys#3335",
+    "PowerToys#5413",
+    "PowerToys#3992",
+    "PowerToys#21036",
+    "PowerToys#40671",
+    "PowerToys#25173",
+    "PowerToys#35111",
+    "PowerToys#6541",
+    "PowerToys#20324",
+    "PowerToys#34383",
+    "PowerToys#20696",
+    "PowerToys#20541",
+    "PowerToys#47034",
+    "PowerToys#4575",
+    "PowerToys#43927",
+    "PowerToys#32112",
+    "PowerToys#1692",
+    "PowerToys#20806"
+   ]
+  },
+  {
+   "t": 1794876574.4848616,
+   "tool": "search",
+   "args": {
+    "query": "Power Accent caps lock activated unexpectedly",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.017872755997814238,
+   "returned": [
+    "PowerToys#5413",
+    "PowerToys#3992",
+    "PowerToys#2198",
+    "PowerToys#46963",
+    "PowerToys#6541",
+    "PowerToys#4575",
+    "PowerToys#1692",
+    "PowerToys#79",
+    "PowerToys#3335",
+    "PowerToys#4648",
+    "PowerToys#5079",
+    "PowerToys#11222",
+    "PowerToys#35111",
+    "PowerToys#21036",
+    "PowerToys#25435",
+    "PowerToys#34199",
+    "PowerToys#8813",
+    "PowerToys#32344",
+    "PowerToys#20324",
+    "PowerToys#3397"
+   ]
+  },
+  {
+   "t": 1794876575.4081445,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1692"
+   },
+   "seconds": 0.00016633598715998232,
+   "returned": [
+    "PowerToys#1692"
+   ]
+  },
+  {
+   "t": 1794876575.5776546,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#25435"
+   },
+   "seconds": 0.0001826559891924262,
+   "returned": [
+    "PowerToys#25435"
+   ]
+  },
+  {
+   "t": 1794876576.6916268,
+   "tool": "search",
+   "args": {
+    "query": "Quick Accent with Keyboard Manager remapped key caps lock turns on every time accent used",
+    "repo": null
+   },
+   "seconds": 0.013939283991931006,
+   "returned": [
+    "PowerToys#34383",
+    "PowerToys#5413",
+    "PowerToys#2198",
+    "PowerToys#4575",
+    "PowerToys#13544",
+    "PowerToys#7625",
+    "PowerToys#8952",
+    "PowerToys#3397",
+    "PowerToys#3992",
+    "PowerToys#4618",
+    "PowerToys#2548",
+    "PowerToys#9209",
+    "PowerToys#1692",
+    "PowerToys#4648",
+    "PowerToys#79",
+    "PowerToys#4699",
+    "PowerToys#46963",
+    "PowerToys#5225",
+    "PowerToys#6541",
+    "PowerToys#4714"
+   ]
+  },
+  {
+   "t": 1794876577.5301368,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46963"
+   },
+   "seconds": 0.0002128249907400459,
+   "returned": [
+    "PowerToys#46963"
+   ]
+  },
+  {
+   "t": 1794876578.3083384,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#7625"
+   },
+   "seconds": 0.00016844502533786,
+   "returned": [
+    "PowerToys#7625"
+   ]
+  },
+  {
+   "t": 1794876579.3571408,
+   "tool": "search",
+   "args": {
+    "query": "Quick Accent and Keyboard Manager conflict, caps lock toggled",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.013385516998823732,
+   "returned": [
+    "PowerToys#2198",
+    "PowerToys#34383",
+    "PowerToys#42287",
+    "PowerToys#5413",
+    "PowerToys#2548",
+    "PowerToys#3992",
+    "PowerToys#4618",
+    "PowerToys#9288",
+    "PowerToys#4575",
+    "PowerToys#6541",
+    "PowerToys#2199",
+    "PowerToys#3335",
+    "PowerToys#79",
+    "PowerToys#13544",
+    "PowerToys#38467",
+    "PowerToys#1692",
+    "PowerToys#9337",
+    "PowerToys#40671",
+    "PowerToys#20696",
+    "PowerToys#4648"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10825,
+  "stop_reason": "end_turn",
+  "session_id": "3739a88d-c6bf-4383-aee1-522ca3fa20b4",
+  "total_cost_usd": 0.0740165,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 13992,
+   "cache_read_input_tokens": 61465,
+   "output_tokens": 1187,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13992,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 325,
+     "cache_read_input_tokens": 13728,
+     "cache_creation_input_tokens": 1297,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1297
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1187,
+    "cacheReadInputTokens": 61465,
+    "cacheCreationInputTokens": 13992,
+    "webSearchRequests": 0,
+    "costUSD": 0.0740165,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13992,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket that reports this problem, which is Quick Accent turning on Caps Lock when Keyboard Manager swaps Backspace and Caps Lock. The tickets I found were about different problems. #1692 is about the Caps Lock indicator light under Keyboard Manager, and #25435 is about Caps Lock turning on when it is remapped to Ctrl. Neither mentions Quick Accent. Please keep this ticket open as a new bug. Include your exact Keyboard Manager remaps (Backspace→Caps Lock and Caps Lock→Backspace), the Quick Accent activation key and language, and a bug report ZIP. In the meantime, you can avoid the problem by turning off either the Backspace/Caps Lock swap or Quick Accent. Another option is to do the swap outside PowerToys, for example with a registry scancode map, so Quick Accent doesn't interact with it.\"}",
+  "ttft_ms": 1437,
+  "type": "result",
+  "duration_ms": 14762,
+  "uuid": "0c35537a-958d-4126-87f6-ca98c0b03ed7",
+  "ttft_stream_ms": 576,
+  "time_to_request_ms": 45,
+  "first_content_frame_ms": 577,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1187,
+    "cacheReadInputTokens": 61465,
+    "cacheCreationInputTokens": 13992,
+    "webSearchRequests": 0,
+    "costUSD": 0.0740165,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13992,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.356345245003467,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-b16grl8i/work"
+  }
+ },
+ "wall_seconds": 16.36018444900401,
+ "qid": "PowerToys#50017",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket that reports this problem, which is Quick Accent turning on Caps Lock when Keyboard Manager swaps Backspace and Caps Lock. The tickets I found were about different problems. #1692 is about the Caps Lock indicator light under Keyboard Manager, and #25435 is about Caps Lock turning on when it is remapped to Ctrl. Neither mentions Quick Accent. Please keep this ticket open as a new bug. Include your exact Keyboard Manager remaps (Backspace→Caps Lock and Caps Lock→Backspace), the Quick Accent activation key and language, and a bug report ZIP. In the meantime, you can avoid the problem by turning off either the Backspace/Caps Lock swap or Quick Accent. Another option is to do the swap outside PowerToys, for example with a registry scancode map, so Quick Accent doesn't interact with it."
+ },
+ "hit_turn_cap": false
+}

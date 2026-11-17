@@ -1,0 +1,410 @@
+{
+ "shown": [
+  "PowerToys#13675",
+  "PowerToys#13984",
+  "PowerToys#15335",
+  "PowerToys#16003",
+  "PowerToys#18015",
+  "PowerToys#18021",
+  "PowerToys#18047",
+  "PowerToys#19223",
+  "PowerToys#23164",
+  "PowerToys#24392",
+  "PowerToys#24424",
+  "PowerToys#25595",
+  "PowerToys#27842",
+  "PowerToys#29257",
+  "PowerToys#29340",
+  "PowerToys#30053",
+  "PowerToys#31226",
+  "PowerToys#3170",
+  "PowerToys#3200",
+  "PowerToys#32960",
+  "PowerToys#33891",
+  "PowerToys#37282",
+  "PowerToys#38393",
+  "PowerToys#38653",
+  "PowerToys#38724",
+  "PowerToys#39476",
+  "PowerToys#39490",
+  "PowerToys#39495",
+  "PowerToys#39562",
+  "PowerToys#39695",
+  "PowerToys#40212",
+  "PowerToys#40282",
+  "PowerToys#40339",
+  "PowerToys#42380",
+  "PowerToys#42881",
+  "PowerToys#45340",
+  "PowerToys#480",
+  "PowerToys#5947",
+  "PowerToys#6665",
+  "PowerToys#8339",
+  "PowerToys#9355"
+ ],
+ "retrieval_seconds": 0.7956531520176213,
+ "tool_calls": [
+  {
+   "t": 1794882275.6908941,
+   "tool": "search",
+   "args": {
+    "pattern": "Phi Silica",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05018752999603748,
+   "returned": [
+    "PowerToys#40282"
+   ]
+  },
+  {
+   "t": 1794882277.3243153,
+   "tool": "search",
+   "args": {
+    "pattern": "80070005",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.053977970994310454,
+   "returned": [
+    "PowerToys#16003",
+    "PowerToys#39476",
+    "PowerToys#23164",
+    "PowerToys#33891",
+    "PowerToys#18047",
+    "PowerToys#15335",
+    "PowerToys#40212",
+    "PowerToys#39495",
+    "PowerToys#38393",
+    "PowerToys#18021",
+    "PowerToys#42881",
+    "PowerToys#39695",
+    "PowerToys#30053",
+    "PowerToys#18015",
+    "PowerToys#6665",
+    "PowerToys#42380",
+    "PowerToys#40339",
+    "PowerToys#39562",
+    "PowerToys#39490",
+    "PowerToys#38653"
+   ]
+  },
+  {
+   "t": 1794882277.4431968,
+   "tool": "search",
+   "args": {
+    "pattern": "Download model",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04377524700248614,
+   "returned": [
+    "PowerToys#45340"
+   ]
+  },
+  {
+   "t": 1794882279.290903,
+   "tool": "search",
+   "args": {
+    "pattern": "Phi Silica",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.04754369898000732,
+   "returned": [
+    "PowerToys#40282"
+   ]
+  },
+  {
+   "t": 1794882281.612258,
+   "tool": "search",
+   "args": {
+    "pattern": "Advanced Paste",
+    "regex": false,
+    "also": [
+     "access denied"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10698496800614521,
+   "returned": []
+  },
+  {
+   "t": 1794882281.6608586,
+   "tool": "search",
+   "args": {
+    "pattern": "Windows AI",
+    "regex": false,
+    "also": [
+     "model",
+     "download"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.03472895399318077,
+   "returned": []
+  },
+  {
+   "t": 1794882283.4071379,
+   "tool": "search",
+   "args": {
+    "pattern": "Copilot+",
+    "regex": false,
+    "also": [
+     "Advanced Paste",
+     "download"
+    ],
+    "repo": null
+   },
+   "seconds": 0.1734782020212151,
+   "returned": []
+  },
+  {
+   "t": 1794882285.5856595,
+   "tool": "search",
+   "args": {
+    "pattern": "Phi",
+    "regex": false,
+    "also": [
+     "Paste"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.09796743298647925,
+   "returned": [
+    "PowerToys#25595",
+    "PowerToys#24424",
+    "PowerToys#32960",
+    "PowerToys#31226",
+    "PowerToys#9355",
+    "PowerToys#29257",
+    "PowerToys#13675",
+    "PowerToys#3200",
+    "PowerToys#480",
+    "PowerToys#27842",
+    "PowerToys#24392",
+    "PowerToys#8339",
+    "PowerToys#19223",
+    "PowerToys#13984",
+    "PowerToys#40282",
+    "PowerToys#38724",
+    "PowerToys#29340",
+    "PowerToys#5947",
+    "PowerToys#3170",
+    "PowerToys#37282"
+   ]
+  },
+  {
+   "t": 1794882287.4575832,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40282"
+   },
+   "seconds": 0.00010989702423103154,
+   "returned": [
+    "PowerToys#40282"
+   ]
+  },
+  {
+   "t": 1794882289.152184,
+   "tool": "search",
+   "args": {
+    "pattern": "Advanced Paste",
+    "regex": false,
+    "also": [
+     "model",
+     "Access denied"
+    ],
+    "repo": null
+   },
+   "seconds": 0.18689925101352856,
+   "returned": []
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 18205,
+  "stop_reason": "end_turn",
+  "session_id": "163ba398-0148-4384-ad13-c5237027ee08",
+  "total_cost_usd": 0.0685853,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 12085,
+   "cache_read_input_tokens": 62093,
+   "output_tokens": 1400,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12085,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 262,
+     "cache_read_input_tokens": 13144,
+     "cache_creation_input_tokens": 118,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 118
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1400,
+    "cacheReadInputTokens": 62093,
+    "cacheCreationInputTokens": 12085,
+    "webSearchRequests": 0,
+    "costUSD": 0.0685853,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12085,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier report of this problem in the archive. The 0x80070005 \\\"Access denied\\\" error when you click \\\"Download model\\\" for Phi Silica in Advanced Paste doesn't match any past ticket. The only Phi Silica ticket, PowerToys#40282, is a feature request for adding Phi Silica support. The other 0x80070005 tickets are about installer or MSIX deployment failures, which is a different problem. Please leave this ticket open for the PowerToys team. Keep the bug report ZIP attached, and add your Windows build and your Windows AI component versions. In the meantime, you can use another Advanced Paste provider, such as Foundry Local, Ollama or an OpenAI-compatible endpoint.\"}",
+  "ttft_ms": 2062,
+  "type": "result",
+  "duration_ms": 18893,
+  "uuid": "7e22f51e-896b-4015-a155-03667d13a4aa",
+  "ttft_stream_ms": 1183,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 1184,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1400,
+    "cacheReadInputTokens": 62093,
+    "cacheCreationInputTokens": 12085,
+    "webSearchRequests": 0,
+    "costUSD": 0.0685853,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12085,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 20.00403629601351,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-6l31ivjk/work"
+  }
+ },
+ "wall_seconds": 20.005631335021462,
+ "qid": "PowerToys#50420",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier report of this problem in the archive. The 0x80070005 \"Access denied\" error when you click \"Download model\" for Phi Silica in Advanced Paste doesn't match any past ticket. The only Phi Silica ticket, PowerToys#40282, is a feature request for adding Phi Silica support. The other 0x80070005 tickets are about installer or MSIX deployment failures, which is a different problem. Please leave this ticket open for the PowerToys team. Keep the bug report ZIP attached, and add your Windows build and your Windows AI component versions. In the meantime, you can use another Advanced Paste provider, such as Foundry Local, Ollama or an OpenAI-compatible endpoint."
+ },
+ "hit_turn_cap": false
+}

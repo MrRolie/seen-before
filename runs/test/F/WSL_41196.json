@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "WSL#40688",
+  "WSL#10561",
+  "WSL#11468",
+  "WSL#10494",
+  "WSL#14063"
+ ],
+ "retrieval_seconds": 0.4784796950116288,
+ "retrieval_scores": [
+  0.028588564574170333,
+  0.026736111111111113,
+  0.02625745950554135,
+  0.023361976369495163,
+  0.023343766301512782
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3343,
+  "stop_reason": "end_turn",
+  "session_id": "3b5e195b-3e3f-4f10-9522-bb6425c1214e",
+  "total_cost_usd": 0.065468,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 15436,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 372,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 15436,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 372,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 15436,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 15436
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 372,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 15436,
+    "webSearchRequests": 0,
+    "costUSD": 0.065468,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15436,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find a past ticket reporting this problem, which is that in NAT mode, after wsl --shutdown, Windows can reach a WSL service through localhost (::1) but not through 127.0.0.1. The tickets I did find are about other problems. WSL#40688 is about NAT mode having no outbound connectivity. WSL#10561 is about the 127.0.0.42 nameserver under DNS tunneling. WSL#11468 and WSL#10494 are about port forwarding failing for containers in mirrored mode. WSL#14063 is about 127.0.0.1 policy routing inside the distro in mirrored mode. None of them covers IPv4 loopback forwarding failing while IPv6 works in NAT mode, so I can't give a confirmed fix from the archive. In the meantime, you could connect to the service through localhost (::1), which already works for you. If you need an IPv4 address, you could try the WSL VM's eth0 address. Please also file this as a new issue and attach logs from collect-wsl-logs.ps1 with the networking profile.\"}",
+  "ttft_ms": 3525,
+  "type": "result",
+  "duration_ms": 3541,
+  "uuid": "8a888e15-63d1-45d6-8c2b-ae32a41ca80f",
+  "ttft_stream_ms": 924,
+  "time_to_request_ms": 197,
+  "first_content_frame_ms": 924,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 372,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 15436,
+    "webSearchRequests": 0,
+    "costUSD": 0.065468,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15436,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.387784780992661,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-0zo_otcv/work"
+  }
+ },
+ "wall_seconds": 4.868006353004603,
+ "qid": "WSL#41196",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find a past ticket reporting this problem, which is that in NAT mode, after wsl --shutdown, Windows can reach a WSL service through localhost (::1) but not through 127.0.0.1. The tickets I did find are about other problems. WSL#40688 is about NAT mode having no outbound connectivity. WSL#10561 is about the 127.0.0.42 nameserver under DNS tunneling. WSL#11468 and WSL#10494 are about port forwarding failing for containers in mirrored mode. WSL#14063 is about 127.0.0.1 policy routing inside the distro in mirrored mode. None of them covers IPv4 loopback forwarding failing while IPv6 works in NAT mode, so I can't give a confirmed fix from the archive. In the meantime, you could connect to the service through localhost (::1), which already works for you. If you need an IPv4 address, you could try the WSL VM's eth0 address. Please also file this as a new issue and attach logs from collect-wsl-logs.ps1 with the networking profile."
+ },
+ "hit_turn_cap": false
+}

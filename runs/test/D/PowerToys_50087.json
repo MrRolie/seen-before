@@ -1,0 +1,419 @@
+{
+ "shown": [
+  "PowerToys#10178",
+  "PowerToys#1180",
+  "PowerToys#1454",
+  "PowerToys#158",
+  "PowerToys#16203",
+  "PowerToys#18021",
+  "PowerToys#19451",
+  "PowerToys#2012",
+  "PowerToys#208",
+  "PowerToys#2275",
+  "PowerToys#26324",
+  "PowerToys#27948",
+  "PowerToys#2887",
+  "PowerToys#29454",
+  "PowerToys#29650",
+  "PowerToys#30163",
+  "PowerToys#3041",
+  "PowerToys#30846",
+  "PowerToys#31841",
+  "PowerToys#32525",
+  "PowerToys#32650",
+  "PowerToys#3520",
+  "PowerToys#37306",
+  "PowerToys#3738",
+  "PowerToys#37739",
+  "PowerToys#38738",
+  "PowerToys#38948",
+  "PowerToys#41377",
+  "PowerToys#41724",
+  "PowerToys#42100",
+  "PowerToys#42181",
+  "PowerToys#42197",
+  "PowerToys#43774",
+  "PowerToys#46994",
+  "PowerToys#47250",
+  "PowerToys#5115",
+  "PowerToys#6577",
+  "PowerToys#8828",
+  "PowerToys#8870",
+  "PowerToys#9052",
+  "PowerToys#9509"
+ ],
+ "retrieval_seconds": 4.480323012074223,
+ "tool_calls": [
+  {
+   "t": 1794881449.3738902,
+   "tool": "search",
+   "args": {
+    "pattern": "wixtoolset/issues/7675",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07552621999639086,
+   "returned": []
+  },
+  {
+   "t": 1794881453.401829,
+   "tool": "similar",
+   "args": {
+    "query": "per-user upgrade related bundle detected twice, uninstall fails 0x80070003, stale entry in Installed apps cannot uninstall",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.008312107005622,
+   "returned": [
+    "PowerToys#2887",
+    "PowerToys#1454",
+    "PowerToys#158",
+    "PowerToys#2275",
+    "PowerToys#8870",
+    "PowerToys#29650",
+    "PowerToys#208",
+    "PowerToys#8828",
+    "PowerToys#2012",
+    "PowerToys#9052",
+    "PowerToys#3041",
+    "PowerToys#42197",
+    "PowerToys#6577",
+    "PowerToys#9509",
+    "PowerToys#3738",
+    "PowerToys#10178",
+    "PowerToys#3520",
+    "PowerToys#32650",
+    "PowerToys#5115",
+    "PowerToys#1180"
+   ]
+  },
+  {
+   "t": 1794881454.8539674,
+   "tool": "search",
+   "args": {
+    "pattern": "related bundle",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07805791500140913,
+   "returned": [
+    "PowerToys#42100",
+    "PowerToys#41724",
+    "PowerToys#46994",
+    "PowerToys#27948",
+    "PowerToys#19451",
+    "PowerToys#18021",
+    "PowerToys#47250",
+    "PowerToys#43774",
+    "PowerToys#41377",
+    "PowerToys#38948",
+    "PowerToys#38738",
+    "PowerToys#37739",
+    "PowerToys#37306",
+    "PowerToys#32525",
+    "PowerToys#31841",
+    "PowerToys#30846",
+    "PowerToys#30163",
+    "PowerToys#29650",
+    "PowerToys#29454",
+    "PowerToys#26324"
+   ]
+  },
+  {
+   "t": 1794881457.1329482,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43774"
+   },
+   "seconds": 0.0001334169937763363,
+   "returned": [
+    "PowerToys#43774"
+   ]
+  },
+  {
+   "t": 1794881457.1416297,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47250"
+   },
+   "seconds": 0.00010246800957247615,
+   "returned": [
+    "PowerToys#47250"
+   ]
+  },
+  {
+   "t": 1794881457.319711,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46994"
+   },
+   "seconds": 0.0001930550206452608,
+   "returned": [
+    "PowerToys#46994"
+   ]
+  },
+  {
+   "t": 1794881459.4729476,
+   "tool": "search",
+   "args": {
+    "pattern": "Failed to configure per-user related bundle",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07563735701842234,
+   "returned": [
+    "PowerToys#42181"
+   ]
+  },
+  {
+   "t": 1794881459.7831101,
+   "tool": "search",
+   "args": {
+    "pattern": "CreateProcessW failed with return code: 3",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06837171199731529,
+   "returned": [
+    "PowerToys#42181"
+   ]
+  },
+  {
+   "t": 1794881459.8794918,
+   "tool": "search",
+   "args": {
+    "pattern": "detected twice",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.03467506400193088,
+   "returned": []
+  },
+  {
+   "t": 1794881461.2065926,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42181"
+   },
+   "seconds": 0.00031420201412402093,
+   "returned": [
+    "PowerToys#42181"
+   ]
+  },
+  {
+   "t": 1794881465.0460181,
+   "tool": "search",
+   "args": {
+    "pattern": "w109",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0632701620052103,
+   "returned": []
+  },
+  {
+   "t": 1794881465.1281161,
+   "tool": "search",
+   "args": {
+    "pattern": "Applied non-vital package",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07572933300980367,
+   "returned": [
+    "PowerToys#16203",
+    "PowerToys#42181",
+    "PowerToys#30163"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 17713,
+  "stop_reason": "end_turn",
+  "session_id": "4d0833dc-b27d-4acb-9d8c-9eb207db69fe",
+  "total_cost_usd": 0.1326196,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 26576,
+   "cache_read_input_tokens": 96476,
+   "output_tokens": 1664,
+   "output_tokens_details": {
+    "thinking_tokens": 283
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 26576,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 399,
+     "cache_read_input_tokens": 26975,
+     "cache_creation_input_tokens": 1014,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1014
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1664,
+    "cacheReadInputTokens": 96476,
+    "cacheCreationInputTokens": 26576,
+    "webSearchRequests": 0,
+    "costUSD": 0.1326196,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 283,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 26576,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no archived ticket that reports this exact problem. That problem is Burn detecting and planning each per-user related bundle twice (wixtoolset/issues#7675). The first uninstall removes the cache. The second then fails with 0x80070003 and is treated as non-vital. The old entry is left in Installed Apps with a broken UninstallString. Three archived tickets are close but are different problems. PowerToys#42181 has the same trailing 0x80070003 'Failed to configure per-user related bundle' error, but it is about a corrupt install and was closed as a duplicate of #35949. It does not mention the duplicate detection. PowerToys#43774 and PowerToys#47250 show the same doubled 'Detected related bundle' lines for per-user bundles. Their actual failure is error 0x81f40001, a per-user and per-machine conflict. Please file this as a new installer issue. Link wixtoolset/issues#7675, include your Burn log excerpts, and ask for a Burn fix that deduplicates related bundles. Until that is fixed, you can't remove a stale entry from Installed Apps. The archive has no verified workaround for that.\"}",
+  "ttft_ms": 2043,
+  "type": "result",
+  "duration_ms": 22040,
+  "uuid": "43322199-9c38-4830-811e-02d5755f3b08",
+  "ttft_stream_ms": 1135,
+  "time_to_request_ms": 26,
+  "first_content_frame_ms": 1135,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1664,
+    "cacheReadInputTokens": 96476,
+    "cacheCreationInputTokens": 26576,
+    "webSearchRequests": 0,
+    "costUSD": 0.1326196,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 283,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 26576,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 23.423277763999067,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-li1gyl0q/work"
+  }
+ },
+ "wall_seconds": 23.426308176014572,
+ "qid": "PowerToys#50087",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no archived ticket that reports this exact problem. That problem is Burn detecting and planning each per-user related bundle twice (wixtoolset/issues#7675). The first uninstall removes the cache. The second then fails with 0x80070003 and is treated as non-vital. The old entry is left in Installed Apps with a broken UninstallString. Three archived tickets are close but are different problems. PowerToys#42181 has the same trailing 0x80070003 'Failed to configure per-user related bundle' error, but it is about a corrupt install and was closed as a duplicate of #35949. It does not mention the duplicate detection. PowerToys#43774 and PowerToys#47250 show the same doubled 'Detected related bundle' lines for per-user bundles. Their actual failure is error 0x81f40001, a per-user and per-machine conflict. Please file this as a new installer issue. Link wixtoolset/issues#7675, include your Burn log excerpts, and ask for a Burn fix that deduplicates related bundles. Until that is fixed, you can't remove a stale entry from Installed Apps. The archive has no verified workaround for that."
+ },
+ "hit_turn_cap": false
+}

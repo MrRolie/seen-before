@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#47694",
+  "PowerToys#23857",
+  "PowerToys#25124",
+  "PowerToys#47537",
+  "PowerToys#25101"
+ ],
+ "retrieval_seconds": 0.016102035995572805,
+ "retrieval_scores": [
+  0.7628802061080933,
+  0.7541058659553528,
+  0.6872724890708923,
+  0.6851234436035156,
+  0.6767027974128723
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2873,
+  "stop_reason": "end_turn",
+  "session_id": "7c8a0696-39a0-42de-8b9f-d55635426f91",
+  "total_cost_usd": 0.031544,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 7050,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 334,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7050,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 334,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 7050,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7050
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 334,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7050,
+    "webSearchRequests": 0,
+    "costUSD": 0.031544,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7050,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#47694\", \"PowerToys#23857\", \"PowerToys#47537\"], \"answer\": \"This has been reported before. The Power Display flyout (PowerToys#47694) and the Quick Access tray flyout (PowerToys#23857) always open at the bottom right of the screen, regardless of where the taskbar is docked. In #47694 a maintainer said the bottom-right placement is by design and treated it as a feature request, so there is no setting or fix to apply yet. In #23857 the report was marked as a duplicate of #23772 and described as fixed in a hotfix in early February 2023, so check that you are on a current PowerToys version. If your flyouts still open at the bottom right with a side or top taskbar, add your use case and a thumbs-up to #47694 so it can be prioritised. In #47537, a user whose flyout opened in the middle of the screen found the cause was a Windhawk mod that centres new windows. If you use Windhawk, check for that.\"}",
+  "ttft_ms": 3043,
+  "type": "result",
+  "duration_ms": 3067,
+  "uuid": "0ebb5078-082a-4dd3-ba9f-a4f0062567dd",
+  "ttft_stream_ms": 569,
+  "time_to_request_ms": 190,
+  "first_content_frame_ms": 569,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 334,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7050,
+    "webSearchRequests": 0,
+    "costUSD": 0.031544,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7050,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.8794527119898703,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-eq1vfpbs/work"
+  }
+ },
+ "wall_seconds": 3.897550775000127,
+ "qid": "PowerToys#51600",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#47694",
+   "PowerToys#23857",
+   "PowerToys#47537"
+  ],
+  "answer": "This has been reported before. The Power Display flyout (PowerToys#47694) and the Quick Access tray flyout (PowerToys#23857) always open at the bottom right of the screen, regardless of where the taskbar is docked. In #47694 a maintainer said the bottom-right placement is by design and treated it as a feature request, so there is no setting or fix to apply yet. In #23857 the report was marked as a duplicate of #23772 and described as fixed in a hotfix in early February 2023, so check that you are on a current PowerToys version. If your flyouts still open at the bottom right with a side or top taskbar, add your use case and a thumbs-up to #47694 so it can be prioritised. In #47537, a user whose flyout opened in the middle of the screen found the cause was a Windhawk mod that centres new windows. If you use Windhawk, check for that."
+ },
+ "hit_turn_cap": false
+}

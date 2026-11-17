@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "terminal#14589",
+  "terminal#18937",
+  "terminal#6565",
+  "terminal#6044",
+  "terminal#3878"
+ ],
+ "retrieval_seconds": 0.027511833992321044,
+ "retrieval_scores": [
+  0.7836358547210693,
+  0.7813136577606201,
+  0.7782025933265686,
+  0.7469314336776733,
+  0.725466251373291
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3550,
+  "stop_reason": "end_turn",
+  "session_id": "e3f61cd7-4936-45f9-b0d2-bf15cca94adb",
+  "total_cost_usd": 0.041493999999999996,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 9375,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 399,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9375,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 399,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 9375,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 9375
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 399,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 9375,
+    "webSearchRequests": 0,
+    "costUSD": 0.041493999999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9375,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#18937\", \"terminal#6565\", \"terminal#14589\"], \"answer\": \"This has been raised before. Making the scrollbar always visible is already supported: set \\\"Scrollbar visibility\\\" to Always in Settings > [Profile] > Appearance (or in Defaults to apply to all profiles), available since Terminal 1.17 (terminal#14589). Alternatively, you can turn off \\\"Automatically hide scroll bars in Windows\\\" in Windows Settings > Accessibility > Visual effects, but that is system-wide. Note that the \\\"visible\\\" setting alone still fades the scrollbar out, so use \\\"always\\\". The wider scrollbar request was previously filed as terminal#18937, where the maintainers declined to add a scrollbar width setting because they want to avoid deviating from the standard Windows scrollbar, and the scrollbar width is similar to other Windows apps. Terminal#6565 asked for an always-expanded scrollbar, as it appears on hover, and was closed as a duplicate of #3454, so that is where discussion of it is tracked. There is no existing option to widen the scrollbar, so that part of your request has not been accepted.\"}",
+  "ttft_ms": 3739,
+  "type": "result",
+  "duration_ms": 3767,
+  "uuid": "a0941615-3935-4d2f-bbf6-597e0955d98c",
+  "ttft_stream_ms": 696,
+  "time_to_request_ms": 215,
+  "first_content_frame_ms": 697,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 399,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 9375,
+    "webSearchRequests": 0,
+    "costUSD": 0.041493999999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9375,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.748728417005623,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-j76not3r/work"
+  }
+ },
+ "wall_seconds": 4.77926320800907,
+ "qid": "terminal#20807",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#18937",
+   "terminal#6565",
+   "terminal#14589"
+  ],
+  "answer": "This has been raised before. Making the scrollbar always visible is already supported: set \"Scrollbar visibility\" to Always in Settings > [Profile] > Appearance (or in Defaults to apply to all profiles), available since Terminal 1.17 (terminal#14589). Alternatively, you can turn off \"Automatically hide scroll bars in Windows\" in Windows Settings > Accessibility > Visual effects, but that is system-wide. Note that the \"visible\" setting alone still fades the scrollbar out, so use \"always\". The wider scrollbar request was previously filed as terminal#18937, where the maintainers declined to add a scrollbar width setting because they want to avoid deviating from the standard Windows scrollbar, and the scrollbar width is similar to other Windows apps. Terminal#6565 asked for an always-expanded scrollbar, as it appears on hover, and was closed as a duplicate of #3454, so that is where discussion of it is tracked. There is no existing option to widen the scrollbar, so that part of your request has not been accepted."
+ },
+ "hit_turn_cap": false
+}

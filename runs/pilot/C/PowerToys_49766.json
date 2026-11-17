@@ -1,0 +1,477 @@
+{
+ "shown": [
+  "PowerToys#10092",
+  "PowerToys#10094",
+  "PowerToys#10164",
+  "PowerToys#10238",
+  "PowerToys#11898",
+  "PowerToys#17320",
+  "PowerToys#2037",
+  "PowerToys#23459",
+  "PowerToys#27963",
+  "PowerToys#3120",
+  "PowerToys#3183",
+  "PowerToys#35454",
+  "PowerToys#36656",
+  "PowerToys#36881",
+  "PowerToys#37859",
+  "PowerToys#38292",
+  "PowerToys#38294",
+  "PowerToys#38321",
+  "PowerToys#4030",
+  "PowerToys#4263",
+  "PowerToys#4932",
+  "PowerToys#5402",
+  "PowerToys#5459",
+  "PowerToys#5509",
+  "PowerToys#5556",
+  "PowerToys#5563",
+  "PowerToys#5582",
+  "PowerToys#5595",
+  "PowerToys#5656",
+  "PowerToys#5658",
+  "PowerToys#5688",
+  "PowerToys#5723",
+  "PowerToys#5781",
+  "PowerToys#5828",
+  "PowerToys#5830",
+  "PowerToys#5922",
+  "PowerToys#6081",
+  "PowerToys#6105",
+  "PowerToys#6171",
+  "PowerToys#6448",
+  "PowerToys#6457",
+  "PowerToys#6486",
+  "PowerToys#6493",
+  "PowerToys#6510",
+  "PowerToys#6544",
+  "PowerToys#6936",
+  "PowerToys#6954",
+  "PowerToys#7393",
+  "PowerToys#8048",
+  "PowerToys#9139",
+  "PowerToys#9143",
+  "PowerToys#9172",
+  "PowerToys#9204",
+  "PowerToys#925",
+  "PowerToys#9284",
+  "PowerToys#9676",
+  "PowerToys#9719",
+  "PowerToys#9903",
+  "PowerToys#9977",
+  "terminal#12413",
+  "terminal#1339",
+  "terminal#13599",
+  "terminal#18598",
+  "terminal#4159",
+  "terminal#6444",
+  "terminal#6446",
+  "terminal#760"
+ ],
+ "retrieval_seconds": 3.9054200220271014,
+ "tool_calls": [
+  {
+   "t": 1794876352.164832,
+   "tool": "search",
+   "args": {
+    "query": "ItemCollection has no inner collection PowerLauncher MainWindow ViewModel_PropertyChanged OnLoaded",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.841429124993738,
+   "returned": [
+    "PowerToys#10094",
+    "PowerToys#38294",
+    "PowerToys#6954",
+    "PowerToys#2037",
+    "PowerToys#38321",
+    "PowerToys#5509",
+    "PowerToys#5582",
+    "PowerToys#9977",
+    "PowerToys#3120",
+    "PowerToys#23459",
+    "PowerToys#9172",
+    "PowerToys#35454",
+    "PowerToys#37859",
+    "PowerToys#36656",
+    "PowerToys#5556",
+    "PowerToys#4030",
+    "PowerToys#925",
+    "PowerToys#10092",
+    "PowerToys#6457",
+    "PowerToys#4263"
+   ]
+  },
+  {
+   "t": 1794876354.0334597,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#36656"
+   },
+   "seconds": 0.00014703601482324302,
+   "returned": [
+    "PowerToys#36656"
+   ]
+  },
+  {
+   "t": 1794876354.1614637,
+   "tool": "search",
+   "args": {
+    "query": "Operation is not valid while ItemCollection has no inner collection GetItemAt PowerToys Run crash",
+    "repo": null
+   },
+   "seconds": 0.016469950001919642,
+   "returned": [
+    "PowerToys#10094",
+    "PowerToys#6954",
+    "PowerToys#3183",
+    "PowerToys#4932",
+    "PowerToys#6936",
+    "PowerToys#9719",
+    "PowerToys#6544",
+    "terminal#18598",
+    "PowerToys#9903",
+    "PowerToys#6510",
+    "PowerToys#36656",
+    "terminal#12413",
+    "terminal#1339",
+    "PowerToys#9676",
+    "PowerToys#6081",
+    "PowerToys#5658",
+    "PowerToys#9143",
+    "PowerToys#9204",
+    "PowerToys#9139",
+    "PowerToys#27963"
+   ]
+  },
+  {
+   "t": 1794876356.201142,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#5658"
+   },
+   "seconds": 0.0001645949960220605,
+   "returned": [
+    "PowerToys#5658"
+   ]
+  },
+  {
+   "t": 1794876356.355445,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#6954"
+   },
+   "seconds": 0.00012519699521362782,
+   "returned": [
+    "PowerToys#6954"
+   ]
+  },
+  {
+   "t": 1794876358.5147927,
+   "tool": "search",
+   "args": {
+    "query": "PowerToys Run crash on startup MainWindowVisibility OnLoaded ItemCollection uninitialized binding supplied null",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014969488023780286,
+   "returned": [
+    "PowerToys#5922",
+    "PowerToys#35454",
+    "PowerToys#6954",
+    "PowerToys#6510",
+    "PowerToys#9977",
+    "PowerToys#37859",
+    "PowerToys#10094",
+    "PowerToys#3183",
+    "PowerToys#5656",
+    "PowerToys#9676",
+    "PowerToys#6457",
+    "PowerToys#5688",
+    "PowerToys#5582",
+    "PowerToys#6105",
+    "PowerToys#6493",
+    "PowerToys#5723",
+    "PowerToys#10164",
+    "PowerToys#9719",
+    "PowerToys#7393",
+    "PowerToys#8048"
+   ]
+  },
+  {
+   "t": 1794876360.2569878,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#5922"
+   },
+   "seconds": 0.0001573959889356047,
+   "returned": [
+    "PowerToys#5922"
+   ]
+  },
+  {
+   "t": 1794876362.0419283,
+   "tool": "search",
+   "args": {
+    "query": "InvalidOperationException ItemCollection GetItemAt MainWindow ViewModel_PropertyChanged",
+    "repo": null
+   },
+   "seconds": 0.017334219010081142,
+   "returned": [
+    "PowerToys#36656",
+    "PowerToys#38292",
+    "terminal#12413",
+    "PowerToys#10094",
+    "PowerToys#6954",
+    "terminal#1339",
+    "terminal#13599",
+    "PowerToys#10164",
+    "terminal#6446",
+    "PowerToys#35454",
+    "PowerToys#5582",
+    "terminal#4159",
+    "PowerToys#5830",
+    "PowerToys#36881",
+    "PowerToys#38294",
+    "PowerToys#5402",
+    "terminal#6444",
+    "PowerToys#5509",
+    "terminal#760",
+    "PowerToys#5595"
+   ]
+  },
+  {
+   "t": 1794876363.6013966,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4030"
+   },
+   "seconds": 0.00013822599430568516,
+   "returned": [
+    "PowerToys#4030"
+   ]
+  },
+  {
+   "t": 1794876365.688658,
+   "tool": "search",
+   "args": {
+    "query": "PT Run got an error: Operation is not valid while ItemCollection has no inner collection",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014342473004944623,
+   "returned": [
+    "PowerToys#10094",
+    "PowerToys#6954",
+    "PowerToys#17320",
+    "PowerToys#6936",
+    "PowerToys#6081",
+    "PowerToys#9284",
+    "PowerToys#6171",
+    "PowerToys#9719",
+    "PowerToys#9139",
+    "PowerToys#6486",
+    "PowerToys#5459",
+    "PowerToys#6544",
+    "PowerToys#5781",
+    "PowerToys#5828",
+    "PowerToys#5658",
+    "PowerToys#27963",
+    "PowerToys#5563",
+    "PowerToys#10238",
+    "PowerToys#6448",
+    "PowerToys#11898"
+   ]
+  },
+  {
+   "t": 1794876368.1302853,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#10094"
+   },
+   "seconds": 0.0001423170033376664,
+   "returned": [
+    "PowerToys#10094"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 21800,
+  "stop_reason": "end_turn",
+  "session_id": "6c2b1b76-d5d6-48dd-acdc-f2198cf71bd4",
+  "total_cost_usd": 0.10110179999999999,
+  "usage": {
+   "input_tokens": 20,
+   "cache_creation_input_tokens": 18850,
+   "cache_read_input_tokens": 112018,
+   "output_tokens": 1446,
+   "output_tokens_details": {
+    "thinking_tokens": 77
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 18850,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 430,
+     "cache_read_input_tokens": 18653,
+     "cache_creation_input_tokens": 1230,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1230
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 20,
+    "outputTokens": 1446,
+    "cacheReadInputTokens": 112018,
+    "cacheCreationInputTokens": 18850,
+    "webSearchRequests": 0,
+    "costUSD": 0.10110179999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 77,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18850,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find a past ticket that reports this exact crash. It's a PowerToys Run (PowerLauncher) exception: `InvalidOperationException: Operation is not valid while ItemCollection has no inner collection`. It's thrown from `MainWindow.ViewModel_PropertyChanged` while the window is loading (`OnLoaded` → `set_MainWindowVisibility`). The archive does have other PowerToys Run crashes. Examples are #10094 (collection modified during startup) and #6954 (index out of range from a race on the results list). Those have different stack traces and different causes, so they aren't the same problem. To get this one investigated, please do the following. 1) Restart PowerToys, or end the PowerLauncher process in Task Manager, and see if it recurs. 2) Update to the latest PowerToys release. 3) Send a bug report ZIP (tray icon → Report bug) and the PowerToys Run logs from %localappdata%\\\\Microsoft\\\\PowerToys\\\\PowerToys Run\\\\Logs. 4) Tell us whether it happens on every start or only occasionally, and what you were doing when it happened. 5) Give the ticket a descriptive title and fill in the expected and actual behaviour.\"}",
+  "ttft_ms": 1780,
+  "type": "result",
+  "duration_ms": 25826,
+  "uuid": "e33b9a6f-5d60-4489-8d09-0d18feb31be5",
+  "ttft_stream_ms": 1172,
+  "time_to_request_ms": 38,
+  "first_content_frame_ms": 1172,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 20,
+    "outputTokens": 1446,
+    "cacheReadInputTokens": 112018,
+    "cacheCreationInputTokens": 18850,
+    "webSearchRequests": 0,
+    "costUSD": 0.10110179999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 77,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18850,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 27.43539534098818,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-b3xpd77z/work"
+  }
+ },
+ "wall_seconds": 27.437191816978157,
+ "qid": "PowerToys#49766",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find a past ticket that reports this exact crash. It's a PowerToys Run (PowerLauncher) exception: `InvalidOperationException: Operation is not valid while ItemCollection has no inner collection`. It's thrown from `MainWindow.ViewModel_PropertyChanged` while the window is loading (`OnLoaded` → `set_MainWindowVisibility`). The archive does have other PowerToys Run crashes. Examples are #10094 (collection modified during startup) and #6954 (index out of range from a race on the results list). Those have different stack traces and different causes, so they aren't the same problem. To get this one investigated, please do the following. 1) Restart PowerToys, or end the PowerLauncher process in Task Manager, and see if it recurs. 2) Update to the latest PowerToys release. 3) Send a bug report ZIP (tray icon → Report bug) and the PowerToys Run logs from %localappdata%\\Microsoft\\PowerToys\\PowerToys Run\\Logs. 4) Tell us whether it happens on every start or only occasionally, and what you were doing when it happened. 5) Give the ticket a descriptive title and fill in the expected and actual behaviour."
+ },
+ "hit_turn_cap": false
+}

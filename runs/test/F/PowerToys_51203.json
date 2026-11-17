@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#33111",
+  "PowerToys#42659",
+  "PowerToys#32530",
+  "PowerToys#43499",
+  "PowerToys#44319"
+ ],
+ "retrieval_seconds": 0.5769460030132905,
+ "retrieval_scores": [
+  0.02964254577157803,
+  0.0287391216352965,
+  0.028169014084507043,
+  0.0273972602739726,
+  0.02638888888888889
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 4410,
+  "stop_reason": "end_turn",
+  "session_id": "54405e6b-2988-458f-950f-0a05464e197c",
+  "total_cost_usd": 0.039986,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 9173,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 329,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9173,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 329,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 9173,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 9173
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 329,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 9173,
+    "webSearchRequests": 0,
+    "costUSD": 0.039986,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9173,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#32530\", \"PowerToys#42659\", \"PowerToys#33111\"], \"answer\": \"This is a known issue: PowerToys Run throws the 'Desktop composition is disabled' (0x80263001) COMException when Windows DWM composition is briefly reset, for example by a display or GPU driver timeout, a power-state change such as unplugging the charger, or a screen blackout. Past tickets with this same stack trace were closed as duplicates of PowerToys#31226, so follow that issue for the status. The PowerToys maintainers' only recommendation in those tickets was to update PowerToys to the latest version (0.96 or later), since the newer builds may handle this better. The error dialog itself is harmless and you can dismiss it. If the black screens and lag keep happening when you unplug the charger, also update your GPU and display drivers and the Armoury Crate software, because the blackout comes from the driver or display layer rather than from PowerToys.\"}",
+  "ttft_ms": 4573,
+  "type": "result",
+  "duration_ms": 4590,
+  "uuid": "2ab47afa-b0c9-4f25-9cda-ff0b823a6c3e",
+  "ttft_stream_ms": 1727,
+  "time_to_request_ms": 178,
+  "first_content_frame_ms": 1728,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 329,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 9173,
+    "webSearchRequests": 0,
+    "costUSD": 0.039986,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9173,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 5.63936080201529,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-jinkkmag/work"
+  }
+ },
+ "wall_seconds": 6.218439197022235,
+ "qid": "PowerToys#51203",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#32530",
+   "PowerToys#42659",
+   "PowerToys#33111"
+  ],
+  "answer": "This is a known issue: PowerToys Run throws the 'Desktop composition is disabled' (0x80263001) COMException when Windows DWM composition is briefly reset, for example by a display or GPU driver timeout, a power-state change such as unplugging the charger, or a screen blackout. Past tickets with this same stack trace were closed as duplicates of PowerToys#31226, so follow that issue for the status. The PowerToys maintainers' only recommendation in those tickets was to update PowerToys to the latest version (0.96 or later), since the newer builds may handle this better. The error dialog itself is harmless and you can dismiss it. If the black screens and lag keep happening when you unplug the charger, also update your GPU and display drivers and the Armoury Crate software, because the blackout comes from the driver or display layer rather than from PowerToys."
+ },
+ "hit_turn_cap": false
+}

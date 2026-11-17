@@ -1,0 +1,369 @@
+{
+ "shown": [
+  "PowerToys#13887",
+  "PowerToys#31226",
+  "PowerToys#38353",
+  "PowerToys#42629",
+  "PowerToys#42736",
+  "PowerToys#43604",
+  "PowerToys#43776",
+  "PowerToys#43861",
+  "PowerToys#43871",
+  "PowerToys#43993",
+  "PowerToys#44062",
+  "PowerToys#44228",
+  "PowerToys#44367",
+  "PowerToys#44467",
+  "PowerToys#44629",
+  "PowerToys#45056",
+  "PowerToys#45531",
+  "PowerToys#45821",
+  "PowerToys#46196",
+  "PowerToys#46755",
+  "PowerToys#46867",
+  "PowerToys#47188",
+  "PowerToys#47221",
+  "PowerToys#48004",
+  "PowerToys#5399",
+  "PowerToys#5400",
+  "PowerToys#5402",
+  "PowerToys#5568",
+  "PowerToys#5582",
+  "PowerToys#5598",
+  "PowerToys#5632",
+  "PowerToys#5661",
+  "PowerToys#5688",
+  "PowerToys#5716",
+  "PowerToys#5830",
+  "PowerToys#5922",
+  "PowerToys#5959",
+  "PowerToys#6105",
+  "PowerToys#6167",
+  "PowerToys#6786",
+  "PowerToys#8048",
+  "PowerToys#9472"
+ ],
+ "retrieval_seconds": 4.425872268970124,
+ "tool_calls": [
+  {
+   "t": 1794875831.7130432,
+   "tool": "search",
+   "args": {
+    "pattern": "UI thread's exception",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07433067000238225,
+   "returned": [
+    "PowerToys#31226",
+    "PowerToys#44629",
+    "PowerToys#44467",
+    "PowerToys#43861",
+    "PowerToys#43776",
+    "PowerToys#42736",
+    "PowerToys#48004",
+    "PowerToys#47221",
+    "PowerToys#47188",
+    "PowerToys#46867",
+    "PowerToys#46755",
+    "PowerToys#46196",
+    "PowerToys#45821",
+    "PowerToys#45531",
+    "PowerToys#45056",
+    "PowerToys#44367",
+    "PowerToys#44228",
+    "PowerToys#44062",
+    "PowerToys#43993",
+    "PowerToys#43871"
+   ]
+  },
+  {
+   "t": 1794875836.0317044,
+   "tool": "similar",
+   "args": {
+    "query": "Exception from UI thread error window appears when device connected or disconnected",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.9473894629918505,
+   "returned": [
+    "PowerToys#6786",
+    "PowerToys#6105",
+    "PowerToys#13887",
+    "PowerToys#9472",
+    "PowerToys#38353",
+    "PowerToys#5959",
+    "PowerToys#5830",
+    "PowerToys#8048",
+    "PowerToys#5399",
+    "PowerToys#5402",
+    "PowerToys#5582",
+    "PowerToys#5716",
+    "PowerToys#6167",
+    "PowerToys#5688",
+    "PowerToys#5400",
+    "PowerToys#5922",
+    "PowerToys#5632",
+    "PowerToys#5661",
+    "PowerToys#5568",
+    "PowerToys#5598"
+   ]
+  },
+  {
+   "t": 1794875837.147867,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43776"
+   },
+   "seconds": 0.00013963697711005807,
+   "returned": [
+    "PowerToys#43776"
+   ]
+  },
+  {
+   "t": 1794875837.3305957,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#31226"
+   },
+   "seconds": 0.0005218669830355793,
+   "returned": [
+    "PowerToys#31226"
+   ]
+  },
+  {
+   "t": 1794875839.1123922,
+   "tool": "search",
+   "args": {
+    "pattern": "FATAL",
+    "regex": false,
+    "also": [
+     "USB",
+     "UI thread"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.21255627000937238,
+   "returned": [
+    "PowerToys#31226"
+   ]
+  },
+  {
+   "t": 1794875840.4242775,
+   "tool": "search",
+   "args": {
+    "pattern": "connect",
+    "regex": false,
+    "also": [
+     "UI thread's exception",
+     "0x80263001"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.19079398500616662,
+   "returned": [
+    "PowerToys#31226",
+    "PowerToys#43604",
+    "PowerToys#42629"
+   ]
+  },
+  {
+   "t": 1794875841.2945826,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43604"
+   },
+   "seconds": 0.00014037700020708144,
+   "returned": [
+    "PowerToys#43604"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9403,
+  "stop_reason": "end_turn",
+  "session_id": "0ef25ca3-434f-4f68-9e34-623f56f5eae1",
+  "total_cost_usd": 0.09296410000000001,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 19177,
+   "cache_read_input_tokens": 56721,
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "thinking_tokens": 92
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 19177,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 381,
+     "cache_read_input_tokens": 16112,
+     "cache_creation_input_tokens": 4478,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4478
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1056,
+    "cacheReadInputTokens": 56721,
+    "cacheCreationInputTokens": 19177,
+    "webSearchRequests": 0,
+    "costUSD": 0.09296410000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 92,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 19177,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#31226\", \"PowerToys#43776\", \"PowerToys#43604\"], \"answer\": \"This is very likely the known PowerToys Run crash \\\"[FATAL] From UI thread's exception\\\", which wraps a COMException 0x80263001 ({Desktop composition is disabled}). I couldn't see the contents of your attached log, so please check that it shows this exception. Connecting or disconnecting a device triggers a system theme or display change. PowerToys Run then fails in DwmExtendFrameIntoClientArea and shows the error window. The pinned solution in PowerToys#31226 is to update to PowerToys 0.96 or newer, which handles this failure more gracefully. The ticket says the root cause varies by machine and is often outside PowerToys, such as graphics driver problems or memory exhaustion. So also update your GPU/display drivers. If the error persists after updating, comment on PowerToys#31226 with your log. If your log shows a different exception, it is not a match for these tickets.\"}",
+  "ttft_ms": 958,
+  "type": "result",
+  "duration_ms": 13837,
+  "uuid": "75e14ae8-354d-4467-b14f-efebbe8d9ccf",
+  "ttft_stream_ms": 617,
+  "time_to_request_ms": 42,
+  "first_content_frame_ms": 617,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1056,
+    "cacheReadInputTokens": 56721,
+    "cacheCreationInputTokens": 19177,
+    "webSearchRequests": 0,
+    "costUSD": 0.09296410000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 92,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 19177,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.571451591997175,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ylrx1our/work"
+  }
+ },
+ "wall_seconds": 15.57318686900544,
+ "qid": "PowerToys#49130",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#31226",
+   "PowerToys#43776",
+   "PowerToys#43604"
+  ],
+  "answer": "This is very likely the known PowerToys Run crash \"[FATAL] From UI thread's exception\", which wraps a COMException 0x80263001 ({Desktop composition is disabled}). I couldn't see the contents of your attached log, so please check that it shows this exception. Connecting or disconnecting a device triggers a system theme or display change. PowerToys Run then fails in DwmExtendFrameIntoClientArea and shows the error window. The pinned solution in PowerToys#31226 is to update to PowerToys 0.96 or newer, which handles this failure more gracefully. The ticket says the root cause varies by machine and is often outside PowerToys, such as graphics driver problems or memory exhaustion. So also update your GPU/display drivers. If the error persists after updating, comment on PowerToys#31226 with your log. If your log shows a different exception, it is not a match for these tickets."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,357 @@
+{
+ "shown": [
+  "PowerToys#1060",
+  "PowerToys#1161",
+  "PowerToys#1163",
+  "PowerToys#2033",
+  "PowerToys#2287",
+  "PowerToys#2497",
+  "PowerToys#2499",
+  "PowerToys#2970",
+  "PowerToys#3317",
+  "PowerToys#3875",
+  "PowerToys#8542",
+  "PowerToys#953",
+  "terminal#10453",
+  "terminal#10761",
+  "terminal#11464",
+  "terminal#11676",
+  "terminal#12452",
+  "terminal#12564",
+  "terminal#12887",
+  "terminal#13630",
+  "terminal#14469",
+  "terminal#14820",
+  "terminal#1716",
+  "terminal#17677",
+  "terminal#18017",
+  "terminal#19382",
+  "terminal#2132",
+  "terminal#2557",
+  "terminal#2753",
+  "terminal#4110",
+  "terminal#4459",
+  "terminal#5174",
+  "terminal#5990",
+  "terminal#6254",
+  "terminal#7072",
+  "terminal#7294",
+  "terminal#8761",
+  "terminal#8802",
+  "terminal#9032",
+  "terminal#9452",
+  "terminal#9650",
+  "terminal#9675"
+ ],
+ "retrieval_seconds": 3.976692610012833,
+ "tool_calls": [
+  {
+   "t": 1794882893.8733664,
+   "tool": "search",
+   "args": {
+    "query": "\"Launch at login\" setting doesn't display reason when disabled by OS setting Startup page",
+    "repo": "terminal"
+   },
+   "seconds": 3.94806974902167,
+   "returned": [
+    "terminal#10761",
+    "terminal#13630",
+    "terminal#12887",
+    "terminal#14820",
+    "terminal#12564",
+    "terminal#14469",
+    "terminal#10453",
+    "terminal#7294",
+    "terminal#6254",
+    "terminal#18017",
+    "terminal#8802",
+    "terminal#8761",
+    "terminal#1716",
+    "terminal#4110",
+    "terminal#2132",
+    "terminal#19382",
+    "terminal#11464",
+    "terminal#5174",
+    "terminal#2557",
+    "terminal#11676"
+   ]
+  },
+  {
+   "t": 1794882895.958515,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#6254"
+   },
+   "seconds": 0.00013233697973191738,
+   "returned": [
+    "terminal#6254"
+   ]
+  },
+  {
+   "t": 1794882896.051018,
+   "tool": "search",
+   "args": {
+    "query": "launch at login toggle disabled by policy or user in Task Manager, missing explanatory text in settings UI",
+    "repo": "terminal"
+   },
+   "seconds": 0.013666982005815953,
+   "returned": [
+    "terminal#10761",
+    "terminal#12887",
+    "terminal#7294",
+    "terminal#8802",
+    "terminal#8761",
+    "terminal#11464",
+    "terminal#13630",
+    "terminal#2753",
+    "terminal#5990",
+    "terminal#2557",
+    "terminal#9650",
+    "terminal#10453",
+    "terminal#6254",
+    "terminal#4459",
+    "terminal#9675",
+    "terminal#17677",
+    "terminal#5174",
+    "terminal#12452",
+    "terminal#9032",
+    "terminal#9452"
+   ]
+  },
+  {
+   "t": 1794882897.9467204,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#10761"
+   },
+   "seconds": 0.00010550700244493783,
+   "returned": [
+    "terminal#10761"
+   ]
+  },
+  {
+   "t": 1794882899.4984162,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#12564"
+   },
+   "seconds": 0.00015540601452812552,
+   "returned": [
+    "terminal#12564"
+   ]
+  },
+  {
+   "t": 1794882901.0475075,
+   "tool": "search",
+   "args": {
+    "query": "Launch at login disabled by user or group policy, no reason shown, regression from PR #20200",
+    "repo": null
+   },
+   "seconds": 0.014562628988642246,
+   "returned": [
+    "terminal#10761",
+    "PowerToys#3317",
+    "terminal#10453",
+    "terminal#9452",
+    "terminal#11464",
+    "PowerToys#2499",
+    "terminal#19382",
+    "PowerToys#1161",
+    "PowerToys#2033",
+    "PowerToys#1163",
+    "terminal#12887",
+    "PowerToys#953",
+    "PowerToys#3875",
+    "terminal#13630",
+    "PowerToys#2497",
+    "terminal#7072",
+    "PowerToys#2970",
+    "PowerToys#8542",
+    "PowerToys#1060",
+    "PowerToys#2287"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13179,
+  "stop_reason": "end_turn",
+  "session_id": "8a9d5150-2721-48e2-a8a9-eabad0984017",
+  "total_cost_usd": 0.036821599999999996,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 6576,
+   "cache_read_input_tokens": 21236,
+   "output_tokens": 837,
+   "output_tokens_details": {
+    "thinking_tokens": 47
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6576,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 309,
+     "cache_read_input_tokens": 6321,
+     "cache_creation_input_tokens": 1288,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1288
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 837,
+    "cacheReadInputTokens": 21236,
+    "cacheCreationInputTokens": 6576,
+    "webSearchRequests": 0,
+    "costUSD": 0.036821599999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 47,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6576,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this exact problem. In the current Startup page, the \\\"Launch at login\\\" toggle is disabled by an OS setting, and the UI doesn't say why. The localized explanation text already exists, so this looks like a regression from PR #20200. The nearest tickets are different. terminal#6254 asks for UX feedback for the different StartupTaskState values, such as DisabledByUser. It is an old feature request from 2020 and doesn't report this regression. terminal#12564 covers making the toggle follow the OS startup setting. Treat this as a new bug. Link it to PR #20200 and to terminal#6254 for context. The fix is to show the existing localized reason text when the startup task is disabled by the OS. In the meantime, the user can re-enable Terminal under Windows Settings > Apps > Startup (or in Task Manager's Startup tab).\"}",
+  "ttft_ms": 2272,
+  "type": "result",
+  "duration_ms": 17233,
+  "uuid": "8cabf4c1-02d8-464c-ac00-9de5f31fee38",
+  "ttft_stream_ms": 1657,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 1657,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 837,
+    "cacheReadInputTokens": 21236,
+    "cacheCreationInputTokens": 6576,
+    "webSearchRequests": 0,
+    "costUSD": 0.036821599999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 47,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6576,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.77666259399848,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-tx8lsh_f/work"
+  }
+ },
+ "wall_seconds": 18.779373042983934,
+ "qid": "terminal#20685",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this exact problem. In the current Startup page, the \"Launch at login\" toggle is disabled by an OS setting, and the UI doesn't say why. The localized explanation text already exists, so this looks like a regression from PR #20200. The nearest tickets are different. terminal#6254 asks for UX feedback for the different StartupTaskState values, such as DisabledByUser. It is an old feature request from 2020 and doesn't report this regression. terminal#12564 covers making the toggle follow the OS startup setting. Treat this as a new bug. Link it to PR #20200 and to terminal#6254 for context. The fix is to show the existing localized reason text when the startup task is disabled by the OS. In the meantime, the user can re-enable Terminal under Windows Settings > Apps > Startup (or in Task Manager's Startup tab)."
+ },
+ "hit_turn_cap": false
+}

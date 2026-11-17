@@ -1,0 +1,421 @@
+{
+ "shown": [
+  "PowerToys#10050",
+  "PowerToys#10301",
+  "PowerToys#11567",
+  "PowerToys#1163",
+  "PowerToys#11718",
+  "PowerToys#11780",
+  "PowerToys#12124",
+  "PowerToys#14175",
+  "PowerToys#14702",
+  "PowerToys#18067",
+  "PowerToys#1948",
+  "PowerToys#21451",
+  "PowerToys#2148",
+  "PowerToys#23259",
+  "PowerToys#2420",
+  "PowerToys#26144",
+  "PowerToys#26995",
+  "PowerToys#27372",
+  "PowerToys#27904",
+  "PowerToys#28258",
+  "PowerToys#29420",
+  "PowerToys#29612",
+  "PowerToys#3149",
+  "PowerToys#3152",
+  "PowerToys#32214",
+  "PowerToys#3281",
+  "PowerToys#32895",
+  "PowerToys#35807",
+  "PowerToys#35904",
+  "PowerToys#3722",
+  "PowerToys#3881",
+  "PowerToys#40465",
+  "PowerToys#40678",
+  "PowerToys#41047",
+  "PowerToys#417",
+  "PowerToys#41750",
+  "PowerToys#4352",
+  "PowerToys#4360",
+  "PowerToys#4753",
+  "PowerToys#5647",
+  "PowerToys#6023",
+  "PowerToys#6983",
+  "PowerToys#7512",
+  "PowerToys#77",
+  "PowerToys#8234",
+  "PowerToys#827",
+  "PowerToys#8762"
+ ],
+ "retrieval_seconds": 3.7091482541000005,
+ "tool_calls": [
+  {
+   "t": 1794882033.4425375,
+   "tool": "search",
+   "args": {
+    "query": "Mouse Without Borders new key button does nothing, no devices listed",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.679112616024213,
+   "returned": [
+    "PowerToys#77",
+    "PowerToys#5647",
+    "PowerToys#3722",
+    "PowerToys#10301",
+    "PowerToys#12124",
+    "PowerToys#26995",
+    "PowerToys#35904",
+    "PowerToys#23259",
+    "PowerToys#26144",
+    "PowerToys#27904",
+    "PowerToys#40678",
+    "PowerToys#28258",
+    "PowerToys#27372",
+    "PowerToys#40465",
+    "PowerToys#4352",
+    "PowerToys#32895",
+    "PowerToys#11780",
+    "PowerToys#2420",
+    "PowerToys#8234",
+    "PowerToys#29420"
+   ]
+  },
+  {
+   "t": 1794882033.468194,
+   "tool": "search",
+   "args": {
+    "query": "can't open settings window after update, Mouse Without Borders not working",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012988322007004172,
+   "returned": [
+    "PowerToys#4753",
+    "PowerToys#29612",
+    "PowerToys#11718",
+    "PowerToys#1948",
+    "PowerToys#827",
+    "PowerToys#2420",
+    "PowerToys#7512",
+    "PowerToys#6023",
+    "PowerToys#6983",
+    "PowerToys#3149",
+    "PowerToys#1163",
+    "PowerToys#14702",
+    "PowerToys#14175",
+    "PowerToys#417",
+    "PowerToys#3881",
+    "PowerToys#10050",
+    "PowerToys#18067",
+    "PowerToys#3152",
+    "PowerToys#41047",
+    "PowerToys#3281"
+   ]
+  },
+  {
+   "t": 1794882034.2919433,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35904"
+   },
+   "seconds": 0.0001716350088827312,
+   "returned": [
+    "PowerToys#35904"
+   ]
+  },
+  {
+   "t": 1794882034.520669,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#26995"
+   },
+   "seconds": 0.0001388870005030185,
+   "returned": [
+    "PowerToys#26995"
+   ]
+  },
+  {
+   "t": 1794882034.7051506,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#28258"
+   },
+   "seconds": 0.0001482670195400715,
+   "returned": [
+    "PowerToys#28258"
+   ]
+  },
+  {
+   "t": 1794882036.0679958,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35807"
+   },
+   "seconds": 0.0005607160273939371,
+   "returned": [
+    "PowerToys#35807"
+   ]
+  },
+  {
+   "t": 1794882036.7243457,
+   "tool": "search",
+   "args": {
+    "query": "Mouse Without Borders New key does nothing after settings window wouldn't open, 0.100 / 0.101",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.015509496006416157,
+   "returned": [
+    "PowerToys#27372",
+    "PowerToys#26995",
+    "PowerToys#26144",
+    "PowerToys#29612",
+    "PowerToys#8234",
+    "PowerToys#32214",
+    "PowerToys#4753",
+    "PowerToys#11567",
+    "PowerToys#4360",
+    "PowerToys#35904",
+    "PowerToys#27904",
+    "PowerToys#21451",
+    "PowerToys#32895",
+    "PowerToys#77",
+    "PowerToys#8762",
+    "PowerToys#29420",
+    "PowerToys#41750",
+    "PowerToys#6983",
+    "PowerToys#2420",
+    "PowerToys#2148"
+   ]
+  },
+  {
+   "t": 1794882037.5803118,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#27904"
+   },
+   "seconds": 0.00012595599400810897,
+   "returned": [
+    "PowerToys#27904"
+   ]
+  },
+  {
+   "t": 1794882037.7094398,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32214"
+   },
+   "seconds": 0.0001383960188832134,
+   "returned": [
+    "PowerToys#32214"
+   ]
+  },
+  {
+   "t": 1794882038.569757,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#28258"
+   },
+   "seconds": 0.00012143698404543102,
+   "returned": [
+    "PowerToys#28258"
+   ]
+  },
+  {
+   "t": 1794882039.346911,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#26995"
+   },
+   "seconds": 0.00013252600911073387,
+   "returned": [
+    "PowerToys#26995"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11107,
+  "stop_reason": "end_turn",
+  "session_id": "00ef066f-fbe7-4c0f-ac22-d8b4a0327a84",
+  "total_cost_usd": 0.06673820000000001,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 12022,
+   "cache_read_input_tokens": 48922,
+   "output_tokens": 1373,
+   "output_tokens_details": {
+    "thinking_tokens": 57
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12022,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 533,
+     "cache_read_input_tokens": 12161,
+     "cache_creation_input_tokens": 894,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 894
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1373,
+    "cacheReadInputTokens": 48922,
+    "cacheCreationInputTokens": 12022,
+    "webSearchRequests": 0,
+    "costUSD": 0.06673820000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 57,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12022,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#26995\", \"PowerToys#28258\", \"PowerToys#27904\"], \"answer\": \"This looks like a known problem. In Mouse Without Borders, the \\\"New key\\\" button does nothing and the key box stays empty. The \\\"New key\\\" button works by signalling the PowerToys.MouseWithoutBorders.exe process, so it fails when that process isn't running. Past tickets suggest these steps, roughly in this order:\\n1. Go to the General tab in PowerToys Settings. Turn the Mouse Without Borders toggle off, then on again. One user in #26995 reported this fixed it.\\n2. Close PowerToys and delete the folder %LocalAppData%\\\\Microsoft\\\\PowerToys\\\\MouseWithoutBorders. Then restart PowerToys and try \\\"New key\\\" again. A maintainer suggested this in #28258.\\n3. Try turning off the \\\"Use Service\\\" option. The maintainer in #28258 also suggested this.\\n4. Check Task Manager for PowerToys.MouseWithoutBorders.exe. If it isn't running, that explains the unresponsive button.\\n5. If the original Microsoft \\\"Mouse without Borders\\\" app is installed, uninstall it. A user in #26995 reported that it blocked key generation.\\n\\nNone of these tickets has a confirmed fix for every case. Your ticket is on 0.101, much newer than any of them, and you also had trouble opening Settings earlier. If the steps above don't help, say so in the ticket and attach the bug report zip you already uploaded.\"}",
+  "ttft_ms": 979,
+  "type": "result",
+  "duration_ms": 14467,
+  "uuid": "9b8ab61b-5700-4a86-b599-8e6d8758b7f3",
+  "ttft_stream_ms": 557,
+  "time_to_request_ms": 42,
+  "first_content_frame_ms": 557,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1373,
+    "cacheReadInputTokens": 48922,
+    "cacheCreationInputTokens": 12022,
+    "webSearchRequests": 0,
+    "costUSD": 0.06673820000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 57,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12022,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.869702889001928,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-3sioh7ce/work"
+  }
+ },
+ "wall_seconds": 15.87150071200449,
+ "qid": "PowerToys#50359",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#26995",
+   "PowerToys#28258",
+   "PowerToys#27904"
+  ],
+  "answer": "This looks like a known problem. In Mouse Without Borders, the \"New key\" button does nothing and the key box stays empty. The \"New key\" button works by signalling the PowerToys.MouseWithoutBorders.exe process, so it fails when that process isn't running. Past tickets suggest these steps, roughly in this order:\n1. Go to the General tab in PowerToys Settings. Turn the Mouse Without Borders toggle off, then on again. One user in #26995 reported this fixed it.\n2. Close PowerToys and delete the folder %LocalAppData%\\Microsoft\\PowerToys\\MouseWithoutBorders. Then restart PowerToys and try \"New key\" again. A maintainer suggested this in #28258.\n3. Try turning off the \"Use Service\" option. The maintainer in #28258 also suggested this.\n4. Check Task Manager for PowerToys.MouseWithoutBorders.exe. If it isn't running, that explains the unresponsive button.\n5. If the original Microsoft \"Mouse without Borders\" app is installed, uninstall it. A user in #26995 reported that it blocked key generation.\n\nNone of these tickets has a confirmed fix for every case. Your ticket is on 0.101, much newer than any of them, and you also had trouble opening Settings earlier. If the steps above don't help, say so in the ticket and attach the bug report zip you already uploaded."
+ },
+ "hit_turn_cap": false
+}

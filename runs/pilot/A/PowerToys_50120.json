@@ -1,0 +1,193 @@
+{
+ "shown": [
+  "PowerToys#34521",
+  "PowerToys#31768",
+  "PowerToys#47865",
+  "PowerToys#48120",
+  "PowerToys#48678"
+ ],
+ "retrieval_seconds": 0.013341338984901085,
+ "retrieval_scores": [
+  0.6430004239082336,
+  0.5898393392562866,
+  0.5854297280311584,
+  0.572040319442749,
+  0.5416978001594543
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2131,
+  "stop_reason": "end_turn",
+  "session_id": "c06f6ea5-419c-4c82-9d91-e048ea0fef9e",
+  "total_cost_usd": 0.011982,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 2472,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 209,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 2472,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 209,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 2472,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2472
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 209,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 2472,
+    "webSearchRequests": 0,
+    "costUSD": 0.011982,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2472,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#47865\"], \"answer\": \"A past ticket (PowerToys#47865) reports the same request: the Power Display system tray icon is just an ambiguous grey rectangle, and the reporter asked for a clearer, Twinkle Tray-style brightness icon. A maintainer acknowledged it there and asked whether the icon should be improved, but the ticket records no fix or workaround yet. There is nothing to do on your side for now. Follow PowerToys#47865 for updates, and add your request for a monochrome icon there, with your screenshot, so it is tracked in one place.\"}",
+  "ttft_ms": 2270,
+  "type": "result",
+  "duration_ms": 2308,
+  "uuid": "c3ec98f6-3f54-4750-85b4-ba4178313b81",
+  "ttft_stream_ms": 708,
+  "time_to_request_ms": 169,
+  "first_content_frame_ms": 708,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 209,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 2472,
+    "webSearchRequests": 0,
+    "costUSD": 0.011982,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2472,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.2053657040232792,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-nt4qmdi6/work"
+  }
+ },
+ "wall_seconds": 3.2203396419936325,
+ "qid": "PowerToys#50120",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#47865"
+  ],
+  "answer": "A past ticket (PowerToys#47865) reports the same request: the Power Display system tray icon is just an ambiguous grey rectangle, and the reporter asked for a clearer, Twinkle Tray-style brightness icon. A maintainer acknowledged it there and asked whether the icon should be improved, but the ticket records no fix or workaround yet. There is nothing to do on your side for now. Follow PowerToys#47865 for updates, and add your request for a monochrome icon there, with your screenshot, so it is tracked in one place."
+ },
+ "hit_turn_cap": false
+}

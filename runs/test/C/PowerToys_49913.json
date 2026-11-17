@@ -1,0 +1,336 @@
+{
+ "shown": [
+  "PowerToys#1331",
+  "PowerToys#42401",
+  "PowerToys#42436",
+  "PowerToys#42531",
+  "PowerToys#42561",
+  "PowerToys#42562",
+  "PowerToys#42596",
+  "PowerToys#42611",
+  "PowerToys#42621",
+  "PowerToys#42857",
+  "PowerToys#42984",
+  "PowerToys#43201",
+  "PowerToys#43248",
+  "PowerToys#43342",
+  "PowerToys#44867",
+  "PowerToys#45077",
+  "PowerToys#45528",
+  "PowerToys#45960",
+  "PowerToys#46461",
+  "PowerToys#47786",
+  "PowerToys#47986",
+  "PowerToys#48361",
+  "PowerToys#48705",
+  "PowerToys#5008",
+  "PowerToys#6037",
+  "terminal#16984",
+  "terminal#6491",
+  "terminal#6658"
+ ],
+ "retrieval_seconds": 3.1900890899414662,
+ "tool_calls": [
+  {
+   "t": 1794880266.4960487,
+   "tool": "search",
+   "args": {
+    "query": "Light Switch change wallpaper when theme switches light/dark",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.1769461229851004,
+   "returned": [
+    "PowerToys#45077",
+    "PowerToys#48705",
+    "PowerToys#42436",
+    "PowerToys#42611",
+    "PowerToys#1331",
+    "PowerToys#45528",
+    "PowerToys#42596",
+    "PowerToys#43201",
+    "PowerToys#44867",
+    "PowerToys#42561",
+    "PowerToys#42531",
+    "PowerToys#42984",
+    "PowerToys#46461",
+    "PowerToys#48361",
+    "PowerToys#45960",
+    "PowerToys#43342",
+    "PowerToys#42857",
+    "PowerToys#42562",
+    "PowerToys#43248",
+    "PowerToys#42621"
+   ]
+  },
+  {
+   "t": 1794880266.5230687,
+   "tool": "search",
+   "args": {
+    "query": "Light Switch set different desktop wallpaper for light and dark mode",
+    "repo": null
+   },
+   "seconds": 0.012514093978097662,
+   "returned": [
+    "PowerToys#45528",
+    "PowerToys#46461",
+    "PowerToys#42531",
+    "PowerToys#45077",
+    "PowerToys#43248",
+    "PowerToys#47986",
+    "PowerToys#48705",
+    "PowerToys#42436",
+    "PowerToys#44867",
+    "PowerToys#42561",
+    "PowerToys#45960",
+    "PowerToys#1331",
+    "terminal#6491",
+    "PowerToys#5008",
+    "terminal#16984",
+    "PowerToys#42562",
+    "PowerToys#6037",
+    "terminal#6658",
+    "PowerToys#47786",
+    "PowerToys#42401"
+   ]
+  },
+  {
+   "t": 1794880267.591908,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42531"
+   },
+   "seconds": 0.0001466659887228161,
+   "returned": [
+    "PowerToys#42531"
+   ]
+  },
+  {
+   "t": 1794880267.8179903,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45077"
+   },
+   "seconds": 0.0001290359941776842,
+   "returned": [
+    "PowerToys#45077"
+   ]
+  },
+  {
+   "t": 1794880267.9987817,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42401"
+   },
+   "seconds": 0.0001281870063394308,
+   "returned": [
+    "PowerToys#42401"
+   ]
+  },
+  {
+   "t": 1794880268.743334,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42436"
+   },
+   "seconds": 0.00014130599447526038,
+   "returned": [
+    "PowerToys#42436"
+   ]
+  },
+  {
+   "t": 1794880269.5929847,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42624"
+   },
+   "seconds": 8.367799455299973e-05,
+   "returned": []
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6741,
+  "stop_reason": "end_turn",
+  "session_id": "22dd8706-0062-4589-968f-96ad568add87",
+  "total_cost_usd": 0.033013400000000005,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 5842,
+   "cache_read_input_tokens": 20854,
+   "output_tokens": 754,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5842,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 267,
+     "cache_read_input_tokens": 6783,
+     "cache_creation_input_tokens": 92,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 92
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 754,
+    "cacheReadInputTokens": 20854,
+    "cacheCreationInputTokens": 5842,
+    "webSearchRequests": 0,
+    "costUSD": 0.033013400000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5842,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#42436\", \"PowerToys#45077\", \"PowerToys#42531\"], \"answer\": \"This feature request has been filed many times before. Light Switch can't change the wallpaper with the theme yet. The other tickets were closed as duplicates of PowerToys#42436, so that ticket is the one to follow and add your use case to. A contributor said in that ticket (PowerToys#42436) that they had a prototype for wallpaper switching and linked it to PR #42624. I couldn't find that PR in the archive, so I can't tell you whether it was merged. Until it ships, you can use a separate tool that switches the wallpaper with the theme. One commenter suggested Auto Dark Mode, which does this. WinDynamicDesktop was also mentioned.\"}",
+  "ttft_ms": 1042,
+  "type": "result",
+  "duration_ms": 9735,
+  "uuid": "af768518-f957-4f59-8501-252f2def6161",
+  "ttft_stream_ms": 585,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 586,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 754,
+    "cacheReadInputTokens": 20854,
+    "cacheCreationInputTokens": 5842,
+    "webSearchRequests": 0,
+    "costUSD": 0.033013400000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5842,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.467831951013068,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-5uvsac7i/work"
+  }
+ },
+ "wall_seconds": 11.469573434005724,
+ "qid": "PowerToys#49913",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#42436",
+   "PowerToys#45077",
+   "PowerToys#42531"
+  ],
+  "answer": "This feature request has been filed many times before. Light Switch can't change the wallpaper with the theme yet. The other tickets were closed as duplicates of PowerToys#42436, so that ticket is the one to follow and add your use case to. A contributor said in that ticket (PowerToys#42436) that they had a prototype for wallpaper switching and linked it to PR #42624. I couldn't find that PR in the archive, so I can't tell you whether it was merged. Until it ships, you can use a separate tool that switches the wallpaper with the theme. One commenter suggested Auto Dark Mode, which does this. WinDynamicDesktop was also mentioned."
+ },
+ "hit_turn_cap": false
+}

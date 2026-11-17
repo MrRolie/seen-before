@@ -1,0 +1,320 @@
+{
+ "shown": [
+  "PowerToys#10060",
+  "PowerToys#117",
+  "PowerToys#12574",
+  "PowerToys#1411",
+  "PowerToys#16861",
+  "PowerToys#1984",
+  "PowerToys#2015",
+  "PowerToys#23813",
+  "PowerToys#24283",
+  "PowerToys#28933",
+  "PowerToys#29430",
+  "PowerToys#29996",
+  "PowerToys#30665",
+  "PowerToys#33",
+  "PowerToys#33502",
+  "PowerToys#33984",
+  "PowerToys#34",
+  "PowerToys#34030",
+  "PowerToys#35977",
+  "PowerToys#36023",
+  "PowerToys#37165",
+  "PowerToys#39725",
+  "PowerToys#41213",
+  "PowerToys#41861",
+  "PowerToys#44029",
+  "PowerToys#45277",
+  "PowerToys#45712",
+  "PowerToys#46174",
+  "PowerToys#46682",
+  "PowerToys#47478",
+  "PowerToys#47860",
+  "PowerToys#48484",
+  "PowerToys#48614",
+  "PowerToys#5363",
+  "PowerToys#642",
+  "PowerToys#7715",
+  "PowerToys#8435",
+  "PowerToys#9015",
+  "PowerToys#9387",
+  "PowerToys#975"
+ ],
+ "retrieval_seconds": 3.6352579740050714,
+ "tool_calls": [
+  {
+   "t": 1794877799.8385017,
+   "tool": "similar",
+   "args": {
+    "query": "Quick Access menu customize which tools appear, add or remove tools, reorder",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.5514287010009866,
+   "returned": [
+    "PowerToys#34030",
+    "PowerToys#41213",
+    "PowerToys#33",
+    "PowerToys#45277",
+    "PowerToys#8435",
+    "PowerToys#117",
+    "PowerToys#29996",
+    "PowerToys#30665",
+    "PowerToys#10060",
+    "PowerToys#642",
+    "PowerToys#975",
+    "PowerToys#34",
+    "PowerToys#1984",
+    "PowerToys#35977",
+    "PowerToys#2015",
+    "PowerToys#7715",
+    "PowerToys#16861",
+    "PowerToys#5363",
+    "PowerToys#1411",
+    "PowerToys#9015"
+   ]
+  },
+  {
+   "t": 1794877799.9356127,
+   "tool": "search",
+   "args": {
+    "pattern": "Quick Access",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.08355630000005476,
+   "returned": [
+    "PowerToys#24283",
+    "PowerToys#47478",
+    "PowerToys#33502",
+    "PowerToys#48614",
+    "PowerToys#45712",
+    "PowerToys#39725",
+    "PowerToys#37165",
+    "PowerToys#23813",
+    "PowerToys#48484",
+    "PowerToys#47860",
+    "PowerToys#44029",
+    "PowerToys#41861",
+    "PowerToys#36023",
+    "PowerToys#33984",
+    "PowerToys#29430",
+    "PowerToys#28933",
+    "PowerToys#12574",
+    "PowerToys#9387",
+    "PowerToys#46682",
+    "PowerToys#46174"
+   ]
+  },
+  {
+   "t": 1794877801.7473943,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34030"
+   },
+   "seconds": 0.00012251699808984995,
+   "returned": [
+    "PowerToys#34030"
+   ]
+  },
+  {
+   "t": 1794877801.9113905,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48614"
+   },
+   "seconds": 0.0001504560059402138,
+   "returned": [
+    "PowerToys#48614"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6636,
+  "stop_reason": "end_turn",
+  "session_id": "a9eacea1-4b95-4b92-b4f3-bdce6766c1f7",
+  "total_cost_usd": 0.037362900000000004,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 7640,
+   "cache_read_input_tokens": 11409,
+   "output_tokens": 565,
+   "output_tokens_details": {
+    "thinking_tokens": 47
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7640,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 214,
+     "cache_read_input_tokens": 7652,
+     "cache_creation_input_tokens": 1401,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1401
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 565,
+    "cacheReadInputTokens": 11409,
+    "cacheCreationInputTokens": 7640,
+    "webSearchRequests": 0,
+    "costUSD": 0.037362900000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 47,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7640,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#24283\", \"PowerToys#34030\", \"PowerToys#48614\"], \"answer\": \"This feature request has been filed before. The maintainers treat PowerToys#24283 (customize the Quick Access icons) as the main tracking issue. They closed later requests, including #34030 and #48614, as duplicates of it. Quick Access can't be customized yet, so there is no workaround. The tools shown are fixed, and disabling a module is the only way to remove one. Subscribe to #24283 for updates and add your suggestions there: pick and reorder tools, scroll when the list is long, and search.\"}",
+  "ttft_ms": 2224,
+  "type": "result",
+  "duration_ms": 10344,
+  "uuid": "decf3901-3df3-4e20-8858-b3f3848cf432",
+  "ttft_stream_ms": 1366,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 1366,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 565,
+    "cacheReadInputTokens": 11409,
+    "cacheCreationInputTokens": 7640,
+    "webSearchRequests": 0,
+    "costUSD": 0.037362900000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 47,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7640,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.686489079002058,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-isxa4v9c/work"
+  }
+ },
+ "wall_seconds": 11.68796279100934,
+ "qid": "PowerToys#49257",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#24283",
+   "PowerToys#34030",
+   "PowerToys#48614"
+  ],
+  "answer": "This feature request has been filed before. The maintainers treat PowerToys#24283 (customize the Quick Access icons) as the main tracking issue. They closed later requests, including #34030 and #48614, as duplicates of it. Quick Access can't be customized yet, so there is no workaround. The tools shown are fixed, and disabling a module is the only way to remove one. Subscribe to #24283 for updates and add your suggestions there: pick and reorder tools, scroll when the list is long, and search."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#43857",
+  "PowerToys#44319",
+  "PowerToys#42659",
+  "PowerToys#43032",
+  "PowerToys#43499"
+ ],
+ "retrieval_seconds": 0.021625085006235167,
+ "retrieval_scores": [
+  0.755233645439148,
+  0.7530304193496704,
+  0.7412238121032715,
+  0.7409620881080627,
+  0.7312992811203003
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 4178,
+  "stop_reason": "end_turn",
+  "session_id": "f9a7c832-1fea-4038-9bfe-9b16cac3f7b1",
+  "total_cost_usd": 0.028966,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6463,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 311,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6463,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 311,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6463,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6463
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 311,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6463,
+    "webSearchRequests": 0,
+    "costUSD": 0.028966,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6463,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#43499\", \"PowerToys#43857\", \"PowerToys#44319\"], \"answer\": \"This is a known issue: the screen goes black (the display driver resets and desktop composition is briefly disabled), and PowerToys shows a 'Something went wrong - Desktop composition is disabled' error (COMException 0x80263001). It is tracked in PowerToys#31226, and the past tickets were closed as duplicates of it. The maintainers' advice in those tickets is to update PowerToys to version 0.96 or newer, so please upgrade from 0.102.3001 only if you are not already on the latest release, and check for a new release. The error dialog itself is harmless and can be dismissed. If the black screen keeps happening, it may be a graphics driver timeout, so update your GPU driver and Windows. Please follow #31226 for further updates and add your log file there if the problem continues on a current version.\"}",
+  "ttft_ms": 4342,
+  "type": "result",
+  "duration_ms": 4363,
+  "uuid": "c507c88b-973a-4861-bb74-ab1a92a502dc",
+  "ttft_stream_ms": 1545,
+  "time_to_request_ms": 184,
+  "first_content_frame_ms": 1545,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 311,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6463,
+    "webSearchRequests": 0,
+    "costUSD": 0.028966,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6463,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 5.31192227997235,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-3k4xnvb3/work"
+  }
+ },
+ "wall_seconds": 5.3355458909936715,
+ "qid": "PowerToys#51808",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#43499",
+   "PowerToys#43857",
+   "PowerToys#44319"
+  ],
+  "answer": "This is a known issue: the screen goes black (the display driver resets and desktop composition is briefly disabled), and PowerToys shows a 'Something went wrong - Desktop composition is disabled' error (COMException 0x80263001). It is tracked in PowerToys#31226, and the past tickets were closed as duplicates of it. The maintainers' advice in those tickets is to update PowerToys to version 0.96 or newer, so please upgrade from 0.102.3001 only if you are not already on the latest release, and check for a new release. The error dialog itself is harmless and can be dismissed. If the black screen keeps happening, it may be a graphics driver timeout, so update your GPU driver and Windows. Please follow #31226 for further updates and add your log file there if the problem continues on a current version."
+ },
+ "hit_turn_cap": false
+}

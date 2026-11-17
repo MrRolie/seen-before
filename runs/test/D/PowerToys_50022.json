@@ -1,0 +1,336 @@
+{
+ "shown": [
+  "PowerToys#32",
+  "PowerToys#40621",
+  "PowerToys#45890",
+  "PowerToys#46291",
+  "PowerToys#46610",
+  "PowerToys#47031",
+  "PowerToys#47155",
+  "PowerToys#47162",
+  "PowerToys#47253",
+  "PowerToys#47327",
+  "PowerToys#47430",
+  "PowerToys#47483",
+  "PowerToys#47765",
+  "PowerToys#48045",
+  "PowerToys#48060",
+  "PowerToys#48833",
+  "PowerToys#48858",
+  "PowerToys#48933",
+  "PowerToys#48934",
+  "PowerToys#49053"
+ ],
+ "retrieval_seconds": 4.1307414259936195,
+ "tool_calls": [
+  {
+   "t": 1794880803.3844616,
+   "tool": "similar",
+   "args": {
+    "query": "Command Palette Dock network widget does not save selected network interface after reboot",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.06371938099619,
+   "returned": [
+    "PowerToys#47765",
+    "PowerToys#48858",
+    "PowerToys#47031",
+    "PowerToys#48045",
+    "PowerToys#48833",
+    "PowerToys#48933",
+    "PowerToys#47155",
+    "PowerToys#46291",
+    "PowerToys#32",
+    "PowerToys#49053",
+    "PowerToys#45890",
+    "PowerToys#47253",
+    "PowerToys#47430",
+    "PowerToys#47162",
+    "PowerToys#48060",
+    "PowerToys#47327",
+    "PowerToys#46610",
+    "PowerToys#48934",
+    "PowerToys#40621",
+    "PowerToys#47483"
+   ]
+  },
+  {
+   "t": 1794880803.4767072,
+   "tool": "search",
+   "args": {
+    "pattern": "Next Network",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06589701498160139,
+   "returned": [
+    "PowerToys#48858"
+   ]
+  },
+  {
+   "t": 1794880804.3836894,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48858"
+   },
+   "seconds": 0.00023606399190612137,
+   "returned": [
+    "PowerToys#48858"
+   ]
+  },
+  {
+   "t": 1794880804.519273,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47765"
+   },
+   "seconds": 0.0002884819987230003,
+   "returned": [
+    "PowerToys#47765"
+   ]
+  },
+  {
+   "t": 1794880805.3667057,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47430"
+   },
+   "seconds": 0.00010553700849413872,
+   "returned": [
+    "PowerToys#47430"
+   ]
+  },
+  {
+   "t": 1794880806.2740517,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46610"
+   },
+   "seconds": 0.00013900600606575608,
+   "returned": [
+    "PowerToys#46610"
+   ]
+  },
+  {
+   "t": 1794880807.0508962,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48833"
+   },
+   "seconds": 0.00012256699847057462,
+   "returned": [
+    "PowerToys#48833"
+   ]
+  },
+  {
+   "t": 1794880808.1266325,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48934"
+   },
+   "seconds": 0.00011875701602548361,
+   "returned": [
+    "PowerToys#48934"
+   ]
+  },
+  {
+   "t": 1794880808.9138637,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47031"
+   },
+   "seconds": 0.00011461699614301324,
+   "returned": [
+    "PowerToys#47031"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9979,
+  "stop_reason": "end_turn",
+  "session_id": "65b5ff01-e97f-4698-8754-17d4a8b3fc77",
+  "total_cost_usd": 0.04927759999999999,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 8628,
+   "cache_read_input_tokens": 46236,
+   "output_tokens": 1011,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8628,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 379,
+     "cache_read_input_tokens": 9400,
+     "cache_creation_input_tokens": 641,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 641
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1011,
+    "cacheReadInputTokens": 46236,
+    "cacheCreationInputTokens": 8628,
+    "webSearchRequests": 0,
+    "costUSD": 0.04927759999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8628,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48858\", \"PowerToys#46610\", \"PowerToys#47430\"], \"answer\": \"This has been reported before. The Command Palette Dock doesn't persist the network adapter you pick with 'Next Network', so after a reboot it goes back to the wrong adapter. In your case that is the unplugged Ethernet NIC, which is why send and receive show zeros. The archive has no fix or confirmed release for it. PowerToys#48858 is the same report, with the same steps, and others confirm it there. PowerToys#46610 and PowerToys#47430 describe the same symptom. Workarounds from those tickets: after each reboot, switch to the correct adapter again, either with 'Next Network' or in the network flyout you get by clicking the network item. Alternatively, disable the unused Ethernet adapter, which one user in #48858 said works around it. Another user in #47430 said toggling the Dock off and on in Command Palette settings helped them, but it doesn't make the selection persist. Subscribe to #48858 for updates and add your PowerToys version (0.100.2) and your bug report there.\"}",
+  "ttft_ms": 1006,
+  "type": "result",
+  "duration_ms": 13939,
+  "uuid": "cdcbef45-676c-4a33-8f2e-1d028533666a",
+  "ttft_stream_ms": 548,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 548,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1011,
+    "cacheReadInputTokens": 46236,
+    "cacheCreationInputTokens": 8628,
+    "webSearchRequests": 0,
+    "costUSD": 0.04927759999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8628,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.386429648002377,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-gqzhxaok/work"
+  }
+ },
+ "wall_seconds": 15.389315501000965,
+ "qid": "PowerToys#50022",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48858",
+   "PowerToys#46610",
+   "PowerToys#47430"
+  ],
+  "answer": "This has been reported before. The Command Palette Dock doesn't persist the network adapter you pick with 'Next Network', so after a reboot it goes back to the wrong adapter. In your case that is the unplugged Ethernet NIC, which is why send and receive show zeros. The archive has no fix or confirmed release for it. PowerToys#48858 is the same report, with the same steps, and others confirm it there. PowerToys#46610 and PowerToys#47430 describe the same symptom. Workarounds from those tickets: after each reboot, switch to the correct adapter again, either with 'Next Network' or in the network flyout you get by clicking the network item. Alternatively, disable the unused Ethernet adapter, which one user in #48858 said works around it. Another user in #47430 said toggling the Dock off and on in Command Palette settings helped them, but it doesn't make the selection persist. Subscribe to #48858 for updates and add your PowerToys version (0.100.2) and your bug report there."
+ },
+ "hit_turn_cap": false
+}

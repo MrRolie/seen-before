@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#39249",
+  "PowerToys#25646",
+  "PowerToys#40443",
+  "PowerToys#33337",
+  "PowerToys#27541"
+ ],
+ "retrieval_seconds": 0.6130410030018538,
+ "retrieval_scores": [
+  0.032018442622950824,
+  0.031009615384615385,
+  0.030886196246139225,
+  0.029957522915269395,
+  0.027106227106227107
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3174,
+  "stop_reason": "end_turn",
+  "session_id": "da524b91-b8a3-47c4-974b-d7071855eb83",
+  "total_cost_usd": 0.022306,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4813,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 305,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4813,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 305,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4813,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4813
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 305,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4813,
+    "webSearchRequests": 0,
+    "costUSD": 0.022306,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4813,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#33337\", \"PowerToys#40443\", \"PowerToys#39249\"], \"answer\": \"This feature request has been filed before: holding a modifier key (Shift, Ctrl, Alt, etc.) while using the regular vertical mouse wheel to force horizontal scrolling system-wide. Newer duplicates were closed in favor of PowerToys#33337 (the original request for emulated or forced horizontal scroll with a selectable key), and PowerToys#39249 was closed as a duplicate of #1153. There is no existing PowerToys feature to enable yet, so please add a thumbs-up and any extra scenarios to the original request (#33337, or #1153 if that is the one being tracked) rather than opening a new one. In the meantime, some apps already scroll horizontally with Shift + wheel, and Excel supports Ctrl + Shift + wheel.\"}",
+  "ttft_ms": 3330,
+  "type": "result",
+  "duration_ms": 3352,
+  "uuid": "62907832-f721-4cba-9239-ba84db220bd9",
+  "ttft_stream_ms": 1296,
+  "time_to_request_ms": 176,
+  "first_content_frame_ms": 1296,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 305,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4813,
+    "webSearchRequests": 0,
+    "costUSD": 0.022306,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4813,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.463794440001948,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-sowic4vp/work"
+  }
+ },
+ "wall_seconds": 5.078959156002384,
+ "qid": "PowerToys#49857",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#33337",
+   "PowerToys#40443",
+   "PowerToys#39249"
+  ],
+  "answer": "This feature request has been filed before: holding a modifier key (Shift, Ctrl, Alt, etc.) while using the regular vertical mouse wheel to force horizontal scrolling system-wide. Newer duplicates were closed in favor of PowerToys#33337 (the original request for emulated or forced horizontal scroll with a selectable key), and PowerToys#39249 was closed as a duplicate of #1153. There is no existing PowerToys feature to enable yet, so please add a thumbs-up and any extra scenarios to the original request (#33337, or #1153 if that is the one being tracked) rather than opening a new one. In the meantime, some apps already scroll horizontally with Shift + wheel, and Excel supports Ctrl + Shift + wheel."
+ },
+ "hit_turn_cap": false
+}

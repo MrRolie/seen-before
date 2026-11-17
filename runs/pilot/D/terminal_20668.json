@@ -1,0 +1,400 @@
+{
+ "shown": [
+  "terminal#10239",
+  "terminal#11025",
+  "terminal#11354",
+  "terminal#11891",
+  "terminal#12598",
+  "terminal#1339",
+  "terminal#1380",
+  "terminal#14104",
+  "terminal#14110",
+  "terminal#14957",
+  "terminal#15180",
+  "terminal#15209",
+  "terminal#15458",
+  "terminal#15526",
+  "terminal#15576",
+  "terminal#15583",
+  "terminal#15689",
+  "terminal#16326",
+  "terminal#17847",
+  "terminal#18947",
+  "terminal#19269",
+  "terminal#19270",
+  "terminal#19336",
+  "terminal#19482",
+  "terminal#19483",
+  "terminal#19492",
+  "terminal#19667",
+  "terminal#19751",
+  "terminal#1989",
+  "terminal#2183",
+  "terminal#2265",
+  "terminal#2537",
+  "terminal#2570",
+  "terminal#2947",
+  "terminal#3376",
+  "terminal#3381",
+  "terminal#4907",
+  "terminal#5340",
+  "terminal#6444",
+  "terminal#6446",
+  "terminal#7553",
+  "terminal#8884",
+  "terminal#9273",
+  "terminal#9955"
+ ],
+ "retrieval_seconds": 4.498087247950025,
+ "tool_calls": [
+  {
+   "t": 1794876878.545426,
+   "tool": "search",
+   "args": {
+    "pattern": "0xc000027b",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.05086658397340216,
+   "returned": [
+    "terminal#14104",
+    "terminal#19482",
+    "terminal#16326",
+    "terminal#15583",
+    "terminal#11025",
+    "terminal#7553",
+    "terminal#2570",
+    "terminal#19492",
+    "terminal#19270",
+    "terminal#15689",
+    "terminal#15576",
+    "terminal#15526",
+    "terminal#14110",
+    "terminal#2183",
+    "terminal#19751",
+    "terminal#19667",
+    "terminal#19483",
+    "terminal#19336",
+    "terminal#19269",
+    "terminal#18947"
+   ]
+  },
+  {
+   "t": 1794876878.5861554,
+   "tool": "search",
+   "args": {
+    "pattern": "ListViewBase::OnKeyDown",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.02758802898460999,
+   "returned": []
+  },
+  {
+   "t": 1794876882.8627057,
+   "tool": "similar",
+   "args": {
+    "query": "Terminal crashes XAML fail-fast GettingFocus while fullscreen game running",
+    "repo": "terminal"
+   },
+   "seconds": 4.266483029001392,
+   "returned": [
+    "terminal#1380",
+    "terminal#6446",
+    "terminal#2947",
+    "terminal#1989",
+    "terminal#8884",
+    "terminal#12598",
+    "terminal#4907",
+    "terminal#5340",
+    "terminal#6444",
+    "terminal#11354",
+    "terminal#15209",
+    "terminal#9955",
+    "terminal#17847",
+    "terminal#11891",
+    "terminal#1339",
+    "terminal#3381",
+    "terminal#2537",
+    "terminal#2265",
+    "terminal#9273",
+    "terminal#3376"
+   ]
+  },
+  {
+   "t": 1794876885.3468144,
+   "tool": "search",
+   "args": {
+    "pattern": "GettingFocus",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.02827031901688315,
+   "returned": []
+  },
+  {
+   "t": 1794876885.7330647,
+   "tool": "search",
+   "args": {
+    "pattern": "SyncScriptCallbackRequest",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.04136979498434812,
+   "returned": [
+    "terminal#15689",
+    "terminal#19667",
+    "terminal#15458",
+    "terminal#15180",
+    "terminal#14957",
+    "terminal#10239"
+   ]
+  },
+  {
+   "t": 1794876885.8294978,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#20512"
+   },
+   "seconds": 9.732699254527688e-05,
+   "returned": []
+  },
+  {
+   "t": 1794876889.598613,
+   "tool": "search",
+   "args": {
+    "pattern": "fullscreen game",
+    "regex": false,
+    "also": [
+     "crash"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.02849820497795008,
+   "returned": []
+  },
+  {
+   "t": 1794876891.445726,
+   "tool": "search",
+   "args": {
+    "pattern": "OnKeyDown",
+    "regex": false,
+    "also": [
+     "Windows_UI_Xaml"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.054375915991840884,
+   "returned": []
+  },
+  {
+   "t": 1794876893.2111154,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19667"
+   },
+   "seconds": 0.0002160640142392367,
+   "returned": [
+    "terminal#19667"
+   ]
+  },
+  {
+   "t": 1794876894.8114235,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#15689"
+   },
+   "seconds": 0.000321980012813583,
+   "returned": [
+    "terminal#15689"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 18874,
+  "stop_reason": "end_turn",
+  "session_id": "8cc9be41-1a72-4992-891d-eb441a463296",
+  "total_cost_usd": 0.1011495,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 19773,
+   "cache_read_input_tokens": 75755,
+   "output_tokens": 1445,
+   "output_tokens_details": {
+    "thinking_tokens": 47
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 19773,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 448,
+     "cache_read_input_tokens": 16412,
+     "cache_creation_input_tokens": 4774,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4774
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1445,
+    "cacheReadInputTokens": 75755,
+    "cacheCreationInputTokens": 19773,
+    "webSearchRequests": 0,
+    "costUSD": 0.1011495,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 47,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 19773,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I searched the archive and read the closest candidates. I found no ticket that matches this problem, so I'm finalising the answer now.\n\n```json\n{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket that reports this exact crash. The archive has many 0xc000027b (STATUS_STOWED_EXCEPTION) fail-fasts in Windows.UI.Xaml.dll, but they have different triggers: tab drag (terminal#15689, terminal#16326), clicking in the padding area (terminal#19667), startup, and clipboard copy. None involves ListViewBase::OnKeyDown, a GettingFocus re-entrancy, or a fullscreen game running. The two tickets you cited as possibly related (#20512 and #18040) are not in the archive, so I couldn't check them. Please file this as a new issue and include the symbolised stack. Offer the full crash dumps, because the inner exception can't be read from the minidump. Say that the crashes only happen while a fullscreen exclusive game runs on another display, and that focus crosses a DPI boundary (100% to 300%). Until it is fixed, you could avoid switching focus to Terminal while the game is fullscreen. Running the game in borderless-windowed mode may also help, but nothing in the archive confirms that.\"}\n```",
+  "ttft_ms": 2499,
+  "type": "result",
+  "duration_ms": 23418,
+  "uuid": "e17b058b-ce35-4f4f-9531-73ba715b5004",
+  "ttft_stream_ms": 1207,
+  "time_to_request_ms": 26,
+  "first_content_frame_ms": 1207,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1445,
+    "cacheReadInputTokens": 75755,
+    "cacheCreationInputTokens": 19773,
+    "webSearchRequests": 0,
+    "costUSD": 0.1011495,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 47,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 19773,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 24.699681580008473,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-7qfduc_d/work"
+  }
+ },
+ "wall_seconds": 24.701845486997627,
+ "qid": "terminal#20668",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket that reports this exact crash. The archive has many 0xc000027b (STATUS_STOWED_EXCEPTION) fail-fasts in Windows.UI.Xaml.dll, but they have different triggers: tab drag (terminal#15689, terminal#16326), clicking in the padding area (terminal#19667), startup, and clipboard copy. None involves ListViewBase::OnKeyDown, a GettingFocus re-entrancy, or a fullscreen game running. The two tickets you cited as possibly related (#20512 and #18040) are not in the archive, so I couldn't check them. Please file this as a new issue and include the symbolised stack. Offer the full crash dumps, because the inner exception can't be read from the minidump. Say that the crashes only happen while a fullscreen exclusive game runs on another display, and that focus crosses a DPI boundary (100% to 300%). Until it is fixed, you could avoid switching focus to Terminal while the game is fullscreen. Running the game in borderless-windowed mode may also help, but nothing in the archive confirms that."
+ },
+ "hit_turn_cap": false
+}

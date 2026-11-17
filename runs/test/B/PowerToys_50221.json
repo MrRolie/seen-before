@@ -1,0 +1,332 @@
+{
+ "shown": [
+  "PowerToys#15363",
+  "PowerToys#19337",
+  "PowerToys#21243",
+  "PowerToys#25966",
+  "PowerToys#26281",
+  "PowerToys#26324",
+  "PowerToys#29650",
+  "PowerToys#30933",
+  "PowerToys#31670",
+  "PowerToys#31764",
+  "PowerToys#31841",
+  "PowerToys#32650",
+  "PowerToys#34153",
+  "PowerToys#34299",
+  "PowerToys#35398",
+  "PowerToys#36466",
+  "PowerToys#36468",
+  "PowerToys#37693",
+  "PowerToys#37739",
+  "PowerToys#38870",
+  "PowerToys#41377",
+  "PowerToys#42100",
+  "PowerToys#42197",
+  "PowerToys#42268",
+  "PowerToys#43081",
+  "PowerToys#43696",
+  "PowerToys#43774",
+  "PowerToys#44805",
+  "PowerToys#44998",
+  "PowerToys#46994",
+  "PowerToys#47250"
+ ],
+ "retrieval_seconds": 0.11337112198816612,
+ "tool_calls": [
+  {
+   "t": 1794881723.5974479,
+   "tool": "search",
+   "args": {
+    "pattern": "0x81f40001",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04430944498744793,
+   "returned": [
+    "PowerToys#42197",
+    "PowerToys#42100",
+    "PowerToys#32650",
+    "PowerToys#31670",
+    "PowerToys#29650",
+    "PowerToys#47250",
+    "PowerToys#46994",
+    "PowerToys#37739",
+    "PowerToys#31841",
+    "PowerToys#25966",
+    "PowerToys#21243",
+    "PowerToys#19337",
+    "PowerToys#15363",
+    "PowerToys#44998",
+    "PowerToys#44805",
+    "PowerToys#43774",
+    "PowerToys#43696",
+    "PowerToys#43081",
+    "PowerToys#42268",
+    "PowerToys#41377"
+   ]
+  },
+  {
+   "t": 1794881723.970919,
+   "tool": "search",
+   "args": {
+    "pattern": "already installed on this system for all users",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06855215900577605,
+   "returned": [
+    "PowerToys#35398",
+    "PowerToys#42197",
+    "PowerToys#42100",
+    "PowerToys#37739",
+    "PowerToys#34299",
+    "PowerToys#26281",
+    "PowerToys#44998",
+    "PowerToys#38870",
+    "PowerToys#37693",
+    "PowerToys#36468",
+    "PowerToys#36466",
+    "PowerToys#34153",
+    "PowerToys#32650",
+    "PowerToys#31841",
+    "PowerToys#31670",
+    "PowerToys#30933",
+    "PowerToys#29650",
+    "PowerToys#26324"
+   ]
+  },
+  {
+   "t": 1794881725.2400696,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38870"
+   },
+   "seconds": 0.00012950701056979597,
+   "returned": [
+    "PowerToys#38870"
+   ]
+  },
+  {
+   "t": 1794881725.4194672,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44998"
+   },
+   "seconds": 0.00013754700194112957,
+   "returned": [
+    "PowerToys#44998"
+   ]
+  },
+  {
+   "t": 1794881726.4254699,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#31764"
+   },
+   "seconds": 0.00010992700117640197,
+   "returned": [
+    "PowerToys#31764"
+   ]
+  },
+  {
+   "t": 1794881727.450297,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42100"
+   },
+   "seconds": 0.00013253698125481606,
+   "returned": [
+    "PowerToys#42100"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10952,
+  "stop_reason": "end_turn",
+  "session_id": "be89570d-df73-489d-a8b5-c11136053ca6",
+  "total_cost_usd": 0.112533,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 24461,
+   "cache_read_input_tokens": 51190,
+   "output_tokens": 955,
+   "output_tokens_details": {
+    "thinking_tokens": 90
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 24461,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 511,
+     "cache_read_input_tokens": 21213,
+     "cache_creation_input_tokens": 4425,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4425
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 955,
+    "cacheReadInputTokens": 51190,
+    "cacheCreationInputTokens": 24461,
+    "webSearchRequests": 0,
+    "costUSD": 0.112533,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 90,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 24461,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#31764\", \"PowerToys#38870\", \"PowerToys#44998\"], \"answer\": \"This has been reported before. The installer finds leftover Windows Installer registration from the botched uninstall and refuses to install (0x81f40001, \\\"already installed for all users\\\" or \\\"for current user\\\"). Deleting files and registry keys by hand did not clear it in #31764. In #31764 (and as a pointer in #38870) the fix was to extract the MSI from the PowerToys installer EXE and use that MSI to uninstall. Follow the Microsoft Learn steps under \\\"Extracting the MSI from the bundle\\\" on the PowerToys install page. Do this for the per-user (PowerToysUserSetup) and machine-wide (PowerToysSetup) installers, ideally matching the version you had before. Run the MSI and choose Uninstall or Repair. Once the leftover registration is removed, run the new 0.101 installer again. The log should show which versions the installer detects. The CleanUp_tool.ps1 script did not fix it in #44998, so try the MSI route first. The bug-report ZIP is created from the PowerToys Settings app (General > Bug report tool). That app won't be available while PowerToys is not installed. The installer log in %TEMP%, named powertoys-bootstrapper-msi-*.log, is enough for this issue. Please also remove your email address from the public ticket.\"}",
+  "ttft_ms": 1331,
+  "type": "result",
+  "duration_ms": 11079,
+  "uuid": "d29098df-5fa3-4694-953b-2c061fd88e90",
+  "ttft_stream_ms": 993,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 993,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 955,
+    "cacheReadInputTokens": 51190,
+    "cacheCreationInputTokens": 24461,
+    "webSearchRequests": 0,
+    "costUSD": 0.112533,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 90,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 24461,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.485612782998942,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ppeohl01/work"
+  }
+ },
+ "wall_seconds": 12.487396947020898,
+ "qid": "PowerToys#50221",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#31764",
+   "PowerToys#38870",
+   "PowerToys#44998"
+  ],
+  "answer": "This has been reported before. The installer finds leftover Windows Installer registration from the botched uninstall and refuses to install (0x81f40001, \"already installed for all users\" or \"for current user\"). Deleting files and registry keys by hand did not clear it in #31764. In #31764 (and as a pointer in #38870) the fix was to extract the MSI from the PowerToys installer EXE and use that MSI to uninstall. Follow the Microsoft Learn steps under \"Extracting the MSI from the bundle\" on the PowerToys install page. Do this for the per-user (PowerToysUserSetup) and machine-wide (PowerToysSetup) installers, ideally matching the version you had before. Run the MSI and choose Uninstall or Repair. Once the leftover registration is removed, run the new 0.101 installer again. The log should show which versions the installer detects. The CleanUp_tool.ps1 script did not fix it in #44998, so try the MSI route first. The bug-report ZIP is created from the PowerToys Settings app (General > Bug report tool). That app won't be available while PowerToys is not installed. The installer log in %TEMP%, named powertoys-bootstrapper-msi-*.log, is enough for this issue. Please also remove your email address from the public ticket."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,357 @@
+{
+ "shown": [
+  "PowerToys#10979",
+  "PowerToys#11811",
+  "PowerToys#11860",
+  "PowerToys#11996",
+  "PowerToys#14228",
+  "PowerToys#1527",
+  "PowerToys#16563",
+  "PowerToys#17168",
+  "PowerToys#18431",
+  "PowerToys#19277",
+  "PowerToys#19812",
+  "PowerToys#20578",
+  "PowerToys#21561",
+  "PowerToys#2516",
+  "PowerToys#2686",
+  "PowerToys#2938",
+  "PowerToys#31226",
+  "PowerToys#38530",
+  "PowerToys#39367",
+  "PowerToys#40004",
+  "PowerToys#41653",
+  "PowerToys#5437",
+  "PowerToys#888",
+  "PowerToys#9727"
+ ],
+ "retrieval_seconds": 0.6865538310375996,
+ "tool_calls": [
+  {
+   "t": 1794880648.163778,
+   "tool": "search",
+   "args": {
+    "pattern": "SVG",
+    "regex": false,
+    "also": [
+     "dark"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.09647805700660683,
+   "returned": [
+    "PowerToys#2516",
+    "PowerToys#19277",
+    "PowerToys#39367",
+    "PowerToys#19812",
+    "PowerToys#41653",
+    "PowerToys#20578",
+    "PowerToys#18431",
+    "PowerToys#9727",
+    "PowerToys#2938",
+    "PowerToys#2686",
+    "PowerToys#14228",
+    "PowerToys#10979",
+    "PowerToys#5437",
+    "PowerToys#40004",
+    "PowerToys#38530",
+    "PowerToys#21561",
+    "PowerToys#16563",
+    "PowerToys#11811",
+    "PowerToys#888",
+    "PowerToys#11996"
+   ]
+  },
+  {
+   "t": 1794880648.2262185,
+   "tool": "search",
+   "args": {
+    "pattern": "svg preview background theme",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0502058909914922,
+   "returned": []
+  },
+  {
+   "t": 1794880650.6185286,
+   "tool": "search",
+   "args": {
+    "pattern": "svg",
+    "regex": false,
+    "also": [
+     "light mode",
+     "preview"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1291510559967719,
+   "returned": [
+    "PowerToys#2516",
+    "PowerToys#19277",
+    "PowerToys#19812",
+    "PowerToys#17168",
+    "PowerToys#1527"
+   ]
+  },
+  {
+   "t": 1794880650.8120553,
+   "tool": "search",
+   "args": {
+    "pattern": "svg",
+    "regex": false,
+    "also": [
+     "switch",
+     "theme",
+     "background"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.18477439301204868,
+   "returned": [
+    "PowerToys#11811",
+    "PowerToys#11996",
+    "PowerToys#11860",
+    "PowerToys#31226"
+   ]
+  },
+  {
+   "t": 1794880652.8438115,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#2516"
+   },
+   "seconds": 0.00017498500528745353,
+   "returned": [
+    "PowerToys#2516"
+   ]
+  },
+  {
+   "t": 1794880654.8656642,
+   "tool": "search",
+   "args": {
+    "pattern": "preview",
+    "regex": false,
+    "also": [
+     "dark mode",
+     "light mode",
+     "svg"
+    ],
+    "repo": null
+   },
+   "seconds": 0.2255246660206467,
+   "returned": [
+    "PowerToys#1527",
+    "PowerToys#19812",
+    "PowerToys#2516",
+    "PowerToys#19277",
+    "PowerToys#17168"
+   ]
+  },
+  {
+   "t": 1794880656.511249,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#20578"
+   },
+   "seconds": 0.00012525598867796361,
+   "returned": [
+    "PowerToys#20578"
+   ]
+  },
+  {
+   "t": 1794880658.1007378,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#19812"
+   },
+   "seconds": 0.00011952701606787741,
+   "returned": [
+    "PowerToys#19812"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 14751,
+  "stop_reason": "end_turn",
+  "session_id": "3d5ced10-8e6a-4db9-8594-acecd2ccc371",
+  "total_cost_usd": 0.06963610000000002,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 13525,
+   "cache_read_input_tokens": 51781,
+   "output_tokens": 1033,
+   "output_tokens_details": {
+    "thinking_tokens": 79
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13525,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 259,
+     "cache_read_input_tokens": 12714,
+     "cache_creation_input_tokens": 1988,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1988
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1033,
+    "cacheReadInputTokens": 51781,
+    "cacheCreationInputTokens": 13525,
+    "webSearchRequests": 0,
+    "costUSD": 0.06963610000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 79,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13525,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find an earlier ticket that reports this exact problem. That problem is the SVG preview background not switching back to light after you turn dark mode off. The closest tickets are about a different problem: white or transparent SVGs are hard to see on the preview's fixed white background. Those are PowerToys#2516, which asks for a checkerboard or custom background, and PowerToys#20578, which was closed as a duplicate of #2516. Neither one covers the background failing to follow a theme change. For now, close and reopen the File Explorer window, or deselect and reselect the SVG, so the preview reloads under the current theme. Please also add your PowerToys version, Windows build and a screenshot to this ticket so the team can reproduce it.\"}",
+  "ttft_ms": 2155,
+  "type": "result",
+  "duration_ms": 15392,
+  "uuid": "82c27580-ccc2-46f4-81d1-f48cb46bc31c",
+  "ttft_stream_ms": 1183,
+  "time_to_request_ms": 27,
+  "first_content_frame_ms": 1183,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1033,
+    "cacheReadInputTokens": 51781,
+    "cacheCreationInputTokens": 13525,
+    "webSearchRequests": 0,
+    "costUSD": 0.06963610000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 79,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13525,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.824581084016245,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-8h4lgk30/work"
+  }
+ },
+ "wall_seconds": 16.82663104898529,
+ "qid": "PowerToys#49997",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find an earlier ticket that reports this exact problem. That problem is the SVG preview background not switching back to light after you turn dark mode off. The closest tickets are about a different problem: white or transparent SVGs are hard to see on the preview's fixed white background. Those are PowerToys#2516, which asks for a checkerboard or custom background, and PowerToys#20578, which was closed as a duplicate of #2516. Neither one covers the background failing to follow a theme change. For now, close and reopen the File Explorer window, or deselect and reselect the SVG, so the preview reloads under the current theme. Please also add your PowerToys version, Windows build and a screenshot to this ticket so the team can reproduce it."
+ },
+ "hit_turn_cap": false
+}

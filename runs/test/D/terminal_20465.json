@@ -1,0 +1,293 @@
+{
+ "shown": [
+  "terminal#10840",
+  "terminal#11111",
+  "terminal#12759",
+  "terminal#13991",
+  "terminal#1513",
+  "terminal#15834",
+  "terminal#16237",
+  "terminal#17985",
+  "terminal#1939",
+  "terminal#3246",
+  "terminal#3396",
+  "terminal#3998",
+  "terminal#5546",
+  "terminal#6042",
+  "terminal#6847",
+  "terminal#6878",
+  "terminal#8311",
+  "terminal#8813",
+  "terminal#9122",
+  "terminal#933",
+  "terminal#986"
+ ],
+ "retrieval_seconds": 3.412772215990117,
+ "tool_calls": [
+  {
+   "t": 1794878607.674586,
+   "tool": "similar",
+   "args": {
+    "query": "separate profile defaults / color scheme for elevated terminal windows",
+    "repo": "terminal"
+   },
+   "seconds": 3.391559829004109,
+   "returned": [
+    "terminal#13991",
+    "terminal#8311",
+    "terminal#6042",
+    "terminal#6878",
+    "terminal#986",
+    "terminal#933",
+    "terminal#5546",
+    "terminal#17985",
+    "terminal#11111",
+    "terminal#8813",
+    "terminal#3998",
+    "terminal#15834",
+    "terminal#6847",
+    "terminal#9122",
+    "terminal#1939",
+    "terminal#3396",
+    "terminal#1513",
+    "terminal#16237",
+    "terminal#12759",
+    "terminal#10840"
+   ]
+  },
+  {
+   "t": 1794878609.2153213,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#11111"
+   },
+   "seconds": 0.00013508601114153862,
+   "returned": [
+    "terminal#11111"
+   ]
+  },
+  {
+   "t": 1794878609.3784351,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#8311"
+   },
+   "seconds": 0.0002193939872086048,
+   "returned": [
+    "terminal#8311"
+   ]
+  },
+  {
+   "t": 1794878610.4655719,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#3246"
+   },
+   "seconds": 0.00020604499150067568,
+   "returned": [
+    "terminal#3246"
+   ]
+  },
+  {
+   "t": 1794878611.815731,
+   "tool": "search",
+   "args": {
+    "pattern": "elevatedDefaults",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.020651861996157095,
+   "returned": [
+    "terminal#11111"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9007,
+  "stop_reason": "end_turn",
+  "session_id": "326ca5e3-0f3f-4372-8784-c4ae0d9d8a48",
+  "total_cost_usd": 0.0375635,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 6901,
+   "cache_read_input_tokens": 23695,
+   "output_tokens": 757,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6901,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 301,
+     "cache_read_input_tokens": 8096,
+     "cache_creation_input_tokens": 218,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 218
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 757,
+    "cacheReadInputTokens": 23695,
+    "cacheCreationInputTokens": 6901,
+    "webSearchRequests": 0,
+    "costUSD": 0.0375635,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6901,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#11111\", \"terminal#3246\", \"terminal#8311\"], \"answer\": \"This feature request has been filed before. Nothing has shipped yet. Terminal#11111 is the epic that tracks admin-specific customizations. Its user stories include 'a different profile.defaults block when running elevated' and name a possible `profiles.elevatedDefaults` setting. Terminal#3246 asks for different colors or conditional settings when running as Administrator. Terminal#8311 asks for a different theme when elevated. Subscribe to those tickets and add your use case there, including the `sudo` disableInput scenario. Until something ships, you can work around it by defining a dedicated elevated profile with `elevate: true` and its own color scheme, as you already do. That only helps when you open that profile. A non-elevated profile opened inside an already elevated window will still use its normal colors.\"}",
+  "ttft_ms": 1846,
+  "type": "result",
+  "duration_ms": 12424,
+  "uuid": "cd7c4786-4773-4231-a5f8-71c2979aefe7",
+  "ttft_stream_ms": 1032,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 1032,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 757,
+    "cacheReadInputTokens": 23695,
+    "cacheCreationInputTokens": 6901,
+    "webSearchRequests": 0,
+    "costUSD": 0.0375635,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6901,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.719436776009388,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-btbgo6qt/work"
+  }
+ },
+ "wall_seconds": 13.720935756980907,
+ "qid": "terminal#20465",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#11111",
+   "terminal#3246",
+   "terminal#8311"
+  ],
+  "answer": "This feature request has been filed before. Nothing has shipped yet. Terminal#11111 is the epic that tracks admin-specific customizations. Its user stories include 'a different profile.defaults block when running elevated' and name a possible `profiles.elevatedDefaults` setting. Terminal#3246 asks for different colors or conditional settings when running as Administrator. Terminal#8311 asks for a different theme when elevated. Subscribe to those tickets and add your use case there, including the `sudo` disableInput scenario. Until something ships, you can work around it by defining a dedicated elevated profile with `elevate: true` and its own color scheme, as you already do. That only helps when you open that profile. A non-elevated profile opened inside an already elevated window will still use its normal colors."
+ },
+ "hit_turn_cap": false
+}

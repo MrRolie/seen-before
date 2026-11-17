@@ -1,0 +1,278 @@
+{
+ "shown": [
+  "PowerToys#162",
+  "PowerToys#168",
+  "PowerToys#170",
+  "PowerToys#171",
+  "PowerToys#188",
+  "PowerToys#2454",
+  "PowerToys#37211",
+  "PowerToys#37288",
+  "PowerToys#38331",
+  "PowerToys#38337",
+  "PowerToys#40684",
+  "PowerToys#4192",
+  "PowerToys#43619",
+  "PowerToys#47173",
+  "PowerToys#47174",
+  "PowerToys#47329",
+  "PowerToys#7439",
+  "PowerToys#8819",
+  "PowerToys#9770",
+  "PowerToys#9883"
+ ],
+ "retrieval_seconds": 3.812793513003271,
+ "tool_calls": [
+  {
+   "t": 1794875787.52933,
+   "tool": "search",
+   "args": {
+    "pattern": "ZoomIt arrow",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.09168777300510556,
+   "returned": []
+  },
+  {
+   "t": 1794875791.5464072,
+   "tool": "similar",
+   "args": {
+    "query": "ZoomIt arrow direction arrowhead at start of drag instead of end",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.720886065013474,
+   "returned": [
+    "PowerToys#43619",
+    "PowerToys#37211",
+    "PowerToys#162",
+    "PowerToys#37288",
+    "PowerToys#170",
+    "PowerToys#171",
+    "PowerToys#7439",
+    "PowerToys#47174",
+    "PowerToys#188",
+    "PowerToys#9883",
+    "PowerToys#38331",
+    "PowerToys#2454",
+    "PowerToys#9770",
+    "PowerToys#38337",
+    "PowerToys#8819",
+    "PowerToys#40684",
+    "PowerToys#47329",
+    "PowerToys#168",
+    "PowerToys#47173",
+    "PowerToys#4192"
+   ]
+  },
+  {
+   "t": 1794875792.4365842,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37211"
+   },
+   "seconds": 0.00010366798960603774,
+   "returned": [
+    "PowerToys#37211"
+   ]
+  },
+  {
+   "t": 1794875792.5665133,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43619"
+   },
+   "seconds": 0.00011600699508562684,
+   "returned": [
+    "PowerToys#43619"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 3868,
+  "stop_reason": "end_turn",
+  "session_id": "0ae30d66-efc0-4e59-844c-4248bf8041d8",
+  "total_cost_usd": 0.016723000000000002,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 2828,
+   "cache_read_input_tokens": 6990,
+   "output_tokens": 470,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 2828,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 163,
+     "cache_read_input_tokens": 3549,
+     "cache_creation_input_tokens": 692,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 692
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 470,
+    "cacheReadInputTokens": 6990,
+    "cacheCreationInputTokens": 2828,
+    "webSearchRequests": 0,
+    "costUSD": 0.016723000000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2828,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#37211\", \"PowerToys#43619\"], \"answer\": \"This has been requested before. PowerToys#37211 asks for an option to choose the arrow direction in ZoomIt, because the arrowhead currently appears where the drag starts. PowerToys#43619 was closed as a duplicate of it. The archive shows no fix or setting yet, and no workaround. Follow or upvote PowerToys#37211 and add your use case there.\"}",
+  "ttft_ms": 978,
+  "type": "result",
+  "duration_ms": 7637,
+  "uuid": "612db41f-04bb-4e1b-abb3-d7230013b58b",
+  "ttft_stream_ms": 557,
+  "time_to_request_ms": 30,
+  "first_content_frame_ms": 557,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 470,
+    "cacheReadInputTokens": 6990,
+    "cacheCreationInputTokens": 2828,
+    "webSearchRequests": 0,
+    "costUSD": 0.016723000000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2828,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 9.228183474973775,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-6s5w0l1q/work"
+  }
+ },
+ "wall_seconds": 9.231461902993033,
+ "qid": "PowerToys#49106",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#37211",
+   "PowerToys#43619"
+  ],
+  "answer": "This has been requested before. PowerToys#37211 asks for an option to choose the arrow direction in ZoomIt, because the arrowhead currently appears where the drag starts. PowerToys#43619 was closed as a duplicate of it. The archive shows no fix or setting yet, and no workaround. Follow or upvote PowerToys#37211 and add your use case there."
+ },
+ "hit_turn_cap": false
+}

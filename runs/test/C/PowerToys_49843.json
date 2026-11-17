@@ -1,0 +1,318 @@
+{
+ "shown": [
+  "PowerToys#10202",
+  "PowerToys#10320",
+  "PowerToys#11019",
+  "PowerToys#11347",
+  "PowerToys#11514",
+  "PowerToys#12505",
+  "PowerToys#1810",
+  "PowerToys#19521",
+  "PowerToys#21399",
+  "PowerToys#23666",
+  "PowerToys#2608",
+  "PowerToys#3282",
+  "PowerToys#3498",
+  "PowerToys#3773",
+  "PowerToys#38442",
+  "PowerToys#38487",
+  "PowerToys#38593",
+  "PowerToys#38665",
+  "PowerToys#39343",
+  "PowerToys#40397",
+  "PowerToys#4146",
+  "PowerToys#41629",
+  "PowerToys#41735",
+  "PowerToys#42346",
+  "PowerToys#45466",
+  "PowerToys#46304",
+  "PowerToys#5958",
+  "PowerToys#6809",
+  "PowerToys#7670",
+  "PowerToys#8390"
+ ],
+ "retrieval_seconds": 3.305437379051,
+ "tool_calls": [
+  {
+   "t": 1794880039.129049,
+   "tool": "search",
+   "args": {
+    "query": "Command Palette search apps using English names when system language is Chinese / localized",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.293366475001676,
+   "returned": [
+    "PowerToys#38487",
+    "PowerToys#41629",
+    "PowerToys#39343",
+    "PowerToys#10320",
+    "PowerToys#3773",
+    "PowerToys#2608",
+    "PowerToys#1810",
+    "PowerToys#12505",
+    "PowerToys#11347",
+    "PowerToys#46304",
+    "PowerToys#10202",
+    "PowerToys#4146",
+    "PowerToys#8390",
+    "PowerToys#11019",
+    "PowerToys#45466",
+    "PowerToys#3282",
+    "PowerToys#3498",
+    "PowerToys#21399",
+    "PowerToys#7670",
+    "PowerToys#5958"
+   ]
+  },
+  {
+   "t": 1794880039.152077,
+   "tool": "search",
+   "args": {
+    "query": "Command Palette search in both localized and English command names",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.011648405023152009,
+   "returned": [
+    "PowerToys#10202",
+    "PowerToys#11019",
+    "PowerToys#2608",
+    "PowerToys#45466",
+    "PowerToys#46304",
+    "PowerToys#11514",
+    "PowerToys#39343",
+    "PowerToys#38442",
+    "PowerToys#19521",
+    "PowerToys#38593",
+    "PowerToys#38487",
+    "PowerToys#38665",
+    "PowerToys#41735",
+    "PowerToys#3773",
+    "PowerToys#23666",
+    "PowerToys#40397",
+    "PowerToys#4146",
+    "PowerToys#6809",
+    "PowerToys#5958",
+    "PowerToys#42346"
+   ]
+  },
+  {
+   "t": 1794880040.0288248,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46304"
+   },
+   "seconds": 0.0001734649995341897,
+   "returned": [
+    "PowerToys#46304"
+   ]
+  },
+  {
+   "t": 1794880040.2493067,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38593"
+   },
+   "seconds": 0.0001053580199368298,
+   "returned": [
+    "PowerToys#38593"
+   ]
+  },
+  {
+   "t": 1794880040.4528873,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38665"
+   },
+   "seconds": 0.00014367600670084357,
+   "returned": [
+    "PowerToys#38665"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 5756,
+  "stop_reason": "end_turn",
+  "session_id": "4f9d9700-8d41-4e35-ba34-11fc83592971",
+  "total_cost_usd": 0.028555999999999998,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 5294,
+   "cache_read_input_tokens": 6980,
+   "output_tokens": 667,
+   "output_tokens_details": {
+    "thinking_tokens": 37
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5294,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 303,
+     "cache_read_input_tokens": 4245,
+     "cache_creation_input_tokens": 2082,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2082
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 667,
+    "cacheReadInputTokens": 6980,
+    "cacheCreationInputTokens": 5294,
+    "webSearchRequests": 0,
+    "costUSD": 0.028555999999999998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 37,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5294,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46304\", \"PowerToys#42346\", \"PowerToys#38593\"], \"answer\": \"This request has been made before. PowerToys#46304 asks Command Palette to search in English and in the display language at the same time. That is the same as your example of typing \\\"Files\\\" or \\\"文件\\\" and getting the same result. A maintainer replied there that Pinyin search is partly in place already. They are still weighing how far English search should go, what it would cost in performance, and how to expose it in the API. It isn't implemented yet. Related requests are PowerToys#42346 (English keywords for Windows Settings) and PowerToys#38593 (English names for system commands, as PowerToys Run had). For now, type the localized name, and follow or upvote #46304 and add your use case there.\"}",
+  "ttft_ms": 1200,
+  "type": "result",
+  "duration_ms": 8787,
+  "uuid": "2ab83d5a-359f-489b-bcb3-fdf1467dca15",
+  "ttft_stream_ms": 631,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 631,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 667,
+    "cacheReadInputTokens": 6980,
+    "cacheCreationInputTokens": 5294,
+    "webSearchRequests": 0,
+    "costUSD": 0.028555999999999998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 37,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5294,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.125441184994997,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-fs1kvep0/work"
+  }
+ },
+ "wall_seconds": 10.127653825999005,
+ "qid": "PowerToys#49843",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46304",
+   "PowerToys#42346",
+   "PowerToys#38593"
+  ],
+  "answer": "This request has been made before. PowerToys#46304 asks Command Palette to search in English and in the display language at the same time. That is the same as your example of typing \"Files\" or \"文件\" and getting the same result. A maintainer replied there that Pinyin search is partly in place already. They are still weighing how far English search should go, what it would cost in performance, and how to expose it in the API. It isn't implemented yet. Related requests are PowerToys#42346 (English keywords for Windows Settings) and PowerToys#38593 (English names for system commands, as PowerToys Run had). For now, type the localized name, and follow or upvote #46304 and add your use case there."
+ },
+ "hit_turn_cap": false
+}

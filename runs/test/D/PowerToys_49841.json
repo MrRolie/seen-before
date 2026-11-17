@@ -1,0 +1,354 @@
+{
+ "shown": [
+  "PowerToys#10497",
+  "PowerToys#11264",
+  "PowerToys#12624",
+  "PowerToys#12656",
+  "PowerToys#13544",
+  "PowerToys#16173",
+  "PowerToys#17788",
+  "PowerToys#1881",
+  "PowerToys#22195",
+  "PowerToys#269",
+  "PowerToys#28769",
+  "PowerToys#31708",
+  "PowerToys#3245",
+  "PowerToys#33774",
+  "PowerToys#3397",
+  "PowerToys#3421",
+  "PowerToys#34554",
+  "PowerToys#3479",
+  "PowerToys#3920",
+  "PowerToys#4575",
+  "PowerToys#4973",
+  "PowerToys#4987",
+  "PowerToys#5074",
+  "PowerToys#5653",
+  "PowerToys#5670",
+  "PowerToys#5709",
+  "PowerToys#6211",
+  "PowerToys#6224",
+  "PowerToys#6756",
+  "PowerToys#6976",
+  "PowerToys#7348",
+  "PowerToys#7603",
+  "PowerToys#8083",
+  "PowerToys#8230",
+  "PowerToys#864",
+  "PowerToys#8693",
+  "PowerToys#8937",
+  "PowerToys#8952",
+  "PowerToys#9372"
+ ],
+ "retrieval_seconds": 3.579094319982687,
+ "tool_calls": [
+  {
+   "t": 1794879969.5516398,
+   "tool": "similar",
+   "args": {
+    "query": "Keyboard Manager remap keys only for specific input method / keyboard layout language (IME)",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.4376635549997445,
+   "returned": [
+    "PowerToys#3421",
+    "PowerToys#6976",
+    "PowerToys#4973",
+    "PowerToys#4987",
+    "PowerToys#6756",
+    "PowerToys#6224",
+    "PowerToys#8230",
+    "PowerToys#3920",
+    "PowerToys#5709",
+    "PowerToys#34554",
+    "PowerToys#5670",
+    "PowerToys#8937",
+    "PowerToys#6211",
+    "PowerToys#9372",
+    "PowerToys#3479",
+    "PowerToys#8952",
+    "PowerToys#7603",
+    "PowerToys#13544",
+    "PowerToys#5653",
+    "PowerToys#10497"
+   ]
+  },
+  {
+   "t": 1794879970.3712285,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4987"
+   },
+   "seconds": 0.00015172598068602383,
+   "returned": [
+    "PowerToys#4987"
+   ]
+  },
+  {
+   "t": 1794879970.4982905,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#10497"
+   },
+   "seconds": 0.0001720449945423752,
+   "returned": [
+    "PowerToys#10497"
+   ]
+  },
+  {
+   "t": 1794879973.0205019,
+   "tool": "search",
+   "args": {
+    "pattern": "IME",
+    "regex": false,
+    "also": [
+     "KBM"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.14063126701512374,
+   "returned": [
+    "PowerToys#3397",
+    "PowerToys#31708",
+    "PowerToys#8693",
+    "PowerToys#17788",
+    "PowerToys#864",
+    "PowerToys#269",
+    "PowerToys#16173",
+    "PowerToys#33774",
+    "PowerToys#28769",
+    "PowerToys#6756",
+    "PowerToys#12656",
+    "PowerToys#8083",
+    "PowerToys#7348",
+    "PowerToys#3245",
+    "PowerToys#5074",
+    "PowerToys#22195",
+    "PowerToys#12624",
+    "PowerToys#11264",
+    "PowerToys#6976",
+    "PowerToys#4575"
+   ]
+  },
+  {
+   "t": 1794879974.0047755,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33774"
+   },
+   "seconds": 0.00021145399659872055,
+   "returned": [
+    "PowerToys#33774"
+   ]
+  },
+  {
+   "t": 1794879975.7392447,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1881"
+   },
+   "seconds": 0.0001396859879605472,
+   "returned": [
+    "PowerToys#1881"
+   ]
+  },
+  {
+   "t": 1794879976.864004,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#3397"
+   },
+   "seconds": 0.00012458700803108513,
+   "returned": [
+    "PowerToys#3397"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12390,
+  "stop_reason": "end_turn",
+  "session_id": "e93d9877-9932-410e-beb4-e578a95acd53",
+  "total_cost_usd": 0.08525830000000001,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 16902,
+   "cache_read_input_tokens": 53583,
+   "output_tokens": 1226,
+   "output_tokens_details": {
+    "thinking_tokens": 60
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 16902,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 405,
+     "cache_read_input_tokens": 15103,
+     "cache_creation_input_tokens": 3212,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3212
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1226,
+    "cacheReadInputTokens": 53583,
+    "cacheCreationInputTokens": 16902,
+    "webSearchRequests": 0,
+    "costUSD": 0.08525830000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 60,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 16902,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#33774\", \"PowerToys#4987\", \"PowerToys#10497\"], \"answer\": \"This feature request has been made before. Keyboard Manager (KBM) can't currently apply mappings only for a particular input method or keyboard layout. PowerToys#33774 asks for KBM profiles tied to IMEs, and the maintainers agreed it is a needed feature. They said that if the IME switch can be detected, switching profiles automatically would be possible. PowerToys#4987 asks for a remap that applies only to one language layout. PowerToys#10497 asks for remapping that depends on the input mode. None of these has been implemented, and I found no official fix. Add a 👍 to #33774 and describe your scenario there. The related request for general KBM profiles is PowerToys#1881. Until then, you can switch mappings by hand. Keep separate KBM config JSON files in %LocalAppData%\\\\Microsoft\\\\PowerToys\\\\Keyboard Manager. Copy the one you want over default.json and restart PowerToys.KeyboardManagerEngine.exe, as described in #1881. A script can do this. AutoHotkey can also apply remaps per layout.\"}",
+  "ttft_ms": 1232,
+  "type": "result",
+  "duration_ms": 15689,
+  "uuid": "2888289c-8312-43ea-9f8a-c5fceb00d4e1",
+  "ttft_stream_ms": 660,
+  "time_to_request_ms": 26,
+  "first_content_frame_ms": 660,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1226,
+    "cacheReadInputTokens": 53583,
+    "cacheCreationInputTokens": 16902,
+    "webSearchRequests": 0,
+    "costUSD": 0.08525830000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 60,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 16902,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.943807336996542,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-71jkv0k8/work"
+  }
+ },
+ "wall_seconds": 16.946513933013193,
+ "qid": "PowerToys#49841",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#33774",
+   "PowerToys#4987",
+   "PowerToys#10497"
+  ],
+  "answer": "This feature request has been made before. Keyboard Manager (KBM) can't currently apply mappings only for a particular input method or keyboard layout. PowerToys#33774 asks for KBM profiles tied to IMEs, and the maintainers agreed it is a needed feature. They said that if the IME switch can be detected, switching profiles automatically would be possible. PowerToys#4987 asks for a remap that applies only to one language layout. PowerToys#10497 asks for remapping that depends on the input mode. None of these has been implemented, and I found no official fix. Add a 👍 to #33774 and describe your scenario there. The related request for general KBM profiles is PowerToys#1881. Until then, you can switch mappings by hand. Keep separate KBM config JSON files in %LocalAppData%\\Microsoft\\PowerToys\\Keyboard Manager. Copy the one you want over default.json and restart PowerToys.KeyboardManagerEngine.exe, as described in #1881. A script can do this. AutoHotkey can also apply remaps per layout."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#48638",
+  "PowerToys#48170",
+  "PowerToys#48773",
+  "PowerToys#48522",
+  "PowerToys#48448"
+ ],
+ "retrieval_seconds": 0.5892240660032257,
+ "retrieval_scores": [
+  0.032018442622950824,
+  0.031544957774465976,
+  0.0315136476426799,
+  0.03007688828584351,
+  0.02946236559139785
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3752,
+  "stop_reason": "end_turn",
+  "session_id": "7741f81a-184d-4d52-9b5c-2bfa397271bf",
+  "total_cost_usd": 0.035525999999999995,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 7838,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 417,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7838,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 417,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 7838,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7838
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 417,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7838,
+    "webSearchRequests": 0,
+    "costUSD": 0.035525999999999995,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7838,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"No past ticket reports this exact problem. Your log shows a System.IO.IOException when Shortcut Guide copies its bundled manifests into C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\KeyboardShortcuts: the file +WindowsNT.Notepad.en-US.yml is locked by another process. The crash happens when you click the PowerToys tab. The archived Shortcut Guide crash tickets cover other causes: a missing Manifests directory (PowerToys#48170, fixed by PR #48171), a null reference when selecting the Windows tab (PowerToys#48448, PowerToys#48522, PowerToys#48773), and an access violation in ntdll or coreclr (PowerToys#48638). None of them mention a locked manifest file. This looks like a new issue, so keep your ticket open and include the log snippet. In the meantime you could try closing any app that may be holding the KeyboardShortcuts folder open (Notepad or an antivirus/sync tool, for example), then fully exit and restart PowerToys. Disabling the Shortcut Guide module is the only workaround the archived tickets mention, and that was for a different crash.\"}",
+  "ttft_ms": 3940,
+  "type": "result",
+  "duration_ms": 3953,
+  "uuid": "d3d2b2da-a7f8-419e-85bb-8405b779ae66",
+  "ttft_stream_ms": 934,
+  "time_to_request_ms": 201,
+  "first_content_frame_ms": 934,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 417,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7838,
+    "webSearchRequests": 0,
+    "costUSD": 0.035525999999999995,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7838,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.774335355992662,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-qoneafzn/work"
+  }
+ },
+ "wall_seconds": 5.365604073012946,
+ "qid": "PowerToys#50802",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "No past ticket reports this exact problem. Your log shows a System.IO.IOException when Shortcut Guide copies its bundled manifests into C:\\Users\\user\\AppData\\Local\\Microsoft\\WinGet\\KeyboardShortcuts: the file +WindowsNT.Notepad.en-US.yml is locked by another process. The crash happens when you click the PowerToys tab. The archived Shortcut Guide crash tickets cover other causes: a missing Manifests directory (PowerToys#48170, fixed by PR #48171), a null reference when selecting the Windows tab (PowerToys#48448, PowerToys#48522, PowerToys#48773), and an access violation in ntdll or coreclr (PowerToys#48638). None of them mention a locked manifest file. This looks like a new issue, so keep your ticket open and include the log snippet. In the meantime you could try closing any app that may be holding the KeyboardShortcuts folder open (Notepad or an antivirus/sync tool, for example), then fully exit and restart PowerToys. Disabling the Shortcut Guide module is the only workaround the archived tickets mention, and that was for a different crash."
+ },
+ "hit_turn_cap": false
+}

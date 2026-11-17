@@ -1,0 +1,353 @@
+{
+ "shown": [
+  "PowerToys#10411",
+  "PowerToys#11984",
+  "PowerToys#13252",
+  "PowerToys#1730",
+  "PowerToys#2015",
+  "PowerToys#21908",
+  "PowerToys#2258",
+  "PowerToys#23074",
+  "PowerToys#24452",
+  "PowerToys#27158",
+  "PowerToys#31286",
+  "PowerToys#3190",
+  "PowerToys#32169",
+  "PowerToys#35377",
+  "PowerToys#35481",
+  "PowerToys#3707",
+  "PowerToys#38530",
+  "PowerToys#39166",
+  "PowerToys#3921",
+  "PowerToys#39229",
+  "PowerToys#3929",
+  "PowerToys#41088",
+  "PowerToys#411",
+  "PowerToys#4152",
+  "PowerToys#43005",
+  "PowerToys#4414",
+  "PowerToys#46569",
+  "PowerToys#46653",
+  "PowerToys#46775",
+  "PowerToys#46808",
+  "PowerToys#46854",
+  "PowerToys#46992",
+  "PowerToys#47247",
+  "PowerToys#4868",
+  "PowerToys#6601",
+  "PowerToys#810",
+  "PowerToys#814",
+  "PowerToys#850",
+  "PowerToys#8905",
+  "PowerToys#9221"
+ ],
+ "retrieval_seconds": 4.215420244028792,
+ "tool_calls": [
+  {
+   "t": 1794877473.8248403,
+   "tool": "search",
+   "args": {
+    "pattern": "PuTTY",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07340555201517418,
+   "returned": [
+    "PowerToys#46569",
+    "PowerToys#46992",
+    "PowerToys#38530",
+    "PowerToys#46854",
+    "PowerToys#24452",
+    "PowerToys#13252",
+    "PowerToys#3707",
+    "PowerToys#46808",
+    "PowerToys#47247",
+    "PowerToys#39229",
+    "PowerToys#31286",
+    "PowerToys#3929",
+    "PowerToys#814",
+    "PowerToys#46653",
+    "PowerToys#43005",
+    "PowerToys#35481",
+    "PowerToys#35377",
+    "PowerToys#27158",
+    "PowerToys#23074",
+    "PowerToys#21908"
+   ]
+  },
+  {
+   "t": 1794877478.4272416,
+   "tool": "similar",
+   "args": {
+    "query": "PuTTY custom system menu missing while PowerToys running, only default Windows menu",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.141059887013398,
+   "returned": [
+    "PowerToys#1730",
+    "PowerToys#3921",
+    "PowerToys#46992",
+    "PowerToys#2015",
+    "PowerToys#8905",
+    "PowerToys#11984",
+    "PowerToys#9221",
+    "PowerToys#4868",
+    "PowerToys#411",
+    "PowerToys#4414",
+    "PowerToys#32169",
+    "PowerToys#10411",
+    "PowerToys#39166",
+    "PowerToys#4152",
+    "PowerToys#3190",
+    "PowerToys#6601",
+    "PowerToys#850",
+    "PowerToys#41088",
+    "PowerToys#2258",
+    "PowerToys#810"
+   ]
+  },
+  {
+   "t": 1794877479.98593,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46992"
+   },
+   "seconds": 0.00016842500190250576,
+   "returned": [
+    "PowerToys#46992"
+   ]
+  },
+  {
+   "t": 1794877480.386409,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46569"
+   },
+   "seconds": 0.00032538099912926555,
+   "returned": [
+    "PowerToys#46569"
+   ]
+  },
+  {
+   "t": 1794877480.3964245,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46808"
+   },
+   "seconds": 0.00015440600691363215,
+   "returned": [
+    "PowerToys#46808"
+   ]
+  },
+  {
+   "t": 1794877480.50317,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47247"
+   },
+   "seconds": 0.00017883599502965808,
+   "returned": [
+    "PowerToys#47247"
+   ]
+  },
+  {
+   "t": 1794877482.3348823,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46775"
+   },
+   "seconds": 0.00012775699724443257,
+   "returned": [
+    "PowerToys#46775"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9203,
+  "stop_reason": "end_turn",
+  "session_id": "3ba9bd01-b283-4138-8f5b-26acdcb6b8a8",
+  "total_cost_usd": 0.0596207,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 12374,
+   "cache_read_input_tokens": 22887,
+   "output_tokens": 782,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12374,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 290,
+     "cache_read_input_tokens": 11941,
+     "cache_creation_input_tokens": 1846,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1846
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 782,
+    "cacheReadInputTokens": 22887,
+    "cacheCreationInputTokens": 12374,
+    "webSearchRequests": 0,
+    "costUSD": 0.0596207,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12374,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46992\", \"PowerToys#46569\", \"PowerToys#46808\"], \"answer\": \"This has been reported before. The cause is the Always on Top module, which was changed to add an entry to the window system menu. While the module is enabled, newly opened PuTTY windows show only the default Windows menu. Disable the Always on Top module in PowerToys Settings, then open a new PuTTY window. Windows that were already open keep their custom menu. Turning off 'Show Always on Top in the title bar context menu' did not help for other reporters. Adding putty.exe to the Excluded apps list did not help either. Disabling the whole module is the only workaround reported. Reporters said running PuTTY as administrator also avoided the problem (PowerToys#46992). I found no fix in the archive, so follow PowerToys#46569 for one.\"}",
+  "ttft_ms": 1800,
+  "type": "result",
+  "duration_ms": 13401,
+  "uuid": "fd2d5758-935e-445d-bdee-58d1383bffa2",
+  "ttft_stream_ms": 1420,
+  "time_to_request_ms": 33,
+  "first_content_frame_ms": 1421,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 782,
+    "cacheReadInputTokens": 22887,
+    "cacheCreationInputTokens": 12374,
+    "webSearchRequests": 0,
+    "costUSD": 0.0596207,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12374,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.900000548979733,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-xj2bnck8/work"
+  }
+ },
+ "wall_seconds": 17.19005113199819,
+ "qid": "PowerToys#49083",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46992",
+   "PowerToys#46569",
+   "PowerToys#46808"
+  ],
+  "answer": "This has been reported before. The cause is the Always on Top module, which was changed to add an entry to the window system menu. While the module is enabled, newly opened PuTTY windows show only the default Windows menu. Disable the Always on Top module in PowerToys Settings, then open a new PuTTY window. Windows that were already open keep their custom menu. Turning off 'Show Always on Top in the title bar context menu' did not help for other reporters. Adding putty.exe to the Excluded apps list did not help either. Disabling the whole module is the only workaround reported. Reporters said running PuTTY as administrator also avoided the problem (PowerToys#46992). I found no fix in the archive, so follow PowerToys#46569 for one."
+ },
+ "hit_turn_cap": false
+}

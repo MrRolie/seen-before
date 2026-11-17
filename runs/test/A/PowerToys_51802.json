@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#31606",
+  "PowerToys#15439",
+  "PowerToys#40419",
+  "PowerToys#25519",
+  "PowerToys#19537"
+ ],
+ "retrieval_seconds": 0.013342240999918431,
+ "retrieval_scores": [
+  0.8224092125892639,
+  0.8117456436157227,
+  0.8074885606765747,
+  0.7932947278022766,
+  0.7916925549507141
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 6238,
+  "stop_reason": "end_turn",
+  "session_id": "7ed4483d-91b6-47b5-9491-094272ebd95b",
+  "total_cost_usd": 0.018298000000000002,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 2811,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 705,
+   "output_tokens_details": {
+    "thinking_tokens": 423
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 2811,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 705,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 2811,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2811
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 705,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 2811,
+    "webSearchRequests": 0,
+    "costUSD": 0.018298000000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 423,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2811,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"No past ticket asks for window opacity that works independently of Always On Top. The similar tickets (PowerToys#31606, #15439, #40419, #25519, #19537) all ask for an opacity or transparency setting for windows pinned with Always On Top, and each was closed as a duplicate of the Always On Top opacity request (#1084, or #28072 for #31606). Your request differs because it wants opacity without pinning the window, so I can't treat it as a repeat. Nothing in the archive offers a workaround or a fix. The one tip in the archive is a comment on #31606 noting that AutoHotkey can set the transparency of any window (WinSetTransparent), which you could use in the meantime. Keep this ticket open as a separate feature request and mention the related Always On Top opacity requests for context.\"}",
+  "ttft_ms": 4527,
+  "type": "result",
+  "duration_ms": 6655,
+  "uuid": "fdd6a87a-4393-481a-aee9-aa36065d527c",
+  "ttft_stream_ms": 885,
+  "time_to_request_ms": 415,
+  "first_content_frame_ms": 885,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 705,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 2811,
+    "webSearchRequests": 0,
+    "costUSD": 0.018298000000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 423,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2811,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 7.40586050300044,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-_ay4kuh7/work"
+  }
+ },
+ "wall_seconds": 7.420835036988137,
+ "qid": "PowerToys#51802",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "No past ticket asks for window opacity that works independently of Always On Top. The similar tickets (PowerToys#31606, #15439, #40419, #25519, #19537) all ask for an opacity or transparency setting for windows pinned with Always On Top, and each was closed as a duplicate of the Always On Top opacity request (#1084, or #28072 for #31606). Your request differs because it wants opacity without pinning the window, so I can't treat it as a repeat. Nothing in the archive offers a workaround or a fix. The one tip in the archive is a comment on #31606 noting that AutoHotkey can set the transparency of any window (WinSetTransparent), which you could use in the meantime. Keep this ticket open as a separate feature request and mention the related Always On Top opacity requests for context."
+ },
+ "hit_turn_cap": false
+}

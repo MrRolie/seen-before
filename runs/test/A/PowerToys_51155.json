@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#26558",
+  "PowerToys#16125",
+  "PowerToys#46880",
+  "PowerToys#23111",
+  "PowerToys#35414"
+ ],
+ "retrieval_seconds": 0.025200828997185454,
+ "retrieval_scores": [
+  0.6397024393081665,
+  0.6374342441558838,
+  0.6335958242416382,
+  0.6231924295425415,
+  0.621326744556427
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3943,
+  "stop_reason": "end_turn",
+  "session_id": "88a98314-df1f-4696-91ef-60867f5f0f53",
+  "total_cost_usd": 0.024694,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5205,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 387,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5205,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 387,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5205,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5205
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 387,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5205,
+    "webSearchRequests": 0,
+    "costUSD": 0.024694,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5205,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46880\", \"PowerToys#35414\", \"PowerToys#23111\"], \"answer\": \"This has been reported before: PowerToys silently disables (or re-enables) modules after a restart, update or sleep. The most recent report, #46880, was closed as a duplicate of #43449, which is the issue to follow. It was still unfixed as of April 2026, and the maintainers planned to look at it after 0.99. #35414 was likewise closed as a duplicate of #24339. Earlier reports (#23111, #16125) were resolved by updating or reinstalling PowerToys. So: 1) update to the latest PowerToys release; if that doesn't help, uninstall and reinstall it cleanly. 2) Follow #43449 for a real fix, and add your bug report ZIP and version (v0.101.2362, Microsoft Store) there. 3) Until it is fixed, re-disable the modules you don't want after a restart, update, or long sleep. Note that your ticket describes modules turning back ON rather than OFF, which is the reverse of #46880 and #35414, though the cause appears to be the same settings not persisting.\"}",
+  "ttft_ms": 4147,
+  "type": "result",
+  "duration_ms": 4162,
+  "uuid": "cb5d09a1-7c7f-4170-b3b8-8e24813eb653",
+  "ttft_stream_ms": 1364,
+  "time_to_request_ms": 218,
+  "first_content_frame_ms": 1365,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 387,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5205,
+    "webSearchRequests": 0,
+    "costUSD": 0.024694,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5205,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 5.057604131987318,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-edc3bpac/work"
+  }
+ },
+ "wall_seconds": 5.084551753010601,
+ "qid": "PowerToys#51155",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46880",
+   "PowerToys#35414",
+   "PowerToys#23111"
+  ],
+  "answer": "This has been reported before: PowerToys silently disables (or re-enables) modules after a restart, update or sleep. The most recent report, #46880, was closed as a duplicate of #43449, which is the issue to follow. It was still unfixed as of April 2026, and the maintainers planned to look at it after 0.99. #35414 was likewise closed as a duplicate of #24339. Earlier reports (#23111, #16125) were resolved by updating or reinstalling PowerToys. So: 1) update to the latest PowerToys release; if that doesn't help, uninstall and reinstall it cleanly. 2) Follow #43449 for a real fix, and add your bug report ZIP and version (v0.101.2362, Microsoft Store) there. 3) Until it is fixed, re-disable the modules you don't want after a restart, update, or long sleep. Note that your ticket describes modules turning back ON rather than OFF, which is the reverse of #46880 and #35414, though the cause appears to be the same settings not persisting."
+ },
+ "hit_turn_cap": false
+}

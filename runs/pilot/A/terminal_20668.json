@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "terminal#1380",
+  "terminal#4907",
+  "terminal#11620",
+  "terminal#11354",
+  "terminal#3376"
+ ],
+ "retrieval_seconds": 0.02173293399391696,
+ "retrieval_scores": [
+  0.7160302996635437,
+  0.6915490627288818,
+  0.6730086207389832,
+  0.6640394330024719,
+  0.6639391183853149
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3808,
+  "stop_reason": "end_turn",
+  "session_id": "4aa418ba-7037-4c5d-90b1-ee4f3f0b8767",
+  "total_cost_usd": 0.06259,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 14664,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 393,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 14664,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 393,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 14664,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 14664
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 393,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 14664,
+    "webSearchRequests": 0,
+    "costUSD": 0.06259,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14664,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find a past ticket in the archive that reports this same problem. The closest ones are different issues. terminal#3376 is a 0xC000027B crash in Windows.UI.Xaml.dll when a Terminal window is moved between monitors, but the trigger is dragging the window, not focus changes while a fullscreen game runs, and it was closed as a duplicate of #3303 with no fix or workaround described. terminal#1380, terminal#11620 and terminal#11354 are XAML crashes or hangs at shutdown, and terminal#4907 is a TextBuffer reflow crash, so none of them involve ListViewBase::OnKeyDown or GettingFocus re-entrancy. The archive gives no workaround. I'd file this as a new issue with your symbolised stack and the correlation with the fullscreen game, and offer the full crash dumps, since the inner exception can't be recovered from the minidumps. Meanwhile you could try running the game in borderless-windowed mode instead of exclusive fullscreen to see whether the crashes stop. That is a suggestion for testing, not something the archived tickets confirm.\"}",
+  "ttft_ms": 4040,
+  "type": "result",
+  "duration_ms": 4063,
+  "uuid": "56a25ab3-9686-48bf-b9a1-f540c8aba7f7",
+  "ttft_stream_ms": 1399,
+  "time_to_request_ms": 255,
+  "first_content_frame_ms": 1400,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 393,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 14664,
+    "webSearchRequests": 0,
+    "costUSD": 0.06259,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14664,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.905131153005641,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-_apxq9ev/work"
+  }
+ },
+ "wall_seconds": 4.928981335979188,
+ "qid": "terminal#20668",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find a past ticket in the archive that reports this same problem. The closest ones are different issues. terminal#3376 is a 0xC000027B crash in Windows.UI.Xaml.dll when a Terminal window is moved between monitors, but the trigger is dragging the window, not focus changes while a fullscreen game runs, and it was closed as a duplicate of #3303 with no fix or workaround described. terminal#1380, terminal#11620 and terminal#11354 are XAML crashes or hangs at shutdown, and terminal#4907 is a TextBuffer reflow crash, so none of them involve ListViewBase::OnKeyDown or GettingFocus re-entrancy. The archive gives no workaround. I'd file this as a new issue with your symbolised stack and the correlation with the fullscreen game, and offer the full crash dumps, since the inner exception can't be recovered from the minidumps. Meanwhile you could try running the game in borderless-windowed mode instead of exclusive fullscreen to see whether the crashes stop. That is a suggestion for testing, not something the archived tickets confirm."
+ },
+ "hit_turn_cap": false
+}

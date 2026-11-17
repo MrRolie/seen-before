@@ -1,0 +1,194 @@
+{
+ "shown": [
+  "terminal#18831",
+  "terminal#19727",
+  "terminal#18728",
+  "terminal#19269",
+  "WSL#7959"
+ ],
+ "retrieval_seconds": 0.5413439160038251,
+ "retrieval_scores": [
+  0.028850145288501453,
+  0.023458810692853244,
+  0.01869812145041503,
+  0.01639344262295082,
+  0.01639344262295082
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 6627,
+  "stop_reason": "end_turn",
+  "session_id": "70eba383-a821-4c6f-af67-27096a10afb8",
+  "total_cost_usd": 0.05402,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 11439,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 826,
+   "output_tokens_details": {
+    "thinking_tokens": 354
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11439,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 826,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 11439,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 11439
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 826,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 11439,
+    "webSearchRequests": 0,
+    "costUSD": 0.05402,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 354,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11439,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#19269\", \"terminal#18831\"], \"answer\": \"This looks like the known 'transparent, frozen Terminal window' problem. In terminal#19269 a .bat launch opened a transparent Terminal window with no tabs, which the maintainers called the 'defterm window with no tabs' issue. There is no fix in that ticket yet. In the meantime: (1) End the stuck WindowsTerminal.exe process in Task Manager, which clears the frozen windows. A reboot also cleared it for one reporter. (2) Open Event Viewer > Windows Logs > Application and look for a WindowsTerminal.exe crash (Event ID 1000). Check the faulting module. In terminal#18831 the crash came from MSVCR90.dll, caused by a third-party sync tool (SyncDisk) injecting into all apps. Removing or relocating that software fixed it. Check for similar injecting software on your machine. (3) Collect traces with Feedback Hub > Apps > Windows Terminal > Advanced Diagnostics: start recording, reproduce the problem, then upload the report and add it to terminal#19269. Do not post your memory dump publicly. In other tickets the maintainers offered to take dumps privately by email, so offer the same in your ticket. (4) Some reporters found that allowing Terminal to start at machine startup helped, but this did not work for everyone.\"}",
+  "ttft_ms": 3470,
+  "type": "result",
+  "duration_ms": 6835,
+  "uuid": "31100717-e769-4c3d-b01a-a18be998ff4f",
+  "ttft_stream_ms": 957,
+  "time_to_request_ms": 200,
+  "first_content_frame_ms": 958,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 826,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 11439,
+    "webSearchRequests": 0,
+    "costUSD": 0.05402,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 354,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11439,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 7.602590100985253,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-3cv_qf68/work"
+  }
+ },
+ "wall_seconds": 8.146177989983698,
+ "qid": "terminal#20427",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#19269",
+   "terminal#18831"
+  ],
+  "answer": "This looks like the known 'transparent, frozen Terminal window' problem. In terminal#19269 a .bat launch opened a transparent Terminal window with no tabs, which the maintainers called the 'defterm window with no tabs' issue. There is no fix in that ticket yet. In the meantime: (1) End the stuck WindowsTerminal.exe process in Task Manager, which clears the frozen windows. A reboot also cleared it for one reporter. (2) Open Event Viewer > Windows Logs > Application and look for a WindowsTerminal.exe crash (Event ID 1000). Check the faulting module. In terminal#18831 the crash came from MSVCR90.dll, caused by a third-party sync tool (SyncDisk) injecting into all apps. Removing or relocating that software fixed it. Check for similar injecting software on your machine. (3) Collect traces with Feedback Hub > Apps > Windows Terminal > Advanced Diagnostics: start recording, reproduce the problem, then upload the report and add it to terminal#19269. Do not post your memory dump publicly. In other tickets the maintainers offered to take dumps privately by email, so offer the same in your ticket. (4) Some reporters found that allowing Terminal to start at machine startup helped, but this did not work for everyone."
+ },
+ "hit_turn_cap": false
+}

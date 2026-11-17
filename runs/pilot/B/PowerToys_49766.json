@@ -1,0 +1,246 @@
+{
+ "shown": [
+  "PowerToys#36969",
+  "PowerToys#37482"
+ ],
+ "retrieval_seconds": 0.1277000110130757,
+ "tool_calls": [
+  {
+   "t": 1794876375.099637,
+   "tool": "search",
+   "args": {
+    "pattern": "ItemCollection has no inner collection",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07927949700388126,
+   "returned": [
+    "PowerToys#37482",
+    "PowerToys#36969"
+   ]
+  },
+  {
+   "t": 1794876375.4542284,
+   "tool": "search",
+   "args": {
+    "pattern": "MainWindow.ViewModel_PropertyChanged",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.048140422004507855,
+   "returned": [
+    "PowerToys#37482",
+    "PowerToys#36969"
+   ]
+  },
+  {
+   "t": 1794876376.4783542,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37482"
+   },
+   "seconds": 0.00012788601452484727,
+   "returned": [
+    "PowerToys#37482"
+   ]
+  },
+  {
+   "t": 1794876376.4954855,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#36969"
+   },
+   "seconds": 0.00015220599016174674,
+   "returned": [
+    "PowerToys#36969"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 5752,
+  "stop_reason": "end_turn",
+  "session_id": "94274359-c331-4555-bc50-68daa04083d8",
+  "total_cost_usd": 0.0285111,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 5554,
+   "cache_read_input_tokens": 7531,
+   "output_tokens": 553,
+   "output_tokens_details": {
+    "thinking_tokens": 16
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5554,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 300,
+     "cache_read_input_tokens": 3541,
+     "cache_creation_input_tokens": 3190,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3190
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 553,
+    "cacheReadInputTokens": 7531,
+    "cacheCreationInputTokens": 5554,
+    "webSearchRequests": 0,
+    "costUSD": 0.0285111,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 16,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5554,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#37482\", \"PowerToys#36969\"], \"answer\": \"This exact crash has been reported twice before, in PowerToys#37482 and PowerToys#36969. In both, PowerToys Run (PowerToys.PowerLauncher) throws an InvalidOperationException (\\\"ItemCollection has no inner collection\\\") when its window loads. Neither ticket gives a root-cause fix. In #36969 the reporter said it started working again by itself, without saying what changed. The tickets suggest trying this: fully exit PowerToys and start it again, or restart Windows. You can also run PowerToys.PowerLauncher.exe from the install folder to check whether it starts. If the crash keeps happening, add your PowerToys version and Windows build to the existing tickets, along with whether it happens on every startup.\"}",
+  "ttft_ms": 1216,
+  "type": "result",
+  "duration_ms": 5851,
+  "uuid": "3f228304-2faf-4761-a0d9-4c6b4bf92ba8",
+  "ttft_stream_ms": 893,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 893,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 553,
+    "cacheReadInputTokens": 7531,
+    "cacheCreationInputTokens": 5554,
+    "webSearchRequests": 0,
+    "costUSD": 0.0285111,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 16,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5554,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 7.189301701000659,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-n2_mo7rk/work"
+  }
+ },
+ "wall_seconds": 7.196637168992311,
+ "qid": "PowerToys#49766",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#37482",
+   "PowerToys#36969"
+  ],
+  "answer": "This exact crash has been reported twice before, in PowerToys#37482 and PowerToys#36969. In both, PowerToys Run (PowerToys.PowerLauncher) throws an InvalidOperationException (\"ItemCollection has no inner collection\") when its window loads. Neither ticket gives a root-cause fix. In #36969 the reporter said it started working again by itself, without saying what changed. The tickets suggest trying this: fully exit PowerToys and start it again, or restart Windows. You can also run PowerToys.PowerLauncher.exe from the install folder to check whether it starts. If the crash keeps happening, add your PowerToys version and Windows build to the existing tickets, along with whether it happens on every startup."
+ },
+ "hit_turn_cap": false
+}

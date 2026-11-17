@@ -1,0 +1,305 @@
+{
+ "shown": [
+  "PowerToys#1033",
+  "PowerToys#11433",
+  "PowerToys#13023",
+  "PowerToys#17991",
+  "PowerToys#2239",
+  "PowerToys#2260",
+  "PowerToys#2367",
+  "PowerToys#2828",
+  "PowerToys#30275",
+  "PowerToys#38344",
+  "PowerToys#38384",
+  "PowerToys#38404",
+  "PowerToys#38438",
+  "PowerToys#3885",
+  "PowerToys#39451",
+  "PowerToys#39638",
+  "PowerToys#40138",
+  "PowerToys#40598",
+  "PowerToys#40669",
+  "PowerToys#40969",
+  "PowerToys#41071",
+  "PowerToys#42082",
+  "PowerToys#42575",
+  "PowerToys#42872",
+  "PowerToys#43824",
+  "PowerToys#44197",
+  "PowerToys#44221",
+  "PowerToys#4535",
+  "PowerToys#45592",
+  "PowerToys#45957",
+  "PowerToys#45963",
+  "PowerToys#46225",
+  "PowerToys#46334",
+  "PowerToys#46457",
+  "PowerToys#47496",
+  "PowerToys#48538",
+  "PowerToys#5063",
+  "PowerToys#9986"
+ ],
+ "retrieval_seconds": 3.6922860739869066,
+ "tool_calls": [
+  {
+   "t": 1794879917.1108558,
+   "tool": "similar",
+   "args": {
+    "query": "Command Palette hidden invisible window remains on desktop, screenshot tools capture it",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.6231121250020806,
+   "returned": [
+    "PowerToys#46457",
+    "PowerToys#47496",
+    "PowerToys#5063",
+    "PowerToys#45592",
+    "PowerToys#2367",
+    "PowerToys#46225",
+    "PowerToys#44221",
+    "PowerToys#48538",
+    "PowerToys#42575",
+    "PowerToys#2239",
+    "PowerToys#40669",
+    "PowerToys#9986",
+    "PowerToys#2828",
+    "PowerToys#44197",
+    "PowerToys#3885",
+    "PowerToys#4535",
+    "PowerToys#42872",
+    "PowerToys#45963",
+    "PowerToys#2260",
+    "PowerToys#11433"
+   ]
+  },
+  {
+   "t": 1794879917.817476,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46457"
+   },
+   "seconds": 0.0001418759929947555,
+   "returned": [
+    "PowerToys#46457"
+   ]
+  },
+  {
+   "t": 1794879918.7672682,
+   "tool": "search",
+   "args": {
+    "pattern": "cloak",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06903207299183123,
+   "returned": [
+    "PowerToys#46225",
+    "PowerToys#42082",
+    "PowerToys#40598",
+    "PowerToys#45957",
+    "PowerToys#17991",
+    "PowerToys#1033",
+    "PowerToys#46457",
+    "PowerToys#40138",
+    "PowerToys#39638",
+    "PowerToys#39451",
+    "PowerToys#38404",
+    "PowerToys#13023",
+    "PowerToys#46334",
+    "PowerToys#43824",
+    "PowerToys#41071",
+    "PowerToys#40969",
+    "PowerToys#38438",
+    "PowerToys#38384",
+    "PowerToys#38344",
+    "PowerToys#30275"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 5823,
+  "stop_reason": "end_turn",
+  "session_id": "02e6bf66-91ea-4c76-a791-1aa7b35ed601",
+  "total_cost_usd": 0.0321614,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 6112,
+   "cache_read_input_tokens": 11474,
+   "output_tokens": 655,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6112,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 301,
+     "cache_read_input_tokens": 4274,
+     "cache_creation_input_tokens": 3251,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3251
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 655,
+    "cacheReadInputTokens": 11474,
+    "cacheCreationInputTokens": 6112,
+    "webSearchRequests": 0,
+    "costUSD": 0.0321614,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6112,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46457\"], \"answer\": \"This has been reported before (PowerToys#46457), and it is by design. Command Palette doesn't minimize or destroy its window when you dismiss it. It uses DWM cloaking, so the window is invisible but still exists. That lets it reappear instantly on the next hotkey press. The screenshot tool you use doesn't check whether a window is cloaked, so it still sees the window and offers it for capture. The ticket was left with a follow-up asking for a setting to turn cloaking off, and I found no existing switch. Your best option is to report this to the screenshot tool's developers and ask them to ignore cloaked windows (DWMWA_CLOAKED). Until then, you can press Esc in the screenshot tool, or choose a region by hand instead of snapping to a window. Please add your +1 to the request for a setting on #46457.\"}",
+  "ttft_ms": 1362,
+  "type": "result",
+  "duration_ms": 9510,
+  "uuid": "7e3f0191-1820-4189-9a43-c5d6e8eff66b",
+  "ttft_stream_ms": 548,
+  "time_to_request_ms": 26,
+  "first_content_frame_ms": 548,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 655,
+    "cacheReadInputTokens": 11474,
+    "cacheCreationInputTokens": 6112,
+    "webSearchRequests": 0,
+    "costUSD": 0.0321614,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6112,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.762883860006696,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-_sa9gk5r/work"
+  }
+ },
+ "wall_seconds": 10.764327270997455,
+ "qid": "PowerToys#49823",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46457"
+  ],
+  "answer": "This has been reported before (PowerToys#46457), and it is by design. Command Palette doesn't minimize or destroy its window when you dismiss it. It uses DWM cloaking, so the window is invisible but still exists. That lets it reappear instantly on the next hotkey press. The screenshot tool you use doesn't check whether a window is cloaked, so it still sees the window and offers it for capture. The ticket was left with a follow-up asking for a setting to turn cloaking off, and I found no existing switch. Your best option is to report this to the screenshot tool's developers and ask them to ignore cloaked windows (DWMWA_CLOAKED). Until then, you can press Esc in the screenshot tool, or choose a region by hand instead of snapping to a window. Please add your +1 to the request for a setting on #46457."
+ },
+ "hit_turn_cap": false
+}

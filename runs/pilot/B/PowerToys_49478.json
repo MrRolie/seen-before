@@ -1,0 +1,298 @@
+{
+ "shown": [
+  "PowerToys#28769",
+  "PowerToys#47258",
+  "PowerToys#47290",
+  "PowerToys#47291",
+  "PowerToys#47449",
+  "PowerToys#47537",
+  "PowerToys#47590",
+  "PowerToys#47692",
+  "PowerToys#47694",
+  "PowerToys#47696",
+  "PowerToys#47702",
+  "PowerToys#47721",
+  "PowerToys#47753",
+  "PowerToys#47867",
+  "PowerToys#47893",
+  "PowerToys#48016",
+  "PowerToys#48286",
+  "PowerToys#48422",
+  "PowerToys#48784",
+  "PowerToys#48822",
+  "PowerToys#48859"
+ ],
+ "retrieval_seconds": 0.2639046530239284,
+ "tool_calls": [
+  {
+   "t": 1794876146.8945136,
+   "tool": "search",
+   "args": {
+    "pattern": "SDR content brightness",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.051848388015059754,
+   "returned": [
+    "PowerToys#47291"
+   ]
+  },
+  {
+   "t": 1794876147.6347618,
+   "tool": "search",
+   "args": {
+    "pattern": "PowerDisplay HDR",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05786568799521774,
+   "returned": []
+  },
+  {
+   "t": 1794876147.6867845,
+   "tool": "search",
+   "args": {
+    "pattern": "Power Display shortcut brightness",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04379945801338181,
+   "returned": []
+  },
+  {
+   "t": 1794876149.5728862,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47291"
+   },
+   "seconds": 0.00018373600323684514,
+   "returned": [
+    "PowerToys#47291"
+   ]
+  },
+  {
+   "t": 1794876151.9187777,
+   "tool": "search",
+   "args": {
+    "pattern": "Power Display",
+    "regex": false,
+    "also": [
+     "shortcut"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11020738299703225,
+   "returned": [
+    "PowerToys#47692",
+    "PowerToys#48784",
+    "PowerToys#47290",
+    "PowerToys#48286",
+    "PowerToys#48859",
+    "PowerToys#48016",
+    "PowerToys#47537",
+    "PowerToys#47449",
+    "PowerToys#47258",
+    "PowerToys#47721",
+    "PowerToys#47694",
+    "PowerToys#28769",
+    "PowerToys#48822",
+    "PowerToys#48422",
+    "PowerToys#47893",
+    "PowerToys#47867",
+    "PowerToys#47753",
+    "PowerToys#47702",
+    "PowerToys#47696",
+    "PowerToys#47590"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10771,
+  "stop_reason": "end_turn",
+  "session_id": "480bff17-55bd-4189-b494-dd942a2919c0",
+  "total_cost_usd": 0.0315878,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 5260,
+   "cache_read_input_tokens": 9518,
+   "output_tokens": 958,
+   "output_tokens_details": {
+    "thinking_tokens": 101
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5260,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 424,
+     "cache_read_input_tokens": 3367,
+     "cache_creation_input_tokens": 3070,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3070
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 958,
+    "cacheReadInputTokens": 9518,
+    "cacheCreationInputTokens": 5260,
+    "webSearchRequests": 0,
+    "costUSD": 0.0315878,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 101,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5260,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#47291\", \"PowerToys#48784\", \"PowerToys#47893\"], \"answer\": \"Both halves of this request have been filed before. PowerToys#47291 asks for Power Display to control Windows' SDR content brightness slider when HDR is on. PowerToys#48784 and PowerToys#47893 ask for global shortcuts to raise and lower brightness. Other tickets ask for the same shortcuts, including #48859, #48422 and #47590. Some of them want the shortcuts in Keyboard Manager instead, such as #47290 and #47449. The archive shows no fix or workaround for any of these. Please don't open this as a new request. Add your details to those tickets, especially your working implementation, the DisplayConfig SDR white level approach and the tests. Tell the maintainers that you have a ready implementation. Until it is merged, you can change SDR brightness in Windows Settings under System > Display > HDR.\"}",
+  "ttft_ms": 1656,
+  "type": "result",
+  "duration_ms": 11038,
+  "uuid": "1e440f27-4c20-4f5a-8cf2-1d0bb958a279",
+  "ttft_stream_ms": 1272,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 1272,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 958,
+    "cacheReadInputTokens": 9518,
+    "cacheCreationInputTokens": 5260,
+    "webSearchRequests": 0,
+    "costUSD": 0.0315878,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 101,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5260,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.54600697697606,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-1_j6jzgj/work"
+  }
+ },
+ "wall_seconds": 12.548186971980613,
+ "qid": "PowerToys#49478",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#47291",
+   "PowerToys#48784",
+   "PowerToys#47893"
+  ],
+  "answer": "Both halves of this request have been filed before. PowerToys#47291 asks for Power Display to control Windows' SDR content brightness slider when HDR is on. PowerToys#48784 and PowerToys#47893 ask for global shortcuts to raise and lower brightness. Other tickets ask for the same shortcuts, including #48859, #48422 and #47590. Some of them want the shortcuts in Keyboard Manager instead, such as #47290 and #47449. The archive shows no fix or workaround for any of these. Please don't open this as a new request. Add your details to those tickets, especially your working implementation, the DisplayConfig SDR white level approach and the tests. Tell the maintainers that you have a ready implementation. Until it is merged, you can change SDR brightness in Windows Settings under System > Display > HDR."
+ },
+ "hit_turn_cap": false
+}

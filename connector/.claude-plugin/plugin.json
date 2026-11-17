@@ -1,0 +1,5 @@
+{
+  "name": "seen-before",
+  "version": "0.1.0",
+  "description": "Has this issue been reported before? An agent searches your repository's past issues with ripgrep and names the earlier reports."
+}

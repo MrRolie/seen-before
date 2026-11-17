@@ -1,0 +1,296 @@
+{
+ "shown": [
+  "PowerToys#10284",
+  "PowerToys#1062",
+  "PowerToys#3041",
+  "PowerToys#40733",
+  "PowerToys#4262",
+  "PowerToys#4670",
+  "PowerToys#6092",
+  "PowerToys#6640",
+  "PowerToys#7863",
+  "PowerToys#920",
+  "PowerToys#9806",
+  "terminal#10926",
+  "terminal#1210",
+  "terminal#1297",
+  "terminal#1652",
+  "terminal#19610",
+  "terminal#1962",
+  "terminal#2472",
+  "terminal#2718",
+  "terminal#3587",
+  "terminal#3838",
+  "terminal#3941",
+  "terminal#3986",
+  "terminal#4426",
+  "terminal#467",
+  "terminal#482",
+  "terminal#584",
+  "terminal#671",
+  "terminal#7281",
+  "terminal#7282",
+  "terminal#775",
+  "terminal#9128",
+  "terminal#922",
+  "terminal#978"
+ ],
+ "retrieval_seconds": 3.996910446032416,
+ "tool_calls": [
+  {
+   "t": 1794879125.528044,
+   "tool": "search",
+   "args": {
+    "query": "Host.Tests.UIA UITestExtensionPackages path VSTT 17.0 does not exist",
+    "repo": "terminal"
+   },
+   "seconds": 3.983966230007354,
+   "returned": [
+    "terminal#671",
+    "terminal#7282",
+    "terminal#4426",
+    "terminal#1210",
+    "terminal#584",
+    "terminal#482",
+    "terminal#7281",
+    "terminal#3838",
+    "terminal#19610",
+    "terminal#10926",
+    "terminal#3986",
+    "terminal#1652",
+    "terminal#2472",
+    "terminal#9128",
+    "terminal#775",
+    "terminal#467",
+    "terminal#1297",
+    "terminal#922",
+    "terminal#3941",
+    "terminal#1962"
+   ]
+  },
+  {
+   "t": 1794879125.5521157,
+   "tool": "search",
+   "args": {
+    "query": "Common Files microsoft shared VSTT UITestExtensionPackages missing",
+    "repo": null
+   },
+   "seconds": 0.01278195102349855,
+   "returned": [
+    "PowerToys#10284",
+    "terminal#3838",
+    "PowerToys#6640",
+    "terminal#4426",
+    "terminal#1962",
+    "terminal#671",
+    "PowerToys#6092",
+    "terminal#2718",
+    "PowerToys#3041",
+    "PowerToys#7863",
+    "PowerToys#1062",
+    "terminal#1210",
+    "terminal#3986",
+    "PowerToys#40733",
+    "PowerToys#920",
+    "terminal#978",
+    "PowerToys#4670",
+    "PowerToys#9806",
+    "PowerToys#4262",
+    "terminal#3587"
+   ]
+  },
+  {
+   "t": 1794879127.2938926,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#671"
+   },
+   "seconds": 0.00016226500156335533,
+   "returned": [
+    "terminal#671"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7341,
+  "stop_reason": "end_turn",
+  "session_id": "45c6a5af-1ac1-4fa3-8a03-660ff8001b09",
+  "total_cost_usd": 0.021360399999999998,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 3875,
+   "cache_read_input_tokens": 6984,
+   "output_tokens": 515,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3875,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 249,
+     "cache_read_input_tokens": 4223,
+     "cache_creation_input_tokens": 685,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 685
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 515,
+    "cacheReadInputTokens": 6984,
+    "cacheCreationInputTokens": 3875,
+    "webSearchRequests": 0,
+    "costUSD": 0.021360399999999998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3875,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 4,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket that reports this problem. The closest results were general UIA test-harness and TAEF tickets, such as terminal#671. They don't mention the missing `C:\\\\Program Files\\\\Common Files\\\\microsoft shared\\\\VSTT\\\\17.0\\\\UITestExtensionPackages` path. This folder is probably only created when the Visual Studio test components that use it are installed, such as the UI test or Coded UI test support. A missing folder is therefore likely harmless unless a build or test run actually fails because of it. Don't delete the setting. If a build or test run does fail, reopen this ticket with the exact error message, your Windows build number, and the Terminal version or commit you're building.\"}",
+  "ttft_ms": 2492,
+  "type": "result",
+  "duration_ms": 11407,
+  "uuid": "7dbb8b29-4639-4c0d-98d2-fe7da3efc5a0",
+  "ttft_stream_ms": 1438,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 1438,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 515,
+    "cacheReadInputTokens": 6984,
+    "cacheCreationInputTokens": 3875,
+    "webSearchRequests": 0,
+    "costUSD": 0.021360399999999998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3875,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.876044320990331,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-rpyn6tpc/work"
+  }
+ },
+ "wall_seconds": 12.878267546009738,
+ "qid": "terminal#20483",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket that reports this problem. The closest results were general UIA test-harness and TAEF tickets, such as terminal#671. They don't mention the missing `C:\\Program Files\\Common Files\\microsoft shared\\VSTT\\17.0\\UITestExtensionPackages` path. This folder is probably only created when the Visual Studio test components that use it are installed, such as the UI test or Coded UI test support. A missing folder is therefore likely harmless unless a build or test run actually fails because of it. Don't delete the setting. If a build or test run does fail, reopen this ticket with the exact error message, your Windows build number, and the Terminal version or commit you're building."
+ },
+ "hit_turn_cap": false
+}

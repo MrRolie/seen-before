@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#48211",
+  "PowerToys#48802",
+  "PowerToys#47009",
+  "PowerToys#47686",
+  "PowerToys#46200"
+ ],
+ "retrieval_seconds": 0.016974550002487376,
+ "retrieval_scores": [
+  0.6904363632202148,
+  0.6878207325935364,
+  0.6850593090057373,
+  0.6825626492500305,
+  0.6813777685165405
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2573,
+  "stop_reason": "end_turn",
+  "session_id": "bf1184eb-b06a-4971-9a31-01e194fc7f4c",
+  "total_cost_usd": 0.023424,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5160,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 278,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5160,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 278,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5160,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5160
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 278,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5160,
+    "webSearchRequests": 0,
+    "costUSD": 0.023424,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5160,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"No past ticket reports this same request. Related tickets exist but cover different problems: #46200 asks to choose which metrics appear in the Performance Monitor band, #47009 asks for graph icons for the perf monitor, #47686/#47218 concern battery percentage in the Dock, and #48802 asks for disk stats. None asks to merge CPU, memory, network and GPU into a single Monitor icon with a flyout, show a charging indicator on the battery item, or fix the app window overlapping/sliding under the Dock. Please keep this ticket open as a new request. It may help to split the Dock overlap/positioning bug into its own issue, with your Windows version, PowerToys version, Dock position, and a screenshot or steps to reproduce, since it is a bug rather than a design change.\"}",
+  "ttft_ms": 2727,
+  "type": "result",
+  "duration_ms": 2744,
+  "uuid": "b66a58c2-18c4-4692-9b75-db0b1a6206d8",
+  "ttft_stream_ms": 742,
+  "time_to_request_ms": 169,
+  "first_content_frame_ms": 742,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 278,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5160,
+    "webSearchRequests": 0,
+    "costUSD": 0.023424,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5160,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.807910717994673,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-jcivsmbo/work"
+  }
+ },
+ "wall_seconds": 3.827037801995175,
+ "qid": "PowerToys#50224",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "No past ticket reports this same request. Related tickets exist but cover different problems: #46200 asks to choose which metrics appear in the Performance Monitor band, #47009 asks for graph icons for the perf monitor, #47686/#47218 concern battery percentage in the Dock, and #48802 asks for disk stats. None asks to merge CPU, memory, network and GPU into a single Monitor icon with a flyout, show a charging indicator on the battery item, or fix the app window overlapping/sliding under the Dock. Please keep this ticket open as a new request. It may help to split the Dock overlap/positioning bug into its own issue, with your Windows version, PowerToys version, Dock position, and a screenshot or steps to reproduce, since it is a bug rather than a design change."
+ },
+ "hit_turn_cap": false
+}

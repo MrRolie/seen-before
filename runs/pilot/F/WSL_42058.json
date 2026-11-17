@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "WSL#8560",
+  "WSL#12746",
+  "WSL#9801",
+  "WSL#40944",
+  "WSL#11787"
+ ],
+ "retrieval_seconds": 0.7117990590049885,
+ "retrieval_scores": [
+  0.03128054740957967,
+  0.028021349599695006,
+  0.027598020555767037,
+  0.027031740495291244,
+  0.026494565217391304
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 5066,
+  "stop_reason": "end_turn",
+  "session_id": "d83fb287-58dd-4679-8835-d91e5fd71961",
+  "total_cost_usd": 0.029138,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6671,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 245,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6671,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 245,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6671,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6671
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 245,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6671,
+    "webSearchRequests": 0,
+    "costUSD": 0.029138,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6671,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find a past ticket reporting this problem. None of the archived tickets covers `wslc image import` failing with E_INVALIDARG when the image name has no tag. The closest ones are different problems. WSL#40944 is a wslc E_INVALIDARG caused by a Windows username containing a '.', and it affects every wslc command, not just import. The other import tickets are about `wsl --import` of distro tarballs. As a workaround, specify the tag explicitly, for example `wslc image import alp.tar test:latest`, which you've confirmed works. This looks like a new bug, so it needs a fresh report: wslc should default to :latest when no tag is given, as docker does.\"}",
+  "ttft_ms": 5236,
+  "type": "result",
+  "duration_ms": 5258,
+  "uuid": "7b52fdf5-dd4b-44fe-9b54-3bd6bd297c80",
+  "ttft_stream_ms": 3207,
+  "time_to_request_ms": 190,
+  "first_content_frame_ms": 3207,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 245,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6671,
+    "webSearchRequests": 0,
+    "costUSD": 0.029138,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6671,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 6.105064287985442,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-s3e2ijzg/work"
+  }
+ },
+ "wall_seconds": 6.818786855001235,
+ "qid": "WSL#42058",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find a past ticket reporting this problem. None of the archived tickets covers `wslc image import` failing with E_INVALIDARG when the image name has no tag. The closest ones are different problems. WSL#40944 is a wslc E_INVALIDARG caused by a Windows username containing a '.', and it affects every wslc command, not just import. The other import tickets are about `wsl --import` of distro tarballs. As a workaround, specify the tag explicitly, for example `wslc image import alp.tar test:latest`, which you've confirmed works. This looks like a new bug, so it needs a fresh report: wslc should default to :latest when no tag is given, as docker does."
+ },
+ "hit_turn_cap": false
+}

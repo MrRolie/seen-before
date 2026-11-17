@@ -1,0 +1,506 @@
+{
+ "shown": [
+  "PowerToys#10095",
+  "PowerToys#1052",
+  "PowerToys#10895",
+  "PowerToys#11963",
+  "PowerToys#13979",
+  "PowerToys#1488",
+  "PowerToys#1517",
+  "PowerToys#179",
+  "PowerToys#21403",
+  "PowerToys#21473",
+  "PowerToys#28769",
+  "PowerToys#291",
+  "PowerToys#31878",
+  "PowerToys#34267",
+  "PowerToys#3576",
+  "PowerToys#3692",
+  "PowerToys#44474",
+  "PowerToys#47514",
+  "PowerToys#4761",
+  "PowerToys#47684",
+  "PowerToys#48170",
+  "PowerToys#48427",
+  "PowerToys#48435",
+  "PowerToys#48441",
+  "PowerToys#48448",
+  "PowerToys#48454",
+  "PowerToys#48460",
+  "PowerToys#48462",
+  "PowerToys#48490",
+  "PowerToys#48494",
+  "PowerToys#48522",
+  "PowerToys#48552",
+  "PowerToys#48556",
+  "PowerToys#48638",
+  "PowerToys#48773",
+  "PowerToys#48789",
+  "PowerToys#48792",
+  "PowerToys#48866",
+  "PowerToys#48892",
+  "PowerToys#5944",
+  "PowerToys#7653",
+  "PowerToys#7663",
+  "PowerToys#890",
+  "PowerToys#9105",
+  "terminal#3325",
+  "terminal#6120"
+ ],
+ "retrieval_seconds": 1.6972350928990636,
+ "tool_calls": [
+  {
+   "t": 1794876216.9867609,
+   "tool": "search",
+   "args": {
+    "pattern": "shortcut guide taskbar",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05606967298081145,
+   "returned": []
+  },
+  {
+   "t": 1794876218.6942623,
+   "tool": "search",
+   "args": {
+    "pattern": "shortcut guide",
+    "regex": false,
+    "also": [
+     "taskbar"
+    ],
+    "repo": null
+   },
+   "seconds": 0.12660151600721292,
+   "returned": [
+    "PowerToys#10095",
+    "PowerToys#11963",
+    "PowerToys#5944",
+    "terminal#3325",
+    "PowerToys#890",
+    "PowerToys#179",
+    "terminal#6120",
+    "PowerToys#48773",
+    "PowerToys#3576",
+    "PowerToys#291",
+    "PowerToys#28769",
+    "PowerToys#21403",
+    "PowerToys#1517",
+    "PowerToys#48789",
+    "PowerToys#44474",
+    "PowerToys#31878",
+    "PowerToys#13979",
+    "PowerToys#10895",
+    "PowerToys#9105",
+    "PowerToys#3692"
+   ]
+  },
+  {
+   "t": 1794876219.095045,
+   "tool": "search",
+   "args": {
+    "pattern": "shortcut guide",
+    "regex": false,
+    "also": [
+     "cutoff"
+    ],
+    "repo": null
+   },
+   "seconds": 0.13630994397681206,
+   "returned": []
+  },
+  {
+   "t": 1794876219.3807204,
+   "tool": "search",
+   "args": {
+    "pattern": "shortcut guide",
+    "regex": false,
+    "also": [
+     "misaligned"
+    ],
+    "repo": null
+   },
+   "seconds": 0.1373268189781811,
+   "returned": []
+  },
+  {
+   "t": 1794876220.6208622,
+   "tool": "search",
+   "args": {
+    "pattern": "shortcut guide",
+    "regex": false,
+    "also": [
+     "cut off"
+    ],
+    "repo": null
+   },
+   "seconds": 0.14033901400398463,
+   "returned": [
+    "PowerToys#7653",
+    "PowerToys#7663"
+   ]
+  },
+  {
+   "t": 1794876221.0762193,
+   "tool": "search",
+   "args": {
+    "pattern": "shortcut guide",
+    "regex": false,
+    "also": [
+     "alignment"
+    ],
+    "repo": null
+   },
+   "seconds": 0.16868818798684515,
+   "returned": [
+    "PowerToys#21473",
+    "PowerToys#34267",
+    "PowerToys#4761"
+   ]
+  },
+  {
+   "t": 1794876221.314401,
+   "tool": "search",
+   "args": {
+    "pattern": "shortcut guide",
+    "regex": false,
+    "also": [
+     "clipped"
+    ],
+    "repo": null
+   },
+   "seconds": 0.12012866800068878,
+   "returned": []
+  },
+  {
+   "t": 1794876222.8175564,
+   "tool": "search",
+   "args": {
+    "pattern": "taskbar",
+    "regex": false,
+    "also": [
+     "Shortcut Guide",
+     "left side"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.19829019100870937,
+   "returned": [
+    "PowerToys#1488"
+   ]
+  },
+  {
+   "t": 1794876222.9543858,
+   "tool": "search",
+   "args": {
+    "pattern": "0.100",
+    "regex": false,
+    "also": [
+     "Shortcut Guide"
+    ],
+    "repo": null
+   },
+   "seconds": 0.08834784998907708,
+   "returned": [
+    "PowerToys#48773",
+    "PowerToys#48638",
+    "PowerToys#48462",
+    "PowerToys#48552",
+    "PowerToys#48441",
+    "PowerToys#48170",
+    "PowerToys#48792",
+    "PowerToys#48460",
+    "PowerToys#48892",
+    "PowerToys#48866",
+    "PowerToys#48556",
+    "PowerToys#48522",
+    "PowerToys#48494",
+    "PowerToys#48490",
+    "PowerToys#48454",
+    "PowerToys#48448",
+    "PowerToys#48435",
+    "PowerToys#48427",
+    "PowerToys#47684",
+    "PowerToys#47514"
+   ]
+  },
+  {
+   "t": 1794876224.1286054,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48435"
+   },
+   "seconds": 0.00013130699517205358,
+   "returned": [
+    "PowerToys#48435"
+   ]
+  },
+  {
+   "t": 1794876224.2251222,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48556"
+   },
+   "seconds": 0.0001648159814067185,
+   "returned": [
+    "PowerToys#48556"
+   ]
+  },
+  {
+   "t": 1794876224.3976347,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48892"
+   },
+   "seconds": 0.0001422660134267062,
+   "returned": [
+    "PowerToys#48892"
+   ]
+  },
+  {
+   "t": 1794876226.2287743,
+   "tool": "search",
+   "args": {
+    "pattern": "taskbar",
+    "regex": false,
+    "also": [
+     "Shortcut Guide",
+     "0.100",
+     "align"
+    ],
+    "repo": null
+   },
+   "seconds": 0.26063977798912674,
+   "returned": [
+    "PowerToys#28769"
+   ]
+  },
+  {
+   "t": 1794876226.3031287,
+   "tool": "search",
+   "args": {
+    "pattern": "TASKBAR1-9",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.0643478769925423,
+   "returned": [
+    "PowerToys#48773"
+   ]
+  },
+  {
+   "t": 1794876227.1640744,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48773"
+   },
+   "seconds": 0.0001343869953416288,
+   "returned": [
+    "PowerToys#48773"
+   ]
+  },
+  {
+   "t": 1794876228.550382,
+   "tool": "search",
+   "args": {
+    "pattern": "Shortcut Guide",
+    "regex": false,
+    "also": [
+     "taskbar",
+     "DPI"
+    ],
+    "repo": null
+   },
+   "seconds": 0.1995727989997249,
+   "returned": [
+    "terminal#3325",
+    "terminal#6120",
+    "PowerToys#1052"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 16303,
+  "stop_reason": "end_turn",
+  "session_id": "83aa50ae-4ccd-4103-84a1-2435140d1189",
+  "total_cost_usd": 0.08721480000000001,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 15605,
+   "cache_read_input_tokens": 72988,
+   "output_tokens": 1746,
+   "output_tokens_details": {
+    "thinking_tokens": 60
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 15605,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 275,
+     "cache_read_input_tokens": 16157,
+     "cache_creation_input_tokens": 625,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 625
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1746,
+    "cacheReadInputTokens": 72988,
+    "cacheCreationInputTokens": 15605,
+    "webSearchRequests": 0,
+    "costUSD": 0.08721480000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 60,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15605,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this exact problem: the taskbar (Win+1–9) section of the new Shortcut Guide being cut off on the left and misaligned in 0.100.2. The closest tickets describe different problems. PowerToys#48435 covers the taskbar number indicator glitching when the taskbar isn't at the bottom of the screen. PowerToys#48773 covers a crash or mispositioned overlay when you select the Windows tab, mostly on Windows 10. This looks like a new layout bug. Please keep the ticket open and add your Windows version, display scaling (DPI) and resolution, and taskbar position and alignment. A PowerToys bug report ZIP would also help. If your taskbar isn't at the bottom, that may be related to #48435.\"}",
+  "ttft_ms": 1147,
+  "type": "result",
+  "duration_ms": 17173,
+  "uuid": "f3982bc4-c2b4-441d-b969-12a0b8fcf19e",
+  "ttft_stream_ms": 737,
+  "time_to_request_ms": 35,
+  "first_content_frame_ms": 737,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1746,
+    "cacheReadInputTokens": 72988,
+    "cacheCreationInputTokens": 15605,
+    "webSearchRequests": 0,
+    "costUSD": 0.08721480000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 60,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15605,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.671689001028426,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-tzfydtcd/work"
+  }
+ },
+ "wall_seconds": 18.722829386999365,
+ "qid": "PowerToys#49581",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this exact problem: the taskbar (Win+1–9) section of the new Shortcut Guide being cut off on the left and misaligned in 0.100.2. The closest tickets describe different problems. PowerToys#48435 covers the taskbar number indicator glitching when the taskbar isn't at the bottom of the screen. PowerToys#48773 covers a crash or mispositioned overlay when you select the Windows tab, mostly on Windows 10. This looks like a new layout bug. Please keep the ticket open and add your Windows version, display scaling (DPI) and resolution, and taskbar position and alignment. A PowerToys bug report ZIP would also help. If your taskbar isn't at the bottom, that may be related to #48435."
+ },
+ "hit_turn_cap": false
+}

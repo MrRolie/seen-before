@@ -1,0 +1,311 @@
+{
+ "shown": [
+  "PowerToys#10264",
+  "PowerToys#11164",
+  "PowerToys#13590",
+  "PowerToys#16352",
+  "PowerToys#1878",
+  "PowerToys#21981",
+  "PowerToys#23499",
+  "PowerToys#26781",
+  "PowerToys#27413",
+  "PowerToys#29769",
+  "PowerToys#32288",
+  "PowerToys#33314",
+  "PowerToys#33502",
+  "PowerToys#3534",
+  "PowerToys#3630",
+  "PowerToys#43162",
+  "PowerToys#43380",
+  "PowerToys#5003",
+  "PowerToys#6359",
+  "PowerToys#9230",
+  "PowerToys#9426",
+  "PowerToys#9465",
+  "PowerToys#9512"
+ ],
+ "retrieval_seconds": 3.8150538240151946,
+ "tool_calls": [
+  {
+   "t": 1794876461.2583747,
+   "tool": "search",
+   "args": {
+    "pattern": "what's new",
+    "regex": false,
+    "also": [
+     "popup"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10694721998879686,
+   "returned": [
+    "PowerToys#21981",
+    "PowerToys#43162",
+    "PowerToys#33502",
+    "PowerToys#32288"
+   ]
+  },
+  {
+   "t": 1794876465.0782936,
+   "tool": "similar",
+   "args": {
+    "query": "disable \"What's new in PowerToys\" popup after update, don't show again",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.707432989991503,
+   "returned": [
+    "PowerToys#21981",
+    "PowerToys#29769",
+    "PowerToys#9426",
+    "PowerToys#11164",
+    "PowerToys#23499",
+    "PowerToys#16352",
+    "PowerToys#9512",
+    "PowerToys#43380",
+    "PowerToys#3630",
+    "PowerToys#9465",
+    "PowerToys#9230",
+    "PowerToys#1878",
+    "PowerToys#6359",
+    "PowerToys#33314",
+    "PowerToys#27413",
+    "PowerToys#3534",
+    "PowerToys#13590",
+    "PowerToys#10264",
+    "PowerToys#26781",
+    "PowerToys#5003"
+   ]
+  },
+  {
+   "t": 1794876466.141891,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21981"
+   },
+   "seconds": 0.00020359500194899738,
+   "returned": [
+    "PowerToys#21981"
+   ]
+  },
+  {
+   "t": 1794876466.3850312,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33314"
+   },
+   "seconds": 0.00013930699788033962,
+   "returned": [
+    "PowerToys#33314"
+   ]
+  },
+  {
+   "t": 1794876466.6089032,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#27413"
+   },
+   "seconds": 0.00015420702402479947,
+   "returned": [
+    "PowerToys#27413"
+   ]
+  },
+  {
+   "t": 1794876467.624094,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43162"
+   },
+   "seconds": 0.00017650501104071736,
+   "returned": [
+    "PowerToys#43162"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7131,
+  "stop_reason": "end_turn",
+  "session_id": "57b6065d-7223-46e1-bfd8-8a2144d82bf8",
+  "total_cost_usd": 0.0279494,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 4857,
+   "cache_read_input_tokens": 13054,
+   "output_tokens": 720,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4857,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 278,
+     "cache_read_input_tokens": 5694,
+     "cache_creation_input_tokens": 576,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 576
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 720,
+    "cacheReadInputTokens": 13054,
+    "cacheCreationInputTokens": 4857,
+    "webSearchRequests": 0,
+    "costUSD": 0.0279494,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4857,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#21981\", \"PowerToys#33314\", \"PowerToys#27413\"], \"answer\": \"This request has been filed before. PowerToys#21981 asks for a setting to turn off the \\\"What's New\\\" page after updates, and PowerToys#33314 was closed as a duplicate of it. The archive doesn't show that a per-user checkbox or a \\\"don't show again\\\" option was ever added, so you can follow or upvote #21981. PowerToys#27413 covers the same popup and says a related change shipped in v0.78.0. That change is aimed at the group policy side (for admins), and the ticket doesn't spell out the policy name. Check the PowerToys group policy documentation for the policy that suppresses the post-update \\\"What's New\\\" window, and update to v0.78.0 or later to get it.\"}",
+  "ttft_ms": 1512,
+  "type": "result",
+  "duration_ms": 10926,
+  "uuid": "88eff4fd-8173-4ee3-98e1-75af3a432681",
+  "ttft_stream_ms": 913,
+  "time_to_request_ms": 45,
+  "first_content_frame_ms": 913,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 720,
+    "cacheReadInputTokens": 13054,
+    "cacheCreationInputTokens": 4857,
+    "webSearchRequests": 0,
+    "costUSD": 0.0279494,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4857,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.639416902995436,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-o2dj0hcg/work"
+  }
+ },
+ "wall_seconds": 12.641483921994222,
+ "qid": "PowerToys#49957",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#21981",
+   "PowerToys#33314",
+   "PowerToys#27413"
+  ],
+  "answer": "This request has been filed before. PowerToys#21981 asks for a setting to turn off the \"What's New\" page after updates, and PowerToys#33314 was closed as a duplicate of it. The archive doesn't show that a per-user checkbox or a \"don't show again\" option was ever added, so you can follow or upvote #21981. PowerToys#27413 covers the same popup and says a related change shipped in v0.78.0. That change is aimed at the group policy side (for admins), and the ticket doesn't spell out the policy name. Check the PowerToys group policy documentation for the policy that suppresses the post-update \"What's New\" window, and update to v0.78.0 or later to get it."
+ },
+ "hit_turn_cap": false
+}

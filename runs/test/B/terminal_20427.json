@@ -1,0 +1,376 @@
+{
+ "shown": [
+  "PowerToys#31735",
+  "PowerToys#42926",
+  "PowerToys#43133",
+  "PowerToys#43837",
+  "terminal#10594",
+  "terminal#10623",
+  "terminal#11529",
+  "terminal#12578",
+  "terminal#12886",
+  "terminal#13136",
+  "terminal#1375",
+  "terminal#1379",
+  "terminal#14927",
+  "terminal#15207",
+  "terminal#15429",
+  "terminal#15537",
+  "terminal#16183",
+  "terminal#17202",
+  "terminal#1769",
+  "terminal#18040",
+  "terminal#18652",
+  "terminal#19270",
+  "terminal#19343",
+  "terminal#19427",
+  "terminal#19446",
+  "terminal#19482",
+  "terminal#19483",
+  "terminal#19503",
+  "terminal#19529",
+  "terminal#19539",
+  "terminal#19624",
+  "terminal#19644",
+  "terminal#19646",
+  "terminal#19664",
+  "terminal#19665",
+  "terminal#19670",
+  "terminal#235",
+  "terminal#4448",
+  "terminal#448",
+  "terminal#5906",
+  "terminal#603",
+  "terminal#6371",
+  "terminal#653",
+  "terminal#7246",
+  "terminal#7948",
+  "terminal#8109",
+  "terminal#8441",
+  "terminal#9623"
+ ],
+ "retrieval_seconds": 0.3635048149735667,
+ "tool_calls": [
+  {
+   "t": 1794878106.1739802,
+   "tool": "search",
+   "args": {
+    "pattern": "transparent",
+    "regex": false,
+    "also": [
+     "freez"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.09057909398688935,
+   "returned": [
+    "terminal#603",
+    "terminal#19503",
+    "terminal#18040",
+    "terminal#17202",
+    "terminal#7246",
+    "terminal#1379",
+    "terminal#653"
+   ]
+  },
+  {
+   "t": 1794878106.2291586,
+   "tool": "search",
+   "args": {
+    "pattern": "start cmd files same time terminal windows stay open frozen",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.03366935101803392,
+   "returned": []
+  },
+  {
+   "t": 1794878108.4147513,
+   "tool": "search",
+   "args": {
+    "pattern": "ghost",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.060568497981876135,
+   "returned": [
+    "terminal#11529",
+    "terminal#1769",
+    "terminal#10623",
+    "terminal#1375",
+    "terminal#4448",
+    "terminal#7948",
+    "terminal#16183",
+    "terminal#6371",
+    "terminal#14927",
+    "terminal#10594",
+    "terminal#8109",
+    "terminal#5906",
+    "terminal#448",
+    "terminal#15429",
+    "terminal#15207",
+    "terminal#12578",
+    "terminal#9623",
+    "terminal#8441",
+    "terminal#235",
+    "terminal#15537"
+   ]
+  },
+  {
+   "t": 1794878108.474094,
+   "tool": "search",
+   "args": {
+    "pattern": "\\.cmd",
+    "regex": true,
+    "also": [
+     "not responding"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.04452846199274063,
+   "returned": [
+    "terminal#13136"
+   ]
+  },
+  {
+   "t": 1794878108.5121958,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#17202"
+   },
+   "seconds": 0.00018065498443320394,
+   "returned": [
+    "terminal#17202"
+   ]
+  },
+  {
+   "t": 1794878110.525506,
+   "tool": "search",
+   "args": {
+    "pattern": "multiple terminal windows frozen transparent batch script start simultaneously",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.060275185998762026,
+   "returned": []
+  },
+  {
+   "t": 1794878110.7101068,
+   "tool": "search",
+   "args": {
+    "pattern": "1.23.12811",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07370356901083142,
+   "returned": [
+    "terminal#19270",
+    "terminal#18652",
+    "terminal#19529",
+    "terminal#19483",
+    "terminal#19482",
+    "PowerToys#43133",
+    "terminal#19670",
+    "terminal#19624",
+    "terminal#19539",
+    "terminal#19446",
+    "terminal#19427",
+    "terminal#19343",
+    "terminal#12886",
+    "PowerToys#43837",
+    "PowerToys#42926",
+    "PowerToys#31735",
+    "terminal#19665",
+    "terminal#19664",
+    "terminal#19646",
+    "terminal#19644"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10957,
+  "stop_reason": "end_turn",
+  "session_id": "251e5e81-4016-4aea-a5fe-afb3d7a0b2e7",
+  "total_cost_usd": 0.061630199999999996,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 12585,
+   "cache_read_input_tokens": 17142,
+   "output_tokens": 956,
+   "output_tokens_details": {
+    "thinking_tokens": 53
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12585,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 343,
+     "cache_read_input_tokens": 10184,
+     "cache_creation_input_tokens": 3578,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3578
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 956,
+    "cacheReadInputTokens": 17142,
+    "cacheCreationInputTokens": 12585,
+    "webSearchRequests": 0,
+    "costUSD": 0.061630199999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 53,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12585,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this problem. The closest was terminal#17202, where a Terminal window froze and went ghostly transparent. That one was caused by the Windows \\\"Shell handwriting\\\" feature on Windows builds before 24H2, and it was fixed in build 26100. Your build is 26200, so it is probably a different problem. Please keep this ticket open. Add whether the frozen windows are Windows Terminal or the classic console host, since the update.cmd windows may be a default-terminal handoff. Also add whether it still happens on the latest Terminal or Terminal Preview, and whether it stops if you add a short delay between the `start` lines. For the memory dump, don't post it publicly. Ask the maintainers to give you a private way to send it, or file it through Feedback Hub under Apps > Terminal. Feedback Hub keeps the dump out of the public ticket.\"}",
+  "ttft_ms": 2603,
+  "type": "result",
+  "duration_ms": 11272,
+  "uuid": "8af36254-ecb5-4257-a5e4-573bdf0c97e6",
+  "ttft_stream_ms": 1488,
+  "time_to_request_ms": 65,
+  "first_content_frame_ms": 1488,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 956,
+    "cacheReadInputTokens": 17142,
+    "cacheCreationInputTokens": 12585,
+    "webSearchRequests": 0,
+    "costUSD": 0.061630199999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 53,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12585,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.79069224599516,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-8ykldikf/work"
+  }
+ },
+ "wall_seconds": 12.792357133002952,
+ "qid": "terminal#20427",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this problem. The closest was terminal#17202, where a Terminal window froze and went ghostly transparent. That one was caused by the Windows \"Shell handwriting\" feature on Windows builds before 24H2, and it was fixed in build 26100. Your build is 26200, so it is probably a different problem. Please keep this ticket open. Add whether the frozen windows are Windows Terminal or the classic console host, since the update.cmd windows may be a default-terminal handoff. Also add whether it still happens on the latest Terminal or Terminal Preview, and whether it stops if you add a short delay between the `start` lines. For the memory dump, don't post it publicly. Ask the maintainers to give you a private way to send it, or file it through Feedback Hub under Apps > Terminal. Feedback Hub keeps the dump out of the public ticket."
+ },
+ "hit_turn_cap": false
+}

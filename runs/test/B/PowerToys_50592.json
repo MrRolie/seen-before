@@ -1,0 +1,405 @@
+{
+ "shown": [
+  "PowerToys#10222",
+  "PowerToys#10352",
+  "PowerToys#11718",
+  "PowerToys#13221",
+  "PowerToys#14857",
+  "PowerToys#15172",
+  "PowerToys#15483",
+  "PowerToys#16404",
+  "PowerToys#17718",
+  "PowerToys#18962",
+  "PowerToys#21696",
+  "PowerToys#243",
+  "PowerToys#25124",
+  "PowerToys#25228",
+  "PowerToys#25565",
+  "PowerToys#25595",
+  "PowerToys#26993",
+  "PowerToys#28311",
+  "PowerToys#28573",
+  "PowerToys#28720",
+  "PowerToys#28769",
+  "PowerToys#30478",
+  "PowerToys#32005",
+  "PowerToys#35623",
+  "PowerToys#35676",
+  "PowerToys#3583",
+  "PowerToys#37571",
+  "PowerToys#38530",
+  "PowerToys#38953",
+  "PowerToys#40247",
+  "PowerToys#42192",
+  "PowerToys#45201",
+  "PowerToys#45584",
+  "PowerToys#45987",
+  "PowerToys#46321",
+  "PowerToys#46546",
+  "PowerToys#46567",
+  "PowerToys#47031",
+  "PowerToys#47430",
+  "PowerToys#47593",
+  "PowerToys#48211",
+  "PowerToys#48224",
+  "PowerToys#48287",
+  "PowerToys#48456",
+  "PowerToys#48597",
+  "PowerToys#48688",
+  "PowerToys#48887",
+  "PowerToys#48969",
+  "PowerToys#6545",
+  "PowerToys#6752",
+  "PowerToys#6768",
+  "PowerToys#828",
+  "PowerToys#8944"
+ ],
+ "retrieval_seconds": 0.36172178798005916,
+ "tool_calls": [
+  {
+   "t": 1794882945.4059467,
+   "tool": "search",
+   "args": {
+    "pattern": "network speed",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06649437700980343,
+   "returned": [
+    "PowerToys#48969",
+    "PowerToys#47031",
+    "PowerToys#48688",
+    "PowerToys#46321",
+    "PowerToys#25565",
+    "PowerToys#17718",
+    "PowerToys#47430",
+    "PowerToys#46567",
+    "PowerToys#45987",
+    "PowerToys#40247",
+    "PowerToys#38953",
+    "PowerToys#28720",
+    "PowerToys#26993",
+    "PowerToys#25228",
+    "PowerToys#15483",
+    "PowerToys#828",
+    "PowerToys#48887",
+    "PowerToys#48224",
+    "PowerToys#47593",
+    "PowerToys#37571"
+   ]
+  },
+  {
+   "t": 1794882946.5089111,
+   "tool": "search",
+   "args": {
+    "pattern": "taskbar",
+    "regex": false,
+    "also": [
+     "network"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.12473981000948697,
+   "returned": [
+    "PowerToys#45201",
+    "PowerToys#21696",
+    "PowerToys#45987",
+    "PowerToys#46546",
+    "PowerToys#16404",
+    "PowerToys#10222",
+    "PowerToys#3583",
+    "PowerToys#243",
+    "PowerToys#40247",
+    "PowerToys#35623",
+    "PowerToys#28573",
+    "PowerToys#28311",
+    "PowerToys#6752",
+    "PowerToys#48211",
+    "PowerToys#45584",
+    "PowerToys#42192",
+    "PowerToys#35676",
+    "PowerToys#30478",
+    "PowerToys#26993",
+    "PowerToys#25124"
+   ]
+  },
+  {
+   "t": 1794882946.68944,
+   "tool": "search",
+   "args": {
+    "pattern": "upload",
+    "regex": false,
+    "also": [
+     "download",
+     "monitor"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1696909960010089,
+   "returned": [
+    "PowerToys#243",
+    "PowerToys#45201",
+    "PowerToys#25595",
+    "PowerToys#6768",
+    "PowerToys#6545",
+    "PowerToys#48287",
+    "PowerToys#38530",
+    "PowerToys#11718",
+    "PowerToys#40247",
+    "PowerToys#15172",
+    "PowerToys#13221",
+    "PowerToys#48597",
+    "PowerToys#48456",
+    "PowerToys#45987",
+    "PowerToys#32005",
+    "PowerToys#28769",
+    "PowerToys#18962",
+    "PowerToys#14857",
+    "PowerToys#10352",
+    "PowerToys#8944"
+   ]
+  },
+  {
+   "t": 1794882948.977342,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#26993"
+   },
+   "seconds": 0.0001603849814273417,
+   "returned": [
+    "PowerToys#26993"
+   ]
+  },
+  {
+   "t": 1794882949.0568864,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40247"
+   },
+   "seconds": 0.0001703040034044534,
+   "returned": [
+    "PowerToys#40247"
+   ]
+  },
+  {
+   "t": 1794882950.4675279,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#828"
+   },
+   "seconds": 0.00013697598478756845,
+   "returned": [
+    "PowerToys#828"
+   ]
+  },
+  {
+   "t": 1794882951.8900356,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45987"
+   },
+   "seconds": 0.0001611849875189364,
+   "returned": [
+    "PowerToys#45987"
+   ]
+  },
+  {
+   "t": 1794882953.3227022,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42192"
+   },
+   "seconds": 0.0001677550026215613,
+   "returned": [
+    "PowerToys#42192"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 14835,
+  "stop_reason": "end_turn",
+  "session_id": "fc310fe3-b446-4555-92bd-d7ca294e9bc8",
+  "total_cost_usd": 0.08941039999999999,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 17827,
+   "cache_read_input_tokens": 67184,
+   "output_tokens": 1136,
+   "output_tokens_details": {
+    "thinking_tokens": 243
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 17827,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 503,
+     "cache_read_input_tokens": 18226,
+     "cache_creation_input_tokens": 778,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 778
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1136,
+    "cacheReadInputTokens": 67184,
+    "cacheCreationInputTokens": 17827,
+    "webSearchRequests": 0,
+    "costUSD": 0.08941039999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 243,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 17827,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've read the closest past tickets and I'm sending my answer now.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#45987\", \"PowerToys#40247\", \"PowerToys#26993\"], \"answer\": \"This exact request has been filed many times before. Past tickets for a real-time network speed indicator on the Windows taskbar were closed as duplicates of older tracking issues (#8756, #828 and #855). PowerToys can't customize the Windows taskbar, because the APIs for that are private. Taskbar extensions (deskbands) also no longer work on Windows 11, because the IDeskband2 interface was removed. The maintainers suggested sending taskbar requests through the Windows Feedback Hub (WinKey+F). For now, the Command Palette Dock has a network speed monitor in its performance monitor band (see #45201). You can also add your 👍 and context to the original tracking issues.\"}",
+  "ttft_ms": 1635,
+  "type": "result",
+  "duration_ms": 15212,
+  "uuid": "cc15dc40-48f0-410a-b8d8-476ade0d5997",
+  "ttft_stream_ms": 1219,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 1219,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1136,
+    "cacheReadInputTokens": 67184,
+    "cacheCreationInputTokens": 17827,
+    "webSearchRequests": 0,
+    "costUSD": 0.08941039999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 243,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 17827,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.497994595003547,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-0p3snkh5/work"
+  }
+ },
+ "wall_seconds": 16.500022772001103,
+ "qid": "PowerToys#50592",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#45987",
+   "PowerToys#40247",
+   "PowerToys#26993"
+  ],
+  "answer": "This exact request has been filed many times before. Past tickets for a real-time network speed indicator on the Windows taskbar were closed as duplicates of older tracking issues (#8756, #828 and #855). PowerToys can't customize the Windows taskbar, because the APIs for that are private. Taskbar extensions (deskbands) also no longer work on Windows 11, because the IDeskband2 interface was removed. The maintainers suggested sending taskbar requests through the Windows Feedback Hub (WinKey+F). For now, the Command Palette Dock has a network speed monitor in its performance monitor band (see #45201). You can also add your 👍 and context to the original tracking issues."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,323 @@
+{
+ "shown": [
+  "PowerToys#13214",
+  "PowerToys#13221",
+  "PowerToys#13303",
+  "PowerToys#13573",
+  "PowerToys#13675",
+  "PowerToys#13713",
+  "PowerToys#14347",
+  "PowerToys#14636",
+  "PowerToys#16043",
+  "PowerToys#16454",
+  "PowerToys#17276",
+  "PowerToys#25595",
+  "PowerToys#26200",
+  "PowerToys#26266",
+  "PowerToys#26296",
+  "PowerToys#27279",
+  "PowerToys#27837",
+  "PowerToys#28126",
+  "PowerToys#29364",
+  "PowerToys#29651",
+  "PowerToys#29764",
+  "PowerToys#30094",
+  "PowerToys#31463",
+  "PowerToys#33100",
+  "PowerToys#33575",
+  "PowerToys#33842",
+  "PowerToys#36241",
+  "PowerToys#36800",
+  "PowerToys#37938",
+  "PowerToys#4010",
+  "PowerToys#41032",
+  "PowerToys#4112",
+  "PowerToys#4167",
+  "PowerToys#44821"
+ ],
+ "retrieval_seconds": 0.25117714700172655,
+ "tool_calls": [
+  {
+   "t": 1794876803.0469463,
+   "tool": "search",
+   "args": {
+    "pattern": "android",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10036278501502238,
+   "returned": [
+    "PowerToys#26296",
+    "PowerToys#4112",
+    "PowerToys#16043",
+    "PowerToys#4010",
+    "PowerToys#33100",
+    "PowerToys#25595",
+    "PowerToys#16454",
+    "PowerToys#14636",
+    "PowerToys#13713",
+    "PowerToys#13214",
+    "PowerToys#41032",
+    "PowerToys#26200",
+    "PowerToys#17276",
+    "PowerToys#13675",
+    "PowerToys#13303",
+    "PowerToys#13221",
+    "PowerToys#4167",
+    "PowerToys#36241",
+    "PowerToys#14347",
+    "PowerToys#13573"
+   ]
+  },
+  {
+   "t": 1794876804.1903899,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#26296"
+   },
+   "seconds": 0.0001466160174459219,
+   "returned": [
+    "PowerToys#26296"
+   ]
+  },
+  {
+   "t": 1794876804.7463658,
+   "tool": "search",
+   "args": {
+    "pattern": "mouse without borders",
+    "regex": false,
+    "also": [
+     "phone"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.15042030299082398,
+   "returned": [
+    "PowerToys#26296",
+    "PowerToys#33575",
+    "PowerToys#29364",
+    "PowerToys#31463",
+    "PowerToys#26266",
+    "PowerToys#44821",
+    "PowerToys#37938",
+    "PowerToys#36800",
+    "PowerToys#33842",
+    "PowerToys#30094",
+    "PowerToys#29764",
+    "PowerToys#29651",
+    "PowerToys#28126",
+    "PowerToys#27837",
+    "PowerToys#27279"
+   ]
+  },
+  {
+   "t": 1794876805.6710813,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33575"
+   },
+   "seconds": 0.00013877599849365652,
+   "returned": [
+    "PowerToys#33575"
+   ]
+  },
+  {
+   "t": 1794876806.5571132,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44821"
+   },
+   "seconds": 0.00010866697994060814,
+   "returned": [
+    "PowerToys#44821"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10318,
+  "stop_reason": "end_turn",
+  "session_id": "35d10ef7-980c-4796-b8a5-88b8ecf2b6b1",
+  "total_cost_usd": 0.06882060000000001,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 13276,
+   "cache_read_input_tokens": 38126,
+   "output_tokens": 1188,
+   "output_tokens_details": {
+    "thinking_tokens": 193
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13276,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 507,
+     "cache_read_input_tokens": 14191,
+     "cache_creation_input_tokens": 262,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 262
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1188,
+    "cacheReadInputTokens": 38126,
+    "cacheCreationInputTokens": 13276,
+    "webSearchRequests": 0,
+    "costUSD": 0.06882060000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 193,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13276,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've found the existing Android requests for Mouse Without Borders and am writing up the answer now.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#26296\", \"PowerToys#33575\", \"PowerToys#44821\"], \"answer\": \"This feature request has been filed before. The main ticket is PowerToys#26296, \\\"Mouse Without Borders for Android and other OSs\\\". PowerToys#33575 was closed as a duplicate of it, and PowerToys#44821 asks for the same thing. Mouse Without Borders doesn't support Android phones today, and the archive shows no fix or release for it. Add a thumbs-up or your use case to #26296 so the team can see the demand. Until then, the tickets suggest scrcpy, which mirrors and controls an Android screen from the PC. It isn't the same as moving the cursor between devices. Barrier and Synergy are also mentioned, but the tickets don't say whether they work with Android.\"}",
+  "ttft_ms": 1234,
+  "type": "result",
+  "duration_ms": 10559,
+  "uuid": "fbe8c5e5-478c-4a39-b3eb-cf0fcd396c4e",
+  "ttft_stream_ms": 670,
+  "time_to_request_ms": 43,
+  "first_content_frame_ms": 670,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1188,
+    "cacheReadInputTokens": 38126,
+    "cacheCreationInputTokens": 13276,
+    "webSearchRequests": 0,
+    "costUSD": 0.06882060000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 193,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13276,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.143723497982137,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-f6wmooh9/work"
+  }
+ },
+ "wall_seconds": 12.146924620989012,
+ "qid": "PowerToys#50394",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#26296",
+   "PowerToys#33575",
+   "PowerToys#44821"
+  ],
+  "answer": "This feature request has been filed before. The main ticket is PowerToys#26296, \"Mouse Without Borders for Android and other OSs\". PowerToys#33575 was closed as a duplicate of it, and PowerToys#44821 asks for the same thing. Mouse Without Borders doesn't support Android phones today, and the archive shows no fix or release for it. Add a thumbs-up or your use case to #26296 so the team can see the demand. Until then, the tickets suggest scrcpy, which mirrors and controls an Android screen from the PC. It isn't the same as moving the cursor between devices. Barrier and Synergy are also mentioned, but the tickets don't say whether they work with Android."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,445 @@
+{
+ "shown": [
+  "PowerToys#10667",
+  "PowerToys#10685",
+  "PowerToys#11952",
+  "PowerToys#1203",
+  "PowerToys#12517",
+  "PowerToys#13013",
+  "PowerToys#13327",
+  "PowerToys#13763",
+  "PowerToys#1556",
+  "PowerToys#17344",
+  "PowerToys#17704",
+  "PowerToys#21308",
+  "PowerToys#21752",
+  "PowerToys#22138",
+  "PowerToys#2239",
+  "PowerToys#22834",
+  "PowerToys#2303",
+  "PowerToys#2543",
+  "PowerToys#2551",
+  "PowerToys#26500",
+  "PowerToys#26752",
+  "PowerToys#2803",
+  "PowerToys#29227",
+  "PowerToys#31651",
+  "PowerToys#31979",
+  "PowerToys#3219",
+  "PowerToys#3369",
+  "PowerToys#33721",
+  "PowerToys#33857",
+  "PowerToys#34348",
+  "PowerToys#3446",
+  "PowerToys#34714",
+  "PowerToys#35319",
+  "PowerToys#3619",
+  "PowerToys#36605",
+  "PowerToys#37437",
+  "PowerToys#37934",
+  "PowerToys#38295",
+  "PowerToys#38297",
+  "PowerToys#38346",
+  "PowerToys#38378",
+  "PowerToys#38415",
+  "PowerToys#38442",
+  "PowerToys#38527",
+  "PowerToys#38767",
+  "PowerToys#39166",
+  "PowerToys#39501",
+  "PowerToys#40174",
+  "PowerToys#40616",
+  "PowerToys#41011",
+  "PowerToys#41048",
+  "PowerToys#41052",
+  "PowerToys#41174",
+  "PowerToys#41576",
+  "PowerToys#41736",
+  "PowerToys#43906",
+  "PowerToys#45295",
+  "PowerToys#4605",
+  "PowerToys#4641",
+  "PowerToys#4707",
+  "PowerToys#4714",
+  "PowerToys#47562",
+  "PowerToys#4976",
+  "PowerToys#5249",
+  "PowerToys#5554",
+  "PowerToys#5624",
+  "PowerToys#5670",
+  "PowerToys#5679",
+  "PowerToys#5722",
+  "PowerToys#5915",
+  "PowerToys#6060",
+  "PowerToys#6125",
+  "PowerToys#6137",
+  "PowerToys#6756",
+  "PowerToys#68",
+  "PowerToys#7462",
+  "PowerToys#8316",
+  "PowerToys#8952",
+  "PowerToys#9227",
+  "PowerToys#9288",
+  "PowerToys#9690"
+ ],
+ "retrieval_seconds": 4.310385899007088,
+ "tool_calls": [
+  {
+   "t": 1794884469.8872736,
+   "tool": "search",
+   "args": {
+    "pattern": "Ctrl+B",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0680628219852224,
+   "returned": [
+    "PowerToys#10667",
+    "PowerToys#47562",
+    "PowerToys#22834",
+    "PowerToys#68",
+    "PowerToys#37437",
+    "PowerToys#36605",
+    "PowerToys#35319",
+    "PowerToys#34714",
+    "PowerToys#34348",
+    "PowerToys#29227",
+    "PowerToys#26752",
+    "PowerToys#22138",
+    "PowerToys#21752",
+    "PowerToys#21308",
+    "PowerToys#13763",
+    "PowerToys#9690",
+    "PowerToys#5624",
+    "PowerToys#5554",
+    "PowerToys#3619"
+   ]
+  },
+  {
+   "t": 1794884474.2119865,
+   "tool": "similar",
+   "args": {
+    "query": "Command Palette interferes with Ctrl+B shortcut not working in other apps",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.8777944410103373,
+   "returned": [
+    "PowerToys#38297",
+    "PowerToys#38442",
+    "PowerToys#40174",
+    "PowerToys#38378",
+    "PowerToys#39166",
+    "PowerToys#37934",
+    "PowerToys#1203",
+    "PowerToys#2543",
+    "PowerToys#2803",
+    "PowerToys#38295",
+    "PowerToys#11952",
+    "PowerToys#39501",
+    "PowerToys#2239",
+    "PowerToys#41011",
+    "PowerToys#40616",
+    "PowerToys#41576",
+    "PowerToys#7462",
+    "PowerToys#41052",
+    "PowerToys#38346",
+    "PowerToys#41174"
+   ]
+  },
+  {
+   "t": 1794884476.7777472,
+   "tool": "similar",
+   "args": {
+    "query": "Command Palette enabled breaks keyboard shortcut in other apps, works with PowerToys Run",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014630935009336099,
+   "returned": [
+    "PowerToys#38297",
+    "PowerToys#38415",
+    "PowerToys#6137",
+    "PowerToys#38378",
+    "PowerToys#3446",
+    "PowerToys#31651",
+    "PowerToys#4641",
+    "PowerToys#6125",
+    "PowerToys#39166",
+    "PowerToys#2551",
+    "PowerToys#4714",
+    "PowerToys#4976",
+    "PowerToys#41048",
+    "PowerToys#38767",
+    "PowerToys#9288",
+    "PowerToys#43906",
+    "PowerToys#38527",
+    "PowerToys#3369",
+    "PowerToys#41576",
+    "PowerToys#4605"
+   ]
+  },
+  {
+   "t": 1794884478.1365798,
+   "tool": "search",
+   "args": {
+    "pattern": "Ctrl + B",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.08234129601623863,
+   "returned": [
+    "PowerToys#13013",
+    "PowerToys#33721",
+    "PowerToys#26500",
+    "PowerToys#33857",
+    "PowerToys#31979",
+    "PowerToys#17704",
+    "PowerToys#17344",
+    "PowerToys#13327",
+    "PowerToys#2303"
+   ]
+  },
+  {
+   "t": 1794884480.3992622,
+   "tool": "similar",
+   "args": {
+    "query": "CmdPal activation hotkey Ctrl+key blocks that key combination system-wide in other applications",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.015510541008552536,
+   "returned": [
+    "PowerToys#38297",
+    "PowerToys#2543",
+    "PowerToys#38442",
+    "PowerToys#5722",
+    "PowerToys#1556",
+    "PowerToys#5670",
+    "PowerToys#6756",
+    "PowerToys#8316",
+    "PowerToys#3219",
+    "PowerToys#5679",
+    "PowerToys#9227",
+    "PowerToys#5249",
+    "PowerToys#45295",
+    "PowerToys#6060",
+    "PowerToys#5915",
+    "PowerToys#12517",
+    "PowerToys#10685",
+    "PowerToys#8952",
+    "PowerToys#41736",
+    "PowerToys#4707"
+   ]
+  },
+  {
+   "t": 1794884481.3787847,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#26500"
+   },
+   "seconds": 0.000172775995451957,
+   "returned": [
+    "PowerToys#26500"
+   ]
+  },
+  {
+   "t": 1794884483.5716386,
+   "tool": "search",
+   "args": {
+    "pattern": "Command Palette",
+    "regex": false,
+    "also": [
+     "Ctrl",
+     "PowerToys Run",
+     "same hotkey"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.25187308798194863,
+   "returned": []
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 14017,
+  "stop_reason": "end_turn",
+  "session_id": "aaea272a-a52d-4f01-96f2-670cf7278206",
+  "total_cost_usd": 0.061555099999999995,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 10626,
+   "cache_read_input_tokens": 50731,
+   "output_tokens": 1395,
+   "output_tokens_details": {
+    "thinking_tokens": 115
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10626,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 316,
+     "cache_read_input_tokens": 11823,
+     "cache_creation_input_tokens": 216,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 216
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1395,
+    "cacheReadInputTokens": 50731,
+    "cacheCreationInputTokens": 10626,
+    "webSearchRequests": 0,
+    "costUSD": 0.061555099999999995,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 115,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10626,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I couldn't find a past ticket that reports this problem, which is Ctrl+B not working while Command Palette is enabled but working again with PowerToys Run on the same hotkeys. The Ctrl+B tickets in the archive are about Keyboard Manager remaps, such as PowerToys#26500, and don't describe the same issue. Please check three things. First, open Command Palette settings and look at its activation shortcut and any extension or command shortcuts. Make sure none of them is set to, or overlaps with, Ctrl+B. Second, check whether Keyboard Manager has a remap involving Ctrl+B. Third, note whether Ctrl+B fails in every app or only in some. Please also attach a PowerToys bug report ZIP, which you can create from Settings > General > Bug report tool. Include the exact hotkey configured for Command Palette. That will let the team triage this as a new issue.\"}",
+  "ttft_ms": 1202,
+  "type": "result",
+  "duration_ms": 18283,
+  "uuid": "e97a74e8-2877-4e89-9dd1-f5f8246b3b05",
+  "ttft_stream_ms": 869,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 869,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1395,
+    "cacheReadInputTokens": 50731,
+    "cacheCreationInputTokens": 10626,
+    "webSearchRequests": 0,
+    "costUSD": 0.061555099999999995,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 115,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10626,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 19.59541926399106,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-kolej4py/work"
+  }
+ },
+ "wall_seconds": 19.597475698014023,
+ "qid": "PowerToys#51515",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I couldn't find a past ticket that reports this problem, which is Ctrl+B not working while Command Palette is enabled but working again with PowerToys Run on the same hotkeys. The Ctrl+B tickets in the archive are about Keyboard Manager remaps, such as PowerToys#26500, and don't describe the same issue. Please check three things. First, open Command Palette settings and look at its activation shortcut and any extension or command shortcuts. Make sure none of them is set to, or overlaps with, Ctrl+B. Second, check whether Keyboard Manager has a remap involving Ctrl+B. Third, note whether Ctrl+B fails in every app or only in some. Please also attach a PowerToys bug report ZIP, which you can create from Settings > General > Bug report tool. Include the exact hotkey configured for Command Palette. That will let the team triage this as a new issue."
+ },
+ "hit_turn_cap": false
+}

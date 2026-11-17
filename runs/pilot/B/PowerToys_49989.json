@@ -1,0 +1,348 @@
+{
+ "shown": [
+  "PowerToys#15579",
+  "PowerToys#1908",
+  "PowerToys#19122",
+  "PowerToys#21099",
+  "PowerToys#21850",
+  "PowerToys#25034",
+  "PowerToys#27991",
+  "PowerToys#29478",
+  "PowerToys#32164",
+  "PowerToys#32197",
+  "PowerToys#32692",
+  "PowerToys#33568",
+  "PowerToys#3807",
+  "PowerToys#40966",
+  "PowerToys#40989",
+  "PowerToys#41667",
+  "PowerToys#65"
+ ],
+ "retrieval_seconds": 0.268502453021938,
+ "tool_calls": [
+  {
+   "t": 1794876500.3878956,
+   "tool": "search",
+   "args": {
+    "pattern": "alt tab",
+    "regex": false,
+    "also": [
+     "disable"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.09245594101957977,
+   "returned": [
+    "PowerToys#41667",
+    "PowerToys#32197",
+    "PowerToys#15579",
+    "PowerToys#65",
+    "PowerToys#40989",
+    "PowerToys#40966",
+    "PowerToys#32692",
+    "PowerToys#32164",
+    "PowerToys#29478",
+    "PowerToys#21099",
+    "PowerToys#19122",
+    "PowerToys#3807",
+    "PowerToys#1908"
+   ]
+  },
+  {
+   "t": 1794876500.4371898,
+   "tool": "search",
+   "args": {
+    "pattern": "Disabled remap still works when holding other key",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.03834800698678009,
+   "returned": []
+  },
+  {
+   "t": 1794876501.9609828,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32164"
+   },
+   "seconds": 0.00012856698594987392,
+   "returned": [
+    "PowerToys#32164"
+   ]
+  },
+  {
+   "t": 1794876502.122662,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40966"
+   },
+   "seconds": 0.0001515159965492785,
+   "returned": [
+    "PowerToys#40966"
+   ]
+  },
+  {
+   "t": 1794876503.831866,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#25034"
+   },
+   "seconds": 0.00011571700451895595,
+   "returned": [
+    "PowerToys#25034"
+   ]
+  },
+  {
+   "t": 1794876505.3722808,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21850"
+   },
+   "seconds": 0.00012235701433382928,
+   "returned": [
+    "PowerToys#21850"
+   ]
+  },
+  {
+   "t": 1794876507.1573873,
+   "tool": "search",
+   "args": {
+    "pattern": "Alt+Tab",
+    "regex": false,
+    "also": [
+     "third key"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.08013037702767178,
+   "returned": [
+    "PowerToys#32164",
+    "PowerToys#25034",
+    "PowerToys#33568"
+   ]
+  },
+  {
+   "t": 1794876508.6500638,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#27991"
+   },
+   "seconds": 0.00018736498896032572,
+   "returned": [
+    "PowerToys#27991"
+   ]
+  },
+  {
+   "t": 1794876510.3058076,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33568"
+   },
+   "seconds": 0.00019339501159265637,
+   "returned": [
+    "PowerToys#33568"
+   ]
+  },
+  {
+   "t": 1794876512.1062443,
+   "tool": "search",
+   "args": {
+    "pattern": "fallthrough",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05666921098600142,
+   "returned": [
+    "PowerToys#21850"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 19245,
+  "stop_reason": "end_turn",
+  "session_id": "77c16028-5679-4f52-a3f9-7b3eca24383a",
+  "total_cost_usd": 0.054809699999999996,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 9131,
+   "cache_read_input_tokens": 53797,
+   "output_tokens": 1287,
+   "output_tokens_details": {
+    "thinking_tokens": 165
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9131,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 519,
+     "cache_read_input_tokens": 9935,
+     "cache_creation_input_tokens": 373,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 373
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1287,
+    "cacheReadInputTokens": 53797,
+    "cacheCreationInputTokens": 9131,
+    "webSearchRequests": 0,
+    "costUSD": 0.054809699999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 165,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9131,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've found the matching tickets and am writing up the answer now.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#21850\", \"PowerToys#25034\", \"PowerToys#32164\"], \"answer\": \"This is a known Keyboard Manager limitation. When you remap Alt+Tab to Disable, only that exact two-key combination is blocked. If you hold another key such as W at the same time, the combination no longer matches the remap. Windows then handles it as a normal Alt+Tab. Several earlier reports describe the same behavior (#25034, #32164, #27991). They were closed as duplicates of #21850, which is the tracking issue. #21850 asks for a 'fallthrough' checkbox so that a disabled shortcut stays blocked when extra keys are pressed. I found no fix or full workaround in those tickets, so I can't promise one. Upvote #21850 to help prioritize it. One partial workaround is to remap the Tab key itself, but that also removes Tab everywhere. A reporter in #32164 noted this and didn't want to lose Tab.\"}",
+  "ttft_ms": 2283,
+  "type": "result",
+  "duration_ms": 19595,
+  "uuid": "574091b5-e276-4674-a418-2a5f61870965",
+  "ttft_stream_ms": 1182,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 1182,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1287,
+    "cacheReadInputTokens": 53797,
+    "cacheCreationInputTokens": 9131,
+    "webSearchRequests": 0,
+    "costUSD": 0.054809699999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 165,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9131,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 20.807477422989905,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-dbzsgyr_/work"
+  }
+ },
+ "wall_seconds": 20.809838954010047,
+ "qid": "PowerToys#49989",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#21850",
+   "PowerToys#25034",
+   "PowerToys#32164"
+  ],
+  "answer": "This is a known Keyboard Manager limitation. When you remap Alt+Tab to Disable, only that exact two-key combination is blocked. If you hold another key such as W at the same time, the combination no longer matches the remap. Windows then handles it as a normal Alt+Tab. Several earlier reports describe the same behavior (#25034, #32164, #27991). They were closed as duplicates of #21850, which is the tracking issue. #21850 asks for a 'fallthrough' checkbox so that a disabled shortcut stays blocked when extra keys are pressed. I found no fix or full workaround in those tickets, so I can't promise one. Upvote #21850 to help prioritize it. One partial workaround is to remap the Tab key itself, but that also removes Tab everywhere. A reporter in #32164 noted this and didn't want to lose Tab."
+ },
+ "hit_turn_cap": false
+}

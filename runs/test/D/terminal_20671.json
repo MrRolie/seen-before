@@ -1,0 +1,518 @@
+{
+ "shown": [
+  "PowerToys#10305",
+  "PowerToys#1163",
+  "PowerToys#1875",
+  "PowerToys#1948",
+  "PowerToys#2195",
+  "PowerToys#3152",
+  "PowerToys#4753",
+  "PowerToys#7408",
+  "PowerToys#7512",
+  "PowerToys#827",
+  "terminal#1060",
+  "terminal#10632",
+  "terminal#11294",
+  "terminal#11352",
+  "terminal#11353",
+  "terminal#11730",
+  "terminal#1210",
+  "terminal#12317",
+  "terminal#12335",
+  "terminal#12359",
+  "terminal#12388",
+  "terminal#12452",
+  "terminal#12480",
+  "terminal#12633",
+  "terminal#1329",
+  "terminal#13389",
+  "terminal#1364",
+  "terminal#13695",
+  "terminal#13807",
+  "terminal#1397",
+  "terminal#13985",
+  "terminal#14693",
+  "terminal#14957",
+  "terminal#15144",
+  "terminal#1526",
+  "terminal#1578",
+  "terminal#16022",
+  "terminal#1664",
+  "terminal#1668",
+  "terminal#16960",
+  "terminal#16983",
+  "terminal#17000",
+  "terminal#1704",
+  "terminal#17076",
+  "terminal#1710",
+  "terminal#1717",
+  "terminal#18318",
+  "terminal#1833",
+  "terminal#1867",
+  "terminal#18909",
+  "terminal#1928",
+  "terminal#20249",
+  "terminal#2753",
+  "terminal#3244",
+  "terminal#3325",
+  "terminal#4250",
+  "terminal#442",
+  "terminal#4486",
+  "terminal#4500",
+  "terminal#4609",
+  "terminal#5504",
+  "terminal#6225",
+  "terminal#632",
+  "terminal#6439",
+  "terminal#649",
+  "terminal#6755",
+  "terminal#7036",
+  "terminal#7047",
+  "terminal#7074",
+  "terminal#7113",
+  "terminal#7516",
+  "terminal#763",
+  "terminal#7749",
+  "terminal#7760",
+  "terminal#7857",
+  "terminal#7975",
+  "terminal#8452",
+  "terminal#8538",
+  "terminal#8761",
+  "terminal#8987",
+  "terminal#9108",
+  "terminal#9244",
+  "terminal#9273",
+  "terminal#9298",
+  "terminal#9321",
+  "terminal#9473",
+  "terminal#9650",
+  "terminal#9675",
+  "terminal#9716"
+ ],
+ "retrieval_seconds": 4.097917231003521,
+ "tool_calls": [
+  {
+   "t": 1794882670.6933904,
+   "tool": "search",
+   "args": {
+    "pattern": "expander",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.03385755399358459,
+   "returned": [
+    "terminal#12388",
+    "terminal#12359",
+    "terminal#20249",
+    "terminal#14693",
+    "terminal#12317",
+    "terminal#18318",
+    "terminal#13807",
+    "terminal#13389",
+    "terminal#12633",
+    "terminal#12335",
+    "terminal#11353",
+    "terminal#1867"
+   ]
+  },
+  {
+   "t": 1794882674.491798,
+   "tool": "similar",
+   "args": {
+    "query": "Settings tab does not open with Ctrl+, nothing happens",
+    "repo": "terminal"
+   },
+   "seconds": 3.77654809501837,
+   "returned": [
+    "terminal#1928",
+    "terminal#1833",
+    "terminal#763",
+    "terminal#2753",
+    "terminal#1704",
+    "terminal#9108",
+    "terminal#1397",
+    "terminal#8987",
+    "terminal#3244",
+    "terminal#442",
+    "terminal#9650",
+    "terminal#9321",
+    "terminal#1664",
+    "terminal#1578",
+    "terminal#9675",
+    "terminal#1710",
+    "terminal#6225",
+    "terminal#1210",
+    "terminal#1717",
+    "terminal#4486"
+   ]
+  },
+  {
+   "t": 1794882676.221687,
+   "tool": "search",
+   "args": {
+    "pattern": "20200",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.04319422898697667,
+   "returned": [
+    "terminal#17000",
+    "terminal#7036",
+    "terminal#4500",
+    "terminal#6755",
+    "terminal#6439",
+    "terminal#5504",
+    "terminal#4609",
+    "terminal#3325",
+    "terminal#18909",
+    "terminal#16022",
+    "terminal#12480",
+    "terminal#11730",
+    "terminal#9244",
+    "terminal#7857",
+    "terminal#7760",
+    "terminal#7749",
+    "terminal#7516",
+    "terminal#7113",
+    "terminal#7074",
+    "terminal#7047"
+   ]
+  },
+  {
+   "t": 1794882676.3802738,
+   "tool": "search",
+   "args": {
+    "pattern": "58c0db9",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.050492787995608523,
+   "returned": []
+  },
+  {
+   "t": 1794882678.0349598,
+   "tool": "similar",
+   "args": {
+    "query": "Settings tab won't open after settings UI grouping change, built from main branch",
+    "repo": "terminal"
+   },
+   "seconds": 0.017059563018847257,
+   "returned": [
+    "terminal#2753",
+    "terminal#8538",
+    "terminal#3244",
+    "terminal#8452",
+    "terminal#9675",
+    "terminal#9650",
+    "terminal#1210",
+    "terminal#9321",
+    "terminal#16960",
+    "terminal#9273",
+    "terminal#8761",
+    "terminal#9716",
+    "terminal#12452",
+    "terminal#1668",
+    "terminal#1526",
+    "terminal#1833",
+    "terminal#17076",
+    "terminal#11352",
+    "terminal#4250",
+    "terminal#9298"
+   ]
+  },
+  {
+   "t": 1794882679.345295,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#16960"
+   },
+   "seconds": 0.0001642259885556996,
+   "returned": [
+    "terminal#16960"
+   ]
+  },
+  {
+   "t": 1794882681.1207175,
+   "tool": "search",
+   "args": {
+    "pattern": "settings",
+    "regex": false,
+    "also": [
+     "does not open",
+     "regression"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.09092156900442205,
+   "returned": [
+    "terminal#1060",
+    "terminal#9473"
+   ]
+  },
+  {
+   "t": 1794882682.7246218,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#17000"
+   },
+   "seconds": 0.00015443601296283305,
+   "returned": [
+    "terminal#17000"
+   ]
+  },
+  {
+   "t": 1794882684.5094173,
+   "tool": "search",
+   "args": {
+    "pattern": "Settings tab",
+    "regex": false,
+    "also": [
+     "commit"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.05980684398673475,
+   "returned": [
+    "terminal#649",
+    "terminal#15144",
+    "terminal#10632",
+    "terminal#14957",
+    "terminal#13985",
+    "terminal#13695",
+    "terminal#16983",
+    "terminal#11294",
+    "terminal#1364",
+    "terminal#632"
+   ]
+  },
+  {
+   "t": 1794882686.0182264,
+   "tool": "similar",
+   "args": {
+    "query": "Settings editor tab does not open, regression from expander groups commit in settings UI",
+    "repo": null
+   },
+   "seconds": 0.02557686102227308,
+   "returned": [
+    "terminal#16960",
+    "PowerToys#4753",
+    "terminal#2753",
+    "PowerToys#827",
+    "PowerToys#7512",
+    "PowerToys#1948",
+    "terminal#8538",
+    "PowerToys#1163",
+    "terminal#3244",
+    "terminal#9675",
+    "PowerToys#1875",
+    "terminal#9650",
+    "terminal#7975",
+    "PowerToys#2195",
+    "PowerToys#3152",
+    "terminal#1329",
+    "PowerToys#7408",
+    "terminal#1833",
+    "PowerToys#10305",
+    "terminal#1526"
+   ]
+  },
+  {
+   "t": 1794882687.5771983,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#8538"
+   },
+   "seconds": 0.0001410659751854837,
+   "returned": [
+    "terminal#8538"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 17919,
+  "stop_reason": "end_turn",
+  "session_id": "563aba78-9d0f-4140-ae29-0d20028b79c0",
+  "total_cost_usd": 0.0952236,
+  "usage": {
+   "input_tokens": 20,
+   "cache_creation_input_tokens": 18237,
+   "cache_read_input_tokens": 108556,
+   "output_tokens": 1138,
+   "output_tokens_details": {
+    "thinking_tokens": 26
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 18237,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 198,
+     "cache_read_input_tokens": 19434,
+     "cache_creation_input_tokens": 216,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 216
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 20,
+    "outputTokens": 1138,
+    "cacheReadInputTokens": 108556,
+    "cacheCreationInputTokens": 18237,
+    "webSearchRequests": 0,
+    "costUSD": 0.0952236,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 26,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18237,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this problem. The archive has no report of the Settings tab failing to open after the 'Add expander groups to settings UI (#20200)' commit. The older 'Settings doesn't open' tickets are different problems. Your ticket already points to commit 58c0db9, which is the likely cause. Please treat it as a new regression in the settings UI work. To help the maintainers, include any error from the debugger output or the Event Viewer when you press Ctrl+, and say whether reverting that commit makes the Settings tab open again.\"}",
+  "ttft_ms": 2211,
+  "type": "result",
+  "duration_ms": 22119,
+  "uuid": "4bb6032a-b78a-43df-96d2-77c2ee09f249",
+  "ttft_stream_ms": 1292,
+  "time_to_request_ms": 40,
+  "first_content_frame_ms": 1293,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 20,
+    "outputTokens": 1138,
+    "cacheReadInputTokens": 108556,
+    "cacheCreationInputTokens": 18237,
+    "webSearchRequests": 0,
+    "costUSD": 0.0952236,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 26,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18237,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 23.82847234798828,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ozt2jl1z/work"
+  }
+ },
+ "wall_seconds": 23.83125967500382,
+ "qid": "terminal#20671",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this problem. The archive has no report of the Settings tab failing to open after the 'Add expander groups to settings UI (#20200)' commit. The older 'Settings doesn't open' tickets are different problems. Your ticket already points to commit 58c0db9, which is the likely cause. Please treat it as a new regression in the settings UI work. To help the maintainers, include any error from the debugger output or the Event Viewer when you press Ctrl+, and say whether reverting that commit makes the Settings tab open again."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#23",
+  "PowerToys#3610",
+  "PowerToys#37681",
+  "PowerToys#12321",
+  "PowerToys#31946"
+ ],
+ "retrieval_seconds": 0.5668686779972631,
+ "retrieval_scores": [
+  0.031754032258064516,
+  0.031544957774465976,
+  0.031544957774465976,
+  0.03149801587301587,
+  0.030621785881252923
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3026,
+  "stop_reason": "end_turn",
+  "session_id": "92cb4495-0856-425c-b056-aecd450c1688",
+  "total_cost_usd": 0.022944,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4970,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 306,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4970,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 306,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4970,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4970
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 306,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4970,
+    "webSearchRequests": 0,
+    "costUSD": 0.022944,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4970,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#37681\", \"PowerToys#12321\", \"PowerToys#3610\"], \"answer\": \"This feature request has been made many times before (Listary-style 'Quick Switch' / Dialog Jump for Open/Save dialogs). It is not implemented yet, and your ticket would most likely be closed as a duplicate. The maintainers consolidate these requests in the tracking issue PowerToys#14351 (several of these tickets were closed as duplicates of it), so please add your upvote and any extra details there. Note that PowerToys Run's Window Walker ('<' prefix) was suggested in one ticket, but the requester said it does not cover this use case because it switches windows rather than changing the folder inside a dialog. Until the feature is added, the tickets suggest using third-party tools that offer it, such as Listary, Fluent Search, Flow Launcher or Lertaro.\"}",
+  "ttft_ms": 3239,
+  "type": "result",
+  "duration_ms": 3255,
+  "uuid": "b5157752-1561-4154-953c-97dbc685518a",
+  "ttft_stream_ms": 1238,
+  "time_to_request_ms": 228,
+  "first_content_frame_ms": 1238,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 306,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4970,
+    "webSearchRequests": 0,
+    "costUSD": 0.022944,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4970,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.07867829099996,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-z3f4r2xz/work"
+  }
+ },
+ "wall_seconds": 4.647809443995357,
+ "qid": "PowerToys#51903",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#37681",
+   "PowerToys#12321",
+   "PowerToys#3610"
+  ],
+  "answer": "This feature request has been made many times before (Listary-style 'Quick Switch' / Dialog Jump for Open/Save dialogs). It is not implemented yet, and your ticket would most likely be closed as a duplicate. The maintainers consolidate these requests in the tracking issue PowerToys#14351 (several of these tickets were closed as duplicates of it), so please add your upvote and any extra details there. Note that PowerToys Run's Window Walker ('<' prefix) was suggested in one ticket, but the requester said it does not cover this use case because it switches windows rather than changing the folder inside a dialog. Until the feature is added, the tickets suggest using third-party tools that offer it, such as Listary, Fluent Search, Flow Launcher or Lertaro."
+ },
+ "hit_turn_cap": false
+}

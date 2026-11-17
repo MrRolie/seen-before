@@ -1,0 +1,348 @@
+{
+ "shown": [
+  "PowerToys#13345",
+  "PowerToys#22587",
+  "PowerToys#2263",
+  "PowerToys#2549",
+  "PowerToys#3872",
+  "PowerToys#48899",
+  "PowerToys#7025",
+  "PowerToys#7053",
+  "PowerToys#7099",
+  "PowerToys#937",
+  "terminal#11295",
+  "terminal#11961",
+  "terminal#11962",
+  "terminal#12770",
+  "terminal#13447",
+  "terminal#13836",
+  "terminal#13866",
+  "terminal#13892",
+  "terminal#14422",
+  "terminal#14685",
+  "terminal#14691",
+  "terminal#15577",
+  "terminal#15653",
+  "terminal#16672",
+  "terminal#17309",
+  "terminal#20122",
+  "terminal#2156",
+  "terminal#2160",
+  "terminal#2183",
+  "terminal#2456",
+  "terminal#3406",
+  "terminal#3929",
+  "terminal#4341",
+  "terminal#448",
+  "terminal#490",
+  "terminal#5420",
+  "terminal#5819",
+  "terminal#5936",
+  "terminal#6000",
+  "terminal#6219",
+  "terminal#634",
+  "terminal#6879",
+  "terminal#6892",
+  "terminal#6973",
+  "terminal#7000",
+  "terminal#7766",
+  "terminal#7911",
+  "terminal#7913",
+  "terminal#8022",
+  "terminal#8568",
+  "terminal#9067",
+  "terminal#9132",
+  "terminal#9247",
+  "terminal#9254",
+  "terminal#995"
+ ],
+ "retrieval_seconds": 4.297459299996262,
+ "tool_calls": [
+  {
+   "t": 1794883441.6076498,
+   "tool": "search",
+   "args": {
+    "query": "Copilot CLI screen reader NVDA announces wrong option when moving focus with arrow keys",
+    "repo": "terminal"
+   },
+   "seconds": 4.225888541986933,
+   "returned": [
+    "terminal#13836",
+    "terminal#14685",
+    "terminal#2156",
+    "terminal#20122",
+    "terminal#5420",
+    "terminal#15653",
+    "terminal#13447",
+    "terminal#6219",
+    "terminal#14691",
+    "terminal#7766",
+    "terminal#12770",
+    "terminal#9132",
+    "terminal#5936",
+    "terminal#6892",
+    "terminal#9254",
+    "terminal#9247",
+    "terminal#13866",
+    "terminal#5819",
+    "terminal#3406",
+    "terminal#8568"
+   ]
+  },
+  {
+   "t": 1794883441.6498687,
+   "tool": "search",
+   "args": {
+    "query": "Narrator announces information of second option instead of first option focused, Up Arrow",
+    "repo": null
+   },
+   "seconds": 0.0179320810129866,
+   "returned": [
+    "PowerToys#22587",
+    "terminal#11295",
+    "terminal#7913",
+    "PowerToys#2263",
+    "terminal#15653",
+    "terminal#2160",
+    "PowerToys#2549",
+    "terminal#995",
+    "terminal#7911",
+    "PowerToys#3872",
+    "PowerToys#7053",
+    "terminal#11961",
+    "PowerToys#7025",
+    "terminal#14685",
+    "terminal#9067",
+    "PowerToys#13345",
+    "PowerToys#48899",
+    "PowerToys#7099",
+    "terminal#11962",
+    "PowerToys#937"
+   ]
+  },
+  {
+   "t": 1794883442.4761233,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#15653"
+   },
+   "seconds": 0.00010525700054131448,
+   "returned": [
+    "terminal#15653"
+   ]
+  },
+  {
+   "t": 1794883442.9295743,
+   "tool": "search",
+   "args": {
+    "query": "[Terminal - Copilot CLI] screen reader NVDA options selection",
+    "repo": "terminal"
+   },
+   "seconds": 0.05353341999580152,
+   "returned": [
+    "terminal#634",
+    "terminal#8022",
+    "terminal#7000",
+    "terminal#7766",
+    "terminal#14422",
+    "terminal#4341",
+    "terminal#15577",
+    "terminal#490",
+    "terminal#13866",
+    "terminal#2183",
+    "terminal#6879",
+    "terminal#6973",
+    "terminal#3929",
+    "terminal#448",
+    "terminal#13892",
+    "terminal#2456",
+    "terminal#16672",
+    "terminal#14685",
+    "terminal#6000",
+    "terminal#17309"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 5377,
+  "stop_reason": "end_turn",
+  "session_id": "4d3b3dfa-cf85-4bf9-b2d5-776a42d3dc09",
+  "total_cost_usd": 0.0308958,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 5897,
+   "cache_read_input_tokens": 8158,
+   "output_tokens": 648,
+   "output_tokens_details": {
+    "thinking_tokens": 33
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5897,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 313,
+     "cache_read_input_tokens": 5032,
+     "cache_creation_input_tokens": 1898,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1898
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 648,
+    "cacheReadInputTokens": 8158,
+    "cacheCreationInputTokens": 5897,
+    "webSearchRequests": 0,
+    "costUSD": 0.0308958,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 33,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5897,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket reporting this exact problem. That problem is NVDA and Narrator announcing the second option when focus moves to the first option with Up Arrow in the Copilot CLI selection list. The closest ticket is terminal#15653, where screen readers read the whole terminal output instead of the selected option in interactive prompts. It was closed as a duplicate of #13666, which was not among the tickets I was shown. That is a different symptom, so I am not citing it as a match. Please file this as a new accessibility bug. Include the NVDA and Narrator repro, your Terminal version (1.24.11911.0) and Windows build (28120.3122), and the recording you attached. Also mention that it may be related to the known limitation that terminals don't expose interactive prompt selections to screen readers.\"}",
+  "ttft_ms": 1436,
+  "type": "result",
+  "duration_ms": 9755,
+  "uuid": "21e6a584-039a-4a4a-8926-37e14af6c641",
+  "ttft_stream_ms": 607,
+  "time_to_request_ms": 64,
+  "first_content_frame_ms": 607,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 648,
+    "cacheReadInputTokens": 8158,
+    "cacheCreationInputTokens": 5897,
+    "webSearchRequests": 0,
+    "costUSD": 0.0308958,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 33,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5897,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.500932880997425,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-iswpqvkw/work"
+  }
+ },
+ "wall_seconds": 11.502783959003864,
+ "qid": "terminal#20742",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket reporting this exact problem. That problem is NVDA and Narrator announcing the second option when focus moves to the first option with Up Arrow in the Copilot CLI selection list. The closest ticket is terminal#15653, where screen readers read the whole terminal output instead of the selected option in interactive prompts. It was closed as a duplicate of #13666, which was not among the tickets I was shown. That is a different symptom, so I am not citing it as a match. Please file this as a new accessibility bug. Include the NVDA and Narrator repro, your Terminal version (1.24.11911.0) and Windows build (28120.3122), and the recording you attached. Also mention that it may be related to the known limitation that terminals don't expose interactive prompt selections to screen readers."
+ },
+ "hit_turn_cap": false
+}

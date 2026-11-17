@@ -1,0 +1,426 @@
+{
+ "shown": [
+  "PowerToys#10063",
+  "PowerToys#13154",
+  "PowerToys#15405",
+  "PowerToys#22987",
+  "PowerToys#28769",
+  "PowerToys#30862",
+  "PowerToys#31774",
+  "PowerToys#31975",
+  "PowerToys#32239",
+  "PowerToys#32523",
+  "PowerToys#32828",
+  "PowerToys#34643",
+  "PowerToys#38354",
+  "PowerToys#38597",
+  "PowerToys#38758",
+  "PowerToys#39260",
+  "PowerToys#40532",
+  "PowerToys#40793",
+  "PowerToys#41014",
+  "PowerToys#41496",
+  "PowerToys#41597",
+  "PowerToys#41930",
+  "PowerToys#42216",
+  "PowerToys#42395",
+  "PowerToys#43502",
+  "PowerToys#44612",
+  "PowerToys#45092",
+  "PowerToys#45435",
+  "PowerToys#45701",
+  "PowerToys#46319",
+  "PowerToys#46475",
+  "PowerToys#46641",
+  "PowerToys#46664",
+  "PowerToys#46667",
+  "PowerToys#48446",
+  "PowerToys#7500",
+  "PowerToys#8618",
+  "PowerToys#8723"
+ ],
+ "retrieval_seconds": 1.062220343039371,
+ "tool_calls": [
+  {
+   "t": 1794884506.8691869,
+   "tool": "search",
+   "args": {
+    "pattern": "settings search",
+    "regex": false,
+    "also": [
+     "misaligned"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.15044480899814516,
+   "returned": []
+  },
+  {
+   "t": 1794884506.950735,
+   "tool": "search",
+   "args": {
+    "pattern": "CmdPal settings search results page alignment wide window",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05892113901791163,
+   "returned": []
+  },
+  {
+   "t": 1794884508.014986,
+   "tool": "search",
+   "args": {
+    "pattern": "CmdPal: Settings",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0698083549796138,
+   "returned": [
+    "PowerToys#46667",
+    "PowerToys#46664",
+    "PowerToys#46641",
+    "PowerToys#43502",
+    "PowerToys#42216",
+    "PowerToys#41597",
+    "PowerToys#41014",
+    "PowerToys#38597"
+   ]
+  },
+  {
+   "t": 1794884508.360168,
+   "tool": "search",
+   "args": {
+    "pattern": "misaligned",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06147720999433659,
+   "returned": [
+    "PowerToys#45092",
+    "PowerToys#46319",
+    "PowerToys#34643",
+    "PowerToys#8618",
+    "PowerToys#38354",
+    "PowerToys#8723",
+    "PowerToys#48446",
+    "PowerToys#46475",
+    "PowerToys#45435",
+    "PowerToys#44612",
+    "PowerToys#41930",
+    "PowerToys#41496",
+    "PowerToys#40793",
+    "PowerToys#40532",
+    "PowerToys#38758",
+    "PowerToys#32828",
+    "PowerToys#32239",
+    "PowerToys#31975",
+    "PowerToys#31774",
+    "PowerToys#30862"
+   ]
+  },
+  {
+   "t": 1794884508.887558,
+   "tool": "search",
+   "args": {
+    "pattern": "show all",
+    "regex": false,
+    "also": [
+     "results",
+     "settings"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.16262757001095451,
+   "returned": [
+    "PowerToys#42395",
+    "PowerToys#15405",
+    "PowerToys#39260",
+    "PowerToys#32523",
+    "PowerToys#22987",
+    "PowerToys#13154",
+    "PowerToys#7500"
+   ]
+  },
+  {
+   "t": 1794884509.8641672,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46475"
+   },
+   "seconds": 0.0001919739879667759,
+   "returned": [
+    "PowerToys#46475"
+   ]
+  },
+  {
+   "t": 1794884510.0921843,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#41597"
+   },
+   "seconds": 0.0004098679928574711,
+   "returned": [
+    "PowerToys#41597"
+   ]
+  },
+  {
+   "t": 1794884511.5295954,
+   "tool": "search",
+   "args": {
+    "pattern": "CmdPal",
+    "regex": false,
+    "also": [
+     "search box",
+     "title bar",
+     "settings"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.14435723301721737,
+   "returned": []
+  },
+  {
+   "t": 1794884511.7399862,
+   "tool": "search",
+   "args": {
+    "pattern": "window is too wide",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06645160602056421,
+   "returned": [
+    "PowerToys#10063"
+   ]
+  },
+  {
+   "t": 1794884513.0377634,
+   "tool": "search",
+   "args": {
+    "pattern": "show all",
+    "regex": false,
+    "also": [
+     "CmdPal",
+     "search"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1777300619869493,
+   "returned": [
+    "PowerToys#39260",
+    "PowerToys#28769"
+   ]
+  },
+  {
+   "t": 1794884513.0736473,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45701"
+   },
+   "seconds": 0.0001046470133587718,
+   "returned": [
+    "PowerToys#45701"
+   ]
+  },
+  {
+   "t": 1794884514.5756714,
+   "tool": "search",
+   "args": {
+    "pattern": "search results",
+    "regex": false,
+    "also": [
+     "CmdPal",
+     "settings window"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1696958700194955,
+   "returned": []
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11118,
+  "stop_reason": "end_turn",
+  "session_id": "9b74b597-72be-4db7-a277-ac3b295cce4c",
+  "total_cost_usd": 0.0546599,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 9145,
+   "cache_read_input_tokens": 41019,
+   "output_tokens": 1395,
+   "output_tokens_details": {
+    "thinking_tokens": 54
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9145,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 250,
+     "cache_read_input_tokens": 10149,
+     "cache_creation_input_tokens": 173,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 173
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1395,
+    "cacheReadInputTokens": 41019,
+    "cacheCreationInputTokens": 9145,
+    "webSearchRequests": 0,
+    "costUSD": 0.0546599,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 54,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9145,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this problem. That is, the search results page in the Command Palette settings window (reached from the title-bar search with 'show all results') is misaligned when the window is wide. Some nearby tickets are about different pages. PowerToys#46475 and #45701 cover the PowerToys Settings app's Command Palette page being off-center or clipped when maximized. PowerToys#41597 covers breadcrumbs that are slightly offset in the CmdPal settings window. Please treat this as a new bug. Keep the two screenshots and add your Windows display scaling and the window size at which the misalignment starts. Until it is fixed, narrowing the settings window should bring the layout back to normal.\"}",
+  "ttft_ms": 1404,
+  "type": "result",
+  "duration_ms": 11810,
+  "uuid": "18c6f977-3435-4efb-9efc-2a37c66516e8",
+  "ttft_stream_ms": 619,
+  "time_to_request_ms": 33,
+  "first_content_frame_ms": 619,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1395,
+    "cacheReadInputTokens": 41019,
+    "cacheCreationInputTokens": 9145,
+    "webSearchRequests": 0,
+    "costUSD": 0.0546599,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 54,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9145,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.168440468987683,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-7kherhy9/work"
+  }
+ },
+ "wall_seconds": 13.170585371000925,
+ "qid": "PowerToys#51517",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this problem. That is, the search results page in the Command Palette settings window (reached from the title-bar search with 'show all results') is misaligned when the window is wide. Some nearby tickets are about different pages. PowerToys#46475 and #45701 cover the PowerToys Settings app's Command Palette page being off-center or clipped when maximized. PowerToys#41597 covers breadcrumbs that are slightly offset in the CmdPal settings window. Please treat this as a new bug. Keep the two screenshots and add your Windows display scaling and the window size at which the misalignment starts. Until it is fixed, narrowing the settings window should bring the layout back to normal."
+ },
+ "hit_turn_cap": false
+}

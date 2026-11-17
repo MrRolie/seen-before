@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#39287",
+  "PowerToys#28624",
+  "PowerToys#18134",
+  "PowerToys#12967",
+  "PowerToys#23748"
+ ],
+ "retrieval_seconds": 0.4321172760101035,
+ "retrieval_scores": [
+  0.03131881575727918,
+  0.031054405392392875,
+  0.030330882352941176,
+  0.030117753623188408,
+  0.030017921146953404
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3238,
+  "stop_reason": "end_turn",
+  "session_id": "66b81452-dc7c-4824-a3bf-4573d4aab2e6",
+  "total_cost_usd": 0.030224,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6645,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 364,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6645,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 364,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6645,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6645
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 364,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6645,
+    "webSearchRequests": 0,
+    "costUSD": 0.030224,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6645,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#39287\", \"PowerToys#18134\", \"PowerToys#28624\"], \"answer\": \"This request (a hotkey to turn the display off on demand while the PC keeps running, waking on mouse/key input) has been filed before. The past tickets say PowerToys has no such feature: Awake only keeps the PC or screen on and has no instant screen-off, and the maintainers said hardware integration for this is out of scope and they have no plans to build it (PowerToys#18134), with similar requests closed as duplicates of the long-standing #1052 (PowerToys#28624). Suggested workarounds from those tickets: use a third-party utility or script that turns the monitor off on a hotkey (e.g. nircmd monitor off, or a small tool/AutoHotkey script sending the SC_MONITORPOWER message). Separately, if you only want the PC to keep running while the screen turns off by itself, Awake set to 'Keep awake' without 'Keep screen on' does that (PowerToys#39287). You can add your use case to #1052 to track the request.\"}",
+  "ttft_ms": 3430,
+  "type": "result",
+  "duration_ms": 3451,
+  "uuid": "5dde4da0-a0d3-4702-9bb0-80040105e427",
+  "ttft_stream_ms": 664,
+  "time_to_request_ms": 209,
+  "first_content_frame_ms": 664,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 364,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6645,
+    "webSearchRequests": 0,
+    "costUSD": 0.030224,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6645,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.710055670002475,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-xs34h9ay/work"
+  }
+ },
+ "wall_seconds": 5.144352892006282,
+ "qid": "PowerToys#50238",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#39287",
+   "PowerToys#18134",
+   "PowerToys#28624"
+  ],
+  "answer": "This request (a hotkey to turn the display off on demand while the PC keeps running, waking on mouse/key input) has been filed before. The past tickets say PowerToys has no such feature: Awake only keeps the PC or screen on and has no instant screen-off, and the maintainers said hardware integration for this is out of scope and they have no plans to build it (PowerToys#18134), with similar requests closed as duplicates of the long-standing #1052 (PowerToys#28624). Suggested workarounds from those tickets: use a third-party utility or script that turns the monitor off on a hotkey (e.g. nircmd monitor off, or a small tool/AutoHotkey script sending the SC_MONITORPOWER message). Separately, if you only want the PC to keep running while the screen turns off by itself, Awake set to 'Keep awake' without 'Keep screen on' does that (PowerToys#39287). You can add your use case to #1052 to track the request."
+ },
+ "hit_turn_cap": false
+}

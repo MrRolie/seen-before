@@ -1,0 +1,314 @@
+{
+ "shown": [
+  "terminal#1035",
+  "terminal#1172",
+  "terminal#12155",
+  "terminal#12219",
+  "terminal#12769",
+  "terminal#1297",
+  "terminal#1316",
+  "terminal#438",
+  "terminal#489",
+  "terminal#540",
+  "terminal#596",
+  "terminal#598"
+ ],
+ "retrieval_seconds": 0.3235996349831112,
+ "tool_calls": [
+  {
+   "t": 1794879103.130127,
+   "tool": "search",
+   "args": {
+    "pattern": "UITestExtensionPackages",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.0688906449940987,
+   "returned": []
+  },
+  {
+   "t": 1794879103.165228,
+   "tool": "search",
+   "args": {
+    "pattern": "Host.Tests.UIA",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.021586215996649116,
+   "returned": [
+    "terminal#1035",
+    "terminal#1316",
+    "terminal#1297",
+    "terminal#596",
+    "terminal#489",
+    "terminal#12769",
+    "terminal#540",
+    "terminal#438",
+    "terminal#12219",
+    "terminal#1172",
+    "terminal#598"
+   ]
+  },
+  {
+   "t": 1794879105.6749766,
+   "tool": "search",
+   "args": {
+    "pattern": "VSTT",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.04913232501712628,
+   "returned": []
+  },
+  {
+   "t": 1794879105.9333618,
+   "tool": "search",
+   "args": {
+    "pattern": "microsoft shared",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.041117133980151266,
+   "returned": [
+    "terminal#12155"
+   ]
+  },
+  {
+   "t": 1794879107.487,
+   "tool": "search",
+   "args": {
+    "pattern": "UITestExtension",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06596589399850927,
+   "returned": []
+  },
+  {
+   "t": 1794879108.9836245,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#12219"
+   },
+   "seconds": 0.0001816249859984964,
+   "returned": [
+    "terminal#12219"
+   ]
+  },
+  {
+   "t": 1794879112.2981544,
+   "tool": "search",
+   "args": {
+    "pattern": "Common Files",
+    "regex": false,
+    "also": [
+     "Host.Tests"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.05639914100174792,
+   "returned": [
+    "terminal#1035"
+   ]
+  },
+  {
+   "t": 1794879114.0409572,
+   "tool": "search",
+   "args": {
+    "pattern": "ReferencePath",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.02032665500883013,
+   "returned": []
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 16126,
+  "stop_reason": "end_turn",
+  "session_id": "32eca25b-0c3c-453c-906f-71fa3b467f84",
+  "total_cost_usd": 0.0514909,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 9179,
+   "cache_read_input_tokens": 47629,
+   "output_tokens": 998,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9179,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 288,
+     "cache_read_input_tokens": 10245,
+     "cache_creation_input_tokens": 111,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 111
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 998,
+    "cacheReadInputTokens": 47629,
+    "cacheCreationInputTokens": 9179,
+    "webSearchRequests": 0,
+    "costUSD": 0.0514909,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9179,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this problem. I searched for the VSTT and UITestExtensionPackages path and for Host.Tests.UIA together with the \\\"Common Files\\\" folder. The Host.Tests.UIA tickets in the archive (for example terminal#1035 and terminal#12219) are about build failures. None of them mention this reference path. The path is probably a reference or search path that the Visual Studio test tooling adds. It is likely created only when the Visual Studio UI test components are installed. If you don't build or run the UIA tests, you can ignore the missing folder. To get it, install the Visual Studio component that provides the UI test extension packages, or build only the projects you need, such as CascadiaPackage. Please don't delete anything on the strength of this. If a build error points to this path, add the build log to the ticket.\"}",
+  "ttft_ms": 1903,
+  "type": "result",
+  "duration_ms": 16506,
+  "uuid": "e23dc9ca-8552-44b3-8c7d-b17b0f93094b",
+  "ttft_stream_ms": 1188,
+  "time_to_request_ms": 26,
+  "first_content_frame_ms": 1188,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 998,
+    "cacheReadInputTokens": 47629,
+    "cacheCreationInputTokens": 9179,
+    "webSearchRequests": 0,
+    "costUSD": 0.0514909,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9179,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 17.84080652499688,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-7ugeefs7/work"
+  }
+ },
+ "wall_seconds": 17.842666109994752,
+ "qid": "terminal#20483",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this problem. I searched for the VSTT and UITestExtensionPackages path and for Host.Tests.UIA together with the \"Common Files\" folder. The Host.Tests.UIA tickets in the archive (for example terminal#1035 and terminal#12219) are about build failures. None of them mention this reference path. The path is probably a reference or search path that the Visual Studio test tooling adds. It is likely created only when the Visual Studio UI test components are installed. If you don't build or run the UIA tests, you can ignore the missing folder. To get it, install the Visual Studio component that provides the UI test extension packages, or build only the projects you need, such as CascadiaPackage. Please don't delete anything on the strength of this. If a build error points to this path, add the build log to the ticket."
+ },
+ "hit_turn_cap": false
+}

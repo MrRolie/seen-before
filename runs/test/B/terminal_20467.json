@@ -1,0 +1,310 @@
+{
+ "shown": [
+  "terminal#10106",
+  "terminal#1073",
+  "terminal#11522",
+  "terminal#13014",
+  "terminal#14323",
+  "terminal#14591",
+  "terminal#14895",
+  "terminal#17339",
+  "terminal#18382",
+  "terminal#18943",
+  "terminal#19017",
+  "terminal#19051",
+  "terminal#19249",
+  "terminal#20210",
+  "terminal#2946",
+  "terminal#2958",
+  "terminal#5087",
+  "terminal#653",
+  "terminal#7246",
+  "terminal#7483",
+  "terminal#7857",
+  "terminal#942",
+  "terminal#9479",
+  "terminal#9610"
+ ],
+ "retrieval_seconds": 0.22013724301359616,
+ "tool_calls": [
+  {
+   "t": 1794878625.9023738,
+   "tool": "search",
+   "args": {
+    "pattern": "OSC 52",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.020698951004305854,
+   "returned": [
+    "terminal#19017",
+    "terminal#9479",
+    "terminal#18382",
+    "terminal#2946",
+    "terminal#17339",
+    "terminal#14895",
+    "terminal#942",
+    "terminal#20210",
+    "terminal#19051",
+    "terminal#18943",
+    "terminal#5087",
+    "terminal#14591",
+    "terminal#13014",
+    "terminal#7857",
+    "terminal#7483",
+    "terminal#2958"
+   ]
+  },
+  {
+   "t": 1794878626.2841396,
+   "tool": "search",
+   "args": {
+    "pattern": "EmptyClipboard",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.05926224502036348,
+   "returned": [
+    "terminal#14323"
+   ]
+  },
+  {
+   "t": 1794878627.6093185,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#20210"
+   },
+   "seconds": 0.00019019501633010805,
+   "returned": [
+    "terminal#20210"
+   ]
+  },
+  {
+   "t": 1794878629.5669131,
+   "tool": "search",
+   "args": {
+    "pattern": "freez",
+    "regex": false,
+    "also": [
+     "OSC"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.03592358197784051,
+   "returned": [
+    "terminal#20210",
+    "terminal#1073",
+    "terminal#11522",
+    "terminal#10106",
+    "terminal#19249",
+    "terminal#7246",
+    "terminal#653"
+   ]
+  },
+  {
+   "t": 1794878630.9029882,
+   "tool": "search",
+   "args": {
+    "pattern": "OSC.?52",
+    "regex": true,
+    "also": [
+     "lock"
+    ],
+    "repo": null
+   },
+   "seconds": 0.1040622699947562,
+   "returned": [
+    "terminal#18382",
+    "terminal#20210",
+    "terminal#942",
+    "terminal#9610"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9379,
+  "stop_reason": "end_turn",
+  "session_id": "7a5ef663-d182-45a4-bf43-9c93d1cc1b28",
+  "total_cost_usd": 0.0608866,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 11420,
+   "cache_read_input_tokens": 46026,
+   "output_tokens": 1058,
+   "output_tokens_details": {
+    "thinking_tokens": 97
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11420,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 419,
+     "cache_read_input_tokens": 11389,
+     "cache_creation_input_tokens": 1208,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1208
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1058,
+    "cacheReadInputTokens": 46026,
+    "cacheCreationInputTokens": 11420,
+    "webSearchRequests": 0,
+    "costUSD": 0.0608866,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 97,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11420,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#20210\"], \"answer\": \"This has been reported as terminal#20210, \\\"Spamming OSC 52 copy freezes the application\\\". It has the same symptom: the app freezes (Not Responding) when OSC 52 clipboard writes arrive while you interact with the terminal. It reproduces on 1.24 and 1.25 Preview, and a commenter hit it in normal Neovim/tmux use. A maintainer reproduced it and said the fix is to stop holding the terminal lock while operating on the clipboard, and to coalesce repeated events. That matches your dump analysis. No fixed version is mentioned in the ticket. As a workaround, 1.23.260121001 is reported not to freeze. You could also set compatibility.allowOSC52 to false, but that is my suggestion and the ticket doesn't mention it. Add your minidump and stack analysis to terminal#20210 rather than opening a new ticket.\"}",
+  "ttft_ms": 900,
+  "type": "result",
+  "duration_ms": 9588,
+  "uuid": "c4b055c3-a0d1-437a-bd10-6dcd650e6e05",
+  "ttft_stream_ms": 547,
+  "time_to_request_ms": 27,
+  "first_content_frame_ms": 547,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1058,
+    "cacheReadInputTokens": 46026,
+    "cacheCreationInputTokens": 11420,
+    "webSearchRequests": 0,
+    "costUSD": 0.0608866,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 97,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11420,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.855773457995383,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-pd2neurz/work"
+  }
+ },
+ "wall_seconds": 10.85766736001824,
+ "qid": "terminal#20467",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#20210"
+  ],
+  "answer": "This has been reported as terminal#20210, \"Spamming OSC 52 copy freezes the application\". It has the same symptom: the app freezes (Not Responding) when OSC 52 clipboard writes arrive while you interact with the terminal. It reproduces on 1.24 and 1.25 Preview, and a commenter hit it in normal Neovim/tmux use. A maintainer reproduced it and said the fix is to stop holding the terminal lock while operating on the clipboard, and to coalesce repeated events. That matches your dump analysis. No fixed version is mentioned in the ticket. As a workaround, 1.23.260121001 is reported not to freeze. You could also set compatibility.allowOSC52 to false, but that is my suggestion and the ticket doesn't mention it. Add your minidump and stack analysis to terminal#20210 rather than opening a new ticket."
+ },
+ "hit_turn_cap": false
+}

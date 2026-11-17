@@ -1,0 +1,338 @@
+{
+ "shown": [
+  "PowerToys#1011",
+  "PowerToys#11433",
+  "PowerToys#13791",
+  "PowerToys#138",
+  "PowerToys#15219",
+  "PowerToys#17413",
+  "PowerToys#18251",
+  "PowerToys#2033",
+  "PowerToys#21273",
+  "PowerToys#2263",
+  "PowerToys#2552",
+  "PowerToys#26796",
+  "PowerToys#3715",
+  "PowerToys#38285",
+  "PowerToys#38346",
+  "PowerToys#38347",
+  "PowerToys#38995",
+  "PowerToys#4501",
+  "PowerToys#46705",
+  "PowerToys#4673",
+  "PowerToys#47966",
+  "PowerToys#6120",
+  "PowerToys#6273",
+  "PowerToys#6399",
+  "PowerToys#8471",
+  "PowerToys#855",
+  "PowerToys#8662",
+  "PowerToys#8910",
+  "PowerToys#9077",
+  "PowerToys#9288",
+  "PowerToys#9510",
+  "PowerToys#9523",
+  "PowerToys#9904"
+ ],
+ "retrieval_seconds": 3.976977998012444,
+ "tool_calls": [
+  {
+   "t": 1794883573.899874,
+   "tool": "similar",
+   "args": {
+    "query": "taskbar media widget showing music playing, quick volume mixer, Command Palette dock",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.8393371760030277,
+   "returned": [
+    "PowerToys#1011",
+    "PowerToys#46705",
+    "PowerToys#855",
+    "PowerToys#4501",
+    "PowerToys#26796",
+    "PowerToys#8910",
+    "PowerToys#47966",
+    "PowerToys#9523",
+    "PowerToys#8471",
+    "PowerToys#18251",
+    "PowerToys#6273",
+    "PowerToys#13791",
+    "PowerToys#9077",
+    "PowerToys#9904",
+    "PowerToys#21273",
+    "PowerToys#17413",
+    "PowerToys#2552",
+    "PowerToys#8662",
+    "PowerToys#15219",
+    "PowerToys#9510"
+   ]
+  },
+  {
+   "t": 1794883573.9815996,
+   "tool": "search",
+   "args": {
+    "pattern": "media flyout",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0674386190075893,
+   "returned": [
+    "PowerToys#46705"
+   ]
+  },
+  {
+   "t": 1794883575.811071,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46705"
+   },
+   "seconds": 0.00017297500744462013,
+   "returned": [
+    "PowerToys#46705"
+   ]
+  },
+  {
+   "t": 1794883575.9648614,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47966"
+   },
+   "seconds": 0.0001945449912454933,
+   "returned": [
+    "PowerToys#47966"
+   ]
+  },
+  {
+   "t": 1794883577.6627958,
+   "tool": "search",
+   "args": {
+    "pattern": "#50930",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05544236599234864,
+   "returned": [
+    "PowerToys#46705"
+   ]
+  },
+  {
+   "t": 1794883579.6165557,
+   "tool": "similar",
+   "args": {
+    "query": "Taskbar Widgets/Command Palette widget media flyout pops up only when media playing",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014392317010788247,
+   "returned": [
+    "PowerToys#26796",
+    "PowerToys#1011",
+    "PowerToys#4501",
+    "PowerToys#2033",
+    "PowerToys#11433",
+    "PowerToys#38346",
+    "PowerToys#47966",
+    "PowerToys#38347",
+    "PowerToys#4673",
+    "PowerToys#138",
+    "PowerToys#6273",
+    "PowerToys#2263",
+    "PowerToys#3715",
+    "PowerToys#46705",
+    "PowerToys#6120",
+    "PowerToys#6399",
+    "PowerToys#855",
+    "PowerToys#38995",
+    "PowerToys#38285",
+    "PowerToys#9288"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12964,
+  "stop_reason": "end_turn",
+  "session_id": "30503474-c28d-469f-bc60-e2192e0c5982",
+  "total_cost_usd": 0.054358199999999995,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 10514,
+   "cache_read_input_tokens": 40382,
+   "output_tokens": 824,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10514,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 276,
+     "cache_read_input_tokens": 11854,
+     "cache_creation_input_tokens": 73,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 73
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 824,
+    "cacheReadInputTokens": 40382,
+    "cacheCreationInputTokens": 10514,
+    "webSearchRequests": 0,
+    "costUSD": 0.054358199999999995,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10514,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46705\", \"PowerToys#47966\"], \"answer\": \"This request has been filed before. Your ticket's text and screenshots were merged into PowerToys#46705, \\\"Dock: Add support for a band in the taskbar too\\\". The Command Palette team says a taskbar band is on the roadmap. It's still a prototype with open problems: centered taskbars, display changes, Windows 10, and the Widgets button. Please follow and add your input on #46705, because no release date has been given. For the media controls part, PowerToys#47966 was closed. The team doesn't plan to build a first-party media extension. They recommend the community extension MediaControlsExtension by [user], which gives a Command Palette dock band with media controls and works today. Use that extension now and give feedback in its repo.\"}",
+  "ttft_ms": 2266,
+  "type": "result",
+  "duration_ms": 17036,
+  "uuid": "a4ec320d-95c5-4d89-8f38-70797eb02802",
+  "ttft_stream_ms": 1247,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 1247,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 824,
+    "cacheReadInputTokens": 40382,
+    "cacheCreationInputTokens": 10514,
+    "webSearchRequests": 0,
+    "costUSD": 0.054358199999999995,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10514,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.560586704988964,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ttibluee/work"
+  }
+ },
+ "wall_seconds": 18.562407573015662,
+ "qid": "PowerToys#50930",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46705",
+   "PowerToys#47966"
+  ],
+  "answer": "This request has been filed before. Your ticket's text and screenshots were merged into PowerToys#46705, \"Dock: Add support for a band in the taskbar too\". The Command Palette team says a taskbar band is on the roadmap. It's still a prototype with open problems: centered taskbars, display changes, Windows 10, and the Widgets button. Please follow and add your input on #46705, because no release date has been given. For the media controls part, PowerToys#47966 was closed. The team doesn't plan to build a first-party media extension. They recommend the community extension MediaControlsExtension by [user], which gives a Command Palette dock band with media controls and works today. Use that extension now and give feedback in its repo."
+ },
+ "hit_turn_cap": false
+}

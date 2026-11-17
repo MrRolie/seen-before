@@ -1,0 +1,194 @@
+{
+ "shown": [
+  "PowerToys#48516",
+  "PowerToys#46740",
+  "PowerToys#48466",
+  "PowerToys#49053",
+  "PowerToys#2377"
+ ],
+ "retrieval_seconds": 0.6723028780252207,
+ "retrieval_scores": [
+  0.03278688524590164,
+  0.028782894736842105,
+  0.025458570524984188,
+  0.016129032258064516,
+  0.016129032258064516
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2812,
+  "stop_reason": "end_turn",
+  "session_id": "2fee1fc3-2897-4003-835d-f26c989c1d3c",
+  "total_cost_usd": 0.02942,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 6674,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 272,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6674,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 272,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 6674,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6674
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 272,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6674,
+    "webSearchRequests": 0,
+    "costUSD": 0.02942,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6674,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48516\", \"PowerToys#49053\"], \"answer\": \"This has been reported before. After docking or undocking, the Command Palette Dock settings page often lists only the internal monitor, and the dock disappears or comes back empty (PowerToys#48516). A similar loss of monitors and per-monitor settings was reported after an RDP session (PowerToys#49053). The past tickets show no fix. The only workaround is the one you found: turn Command Palette off and on, or restart PowerToys, after reconnecting to the dock. In PowerToys#49053, restarting PowerToys eventually fixed the wrong display numbering and resolution. Add your details to PowerToys#48516, including your version 0.100.2 and the laptop-with-disabled-internal-display setup.\"}",
+  "ttft_ms": 3001,
+  "type": "result",
+  "duration_ms": 3021,
+  "uuid": "464065ec-7a5d-4949-82dd-c274e0240fe9",
+  "ttft_stream_ms": 1041,
+  "time_to_request_ms": 206,
+  "first_content_frame_ms": 1041,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 272,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 6674,
+    "webSearchRequests": 0,
+    "costUSD": 0.02942,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6674,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.76000660500722,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-2aig6h88/work"
+  }
+ },
+ "wall_seconds": 4.433957106026355,
+ "qid": "PowerToys#50765",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48516",
+   "PowerToys#49053"
+  ],
+  "answer": "This has been reported before. After docking or undocking, the Command Palette Dock settings page often lists only the internal monitor, and the dock disappears or comes back empty (PowerToys#48516). A similar loss of monitors and per-monitor settings was reported after an RDP session (PowerToys#49053). The past tickets show no fix. The only workaround is the one you found: turn Command Palette off and on, or restart PowerToys, after reconnecting to the dock. In PowerToys#49053, restarting PowerToys eventually fixed the wrong display numbering and resolution. Add your details to PowerToys#48516, including your version 0.100.2 and the laptop-with-disabled-internal-display setup."
+ },
+ "hit_turn_cap": false
+}

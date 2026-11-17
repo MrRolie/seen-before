@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "PowerToys#48785",
+  "PowerToys#20541",
+  "PowerToys#40649",
+  "PowerToys#27771",
+  "PowerToys#37202"
+ ],
+ "retrieval_seconds": 0.6284263219858985,
+ "retrieval_scores": [
+  0.025694893341952164,
+  0.01639344262295082,
+  0.01639344262295082,
+  0.016129032258064516,
+  0.016129032258064516
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2702,
+  "stop_reason": "end_turn",
+  "session_id": "dd8be0f3-dd97-4be7-abfc-7b4bdedebf10",
+  "total_cost_usd": 0.022964,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4970,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 308,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4970,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 308,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4970,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4970
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 308,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4970,
+    "webSearchRequests": 0,
+    "costUSD": 0.022964,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4970,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"No past ticket reports this problem: Shift+H producing no character while Find My Mouse is enabled. The nearest tickets cover different issues. PowerToys#37202 is about Find My Mouse staying active with an odd animation duration. PowerToys#20541 and PowerToys#27771 are about Quick Accent and uppercase letters. PowerToys#40649 is about Keyboard Manager swallowing Ctrl+G. In the meantime, keep Find My Mouse disabled, since you found that this restores Shift+H. Your bug report ZIP is attached to the ticket, so it can be used to investigate further. Please also say whether other Shift+letter combinations are affected, which Find My Mouse activation method you use (double Ctrl or the shortcut), and whether Keyboard Manager or Quick Accent is also enabled. That will help narrow down the cause.\"}",
+  "ttft_ms": 2898,
+  "type": "result",
+  "duration_ms": 2918,
+  "uuid": "2d23fca6-3d51-40ba-9f7a-28debdd18d86",
+  "ttft_stream_ms": 707,
+  "time_to_request_ms": 214,
+  "first_content_frame_ms": 707,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 308,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4970,
+    "webSearchRequests": 0,
+    "costUSD": 0.022964,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4970,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.8198630940169096,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-u2d913ia/work"
+  }
+ },
+ "wall_seconds": 4.450400326983072,
+ "qid": "PowerToys#50998",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "No past ticket reports this problem: Shift+H producing no character while Find My Mouse is enabled. The nearest tickets cover different issues. PowerToys#37202 is about Find My Mouse staying active with an odd animation duration. PowerToys#20541 and PowerToys#27771 are about Quick Accent and uppercase letters. PowerToys#40649 is about Keyboard Manager swallowing Ctrl+G. In the meantime, keep Find My Mouse disabled, since you found that this restores Shift+H. Your bug report ZIP is attached to the ticket, so it can be used to investigate further. Please also say whether other Shift+letter combinations are affected, which Find My Mouse activation method you use (double Ctrl or the shortcut), and whether Keyboard Manager or Quick Accent is also enabled. That will help narrow down the cause."
+ },
+ "hit_turn_cap": false
+}

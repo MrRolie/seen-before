@@ -1,0 +1,394 @@
+{
+ "shown": [
+  "PowerToys#10846",
+  "PowerToys#41088",
+  "PowerToys#44221",
+  "PowerToys#45591",
+  "PowerToys#45592",
+  "PowerToys#45596",
+  "PowerToys#45861",
+  "PowerToys#45955",
+  "PowerToys#45963",
+  "PowerToys#45998",
+  "PowerToys#46097",
+  "PowerToys#46227",
+  "PowerToys#46236",
+  "PowerToys#46239",
+  "PowerToys#46308",
+  "PowerToys#46353",
+  "PowerToys#46589",
+  "PowerToys#46605",
+  "PowerToys#46614",
+  "PowerToys#46632",
+  "PowerToys#46698",
+  "PowerToys#46750",
+  "PowerToys#46800",
+  "PowerToys#46801",
+  "PowerToys#47092",
+  "PowerToys#47253",
+  "PowerToys#47494",
+  "PowerToys#47496",
+  "PowerToys#47584",
+  "PowerToys#47602",
+  "PowerToys#47764",
+  "PowerToys#48233",
+  "PowerToys#48451",
+  "PowerToys#48455",
+  "PowerToys#48538",
+  "PowerToys#48756",
+  "PowerToys#48833",
+  "PowerToys#48933",
+  "PowerToys#49053",
+  "terminal#14577",
+  "terminal#6780",
+  "terminal#9131"
+ ],
+ "retrieval_seconds": 3.677124042995274,
+ "tool_calls": [
+  {
+   "t": 1794879715.9783776,
+   "tool": "search",
+   "args": {
+    "query": "Command palette dock disappears when Win+D show desktop",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.6492761879926547,
+   "returned": [
+    "PowerToys#45592",
+    "PowerToys#47584",
+    "PowerToys#48538",
+    "PowerToys#46097",
+    "PowerToys#47496",
+    "PowerToys#48455",
+    "PowerToys#46227",
+    "PowerToys#45955",
+    "PowerToys#47253",
+    "PowerToys#46353",
+    "PowerToys#48233",
+    "PowerToys#47764",
+    "PowerToys#44221",
+    "PowerToys#45998",
+    "PowerToys#45591",
+    "PowerToys#45596",
+    "PowerToys#49053",
+    "PowerToys#46308",
+    "PowerToys#46801",
+    "PowerToys#41088"
+   ]
+  },
+  {
+   "t": 1794879716.004257,
+   "tool": "search",
+   "args": {
+    "query": "dock hidden after show desktop gesture, should stay visible",
+    "repo": null
+   },
+   "seconds": 0.01254316497943364,
+   "returned": [
+    "PowerToys#46353",
+    "PowerToys#46632",
+    "PowerToys#47092",
+    "PowerToys#46589",
+    "PowerToys#48455",
+    "PowerToys#10846",
+    "PowerToys#48451",
+    "PowerToys#46236",
+    "PowerToys#47764",
+    "PowerToys#47602",
+    "PowerToys#46800",
+    "PowerToys#48756",
+    "PowerToys#46239",
+    "PowerToys#46605",
+    "PowerToys#45861",
+    "PowerToys#46614",
+    "terminal#6780",
+    "terminal#14577",
+    "terminal#9131",
+    "PowerToys#48538"
+   ]
+  },
+  {
+   "t": 1794879716.9541967,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45592"
+   },
+   "seconds": 0.00015295599587261677,
+   "returned": [
+    "PowerToys#45592"
+   ]
+  },
+  {
+   "t": 1794879717.2930365,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47584"
+   },
+   "seconds": 0.00012591699487529695,
+   "returned": [
+    "PowerToys#47584"
+   ]
+  },
+  {
+   "t": 1794879717.3779602,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48538"
+   },
+   "seconds": 0.0001470260031055659,
+   "returned": [
+    "PowerToys#48538"
+   ]
+  },
+  {
+   "t": 1794879717.5640101,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48233"
+   },
+   "seconds": 0.00012595602311193943,
+   "returned": [
+    "PowerToys#48233"
+   ]
+  },
+  {
+   "t": 1794879718.6096208,
+   "tool": "search",
+   "args": {
+    "query": "CmdPal dock hides on Win+D show desktop",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014445603010244668,
+   "returned": [
+    "PowerToys#45592",
+    "PowerToys#47584",
+    "PowerToys#48538",
+    "PowerToys#46097",
+    "PowerToys#48455",
+    "PowerToys#47764",
+    "PowerToys#45861",
+    "PowerToys#46800",
+    "PowerToys#46698",
+    "PowerToys#46353",
+    "PowerToys#47496",
+    "PowerToys#48233",
+    "PowerToys#45963",
+    "PowerToys#46632",
+    "PowerToys#47092",
+    "PowerToys#47494",
+    "PowerToys#48833",
+    "PowerToys#48933",
+    "PowerToys#46750",
+    "PowerToys#46801"
+   ]
+  },
+  {
+   "t": 1794879719.4033868,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47496"
+   },
+   "seconds": 0.00016002601478248835,
+   "returned": [
+    "PowerToys#47496"
+   ]
+  },
+  {
+   "t": 1794879720.3359323,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48455"
+   },
+   "seconds": 0.00014720598119311035,
+   "returned": [
+    "PowerToys#48455"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8796,
+  "stop_reason": "end_turn",
+  "session_id": "fa4e13ef-acb5-4974-887c-5409956f86f7",
+  "total_cost_usd": 0.0473766,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 8681,
+   "cache_read_input_tokens": 31786,
+   "output_tokens": 945,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8681,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 320,
+     "cache_read_input_tokens": 9082,
+     "cache_creation_input_tokens": 632,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 632
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 945,
+    "cacheReadInputTokens": 31786,
+    "cacheCreationInputTokens": 8681,
+    "webSearchRequests": 0,
+    "costUSD": 0.0473766,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8681,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#47584\", \"PowerToys#45592\", \"PowerToys#48538\"], \"answer\": \"This has been reported before. The Command Palette Dock hides when you press Win+D or click Show Desktop, and it comes back when you restore the windows. #47584 is the main tracking issue, and #48538 was closed as a duplicate of it. In #45592 a maintainer said the code that keeps the dock visible after Show Desktop works most of the time but not always. No fix or reliable workaround is recorded in these tickets. The reports say it happens intermittently. One report found it did not happen while certain window types were open, such as a file Properties dialog. Another reporter couldn't reproduce it, and wondered whether a taskbar tool such as TranslucentTB was involved. Subscribe to #47584 for updates. If you want to add detail, include your PowerToys and Windows versions and whether you run any taskbar-modifying tools.\"}",
+  "ttft_ms": 1036,
+  "type": "result",
+  "duration_ms": 12152,
+  "uuid": "b0268d15-54d0-4cfa-b815-7046a3792c36",
+  "ttft_stream_ms": 580,
+  "time_to_request_ms": 28,
+  "first_content_frame_ms": 580,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 945,
+    "cacheReadInputTokens": 31786,
+    "cacheCreationInputTokens": 8681,
+    "webSearchRequests": 0,
+    "costUSD": 0.0473766,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8681,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.572936656011734,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-884prqzb/work"
+  }
+ },
+ "wall_seconds": 13.574707396997837,
+ "qid": "PowerToys#49798",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#47584",
+   "PowerToys#45592",
+   "PowerToys#48538"
+  ],
+  "answer": "This has been reported before. The Command Palette Dock hides when you press Win+D or click Show Desktop, and it comes back when you restore the windows. #47584 is the main tracking issue, and #48538 was closed as a duplicate of it. In #45592 a maintainer said the code that keeps the dock visible after Show Desktop works most of the time but not always. No fix or reliable workaround is recorded in these tickets. The reports say it happens intermittently. One report found it did not happen while certain window types were open, such as a file Properties dialog. Another reporter couldn't reproduce it, and wondered whether a taskbar tool such as TranslucentTB was involved. Subscribe to #47584 for updates. If you want to add detail, include your PowerToys and Windows versions and whether you run any taskbar-modifying tools."
+ },
+ "hit_turn_cap": false
+}

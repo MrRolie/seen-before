@@ -1,0 +1,381 @@
+{
+ "shown": [
+  "PowerToys#11952",
+  "PowerToys#11961",
+  "PowerToys#12040",
+  "PowerToys#131",
+  "PowerToys#13924",
+  "PowerToys#14144",
+  "PowerToys#15022",
+  "PowerToys#173",
+  "PowerToys#19742",
+  "PowerToys#20438",
+  "PowerToys#20541",
+  "PowerToys#21026",
+  "PowerToys#21451",
+  "PowerToys#2148",
+  "PowerToys#2167",
+  "PowerToys#2197",
+  "PowerToys#2198",
+  "PowerToys#2199",
+  "PowerToys#2328",
+  "PowerToys#2329",
+  "PowerToys#2378",
+  "PowerToys#25000",
+  "PowerToys#2548",
+  "PowerToys#27372",
+  "PowerToys#3219",
+  "PowerToys#3335",
+  "PowerToys#3364",
+  "PowerToys#3516",
+  "PowerToys#38467",
+  "PowerToys#40667",
+  "PowerToys#4352",
+  "PowerToys#4360",
+  "PowerToys#4453",
+  "PowerToys#4618",
+  "PowerToys#4648",
+  "PowerToys#5079",
+  "PowerToys#5406",
+  "PowerToys#5915",
+  "PowerToys#6391",
+  "PowerToys#6961",
+  "PowerToys#74",
+  "PowerToys#7625",
+  "PowerToys#79",
+  "PowerToys#8234",
+  "PowerToys#8288",
+  "PowerToys#847",
+  "PowerToys#9288",
+  "PowerToys#9337",
+  "PowerToys#9360",
+  "terminal#10723",
+  "terminal#13953",
+  "terminal#16909",
+  "terminal#4869",
+  "terminal#637",
+  "terminal#9450",
+  "terminal#9676",
+  "terminal#9894"
+ ],
+ "retrieval_seconds": 3.8589925849810243,
+ "tool_calls": [
+  {
+   "t": 1794883722.801043,
+   "tool": "search",
+   "args": {
+    "query": "Find My Mouse enabled, Shift+H does not type uppercase H",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.819712725991849,
+   "returned": [
+    "PowerToys#40667",
+    "PowerToys#8288",
+    "PowerToys#27372",
+    "PowerToys#131",
+    "PowerToys#21026",
+    "PowerToys#847",
+    "PowerToys#173",
+    "PowerToys#2198",
+    "PowerToys#9360",
+    "PowerToys#74",
+    "PowerToys#20438",
+    "PowerToys#14144",
+    "PowerToys#2167",
+    "PowerToys#13924",
+    "PowerToys#4352",
+    "PowerToys#2197",
+    "PowerToys#5406",
+    "PowerToys#19742",
+    "PowerToys#11961",
+    "PowerToys#2378"
+   ]
+  },
+  {
+   "t": 1794883722.8235912,
+   "tool": "search",
+   "args": {
+    "query": "Find My Mouse blocks typing capital letters with Shift key",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012084054003935307,
+   "returned": [
+    "PowerToys#2198",
+    "PowerToys#4648",
+    "PowerToys#15022",
+    "PowerToys#79",
+    "PowerToys#4352",
+    "PowerToys#2548",
+    "PowerToys#2167",
+    "PowerToys#38467",
+    "PowerToys#173",
+    "PowerToys#9337",
+    "PowerToys#21026",
+    "PowerToys#40667",
+    "PowerToys#5915",
+    "PowerToys#847",
+    "PowerToys#3219",
+    "PowerToys#4453",
+    "PowerToys#7625",
+    "PowerToys#11952",
+    "PowerToys#20438",
+    "PowerToys#21451"
+   ]
+  },
+  {
+   "t": 1794883723.9537086,
+   "tool": "search",
+   "args": {
+    "query": "Find My Mouse keyboard input broken, some key not typing, disabling Find My Mouse fixes it",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.013883104984415695,
+   "returned": [
+    "PowerToys#8234",
+    "PowerToys#9337",
+    "PowerToys#15022",
+    "PowerToys#4352",
+    "PowerToys#9288",
+    "PowerToys#3364",
+    "PowerToys#6391",
+    "PowerToys#2199",
+    "PowerToys#4360",
+    "PowerToys#11952",
+    "PowerToys#2148",
+    "PowerToys#2328",
+    "PowerToys#40667",
+    "PowerToys#12040",
+    "PowerToys#2548",
+    "PowerToys#3516",
+    "PowerToys#6961",
+    "PowerToys#38467",
+    "PowerToys#4618",
+    "PowerToys#14144"
+   ]
+  },
+  {
+   "t": 1794883724.844243,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#14144"
+   },
+   "seconds": 0.00016153501928783953,
+   "returned": [
+    "PowerToys#14144"
+   ]
+  },
+  {
+   "t": 1794883725.8669367,
+   "tool": "search",
+   "args": {
+    "query": "uppercase letter not typed when Shift pressed, PowerToys mouse utility",
+    "repo": null
+   },
+   "seconds": 0.013151164981536567,
+   "returned": [
+    "PowerToys#3335",
+    "PowerToys#2329",
+    "PowerToys#2198",
+    "terminal#637",
+    "terminal#9450",
+    "PowerToys#20541",
+    "PowerToys#25000",
+    "PowerToys#2167",
+    "terminal#9894",
+    "terminal#4869",
+    "PowerToys#5079",
+    "PowerToys#173",
+    "terminal#13953",
+    "PowerToys#2548",
+    "terminal#9676",
+    "PowerToys#15022",
+    "terminal#16909",
+    "PowerToys#21026",
+    "PowerToys#4648",
+    "terminal#10723"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7172,
+  "stop_reason": "end_turn",
+  "session_id": "6d12da47-dcdc-4c47-8911-c736d5fd83ac",
+  "total_cost_usd": 0.035403699999999996,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 6580,
+   "cache_read_input_tokens": 19537,
+   "output_tokens": 711,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6580,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 252,
+     "cache_read_input_tokens": 6303,
+     "cache_creation_input_tokens": 1310,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1310
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 711,
+    "cacheReadInputTokens": 19537,
+    "cacheCreationInputTokens": 6580,
+    "webSearchRequests": 0,
+    "costUSD": 0.035403699999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6580,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket that reports this problem. Nothing in the archive describes Find My Mouse stopping Shift+H from typing an uppercase H. The one Find My Mouse ticket that looked close, PowerToys#14144, is only a documentation fix saying that any keypress dismisses the overlay. For now, keep Find My Mouse disabled, since you've confirmed that restores Shift+H. Please leave this ticket open for the team to investigate. It would help to say whether other Shift combinations are affected, and whether it still happens if you change the Find My Mouse activation method (for example, from double-press Ctrl to shake the mouse). The bug report ZIP you attached will help the team look into it.\"}",
+  "ttft_ms": 1060,
+  "type": "result",
+  "duration_ms": 10683,
+  "uuid": "7d9db69f-a761-4baa-9b23-27e794d0bbe0",
+  "ttft_stream_ms": 604,
+  "time_to_request_ms": 37,
+  "first_content_frame_ms": 604,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 711,
+    "cacheReadInputTokens": 19537,
+    "cacheCreationInputTokens": 6580,
+    "webSearchRequests": 0,
+    "costUSD": 0.035403699999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6580,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.158057759981602,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-kctfytou/work"
+  }
+ },
+ "wall_seconds": 12.159833301004255,
+ "qid": "PowerToys#50998",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket that reports this problem. Nothing in the archive describes Find My Mouse stopping Shift+H from typing an uppercase H. The one Find My Mouse ticket that looked close, PowerToys#14144, is only a documentation fix saying that any keypress dismisses the overlay. For now, keep Find My Mouse disabled, since you've confirmed that restores Shift+H. Please leave this ticket open for the team to investigate. It would help to say whether other Shift combinations are affected, and whether it still happens if you change the Find My Mouse activation method (for example, from double-press Ctrl to shake the mouse). The bug report ZIP you attached will help the team look into it."
+ },
+ "hit_turn_cap": false
+}

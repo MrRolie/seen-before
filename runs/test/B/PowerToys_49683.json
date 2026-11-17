@@ -1,0 +1,257 @@
+{
+ "shown": [
+  "PowerToys#179",
+  "PowerToys#31979",
+  "PowerToys#34347",
+  "PowerToys#35808",
+  "PowerToys#36355",
+  "PowerToys#36608",
+  "PowerToys#36692",
+  "PowerToys#37336",
+  "PowerToys#37559",
+  "PowerToys#37971",
+  "PowerToys#38788",
+  "PowerToys#40196",
+  "PowerToys#40415",
+  "PowerToys#40416",
+  "PowerToys#43173",
+  "PowerToys#43402",
+  "PowerToys#44650",
+  "PowerToys#46301",
+  "PowerToys#47062",
+  "PowerToys#48077"
+ ],
+ "retrieval_seconds": 0.04364712999085896,
+ "tool_calls": [
+  {
+   "t": 1794879612.5211546,
+   "tool": "search",
+   "args": {
+    "pattern": "copilot key",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04345526499673724,
+   "returned": [
+    "PowerToys#35808",
+    "PowerToys#43173",
+    "PowerToys#31979",
+    "PowerToys#36608",
+    "PowerToys#46301",
+    "PowerToys#48077",
+    "PowerToys#47062",
+    "PowerToys#34347",
+    "PowerToys#44650",
+    "PowerToys#43402",
+    "PowerToys#40416",
+    "PowerToys#40415",
+    "PowerToys#40196",
+    "PowerToys#38788",
+    "PowerToys#37971",
+    "PowerToys#37559",
+    "PowerToys#37336",
+    "PowerToys#36692",
+    "PowerToys#36355",
+    "PowerToys#179"
+   ]
+  },
+  {
+   "t": 1794879614.494137,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35808"
+   },
+   "seconds": 0.00019186499412171543,
+   "returned": [
+    "PowerToys#35808"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8210,
+  "stop_reason": "end_turn",
+  "session_id": "36c39d61-f25d-4187-a2e9-ef3bca7a245c",
+  "total_cost_usd": 0.0427417,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 8849,
+   "cache_read_input_tokens": 9437,
+   "output_tokens": 639,
+   "output_tokens_details": {
+    "thinking_tokens": 37
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8849,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 356,
+     "cache_read_input_tokens": 6575,
+     "cache_creation_input_tokens": 3451,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3451
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 639,
+    "cacheReadInputTokens": 9437,
+    "cacheCreationInputTokens": 8849,
+    "webSearchRequests": 0,
+    "costUSD": 0.0427417,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 37,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8849,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 4,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#35808\", \"PowerToys#43402\", \"PowerToys#36355\"], \"answer\": \"This has been reported before. Keyboard Manager's \\\"Remap a key\\\" list has no Copilot key, because the key sends a shortcut: Win (Left) + Shift (Left) + F23. To remap it, use Keyboard Manager > Remap a shortcut. Click the pencil and press the Copilot key so it records the combination. Then pick the output you want. Remapping it to a single key or an action works for many people. Remapping it to Ctrl (Right) is unreliable. The key can end up acting as Ctrl+Shift, and Ctrl+Alt+Del may not work with it. Some users report that setting the output to Ctrl (Left) works. Another workaround is to edit the recorded shortcut. A dedicated Copilot key option in Keyboard Manager has not been added, and the older tickets don't show a fix. Comments on PowerToys#35808 also say the multi-key output comes from the keyboard's firmware.\"}",
+  "ttft_ms": 2140,
+  "type": "result",
+  "duration_ms": 8320,
+  "uuid": "3a3d4317-4838-42b3-9031-dde21f03289a",
+  "ttft_stream_ms": 1269,
+  "time_to_request_ms": 27,
+  "first_content_frame_ms": 1269,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 639,
+    "cacheReadInputTokens": 9437,
+    "cacheCreationInputTokens": 8849,
+    "webSearchRequests": 0,
+    "costUSD": 0.0427417,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 37,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8849,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 9.780421891977312,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-k7x4uafx/work"
+  }
+ },
+ "wall_seconds": 9.782131234998815,
+ "qid": "PowerToys#49683",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#35808",
+   "PowerToys#43402",
+   "PowerToys#36355"
+  ],
+  "answer": "This has been reported before. Keyboard Manager's \"Remap a key\" list has no Copilot key, because the key sends a shortcut: Win (Left) + Shift (Left) + F23. To remap it, use Keyboard Manager > Remap a shortcut. Click the pencil and press the Copilot key so it records the combination. Then pick the output you want. Remapping it to a single key or an action works for many people. Remapping it to Ctrl (Right) is unreliable. The key can end up acting as Ctrl+Shift, and Ctrl+Alt+Del may not work with it. Some users report that setting the output to Ctrl (Left) works. Another workaround is to edit the recorded shortcut. A dedicated Copilot key option in Keyboard Manager has not been added, and the older tickets don't show a fix. Comments on PowerToys#35808 also say the multi-key output comes from the keyboard's firmware."
+ },
+ "hit_turn_cap": false
+}

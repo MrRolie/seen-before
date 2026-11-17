@@ -1,0 +1,194 @@
+{
+ "shown": [
+  "PowerToys#48566",
+  "PowerToys#16928",
+  "PowerToys#23399",
+  "PowerToys#27299",
+  "PowerToys#34950"
+ ],
+ "retrieval_seconds": 0.508720996993361,
+ "retrieval_scores": [
+  0.029827662395050816,
+  0.026397515527950312,
+  0.02152889707575409,
+  0.02075268817204301,
+  0.01639344262295082
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3151,
+  "stop_reason": "end_turn",
+  "session_id": "2e09eb45-89ea-4a31-b5d9-0e75c7f0bd7a",
+  "total_cost_usd": 0.020238,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4176,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 353,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4176,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 353,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4176,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4176
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 353,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4176,
+    "webSearchRequests": 0,
+    "costUSD": 0.020238,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4176,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#34950\", \"PowerToys#48566\"], \"answer\": \"This request has been filed before. Tickets PowerToys#34950 (Window Masking) and PowerToys#48566 (Restrict App Sharing) both ask for a way to hide specific windows from screen sharing, recording and screenshots, using WDA_EXCLUDEFROMCAPTURE. PowerToys does not offer this feature today. Both tickets were closed as duplicates: #34950 was pointed to #13035, and #48566 to #46333. A commenter on #34950 questioned whether #13035 is the right tracking issue, because it is about inactive window appearance. Subscribe to #46333 for updates on the request. Until a feature ships, the open-source tools winhider (github.com/[user]/winhider) and Invisiwind (github.com/[user]/Invisiwind), mentioned in #34950, do similar things. They do not detect newly opened windows. Alternatively, share a single window or monitor rather than your whole screen.\"}",
+  "ttft_ms": 3311,
+  "type": "result",
+  "duration_ms": 3334,
+  "uuid": "6d84a883-94eb-46d9-97f7-95999abf364f",
+  "ttft_stream_ms": 989,
+  "time_to_request_ms": 181,
+  "first_content_frame_ms": 989,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 353,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4176,
+    "webSearchRequests": 0,
+    "costUSD": 0.020238,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4176,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.247159329999704,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-gs3ffupy/work"
+  }
+ },
+ "wall_seconds": 4.757680367998546,
+ "qid": "PowerToys#51660",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#34950",
+   "PowerToys#48566"
+  ],
+  "answer": "This request has been filed before. Tickets PowerToys#34950 (Window Masking) and PowerToys#48566 (Restrict App Sharing) both ask for a way to hide specific windows from screen sharing, recording and screenshots, using WDA_EXCLUDEFROMCAPTURE. PowerToys does not offer this feature today. Both tickets were closed as duplicates: #34950 was pointed to #13035, and #48566 to #46333. A commenter on #34950 questioned whether #13035 is the right tracking issue, because it is about inactive window appearance. Subscribe to #46333 for updates on the request. Until a feature ships, the open-source tools winhider (github.com/[user]/winhider) and Invisiwind (github.com/[user]/Invisiwind), mentioned in #34950, do similar things. They do not detect newly opened windows. Alternatively, share a single window or monitor rather than your whole screen."
+ },
+ "hit_turn_cap": false
+}

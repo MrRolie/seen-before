@@ -1,0 +1,411 @@
+{
+ "shown": [
+  "PowerToys#10271",
+  "PowerToys#11733",
+  "PowerToys#12874",
+  "PowerToys#16286",
+  "PowerToys#18918",
+  "PowerToys#2170",
+  "PowerToys#2544",
+  "PowerToys#2662",
+  "PowerToys#29996",
+  "PowerToys#3163",
+  "PowerToys#3421",
+  "PowerToys#34383",
+  "PowerToys#3571",
+  "PowerToys#3676",
+  "PowerToys#38196",
+  "PowerToys#38467",
+  "PowerToys#38608",
+  "PowerToys#4713",
+  "PowerToys#4973",
+  "PowerToys#5001",
+  "PowerToys#5496",
+  "PowerToys#5670",
+  "PowerToys#5709",
+  "PowerToys#5722",
+  "PowerToys#5915",
+  "PowerToys#5997",
+  "PowerToys#6211",
+  "PowerToys#6616",
+  "PowerToys#6756",
+  "PowerToys#6842",
+  "PowerToys#6947",
+  "PowerToys#6976",
+  "PowerToys#7444",
+  "PowerToys#8016",
+  "PowerToys#848",
+  "PowerToys#8952",
+  "PowerToys#9209"
+ ],
+ "retrieval_seconds": 3.686606632953044,
+ "tool_calls": [
+  {
+   "t": 1794876096.877737,
+   "tool": "search",
+   "args": {
+    "query": "Keyboard manager add comments/description/name to individual shortcut remappings",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.65388129799976,
+   "returned": [
+    "PowerToys#38196",
+    "PowerToys#12874",
+    "PowerToys#2662",
+    "PowerToys#4713",
+    "PowerToys#2544",
+    "PowerToys#8016",
+    "PowerToys#10271",
+    "PowerToys#5496",
+    "PowerToys#6842",
+    "PowerToys#3571",
+    "PowerToys#7444",
+    "PowerToys#5670",
+    "PowerToys#16286",
+    "PowerToys#18918",
+    "PowerToys#38608",
+    "PowerToys#5722",
+    "PowerToys#11733",
+    "PowerToys#4973",
+    "PowerToys#6211",
+    "PowerToys#29996"
+   ]
+  },
+  {
+   "t": 1794876096.9167666,
+   "tool": "search",
+   "args": {
+    "query": "keyboard manager note or label field for each remapping",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014387102011824027,
+   "returned": [
+    "PowerToys#12874",
+    "PowerToys#3571",
+    "PowerToys#8952",
+    "PowerToys#6616",
+    "PowerToys#38467",
+    "PowerToys#10271",
+    "PowerToys#7444",
+    "PowerToys#4713",
+    "PowerToys#5709",
+    "PowerToys#6842",
+    "PowerToys#2170",
+    "PowerToys#6211",
+    "PowerToys#848",
+    "PowerToys#5496",
+    "PowerToys#38196",
+    "PowerToys#6756",
+    "PowerToys#5997",
+    "PowerToys#3676",
+    "PowerToys#6976",
+    "PowerToys#3421"
+   ]
+  },
+  {
+   "t": 1794876097.9162748,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38196"
+   },
+   "seconds": 0.00012822699500247836,
+   "returned": [
+    "PowerToys#38196"
+   ]
+  },
+  {
+   "t": 1794876098.0798104,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#16286"
+   },
+   "seconds": 0.00013613697956316173,
+   "returned": [
+    "PowerToys#16286"
+   ]
+  },
+  {
+   "t": 1794876098.34541,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#18918"
+   },
+   "seconds": 0.00019752499065361917,
+   "returned": [
+    "PowerToys#18918"
+   ]
+  },
+  {
+   "t": 1794876098.514982,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38608"
+   },
+   "seconds": 0.00013495699386112392,
+   "returned": [
+    "PowerToys#38608"
+   ]
+  },
+  {
+   "t": 1794876099.330056,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#12874"
+   },
+   "seconds": 0.00014221700257621706,
+   "returned": [
+    "PowerToys#12874"
+   ]
+  },
+  {
+   "t": 1794876100.3420982,
+   "tool": "search",
+   "args": {
+    "query": "comment on remapped shortcut keyboard manager remember purpose",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.017095942981541157,
+   "returned": [
+    "PowerToys#4713",
+    "PowerToys#38196",
+    "PowerToys#8952",
+    "PowerToys#5496",
+    "PowerToys#6211",
+    "PowerToys#38467",
+    "PowerToys#6842",
+    "PowerToys#3571",
+    "PowerToys#5001",
+    "PowerToys#2662",
+    "PowerToys#34383",
+    "PowerToys#7444",
+    "PowerToys#3163",
+    "PowerToys#5722",
+    "PowerToys#12874",
+    "PowerToys#5670",
+    "PowerToys#9209",
+    "PowerToys#5915",
+    "PowerToys#11733",
+    "PowerToys#6947"
+   ]
+  },
+  {
+   "t": 1794876101.2443123,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4713"
+   },
+   "seconds": 0.00015251600416377187,
+   "returned": [
+    "PowerToys#4713"
+   ]
+  },
+  {
+   "t": 1794876102.6589923,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#8016"
+   },
+   "seconds": 0.00019583498942665756,
+   "returned": [
+    "PowerToys#8016"
+   ]
+  },
+  {
+   "t": 1794876103.5391004,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#12874"
+   },
+   "seconds": 0.00015487600467167795,
+   "returned": [
+    "PowerToys#12874"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13271,
+  "stop_reason": "end_turn",
+  "session_id": "334020e7-ff76-4082-ac9e-de6b45585dd1",
+  "total_cost_usd": 0.0580475,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 10025,
+   "cache_read_input_tokens": 47655,
+   "output_tokens": 1315,
+   "output_tokens_details": {
+    "thinking_tokens": 263
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10025,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 537,
+     "cache_read_input_tokens": 9962,
+     "cache_creation_input_tokens": 1096,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1096
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1315,
+    "cacheReadInputTokens": 47655,
+    "cacheCreationInputTokens": 10025,
+    "webSearchRequests": 0,
+    "costUSD": 0.0580475,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 263,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10025,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've finished checking the archive and am sending my conclusion now.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#16286\", \"PowerToys#38196\", \"PowerToys#18918\"], \"answer\": \"This feature request has been filed before. The original is PowerToys#16286, \\\"Allow adding comments to remapped keys / shortcuts\\\". PowerToys#38196 and PowerToys#18918 were closed as duplicates of it, and PowerToys#38608 asks for the same thing. The archive shows no sign that comments have been implemented. The only maintainer reply on the original is \\\"Neat idea\\\". There is no workaround in those tickets, so for now keep your own list of what each shortcut does. To support the request, add a thumbs-up and your Edge example to PowerToys#16286 instead of opening a new ticket.\"}",
+  "ttft_ms": 1269,
+  "type": "result",
+  "duration_ms": 16720,
+  "uuid": "adb290fe-2ffe-432a-9091-83d8b11fe4af",
+  "ttft_stream_ms": 568,
+  "time_to_request_ms": 35,
+  "first_content_frame_ms": 568,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1315,
+    "cacheReadInputTokens": 47655,
+    "cacheCreationInputTokens": 10025,
+    "webSearchRequests": 0,
+    "costUSD": 0.0580475,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 263,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10025,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.08970957400743,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-7xpvi_xm/work"
+  }
+ },
+ "wall_seconds": 18.091849081014516,
+ "qid": "PowerToys#49296",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#16286",
+   "PowerToys#38196",
+   "PowerToys#18918"
+  ],
+  "answer": "This feature request has been filed before. The original is PowerToys#16286, \"Allow adding comments to remapped keys / shortcuts\". PowerToys#38196 and PowerToys#18918 were closed as duplicates of it, and PowerToys#38608 asks for the same thing. The archive shows no sign that comments have been implemented. The only maintainer reply on the original is \"Neat idea\". There is no workaround in those tickets, so for now keep your own list of what each shortcut does. To support the request, add a thumbs-up and your Edge example to PowerToys#16286 instead of opening a new ticket."
+ },
+ "hit_turn_cap": false
+}

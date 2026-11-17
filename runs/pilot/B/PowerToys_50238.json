@@ -1,0 +1,370 @@
+{
+ "shown": [
+  "PowerToys#1052",
+  "PowerToys#14844",
+  "PowerToys#16031",
+  "PowerToys#17550",
+  "PowerToys#17779",
+  "PowerToys#18134",
+  "PowerToys#19223",
+  "PowerToys#21003",
+  "PowerToys#21339",
+  "PowerToys#24273",
+  "PowerToys#28624",
+  "PowerToys#29358",
+  "PowerToys#30123",
+  "PowerToys#30342",
+  "PowerToys#34708",
+  "PowerToys#36219",
+  "PowerToys#43346",
+  "PowerToys#47488",
+  "PowerToys#47813",
+  "PowerToys#49045",
+  "PowerToys#8929"
+ ],
+ "retrieval_seconds": 0.2622332889586687,
+ "tool_calls": [
+  {
+   "t": 1794876759.006252,
+   "tool": "search",
+   "args": {
+    "pattern": "turn off display",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10341871497803368,
+   "returned": [
+    "PowerToys#47813",
+    "PowerToys#28624",
+    "PowerToys#47488",
+    "PowerToys#43346",
+    "PowerToys#19223",
+    "PowerToys#30123",
+    "PowerToys#24273",
+    "PowerToys#21339",
+    "PowerToys#14844"
+   ]
+  },
+  {
+   "t": 1794876759.3659885,
+   "tool": "search",
+   "args": {
+    "pattern": "monitor off shortcut",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.08673165898653679,
+   "returned": []
+  },
+  {
+   "t": 1794876759.7646725,
+   "tool": "search",
+   "args": {
+    "pattern": "turn off monitor",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07022060101735406,
+   "returned": [
+    "PowerToys#49045",
+    "PowerToys#36219",
+    "PowerToys#34708",
+    "PowerToys#30342",
+    "PowerToys#29358",
+    "PowerToys#21003",
+    "PowerToys#17779",
+    "PowerToys#17550",
+    "PowerToys#16031",
+    "PowerToys#8929"
+   ]
+  },
+  {
+   "t": 1794876760.73961,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#16031"
+   },
+   "seconds": 0.0001513359893579036,
+   "returned": [
+    "PowerToys#16031"
+   ]
+  },
+  {
+   "t": 1794876761.0873353,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34708"
+   },
+   "seconds": 0.00022866300423629582,
+   "returned": [
+    "PowerToys#34708"
+   ]
+  },
+  {
+   "t": 1794876761.1382115,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#30342"
+   },
+   "seconds": 0.0002453030028846115,
+   "returned": [
+    "PowerToys#30342"
+   ]
+  },
+  {
+   "t": 1794876761.3204222,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21003"
+   },
+   "seconds": 0.00016094499733299017,
+   "returned": [
+    "PowerToys#21003"
+   ]
+  },
+  {
+   "t": 1794876762.462959,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1052"
+   },
+   "seconds": 0.00031971000134944916,
+   "returned": [
+    "PowerToys#1052"
+   ]
+  },
+  {
+   "t": 1794876763.446077,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47813"
+   },
+   "seconds": 0.00013064598897472024,
+   "returned": [
+    "PowerToys#47813"
+   ]
+  },
+  {
+   "t": 1794876764.1718001,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47488"
+   },
+   "seconds": 0.00018775399075821042,
+   "returned": [
+    "PowerToys#47488"
+   ]
+  },
+  {
+   "t": 1794876766.1212244,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#28624"
+   },
+   "seconds": 0.00020090400357730687,
+   "returned": [
+    "PowerToys#28624"
+   ]
+  },
+  {
+   "t": 1794876767.6859238,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#18134"
+   },
+   "seconds": 0.0002370529982727021,
+   "returned": [
+    "PowerToys#18134"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 21752,
+  "stop_reason": "end_turn",
+  "session_id": "547ab2af-5fc8-4e46-855b-c24502fbb3c1",
+  "total_cost_usd": 0.07068750000000001,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 12791,
+   "cache_read_input_tokens": 64515,
+   "output_tokens": 1304,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12791,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 455,
+     "cache_read_input_tokens": 13073,
+     "cache_creation_input_tokens": 895,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 895
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1304,
+    "cacheReadInputTokens": 64515,
+    "cacheCreationInputTokens": 12791,
+    "webSearchRequests": 0,
+    "costUSD": 0.07068750000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12791,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#16031\", \"PowerToys#21003\", \"PowerToys#30342\"], \"answer\": \"This feature request has been filed before: a hotkey that turns the display off right away while the PC keeps running. Moving the mouse or pressing a key wakes it again. PowerToys has no such shortcut today. Past requests were closed as duplicates of the Quick Display tracker, #1052. Related requests are #28624, #18134, #47488 and #47813. In #18134 the team said it had no plans to build it. The archive offers these workarounds:\\n- Create a Windows shortcut or AutoHotkey script that sends the monitor-off message. For example: powershell (Add-Type '[DllImport(\\\"user32.dll\\\")]public static extern int PostMessage(int hWnd, int hMsg, int wParam, int lParam);' -Name a -Pas)::PostMessage(-1,0x0112,0xF170,2). Assign a hotkey to that shortcut.\\n- Use nircmd.exe with the command \\\"nircmd.exe cmdwait 1000 monitor off\\\".\\n- Use Twinkle Tray, which can turn monitors off from a hotkey.\\nTo support the feature, upvote or comment on #1052. Waking the display may require you to sign in again, depending on your \\\"require sign-in\\\" setting.\"}",
+  "ttft_ms": 3413,
+  "type": "result",
+  "duration_ms": 21993,
+  "uuid": "e716e2e0-a9ce-48c0-b44c-6f8ec9a459d8",
+  "ttft_stream_ms": 3064,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 3064,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1304,
+    "cacheReadInputTokens": 64515,
+    "cacheCreationInputTokens": 12791,
+    "webSearchRequests": 0,
+    "costUSD": 0.07068750000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12791,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 23.57629816001281,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-1e1jub_c/work"
+  }
+ },
+ "wall_seconds": 23.57847639900865,
+ "qid": "PowerToys#50238",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#16031",
+   "PowerToys#21003",
+   "PowerToys#30342"
+  ],
+  "answer": "This feature request has been filed before: a hotkey that turns the display off right away while the PC keeps running. Moving the mouse or pressing a key wakes it again. PowerToys has no such shortcut today. Past requests were closed as duplicates of the Quick Display tracker, #1052. Related requests are #28624, #18134, #47488 and #47813. In #18134 the team said it had no plans to build it. The archive offers these workarounds:\n- Create a Windows shortcut or AutoHotkey script that sends the monitor-off message. For example: powershell (Add-Type '[DllImport(\"user32.dll\")]public static extern int PostMessage(int hWnd, int hMsg, int wParam, int lParam);' -Name a -Pas)::PostMessage(-1,0x0112,0xF170,2). Assign a hotkey to that shortcut.\n- Use nircmd.exe with the command \"nircmd.exe cmdwait 1000 monitor off\".\n- Use Twinkle Tray, which can turn monitors off from a hotkey.\nTo support the feature, upvote or comment on #1052. Waking the display may require you to sign in again, depending on your \"require sign-in\" setting."
+ },
+ "hit_turn_cap": false
+}

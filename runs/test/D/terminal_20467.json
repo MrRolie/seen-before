@@ -1,0 +1,299 @@
+{
+ "shown": [
+  "terminal#10157",
+  "terminal#11135",
+  "terminal#11357",
+  "terminal#11385",
+  "terminal#12598",
+  "terminal#12607",
+  "terminal#12638",
+  "terminal#1360",
+  "terminal#14131",
+  "terminal#1445",
+  "terminal#17339",
+  "terminal#17735",
+  "terminal#1810",
+  "terminal#18382",
+  "terminal#18803",
+  "terminal#19178",
+  "terminal#19749",
+  "terminal#19794",
+  "terminal#2000",
+  "terminal#20210",
+  "terminal#2946",
+  "terminal#3571",
+  "terminal#408",
+  "terminal#5203",
+  "terminal#5802",
+  "terminal#7819",
+  "terminal#7994",
+  "terminal#9479",
+  "terminal#9610"
+ ],
+ "retrieval_seconds": 3.6679691929602996,
+ "tool_calls": [
+  {
+   "t": 1794878650.5875676,
+   "tool": "search",
+   "args": {
+    "pattern": "OSC 52",
+    "regex": false,
+    "also": [
+     "deadlock"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.04126843498670496,
+   "returned": []
+  },
+  {
+   "t": 1794878654.203142,
+   "tool": "similar",
+   "args": {
+    "query": "Terminal hangs freezes when OSC 52 clipboard copy, EmptyClipboard under lock, UI thread blocked",
+    "repo": "terminal"
+   },
+   "seconds": 3.603165110980626,
+   "returned": [
+    "terminal#7994",
+    "terminal#11385",
+    "terminal#14131",
+    "terminal#19749",
+    "terminal#12598",
+    "terminal#12607",
+    "terminal#10157",
+    "terminal#11357",
+    "terminal#3571",
+    "terminal#18803",
+    "terminal#5203",
+    "terminal#11135",
+    "terminal#20210",
+    "terminal#1360",
+    "terminal#19178",
+    "terminal#408",
+    "terminal#5802",
+    "terminal#1445",
+    "terminal#2000",
+    "terminal#1810"
+   ]
+  },
+  {
+   "t": 1794878656.091878,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#20210"
+   },
+   "seconds": 0.00012255599722266197,
+   "returned": [
+    "terminal#20210"
+   ]
+  },
+  {
+   "t": 1794878656.2894576,
+   "tool": "search",
+   "args": {
+    "pattern": "OSC52",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.023413090995745733,
+   "returned": [
+    "terminal#18382",
+    "terminal#17339",
+    "terminal#2946",
+    "terminal#19794",
+    "terminal#12638",
+    "terminal#17735",
+    "terminal#9610",
+    "terminal#9479",
+    "terminal#7819"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7985,
+  "stop_reason": "end_turn",
+  "session_id": "fec4f87c-e397-43e9-9c09-e9a8e2747749",
+  "total_cost_usd": 0.0411964,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 8228,
+   "cache_read_input_tokens": 13124,
+   "output_tokens": 696,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8228,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 334,
+     "cache_read_input_tokens": 6603,
+     "cache_creation_input_tokens": 3038,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3038
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 696,
+    "cacheReadInputTokens": 13124,
+    "cacheCreationInputTokens": 8228,
+    "webSearchRequests": 0,
+    "costUSD": 0.0411964,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8228,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#20210\"], \"answer\": \"This has been reported before as terminal#20210, \\\"Spamming OSC 52 copy freezes the application\\\". It describes the same freeze: OSC 52 clipboard writes make Windows Terminal show Not Responding when you click around while they arrive. It was reported against 1.24 and 1.25 Preview, and it doesn't happen on 1.23.260121001. A maintainer confirmed a repro. The planned fix is to stop holding the terminal lock while operating on the clipboard and to coalesce repeated copy events. That matches your analysis, because the user-initiated copy path already releases the lock. The ticket records no fix or release yet. Until one ships, you can avoid the freeze by downgrading to 1.23.260121001, turning off OSC 52 with compatibility.allowOSC52 = false, or turning off copy-on-select in claude code. You can add your minidump analysis and the proposed fix to terminal#20210.\"}",
+  "ttft_ms": 2423,
+  "type": "result",
+  "duration_ms": 11708,
+  "uuid": "fcbdb556-85f5-4a17-a21f-61a75fb53e96",
+  "ttft_stream_ms": 1207,
+  "time_to_request_ms": 35,
+  "first_content_frame_ms": 1207,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 696,
+    "cacheReadInputTokens": 13124,
+    "cacheCreationInputTokens": 8228,
+    "webSearchRequests": 0,
+    "costUSD": 0.0411964,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8228,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.004413396003656,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-auze7yyz/work"
+  }
+ },
+ "wall_seconds": 13.006171570013976,
+ "qid": "terminal#20467",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#20210"
+  ],
+  "answer": "This has been reported before as terminal#20210, \"Spamming OSC 52 copy freezes the application\". It describes the same freeze: OSC 52 clipboard writes make Windows Terminal show Not Responding when you click around while they arrive. It was reported against 1.24 and 1.25 Preview, and it doesn't happen on 1.23.260121001. A maintainer confirmed a repro. The planned fix is to stop holding the terminal lock while operating on the clipboard and to coalesce repeated copy events. That matches your analysis, because the user-initiated copy path already releases the lock. The ticket records no fix or release yet. Until one ships, you can avoid the freeze by downgrading to 1.23.260121001, turning off OSC 52 with compatibility.allowOSC52 = false, or turning off copy-on-select in claude code. You can add your minidump analysis and the proposed fix to terminal#20210."
+ },
+ "hit_turn_cap": false
+}

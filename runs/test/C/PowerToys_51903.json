@@ -1,0 +1,341 @@
+{
+ "shown": [
+  "PowerToys#10256",
+  "PowerToys#12321",
+  "PowerToys#128",
+  "PowerToys#139",
+  "PowerToys#1416",
+  "PowerToys#14351",
+  "PowerToys#1951",
+  "PowerToys#22473",
+  "PowerToys#2258",
+  "PowerToys#22583",
+  "PowerToys#23",
+  "PowerToys#23078",
+  "PowerToys#233",
+  "PowerToys#2371",
+  "PowerToys#2383",
+  "PowerToys#29752",
+  "PowerToys#30665",
+  "PowerToys#3126",
+  "PowerToys#31946",
+  "PowerToys#31949",
+  "PowerToys#33432",
+  "PowerToys#3610",
+  "PowerToys#37681",
+  "PowerToys#6872",
+  "PowerToys#8088",
+  "PowerToys#8261",
+  "terminal#12859",
+  "terminal#2287",
+  "terminal#6674",
+  "terminal#7104",
+  "terminal#8002"
+ ],
+ "retrieval_seconds": 4.731591680960264,
+ "tool_calls": [
+  {
+   "t": 1794885309.2095084,
+   "tool": "search",
+   "args": {
+    "query": "Dialog Jump: quickly switch folder in Open/Save file dialog like Listary or Flow Launcher",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.713181532017188,
+   "returned": [
+    "PowerToys#10256",
+    "PowerToys#3610",
+    "PowerToys#23",
+    "PowerToys#31946",
+    "PowerToys#30665",
+    "PowerToys#14351",
+    "PowerToys#37681",
+    "PowerToys#31949",
+    "PowerToys#3126",
+    "PowerToys#12321",
+    "PowerToys#6872",
+    "PowerToys#233",
+    "PowerToys#2371",
+    "PowerToys#139",
+    "PowerToys#2258",
+    "PowerToys#1416",
+    "PowerToys#33432",
+    "PowerToys#128",
+    "PowerToys#2383",
+    "PowerToys#22473"
+   ]
+  },
+  {
+   "t": 1794885309.252658,
+   "tool": "search",
+   "args": {
+    "query": "Open/Save dialog jump to opened Explorer folder ctrl+G quick switch",
+    "repo": null
+   },
+   "seconds": 0.017486000986536965,
+   "returned": [
+    "PowerToys#3610",
+    "PowerToys#23",
+    "PowerToys#33432",
+    "PowerToys#10256",
+    "PowerToys#1951",
+    "terminal#6674",
+    "PowerToys#14351",
+    "terminal#12859",
+    "PowerToys#8261",
+    "PowerToys#29752",
+    "PowerToys#37681",
+    "PowerToys#22583",
+    "PowerToys#12321",
+    "terminal#2287",
+    "PowerToys#2371",
+    "terminal#7104",
+    "PowerToys#23078",
+    "terminal#8002",
+    "PowerToys#139",
+    "PowerToys#8088"
+   ]
+  },
+  {
+   "t": 1794885311.4250138,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#30665"
+   },
+   "seconds": 0.00013596599455922842,
+   "returned": [
+    "PowerToys#30665"
+   ]
+  },
+  {
+   "t": 1794885311.4324753,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37681"
+   },
+   "seconds": 0.00010741798905655742,
+   "returned": [
+    "PowerToys#37681"
+   ]
+  },
+  {
+   "t": 1794885311.502581,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#3610"
+   },
+   "seconds": 0.00029458297649398446,
+   "returned": [
+    "PowerToys#3610"
+   ]
+  },
+  {
+   "t": 1794885313.1934564,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#14351"
+   },
+   "seconds": 0.000235104002058506,
+   "returned": [
+    "PowerToys#14351"
+   ]
+  },
+  {
+   "t": 1794885314.810701,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#23"
+   },
+   "seconds": 0.00015107699437066913,
+   "returned": [
+    "PowerToys#23"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10945,
+  "stop_reason": "end_turn",
+  "session_id": "28835f89-a947-4d34-8694-35a5e013414f",
+  "total_cost_usd": 0.0455149,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 8618,
+   "cache_read_input_tokens": 21529,
+   "output_tokens": 887,
+   "output_tokens_details": {
+    "thinking_tokens": 65
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8618,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 331,
+     "cache_read_input_tokens": 8069,
+     "cache_creation_input_tokens": 1582,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1582
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 887,
+    "cacheReadInputTokens": 21529,
+    "cacheCreationInputTokens": 8618,
+    "webSearchRequests": 0,
+    "costUSD": 0.0455149,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 65,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8618,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#14351\", \"PowerToys#3610\", \"PowerToys#37681\"], \"answer\": \"This feature request has been filed before. It asks for a Listary-style Quick Switch: a hotkey in Open/Save dialogs that jumps to an open Explorer folder or a chosen folder. PowerToys#14351 is the main tracking issue, and other reports (#3610, #37681, #30665) were closed as duplicates of it or of #23. The feature isn't implemented in PowerToys yet. Nothing in the archive gives a timeline. Add your +1 or your Flow Launcher and Lertaro references to #14351 instead of opening a new issue. Until then, use a third-party tool. Listary, Flow Launcher's Dialog Jump, Lertaro, Fluent Search and QuickSwitch all offer this. PowerToys Run's Window Walker (`<`) switches between windows but doesn't change the folder in a dialog.\"}",
+  "ttft_ms": 2192,
+  "type": "result",
+  "duration_ms": 15799,
+  "uuid": "ff3c730d-8b59-4427-8e8d-39e08d94696c",
+  "ttft_stream_ms": 1126,
+  "time_to_request_ms": 56,
+  "first_content_frame_ms": 1127,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 887,
+    "cacheReadInputTokens": 21529,
+    "cacheCreationInputTokens": 8618,
+    "webSearchRequests": 0,
+    "costUSD": 0.0455149,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 65,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8618,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 17.228725277993362,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ligtw0u8/work"
+  }
+ },
+ "wall_seconds": 17.230917976005003,
+ "qid": "PowerToys#51903",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#14351",
+   "PowerToys#3610",
+   "PowerToys#37681"
+  ],
+  "answer": "This feature request has been filed before. It asks for a Listary-style Quick Switch: a hotkey in Open/Save dialogs that jumps to an open Explorer folder or a chosen folder. PowerToys#14351 is the main tracking issue, and other reports (#3610, #37681, #30665) were closed as duplicates of it or of #23. The feature isn't implemented in PowerToys yet. Nothing in the archive gives a timeline. Add your +1 or your Flow Launcher and Lertaro references to #14351 instead of opening a new issue. Until then, use a third-party tool. Listary, Flow Launcher's Dialog Jump, Lertaro, Fluent Search and QuickSwitch all offer this. PowerToys Run's Window Walker (`<`) switches between windows but doesn't change the folder in a dialog."
+ },
+ "hit_turn_cap": false
+}

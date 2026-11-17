@@ -1,0 +1,347 @@
+{
+ "shown": [
+  "terminal#10134",
+  "terminal#11149",
+  "terminal#12650",
+  "terminal#14100",
+  "terminal#14299",
+  "terminal#15389",
+  "terminal#15549",
+  "terminal#16024",
+  "terminal#16330",
+  "terminal#16881",
+  "terminal#17673",
+  "terminal#18687",
+  "terminal#18972",
+  "terminal#19000",
+  "terminal#19362",
+  "terminal#19595",
+  "terminal#19839",
+  "terminal#2287",
+  "terminal#2495",
+  "terminal#4214",
+  "terminal#4277",
+  "terminal#4287",
+  "terminal#4715",
+  "terminal#4728",
+  "terminal#592",
+  "terminal#6456",
+  "terminal#6559",
+  "terminal#6596",
+  "terminal#7090",
+  "terminal#8029",
+  "terminal#8107",
+  "terminal#9047",
+  "terminal#917",
+  "terminal#9356",
+  "terminal#9469",
+  "terminal#9476",
+  "terminal#9585"
+ ],
+ "retrieval_seconds": 3.5285347809258383,
+ "tool_calls": [
+  {
+   "t": 1794882129.1269367,
+   "tool": "search",
+   "args": {
+    "query": "--startingDirectory fails when path contains square brackets",
+    "repo": "terminal"
+   },
+   "seconds": 3.514936835010303,
+   "returned": [
+    "terminal#19595",
+    "terminal#18972",
+    "terminal#19362",
+    "terminal#4277",
+    "terminal#4715",
+    "terminal#8107",
+    "terminal#592",
+    "terminal#15389",
+    "terminal#4214",
+    "terminal#18687",
+    "terminal#9047",
+    "terminal#14299",
+    "terminal#16881",
+    "terminal#14100",
+    "terminal#917",
+    "terminal#2495",
+    "terminal#4728",
+    "terminal#7090",
+    "terminal#12650",
+    "terminal#10134"
+   ]
+  },
+  {
+   "t": 1794882129.1529248,
+   "tool": "search",
+   "args": {
+    "query": "Open in Terminal from Explorer directory with brackets [ ] does not open in that directory",
+    "repo": "terminal"
+   },
+   "seconds": 0.01296296197688207,
+   "returned": [
+    "terminal#16024",
+    "terminal#19000",
+    "terminal#4287",
+    "terminal#9469",
+    "terminal#12650",
+    "terminal#8107",
+    "terminal#19839",
+    "terminal#8029",
+    "terminal#6559",
+    "terminal#17673",
+    "terminal#6596",
+    "terminal#2287",
+    "terminal#9585",
+    "terminal#11149",
+    "terminal#9476",
+    "terminal#15549",
+    "terminal#6456",
+    "terminal#16330",
+    "terminal#18972",
+    "terminal#9356"
+   ]
+  },
+  {
+   "t": 1794882130.062409,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19595"
+   },
+   "seconds": 0.00013726597535423934,
+   "returned": [
+    "terminal#19595"
+   ]
+  },
+  {
+   "t": 1794882130.3808553,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18972"
+   },
+   "seconds": 0.00013630700414068997,
+   "returned": [
+    "terminal#18972"
+   ]
+  },
+  {
+   "t": 1794882130.5243456,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#14100"
+   },
+   "seconds": 0.0001045769895426929,
+   "returned": [
+    "terminal#14100"
+   ]
+  },
+  {
+   "t": 1794882130.7045147,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#16024"
+   },
+   "seconds": 0.00012896698899567127,
+   "returned": [
+    "terminal#16024"
+   ]
+  },
+  {
+   "t": 1794882131.7334795,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#11149"
+   },
+   "seconds": 0.00012786698061972857,
+   "returned": [
+    "terminal#11149"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7386,
+  "stop_reason": "end_turn",
+  "session_id": "ece8c3cb-b15b-4970-a0c0-c82912d8cee6",
+  "total_cost_usd": 0.043989600000000004,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 8307,
+   "cache_read_input_tokens": 16756,
+   "output_tokens": 907,
+   "output_tokens_details": {
+    "thinking_tokens": 37
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8307,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 378,
+     "cache_read_input_tokens": 8670,
+     "cache_creation_input_tokens": 670,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 670
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 907,
+    "cacheReadInputTokens": 16756,
+    "cacheCreationInputTokens": 8307,
+    "webSearchRequests": 0,
+    "costUSD": 0.043989600000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 37,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8307,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#11149\", \"terminal#16024\", \"terminal#14100\"], \"answer\": \"This has been reported before. The cause is a bug in Windows PowerShell 5.1, not in wt.exe. PowerShell 5.1 treats the starting directory as a wildcard pattern, so it mishandles paths containing '[' or ']'. Terminal does pass the path correctly, and parentheses work because they aren't wildcard characters. The Terminal team said they can't fix this on their side (terminal#11149). Two reporters fixed it by installing PowerShell 7 (pwsh) and using it as the profile: terminal#14100 on 7.2.6, and the terminal#16024 reporter on PowerShell 7 (version not stated). Install the current PowerShell 7 and set it as your default Terminal profile. Then --startingDirectory and Explorer's \\\"Open in Terminal\\\" should open in the bracketed folder. Windows PowerShell 5.1 is unlikely to get a fix. In the meantime you can use cmd, or run Set-Location -LiteralPath after the shell starts.\"}",
+  "ttft_ms": 1133,
+  "type": "result",
+  "duration_ms": 10491,
+  "uuid": "06dc63b2-7b19-41fe-8492-daab774e0eb0",
+  "ttft_stream_ms": 709,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 709,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 907,
+    "cacheReadInputTokens": 16756,
+    "cacheCreationInputTokens": 8307,
+    "webSearchRequests": 0,
+    "costUSD": 0.043989600000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 37,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8307,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 11.9843095279939,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-7822kn5o/work"
+  }
+ },
+ "wall_seconds": 11.986015414004214,
+ "qid": "terminal#20643",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#11149",
+   "terminal#16024",
+   "terminal#14100"
+  ],
+  "answer": "This has been reported before. The cause is a bug in Windows PowerShell 5.1, not in wt.exe. PowerShell 5.1 treats the starting directory as a wildcard pattern, so it mishandles paths containing '[' or ']'. Terminal does pass the path correctly, and parentheses work because they aren't wildcard characters. The Terminal team said they can't fix this on their side (terminal#11149). Two reporters fixed it by installing PowerShell 7 (pwsh) and using it as the profile: terminal#14100 on 7.2.6, and the terminal#16024 reporter on PowerShell 7 (version not stated). Install the current PowerShell 7 and set it as your default Terminal profile. Then --startingDirectory and Explorer's \"Open in Terminal\" should open in the bracketed folder. Windows PowerShell 5.1 is unlikely to get a fix. In the meantime you can use cmd, or run Set-Location -LiteralPath after the shell starts."
+ },
+ "hit_turn_cap": false
+}

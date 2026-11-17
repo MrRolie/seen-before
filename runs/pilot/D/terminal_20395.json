@@ -1,0 +1,278 @@
+{
+ "shown": [
+  "terminal#10082",
+  "terminal#10177",
+  "terminal#10469",
+  "terminal#10488",
+  "terminal#10684",
+  "terminal#10800",
+  "terminal#10912",
+  "terminal#11079",
+  "terminal#1410",
+  "terminal#16629",
+  "terminal#17466",
+  "terminal#17982",
+  "terminal#5576",
+  "terminal#7406",
+  "terminal#9273",
+  "terminal#9346",
+  "terminal#950",
+  "terminal#980",
+  "terminal#9958",
+  "terminal#9962"
+ ],
+ "retrieval_seconds": 3.64938634794089,
+ "tool_calls": [
+  {
+   "t": 1794875951.574657,
+   "tool": "similar",
+   "args": {
+    "query": "Settings dropdown menu (combo box) scrolls away with content when scrolling, detached from Terminal window",
+    "repo": "terminal"
+   },
+   "seconds": 3.6488399310037494,
+   "returned": [
+    "terminal#9958",
+    "terminal#10488",
+    "terminal#16629",
+    "terminal#10177",
+    "terminal#10912",
+    "terminal#10082",
+    "terminal#10469",
+    "terminal#9962",
+    "terminal#10684",
+    "terminal#7406",
+    "terminal#9346",
+    "terminal#17982",
+    "terminal#950",
+    "terminal#10800",
+    "terminal#5576",
+    "terminal#9273",
+    "terminal#11079",
+    "terminal#980",
+    "terminal#17466",
+    "terminal#1410"
+   ]
+  },
+  {
+   "t": 1794875952.5899498,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#16629"
+   },
+   "seconds": 0.00015507597709074616,
+   "returned": [
+    "terminal#16629"
+   ]
+  },
+  {
+   "t": 1794875952.8299632,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#9958"
+   },
+   "seconds": 0.0002244449860882014,
+   "returned": [
+    "terminal#9958"
+   ]
+  },
+  {
+   "t": 1794875952.9771144,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#10488"
+   },
+   "seconds": 0.00016689597396180034,
+   "returned": [
+    "terminal#10488"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 5817,
+  "stop_reason": "end_turn",
+  "session_id": "f94c2bc2-c630-4d7d-9fe6-aac2e2f0a096",
+  "total_cost_usd": 0.027451999999999997,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 4945,
+   "cache_read_input_tokens": 7200,
+   "output_tokens": 694,
+   "output_tokens_details": {
+    "thinking_tokens": 50
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4945,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 300,
+     "cache_read_input_tokens": 3669,
+     "cache_creation_input_tokens": 2689,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2689
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 694,
+    "cacheReadInputTokens": 7200,
+    "cacheCreationInputTokens": 4945,
+    "webSearchRequests": 0,
+    "costUSD": 0.027451999999999997,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 50,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4945,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#16629\", \"terminal#9958\", \"terminal#10488\"], \"answer\": \"This has been reported before. Open dropdowns in the Settings UI (for example Startup > Default profile) detach and scroll outside the Terminal window when you scroll the page. The older reports (#9958 and #10488) were closed as duplicates of the original tracking issue #9320. The most recent report, #16629, says the behavior came back as a regression after the fix in #10922. In that ticket a maintainer suspects an event handler was dropped somewhere, and the issue is not marked as fixed. As a workaround, close the dropdown before you scroll the settings page. You can also thumbs-up the existing issues rather than filing a new one.\"}",
+  "ttft_ms": 1257,
+  "type": "result",
+  "duration_ms": 9140,
+  "uuid": "a0b7903b-5a10-4c59-9420-69cc0b6a754d",
+  "ttft_stream_ms": 526,
+  "time_to_request_ms": 31,
+  "first_content_frame_ms": 526,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 694,
+    "cacheReadInputTokens": 7200,
+    "cacheCreationInputTokens": 4945,
+    "webSearchRequests": 0,
+    "costUSD": 0.027451999999999997,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 50,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4945,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.599098378006602,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-qalsxc8l/work"
+  }
+ },
+ "wall_seconds": 10.6012348550139,
+ "qid": "terminal#20395",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#16629",
+   "terminal#9958",
+   "terminal#10488"
+  ],
+  "answer": "This has been reported before. Open dropdowns in the Settings UI (for example Startup > Default profile) detach and scroll outside the Terminal window when you scroll the page. The older reports (#9958 and #10488) were closed as duplicates of the original tracking issue #9320. The most recent report, #16629, says the behavior came back as a regression after the fix in #10922. In that ticket a maintainer suspects an event handler was dropped somewhere, and the issue is not marked as fixed. As a workaround, close the dropdown before you scroll the settings page. You can also thumbs-up the existing issues rather than filing a new one."
+ },
+ "hit_turn_cap": false
+}

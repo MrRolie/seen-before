@@ -1,0 +1,310 @@
+{
+ "shown": [
+  "PowerToys#20539",
+  "PowerToys#20688",
+  "PowerToys#20953",
+  "PowerToys#21047",
+  "PowerToys#21187",
+  "PowerToys#21459",
+  "PowerToys#22975",
+  "PowerToys#24171",
+  "PowerToys#25106",
+  "PowerToys#27893",
+  "PowerToys#30064",
+  "PowerToys#30595",
+  "PowerToys#32531",
+  "PowerToys#32536",
+  "PowerToys#32590",
+  "PowerToys#35164",
+  "PowerToys#35375",
+  "PowerToys#35486",
+  "PowerToys#37565",
+  "PowerToys#39847",
+  "PowerToys#41509",
+  "PowerToys#41780",
+  "PowerToys#44505",
+  "PowerToys#48785"
+ ],
+ "retrieval_seconds": 0.12346576197887771,
+ "tool_calls": [
+  {
+   "t": 1794881972.8475733,
+   "tool": "search",
+   "args": {
+    "pattern": "Text Extractor shortcut",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06813443900318816,
+   "returned": [
+    "PowerToys#20953",
+    "PowerToys#35486",
+    "PowerToys#48785",
+    "PowerToys#44505",
+    "PowerToys#41780",
+    "PowerToys#37565",
+    "PowerToys#32590",
+    "PowerToys#27893",
+    "PowerToys#25106",
+    "PowerToys#20688"
+   ]
+  },
+  {
+   "t": 1794881972.9132514,
+   "tool": "search",
+   "args": {
+    "pattern": "文本提取器",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05483637499855831,
+   "returned": [
+    "PowerToys#30064",
+    "PowerToys#32531",
+    "PowerToys#39847",
+    "PowerToys#35164",
+    "PowerToys#30595",
+    "PowerToys#22975",
+    "PowerToys#21047",
+    "PowerToys#41509",
+    "PowerToys#32536",
+    "PowerToys#24171",
+    "PowerToys#21459",
+    "PowerToys#21187",
+    "PowerToys#20539"
+   ]
+  },
+  {
+   "t": 1794881974.9399078,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48785"
+   },
+   "seconds": 0.0001118580112233758,
+   "returned": [
+    "PowerToys#48785"
+   ]
+  },
+  {
+   "t": 1794881974.948491,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35486"
+   },
+   "seconds": 0.00011635699775069952,
+   "returned": [
+    "PowerToys#35486"
+   ]
+  },
+  {
+   "t": 1794881975.0499363,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#25106"
+   },
+   "seconds": 0.0001148069859482348,
+   "returned": [
+    "PowerToys#25106"
+   ]
+  },
+  {
+   "t": 1794881976.7541666,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35375"
+   },
+   "seconds": 0.0001519259822089225,
+   "returned": [
+    "PowerToys#35375"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11467,
+  "stop_reason": "end_turn",
+  "session_id": "f6d4168a-5731-4eaf-9230-c4744920fd1e",
+  "total_cost_usd": 0.0563826,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 11006,
+   "cache_read_input_tokens": 23026,
+   "output_tokens": 1004,
+   "output_tokens_details": {
+    "thinking_tokens": 83
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11006,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 459,
+     "cache_read_input_tokens": 11357,
+     "cache_creation_input_tokens": 826,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 826
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1004,
+    "cacheReadInputTokens": 23026,
+    "cacheCreationInputTokens": 11006,
+    "webSearchRequests": 0,
+    "costUSD": 0.0563826,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 83,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11006,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#35486\", \"PowerToys#35375\", \"PowerToys#48785\"], \"answer\": \"Your ticket doesn't give any details. It looks like earlier reports that the Text Extractor shortcut (default Win+Shift+T) does nothing. The archive has no confirmed fix, but those tickets point to these things to try:\\n1. Open Text Extractor from the PowerToys tray icon or the Settings window. In one ticket this worked, and the shortcut then started working again for a while. Another ticket reports that PowerToys needs to be running, or its Settings window open, for hotkeys to respond.\\n2. Check for shortcut conflicts. Win+Shift+T clashes with a Windows taskbar shortcut, and Win+Shift+Q is taken by Keyboard Manager by default. Try a different activation shortcut in the Text Extractor settings.\\n3. Restart PowerToys and make sure the Text Extractor module is enabled.\\n4. If it still fails, add steps to reproduce and a PowerToys bug report ZIP (from the Settings window) to your ticket. The maintainers asked for this in similar cases.\"}",
+  "ttft_ms": 2631,
+  "type": "result",
+  "duration_ms": 11678,
+  "uuid": "13692798-e22c-48ab-9e84-836dd35cf438",
+  "ttft_stream_ms": 1279,
+  "time_to_request_ms": 33,
+  "first_content_frame_ms": 1279,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 1004,
+    "cacheReadInputTokens": 23026,
+    "cacheCreationInputTokens": 11006,
+    "webSearchRequests": 0,
+    "costUSD": 0.0563826,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 83,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11006,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.038382485014154,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-my0z4vct/work"
+  }
+ },
+ "wall_seconds": 13.040528890007408,
+ "qid": "PowerToys#50311",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#35486",
+   "PowerToys#35375",
+   "PowerToys#48785"
+  ],
+  "answer": "Your ticket doesn't give any details. It looks like earlier reports that the Text Extractor shortcut (default Win+Shift+T) does nothing. The archive has no confirmed fix, but those tickets point to these things to try:\n1. Open Text Extractor from the PowerToys tray icon or the Settings window. In one ticket this worked, and the shortcut then started working again for a while. Another ticket reports that PowerToys needs to be running, or its Settings window open, for hotkeys to respond.\n2. Check for shortcut conflicts. Win+Shift+T clashes with a Windows taskbar shortcut, and Win+Shift+Q is taken by Keyboard Manager by default. Try a different activation shortcut in the Text Extractor settings.\n3. Restart PowerToys and make sure the Text Extractor module is enabled.\n4. If it still fails, add steps to reproduce and a PowerToys bug report ZIP (from the Settings window) to your ticket. The maintainers asked for this in similar cases."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "terminal#16301",
+  "terminal#4361",
+  "terminal#17046",
+  "terminal#6428",
+  "PowerToys#19011"
+ ],
+ "retrieval_seconds": 0.41379452298860997,
+ "retrieval_scores": [
+  0.031754032258064516,
+  0.02348901098901099,
+  0.01639344262295082,
+  0.01639344262295082,
+  0.016129032258064516
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 4109,
+  "stop_reason": "end_turn",
+  "session_id": "9b5a9172-2af5-4204-836e-cd3184724b25",
+  "total_cost_usd": 0.051376,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 11923,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 368,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11923,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 368,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 11923,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 11923
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 368,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 11923,
+    "webSearchRequests": 0,
+    "costUSD": 0.051376,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11923,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"No past ticket reports this exact problem. The crash is inside PowerShell 7 itself, not Windows Terminal: PowerShell's update-notification code (UpdatesNotification.ShowUpdateNotification) calls String.PadRight with a negative width (-17) and the process fails fast. This probably happens when the window is very narrow, so that the notification banner is wider than the window. Past tickets with a similar 'Process terminated' / exit code 0x80131623 look different. #16301 was an env-var bug in Terminal, fixed in 1.19.10302.0, and #6428 was a different PowerShell crash on Ctrl+C in Write-Progress, which was a duplicate of a PowerShell issue. As workarounds, make the Terminal window or initial column count wider, or turn off the update check by setting the environment variable POWERSHELL_UPDATECHECK=Off. Update PowerShell to the latest release. If it still crashes, report it in the PowerShell repo (PowerShell/PowerShell) with the stack trace and your window size.\"}",
+  "ttft_ms": 4318,
+  "type": "result",
+  "duration_ms": 4341,
+  "uuid": "b2480670-de98-4d28-8e68-174f1b00831e",
+  "ttft_stream_ms": 1468,
+  "time_to_request_ms": 234,
+  "first_content_frame_ms": 1468,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 368,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 11923,
+    "webSearchRequests": 0,
+    "costUSD": 0.051376,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11923,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 5.334669675998157,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-gjqpzmf6/work"
+  }
+ },
+ "wall_seconds": 5.752716123999562,
+ "qid": "terminal#20836",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "No past ticket reports this exact problem. The crash is inside PowerShell 7 itself, not Windows Terminal: PowerShell's update-notification code (UpdatesNotification.ShowUpdateNotification) calls String.PadRight with a negative width (-17) and the process fails fast. This probably happens when the window is very narrow, so that the notification banner is wider than the window. Past tickets with a similar 'Process terminated' / exit code 0x80131623 look different. #16301 was an env-var bug in Terminal, fixed in 1.19.10302.0, and #6428 was a different PowerShell crash on Ctrl+C in Write-Progress, which was a duplicate of a PowerShell issue. As workarounds, make the Terminal window or initial column count wider, or turn off the update check by setting the environment variable POWERSHELL_UPDATECHECK=Off. Update PowerShell to the latest release. If it still crashes, report it in the PowerShell repo (PowerShell/PowerShell) with the stack trace and your window size."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,291 @@
+{
+ "shown": [
+  "PowerToys#13498",
+  "PowerToys#1392",
+  "PowerToys#13993",
+  "PowerToys#1528",
+  "PowerToys#1580",
+  "PowerToys#21031",
+  "PowerToys#22403",
+  "PowerToys#23042",
+  "PowerToys#23532",
+  "PowerToys#243",
+  "PowerToys#34340",
+  "PowerToys#34916",
+  "PowerToys#35439",
+  "PowerToys#42748",
+  "PowerToys#45863",
+  "PowerToys#47755",
+  "PowerToys#704",
+  "PowerToys#7786",
+  "PowerToys#8923",
+  "PowerToys#977"
+ ],
+ "retrieval_seconds": 0.09946557597140782,
+ "tool_calls": [
+  {
+   "t": 1794884956.5221548,
+   "tool": "search",
+   "args": {
+    "pattern": "Fences",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05618390897870995,
+   "returned": [
+    "PowerToys#1392",
+    "PowerToys#1528",
+    "PowerToys#23532",
+    "PowerToys#42748",
+    "PowerToys#23042",
+    "PowerToys#21031",
+    "PowerToys#704",
+    "PowerToys#47755",
+    "PowerToys#35439",
+    "PowerToys#34916",
+    "PowerToys#34340",
+    "PowerToys#22403",
+    "PowerToys#13993",
+    "PowerToys#13498",
+    "PowerToys#8923",
+    "PowerToys#7786",
+    "PowerToys#1580",
+    "PowerToys#977",
+    "PowerToys#243",
+    "PowerToys#45863"
+   ]
+  },
+  {
+   "t": 1794884956.9237225,
+   "tool": "search",
+   "args": {
+    "pattern": "desktop icons group",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.042783470009453595,
+   "returned": []
+  },
+  {
+   "t": 1794884958.40566,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1392"
+   },
+   "seconds": 0.0002482639974914491,
+   "returned": [
+    "PowerToys#1392"
+   ]
+  },
+  {
+   "t": 1794884958.5025802,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42748"
+   },
+   "seconds": 0.00014244599151425064,
+   "returned": [
+    "PowerToys#42748"
+   ]
+  },
+  {
+   "t": 1794884959.2577147,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47755"
+   },
+   "seconds": 0.00010748699423857033,
+   "returned": [
+    "PowerToys#47755"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 6023,
+  "stop_reason": "end_turn",
+  "session_id": "8ee402a8-37fb-48fd-89b2-fd36b02ce022",
+  "total_cost_usd": 0.0391373,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 7854,
+   "cache_read_input_tokens": 16753,
+   "output_tokens": 603,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7854,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 248,
+     "cache_read_input_tokens": 8417,
+     "cache_creation_input_tokens": 614,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 614
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 603,
+    "cacheReadInputTokens": 16753,
+    "cacheCreationInputTokens": 7854,
+    "webSearchRequests": 0,
+    "costUSD": 0.0391373,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7854,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "```json\n{\"seen_before\": true, \"matches\": [\"PowerToys#1392\", \"PowerToys#42748\", \"PowerToys#47755\"], \"answer\": \"This feature request has been filed before. The main ticket is PowerToys#1392, \\\"Desktop Icon Zones with headers for organization (aka fences)\\\". Maintainers closed #42748 and #47755 as duplicates of it. PowerToys has no Fences-style desktop icon grouping yet, so there is nothing to enable. Add your vote and your points to #1392. Those points are fences that auto-align and resize with screen resolution, and the pricing of the alternatives. In the meantime, people in that thread use third-party tools such as Portals, which is free and open source, or Tiels.\"}\n```",
+  "ttft_ms": 931,
+  "type": "result",
+  "duration_ms": 6129,
+  "uuid": "2c1c386d-bc4a-4cd7-8391-a206c607274e",
+  "ttft_stream_ms": 578,
+  "time_to_request_ms": 48,
+  "first_content_frame_ms": 578,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 603,
+    "cacheReadInputTokens": 16753,
+    "cacheCreationInputTokens": 7854,
+    "webSearchRequests": 0,
+    "costUSD": 0.0391373,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7854,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 7.608031147014117,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-8j4ekr6o/work"
+  }
+ },
+ "wall_seconds": 7.609692582977004,
+ "qid": "PowerToys#51793",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#1392",
+   "PowerToys#42748",
+   "PowerToys#47755"
+  ],
+  "answer": "This feature request has been filed before. The main ticket is PowerToys#1392, \"Desktop Icon Zones with headers for organization (aka fences)\". Maintainers closed #42748 and #47755 as duplicates of it. PowerToys has no Fences-style desktop icon grouping yet, so there is nothing to enable. Add your vote and your points to #1392. Those points are fences that auto-align and resize with screen resolution, and the pricing of the alternatives. In the meantime, people in that thread use third-party tools such as Portals, which is free and open source, or Tiels."
+ },
+ "hit_turn_cap": false
+}

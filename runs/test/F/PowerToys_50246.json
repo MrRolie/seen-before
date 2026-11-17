@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#45447",
+  "PowerToys#44876",
+  "PowerToys#36451",
+  "PowerToys#45730",
+  "PowerToys#47689"
+ ],
+ "retrieval_seconds": 0.3948974469967652,
+ "retrieval_scores": [
+  0.030886196246139225,
+  0.030798389007344232,
+  0.02967032967032967,
+  0.027809742999616416,
+  0.026494565217391304
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3938,
+  "stop_reason": "end_turn",
+  "session_id": "c58f6180-1470-4a88-ad7d-6d3b2e3efc71",
+  "total_cost_usd": 0.06304,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 14939,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 328,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 14939,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 328,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 14939,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 14939
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 328,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 14939,
+    "webSearchRequests": 0,
+    "costUSD": 0.06304,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14939,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#44876\", \"PowerToys#45730\", \"PowerToys#36451\"], \"answer\": \"This crash has been reported before. It is the PowerToys Run 'Cyclic reference found while evaluating the Style property' exception, raised from ThemeManager.OnSystemThemeChanged when Windows changes the system theme. Your trace, which names the ListView with Items.Count:15, matches #44876 and #45730 exactly. The earlier tickets #45730, #45447 and #47689 were closed as duplicates of #36451, which is the main ticket tracking this problem. The tickets I was shown contain no fix or workaround, so I can't point you to one. The dialog appears to come from WPF's theme-change handling, not from anything you did. You can dismiss it and restart PowerToys Run if it stops responding. To follow progress, subscribe to #36451 and add your version (0.100.2.0, Windows 10 build 19045) there.\"}",
+  "ttft_ms": 4070,
+  "type": "result",
+  "duration_ms": 4093,
+  "uuid": "2dc6ca0d-b91b-45b5-b64e-0711744ff794",
+  "ttft_stream_ms": 1343,
+  "time_to_request_ms": 154,
+  "first_content_frame_ms": 1343,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 328,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 14939,
+    "webSearchRequests": 0,
+    "costUSD": 0.06304,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14939,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.91102509299526,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-tluyg9fv/work"
+  }
+ },
+ "wall_seconds": 5.307420241006184,
+ "qid": "PowerToys#50246",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#44876",
+   "PowerToys#45730",
+   "PowerToys#36451"
+  ],
+  "answer": "This crash has been reported before. It is the PowerToys Run 'Cyclic reference found while evaluating the Style property' exception, raised from ThemeManager.OnSystemThemeChanged when Windows changes the system theme. Your trace, which names the ListView with Items.Count:15, matches #44876 and #45730 exactly. The earlier tickets #45730, #45447 and #47689 were closed as duplicates of #36451, which is the main ticket tracking this problem. The tickets I was shown contain no fix or workaround, so I can't point you to one. The dialog appears to come from WPF's theme-change handling, not from anything you did. You can dismiss it and restart PowerToys Run if it stops responding. To follow progress, subscribe to #36451 and add your version (0.100.2.0, Windows 10 build 19045) there."
+ },
+ "hit_turn_cap": false
+}

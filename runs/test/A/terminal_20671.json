@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "terminal#1833",
+  "terminal#1704",
+  "terminal#1664",
+  "terminal#6225",
+  "terminal#8987"
+ ],
+ "retrieval_seconds": 0.014898389985319227,
+ "retrieval_scores": [
+  0.7033113241195679,
+  0.6963399648666382,
+  0.6779792308807373,
+  0.6639737486839294,
+  0.6570681929588318
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 4095,
+  "stop_reason": "end_turn",
+  "session_id": "9156f4c5-e65b-44d2-a4bf-a1471cf9d1c3",
+  "total_cost_usd": 0.01979,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4274,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 269,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4274,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 269,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4274,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4274
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 269,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4274,
+    "webSearchRequests": 0,
+    "costUSD": 0.01979,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4274,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"No past ticket reports this exact problem. The older tickets (terminal#1833, terminal#1704, terminal#1664, terminal#6225) describe the Settings command doing nothing because no default app was associated with .json files. That fix applied to the old JSON settings file and does not apply to your report. Your report is about the Settings UI tab failing to open on a build from the current git branch, and you traced it to commit 58c0db9 (Add expander groups to settings UI, #20200). Terminal#8987 is also a different problem, since it covers keybindings not working while the Settings UI tab is already open. Please keep this ticket open as a new regression report and include the commit hash you identified. If you are building from source, you can check whether reverting that commit makes the Settings tab open again.\"}",
+  "ttft_ms": 4276,
+  "type": "result",
+  "duration_ms": 4294,
+  "uuid": "3980fc6e-ccab-4482-9a00-f862955da25e",
+  "ttft_stream_ms": 1725,
+  "time_to_request_ms": 198,
+  "first_content_frame_ms": 1725,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 269,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4274,
+    "webSearchRequests": 0,
+    "costUSD": 0.01979,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4274,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 5.063345122005558,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-9s3bev67/work"
+  }
+ },
+ "wall_seconds": 5.080123181978706,
+ "qid": "terminal#20671",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "No past ticket reports this exact problem. The older tickets (terminal#1833, terminal#1704, terminal#1664, terminal#6225) describe the Settings command doing nothing because no default app was associated with .json files. That fix applied to the old JSON settings file and does not apply to your report. Your report is about the Settings UI tab failing to open on a build from the current git branch, and you traced it to commit 58c0db9 (Add expander groups to settings UI, #20200). Terminal#8987 is also a different problem, since it covers keybindings not working while the Settings UI tab is already open. Please keep this ticket open as a new regression report and include the commit hash you identified. If you are building from source, you can check whether reverting that commit makes the Settings tab open again."
+ },
+ "hit_turn_cap": false
+}

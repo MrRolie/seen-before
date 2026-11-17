@@ -1,0 +1,351 @@
+{
+ "shown": [
+  "terminal#10453",
+  "terminal#10761",
+  "terminal#11464",
+  "terminal#12384",
+  "terminal#12474",
+  "terminal#12564",
+  "terminal#12887",
+  "terminal#12961",
+  "terminal#13630",
+  "terminal#13673",
+  "terminal#14469",
+  "terminal#146",
+  "terminal#14820",
+  "terminal#15958",
+  "terminal#171",
+  "terminal#1716",
+  "terminal#18017",
+  "terminal#2132",
+  "terminal#217",
+  "terminal#2567",
+  "terminal#4110",
+  "terminal#4448",
+  "terminal#5174",
+  "terminal#579",
+  "terminal#6254",
+  "terminal#7294",
+  "terminal#7965",
+  "terminal#8761",
+  "terminal#8802",
+  "terminal#9479"
+ ],
+ "retrieval_seconds": 3.5825737550330814,
+ "tool_calls": [
+  {
+   "t": 1794882849.5315113,
+   "tool": "search",
+   "args": {
+    "pattern": "Launch at login",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.02079915499780327,
+   "returned": []
+  },
+  {
+   "t": 1794882852.9715722,
+   "tool": "similar",
+   "args": {
+    "query": "Launch at login setting disabled by OS startup setting doesn't show reason in Startup page",
+    "repo": "terminal"
+   },
+   "seconds": 3.4278472989972215,
+   "returned": [
+    "terminal#10761",
+    "terminal#13630",
+    "terminal#14820",
+    "terminal#12564",
+    "terminal#12887",
+    "terminal#7294",
+    "terminal#8802",
+    "terminal#1716",
+    "terminal#10453",
+    "terminal#8761",
+    "terminal#18017",
+    "terminal#14469",
+    "terminal#11464",
+    "terminal#2132",
+    "terminal#5174",
+    "terminal#579",
+    "terminal#2567",
+    "terminal#7965",
+    "terminal#4110",
+    "terminal#12384"
+   ]
+  },
+  {
+   "t": 1794882854.5763671,
+   "tool": "search",
+   "args": {
+    "pattern": "#20200",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.023321729007875547,
+   "returned": []
+  },
+  {
+   "t": 1794882858.184766,
+   "tool": "search",
+   "args": {
+    "pattern": "startup",
+    "regex": false,
+    "also": [
+     "disabled by"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.037847188010346144,
+   "returned": [
+    "terminal#146",
+    "terminal#4448",
+    "terminal#217",
+    "terminal#15958",
+    "terminal#12961",
+    "terminal#12474",
+    "terminal#9479",
+    "terminal#171"
+   ]
+  },
+  {
+   "t": 1794882859.70187,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#12564"
+   },
+   "seconds": 0.00016694600344635546,
+   "returned": [
+    "terminal#12564"
+   ]
+  },
+  {
+   "t": 1794882861.581676,
+   "tool": "search",
+   "args": {
+    "pattern": "disabled by policy",
+    "regex": false,
+    "also": [
+     "Startup"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.025014775019371882,
+   "returned": []
+  },
+  {
+   "t": 1794882863.1532514,
+   "tool": "search",
+   "args": {
+    "pattern": "StartupTaskState",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.04727992101106793,
+   "returned": [
+    "terminal#6254",
+    "terminal#13673",
+    "terminal#12564",
+    "terminal#12384"
+   ]
+  },
+  {
+   "t": 1794882864.538294,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#6254"
+   },
+   "seconds": 0.00029674198594875634,
+   "returned": [
+    "terminal#6254"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 17164,
+  "stop_reason": "end_turn",
+  "session_id": "f773ae3f-a15e-462d-a5aa-68f6e8d3fabf",
+  "total_cost_usd": 0.0416241,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 6638,
+   "cache_read_input_tokens": 40461,
+   "output_tokens": 1099,
+   "output_tokens_details": {
+    "thinking_tokens": 54
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6638,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 301,
+     "cache_read_input_tokens": 7701,
+     "cache_creation_input_tokens": 350,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 350
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1099,
+    "cacheReadInputTokens": 40461,
+    "cacheCreationInputTokens": 6638,
+    "webSearchRequests": 0,
+    "costUSD": 0.0416241,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 54,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6638,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this exact problem. That is, the Startup page's \\\"Launch at login\\\" toggle is disabled by the OS setting but shows no reason, which is a regression from PR #20200. Two older tickets are related but don't match. terminal#6254 is an old request to show UX for the different StartupTaskState values, mainly DisabledByUser. terminal#12564 is about backing the setting with the OS startup state. For now, check Windows Settings > Apps > Startup and re-enable Terminal there. That should let you toggle the setting again. The ticket should stay open as a new bug. The localized reason text already exists, so the fix is probably to hook it back up in the Startup page.\"}",
+  "ttft_ms": 2275,
+  "type": "result",
+  "duration_ms": 20849,
+  "uuid": "f0ae754c-6a30-4715-934a-fe37086685c9",
+  "ttft_stream_ms": 1336,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 1336,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1099,
+    "cacheReadInputTokens": 40461,
+    "cacheCreationInputTokens": 6638,
+    "webSearchRequests": 0,
+    "costUSD": 0.0416241,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 54,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6638,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 22.151084671000717,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-g_ndwp7t/work"
+  }
+ },
+ "wall_seconds": 22.153661783988355,
+ "qid": "terminal#20685",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this exact problem. That is, the Startup page's \"Launch at login\" toggle is disabled by the OS setting but shows no reason, which is a regression from PR #20200. Two older tickets are related but don't match. terminal#6254 is an old request to show UX for the different StartupTaskState values, mainly DisabledByUser. terminal#12564 is about backing the setting with the OS startup state. For now, check Windows Settings > Apps > Startup and re-enable Terminal there. That should let you toggle the setting again. The ticket should stay open as a new bug. The localized reason text already exists, so the fix is probably to hook it back up in the Startup page."
+ },
+ "hit_turn_cap": false
+}

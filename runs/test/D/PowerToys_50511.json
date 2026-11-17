@@ -1,0 +1,318 @@
+{
+ "shown": [
+  "PowerToys#10384",
+  "PowerToys#10800",
+  "PowerToys#1086",
+  "PowerToys#11239",
+  "PowerToys#11459",
+  "PowerToys#11882",
+  "PowerToys#13014",
+  "PowerToys#13035",
+  "PowerToys#1864",
+  "PowerToys#2452",
+  "PowerToys#2911",
+  "PowerToys#34459",
+  "PowerToys#34950",
+  "PowerToys#3684",
+  "PowerToys#4295",
+  "PowerToys#46333",
+  "PowerToys#46334",
+  "PowerToys#4662",
+  "PowerToys#48566",
+  "PowerToys#6765",
+  "PowerToys#7626",
+  "PowerToys#9171",
+  "PowerToys#9733"
+ ],
+ "retrieval_seconds": 3.8035041430557612,
+ "tool_calls": [
+  {
+   "t": 1794882505.1639686,
+   "tool": "similar",
+   "args": {
+    "query": "exclude apps/windows from screen sharing to hide sensitive data (Teams, Outlook)",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.7308327039936557,
+   "returned": [
+    "PowerToys#48566",
+    "PowerToys#11882",
+    "PowerToys#10800",
+    "PowerToys#4295",
+    "PowerToys#9171",
+    "PowerToys#9733",
+    "PowerToys#4662",
+    "PowerToys#6765",
+    "PowerToys#11239",
+    "PowerToys#13014",
+    "PowerToys#10384",
+    "PowerToys#3684",
+    "PowerToys#46334",
+    "PowerToys#2911",
+    "PowerToys#2452",
+    "PowerToys#7626",
+    "PowerToys#11459",
+    "PowerToys#1864",
+    "PowerToys#1086",
+    "PowerToys#34459"
+   ]
+  },
+  {
+   "t": 1794882506.6776128,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48566"
+   },
+   "seconds": 0.00012301700189709663,
+   "returned": [
+    "PowerToys#48566"
+   ]
+  },
+  {
+   "t": 1794882506.829488,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34459"
+   },
+   "seconds": 0.00011179700959473848,
+   "returned": [
+    "PowerToys#34459"
+   ]
+  },
+  {
+   "t": 1794882508.5309348,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46333"
+   },
+   "seconds": 0.0001549860171508044,
+   "returned": [
+    "PowerToys#46333"
+   ]
+  },
+  {
+   "t": 1794882508.695298,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#13035"
+   },
+   "seconds": 0.0001688850170467049,
+   "returned": [
+    "PowerToys#13035"
+   ]
+  },
+  {
+   "t": 1794882510.447734,
+   "tool": "search",
+   "args": {
+    "pattern": "WDA_EXCLUDEFROMCAPTURE",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07201795701985247,
+   "returned": [
+    "PowerToys#48566",
+    "PowerToys#34950"
+   ]
+  },
+  {
+   "t": 1794882511.7731493,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#34950"
+   },
+   "seconds": 9.479699656367302e-05,
+   "returned": [
+    "PowerToys#34950"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 14136,
+  "stop_reason": "end_turn",
+  "session_id": "ed53d957-ecf9-4fcd-85cb-bc59288ed678",
+  "total_cost_usd": 0.062388799999999994,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 11678,
+   "cache_read_input_tokens": 48788,
+   "output_tokens": 1077,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11678,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 341,
+     "cache_read_input_tokens": 12889,
+     "cache_creation_input_tokens": 202,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 202
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1077,
+    "cacheReadInputTokens": 48788,
+    "cacheCreationInputTokens": 11678,
+    "webSearchRequests": 0,
+    "costUSD": 0.062388799999999994,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11678,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Good enough.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#46333\", \"PowerToys#48566\", \"PowerToys#34950\"], \"answer\": \"This feature request has been made before. The main tracking issue is PowerToys#46333 (Privacy Overlay). It proposes a way to exclude chosen windows from screen sharing, recording and screenshots, using a hotkey like Always on Top. #48566 was closed as a duplicate of #46333. #34950 (Window Masking) asks for the same thing and was closed against #13035, even though a commenter pointed out that #13035 is a different feature. No PowerToys utility does this yet. Subscribe to #46333 and add your use case there (permanently excluding Outlook and Teams windows). Until a feature ships, share a single window or app instead of the whole screen in Teams, or close sensitive apps before you share. A proof of concept exists in #46333 that uses SetWindowDisplayAffinity with WDA_EXCLUDEFROMCAPTURE.\"}",
+  "ttft_ms": 2337,
+  "type": "result",
+  "duration_ms": 18058,
+  "uuid": "d3d4991e-6176-4a08-8dd6-7854b3f68379",
+  "ttft_stream_ms": 1291,
+  "time_to_request_ms": 49,
+  "first_content_frame_ms": 1291,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1077,
+    "cacheReadInputTokens": 48788,
+    "cacheCreationInputTokens": 11678,
+    "webSearchRequests": 0,
+    "costUSD": 0.062388799999999994,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11678,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 19.519918434001738,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-u4h7iju6/work"
+  }
+ },
+ "wall_seconds": 19.522354201995768,
+ "qid": "PowerToys#50511",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46333",
+   "PowerToys#48566",
+   "PowerToys#34950"
+  ],
+  "answer": "This feature request has been made before. The main tracking issue is PowerToys#46333 (Privacy Overlay). It proposes a way to exclude chosen windows from screen sharing, recording and screenshots, using a hotkey like Always on Top. #48566 was closed as a duplicate of #46333. #34950 (Window Masking) asks for the same thing and was closed against #13035, even though a commenter pointed out that #13035 is a different feature. No PowerToys utility does this yet. Subscribe to #46333 and add your use case there (permanently excluding Outlook and Teams windows). Until a feature ships, share a single window or app instead of the whole screen in Teams, or close sensitive apps before you share. A proof of concept exists in #46333 that uses SetWindowDisplayAffinity with WDA_EXCLUDEFROMCAPTURE."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,194 @@
+{
+ "shown": [
+  "PowerToys#44397",
+  "PowerToys#49010",
+  "PowerToys#30998",
+  "PowerToys#11740",
+  "PowerToys#24273"
+ ],
+ "retrieval_seconds": 0.015389698004582897,
+ "retrieval_scores": [
+  0.6572549343109131,
+  0.6350305676460266,
+  0.6145746111869812,
+  0.6118941307067871,
+  0.6107569932937622
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3661,
+  "stop_reason": "end_turn",
+  "session_id": "2cfd4d64-59a2-4507-8150-c76b0c6c438b",
+  "total_cost_usd": 0.017698,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3611,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 325,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3611,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 325,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3611,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3611
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 325,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3611,
+    "webSearchRequests": 0,
+    "costUSD": 0.017698,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3611,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#11740\", \"PowerToys#44397\"], \"answer\": \"This has been requested before, and there is no automatic feature for it yet. The earlier tickets ask for the same kind of thing: PowerToys#11740 asks for a RAM limiter that turns off features, and PowerToys#44397 asks for utilities that load only on demand and unload after inactivity. Your request to detect full-screen apps or heavy loads and auto-disable modules is not an exact duplicate of either, but it addresses the same concern of lowering PowerToys' background resource use. In the meantime, open PowerToys Settings and turn off the modules you don't use, since the maintainers recommended this in #11740. For PowerToys Run, disable the plugins you don't need to reduce its memory footprint. If you want a specific measurable scenario addressed, add your gaming/full-screen details to those tickets, because the maintainers said vague performance requests are hard to act on.\"}",
+  "ttft_ms": 3811,
+  "type": "result",
+  "duration_ms": 3826,
+  "uuid": "a81b9adc-638b-446e-adf2-b04c7d4faf84",
+  "ttft_stream_ms": 1260,
+  "time_to_request_ms": 163,
+  "first_content_frame_ms": 1260,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 325,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3611,
+    "webSearchRequests": 0,
+    "costUSD": 0.017698,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3611,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.6124525780032855,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-rjo0ug5o/work"
+  }
+ },
+ "wall_seconds": 4.629469109990168,
+ "qid": "PowerToys#49630",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#11740",
+   "PowerToys#44397"
+  ],
+  "answer": "This has been requested before, and there is no automatic feature for it yet. The earlier tickets ask for the same kind of thing: PowerToys#11740 asks for a RAM limiter that turns off features, and PowerToys#44397 asks for utilities that load only on demand and unload after inactivity. Your request to detect full-screen apps or heavy loads and auto-disable modules is not an exact duplicate of either, but it addresses the same concern of lowering PowerToys' background resource use. In the meantime, open PowerToys Settings and turn off the modules you don't use, since the maintainers recommended this in #11740. For PowerToys Run, disable the plugins you don't need to reduce its memory footprint. If you want a specific measurable scenario addressed, add your gaming/full-screen details to those tickets, because the maintainers said vague performance requests are hard to act on."
+ },
+ "hit_turn_cap": false
+}

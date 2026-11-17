@@ -1,0 +1,194 @@
+{
+ "shown": [
+  "terminal#7039",
+  "PowerToys#42346",
+  "PowerToys#38593",
+  "PowerToys#43825",
+  "PowerToys#48381"
+ ],
+ "retrieval_seconds": 0.6521288560179528,
+ "retrieval_scores": [
+  0.03125763125763126,
+  0.030834914611005692,
+  0.029857397504456328,
+  0.027271052146674038,
+  0.027046783625730993
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2395,
+  "stop_reason": "end_turn",
+  "session_id": "8f1eef29-1fe0-4359-afc7-9537043e4bdf",
+  "total_cost_usd": 0.019204,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 4195,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 242,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4195,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 242,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 4195,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4195
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 242,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4195,
+    "webSearchRequests": 0,
+    "costUSD": 0.019204,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4195,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#38593\", \"PowerToys#42346\"], \"answer\": \"This request has been filed before. PowerToys#38593 asks for an option to use English system command names regardless of system locale, as PowerToys Run offered. PowerToys#42346, which asks for English keywords for Windows Settings in Command Palette, was closed as a duplicate of #38593. There is no workaround in those tickets and no confirmation that the feature has shipped, so please follow #38593 and add a thumbs-up or any extra detail there, such as your Japanese locale scenario and the request to match English keywords alongside the localized names. Until then, you need to type the localized names, for example 再起動, to find System Commands.\"}",
+  "ttft_ms": 2598,
+  "type": "result",
+  "duration_ms": 2615,
+  "uuid": "6a09d046-2a4c-4d3e-b1db-786b52ccd118",
+  "ttft_stream_ms": 990,
+  "time_to_request_ms": 220,
+  "first_content_frame_ms": 990,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 242,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 4195,
+    "webSearchRequests": 0,
+    "costUSD": 0.019204,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4195,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.7776626819977537,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ydd1qxt9/work"
+  }
+ },
+ "wall_seconds": 4.432017059007194,
+ "qid": "PowerToys#49132",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#38593",
+   "PowerToys#42346"
+  ],
+  "answer": "This request has been filed before. PowerToys#38593 asks for an option to use English system command names regardless of system locale, as PowerToys Run offered. PowerToys#42346, which asks for English keywords for Windows Settings in Command Palette, was closed as a duplicate of #38593. There is no workaround in those tickets and no confirmation that the feature has shipped, so please follow #38593 and add a thumbs-up or any extra detail there, such as your Japanese locale scenario and the request to match English keywords alongside the localized names. Until then, you need to type the localized names, for example 再起動, to find System Commands."
+ },
+ "hit_turn_cap": false
+}

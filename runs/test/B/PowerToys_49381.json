@@ -1,0 +1,333 @@
+{
+ "shown": [
+  "PowerToys#1331",
+  "PowerToys#1352",
+  "PowerToys#14394",
+  "PowerToys#15628",
+  "PowerToys#1988",
+  "PowerToys#20207",
+  "PowerToys#22942",
+  "PowerToys#24219",
+  "PowerToys#25008",
+  "PowerToys#26056",
+  "PowerToys#28281",
+  "PowerToys#28840",
+  "PowerToys#31226",
+  "PowerToys#36221",
+  "PowerToys#41696",
+  "PowerToys#42263",
+  "PowerToys#42436",
+  "PowerToys#42596",
+  "PowerToys#42776",
+  "PowerToys#42984",
+  "PowerToys#43113",
+  "PowerToys#43155",
+  "PowerToys#43434",
+  "PowerToys#43812",
+  "PowerToys#45879",
+  "PowerToys#45977",
+  "PowerToys#46461",
+  "PowerToys#46823",
+  "PowerToys#47666",
+  "PowerToys#47986",
+  "PowerToys#48586",
+  "PowerToys#48705",
+  "PowerToys#48862",
+  "PowerToys#48894",
+  "PowerToys#97",
+  "WSL#7243",
+  "terminal#15837"
+ ],
+ "retrieval_seconds": 0.19226767000509426,
+ "tool_calls": [
+  {
+   "t": 1794878267.8318386,
+   "tool": "search",
+   "args": {
+    "pattern": "wallpaper",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.07064252498093992,
+   "returned": [
+    "PowerToys#46823",
+    "PowerToys#15628",
+    "PowerToys#1331",
+    "PowerToys#43113",
+    "PowerToys#42776",
+    "PowerToys#97",
+    "PowerToys#48586",
+    "PowerToys#46461",
+    "PowerToys#43155",
+    "PowerToys#1988",
+    "PowerToys#1352",
+    "PowerToys#43812",
+    "PowerToys#42596",
+    "PowerToys#42436",
+    "PowerToys#14394",
+    "PowerToys#48894",
+    "PowerToys#48862",
+    "PowerToys#48705",
+    "PowerToys#47986",
+    "PowerToys#47666"
+   ]
+  },
+  {
+   "t": 1794878268.0276523,
+   "tool": "search",
+   "args": {
+    "pattern": "slideshow",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06707081600325182,
+   "returned": [
+    "PowerToys#48862",
+    "PowerToys#36221",
+    "PowerToys#46823",
+    "PowerToys#15628",
+    "PowerToys#42984",
+    "PowerToys#28281",
+    "PowerToys#45879",
+    "PowerToys#42263",
+    "PowerToys#31226",
+    "PowerToys#25008",
+    "WSL#7243",
+    "PowerToys#47666",
+    "PowerToys#45977",
+    "PowerToys#41696",
+    "PowerToys#28840",
+    "PowerToys#26056",
+    "PowerToys#24219",
+    "PowerToys#22942",
+    "PowerToys#20207",
+    "terminal#15837"
+   ]
+  },
+  {
+   "t": 1794878268.9682322,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48862"
+   },
+   "seconds": 0.00014590600039809942,
+   "returned": [
+    "PowerToys#48862"
+   ]
+  },
+  {
+   "t": 1794878269.1161234,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#36221"
+   },
+   "seconds": 0.00013402701006270945,
+   "returned": [
+    "PowerToys#36221"
+   ]
+  },
+  {
+   "t": 1794878269.999186,
+   "tool": "search",
+   "args": {
+    "pattern": "next desktop background",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.054274396010441706,
+   "returned": [
+    "PowerToys#48862",
+    "PowerToys#43434",
+    "PowerToys#36221"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 5210,
+  "stop_reason": "end_turn",
+  "session_id": "dc1ae87d-dd78-44ce-9c69-82a8910b44e6",
+  "total_cost_usd": 0.050403699999999996,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 10624,
+   "cache_read_input_tokens": 23717,
+   "output_tokens": 552,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10624,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 237,
+     "cache_read_input_tokens": 11276,
+     "cache_creation_input_tokens": 525,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 525
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 552,
+    "cacheReadInputTokens": 23717,
+    "cacheCreationInputTokens": 10624,
+    "webSearchRequests": 0,
+    "costUSD": 0.050403699999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10624,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48862\", \"PowerToys#36221\"], \"answer\": \"This has been requested before. PowerToys#48862 asks for a configurable hotkey that advances the wallpaper slideshow, using the Windows IDesktopWallpaper::AdvanceSlideshow API. PowerToys#36221 is the older, broader Desktop Background Manager request, which includes a shortcut to cycle to the next image. Neither ticket says the feature has been implemented, so PowerToys has no such hotkey yet. For now, use the right-click desktop menu's \\\"Next desktop background\\\" item. You can follow or upvote those tickets to show interest, and add your use case there.\"}",
+  "ttft_ms": 1025,
+  "type": "result",
+  "duration_ms": 5406,
+  "uuid": "f03fe01a-bfe1-4fdb-bb8b-fe75194857af",
+  "ttft_stream_ms": 704,
+  "time_to_request_ms": 33,
+  "first_content_frame_ms": 704,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 552,
+    "cacheReadInputTokens": 23717,
+    "cacheCreationInputTokens": 10624,
+    "webSearchRequests": 0,
+    "costUSD": 0.050403699999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10624,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 7.100091814005282,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-xab2fn7n/work"
+  }
+ },
+ "wall_seconds": 7.1016436539939605,
+ "qid": "PowerToys#49381",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48862",
+   "PowerToys#36221"
+  ],
+  "answer": "This has been requested before. PowerToys#48862 asks for a configurable hotkey that advances the wallpaper slideshow, using the Windows IDesktopWallpaper::AdvanceSlideshow API. PowerToys#36221 is the older, broader Desktop Background Manager request, which includes a shortcut to cycle to the next image. Neither ticket says the feature has been implemented, so PowerToys has no such hotkey yet. For now, use the right-click desktop menu's \"Next desktop background\" item. You can follow or upvote those tickets to show interest, and add your use case there."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,123 @@
+{
+ "1_without_questions_changed_by_others": {
+  "dropped_seen": 4,
+  "B_minus_A_hit1": {
+   "n": 120,
+   "diff": 0.108,
+   "ci95": [
+    0.025,
+    0.192
+   ],
+   "b_only": 21,
+   "a_only": 8,
+   "verdict": "HOLDS"
+  }
+ },
+ "2_dropped_citations": {
+  "A": {
+   "answers_with_a_dropped_citation": 0,
+   "examples": []
+  },
+  "B": {
+   "answers_with_a_dropped_citation": 0,
+   "examples": []
+  },
+  "C": {
+   "answers_with_a_dropped_citation": 0,
+   "examples": []
+  },
+  "D": {
+   "answers_with_a_dropped_citation": 0,
+   "examples": []
+  },
+  "F": {
+   "answers_with_a_dropped_citation": 0,
+   "examples": []
+  }
+ },
+ "2_parse_failures": {
+  "A": [],
+  "B": [
+   {
+    "qid": "PowerToys#50246",
+    "subtype": "success",
+    "turns": 11,
+    "result_tail": "gs, or by restarting PowerToys.\n  - Add your version (0.100.2.0, Windows 10 build 19045) and what you were doing at the time to #36451.\n  - Tell them whether a theme or accent change, an automatic dark/light switch, or waking from sleep happened just before. The maintainers asked for this in #47501."
+   },
+   {
+    "qid": "PowerToys#51155",
+    "subtype": "success",
+    "turns": 15,
+    "result_tail": " populated after a reset.\n4. Keep your bug report ZIP on the ticket. Look in the runner log for \"malformed JSON\" errors or an `apply_general_settings` line at the moment the modules flip back on.\n5. Back up your PowerToys settings from the Settings app, so you can restore them quickly after a reset."
+   }
+  ],
+  "C": [],
+  "D": [],
+  "F": []
+ },
+ "3_cluster_bootstrap_B_minus_A_hit1": {
+  "clusters": 101,
+  "ci95": [
+   0.016,
+   0.183
+  ]
+ },
+ "4_answer_set_sizes": {
+  "cluster_median": 3.0,
+  "cluster_max": 1241,
+  "narrow_median": 3.0,
+  "questions_with_empty_narrow_set": 0
+ },
+ "4_direct_link_scoring": {
+  "n": 124,
+  "hit1": {
+   "A": 59,
+   "B": 71,
+   "C": 74,
+   "D": 74,
+   "F": 66
+  },
+  "B_minus_A": {
+   "n": 124,
+   "diff": 0.097,
+   "ci95": [
+    0.016,
+    0.185
+   ],
+   "b_only": 21,
+   "a_only": 9,
+   "verdict": "HOLDS"
+  }
+ },
+ "5_without_bot_suggested_questions": {
+  "dropped": 30,
+  "repos": [
+   "PowerToys"
+  ],
+  "hit1": {
+   "A": 46,
+   "B": 54,
+   "C": 60,
+   "D": 59,
+   "F": 52
+  },
+  "hit1_on_dropped": {
+   "A": 13,
+   "B": 17,
+   "C": 14,
+   "D": 15,
+   "F": 15
+  },
+  "B_minus_A_hit1": {
+   "n": 94,
+   "diff": 0.085,
+   "ci95": [
+    -0.011,
+    0.181
+   ],
+   "b_only": 15,
+   "a_only": 7,
+   "verdict": "NOT SHOWN"
+  }
+ }
+}

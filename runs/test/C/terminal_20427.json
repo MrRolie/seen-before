@@ -1,0 +1,399 @@
+{
+ "shown": [
+  "terminal#10386",
+  "terminal#11135",
+  "terminal#11354",
+  "terminal#11385",
+  "terminal#11424",
+  "terminal#11823",
+  "terminal#12311",
+  "terminal#1281",
+  "terminal#13296",
+  "terminal#1380",
+  "terminal#14131",
+  "terminal#14440",
+  "terminal#1445",
+  "terminal#14499",
+  "terminal#14602",
+  "terminal#1498",
+  "terminal#15209",
+  "terminal#15238",
+  "terminal#15301",
+  "terminal#1583",
+  "terminal#15936",
+  "terminal#1609",
+  "terminal#16503",
+  "terminal#16612",
+  "terminal#16859",
+  "terminal#16995",
+  "terminal#17487",
+  "terminal#17734",
+  "terminal#1810",
+  "terminal#18254",
+  "terminal#18751",
+  "terminal#19269",
+  "terminal#1989",
+  "terminal#2452",
+  "terminal#2733",
+  "terminal#2922",
+  "terminal#297",
+  "terminal#3485",
+  "terminal#3557",
+  "terminal#3648",
+  "terminal#4702",
+  "terminal#5004",
+  "terminal#5038",
+  "terminal#5455",
+  "terminal#7994",
+  "terminal#823",
+  "terminal#881"
+ ],
+ "retrieval_seconds": 4.261846562061692,
+ "tool_calls": [
+  {
+   "t": 1794878090.599842,
+   "tool": "search",
+   "args": {
+    "query": "terminal windows transparent and frozen, stay open when running batch script starting multiple cmd files",
+    "repo": "terminal"
+   },
+   "seconds": 4.22921626601601,
+   "returned": [
+    "terminal#19269",
+    "terminal#4702",
+    "terminal#18254",
+    "terminal#17487",
+    "terminal#2922",
+    "terminal#1445",
+    "terminal#1583",
+    "terminal#11135",
+    "terminal#5004",
+    "terminal#1281",
+    "terminal#11385",
+    "terminal#297",
+    "terminal#14131",
+    "terminal#12311",
+    "terminal#10386",
+    "terminal#15209",
+    "terminal#14602",
+    "terminal#13296",
+    "terminal#14499",
+    "terminal#16503"
+   ]
+  },
+  {
+   "t": 1794878090.6327028,
+   "tool": "search",
+   "args": {
+    "query": "ghost transparent terminal window hangs, invisible frozen window after launching cmd files",
+    "repo": "terminal"
+   },
+   "seconds": 0.017882838001241907,
+   "returned": [
+    "terminal#11135",
+    "terminal#11385",
+    "terminal#17487",
+    "terminal#7994",
+    "terminal#1380",
+    "terminal#5038",
+    "terminal#14131",
+    "terminal#16859",
+    "terminal#2733",
+    "terminal#1810",
+    "terminal#5455",
+    "terminal#19269",
+    "terminal#17734",
+    "terminal#14440",
+    "terminal#2922",
+    "terminal#18751",
+    "terminal#1445",
+    "terminal#823",
+    "terminal#15209",
+    "terminal#11354"
+   ]
+  },
+  {
+   "t": 1794878091.5241172,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19269"
+   },
+   "seconds": 0.00016761600272729993,
+   "returned": [
+    "terminal#19269"
+   ]
+  },
+  {
+   "t": 1794878091.7471266,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18751"
+   },
+   "seconds": 0.00012760600657202303,
+   "returned": [
+    "terminal#18751"
+   ]
+  },
+  {
+   "t": 1794878091.9031496,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#14131"
+   },
+   "seconds": 0.00030991199309937656,
+   "returned": [
+    "terminal#14131"
+   ]
+  },
+  {
+   "t": 1794878093.0300865,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#16612"
+   },
+   "seconds": 0.00014275600551627576,
+   "returned": [
+    "terminal#16612"
+   ]
+  },
+  {
+   "t": 1794878094.1466565,
+   "tool": "search",
+   "args": {
+    "query": "default terminal window with no tabs transparent frozen, Terminal set as default terminal application, kill WindowsTerminal.exe",
+    "repo": "terminal"
+   },
+   "seconds": 0.013737855013459921,
+   "returned": [
+    "terminal#16859",
+    "terminal#11135",
+    "terminal#13296",
+    "terminal#1609",
+    "terminal#15238",
+    "terminal#16995",
+    "terminal#14131",
+    "terminal#11424",
+    "terminal#1380",
+    "terminal#881",
+    "terminal#3648",
+    "terminal#11354",
+    "terminal#3557",
+    "terminal#1445",
+    "terminal#15301",
+    "terminal#3485",
+    "terminal#11823",
+    "terminal#1498",
+    "terminal#2452",
+    "terminal#1989"
+   ]
+  },
+  {
+   "t": 1794878094.9580104,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#16859"
+   },
+   "seconds": 0.00014310600818134844,
+   "returned": [
+    "terminal#16859"
+   ]
+  },
+  {
+   "t": 1794878097.15074,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#15936"
+   },
+   "seconds": 0.0001186070148833096,
+   "returned": [
+    "terminal#15936"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12732,
+  "stop_reason": "end_turn",
+  "session_id": "0368074c-d08b-40e0-bf09-f6ef4b0647a1",
+  "total_cost_usd": 0.0933247,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 18276,
+   "cache_read_input_tokens": 62027,
+   "output_tokens": 1399,
+   "output_tokens_details": {
+    "thinking_tokens": 132
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 18276,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 551,
+     "cache_read_input_tokens": 15600,
+     "cache_creation_input_tokens": 3709,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3709
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1399,
+    "cacheReadInputTokens": 62027,
+    "cacheCreationInputTokens": 18276,
+    "webSearchRequests": 0,
+    "costUSD": 0.0933247,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 132,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18276,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "```json\n{\"seen_before\": true, \"matches\": [\"terminal#19269\", \"terminal#15936\", \"terminal#16859\"], \"answer\": \"This looks like a known Windows Terminal problem. Terminal is your default terminal app, and a short-lived cmd/batch client launches it. Your script starts several .cmd files at almost the same time, and some of them exit quickly. Terminal can then open a window but never create a tab for it, because the client has already exited. The result is a transparent or empty window that is frozen and can't be closed. In terminal#19269, which is the same symptom, users saw the whole WindowsTerminal.exe process freeze, including other open windows. The archive shows no fix yet, so what follows is a workaround. (1) Kill the stuck WindowsTerminal.exe process in Task Manager. Opening a new tab in the empty window and then closing it also works, as noted in terminal#15936 and terminal#16859. (2) Reduce the race. Stagger the start commands, for example with 'timeout /t 1' or 'start /wait', or run the helper scripts in one window rather than launching three at once. Another option is to set the default terminal application to 'Windows Console Host' in Terminal settings, under Startup. Reports in terminal#15936 say that adding a short Start-Sleep before the script exits helps. (3) Don't post the memory dump publicly. Instead, capture diagnostics with the Feedback Hub (Apps > Windows Terminal > Advanced Diagnostics), which is what the maintainers asked for in terminal#19269. Alternatively, offer to share information privately, and add your Terminal version and your reproduction script to terminal#19269.\"}\n```",
+  "ttft_ms": 1229,
+  "type": "result",
+  "duration_ms": 16748,
+  "uuid": "315b0413-1f9f-4dc2-be84-08397580c1cc",
+  "ttft_stream_ms": 647,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 647,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1399,
+    "cacheReadInputTokens": 62027,
+    "cacheCreationInputTokens": 18276,
+    "webSearchRequests": 0,
+    "costUSD": 0.0933247,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 132,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 18276,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.303780179005116,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-1z2lxgcl/work"
+  }
+ },
+ "wall_seconds": 18.305594752018806,
+ "qid": "terminal#20427",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#19269",
+   "terminal#15936",
+   "terminal#16859"
+  ],
+  "answer": "This looks like a known Windows Terminal problem. Terminal is your default terminal app, and a short-lived cmd/batch client launches it. Your script starts several .cmd files at almost the same time, and some of them exit quickly. Terminal can then open a window but never create a tab for it, because the client has already exited. The result is a transparent or empty window that is frozen and can't be closed. In terminal#19269, which is the same symptom, users saw the whole WindowsTerminal.exe process freeze, including other open windows. The archive shows no fix yet, so what follows is a workaround. (1) Kill the stuck WindowsTerminal.exe process in Task Manager. Opening a new tab in the empty window and then closing it also works, as noted in terminal#15936 and terminal#16859. (2) Reduce the race. Stagger the start commands, for example with 'timeout /t 1' or 'start /wait', or run the helper scripts in one window rather than launching three at once. Another option is to set the default terminal application to 'Windows Console Host' in Terminal settings, under Startup. Reports in terminal#15936 say that adding a short Start-Sleep before the script exits helps. (3) Don't post the memory dump publicly. Instead, capture diagnostics with the Feedback Hub (Apps > Windows Terminal > Advanced Diagnostics), which is what the maintainers asked for in terminal#19269. Alternatively, offer to share information privately, and add your Terminal version and your reproduction script to terminal#19269."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,306 @@
+{
+ "shown": [
+  "PowerToys#3199",
+  "PowerToys#38202",
+  "PowerToys#38338",
+  "PowerToys#38346",
+  "PowerToys#38347",
+  "PowerToys#38704",
+  "PowerToys#38877",
+  "PowerToys#39166",
+  "PowerToys#39315",
+  "PowerToys#39352",
+  "PowerToys#40864",
+  "PowerToys#45201",
+  "PowerToys#45584",
+  "PowerToys#45596",
+  "PowerToys#45848",
+  "PowerToys#46097",
+  "PowerToys#46201",
+  "PowerToys#46268",
+  "PowerToys#46299",
+  "PowerToys#46365",
+  "PowerToys#46397",
+  "PowerToys#46499",
+  "PowerToys#46587",
+  "PowerToys#47155",
+  "PowerToys#47994",
+  "PowerToys#48254",
+  "PowerToys#48833",
+  "PowerToys#48914",
+  "PowerToys#48933",
+  "PowerToys#49025",
+  "PowerToys#5724"
+ ],
+ "retrieval_seconds": 3.808176372986054,
+ "tool_calls": [
+  {
+   "t": 1794884109.3133125,
+   "tool": "search",
+   "args": {
+    "query": "Command Palette pin \"Open url in Edge\" to Dock does not appear",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.7658376259787474,
+   "returned": [
+    "PowerToys#45201",
+    "PowerToys#47155",
+    "PowerToys#46397",
+    "PowerToys#45596",
+    "PowerToys#46499",
+    "PowerToys#46201",
+    "PowerToys#39166",
+    "PowerToys#38346",
+    "PowerToys#46097",
+    "PowerToys#5724",
+    "PowerToys#47994",
+    "PowerToys#46587",
+    "PowerToys#48254",
+    "PowerToys#48933",
+    "PowerToys#38347",
+    "PowerToys#48833",
+    "PowerToys#3199",
+    "PowerToys#46268",
+    "PowerToys#40864",
+    "PowerToys#49025"
+   ]
+  },
+  {
+   "t": 1794884109.3779411,
+   "tool": "search",
+   "args": {
+    "query": "Pin to Dock from search result fallback command not showing on Dock",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04200903599848971,
+   "returned": [
+    "PowerToys#47155",
+    "PowerToys#46397",
+    "PowerToys#46587",
+    "PowerToys#39352",
+    "PowerToys#38877",
+    "PowerToys#48833",
+    "PowerToys#46365",
+    "PowerToys#38202",
+    "PowerToys#46299",
+    "PowerToys#49025",
+    "PowerToys#46201",
+    "PowerToys#45584",
+    "PowerToys#38704",
+    "PowerToys#39315",
+    "PowerToys#39166",
+    "PowerToys#38346",
+    "PowerToys#48933",
+    "PowerToys#48914",
+    "PowerToys#38338",
+    "PowerToys#45848"
+   ]
+  },
+  {
+   "t": 1794884111.1927698,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46587"
+   },
+   "seconds": 0.000189295009477064,
+   "returned": [
+    "PowerToys#46587"
+   ]
+  },
+  {
+   "t": 1794884111.3530042,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48254"
+   },
+   "seconds": 0.00014041599933989346,
+   "returned": [
+    "PowerToys#48254"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7843,
+  "stop_reason": "end_turn",
+  "session_id": "da8ce059-0a84-46ec-ac42-6564b7d2866a",
+  "total_cost_usd": 0.030136000000000003,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 5636,
+   "cache_read_input_tokens": 8000,
+   "output_tokens": 678,
+   "output_tokens_details": {
+    "thinking_tokens": 63
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5636,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 363,
+     "cache_read_input_tokens": 4863,
+     "cache_creation_input_tokens": 1806,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1806
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 678,
+    "cacheReadInputTokens": 8000,
+    "cacheCreationInputTokens": 5636,
+    "webSearchRequests": 0,
+    "costUSD": 0.030136000000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 63,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5636,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46587\"], \"answer\": \"This looks like a known issue. \\\"Open url in Edge\\\" is a fallback result, which is what Command Palette offers for text you type. Fallback results can show as pinned (the menu changes to \\\"Unpin from Dock\\\") but never appear on the Dock. A maintainer in #46587 said fallbacks probably shouldn't be pinnable at all. A fix hasn't been confirmed in that ticket. As a workaround, pin a regular, non-fallback item instead. For example, create a Quick Links entry or a shortcut for the msteams:// URL and pin that. Also unpin the invisible \\\"Open url in Edge\\\" entry so it doesn't linger. #48254 (an elevated \\\"Open hosts file\\\" entry that is flagged as pinned but doesn't show) is a similar symptom, but it is a different case.\"}",
+  "ttft_ms": 2203,
+  "type": "result",
+  "duration_ms": 11737,
+  "uuid": "9e727a5c-aa49-48b7-ade5-8f8b2605b4b6",
+  "ttft_stream_ms": 1160,
+  "time_to_request_ms": 35,
+  "first_content_frame_ms": 1160,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 678,
+    "cacheReadInputTokens": 8000,
+    "cacheCreationInputTokens": 5636,
+    "webSearchRequests": 0,
+    "costUSD": 0.030136000000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 63,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5636,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.114193664980121,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-rwn1tujj/work"
+  }
+ },
+ "wall_seconds": 13.11586485998123,
+ "qid": "PowerToys#51301",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46587"
+  ],
+  "answer": "This looks like a known issue. \"Open url in Edge\" is a fallback result, which is what Command Palette offers for text you type. Fallback results can show as pinned (the menu changes to \"Unpin from Dock\") but never appear on the Dock. A maintainer in #46587 said fallbacks probably shouldn't be pinnable at all. A fix hasn't been confirmed in that ticket. As a workaround, pin a regular, non-fallback item instead. For example, create a Quick Links entry or a shortcut for the msteams:// URL and pin that. Also unpin the invisible \"Open url in Edge\" entry so it doesn't linger. #48254 (an elevated \"Open hosts file\" entry that is flagged as pinned but doesn't show) is a similar symptom, but it is a different case."
+ },
+ "hit_turn_cap": false
+}

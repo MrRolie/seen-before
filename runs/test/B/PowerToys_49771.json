@@ -1,0 +1,326 @@
+{
+ "shown": [
+  "PowerToys#15003",
+  "PowerToys#16404",
+  "PowerToys#18383",
+  "PowerToys#18637",
+  "PowerToys#21031",
+  "PowerToys#29283",
+  "PowerToys#3407",
+  "PowerToys#46216",
+  "PowerToys#46286",
+  "PowerToys#46360",
+  "PowerToys#46555",
+  "PowerToys#47275",
+  "PowerToys#47443",
+  "PowerToys#47526",
+  "PowerToys#47545",
+  "PowerToys#47821",
+  "PowerToys#48680",
+  "PowerToys#48833",
+  "PowerToys#48834"
+ ],
+ "retrieval_seconds": 0.1558039559458848,
+ "tool_calls": [
+  {
+   "t": 1794879693.349112,
+   "tool": "search",
+   "args": {
+    "pattern": "dock",
+    "regex": false,
+    "also": [
+     "???"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11912229799781926,
+   "returned": [
+    "PowerToys#46360",
+    "PowerToys#48834",
+    "PowerToys#46555",
+    "PowerToys#48680",
+    "PowerToys#46216",
+    "PowerToys#47545",
+    "PowerToys#47275",
+    "PowerToys#21031",
+    "PowerToys#47526",
+    "PowerToys#15003",
+    "PowerToys#48833",
+    "PowerToys#47821",
+    "PowerToys#46286",
+    "PowerToys#29283",
+    "PowerToys#18637",
+    "PowerToys#18383",
+    "PowerToys#16404",
+    "PowerToys#3407"
+   ]
+  },
+  {
+   "t": 1794879693.5984678,
+   "tool": "search",
+   "args": {
+    "pattern": "performance monitor dock",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.03590587098733522,
+   "returned": [
+    "PowerToys#48834",
+    "PowerToys#47443"
+   ]
+  },
+  {
+   "t": 1794879694.4895344,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48680"
+   },
+   "seconds": 0.00013640601537190378,
+   "returned": [
+    "PowerToys#48680"
+   ]
+  },
+  {
+   "t": 1794879694.782213,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47275"
+   },
+   "seconds": 0.00012357599916867912,
+   "returned": [
+    "PowerToys#47275"
+   ]
+  },
+  {
+   "t": 1794879694.9800925,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46286"
+   },
+   "seconds": 0.00010405699140392244,
+   "returned": [
+    "PowerToys#46286"
+   ]
+  },
+  {
+   "t": 1794879695.183034,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48833"
+   },
+   "seconds": 0.00013735599350184202,
+   "returned": [
+    "PowerToys#48833"
+   ]
+  },
+  {
+   "t": 1794879695.975605,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46216"
+   },
+   "seconds": 0.00014874598127789795,
+   "returned": [
+    "PowerToys#46216"
+   ]
+  },
+  {
+   "t": 1794879696.7989779,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46216"
+   },
+   "seconds": 0.00012564598000608385,
+   "returned": [
+    "PowerToys#46216"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7695,
+  "stop_reason": "end_turn",
+  "session_id": "62fcff7f-0250-46e1-978c-4dbb68832d90",
+  "total_cost_usd": 0.064384,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 13192,
+   "cache_read_input_tokens": 27860,
+   "output_tokens": 881,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13192,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 326,
+     "cache_read_input_tokens": 11339,
+     "cache_creation_input_tokens": 3030,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3030
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 881,
+    "cacheReadInputTokens": 27860,
+    "cacheCreationInputTokens": 13192,
+    "webSearchRequests": 0,
+    "costUSD": 0.064384,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13192,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "```json\n{\"seen_before\": true, \"matches\": [\"PowerToys#46216\", \"PowerToys#47275\", \"PowerToys#46286\"], \"answer\": \"This has been reported before. The Command Palette dock's performance widgets (CPU, RAM, GPU, network) show ??? with no data. PowerToys#46216 is the main tracking ticket, and a user there reported 0.100.2 still has the problem. PowerToys#46286 was closed as a duplicate of it. No confirmed fix was found in the archive. One user in #46216 got the values back by clicking each widget in the dock. That did not work for others, and it did not help for the related restart-triggered ticket PowerToys#48680. If it still fails, remove the performance monitor band from the dock. A different ticket, PowerToys#48834, says disabling that band avoids a memory leak in it. Please follow #46216 for a fix. You can also add your bug report ZIP and details such as Windows version, CPU and GPU there.\"}\n```",
+  "ttft_ms": 1188,
+  "type": "result",
+  "duration_ms": 7792,
+  "uuid": "0e40f482-9c89-463a-8593-083e6357eec8",
+  "ttft_stream_ms": 728,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 728,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 881,
+    "cacheReadInputTokens": 27860,
+    "cacheCreationInputTokens": 13192,
+    "webSearchRequests": 0,
+    "costUSD": 0.064384,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13192,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 9.172290048009017,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-6p60znns/work"
+  }
+ },
+ "wall_seconds": 9.173961663007503,
+ "qid": "PowerToys#49771",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46216",
+   "PowerToys#47275",
+   "PowerToys#46286"
+  ],
+  "answer": "This has been reported before. The Command Palette dock's performance widgets (CPU, RAM, GPU, network) show ??? with no data. PowerToys#46216 is the main tracking ticket, and a user there reported 0.100.2 still has the problem. PowerToys#46286 was closed as a duplicate of it. No confirmed fix was found in the archive. One user in #46216 got the values back by clicking each widget in the dock. That did not work for others, and it did not help for the related restart-triggered ticket PowerToys#48680. If it still fails, remove the performance monitor band from the dock. A different ticket, PowerToys#48834, says disabling that band avoids a memory leak in it. Please follow #46216 for a fix. You can also add your bug report ZIP and details such as Windows version, CPU and GPU there."
+ },
+ "hit_turn_cap": false
+}

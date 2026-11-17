@@ -1,0 +1,24 @@
+# Copy to .github/workflows/seen-before.yml and add an ANTHROPIC_API_KEY repository secret.
+# The first run mirrors every past issue (with the default token, about 1,000 API calls an hour; a repository
+# with 40,000 issues and their comments takes a few hours). Start it by hand (Actions > seen-before > Run
+# workflow) before relying on it; later runs only fetch what changed. The daily run keeps the cache alive
+# (GitHub evicts caches unused for 7 days).
+name: seen-before
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch: {}
+  schedule:
+    - cron: "17 4 * * *"
+permissions:
+  contents: read
+  issues: write
+jobs:
+  seen-before:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: MrRolie/seen-before/connector@v0.1.0
+        with:
+          anthropic-api-key: ${{ secrets.ANTHROPIC_API_KEY }}
+          dry-run: "true"   # comments go to the job summary until you set this to "false"

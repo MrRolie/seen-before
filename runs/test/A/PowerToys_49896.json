@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#47092",
+  "PowerToys#46353",
+  "PowerToys#46478",
+  "PowerToys#46800",
+  "PowerToys#46632"
+ ],
+ "retrieval_seconds": 0.014964267989853397,
+ "retrieval_scores": [
+  0.8131890892982483,
+  0.8094189763069153,
+  0.7999020218849182,
+  0.7837101221084595,
+  0.776416540145874
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2687,
+  "stop_reason": "end_turn",
+  "session_id": "e938ab45-9609-4c2d-aead-ca501356382a",
+  "total_cost_usd": 0.015288000000000001,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3226,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 238,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3226,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 238,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3226,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3226
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 238,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3226,
+    "webSearchRequests": 0,
+    "costUSD": 0.015288000000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3226,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46478\", \"PowerToys#46353\", \"PowerToys#47092\"], \"answer\": \"This auto-hide / hover-to-reveal request for the Command Palette Dock has been reported before. All of those tickets were closed as duplicates of PowerToys#46239, which is the issue that tracks it. Upvote #46239 and add your details there, such as the configurable hover delay and the non-interactive overlay for the device info. Auto-hide is not a current dock option, and the past tickets don't offer a workaround. Your comments about the device info graphs' appearance and the KDE widget comparison are separate feedback that no past ticket covers, so you may want to file those separately.\"}",
+  "ttft_ms": 2827,
+  "type": "result",
+  "duration_ms": 2845,
+  "uuid": "d2ae29df-f1a2-4df2-bb9e-67848e835833",
+  "ttft_stream_ms": 1167,
+  "time_to_request_ms": 156,
+  "first_content_frame_ms": 1168,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 238,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3226,
+    "webSearchRequests": 0,
+    "costUSD": 0.015288000000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3226,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.6717042429954745,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-51is6004/work"
+  }
+ },
+ "wall_seconds": 3.688170129986247,
+ "qid": "PowerToys#49896",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46478",
+   "PowerToys#46353",
+   "PowerToys#47092"
+  ],
+  "answer": "This auto-hide / hover-to-reveal request for the Command Palette Dock has been reported before. All of those tickets were closed as duplicates of PowerToys#46239, which is the issue that tracks it. Upvote #46239 and add your details there, such as the configurable hover delay and the non-interactive overlay for the device info. Auto-hide is not a current dock option, and the past tickets don't offer a workaround. Your comments about the device info graphs' appearance and the KDE widget comparison are separate feedback that no past ticket covers, so you may want to file those separately."
+ },
+ "hit_turn_cap": false
+}

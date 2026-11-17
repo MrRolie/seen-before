@@ -1,0 +1,444 @@
+{
+ "shown": [
+  "PowerToys#1544",
+  "PowerToys#7846",
+  "WSL#10130",
+  "WSL#10205",
+  "WSL#10388",
+  "WSL#10709",
+  "WSL#10753",
+  "WSL#10777",
+  "WSL#10869",
+  "WSL#11089",
+  "WSL#11383",
+  "WSL#11450",
+  "WSL#11662",
+  "WSL#11675",
+  "WSL#12103",
+  "WSL#12351",
+  "WSL#12385",
+  "WSL#12551",
+  "WSL#12586",
+  "WSL#12923",
+  "WSL#13724",
+  "WSL#14498",
+  "WSL#2114",
+  "WSL#2367",
+  "WSL#3012",
+  "WSL#3093",
+  "WSL#3169",
+  "WSL#3255",
+  "WSL#3297",
+  "WSL#40428",
+  "WSL#40650",
+  "WSL#40705",
+  "WSL#40736",
+  "WSL#414",
+  "WSL#4150",
+  "WSL#4166",
+  "WSL#4193",
+  "WSL#4698",
+  "WSL#4699",
+  "WSL#4901",
+  "WSL#4986",
+  "WSL#5107",
+  "WSL#5231",
+  "WSL#5240",
+  "WSL#5458",
+  "WSL#572",
+  "WSL#628",
+  "WSL#6404",
+  "WSL#6728",
+  "WSL#6839",
+  "WSL#6890",
+  "WSL#6982",
+  "WSL#7752",
+  "WSL#8022",
+  "WSL#8404",
+  "WSL#8725",
+  "WSL#8842",
+  "WSL#9236",
+  "WSL#9296",
+  "WSL#9508",
+  "WSL#9932",
+  "WSL#994",
+  "terminal#12830",
+  "terminal#13388",
+  "terminal#3448",
+  "terminal#3670",
+  "terminal#451",
+  "terminal#7992"
+ ],
+ "retrieval_seconds": 4.157745736913057,
+ "tool_calls": [
+  {
+   "t": 1794883493.0857363,
+   "tool": "search",
+   "args": {
+    "pattern": "wslc build",
+    "regex": false,
+    "also": null,
+    "repo": "WSL"
+   },
+   "seconds": 0.02231794997351244,
+   "returned": []
+  },
+  {
+   "t": 1794883497.384464,
+   "tool": "similar",
+   "args": {
+    "query": "wslc build support --secret like docker/podman build secrets",
+    "repo": "WSL"
+   },
+   "seconds": 3.8015566619869787,
+   "returned": [
+    "WSL#572",
+    "WSL#40428",
+    "WSL#14498",
+    "WSL#2114",
+    "WSL#10388",
+    "WSL#414",
+    "WSL#10130",
+    "WSL#10777",
+    "WSL#3297",
+    "WSL#3169",
+    "WSL#2367",
+    "WSL#3012",
+    "WSL#9296",
+    "WSL#5458",
+    "WSL#4986",
+    "WSL#11089",
+    "WSL#11662",
+    "WSL#8404",
+    "WSL#3255",
+    "WSL#9236"
+   ]
+  },
+  {
+   "t": 1794883499.481951,
+   "tool": "search",
+   "args": {
+    "pattern": "wslc",
+    "regex": false,
+    "also": [
+     "secret"
+    ],
+    "repo": null
+   },
+   "seconds": 0.1372023669828195,
+   "returned": [
+    "WSL#4150",
+    "WSL#4166",
+    "WSL#10205",
+    "WSL#9508",
+    "terminal#13388",
+    "WSL#40650",
+    "WSL#12103",
+    "WSL#10869",
+    "WSL#994",
+    "WSL#40705",
+    "WSL#12385",
+    "WSL#11450",
+    "WSL#11383",
+    "WSL#9932",
+    "WSL#8842",
+    "WSL#8022",
+    "WSL#4698"
+   ]
+  },
+  {
+   "t": 1794883500.4686375,
+   "tool": "search",
+   "args": {
+    "pattern": "wslc build",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.057545415009371936,
+   "returned": []
+  },
+  {
+   "t": 1794883500.5790477,
+   "tool": "similar",
+   "args": {
+    "query": "wslc container build feature request build secrets, buildkit",
+    "repo": null
+   },
+   "seconds": 0.0154649929900188,
+   "returned": [
+    "terminal#3448",
+    "terminal#12830",
+    "WSL#14498",
+    "WSL#572",
+    "terminal#3670",
+    "WSL#9236",
+    "WSL#40428",
+    "WSL#10388",
+    "WSL#10777",
+    "WSL#3093",
+    "WSL#3169",
+    "terminal#7992",
+    "terminal#451",
+    "WSL#40736",
+    "PowerToys#7846",
+    "WSL#12551",
+    "PowerToys#1544",
+    "WSL#12923",
+    "WSL#7752",
+    "WSL#628"
+   ]
+  },
+  {
+   "t": 1794883501.473011,
+   "tool": "search",
+   "args": {
+    "pattern": "--secret",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.07015946999308653,
+   "returned": []
+  },
+  {
+   "t": 1794883503.0219672,
+   "tool": "search",
+   "args": {
+    "pattern": "wslc",
+    "regex": false,
+    "also": null,
+    "repo": "WSL"
+   },
+   "seconds": 0.03578666999237612,
+   "returned": [
+    "WSL#4699",
+    "WSL#4150",
+    "WSL#6982",
+    "WSL#4166",
+    "WSL#8725",
+    "WSL#10753",
+    "WSL#11675",
+    "WSL#6839",
+    "WSL#5231",
+    "WSL#13724",
+    "WSL#10709",
+    "WSL#4901",
+    "WSL#6890",
+    "WSL#6404",
+    "WSL#5107",
+    "WSL#4193",
+    "WSL#5240",
+    "WSL#12586",
+    "WSL#6728",
+    "WSL#12351"
+   ]
+  },
+  {
+   "t": 1794883504.2416217,
+   "tool": "read",
+   "args": {
+    "ticket": "WSL#14498"
+   },
+   "seconds": 0.0001671049976721406,
+   "returned": [
+    "WSL#14498"
+   ]
+  },
+  {
+   "t": 1794883505.1791553,
+   "tool": "search",
+   "args": {
+    "pattern": "build secret",
+    "regex": false,
+    "also": null,
+    "repo": "WSL"
+   },
+   "seconds": 0.01754510498722084,
+   "returned": []
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11750,
+  "stop_reason": "end_turn",
+  "session_id": "548f0e21-2dbf-48d9-8d3b-21bd0d09ffd9",
+  "total_cost_usd": 0.0645112,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 12273,
+   "cache_read_input_tokens": 58432,
+   "output_tokens": 954,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12273,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 181,
+     "cache_read_input_tokens": 13570,
+     "cache_creation_input_tokens": 116,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 116
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 954,
+    "cacheReadInputTokens": 58432,
+    "cacheCreationInputTokens": 12273,
+    "webSearchRequests": 0,
+    "costUSD": 0.0645112,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12273,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket in the archive that asks for build secrets (--secret, including from a file) in wslc. The closest results were unrelated: WSL#14498 is about documentation for WSLC, and WSL#40428 is about building distros from containerfiles. Treat this as a new feature request. In the meantime, avoid putting secrets in build args or copying them into image layers, because they can leak. If you need this soon, build with Docker or Podman, which support --secret, and import the resulting image.\"}",
+  "ttft_ms": 1821,
+  "type": "result",
+  "duration_ms": 15941,
+  "uuid": "dfa55caa-e291-4ef3-a257-157da541f0ed",
+  "ttft_stream_ms": 1469,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 1469,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 954,
+    "cacheReadInputTokens": 58432,
+    "cacheCreationInputTokens": 12273,
+    "webSearchRequests": 0,
+    "costUSD": 0.0645112,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12273,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 17.30927719597821,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-rgtogtu0/work"
+  }
+ },
+ "wall_seconds": 17.311269460013136,
+ "qid": "WSL#41735",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket in the archive that asks for build secrets (--secret, including from a file) in wslc. The closest results were unrelated: WSL#14498 is about documentation for WSLC, and WSL#40428 is about building distros from containerfiles. Treat this as a new feature request. In the meantime, avoid putting secrets in build args or copying them into image layers, because they can leak. If you need this soon, build with Docker or Podman, which support --secret, and import the resulting image."
+ },
+ "hit_turn_cap": false
+}

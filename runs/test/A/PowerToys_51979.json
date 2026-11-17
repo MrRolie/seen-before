@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#48501",
+  "PowerToys#22756",
+  "PowerToys#9891",
+  "PowerToys#30563",
+  "PowerToys#40932"
+ ],
+ "retrieval_seconds": 0.013874337979359552,
+ "retrieval_scores": [
+  0.7368638515472412,
+  0.7353402376174927,
+  0.6878625154495239,
+  0.6831532716751099,
+  0.6814848184585571
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2688,
+  "stop_reason": "end_turn",
+  "session_id": "5063d072-70d9-402a-be73-0af4470aa3b7",
+  "total_cost_usd": 0.014766,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 3088,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 241,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 3088,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 241,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 3088,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3088
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 241,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3088,
+    "webSearchRequests": 0,
+    "costUSD": 0.014766,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3088,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48501\", \"PowerToys#30563\", \"PowerToys#22756\"], \"answer\": \"This feature request has been reported before. Past tickets asking for folder/file colorizing in File Explorer were closed as duplicates of the original tracking issue, PowerToys#150 (with some also pointing to PowerToys#6157). The feature is not available in PowerToys yet. Please don't open a new ticket: go to PowerToys#150, add a 👍 reaction, and subscribe for updates, adding your use case there if it isn't already covered. Until it is built, the only options are the built-in per-folder icon change in Properties > Customize > Change Icon, or a third-party tool.\"}",
+  "ttft_ms": 2857,
+  "type": "result",
+  "duration_ms": 2875,
+  "uuid": "d0119f28-f46b-4a5a-8431-e39cfe1e707c",
+  "ttft_stream_ms": 1134,
+  "time_to_request_ms": 183,
+  "first_content_frame_ms": 1135,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 241,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 3088,
+    "webSearchRequests": 0,
+    "costUSD": 0.014766,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 3088,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.8020160690066405,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-_l7bb_4z/work"
+  }
+ },
+ "wall_seconds": 3.8180696519848425,
+ "qid": "PowerToys#51979",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48501",
+   "PowerToys#30563",
+   "PowerToys#22756"
+  ],
+  "answer": "This feature request has been reported before. Past tickets asking for folder/file colorizing in File Explorer were closed as duplicates of the original tracking issue, PowerToys#150 (with some also pointing to PowerToys#6157). The feature is not available in PowerToys yet. Please don't open a new ticket: go to PowerToys#150, add a 👍 reaction, and subscribe for updates, adding your use case there if it isn't already covered. Until it is built, the only options are the built-in per-folder icon change in Properties > Customize > Change Icon, or a third-party tool."
+ },
+ "hit_turn_cap": false
+}

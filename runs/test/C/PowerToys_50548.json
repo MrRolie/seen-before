@@ -1,0 +1,359 @@
+{
+ "shown": [
+  "PowerToys#10290",
+  "PowerToys#10955",
+  "PowerToys#119",
+  "PowerToys#14689",
+  "PowerToys#18961",
+  "PowerToys#25836",
+  "PowerToys#27690",
+  "PowerToys#33966",
+  "PowerToys#35623",
+  "PowerToys#3583",
+  "PowerToys#45852",
+  "PowerToys#46434",
+  "PowerToys#46976",
+  "PowerToys#48325",
+  "PowerToys#49010",
+  "PowerToys#5499",
+  "PowerToys#6120",
+  "PowerToys#6122",
+  "PowerToys#718",
+  "PowerToys#7298",
+  "PowerToys#7368",
+  "PowerToys#825",
+  "PowerToys#8433",
+  "PowerToys#8471",
+  "PowerToys#855",
+  "PowerToys#8756",
+  "PowerToys#9523"
+ ],
+ "retrieval_seconds": 3.8188971819763537,
+ "tool_calls": [
+  {
+   "t": 1794882626.4283974,
+   "tool": "search",
+   "args": {
+    "query": "show CPU temperature next to CPU and memory in top bar",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.805775763990823,
+   "returned": [
+    "PowerToys#8433",
+    "PowerToys#35623",
+    "PowerToys#8756",
+    "PowerToys#3583",
+    "PowerToys#7368",
+    "PowerToys#825",
+    "PowerToys#33966",
+    "PowerToys#8471",
+    "PowerToys#25836",
+    "PowerToys#855",
+    "PowerToys#10290",
+    "PowerToys#10955",
+    "PowerToys#5499",
+    "PowerToys#18961",
+    "PowerToys#46434",
+    "PowerToys#48325",
+    "PowerToys#45852",
+    "PowerToys#6120",
+    "PowerToys#46976",
+    "PowerToys#9523"
+   ]
+  },
+  {
+   "t": 1794882626.450844,
+   "tool": "search",
+   "args": {
+    "query": "system monitor CPU temperature sensor feature request",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.01185101000010036,
+   "returned": [
+    "PowerToys#8433",
+    "PowerToys#3583",
+    "PowerToys#35623",
+    "PowerToys#8756",
+    "PowerToys#27690",
+    "PowerToys#48325",
+    "PowerToys#46434",
+    "PowerToys#45852",
+    "PowerToys#8471",
+    "PowerToys#825",
+    "PowerToys#14689",
+    "PowerToys#10955",
+    "PowerToys#718",
+    "PowerToys#7368",
+    "PowerToys#855",
+    "PowerToys#33966",
+    "PowerToys#6122",
+    "PowerToys#119",
+    "PowerToys#49010",
+    "PowerToys#7298"
+   ]
+  },
+  {
+   "t": 1794882627.5075963,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#8433"
+   },
+   "seconds": 0.0002588729839771986,
+   "returned": [
+    "PowerToys#8433"
+   ]
+  },
+  {
+   "t": 1794882627.7445195,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35623"
+   },
+   "seconds": 0.00013463699724525213,
+   "returned": [
+    "PowerToys#35623"
+   ]
+  },
+  {
+   "t": 1794882627.95745,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33966"
+   },
+   "seconds": 0.00015284601249732077,
+   "returned": [
+    "PowerToys#33966"
+   ]
+  },
+  {
+   "t": 1794882629.1850708,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46434"
+   },
+   "seconds": 0.00019580501248128712,
+   "returned": [
+    "PowerToys#46434"
+   ]
+  },
+  {
+   "t": 1794882629.4318612,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48325"
+   },
+   "seconds": 0.00010993698379024863,
+   "returned": [
+    "PowerToys#48325"
+   ]
+  },
+  {
+   "t": 1794882629.6124525,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45852"
+   },
+   "seconds": 0.0002763929951470345,
+   "returned": [
+    "PowerToys#45852"
+   ]
+  },
+  {
+   "t": 1794882630.403338,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46976"
+   },
+   "seconds": 0.00014191700029186904,
+   "returned": [
+    "PowerToys#46976"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8471,
+  "stop_reason": "end_turn",
+  "session_id": "22d74eee-4550-49eb-851f-6da867e1a548",
+  "total_cost_usd": 0.0418971,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 7354,
+   "cache_read_input_tokens": 20711,
+   "output_tokens": 1039,
+   "output_tokens_details": {
+    "thinking_tokens": 89
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7354,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 347,
+     "cache_read_input_tokens": 8070,
+     "cache_creation_input_tokens": 317,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 317
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1039,
+    "cacheReadInputTokens": 20711,
+    "cacheCreationInputTokens": 7354,
+    "webSearchRequests": 0,
+    "costUSD": 0.0418971,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 89,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7354,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46434\", \"PowerToys#8433\", \"PowerToys#35623\"], \"answer\": \"This has been requested before, and PowerToys doesn't show a CPU temperature in the bar next to the CPU and Memory icons. The closest match is #46434. It asks for temperature readings in the Command Palette Dock, which is where the CPU and Memory stats appear. A contributor said Windows has no native way to read per-component CPU temperature, because that needs vendor-specific drivers or WMI. They planned a pull request that adds one thermal-zone heat metric from PDH to the dock. It isn't confirmed as released, so check your PowerToys version and its release notes, and follow #46434 for updates. Until it ships, use a separate hardware-monitor tool to read CPU temperature. Issue #8433 says the same: the feature is still missing, and you'd need Dev Home or another tool. A taskbar version of this request (#35623) was closed as a duplicate of the general taskbar-integration issues.\"}",
+  "ttft_ms": 1017,
+  "type": "result",
+  "duration_ms": 12021,
+  "uuid": "3db3f305-1df5-4899-a88a-af54e87df2cf",
+  "ttft_stream_ms": 595,
+  "time_to_request_ms": 54,
+  "first_content_frame_ms": 595,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1039,
+    "cacheReadInputTokens": 20711,
+    "cacheCreationInputTokens": 7354,
+    "webSearchRequests": 0,
+    "costUSD": 0.0418971,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 89,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7354,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.654202928009909,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-e37bz01t/work"
+  }
+ },
+ "wall_seconds": 13.655825094989268,
+ "qid": "PowerToys#50548",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46434",
+   "PowerToys#8433",
+   "PowerToys#35623"
+  ],
+  "answer": "This has been requested before, and PowerToys doesn't show a CPU temperature in the bar next to the CPU and Memory icons. The closest match is #46434. It asks for temperature readings in the Command Palette Dock, which is where the CPU and Memory stats appear. A contributor said Windows has no native way to read per-component CPU temperature, because that needs vendor-specific drivers or WMI. They planned a pull request that adds one thermal-zone heat metric from PDH to the dock. It isn't confirmed as released, so check your PowerToys version and its release notes, and follow #46434 for updates. Until it ships, use a separate hardware-monitor tool to read CPU temperature. Issue #8433 says the same: the feature is still missing, and you'd need Dev Home or another tool. A taskbar version of this request (#35623) was closed as a duplicate of the general taskbar-integration issues."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,300 @@
+{
+ "shown": [
+  "PowerToys#10509",
+  "PowerToys#13035",
+  "PowerToys#15125",
+  "PowerToys#15453",
+  "PowerToys#20725",
+  "PowerToys#2428",
+  "PowerToys#3485",
+  "PowerToys#35735",
+  "PowerToys#38030",
+  "PowerToys#38293",
+  "PowerToys#3885",
+  "PowerToys#47231",
+  "PowerToys#5008",
+  "PowerToys#5871",
+  "PowerToys#6121",
+  "PowerToys#6491",
+  "PowerToys#7874",
+  "PowerToys#9496",
+  "PowerToys#97",
+  "PowerToys#9986"
+ ],
+ "retrieval_seconds": 3.9338089520169888,
+ "tool_calls": [
+  {
+   "t": 1794876413.012212,
+   "tool": "similar",
+   "args": {
+    "query": "dim inactive windows, highlight active window, HazeOver",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.932957864017226,
+   "returned": [
+    "PowerToys#9496",
+    "PowerToys#15125",
+    "PowerToys#13035",
+    "PowerToys#6121",
+    "PowerToys#7874",
+    "PowerToys#47231",
+    "PowerToys#5008",
+    "PowerToys#97",
+    "PowerToys#20725",
+    "PowerToys#5871",
+    "PowerToys#35735",
+    "PowerToys#9986",
+    "PowerToys#10509",
+    "PowerToys#3885",
+    "PowerToys#6491",
+    "PowerToys#38030",
+    "PowerToys#3485",
+    "PowerToys#2428",
+    "PowerToys#15453",
+    "PowerToys#38293"
+   ]
+  },
+  {
+   "t": 1794876415.0135243,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#9496"
+   },
+   "seconds": 0.00013056700117886066,
+   "returned": [
+    "PowerToys#9496"
+   ]
+  },
+  {
+   "t": 1794876415.0237947,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#15125"
+   },
+   "seconds": 0.00014785598614253104,
+   "returned": [
+    "PowerToys#15125"
+   ]
+  },
+  {
+   "t": 1794876415.130356,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#10509"
+   },
+   "seconds": 0.0001661950082052499,
+   "returned": [
+    "PowerToys#10509"
+   ]
+  },
+  {
+   "t": 1794876417.0102735,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#13035"
+   },
+   "seconds": 0.00027184298960492015,
+   "returned": [
+    "PowerToys#13035"
+   ]
+  },
+  {
+   "t": 1794876418.7013123,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#20725"
+   },
+   "seconds": 0.00013462701463140547,
+   "returned": [
+    "PowerToys#20725"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12382,
+  "stop_reason": "end_turn",
+  "session_id": "65f17f80-8560-45df-b217-a5c2b0125405",
+  "total_cost_usd": 0.040935700000000005,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 7431,
+   "cache_read_input_tokens": 29277,
+   "output_tokens": 826,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7431,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 287,
+     "cache_read_input_tokens": 8771,
+     "cache_creation_input_tokens": 73,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 73
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 826,
+    "cacheReadInputTokens": 29277,
+    "cacheCreationInputTokens": 7431,
+    "webSearchRequests": 0,
+    "costUSD": 0.040935700000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7431,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#13035\", \"PowerToys#9496\", \"PowerToys#15125\"], \"answer\": \"This feature request has been filed before. PowerToys#13035 (Distraction Dimmer – HazeOver / dim all but) is the main tracking issue, and the maintainers closed the others as duplicates of it. These include #9496, #15125 and #20725. There is no built-in PowerToys feature for this yet. Please add a 👍 reaction and any extra requirements to #13035. Your requirements are adjustable dimming intensity and multi-monitor support. Maintainers suggested building it as a separate proof-of-concept app first. In the meantime, a community project, PowerDimmer (github.com/[user]/PowerDimmer), dims inactive windows. Other third-party apps are also mentioned in those tickets.\"}",
+  "ttft_ms": 2410,
+  "type": "result",
+  "duration_ms": 16445,
+  "uuid": "d61824d9-9fa3-4009-9a1d-2b7d67e19c0d",
+  "ttft_stream_ms": 1363,
+  "time_to_request_ms": 48,
+  "first_content_frame_ms": 1363,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 826,
+    "cacheReadInputTokens": 29277,
+    "cacheCreationInputTokens": 7431,
+    "webSearchRequests": 0,
+    "costUSD": 0.040935700000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7431,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 17.80029873800231,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-sop2bowm/work"
+  }
+ },
+ "wall_seconds": 17.80245059399749,
+ "qid": "PowerToys#49837",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#13035",
+   "PowerToys#9496",
+   "PowerToys#15125"
+  ],
+  "answer": "This feature request has been filed before. PowerToys#13035 (Distraction Dimmer – HazeOver / dim all but) is the main tracking issue, and the maintainers closed the others as duplicates of it. These include #9496, #15125 and #20725. There is no built-in PowerToys feature for this yet. Please add a 👍 reaction and any extra requirements to #13035. Your requirements are adjustable dimming intensity and multi-monitor support. Maintainers suggested building it as a separate proof-of-concept app first. In the meantime, a community project, PowerDimmer (github.com/[user]/PowerDimmer), dims inactive windows. Other third-party apps are also mentioned in those tickets."
+ },
+ "hit_turn_cap": false
+}

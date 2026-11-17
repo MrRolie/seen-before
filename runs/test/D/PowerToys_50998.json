@@ -1,0 +1,438 @@
+{
+ "shown": [
+  "PowerToys#11952",
+  "PowerToys#11961",
+  "PowerToys#12040",
+  "PowerToys#131",
+  "PowerToys#13924",
+  "PowerToys#14029",
+  "PowerToys#14144",
+  "PowerToys#15022",
+  "PowerToys#15255",
+  "PowerToys#16063",
+  "PowerToys#16204",
+  "PowerToys#16218",
+  "PowerToys#16761",
+  "PowerToys#16774",
+  "PowerToys#173",
+  "PowerToys#19742",
+  "PowerToys#20438",
+  "PowerToys#20811",
+  "PowerToys#21026",
+  "PowerToys#21473",
+  "PowerToys#2148",
+  "PowerToys#2167",
+  "PowerToys#2197",
+  "PowerToys#2198",
+  "PowerToys#2199",
+  "PowerToys#23123",
+  "PowerToys#2378",
+  "PowerToys#2420",
+  "PowerToys#27372",
+  "PowerToys#28027",
+  "PowerToys#28769",
+  "PowerToys#29257",
+  "PowerToys#30319",
+  "PowerToys#3219",
+  "PowerToys#32385",
+  "PowerToys#3516",
+  "PowerToys#3981",
+  "PowerToys#3992",
+  "PowerToys#4029",
+  "PowerToys#40667",
+  "PowerToys#42890",
+  "PowerToys#4352",
+  "PowerToys#4360",
+  "PowerToys#4575",
+  "PowerToys#45920",
+  "PowerToys#46248",
+  "PowerToys#4648",
+  "PowerToys#46963",
+  "PowerToys#4776",
+  "PowerToys#48035",
+  "PowerToys#48591",
+  "PowerToys#5406",
+  "PowerToys#660",
+  "PowerToys#7031",
+  "PowerToys#7089",
+  "PowerToys#74",
+  "PowerToys#760",
+  "PowerToys#8234",
+  "PowerToys#8288",
+  "PowerToys#847",
+  "PowerToys#8725",
+  "PowerToys#9288",
+  "PowerToys#9337",
+  "PowerToys#9360"
+ ],
+ "retrieval_seconds": 4.183479625993641,
+ "tool_calls": [
+  {
+   "t": 1794883734.9839797,
+   "tool": "similar",
+   "args": {
+    "query": "Find My Mouse enabled, Shift+H does not type uppercase H",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.880914593988564,
+   "returned": [
+    "PowerToys#40667",
+    "PowerToys#8288",
+    "PowerToys#27372",
+    "PowerToys#131",
+    "PowerToys#21026",
+    "PowerToys#847",
+    "PowerToys#173",
+    "PowerToys#2198",
+    "PowerToys#9360",
+    "PowerToys#74",
+    "PowerToys#20438",
+    "PowerToys#14144",
+    "PowerToys#2167",
+    "PowerToys#13924",
+    "PowerToys#4352",
+    "PowerToys#2197",
+    "PowerToys#5406",
+    "PowerToys#19742",
+    "PowerToys#11961",
+    "PowerToys#2378"
+   ]
+  },
+  {
+   "t": 1794883736.172386,
+   "tool": "search",
+   "args": {
+    "pattern": "find my mouse",
+    "regex": false,
+    "also": [
+     "typing"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11436688198591582,
+   "returned": [
+    "PowerToys#45920",
+    "PowerToys#16218",
+    "PowerToys#14029",
+    "PowerToys#16761",
+    "PowerToys#15255",
+    "PowerToys#48035",
+    "PowerToys#46248",
+    "PowerToys#30319",
+    "PowerToys#29257",
+    "PowerToys#28769",
+    "PowerToys#23123",
+    "PowerToys#20811"
+   ]
+  },
+  {
+   "t": 1794883736.4873474,
+   "tool": "similar",
+   "args": {
+    "query": "Find My Mouse blocks typing capital letters, keyboard key not working when Find My Mouse enabled",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014911336998920888,
+   "returned": [
+    "PowerToys#11952",
+    "PowerToys#15022",
+    "PowerToys#8234",
+    "PowerToys#14144",
+    "PowerToys#9337",
+    "PowerToys#4360",
+    "PowerToys#9288",
+    "PowerToys#4352",
+    "PowerToys#2198",
+    "PowerToys#40667",
+    "PowerToys#2148",
+    "PowerToys#2199",
+    "PowerToys#2420",
+    "PowerToys#12040",
+    "PowerToys#2167",
+    "PowerToys#4648",
+    "PowerToys#7031",
+    "PowerToys#3219",
+    "PowerToys#3992",
+    "PowerToys#7089"
+   ]
+  },
+  {
+   "t": 1794883737.6188211,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#29257"
+   },
+   "seconds": 0.0001616360095795244,
+   "returned": [
+    "PowerToys#29257"
+   ]
+  },
+  {
+   "t": 1794883737.7617264,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45920"
+   },
+   "seconds": 0.00012604700168594718,
+   "returned": [
+    "PowerToys#45920"
+   ]
+  },
+  {
+   "t": 1794883738.9389675,
+   "tool": "similar",
+   "args": {
+    "query": "Shift key stops working, uppercase letters not typed, disabling PowerToys module fixes it",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.014602435025153682,
+   "returned": [
+    "PowerToys#2198",
+    "PowerToys#8725",
+    "PowerToys#46963",
+    "PowerToys#760",
+    "PowerToys#660",
+    "PowerToys#42890",
+    "PowerToys#3516",
+    "PowerToys#15022",
+    "PowerToys#4029",
+    "PowerToys#9288",
+    "PowerToys#4575",
+    "PowerToys#8234",
+    "PowerToys#4776",
+    "PowerToys#28027",
+    "PowerToys#12040",
+    "PowerToys#3981",
+    "PowerToys#3992",
+    "PowerToys#4648",
+    "PowerToys#48591",
+    "PowerToys#32385"
+   ]
+  },
+  {
+   "t": 1794883739.976185,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42890"
+   },
+   "seconds": 0.00014171600923873484,
+   "returned": [
+    "PowerToys#42890"
+   ]
+  },
+  {
+   "t": 1794883740.1093168,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48591"
+   },
+   "seconds": 0.00014038599329069257,
+   "returned": [
+    "PowerToys#48591"
+   ]
+  },
+  {
+   "t": 1794883742.9410539,
+   "tool": "search",
+   "args": {
+    "pattern": "shift",
+    "regex": false,
+    "also": [
+     "mouse utilities",
+     "not working"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.15811459298129193,
+   "returned": [
+    "PowerToys#21473",
+    "PowerToys#16774",
+    "PowerToys#16204",
+    "PowerToys#16063"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12471,
+  "stop_reason": "end_turn",
+  "session_id": "390a1ec9-056c-4098-a6c1-f4b37e11177e",
+  "total_cost_usd": 0.0788749,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 14729,
+   "cache_read_input_tokens": 56109,
+   "output_tokens": 1432,
+   "output_tokens_details": {
+    "thinking_tokens": 203
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 14729,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 344,
+     "cache_read_input_tokens": 15214,
+     "cache_creation_input_tokens": 928,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 928
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1432,
+    "cacheReadInputTokens": 56109,
+    "cacheCreationInputTokens": 14729,
+    "webSearchRequests": 0,
+    "costUSD": 0.0788749,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 203,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14729,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports Find My Mouse stopping Shift+H or any other Shift combination from typing, so this looks like a new report. Some older tickets describe a similar symptom, where Shift stops working system-wide while PowerToys is running. They are PowerToys#42890, PowerToys#48591 and PowerToys#29257. In those, the Shift keys came back after exiting PowerToys completely. In #42890 and #29257, turning off FancyZones also restored them. Turning off Keyboard Manager did not help in #42890. Those tickets involve different modules, so they are not confirmed duplicates. As a workaround, keep Find My Mouse disabled, since that fixed it for you. You could also check whether FancyZones is on and try turning it off. Please keep your bug report ZIP on this ticket and say whether Shift+H fails every time or only at times. Also say whether the Find My Mouse activation method is double Ctrl or shake. The team can use that to look into it.\"}",
+  "ttft_ms": 1060,
+  "type": "result",
+  "duration_ms": 16182,
+  "uuid": "bf7f5779-d673-4269-bd9b-e9fdb6c9f00f",
+  "ttft_stream_ms": 629,
+  "time_to_request_ms": 44,
+  "first_content_frame_ms": 629,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1432,
+    "cacheReadInputTokens": 56109,
+    "cacheCreationInputTokens": 14729,
+    "webSearchRequests": 0,
+    "costUSD": 0.0788749,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 203,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14729,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 17.550370840996038,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-pnkqiuub/work"
+  }
+ },
+ "wall_seconds": 17.552630318998126,
+ "qid": "PowerToys#50998",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports Find My Mouse stopping Shift+H or any other Shift combination from typing, so this looks like a new report. Some older tickets describe a similar symptom, where Shift stops working system-wide while PowerToys is running. They are PowerToys#42890, PowerToys#48591 and PowerToys#29257. In those, the Shift keys came back after exiting PowerToys completely. In #42890 and #29257, turning off FancyZones also restored them. Turning off Keyboard Manager did not help in #42890. Those tickets involve different modules, so they are not confirmed duplicates. As a workaround, keep Find My Mouse disabled, since that fixed it for you. You could also check whether FancyZones is on and try turning it off. Please keep your bug report ZIP on this ticket and say whether Shift+H fails every time or only at times. Also say whether the Find My Mouse activation method is double Ctrl or shake. The team can use that to look into it."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,332 @@
+{
+ "shown": [
+  "PowerToys#112",
+  "PowerToys#139",
+  "PowerToys#1919",
+  "PowerToys#1984",
+  "PowerToys#1998",
+  "PowerToys#2205",
+  "PowerToys#22579",
+  "PowerToys#22580",
+  "PowerToys#26",
+  "PowerToys#27539",
+  "PowerToys#29704",
+  "PowerToys#30250",
+  "PowerToys#30625",
+  "PowerToys#31626",
+  "PowerToys#31996",
+  "PowerToys#32240",
+  "PowerToys#3422",
+  "PowerToys#3857",
+  "PowerToys#38792",
+  "PowerToys#39107",
+  "PowerToys#407",
+  "PowerToys#4311",
+  "PowerToys#5208",
+  "PowerToys#5457",
+  "PowerToys#6153",
+  "PowerToys#6158",
+  "PowerToys#6632",
+  "PowerToys#7970",
+  "PowerToys#8098",
+  "PowerToys#8467",
+  "PowerToys#8909",
+  "PowerToys#8993",
+  "PowerToys#9383"
+ ],
+ "retrieval_seconds": 3.9335008079651743,
+ "tool_calls": [
+  {
+   "t": 1794883191.2485926,
+   "tool": "search",
+   "args": {
+    "query": "Robocopy context menu multi-threaded copy paste in File Explorer",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.92031752600451,
+   "returned": [
+    "PowerToys#8467",
+    "PowerToys#5208",
+    "PowerToys#31996",
+    "PowerToys#30625",
+    "PowerToys#7970",
+    "PowerToys#3422",
+    "PowerToys#8993",
+    "PowerToys#112",
+    "PowerToys#22580",
+    "PowerToys#5457",
+    "PowerToys#3857",
+    "PowerToys#29704",
+    "PowerToys#39107",
+    "PowerToys#26",
+    "PowerToys#32240",
+    "PowerToys#9383",
+    "PowerToys#6153",
+    "PowerToys#22579",
+    "PowerToys#30250",
+    "PowerToys#31626"
+   ]
+  },
+  {
+   "t": 1794883191.2727323,
+   "tool": "search",
+   "args": {
+    "query": "faster file copy utility replacing Explorer copy, TeraCopy-like",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012630427983822301,
+   "returned": [
+    "PowerToys#8909",
+    "PowerToys#38792",
+    "PowerToys#1998",
+    "PowerToys#5208",
+    "PowerToys#22580",
+    "PowerToys#6158",
+    "PowerToys#407",
+    "PowerToys#4311",
+    "PowerToys#8098",
+    "PowerToys#6153",
+    "PowerToys#2205",
+    "PowerToys#1919",
+    "PowerToys#6632",
+    "PowerToys#3422",
+    "PowerToys#8993",
+    "PowerToys#139",
+    "PowerToys#27539",
+    "PowerToys#1984",
+    "PowerToys#22579",
+    "PowerToys#7970"
+   ]
+  },
+  {
+   "t": 1794883192.8490577,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#31626"
+   },
+   "seconds": 0.00015929501387290657,
+   "returned": [
+    "PowerToys#31626"
+   ]
+  },
+  {
+   "t": 1794883193.166866,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#29704"
+   },
+   "seconds": 0.00012957598664797843,
+   "returned": [
+    "PowerToys#29704"
+   ]
+  },
+  {
+   "t": 1794883193.2807553,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#3857"
+   },
+   "seconds": 0.00011395697947591543,
+   "returned": [
+    "PowerToys#3857"
+   ]
+  },
+  {
+   "t": 1794883194.761554,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#26"
+   },
+   "seconds": 0.00015002599684521556,
+   "returned": [
+    "PowerToys#26"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9764,
+  "stop_reason": "end_turn",
+  "session_id": "4d9ce8ce-d129-465f-bf41-fff8eecd9150",
+  "total_cost_usd": 0.047191,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 9353,
+   "cache_read_input_tokens": 16430,
+   "output_tokens": 812,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9353,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 375,
+     "cache_read_input_tokens": 6908,
+     "cache_creation_input_tokens": 3478,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3478
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 812,
+    "cacheReadInputTokens": 16430,
+    "cacheCreationInputTokens": 9353,
+    "webSearchRequests": 0,
+    "costUSD": 0.047191,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9353,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#31626\", \"PowerToys#29704\", \"PowerToys#26\"], \"answer\": \"A request for a Robocopy-based copy and sync tool in PowerToys has been filed before. PowerToys#31626 asked for a Robocopy right-click menu. PowerToys#29704 asked for a Robocopy GUI, mainly for multi-threaded copying. PowerToys#3857 asked for the same thing. The maintainers closed all three as duplicates of PowerToys#26, 'SyncToy and Robocopy', which is the tracking issue. Nothing has been implemented yet, so there is no setting you can turn on. Add your use case, such as the Explorer 'RoboCopy (Set Source)' and 'RoboPaste' menu items, the thread-count, mirror and retry options, and the progress UI, as a comment on PowerToys#26 and give it a thumbs-up. Until a feature like this exists, you can run robocopy.exe from a terminal, for example `robocopy src dst /MT:16`. You can also use a third-party Robocopy GUI.\"}",
+  "ttft_ms": 2651,
+  "type": "result",
+  "duration_ms": 13762,
+  "uuid": "321411d0-eb77-45e3-b4f4-b12459de6115",
+  "ttft_stream_ms": 1577,
+  "time_to_request_ms": 35,
+  "first_content_frame_ms": 1577,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 812,
+    "cacheReadInputTokens": 16430,
+    "cacheCreationInputTokens": 9353,
+    "webSearchRequests": 0,
+    "costUSD": 0.047191,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9353,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.258829044003505,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ndpzj056/work"
+  }
+ },
+ "wall_seconds": 15.261311912006931,
+ "qid": "PowerToys#50746",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#31626",
+   "PowerToys#29704",
+   "PowerToys#26"
+  ],
+  "answer": "A request for a Robocopy-based copy and sync tool in PowerToys has been filed before. PowerToys#31626 asked for a Robocopy right-click menu. PowerToys#29704 asked for a Robocopy GUI, mainly for multi-threaded copying. PowerToys#3857 asked for the same thing. The maintainers closed all three as duplicates of PowerToys#26, 'SyncToy and Robocopy', which is the tracking issue. Nothing has been implemented yet, so there is no setting you can turn on. Add your use case, such as the Explorer 'RoboCopy (Set Source)' and 'RoboPaste' menu items, the thread-count, mirror and retry options, and the progress UI, as a comment on PowerToys#26 and give it a thumbs-up. Until a feature like this exists, you can run robocopy.exe from a terminal, for example `robocopy src dst /MT:16`. You can also use a third-party Robocopy GUI."
+ },
+ "hit_turn_cap": false
+}

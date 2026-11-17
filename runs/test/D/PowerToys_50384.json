@@ -1,0 +1,300 @@
+{
+ "shown": [
+  "PowerToys#11150",
+  "PowerToys#11483",
+  "PowerToys#12",
+  "PowerToys#15404",
+  "PowerToys#160",
+  "PowerToys#174",
+  "PowerToys#1969",
+  "PowerToys#2694",
+  "PowerToys#305",
+  "PowerToys#3640",
+  "PowerToys#37",
+  "PowerToys#4",
+  "PowerToys#4135",
+  "PowerToys#5081",
+  "PowerToys#5411",
+  "PowerToys#7084",
+  "PowerToys#7526",
+  "PowerToys#8030",
+  "PowerToys#8299",
+  "PowerToys#9897"
+ ],
+ "retrieval_seconds": 3.4958760010194965,
+ "tool_calls": [
+  {
+   "t": 1794882161.9026206,
+   "tool": "similar",
+   "args": {
+    "query": "dynamic tiling window manager like i3, Komorebi, GlazeWM, automatically arrange windows",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.4952296190022025,
+   "returned": [
+    "PowerToys#37",
+    "PowerToys#7084",
+    "PowerToys#12",
+    "PowerToys#1969",
+    "PowerToys#5081",
+    "PowerToys#11483",
+    "PowerToys#8299",
+    "PowerToys#5411",
+    "PowerToys#8030",
+    "PowerToys#3640",
+    "PowerToys#11150",
+    "PowerToys#7526",
+    "PowerToys#4135",
+    "PowerToys#305",
+    "PowerToys#4",
+    "PowerToys#9897",
+    "PowerToys#15404",
+    "PowerToys#2694",
+    "PowerToys#174",
+    "PowerToys#160"
+   ]
+  },
+  {
+   "t": 1794882163.59379,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1969"
+   },
+   "seconds": 0.00014550599735230207,
+   "returned": [
+    "PowerToys#1969"
+   ]
+  },
+  {
+   "t": 1794882163.6022549,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37"
+   },
+   "seconds": 0.00010669699986465275,
+   "returned": [
+    "PowerToys#37"
+   ]
+  },
+  {
+   "t": 1794882163.7605827,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#15404"
+   },
+   "seconds": 0.00011050701141357422,
+   "returned": [
+    "PowerToys#15404"
+   ]
+  },
+  {
+   "t": 1794882165.2350116,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#2694"
+   },
+   "seconds": 0.00016830500680953264,
+   "returned": [
+    "PowerToys#2694"
+   ]
+  },
+  {
+   "t": 1794882166.6961951,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#4"
+   },
+   "seconds": 0.00011536700185388327,
+   "returned": [
+    "PowerToys#4"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10512,
+  "stop_reason": "end_turn",
+  "session_id": "a6c12756-6560-49f8-9597-74904b0f960c",
+  "total_cost_usd": 0.055760899999999995,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 11200,
+   "cache_read_input_tokens": 24209,
+   "output_tokens": 852,
+   "output_tokens_details": {
+    "thinking_tokens": 33
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11200,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 328,
+     "cache_read_input_tokens": 9587,
+     "cache_creation_input_tokens": 3026,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3026
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 852,
+    "cacheReadInputTokens": 24209,
+    "cacheCreationInputTokens": 11200,
+    "webSearchRequests": 0,
+    "costUSD": 0.055760899999999995,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 33,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11200,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#2694\", \"PowerToys#15404\", \"PowerToys#37\"], \"answer\": \"Automatic or dynamic tiling in the style of i3, Hyprland or Sway has been requested before. PowerToys#2694 is the main thread. The maintainers closed #37 and #15404 as duplicates of it. Please add your Omarchy, Komorebi and GlazeWM use case there and upvote it, rather than tracking this new ticket. In that thread a maintainer said auto-tile doesn't fit FancyZones' architecture, and that it would work better as a separate module that runs instead of FancyZones. No tiling module exists in PowerToys yet. For now you can use FancyZones with its manual layouts. You can also run a third-party tiling manager such as Komorebi, GlazeWM, FancyWM or Workspacer.\"}",
+  "ttft_ms": 2554,
+  "type": "result",
+  "duration_ms": 14082,
+  "uuid": "d96a4a19-a63a-4341-ad7c-1c7672bba039",
+  "ttft_stream_ms": 1379,
+  "time_to_request_ms": 35,
+  "first_content_frame_ms": 1379,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 852,
+    "cacheReadInputTokens": 24209,
+    "cacheCreationInputTokens": 11200,
+    "webSearchRequests": 0,
+    "costUSD": 0.055760899999999995,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 33,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11200,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.583093306981027,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-7okb88u0/work"
+  }
+ },
+ "wall_seconds": 15.585264819994336,
+ "qid": "PowerToys#50384",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#2694",
+   "PowerToys#15404",
+   "PowerToys#37"
+  ],
+  "answer": "Automatic or dynamic tiling in the style of i3, Hyprland or Sway has been requested before. PowerToys#2694 is the main thread. The maintainers closed #37 and #15404 as duplicates of it. Please add your Omarchy, Komorebi and GlazeWM use case there and upvote it, rather than tracking this new ticket. In that thread a maintainer said auto-tile doesn't fit FancyZones' architecture, and that it would work better as a separate module that runs instead of FancyZones. No tiling module exists in PowerToys yet. For now you can use FancyZones with its manual layouts. You can also run a third-party tiling manager such as Komorebi, GlazeWM, FancyWM or Workspacer."
+ },
+ "hit_turn_cap": false
+}

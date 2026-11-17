@@ -1,0 +1,491 @@
+{
+ "shown": [
+  "PowerToys#1052",
+  "PowerToys#10873",
+  "PowerToys#11838",
+  "PowerToys#12147",
+  "PowerToys#12477",
+  "PowerToys#12483",
+  "PowerToys#12532",
+  "PowerToys#13412",
+  "PowerToys#13979",
+  "PowerToys#14180",
+  "PowerToys#14677",
+  "PowerToys#14840",
+  "PowerToys#14992",
+  "PowerToys#15450",
+  "PowerToys#19492",
+  "PowerToys#2045",
+  "PowerToys#21147",
+  "PowerToys#21499",
+  "PowerToys#24049",
+  "PowerToys#24589",
+  "PowerToys#24863",
+  "PowerToys#25595",
+  "PowerToys#25920",
+  "PowerToys#28027",
+  "PowerToys#28306",
+  "PowerToys#28629",
+  "PowerToys#28769",
+  "PowerToys#29340",
+  "PowerToys#3079",
+  "PowerToys#3090",
+  "PowerToys#30902",
+  "PowerToys#31878",
+  "PowerToys#32451",
+  "PowerToys#3357",
+  "PowerToys#3499",
+  "PowerToys#36081",
+  "PowerToys#3650",
+  "PowerToys#38423",
+  "PowerToys#3954",
+  "PowerToys#4071",
+  "PowerToys#41696",
+  "PowerToys#44172",
+  "PowerToys#45492",
+  "PowerToys#45959",
+  "PowerToys#47045",
+  "PowerToys#4725",
+  "PowerToys#47772",
+  "PowerToys#48170",
+  "PowerToys#48460",
+  "PowerToys#48792",
+  "PowerToys#48868",
+  "PowerToys#48966",
+  "PowerToys#48985",
+  "PowerToys#49018",
+  "PowerToys#49024",
+  "PowerToys#5187",
+  "PowerToys#726",
+  "PowerToys#7348",
+  "PowerToys#7814",
+  "PowerToys#7876",
+  "PowerToys#7978",
+  "PowerToys#890",
+  "PowerToys#8911",
+  "WSL#8696",
+  "terminal#1035",
+  "terminal#11886",
+  "terminal#13388",
+  "terminal#193",
+  "terminal#3097",
+  "terminal#3325",
+  "terminal#649",
+  "terminal#653",
+  "terminal#9959"
+ ],
+ "retrieval_seconds": 1.1206578789278865,
+ "tool_calls": [
+  {
+   "t": 1794882791.604672,
+   "tool": "search",
+   "args": {
+    "pattern": "PowerToysShortcutsPopulator",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.05979041400132701,
+   "returned": []
+  },
+  {
+   "t": 1794882793.338749,
+   "tool": "search",
+   "args": {
+    "pattern": "Shortcut Guide",
+    "regex": false,
+    "also": [
+     "index"
+    ],
+    "repo": null
+   },
+   "seconds": 0.11098085300181992,
+   "returned": [
+    "PowerToys#14992",
+    "PowerToys#890",
+    "PowerToys#12147",
+    "PowerToys#11838",
+    "PowerToys#8911",
+    "PowerToys#4071",
+    "PowerToys#36081",
+    "PowerToys#24589",
+    "PowerToys#21147",
+    "PowerToys#14840",
+    "PowerToys#14677",
+    "PowerToys#3650",
+    "PowerToys#1052"
+   ]
+  },
+  {
+   "t": 1794882793.6370301,
+   "tool": "search",
+   "args": {
+    "pattern": "manifest",
+    "regex": false,
+    "also": [
+     "shortcut"
+    ],
+    "repo": null
+   },
+   "seconds": 0.12034894799580798,
+   "returned": [
+    "terminal#1035",
+    "PowerToys#48792",
+    "terminal#13388",
+    "terminal#3097",
+    "terminal#11886",
+    "terminal#9959",
+    "PowerToys#7814",
+    "PowerToys#890",
+    "PowerToys#48966",
+    "PowerToys#48460",
+    "PowerToys#32451",
+    "WSL#8696",
+    "terminal#653",
+    "terminal#649",
+    "terminal#193",
+    "PowerToys#49024",
+    "PowerToys#48985",
+    "PowerToys#48170",
+    "PowerToys#45492",
+    "PowerToys#41696"
+   ]
+  },
+  {
+   "t": 1794882794.8055677,
+   "tool": "search",
+   "args": {
+    "pattern": "Shortcut Guide",
+    "regex": false,
+    "also": [
+     "reindex"
+    ],
+    "repo": null
+   },
+   "seconds": 0.09891155001241714,
+   "returned": []
+  },
+  {
+   "t": 1794882794.9116597,
+   "tool": "search",
+   "args": {
+    "pattern": "index.yml",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06189872897812165,
+   "returned": []
+  },
+  {
+   "t": 1794882796.024073,
+   "tool": "search",
+   "args": {
+    "pattern": "Shortcut Guide",
+    "regex": false,
+    "also": [
+     "two restarts"
+    ],
+    "repo": null
+   },
+   "seconds": 0.1006699230056256,
+   "returned": []
+  },
+  {
+   "t": 1794882796.258905,
+   "tool": "search",
+   "args": {
+    "pattern": "Populate",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.049134702974697575,
+   "returned": [
+    "PowerToys#44172",
+    "PowerToys#38423",
+    "PowerToys#45959",
+    "PowerToys#30902",
+    "PowerToys#28629",
+    "PowerToys#28306",
+    "PowerToys#25595",
+    "PowerToys#24049",
+    "PowerToys#15450",
+    "PowerToys#14180",
+    "PowerToys#12483",
+    "PowerToys#3954",
+    "PowerToys#3499",
+    "PowerToys#3357",
+    "PowerToys#2045",
+    "PowerToys#726",
+    "PowerToys#49018",
+    "PowerToys#48868",
+    "PowerToys#47772",
+    "PowerToys#47045"
+   ]
+  },
+  {
+   "t": 1794882797.6267936,
+   "tool": "search",
+   "args": {
+    "pattern": "Shortcut Guide",
+    "regex": false,
+    "also": [
+     "PowerToys section"
+    ],
+    "repo": null
+   },
+   "seconds": 0.10680826299358159,
+   "returned": []
+  },
+  {
+   "t": 1794882797.9383354,
+   "tool": "search",
+   "args": {
+    "pattern": "shortcut guide",
+    "regex": false,
+    "also": [
+     "stale"
+    ],
+    "repo": null
+   },
+   "seconds": 0.1323460139974486,
+   "returned": [
+    "PowerToys#12477",
+    "PowerToys#29340",
+    "terminal#3325",
+    "PowerToys#28027",
+    "PowerToys#7978",
+    "PowerToys#3090",
+    "PowerToys#28769",
+    "PowerToys#31878",
+    "PowerToys#25920",
+    "PowerToys#13979",
+    "PowerToys#7814",
+    "PowerToys#5187",
+    "PowerToys#21499",
+    "PowerToys#13412",
+    "PowerToys#12532",
+    "PowerToys#7348",
+    "PowerToys#4725",
+    "PowerToys#3079",
+    "PowerToys#24863",
+    "PowerToys#19492"
+   ]
+  },
+  {
+   "t": 1794882800.086945,
+   "tool": "search",
+   "args": {
+    "pattern": "Shortcut Guide",
+    "regex": false,
+    "also": [
+     "yml",
+     "index"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.17390208499273285,
+   "returned": []
+  },
+  {
+   "t": 1794882800.309726,
+   "tool": "search",
+   "args": {
+    "pattern": "ShortcutGuide",
+    "regex": false,
+    "also": [
+     "indexer"
+    ],
+    "repo": null
+   },
+   "seconds": 0.10586639697430655,
+   "returned": [
+    "PowerToys#10873",
+    "PowerToys#7876"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11956,
+  "stop_reason": "end_turn",
+  "session_id": "ede9d151-dbe1-41ec-af15-c64aa90e167d",
+  "total_cost_usd": 0.09159230000000002,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 17720,
+   "cache_read_input_tokens": 57943,
+   "output_tokens": 1489,
+   "output_tokens_details": {
+    "thinking_tokens": 41
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 17720,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 303,
+     "cache_read_input_tokens": 18228,
+     "cache_creation_input_tokens": 669,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 669
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1489,
+    "cacheReadInputTokens": 57943,
+    "cacheCreationInputTokens": 17720,
+    "webSearchRequests": 0,
+    "costUSD": 0.09159230000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 41,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 17720,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no earlier ticket that reports this bug. The archive has no ticket about the PowerToys shortcut list in Shortcut Guide showing up only after a second restart, and none that mentions PowerToysShortcutsPopulator.Populate() or the index.yml generation order. The nearby tickets cover different problems, for example #48170, where Shortcut Guide crashes on launch because the bundled manifests folder is missing, and #25920, where a Windows shortcut is missing from the guide. Treat this as a new bug. Your analysis is a good basis for the report. Say that the call to PowerToysShortcutsPopulator.Populate() runs after the index.yml is generated, so the index is built from the old manifest. Moving Populate() before the index creation should fix it. Until a fix ships, restarting PowerToys twice will make the updated shortcut appear.\"}",
+  "ttft_ms": 822,
+  "type": "result",
+  "duration_ms": 12480,
+  "uuid": "14654584-ffe6-4846-8151-87ae14d73815",
+  "ttft_stream_ms": 511,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 511,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1489,
+    "cacheReadInputTokens": 57943,
+    "cacheCreationInputTokens": 17720,
+    "webSearchRequests": 0,
+    "costUSD": 0.09159230000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 41,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 17720,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.768495480006095,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ga6qz8ac/work"
+  }
+ },
+ "wall_seconds": 13.770377909997478,
+ "qid": "PowerToys#50570",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no earlier ticket that reports this bug. The archive has no ticket about the PowerToys shortcut list in Shortcut Guide showing up only after a second restart, and none that mentions PowerToysShortcutsPopulator.Populate() or the index.yml generation order. The nearby tickets cover different problems, for example #48170, where Shortcut Guide crashes on launch because the bundled manifests folder is missing, and #25920, where a Windows shortcut is missing from the guide. Treat this as a new bug. Your analysis is a good basis for the report. Say that the call to PowerToysShortcutsPopulator.Populate() runs after the index.yml is generated, so the index is built from the old manifest. Moving Populate() before the index creation should fix it. Until a fix ships, restarting PowerToys twice will make the updated shortcut appear."
+ },
+ "hit_turn_cap": false
+}

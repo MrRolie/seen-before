@@ -1,0 +1,324 @@
+{
+ "shown": [
+  "PowerToys#1015",
+  "PowerToys#1131",
+  "PowerToys#14766",
+  "PowerToys#18129",
+  "PowerToys#21981",
+  "PowerToys#23256",
+  "PowerToys#27413",
+  "PowerToys#27977",
+  "PowerToys#2818",
+  "PowerToys#28796",
+  "PowerToys#30059",
+  "PowerToys#30683",
+  "PowerToys#32288",
+  "PowerToys#3296",
+  "PowerToys#33502",
+  "PowerToys#41157",
+  "PowerToys#4295",
+  "PowerToys#43162",
+  "PowerToys#43970",
+  "PowerToys#45713",
+  "PowerToys#45923",
+  "PowerToys#48035"
+ ],
+ "retrieval_seconds": 0.34375125204678625,
+ "tool_calls": [
+  {
+   "t": 1794876473.6227777,
+   "tool": "search",
+   "args": {
+    "pattern": "what's new",
+    "regex": false,
+    "also": [
+     "popup"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.12428252899553627,
+   "returned": [
+    "PowerToys#21981",
+    "PowerToys#43162",
+    "PowerToys#33502",
+    "PowerToys#32288"
+   ]
+  },
+  {
+   "t": 1794876473.754481,
+   "tool": "search",
+   "args": {
+    "pattern": "whats new",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05999136800528504,
+   "returned": [
+    "PowerToys#27413",
+    "PowerToys#43970",
+    "PowerToys#28796",
+    "PowerToys#45713",
+    "PowerToys#41157",
+    "PowerToys#30683",
+    "PowerToys#30059"
+   ]
+  },
+  {
+   "t": 1794876474.8429601,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21981"
+   },
+   "seconds": 0.00012485700426623225,
+   "returned": [
+    "PowerToys#21981"
+   ]
+  },
+  {
+   "t": 1794876475.0117621,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#27413"
+   },
+   "seconds": 0.00012120700557716191,
+   "returned": [
+    "PowerToys#27413"
+   ]
+  },
+  {
+   "t": 1794876476.246322,
+   "tool": "search",
+   "args": {
+    "pattern": "disable what's new",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04100764001486823,
+   "returned": []
+  },
+  {
+   "t": 1794876477.6933005,
+   "tool": "search",
+   "args": {
+    "pattern": "show again",
+    "regex": false,
+    "also": [
+     "new"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11803974502254277,
+   "returned": [
+    "PowerToys#18129",
+    "PowerToys#3296",
+    "PowerToys#48035",
+    "PowerToys#45923",
+    "PowerToys#27977",
+    "PowerToys#23256",
+    "PowerToys#14766",
+    "PowerToys#4295",
+    "PowerToys#2818",
+    "PowerToys#1131",
+    "PowerToys#1015"
+   ]
+  },
+  {
+   "t": 1794876478.726685,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#27977"
+   },
+   "seconds": 0.00018390599871054292,
+   "returned": [
+    "PowerToys#27977"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10160,
+  "stop_reason": "end_turn",
+  "session_id": "e8fc4805-ef84-45cb-882f-c51adcb1d78d",
+  "total_cost_usd": 0.0355146,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 5926,
+   "cache_read_input_tokens": 22166,
+   "output_tokens": 957,
+   "output_tokens_details": {
+    "thinking_tokens": 79
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5926,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 402,
+     "cache_read_input_tokens": 6503,
+     "cache_creation_input_tokens": 600,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 600
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 957,
+    "cacheReadInputTokens": 22166,
+    "cacheCreationInputTokens": 5926,
+    "webSearchRequests": 0,
+    "costUSD": 0.0355146,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 79,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5926,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've found earlier tickets asking for the same thing, so I'm sending the final answer now.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#21981\", \"PowerToys#27413\"], \"answer\": \"This has been requested before. PowerToys#21981 asks for a setting to turn off the \\\"What's New\\\" window after an update. PowerToys#27413 asks for a settings toggle plus a group policy to turn off the \\\"Whats new\\\" popup. The maintainer's last comment on #27413 says it is included in v0.78.0. The comment doesn't say whether that covers the group policy, the per-user setting, or both. Update to the latest PowerToys and look in Settings for an option to turn off the post-update What's New popup. If you manage several machines, check the PowerToys group policy templates for a matching policy. The archive doesn't mention a \\\"Don't show again\\\" checkbox in the popup or a badge on the What's New button. If you still want those, add your use case to the existing tickets.\"}",
+  "ttft_ms": 1457,
+  "type": "result",
+  "duration_ms": 10458,
+  "uuid": "25773346-5a72-4ec7-bc37-913981ac9c3e",
+  "ttft_stream_ms": 903,
+  "time_to_request_ms": 51,
+  "first_content_frame_ms": 904,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 957,
+    "cacheReadInputTokens": 22166,
+    "cacheCreationInputTokens": 5926,
+    "webSearchRequests": 0,
+    "costUSD": 0.0355146,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 79,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5926,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.003644651995273,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-y0u0zgra/work"
+  }
+ },
+ "wall_seconds": 12.005416408006568,
+ "qid": "PowerToys#49957",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#21981",
+   "PowerToys#27413"
+  ],
+  "answer": "This has been requested before. PowerToys#21981 asks for a setting to turn off the \"What's New\" window after an update. PowerToys#27413 asks for a settings toggle plus a group policy to turn off the \"Whats new\" popup. The maintainer's last comment on #27413 says it is included in v0.78.0. The comment doesn't say whether that covers the group policy, the per-user setting, or both. Update to the latest PowerToys and look in Settings for an option to turn off the post-update What's New popup. If you manage several machines, check the PowerToys group policy templates for a matching policy. The archive doesn't mention a \"Don't show again\" checkbox in the popup or a badge on the What's New button. If you still want those, add your use case to the existing tickets."
+ },
+ "hit_turn_cap": false
+}

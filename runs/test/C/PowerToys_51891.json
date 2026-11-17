@@ -1,0 +1,341 @@
+{
+ "shown": [
+  "PowerToys#11179",
+  "PowerToys#17486",
+  "PowerToys#23128",
+  "PowerToys#2329",
+  "PowerToys#24556",
+  "PowerToys#24653",
+  "PowerToys#25081",
+  "PowerToys#25091",
+  "PowerToys#25112",
+  "PowerToys#27807",
+  "PowerToys#29277",
+  "PowerToys#29719",
+  "PowerToys#31507",
+  "PowerToys#32078",
+  "PowerToys#32405",
+  "PowerToys#32497",
+  "PowerToys#32964",
+  "PowerToys#33020",
+  "PowerToys#3335",
+  "PowerToys#33665",
+  "PowerToys#34748",
+  "PowerToys#38308",
+  "PowerToys#38690",
+  "PowerToys#40663",
+  "PowerToys#44410",
+  "PowerToys#46354",
+  "PowerToys#4842",
+  "PowerToys#687",
+  "PowerToys#907",
+  "PowerToys#9755",
+  "PowerToys#9815"
+ ],
+ "retrieval_seconds": 3.9250509320118,
+ "tool_calls": [
+  {
+   "t": 1794885219.2319503,
+   "tool": "search",
+   "args": {
+    "query": "change text case upper lower sentence for selected text in any application",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.9119323619815987,
+   "returned": [
+    "PowerToys#687",
+    "PowerToys#32497",
+    "PowerToys#34748",
+    "PowerToys#32405",
+    "PowerToys#2329",
+    "PowerToys#3335",
+    "PowerToys#33020",
+    "PowerToys#907",
+    "PowerToys#29277",
+    "PowerToys#31507",
+    "PowerToys#29719",
+    "PowerToys#33665",
+    "PowerToys#32964",
+    "PowerToys#44410",
+    "PowerToys#32078",
+    "PowerToys#17486",
+    "PowerToys#23128",
+    "PowerToys#25091",
+    "PowerToys#11179",
+    "PowerToys#46354"
+   ]
+  },
+  {
+   "t": 1794885219.2578351,
+   "tool": "search",
+   "args": {
+    "query": "convert case context menu uppercase lowercase",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012479575991164893,
+   "returned": [
+    "PowerToys#687",
+    "PowerToys#907",
+    "PowerToys#9755",
+    "PowerToys#9815",
+    "PowerToys#24653",
+    "PowerToys#17486",
+    "PowerToys#4842",
+    "PowerToys#25091",
+    "PowerToys#11179",
+    "PowerToys#2329",
+    "PowerToys#34748",
+    "PowerToys#33020",
+    "PowerToys#25081",
+    "PowerToys#24556",
+    "PowerToys#38308",
+    "PowerToys#25112",
+    "PowerToys#27807",
+    "PowerToys#38690",
+    "PowerToys#40663",
+    "PowerToys#3335"
+   ]
+  },
+  {
+   "t": 1794885221.146027,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#32497"
+   },
+   "seconds": 0.00013061700155958533,
+   "returned": [
+    "PowerToys#32497"
+   ]
+  },
+  {
+   "t": 1794885221.2766473,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#33020"
+   },
+   "seconds": 0.00011770700803026557,
+   "returned": [
+    "PowerToys#33020"
+   ]
+  },
+  {
+   "t": 1794885222.8378913,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#29277"
+   },
+   "seconds": 0.00013213700731284916,
+   "returned": [
+    "PowerToys#29277"
+   ]
+  },
+  {
+   "t": 1794885222.954993,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46354"
+   },
+   "seconds": 0.00011234701378270984,
+   "returned": [
+    "PowerToys#46354"
+   ]
+  },
+  {
+   "t": 1794885224.5381234,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#907"
+   },
+   "seconds": 0.00014618600835092366,
+   "returned": [
+    "PowerToys#907"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10298,
+  "stop_reason": "end_turn",
+  "session_id": "dc21da8b-67fd-438b-a340-cfa850df9e89",
+  "total_cost_usd": 0.0466863,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 9350,
+   "cache_read_input_tokens": 19863,
+   "output_tokens": 728,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9350,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 236,
+     "cache_read_input_tokens": 7050,
+     "cache_creation_input_tokens": 3333,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3333
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 728,
+    "cacheReadInputTokens": 19863,
+    "cacheCreationInputTokens": 9350,
+    "webSearchRequests": 0,
+    "costUSD": 0.0466863,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9350,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#907\", \"PowerToys#29277\", \"PowerToys#33020\"], \"answer\": \"This feature request has been filed before. PowerToys#907 asks for a right-click context menu to change the case of any selected text (UPPER, lower, Title). The other two were closed as duplicates, #29277 of #907 and #33020 of #29277. There is no built-in feature for this yet, so add a thumbs-up to #907 to help prioritise it. For now, PowerRename can change case on file names. Advanced Paste has a similar request for pasting text in a different case (#33109). Until then, you can use an AutoHotkey script or paste the text into another editor to convert it.\"}",
+  "ttft_ms": 2270,
+  "type": "result",
+  "duration_ms": 14299,
+  "uuid": "105d5e61-c54a-48df-900f-08bd7430bbf0",
+  "ttft_stream_ms": 1205,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 1206,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 728,
+    "cacheReadInputTokens": 19863,
+    "cacheCreationInputTokens": 9350,
+    "webSearchRequests": 0,
+    "costUSD": 0.0466863,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9350,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 15.694296220986871,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-y440s650/work"
+  }
+ },
+ "wall_seconds": 15.696113709011115,
+ "qid": "PowerToys#51891",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#907",
+   "PowerToys#29277",
+   "PowerToys#33020"
+  ],
+  "answer": "This feature request has been filed before. PowerToys#907 asks for a right-click context menu to change the case of any selected text (UPPER, lower, Title). The other two were closed as duplicates, #29277 of #907 and #33020 of #29277. There is no built-in feature for this yet, so add a thumbs-up to #907 to help prioritise it. For now, PowerRename can change case on file names. Advanced Paste has a similar request for pasting text in a different case (#33109). Until then, you can use an AutoHotkey script or paste the text into another editor to convert it."
+ },
+ "hit_turn_cap": false
+}

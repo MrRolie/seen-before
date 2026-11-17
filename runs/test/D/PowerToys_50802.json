@@ -1,0 +1,361 @@
+{
+ "shown": [
+  "PowerToys#1116",
+  "PowerToys#11383",
+  "PowerToys#1203",
+  "PowerToys#1250",
+  "PowerToys#1899",
+  "PowerToys#2025",
+  "PowerToys#22186",
+  "PowerToys#2551",
+  "PowerToys#2556",
+  "PowerToys#27667",
+  "PowerToys#2803",
+  "PowerToys#28103",
+  "PowerToys#28299",
+  "PowerToys#2884",
+  "PowerToys#31651",
+  "PowerToys#3183",
+  "PowerToys#38322",
+  "PowerToys#4046",
+  "PowerToys#4446",
+  "PowerToys#4605",
+  "PowerToys#46950",
+  "PowerToys#48170",
+  "PowerToys#48448",
+  "PowerToys#48522",
+  "PowerToys#48638",
+  "PowerToys#4888",
+  "PowerToys#5606",
+  "PowerToys#5933",
+  "PowerToys#6183",
+  "PowerToys#6192",
+  "PowerToys#659",
+  "PowerToys#6955",
+  "PowerToys#780",
+  "PowerToys#8393",
+  "PowerToys#8693"
+ ],
+ "retrieval_seconds": 4.131779921008274,
+ "tool_calls": [
+  {
+   "t": 1794883382.4341476,
+   "tool": "search",
+   "args": {
+    "pattern": "Failed to copy bundled shortcut manifests",
+    "regex": false,
+    "also": null,
+    "repo": null
+   },
+   "seconds": 0.06498301200917922,
+   "returned": [
+    "PowerToys#48170"
+   ]
+  },
+  {
+   "t": 1794883386.415968,
+   "tool": "similar",
+   "args": {
+    "query": "Shortcut Guide crashes when clicking PowerToys tab",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.9661817040177993,
+   "returned": [
+    "PowerToys#1203",
+    "PowerToys#780",
+    "PowerToys#4446",
+    "PowerToys#48638",
+    "PowerToys#659",
+    "PowerToys#5933",
+    "PowerToys#31651",
+    "PowerToys#27667",
+    "PowerToys#6955",
+    "PowerToys#1250",
+    "PowerToys#1899",
+    "PowerToys#28103",
+    "PowerToys#2025",
+    "PowerToys#48522",
+    "PowerToys#5606",
+    "PowerToys#8393",
+    "PowerToys#1116",
+    "PowerToys#8693",
+    "PowerToys#3183",
+    "PowerToys#48448"
+   ]
+  },
+  {
+   "t": 1794883387.8916266,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48170"
+   },
+   "seconds": 0.00028862099861726165,
+   "returned": [
+    "PowerToys#48170"
+   ]
+  },
+  {
+   "t": 1794883388.165993,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48522"
+   },
+   "seconds": 0.00015756499487906694,
+   "returned": [
+    "PowerToys#48522"
+   ]
+  },
+  {
+   "t": 1794883388.3168137,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48448"
+   },
+   "seconds": 0.00022743400768376887,
+   "returned": [
+    "PowerToys#48448"
+   ]
+  },
+  {
+   "t": 1794883390.5357127,
+   "tool": "search",
+   "args": {
+    "pattern": "KeyboardShortcuts",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.08750659998622723,
+   "returned": [
+    "PowerToys#28299",
+    "PowerToys#22186",
+    "PowerToys#11383"
+   ]
+  },
+  {
+   "t": 1794883392.7253726,
+   "tool": "similar",
+   "args": {
+    "query": "Shortcut Guide crashes after loading, file used by another process WinGet KeyboardShortcuts manifests copy",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.012276919005671516,
+   "returned": [
+    "PowerToys#1203",
+    "PowerToys#6955",
+    "PowerToys#4446",
+    "PowerToys#780",
+    "PowerToys#48638",
+    "PowerToys#5933",
+    "PowerToys#1899",
+    "PowerToys#4046",
+    "PowerToys#2884",
+    "PowerToys#5606",
+    "PowerToys#2556",
+    "PowerToys#6192",
+    "PowerToys#2803",
+    "PowerToys#4888",
+    "PowerToys#2551",
+    "PowerToys#8393",
+    "PowerToys#38322",
+    "PowerToys#46950",
+    "PowerToys#6183",
+    "PowerToys#4605"
+   ]
+  },
+  {
+   "t": 1794883394.4055,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48638"
+   },
+   "seconds": 0.00015806598821654916,
+   "returned": [
+    "PowerToys#48638"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13476,
+  "stop_reason": "end_turn",
+  "session_id": "12889122-82c4-491d-b44d-64c2a82cf89b",
+  "total_cost_usd": 0.054606,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 9840,
+   "cache_read_input_tokens": 31220,
+   "output_tokens": 1210,
+   "output_tokens_details": {
+    "thinking_tokens": 89
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9840,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 351,
+     "cache_read_input_tokens": 9007,
+     "cache_creation_input_tokens": 2246,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2246
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1210,
+    "cacheReadInputTokens": 31220,
+    "cacheCreationInputTokens": 9840,
+    "webSearchRequests": 0,
+    "costUSD": 0.054606,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 89,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9840,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this exact problem. Your log shows an IOException because WinGet\\\\KeyboardShortcuts\\\\+WindowsNT.Notepad.en-US.yml was locked by another process while the bundled manifests were being copied. No archived ticket mentions that. The related tickets are different. #48170 is a missing Manifests directory on launch. #48448 and #48522 are crashes when switching sections in 0.100.0. #48638 is an access violation crash. Please file this as a new bug in the Shortcut Guide area and include the log snippet and your version, 0.100.2. As a possible workaround, which I have not confirmed, close any program that may be holding the Notepad manifest file open, such as Notepad or a sync or antivirus tool. Then restart PowerToys and try Shortcut Guide again.\"}",
+  "ttft_ms": 1944,
+  "type": "result",
+  "duration_ms": 17609,
+  "uuid": "3b845f22-6154-4a9d-b52c-58ca0093b2ce",
+  "ttft_stream_ms": 1152,
+  "time_to_request_ms": 39,
+  "first_content_frame_ms": 1152,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1210,
+    "cacheReadInputTokens": 31220,
+    "cacheCreationInputTokens": 9840,
+    "webSearchRequests": 0,
+    "costUSD": 0.054606,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 89,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9840,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 19.04073752500699,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-gzafmido/work"
+  }
+ },
+ "wall_seconds": 19.04254753398709,
+ "qid": "PowerToys#50802",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this exact problem. Your log shows an IOException because WinGet\\KeyboardShortcuts\\+WindowsNT.Notepad.en-US.yml was locked by another process while the bundled manifests were being copied. No archived ticket mentions that. The related tickets are different. #48170 is a missing Manifests directory on launch. #48448 and #48522 are crashes when switching sections in 0.100.0. #48638 is an access violation crash. Please file this as a new bug in the Shortcut Guide area and include the log snippet and your version, 0.100.2. As a possible workaround, which I have not confirmed, close any program that may be holding the Notepad manifest file open, such as Notepad or a sync or antivirus tool. Then restart PowerToys and try Shortcut Guide again."
+ },
+ "hit_turn_cap": false
+}

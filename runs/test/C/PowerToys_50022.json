@@ -1,0 +1,397 @@
+{
+ "shown": [
+  "PowerToys#11414",
+  "PowerToys#12381",
+  "PowerToys#1349",
+  "PowerToys#169",
+  "PowerToys#193",
+  "PowerToys#2149",
+  "PowerToys#32",
+  "PowerToys#3217",
+  "PowerToys#45890",
+  "PowerToys#46291",
+  "PowerToys#46302",
+  "PowerToys#46321",
+  "PowerToys#46610",
+  "PowerToys#46627",
+  "PowerToys#46676",
+  "PowerToys#46791",
+  "PowerToys#46882",
+  "PowerToys#47031",
+  "PowerToys#47108",
+  "PowerToys#47155",
+  "PowerToys#47162",
+  "PowerToys#47253",
+  "PowerToys#47327",
+  "PowerToys#47430",
+  "PowerToys#47472",
+  "PowerToys#47483",
+  "PowerToys#47765",
+  "PowerToys#47939",
+  "PowerToys#48045",
+  "PowerToys#48060",
+  "PowerToys#48224",
+  "PowerToys#48456",
+  "PowerToys#48597",
+  "PowerToys#48833",
+  "PowerToys#48858",
+  "PowerToys#48887",
+  "PowerToys#48933",
+  "PowerToys#48934",
+  "PowerToys#48954",
+  "PowerToys#49053",
+  "PowerToys#66",
+  "PowerToys#7182",
+  "PowerToys#7190",
+  "PowerToys#828",
+  "PowerToys#9344"
+ ],
+ "retrieval_seconds": 3.8223033709509764,
+ "tool_calls": [
+  {
+   "t": 1794880773.7761602,
+   "tool": "search",
+   "args": {
+    "query": "Command Palette Dock network widget does not save selected network interface after restart",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.781155007018242,
+   "returned": [
+    "PowerToys#48858",
+    "PowerToys#47765",
+    "PowerToys#47031",
+    "PowerToys#48045",
+    "PowerToys#48833",
+    "PowerToys#48933",
+    "PowerToys#46291",
+    "PowerToys#47155",
+    "PowerToys#45890",
+    "PowerToys#49053",
+    "PowerToys#47327",
+    "PowerToys#32",
+    "PowerToys#48060",
+    "PowerToys#47483",
+    "PowerToys#47253",
+    "PowerToys#48934",
+    "PowerToys#46627",
+    "PowerToys#47472",
+    "PowerToys#46610",
+    "PowerToys#46791"
+   ]
+  },
+  {
+   "t": 1794880773.8089519,
+   "tool": "search",
+   "args": {
+    "query": "Dock Next Network setting not persisted, shows zero send/receive stats",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.016423261986346915,
+   "returned": [
+    "PowerToys#48934",
+    "PowerToys#48833",
+    "PowerToys#48456",
+    "PowerToys#47108",
+    "PowerToys#46791",
+    "PowerToys#47430",
+    "PowerToys#48597",
+    "PowerToys#48858",
+    "PowerToys#46302",
+    "PowerToys#47939",
+    "PowerToys#828",
+    "PowerToys#48045",
+    "PowerToys#48933",
+    "PowerToys#47031",
+    "PowerToys#48887",
+    "PowerToys#47162",
+    "PowerToys#46882",
+    "PowerToys#46676",
+    "PowerToys#46610",
+    "PowerToys#46321"
+   ]
+  },
+  {
+   "t": 1794880774.6674964,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48858"
+   },
+   "seconds": 0.00013640598626807332,
+   "returned": [
+    "PowerToys#48858"
+   ]
+  },
+  {
+   "t": 1794880774.9473066,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47765"
+   },
+   "seconds": 0.000101407989859581,
+   "returned": [
+    "PowerToys#47765"
+   ]
+  },
+  {
+   "t": 1794880775.0553515,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48833"
+   },
+   "seconds": 9.831698844209313e-05,
+   "returned": [
+    "PowerToys#48833"
+   ]
+  },
+  {
+   "t": 1794880775.9503484,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47031"
+   },
+   "seconds": 9.701799717731774e-05,
+   "returned": [
+    "PowerToys#47031"
+   ]
+  },
+  {
+   "t": 1794880777.0263867,
+   "tool": "search",
+   "args": {
+    "query": "performance monitor Next Network choice resets after restart, shows wrong adapter",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.02401176097919233,
+   "returned": [
+    "PowerToys#48954",
+    "PowerToys#47765",
+    "PowerToys#7190",
+    "PowerToys#48833",
+    "PowerToys#48887",
+    "PowerToys#48858",
+    "PowerToys#9344",
+    "PowerToys#48934",
+    "PowerToys#169",
+    "PowerToys#828",
+    "PowerToys#46610",
+    "PowerToys#3217",
+    "PowerToys#7182",
+    "PowerToys#66",
+    "PowerToys#48224",
+    "PowerToys#193",
+    "PowerToys#1349",
+    "PowerToys#12381",
+    "PowerToys#11414",
+    "PowerToys#2149"
+   ]
+  },
+  {
+   "t": 1794880777.9285812,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48224"
+   },
+   "seconds": 9.498701547272503e-05,
+   "returned": [
+    "PowerToys#48224"
+   ]
+  },
+  {
+   "t": 1794880777.995498,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48954"
+   },
+   "seconds": 0.0001852049899753183,
+   "returned": [
+    "PowerToys#48954"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9799,
+  "stop_reason": "end_turn",
+  "session_id": "4a07b8d8-10c6-4250-b048-671af32f1c15",
+  "total_cost_usd": 0.0539003,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 10064,
+   "cache_read_input_tokens": 28303,
+   "output_tokens": 1079,
+   "output_tokens_details": {
+    "thinking_tokens": 105
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10064,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 423,
+     "cache_read_input_tokens": 7981,
+     "cache_creation_input_tokens": 3116,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3116
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1079,
+    "cacheReadInputTokens": 28303,
+    "cacheCreationInputTokens": 10064,
+    "webSearchRequests": 0,
+    "costUSD": 0.0539003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 105,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10064,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48858\", \"PowerToys#47765\", \"PowerToys#48954\"], \"answer\": \"This has been reported before. In PowerToys#48858 (v0.100.1), the Dock performance stats don't remember the adapter chosen with right-click → Next Network after a restart. Several other users there confirm it. PowerToys#47765 and PowerToys#48954 ask for the same thing: remember the network or GPU choice across restarts. The archive has no fix or official workaround for the adapter choice. For now, either re-select your Wi-Fi adapter with Next Network after each boot, or disable the unused Ethernet adapter, which is what one user in #48858 did. Add your details and your bug report ZIP to #48858 so the team can track it. A related bug, #48224, was a different Performance Monitor setting (the network speed unit) being wiped from settings.json. It is not confirmed as the cause of your problem.\"}",
+  "ttft_ms": 1102,
+  "type": "result",
+  "duration_ms": 13196,
+  "uuid": "6a529523-4b4f-4840-8535-eade9dd3b461",
+  "ttft_stream_ms": 649,
+  "time_to_request_ms": 50,
+  "first_content_frame_ms": 649,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1079,
+    "cacheReadInputTokens": 28303,
+    "cacheCreationInputTokens": 10064,
+    "webSearchRequests": 0,
+    "costUSD": 0.0539003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 105,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 10064,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 14.758253598003648,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-hi8942dl/work"
+  }
+ },
+ "wall_seconds": 14.76057944598142,
+ "qid": "PowerToys#50022",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48858",
+   "PowerToys#47765",
+   "PowerToys#48954"
+  ],
+  "answer": "This has been reported before. In PowerToys#48858 (v0.100.1), the Dock performance stats don't remember the adapter chosen with right-click → Next Network after a restart. Several other users there confirm it. PowerToys#47765 and PowerToys#48954 ask for the same thing: remember the network or GPU choice across restarts. The archive has no fix or official workaround for the adapter choice. For now, either re-select your Wi-Fi adapter with Next Network after each boot, or disable the unused Ethernet adapter, which is what one user in #48858 did. Add your details and your bug report ZIP to #48858 so the team can track it. A related bug, #48224, was a different Performance Monitor setting (the network speed unit) being wiped from settings.json. It is not confirmed as the cause of your problem."
+ },
+ "hit_turn_cap": false
+}

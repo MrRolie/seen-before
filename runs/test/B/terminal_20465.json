@@ -1,0 +1,324 @@
+{
+ "shown": [
+  "terminal#1060",
+  "terminal#11111",
+  "terminal#11206",
+  "terminal#11529",
+  "terminal#12143",
+  "terminal#12309",
+  "terminal#12630",
+  "terminal#12640",
+  "terminal#13167",
+  "terminal#13241",
+  "terminal#13290",
+  "terminal#13554",
+  "terminal#13675",
+  "terminal#13685",
+  "terminal#13828",
+  "terminal#13928",
+  "terminal#13929",
+  "terminal#14260",
+  "terminal#14418",
+  "terminal#14533",
+  "terminal#14593",
+  "terminal#14754",
+  "terminal#14788",
+  "terminal#14861",
+  "terminal#14932",
+  "terminal#15037",
+  "terminal#15453",
+  "terminal#15793",
+  "terminal#17472",
+  "terminal#17486",
+  "terminal#17877",
+  "terminal#18158",
+  "terminal#18187",
+  "terminal#20015",
+  "terminal#20134",
+  "terminal#3637",
+  "terminal#3698",
+  "terminal#4637",
+  "terminal#6491",
+  "terminal#7062"
+ ],
+ "retrieval_seconds": 0.07283772903610952,
+ "tool_calls": [
+  {
+   "t": 1794878593.9616232,
+   "tool": "search",
+   "args": {
+    "pattern": "elevated",
+    "regex": false,
+    "also": [
+     "defaults"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.03650260699214414,
+   "returned": [
+    "terminal#11111",
+    "terminal#15037",
+    "terminal#3637",
+    "terminal#1060",
+    "terminal#14861",
+    "terminal#12309",
+    "terminal#13928",
+    "terminal#4637",
+    "terminal#13929",
+    "terminal#7062",
+    "terminal#20015",
+    "terminal#6491",
+    "terminal#15793",
+    "terminal#14932",
+    "terminal#14418",
+    "terminal#13675",
+    "terminal#13290",
+    "terminal#11206",
+    "terminal#18158",
+    "terminal#17472"
+   ]
+  },
+  {
+   "t": 1794878593.9879842,
+   "tool": "search",
+   "args": {
+    "pattern": "elevated profile defaults color scheme",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.015342568018240854,
+   "returned": []
+  },
+  {
+   "t": 1794878595.4132605,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#3637"
+   },
+   "seconds": 0.00012636699830181897,
+   "returned": [
+    "terminal#3637"
+   ]
+  },
+  {
+   "t": 1794878597.2777925,
+   "tool": "search",
+   "args": {
+    "pattern": "8311",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.02086618702742271,
+   "returned": [
+    "terminal#13554",
+    "terminal#3698",
+    "terminal#12143",
+    "terminal#11529",
+    "terminal#20134",
+    "terminal#18187",
+    "terminal#14593",
+    "terminal#13685",
+    "terminal#17877",
+    "terminal#17486",
+    "terminal#15453",
+    "terminal#14788",
+    "terminal#14754",
+    "terminal#14533",
+    "terminal#14260",
+    "terminal#13828",
+    "terminal#13241",
+    "terminal#13167",
+    "terminal#12640",
+    "terminal#12630"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9599,
+  "stop_reason": "end_turn",
+  "session_id": "fc91377d-da2e-412a-8f57-436842d99fdf",
+  "total_cost_usd": 0.0625349,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 13321,
+   "cache_read_input_tokens": 22549,
+   "output_tokens": 698,
+   "output_tokens_details": {
+    "thinking_tokens": 75
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13321,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 368,
+     "cache_read_input_tokens": 10870,
+     "cache_creation_input_tokens": 3628,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3628
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 698,
+    "cacheReadInputTokens": 22549,
+    "cacheCreationInputTokens": 13321,
+    "webSearchRequests": 0,
+    "costUSD": 0.0625349,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 75,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13321,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#3637\", \"terminal#14593\", \"terminal#11111\"], \"answer\": \"This feature has been requested before, but it isn't implemented yet. terminal#3637 asks for separate defaults when the Terminal is elevated, for example a `defaultsWhenElevated` section next to `profiles.defaults`. terminal#14593 asks for a different appearance when running as Administrator, and the team closed it as a duplicate of #8311, the issue for admin-specific schemes and themes. The team is tracking all admin-specific customizations in the epic terminal#11111. I didn't find #8311 itself in the archive. Please add your use case and the idea of different defaults for elevated windows to those issues. In the meantime, you can set `colorScheme` or `tabColor` on each profile you run elevated, but you can't set it for the whole elevated window.\"}",
+  "ttft_ms": 2417,
+  "type": "result",
+  "duration_ms": 9731,
+  "uuid": "b2ec6700-4720-4a4a-be3e-1256548c8672",
+  "ttft_stream_ms": 1367,
+  "time_to_request_ms": 32,
+  "first_content_frame_ms": 1367,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 698,
+    "cacheReadInputTokens": 22549,
+    "cacheCreationInputTokens": 13321,
+    "webSearchRequests": 0,
+    "costUSD": 0.0625349,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 75,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13321,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.864290875004372,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-iu9vgif_/work"
+  }
+ },
+ "wall_seconds": 10.865829846006818,
+ "qid": "terminal#20465",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#3637",
+   "terminal#14593",
+   "terminal#11111"
+  ],
+  "answer": "This feature has been requested before, but it isn't implemented yet. terminal#3637 asks for separate defaults when the Terminal is elevated, for example a `defaultsWhenElevated` section next to `profiles.defaults`. terminal#14593 asks for a different appearance when running as Administrator, and the team closed it as a duplicate of #8311, the issue for admin-specific schemes and themes. The team is tracking all admin-specific customizations in the epic terminal#11111. I didn't find #8311 itself in the archive. Please add your use case and the idea of different defaults for elevated windows to those issues. In the meantime, you can set `colorScheme` or `tabColor` on each profile you run elevated, but you can't set it for the whole elevated window."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,357 @@
+{
+ "shown": [
+  "terminal#10203",
+  "terminal#1060",
+  "terminal#10600",
+  "terminal#10627",
+  "terminal#10717",
+  "terminal#12029",
+  "terminal#13285",
+  "terminal#1379",
+  "terminal#1411",
+  "terminal#1668",
+  "terminal#17133",
+  "terminal#1728",
+  "terminal#1756",
+  "terminal#18110",
+  "terminal#18534",
+  "terminal#18715",
+  "terminal#18726",
+  "terminal#1882",
+  "terminal#1984",
+  "terminal#2991",
+  "terminal#3121",
+  "terminal#3158",
+  "terminal#4532",
+  "terminal#489",
+  "terminal#5000",
+  "terminal#683",
+  "terminal#6900",
+  "terminal#6987",
+  "terminal#754",
+  "terminal#8084",
+  "terminal#8563",
+  "terminal#858",
+  "terminal#8721",
+  "terminal#8758",
+  "terminal#8767",
+  "terminal#8991",
+  "terminal#9167",
+  "terminal#9298",
+  "terminal#9362",
+  "terminal#947",
+  "terminal#973"
+ ],
+ "retrieval_seconds": 3.939382504002424,
+ "tool_calls": [
+  {
+   "t": 1794882381.3194606,
+   "tool": "similar",
+   "args": {
+    "query": "settings.json actions and keybindings order changes / reordered when saving settings",
+    "repo": "terminal"
+   },
+   "seconds": 3.8622760899888817,
+   "returned": [
+    "terminal#8084",
+    "terminal#683",
+    "terminal#13285",
+    "terminal#18726",
+    "terminal#18534",
+    "terminal#8758",
+    "terminal#9298",
+    "terminal#9362",
+    "terminal#2991",
+    "terminal#858",
+    "terminal#9167",
+    "terminal#10600",
+    "terminal#17133",
+    "terminal#947",
+    "terminal#10627",
+    "terminal#1668",
+    "terminal#1984",
+    "terminal#8721",
+    "terminal#1411",
+    "terminal#6900"
+   ]
+  },
+  {
+   "t": 1794882382.434017,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#13285"
+   },
+   "seconds": 0.0001479659986216575,
+   "returned": [
+    "terminal#13285"
+   ]
+  },
+  {
+   "t": 1794882382.7223816,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18534"
+   },
+   "seconds": 0.00016610499005764723,
+   "returned": [
+    "terminal#18534"
+   ]
+  },
+  {
+   "t": 1794882382.857986,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18726"
+   },
+   "seconds": 0.00012104702182114124,
+   "returned": [
+    "terminal#18726"
+   ]
+  },
+  {
+   "t": 1794882383.9933493,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#18110"
+   },
+   "seconds": 0.00023292299010790884,
+   "returned": [
+    "terminal#18110"
+   ]
+  },
+  {
+   "t": 1794882385.2183058,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#8991"
+   },
+   "seconds": 0.0002577929990366101,
+   "returned": [
+    "terminal#8991"
+   ]
+  },
+  {
+   "t": 1794882388.9062197,
+   "tool": "search",
+   "args": {
+    "pattern": "keybindings",
+    "regex": false,
+    "also": [
+     "order",
+     "save"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.07618058001389727,
+   "returned": [
+    "terminal#8767",
+    "terminal#489",
+    "terminal#1756",
+    "terminal#1060",
+    "terminal#973",
+    "terminal#12029",
+    "terminal#8563",
+    "terminal#754",
+    "terminal#18715",
+    "terminal#10717",
+    "terminal#10203",
+    "terminal#9167",
+    "terminal#6987",
+    "terminal#5000",
+    "terminal#4532",
+    "terminal#3158",
+    "terminal#3121",
+    "terminal#1882",
+    "terminal#1728",
+    "terminal#1379"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 13246,
+  "stop_reason": "end_turn",
+  "session_id": "7c8f85ca-6a8d-4bea-8dbb-3f21b632b52e",
+  "total_cost_usd": 0.06979379999999999,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 13483,
+   "cache_read_input_tokens": 44338,
+   "output_tokens": 1140,
+   "output_tokens_details": {
+    "thinking_tokens": 51
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13483,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 361,
+     "cache_read_input_tokens": 11727,
+     "cache_creation_input_tokens": 3169,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3169
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1140,
+    "cacheReadInputTokens": 44338,
+    "cacheCreationInputTokens": 13483,
+    "webSearchRequests": 0,
+    "costUSD": 0.06979379999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 51,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13483,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#13285\", \"terminal#8991\", \"terminal#18110\"], \"answer\": \"This has been reported before. Terminal rewrites settings.json whenever it saves, whether from the Settings UI or when it migrates settings after an update. When it rewrites the file, it reorders entries in 'actions' and 'keybindings' and re-sorts keys. It can also drop comments and reformat the file. The team confirmed the reordering of actions on save as a real bug in terminal#13285. They noted that actions are held in a map with no guaranteed order. The broader problem that the file is reformatted and the original order isn't kept is tracked in terminal#8991, and terminal#18110 was closed as a duplicate of it. I found no fix in the archive. Until one ships, you can edit settings.json by hand and avoid saving from the Settings UI. You can also compare files with a tool that ignores ordering, or normalize and sort both files before diffing. Please add your Terminal version (1.24) and the adjustFontSize example to terminal#13285 or terminal#8991.\"}",
+  "ttft_ms": 1964,
+  "type": "result",
+  "duration_ms": 17153,
+  "uuid": "95df20b0-bfe7-45f4-af40-d92a92eabcc7",
+  "ttft_stream_ms": 1185,
+  "time_to_request_ms": 45,
+  "first_content_frame_ms": 1185,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1140,
+    "cacheReadInputTokens": 44338,
+    "cacheCreationInputTokens": 13483,
+    "webSearchRequests": 0,
+    "costUSD": 0.06979379999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 51,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 13483,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.587991881009657,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ocld21gs/work"
+  }
+ },
+ "wall_seconds": 18.589547819981817,
+ "qid": "terminal#20661",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#13285",
+   "terminal#8991",
+   "terminal#18110"
+  ],
+  "answer": "This has been reported before. Terminal rewrites settings.json whenever it saves, whether from the Settings UI or when it migrates settings after an update. When it rewrites the file, it reorders entries in 'actions' and 'keybindings' and re-sorts keys. It can also drop comments and reformat the file. The team confirmed the reordering of actions on save as a real bug in terminal#13285. They noted that actions are held in a map with no guaranteed order. The broader problem that the file is reformatted and the original order isn't kept is tracked in terminal#8991, and terminal#18110 was closed as a duplicate of it. I found no fix in the archive. Until one ships, you can edit settings.json by hand and avoid saving from the Settings UI. You can also compare files with a tool that ignores ordering, or normalize and sort both files before diffing. Please add your Terminal version (1.24) and the adjustFontSize example to terminal#13285 or terminal#8991."
+ },
+ "hit_turn_cap": false
+}

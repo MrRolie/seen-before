@@ -1,0 +1,369 @@
+{
+ "shown": [
+  "PowerToys#10248",
+  "PowerToys#10724",
+  "PowerToys#12349",
+  "PowerToys#12656",
+  "PowerToys#15969",
+  "PowerToys#16357",
+  "PowerToys#16698",
+  "PowerToys#18131",
+  "PowerToys#18577",
+  "PowerToys#21480",
+  "PowerToys#22742",
+  "PowerToys#22988",
+  "PowerToys#23701",
+  "PowerToys#23728",
+  "PowerToys#24402",
+  "PowerToys#25176",
+  "PowerToys#26040",
+  "PowerToys#26682",
+  "PowerToys#27861",
+  "PowerToys#29009",
+  "PowerToys#29120",
+  "PowerToys#29194",
+  "PowerToys#30049",
+  "PowerToys#3288",
+  "PowerToys#34714",
+  "PowerToys#35632",
+  "PowerToys#39490",
+  "PowerToys#40605",
+  "PowerToys#40649",
+  "PowerToys#4219",
+  "PowerToys#42483",
+  "PowerToys#4282",
+  "PowerToys#4296",
+  "PowerToys#44666",
+  "PowerToys#45872",
+  "PowerToys#46257",
+  "PowerToys#46736",
+  "PowerToys#48312",
+  "PowerToys#5709",
+  "PowerToys#6",
+  "PowerToys#6616",
+  "PowerToys#848"
+ ],
+ "retrieval_seconds": 0.1959582299750764,
+ "tool_calls": [
+  {
+   "t": 1794879560.0098643,
+   "tool": "search",
+   "args": {
+    "pattern": "per-keyboard",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06942205497762188,
+   "returned": [
+    "PowerToys#35632",
+    "PowerToys#5709",
+    "PowerToys#848",
+    "PowerToys#48312",
+    "PowerToys#46736",
+    "PowerToys#46257",
+    "PowerToys#40605",
+    "PowerToys#29194",
+    "PowerToys#27861",
+    "PowerToys#26682",
+    "PowerToys#26040",
+    "PowerToys#25176",
+    "PowerToys#24402",
+    "PowerToys#10248",
+    "PowerToys#6616",
+    "PowerToys#4296",
+    "PowerToys#6"
+   ]
+  },
+  {
+   "t": 1794879560.095074,
+   "tool": "search",
+   "args": {
+    "pattern": "Globe",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06475577599485405,
+   "returned": [
+    "PowerToys#42483",
+    "PowerToys#39490",
+    "PowerToys#29009",
+    "PowerToys#23701",
+    "PowerToys#16698"
+   ]
+  },
+  {
+   "t": 1794879560.1708906,
+   "tool": "search",
+   "args": {
+    "pattern": "Magic Keyboard",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.06081167599768378,
+   "returned": [
+    "PowerToys#18577",
+    "PowerToys#45872",
+    "PowerToys#23728",
+    "PowerToys#4282",
+    "PowerToys#30049",
+    "PowerToys#29120",
+    "PowerToys#22742",
+    "PowerToys#18131",
+    "PowerToys#40649",
+    "PowerToys#34714",
+    "PowerToys#22988",
+    "PowerToys#21480",
+    "PowerToys#16357",
+    "PowerToys#15969",
+    "PowerToys#12656",
+    "PowerToys#10724",
+    "PowerToys#4219",
+    "PowerToys#3288"
+   ]
+  },
+  {
+   "t": 1794879562.2334573,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21480"
+   },
+   "seconds": 0.00020228500943630934,
+   "returned": [
+    "PowerToys#21480"
+   ]
+  },
+  {
+   "t": 1794879562.396501,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#44666"
+   },
+   "seconds": 0.0002033339987974614,
+   "returned": [
+    "PowerToys#44666"
+   ]
+  },
+  {
+   "t": 1794879563.9650843,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35632"
+   },
+   "seconds": 0.00013552600285038352,
+   "returned": [
+    "PowerToys#35632"
+   ]
+  },
+  {
+   "t": 1794879565.710837,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#12349"
+   },
+   "seconds": 0.0002662519982550293,
+   "returned": [
+    "PowerToys#12349"
+   ]
+  },
+  {
+   "t": 1794879567.0935304,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#26040"
+   },
+   "seconds": 0.00016132599557749927,
+   "returned": [
+    "PowerToys#26040"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 15427,
+  "stop_reason": "end_turn",
+  "session_id": "891ce4f1-c734-47b2-a12e-dd2afe0c18ae",
+  "total_cost_usd": 0.0628851,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 11529,
+   "cache_read_input_tokens": 47451,
+   "output_tokens": 1200,
+   "output_tokens_details": {
+    "thinking_tokens": 188
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 11529,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 607,
+     "cache_read_input_tokens": 12315,
+     "cache_creation_input_tokens": 391,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 391
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1200,
+    "cacheReadInputTokens": 47451,
+    "cacheCreationInputTokens": 11529,
+    "webSearchRequests": 0,
+    "costUSD": 0.0628851,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 188,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11529,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I'm checking the per-keyboard and Fn/Globe matches I found. I have enough to answer now.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#12349\", \"PowerToys#21480\", \"PowerToys#35632\"], \"answer\": \"Both parts of this request have been reported before, and neither is available today. (1) Per-keyboard remapping: #12349 is the main tracking issue, and #35632 was closed as a duplicate of it. A maintainer said in #26040 that Keyboard Manager's current detection method can't tell keyboards apart using public APIs, so this would need low-level work. Keyboard Manager remaps apply to all keyboards. The only workaround in those tickets is to turn Keyboard Manager off when you use the other keyboard and back on when you use the Magic Keyboard. (2) Fn/Globe key: #21480 reports the same symptom. Pressing Fn gives no input and Fn isn't in the key list. A maintainer said this is expected, because Fn usually can't be remapped. The Keyboard Manager documentation lists this limitation. Fn is usually handled by keyboard firmware or drivers and never reaches Windows as a key event. Add your use case, including the Fn+arrow keys for Home/End/PageUp/PageDown, as a comment or +1 on #12349 and #21480. For now, you can remap other keys that Windows does see.\"}",
+  "ttft_ms": 2395,
+  "type": "result",
+  "duration_ms": 15759,
+  "uuid": "95278dbd-c989-4112-9a84-f19676fa921b",
+  "ttft_stream_ms": 1121,
+  "time_to_request_ms": 36,
+  "first_content_frame_ms": 1121,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1200,
+    "cacheReadInputTokens": 47451,
+    "cacheCreationInputTokens": 11529,
+    "webSearchRequests": 0,
+    "costUSD": 0.0628851,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 188,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 11529,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 17.13883837501635,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-0aketf8a/work"
+  }
+ },
+ "wall_seconds": 17.140643695020117,
+ "qid": "PowerToys#49676",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#12349",
+   "PowerToys#21480",
+   "PowerToys#35632"
+  ],
+  "answer": "Both parts of this request have been reported before, and neither is available today. (1) Per-keyboard remapping: #12349 is the main tracking issue, and #35632 was closed as a duplicate of it. A maintainer said in #26040 that Keyboard Manager's current detection method can't tell keyboards apart using public APIs, so this would need low-level work. Keyboard Manager remaps apply to all keyboards. The only workaround in those tickets is to turn Keyboard Manager off when you use the other keyboard and back on when you use the Magic Keyboard. (2) Fn/Globe key: #21480 reports the same symptom. Pressing Fn gives no input and Fn isn't in the key list. A maintainer said this is expected, because Fn usually can't be remapped. The Keyboard Manager documentation lists this limitation. Fn is usually handled by keyboard firmware or drivers and never reaches Windows as a key event. Add your use case, including the Fn+arrow keys for Home/End/PageUp/PageDown, as a comment or +1 on #12349 and #21480. For now, you can remap other keys that Windows does see."
+ },
+ "hit_turn_cap": false
+}

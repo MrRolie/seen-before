@@ -1,0 +1,305 @@
+{
+ "shown": [
+  "PowerToys#11402",
+  "PowerToys#12048",
+  "PowerToys#13069",
+  "PowerToys#13214",
+  "PowerToys#15785",
+  "PowerToys#16370",
+  "PowerToys#17550",
+  "PowerToys#18015",
+  "PowerToys#18019",
+  "PowerToys#19203",
+  "PowerToys#19785",
+  "PowerToys#202",
+  "PowerToys#20297",
+  "PowerToys#20381",
+  "PowerToys#21621",
+  "PowerToys#21645",
+  "PowerToys#22936",
+  "PowerToys#23193",
+  "PowerToys#23654",
+  "PowerToys#23982",
+  "PowerToys#2407",
+  "PowerToys#25437",
+  "PowerToys#29067",
+  "PowerToys#31797",
+  "PowerToys#34682",
+  "PowerToys#35585",
+  "PowerToys#3630",
+  "PowerToys#37282",
+  "PowerToys#41249",
+  "PowerToys#4473",
+  "PowerToys#48288",
+  "PowerToys#5881",
+  "PowerToys#602",
+  "PowerToys#7552",
+  "PowerToys#850",
+  "PowerToys#8693",
+  "PowerToys#8848",
+  "PowerToys#9017",
+  "PowerToys#9092",
+  "PowerToys#9313"
+ ],
+ "retrieval_seconds": 3.8303372800000943,
+ "tool_calls": [
+  {
+   "t": 1794882431.6415303,
+   "tool": "search",
+   "args": {
+    "pattern": "PowerToysReport",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0760725409782026,
+   "returned": [
+    "PowerToys#18015",
+    "PowerToys#13069",
+    "PowerToys#23982",
+    "PowerToys#13214",
+    "PowerToys#16370",
+    "PowerToys#9017",
+    "PowerToys#8693",
+    "PowerToys#19203",
+    "PowerToys#22936",
+    "PowerToys#23193",
+    "PowerToys#21645",
+    "PowerToys#21621",
+    "PowerToys#37282",
+    "PowerToys#23654",
+    "PowerToys#19785",
+    "PowerToys#17550",
+    "PowerToys#15785",
+    "PowerToys#34682",
+    "PowerToys#25437",
+    "PowerToys#18019"
+   ]
+  },
+  {
+   "t": 1794882435.4065723,
+   "tool": "similar",
+   "args": {
+    "query": "Powertoysbugreport bug report zip only, no description, Microsoft Store v0.101",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.7540584450180177,
+   "returned": [
+    "PowerToys#9313",
+    "PowerToys#850",
+    "PowerToys#20381",
+    "PowerToys#12048",
+    "PowerToys#5881",
+    "PowerToys#48288",
+    "PowerToys#35585",
+    "PowerToys#11402",
+    "PowerToys#4473",
+    "PowerToys#8848",
+    "PowerToys#7552",
+    "PowerToys#602",
+    "PowerToys#29067",
+    "PowerToys#3630",
+    "PowerToys#41249",
+    "PowerToys#202",
+    "PowerToys#20297",
+    "PowerToys#31797",
+    "PowerToys#9092",
+    "PowerToys#2407"
+   ]
+  },
+  {
+   "t": 1794882437.0929735,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#35585"
+   },
+   "seconds": 0.0002062940038740635,
+   "returned": [
+    "PowerToys#35585"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7120,
+  "stop_reason": "end_turn",
+  "session_id": "cf035856-c500-427d-8b0b-428c3e505c47",
+  "total_cost_usd": 0.039466999999999995,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 8280,
+   "cache_read_input_tokens": 12950,
+   "output_tokens": 504,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8280,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 222,
+     "cache_read_input_tokens": 9443,
+     "cache_creation_input_tokens": 250,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 250
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 504,
+    "cacheReadInputTokens": 12950,
+    "cacheCreationInputTokens": 8280,
+    "webSearchRequests": 0,
+    "costUSD": 0.039466999999999995,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8280,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 4,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"This ticket has no description of a problem. It only has the bug report ZIP attached, with no steps to reproduce and no expected or actual behavior. I found no past ticket that reports the same issue. Searching for the report file name only returned unrelated tickets that happened to attach similar ZIPs. Please tell us what went wrong. Include which module is affected (for example FancyZones, Run, Settings or Keyboard Manager), what you did, what you expected and what happened instead. Also say whether it happens every time or only sometimes. We can't diagnose it from the ZIP alone, so we'll look at it again once you add those details.\"}",
+  "ttft_ms": 1631,
+  "type": "result",
+  "duration_ms": 11052,
+  "uuid": "960d847d-a2c7-4fea-a201-3654837f18c9",
+  "ttft_stream_ms": 1202,
+  "time_to_request_ms": 52,
+  "first_content_frame_ms": 1202,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 504,
+    "cacheReadInputTokens": 12950,
+    "cacheCreationInputTokens": 8280,
+    "webSearchRequests": 0,
+    "costUSD": 0.039466999999999995,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8280,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.593341528991004,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-56ffb9oc/work"
+  }
+ },
+ "wall_seconds": 12.595788274978986,
+ "qid": "PowerToys#50481",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "This ticket has no description of a problem. It only has the bug report ZIP attached, with no steps to reproduce and no expected or actual behavior. I found no past ticket that reports the same issue. Searching for the report file name only returned unrelated tickets that happened to attach similar ZIPs. Please tell us what went wrong. Include which module is affected (for example FancyZones, Run, Settings or Keyboard Manager), what you did, what you expected and what happened instead. Also say whether it happens every time or only sometimes. We can't diagnose it from the ZIP alone, so we'll look at it again once you add those details."
+ },
+ "hit_turn_cap": false
+}

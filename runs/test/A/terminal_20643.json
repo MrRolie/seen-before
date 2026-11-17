@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "terminal#18972",
+  "terminal#19595",
+  "terminal#16330",
+  "terminal#14100",
+  "terminal#19000"
+ ],
+ "retrieval_seconds": 0.017698089010082185,
+ "retrieval_scores": [
+  0.8334783315658569,
+  0.8241756558418274,
+  0.8130060434341431,
+  0.8099281191825867,
+  0.7924380302429199
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3400,
+  "stop_reason": "end_turn",
+  "session_id": "5a5c4837-a7e0-4d0c-86c8-9618909fe6e1",
+  "total_cost_usd": 0.02443,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5119,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 395,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5119,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 395,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5119,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5119
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 395,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5119,
+    "webSearchRequests": 0,
+    "costUSD": 0.02443,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5119,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#16330\", \"terminal#19000\", \"terminal#14100\"], \"answer\": \"This has been reported before. Square brackets in the path are treated as wildcards by Windows PowerShell 5.1 when it sets its starting location, so it falls back to C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0 (or, per #19595, wt launched from such a path can land in the home directory). This is a known bug in Windows PowerShell 5.1 and is tracked in terminal#11149, not something Terminal can fix. The past tickets say the fix is to use PowerShell 7+ (pwsh) instead: install it and set it as the profile used for wt.exe and 'Open in Terminal' in File Explorer, or set it as your default profile. Note that #19595 reports that with PowerShell 7.5.4 launched via wt.exe the directory was still reset to the home directory, but that was without a starting directory set for the profile, which Terminal does not inherit from the parent process. If your issue persists in PowerShell 7 when --startingDirectory is passed explicitly, add that detail (shell version and exact command) to the existing tickets.\"}",
+  "ttft_ms": 3692,
+  "type": "result",
+  "duration_ms": 3714,
+  "uuid": "85697465-ffb1-4fc7-b1bf-d9c5f1a32b03",
+  "ttft_stream_ms": 751,
+  "time_to_request_ms": 312,
+  "first_content_frame_ms": 751,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 395,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5119,
+    "webSearchRequests": 0,
+    "costUSD": 0.02443,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5119,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.4943896569893695,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-1nxh7eqt/work"
+  }
+ },
+ "wall_seconds": 4.513946507999208,
+ "qid": "terminal#20643",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#16330",
+   "terminal#19000",
+   "terminal#14100"
+  ],
+  "answer": "This has been reported before. Square brackets in the path are treated as wildcards by Windows PowerShell 5.1 when it sets its starting location, so it falls back to C:\\Windows\\System32\\WindowsPowerShell\\v1.0 (or, per #19595, wt launched from such a path can land in the home directory). This is a known bug in Windows PowerShell 5.1 and is tracked in terminal#11149, not something Terminal can fix. The past tickets say the fix is to use PowerShell 7+ (pwsh) instead: install it and set it as the profile used for wt.exe and 'Open in Terminal' in File Explorer, or set it as your default profile. Note that #19595 reports that with PowerShell 7.5.4 launched via wt.exe the directory was still reset to the home directory, but that was without a starting directory set for the profile, which Terminal does not inherit from the parent process. If your issue persists in PowerShell 7 when --startingDirectory is passed explicitly, add that detail (shell version and exact command) to the existing tickets."
+ },
+ "hit_turn_cap": false
+}

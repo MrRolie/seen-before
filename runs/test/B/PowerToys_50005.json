@@ -1,0 +1,370 @@
+{
+ "shown": [
+  "PowerToys#16487",
+  "PowerToys#20204",
+  "PowerToys#21147",
+  "PowerToys#21265",
+  "PowerToys#21570",
+  "PowerToys#21686",
+  "PowerToys#21998",
+  "PowerToys#2204",
+  "PowerToys#23193",
+  "PowerToys#24019",
+  "PowerToys#25129",
+  "PowerToys#26555",
+  "PowerToys#26703",
+  "PowerToys#269",
+  "PowerToys#27253",
+  "PowerToys#27261",
+  "PowerToys#28027",
+  "PowerToys#29157",
+  "PowerToys#29340",
+  "PowerToys#30016",
+  "PowerToys#3170",
+  "PowerToys#32402",
+  "PowerToys#34864",
+  "PowerToys#36614",
+  "PowerToys#36773",
+  "PowerToys#38530",
+  "PowerToys#39432",
+  "PowerToys#39745",
+  "PowerToys#39856",
+  "PowerToys#39961",
+  "PowerToys#40179",
+  "PowerToys#43283",
+  "PowerToys#43695",
+  "PowerToys#43724",
+  "PowerToys#44072",
+  "PowerToys#44403",
+  "PowerToys#44568",
+  "PowerToys#45201",
+  "PowerToys#45492",
+  "PowerToys#45635",
+  "PowerToys#46725"
+ ],
+ "retrieval_seconds": 0.43490660600946285,
+ "tool_calls": [
+  {
+   "t": 1794880756.4531918,
+   "tool": "search",
+   "args": {
+    "pattern": "hosts profiles",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04716652398929,
+   "returned": []
+  },
+  {
+   "t": 1794880758.1767719,
+   "tool": "search",
+   "args": {
+    "pattern": "hosts",
+    "regex": false,
+    "also": [
+     "profile"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10946280398638919,
+   "returned": [
+    "PowerToys#29340",
+    "PowerToys#44072",
+    "PowerToys#20204",
+    "PowerToys#45201",
+    "PowerToys#43724",
+    "PowerToys#38530",
+    "PowerToys#36773",
+    "PowerToys#30016",
+    "PowerToys#29157",
+    "PowerToys#27253",
+    "PowerToys#21998",
+    "PowerToys#21147"
+   ]
+  },
+  {
+   "t": 1794880758.5998466,
+   "tool": "search",
+   "args": {
+    "pattern": "hosts",
+    "regex": false,
+    "also": [
+     "environment"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1427257280156482,
+   "returned": [
+    "PowerToys#29340",
+    "PowerToys#23193",
+    "PowerToys#39856",
+    "PowerToys#28027",
+    "PowerToys#45492",
+    "PowerToys#39432",
+    "PowerToys#44072",
+    "PowerToys#2204",
+    "PowerToys#40179",
+    "PowerToys#39745",
+    "PowerToys#36614",
+    "PowerToys#34864",
+    "PowerToys#24019",
+    "PowerToys#46725",
+    "PowerToys#45635",
+    "PowerToys#45201",
+    "PowerToys#44568",
+    "PowerToys#44403",
+    "PowerToys#43695",
+    "PowerToys#43283"
+   ]
+  },
+  {
+   "t": 1794880759.640304,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#20204"
+   },
+   "seconds": 0.0002104940067511052,
+   "returned": [
+    "PowerToys#20204"
+   ]
+  },
+  {
+   "t": 1794880760.0934374,
+   "tool": "search",
+   "args": {
+    "pattern": "hosts file",
+    "regex": false,
+    "also": [
+     "switch"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.13504567299969494,
+   "returned": [
+    "PowerToys#21686",
+    "PowerToys#26555",
+    "PowerToys#32402",
+    "PowerToys#21570",
+    "PowerToys#39961",
+    "PowerToys#26703",
+    "PowerToys#21265",
+    "PowerToys#20204",
+    "PowerToys#30016",
+    "PowerToys#27261",
+    "PowerToys#25129",
+    "PowerToys#16487",
+    "PowerToys#3170",
+    "PowerToys#269"
+   ]
+  },
+  {
+   "t": 1794880761.012753,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21570"
+   },
+   "seconds": 0.00019046501256525517,
+   "returned": [
+    "PowerToys#21570"
+   ]
+  },
+  {
+   "t": 1794880761.071893,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#21686"
+   },
+   "seconds": 0.00010491799912415445,
+   "returned": [
+    "PowerToys#21686"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 8230,
+  "stop_reason": "end_turn",
+  "session_id": "3a70aa5e-98a9-4b98-a03e-76cc186705ad",
+  "total_cost_usd": 0.0629128,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 12499,
+   "cache_read_input_tokens": 26768,
+   "output_tokens": 1022,
+   "output_tokens_details": {
+    "thinking_tokens": 52
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 12499,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 335,
+     "cache_read_input_tokens": 12476,
+     "cache_creation_input_tokens": 1200,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1200
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1022,
+    "cacheReadInputTokens": 26768,
+    "cacheCreationInputTokens": 12499,
+    "webSearchRequests": 0,
+    "costUSD": 0.0629128,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 52,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12499,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#21686\", \"PowerToys#21570\", \"PowerToys#20204\"], \"answer\": \"This feature request has been made before, and I found no sign in the archive that it has been built. PowerToys#21686 asks for named groups of host entries (for example Local and Live) that can be switched on or off together, which is essentially your Hosts Profiles idea. PowerToys#21570 and PowerToys#20204 ask for multiple hosts files or sets that you can swap between. Please add your scenarios (local, staging and production, QA sandbox, office versus VPN) to those tickets instead of opening a new one. Until something ships, you can use the Hosts File Editor to switch individual entries on or off by hand. Hosts File Editor makes backups of the hosts file, and you can restore from them if the file is overwritten.\"}",
+  "ttft_ms": 1037,
+  "type": "result",
+  "duration_ms": 8611,
+  "uuid": "53812f74-1680-4559-a581-d7eb0a1222f3",
+  "ttft_stream_ms": 684,
+  "time_to_request_ms": 56,
+  "first_content_frame_ms": 684,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1022,
+    "cacheReadInputTokens": 26768,
+    "cacheCreationInputTokens": 12499,
+    "webSearchRequests": 0,
+    "costUSD": 0.0629128,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 52,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 12499,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 10.014095134014497,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-_9ezu9gu/work"
+  }
+ },
+ "wall_seconds": 10.016491661022883,
+ "qid": "PowerToys#50005",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#21686",
+   "PowerToys#21570",
+   "PowerToys#20204"
+  ],
+  "answer": "This feature request has been made before, and I found no sign in the archive that it has been built. PowerToys#21686 asks for named groups of host entries (for example Local and Live) that can be switched on or off together, which is essentially your Hosts Profiles idea. PowerToys#21570 and PowerToys#20204 ask for multiple hosts files or sets that you can swap between. Please add your scenarios (local, staging and production, QA sandbox, office versus VPN) to those tickets instead of opening a new one. Until something ships, you can use the Hosts File Editor to switch individual entries on or off by hand. Hosts File Editor makes backups of the hosts file, and you can restore from them if the file is overwritten."
+ },
+ "hit_turn_cap": false
+}

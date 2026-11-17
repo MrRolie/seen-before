@@ -1,0 +1,20 @@
+[
+ {
+  "qid": "PowerToys#49060",
+  "connector": [
+   "PowerToys#11655",
+   "PowerToys#25520",
+   "PowerToys#12686"
+  ],
+  "pilot_B": [
+   "PowerToys#11655",
+   "PowerToys#12686",
+   "PowerToys#25520"
+  ],
+  "hit1": true,
+  "hidden_self_shown": false,
+  "turns": 12,
+  "wall": 17.5,
+  "cost": 0.08452769999999998
+ }
+]

@@ -1,0 +1,386 @@
+{
+ "shown": [
+  "PowerToys#12827",
+  "PowerToys#14028",
+  "PowerToys#14071",
+  "PowerToys#14082",
+  "PowerToys#146",
+  "PowerToys#16348",
+  "PowerToys#18015",
+  "PowerToys#18335",
+  "PowerToys#1908",
+  "PowerToys#19587",
+  "PowerToys#20349",
+  "PowerToys#20718",
+  "PowerToys#21491",
+  "PowerToys#24206",
+  "PowerToys#24919",
+  "PowerToys#25595",
+  "PowerToys#27816",
+  "PowerToys#27926",
+  "PowerToys#29565",
+  "PowerToys#30169",
+  "PowerToys#30319",
+  "PowerToys#31226",
+  "PowerToys#31684",
+  "PowerToys#31760",
+  "PowerToys#32197",
+  "PowerToys#32800",
+  "PowerToys#32819",
+  "PowerToys#35512",
+  "PowerToys#36044",
+  "PowerToys#37214",
+  "PowerToys#37362",
+  "PowerToys#38530",
+  "PowerToys#38819",
+  "PowerToys#39454",
+  "PowerToys#39555",
+  "PowerToys#40298",
+  "PowerToys#41655",
+  "PowerToys#41667",
+  "PowerToys#41849",
+  "PowerToys#42348",
+  "PowerToys#43110",
+  "PowerToys#4349",
+  "PowerToys#43721",
+  "PowerToys#43928",
+  "PowerToys#44158",
+  "PowerToys#44258",
+  "PowerToys#45021",
+  "PowerToys#45201",
+  "PowerToys#45264",
+  "PowerToys#46809",
+  "PowerToys#47418",
+  "PowerToys#47940",
+  "PowerToys#48184",
+  "PowerToys#48756",
+  "PowerToys#4989",
+  "PowerToys#65",
+  "PowerToys#8976"
+ ],
+ "retrieval_seconds": 0.2646689480752684,
+ "tool_calls": [
+  {
+   "t": 1794879292.0630581,
+   "tool": "search",
+   "args": {
+    "pattern": "full screen",
+    "regex": false,
+    "also": [
+     "disable"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11728285200661048,
+   "returned": [
+    "PowerToys#14071",
+    "PowerToys#8976",
+    "PowerToys#44158",
+    "PowerToys#32197",
+    "PowerToys#16348",
+    "PowerToys#4349",
+    "PowerToys#65",
+    "PowerToys#41849",
+    "PowerToys#25595",
+    "PowerToys#12827",
+    "PowerToys#41667",
+    "PowerToys#41655",
+    "PowerToys#30169",
+    "PowerToys#14082",
+    "PowerToys#14028",
+    "PowerToys#4989",
+    "PowerToys#1908",
+    "PowerToys#48756",
+    "PowerToys#47418",
+    "PowerToys#45201"
+   ]
+  },
+  {
+   "t": 1794879292.2332237,
+   "tool": "search",
+   "args": {
+    "pattern": "game mode",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.04186179401585832,
+   "returned": [
+    "PowerToys#19587",
+    "PowerToys#40298",
+    "PowerToys#37362",
+    "PowerToys#20349",
+    "PowerToys#31684",
+    "PowerToys#29565",
+    "PowerToys#27926",
+    "PowerToys#14082",
+    "PowerToys#47940",
+    "PowerToys#45264",
+    "PowerToys#38819",
+    "PowerToys#46809",
+    "PowerToys#42348",
+    "PowerToys#39555",
+    "PowerToys#35512",
+    "PowerToys#32800",
+    "PowerToys#31760",
+    "PowerToys#30319",
+    "PowerToys#27816",
+    "PowerToys#24919"
+   ]
+  },
+  {
+   "t": 1794879292.6872225,
+   "tool": "search",
+   "args": {
+    "pattern": "resource",
+    "regex": false,
+    "also": [
+     "games"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.10506604402326047,
+   "returned": [
+    "PowerToys#18015",
+    "PowerToys#31226",
+    "PowerToys#37214",
+    "PowerToys#48184",
+    "PowerToys#45201",
+    "PowerToys#146",
+    "PowerToys#25595",
+    "PowerToys#20718",
+    "PowerToys#24206",
+    "PowerToys#21491",
+    "PowerToys#18335",
+    "PowerToys#45021",
+    "PowerToys#44258",
+    "PowerToys#43928",
+    "PowerToys#43721",
+    "PowerToys#43110",
+    "PowerToys#39454",
+    "PowerToys#38530",
+    "PowerToys#36044",
+    "PowerToys#32819"
+   ]
+  },
+  {
+   "t": 1794879294.2787263,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48184"
+   },
+   "seconds": 0.00016579602379351854,
+   "returned": [
+    "PowerToys#48184"
+   ]
+  },
+  {
+   "t": 1794879294.5619833,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#29565"
+   },
+   "seconds": 0.00016981500084511936,
+   "returned": [
+    "PowerToys#29565"
+   ]
+  },
+  {
+   "t": 1794879294.7437913,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#42348"
+   },
+   "seconds": 0.00012264700490050018,
+   "returned": [
+    "PowerToys#42348"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 7141,
+  "stop_reason": "end_turn",
+  "session_id": "30312ec7-0804-41c0-a55b-d88f9e087fd1",
+  "total_cost_usd": 0.0756123,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 16317,
+   "cache_read_input_tokens": 17023,
+   "output_tokens": 863,
+   "output_tokens_details": {
+    "thinking_tokens": 62
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 16317,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 335,
+     "cache_read_input_tokens": 14109,
+     "cache_creation_input_tokens": 3385,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3385
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 863,
+    "cacheReadInputTokens": 17023,
+    "cacheCreationInputTokens": 16317,
+    "webSearchRequests": 0,
+    "costUSD": 0.0756123,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 62,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 16317,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48184\", \"PowerToys#29565\", \"PowerToys#42348\"], \"answer\": \"This feature request has been filed before. PowerToys#48184 asks for automatic profiles that turn modules off while a game or heavy app runs, and turn them back on when it exits. PowerToys#29565 and PowerToys#42348 ask for the same thing. #29565 was closed as a duplicate of #20615, which I didn't read. In #42348 a maintainer said they would also like profiles like this, but none of the three tickets says it has been built. Until it is, you have a few options. Use the per-module 'Do not activate when Game Mode is on' option where a module has it, for example Find My Mouse, Quick Accent, FancyZones and Always On Top. Add games to a module's excluded-apps list. Or turn off the modules you don't need, or exit PowerToys, while you play. Add your use case or a thumbs-up to #48184 rather than opening a new ticket.\"}",
+  "ttft_ms": 1237,
+  "type": "result",
+  "duration_ms": 7284,
+  "uuid": "829bdb5d-bfef-4bdc-888f-a8e7a38f75db",
+  "ttft_stream_ms": 648,
+  "time_to_request_ms": 27,
+  "first_content_frame_ms": 648,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 863,
+    "cacheReadInputTokens": 17023,
+    "cacheCreationInputTokens": 16317,
+    "webSearchRequests": 0,
+    "costUSD": 0.0756123,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 62,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 16317,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 8.734307392995106,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-vxl964_q/work"
+  }
+ },
+ "wall_seconds": 8.736164308997104,
+ "qid": "PowerToys#49630",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48184",
+   "PowerToys#29565",
+   "PowerToys#42348"
+  ],
+  "answer": "This feature request has been filed before. PowerToys#48184 asks for automatic profiles that turn modules off while a game or heavy app runs, and turn them back on when it exits. PowerToys#29565 and PowerToys#42348 ask for the same thing. #29565 was closed as a duplicate of #20615, which I didn't read. In #42348 a maintainer said they would also like profiles like this, but none of the three tickets says it has been built. Until it is, you have a few options. Use the per-module 'Do not activate when Game Mode is on' option where a module has it, for example Find My Mouse, Quick Accent, FancyZones and Always On Top. Add games to a module's excluded-apps list. Or turn off the modules you don't need, or exit PowerToys, while you play. Add your use case or a thumbs-up to #48184 rather than opening a new ticket."
+ },
+ "hit_turn_cap": false
+}

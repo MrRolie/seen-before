@@ -1,0 +1,262 @@
+{
+ "shown": [
+  "terminal#10320",
+  "terminal#10939",
+  "terminal#11154",
+  "terminal#12756",
+  "terminal#16387",
+  "terminal#835",
+  "terminal#9082",
+  "terminal#9100",
+  "terminal#9218"
+ ],
+ "retrieval_seconds": 0.0859661329886876,
+ "tool_calls": [
+  {
+   "t": 1794880125.0143218,
+   "tool": "search",
+   "args": {
+    "pattern": "vertical tabs",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.027464199985843152,
+   "returned": [
+    "terminal#835",
+    "terminal#12756",
+    "terminal#11154",
+    "terminal#16387",
+    "terminal#10939",
+    "terminal#9100",
+    "terminal#10320",
+    "terminal#9218",
+    "terminal#9082"
+   ]
+  },
+  {
+   "t": 1794880125.4551582,
+   "tool": "search",
+   "args": {
+    "pattern": "vertical tab",
+    "regex": false,
+    "also": [
+     "sidebar"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.05812307298765518,
+   "returned": [
+    "terminal#835"
+   ]
+  },
+  {
+   "t": 1794880126.530024,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#835"
+   },
+   "seconds": 0.0001775550190359354,
+   "returned": [
+    "terminal#835"
+   ]
+  },
+  {
+   "t": 1794880126.6674228,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#12756"
+   },
+   "seconds": 0.00020130499615333974,
+   "returned": [
+    "terminal#12756"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 5256,
+  "stop_reason": "end_turn",
+  "session_id": "8841e4a4-a2cf-47bc-b13e-fa009d635a90",
+  "total_cost_usd": 0.0322101,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 6376,
+   "cache_read_input_tokens": 6641,
+   "output_tokens": 603,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6376,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 300,
+     "cache_read_input_tokens": 3741,
+     "cache_creation_input_tokens": 3812,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3812
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 603,
+    "cacheReadInputTokens": 6641,
+    "cacheCreationInputTokens": 6376,
+    "webSearchRequests": 0,
+    "costUSD": 0.0322101,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6376,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"terminal#835\", \"terminal#12756\", \"terminal#10939\"], \"answer\": \"Vertical tabs, like Edge's side tabs, have been requested before. The main tracking issue is terminal#835. Other vertical-tab requests, such as terminal#12756, were closed as duplicates of it. That makes your ticket a duplicate too, so please add your use case there. Vertical tabs aren't implemented yet. The maintainers say the blocker is that the WinUI TabView control only supports tabs above the content. This is tracked upstream at microsoft-ui-xaml#2194. They would accept a contribution that adds it. Your ask for a grouped, session-style list is related to terminal#16387 (side panels). That ticket was discussed as a setting for how vertical tabs work once #835 is done. Until then, the workaround is to give each tab a distinct, short title.\"}",
+  "ttft_ms": 915,
+  "type": "result",
+  "duration_ms": 5352,
+  "uuid": "c92d0cb8-f5cf-40e6-8c1a-b791bcbd2baa",
+  "ttft_stream_ms": 562,
+  "time_to_request_ms": 29,
+  "first_content_frame_ms": 562,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 603,
+    "cacheReadInputTokens": 6641,
+    "cacheCreationInputTokens": 6376,
+    "webSearchRequests": 0,
+    "costUSD": 0.0322101,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6376,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 6.841877915983787,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-y0sonlmd/work"
+  }
+ },
+ "wall_seconds": 6.84402912799851,
+ "qid": "terminal#20547",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#835",
+   "terminal#12756",
+   "terminal#10939"
+  ],
+  "answer": "Vertical tabs, like Edge's side tabs, have been requested before. The main tracking issue is terminal#835. Other vertical-tab requests, such as terminal#12756, were closed as duplicates of it. That makes your ticket a duplicate too, so please add your use case there. Vertical tabs aren't implemented yet. The maintainers say the blocker is that the WinUI TabView control only supports tabs above the content. This is tracked upstream at microsoft-ui-xaml#2194. They would accept a contribution that adds it. Your ask for a grouped, session-style list is related to terminal#16387 (side panels). That ticket was discussed as a setting for how vertical tabs work once #835 is done. Until then, the workaround is to give each tab a distinct, short title."
+ },
+ "hit_turn_cap": false
+}

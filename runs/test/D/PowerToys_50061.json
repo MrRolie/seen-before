@@ -1,0 +1,389 @@
+{
+ "shown": [
+  "PowerToys#11279",
+  "PowerToys#1898",
+  "PowerToys#32331",
+  "PowerToys#38204",
+  "PowerToys#38217",
+  "PowerToys#39090",
+  "PowerToys#39189",
+  "PowerToys#40114",
+  "PowerToys#40572",
+  "PowerToys#41647",
+  "PowerToys#41721",
+  "PowerToys#41726",
+  "PowerToys#42032",
+  "PowerToys#42191",
+  "PowerToys#43982",
+  "PowerToys#44252",
+  "PowerToys#44476",
+  "PowerToys#44894",
+  "PowerToys#45069",
+  "PowerToys#45755",
+  "PowerToys#46153",
+  "PowerToys#46425",
+  "PowerToys#47045",
+  "PowerToys#47184",
+  "PowerToys#47274",
+  "PowerToys#48853",
+  "PowerToys#48913",
+  "PowerToys#4932",
+  "PowerToys#5656",
+  "PowerToys#5738",
+  "PowerToys#5781",
+  "PowerToys#5922",
+  "PowerToys#5929",
+  "PowerToys#6493",
+  "PowerToys#6510",
+  "PowerToys#6851",
+  "PowerToys#7393",
+  "PowerToys#8544",
+  "PowerToys#9676",
+  "PowerToys#9719"
+ ],
+ "retrieval_seconds": 4.035635651031043,
+ "tool_calls": [
+  {
+   "t": 1794881112.998303,
+   "tool": "search",
+   "args": {
+    "pattern": "UWPApplication.<>c__DisplayClass64_0",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05941291997442022,
+   "returned": [
+    "PowerToys#47045",
+    "PowerToys#41726",
+    "PowerToys#40572",
+    "PowerToys#38217",
+    "PowerToys#38204",
+    "PowerToys#48913",
+    "PowerToys#48853",
+    "PowerToys#47274",
+    "PowerToys#46425",
+    "PowerToys#46153",
+    "PowerToys#45755",
+    "PowerToys#45069",
+    "PowerToys#44894",
+    "PowerToys#44476",
+    "PowerToys#44252",
+    "PowerToys#43982",
+    "PowerToys#42191",
+    "PowerToys#42032",
+    "PowerToys#41721",
+    "PowerToys#41647"
+   ]
+  },
+  {
+   "t": 1794881117.169439,
+   "tool": "similar",
+   "args": {
+    "query": "PowerToys Run crash NullReferenceException UWPApplication Launch packaged app \"Something is wrong\" advanced options repair",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.856890986004146,
+   "returned": [
+    "PowerToys#40114",
+    "PowerToys#4932",
+    "PowerToys#32331",
+    "PowerToys#47184",
+    "PowerToys#1898",
+    "PowerToys#5781",
+    "PowerToys#5922",
+    "PowerToys#5929",
+    "PowerToys#9719",
+    "PowerToys#39090",
+    "PowerToys#8544",
+    "PowerToys#6510",
+    "PowerToys#39189",
+    "PowerToys#5738",
+    "PowerToys#6493",
+    "PowerToys#9676",
+    "PowerToys#11279",
+    "PowerToys#7393",
+    "PowerToys#6851",
+    "PowerToys#5656"
+   ]
+  },
+  {
+   "t": 1794881118.1594663,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#41726"
+   },
+   "seconds": 0.00010190700413659215,
+   "returned": [
+    "PowerToys#41726"
+   ]
+  },
+  {
+   "t": 1794881118.3705556,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#47184"
+   },
+   "seconds": 0.0001226270105689764,
+   "returned": [
+    "PowerToys#47184"
+   ]
+  },
+  {
+   "t": 1794881118.5495145,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46153"
+   },
+   "seconds": 0.0001925349934026599,
+   "returned": [
+    "PowerToys#46153"
+   ]
+  },
+  {
+   "t": 1794881119.456479,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#39090"
+   },
+   "seconds": 0.00012264700490050018,
+   "returned": [
+    "PowerToys#39090"
+   ]
+  },
+  {
+   "t": 1794881120.6632097,
+   "tool": "search",
+   "args": {
+    "pattern": "advanced options",
+    "regex": false,
+    "also": [
+     "UWPApplication"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11837698900490068,
+   "returned": []
+  },
+  {
+   "t": 1794881121.4476666,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46425"
+   },
+   "seconds": 0.00014038602239452302,
+   "returned": [
+    "PowerToys#46425"
+   ]
+  },
+  {
+   "t": 1794881122.2275605,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#45069"
+   },
+   "seconds": 0.00013561701052822173,
+   "returned": [
+    "PowerToys#45069"
+   ]
+  },
+  {
+   "t": 1794881123.133968,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#40114"
+   },
+   "seconds": 0.0001390370016451925,
+   "returned": [
+    "PowerToys#40114"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 11168,
+  "stop_reason": "end_turn",
+  "session_id": "7db63718-145c-4574-aa3d-cdd3d0d4e0b6",
+  "total_cost_usd": 0.0784723,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 14431,
+   "cache_read_input_tokens": 89523,
+   "output_tokens": 1176,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 14431,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 360,
+     "cache_read_input_tokens": 15734,
+     "cache_creation_input_tokens": 110,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 110
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1176,
+    "cacheReadInputTokens": 89523,
+    "cacheCreationInputTokens": 14431,
+    "webSearchRequests": 0,
+    "costUSD": 0.0784723,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14431,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#39090\", \"PowerToys#46153\", \"PowerToys#45069\"], \"answer\": \"This is a known PowerToys Run crash. Launching a packaged (UWP/MSIX) app throws a NullReferenceException in UWPApplication.Launch. The same stack trace has been reported many times, for Camera, Settings, Codex and Outlook. The maintainers closed those reports as duplicates of PowerToys#39090, which is the tracking issue, and I found no fix or workaround in those tickets. Subscribe to #39090 for updates and add your details there: version 0.99.1, Claude Desktop, and the 'Something is wrong' dialog followed by the crash. Your 'Something is wrong' message suggests the Claude Desktop package registration may be damaged. Repairing or reinstalling the app from Windows Settings > Apps may fix the launch error itself, though I can't confirm that from the archive. In the meantime, start Claude Desktop from the Start menu. Update PowerToys to the latest version and restart it.\"}",
+  "ttft_ms": 1170,
+  "type": "result",
+  "duration_ms": 15221,
+  "uuid": "bc59e731-a33e-48a6-9c36-40680b2ac60e",
+  "ttft_stream_ms": 583,
+  "time_to_request_ms": 25,
+  "first_content_frame_ms": 583,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 1176,
+    "cacheReadInputTokens": 89523,
+    "cacheCreationInputTokens": 14431,
+    "webSearchRequests": 0,
+    "costUSD": 0.0784723,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 14431,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 16.701948789996095,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-j3bplgn_/work"
+  }
+ },
+ "wall_seconds": 16.704799469007412,
+ "qid": "PowerToys#50061",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#39090",
+   "PowerToys#46153",
+   "PowerToys#45069"
+  ],
+  "answer": "This is a known PowerToys Run crash. Launching a packaged (UWP/MSIX) app throws a NullReferenceException in UWPApplication.Launch. The same stack trace has been reported many times, for Camera, Settings, Codex and Outlook. The maintainers closed those reports as duplicates of PowerToys#39090, which is the tracking issue, and I found no fix or workaround in those tickets. Subscribe to #39090 for updates and add your details there: version 0.99.1, Claude Desktop, and the 'Something is wrong' dialog followed by the crash. Your 'Something is wrong' message suggests the Claude Desktop package registration may be damaged. Repairing or reinstalling the app from Windows Settings > Apps may fix the launch error itself, though I can't confirm that from the archive. In the meantime, start Claude Desktop from the Start menu. Update PowerToys to the latest version and restart it."
+ },
+ "hit_turn_cap": false
+}

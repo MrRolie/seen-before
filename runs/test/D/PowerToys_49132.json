@@ -1,0 +1,340 @@
+{
+ "shown": [
+  "PowerToys#10202",
+  "PowerToys#11019",
+  "PowerToys#11514",
+  "PowerToys#1810",
+  "PowerToys#19521",
+  "PowerToys#23666",
+  "PowerToys#2608",
+  "PowerToys#3498",
+  "PowerToys#3773",
+  "PowerToys#38389",
+  "PowerToys#38462",
+  "PowerToys#38487",
+  "PowerToys#38593",
+  "PowerToys#38665",
+  "PowerToys#39281",
+  "PowerToys#4146",
+  "PowerToys#41629",
+  "PowerToys#41735",
+  "PowerToys#45171",
+  "PowerToys#45325",
+  "PowerToys#45466",
+  "PowerToys#45503",
+  "PowerToys#45509",
+  "PowerToys#46237",
+  "PowerToys#46304",
+  "PowerToys#4637",
+  "PowerToys#47933",
+  "PowerToys#5958",
+  "PowerToys#6809"
+ ],
+ "retrieval_seconds": 3.9769765920063946,
+ "tool_calls": [
+  {
+   "t": 1794877639.0178826,
+   "tool": "similar",
+   "args": {
+    "query": "Command Palette search system commands by English name when locale is non-English",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.6366133430274203,
+   "returned": [
+    "PowerToys#10202",
+    "PowerToys#11019",
+    "PowerToys#2608",
+    "PowerToys#46304",
+    "PowerToys#45466",
+    "PowerToys#38487",
+    "PowerToys#3498",
+    "PowerToys#38593",
+    "PowerToys#5958",
+    "PowerToys#38665",
+    "PowerToys#11514",
+    "PowerToys#1810",
+    "PowerToys#4146",
+    "PowerToys#19521",
+    "PowerToys#23666",
+    "PowerToys#3773",
+    "PowerToys#4637",
+    "PowerToys#41735",
+    "PowerToys#41629",
+    "PowerToys#6809"
+   ]
+  },
+  {
+   "t": 1794877639.1987503,
+   "tool": "search",
+   "args": {
+    "pattern": "English",
+    "regex": false,
+    "also": [
+     "CmdPal",
+     "locali"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.16702544200234115,
+   "returned": [
+    "PowerToys#39281",
+    "PowerToys#45171",
+    "PowerToys#47933",
+    "PowerToys#38487",
+    "PowerToys#46237",
+    "PowerToys#45509",
+    "PowerToys#45503",
+    "PowerToys#45325",
+    "PowerToys#38389"
+   ]
+  },
+  {
+   "t": 1794877640.6718347,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46304"
+   },
+   "seconds": 0.00015701600932516158,
+   "returned": [
+    "PowerToys#46304"
+   ]
+  },
+  {
+   "t": 1794877641.0100114,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38593"
+   },
+   "seconds": 0.0001498060009907931,
+   "returned": [
+    "PowerToys#38593"
+   ]
+  },
+  {
+   "t": 1794877641.1005085,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#38665"
+   },
+   "seconds": 0.00017692497931420803,
+   "returned": [
+    "PowerToys#38665"
+   ]
+  },
+  {
+   "t": 1794877642.8805463,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#11019"
+   },
+   "seconds": 0.00015792599879205227,
+   "returned": [
+    "PowerToys#11019"
+   ]
+  },
+  {
+   "t": 1794877644.5662026,
+   "tool": "search",
+   "args": {
+    "pattern": "system commands",
+    "regex": false,
+    "also": [
+     "CmdPal",
+     "English"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.17269613398821093,
+   "returned": [
+    "PowerToys#38462"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12375,
+  "stop_reason": "end_turn",
+  "session_id": "99dcfac6-a753-432e-8143-a83fd238bf52",
+  "total_cost_usd": 0.0381593,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 6564,
+   "cache_read_input_tokens": 30793,
+   "output_tokens": 880,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 6564,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 299,
+     "cache_read_input_tokens": 7887,
+     "cache_creation_input_tokens": 90,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 90
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 880,
+    "cacheReadInputTokens": 30793,
+    "cacheCreationInputTokens": 6564,
+    "webSearchRequests": 0,
+    "costUSD": 0.0381593,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6564,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I accidentally called a tool that doesn't exist. I have enough from the archive to answer now, so I'm finishing up.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#38593\", \"PowerToys#38665\", \"PowerToys#46304\"], \"answer\": \"This has been requested before. PowerToys#38593 asks for an option to use English system command names in Command Palette, as PowerToys Run allowed. PowerToys#38665 is a duplicate of it. PowerToys#46304 asks for CmdPal to search in English and the display language at the same time. The maintainers say partial support exists for Pinyin, but they haven't decided how deep to take it. They are also weighing the cost in space and time, and how to expose it in the API. I found no fix or workaround in those tickets. For now, type the localized name, for example 再起動. You can add your use case and a 👍 to #38593 to help prioritize it.\"}",
+  "ttft_ms": 2423,
+  "type": "result",
+  "duration_ms": 16438,
+  "uuid": "419a674c-8010-44f2-94e3-b95b4e631e6b",
+  "ttft_stream_ms": 1375,
+  "time_to_request_ms": 34,
+  "first_content_frame_ms": 1376,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 880,
+    "cacheReadInputTokens": 30793,
+    "cacheCreationInputTokens": 6564,
+    "webSearchRequests": 0,
+    "costUSD": 0.0381593,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 6564,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 17.70618211000692,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-m7e5xgi3/work"
+  }
+ },
+ "wall_seconds": 17.708009193011094,
+ "qid": "PowerToys#49132",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#38593",
+   "PowerToys#38665",
+   "PowerToys#46304"
+  ],
+  "answer": "This has been requested before. PowerToys#38593 asks for an option to use English system command names in Command Palette, as PowerToys Run allowed. PowerToys#38665 is a duplicate of it. PowerToys#46304 asks for CmdPal to search in English and the display language at the same time. The maintainers say partial support exists for Pinyin, but they haven't decided how deep to take it. They are also weighing the cost in space and time, and how to expose it in the API. I found no fix or workaround in those tickets. For now, type the localized name, for example 再起動. You can add your use case and a 👍 to #38593 to help prioritize it."
+ },
+ "hit_turn_cap": false
+}

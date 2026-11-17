@@ -1,0 +1,191 @@
+{
+ "shown": [
+  "terminal#18713",
+  "terminal#11191",
+  "terminal#12772",
+  "terminal#12813",
+  "terminal#17249"
+ ],
+ "retrieval_seconds": 0.016551025997614488,
+ "retrieval_scores": [
+  0.6957135200500488,
+  0.6756503582000732,
+  0.6604650616645813,
+  0.6572750210762024,
+  0.6539203524589539
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 2089,
+  "stop_reason": "end_turn",
+  "session_id": "59579297-1eb6-4cd4-aa5c-4291cd61159a",
+  "total_cost_usd": 0.025776,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 5858,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 234,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 5858,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 234,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 5858,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5858
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 234,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5858,
+    "webSearchRequests": 0,
+    "costUSD": 0.025776,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5858,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"None of the archived tickets report this problem. A freeze of a couple of seconds when switching input language (Win+Space or Alt+Shift) with many tabs open does not appear in the archive. The closest tickets describe different problems: freezes tied to a third-party IME (terminal#18713), freezes caused by one busy tab (terminal#11191, fixed in 1.11), and Windows Insider build typing freezes (terminal#12772, terminal#12813). Please file this as a new issue. Include the ETW/WPR capture you offered, and ideally a controlled test of freeze duration against tab count, so the scaling hypothesis can be confirmed.\"}",
+  "ttft_ms": 2268,
+  "type": "result",
+  "duration_ms": 2283,
+  "uuid": "008f875b-c71a-4388-ad85-f3a35e588bf9",
+  "ttft_stream_ms": 677,
+  "time_to_request_ms": 194,
+  "first_content_frame_ms": 677,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 234,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 5858,
+    "webSearchRequests": 0,
+    "costUSD": 0.025776,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 5858,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 3.073986374976812,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-cp5skbaw/work"
+  }
+ },
+ "wall_seconds": 3.092384994990425,
+ "qid": "terminal#20389",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "None of the archived tickets report this problem. A freeze of a couple of seconds when switching input language (Win+Space or Alt+Shift) with many tabs open does not appear in the archive. The closest tickets describe different problems: freezes tied to a third-party IME (terminal#18713), freezes caused by one busy tab (terminal#11191, fixed in 1.11), and Windows Insider build typing freezes (terminal#12772, terminal#12813). Please file this as a new issue. Include the ETW/WPR capture you offered, and ideally a controlled test of freeze duration against tab count, so the scaling hypothesis can be confirmed."
+ },
+ "hit_turn_cap": false
+}

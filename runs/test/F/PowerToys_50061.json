@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#46153",
+  "PowerToys#38997",
+  "PowerToys#48913",
+  "PowerToys#47184",
+  "PowerToys#38217"
+ ],
+ "retrieval_seconds": 0.6237121940066572,
+ "retrieval_scores": [
+  0.030834914611005692,
+  0.027313266443701224,
+  0.026399331662489554,
+  0.024099685060933865,
+  0.0238230289279637
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 5970,
+  "stop_reason": "end_turn",
+  "session_id": "9bceb87d-97dc-4f1c-82cd-31a252faf95a",
+  "total_cost_usd": 0.037172,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 7487,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 722,
+   "output_tokens_details": {
+    "thinking_tokens": 347
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 7487,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 722,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 7487,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7487
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 722,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7487,
+    "webSearchRequests": 0,
+    "costUSD": 0.037172,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 347,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7487,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48913\", \"PowerToys#46153\", \"PowerToys#38997\"], \"answer\": \"This crash has been reported before. It has the same NullReferenceException in UWPApplication.Launch, and the past tickets were closed as duplicates of PowerToys#39090. That issue is the one tracking it, so subscribe there for updates. I can't see its contents, so I don't know of a fix or workaround. PowerToys#48913 describes the same Claude Desktop case. There the app failed to launch because of an unexpected file holder, and PowerToys Run then crashed instead of handling the failure. The crash is a PowerToys bug, and the failed launch itself looks like a separate problem. To work around it, don't click the buttons in the 'Something is wrong' dialog from PowerToys Run. Instead, open Settings > Apps > Installed apps > Claude > Advanced options and use Repair or Reset there, or reinstall the app. Then relaunch it. Until the bug is fixed, PowerToys Run will probably keep crashing whenever a packaged app fails to launch this way.\"}",
+  "ttft_ms": 3599,
+  "type": "result",
+  "duration_ms": 6181,
+  "uuid": "b460cb53-9b09-48d7-9763-0d2b992ea52d",
+  "ttft_stream_ms": 788,
+  "time_to_request_ms": 208,
+  "first_content_frame_ms": 788,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 722,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 7487,
+    "webSearchRequests": 0,
+    "costUSD": 0.037172,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 347,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 7487,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 7.04179058902082,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-te7_hkn5/work"
+  }
+ },
+ "wall_seconds": 7.66822279500775,
+ "qid": "PowerToys#50061",
+ "arm": "F",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48913",
+   "PowerToys#46153",
+   "PowerToys#38997"
+  ],
+  "answer": "This crash has been reported before. It has the same NullReferenceException in UWPApplication.Launch, and the past tickets were closed as duplicates of PowerToys#39090. That issue is the one tracking it, so subscribe there for updates. I can't see its contents, so I don't know of a fix or workaround. PowerToys#48913 describes the same Claude Desktop case. There the app failed to launch because of an unexpected file holder, and PowerToys Run then crashed instead of handling the failure. The crash is a PowerToys bug, and the failed launch itself looks like a separate problem. To work around it, don't click the buttons in the 'Something is wrong' dialog from PowerToys Run. Instead, open Settings > Apps > Installed apps > Claude > Advanced options and use Repair or Reset there, or reinstall the app. Then relaunch it. Until the bug is fixed, PowerToys Run will probably keep crashing whenever a packaged app fails to launch this way."
+ },
+ "hit_turn_cap": false
+}

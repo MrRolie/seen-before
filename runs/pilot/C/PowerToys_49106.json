@@ -1,0 +1,309 @@
+{
+ "shown": [
+  "PowerToys#12238",
+  "PowerToys#162",
+  "PowerToys#1623",
+  "PowerToys#170",
+  "PowerToys#171",
+  "PowerToys#1742",
+  "PowerToys#188",
+  "PowerToys#2454",
+  "PowerToys#2545",
+  "PowerToys#35189",
+  "PowerToys#37211",
+  "PowerToys#37212",
+  "PowerToys#37288",
+  "PowerToys#37561",
+  "PowerToys#38331",
+  "PowerToys#38337",
+  "PowerToys#40233",
+  "PowerToys#40684",
+  "PowerToys#43313",
+  "PowerToys#43619",
+  "PowerToys#43677",
+  "PowerToys#46350",
+  "PowerToys#46656",
+  "PowerToys#47173",
+  "PowerToys#47174",
+  "PowerToys#47329",
+  "PowerToys#48714",
+  "PowerToys#6434",
+  "PowerToys#7439",
+  "PowerToys#8014",
+  "PowerToys#8354",
+  "PowerToys#8819",
+  "PowerToys#9770"
+ ],
+ "retrieval_seconds": 3.6377981069963425,
+ "tool_calls": [
+  {
+   "t": 1794875763.6059499,
+   "tool": "search",
+   "args": {
+    "query": "ZoomIt arrow direction reversed, arrowhead at start of drag instead of end",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.6220772509987,
+   "returned": [
+    "PowerToys#37288",
+    "PowerToys#43619",
+    "PowerToys#37211",
+    "PowerToys#9770",
+    "PowerToys#162",
+    "PowerToys#170",
+    "PowerToys#8819",
+    "PowerToys#47329",
+    "PowerToys#1623",
+    "PowerToys#47174",
+    "PowerToys#2454",
+    "PowerToys#1742",
+    "PowerToys#43313",
+    "PowerToys#8014",
+    "PowerToys#35189",
+    "PowerToys#7439",
+    "PowerToys#38337",
+    "PowerToys#47173",
+    "PowerToys#6434",
+    "PowerToys#46656"
+   ]
+  },
+  {
+   "t": 1794875763.634687,
+   "tool": "search",
+   "args": {
+    "query": "ZoomIt draw arrow setting to choose arrow direction",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.015413424000144005,
+   "returned": [
+    "PowerToys#37211",
+    "PowerToys#43619",
+    "PowerToys#162",
+    "PowerToys#7439",
+    "PowerToys#40684",
+    "PowerToys#48714",
+    "PowerToys#2545",
+    "PowerToys#188",
+    "PowerToys#171",
+    "PowerToys#37561",
+    "PowerToys#43677",
+    "PowerToys#38331",
+    "PowerToys#46350",
+    "PowerToys#37288",
+    "PowerToys#8354",
+    "PowerToys#8014",
+    "PowerToys#40233",
+    "PowerToys#47173",
+    "PowerToys#37212",
+    "PowerToys#12238"
+   ]
+  },
+  {
+   "t": 1794875764.5647736,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#37211"
+   },
+   "seconds": 0.0001172969932667911,
+   "returned": [
+    "PowerToys#37211"
+   ]
+  },
+  {
+   "t": 1794875764.6109304,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#43619"
+   },
+   "seconds": 0.00019013500423170626,
+   "returned": [
+    "PowerToys#43619"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 4893,
+  "stop_reason": "end_turn",
+  "session_id": "d6a45da8-f7fb-426e-b81d-d79143d4a9fe",
+  "total_cost_usd": 0.0225228,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 4068,
+   "cache_read_input_tokens": 7088,
+   "output_tokens": 553,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 4068,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 233,
+     "cache_read_input_tokens": 4409,
+     "cache_creation_input_tokens": 692,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 692
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 553,
+    "cacheReadInputTokens": 7088,
+    "cacheCreationInputTokens": 4068,
+    "webSearchRequests": 0,
+    "costUSD": 0.0225228,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4068,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#37211\", \"PowerToys#43619\"], \"answer\": \"This request has been filed before. PowerToys#37211 asks for an option to draw ZoomIt arrows from body to tip instead of tip to body. PowerToys#43619 asks for the same thing, and it was closed as a duplicate of #37211. The archive shows no fix or setting yet, and the only reply on #37211 was a maintainer agreeing it's a good point. For now, ZoomIt draws the arrowhead at the point where the drag starts. Draw the arrow in reverse, starting from where you want the head to be. Add a +1 or a comment to #37211 to support the request.\"}",
+  "ttft_ms": 1206,
+  "type": "result",
+  "duration_ms": 8200,
+  "uuid": "92cbc7ee-dc38-482f-a308-dc6e4fe6f872",
+  "ttft_stream_ms": 543,
+  "time_to_request_ms": 35,
+  "first_content_frame_ms": 544,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 553,
+    "cacheReadInputTokens": 7088,
+    "cacheCreationInputTokens": 4068,
+    "webSearchRequests": 0,
+    "costUSD": 0.0225228,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 4068,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 9.545995814987691,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-1_kstp03/work"
+  }
+ },
+ "wall_seconds": 9.547915536997607,
+ "qid": "PowerToys#49106",
+ "arm": "C",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#37211",
+   "PowerToys#43619"
+  ],
+  "answer": "This request has been filed before. PowerToys#37211 asks for an option to draw ZoomIt arrows from body to tip instead of tip to body. PowerToys#43619 asks for the same thing, and it was closed as a duplicate of #37211. The archive shows no fix or setting yet, and the only reply on #37211 was a maintainer agreeing it's a good point. For now, ZoomIt draws the arrowhead at the point where the drag starts. Draw the arrow in reverse, starting from where you want the head to be. Add a +1 or a comment to #37211 to support the request."
+ },
+ "hit_turn_cap": false
+}

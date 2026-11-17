@@ -1,0 +1,366 @@
+{
+ "shown": [
+  "PowerToys#10050",
+  "PowerToys#1116",
+  "PowerToys#1163",
+  "PowerToys#11718",
+  "PowerToys#11954",
+  "PowerToys#12381",
+  "PowerToys#13155",
+  "PowerToys#13202",
+  "PowerToys#14175",
+  "PowerToys#1536",
+  "PowerToys#1948",
+  "PowerToys#2195",
+  "PowerToys#2590",
+  "PowerToys#2910",
+  "PowerToys#3088",
+  "PowerToys#3149",
+  "PowerToys#3152",
+  "PowerToys#3281",
+  "PowerToys#3533",
+  "PowerToys#3855",
+  "PowerToys#3881",
+  "PowerToys#417",
+  "PowerToys#4488",
+  "PowerToys#4753",
+  "PowerToys#48432",
+  "PowerToys#48773",
+  "PowerToys#48834",
+  "PowerToys#48906",
+  "PowerToys#48907",
+  "PowerToys#48914",
+  "PowerToys#48971",
+  "PowerToys#48972",
+  "PowerToys#49009",
+  "PowerToys#49013",
+  "PowerToys#49018",
+  "PowerToys#49020",
+  "PowerToys#49025",
+  "PowerToys#49035",
+  "PowerToys#49036",
+  "PowerToys#49037",
+  "PowerToys#49040",
+  "PowerToys#49045",
+  "PowerToys#49052",
+  "PowerToys#49053",
+  "PowerToys#5435",
+  "PowerToys#601",
+  "PowerToys#6023",
+  "PowerToys#6983",
+  "PowerToys#7512",
+  "PowerToys#7524",
+  "PowerToys#827"
+ ],
+ "retrieval_seconds": 3.7077615190064535,
+ "tool_calls": [
+  {
+   "t": 1794879841.03216,
+   "tool": "similar",
+   "args": {
+    "query": "Settings window doesn't open in v0.100.2",
+    "repo": "PowerToys"
+   },
+   "seconds": 3.4755358080146834,
+   "returned": [
+    "PowerToys#4753",
+    "PowerToys#7512",
+    "PowerToys#417",
+    "PowerToys#827",
+    "PowerToys#1948",
+    "PowerToys#3881",
+    "PowerToys#1536",
+    "PowerToys#11718",
+    "PowerToys#2195",
+    "PowerToys#3855",
+    "PowerToys#14175",
+    "PowerToys#13202",
+    "PowerToys#1163",
+    "PowerToys#3149",
+    "PowerToys#2590",
+    "PowerToys#6983",
+    "PowerToys#3281",
+    "PowerToys#2910",
+    "PowerToys#3152",
+    "PowerToys#11954"
+   ]
+  },
+  {
+   "t": 1794879841.102565,
+   "tool": "search",
+   "args": {
+    "pattern": "0.100.2",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.05799444697913714,
+   "returned": [
+    "PowerToys#48834",
+    "PowerToys#48971",
+    "PowerToys#48432",
+    "PowerToys#48914",
+    "PowerToys#49025",
+    "PowerToys#48972",
+    "PowerToys#48907",
+    "PowerToys#48906",
+    "PowerToys#48773",
+    "PowerToys#49053",
+    "PowerToys#49052",
+    "PowerToys#49045",
+    "PowerToys#49040",
+    "PowerToys#49037",
+    "PowerToys#49036",
+    "PowerToys#49035",
+    "PowerToys#49020",
+    "PowerToys#49018",
+    "PowerToys#49013",
+    "PowerToys#49009"
+   ]
+  },
+  {
+   "t": 1794879842.659543,
+   "tool": "search",
+   "args": {
+    "pattern": "settings",
+    "regex": false,
+    "also": [
+     "0.100",
+     "doesn't open"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.1560955900058616,
+   "returned": [
+    "PowerToys#48432"
+   ]
+  },
+  {
+   "t": 1794879843.0193186,
+   "tool": "similar",
+   "args": {
+    "query": "Navigation to the General page doesn't work, settings won't open after update 0.100",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.018015128007391468,
+   "returned": [
+    "PowerToys#827",
+    "PowerToys#4753",
+    "PowerToys#2195",
+    "PowerToys#1948",
+    "PowerToys#7512",
+    "PowerToys#7524",
+    "PowerToys#3281",
+    "PowerToys#3533",
+    "PowerToys#3855",
+    "PowerToys#10050",
+    "PowerToys#5435",
+    "PowerToys#6983",
+    "PowerToys#601",
+    "PowerToys#1116",
+    "PowerToys#6023",
+    "PowerToys#4488",
+    "PowerToys#11954",
+    "PowerToys#12381",
+    "PowerToys#13155",
+    "PowerToys#3088"
+   ]
+  },
+  {
+   "t": 1794879844.4647522,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#48432"
+   },
+   "seconds": 0.00012054599937982857,
+   "returned": [
+    "PowerToys#48432"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 9084,
+  "stop_reason": "end_turn",
+  "session_id": "d57ce4b4-e7e9-45df-8d4a-fe99fc692cd7",
+  "total_cost_usd": 0.049942,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 9729,
+   "cache_read_input_tokens": 16900,
+   "output_tokens": 932,
+   "output_tokens_details": {
+    "thinking_tokens": 146
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9729,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 440,
+     "cache_read_input_tokens": 7565,
+     "cache_creation_input_tokens": 3577,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3577
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 932,
+    "cacheReadInputTokens": 16900,
+    "cacheCreationInputTokens": 9729,
+    "webSearchRequests": 0,
+    "costUSD": 0.049942,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 146,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9729,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 6,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#48432\"], \"answer\": \"The ticket is very short, so this is a probable match and not a certain one. PowerToys#48432 reports the same symptom: in 0.100.x, including 0.100.2, Settings and other WinUI windows won't open. Users there see a '.NET Desktop Runtime required' dialog, even though the runtime is installed. Scoop and Chocolatey installs were affected. One user ([user]) still had it after a manual reinstall of 0.100.2. That user also reported that 0.99.1 does not have the problem. First check whether you get that .NET dialog when you open Settings, for example from the tray icon. If you do, try a full uninstall and a clean reinstall. If that doesn't help, go back to v0.99.1 until a fix is released. If you see no dialog, reply with the exact error and attach a PowerToys Bug Report ZIP (tray icon > Report a bug), so we can check whether it is a different problem.\"}",
+  "ttft_ms": 1391,
+  "type": "result",
+  "duration_ms": 12509,
+  "uuid": "06c76a49-4cb8-490b-b7a6-913d8071436b",
+  "ttft_stream_ms": 873,
+  "time_to_request_ms": 28,
+  "first_content_frame_ms": 873,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 932,
+    "cacheReadInputTokens": 16900,
+    "cacheCreationInputTokens": 9729,
+    "webSearchRequests": 0,
+    "costUSD": 0.049942,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 146,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9729,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 13.889846252975985,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-gjjg8f5n/work"
+  }
+ },
+ "wall_seconds": 13.89167648300645,
+ "qid": "PowerToys#49815",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#48432"
+  ],
+  "answer": "The ticket is very short, so this is a probable match and not a certain one. PowerToys#48432 reports the same symptom: in 0.100.x, including 0.100.2, Settings and other WinUI windows won't open. Users there see a '.NET Desktop Runtime required' dialog, even though the runtime is installed. Scoop and Chocolatey installs were affected. One user ([user]) still had it after a manual reinstall of 0.100.2. That user also reported that 0.99.1 does not have the problem. First check whether you get that .NET dialog when you open Settings, for example from the tray icon. If you do, try a full uninstall and a clean reinstall. If that doesn't help, go back to v0.99.1 until a fix is released. If you see no dialog, reply with the exact error and attach a PowerToys Bug Report ZIP (tray icon > Report a bug), so we can check whether it is a different problem."
+ },
+ "hit_turn_cap": false
+}

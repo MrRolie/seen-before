@@ -1,0 +1,323 @@
+{
+ "shown": [
+  "PowerToys#10248",
+  "PowerToys#13378",
+  "PowerToys#14330",
+  "PowerToys#1460",
+  "PowerToys#30420",
+  "PowerToys#31358",
+  "PowerToys#3421",
+  "PowerToys#3676",
+  "PowerToys#4296",
+  "PowerToys#5374",
+  "PowerToys#5706",
+  "PowerToys#5709",
+  "PowerToys#6160",
+  "PowerToys#6224",
+  "PowerToys#6616",
+  "PowerToys#6756",
+  "PowerToys#7541",
+  "PowerToys#7603",
+  "PowerToys#8242",
+  "PowerToys#8937",
+  "PowerToys#9372"
+ ],
+ "retrieval_seconds": 4.006777362985304,
+ "tool_calls": [
+  {
+   "t": 1794881300.5739388,
+   "tool": "similar",
+   "args": {
+    "query": "Keyboard Manager remap only for specific keyboard (internal vs external), per-device remapping",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.005819187994348,
+   "returned": [
+    "PowerToys#3421",
+    "PowerToys#6224",
+    "PowerToys#8937",
+    "PowerToys#5709",
+    "PowerToys#9372",
+    "PowerToys#4296",
+    "PowerToys#6616",
+    "PowerToys#1460",
+    "PowerToys#8242",
+    "PowerToys#6756",
+    "PowerToys#3676",
+    "PowerToys#10248",
+    "PowerToys#7541",
+    "PowerToys#30420",
+    "PowerToys#5706",
+    "PowerToys#5374",
+    "PowerToys#13378",
+    "PowerToys#7603",
+    "PowerToys#31358",
+    "PowerToys#14330"
+   ]
+  },
+  {
+   "t": 1794881302.1500733,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#30420"
+   },
+   "seconds": 0.00012855601380579174,
+   "returned": [
+    "PowerToys#30420"
+   ]
+  },
+  {
+   "t": 1794881302.3138275,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#1460"
+   },
+   "seconds": 0.00014289698447100818,
+   "returned": [
+    "PowerToys#1460"
+   ]
+  },
+  {
+   "t": 1794881303.9468775,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#13378"
+   },
+   "seconds": 0.00011158699635416269,
+   "returned": [
+    "PowerToys#13378"
+   ]
+  },
+  {
+   "t": 1794881305.5518768,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#6224"
+   },
+   "seconds": 0.0001193069911096245,
+   "returned": [
+    "PowerToys#6224"
+   ]
+  },
+  {
+   "t": 1794881307.0710223,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#9372"
+   },
+   "seconds": 0.00012999601312913,
+   "returned": [
+    "PowerToys#9372"
+   ]
+  },
+  {
+   "t": 1794881308.7881277,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#6160"
+   },
+   "seconds": 0.00020909498562105,
+   "returned": [
+    "PowerToys#6160"
+   ]
+  },
+  {
+   "t": 1794881310.416885,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#8242"
+   },
+   "seconds": 0.00011673700646497309,
+   "returned": [
+    "PowerToys#8242"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 16239,
+  "stop_reason": "end_turn",
+  "session_id": "553e4097-ef38-48e5-8e93-c96116291a28",
+  "total_cost_usd": 0.0490295,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 8455,
+   "cache_read_input_tokens": 49575,
+   "output_tokens": 1022,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 8455,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 373,
+     "cache_read_input_tokens": 9238,
+     "cache_creation_input_tokens": 630,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 630
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1022,
+    "cacheReadInputTokens": 49575,
+    "cacheCreationInputTokens": 8455,
+    "webSearchRequests": 0,
+    "costUSD": 0.0490295,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8455,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Still checking the archive. The request matches a known one, and I'm about to give the final answer.\n\n{\"seen_before\": true, \"matches\": [\"PowerToys#1460\", \"PowerToys#30420\", \"PowerToys#8242\"], \"answer\": \"This has been requested before. Keyboard Manager remaps apply to every connected keyboard, and PowerToys can't currently limit a remap to one keyboard, such as only the internal one or only the external one. The team's explanation in the archived tickets is that Windows has no solid API to tell which keyboard a keystroke came from while also blocking or remapping it. The request is tracked in PowerToys#1460 (Multi Keyboard Support), and other tickets were closed as duplicates of it. Add a 👍 to #1460 rather than opening a new ticket. In the meantime, you could turn Keyboard Manager off or remove the remap when you don't need it. People in #1460 also report using AutoHotkey, with a script that can be toggled on and off, as a workaround. If the internal keyboard itself is faulty, you could disable it in Device Manager. That last suggestion doesn't come from the archive.\"}",
+  "ttft_ms": 2257,
+  "type": "result",
+  "duration_ms": 20398,
+  "uuid": "231de842-1768-44f8-ae88-0401bd064949",
+  "ttft_stream_ms": 1098,
+  "time_to_request_ms": 52,
+  "first_content_frame_ms": 1098,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 1022,
+    "cacheReadInputTokens": 49575,
+    "cacheCreationInputTokens": 8455,
+    "webSearchRequests": 0,
+    "costUSD": 0.0490295,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 8455,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 21.772504394990392,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-lo91ebp6/work"
+  }
+ },
+ "wall_seconds": 21.774289508990478,
+ "qid": "PowerToys#50078",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#1460",
+   "PowerToys#30420",
+   "PowerToys#8242"
+  ],
+  "answer": "This has been requested before. Keyboard Manager remaps apply to every connected keyboard, and PowerToys can't currently limit a remap to one keyboard, such as only the internal one or only the external one. The team's explanation in the archived tickets is that Windows has no solid API to tell which keyboard a keystroke came from while also blocking or remapping it. The request is tracked in PowerToys#1460 (Multi Keyboard Support), and other tickets were closed as duplicates of it. Add a 👍 to #1460 rather than opening a new ticket. In the meantime, you could turn Keyboard Manager off or remove the remap when you don't need it. People in #1460 also report using AutoHotkey, with a script that can be toggled on and off, as a workaround. If the internal keyboard itself is faulty, you could disable it in Device Manager. That last suggestion doesn't come from the archive."
+ },
+ "hit_turn_cap": false
+}

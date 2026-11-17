@@ -1,0 +1,195 @@
+{
+ "shown": [
+  "PowerToys#27138",
+  "PowerToys#46189",
+  "PowerToys#16769",
+  "PowerToys#14161",
+  "PowerToys#10682"
+ ],
+ "retrieval_seconds": 0.01961491402471438,
+ "retrieval_scores": [
+  0.7430309057235718,
+  0.7297241687774658,
+  0.7264313697814941,
+  0.6681509613990784,
+  0.6569681763648987
+ ],
+ "tool_calls": [],
+ "claude": {
+  "duration_api_ms": 3355,
+  "stop_reason": "end_turn",
+  "session_id": "384ebacd-38a0-4bd9-af0f-805979fadd51",
+  "total_cost_usd": 0.013838,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 2851,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 243,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 2851,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 243,
+     "cache_read_input_tokens": 0,
+     "cache_creation_input_tokens": 2851,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2851
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 243,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 2851,
+    "webSearchRequests": 0,
+    "costUSD": 0.013838,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2851,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": true, \"matches\": [\"PowerToys#46189\", \"PowerToys#27138\", \"PowerToys#16769\"], \"answer\": \"This request has been filed many times before. Each earlier ticket was closed as a duplicate of the original SyncToy request, PowerToys#26, which is where the discussion is tracked (that ticket isn't in the set I was shown, so I can't say what its current status is). Add a thumbs-up reaction and any comments there instead of opening a new ticket. The past tickets don't announce any plan to bring SyncToy back. Some users mentioned that the old SyncToy can still be downloaded from third-party sites, and that robocopy is an alternative, though one reporter said it isn't a good replacement.\"}",
+  "ttft_ms": 3529,
+  "type": "result",
+  "duration_ms": 3557,
+  "uuid": "3874c671-c5e4-482e-9897-94a5630505f0",
+  "ttft_stream_ms": 1730,
+  "time_to_request_ms": 195,
+  "first_content_frame_ms": 1730,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 2,
+    "outputTokens": 243,
+    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 2851,
+    "webSearchRequests": 0,
+    "costUSD": 0.013838,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 0,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 2851,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 4.4325995440012775,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [],
+   "mcp_servers": [],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-5ge3yl28/work"
+  }
+ },
+ "wall_seconds": 4.454515570017975,
+ "qid": "PowerToys#49369",
+ "arm": "A",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "PowerToys#46189",
+   "PowerToys#27138",
+   "PowerToys#16769"
+  ],
+  "answer": "This request has been filed many times before. Each earlier ticket was closed as a duplicate of the original SyncToy request, PowerToys#26, which is where the discussion is tracked (that ticket isn't in the set I was shown, so I can't say what its current status is). Add a thumbs-up reaction and any comments there instead of opening a new ticket. The past tickets don't announce any plan to bring SyncToy back. Some users mentioned that the old SyncToy can still be downloaded from third-party sites, and that robocopy is an alternative, though one reporter said it isn't a good replacement."
+ },
+ "hit_turn_cap": false
+}

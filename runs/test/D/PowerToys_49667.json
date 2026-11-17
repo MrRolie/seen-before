@@ -1,0 +1,428 @@
+{
+ "shown": [
+  "PowerToys#10463",
+  "PowerToys#11352",
+  "PowerToys#11459",
+  "PowerToys#11467",
+  "PowerToys#12176",
+  "PowerToys#1283",
+  "PowerToys#12906",
+  "PowerToys#12908",
+  "PowerToys#12918",
+  "PowerToys#13596",
+  "PowerToys#13697",
+  "PowerToys#146",
+  "PowerToys#14840",
+  "PowerToys#15891",
+  "PowerToys#1600",
+  "PowerToys#1625",
+  "PowerToys#16467",
+  "PowerToys#1691",
+  "PowerToys#18160",
+  "PowerToys#18363",
+  "PowerToys#18976",
+  "PowerToys#1898",
+  "PowerToys#2034",
+  "PowerToys#2052",
+  "PowerToys#20749",
+  "PowerToys#22478",
+  "PowerToys#22480",
+  "PowerToys#22505",
+  "PowerToys#22652",
+  "PowerToys#22656",
+  "PowerToys#23077",
+  "PowerToys#2367",
+  "PowerToys#23785",
+  "PowerToys#24589",
+  "PowerToys#25137",
+  "PowerToys#26414",
+  "PowerToys#2667",
+  "PowerToys#26712",
+  "PowerToys#26726",
+  "PowerToys#26787",
+  "PowerToys#27294",
+  "PowerToys#28686",
+  "PowerToys#2911",
+  "PowerToys#29647",
+  "PowerToys#31686",
+  "PowerToys#33879",
+  "PowerToys#34216",
+  "PowerToys#35161",
+  "PowerToys#36028",
+  "PowerToys#3939",
+  "PowerToys#39791",
+  "PowerToys#40117",
+  "PowerToys#40274",
+  "PowerToys#42533",
+  "PowerToys#43861",
+  "PowerToys#44224",
+  "PowerToys#4509",
+  "PowerToys#4569",
+  "PowerToys#45821",
+  "PowerToys#45981",
+  "PowerToys#46601",
+  "PowerToys#46950",
+  "PowerToys#47221",
+  "PowerToys#48432",
+  "PowerToys#48665",
+  "PowerToys#5658",
+  "PowerToys#6278",
+  "PowerToys#6936",
+  "PowerToys#699",
+  "PowerToys#7474",
+  "PowerToys#9143",
+  "PowerToys#9164"
+ ],
+ "retrieval_seconds": 4.726296109962277,
+ "tool_calls": [
+  {
+   "t": 1794879524.1789198,
+   "tool": "search",
+   "args": {
+    "pattern": "Peek",
+    "regex": false,
+    "also": [
+     "zombie"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.11248622499988414,
+   "returned": []
+  },
+  {
+   "t": 1794879528.363236,
+   "tool": "similar",
+   "args": {
+    "query": "Peek.UI.exe launched with invalid runner PID stays running with no UI",
+    "repo": "PowerToys"
+   },
+   "seconds": 4.167239684989909,
+   "returned": [
+    "PowerToys#699",
+    "PowerToys#2052",
+    "PowerToys#46950",
+    "PowerToys#22656",
+    "PowerToys#5658",
+    "PowerToys#11352",
+    "PowerToys#22652",
+    "PowerToys#9143",
+    "PowerToys#23785",
+    "PowerToys#1600",
+    "PowerToys#6936",
+    "PowerToys#1283",
+    "PowerToys#6278",
+    "PowerToys#23077",
+    "PowerToys#2911",
+    "PowerToys#1898",
+    "PowerToys#4569",
+    "PowerToys#2367",
+    "PowerToys#4509",
+    "PowerToys#28686"
+   ]
+  },
+  {
+   "t": 1794879530.4009192,
+   "tool": "search",
+   "args": {
+    "pattern": "PID",
+    "regex": false,
+    "also": [
+     "Peek",
+     "not validated"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.20886142301606014,
+   "returned": []
+  },
+  {
+   "t": 1794879530.5581446,
+   "tool": "search",
+   "args": {
+    "pattern": "runner pid",
+    "regex": false,
+    "also": [
+     "process"
+    ],
+    "repo": "PowerToys"
+   },
+   "seconds": 0.14562639998621307,
+   "returned": [
+    "PowerToys#35161",
+    "PowerToys#34216",
+    "PowerToys#12906",
+    "PowerToys#18363",
+    "PowerToys#16467",
+    "PowerToys#43861",
+    "PowerToys#25137",
+    "PowerToys#24589",
+    "PowerToys#20749",
+    "PowerToys#18976",
+    "PowerToys#18160",
+    "PowerToys#15891",
+    "PowerToys#14840",
+    "PowerToys#13697",
+    "PowerToys#12918",
+    "PowerToys#12908",
+    "PowerToys#12176",
+    "PowerToys#47221",
+    "PowerToys#45821",
+    "PowerToys#44224"
+   ]
+  },
+  {
+   "t": 1794879532.4637344,
+   "tool": "similar",
+   "args": {
+    "query": "Peek process stays running in background without window, must kill in Task Manager when started manually with wrong argument",
+    "repo": "PowerToys"
+   },
+   "seconds": 0.013232999976025894,
+   "returned": [
+    "PowerToys#22505",
+    "PowerToys#7474",
+    "PowerToys#46601",
+    "PowerToys#2367",
+    "PowerToys#22480",
+    "PowerToys#9164",
+    "PowerToys#146",
+    "PowerToys#1691",
+    "PowerToys#2911",
+    "PowerToys#22478",
+    "PowerToys#2034",
+    "PowerToys#2667",
+    "PowerToys#3939",
+    "PowerToys#11459",
+    "PowerToys#4569",
+    "PowerToys#40117",
+    "PowerToys#33879",
+    "PowerToys#46950",
+    "PowerToys#1625",
+    "PowerToys#10463"
+   ]
+  },
+  {
+   "t": 1794879533.9914105,
+   "tool": "read",
+   "args": {
+    "ticket": "PowerToys#46601"
+   },
+   "seconds": 0.0002729019906837493,
+   "returned": [
+    "PowerToys#46601"
+   ]
+  },
+  {
+   "t": 1794879535.4645436,
+   "tool": "search",
+   "args": {
+    "pattern": "Peek.UI.exe",
+    "regex": false,
+    "also": null,
+    "repo": "PowerToys"
+   },
+   "seconds": 0.0785764750035014,
+   "returned": [
+    "PowerToys#48665",
+    "PowerToys#26787",
+    "PowerToys#45981",
+    "PowerToys#26712",
+    "PowerToys#40274",
+    "PowerToys#36028",
+    "PowerToys#31686",
+    "PowerToys#26726",
+    "PowerToys#48432",
+    "PowerToys#42533",
+    "PowerToys#39791",
+    "PowerToys#29647",
+    "PowerToys#27294",
+    "PowerToys#26414",
+    "PowerToys#13596",
+    "PowerToys#11467"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 12562,
+  "stop_reason": "end_turn",
+  "session_id": "a0155d3d-901f-4280-b0ce-060fdbc3a590",
+  "total_cost_usd": 0.0517386,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 9725,
+   "cache_read_input_tokens": 28746,
+   "output_tokens": 994,
+   "output_tokens_details": {
+    "thinking_tokens": 41
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 9725,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 286,
+     "cache_read_input_tokens": 7877,
+     "cache_creation_input_tokens": 3261,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3261
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 994,
+    "cacheReadInputTokens": 28746,
+    "cacheCreationInputTokens": 9725,
+    "webSearchRequests": 0,
+    "costUSD": 0.0517386,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 41,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9725,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\"seen_before\": false, \"matches\": [], \"answer\": \"I found no past ticket that reports this problem: Peek.UI.exe given a runner PID that doesn't exist, which leaves a process running with no UI. PowerToys#26712 is similar but different. It covers launching Peek manually with a file path, which also gives a process with no window. Peek is designed to be started by the PowerToys Runner, which passes it the Runner's PID, so starting it by hand isn't supported. For now, don't launch PowerToys.Peek.UI.exe directly. If you already did, end the process in Task Manager. Please keep this ticket open as a new report. The suggested fix is for Peek to check that the PID exists and then log an error and exit if it doesn't.\"}",
+  "ttft_ms": 2527,
+  "type": "result",
+  "duration_ms": 17271,
+  "uuid": "96d0d74b-6c70-4bbc-ac89-3ed3f2fcae36",
+  "ttft_stream_ms": 1481,
+  "time_to_request_ms": 37,
+  "first_content_frame_ms": 1481,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 994,
+    "cacheReadInputTokens": 28746,
+    "cacheCreationInputTokens": 9725,
+    "webSearchRequests": 0,
+    "costUSD": 0.0517386,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 41,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 9725,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 18.61818528099684,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search",
+    "mcp__archive__similar"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-c_z1ukmg/work"
+  }
+ },
+ "wall_seconds": 18.620113148004748,
+ "qid": "PowerToys#49667",
+ "arm": "D",
+ "parsed": {
+  "ok": true,
+  "seen_before": false,
+  "matches": [],
+  "answer": "I found no past ticket that reports this problem: Peek.UI.exe given a runner PID that doesn't exist, which leaves a process running with no UI. PowerToys#26712 is similar but different. It covers launching Peek manually with a file path, which also gives a process with no window. Peek is designed to be started by the PowerToys Runner, which passes it the Runner's PID, so starting it by hand isn't supported. For now, don't launch PowerToys.Peek.UI.exe directly. If you already did, end the process in Task Manager. Please keep this ticket open as a new report. The suggested fix is for Peek to check that the PID exists and then log an error and exit if it doesn't."
+ },
+ "hit_turn_cap": false
+}

@@ -1,0 +1,404 @@
+{
+ "shown": [
+  "terminal#10000",
+  "terminal#10058",
+  "terminal#1060",
+  "terminal#11800",
+  "terminal#12040",
+  "terminal#12361",
+  "terminal#12640",
+  "terminal#12715",
+  "terminal#13782",
+  "terminal#157",
+  "terminal#15763",
+  "terminal#15778",
+  "terminal#15895",
+  "terminal#16161",
+  "terminal#17028",
+  "terminal#1789",
+  "terminal#19727",
+  "terminal#19919",
+  "terminal#20307",
+  "terminal#4587",
+  "terminal#4647",
+  "terminal#4745",
+  "terminal#4787",
+  "terminal#5347",
+  "terminal#5796",
+  "terminal#6031",
+  "terminal#6079",
+  "terminal#6108",
+  "terminal#620",
+  "terminal#642",
+  "terminal#6456",
+  "terminal#6596",
+  "terminal#7188",
+  "terminal#755",
+  "terminal#8029",
+  "terminal#8343",
+  "terminal#878",
+  "terminal#8957",
+  "terminal#9875",
+  "terminal#9984"
+ ],
+ "retrieval_seconds": 0.40901168502750807,
+ "tool_calls": [
+  {
+   "t": 1794878027.0320811,
+   "tool": "search",
+   "args": {
+    "pattern": "Browse",
+    "regex": false,
+    "also": [
+     "Backspace"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.05882446898613125,
+   "returned": [
+    "terminal#10058",
+    "terminal#9875",
+    "terminal#5347",
+    "terminal#4587",
+    "terminal#755",
+    "terminal#19919",
+    "terminal#15778",
+    "terminal#12040",
+    "terminal#8343",
+    "terminal#4745",
+    "terminal#157"
+   ]
+  },
+  {
+   "t": 1794878027.4207265,
+   "tool": "search",
+   "args": {
+    "pattern": "freeze",
+    "regex": false,
+    "also": [
+     "file picker"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.069022865005536,
+   "returned": []
+  },
+  {
+   "t": 1794878028.3469856,
+   "tool": "search",
+   "args": {
+    "pattern": "address bar",
+    "regex": false,
+    "also": null,
+    "repo": "terminal"
+   },
+   "seconds": 0.0360590880154632,
+   "returned": [
+    "terminal#620",
+    "terminal#11800",
+    "terminal#7188",
+    "terminal#4647",
+    "terminal#16161",
+    "terminal#12640",
+    "terminal#6079",
+    "terminal#4787",
+    "terminal#15895",
+    "terminal#15763",
+    "terminal#13782",
+    "terminal#12715",
+    "terminal#8029",
+    "terminal#6596",
+    "terminal#6456",
+    "terminal#6108",
+    "terminal#6031",
+    "terminal#5796",
+    "terminal#1060",
+    "terminal#878"
+   ]
+  },
+  {
+   "t": 1794878028.9188397,
+   "tool": "search",
+   "args": {
+    "pattern": "Command line",
+    "regex": false,
+    "also": [
+     "Browse",
+     "unresponsive"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.07869509601732716,
+   "returned": []
+  },
+  {
+   "t": 1794878029.3562758,
+   "tool": "search",
+   "args": {
+    "pattern": "settings",
+    "regex": false,
+    "also": [
+     "file picker",
+     "hang"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.08936305000679567,
+   "returned": [
+    "terminal#10000",
+    "terminal#1789",
+    "terminal#642",
+    "terminal#20307",
+    "terminal#12361",
+    "terminal#19727",
+    "terminal#17028"
+   ]
+  },
+  {
+   "t": 1794878030.2375429,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#17028"
+   },
+   "seconds": 0.00014503599959425628,
+   "returned": [
+    "terminal#17028"
+   ]
+  },
+  {
+   "t": 1794878030.363197,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#19727"
+   },
+   "seconds": 0.0001508659915998578,
+   "returned": [
+    "terminal#19727"
+   ]
+  },
+  {
+   "t": 1794878031.330286,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#9984"
+   },
+   "seconds": 0.00013484599185176194,
+   "returned": [
+    "terminal#9984"
+   ]
+  },
+  {
+   "t": 1794878032.1606925,
+   "tool": "read",
+   "args": {
+    "ticket": "terminal#8957"
+   },
+   "seconds": 0.00013405599747784436,
+   "returned": [
+    "terminal#8957"
+   ]
+  },
+  {
+   "t": 1794878033.2209911,
+   "tool": "search",
+   "args": {
+    "pattern": "Browse",
+    "regex": false,
+    "also": [
+     "freeze",
+     "path bar"
+    ],
+    "repo": "terminal"
+   },
+   "seconds": 0.07648231301573105,
+   "returned": [
+    "terminal#9984"
+   ]
+  }
+ ],
+ "claude": {
+  "duration_api_ms": 10619,
+  "stop_reason": "end_turn",
+  "session_id": "5666afc0-61e4-4153-abb8-ad31e1d082cb",
+  "total_cost_usd": 0.0822984,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 15761,
+   "cache_read_input_tokens": 62864,
+   "output_tokens": 1294,
+   "output_tokens_details": {
+    "thinking_tokens": 31
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 15761,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "global",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 412,
+     "cache_read_input_tokens": 16694,
+     "cache_creation_input_tokens": 244,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 244
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard",
+   "fallback_credit": null
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1294,
+    "cacheReadInputTokens": 62864,
+    "cacheCreationInputTokens": 15761,
+    "webSearchRequests": 0,
+    "costUSD": 0.0822984,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 31,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15761,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "```json\n{\"seen_before\": true, \"matches\": [\"terminal#9984\", \"terminal#17028\"], \"answer\": \"This has been reported before. In terminal#9984 (Browse next to Command line) and terminal#17028 (Browse for the profile icon), editing the address bar in the file picker that Settings opens freezes the whole Terminal window along with the picker. Both reports said the only way out was to kill Terminal from Task Manager. Neither ticket shows a fix. In #17028 the team reproduced it on Windows 10 and suspected the Settings UI's file-picker code (Profiles_Base.cpp), which is meant to run asynchronously but doesn't. Nothing in those tickets confirms that as the cause. Workarounds from the tickets: don't type in or edit the picker's address bar. Instead, type or paste the executable path straight into the Command line text box in Settings, or edit settings.json directly. Both of those worked for the reporter in #9984. If the window is already frozen, end Terminal in Task Manager. Please add your Terminal and Windows 10 build details to #17028. The related ticket terminal#8957 describes Browse crashing when Terminal runs as admin. It was fixed in 1.7, so it is a different problem.\"}\n```",
+  "ttft_ms": 1163,
+  "type": "result",
+  "duration_ms": 10940,
+  "uuid": "ac512610-67d9-4192-b8aa-d8ce7948afd8",
+  "ttft_stream_ms": 706,
+  "time_to_request_ms": 51,
+  "first_content_frame_ms": 707,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "model_usage_since_last_result": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 14,
+    "outputTokens": 1294,
+    "cacheReadInputTokens": 62864,
+    "cacheCreationInputTokens": 15761,
+    "webSearchRequests": 0,
+    "costUSD": 0.0822984,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 31,
+    "cacheCreationEphemeral5mInputTokens": 0,
+    "cacheCreationEphemeral1hInputTokens": 15761,
+    "canonicalModel": "claude-sonnet-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "claude_wall_seconds": 12.444955209008185,
+  "init": {
+   "model": "claude-sonnet-5-5",
+   "tools": [
+    "mcp__archive__read",
+    "mcp__archive__search"
+   ],
+   "mcp_servers": [
+    {
+     "name": "archive",
+     "status": "connected",
+     "source": "dynamic"
+    }
+   ],
+   "plugins": [
+    {
+     "name": "cc-plugin-sec-default",
+     "path": "builtin",
+     "source": "cc-plugin-sec-default@builtin"
+    },
+    {
+     "name": "cc-plugin-agents-md",
+     "path": "builtin",
+     "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+     "name": "cc-plugin-telemetry",
+     "path": "builtin",
+     "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+     "name": "cc-plugin-privacy",
+     "path": "builtin",
+     "source": "cc-plugin-privacy@builtin"
+    },
+    {
+     "name": "cc-plugin-plugin-authoring",
+     "path": "builtin",
+     "source": "cc-plugin-plugin-authoring@builtin"
+    }
+   ],
+   "skills": [],
+   "agents": [
+    "claude",
+    "Explore",
+    "general-purpose",
+    "Plan",
+    "statusline-setup"
+   ],
+   "claude_code_version": "2.1.326",
+   "apiKeySource": "none",
+   "cwd": "/var/tmp/subject-ffe0p5tn/work"
+  }
+ },
+ "wall_seconds": 12.446950195997488,
+ "qid": "terminal#20426",
+ "arm": "B",
+ "parsed": {
+  "ok": true,
+  "seen_before": true,
+  "matches": [
+   "terminal#9984",
+   "terminal#17028"
+  ],
+  "answer": "This has been reported before. In terminal#9984 (Browse next to Command line) and terminal#17028 (Browse for the profile icon), editing the address bar in the file picker that Settings opens freezes the whole Terminal window along with the picker. Both reports said the only way out was to kill Terminal from Task Manager. Neither ticket shows a fix. In #17028 the team reproduced it on Windows 10 and suspected the Settings UI's file-picker code (Profiles_Base.cpp), which is meant to run asynchronously but doesn't. Nothing in those tickets confirms that as the cause. Workarounds from the tickets: don't type in or edit the picker's address bar. Instead, type or paste the executable path straight into the Command line text box in Settings, or edit settings.json directly. Both of those worked for the reporter in #9984. If the window is already frozen, end Terminal in Task Manager. Please add your Terminal and Windows 10 build details to #17028. The related ticket terminal#8957 describes Browse crashing when Terminal runs as admin. It was fixed in 1.7, so it is a different problem."
+ },
+ "hit_turn_cap": false
+}
