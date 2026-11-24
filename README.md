@@ -1,5 +1,7 @@
 # seen-before
 
+Built with Claude Code under my direction.
+
 **Is this the right way to do it?**
 
 At an AI convention, trained-model and embedding pipelines were being pitched for one job: an AI that answers
@@ -11,6 +13,8 @@ to do it. So we built it, built the alternatives, and compared them on real GitH
 animation over the real archive. Every dot is a past issue,
 and every number comes from the run records.
 
+[![The comparison: how often each approach named the right earlier issue first, out of 124 questions](showcase/preview.png)](https://mrrolie.github.io/seen-before/showcase/)
+
 ## What we compared
 
 The archive: 66,747 GitHub issues from Microsoft PowerToys, Windows Terminal and WSL, all filed before
@@ -18,11 +22,15 @@ The archive: 66,747 GitHub issues from Microsoft PowerToys, Windows Terminal and
 plus 30 bugs never marked as duplicates. Each approach had to name the earlier issue. All five used the same model
 to write the answer (Claude Sonnet 5.5), in clean headless sessions.
 
+In short: on these 124 issues, with one model, an agent that could search the tickets more than once named the right
+earlier issue first for 74, against 59 for the trained-model pipeline that looks once and answers. The comparison fixed
+in advance (B, 71 against 59) is narrower; the table shows both.
+
 | Approach | Right first (of 124) | Time per answer (median) | Cost (154 questions) | To build |
 |---|---|---|---|---|
 | **A.** Trained model: embeddings fine-tuned on the tickets, top 5, one answer | 59 | 4.2 s | $4.13 | training and indexing, 614 MB, GPU |
-| **F.** Trained model + keyword search (BM25), fused, top 5, one answer | 67 | 4.7 s | $4.91 | the same plus a keyword index |
-| **B.** Agent with ripgrep: searches the ticket files itself, as often as it likes | 71 | 12.2 s | $9.90 | nothing |
+| **F.** Trained model + keyword search (BM25, a standard way of ranking documents by the words they share with the question), fused, top 5, one answer | 67 | 4.7 s | $4.91 | the same plus a keyword index |
+| **B.** Agent with ripgrep (a plain text-search tool): searches the ticket files itself, as often as it likes | 71 | 12.2 s | $9.90 | nothing |
 | **C.** Agent with the trained model as its search tool | 74 | 14.8 s | $7.52 | training and indexing, GPU |
 | **D.** Agent with both tools | 74 | 15.5 s | $8.47 | training and indexing, GPU |
 
@@ -38,7 +46,7 @@ trained, no GPU and no index to keep up to date.
   narrow.
 - On 30 of the questions, an AI triage bot had suggested duplicates before a maintainer linked them. Without
   those 30, the gap is +8.5, with an interval from −1.1 to +18.1: too close to call.
-- A ran without a re-ranker. An off-the-shelf one made it worse, and one trained on the tickets did not learn
+- A ran without a re-ranker (a second model that re-orders the top results). An off-the-shelf one made it worse, and one trained on the tickets did not learn
   in two attempts.
 
 Everything else, including the losses, is in [`experiment/RESULTS.md`](experiment/RESULTS.md). The rules were
